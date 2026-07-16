@@ -1,0 +1,32 @@
+[
+  {
+    "key": "Sword",
+    "name": "Sword",
+    "icon": "/icons/category/sword.webp",
+    "color": "#60a5fa"
+  },
+  {
+    "key": "Gauntlet",
+    "name": "Gauntlet",
+    "icon": "/icons/category/gauntlet.webp",
+    "color": "#f87171"
+  },
+  {
+    "key": "Rectifier",
+    "name": "Rectifier",
+    "icon": "/icons/category/rectifier.webp",
+    "color": "#a78bfa"
+  },
+  {
+    "key": "Broadblade",
+    "name": "Broadblade",
+    "icon": "/icons/category/broadblade.webp",
+    "color": "#f97316"
+  },
+  {
+    "key": "Pistol",
+    "name": "Pistol",
+    "icon": "/icons/category/pistol.webp",
+    "color": "#38bdf8"
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "Aero DMG Amplification": {
+    "icon": "/icons/roles/aero-amp.webp",
+    "tooltip": "Aero DMG Amplification"
+  },
+  "Electro DMG Amplification": {
+    "icon": "/icons/roles/electro-amp.webp",
+    "tooltip": "Electro DMG Amplification"
+  },
+  "Fusion DMG Amplification": {
+    "icon": "/icons/roles/fusion-amp.webp",
+    "tooltip": "Fusion DMG Amplification"
+  },
+  "Glacio DMG Amplification": {
+    "icon": "/icons/roles/glacio-amp.webp",
+    "tooltip": "Glacio DMG Amplification"
+  },
+  "Havoc DMG Amplification": {
+    "icon": "/icons/roles/havoc-amp.webp",
+    "tooltip": "Havoc DMG Amplification"
+  },
+  "Spectro DMG Amplification": {
+    "icon": "/icons/roles/spectro-amp.webp",
+    "tooltip": "Spectro DMG Amplification"
+  },
+  "Fusion Burst": {
+    "icon": "/icons/roles/fusion-burst.webp",
+    "tooltip": "Fusion Burst"
+  },
+  "Basic Attack DMG Amplification": {
+    "icon": "/icons/roles/ba-amp.webp",
+    "tooltip": "Basic Attack DMG Amplification"
+  },
+  "Heavy Attack DMG Amplification": {
+    "icon": "/icons/roles/ha-amp.webp",
+    "tooltip": "Heavy Attack DMG Amplification"
+  },
+  "Resonance Liberation DMG Amplification": {
+    "icon": "/icons/roles/ult-amp.webp",
+    "tooltip": "Resonance Liberation DMG Amplification"
+  },
+  "Resonance Skill DMG Amplification": {
+    "icon": "/icons/roles/skill-amp.webp",
+    "tooltip": "Resonance Skill DMG Amplification"
+  },
+  "DMG Amplification": {
+    "icon": "/icons/roles/dmg-amp.webp",
+    "tooltip": "DMG Amplification"
+  },
+  "Basic Attack DMG": {
+    "icon": "/icons/roles/ba-damage.webp",
+    "tooltip": "Basic Attack Damage"
+  },
+  "Heavy Attack Damage": {
+    "icon": "/icons/roles/ha-damage.webp",
+    "tooltip": "Heavy Attack Damage"
+  },
+  "Main Damage Dealer": {
+    "icon": "/icons/roles/main-dps.webp",
+    "tooltip": "Main Damage Dealer"
+  },
+  "Resonance Liberation Damage": {
+    "icon": "/icons/roles/ult-damage.webp",
+    "tooltip": "Resonance Liberation Damage"
+  },
+  "Resonance Skill DMG": {
+    "icon": "/icons/roles/skill-damage.webp",
+    "tooltip": "Resonance Skill Damage"
+  },
+  "Concerto Efficiency": {
+    "icon": "/icons/roles/concerto-efficiency.webp",
+    "tooltip": "Concerto Efficiency"
+  },
+  "Interruption Resistance Boost": {
+    "icon": "/icons/roles/interrupt-resist.webp",
+    "tooltip": "Interruption Resistance Boost"
+  },
+  "Resonance Liberation Regeneration": {
+    "icon": "/icons/roles/ult-regen.webp",
+    "tooltip": "Resonance Liberation Regeneration"
+  },
+  "Support and Healer": {
+    "icon": "/icons/roles/support-healer.webp",
+    "tooltip": "Support and Healer"
+  },
+  "Traction": {
+    "icon": "/icons/roles/traction.webp",
+    "tooltip": "Traction"
+  },
+  "Vibration Strength Reduction": {
+    "icon": "/icons/roles/vibration-reduction.webp",
+    "tooltip": "Vibration Strength Reduction"
+  },
+  "Tune Rupture Response": {
+    "icon": "/icons/roles/tune-rupture-response.webp",
+    "tooltip": "Tune Rupture Response"
+  },
+  "Tune Break Boost": {
+    "icon": "/icons/roles/tune-break-boost.webp",
+    "tooltip": "Tune Break Boost"
+  },
+  "Tune Strain Response": {
+    "icon": "/icons/roles/tune-strain-response.webp",
+    "tooltip": "Tune Strain Response"
+  },
+  "Off - Tune Buildup Efficiency": {
+    "icon": "/icons/roles/off-tune-buildup-efficiency.webp",
+    "tooltip": "Off - Tune Buildup Efficiency"
+  },
+  "Coordinated Attack": {
+    "icon": "/icons/roles/coordinated-attack.webp",
+    "tooltip": "Coordinated Attack"
+  },
+  "Stagnation": {
+    "icon": "/icons/roles/stagnation.webp",
+    "tooltip": "Stagnation"
+  },
+  "Aero Erosion": {
+    "icon": "/icons/roles/aero-erosion.webp",
+    "tooltip": "Aero Erosion"
+  },
+  "Echo Skill DMG": {
+    "icon": "/icons/roles/echo-skill-dmg.webp",
+    "tooltip": "Echo Skill DMG"
+  },
+  "Echo Skill DMG Amplification": {
+    "icon": "/icons/roles/echo-skill-dmg-amplification.webp",
+    "tooltip": "Echo Skill DMG Amplification"
+  },
+  "Glacio Chafe": {
+    "icon": "/icons/roles/glacio-chafe.webp",
+    "tooltip": "Glacio Chafe"
+  },
+  "Havoc Bane": {
+    "icon": "/icons/roles/havoc-bane.webp",
+    "tooltip": "Havoc Bane"
+  },
+  "Hack Response": {
+    "icon": "/icons/roles/hack-response.webp",
+    "tooltip": "Hack Response"
+  }
+}

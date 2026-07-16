@@ -1,0 +1,510 @@
+[
+  {
+    "name": "Bell-Borne Geochelone",
+    "slug": "bell-borne-geochelone",
+    "image": "/echoes/bell-borne-geochelone.webp",
+    "description": "Echo Skill\nAktifkan perlindungan Bell-Borne Geochelone.\nMemberikan Glacio DMG berdasarkan 145.92% dari DEF karakter saat ini ke musuh di sekitar, dan mendapatkan Bell-Borne Shield yang bertahan selama 15 detik.\nBell-Borne Shield memberikan 50% DMG Reduction dan 10% DMG Boost untuk anggota tim saat ini, dan menghilang setelah karakter saat ini terkena serangan sebanyak 3 kali.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Rejuvenating Glow",
+      "Moonlit Clouds"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Capitaneus",
+    "slug": "capitaneus",
+    "image": "/echoes/capitaneus.webp",
+    "description": "Echo Skill\nMemanggil Capitaneus untuk melompat dan menghantam musuh, memberikan 118.80% Spectro DMG. Serangan ini menghasilkan 4 Merciless Judgements tambahan, masing-masing memberikan 59.40% Spectro DMG.\nResonator yang menggunakan Echo ini pada slot utama mendapatkan 12.00% Spectro DMG Bonus dan 12.00% Heavy Attack DMG Bonus.\n\nCooldown (detik)\n  20",
+    "sonatas": [
+      "Gusts of Welkin",
+      "Eternal Radiance",
+      "Windward Pilgrimage"
+    ],
+    "cost": 3
+  },
+  {
+    "name": "Corrosaurus",
+    "slug": "corrosaurus",
+    "image": "/echoes/corrosaurus.webp",
+    "description": "Echo Skill\nSummon Corrosaurus untuk menyerang musuh, menghasilkan 273,60% Fusion DMG.\nResonator yang memasang Echo ini di slot utama mendapatkan 12,00% Bonus Fusion DMG dan 20,00% Bonus Echo Skill DMG.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Flaming Clawprint",
+      "Flamewing's Shadow"
+    ],
+    "cost": 3
+  },
+  {
+    "name": "Crownless",
+    "slug": "crownless",
+    "image": "/echoes/crownless.webp",
+    "description": "Echo Skill\nBertransformasi menjadi Crownless dan melakukan hingga 4 serangan berturut-turut.\n2 serangan pertama masing-masing menghasilkan 134.08% Havoc DMG, serangan ke-3 menghasilkan 100.56% Havoc DMG 2 kali, dan serangan ke-4 menghasilkan 67.04% Havoc DMG 3 kali.\nSetelah transformasi, meningkatkan Havoc DMG karakter saat ini sebesar 12% dan Resonance Skill DMG sebesar 12% selama 15 detik.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Havoc Eclipse"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Dragon of Dirge",
+    "slug": "dragon-of-dirge",
+    "image": "/echoes/dragon-of-dirge.webp",
+    "description": "Echo Skill\nBerubah menjadi Dragon of Dirge dan memanggil Grief Rift yang berlangsung selama 5 detik. Secara berkala, memberikan 36.81% Fusion DMG ke musuh dalam area efek.\nResonator dengan Echo ini yang dipasang di slot utama memperoleh 12% Fusion DMG Bonus dan 12% Basic Attack DMG Bonus.\n\nCooldown (detik)\n25",
+    "sonatas": [
+      "Tidebreaking Courage"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Dreamless",
+    "slug": "dreamless",
+    "image": "/echoes/dreamless.webp",
+    "description": "Echo Skill\nBerubah menjadi Dreamless dan lakukan 6 serangan berturut-turut. 5 serangan pertama masing-masing menghasilkan 54.08% Havoc DMG, dan serangan terakhir menghasilkan 270.4% Havoc DMG.\nDMG dari Skill Echo ini meningkat sebesar 50% selama 5 detik pertama setelah Rover: Havoc mengeluarkan Resonance Liberation: Deadening Abyss.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Havoc Eclipse"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Fallacy of No Return",
+    "slug": "fallacy-of-no-return",
+    "image": "/echoes/fallacy-of-no-return.webp",
+    "description": "Echo Skill\nAktifkan Skill Echo untuk memanggil sebagian kecil kekuatan Fallacy of No Return dan memberikan ledakan ke area sekitar, memberikan Spectro DMG setara dengan 15.86% dari Max HP. Setelah itu, Resonator mendapatkan bonus Energy Regen sebesar 10% dan semua anggota tim mendapatkan bonus ATK sebesar 10% selama 20 detik.\nTahan Skill Echo untuk melepaskan serangkaian serangan bertubi-tubi dengan mengorbankan STA, yang masing-masing memberikan Spectro DMG setara dengan 1.58% dari Max HP.\nLepaskan untuk mengakhiri serangan dengan pukulan yang kuat, memberikan Spectro DMG setara dengan 19.82% dari Max HP.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Rejuvenating Glow"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Feilian Beringal",
+    "slug": "feilian-beringal",
+    "image": "/echoes/feilian-beringal.webp",
+    "description": "Echo Skill\nBertransformasi menjadi Feilian Beringal untuk melakukan tendangan yang kuat. Jika tendangan tersebut mengenai musuh, akan segera melakukan serangan susulan. Tendangan tersebut memberikan 231.84% Aero DMG, dan serangan susulan memberikan 283.36% Aero DMG.\nSetelah serangan susulan mengenai sasaran, Aero DMG karakter saat ini meningkat sebesar 12%, dan Heavy Attack DMG meningkat sebesar 12% selama 15 detik.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Sierra Gale"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Fleurdelys",
+    "slug": "fleurdelys",
+    "image": "/echoes/fleurdelys.webp",
+    "description": "Echo Skill\nMemanggil Windcleaver untuk menyerang target, memberikan 27.36% Aero DMG 8x dan 136.80% Aero DMG 1x.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Gusts of Welkin",
+      "Windward Pilgrimage"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Forbidden Bastion",
+    "slug": "forbidden-bastion",
+    "image": "/echoes/forbidden-bastion.webp",
+    "description": "Echo Skill\nMenggunakan Echo Skill untuk memanggil Forbidden Bastion guna menghajar musuh, menimbulkan 237,60% Glacio DMG.\nResonator yang melengkapi Echo ini di slot utama mendapatkan bonus 10,00% Healing Bonus.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Song of Feather Trace",
+      "Heart of Evil's Purge",
+      "Lamp of Nether Road"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Glommoth",
+    "slug": "glommoth",
+    "image": "/echoes/glommoth.webp",
+    "description": "Echo Skill\nMemanggil Glommoth untuk menginjak musuh, memberikan 273.60% Glacio DMG.\nMelancarkan Outro Skill dalam waktu 15 detik setelah memanggil Glommoth memberikan 12.00% Glacio DMG Bonus kepada Resonator yang masuk selama 15 detik.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Wishes of Quiet Snowfall",
+      "Trailblazing Star"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Hecate",
+    "slug": "hecate",
+    "image": "/echoes/hecate.webp",
+    "description": "Echo Skill\nPanggil 3 Crescent Servant yang berputar di sekitarmu.\nCrescent Servant menyerang musuh dengan bilah berputar mereka, menghasilkan 45.59% Havoc DMG.\nSaat Memicu counter attack dengan serangan Echo akan menyetel ulang durasi Crescent Servant.\nResonator dengan Echo ini yang dipasang di slot utamanya memiliki Coordinated Attack DMG yang meningkat sebesar 40%.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Empyrean Anthem"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Hyvatia",
+    "slug": "hyvatia",
+    "image": "/echoes/hyvatia.webp",
+    "description": "Echo Skill\nMemanggil Hyvatia untuk menembakkan laser ke musuh dari udara, memberikan 27.36% Spectro DMG sebanyak 10 kali.\nMelancarkan Outro Skill dalam waktu 15 detik setelah memanggil Hyvatia memberikan 10.00% All-Attribute DMG Bonus kepada Resonator berikutnya yang menggunakan Intro Skill selama 15 detik.\n\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Rite of Gilded Revelation",
+      "Pact of Neonlight Leap"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Impermanence Heron",
+    "slug": "impermanence-heron",
+    "image": "/echoes/impermanence-heron.webp",
+    "description": "Echo Skill\nBerubah menjadi Impermanence Heron untuk terbang ke atas dan menghantam ke bawah, menimbulkan 310.56% Havoc DMG.\nTekan lama untuk tetap menjadi Impermanence Heron dan terus menyemburkan api, setiap serangan menimbulkan 55.73% Havoc DMG.\nSetelah serangan awal mengenai musuh mana pun, karakter saat ini memperoleh kembali 10 Resonance Energy. Jika karakter saat ini menggunakan Outro Skill dalam 15 detik berikutnya, DMG yang diberikan karakter berikutnya akan ditingkatkan sebesar 12% selama 15 detik.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Moonlit Clouds"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Inferno Rider",
+    "slug": "inferno-rider",
+    "image": "/echoes/inferno-rider.webp",
+    "description": "Echo Skill\nBerubah menjadi Inferno Rider untuk melancarkan hingga 3 tebasan berturut-turut, setiap tebasan memberikan 242.40%, 282.80%, dan 282.80% Fusion DMG.\nSetelah serangan terakhir, meningkatkan Fusion DMG Resonator saat ini sebesar 12% dan Basic Attack DMG sebesar 12% selama 15 detik.\nTekan lama Skill Echo untuk berubah menjadi Inferno Rider dan memasuki Riding Mode. Saat keluar dari Riding Mode, memberikan 282.80% Fusion DMG ke musuh di depan.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Molten Rift"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Jué",
+    "slug": "jue",
+    "image": "/echoes/jue.webp",
+    "description": "Echo Skill\nPanggil Jué untuk membantu. Jué terbang tinggi di udara, memberikan 48.64% Spectro DMG, dan memanggil petir yang menyerang musuh di sekitar hingga 5 kali, yang setiap serangannya memberikan 19.46% Spectro DMG. Jué kemudian berputar ke bawah, menyerang musuh di sekitar 2 kali, yang setiap serangannya memberikan 48.64% Spectro DMG.\nMelancarkan Skill Echo ini akan memberikan Resonator efek Blessing of Time yang berlangsung selama 15 detik, selama efek ini berlangsung:\n- Resonator mendapatkan 16% Resonance Skill DMG Bonus.\n- Ketika Resonance Skill Resonator mengenai target, memberikan 16% Spectro DMG 1 kali per detik selama 15 detik, yang dianggap sebagai Resonance Skill DMG Resonator.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Celestial Light"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Lady of the Sea",
+    "slug": "lady-of-the-sea",
+    "image": "/echoes/lady-of-the-sea.webp",
+    "description": "Echo Skill\nMemanggil Tidestorm untuk menyerang musuh sebanyak 10 kali dengan 13,68% Aero DMG per hit, diikuti satu serangan akhir sebesar 164,16% Aero DMG.\nResonator yang memasang Echo ini di slot utama mendapatkan 12,00% Bonus Aero DMG dan 12,00% Bonus Resonance Liberation DMG.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Crown of Valor"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Lampylumen Myriad",
+    "slug": "lampylumen-myriad",
+    "image": "/echoes/lampylumen-myriad.webp",
+    "description": "Echo Skill\nBerubah menjadi Lampylumen Myriad. Lakukan hingga 3 serangan berturut-turut. Melepaskan serangan kejutan yang membekukan dengan melakukan serangan ke depan berturut-turut, dengan dua serangan awal masing-masing menimbulkan 200.16% dan 200.16% Glacio DMG, dan serangan terakhir menimbulkan 266.88% Glacio DMG. Musuh akan dibekukan saat terkena serangan.\nSetiap serangan kejutan meningkatkan Glacio DMG karakter saat ini sebesar 40% dan Resonance Skill DMG yang ditimbulkan sebesar 4% selama 15 detik, yang dapat ditumpuk hingga 3 kali.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Freezing Frost"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Lioness of Glory",
+    "slug": "lioness-of-glory",
+    "image": "/echoes/lioness-of-glory.webp",
+    "description": "Echo Skill\nMemanggil Halberd of Glory untuk menghantam area, memberikan 82.08% Fusion DMG ke target di sekitarnya, lalu meledak setelah jeda singkat, memberikan 191.52% Fusion DMG.\nResonator yang memasang Echo ini di slot utama mendapatkan:\n- 12% Fusion DMG Bonus\n- 12% Resonance Liberation DMG Bonus.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Flaming Clawprint"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "lorelei",
+    "slug": "lorelei",
+    "image": "/echoes/lorelei.webp",
+    "description": "Echo Skill\nBerubah menjadi Lorelei dan menyerang musuh di sekitar, menghasilkan 405,00% Havoc DMG.\nResonator yang memasang Echo ini di slot utama mendapatkan 12,00% Bonus Havoc DMG dan 12,00% Bonus Basic Attack DMG.\n\nCooldown (detik)\n25",
+    "sonatas": [
+      "Midnight Veil"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Mech Abomination",
+    "slug": "mech-abomination",
+    "image": "/echoes/mech-abomination.webp",
+    "description": "Echo Skill\nMenyerang musuh di depan, lalu memberikan 48.64% Electro DMG, dan panggil Mech Waste untuk menyerang. Mech Waste memberikan 320% Electro DMG saat terkena dan meledak setelah beberapa saat, berikan 160% Electro DMG.\nSetelah mengeluarkan Skill Echo ini, tingkatkan ATK karakter saat ini sebesar 12% selama 15 detik. DMG yang diberikan oleh Mech Waste sama dengan Outro Skill DMG Resonator.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Lingering Tunes"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Mourning Aix",
+    "slug": "mourning-aix",
+    "image": "/echoes/mourning-aix.webp",
+    "description": "Echo Skill\nBertransformasi menjadi Mourning Aix dan melakukan 2 serangan cakar berturut-turut, yang masing-masing memberikan 157.44% dan 236.16% Spectro DMG.\nSetelah transformasi, meningkatkan Spectro DMG karakter saat ini sebesar 12% dan Resonance Liberation DMG sebesar 12% selama 15 detik.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Celestial Light"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Myriad Snare: Rustfire Chassis",
+    "slug": "myriad-snare-rustfire-chassis",
+    "image": "/echoes/myriad-snare-rustfire-chassis.webp",
+    "description": "Echo Skill\nMemanggil Myriad Snare: Rustfire Chassis untuk menimbulkan Fusion DMG sebesar 10,20% dari Max HP pada benturan awal. Selama durasinya, berulang kali menghancurkan musuh di sepanjang jalurnya hingga 19 kali, dengan setiap hantaman menimbulkan Fusion DMG sebesar 0,37% dari Max HP.\n\nResonator yang melengkapi Echo ini di slot utama mendapatkan bonus 12,00% Fusion DMG dan 12,00% Heavy Attack DMG.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Heart of Evil's Purge",
+      "Lamp of Nether Road"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Nameless Explorer",
+    "slug": "nameless-explorer",
+    "image": "/echoes/nameless-explorer.webp",
+    "description": "Echo Skill\nSummon Nameless Explorer untuk menyerang musuh di sepanjang jalurnya, memberikan 273.60% Aero DMG.\nResonator dengan Echo ini yang terpasang di main slot mendapatkan 12.00% Aero DMG Bonus dan 20.00% Echo Skill DMG Bonus.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Sound of True Name"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Nightmare: Beringal",
+    "slug": "nightmare-beringal",
+    "image": "/echoes/nightmare-beringal.webp",
+    "description": "Echo Skill\nPanggil Nightmare: Feilian Beringal untuk menyerang musuh, memberikan 164.16% Aero DMG.\nWhirlwind Beam yang tersisa akan terus menyerang musuh di sekitar hingga 5 kali, masing-masing memberikan 21.89% Aero DMG.\nResonator dengan Echo ini yang dipasang di slot utamanya memperoleh 12% Aero DMG Bonus dan 12% Heavy Attack DMG Bonus.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Sierra Gale"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Nightmare: Crownless",
+    "slug": "nightmare-crownless",
+    "image": "/echoes/nightmare-crownless.webp",
+    "description": "Echo Skill\nBerubah menjadi Nightmare: Crownless dan menyerang musuh di depan, memberikan 264.6% Havoc DMG. Resonator dengan Echo ini yang dipasang di slot utamanya memperoleh 12% Havoc DMG Bonus dan 12% Basic Attack DMG Bonus.\nSkill ini memiliki 3 pengisian awal, diisi ulang setiap 12 detik, maksimal 3 pengisian. Saat Nightmare: Crownless mengenai target, DMG yang diberikan oleh skill ini meningkat sebesar 20%. Efek ini berlangsung selama 2 detik dan tidak dapat ditumpuk.\n\nCooldown (detik)\n12",
+    "sonatas": [
+      "Havoc Eclipse"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Nightmare: Hecate",
+    "slug": "nightmare-hecate",
+    "image": "/echoes/nightmare-hecate.webp",
+    "description": "Echo Skill\nBerubah menjadi Nightmare: Hecate, melompat ke udara lalu menghantam ke bawah, menghasilkan 3 tahap serangan yang masing-masing mengenai musuh dengan Havoc DMG sebesar 152,39% dari ATK-nya.\nResonator yang memasang Echo ini di slot utama mendapatkan 12,00% Bonus Havoc DMG dan 20,00% Bonus Echo Skill DMG.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Dream of the Lost"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Nightmare: Heron",
+    "slug": "nightmare-heron",
+    "image": "/echoes/nightmare-heron.webp",
+    "description": "Echo Skill\nBerubah menjadi Nightmare: Impermanence Heron dan lancarkan hingga 10 serangan beruntun ke musuh di sekitar, yang masing-masing memberikan 40.5% Havoc DMG.\nResonator dengan Echo ini yang dipasang di slot utamanya memperoleh 12% Havoc DMG Bonus dan 12% Heavy Attack DMG Bonus.\n\nCooldown (detik)\n25",
+    "sonatas": [
+      "Midnight Veil"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Nightmare: Kelpie",
+    "slug": "nightmare-kelpie",
+    "image": "/echoes/nightmare-kelpie.webp",
+    "description": "Echo Skill\nBeralih menjadi Nightmare: Kelpie untuk menyerang target di sekitar, memberikan 405% Glacio DMG.\nResonator yang memasang Echo ini di slot utama akan mendapatkan 12% Glacio DMG Bonus dan 12% Aero DMG Bonus.\nSaat Resonator tersebut diganti menggunakan Outro Skill, akan memanggil Nightmares: Kelpie yang memberikan 405% Aero DMG.\n\nCooldown (detik)\n25",
+    "sonatas": [
+      "Gusts of Welkin",
+      "Windward Pilgrimage"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Nightmare: Mourning Aix",
+    "slug": "nightmare-mourning-aix",
+    "image": "/echoes/nightmare-mourning-aix.webp",
+    "description": "Echo Skill\nPanggil Nightmare: Mourning Aix untuk menyerang musuh di sekitar, memberikan 273.6% Spectro DMG.\nDMG yang diberikan kepada musuh yang ditimbulkan oleh Spectro Frazzle meningkat sebesar 100%.\nResonator dengan Echo ini yang dipasang di slot utama mereka memperoleh Spectro DMG Bonus sebesar 12%.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Eternal Radiance"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Nightmare: Myriad",
+    "slug": "nightmare-myriad",
+    "image": "/echoes/nightmare-myriad.webp",
+    "description": "Echo Skill\nMemanggil Nightmare: Lampylumen Myriad dan menyerang musuh di sekitar, memberikan 273.6% Glacio DMG.\nResonator yang menggunakan Echo ini di slot utama mendapatkan 12% Glacio DMG Bonus dan 30% peningkatan Coordinated Attack DMG.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Frosty Resolve",
+      "Empyrean Anthem"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Nightmare: Rider",
+    "slug": "nightmare-rider",
+    "image": "/echoes/nightmare-rider.webp",
+    "description": "Echo Skill\nBerubah menjadi Nightmare: Inferno Rider dan melompat untuk menyerang musuh di depan, memberikan 405% Fusion DMG. Resonator dengan Echo ini yang dipasang di slot utamanya memperoleh 12% Fusion DMG Bonus dan 12% Resonance Skill DMG Bonus.\nTahan Echo Skill untuk berubah menjadi Nightmare: Inferno Rider dan masuk ke Riding Mode.\nSaat keluar dari Riding Mode, berikan 283.5% Fusion DMG ke musuh di depan.\n\nCooldown (detik)\n25",
+    "sonatas": [
+      "Molten Rift"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Nightmare: Tempest Mephis",
+    "slug": "nightmare-tempest-mephis",
+    "image": "/echoes/nightmare-tempest-mephis.webp",
+    "description": "Echo Skill\nBerubah menjadi Nightmare: Tempest Mephis dan menyerang musuh di sekitarnya, menghasilkan 405% Electro DMG.\nResonator dengan Echo ini yang dipasang di slot utamanya memperoleh 12% Electro DMG Bonus dan 12% Resonance Skill DMG Bonus.\n\nCooldown (detik)\n25",
+    "sonatas": [
+      "Void Thunder",
+      "Empyrean Anthem"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Nightmare: Thundering Mephis",
+    "slug": "nightmare-thundering-mephis",
+    "image": "/echoes/nightmare-thundering-mephis.webp",
+    "description": "Echo Skill\nBerubah menjadi Nightmare: Thundering Mephis dan menyerang musuh di depan, menghasilkan 405% Electro DMG.\nResonator dengan Echo ini yang dipasang di slot utamanya memperoleh 12% Electro DMG Bonus dan 12% Resonance Liberation DMG Bonus.\n\nCooldown (detik)\n25",
+    "sonatas": [
+      "Void Thunder"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Reactor Husk",
+    "slug": "reactor-husk",
+    "image": "/echoes/reactor-husk.webp",
+    "description": "Echo Skill\nBerubah menjadi Reactor Husk, melompat ke udara dan melancarkan tebasan berat yang memberikan 351.00% Fusion DMG kepada musuh.\nResonator yang menggunakan Echo ini pada slot utama mendapatkan 10.00% Energy Regen.\n\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Halo of Starry Radiance",
+      "Chromatic Foam"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Reminiscence: Adam Smasher",
+    "slug": "reminiscence-adam-smasher",
+    "image": "/echoes/reminiscence-adam-smasher.webp",
+    "description": "Echo Skill\nMelancarkan Echo Skill untuk memberikan 16 instansi Physical DMG sebesar 10.26% ATK kepada musuh dalam jangkauan.\nSaat Lucy atau Rebecca menggunakan Echo ini pada slot utama, Crit. Rate mereka meningkat sebesar 15% dan mereka membuka Echo Skill spesial.\nJika digunakan oleh Lucy:\n- Tekan tombol Echo Skill untuk memberikan Spectro DMG sebesar 273.60% ATK kepada musuh di sekitar.\n- Tahan tombol Echo Skill untuk memberikan Spectro DMG sebesar 273.60% ATK kepada musuh di sekitar dan memasuki special moving state, meningkatkan kecepatan gerakan Lucy sekaligus memperlambat musuh di sekitar.\n\nJika digunakan oleh Rebecca:\n- Melancarkan Echo Skill untuk menembakkan misil, memberikan 16 instansi Electro DMG sebesar 17.10% ATK kepada musuh.\n\nCooldown (detik)\n25",
+    "sonatas": [
+      "Shadow of Shattered Dreams"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Reminiscence: Denia",
+    "slug": "reminiscence-denia",
+    "image": "/echoes/reminiscence-denia.webp",
+    "description": "Echo Skill\nMemanggil \"Trickster\" untuk memberikan 273.60% Fusion DMG kepada musuh. Dalam 15 detik berikutnya, melancarkan Outro Skill memberikan 12.00% Fusion DMG Bonus kepada Resonator berikutnya selama 15 detik.\nCD: 20 detik\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Chromatic Foam"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Reminiscence: Fenrico",
+    "slug": "reminiscence-fenrico",
+    "image": "/echoes/reminiscence-fenrico.webp",
+    "description": "Echo Skill\nMemanggil Talons of Decree untuk menyerang musuh di sekitar, menghasilkan 273,60% Aero DMG.\nResonator yang memasang Echo ini di slot utama mendapatkan 12,00% Bonus Aero DMG dan 12,00% Bonus Heavy Attack DMG.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Dream of the Lost",
+      "Law of Harmony"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Sentry Construct",
+    "slug": "sentry-construct",
+    "image": "/echoes/sentry-construct.webp",
+    "description": "Echo Skill\nBerubah menjadi Sentry Construct dan menyerang musuh di depan, memberikan 405% Glacio DMG.\nSetiap kali Resonator dengan Echo ini mengeluarkan Resonance Liberation, ia akan mengisi Strike Capacitor.\nSetelah Strike Capacitor mencapai level maksimal, cooldown Echo Skill akan direset. Gunakan Echo Skill untuk berubah menjadi Sentry Construct dan menukik ke arah musuh dari udara, memberikan 405% Glacio DMG dan membekukan target.\nResonator dengan Echo ini yang dipasang di slot utama mereka memperoleh 12% Glacio DMG Bonus dan 12% Resonance Skill DMG Bonus.\n\nCooldown (detik)\n25",
+    "sonatas": [
+      "Frosty Resolve"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Sigillum",
+    "slug": "sigillum",
+    "image": "/echoes/sigillum.webp",
+    "description": "Echo Skill\nSummon Sigillum untuk melancarkan dua serangan, masing-masing memberikan 68.40% dan 205.20% Fusion DMG.\nSaat dipasang di main slot oleh Aemeath, memberikan 25.00% Resonance Liberation DMG Bonus.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Trailblazing Star"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Tempest Mephis",
+    "slug": "tempest-mephis",
+    "image": "/echoes/tempest-mephis.webp",
+    "description": "Echo Skill\nberubah menjadi Tempest Mephis untuk melakukan serangan ayunan ekor diikuti oleh serangan cakar. Sambaran petir yang dipanggil oleh ayunan ekor menghasilkan 102.48% Electro DMG setiap kali, sedangkan serangan cakar menghasilkan 175.68% Electro DMG.\nSetelah cakar mengenai target, tingkatkan Electro DMG karakter saat ini sebesar 12% dan Heavy Attack DMG sebesar 12% selama 15 detik.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Void Thunder"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "The False Sovereign",
+    "slug": "the-false-sovereign",
+    "image": "/echoes/the-false-sovereign.webp",
+    "description": "Echo Skill\nBerubah menjadi False Sovereign dan melesat ke depan dengan serangan berputar, menghasilkan 55,35% Electro DMG sebanyak 4 kali.\nResonator yang memasang Echo ini di slot utama mendapatkan 12,00% Bonus Electro DMG dan 12,00% Bonus Heavy Attack DMG. Saat menggunakan Intro Skill, False Sovereign juga dipanggil untuk menghasilkan 405,00% Electro DMG.\nMemiliki 2 charges di awal.\nMendapatkan 1 charge setiap 8 detik, maksimal hingga 2 charges.\n\nCooldown (detik)\n8",
+    "sonatas": [
+      "Crown of Valor"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Thousand-puppet pavilion",
+    "slug": "thousand-puppet-pavilion",
+    "image": "/echoes/thousand-puppet-pavilion.webp",
+    "description": "Echo Skill\nMenggunakan Echo Skill untuk menyerang musuh di sekitar, menimbulkan 109,44% Havoc DMG dan memanggil 4 Blades of Thousand Memories yang bertahan selama 15 detik.\nSelama Blades of Thousand Memories aktif, saat Resonator memberikan efek Havoc Bane, mengonsumsi 1 Blade of Thousand Memories untuk menimbulkan 41,04% Havoc DMG sekali kepada target. Efek ini dapat terpicu sekali setiap 1 detik.\nResonator yang melengkapi Echo ini di slot utama mendapatkan bonus 12,00% Havoc DMG dan 12,00% Heavy Attack DMG.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Song of Feather Trace"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Threnodian - Voidborne Construct",
+    "slug": "threnodian-voidborne-construct",
+    "image": "/echoes/threnodian-voidborne-construct.webp",
+    "description": "Echo SKill\nMemanggil Aleph-1's Creation untuk memberikan 21.88% Glacio DMG sebanyak 5 kali dan 164.16% Glacio DMG sebanyak 1 kali kepada musuh.\nResonator yang menggunakan Echo ini pada slot utama mendapatkan 12.00% Glacio DMG Bonus dan 12.00% Resonance Liberation DMG Bonus.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Wishes of Quiet Snowfall"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Threnodian Leviathan",
+    "slug": "threnodian-leviathan",
+    "image": "/echoes/threnodian-leviathan.webp",
+    "description": "Echo Skill\nMemanggil Collapsing Horizon, memberikan dua tahap 131.04% Havoc DMG kepada musuh di sekitar dan mendapatkan Core of Collapse selama 15 detik.\nSelama durasi tersebut, Core of Collapse memberikan 24.57% Havoc DMG saat Resonator aktif dalam tim memberikan damage. Efek ini dapat dipicu sekali setiap 0,5 detik, hingga 8 kali. Musuh dengan Havoc Bane menerima 100% DMG lebih besar dari efek ini.\nResonator yang menggunakan Echo ini pada slot utama mendapatkan 12.00% Havoc DMG Bonus dan 12.00% Resonance Liberation DMG Bonus.\n\n\nCooldown (detik)\n25",
+    "sonatas": [
+      "Thread of Severed Fate",
+      "Flamewing's Shadow"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Thundering Mephis",
+    "slug": "thundering-mephis",
+    "image": "/echoes/thundering-mephis.webp",
+    "description": "Echo Skill\nBerubah menjadi Thundering Mephis, melakukan serangan cepat hingga 6 serangan.\n5 serangan pertama masing-masing menghasilkan 132.61% Electro DMG, sedangkan serangan terakhir menghasilkan 189.44% Electro DMG, dengan tambahan 31.57% Electro DMG dari gunturnya.\nSetelah serangan terakhir, tingkatkan Electro DMG karakter saat ini sebesar 12% dan Resonance Liberation DMG sebesar 12% selama 15 detik.\n\nCooldown (detik)\n20",
+    "sonatas": [
+      "Void Thunder"
+    ],
+    "cost": 4
+  },
+  {
+    "name": "Twin Nova Collapsar Blade",
+    "slug": "twin-nova-collapsar-blade",
+    "image": "/echoes/twin-nova-collapsar-blade.webp",
+    "description": "Echo Skill\nTransform menjadi Twin Nova: Collapsar Blade untuk menembak musuh dengan cepat selama 5 detik, dengan setiap serangan memberikan 2.01% Electro DMG.\nResonator dengan Echo ini yang terpasang di main slot mendapatkan 12.00% Electro DMG Bonus dan 12.00% Basic Attack DMG Bonus.\n\nCooldown (detik)\n8\n\nJika Twin Nova: Nebulous Cannon terpasang di slot lain pada Resonator:\n- Melancarkan Echo Skill secara berturut-turut mengubahmu menjadi Collapsar Blade dan Nebulous Cannon secara bergantian dan dianggap sebagai melancarkan Echo Skill dengan nama yang sama.\n- DMG yang diberikan oleh Twin Nova: Collapsar Blade menjadi Spectro DMG. Electro DMG Bonus yang didapatkan dari memasangnya di main slot diubah menjadi Spectro DMG Bonus.\n- Melancarkan Basic Attack memberikan 1 tumpukan Dyad Origins. Melancarkan Resonance Skill memberikan 3 tumpukan Dyad Origins. Dyad Origins dapat ditumpuk hingga 6 kali dan bertahan selama 8 detik. Setiap tumpukan meningkatkan Echo Skill DMG sebesar 10%, dan semua tumpukan akan dihapus setelah Echo Skill ini berakhir.\n- Skill ini dibatasi hingga 2 kali penggunaan. Pada awalnya, skill ini dapat digunakan 2 kali, dengan 1 penggunaan ditambahkan setiap 8 detik.",
+    "sonatas": [
+      "Rite of Gilded Revelation",
+      "Trailblazing Star",
+      "Sound of True Name"
+    ],
+    "cost": 3
+  },
+  {
+    "name": "Twin Nova: Nebulous Cannon",
+    "slug": "twin-nova-nebulous-cannon",
+    "image": "/echoes/twin-nova-nebulous-cannon.webp",
+    "description": "Echo Skill\nBerubah menjadi Twin Nova: Nebulous Cannon untuk menebas musuh dua kali, setiap serangan memberikan 80.51% Spectro DMG.\nResonator yang menggunakan Echo ini pada slot utama mendapatkan 12.00% Spectro DMG Bonus dan 12.00% Basic Attack DMG Bonus.\n\nJika Twin Nova: Collapsar Blade digunakan pada slot lain dalam Resonator:\n- Melancarkan Echo Skill secara berturut-turut akan mengubahmu menjadi Nebulous Cannon dan Collapsar Blade secara bergantian dan dianggap sebagai melancarkan Echo Skill dengan nama yang sama. DMG Bonus dari Echo di slot utama tetap tidak berubah.\n- DMG yang diberikan oleh Twin Nova: Collapsar Blade menjadi Spectro DMG.\n- Melancarkan Basic Attack memberikan 1 stack Dyad Origins. Melancarkan Resonance Skill memberikan 3 stack Dyad Origins. Dyad Origins dapat ditumpuk hingga 6 kali dan bertahan selama 8 detik. Setiap stack meningkatkan Echo Skill DMG sebesar 10%, dan semua stack dihapus setelah Echo Skill ini berakhir.\n- Skill ini dibatasi hingga 2 penggunaan. Pada awalnya, skill ini dapat digunakan sebanyak 2 kali, dengan 1 penggunaan tambahan setiap 8 detik.\n\n\nCooldown (detik)\n8",
+    "sonatas": [
+      "Rite of Gilded Revelation"
+    ],
+    "cost": 3
+  },
+  {
+    "name": "Voidwing Moth",
+    "slug": "voidwing-moth",
+    "image": "/echoes/voidwing-moth.webp",
+    "description": "Echo Skill\nTekan Echo Skill untuk berubah menjadi Voidwing Moth, memberikan 405.00% Spectro DMG kepada musuh di sekitar.\nTahan Echo Skill untuk menyerang secara terus-menerus, memberikan hingga 12 instansi 49.33% Spectro DMG.\nDalam 15 detik setelah menggunakan Echo Skill ini, setelah melancarkan Outro Skill, Resonator berikutnya mendapatkan peningkatan ATK sebesar 12.00% selama 15 detik.\n\nCooldown (detik)\n25",
+    "sonatas": [
+      "Reel of Spliced Memories"
+    ],
+    "cost": 3
+  }
+]

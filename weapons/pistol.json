@@ -1,0 +1,758 @@
+[
+  {
+    "id": "cadenza",
+    "slug": "cadenza",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Cadenza",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/cadenza.webp",
+    "rarity": 4,
+    "subStat": "Energy Regen",
+    "stats": {
+      "1": [
+        34,
+        8.6
+      ],
+      "20": [
+        86,
+        15.2
+      ],
+      "40": [
+        166,
+        22.2
+      ],
+      "50": [
+        245,
+        25.6
+      ],
+      "60": [
+        337,
+        29
+      ],
+      "80": [
+        442,
+        34.2
+      ],
+      "90": [
+        337.5,
+        51.84
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Resonance Skill dilancarkan, memulihkan 8/10/12/14/16 Concerto Energy. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 20/20/20/20/20 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "lux-&-umbra",
+    "slug": "lux-&-umbra",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Lux & Umbra",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/lux-&-umbra.webp",
+    "rarity": 5,
+    "subStat": "Crit DMG",
+    "stats": {
+      "1": [
+        45,
+        18.2
+      ],
+      "20": [
+        114,
+        18.2
+      ],
+      "40": [
+        220,
+        18.2
+      ],
+      "50": [
+        325,
+        18.2
+      ],
+      "60": [
+        462,
+        18.2
+      ],
+      "80": [
+        604,
+        18.2
+      ],
+      "90": [
+        587.5,
+        48.6
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "AATK meningkat sebesar 12%/15%/18%/21%/24%. Saat memberikan Echo Skill DMG, mendapatkan 24%/30%/36%/42%/48% Heavy Attack DMG Amplification selama 6/6/6/6/6 detik. Saat memberikan Heavy Attack DMG, mendapatkan 24%/30%/36%/42%/48% Echo Skill DMG Amplification selama 6/6/6/6/6 detik. DMG Amplification pada setiap serangan dibatasi hingga 24%/30%/36%/42%/48%. Saat kedua efek aktif, memberikan damage mengabaikan 8%/10%/12%/14%/16% DEF target.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "novaburst",
+    "slug": "novaburst",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Novaburst",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/novaburst.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        39,
+        18.2
+      ],
+      "20": [
+        99,
+        18.2
+      ],
+      "40": [
+        191,
+        18.2
+      ],
+      "50": [
+        282,
+        18.2
+      ],
+      "60": [
+        387,
+        18.2
+      ],
+      "80": [
+        508,
+        18.2
+      ],
+      "90": [
+        412.5,
+        30.38
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Resonator menerjang (dash) atau menghindar (dodge), meningkatkan ATK sebesar 4%/5%/6%/7%/8%, dapat ditumpuk hingga 3/3/3/3/3 kali. Efek ini berlangsung selama 8/8/8/8/8 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "phasic-homogenizer",
+    "slug": "phasic-homogenizer",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Phasic Homogenizer",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/phasic-homogenizer.webp",
+    "rarity": 5,
+    "subStat": "Crit DMG",
+    "stats": {
+      "1": [
+        45,
+        18.2
+      ],
+      "20": [
+        114,
+        18.2
+      ],
+      "40": [
+        220,
+        18.2
+      ],
+      "50": [
+        325,
+        18.2
+      ],
+      "60": [
+        462,
+        18.2
+      ],
+      "80": [
+        604,
+        18.2
+      ],
+      "90": [
+        587.5,
+        48.6
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Setelah Resonator di dalam tim melancarkan skill Tune Break, memberikan 20%/22.5%/25%/27.5%/30% All-Attribute DMG Bonus kepada pengguna selama 14/14/14/14/14 detik.  ",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "pistols-26",
+    "slug": "pistols-26",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Pistols#26",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/pistols-26.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        45,
+        18.2
+      ],
+      "20": [
+        114,
+        18.2
+      ],
+      "40": [
+        220,
+        18.2
+      ],
+      "50": [
+        325,
+        18.2
+      ],
+      "60": [
+        462,
+        18.2
+      ],
+      "80": [
+        604,
+        18.2
+      ],
+      "90": [
+        387.5,
+        36.45
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Resonator tidak menerima damage, meningkatkan ATK sebesar 6%/7.5%/9%/10.5%/12% setiap 5/5/5/5/5 detik, dapat ditumpuk hingga 2/2/2/2/2 kali. Efek ini berlangsung selama 8/8/8/8/8 detik. Saat Resonator menerima damage, kehilangan 1/1/1/1/1 stack dan memulihkan 5%/6.25%/7.5%/8.75%/10% dari Max HP mereka.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "relativistic-jet",
+    "slug": "relativistic-jet",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Relativistic Jet",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/relativistic-jet.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        45,
+        18.2
+      ],
+      "20": [
+        114,
+        18.2
+      ],
+      "40": [
+        220,
+        18.2
+      ],
+      "50": [
+        325,
+        18.2
+      ],
+      "60": [
+        462,
+        18.2
+      ],
+      "80": [
+        604,
+        18.2
+      ],
+      "90": [
+        462.5,
+        18.23
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Melancarkan Resonance Skill memberikan 6/7/8/9/10 Resonance Energy dan meningkatkan ATK sebesar 10%/12.5%/15%/17.5%/20% selama 16/16/16/16/16 detik. Efek ini dapat dipicu sekali setiap 20/20/20/20/20 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "romance-in-farewell",
+    "slug": "romance-in-farewell",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Romance in Farewell",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/romance-in-farewell.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        45,
+        18.2
+      ],
+      "20": [
+        114,
+        18.2
+      ],
+      "40": [
+        220,
+        18.2
+      ],
+      "50": [
+        325,
+        18.2
+      ],
+      "60": [
+        462,
+        18.2
+      ],
+      "80": [
+        604,
+        18.2
+      ],
+      "90": [
+        462.5,
+        18.23
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat ditumpuk hingga 4/4/4/4/4 kali.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "skull-thrasher",
+    "slug": "skull-thrasher",
+    "version": "3.0",
+    "lastUpdated": "2026-06-07",
+    "name": "Skull Thrasher",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/skull-thrasher.webp",
+    "rarity": 5,
+    "subStat": "Crit DMG",
+    "stats": {
+      "1": [
+        40,
+        16
+      ],
+      "20": [
+        104.04,
+        28.44
+      ],
+      "40": [
+        198.13,
+        40.89
+      ],
+      "50": [
+        258.5,
+        47.11
+      ],
+      "60": [
+        318.88,
+        53.33
+      ],
+      "70": [
+        379.25,
+        59.56
+      ],
+      "80": [
+        439.63,
+        65.78
+      ],
+      "90": [
+        500,
+        72
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill memberikan 24%/30%/36%/42%/48% Basic Attack DMG Bonus kepada pengguna selama 14/14/14/14/14 detik. Memberikan Hack - Shifting memberikan 12%/15%/18%/21%/24% Basic Attack DMG Bonus kepada pengguna selama 14/14/14/14/14 detik, dan meningkatkan ATK dari Resonator dalam tim sebesar 24%/30%/36%/42%/48% selama 30/30/30/30/30 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "solar-flame",
+    "slug": "solar-flame",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Solar Flame",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/solar-flame.webp",
+    "rarity": 4,
+    "subStat": "Crit Rate",
+    "stats": {
+      "1": [
+        45,
+        18.2
+      ],
+      "20": [
+        114,
+        18.2
+      ],
+      "40": [
+        220,
+        18.2
+      ],
+      "50": [
+        325,
+        18.2
+      ],
+      "60": [
+        462,
+        18.2
+      ],
+      "80": [
+        604,
+        18.2
+      ],
+      "90": [
+        412.5,
+        20.25
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Memberikan Basic Attack atau Heavy Attack DMG meningkatkan ATK sebesar 2.2%/3.4%/4.7%/5.9%/7.2% dan memberikan 2.2%/3.4%/4.7%/5.9%/7.2% Heavy Attack DMG Bonus selama 7/7/7/7/7 detik, dapat ditumpuk hingga 4/4/4/4 kali. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "spectral-trigger",
+    "slug": "spectral-trigger",
+    "version": "3.0",
+    "lastUpdated": "2026-06-07",
+    "name": "Spectral Trigger",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/spectral-trigger.webp",
+    "rarity": 5,
+    "subStat": "Crit DMG",
+    "stats": {
+      "1": [
+        0,
+        0
+      ],
+      "20": [
+        0,
+        0
+      ],
+      "40": [
+        0,
+        0
+      ],
+      "50": [
+        0,
+        0
+      ],
+      "60": [
+        0,
+        0
+      ],
+      "80": [
+        0,
+        0
+      ],
+      "90": [
+        587.5,
+        48.6
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Resonance Skill memberikan 20%/25%/30%/35%/40% Spectro DMG Bonus kepada pengguna selama 14/14/14/14/14 detik, dapat di stack(s) hingga 2/2/2/2/2 kali. Memberikan Hack - Shifting memberikan 30%/37.5%/45%/52.5%/60% Heavy Attack DMG Amplification kepada pengguna selama 14/14/14/14/14 detik, yang mana selama durasi tersebut Heavy Attack DMG mengabaikan 10/12.5/15/17.5/20% DEF target.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "spectrum-blaster",
+    "slug": "spectrum-blaster",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Spectrum Blaster",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/spectrum-blaster.webp",
+    "rarity": 5,
+    "subStat": "Crit Rate",
+    "stats": {
+      "1": [
+        45,
+        18.2
+      ],
+      "20": [
+        114,
+        18.2
+      ],
+      "40": [
+        220,
+        18.2
+      ],
+      "50": [
+        325,
+        18.2
+      ],
+      "60": [
+        462,
+        18.2
+      ],
+      "80": [
+        604,
+        18.2
+      ],
+      "90": [
+        587.5,
+        24.3
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill atau memberikan Basic Attack DMG pada target meningkatkan Basic Attack DMG Bonus pengguna sebesar 36%/45%/54%/63%/72% selama 4/4/4/4/4 detik. Setiap kali pengguna memberikan Tune Rupture - Shifting atau Tune Strain - Shifting selama Basic Attack, semua DMG yang diberikan oleh Resonator di dalam tim meningkat sebesar 8%/10%/12%/14%/16% selama 30/30/30/30/30 detik, hingga 3/3/3/3/3 stack. Efek dengan nama yang sama tidak dapat ditumpuk.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "static-mist",
+    "slug": "static-mist",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Static Mist",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/static-mist.webp",
+    "rarity": 5,
+    "subStat": "Crit Rate",
+    "stats": {
+      "1": [
+        48,
+        4.8
+      ],
+      "20": [
+        122.25,
+        8.5
+      ],
+      "40": [
+        232.8,
+        12.4
+      ],
+      "50": [
+        303.74,
+        14.3
+      ],
+      "60": [
+        374.7,
+        16.2
+      ],
+      "80": [
+        516.6,
+        19
+      ],
+      "90": [
+        587.5,
+        24.3
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. ATK Resonator yang masuk ke medan tempur meningkat sebesar 10%/12.5%/15%/17.5%/20% selama 14/14/14/14/14 detik, dapat ditumpuk hingga 1/1/1/1/1 kali setelah pengguna melancarkan Outro Skill.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "the-last-dance",
+    "slug": "the-last-dance",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "The Last Dance",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/the-last-dance.webp",
+    "rarity": 5,
+    "subStat": "Crit DMG",
+    "stats": {
+      "1": [
+        48,
+        9.6
+      ],
+      "20": [
+        122.25,
+        17
+      ],
+      "40": [
+        232.8,
+        24.8
+      ],
+      "50": [
+        303.74,
+        28.7
+      ],
+      "60": [
+        374.7,
+        32.5
+      ],
+      "80": [
+        516.6,
+        38.1
+      ],
+      "90": [
+        500,
+        72
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Setiap kali Intro Skill atau Resonance Liberation dilancarkan, Resonance Skill DMG Bonus meningkat sebesar 48%/60%/72%/84%/96% selama 5/5/5/5/5 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "thunderbolt",
+    "slug": "thunderbolt",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Thunderbolt",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/thunderbolt.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        39,
+        18.2
+      ],
+      "20": [
+        99,
+        18.2
+      ],
+      "40": [
+        191,
+        18.2
+      ],
+      "50": [
+        282,
+        18.2
+      ],
+      "60": [
+        387,
+        18.2
+      ],
+      "80": [
+        508,
+        18.2
+      ],
+      "90": [
+        387.5,
+        36.45
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat mengenai target dengan Basic Attack atau Heavy Attack, meningkatkan Resonance Skill DMG Bonus sebesar 7%/11%/15%/19%/23%, dapat ditumpuk hingga 3/3/3/3/3 kali. Efek ini berlangsung selama 10/10/10/10/10 detik dan dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "undying-flame",
+    "slug": "undying-flame",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Undying Flame",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/undying-flame.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        41,
+        18.2
+      ],
+      "20": [
+        105,
+        18.2
+      ],
+      "40": [
+        202,
+        18.2
+      ],
+      "50": [
+        298,
+        18.2
+      ],
+      "60": [
+        412,
+        18.2
+      ],
+      "80": [
+        539,
+        18.2
+      ],
+      "90": [
+        412.5,
+        30.38
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Intro Skill dilancarkan, meningkatkan Resonance Skill DMG Bonus sebesar 20%/25%/30%/35%/40% selama 15/15/15/15/15 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "woodland-aria",
+    "slug": "woodland-aria",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Woodland Aria",
+    "weaponType": "Pistol",
+    "image": "/weapons/pistol/woodland-aria.webp",
+    "rarity": 5,
+    "subStat": "Crit Rate",
+    "stats": {
+      "1": [
+        48,
+        4.8
+      ],
+      "20": [
+        122.25,
+        8.5
+      ],
+      "40": [
+        232.8,
+        12.4
+      ],
+      "50": [
+        303.74,
+        14.3
+      ],
+      "60": [
+        374.7,
+        16.2
+      ],
+      "80": [
+        516.6,
+        19
+      ],
+      "90": [
+        500,
+        36
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "ATK meningkat sebesar 12%/15%/18%/21%/24%. Memberikan Aero Erosion pada target memberikan 24%/30%/36%/42%/48% Aero DMG Bonus selama 10/10/10/10/10 detik. Menyerang target yang terkena Aero Erosion mengurangi Aero RES mereka sebesar 10%/11.5%/13%/14.5%/16% selama 20/20/20/20/20 detik. Efek dengan nama yang sama tidak dapat ditumpuk.",
+      "refinements": []
+    },
+    "lore": ""
+  }
+]

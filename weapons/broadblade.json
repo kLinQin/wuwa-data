@@ -1,0 +1,754 @@
+[
+  {
+    "id": "ages-of-harvest",
+    "slug": "ages-of-harvest",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Ages of Harvest",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/ages-of-harvest.webp",
+    "rarity": 5,
+    "subStat": "CRIT Rate",
+    "stats": {
+      "1": [
+        47,
+        5.4
+      ],
+      "20": [
+        154,
+        9.6
+      ],
+      "40": [
+        264,
+        13.8
+      ],
+      "50": [
+        335,
+        15.9
+      ],
+      "60": [
+        406,
+        18
+      ],
+      "80": [
+        548,
+        22.2
+      ],
+      "90": [
+        588,
+        24.3
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Memberikan 12%/15%/18%/21%/24% Attribute DMG Bonus. Melancarkan Intro Skill memberikan Ageless Marking kepada pengguna, yang memberikan 24%/30%/36%/42%/48% Resonance Skill DMG Bonus selama 12/12/12/12/12 detik. Melancarkan Resonance Skill memberikan Ethereal Endowment kepada pengguna, yang memberikan 24%/30%/36%/42%/48% Resonance Skill DMG Bonus selama 12/12/12/12/12 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "lustrous-razor",
+    "slug": "lustrous-razor",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Lustrous Razor",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/lustrous-razor.webp",
+    "rarity": 5,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        47,
+        8.1
+      ],
+      "20": [
+        154,
+        14.4
+      ],
+      "40": [
+        264,
+        20.7
+      ],
+      "50": [
+        335,
+        23.8
+      ],
+      "60": [
+        406,
+        27
+      ],
+      "80": [
+        548,
+        33.3
+      ],
+      "90": [
+        588,
+        36.5
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. Saat Resonance Skill dilancarkan, Resonance Liberation DMG Bonus meningkat sebesar 7%/8.75%/10.5%/12.25%/14%, dapat ditumpuk hingga 3/3/3/3/3 kali. Efek ini bertahan selama 12/12/12/12/12 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "thunderflare-dominion",
+    "slug": "thunderflare-dominion",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Thunderflare Dominion",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/thunderflare-dominion.webp",
+    "rarity": 5,
+    "subStat": "CRIT Rate",
+    "stats": {
+      "1": [
+        54,
+        2.7
+      ],
+      "20": [
+        176,
+        4.8
+      ],
+      "40": [
+        303,
+        6.9
+      ],
+      "50": [
+        385,
+        14.3
+      ],
+      "60": [
+        466,
+        9
+      ],
+      "80": [
+        629,
+        11.1
+      ],
+      "90": [
+        675,
+        12.2
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill atau Resonance Skill meningkatkan Heavy Attack DMG sebesar 20%/25%/30%/35%/40% selama 15/15/15/15/15 detik. Mendapatkan Shield memungkinkan Heavy Attack DMG untuk mengabaikan 7.2%/8.4%/9.6%/10.8%/12% DEF target selama 7/7/7/7/7 detik, dapat ditumpuk hingga 5/5/5/5/5 kali. Efek ini dipicu sekali setiap 0,5 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "verdant-summit",
+    "slug": "verdant-summit",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Verdant Summit",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/verdant-summit.webp",
+    "rarity": 5,
+    "subStat": "Crit DMG",
+    "stats": {
+      "1": [
+        47,
+        10.8
+      ],
+      "20": [
+        154,
+        19.2
+      ],
+      "40": [
+        264,
+        27.6
+      ],
+      "50": [
+        335,
+        31.8
+      ],
+      "60": [
+        406,
+        36
+      ],
+      "80": [
+        548,
+        44.4
+      ],
+      "90": [
+        588,
+        48.6
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan Attribute DMG Bonus sebesar 12%/15%/18%/21%/24%. Setiap kali Intro Skill atau Resonance Liberation dilancarkan, meningkatkan Heavy Attack DMG Bonus sebesar 24%/30%/36%/42%/48%, dapat ditumpuk hingga 2/2/2/2/2 kali. Efek ini bertahan selama 14/14/14/14/14 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "wildfire-mark",
+    "slug": "wildfire-mark",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Wildfire Mark",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/wildfire-mark.webp",
+    "rarity": 5,
+    "subStat": "Crit DMG",
+    "stats": {
+      "1": [
+        47,
+        10.8
+      ],
+      "20": [
+        154,
+        19.2
+      ],
+      "40": [
+        264,
+        27.6
+      ],
+      "50": [
+        335,
+        31.8
+      ],
+      "60": [
+        406,
+        36
+      ],
+      "80": [
+        548,
+        44.4
+      ],
+      "90": [
+        588,
+        48.6
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill atau Resonance Liberation meningkatkan Resonance Liberation DMG sebesar 24%/30%/36%/42%/48% selama 6/6/6/6/6 detik. Memberikan Heavy Attack DMG memperpanjang efek ini selama 4/4/4/4/4 detik, hingga 1/1/1/1/1 kali. Setiap perpanjangan yang berhasil memberikan 24%/30%/36%/42%/48% Fusion DMG Bonus kepada semua Resonator dalam tim selama 30/30/30/30/30 detik. Efek dengan nama yang sama tidak dapat ditumpuk.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "kumokiri",
+    "slug": "kumokiri",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Kumokiri",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/kumokiri.webp",
+    "rarity": 5,
+    "subStat": "Crit Rate",
+    "stats": {
+      "1": [
+        33,
+        9
+      ],
+      "20": [
+        108,
+        16
+      ],
+      "40": [
+        185,
+        23
+      ],
+      "50": [
+        235,
+        26.5
+      ],
+      "60": [
+        285,
+        30
+      ],
+      "80": [
+        385,
+        37
+      ],
+      "90": [
+        500,
+        36
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat pengguna melancarkan Intro Skill atau memberikan Negative Statuses, mereka mendapatkan 8%/10%/12%/14%/16% Resonance Liberation DMG Bonus, dapat ditumpuk hingga 3/3/3/3/3 kali selama 15/15/15/15/15 detik.Pada stack maksimum, saat Resonator dalam tim memberikan Negative Statuses, mereka mendapatkan 24%/30%/36%/42%/48% All-Attribute DMG Bonus selama 15/15/15/15/15 detik. Efek dengan nama yang sama tidak dapat ditumpuk.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "starfield-calibrator",
+    "slug": "starfield-calibrator",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Starfield Calibrator",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/starfield-calibrator.webp",
+    "rarity": 5,
+    "subStat": "Energy Regen",
+    "stats": {
+      "1": [
+        33,
+        9
+      ],
+      "20": [
+        108,
+        16
+      ],
+      "40": [
+        185,
+        23
+      ],
+      "50": [
+        235,
+        26.5
+      ],
+      "60": [
+        285,
+        30
+      ],
+      "80": [
+        385,
+        37
+      ],
+      "90": [
+        412.5,
+        77.04
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan DEF sebesar 16%/20%/24%/28%/32%. Melancarkan Resonance Liberation memulihkan 8/10/12/14/16 poin Concerto Energy. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 20/20/20/20/20 detik. Saat pengguna memulihkan Resonator, meningkatkan Crit. DMG semua Resonator terdekat dalam tim sebesar 20%/25%/30%/35%/40% selama 4/4/4/4/4 detik. Efek dengan nama yang sama tidak dapat ditumpuk.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "radiance-cleaver",
+    "slug": "radiance-cleaver",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Radiance Cleaver",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/radiance-cleaver.webp",
+    "rarity": 5,
+    "subStat": "Crit DMG",
+    "stats": {
+      "1": [
+        33,
+        9
+      ],
+      "20": [
+        108,
+        16
+      ],
+      "40": [
+        185,
+        23
+      ],
+      "50": [
+        235,
+        26.5
+      ],
+      "60": [
+        285,
+        30
+      ],
+      "80": [
+        385,
+        37
+      ],
+      "90": [
+        587.5,
+        48.6
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Memberikan damage kepada target dalam status Tune Strain - Interfered memberikan 24%/27%/30%/33%/36% Resonance Liberation Bonus selama 3/3/3/3/3 detik. Memicu ulang efek ini akan mengatur ulang durasinya.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "autumntrace",
+    "slug": "autumntrace",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Autumntrace",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/autumntrace.webp",
+    "rarity": 4,
+    "subStat": "CRIT Rate",
+    "stats": {
+      "1": [
+        33,
+        4.5
+      ],
+      "20": [
+        108,
+        8
+      ],
+      "40": [
+        185,
+        11.5
+      ],
+      "50": [
+        235,
+        13.2
+      ],
+      "60": [
+        285,
+        15
+      ],
+      "80": [
+        385,
+        18.5
+      ],
+      "90": [
+        412.5,
+        20.25
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 4%/6.2%/8.4%/10.6%/12.8% saat memberikan Basic Attack DMG atau Heavy Attack DMG, dapat ditumpuk hingga 5/5/5/5/5 kali. Efek ini bertahan selama 7/7/7/7/7 detik dan dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "broadblade-41",
+    "slug": "broadblade-41",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Broadblade#41",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/broadblade-41.webp",
+    "rarity": 4,
+    "subStat": "ER",
+    "stats": {
+      "1": [
+        33,
+        7.2
+      ],
+      "20": [
+        108,
+        12.8
+      ],
+      "40": [
+        185,
+        18.4
+      ],
+      "50": [
+        235,
+        21.2
+      ],
+      "60": [
+        285,
+        24
+      ],
+      "80": [
+        385,
+        29.6
+      ],
+      "90": [
+        412.5,
+        32.4
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat HP Resonator di atas 80%/80%/80%/80%/80%, meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat HP Resonator di bawah 40%/50%/60%/70%/80%, memberikan 5%/6.25%/7.5%/8.75%/10% pemulihan saat memberikan Basic Attack DMG atau Heavy Attack DMG. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 8/8/8/8/8 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "dauntless-evernight",
+    "slug": "dauntless-evernight",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Dauntless Evernight",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/dauntless-evernight.webp",
+    "rarity": 4,
+    "subStat": "DEF",
+    "stats": {
+      "1": [
+        27,
+        13.7
+      ],
+      "20": [
+        88,
+        24.3
+      ],
+      "40": [
+        152,
+        35
+      ],
+      "50": [
+        192,
+        40.3
+      ],
+      "60": [
+        233,
+        45.6
+      ],
+      "80": [
+        315,
+        56.2
+      ],
+      "90": [
+        337.5,
+        61.56
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Intro Skill dilancarkan, meningkatkan ATK sebesar 8%/10%/12%/14%/16% dan DEF sebesar 15%/18.75%/22.5%/26.25%/30% selama 15/15/15/15/15 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "discord",
+    "slug": "discord",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Discord",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/discord.webp",
+    "rarity": 4,
+    "subStat": "ER",
+    "stats": {
+      "1": [
+        27,
+        11.5
+      ],
+      "20": [
+        88,
+        20.5
+      ],
+      "40": [
+        152,
+        29.4
+      ],
+      "50": [
+        192,
+        33.9
+      ],
+      "60": [
+        233,
+        38.4
+      ],
+      "80": [
+        315,
+        47.4
+      ],
+      "90": [
+        337.5,
+        51.84
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Resonance Skill dilancarkan, memulihkan 8/10/12/14/16 Concerto Energy. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 20/20/20/20/20 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "helios-cleaver",
+    "slug": "helios-cleaver",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Helios Cleaver",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/helios-cleaver.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        33,
+        6.8
+      ],
+      "20": [
+        108,
+        12
+      ],
+      "40": [
+        185,
+        17.2
+      ],
+      "50": [
+        235,
+        19.9
+      ],
+      "60": [
+        285,
+        22.5
+      ],
+      "80": [
+        385,
+        27.7
+      ],
+      "90": [
+        412.5,
+        30.38
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Dalam 12/12/12/12/12 detik setelah Resonance Skill dilancarkan, meningkatkan ATK sebesar 3%/3.75%/4.5%/5.25%/6% setiap 2/2/2/2/2 detik, dapat ditumpuk hingga 4/4/4/4/4 kali. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 12/12/12/12/12 detik. Saat jumlah tumpukan mencapai 4/4/4/4/4, semua tumpukan akan diatur ulang dalam 6/6/6/6/6 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "meditations-on-mercy",
+    "slug": "meditations-on-mercy",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Meditations on Mercy",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/meditations-on-mercy.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        37,
+        4.1
+      ],
+      "20": [
+        121,
+        7.2
+      ],
+      "40": [
+        208,
+        10.3
+      ],
+      "50": [
+        264,
+        11.9
+      ],
+      "60": [
+        320,
+        13.5
+      ],
+      "80": [
+        431,
+        16.6
+      ],
+      "90": [
+        462.5,
+        18.23
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat ditumpuk hingga 4/4/4/4/4 kali.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "waning-redshift",
+    "slug": "waning-redshift",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Waning Redshift",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/waning-redshift.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        37,
+        4.1
+      ],
+      "20": [
+        121,
+        7.2
+      ],
+      "40": [
+        208,
+        10.3
+      ],
+      "50": [
+        264,
+        11.9
+      ],
+      "60": [
+        320,
+        13.5
+      ],
+      "80": [
+        431,
+        16.6
+      ],
+      "90": [
+        462.5,
+        18.23
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Melancarkan Resonance Skill memberikan 6/7/8/9/10 Resonance Energy dan meningkatkan ATK sebesar 10%/12.5%/15%/17.5%/20% selama 16/16/16/16/16 detik. Efek ini dapat dipicu sekali setiap 20/20/20/20/20 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "aureate-zenith",
+    "slug": "aureate-zenith",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Aureate Zenith",
+    "weaponType": "Broadblade",
+    "image": "/weapons/broadblade/aureate-zenith.webp",
+    "rarity": 4,
+    "subStat": "Crit DMG",
+    "stats": {
+      "1": [
+        33,
+        9
+      ],
+      "20": [
+        108,
+        16
+      ],
+      "40": [
+        185,
+        23
+      ],
+      "50": [
+        235,
+        26.5
+      ],
+      "60": [
+        285,
+        30
+      ],
+      "80": [
+        385,
+        37
+      ],
+      "90": [
+        412.5,
+        40.5
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Melancarkan Resonance Liberation meningkatkan ATK sebesar 7.2%/11.1%/15.1%/19%/23% dan memberikan 10.8%/16.7%/22.6%/28.6%/34.5% Heavy Attack DMG Bonus selama 15/15/15/15/15 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  }
+]

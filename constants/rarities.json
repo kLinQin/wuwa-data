@@ -1,0 +1,14 @@
+[
+  {
+    "key": 4,
+    "label": "4★",
+    "color": "#a855f7",
+    "glow": "#a855f7"
+  },
+  {
+    "key": 5,
+    "label": "5★",
+    "color": "#ffd700",
+    "glow": "#ffd700"
+  }
+]

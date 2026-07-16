@@ -1,0 +1,1018 @@
+[
+  {
+    "id": "azure-oath",
+    "slug": "azure-oath",
+    "version": "3.0",
+    "lastUpdated": "2026-07-05",
+    "name": "Azure Oath",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/azure-oath.webp",
+    "rarity": 5,
+    "subStat": "CRIT Rate",
+    "stats": {
+      "1": [
+        47,
+        5.4
+      ],
+      "20": [
+        122.25,
+        9.6
+      ],
+      "40": [
+        232.8,
+        13.8
+      ],
+      "50": [
+        303.74,
+        15.9
+      ],
+      "60": [
+        374.68,
+        18
+      ],
+      "70": [
+        445.62,
+        20.1
+      ],
+      "80": [
+        516.56,
+        22.2
+      ],
+      "90": [
+        587.5,
+        24.3
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Memberikan bonus 12%/15%/18%/21%/24% All-Attribute DMG. Setelah memberikan efek Havoc Bane, pengguna mendapatkan amplifikasi 36%/45%/54%/63%/72% Heavy Attack DMG dan Heavy Attack DMG mengabaikan 12%/15%/18%/21%/24% DEF target, berlangsung selama 8 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "blazing-brilliance",
+    "slug": "blazing-brilliance",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Blazing Brilliance",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/blazing-brilliance.webp",
+    "rarity": 5,
+    "subStat": "Crit DMG",
+    "stats": {
+      "1": [
+        47.04,
+        10.8
+      ],
+      "20": [
+        122.35,
+        19.2
+      ],
+      "40": [
+        233,
+        27.6
+      ],
+      "50": [
+        304,
+        31.8
+      ],
+      "60": [
+        375,
+        36
+      ],
+      "70": [
+        446,
+        40.2
+      ],
+      "80": [
+        517,
+        44.4
+      ],
+      "90": [
+        588,
+        48.6
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "ATK meningkat sebesar 12%/15%/18%/21%/24%. Pengguna mendapatkan 1 stack Searing Feather saat memberikan damage, yang dapat dipicu sekali setiap 0.5 detik, dan mendapatkan 5 stack efek yang sama saat melancarkan Resonance Skill. Setiap stack Searing Feather memberikan 4%/5%/6%/7%/8% tambahan Resonance Skill DMG Bonus hingga 14 stack. Setelah mencapai stack maksimal, semua stack akan dihapus dalam 12/12/12/12/12 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "bloodpacts-pledge",
+    "slug": "bloodpacts-pledge",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Bloodpact's Pledge",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/bloodpacts-pledge.webp",
+    "rarity": 5,
+    "subStat": "ER",
+    "stats": {
+      "1": [
+        47.04,
+        8.64
+      ],
+      "20": [
+        122.35,
+        15.37
+      ],
+      "40": [
+        233,
+        22.09
+      ],
+      "50": [
+        304,
+        25.45
+      ],
+      "60": [
+        375,
+        28.81
+      ],
+      "70": [
+        446,
+        32.18
+      ],
+      "80": [
+        517,
+        35.54
+      ],
+      "90": [
+        588,
+        38.9
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Memberikan Healing meningkatkan Resonance Skill DMG sebesar 10%/14%/18%/22%/26% selama 6/6/6/6/6 detik. Saat Rover: Aero melancarkan Resonance Skill Unbound Flow, Aero DMG yang diberikan oleh Resonator di sekitar medan tempur mendapatkan Amplification sebesar 10%/14%/18%/22%/26% selama 30/30/30/30/30 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "commando-of-conviction",
+    "slug": "commando-of-conviction",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Commando of Conviction",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/commando-of-conviction.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        33.04,
+        6.76
+      ],
+      "20": [
+        85.94,
+        12.01
+      ],
+      "40": [
+        163.65,
+        17.26
+      ],
+      "50": [
+        213.52,
+        19.89
+      ],
+      "60": [
+        263.39,
+        22.52
+      ],
+      "70": [
+        313.26,
+        25.15
+      ],
+      "80": [
+        363.13,
+        27.77
+      ],
+      "90": [
+        413,
+        30.4
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Intro Skill dilancarkan, meningkatkan ATK sebesar 15%/18.75%/22.5%/26.25%/30% selama 15/15/15/15/15 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "defiers-thorn",
+    "slug": "defiers-thorn",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Defier's Thorn",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/defiers-thorn.webp",
+    "rarity": 5,
+    "subStat": "HP",
+    "stats": {
+      "1": [
+        33.04,
+        16.04
+      ],
+      "20": [
+        85.94,
+        28.52
+      ],
+      "40": [
+        163.65,
+        41
+      ],
+      "50": [
+        213.52,
+        47.24
+      ],
+      "60": [
+        263.39,
+        53.48
+      ],
+      "70": [
+        313.26,
+        59.72
+      ],
+      "80": [
+        363.13,
+        65.96
+      ],
+      "90": [
+        413,
+        72.2
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Max HP meningkat sebesar 12%/15%/18%/21%/24%. Selama 15/15/15/15/15 detik setelah melancarkan Intro Skill atau Basic Attack, mengabaikan 8%/10%/12%/14%/16% DEF target saat memberikan damage. Jika target memiliki setidaknya 1 stack Aero Erosion, DMG yang diterima oleh target mendapatkan Amplification sebesar 20%/25%/30%/35%/40%.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "emerald-of-genesis",
+    "slug": "emerald-of-genesis",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Emerald of Genesis",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/emerald-of-genesis.webp",
+    "rarity": 5,
+    "subStat": "Crit Rate",
+    "stats": {
+      "1": [
+        47.04,
+        5.4
+      ],
+      "20": [
+        122.35,
+        9.6
+      ],
+      "40": [
+        233,
+        13.8
+      ],
+      "50": [
+        304,
+        15.9
+      ],
+      "60": [
+        375,
+        18
+      ],
+      "70": [
+        446,
+        20.1
+      ],
+      "80": [
+        517,
+        22.2
+      ],
+      "90": [
+        588,
+        24.3
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. Saat Resonance Skill dilancarkan, meningkatkan ATK sebesar 6%/7.5%/9%/10.5%/12%, dapat ditumpuk hingga 2/2/2/2/2 kali. Efek ini berlangsung selama 10/10/10/10/10 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "emerald-sentence",
+    "slug": "emerald-sentence",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Emerald Sentence",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/emerald-sentence.webp",
+    "rarity": 5,
+    "subStat": "Crit Rate",
+    "stats": {
+      "1": [
+        47.04,
+        5.4
+      ],
+      "20": [
+        122.35,
+        9.6
+      ],
+      "40": [
+        233,
+        13.8
+      ],
+      "50": [
+        304,
+        15.9
+      ],
+      "60": [
+        375,
+        18
+      ],
+      "70": [
+        446,
+        20.1
+      ],
+      "80": [
+        517,
+        22.2
+      ],
+      "90": [
+        588,
+        24.3
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "ATK meningkat sebesar 12%/15%/18%/21%/24%. Melancarkan Echo Skill dalam 10/10/10/10/10 detik setelah melancarkan Intro Skill atau Basic Attack memberikan 1 stack Bamboo Cleaver, yang memberikan 30/37.5/45/52.5/60% Heavy Attack DMG Bonus kepada pengguna. Efek ini hanya dapat dipicu oleh Echo dengan nama yang sama sebanyak satu kali, dapat ditumpuk hingga 2 kali, berlangsung selama 12/12/12/12/12 detik. Melancarkan Echo Skill pada stack maksimal tidak akan menyetel ulang durasi. Efek ini dapat dipicu sekali setiap 10/10/10/10/10 detik dan berakhir lebih awal jika pengguna meninggalkan medan tempur.Melancarkan Intro Skill memberikan 20% /25%/30 % /35%/40 % Echo Skill DMG Bonus kepada seluruh Resonator di dalam tim selama 30/30/30 / 30 / 30 detik.Efek dengan nama yang sama tidak dapat ditumpuk.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "endless-collapse",
+    "slug": "endless-collapse",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Endless Collapse",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/endless-collapse.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        37.04,
+        4.04
+      ],
+      "20": [
+        96.34,
+        7.19
+      ],
+      "40": [
+        183.47,
+        10.34
+      ],
+      "50": [
+        239.37,
+        11.91
+      ],
+      "60": [
+        295.28,
+        13.48
+      ],
+      "70": [
+        351.19,
+        15.05
+      ],
+      "80": [
+        407.09,
+        16.63
+      ],
+      "90": [
+        463,
+        18.2
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Melancarkan Resonance Skill memberikan 6/7/8/9/10 Resonance Energy dan meningkatkan ATK sebesar 10%/12.5%/15%/17.5%/20% selama 16/16/16/16/16 detik. Efek ini dapat dipicu sekali setiap 20/20/20/20/20 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "everbright-polestar",
+    "slug": "everbright-polestar",
+    "version": "3.0",
+    "lastUpdated": "2026-02-13",
+    "name": "Everbright Polestar",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/everbright-polestar.webp",
+    "rarity": 5,
+    "subStat": "CRIT Rate",
+    "stats": {
+      "1": [
+        47.04,
+        5.4
+      ],
+      "20": [
+        122.35,
+        9.6
+      ],
+      "40": [
+        233,
+        13.8
+      ],
+      "50": [
+        304,
+        15.9
+      ],
+      "60": [
+        375,
+        18
+      ],
+      "70": [
+        446,
+        20.1
+      ],
+      "80": [
+        517,
+        22.2
+      ],
+      "90": [
+        588,
+        24.3
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan All-Attribute DMG Bonus sebesar 12%/15%/18%/21%/24%. Saat mengakibatkan Tune Rupture - Shifting atau Fusion Burst, Resonance Liberation DMG pengguna mengabaikan 32%/40%/48%/56%/64% DEF dan 10%/15%/20%/25%/30% Fusion RES pada target selama 8/8/8/8/8 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "fables-of-wisdom",
+    "slug": "fables-of-wisdom",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Fables of Wisdom",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/fables-of-wisdom.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        37.04,
+        4.04
+      ],
+      "20": [
+        96.34,
+        7.19
+      ],
+      "40": [
+        183.47,
+        10.34
+      ],
+      "50": [
+        239.37,
+        11.91
+      ],
+      "60": [
+        295.28,
+        13.48
+      ],
+      "70": [
+        351.19,
+        15.05
+      ],
+      "80": [
+        407.09,
+        16.63
+      ],
+      "90": [
+        463,
+        18.2
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat ditumpuk hingga 4/4/4/4/4 kali.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "feather-edge",
+    "slug": "feather-edge",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Feather Edge",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/feather-edge.webp",
+    "rarity": 4,
+    "subStat": "Crit Rate",
+    "stats": {
+      "1": [
+        33.04,
+        4.51
+      ],
+      "20": [
+        85.94,
+        8.02
+      ],
+      "40": [
+        163.65,
+        11.53
+      ],
+      "50": [
+        213.52,
+        13.28
+      ],
+      "60": [
+        263.39,
+        15.04
+      ],
+      "70": [
+        313.26,
+        16.79
+      ],
+      "80": [
+        363.13,
+        18.55
+      ],
+      "90": [
+        413,
+        20.3
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Melancarkan Resonance Liberation meningkatkan ATK sebesar 7.2%/11.1%/15.1%/19%/23% dan memberikan 10.8%/16.7%/22.6%/28.6%/34.5% Resonance Liberation DMG Bonus selama 15/15/15/15/15 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "frostburn",
+    "slug": "frostburn",
+    "version": "3.0",
+    "lastUpdated": "2026-04-20",
+    "name": "Frostburn",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/frostburn.webp",
+    "rarity": 5,
+    "subStat": "CRIT Rate",
+    "stats": {
+      "1": [
+        47,
+        5.4
+      ],
+      "20": [
+        122.25,
+        9.6
+      ],
+      "40": [
+        232.8,
+        13.8
+      ],
+      "50": [
+        303.74,
+        15.9
+      ],
+      "60": [
+        374.68,
+        18
+      ],
+      "70": [
+        445.62,
+        20.1
+      ],
+      "80": [
+        516.56,
+        22.2
+      ],
+      "90": [
+        587.5,
+        24.3
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "ATK meningkat sebesar 12%/15%/18%/21%/24%. Saat pengguna memberikan Glacio Chafe, Glacio DMG akan mendapatkan Amplify sebesar 28%/35%/42%/49%/56%, dan Resonance Liberation DMG mengabaikan 10%/12.5%/15%/17.5%/20% DEF target selama 20%/25%/30%/35%/40% detik. Jika pengguna adalah Resonator yang aktif dalam tim, Glacio Chafe DMG yang diberikan kepada semua target dalam jarak tertentu akan mendapatkan Amplify sebesar 20%/25%/30%/35%/40% selama 6/6/6/6/6 detik. Efek ini dapat dipicu hingga 1/1/1/1/1 kali setiap 0.1/0.1/0.1/0.1/0.1 detik. Hanya efek terkuat dengan nama yang sama yang akan berlaku.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "laser-shearer",
+    "slug": "laser-shearer",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Laser Shearer",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/laser-shearer.webp",
+    "rarity": 5,
+    "subStat": "Energy Regen",
+    "stats": {
+      "1": [
+        47.04,
+        8.64
+      ],
+      "20": [
+        122.35,
+        15.37
+      ],
+      "40": [
+        233,
+        22.09
+      ],
+      "50": [
+        304,
+        25.45
+      ],
+      "60": [
+        375,
+        28.81
+      ],
+      "70": [
+        446,
+        32.18
+      ],
+      "80": [
+        517,
+        35.54
+      ],
+      "90": [
+        588,
+        38.9
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Memberikan damage kepada target dalam kondisi Tune Strain - Interfered memberikan 24%/27%/30%/33%/36% Resonance Skill DMG Bonus selama 3/3/3/3/3 detik. Memicu kembali efek ini akan menyetel ulang durasinya.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "lumingloss",
+    "slug": "lumingloss",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Lumingloss",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/lumingloss.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        31.04,
+        8.11
+      ],
+      "20": [
+        80.74,
+        14.42
+      ],
+      "40": [
+        153.75,
+        20.73
+      ],
+      "50": [
+        200.6,
+        23.88
+      ],
+      "60": [
+        247.45,
+        27.04
+      ],
+      "70": [
+        294.3,
+        30.19
+      ],
+      "80": [
+        341.15,
+        33.35
+      ],
+      "90": [
+        388,
+        36.5
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Resonance Skill dilancarkan, meningkatkan Basic Attack DMG Bonus dan Heavy Attack DMG Bonus sebesar 20%/31%/42%/53%/64%, dapat ditumpuk hingga 1/1/1/1/1 kali. Efek ini berlangsung selama 10/10/10/10/10 detik dan dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "lunar-cutter",
+    "slug": "lunar-cutter",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Lunar Cutter",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/lunar-cutter.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        42,
+        18.2
+      ],
+      "20": [
+        107,
+        18.2
+      ],
+      "40": [
+        206,
+        18.2
+      ],
+      "50": [
+        266,
+        18.2
+      ],
+      "60": [
+        327,
+        18.2
+      ],
+      "80": [
+        429,
+        18.2
+      ],
+      "90": [
+        412.5,
+        30.38
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Resonator yang menggunakan senjata ini mendapatkan 6/6/6/6/6 stack Oath saat memasuki medan tempur. Setiap stack meningkatkan ATK sebesar 2%/2.5%/3%/3.5%/4%, hingga maksimal 6/6/6/6/6 stack. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 12/12/12/12/12 detik. Resonator yang menggunakan senjata ini kehilangan 1/1/1/1/1 stack Oath setiap 2/2/2/2/2 detik, dan mendapatkan kembali 6/6/6/6/6 stack setelah mengalahkan musuh.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "overture",
+    "slug": "overture",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Overture",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/overture.webp",
+    "rarity": 4,
+    "subStat": "Energy Regen",
+    "stats": {
+      "1": [
+        27.04,
+        11.51
+      ],
+      "20": [
+        70.33,
+        20.46
+      ],
+      "40": [
+        133.93,
+        29.42
+      ],
+      "50": [
+        174.75,
+        33.89
+      ],
+      "60": [
+        215.56,
+        38.37
+      ],
+      "70": [
+        256.37,
+        42.85
+      ],
+      "80": [
+        297.19,
+        47.32
+      ],
+      "90": [
+        338,
+        51.8
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Resonance Skill dilancarkan, memulihkan 8/10/12/14/16 Concerto Energy. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 20/20/20/20/20 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "red-spring",
+    "slug": "red-spring",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Red Spring",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/red-spring.webp",
+    "rarity": 5,
+    "subStat": "Crit Rate",
+    "stats": {
+      "1": [
+        47.04,
+        5.4
+      ],
+      "20": [
+        122.35,
+        9.6
+      ],
+      "40": [
+        233,
+        13.8
+      ],
+      "50": [
+        304,
+        15.9
+      ],
+      "60": [
+        375,
+        18
+      ],
+      "70": [
+        446,
+        20.1
+      ],
+      "80": [
+        517,
+        22.2
+      ],
+      "90": [
+        588,
+        24.3
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat memberikan Basic Attack DMG, pengguna mendapatkan 10%/12.5%/15%/17.5%/20% Basic Attack DMG Bonus selama 14/14/14/14/14 detik. Efek ini dapat dipicu sekali per detik, dapat ditumpuk hingga 3/3/3/3/3 kali.Saat Concerto Energy pengguna dikonsumsi, mendapatkan 40% /50%/60 % /70%/80 % Basic Attack DMG Bonus selama 10/10/10 / 10 / 10 detik.Efek ini dapat dipicu sekali per detik dan berakhir saat pengguna meninggalkan medan tempur.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "somnoire-anchor",
+    "slug": "somnoire-anchor",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Somnoire Anchor",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/somnoire-anchor.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        37.04,
+        4.04
+      ],
+      "20": [
+        96.34,
+        7.19
+      ],
+      "40": [
+        183.47,
+        10.34
+      ],
+      "50": [
+        239.37,
+        11.91
+      ],
+      "60": [
+        295.28,
+        13.48
+      ],
+      "70": [
+        351.19,
+        15.05
+      ],
+      "80": [
+        407.09,
+        16.63
+      ],
+      "90": [
+        463,
+        18.2
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Mendapatkan 1/1/1/1/1 stack Hiss saat memberikan damage kepada target, dengan 1/1/1/1/1 stack yang dihasilkan setiap 1/1/1/1/1 detik.Hiss: setiap stack meningkatkan ATK pengguna sebesar 2% /2.5%/3 % /3.5%/4 % selama 3/3/3 / 3 / 3 detik, dapat ditumpuk hingga 10/10/10 / 10 / 10 kali.Mengganti pengguna akan menghapus seluruh stack.Mendapatkan 10/10/10 / 10 / 10 stack meningkatkan Crit.Rate pengguna sebesar 6% /7.5%/9 % /10.5%/12 %.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "sword-18",
+    "slug": "sword-18",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Sword#18",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/sword-18.webp",
+    "rarity": 4,
+    "subStat": "ATK",
+    "stats": {
+      "1": [
+        31.04,
+        8.11
+      ],
+      "20": [
+        80.74,
+        14.42
+      ],
+      "40": [
+        153.75,
+        20.73
+      ],
+      "50": [
+        200.6,
+        23.88
+      ],
+      "60": [
+        247.45,
+        27.04
+      ],
+      "70": [
+        294.3,
+        30.19
+      ],
+      "80": [
+        341.15,
+        33.35
+      ],
+      "90": [
+        388,
+        36.5
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat HP Resonator turun di bawah 40%/50%/60%/70%/80%, meningkatkan Heavy Attack DMG Bonus sebesar 18%/22.5%/27%/31.5%/36% dan memberikan 5%/6.25%/7.5%/8.75%/10% pemulihan (healing) saat memberikan Heavy Attack DMG. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 8/8/8/8/8 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  },
+  {
+    "id": "unflickering-valor",
+    "slug": "unflickering-valor",
+    "version": "3.0",
+    "lastUpdated": "2026-01-28",
+    "name": "Unflickering Valor",
+    "weaponType": "Sword",
+    "image": "/weapons/sword/unflickering-valor.webp",
+    "rarity": 5,
+    "subStat": "ER",
+    "stats": {
+      "1": [
+        33.04,
+        17.11
+      ],
+      "20": [
+        85.94,
+        30.42
+      ],
+      "40": [
+        163.65,
+        43.73
+      ],
+      "50": [
+        213.52,
+        50.38
+      ],
+      "60": [
+        263.39,
+        57.04
+      ],
+      "70": [
+        313.26,
+        63.69
+      ],
+      "80": [
+        363.13,
+        70.35
+      ],
+      "90": [
+        413,
+        77
+      ]
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan Crit. Rate sebesar 8%/10%/12%/14%/16%. Melancarkan Resonance Liberation memberikan 24%/30%/36%/42%/48% Basic Attack DMG Bonus selama 10/10/10/10/10 detik. Memberikan Basic Attack DMG memberikan 24%/30%/36%/42%/48% Basic Attack DMG Bonus selama 4/4/4/4/4 detik.",
+      "refinements": []
+    },
+    "lore": ""
+  }
+]

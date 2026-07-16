@@ -1,0 +1,396 @@
+{
+  "characters": [
+    {
+      "id": "aemeath",
+      "name": "Aemeath",
+      "element": "Fusion",
+      "rarity": 5,
+      "weapon": "Sword"
+    },
+    {
+      "id": "aero-rover",
+      "name": "Aero Rover",
+      "element": "Aero",
+      "rarity": 5,
+      "weapon": "Pistol"
+    },
+    {
+      "id": "augusta",
+      "name": "Augusta",
+      "element": "Electro",
+      "rarity": 5,
+      "weapon": "Broadblade"
+    },
+    {
+      "id": "brant",
+      "name": "Brant",
+      "element": "Fusion",
+      "rarity": 5,
+      "weapon": "Sword"
+    },
+    {
+      "id": "calcharo",
+      "name": "Calcharo",
+      "element": "Electro",
+      "rarity": 5,
+      "weapon": "Broadblade"
+    },
+    {
+      "id": "camellya",
+      "name": "Camellya",
+      "element": "Havoc",
+      "rarity": 5,
+      "weapon": "Sword"
+    },
+    {
+      "id": "cantarella",
+      "name": "Cantarella",
+      "element": "Havoc",
+      "rarity": 5,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "carlotta",
+      "name": "Carlotta",
+      "element": "Glacio",
+      "rarity": 5,
+      "weapon": "Pistol"
+    },
+    {
+      "id": "cartethyia",
+      "name": "Cartethyia",
+      "element": "Aero",
+      "rarity": 5,
+      "weapon": "Sword"
+    },
+    {
+      "id": "changli",
+      "name": "Changli",
+      "element": "Fusion",
+      "rarity": 5,
+      "weapon": "Sword"
+    },
+    {
+      "id": "chisa",
+      "name": "Chisa",
+      "element": "Havoc",
+      "rarity": 5,
+      "weapon": "Sword"
+    },
+    {
+      "id": "ciaccona",
+      "name": "Ciaccona",
+      "element": "Aero",
+      "rarity": 5,
+      "weapon": "Pistol"
+    },
+    {
+      "id": "denia",
+      "name": "Denia",
+      "element": "Fusion",
+      "rarity": 5,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "electro-rover",
+      "name": "Electro Rover",
+      "element": "Electro",
+      "rarity": 5,
+      "weapon": "Sword"
+    },
+    {
+      "id": "encore",
+      "name": "Encore",
+      "element": "Fusion",
+      "rarity": 5,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "galbrena",
+      "name": "Galbrena",
+      "element": "Fusion",
+      "rarity": 5,
+      "weapon": "Pistol"
+    },
+    {
+      "id": "havoc-rover",
+      "name": "Havoc Rover",
+      "element": "Havoc",
+      "rarity": 5,
+      "weapon": "Sword"
+    },
+    {
+      "id": "hiyuki",
+      "name": "Hiyuki",
+      "element": "Glacio",
+      "rarity": 5,
+      "weapon": "Sword"
+    },
+    {
+      "id": "iuno",
+      "name": "Iuno",
+      "element": "Aero",
+      "rarity": 5,
+      "weapon": "Gauntlet"
+    },
+    {
+      "id": "jianxin",
+      "name": "Jianxin",
+      "element": "Aero",
+      "rarity": 5,
+      "weapon": "Gauntlet"
+    },
+    {
+      "id": "jinhsi",
+      "name": "Jinhsi",
+      "element": "Spectro",
+      "rarity": 5,
+      "weapon": "Broadblade"
+    },
+    {
+      "id": "jiyan",
+      "name": "Jiyan",
+      "element": "Aero",
+      "rarity": 5,
+      "weapon": "Broadblade"
+    },
+    {
+      "id": "lingyang",
+      "name": "Lingyang",
+      "element": "Glacio",
+      "rarity": 5,
+      "weapon": "Gauntlet"
+    },
+    {
+      "id": "lucilla",
+      "name": "Lucilla",
+      "element": "Glacio",
+      "rarity": 5,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "lucy",
+      "name": "Lucy",
+      "element": "Spectro",
+      "rarity": 5,
+      "weapon": "Pistol"
+    },
+    {
+      "id": "lupa",
+      "name": "Lupa",
+      "element": "Fusion",
+      "rarity": 5,
+      "weapon": "Broadblade"
+    },
+    {
+      "id": "luuk-herssen",
+      "name": "Luuk Herssen",
+      "element": "Spectro",
+      "rarity": 5,
+      "weapon": "Gauntlet"
+    },
+    {
+      "id": "lynae",
+      "name": "Lynae",
+      "element": "Spectro",
+      "rarity": 5,
+      "weapon": "Pistol"
+    },
+    {
+      "id": "mornye",
+      "name": "Mornye",
+      "element": "Fusion",
+      "rarity": 5,
+      "weapon": "Pistol"
+    },
+    {
+      "id": "phoebe",
+      "name": "Phoebe",
+      "element": "Spectro",
+      "rarity": 5,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "phrolova",
+      "name": "Phrolova",
+      "element": "Havoc",
+      "rarity": 5,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "qiuyuan",
+      "name": "Qiuyuan",
+      "element": "Aero",
+      "rarity": 5,
+      "weapon": "Sword"
+    },
+    {
+      "id": "rebecca",
+      "name": "Rebecca",
+      "element": "Electro",
+      "rarity": 5,
+      "weapon": "Pistol"
+    },
+    {
+      "id": "roccia",
+      "name": "Roccia",
+      "element": "Havoc",
+      "rarity": 5,
+      "weapon": "Gauntlet"
+    },
+    {
+      "id": "shorekeeper",
+      "name": "Shorekeeper",
+      "element": "Spectro",
+      "rarity": 5,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "sigrika",
+      "name": "Sigrika",
+      "element": "Aero",
+      "rarity": 5,
+      "weapon": "Gauntlet"
+    },
+    {
+      "id": "spectro-rover",
+      "name": "Spectro Rover",
+      "element": "Spectro",
+      "rarity": 5,
+      "weapon": "Sword"
+    },
+    {
+      "id": "suisui",
+      "name": "Suisui",
+      "element": "Glacio",
+      "rarity": 5,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "verina",
+      "name": "Verina",
+      "element": "Spectro",
+      "rarity": 5,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "xiangli-yao",
+      "name": "Xiangli Yao",
+      "element": "Electro",
+      "rarity": 5,
+      "weapon": "Gauntlet"
+    },
+    {
+      "id": "yangyang-xuanling",
+      "name": "Yangyang-xuanling",
+      "element": "Havoc",
+      "rarity": 5,
+      "weapon": "Sword"
+    },
+    {
+      "id": "yinlin",
+      "name": "Yinlin",
+      "element": "Electro",
+      "rarity": 5,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "zani",
+      "name": "Zani",
+      "element": "Spectro",
+      "rarity": 5,
+      "weapon": "Gauntlet"
+    },
+    {
+      "id": "zhezhi",
+      "name": "Zhezhi",
+      "element": "Glacio",
+      "rarity": 5,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "aalto",
+      "name": "Aalto",
+      "element": "Aero",
+      "rarity": 4,
+      "weapon": "Pistol"
+    },
+    {
+      "id": "baizhi",
+      "name": "Baizhi",
+      "element": "Glacio",
+      "rarity": 4,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "buling",
+      "name": "Buling",
+      "element": "Electro",
+      "rarity": 4,
+      "weapon": "Rectifier"
+    },
+    {
+      "id": "chixia",
+      "name": "Chixia",
+      "element": "Fusion",
+      "rarity": 4,
+      "weapon": "Pistol"
+    },
+    {
+      "id": "danjin",
+      "name": "Danjin",
+      "element": "Havoc",
+      "rarity": 4,
+      "weapon": "Sword"
+    },
+    {
+      "id": "lumi",
+      "name": "Lumi",
+      "element": "Electro",
+      "rarity": 4,
+      "weapon": "Broadblade"
+    },
+    {
+      "id": "mortefi",
+      "name": "Mortefi",
+      "element": "Fusion",
+      "rarity": 4,
+      "weapon": "Pistol"
+    },
+    {
+      "id": "sanhua",
+      "name": "Sanhua",
+      "element": "Glacio",
+      "rarity": 4,
+      "weapon": "Sword"
+    },
+    {
+      "id": "taoqi",
+      "name": "Taoqi",
+      "element": "Havoc",
+      "rarity": 4,
+      "weapon": "Broadblade"
+    },
+    {
+      "id": "yangyang",
+      "name": "Yangyang",
+      "element": "Aero",
+      "rarity": 4,
+      "weapon": "Sword"
+    },
+    {
+      "id": "youhu",
+      "name": "Youhu",
+      "element": "Glacio",
+      "rarity": 4,
+      "weapon": "Gauntlet"
+    },
+    {
+      "id": "yuanwu",
+      "name": "Yuanwu",
+      "element": "Electro",
+      "rarity": 4,
+      "weapon": "Gauntlet"
+    }
+  ]
+}
