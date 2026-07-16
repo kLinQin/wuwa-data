@@ -1,0 +1,493 @@
+{
+  "name": "Cantarella",
+  "element": "Havoc",
+  "weapon": "Rectifier",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-02-21",
+  "roles": [
+    "Support and Healer",
+    "Concerto Efficiency",
+    "Basic Attack DMG",
+    "Coordinated Attack",
+    "Havoc DMG Amplification",
+    "Resonance Skill DMG Amplification"
+  ],
+  "sonatas": [
+    "Midnight Veil",
+    "Empyrean Anthem",
+    "Moonlit Clouds"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Ragunna",
+  "affiliation": "Fisalia Family",
+  "class": "Unclear",
+  "image": "/characters/cantarella.webp",
+  "imageBanner": "/banners/cantarella-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120% - 130%",
+    "Crit Ratio (Crit Weapon)": "70-85% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Whispers Of Sirens",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Sub DPS - Havoc",
+          "echoSlug": "lorelei",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: havoc%",
+            "3: havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Midnight Veil"
+          ]
+        },
+        {
+          "label": "Sub DPS - Coor ATK",
+          "echoSlug": "hecate",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: havoc%",
+            "3: havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Empyrean Anthem"
+          ]
+        },
+        {
+          "label": "Sub DPS - General",
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: havoc%",
+            "3: havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "Midnight Veil adalah echo set terbaik untuk Cantarella saat dipasangkan dengan Phrolova atau resonator Havoc lainnya.\n"
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "whispers-of-sirens",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "rime-draped-sprouts",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "stringmaster",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "fusion-accretion",
+        "rank": "5",
+        "percentage": "100"
+      },
+      {
+        "id": "jinzhou-keeper",
+        "rank": "",
+        "percentage": "100"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Lova Hypercaryy",
+        "members": [
+          [
+            "Phrolova"
+          ],
+          [
+            "Qiuyuan"
+          ],
+          [
+            "Cantarella",
+            "Shorekeeper"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "Core",
+        "members": [
+          [
+            "Phrolova"
+          ],
+          [
+            "Cantarella"
+          ],
+          [
+            "Roccia",
+            "Shorekeeper"
+          ]
+        ],
+        "note": ""
+      }
+    ],
+    "teamNote": "Phrolova meningkatkan Roccia (Havoc & Heavy), Roccia meningkatkan Cantarella (Havoc & Basic), Cantarella meningkatkan Phrolova (Havoc & Res. Skill). kalian juga dapat mengganti Roccia dengan Qiuyuan, yang memberikan tambahan penggunaan Echo Skill dan buff Law of Harmony sonata set untuk Phrolova.\nBisa juga memasangkan Cantarella dengan Camellya atau Rover: Havoc karena ia memberikan Res. Skill dan Havoc DMG Amplify kepada mereka.\nPenting untuk dicatat bahwa Res. Skill DMG Amplify memberikan sedikit atau bahkan tidak ada pengaruh bagi Camellya karena ia utamanya berskala berdasarkan Basic%.\n\nCantarella memberikan buff berikut untuk rekan timnya:\n- 20% Havoc DMG dan 25% Res. Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill\n- 15% Havoc DMG Bonus dari bonus set Midnight Veil."
+  },
+  "skills": {
+    "basic": {
+      "name": "Illusion Collapse",
+      "description": "Basic Attack\nMelakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target, memberikan  Havoc DMG.\n\nHeavy Attack - Delusive Dive\nSaat Cantarella dalam kondisi Trance, Heavy Attack berubah menjadi Delusive Dive, memberikan  Havoc DMG kepada target, dan kemudian Cantarella memasuki Mirage.\nSaat berada dalam Mirage, melancarkan Delusive Dive tidak mengaktifkan kembali Mirage.\ndapat dilakukan di dalam air.\n\nMid-air Attack\nKonsumsi STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.\n\nDodge Counter\nGunakan Basic Attack segera setelah berhasil Menghindar untuk menyerang target, memberikan  Havoc DMG."
+    },
+    "skill": {
+      "name": "Dance With Shadows",
+      "description": "Graceful Step\nMenyerang target, memberikan  Havoc DMG.\n\nFlickering Reverie\nSaat berada di dalam Mirage, Resonance Skill berubah menjadi Flickering Reverie, yang dianggap sebagai Echo Skill saat dilancarkan. Menyerang target, memberikan  Havoc DMG, dan mengirim mereka ke dalam Hazy Dream.\ndapat dilancarkan di udara.\n\nHazy Dream\nMengurangi kecepatan gerak target selama 6.5 detik. Ketika target menerima damage, Jolt dipicu sekali, menghilangkan Hazy Dream untuk memberikan  Havoc DMG, dianggap sebagai Basic Attack DMG.\nSerangan oleh Resonator lain dalam tim tidak akan memicu Jolt pada target yang dipengaruhi oleh Hazy Dream dan akan menghilangkan Hazy Dream.\nCoordinated Attacks dan damage dari Utility tidak akan memicu Jolt pada target."
+    },
+    "liberation": {
+      "name": "Beneath The Sea",
+      "description": "Flowing Suffocation\nSerang target, memberikan  Havoc DMG (dianggap sebagai Basic Attack DMG). Memberikan Diffusion kepada semua Resonator dalam tim.\nMelancarkan skill ini juga dianggap sebagai melancarkan Echo Skill. Ini dapat dilancarkan di udara dekat dengan tanah.\n\nDiffusion\nKetika Resonator di field memberikan damage kepada target, memanggil Dreamweaver untuk melakukan Coordinated Attack, memberikan  Havoc DMG (dianggap sebagai Basic Attack DMG).\n- Dalam waktu 3 detik setelah Resonator memberikan damage, memanggil 1 Dreamweaver per detik.\nEfek ini dapat dipicu sekali per detik.\nDamage yang diberikan oleh Dreamweaver tidak dapat memicu efek ini.\n- Hingga 1 Dreamweaver dapat dipanggil setiap detik, dengan maksimum 21 Dreamweaver secara total.\n- Efek ini berlangsung selama 30 detik atau sampai mencapai jumlah maksimum Dreamweaver."
+    },
+    "forte": {
+      "name": "Between Illusion And Reality",
+      "description": "Mirage\n- Basic Attack menjadi Basic Attack Phantom Sting.\nMelakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.\nDapat dilancarkan di udara.\nSaat dilancarkan di udara, Basic Attack Phantom Sting mengonsumsi STA, dan kombonya tidak ter-reset ketika Cantarella berada di udara.\n- Mengenai target dengan Basic Attack Phantom Sting mengonsumsi 1 poin Trance untuk mendapatkan 1 poin Shiver dan menyembuhkan semua Resonator terdekat dalam tim.\n- Tahap ketiga dari Basic Attack Phantom Sting memicu 3 Coordinated Attacks, memberikan  Havoc DMG.\n- Mid-Air Attack menjadi Abysmal Vortex. Gunakan Lompat untuk melakukan Plunging Attack dengan biaya STA, memberikan  Havoc DMG.\n- Dodge-Counter menjadi Dodge Counter Shadowy Sweep. Menyerang target, memberikan  Havoc DMG. Gunakan Basic Attack segera setelah melancarkan skill ini untuk melancarkan Basic Attack Phantom Sting Stage 2.\n- Ketika Mid-air Attack Abysmal Vortex atau Dodge Counter Shadowy Sweep mengenai target, mengonsumsi 1 poin Trance untuk mendapatkan 1 poin Shiver dan menyembuhkan semua Resonator terdekat dalam tim.\n- Mirage berlangsung selama 8 detik.\n- Mirage berakhir ketika Trance habis.\n\nForte Circuit - Perception Drain\nJika Cantarella memiliki 3 poin Shiver saat berada dalam Mirage, Resonance Skill berubah menjadi Perception Drain.\nMengonsumsi semua Shiver untuk menyerang target, memberikan  Havoc DMG yang dianggap sebagai Basic Attack DMG.\nMengirim target ke dalam Hazy Dream dan menyembuhkan semua Resonator dalam tim.\nMelancarkan skill ini juga dianggap sebagai melancarkan Echo Skill.\nDapat dilancarkan di udara.\n\nAbyssal Rebirth\nSetelah melancarkan Intro Skill, Cantarella memasuki Abyssal Rebirth, yang berlangsung selama 25 detik dan dapat diaktifkan sekali setiap 25 detik.\nSelama durasi ini, hingga 6 kali, ketika Resonator dalam tim melancarkan Echo Skill, Cantarella memulihkan 6 poin Concerto Energy. Echo dengan nama yang sama hanya dapat memicu efek ini sekali.\nSaat berada di air, kecepatan berenang Cantarella meningkat dan biaya STA berkurang.\n\nTrance\n- Cantarella dapat menampung hingga 5 poin Trance.\n- Melancarkan Intro Skill memulihkan 1 poin Trance.\n- Mengenai target dengan Basic Attack Stage 3 memulihkan 1 poin Trance.\n- Melancarkan Resonance Skill Graceful Step memulihkan 1 poin Trance.\n- Melancarkan Resonance Liberation Flowing Suffocation memulihkan 3 poin Trance.\n- Saat berada di dalam air, memulihkan 1 poin Trance setiap 5 detik.\n\nShiver\n- Cantarella dapat menampung hingga 3 poin Shiver.\n- Mengenai target dengan Basic Attack Phantom Sting memulihkan 1 poin Shiver.\n- Ketika Mid-air Attack Abysmal Vortex atau Dodge Counter Shadowy Sweep mengenai target, memulihkan 1 poin Shiver."
+    },
+    "inherent": [
+      {
+        "name": "\"Cure\"",
+        "description": "Meningkatkan Healing Bonus sebesar 20%."
+      },
+      {
+        "name": "\"Poison\"",
+        "description": "Melancarkan Echo Skill memberikan 6%  Havoc DMG Bonus selama 10 detik, yang dapat ditumpuk hingga 2 kali."
+      }
+    ],
+    "intro": {
+      "name": "Cruise",
+      "description": "Ripple\nMenyerang target, memberikan memberikan  Havoc DMG .\nGunakan Basic Attack segera setelah melancarkan skill ini untuk memulai kombo Basic Attack dari Basic Attack Stage 3.\n\nTidal Surge\nSaat berada dalam Mirage, Intro Skill berubah menjadi Tidal Surge, yang memicu 3 Coordinated Attack saat mengenai target, memberikan  Havoc DMG.\nMelancarkan Tidal Surge mereset kombo dari Basic Attack Phantom Sting."
+    },
+    "outro": {
+      "name": "Gentle Tentacles",
+      "description": "Memperkuat  Havoc DMG yang masuk dari Resonator sebesar 20% dan Resonance Skill DMG sebesar 25% selama 14 detik. Beralih Resonator akan mengakhiri efek ini."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Cleansing Conch",
+            "amount": 46
+          },
+          {
+            "item": "LF Polygon Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Polygon Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Polygon Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Polygon Core",
+            "amount": 4
+          },
+          {
+            "item": "Seaside Cendrelis",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "When Irises Bloom",
+          "amount": 26
+        },
+        {
+          "item": "LF Polygon Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Polygon Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Polygon Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Polygon Core",
+          "amount": 57
+        },
+        {
+          "item": "Lento Helix",
+          "amount": 25
+        },
+        {
+          "item": "Adagio Helix",
+          "amount": 28
+        },
+        {
+          "item": "Andante Helix",
+          "amount": 55
+        },
+        {
+          "item": "Presto Helix",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Canta",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Whispers Of Sirens",
+          "value": 301969.95,
+          "percentage": 127.45,
+          "imagePath": ""
+        },
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 276207.42,
+          "percentage": 116.58,
+          "imagePath": ""
+        },
+        {
+          "type": "Stringmaster",
+          "value": 267671.09,
+          "percentage": 112.97,
+          "imagePath": ""
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 236934.77,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Fusion Accretion",
+          "value": 205812.56,
+          "percentage": 86.86,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Canta",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Intro Skill",
+          "value": 2.9,
+          "percentage": 2.9,
+          "imagePath": ""
+        },
+        {
+          "type": "BA",
+          "value": 67,
+          "percentage": 67,
+          "imagePath": ""
+        },
+        {
+          "type": "Resonance Skill",
+          "value": 12.6,
+          "percentage": 12.6,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 6.9,
+          "percentage": 6.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Coor/BA",
+          "value": 10.6,
+          "percentage": 10.6,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Canta",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 792797.27,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 975417.71,
+          "percentage": 123.03,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1193022.13,
+          "percentage": 150.48,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1423357.41,
+          "percentage": 179.54,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Embrace The Endless Waves",
+      "description": "Melancarkan Resonance Skill memulihkan 1 poin Trance. DMG Multiplier dari Resonance Skill Graceful Step, Resonance Skill Flickering Reverie, dan Forte Circuit Perception Drain meningkat sebesar 50%.\nKebal terhadap gangguan saat melancarkan Perception Drain."
+    },
+    {
+      "stage": "S2",
+      "name": "Surrender To The Illusive Reverie",
+      "description": "Resonance Liberation Flowing Suffocation sekarang mengirim target ke dalam Hazy Dream. DMG Multiplier dari Jolt yang dipicu oleh Cantarella meningkat sebesar 245%."
+    },
+    {
+      "stage": "S3",
+      "name": "Gaze Into The Abyss",
+      "description": "DMG Multiplier dari Resonance Liberation Flowing Suffocation meningkat sebesar 370%. Setelah melancarkan Resonance Liberation Flowing Suffocation, masuk ke dalam Mirage Jika sudah berada dalam Mirage, melancarkan Resonance Liberation Flowing Suffocation tidak akan mengaktifkan kembali keadaan Mirage."
+    },
+    {
+      "stage": "S4",
+      "name": "Behold Your Own Soul",
+      "description": "Saat berada dalam Mirage, Healing Bonus meningkat sebesar 25%."
+    },
+    {
+      "stage": "S5",
+      "name": "Rest In Your Reflection",
+      "description": "Jumlah maksimum Dreamweaver yang dapat dipanggil oleh Cantarella melalui Resonance Liberation Diffusion ditingkatkan sebanyak 5."
+    },
+    {
+      "stage": "S6",
+      "name": "Fall, Fall... And Fall Deeper Into The Dream",
+      "description": "Meningkatkan DMG Multiplier dari Basic Attack Phantom Sting sebesar 80%. Melancarkan Resonance Liberation Flowing Suffocation membuat damage Cantarella mengabaikan 30% DEF target selama 10 detik.\n\nSelama 1.2 detik pertama dari Hazy Dream, ketika target menerima satu instansi damage yang tidak mengakibatkan Hazy Dream, Jolt tidak akan dipicu pada target."
+    }
+  ],
+  "lore": {
+    "description": "Pemimpin saat ini dari Fisalia, Cantarella, the Bane. Seorang bangsawan misterius, kecantikannya memikat sekaligus berbahaya. Dia tinggal di sebuah kastil berbentuk mahkota yang terletak di puncak gunung, di mana mimpi-mimpi ilusi mengalir seperti sungai, dirajut dengan teliti oleh tangannya sendiri.\n\nBIRTHPLACE\nRinascita\n\nBIRTHDATE\n18 June",
+    "report": {
+      "resonancePower": "Sea of Dreams",
+      "resonanceEvaluation": "Level: Public\nCatatan Pemeriksaan Rosemary dari Fisalia Apothecary: Edisi Khusus Disetujui oleh Kepala Keluarga\n\nJelas bahwa pemimpin keluarga Fisalia saat ini, Lady Cantarella, mewakili puncak dari keahlian keluarga dalam racun. Merupakan kehormatan besar telah diundang ke kastil untuk melakukan pemeriksaan kesehatannya, serta diberi akses penuh ke taman Kastil Porto-Veno untuk keperluan penelitian.\n\nKemampuan Lady Cantarella adalah bentuk racun halusinogen yang langka, berbeda dari racun mematikan yang lebih umum ditemukan dalam keluarga. Tidak seperti racun pada umumnya, racun ini tidak menyebabkan kematian seketika. Ketika gerombolan ubur-ubur muncul dari payungnya, lautan ilusi yang indah terbentuk di sekelilingnya. Individu yang terkena racun akan terlebih dahulu mengalami halusinasi, mungkin tentang keinginan terdalam mereka atau ilusi yang diciptakan. Jika mereka terlalu lama berada dalam lautan ini, kelumpuhan akan terjadi, diikuti oleh kehilangan kesadaran, dan akhirnya, jika efeknya berlanjut, kematian.\n\nKontrol Lady Cantarella atas kemampuannya sungguh luar biasa. Pada tingkat yang paling halus, dia bisa menimbulkan halusinasi tanpa menyebabkan kerusakan fisik.\n\nWalaupun kekuatan semacam ini adalah pedang bermata dua, sering kali menyebabkan kerugian bagi penggunanya juga, sikap anggun dan tenang Lady Cantarella menunjukkan bahwa dia tidak terlalu terpengaruh oleh \"Mimpi\". Atau begitulah tampaknya… mungkin?\n\nCatatan: Lady Cantarella sangat menyadari kemampuannya. Ini adalah pengecualian yang jarang dia izinkan untuk saya memeriksanya. Sejujurnya, itu membuat saya sedikit gugup… Saya berharap saya tidak membuat kesalahan.",
+      "overclockDiagnostic": "Level: Top Secret\nCatatan Sebastian, Pelayan Fisalia: Manajemen Kesehatan Mental Kepala Keluarga\n\nPengalaman masa kecil, berbagai cobaan, dan penggunaan lama dari keahlian Sea of Dreams telah menyebabkan kerusakan yang tidak dapat diperbaiki pada pikiran dan tubuh Milady.\n\nSaat ini, sebagian dari catatan frekuensinya hilang. Dari kenaikan bentuk gelombang, bagian yang hilang seharusnya curam, mendekati ambang batas Overclocking...\n\nBentuk gelombang yang tersisa menunjukkan bentuk jarang dari divergensi bipolar, dan pada kondisi terburuknya, beberapa bentuk gelombang yang berbeda tampaknya telah muncul:\n\nGelombang α berfluktuasi dengan liar.\n\nGelombang β sangat stabil, tanpa tanda-tanda fluktuasi abnormal.\n\nGelombang γ pendek dalam amplitudo dan tampaknya kurang berkembang.\n\nGelombang δ adalah▇#%/@▇▇\n(*…(@!#￥#…￥▇▇▇▇▇▇%&#%￥#%&￥%▇▇#……%)\n\nKesalahan sistem, peringatan. Kesalahan sistem, tidak dapat dibaca▇▇▇%&#"
+    },
+    "items": [
+      {
+        "name": " Coral Parasol",
+        "description": "Payung yang dibawa oleh Cantarella.\n\nKanopi bulatnya menyerupai ubur-ubur lembut dan montok dengan tentakel panjang nan anggun yang seolah melayang dengan mudah di udara. Tulang rusuk payung itu dibuat dari karang laut dalam, dibentuk dengan teliti menjadi lengkungan sempurna yang bersinar dengan cahaya halus, sekaligus indah dan tak tergoyahkan kuat. Pada pegangan, sebuah safir tertanam, simbol dari otoritas tak tergoyahkan kepala keluarga.\n\nKekerasan tidak pernah menjadi pilihan pertama Cantarella, tetapi ketika terpaksa membela diri, dia hanya memutar payungnya, dan seketika, kanopinya memancarkan cahaya cemerlang. Dari situ, gerombolan ubur-ubur yang memukau terbentang, melayang ke dalam lautan ilusi yang menyeramkan.\n\nMenarik musuh-musuhnya ke dalam lautan mimpi yang memesona namun berbahaya ini adalah seni khas Cantarella. Seperti pemiliknya, payung ini mungkin tampak lembut dan cair, namun ketika dibutuhkan, selalu tidak dapat dihancurkan.",
+        "imageUrl": "/icons/items/cantarella.webp"
+      },
+      {
+        "name": "Cauldron Of Sweet Dreams",
+        "description": "Kuali yang digunakan oleh Cantarella, the Sea Witch, untuk meracik ramuan. Safir yang menghiasinya menandai otoritas Cantarella sebagai kepala keluarga Fisalia.\n\nDia sering membiarkan keinginannya memandu, dengan sembarangan memasukkan bahan-bahan tak terduga, seperti tentakel ubur-ubur, sisik ikan, air mata dari yang patah hati, dan bahkan bisikan yang tertinggal di udara.\n\nApapun yang dia tambahkan, hasilnya selalu berupa pot mimpi manis yang melarutkan kepahitan realitas, dengan lembut menenangkan mereka yang tersesat dalam jurang.",
+        "imageUrl": "/icons/items/cantarella-2.webp"
+      },
+      {
+        "name": "Potion Vial",
+        "description": "\nCantarella selalu membawa botol ramuan ini, dihiasi dengan safir yang secerah yang dia kenakan sebagai tanda otoritasnya. Di dalamnya, dia menyimpan ramuan khusus yang dia siapkan dengan hati-hati untuk mengurangi kelelahan dan menenangkan mimpi buruk.\n\nNamun, sejak kamu membawanya pergi dari Sea of Ghosts, mimpi buruk itu telah berhenti.\n\nKini, botol ini diisi dengan ketulusan dan kelembutan langkanya, seperti cahaya lembut yang menembus jurang, memantulkan bisikan-bisikan lembut yang tersembunyi di ombak yang bergulung. Sekarang, ini menjadi simbol dari kepercayaan yang Cantarella berikan padamu, orang yang telah menavigasi arus gelap dan mencapai kedalaman untuknya.",
+        "imageUrl": "/icons/items/cantarella-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Round Table",
+        "content": "Cahaya menembus kaca patri, memancarkan pola bercak di atas sofa merah tua.\n\nLampu temaram berkedip lembut di ruangan ungu yang berkabut. Di sekitar meja bundar duduk beberapa sosok yang samar. Beberapa bersantai dalam cahaya, yang lain setengah terbenam dalam bayangan. Wanita yang mengatur pertemuan ini, atau setidaknya, berdasarkan posisinya, begitulah tampaknya, berbicara lebih dulu. Dia memiliki rambut panjang berwarna ungu sutra, dan matanya yang indigo, terselubung dalam kabut lembut, memberinya aura ethereal dan seperti mimpi. Bersantai malas di sofa, dia dengan sembarangan bermain dengan liontin safir di dadanya, kebiasaan yang dia nikmati setiap kali tenggelam dalam pikiran.\n\n\"Aku mengumpulkan semua orang hari ini untuk membahas satu hal: di mana kita harus tinggal?\nDi 'Illusory Dream,' atau dalam reality?\"\n\n\"Karena kita telah berkeliaran di tepi mimpi, haruskah kita tetap di sini, dalam ilusi ini, di mana semuanya terasa akrab, ringan dan lembut seperti gelembung?\n\nAtau haruskah kita melangkah maju, ke dalam realitas, di mana kita mungkin menghadapi yang tidak diketahui… tetapi juga melihat pemandangan yang belum pernah kita kenal?\"\n\nSuara malas namun tegas memotong kata-katanya.\n\n\"Betapa lemahnya dirimu, Cantarella. Kamu mungkin kepala keluarga sekarang, tetapi dari apa yang kulihat, kamu jauh dari mampu.\"\n\nSosok muncul dari bayangan, seorang wanita dengan rambut panjang yang mengalir seperti air terjun. Dia mengenakan liontin safir yang sama dan membawa aura anggun yang mirip dengan Cantarella, tetapi dengan bobot pengalaman dan otoritas yang tak bisa disangkal. Matanya yang ungu tua berkilau dengan ketajaman yang tidak terbantahkan.\n\n\"Pertemuan ini tidak ada gunanya. Tuangkan saja 'Velvet Dream' ke air terjun di belakang kastil, dan biarkan seluruh Ragunna jatuh ke dalam mimpi di bawah kendalimu. Dengan begitu, kita akan menjadi ratu di mana pun kita pergi.\"\n\n\"Jawaban tidak valid. Atau, jika kamu bersikeras, itu akan dihitung sebagai suara untuk 'Mimpi Ilusi.' Meskipun terdengar sedikit liar dan tidak praktis, aku tetap akan menuliskannya demi keadilan. Ini adalah diskusi kita, bagaimanapun.\"\n\nSeorang gadis muda yang duduk di samping mereka menjawab, membuka buku catatan penuh coretan aneh. Dia menemukan ruang kecil yang hampir tertimbun di bawah resep ramuan dan dengan serius menggambar garis rapi.\n\n\"Aku abstain,\"\n\nkatanya dengan santai.\n\n\"Diskusi ini mungkin tidak akan mengubah apa pun. Kamu sudah punya jawabannya, bukan?\nBagiku, tidak masalah di mana kita tinggal.\"\n\nDia menutup buku catatan itu dengan lembut dan mengibaskan selendang putihnya. Cahaya menangkap matanya yang biru berkabut.\n\n\"Mengapa kita tidak bisa membuatnya sederhana dan mengikuti kata hati kita?\nCantarella, kamu suka melihat burung di luar jendela dan mendambakan kehidupan yang bebas, bukan?\nMaka lakukan saja apa yang terasa benar,\"\n\nkata yang termuda, berbaring di sofa, tangannya dengan malas mengejar debu yang menari dalam cahaya.\n\n\"Ini adalah keputusan penting dan harus dibahas dengan serius,\"\n\njawab Cantarella, suaranya mengandung sedikit rasa tak berdaya.\n\n\"Mari mulai denganmu. Tolong jelaskan pilihanmu dan alasan di baliknya.\""
+      },
+      {
+        "title": "Thorned Crown",
+        "content": "Mahkota beracun ungu tua, ketika pertama kali diletakkan di dahi, memberikan sengatan tajam. Namun, darah yang merembes dari dahi memberinya nutrisi, membuatnya bersinar semakin terang. Direndam dalam darah dan air mata dari banyak jiwa, mahkota duri beracun ini bangkit dari kedalaman laut, melambangkan mereka yang bekerja diam-diam melawan kekacauan untuk menopang beban bulu ekor Celestial Steed.\n\nBegitulah kejayaan keluarga Fisalia, dan nasibnya yang tak terhindarkan.\n\nNamun, bagaimana dengan setiap anggota keluarga?\nDi laut dalam yang gelap, mereka menderita bisikan yang menggigit, hingga secercah keyakinan sejati di hati mereka memudar, hilang ke dalam jurang. Yang berikutnya untuk mengenakan mahkota akan mengambil tugas, dan siklus berlanjut, tak terputus, tanpa awal atau akhir.\n\nBunga harum namun beracun,\nAir mata racun yang tak berwarna dan tawar,\nOrgan berpilin dan napas beracun,\nNeurotoksin,\nBiotoksin,\nToksin logam…\n\nRacun dan toksin yang sangat dibanggakan oleh Fisalia dan kemampuan yang lahir darinya pada akhirnya akan dilenyapkan oleh bisikan...\nPada akhirnya, mereka hanya berguna ketika digunakan untuk mencari akhir kehidupan, baik untuk Fisalia sendiri atau kerabat mereka.\n\nIni telah lama menjadi norma sampai aku mengembangkan \"Illusory Dream.\"\nKetika mahkota berduri menembus dagingku, darah mengalir dalam warna-warna berkilau yang aneh. Teh hitam yang direndam dalam merkuri terasa seperti nektar kaya yang manis, sedangkan skon yang direndam dalam jus Jellyrose memiliki rasa manis yang lembut. Panas di tenggorokanku terasa membakar, seolah menelan ceri utuh dengan tergesa-gesa, dan sensasi mencekiknya seperti melayang di lautan tak berujung...\nPerlahan, rasa sakitnya memudar, dan tubuh serta pikiran menjadi ringan seperti udara. Botol-botol racun pecah di lantai, dan ekspresi kami berubah lega. Bisikan tidak berdaya di dunia yang ditenun oleh lautan mimpi, karena dengan lembut melarutkan semua ketidakselarasan. Di tengah gelombang warna, mahkota duri yang dulu keras menjadi lembut... Begitu lembut sehingga membentuk lipatan halus, beristirahat ringan di kepalaku. Itu menjadi ringan dan murni, seperti bulu ekor Celestial Steed.\n\nItulah mengapa aku memberikan suaraku untuk \"Illusory Dream.\"\nBagaimanapun, apa salahnya dalam ilusi ini?\nBukankah kita semua telah berkeliaran di sini begitu lama?\nTuangkan \"Velvet Dream\" ke air terjun di belakang kastil, dan biarkan seluruh Ragunna jatuh ke dalam mimpi yang dibentuk oleh tanganku...\nTenang saja, ini hanyalah lelucon. Aku tidak berniat mengendalikan tetapi hanya berharap semua bisa hidup lebih damai.\n\nKau lihat, \"Illusory Dream\" mengalir dalam darah kita, dan suka atau tidak, ini adalah bagian permanen dan tak terpisahkan dari kita."
+      },
+      {
+        "title": "Jellyfish Lamp",
+        "content": "Dalam ruangan yang remang-remang, berat dengan aroma yang aneh, cahaya kuning redup menerangi sebuah buku catatan tua dan kuali yang aneh. Wanita muda yang terbungkus selendang putih itu menulis catatan di buku sambil sembarangan melemparkan bahan-bahan ke dalam kuali. Asap yang naik darinya menggelapkan pakaiannya, meninggalkan bercak hitam dan ungu. Apron yang dulunya bersih kini penuh bercak, tetapi dia mengusap wajahnya dengan sembarangan, tak terganggu oleh kekacauan tersebut.\n\nAir suling, peppermint, biji jarak, daun ikan barnacle, rosemary…\nAromanya segar, toksisitasnya ringan, dengan efek menenangkan dan analgesik. Ini bisa mengobati sindrom Infantile Gray Matter yang baru-baru ini terlihat…\nAku akan menulis resep ini di sebuah catatan kecil dan meninggalkannya untuk Chloe nanti.\n\nRumput Hilo, okra laut, daun ikan barnacle, jus apel laut… Aromanya tidak enak, dan toksisitasnya kuat, meskipun dapat menetralkan beberapa reaksi kelumpuhan saraf.\nHmm, tapi efek sampingnya… Lupakan, aku simpan saja.\n\nGetah okra laut, daun ikan barnacle yang telah dikeringkan dan dihancurkan, sedikit jus apel laut, sedikit jus Jellyrose… Toksisitas Jellyrose terlalu kuat. Efektif, tetapi terlalu berisiko.\n\nHancurkan daun ikan barnacle, siram dengan jus Violacas, campur dengan getah okra laut, tambahkan sedikit jus apel laut, dan biarkan fermentasi dalam botol kaca… Selesai.\nSetelah dikonsumsi, ini menenangkan jiwa dan menetralkan sebagian besar reaksi racun. Aku harus mendistribusikan beberapa kepada semua orang untuk melewati cobaan dalam beberapa hari mendatang. Dan namanya… baiklah, aku akan menyebutnya Velvet Dream.\n\nBahan-bahan, metode pengolahan, urutan persiapan, dan suhu lingkungan…\nTangani setiap langkah pada saat yang tepat, dan aku bisa meramu eliksir sempurna. Aku percaya hal yang sama berlaku untuk kehidupan. Pada saat yang tepat, dengan langkah yang tepat, sebagian besar masalah dapat diselesaikan. Tidak peduli seberapa tidak logis aturan atau seberapa brutal situasinya, selalu ada cara untuk menemukan pendekatan yang tepat.\n\nOleh karena itu, aku melangkah ke dalam kegelapan dengan lampu, menghadapi ketakutanku. Jurang itu mengejekku—tertutup, lemah, tidak mampu beradaptasi. Aumannya yang mengejek bergema melalui koridor, frekuensi terpelintir dari kepala keluarga sebelumnya mengalir maju, menelanku. Serius, kaku, pucat, suram, diam…\nMereka mengenalku terlalu baik, mampu memprediksi setiap gerakanku dan menjebakku dengan mudah.\n\nNamun, tetap saja, aku memainkan trik pertama dan terakhirku ketika aku meminum dosis besar Velvet Dream di muka. Saat duri beracun ubur-ubur menusuk kulitku, aku menekan Jellyrose Medusa ke kepalaku. Toksin-toksin ganas itu bertabrakan dalam pembuluh darahku, hampir merobekku. Jiwaku berguling antara hidup dan mati, di ambang tumpah melalui tenggorokanku yang terbakar. Aku tidak bisa membedakan apakah itu darah, air mata, atau keringat yang bercampur dengan sisa-sisa ramuan… Itu menetes ke lampu yang hampir padam.\n\nSeekor ubur-ubur kecil melayang keluar dari cahaya redup. Ketika aku mengangkat mataku, kegelapan terangkat, dan penglihatanku yang kabur dipenuhi dengan ilusi yang penuh warna dan hidup.\n\nBerhasil.\n\nJadi, seperti yang kukatakan, situasi apa pun dapat diselesaikan dengan langkah yang tepat pada waktu yang tepat, bahkan jika kamu hanya bagian dari proses. Sejak saat itu, aku tetap berada dalam keadaan abadi antara hidup dan mati, antara mimpi dan realitas. Aku sering menangkap sekilas ilusi yang tersisa, seperti gadis dengan topi merah. Siapa dia? Apakah itu aku? Atau orang lain?\nAku tidak bisa mengetahuinya.\n\nBagaimanapun, aku akan abstain dari pemungutan suara. Tidak masalah apakah itu dalam mimpi atau realitas. Aku sudah terbiasa dengan itu, dan aku bisa bertahan di mana saja."
+      },
+      {
+        "title": "Uncaged Bird",
+        "content": "Sejak aku bisa mengingat, aku selalu berada di rumah besar dan kosong itu. Aku akan berjalan dari ujung ke ujung, mengetahui setiap ubin di lantai dan setiap botol ramuan di rak. Rumah itu abu-abu, gelap, dan tenang. Satu-satunya waktu ketika itu terasa hidup adalah ketika seekor burung terbang melewati jendela. Aku akan melihat sayap putihnya bergetar naik dan turun hingga menjadi tidak lebih dari titik kecil di langit. Di luar itu, langit berubah menjadi biru jernih, dan pohon-pohon bersinar hijau cerah. Itu adalah pemandangan yang begitu indah.\n\nSaat itulah aku bertanya-tanya… apa yang terjadi di hutan lebat itu?\nMungkin seorang putri sedang berpetualang.\n\nAku membayangkan seorang putri cerdas yang tahu cara mengenali apel beracun. Ketika seekor ular mengejarnya, seekor burung kecil akan datang menyelamatkannya, membawanya tinggi ke langit. Di sana, dia akan menemukan seorang gadis dengan sepatu merah yang tidak bisa berhenti menari dan menyelamatkannya. Kemudian, mereka akan menyelam ke laut untuk menyelamatkan seorang siren yang hampir berubah menjadi busa. Akhirnya, burung itu akan membawa mereka semua, terbang sejauh mungkin hingga tidak bisa terbang lagi, akhirnya mendarat di sebuah kastil… Tetapi bagaimana kastil itu?\nAku hanya berharap itu tidak seperti rumah besar tempat aku tinggal—besar dan membosankan.\n\nMaaf, itu mungkin terdengar berantakan, bukan?\nYah… Ibu dan Ayah selalu mengatakan bahwa gadis-gadis dari keluarga Fisalia tidak perlu membaca dongeng konyol atau memiliki ide aneh seperti itu. Kami seharusnya membaca buku—buku seperti Panduan Lengkap Resep Racun, Ramuan Rahasia Keluarga Fisalia, dan 108 Racun yang Belum Pernah Kamu Ketahui. Mereka menarik, tetapi setelah membacanya terlalu sering, mereka menjadi membosankan.\n\nNamun, Ibu dan Ayah bersikeras agar aku menghafal semuanya sehingga suatu hari, aku bisa menyelamatkan diriku sendiri, atau mungkin bahkan menjadi Seorang Gadis atau pemimpin keluarga. Itu terdengar seperti tanggung jawab besar. Aku belum benar-benar memahaminya, tetapi aku melakukan apa yang mereka katakan.\n\nMereka selalu sibuk, selalu bergegas. Setiap kali mereka pergi, mereka mengunci pintu dengan ekstra ketat dan memeriksanya berulang kali. Aku tidak pernah mengerti mengapa mereka menjadi semakin sibuk dan kurus. Dan mengapa mereka minum begitu banyak \"air\" dan bergumam kata-kata aneh?\n\nAku belajar mengucapkan kata-kata itu juga:\n\n\"Ini adalah kejayaan dan takdir Fisalia.\"\n\nAkhirnya, aku tumbuh dewasa dan harus pindah ke rumah yang berbeda. Ketika aku pergi, Ibu dan Ayah tampak bangga, tetapi mata mereka penuh air mata.\n\n\"Memang, tuan, anak kita memiliki bakat besar, terutama dalam meramu racun.\"\n\"Ya, menjadi calon untuk ujian adalah kejayaan dan takdir Fisalia.\"\n\nItu adalah pertama kalinya aku meninggalkan rumah. Saat aku melangkah keluar, langkah kakiku mengejutkan burung gagak yang bertengger di pohon mati dekat gerbang. Mereka mengepakkan sayap hitam mereka dan terbang menuju kastil yang aneh di kejauhan.\n\nOh, maaf, aku keluar jalur lagi. Yang ingin aku katakan adalah...\nsetelah begitu lama terbang melalui mimpi, kamu mulai merindukan perasaan kakimu di tanah. Tentu, kamu mungkin melangkah ke lumpur atau tertusuk batu tajam, tetapi ada sesuatu yang menenangkan tentang mengambil setiap langkah di bumi yang kokoh.\n\nJadi, ketika tiba saatnya untuk memilih, aku memilih realitas—Sisi Lain dari Mimpi, seperti yang orang dewasa suka menyebutnya. Mereka selalu menggunakan istilah-istilah mewah seperti itu. Tetapi jauh di dalam hati, kamu sudah tahu apa yang benar-benar diinginkan hatimu, bukan? Bukan hanya dalam mimpi, tetapi dalam kenyataan juga. Kamu bisa membuka pintu, melangkah keluar, dan pergi bersama semua orang. Terbanglah bersama burung-burung putih dan kejar akhir bahagia untuk semua orang.\n\n"
+      },
+      {
+        "title": "Lucid Dream",
+        "content": "Di ruangan ungu berkabut, suara-suara menyatu—agung dan memikat, dingin dan tegas, serta tulus dan polos. Mereka saling berjalin, membentuk simfoni yang seperti mimpi. Cahaya safir berkilau dengan otoritas yang tenang, halaman-halaman buku bergemerisik lembut, dan aroma kue yang baru dipanggang bercampur dengan kehangatan ruangan, menciptakan suasana manis yang ethereal.\n\nCantarella mengangkat teko yang halus dan menuangkan teh, sebuah perubahan dari biasanya. Tidak lagi warna ungu yang memikat, tetapi secangkir teh dengan kejernihan yang menyegarkan.\n\n\"Terima kasih atas pendapat berharga kalian,\"\n\nkatanya sambil meletakkan teko. Aroma segar memenuhi ruangan.\n\n\"Sekarang, aku telah mengambil keputusan.\"\n\n\"Aku akan terus mengenakan mahkota duri, karena racun telah menyusup jauh ke dalam tulang-tulangku, dan mimpi adalah bagian dari diriku yang tak bisa kuhilangkan.\"\n\n\"Aku akan tetap meramu ramuan, karena mereka dibutuhkan tidak hanya oleh Fisalia, tetapi oleh semua yang sedang berjuang.\"\n\n\"Aku akan melangkah keluar dan mengikuti penerbangan burung, ke pegunungan dan jalan-jalan. Bisikan yang pernah menjebak kita telah hilang, dan sekarang kita bebas.\"\n\n\"Aku masih berada dalam mimpi, tetapi aku akan berusaha merasakan tanah di bawah kakiku… Dalam momen singkat antara mimpi dan kenyataan, aku akan berpegang pada apa yang nyata.\"\n\nCantarella menarik napas dalam-dalam, perlahan membuka matanya. Dia baru saja terbangun dari tidur siang singkat, melangkah keluar dari mimpi yang samar namun nyata. Sinar matahari pukul tiga sore menembus jendela kaca, memancarkan cahaya tenang di atas sosoknya yang sepi di ruangan itu. Satu-satunya suara yang tersisa adalah gemericik lembut teh dan napasnya yang teratur.\n\nDia mengambil cangkirnya dan menyesapnya. Aroma segar itu menenangkan Tacet Mark yang gelisah di mulutnya. Itu tak lagi menarik kekuatan dari ilusi atau rasa sakit. Ini adalah teh yang dibelinya pagi ini di Ragunna, hanya teh biasa. Rasa manisnya yang lembut dan aroma halusnya mengingatkannya pada angin sepoi-sepoi di pedesaan, pada tetesan embun yang menggantung di daun segar…\n\nJadi, inilah rasa damai dan kebahagiaan setelah semuanya berakhir.\n\nPintu berderit terbuka. Dia menuangkan secangkir lagi dan menawarkannya kepada tamu yang baru saja tiba. Tamu tersebut berambut hitam dan bermata emas, menghadirkan ketenangan dan kekuatan yang tak tergoyahkan yang menguatkan ruangan. Sore yang tenang dan damai ini adalah keajaiban yang diberikan oleh tidak lain dari Rover.\n\nSinar matahari lembut menyentuh ruangan, dan aroma segar bertahan di antara mereka, memenuhi ruang di sekitar dua cangkir teh. Dia mengangkat matanya yang ungu-biru, kabut telah lama pudar, tatapannya kini seperti laut yang tenang, dengan hanya riak perasaan lembut."
+      }
+    ],
+    "specialFood": {
+      "name": "Homemade Panini",
+      "description": "Meningkatkan Energy Regen dari semua Resonators dalam tim sebesar 28% selama 30 menit. Hanya efektif pada Resonators milikmu sendiri dalam mode Co-op.",
+      "imageUrl": "/icons/food/cantarella.webp"
+    }
+  }
+}

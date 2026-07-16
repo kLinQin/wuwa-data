@@ -1,0 +1,499 @@
+{
+  "name": "Jinhsi",
+  "element": "Spectro",
+  "weapon": "Broadblade",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer",
+    "Resonance Skill DMG"
+  ],
+  "sonatas": [
+    "Celestial Light"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "City Hall",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Congenital",
+  "image": "/characters/jinhsi.webp",
+  "imageBanner": "/banners/jinhsi-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "100-120%+",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Jué"
+    ],
+    "bestWeapon": "Ages of Harvest",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS",
+          "echoSlug": "jue",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: spectro%",
+            "3: spectro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Celestial Light"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ],
+      "note": "Gunakan 1x Spectro DMG Bonus + 1x ATK% jika kalian memiliki Ages of Harvest yang terpasang.\nJinhsi adalah salah satu dari sedikit karakter yang dapat menjalankan 44111 alih-alih 43311 tradisional karena adanya Attribute DMG pada signature weapon miliknya dan sequence selanjutnya. Jika SOR1, hal ini hanya 3% lebih buruk daripada 43311 (ELE/ATK)."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "ages-of-harvest",
+        "rank": "",
+        "percentage": "121"
+      },
+      {
+        "id": "verdant-summit",
+        "rank": "",
+        "percentage": "107"
+      },
+      {
+        "id": "radiance-cleaver",
+        "rank": "",
+        "percentage": "-"
+      },
+      {
+        "id": "lustrous-razor",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "autumntrace",
+        "rank": "",
+        "percentage": "86"
+      },
+      {
+        "id": "helios-cleaver",
+        "rank": "",
+        "percentage": "86"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Skill(Swap)",
+          "Intro",
+          "[E]Skill(Swap)",
+          "[F]BA12",
+          "[F]Skill(Swap)",
+          "[F]BA34",
+          "Echo",
+          "Ult",
+          "[E][F]Skill",
+          "BA1234",
+          "[E]Skill",
+          "[F]BA123",
+          "[F]Skill",
+          "[F]BA4",
+          "[E][F]Skill",
+          "Outro"
+        ]
+      },
+      {
+        "title": "Quickswap",
+        "steps": [
+          "Echo+Skill(Swap)",
+          "Intro",
+          "[E]Skill(Swap)",
+          "[F]BA12",
+          "[F]Skill(Swap)",
+          "[F]BA3",
+          "Ult",
+          "[F]BA4",
+          "[E][F]Skill",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Hypercarry - Jinhsi",
+        "members": [
+          [
+            "Jinhsi"
+          ],
+          [
+            "Zhezhi",
+            "Cantarella",
+            "Yuanwu"
+          ],
+          [
+            "Shorekeeper",
+            "Buling",
+            "Verina"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "Quickswap - Jinshi",
+        "members": [
+          [
+            "Jinhsi"
+          ],
+          [
+            "Brant",
+            "Changli",
+            "Xiangli Yao"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": ""
+      }
+    ],
+    "teamNote": "Jinhsi's Premium Team\nZhezhi memberikan Res. Skill DMG Amplify, Coordinated ATKs, dan Res. Energy Regeneration, memungkinkan Jinhsi untuk menggunakan Liberation secara konsisten. Oilihan alternatif untuk Res. Skill Amplify mencakup Brant, Cantarella, Lumi, Buling, atau Taoqi.\n\nJinhsi's Budget / Accessible Team\nVerina mengenakan Moonlit Clouds, dan Yuanwu mengenakan Rejuvenating Glow + Originite: Type IV sebagai senjatanya.\nConcerto gen milik Yuanwu jauh terlalu lambat baginya untuk mengenakan Moonlit Clouds.\n\n"
+  },
+  "skills": {
+    "basic": {
+      "name": "Slash Of Breaking Dawn",
+      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut, memberikan  Spectro DMG.\n\nHeavy Attack\nMengonsumsi STA untuk melakukan serangan terisi, memberikan  Spectro DMG.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack dari udara, memberikan  Spectro DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk melakukan counterattack, memberikan  Spectro DMG."
+    },
+    "skill": {
+      "name": "Trailing Lights Of Eons",
+      "description": "Berlari ke depan dan melakukan serangan berturut-turut yang memberikan  Spectro DMG.\n\nOverflowing Radiance\nSetelah menggunakan Basic Attack 4 atau saat tidak dalam Incarnation, jika Intro Skill Loong's Halo digunakan, Resonance Skill Overflowing Radiance akan tersedia selama 5 detik.\nOverflowing Radiance memberikan  Spectro DMG dan mengaktifkan Incarnation.\nBisa digunakan di udara."
+    },
+    "liberation": {
+      "name": "Purge Of Light",
+      "description": "Mengeluarkan kekuatan pemanggilan untuk memberikan  Spectro DMG.\nBisa digunakan di udara."
+    },
+    "forte": {
+      "name": "Luminal Synthesis",
+      "description": "Incarnation\nSaat dalam Incarnation:\n- Basic Attack berubah menjadi Incarnation - Basic Attack, melakukan hingga 4 serangan berturut-turut yang memberikan  Spectro DMG (dihitung sebagai Resonance Skill DMG). Urutan serangan tidak akan di-reset. Bisa digunakan di udara.\n- Resonance Skill berubah menjadi Crescent Divinity, memberikan  Spectro DMG Bisa digunakan di udara.\n- Heavy Attack berubah menjadi Incarnation - Heavy Attack, menyerang musuh di udara dengan STA cost, memberikan  Spectro DMG.\n- Dodge berubah menjadi Incarnation - Dodge, bisa digunakan berkali-kali di udara dengan STA cost.\n- Dodge Counter berubah menjadi Incarnation - Dodge Counter, memberikan  Spectro DMG. Bisa digunakan di udara.\n\nResonance Skill – Illuminous Epiphany\nSetelah Stage 4 dari Incarnation - Basic Attack, Incarnation berakhir, dan Jinhsi mendapatkan Ordination Glow.\nBisa digunakan di udara.\nOrdination Glow:\n- Basic Attack berubah menjadi Incarnation - Heavy Attack, menyerang musuh di udara dengan STA cost, memberikan  Spectro DMG.\n- Resonance Skill berubah menjadi Illuminous Epiphany, menembakkan Solar Flare yang meledak sebagai Stella Glamor setelah sedikit delay, memberikan  Spectro DMG.\nMengonsumsi hingga 50 Incandescence, setiap Incandescence meningkatkan DMG Multiplier Stella Glamor.\nBisa digunakan di udara.\n- Setelah menggunakan Illuminous Epiphany, Jinhsi mendapatkan Unison (1 kali setiap 25 detik).\n\nUnison\nSaat Jinhsi memiliki Unison, mengganti ke Resonator lain akan menghapus Unison Jinhsi untuk mengaktifkan Outro Skill Jinhsi dan Intro Skill Resonator yang masuk.\nUnison akan dikonsumsi terlebih dahulu sebelum Concerto Energy saat Concerto Energy sudah penuh.\n\nIncandescence\nMaksimal 50 Incandescence.\nSaat Jinhsi ada di tim, semua Resonator mendapatkan Eras in Unity, \nEras in Unity memberikan 2 efek independen:\n- Jinhsi mendapatkan 1 Incandescence setiap kali Resonator dalam tim memberikan Attribute DMG.\nEfek ini bisa dipicu maksimal 1 kali setiap 3 detik oleh damage dari Attribute yang sama.\n- Jinhsi mendapatkan 2 Incandescence setiap kali Resonator dalam tim memberikan damage dengan Coordinated Attacks. Efek ini bisa dipicu maksimal 1 kali setiap 3 detik oleh Coordinated Attacks dari Attribute yang sama."
+    },
+    "inherent": [
+      {
+        "name": "Radiant Surge",
+        "description": "+20%  Spectro DMG Bonus."
+      },
+      {
+        "name": "Converged Flash",
+        "description": "DMG Multiplier dari Intro Skill Loong's Halo meningkat 50%."
+      }
+    ],
+    "intro": {
+      "name": "Loong'S Halo",
+      "description": "Menyerang musuh, memberikan  Spectro DMG."
+    },
+    "outro": {
+      "name": "Temporal Bender",
+      "description": "Menggunakan kekuatan Sentinel, meningkatkan efektivitas Eras in Unity, memungkinkan Incandescence didapat lebih cepat (1 kali setiap 1 detik selama 20 detik)."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Elegy Tacet Core",
+            "amount": 46
+          },
+          {
+            "item": "LF Howler Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Howler Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Howler Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Howler Core",
+            "amount": 4
+          },
+          {
+            "item": "Loongs Pearl",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Sentinel's Dagger",
+          "amount": 26
+        },
+        {
+          "item": "LF Howler Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Howler Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Howler Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Howler Core",
+          "amount": 57
+        },
+        {
+          "item": "Waveworn Residue 210",
+          "amount": 25
+        },
+        {
+          "item": "Waveworn Residue 226",
+          "amount": 28
+        },
+        {
+          "item": "Waveworn Residue 235",
+          "amount": 55
+        },
+        {
+          "item": "Waveworn Residue 239",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Jinhsi",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Ages Of Harvest",
+          "value": 961455.48,
+          "percentage": 120.93,
+          "imagePath": ""
+        },
+        {
+          "type": "Verdant Summit",
+          "value": 853011.72,
+          "percentage": 107.29,
+          "imagePath": ""
+        },
+        {
+          "type": "Lustrous Razor",
+          "value": 795020.87,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Waning Redshift R5",
+          "value": 688795.54,
+          "percentage": 86.64,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Jinhsi",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 2.2,
+          "percentage": 2.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 76.4,
+          "percentage": 76.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 14.5,
+          "percentage": 14.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 3.3,
+          "percentage": 3.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro Skill",
+          "value": 3.6,
+          "percentage": 3.6,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Jinhsi",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 961455.48,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 1061592.11,
+          "percentage": 110.42,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1061592.11,
+          "percentage": 110.42,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1391244.69,
+          "percentage": 144.7,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Abyssal Ascension",
+      "description": "Saat menggunakan Incarnation - Basic Attack atau Resonance Skill Crescent Divinity, Jinhsi mendapatkan Herald of Revival (maks. 4 stack, durasi 6 detik).\n\nSaat menggunakan Illuminous Epiphany, Herald of Revival dikonsumsi, setiap stack meningkatkan Illuminous Epiphany DMG sebesar 20%."
+    },
+    {
+      "stage": "S2",
+      "name": "Chronofrost Repose",
+      "description": "Jika Jinhsi keluar dari pertempuran selama 4 detik, dia memulihkan 50 Incandescence (1 kali setiap 4 detik)."
+    },
+    {
+      "stage": "S3",
+      "name": "Celestial Incarnate",
+      "description": "Setelah menggunakan Intro Skill Loong's Halo, Jinhsi mendapatkan Immortal's Descendancy (maks. 2 stack, durasi 20 detik).\nSetiap stack meningkatkan ATK sebesar 25%."
+    },
+    {
+      "stage": "S4",
+      "name": "Benevolent Grace",
+      "description": "Setelah menggunakan Resonance Liberation Purge of Light atau Resonance Skill Illuminous Epiphany, semua Resonator di sekitar mendapatkan +20% Attribute DMG Bonus selama 20 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Frostfire Illumination",
+      "description": "DMG Multiplier dari Resonance Liberation Purge of Light meningkat 120%."
+    },
+    {
+      "stage": "S6",
+      "name": "Thawing Triumph",
+      "description": "DMG Multiplier dari Resonance Skill Illuminous Epiphany meningkat 45%, dan tambahan DMG Multiplier dari konsumsi Incandescence meningkat 45%."
+    }
+  ],
+  "lore": {
+    "description": "Sebagai Magistrate Jinzhou, Jinhsi adalah sinar matahari di musim dingin—hangat, lembut, namun penuh keteguhan. Sebagai Resonator yang Dipilih oleh Sentinel, ia menunjukkan kerendahan hati dan sepenuh hati mengabdikan dirinya untuk membimbing rakyatnya menuju masa depan yang gemilang.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n06 Maret\n\nADDITIONAL TITLES\nMadam Magistrate",
+    "report": {
+      "resonancePower": "Thawborn Renewal",
+      "resonanceEvaluation": "Dasar Evaluasi: [Resonance Assessment 2100-G]\n\nWaktu pasti Awakening dari Resonator Jinhsi masih belum jelas. Tanda-tanda Awakening sudah muncul sejak dia kecil, menciptakan resonansi yang kuat dengan Sentinel Jué.\n\nTanda Tacet Mark milik Jinhsi terletak di bagian tengah punggungnya, menjadi ciri khasnya yang unik. Saat mengaktifkan Resonance Ability, kristal berbentuk tanduk Loong muncul di atas kepalanya.\n\nDengan bakat uniknya, Jinhsi bisa memanipulasi cahaya untuk menciptakan proyeksi holografik yang meniru Sentinel Jué, menunjukkan kekuatan yang setara dengan kemampuan Sentinel itu sendiri.\n\nData observasi menunjukkan bahwa kemampuan Resonance miliknya memiliki potensi pertumbuhan yang luar biasa. Kemampuan ini, jika mencapai puncaknya, bisa membuka kemungkinan yang luar biasa—yakni pergeseran waktu.\n\nAnalisis mendalam terhadap Resonance Spectrum Pattern Jinhsi mengungkapkan kemiripan mencolok dengan milik Sentinel Jué. Pengujian ketat menunjukkan reaksi Syntony yang sangat kuat. Meskipun begitu, pemicu pasti dari Awakening Jinhsi tetap menjadi misteri karena posisi spesial Sentinel.\n\nAnalisis sampel uji menunjukkan bahwa Rabelle's Curve milik Jinhsi bersifat non-konvergen dengan gelombang periodik yang jelas, yang mengklasifikasikan dirinya sebagai Congenital Resonator.",
+      "overclockDiagnostic": "Grafik gelombang Resonator Jinhsi menunjukkan fluktuasi elips. Pola Time Domain tetap stabil tanpa adanya gelombang abnormal.\n- Kritikal Resonansi: Sangat tinggi. Frekuensi Resonator Jinhsi menunjukkan stabilitas yang luar biasa. Hampir bisa dipastikan bahwa dia tidak berisiko mengalami Overclocking.\n- Riwayat Overclocking: Tidak ada.\n\nPemeriksaan rutin tetap disarankan, namun untuk saat ini, konseling psikologis dianggap tidak diperlukan."
+    },
+    "items": [
+      {
+        "name": "Loong Buns",
+        "description": "Sepiring Loong Buns buatan Jinhsi sendiri, masing-masing memiliki warna merah muda dengan taburan gula bubuk bunga osmanthus.\nSetiap Loong Bun memiliki isian yang berbeda: krim custard, pasta biji teratai, atau pasta kacang manis...\n\n\n\"Tamu kehormatan kita sudah menunggu di ambang pintu... Kira-kira rasa apa yang akan mereka pilih?\"",
+        "imageUrl": "/icons/items/jinhsi-1.webp"
+      },
+      {
+        "name": "To-Do List",
+        "description": "Sebagai Magistrate di Jinzhou, Jinhsi selalu disibukkan dengan pekerjaannya. Dari urusan militer hingga pertahanan kota dan keamanan masyarakat, semuanya ada di tangannya. City Hall selalu dipenuhi dokumen yang harus ditangani, tetapi dokumen saja tidak cukup untuk membantunya mengambil keputusan yang tepat.\n\nJinhsi lebih suka turun langsung dan mendengarkan kebutuhan rakyatnya. Untuk mempermudah, dia meminta Xiangli Yao untuk membuat daftar tugas elektronik yang bisa diakses kapan saja, sehingga dia bisa meninjau dokumen sambil menyelesaikan tugas lainnya.",
+        "imageUrl": "/icons/items/jinhsi-2.webp"
+      },
+      {
+        "name": "Loong Scale",
+        "description": "Sejak kecil, Jinhsi sering mengalami mimpi buruk.\nPernah suatu kali, dia bermimpi sedang tenggelam, terseret arus, dan hampir terjatuh ke dasar laut. Sebuah kayu apung melintas, dan dia meraihnya, lalu berhasil kembali ke daratan meski harus melawan arus.\n\nSaat terbangun, dia masih menggenggam sesuatu—sebuah sisik. Jika diperhatikan lebih dekat, sisik itu sangat mirip dengan yang ada di tubuh Sentinel...",
+        "imageUrl": "/icons/items/jinhsi-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Her Leadership",
+        "content": "Jinzhou, yang terletak di perbatasan, sering kali dikaitkan dengan gambaran tanah tandus dan pegunungan gersang.\n\nDulu, seorang pedagang ditugaskan untuk melakukan perjalanan ke Jinzhou.\n\n\"Aku sedang tidak sehat,\"\n\nkatanya langsung menolak.\n\n\"Aku pasti mati di tengah jalan kalau ke sana.\"\n\nRekannya tersenyum dan menjawab,\n\n\"Kamu akan tahu sendiri seperti apa tempat itu setelah melihatnya langsung.\"\n\nDengan setengah hati, keduanya memulai perjalanan ke Jinzhou. Mereka melewati tanah tandus tak berujung dan hutan lebat yang penuh bahaya, hingga akhirnya tiba di tempat yang indah, dikelilingi pegunungan hijau dan air yang jernih.\n\nDi ujung jalan setapak, berdiri gerbang kota yang megah. Para prajurit yang berjaga menyambut mereka dengan ramah, mengizinkan mereka masuk setelah pemeriksaan dokumen singkat.\n\nSaat mereka memasuki kota, pemandangan yang hidup dan ramai terbentang di depan mata. Berlawanan dengan harapan mereka, Jinzhou bukanlah kota sepi yang suram, melainkan pusat aktivitas yang sibuk. Bangunan-bangunan yang tertata rapi, kolam-kolam yang dipenuhi ikan koi berwarna-warni, serta suasana yang menyaingi keindahan daerah pedalaman. Terhanyut dalam atmosfer kota, mereka mencicipi Kungfu Tea di Liuxian Teahouse, menikmati hidangan khas di Panhua's Restaurant, dan menyaksikan pertunjukan di Jinzhou Theater. Dengan setiap pengalaman, rasa lelah mereka perlahan menghilang, digantikan oleh semangat yang membara dan kehangatan penduduk Jinzhou.\n\n\"Tak bisa dipercaya! Siapa sangka kota di perbatasan bisa berkembang seperti ini? Rasanya seperti utopia. Pasti butuh usaha luar biasa untuk membangun tempat seindah ini.\"\n\n\"Magistrate kami selalu mengajarkan pentingnya kerja keras. Tidak peduli keadaanmu, dengan tekad dan usaha, kamu bisa mencapai impianmu. Jadi, meski harus menghadapi gunung yang tandus dan Tacet Discords, kami tetap membangun rumah kami dan menikmati hidup sebelum kesulitan melanda.\"\n\n\"Luar biasa, kalian berhasil melakukannya. Pasti tidak mudah, tapi kalian tetap bertahan. Sangat mengesankan.\"\n\n\"Sebenarnya tidak sesulit itu dengan Magistrate hebat yang memimpin kami. Kami hanya mengikuti arahannya, dan dia mengurus semuanya di sini.\"\n\n\"Dia pasti sangat bijaksana dan berpengalaman, ya?\"\n\n\"Tidak juga, dia masih muda, usianya baru belasan tahun!\"\n\n\"Belasan tahun?!\""
+      },
+      {
+        "title": "Her Wish-Granting Magic",
+        "content": "Saat Jinhsi diangkat menjadi Magistrate Jinzhou, dia masih sangat muda dan belum berpengalaman. Penduduk Jinzhou menaruh kepercayaan pada keputusannya, tetapi dia sadar bahwa itu bukan hanya karena dirinya, melainkan juga karena perannya sebagai Resonator dari Sentinel yang membuat mereka percaya.\n\nMenerima tanggung jawab besar ini, Jinhsi bertekad untuk membawa Jinzhou menuju masa depan yang lebih baik, meskipun awalnya penuh tantangan. Dia memahami bahwa kepercayaan harus diperoleh melalui kerja keras dan dedikasi.\n\nNamun, lebih dari sekadar skeptisisme orang-orang, hal yang paling mengusiknya adalah kelelahan yang terpancar di wajah mereka—kelelahan akibat beratnya hidup dan hilangnya harapan.\n\nDia menyadari bahwa di luar masalah nyata seperti kekurangan bahan dan ancaman eksternal, tantangan terbesarnya adalah mengembalikan harapan dan keyakinan rakyat Jinzhou, yang telah dilumpuhkan oleh kesulitan hidup.\n\nDi saat-saat seperti itu, yang paling dibutuhkan penduduk adalah sumber harapan yang dapat diandalkan, tidak peduli siapa yang menyediakannya.\n\nDalam sebuah acara rekonstruksi, Jinhsi menciptakan sebuah \"keajaiban\" yang dikenal sebagai \"Sentinel Granting Wishes.\" Desa terpencil itu telah lama dihantui oleh anomali cuaca.\nMeskipun Tacet Discords telah menghilang, desa itu masih mengalami suhu ekstrem dan kegelapan yang terus-menerus.\n\nJinhsi meminta penduduk desa untuk mengungkapkan harapan mereka. Awalnya, suasana sunyi mencekam, hingga seseorang bersin dan suara ragu-ragu terdengar,\n\n\"Dingin sekali… Aku berharap tempat ini bisa sedikit lebih hangat.\"\n\nBerdiri di tengah kerumunan, Jinhsi menggenggam Loong Scale, menutup matanya, dan mengangguk,\n\n\"Aku akan menyampaikan harapan kalian kepada Sentinel.\"\n\nSesaat setelah dia berbicara, tanduk Loong muncul di kepalanya, dan cahaya yang menyerupai Sentinel menembus awan gelap. Salju yang menutupi tanah mulai mencair dalam sekejap, dan desa itu kembali hidup.\n\nMelihat pemandangan itu, orang-orang berseru,\n\n\"Sentinel... Sentinel telah menunjukkan dirinya!\"\n\nMereka menatap cahaya berbentuk Loong dengan penuh kekaguman, sementara harapan kembali bersinar di mata mereka.\n\nBerita tentang kemampuan Magistrate muda dalam mengabulkan permintaan menyebar dengan cepat di Jinzhou. Berharap menjadi kebiasaan, dengan orang-orang mengajukan permohonan di City Hall. Jinhsi membaca setiap permohonan dengan saksama dan merancang strategi untuk mewujudkannya.\n\n\"Yang terhormat Magistrate, aku khawatir Tacet Discords akan menyusup ke kota kami.\"\n\n—Taoqi, direktur Defense Division, kemudian diperintahkan untuk memperkuat tembok pertahanan kota.\n\n\"Yang terhormat Magistrate, aku berdoa agar ayahku kembali dengan selamat dan perang segera berakhir.\"\n\n—Jinhsi memprioritaskan penelitian tentang senjata Tacetite dan rekayasa material, mendorong pengembangan senjata baru dan peningkatan pertahanan yang lebih cepat.\n\n\"Yang terhormat Magistrate, ada Exiles yang terlihat di kota. Aku takut.\"\n\n—Jinhsi memperluas Patrol Stations, menambah jumlah Patrollers, dan menugaskan lebih banyak Midnight Rangers untuk berjaga di luar kota.\n\nDalam waktu tiga tahun, tembok pertahanan kota diperbarui, senjata baru diciptakan, dan Tacet Discords berhasil diusir. Jinzhou akhirnya mencapai masa damai dan kemakmuran.\n\nSeiring waktu, orang-orang mulai menyadari bahwa \"Sentinel Granting Wishes\" hanyalah sebuah kebohongan putih dari Magistrate muda mereka.\n\nNamun, mereka juga melihat dedikasinya yang tulus dalam menangani setiap masalah mereka, selalu hadir dengan cepat ketika dibutuhkan.\n\nLampu di City Hall tak pernah padam, bahkan di hari libur. Jinhsi bekerja tanpa kenal lelah hingga tengah malam, menyusun rencana yang dapat mewujudkan harapan rakyatnya.\n\nDan akhirnya, mereka menyadari bahwa dia memiliki kekuatan yang luar biasa—tanpa Loong Scale, dia bisa memanggil cahaya yang menembus es dan mengubah arus waktu.\n\n...\n\nHari ini, membuat permohonan telah menjadi kebiasaan bagi penduduk Jinzhou, sebuah perjanjian tak terucapkan antara mereka dan Magistrate muda mereka.\n\n\"Yang terhormat Magistrate, semoga Anda bisa beristirahat sejenak dan menonton pertunjukan terbaru kami.\"\n\nItulah permohonan terakhir tahun itu.\n\nSambil tersenyum, Jinhsi menutup berkas di tangannya, bersandar di jendela kantornya, dan mendengarkan nyanyian merdu dari Jinzhou Theater, di mana drama terbaru \"Loong Maiden and Wishes\" sedang dipentaskan."
+      },
+      {
+        "title": "Her Kindness",
+        "content": "Dalam situasi apa pun, Jinhsi selalu menyapa semua orang dengan senyuman lembutnya, memberikan ketenangan,\n\n\"Masih banyak yang harus kita lakukan, tapi jangan khawatir, aku ada di sini untuk membimbing kalian melewatinya.\"\n\nDulu, saat Tacet Discords menghancurkan daratan, para prajurit berjuang mati-matian mempertahankan setiap jengkal tanah. Setiap perpisahan dengan orang terkasih yang berangkat ke medan perang terasa seperti perpisahan terakhir, menanamkan ketakutan mendalam di hati rakyat.\n\nMelihat keputusasaan dan kesedihan di mata rakyatnya, Jinhsi yang baru diangkat sebagai Magistrate merasa tidak sanggup menambah beban penderitaan mereka. Dia sadar bahwa menunjukkan kesedihannya hanya akan meruntuhkan kepercayaan dan harapan yang susah payah mereka bangun di tengah kesulitan.\n\nKarena itu, dia tidak pernah membiarkan secuil keputusasaan terlihat, selalu tampil tenang dan kuat.\n\nNamun, Jinhsi paham bahwa senyuman dan kelembutan saja tidak cukup. Tanpa hasil nyata, tindakannya bisa dianggap tidak tulus atau seolah menutup mata terhadap penderitaan rakyatnya. Maka, dia memutuskan untuk menjadi Magistrate yang proaktif, terus bekerja keras demi menyelesaikan masalah dan mengarahkan rakyatnya menuju kehidupan yang lebih bahagia dan damai.\n\nSaat para Midnight Rangers berjuang melindungi Jinzhou di luar tembok kota,\nada pertempuran lain yang tak kalah berat berlangsung di dalam kota: pertarungan melawan kekhawatiran dan duka keluarga para prajurit.\n\nTanpa komunikasi real-time akibat gangguan dari Tacet Fields, keluarga prajurit dilanda kecemasan yang mengganggu kehidupan sehari-hari mereka. Menyadari hal ini, Jinhsi berkolaborasi dengan Ministry of Development dan Lollo Logistics untuk mengadakan layanan pengiriman kilat. Surat-surat dari medan perang dikirimkan secara gratis ke keluarga prajurit,\nsementara Ministry of Development membangun jalur pintas untuk mempercepat transportasi. Hal ini sedikit mengurangi kecemasan keluarga yang menanti kabar orang terkasih mereka.\n\nMasalah lain yang lebih menyakitkan adalah menghibur keluarga yang kehilangan anggota keluarga di medan perang. Jinhsi bekerja sama dengan Ministry of War dan Ministry of Development untuk merancang solusi yang menghormati para pahlawan yang gugur.\n\nSebagai bentuk penghormatan, kompensasi keluarga ditingkatkan, dan Knell Square dibangun sebagai dinding kenangan. Tablet nama para prajurit terbuat dari bijih terbaik yang tahan cuaca, agar nama mereka tetap dikenang selama berabad-abad. Meskipun Midnight Rangers berjuang bukan demi kehormatan, pengorbanan mereka layak dihargai. Knell Square menjadi tempat di mana keluarga bisa mengenang dan menemukan penghiburan di tengah kehilangan mereka.\n\nDalam semua usahanya ini, Jinhsi selalu memimpin dengan memberi contoh. Setiap kali orang-orang melihat senyuman lembutnya, mereka tahu bahwa kebijakan yang menghibur hati akan segera menyusul, bagaikan balsem yang menyembuhkan luka akibat perang.\nBerkat hangatnya kepemimpinan Jinhsi, Jinzhou berhasil bertahan melewati masa-masa sulit dengan harapan yang tak pernah padam."
+      },
+      {
+        "title": "Her Rare Anger",
+        "content": "Jinhsi adalah sosok yang luar biasa sabar. Dalam kondisi seberat apa pun, dia tetap tersenyum lembut, dan hampir tidak ada yang pernah melihatnya marah.\n\n\"Apa Magistrate kita bisa marah? Dia selalu tenang, apa pun yang terjadi.\"\n\n\n\"Iya, aku juga penasaran. Kalau dia marah, kayak gimana ya?\"\n\n\"Aku pernah lihat,\"\n\njawab Shi, seorang penambang pendiam yang biasanya sibuk dengan pekerjaannya.\n\nMusim dingin itu sangat berat. Para penambang, yang sudah bekerja keras selama satu tahun, tidak menerima bayaran mereka karena seorang kontraktor serakah. Ia mengklaim biaya alat yang berlebihan sebagai alasan untuk tidak membayar upah pekerja. Lebih buruk lagi, sebagai presiden Chamber of Commerce, kontraktor itu memonopoli alat eksplorasi di Jinzhou dan mengabaikan peringatan dari para pejabat.\n\nDengan tangan kasar yang penuh luka, Shi hanya ingin membawa uang hasil kerjanya pulang untuk merayakan Tahun Baru bersama keluarganya. Tapi harapan sederhana itu direnggut darinya.\n\nDi malam yang dingin, Shi dan rekan-rekannya nekat menyelinap ke mansion sang pedagang, berharap mendapatkan kembali hak mereka. Tapi sebelum mereka sempat bertindak, suara lembut namun tajam terdengar dari dalam rumah.\n\n\"Tuan Zhu, aku datang untuk menyampaikan kabar,\"\n\nsuara Jinhsi terdengar, tetap lembut namun dingin menusuk.\n\n\"Anda telah dicopot dari posisi presiden Chamber of Commerce, dan lisensi bisnis Anda telah dicabut. Mulai sekarang, Anda dilarang terlibat dalam aktivitas komersial di Jinzhou.\"\n\n\"Lucu sekali. Ini Jinzhou, kota yang terkenal karena ketaatan pada hukum. Kalau Anda memang Magistrate, Anda pasti tahu bahwa pencopotan presiden butuh waktu dua minggu. Dan kalau mau mencabut lisensi bisnis saya, saya mau lihat buktinya. Tanpa bukti, tak ada pencabutan. Sesederhana itu.\"\n\nJinhsi tetap tenang.\n\n\"Kalau Anda bicara soal hukum, mari kita bahas,\"\n\nkatanya.\n\n\"Menurut Pasal 180 Hukum Perdagangan Jinzhou, pencopotan presiden membutuhkan tanda tangan lebih dari setengah anggota serta persetujuan dari Menteri Perdagangan dan Direktur Ministry of Development. Itu memang memakan waktu, jadi aku datang langsung untuk mempercepat pengembalian upah para pekerja.\"\n\n\"Mengenai bukti yang Anda minta... Patrol Station sudah mengumpulkannya dan mengajukannya ke Decree Council. Aku selalu siap.\"\n\n\"Dan saat aku pergi, ketahuilah bahwa monopoli alat eksplorasi Anda sudah berakhir. Ministry of Development telah mempercepat produksi, dan alat-alat baru sudah tiba hari ini. Monopoli Anda tidak akan pernah bertahan lama.\"\n\nTak lama setelah itu, Shi dan para pekerja menerima notifikasi pembayaran mereka di Terminal masing-masing. Akhirnya, mereka bisa menyambut Tahun Baru dengan bahagia.\n\nSetelah kejadian itu, Jinhsi memberlakukan hukum baru yang melarang monopoli dan mengatur prosedur pembayaran: upah pekerja harus diselesaikan sebelum kontraktor menerima pembayaran mereka.\n\nKetika musim dingin berlalu dan Jinzhou menyambut musim semi, era baru pun dimulai.\n\n\"Ayo, Shi, cerita dong! Magistrate marahnya kayak gimana?\"\n\n\nShi menghela napas dan tersenyum tipis.\n\n\"Dia... nggak menyeramkan. Tapi kelihatan sangat bisa diandalkan. Bikin tenang.\"\n\n\"Apa?!\"\n\nJinhsi memang jarang marah. Tapi saat dia melakukannya, itu bukan sekadar ledakan emosi, melainkan ledakan keadilan. Dan setiap kali dia berdiri melindungi rakyatnya, mereka tahu bahwa mereka memiliki pemimpin yang akan berjuang sampai akhir demi mereka."
+      },
+      {
+        "title": "Her Long-Awaited Guest",
+        "content": "Banyak yang memuji Magistrate muda, Jinhsi, atas kecerdasannya yang luar biasa dan kemampuannya memahami berbagai hal dengan tajam. Seolah tak ada bidang ilmu yang berada di luar jangkauannya, maupun tantangan yang tak bisa ia atasi.\n\nSejak menjabat, ia dengan cekatan menavigasi kompleksitas Jinzhou, menerapkan kebijakan-kebijakan yang membawa kedamaian dan kesejahteraan bagi rakyatnya.\nKota ini memasuki era baru—era kemakmuran dan ketenangan.\n\nSebagai Magistrate Jinzhou, tanggung jawab Jinhsi mencakup urusan besar seperti militer dan politik, hingga hal-hal yang tampak sepele. Namun baginya, bahkan detail terkecil pun bisa berdampak besar pada kehidupan rakyatnya. Inilah standar yang ia tetapkan untuk dirinya sendiri.\n\nMeski memiliki wawasan luas, ada hal-hal yang tetap menjadi misteri baginya. Baru-baru ini, seseorang yang sangat penting bagi kotanya telah tiba—seseorang yang dikelilingi oleh rahasia yang sulit diungkap. Alih-alih mengabaikannya,\nrasa ingin tahu dan kepedulian Jinhsi terhadap orang itu justru semakin dalam.\n\nMenurut catatan sejarah, seorang pahlawan legendaris di Jinzhou dikisahkan memiliki kekuatan untuk menyerap Tacet Discords dengan tangan kosong. Sosok ini meninggalkan jejak tak terlupakan dalam sejarah Jinzhou, bahkan di seluruh wilayah Huanglong. Dan kini, seseorang dengan kemampuan unik akan segera muncul di dunia.\nJinhsi mencurigai adanya keterkaitan antara mereka dengan pahlawan yang telah lama dikenang itu.\n\nMenyadari betapa pentingnya tamu istimewa ini, Jinhsi menyusun rencana penyambutan yang cermat. Ia tahu bahwa kehadiran mereka akan menarik konflik dan konspirasi dari berbagai pihak, maka ia harus memastikan mereka tidak menghadapi bahaya sendirian.\n\nUntuk itu, Jinhsi merekam sebuah pesan yang disiarkan ke seluruh wilayah, mengundang semua pengunjung Jinzhou dengan sambutan hangat agar mereka merasa diterima dengan baik. Ia juga dengan sengaja meninggalkan petunjuk-petunjuk kecil untuk memandu tamunya, sekaligus mengungkap ancaman tersembunyi di balik bayang-bayang.\n\nKhawatir akan keselamatan tamunya, Jinhsi mengirimkan pengawal pribadinya untuk melindungi mereka secara diam-diam. Ia mengerahkan segala sumber daya yang tersedia, memberikan bantuan secukupnya agar tamunya dapat mengungkap satu per satu teka-teki yang menghadang. Meski menghadapi berbagai kesulitan,\nJinhsi bertekad untuk kembali ke Jinzhou tepat waktu untuk memenuhi janji tiga hari mereka.\n\nDulu, Mt. Firmament adalah tempat yang damai. Namun kini, ketenangan itu telah terganggu oleh bahaya yang mengancam Sentinel, serta kehadiran antek-antek Fractsidus. Demi menjaga kedamaian Jinzhou, Jinhsi memilih untuk berangkat sendirian ke tengah konflik, menghadapi berbagai tantangan demi mencari kebenaran tentang Sentinel.\n\nBahkan bagi seseorang sekuat Jinhsi, keluar dari situasi berbahaya seperti itu tanpa cedera bukanlah hal yang mudah. Namun setiap kali ia merasa putus asa atau ragu pada dirinya sendiri, ia selalu mengingat seseorang—seseorang yang, begitu terbangun, langsung memahami situasi yang kompleks, menunggu dengan sabar keputusan darinya. Jinhsi yakin bahwa bersama orang itu, mereka akan membawa Jinzhou menuju masa depan yang lebih cerah.\n\nDi teras City Hall, Jinhsi—Magistrate yang baru saja kembali—menatap tamu istimewanya dengan kelegaan dan kebahagiaan. Dengan anggukan penuh makna, ia mengucapkan kata-kata yang telah ia latih dalam pikirannya ribuan kali:\n\n\"Sudah tiga hari.\"\n\n*\"Kita berdua berhasil tiba tepat waktu.\"\n\n\"Izinkan aku memperkenalkan diri secara resmi. Aku adalah Jinhsi… Senang sekali akhirnya bisa bertemu denganmu, Rover.\""
+      }
+    ],
+    "specialFood": {
+      "name": "Spring Pastry",
+      "description": "Meningkatkan Crit. DMG semua Resonator dalam tim sebesar 36% selama 30 menit.\nEfek ini hanya berlaku untuk Resonator milik sendiri dalam Co-op Mode.",
+      "imageUrl": "/icons/food/jinhsi.webp"
+    }
+  }
+}

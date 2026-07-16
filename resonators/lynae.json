@@ -1,0 +1,521 @@
+{
+  "name": "Lynae",
+  "element": "Spectro",
+  "weapon": "Pistol",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Concerto Efficiency",
+    "Basic Attack DMG",
+    "DMG Amplification",
+    "Resonance Liberation DMG Amplification",
+    "Tune Rupture Response",
+    "Tune Break Boost",
+    "Tune Strain Response"
+  ],
+  "sonatas": [
+    "Pact of Neonlight Leap",
+    "Rite of Gilded Revelation"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "input",
+      "isNew": false
+    }
+  ],
+  "faction": "Lawless Zone",
+  "affiliation": "Startorch Academy",
+  "class": "Congenital",
+  "image": "/characters/lynae.webp",
+  "imageBanner": "/banners/lynae-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120%+",
+    "Crit Ratio (Crit Weapon)": "70% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "65% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Hyvatia",
+      "Twin Nova: Nebulous Cannon"
+    ],
+    "bestWeapon": "Spectrum Blaster",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Sub DPS",
+          "echoSlug": "hyvatia",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: spectro%",
+            "3: spectro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Pact Of Neonlight Leap"
+          ]
+        },
+        {
+          "label": "DPS",
+          "echoSlug": "twin-nova-nebulous-cannon",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: spectro%",
+            "3: spectro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Rite Of Gilded Revelation"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "kalian perlu memilih mode Tune Rupture (kiri) pada menu skill. Hal ini memberikan instansi tambahan dari Tune Break DMG saat kalian memicu Tune Break. Namun, jika ia berada dalam satu tim dengan Luuk, jalankan mode Tune Strain (kanan) sebagai gantinya."
+    },
+    "weaponNote": "Gunakan Static Mist untuk memberikan buff kepada Main DPS kalian. Phasic Homogenizer hanya digunakan untuk damage pribadinya.",
+    "weaponOptions": [
+      {
+        "id": "spectrum-blaster",
+        "rank": "",
+        "percentage": "121"
+      },
+      {
+        "id": "phasic-homogenizer",
+        "rank": "",
+        "percentage": "104"
+      },
+      {
+        "id": "the-last-dance",
+        "rank": "",
+        "percentage": "103"
+      },
+      {
+        "id": "static-mist",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "solar-flame",
+        "rank": "",
+        "percentage": "-"
+      },
+      {
+        "id": "relativistic-jet",
+        "rank": "",
+        "percentage": "-"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Intro",
+          "Ult",
+          "Skill",
+          "BA(Hold)",
+          "[F]Jump123",
+          "[F]MA",
+          "Echo",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Intro Skill",
+        "Resonance Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Hypercarry",
+        "members": [
+          [
+            "Aemeath",
+            "Iuno",
+            "Carlotta"
+          ],
+          [
+            "Lynae"
+          ],
+          [
+            "Mornye",
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Lynae dan Mornye memiliki Tune Break synergy yang kuat dan mampu mencapai batas maksimal buff Crit. DMG serta DMG Amp dari Inherent Skill milik Aemeath: Between the Stars.\nDalam tim ini, kalian pakai dia di mode Rupture."
+      },
+      {
+        "name": "Hypercary New",
+        "members": [
+          [
+            "Luuk Herssen"
+          ],
+          [
+            "Lynae"
+          ],
+          [
+            "Mornye"
+          ]
+        ],
+        "note": "Lynae dan Mornye memiliki Tune Break synergy yang kuat, masing-masing meningkatkan batas stack maksimal sebanyak 1. Di samping buff lainnya, ia juga memberikan Tune Break Boost yang memberikan sebagian DMG Amp (25%) dari Inherent Skill milik Luuk: Uncaused Diagnosis.\nDalam tim ini, kalian pakai dia di mode Strain."
+      },
+      {
+        "name": "Hypercarry ALT",
+        "members": [
+          [
+            "Augusta",
+            "Xiangli Yao",
+            "Calcharo"
+          ],
+          [
+            "Iuno"
+          ],
+          [
+            "Lynae"
+          ]
+        ],
+        "note": "Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya kepada Iuno, Xiangli Yao, Calcharo, atau Resonator mana pun yang berskala pada Res. Liberation."
+      }
+    ],
+    "teamNote": "Lynae memberikan buff berikut untuk rekan timnya:\n-15% All-DMG & 25% Res. Liberation Amplify selama 14 detik setelah melancarkan Outro Skill\n-24% All-DMG Bonus selama 30 detik setelah melancarkan Res. Lib [Prismatic Overblast]\n-30% ATK dari bonus set Pact of Neonlight Leap\n-10% All-Attribute DMG Bonus selama 15 detik dari Hyvatia\n-40 Tune Break Boost dari Forte Circuit miliknya\n-Dengan Spectrum Blaster (senjata signature Lynae): Semua DMG yang diberikan meningkat sebesar 24% selama 30 detik saat memberikan [Tune Rupture atau Strain - Shifting] selama melakukan basic attack."
+  },
+  "skills": {
+    "basic": {
+      "name": "Chroma Drift",
+      "description": "Basic Attack\nTekan atau tahan Normal Attack untuk melakukan hingga 3 serangan berturut-turut, memberikan Spectro DMG.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan Spectro DMG.\n\nDodge Counter\nTekan Normal Attack tepat setelah Dodge yang berhasil untuk menyerang target, memberikan Spectro DMG.\n\nBasic Attack - Spark Collision\nDengan Overflow penuh dalam Optical Sampling Stage, tahan Normal Attack untuk memasuki status pengisian daya (charging).\nSelama status ini, 15 poin Overflow akan dikonversi menjadi 12,5% Lumiflow setiap 0,2 detik. Lynae kebal terhadap gangguan dan menerima 50% DMG lebih sedikit.\nSetelah melepaskan Normal Attack atau saat Lumiflow penuh, Lynae melancarkan Spark Collision dengan kekuatan bervariasi berdasarkan rasio Lumiflow, memberikan Spectro DMG:\n- Spark Collision Lv. 1: Lumiflow <50%\n- Spark Collision Lv. 2: 50% ≤ Lumiflow < 100%\n- Spark Collision Lv. 3: Lumiflow = 100%\n\nKaleidoscopic Parade - Basic Attack\nSaat berada dalam Kaleidoscopic Parade, Basic Attack digantikan dengan Kaleidoscopic Parade - Basic Attack.\nMelakukan hingga 5 serangan berturut-turut, memberikan Spectro DMG.\nDengan 120 poin Lumiflow, Kaleidoscopic Parade - Basic Attack Tahap 1 & 4 melacak musuh dalam jarak yang lebih jauh.\n\nKaleidoscopic Parade - Ground Heavy Attack\nSaat berada dalam Kaleidoscopic Parade, tahan Normal Attack di darat untuk melancarkan skill ini. Mengonsumsi STA untuk menyerang target secara terus-menerus, memberikan Spectro DMG, dianggap sebagai Basic Attack DMG. Lepaskan untuk melancarkan Kaleidoscopic Parade - Graffiti Blast, memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.\n\nKaleidoscopic Parade - Mid-air Heavy Attack\nSaat berada dalam Kaleidoscopic Parade, tahan Normal Attack di udara untuk melancarkan skill ini. Mengonsumsi STA untuk menyerang target, memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.\nTidak dapat mendapatkan cas baru saat berada di udara. Cas yang tersedia di-reset saat Lynae menjadi Resonator aktif dan berada di darat.\n\nKaleidoscopic Parade - Mid-air Attack\nSaat berada dalam Kaleidoscopic Parade, Mid-air Attack digantikan dengan Kaleidoscopic Parade - Mid-air Attack.\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan Spectro DMG.\n\nKaleidoscopic Parade - Dodge Counter\nSaat berada dalam Kaleidoscopic Parade, Dodge Counter digantikan dengan Kaleidoscopic Parade - Dodge Counter.\nTekan Normal Attack tepat setelah Dodge yang berhasil untuk menyerang target, memberikan Spectro DMG.\nSaat berada dalam Kaleidoscopic Parade, tekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2."
+    },
+    "skill": {
+      "name": "Lynae-Style Palettes",
+      "description": "Lynae-Style Palettes\nMenekan Resonance Skill untuk memberikan Spectro DMG.\nSaat berada dalam Kaleidoscopic Parade, tahan Resonance Skill untuk menyerang target, memberikan Spectro DMG dan keluar dari Kaleidoscopic Parade.\nTekan Normal Attack dalam waktu tertentu setelah skill ini untuk melancarkan Basic Attack Tahap 2.\nLynae-Style Palettes dan Additive Color berbagi cooldown.\n\nAdditive Color\nSelama Kaleidoscopic Parade, tekan Resonance Skill di darat untuk menyerang target, memberikan Spectro DMG.\nDalam waktu tertentu selama skill berlangsung, tekan Normal Attack untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.\nLynae-Style Palettes dan Additive Color berbagi cooldown."
+    },
+    "liberation": {
+      "name": "Prismatic Overblast",
+      "description": "Memberikan Spectro DMG. Melancarkan skill ini meningkatkan DMG yang diberikan oleh semua Resonator terdekat dalam tim sebesar 24% selama 30 detik.\n\nBasic Attack - To a Vivid Tomorrow!\nTekan Normal Attack dalam waktu tertentu setelah melancarkan Resonance Liberation - Prismatic Overblast untuk melancarkan Basic Attack - To a Vivid Tomorrow!, memberikan Spectro DMG.\nSaat berada dalam Kaleidoscopic Parade, tekan Normal Attack dalam waktu tertentu selama skill berlangsung untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.\n"
+    },
+    "forte": {
+      "name": "Chromaticity Modeling",
+      "description": "Optical Sampling Stage\nLynae berada dalam Optical Sampling Stage secara default. Saat berada dalam status ini, Overflow pulih selama skill tertentu.\n\nKaleidoscopic Parade\nMelancarkan Basic Attack - Spark Collision membuat Lynae memasuki Kaleidoscopic Parade. Dalam status ini, Lynae terus-menerus memulihkan Lumiflow saat bergerak di darat atau selama periode tertentu dari skill tertentu. Lynae tidak akan Walk selama status ini, dan Running serta Sprinting miliknya akan digantikan oleh Free Skating dan Speed Skating yang lebih cepat.\n\nBasic Attack - Polychrome Leap\nSaat berada dalam Kaleidoscopic Parade, dengan setidaknya 1/3 dari Lumiflow maksimal, Jump digantikan oleh Basic Attack - Polychrome Leap.\nMengonsumsi 1/3 dari Lumiflow maksimal untuk memberikan Spectro DMG. Memberikan Photochromic Flux pada target yang terkena serangan. Dodge yang berhasil dapat dipicu dalam waktu tertentu selama skill ini. Saat di udara, Basic Attack - Polychrome Leap terhubung hingga 3 tahap. Beralih ke Resonator lain me-reset kombo tersebut.\nSaat dalam pertempuran, setiap tahap Basic Attack - Polychrome Leap yang dilancarkan memulihkan 1 poin True Color.\nDalam waktu tertentu setelah Basic Attack - Polychrome Leap Tahap 1, tekan Normal Attack di darat untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.\nMelancarkan Basic Attack - Polychrome Leap Tahap 2 juga menarik target di sekitar.\n\nBasic Attack - Iridescent Splash\nSelama Kaleidoscopic Parade, saat Lynae berada di udara dengan 3 poin True Color, dan Basic Attack - Visual Impact sedang dalam cooldown, tekan Normal Attack atau Resonance Skill untuk memberikan Spectro DMG dan memberikan Photochromic Flux pada target yang terkena serangan.\nSkill ini mengonsumsi 3 poin True Color.\nTekan Normal Attack dalam waktu tertentu selama skill ini untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.\n\nBasic Attack - Visual Impact\nSelama Kaleidoscopic Parade, saat Lynae berada di udara dengan 3 poin True Color, dan skill ini tidak dalam cooldown, tekan Normal Attack atau Resonance Skill untuk memberikan Spectro DMG dan memberikan Photochromic Flux pada target yang terkena serangan.\nSkill ini mengonsumsi 3 poin True Color dan memberikan semua Resonator terdekat dalam tim 40 poin Tune Break Boost selama 30 detik.\nTekan Normal Attack dalam waktu tertentu selama skill ini untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.\n\nResonance Mode\nMemberikan Photochromic Flux saat mengenai target dengan Basic Attack - Polychrome Leap, Basic Attack - Iridescent Splash, Basic Attack - Visual Impact, dan Intro Skill - Time to Show Some Colors!.\nLynae dapat beralih antara Resonance Mode - Tune Rupture dan Resonance Mode - Tune Strain:\n- Saat dalam Resonance Mode - Tune Rupture, Photochromic Flux memberikan Tune Rupture - Shifting pada target selama 25 detik.\n- Saat dalam Resonance Mode - Tune Strain, Photochromic Flux memberikan Tune Strain - Shifting pada target selama 25 detik.\n\nTune Rupture Response - Spectral Analysis\nMemberikan satu instansi Spectro DMG, dianggap sebagai Tune Rupture DMG, kepada target dalam jangkauan yang terkena pengaruh Tune Rupture - Interfered.\n\nOverflow\nLynae dapat menampung hingga 120 poin Overflow.\nSaat berada dalam Optical Sampling Stage, Overflow pulih selama Basic Attack, Lynae-Style Palettes, Mid-air Attack, dan Dodge Counter, atau saat Intro Skill dilancarkan.\nSaat Overflow penuh, Basic Attack - Spark Collision menjadi tersedia.\nMelancarkan Basic Attack - Spark Collision menghapus semua Overflow.\n\nLumiflow\nLynae dapat menampung hingga 120 poin Lumiflow.\nSelama Kaleidoscopic Parade:\n- Pulihkan 20% Lumiflow per detik saat Lynae bergerak di darat/memanjat, atau melakukan Dodge yang berhasil di darat, atau dalam waktu tertentu selama Kaleidoscopic Parade - Basic Attack, Kaleidoscopic Parade - Ground Heavy Attack, Kaleidoscopic Parade - Mid-air Heavy Attack, Kaleidoscopic Parade - Dodge Counter, Additive Color, Dodge darat, Intro Skill, atau Basic Attack - To a Vivid Tomorrow!.\n- Lumiflow mulai berkurang sebesar 20% per detik saat Lynae diam di darat/memanjat/berenang atau berada di luar medan tempur, atau setelah waktu tertentu mengikuti penggunaan skill yang tercantum di atas.\n- Lumiflow tidak berubah saat Lynae tidak berada dalam status apa pun yang dijelaskan di atas.\nKeluar dari Kaleidoscopic Parade menghapus semua Lumiflow.\nDengan 120 poin Lumiflow, kecepatan roller skating Lynae meningkat lebih jauh. Speed Skating mengonsumsi STA seiring waktu.\n\nTrue Color\nLynae dapat menampung hingga 3 poin True Color.\nSelama pertempuran, setiap kali Basic Attack - Polychrome Leap dilancarkan, dapatkan 1 poin True Color. Dengan 3 poin True Color, Basic Attack - Iridescent Splash dan Basic Attack - Visual Impact menjadi tersedia.\nKeluar dari Kaleidoscopic Parade menghapus semua True Color."
+    },
+    "inherent": [
+      {
+        "name": "Colors Never Fade!",
+        "description": "Setelah melancarkan Basic Attack - Visual Impact, Lynae meninggalkan Spray Paint di darat dan memberikan Photochromic Flux secara terus-menerus pada target di dalam Spray Paint selama 5 detik, dipicu sekali setiap 2 detik. Saat Spray Paint berada di darat, beralih ke Resonance Mode lain tidak memengaruhi efek Photochromic Flux yang diberikan oleh Spray Paint.\n\nDengan adanya Lynae di dalam tim, Energy Tank motor ekspedisi meluas sebesar 600 poin. Lynae memasuki Kaleidoscopic Parade secara otomatis saat berada di atas motor ekspedisi dan memulihkan 20% Lumiflow per detik."
+      },
+      {
+        "name": "\"Adaptive Optics: Everyday Applications\"",
+        "description": "Melancarkan Intro Skill - Time to Show Some Colors! meningkatkan Spectro DMG Bonus Lynae sebesar 25% selama 9 detik.\n\nSelama Kaleidoscopic Parade, jika Lynae tidak sedang dalam pertempuran, melakukan dodge tanpa input arah memberikan ia Optic Camo selama 15 detik, yang akan dihapus saat Lynae melancarkan skill apa pun selain dodge atau diganti keluar dari medan tempur. Melakukan interaksi lingkungan, gameplay, atau fungsional, atau memasuki pertempuran, akan menghapus Optic Camo. Dengan Optic Camo, Lynae dapat memasuki jarak aggro musuh tanpa memicu pertempuran."
+      },
+      {
+        "name": "Spectral Analysis",
+        "description": "Lynae dapat memberikan Tune Rupture - Shifting atau Tune Strain - Shifting pada target.\nLynae dapat menanggapi Tune Rupture - Interfered dan Tune Strain - Interfered.\n- Menanggapi Tune Rupture - Interfered: Saat Resonator mana pun dalam tim memberikan Tune Break DMG dan memberikan status Tune Rupture - Interfered, Lynae melancarkan Tune Rupture Response - Spectral Analysis. Setiap target dapat menerima damage dari skill ini hingga satu kali setiap 8 detik.\n- Menanggapi Tune Strain - Interfered: Untuk setiap stack Tune Strain - Interfered pada target, setiap poin Tune Break Boost Lynae meningkatkan total DMG miliknya terhadap target tersebut sebesar 0.12%. Saat Lynae berada dalam tim, batas stack maksimal Tune Strain - Interfered pada target meningkat sebanyak 1.\nSaat Off-Tune Level target penuh, Lynae dapat melancarkan Tune Break pada target."
+      }
+    ],
+    "intro": {
+      "name": "Time To Show Some Colors!",
+      "description": "Memberikan Spectro DMG, memberikan Photochromic Flux pada target yang terkena serangan.\nSaat berada dalam Optical Sampling Stage, melancarkan skill ini memulihkan 100 poin Overflow."
+    },
+    "outro": {
+      "name": "Let'S Hit The Road!",
+      "description": "Menyerang target dan memberikan 100% Spectro DMG. Resonator berikutnya yang masuk mendapatkan 15% All DMG Amplification dan 25% Resonance Liberation DMG Amplification selama 14 detik atau hingga mereka diganti keluar.\nLynae keluar dari status Kaleidoscopic Parade setelah melancarkan Outro Skill."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Suncoveter's Reach",
+            "amount": 46
+          },
+          {
+            "item": "LF Exoswarm Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Exoswarm Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Exoswarm Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Exoswarm Core",
+            "amount": 4
+          },
+          {
+            "item": "Rimewisp",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Dreamless Feather",
+          "amount": 26
+        },
+        {
+          "item": "LF Exoswarm Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Exoswarm Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Exoswarm Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Exoswarm Core",
+          "amount": 57
+        },
+        {
+          "item": "Incomplete Combustor",
+          "amount": 25
+        },
+        {
+          "item": "Remnant Combustor",
+          "amount": 28
+        },
+        {
+          "item": "Aftertune Combustor",
+          "amount": 55
+        },
+        {
+          "item": "Reverb Combustor",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Lynae",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Spectrum Blaster",
+          "value": 402752.64,
+          "percentage": 113.67,
+          "imagePath": ""
+        },
+        {
+          "type": "Phasic Homogenizer",
+          "value": 366349.67,
+          "percentage": 103.39,
+          "imagePath": ""
+        },
+        {
+          "type": "The Last Dance",
+          "value": 367055.33,
+          "percentage": 103.59,
+          "imagePath": ""
+        },
+        {
+          "type": "Static Mist",
+          "value": 354323.88,
+          "percentage": 100,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Lynae",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 42.5,
+          "percentage": 42.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 3.2,
+          "percentage": 3.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 11.5,
+          "percentage": 11.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Rupture",
+          "value": 38.9,
+          "percentage": 38.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 2.5,
+          "percentage": 2.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Outro",
+          "value": 1.4,
+          "percentage": 1.4,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Lynae",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 457185.68,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 493072.54,
+          "percentage": 107.85,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 569640.21,
+          "percentage": 124.6,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 700647.67,
+          "percentage": 153.25,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Days To Be Painted Like A Canvas",
+      "description": "DMG Multiplier dari Basic Attack - Polychrome Leap meningkat sebesar 120%.\nDurasi dari Spray Paint meningkat sebesar 100%. Target di dalam jangkauan Spray Paint ditarik ke arah pusat setiap 6 detik.\nLynae sekarang kebal terhadap gangguan selama Basic Attack - Polychrome Leap dan Basic Attack - Visual Impact.\nSelama Optical Sampling Stage, setelah berada dalam status non-pertempuran selama 2 detik, pulihkan 120 poin Overflow setiap 2 detik."
+    },
+    {
+      "stage": "S2",
+      "name": "Into Lights' Vanishing Point",
+      "description": "Mendapatkan 25% All DMG Amplification.\nOutro Skill mendapatkan efek berikut:\nMelancarkan Outro Skill sekarang secara tambahan memberikan Resonator berikutnya yang masuk 25% All DMG Amplification selama 14 detik atau hingga Resonator tersebut diganti keluar."
+    },
+    {
+      "stage": "S3",
+      "name": "For One Brilliant Moment",
+      "description": "DMG Multiplier dari Basic Attack - Visual Impact dan Basic Attack - Iridescent Splash meningkat sebesar 90%.\nSaat Lynae berada dalam pertempuran, ketika Lumiflow setidaknya 120 poin, dapatkan 1 stack Premixed Hue setiap 1 detik, hingga 25 stack. Setiap stack Premixed Hue meningkatkan Spectro DMG Bonus dari Additive Color sebesar 55%. Tidak ada Premixed Hue yang didapatkan saat melancarkan Additive Color. Saat Additive Color berakhir, hapus semua stack Premixed Hue. Lynae kehilangan satu stack Premixed Hue setiap 0,5 detik saat Lumiflow di bawah 120 poin.\nSaat Lynae berada di luar pertempuran, dengan setidaknya 120 poin Lumiflow, dapatkan 1 stack Premixed Hue setiap 0,5 detik; ketika Lumiflow di bawah 120 poin, kehilangan 1 stack Premixed Hue setiap 1 detik.\n"
+    },
+    {
+      "stage": "S4",
+      "name": "Shadows Of A Wind Racer",
+      "description": "ATK meningkat sebesar 20%."
+    },
+    {
+      "stage": "S5",
+      "name": "Visions Of A Future Unbound",
+      "description": "DMG Multiplier dari Resonance Liberation - Prismatic Overblast meningkat sebesar 70%."
+    },
+    {
+      "stage": "S6",
+      "name": "Painted In My True Color",
+      "description": "Setiap kali Kaleidoscopic Parade - Graffiti Blast atau Kaleidoscopic Parade - Mid-air Heavy Attack dilancarkan, Lynae mendapatkan 1 stack Color of Soul, hingga 3 stack. Setiap stack Color of Soul meningkatkan DMG yang diterima target dari Basic Attack - Iridescent Splash dan Basic Attack - Visual Impact sebesar 30%. Setelah melancarkan Basic Attack - Iridescent Splash atau Basic Attack - Visual Impact, semua stack Color of Soul dihapus.\nMelancarkan Basic Attack - Polychrome Leap me-reset cas dari Kaleidoscopic Parade - Mid-air Heavy Attack.\nLynae kebal terhadap gangguan, dan damage yang diterima berkurang sebesar 30% selama Kaleidoscopic Parade - Mid-air Heavy Attack.\nLynae sekarang tetap berada dalam Kaleidoscopic Parade setelah melancarkan Outro Skill - Let's Hit the Road!.\nBatas atas Lumiflow meningkat dari 120 menjadi 360. Pada batas maksimal, kecepatan roller skating Lynae meningkat lebih jauh.\nJika Intro Skill dilancarkan selama Kaleidoscopic Parade, pulihkan 120 poin Lumiflow."
+    }
+  ],
+  "lore": {
+    "description": "Seorang siswa persiapan Startorch Academy yang gaya elektriknya menarik perhatian, menyembunyikan fokus batin yang meledak-ledak seperti pegas yang tergulung.\n\nBIRTHPLACE\nNew Federation",
+    "report": {
+      "resonancePower": "Radiant Spectrum",
+      "resonanceEvaluation": "Resonance Evaluation Report\n[Diarsipkan dari Spacetrek Collective: Catatan Siswa Startorch Academy]\n[Forte Examination Report RA2906-G]\nNama Siswa: Lynae\nKualifikasi Synchronist: Negatif\nForte Overview: Pengujian mengungkapkan Rabelle's Curve dengan gelombang periodik yang menonjol. Oleh karena itu, siswa diklasifikasikan sebagai Congenital Resonator. Tacet Mark miliknya terletak pada bagian posterior paha kirinya.\n\nBerdasarkan berkas pribadi pra-penerimaan dan keterangan siswa sendiri, siswa menunjukkan sensitivitas bawaan terhadap cahaya tampak dan afinitas alami terhadap warna-warna kompleks yang tidak umum. Dengan menggunakan \"pigment inks,\" ia dapat mengubah panjang gelombang atau frekuensi cahaya tampak dalam area terbatas, secara efektif \"mencampur\" warna sesuka hati. Warna-warna ini terutama digunakan dalam cat semprot. Pengujian menunjukkan bahwa pigmen ini berbeda dari bahan industri, berperilaku lebih seperti proyeksi optik non-fisik.\n\nSelain itu, laporan saksi mata dari beberapa siswa menunjukkan bahwa subjek dapat mengubah panjang gelombang cahaya tampak di sekitar untuk mengganggu instrumen deteksi frekuensi, mencapai efek yang mirip dengan \"invisibilitas\" baik dari perspektif visual maupun persepsi frekuensi.\n\n\"Pokoknya, pastikan saja dia tidak menggunakan kemampuan itu untuk bolos kelas lagi.\"\n\"…Juga, dapatkah seseorang mengonfirmasi apakah grafiti kepala kucing raksasa di gedung Ilmu Energi kemarin adalah karyanya?\"",
+      "overclockDiagnostic": "Analisis sampel uji Rabelle's Waveform menunjukkan pola osilasi elips dan Time Domain yang stabil. Tidak ada fluktuasi abnormal yang teramati. Hasil pemeriksaan ditentukan berada dalam parameter normal.\n\nKesimpulan: Resonant Criticality berada dalam kisaran normal. Stabilitas subjek tetap kuat. Tidak ada riwayat dan tidak ada risiko Overclocking saat ini. Rabelle's Curve tetap stabil.\n\nKonseling psikologis saat ini dianggap tidak perlu.\n\n\"Pengujian berjalan lancar. Sudah lama sekali kami tidak melihat bentuk gelombang sestabil ini, praktis identik dengan sampel buku teks oleh Tn. Rabelle… Sejujurnya, ini sangat sesuai buku teks sehingga terasa sedikit tidak wajar.\""
+    },
+    "items": [
+      {
+        "name": "\"A New Journey\"",
+        "description": "Setelah lulus ujian masuk, Lynae menerima surat penerimaan miliknya sendiri, secara resmi menjadi siswa Startorch Academy. Dahulu, selembar kertas serupa memulai sebuah perjalanan yang tidak diketahui. Sekarang, lembar ini menandai kesempatan nyata pertamanya untuk memilih jalannya sendiri dan tempat ia bernaung.",
+        "imageUrl": "/icons/items/lynae-1.webp"
+      },
+      {
+        "name": "\"Unsanctioned\" Mod Kit",
+        "description": "Sebuah kit yang dikemas dengan segala jenis modifikasi sepeda motor dan tambahan fungsional, termasuk namun tidak terbatas pada modul peluncur kembang api, sayap peluncur lipat, dan pemasak mi yang dipasang di sespan... Satu item saja sudah cukup untuk membuat Mr. S.I.G.M.A. masuk ke dalam mode alarm sistem penuh.\n\n\"Aku hanya membuatnya untuk menguji ide tersebut! Aku tidak pernah benar-benar memasangnya pada kendaraan asli!\" Itulah pembelaan standar Lynae saat isi asramanya yang kacau balau mau tidak mau terungkap.",
+        "imageUrl": "/icons/items/lynae-2.webp"
+      },
+      {
+        "name": "Cactus Pillow",
+        "description": "Sebuah hadiah dari seorang siswa yang pernah dibantu oleh Lynae, diberikan untuk menyambutnya di Academy, konon merupakan desain klasik dari film jalanan New Federation favoritnya.\n\nLembut, hijau, dan berbentuk seperti kaktus, benda ini sama sekali tidak berduri, bersandar bukan pada pasir tetapi pada tempat tidur asramanya yang mewah. Benda ini berdiri menjaga setiap mimpi yang hidup dan penuh warna dalam diam… jika Anda bisa mengabaikan wajahnya yang ekspresif secara unik.\n\n\"Hm? Bantal ini? Ini lucu! Dan ini adalah versi rilis ulang terbatas!\"",
+        "imageUrl": "/icons/items/lynae-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Truancy Record",
+        "content": "Dalam sistem administrasi Startorch Academy, catatan bolos Lynae lebih terbaca seperti sebuah catatan perjalanan fantasi yang penuh warna daripada sebuah berkas kedisiplinan.\n\nSementara teman-teman sekelasnya duduk di aula perkuliahan mendengarkan kuliah Sejarah Budaya Dunia dari Profesor Mauclair, Lynae berada beberapa kilometer jauhnya, bertengger di pohon untuk memperkuat sarang dari Kronapuffs yang baru menetas dengan hati-hati. Sementara mereka berlatih bentuk pertempuran di field latihan, ia berada di Spacetrek Archive, membantu seorang siswa Ilmu Energi yang panik memulihkan data kelulusan krusial dari stack berkas yang korup.\n\nTangan yang dulunya dilatih untuk mencengkeram senjata dan membobol sistem keamanan kini memegang kaleng semprot dengan presisi dan kelembutan mengejutkan yang sama. Lynae tidak bisa duduk diam begitu saja. Rasa ingin tahunya menariknya dari satu sudut Academy ke sudut berikutnya, dan alasan-alasannya untuk bolos kelas selalu penuh daya cipta.\n\n\"Saya sedang membantu seorang senior menghentikan proyek kelulusannya agar tidak melarikan diri.\"\n\"Saya sedang mengalibrasi ulang algoritma bumbu pada droid kantin. Saya mungkin secara tidak sengaja memicu pemogokan di seluruh sistem.\"\n\"Rimewisps di dalam sim pod menunjukkan fluktuasi spektral yang tidak normal. Jelas saja, saya harus mendokumentasikannya!\"\n\nAwalnya, Ms. Voss merasa hal itu melelahkan. Hal tersebut mulai berubah. Itu berubah seiring dengan penghargaan formal dari Departemen Teknik, yang memuji Lynae karena telah mengamankan semua peralatan survei frostlands selama Void Storm. Itu berubah saat kotak saran mulai dipenuhi dengan ucapan terima kasih yang ditujukan kepada seorang \"sukarelawan\" anonim. Itu berubah ketika Profesor Mauclair, dalam pertemuan Ilmu Energi, dengan penuh semangat mempresentasikan serangkaian data spektral yang jelas dan belum pernah ada sebelumnya dari sebuah \"titik observasi khusus,\" sambil mencatat: \"Diberikan oleh seorang siswa anonim. Direkomendasikan untuk dimasukkan ke dalam kurikulum.\"\n\nDihadapkan dengan catatan Lynae yang panjang, membingungkan, namun tidak dapat dipungkiri kehebatannya, Voss hanya bisa menghela napas.\nGadis ini tidak pernah ada di kelas, namun kehadirannya terasa di setiap sudut Academy. Tampaknya ia melindungi tempat yang sekarang ia sebut sebagai \"rumah,\" dengan caranya sendiri yang tidak konvensional.\n\n\"…Kamu tetap harus menulis laporan refleksi, kamu tahu itu.\"\n\"…Ya, Bu.\"\n\nSambil menundukkan kepala, Lynae berjalan keluar dari kantor. Namun, matanya berbinar melihat campuran rasa jengkel dan kasih sayang yang akrab di mata Ms. Voss."
+      },
+      {
+        "title": "Lurking Shadows",
+        "content": "Pelabuhan di malam hari tampak membayangi seperti binatang buas yang tertidur. Ia berdiri di dermaga, napasnya hilang tertiup angin, genggamannya pada pistol sangat mutlak. Moncong gelapnya menyimpan ketenangan dingin yang sama di matanya, terkunci tanpa berkedip pada sosok di depannya.\n\nBahkan dengan laras yang menempel di dahinya, sang \"target\" tetap tenang. Senyum tipis yang mengejek menyentuh bibirnya saat ia membalas tatapan Lynae.\n\n\"Kita berdua tahu ini hanyalah permainan. Dan kamu? Kamu hanyalah bidak dalam kebohongan yang jauh lebih besar.\"\n\"Lihatlah dirimu… sangat profesional. Tapi untuk apa? Demi sebuah janji palsu? Letakkan pistolnya. Pergilah. Kamu bisa menjadi siapa saja… di mana saja.\"\n\"Menurutmu berapa lama lagi kamu bisa terus bersembunyi?\"\n\n—Menurutmu berapa lama lagi kamu bisa terus bersembunyi?\n\nJantungnya berdebar kencang. Setetes keringat dingin mengalir di pelipisnya. Ketakutan mati rasa yang ia pikir sudah lama terkubur kini mencengkeramnya sekali lagi.\n\n\"...Diam.\"\n\nSuaranya sendiri terdengar asing, serak, pecah seperti raungan yang tertahan. Jarinya gemetar di pelatuk.\n\n\"Bang—!\"\n\nTembakan tidak pernah keluar dari pistolnya, tetapi suara tembakan terdengar meledak. Lampu-lampu menyala terang. Ia tersentak. Tetesan keringat terakhir jatuh, mendarat dengan ketukan lembut pada pistol properti di tangannya.\nKemudian tepuk tangan melonjak seperti gelombang pasang.\n\n\"Cut! Ya, ya! Itu dia! Sempurna!\"\n\"...Lynae! Itu tadi luar biasa!\"\n\"Arthus, aba-aba suaramu terlalu cepat lagi!\"\n\nSambil berkedip, Lynae melihat sekeliling seolah-olah terbangun dari mimpi. Set yang monokrom mulai memudar. Warna seolah merembes kembali ke dunia, bermula dari telapak tangannya sendiri. Sang \"target\" mendekat dengan antusias, ekspresinya tidak lagi mengancam melainkan cerah dengan kekaguman.\n\n\"Kamu luar biasa! Persis seperti agen rahasia sungguhan!\"\n\"...\"\n\n—Tentu saja, ia berada di Klub Penggemar Drama, menggantikan seorang senior yang terluka selama ekspedisi field. Lakon tersebut diadaptasi dari film mata-mata klasik New Federation.\nNamun untuk sesaat, ia benar-benar merasa seolah-olah ia adalah…\n\n\"Lynae…? Kamu baik-baik saja?\"\n\"…Aku baik-baik saja,\" katanya, memaksakan senyum dan menambahkan lambaian tangan teatrikal. \"Terlalu mendalami peran, hahaha. Salahkan naskah Annan. Itu benar-benar terlalu bagus!\"\n\nTawa dan obrolan mengisi ruang latihan lagi saat para anggota bersiap mengatur set dan properti adegan berikutnya. Lynae duduk di sudut saat ketua klub memberikan sebotol soda kepadanya.\n\n\"Lynae, apakah kamu yakin tidak ingin bergabung? Aktingmu luar biasa!\" seru sang ketua, mengepalkan tinjunya dengan penuh semangat, \"Aku sudah menyiapkan peran yang sempurna untukmu pada perayaan berikutnya—\"\n\"Maaf, sepertinya aku akan melewatkannya…\"\n\"Oh… tidak apa-apa. Aku tahu kamu belum bergabung dengan klub mana pun, jadi aku pikir aku akan bertanya. Tapi jika kamu ingin, kamu selalu disambut! Kamu yang di sana, Germain! Kamu tidak bisa meletakkan properti seperti itu!\"\n\nSaat sang ketua berlari untuk menyelamatkan properti tersebut, jari-jari Lynae mengencang di sekitar botol soda.\n\n—Menurutmu berapa lama lagi kamu bisa terus bersembunyi?\n\nKata-kata itu bergema lagi, menusuk di bawah kulitnya.\n\n—Menurutmu berapa lama kamu benar-benar bisa tinggal di sini?\n\nIa tidak tahu. Ia tidak ingin memikirkannya.\nJadi yang bisa ia lakukan hanyalah hidup di masa sekarang dan menikmati apa yang ada tepat di depannya."
+      },
+      {
+        "title": "Shifted Winds",
+        "content": "Awalnya, ia mengabaikan semua itu dan menganggapnya sebagai email phishing.\n\nPesan-pesan itu akan datang tanpa peringatan. Pagi-pagi sekali, di sela-sela kelas, larut malam, atau bahkan di tengah tawa bersama teman-teman. Baris-baris kode merah yang tidak terbaca tiba-tiba akan berkedip di Terminal miliknya. Melihat hal itu rasanya seperti dadanya ditusuk oleh jarum tajam. Kode itu menjahit dirinya sendiri melalui hatinya, pembuluh darahnya, bahkan aliran darahnya itu sendiri.\nButuh waktu untuk memecahkan kodenya. Namun ketika ia akhirnya memulihkan pesan aslinya, rasa dingin mencengkeramnya dari kepala hingga ujung kaki.\n\nFractsidus.\n\nMungkin ia sudah mengetahuinya sejak saat ia mengambil surat penerimaan itu, tetapi ia tetap berpegang pada secercah harapan. Ia memilih untuk tidak berpikir terlalu banyak, membiarkan dirinya tenggelam dengan bahagia ke dalam kehidupan kampus yang jauh lebih indah daripada apa pun yang pernah ia bayangkan.\n—Sampai \"misi\" itu tiba.\n\n\"Menyusup ke dalam sistem Institut. Ambil dan ubah parameter dari Hyvatia Detector.\"\n\nIa tahu pentingnya New Solar Ceremony bagi Spacetrek Collective maupun Lahai-Roi, dan ia tahu betapa krusialnya Hyvatia Detector bagi acara tersebut. Sebuah konspirasi besar sedang merayap melalui bayang-bayang Lahai-Roi. Pada saat itu, Lynae memahami dengan kejelasan yang mengerikan: apa yang ia pilih untuk dilakukan bisa saja menjerumuskan Lahai-Roi ke dalam bahaya. Ia tidak percaya bahwa seorang tentara bayaran yang melarikan diri seperti dirinya benar-benar bisa mengancam organisasi sebesar Fractsidus. Namun, pikiran itu terus berputar di benaknya tanpa henti, menolak untuk melepaskan cengkeramannya.\n\nStartorch Academy, \"utopia\" di bawah frostlands, telah menjadi rumahnya. Berapa lama lagi ia bisa menutup mata dan memainkan \"kehidupan sekolah\" ini dengan hati nurani yang bersih?\nMenyadari bahwa ia tidak bisa bersembunyi selamanya, ia membulatkan tekad. Sudah waktunya untuk sebuah akhir.\n\nLangkah pertama: memutus perannya sebagai \"orang dalam\" mereka.\n\nJarinya sedikit gemetar saat ia menekan kirim. Itu adalah pesan pertama yang pernah ia tulis sebagai orang dalam Fractsidus:\n\n\"Data target telah diekstraksi. Serah terima secara langsung.\"\n\nKoordinat yang dilampirkan menunjuk ke pinggiran habitat Voidworm. Setelah suara tembakan terdengar, Void Storm akan membersihkan semua bukti yang tersisa untuknya.\nPesan terkirim, ia bersandar pada motornya dan menatap langit Lahai-Roi.\nAngin sudah beralih. Dan kali ini, tidak akan ada jalan untuk kembali."
+      },
+      {
+        "title": "Black And Gold",
+        "content": "Itu seharusnya menjadi misi lainnya. Abu-abu, hitam, pucat seperti plester. Hanyalah sebuah tugas lain untuk melenyapkan beberapa individu yang telah ditandai oleh New Federation sebagai \"ancaman potensial.\"\n\nMengapa orang-orang yang tidak melakukan tindakan mengancam apa pun tetap harus menghilang, bukanlah pertanyaan yang diizinkan untuk ia tanyakan.\n\nIa mengamati target melarikan diri dalam kepanikan melalui gang gelap. Ia bukanlah satu-satunya pemburu di kegelapan tersebut. Garis penargetan merah yang tipis menenun di udara, memusat, mengunci, sebelum memberikan akhir yang sunyi dan mutlak.\n\nSebuah napas kasar yang dipenuhi statis parau terdengar di earpiece miliknya.\n\n\"Jangan khawatir… aku akan tiba di Lahai-Roi pada waktu yang ditentukan… Startorch Academy…\"\n\"Aku akan menyelesaikan… misi… Grand Architect…\"\n\nPerlawanan yang sia-sia.\nPada saat Lynae mendekatinya, jejak kehidupan terakhir sudah menghilang.\nItu seharusnya menjadi misi yang biasa.\nNamun kali ini, ada sesuatu yang berbeda. Sebuah garis emas pada surat penerimaan yang terjatuh menarik perhatiannya, seperti noda cat pada plester putih kapur, sebuah celah cahaya melalui retakan. Ia tidak bisa memalingkan muka.\n\n\"Lynae\"—nama yang terukir di lembaran itu terasa seperti takdir yang menceritakan lelucon, setengah bohong, setengah benar. Ia membungkuk, menyeka debu dan noda darah. Rambut gelapnya menangkap pantulan emas, menyulut sesuatu di dadanya yang selama bertahun-tahun kerja tentara bayaran yang mati rasa tidak pernah bisa dipadamkan: sebuah kerinduan akan kebebasan.\n\n\"Apakah Anda Lynae dari New Federation?\"\n\nDihadapkan dengan pertanyaan guru tersebut, ia merasakan sekilas rasa bersalah. Ia memutar sehelai rambutnya yang baru saja dicat—dulunya cokelat tua, sekarang emas pucat yang lembut, meskipun ia tetap mempertahankan beberapa helai warna aslinya—dan mengangguk, memanggil senyum tercerahnya.\n\n\"Ya.\"\n\"Tidak perlu gugup. Kami tahu bagaimana New Federation memperlakukan Resonator… tetapi di sini di Lahai-Roi, Anda benar-benar bebas. Setiap kesempatan dan setiap kepingan pengetahuan terbuka untuk semua orang.\"\n\nIa tetap diam saat guru tersebut membolak-balik berkas siswa yang ia isi dengan santai. Ia telah mengenakan banyak penyamaran untuk misi, namun tidak ada yang pernah membuatnya merasa setegang ini.\n\n\"Hm? Bagian 'Hobi dan Minat' kosong…\"\n\nTidak bagus. Ia seharusnya menulis sesuatu... Grafiti, mungkin? Ia memang menikmati meninggalkan beberapa hiasan cat setelah misi, sebuah kebiasaan yang diambil dari film, tetapi seorang tentara bayaran tidak boleh meninggalkan jejak, jadi ia selalu menghapusnya sampai bersih. Motor, kalau begitu? Tidak ada apa pun selain angin yang menderu di telinganya saat ia melaju di jalan terbuka, meninggalkan jejak warna yang murni dan hidup. Apakah semua itu termasuk sebagai \"hobi\"?\n\n\"Tidak apa-apa.\" Melihatnya tenggelam dalam pikiran, wanita berambut panjang dengan topi itu menutup berkasnya. Ia tersenyum dan meletakkan kartu identitas siswa yang baru ke dalam telapak tangannya.\n\n\"Anda dapat meluangkan waktu untuk menemukannya di sini.\""
+      },
+      {
+        "title": "Where The Story Begins",
+        "content": "Kehidupan setelah mendaftar ulang tidak terasa jauh berbeda dari sebelumnya.\n\nKelas pagi pertama tetap membuatnya terkantuk-kantuk terlepas dari upaya terbaiknya, meskipun ia sudah lama menguasai seni berpura-pura mencatat dengan tekun tepat sebelum tatapan tajam guru menemukannya. Ia sudah pernah mengambil kelas yang persis sama ini sebelumnya, menulis catatan yang sama ini… Jadi sebenarnya, rasa kantuknya sangat bisa dibenarkan.\nWaktu istirahatnya tetap padat: membantu senior Teknik menguji mesin baru, membuat \"efek transisi\" yang mencolok untuk panggung Klub Penggemar Drama, dan ya, tetap menulis laporan refleksi sesekali…\n\nNamun, yang berbeda adalah bisa menyeret orang yang dulunya adalah \"junior\"-nya untuk berdiri di antrean kantin bersamanya, dan mencoba beberapa \"rasa baru\" bersama-sama.\nSejak pendaftaran, ia menjadi jauh lebih sibuk. Ini adalah salah satu momen langka mereka bersama. Sekarang mereka berdua duduk bahu-membahu di sebuah bangku di Stargram Plaza, berbagi sekaleng rasa baru \"Canned Surprise\" yang bersikeras dibeli oleh Lynae.\nDahulu, keheningan akan membuatnya cemas. Ia akan bergegas mengisinya dengan tugas atau obrolan. Sekarang, hal itu terasa hangat. Nyaman.\nLynae berbalik untuk melihat profil yang selalu tenang di sampingnya itu, hanya untuk melihat mata emas tersebut sedikit melebar setelah merasakan rasa yang sangat… mengejutkan. Ia tertawa terbahak-bahak. Hal itu mengingatkannya pada pertama kali mereka bertemu—ia mengenakan ekspresi yang hampir persis sama.\n\nSaat itu, Lynae tidak tahu apakah Rover, yang benar-benar jatuh langsung dari langit, telah menyaksikan momen tepat saat ia menjalankan rencananya. Ia telah memperhatikan Rover bangkit kembali dari tanah, jarinya secara naluriah mengencang di pelatuk. Namun kekejaman dingin di matanya lenyap seketika saat ia melihat surat penerimaan yang terjatuh melayang turun di antara mereka. Pada saat itu, ia menyadari—\n\n—Ia bukan lagi \"tentara bayaran\" yang bergerak melalui bayang-bayang. Ia hanyalah seorang siswa sekarang. Seseorang yang tidak menginginkan apa pun selain menjalani kehidupan yang bebas.\nIa segera menyembunyikan senjatanya, mengeluarkan keringat dingin. Apakah ia baru saja menabrak seorang siswa baru? Itu akan terlihat lebih buruk di catatannya daripada kehadirannya yang buruk! Jika siswa itu menolak untuk memaafkannya, habislah dia!\n\nJadi ia segera mengulurkan tangan, menarik Rover berdiri tegak dan menyeretnya ke kursi belakang motornya. Dan pada saat yang sama, seekor Voidworm menggeliat di atas tanah, bersiap untuk melepaskan niat jahatnya pada mereka berdua.\n\nIa tidak mengetahuinya saat itu, tetapi cerita yang benar-benar milik Lynae sudah dimulai pada saat itu juga."
+      }
+    ],
+    "specialFood": {
+      "name": "Rainbow Wonder Cup Noodles",
+      "description": "Meningkatkan DEF sebesar 12% dan Max HP sebesar 25% untuk semua Resonator dalam tim, berlangsung selama 30 menit. Hanya efektif pada Resonator milik Anda sendiri dalam Co-op Mode.",
+      "imageUrl": "/icons/food/lynae.webp"
+    }
+  }
+}

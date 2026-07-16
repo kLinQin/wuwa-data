@@ -1,0 +1,498 @@
+{
+  "name": "Aalto",
+  "element": "Aero",
+  "weapon": "Pistol",
+  "rarity": 4,
+  "version": "3.0",
+  "lastUpdated": "2026-02-07",
+  "roles": [
+    "Aero DMG Amplification",
+    "Concerto Efficiency"
+  ],
+  "sonatas": [
+    "Moonlit Clouds",
+    "Sierra Gale"
+  ],
+  "changelog": [
+    {
+      "text": "Updated Aalto DPS",
+      "type": "input",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Black Shores",
+  "affiliation": "The Black Shores",
+  "class": "Congenital",
+  "image": "/characters/aalto.webp",
+  "imageBanner": "/banners/aalto-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1700+",
+    "Energy Regen": "130-140",
+    "Crit Ratio (Crit Weapon)": "60: 265-295",
+    "Crit Ratio (Non Crit Weapon)": "60: 220"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "The Last Dance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Sub DPS",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ],
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": ""
+        },
+        {
+          "label": "Hybrid Aero",
+          "sonataCustom": [
+            "Sierra Gale"
+          ],
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "feilian-beringal",
+          "echoSlugSecondary": "nightmare-beringal"
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "Reso Skill DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "Cadenza adalah opsi yang bagus jika memprioritaskan rotasi yang lebih cepat dibandingkan personal DMG sebagai Sub DPS. Jika tidak, Static Mist tetap menjadi pilihan terbaik untuk menghasilkan damage tinggi sekaligus memberikan buff bagi Resonator berikutnya.",
+    "weaponOptions": [
+      {
+        "id": "the-last-dance",
+        "percentage": "104",
+        "rank": ""
+      },
+      {
+        "id": "phasic-homogenizer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "static-mist",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "relativistic-jet",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "novaburst",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "cadenza",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Skill",
+          "Echo(Swap)",
+          "Intro",
+          "Ult",
+          "Skill",
+          "BA12345",
+          "MA(x12)",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "Resonanve Libe dan Intro cukup di Level6 saja",
+      "priority": [
+        "Forte Circuit",
+        "Normal Attack",
+        "Resonance Skill",
+        "Resonance Liberation",
+        "Intro Skill"
+      ]
+    },
+    "teams": [
+      {
+        "name": "Jiyan Hypercarry",
+        "note": "Aalto memberikan 23% Aero DMG Amplify kepada Jiyan saat mengeluarkan Outro Skill. Gunakan healer pilihan Anda pada slot ke-3.",
+        "members": [
+          [
+            "Jiyan"
+          ],
+          [
+            "Aalto"
+          ],
+          [
+            "Shorekeeper",
+            "Verina"
+          ]
+        ]
+      },
+      {
+        "name": "Aalto Hypercarry",
+        "note": "anhua memberikan 38% Basic ATK DMG Amplify kepada Aalto saat mengeluarkan Outro Skill. Selain itu, pada S6, ia memberikan tambahan hingga 20% ATK saat meledakkan Ice Prism atau Glacier.",
+        "members": [
+          [
+            "Aalto"
+          ],
+          [
+            "Sanhua"
+          ],
+          [
+            "Shorekeeper",
+            "Verina"
+          ]
+        ]
+      }
+    ],
+    "teamNote": "Aalto memberikan 23% Aero DMG Amplify kepada Jiyan saat mengeluarkan Outro Skill. Gunakan healer pilihan Anda pada slot ke-3."
+  },
+  "skills": {
+    "basic": {
+      "name": "Half Truths",
+      "description": "Basic Attack\nAalto melepaskan hingga 5 tembakan berturut-turut, memberikan Aero DMG. Basic Attack ke-4 akan menyebarkan Mist ke depan, yang berlangsung selama 1.5 detik.\n\nHeavy Attack\nAalto memasuki mode membidik untuk tembakan yang lebih kuat.\nTembakan bidikan yang dilepaskan setelah pengisian daya selesai memberikan Aero DMG.\n\nMid-air Attack\nAalto mengonsumsi STA untuk melakukan tembakan berturut-turut ke target di udara, memberikan Aero DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG. "
+    },
+    "skill": {
+      "name": "Shift Trick",
+      "description": "Mist Avatar\nMelepaskan Mist dan 1 \"Mist Avatar(s)\" untuk mengejek (taunt) target di sekitar. Avatar tersebut mewarisi sebagian dari HP Aalto dan menghasilkan 6 Mist Bullets di sekitar mereka, memberikan Aero DMG.\n\nMist Bullets\nMemberikan Aero DMG, dianggap sebagai Resonance Skill DMG."
+    },
+    "liberation": {
+      "name": "Flower In The Mist",
+      "description": "Membangkitkan Gate of Quandary di depan, memberikan Aero DMG. Saat peluru melewati Gate of Quandary, peluru tersebut akan memberikan DMG yang meningkat. Gate of Quandary berlangsung selama 10 detik."
+    },
+    "forte": {
+      "name": "Misty Cover",
+      "description": "Saat Aalto melewati \"Mist\" atau \"Gate of Quandary\", dia memasuki Mistcloak Dash.\n\nMistcloak Dash\n-Kecepatan gerak meningkat;\n-Selama periode ini, \"Mist Drops\" dikonsumsi secara terus-menerus, dan untuk setiap 1 \"Mist Drop\" yang dikonsumsi, 1 Mist Bullet(s) akan dihasilkan.\n\nMist Drops\nAalto dapat menampung hingga 6 \"Mist Drops\".\nSaat Basic Attack atau Mid-air Attack melewati \"Mist\" dan mengenai target, 1 \"Mist Drop\" akan dipulihkan."
+    },
+    "inherent": [
+      {
+        "name": "Perfect Performance",
+        "description": "Heavy Attack Aalto akan selalu memberikan serangan kritikal (crit hit), dipicu sekali setiap 30 detik."
+      },
+      {
+        "name": "Mid-Game Break",
+        "description": "Aalto akan terus memulihkan STA saat dia berada dalam status Forte Circuit Mistcloak Dash."
+      }
+    ],
+    "intro": {
+      "name": "Feint Shot",
+      "description": "Aalto muncul tiba-tiba untuk melakukan penembakan beruntun yang cepat, memberikan Aero DMG."
+    },
+    "outro": {
+      "name": "Dissolving Mist",
+      "description": "Resonator berikutnya mendapatkan Aero DMG Amplified sebesar 23% selama 14 detik atau sampai mereka diganti."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Roaring Rock Fist",
+            "amount": 46
+          },
+          {
+            "item": "LF Howler Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Howler Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Howler Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Howler Core",
+            "amount": 4
+          },
+          {
+            "item": "Wintry Bell",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Monument Bell",
+          "amount": 26
+        },
+        {
+          "item": "LF Howler Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Howler Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Howler Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Howler Core",
+          "amount": 57
+        },
+        {
+          "item": "Impure Phlogiston",
+          "amount": 25
+        },
+        {
+          "item": "Extracted Phlogiston",
+          "amount": 28
+        },
+        {
+          "item": "Refined Phlogiston",
+          "amount": 55
+        },
+        {
+          "item": "Flawless Phlogiston",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "The Last Dance",
+          "value": 199136,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "Thunderbolt",
+          "value": 157605,
+          "imagePath": "",
+          "percentage": 82
+        },
+        {
+          "type": "Static Mist",
+          "value": 191640,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Undying Flame",
+          "value": 154786,
+          "imagePath": "",
+          "percentage": 81
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Weapon - Aalto",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA/HA",
+          "value": 52.21,
+          "imagePath": "",
+          "percentage": 52.21
+        },
+        {
+          "type": "Resonance Skill",
+          "value": 28.26,
+          "imagePath": "",
+          "percentage": 28.26
+        },
+        {
+          "type": "Resonance Liberation",
+          "value": 9.26,
+          "imagePath": "",
+          "percentage": 9.26
+        },
+        {
+          "type": "Echo",
+          "value": 6.07,
+          "imagePath": "",
+          "percentage": 6.07
+        },
+        {
+          "type": "Intro Skill",
+          "value": 4.2,
+          "imagePath": "",
+          "percentage": 4.2
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Damage - Aalto",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 37.198,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 41.45,
+          "imagePath": "",
+          "percentage": 111
+        },
+        {
+          "type": "S2",
+          "value": 41.636,
+          "imagePath": "",
+          "percentage": 112
+        },
+        {
+          "type": "S3",
+          "value": 43.143,
+          "imagePath": "",
+          "percentage": 116
+        },
+        {
+          "type": "S4",
+          "value": 43.353,
+          "imagePath": "",
+          "percentage": 117
+        },
+        {
+          "type": "S5",
+          "value": 43.454,
+          "imagePath": "",
+          "percentage": 117
+        },
+        {
+          "type": "S6",
+          "value": 44.899,
+          "imagePath": "",
+          "percentage": 121
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Sequence - Aalto",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Trickster'S Opening Show",
+      "description": "Cooldown Resonance Skill Shift Trick berkurang 4 detik."
+    },
+    {
+      "stage": "S2",
+      "name": "Mistweaver'S Debut",
+      "description": "\"Mist Avatar\" mewarisi 100% lebih banyak HP dari Aalto. Saat Aalto menyerang target yang diejek (taunted) oleh \"Mist Avatar(s)\", ATK miliknya meningkat sebesar 15%."
+    },
+    {
+      "stage": "S3",
+      "name": "Hazey Transition",
+      "description": "Saat Basic Attack atau Mid-air Attack Aalto melewati Mist, 2 peluru tambahan akan dihasilkan, memberikan 50% dari DMG Basic Attack atau Mid-air Attack."
+    },
+    {
+      "stage": "S4",
+      "name": "Blake Bloom For Finale",
+      "description": "Damage dari Resonance Skill Mist Bullets meningkat sebesar 30%; Aalto menerima 30% lebih sedikit damage dalam status Forte Circuit Mistcloak Dash."
+    },
+    {
+      "stage": "S5",
+      "name": "Applause Of The Lost",
+      "description": "Dalam status Forte Circuit Mistcloak Dash, Aero DMG Bonus Aalto meningkat sebesar 25% selama 6 detik."
+    },
+    {
+      "stage": "S6",
+      "name": "Broker'S Secrets",
+      "description": "Resonance Liberation Flower in the Mist sekarang secara tambahan meningkatkan Crit. Rate sebesar 8%. Saat Heavy Attack Aalto melewati Gate of Quandary, damage yang diberikan meningkat secara tambahan sebesar 50%."
+    }
+  ],
+  "lore": {
+    "description": "Aalto adalah seorang Information Broker yang misterius, dikenal karena sifatnya yang sulit ditangkap dan senyumnya yang ramah. Di balik kedok tersebut, dia berafiliasi erat dengan the Black Shores.\nRumor mengatakan bahwa dia akan memberikan informasi apa pun dengan harga yang tepat.\n\nBIRTHDAY\nJune 11th\n\nBIRTHPLACE\nNew Federation",
+    "report": {
+      "resonancePower": "Mistcloak Strike",
+      "overclockDiagnostic": "Grafik waveform Resonator Aalto menunjukkan fluktuasi elips yang stabil dalam Time Domain tanpa adanya pola abnormal. Berdasarkan pemeriksaan, semua hasil berada dalam parameter normal.\n\nResonant Criticality: Sedang. Frekuensi Resonator Aalto menunjukkan stabilitas tinggi dengan risiko Overclocking yang rendah.\n\nResonator Aalto menghilang di tengah proses diagnosis Overclock, sehingga tidak ada catatan riwayat Overclocking yang diperoleh.",
+      "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment 1617-G]\n\nMenurut laporan Resonator Aalto, terjadi fenomena kabut tebal yang langka pada hari kelahirannya. Tacet Mark Aalto terletak di sisi kiri lehernya. Selain mendapatkan kemampuan untuk berubah sejenak menjadi wujud seperti kabut, tidak ada perubahan fisik signifikan yang teramati pada tubuh Aalto setelah Awakening miliknya.\n\nResonator Aalto sangat ahli dalam seni kamuflase dan transformasi, sering kali mengambil keadaan fisik yang sulit ditangkap dan fluktuatif, mirip dengan karakteristik kabut. Pengujian lebih lanjut yang dilakukan untuk memastikan sifat-saat kabut yang ia panggil membuahkan hasil yang tidak meyakinkan.\n\nResonance Spectrum Pattern milik Aalto cocok dengan Spectrum Patterns kabut yang kita ketahui. Strong Syntony Reactions telah diamati selama pengujian, mengonfirmasi hubungan antara kabut dan Awakening Aalto.\nSelain itu, analisis sampel uji telah mengungkapkan Rabelle's Curve yang tidak konvergen dengan gelombang periodik yang nyata, yang mengklasifikasikan Aalto sebagai seorang Congenital Resonator.\n\nResearcher's Annotation: Seperti yang dinyatakan dalam laporan, Resonator ini licik dan ahli dalam penyamaran, sehingga membuat kredibilitas penuturannya patut dipertanyakan.\n\nAnnotation to the annotation: Sebagai broker yang menghormati integritas. Saya, Aalto, dengan sungguh-sungguh bersumpah bahwa penuturan yang saya sampaikan adalah 100% kebenaran. Tidak lebih, tidak kurang."
+    },
+    "items": [
+      {
+        "name": "Wind Chimes",
+        "imageUrl": "/icons/items/aalto-1.webp",
+        "description": "Sebuah seruling tulang yang tampak tidak mencolok, namun sebenarnya merupakan alat perekam yang telah dimiliki Aalto sejak ia masih kecil. Aalto membawanya di berbagai kesempatan, dan perangkat kecil ini telah mengumpulkan banyak informasi intelijen berharga untuknya."
+      },
+      {
+        "name": "Intelligence Network",
+        "imageUrl": "/icons/items/aalto-2.webp",
+        "description": "Aalto adalah seorang ahli dalam membangun koneksi dan mengumpulkan informasi. Ia memandang setiap orang sebagai aset potensial dalam jaringan intelijennya, membuat kartu nama menjadi sangat bernilai baginya. Teman sejati memang langka, namun Aalto tahu bahwa kunci kesuksesan terletak pada mengenal lebih banyak orang."
+      },
+      {
+        "name": "Vintage Console",
+        "imageUrl": "/icons/items/aalto-3.webp",
+        "description": "Sebuah konsol game bergaya retro. Konsol ini mungkin hanya menawarkan game piksel jadul yang sederhana, namun ia menyulut semangat kompetitif dalam diri Aalto dan Encore. Keduanya telah mencoba memanfaatkan setiap kesempatan untuk bermain secara sembunyi-sembunyi dan melampaui skor tinggi satu sama lain di konsol tersebut. Namun, bagi Aalto, kegembiraan terbesar justru datang saat rekor miliknya sendiri berhasil dikalahkan."
+      }
+    ],
+    "stories": [
+      {
+        "title": "A Bad Deal",
+        "content": "Kesepakatan yang buruk.\n\nAtau setidaknya begitulah kelihatannya.\n\nSuatu hari, Aalto mulai dikenal karena intel yang ia miliki tentang sebuah harta karun kuno. Dari anak-anak nakal hingga pria tua berusia enam puluhan, banyak yang ingin membeli intel itu darinya, tetapi ia menolak setiap tawaran dengan sopan.\n\n\"Hei, anak kecil. Lebih baik jangan habiskan uang jarmu untuk ini. Ayo, pulanglah.\"\n\n\"Maaf, Kek. Saya tidak menerima dana pensiun.\"\n\nOrang-orang ini semua berasumsi bahwa mereka tidak menawarkan cukup banyak untuk menarik minat Aalto, padahal sebenarnya, ia hanya sedang menunggu pembeli yang tepat.\n\nLalu, suatu hari, pembeli yang dinanti itu akhirnya muncul, mengenakan jubah berlapis-lapis. Pria itu menyepakati transaksi dengan Aalto dengan harga yang sangat rendah. Orang lain merasa bingung dengan kesediaan Aalto menerima tawaran seburuk itu.\n\nBeberapa hari kemudian, sebuah layar elektronik di kantor departemen kepolisian New Federation menyiarkan berita terbaru: sindikat pencurian yang telah lama dicari akhirnya tertangkap.\n\nGumpalan kabut merayap ke dalam kantor kepala polisi, menutupi layar tersebut.\n\n\"Cukup nonton TV-nya. Saatnya menyelesaikan kesepakatan kita.\"\n\nKepala polisi menghempaskan sebuah map berisi file ke atas meja, bersama dengan sebuah koper berisi Credits.\n\n\"Trik yang luar biasa yang Anda mainkan di sana. Katakan padaku, Tuan Aalto, bagaimana Anda begitu yakin mereka akan memakan umpan itu? Menjajakan intel berharga tentang harta karun legendaris di siang bolong, tidakkah Anda khawatir akan memicu kecurigaan mereka?\"\n\n\"Jangan remehkan penjudi yang mengejar uang tunai. Mereka akan mempertaruhkan segalanya, bahkan nyawa mereka. Bagi mereka, keuntungan sebanding dengan bahaya apa pun.\"\n\nKepala polisi mendorong file dan koper tersebut ke arah Aalto.\n\n\"Ini pembayaran Anda, dan daftar nama yang Anda minta. Senang berbisnis dengan Anda.\"\n\n\"Sama-sama.\"\n\nAalto membuka koper, mengambil sekeping Shell Credit, dan melontarkannya ke udara. Sebelum Credit itu menyentuh lantai, ia sudah berubah menjadi kabut, menghilang dari pandangan."
+      },
+      {
+        "title": "A Fair Exchange",
+        "content": "Pertukaran yang adil.\n\nDi bawah aturan Aalto.\n\nMenurut Aalto, setiap pelanggan adalah setara. Baik itu pejabat tinggi, bangsawan, rakyat biasa di jalanan kota, atau seorang Exile yang dikucilkan masyarakat, mereka tidak ada bedanya. Aalto tidak pernah mengategorikan pelanggannya ke dalam tingkatan — tidak ada tinggi dan rendah; tidak ada kaya dan miskin. Memperlakukan setiap pelanggan secara setara selalu menjadi prinsipnya yang tak tergoyahkan.\n\nNamun, selalu ada saja orang-orang yang mencoba menguji batas kemampuannya.\n\n\"Aalto, kan? Ikut kami sekarang.\"\n\nAalto merasakan niat buruk di balik pendekatan pengunjung tersebut, namun ia tetap memasang senyum ramah seperti biasanya.\n\n\"Aww... Maaf, kawan, tapi itu tidak bisa dilakukan. Pelanggan yang ini sudah mengantre lebih dulu.\"\n\nTiba-tiba, klien tersebut didorong ke samping saat para preman itu merangsek masuk, menyebabkan kekacauan dan kepanikan di ruangan yang ramai. Pengunjung lainnya semua melarikan diri, takut terluka.\n\nAalto dengan cepat menolong korban tersebut, membimbing mereka ke tempat aman dengan tangan yang lembut. Dengan sikap tenang, ia menegakkan kursi yang tumbang dan dengan santai merangkulkan lengan ke bahu preman yang gelisah itu.\n\n\"Dengar, sobat, segala sesuatu ada aturannya. Aku punya aturan yang tertulis di sini, lihat? 'Siapa cepat, dia dapat. Dilarang dorong-dorongan.' Apa yang harus kulakukan padamu yang melanggar dua aturan sekaligus?\"\n\nPreman itu menepis lengannya, \"Jika bos kami ingin bertemu seseorang, dia akan mendapatkan apa yang dia mau. Itulah aturan yang kami pakai.\"\n\nKabut menyelimuti kerumunan saat kata-kata Aalto berakhir. Ia dengan cepat memicu kekacauan, menyebabkan para preman itu saling menyerang satu sama lain dalam kepanikan.\n\n\"Ups, maaf. Aku lupa menyebutkan aturan lainnya: 'Dilarang memaksakan transaksi.' Beritahu bosmu untuk tidak melanggar aturan apa pun lain kali. Tidak bisa berbisnis tanpa aturan tersebut.\"\n\nDengan ekor terselip di antara kaki mereka, para preman itu melarikan diri, membiarkan Aalto kembali ke senyum ramahnya yang biasa.\n\n\"Baiklah kalau begitu! Mari kita lanjut dari tempat kita berhenti tadi. Apa yang ingin Anda tanyakan lagi, Tuan yang baik?\""
+      },
+      {
+        "title": "A Perfect Duo",
+        "content": "Duo yang sempurna.\n\nBegitulah cara mereka menjuluki diri sendiri.\n\nSetiap kali Aalto si information broker dibahas, orang-orang tidak bisa tidak memikirkan gadis kecil dengan kuncir merah muda itu. Keduanya hampir tidak terpisahkan, dan kehadiran mereka membawa ledakan kebisingan ke mana pun mereka pergi.\n\nDi luar sebuah gedung yang dijaga ketat, seorang pria berkacamata hitam bersandar santai di dinding, sementara gadis kecil di sampingnya menggunakan tangannya sebagai teropong untuk memindai area tersebut.\n\n\"Lihat targetnya? Yang sedang kita incar.\"\n\n\"Siap! Target terlihat. Encore akan menyelesaikannya dengan sangat cepat, asalkan Aalto tidak tertinggal di belakangku!\"\n\n\"Aw. Encore, kau mematahkan hatiku. Rencanaku tidak ada celanya—\"\n\nSebelum ia sempat menyelesaikan kalimatnya, Encore sudah melesat keluar bersama Cloudy dan Cosmos, meninggalkan kata-kata Aalto menggantung di udara.\n\nDi kejauhan, Aalto bisa melihat Encore sedang berbicara dengan penjaga, membuat gerakan besar di udara, dan sesekali menunjuk ke arahnya.\n\nKetika Aalto sampai di sana, penjaga itu membiarkannya masuk dan menepuk bahunya. Ia tampak bersimpati.\n\n\"Sobat, pasti sulit membesarkan putrimu sendirian selama bertahun-tahun ini.\"\n\nAalto hanya mengangguk setuju dalam kesetiakawanan yang sunyi. Ia membawa Encore masuk ke dalam gedung tanpa menemui masalah apa pun.\n\n\"Kenapa orang-orang selalu percaya cerita-ceritamu, Aalto? Semuanya terdengar sangat palsu!\"\n\n\"Begini, cerita-ceritaku dibuat khusus untuk setiap situasi.\"\n\n\"Apa maksudnya itu?\"\n\n\"Dia seorang ayah tunggal. Dia akan merasa kisah keluarga yang memilukan yang kau ceritakan itu sangat relevan. Lagipula, apa maksudmu cerita-ceritaku palsu?\"\n\nCloudy dan Cosmos melompat ke bahu Encore dan menyanyikan paduan suara \"Baa, baa baa.\"\n\n\"Lihat! Para Woolies juga berpikir kalau ceritamu terdengar sangat palsu.\"\n\n\"Yah, palsu atau tidak, mereka menyelesaikan pekerjaan dengan baik. Baiklah, sekarang saatnya yang sesungguhnya. Waktunya menunjukkan kemampuan terbaikmu.\"\n\n\"Waktunya Woolies Adventure. Ayo lakukan!\""
+      },
+      {
+        "title": "A Free Service",
+        "content": "Layanan tanpa biaya.\n\nSetidaknya, begitulah cara Encore melihatnya.\n\nAalto dikenal luas sebagai broker yang didorong oleh keuntungan. Bayar uang yang cukup dan ia akan dengan senang hati memberikan informasi apa pun. Oleh karena itu, calon pelanggannya selalu datang dengan jumlah uang yang besar yang telah disiapkan.\n\nNamun, pembayaran yang ia inginkan terkadang tidak terduga dan aneh — mulai dari mutiara hitam hingga awan di langit atau bahkan sepotong musik.\n\nBeberapa orang mungkin akan mengamuk karena permintaan yang tampaknya konyol tersebut, tetapi Aalto hanya akan menunjukkan jalan keluar kepada mereka dengan senyum sopan.\n\n\"Pelangganku yang tersayang, pernah dengar pepatah 'keramahan membuatmu kaya'? Anda benar-benar perlu menjaga ucapan Anda. Selain itu, ini hanyalah bisnis, bukan amal. Jika Anda tidak mau repot dengan pembayarannya, maka saya khawatir kita harus berbisnis di lain waktu.\"\n\nSuatu ketika, seorang anak laki-laki berpakaian compang-camping mondar-mandir di depan pintu Aalto selama beberapa hari.\n\n\"Halo, jagoan kecil, ada apa dengan wajah murung itu? Biar kutebak. Kehilangan anak anjingmu?\"\n\n\"Wah! Anda benar-benar tahu segalanya! Jadi, apakah Anda tahu ke mana Pebbles pergi?\"\n\n\"Kau tahu, tidak ada yang gratis di dunia ini. Kau ingin bantuanku, maka kau harus membayar.\"\n\nAnak laki-laki itu menggelengkan kepalanya dengan kecewa, \"Tapi aku tidak punya apa-apa.\"\n\n\"Yah, itu agak disayangkan... Mari kita lihat. Bagaimana kalau kau membayarku setelah aku menemukan Pebbles untukmu?\"\n\nKabut Aalto segera menyebar ke setiap sudut. Akhirnya, ia menemukan anak anjing yang hilang itu di luar kota dan membawanya pulang dengan selamat.\n\nDi bawah bintang-bintang malam yang berkelap-kelip, seekor anak anjing yang bahagia berlari ke arah anak laki-laki itu, menggoyangkan ekornya dengan gembira.\n\nSaat cerita hari ini berakhir, Encore tidak tahan untuk bertanya, \"Aku tidak tahu kau mau membantu orang secara gratis!\"\n\nAalto menjawab dengan senyuman, sambil memainkan sebuah kelereng kecil di tangannya. Di permukaannya terdapat ukiran kasar wajah tersenyum, mengingatkan pada kerajinan tangan seorang anak laki-laki."
+      },
+      {
+        "title": "Water The Flowers, Dear Guest",
+        "content": "\"Selamat datang di the Black Shores! Apakah Anda ingin memulai dengan menyiram bunga, atau menyelamatkan umat manusia?\"\n\nThe Black Shores terletak di sebuah pulau terpencil. Selain muson yang teratur, arus, dan kupu-kupu, pulau ini hanya pernah dikunjungi oleh pasang surut air laut. Wilayah yang belum terpetakan ini tidak ditemukan di peta dunia mana pun.\n\nOrganisasi rahasia ini berdedikasi pada tujuan mulia untuk keselamatan dunia: jenis tujuan yang hanya diharapkan orang-orang ada di dalam dongeng.\n\nTidak mengherankan jika orang-orang sering kali sulit percaya bahwa Aalto, sosok yang tampak tidak serius dan sulit ditangkap, terikat dengan kelompok misterius ini.\n\nUntuk benar-benar memahami Aalto, seseorang perlu melihat melampaui eksteriornya yang teka-teki untuk mengungkap hati yang baik dan teguh yang berdetak di dalamnya.\n\nIa sadar betul bahwa kabutnya saja tidak akan pernah bisa menyembunyikan luka permanen yang ditimbulkan oleh Lament pada planet ini.\n\nInilah sebabnya ia dengan senang hati menyetujui kerja sama jangka panjang dengan the Black Shores saat pertama kali menginjakkan kaki di pulau tersebut melalui sebuah undangan.\n\nSejauh ini, ia telah memberikan banyak intelijen kepada the Black Shores dan membantu mereka merekrut kandidat tepercaya untuk memperkuat Think Tank mereka.\n\nIa akan membantu the Black Shores dalam menyusun rencana mereka... Hingga orang itu kembali."
+      }
+    ],
+    "specialFood": {
+      "name": "Misty Tea",
+      "imageUrl": "/icons/food/aalto.webp",
+      "description": "Meningkatkan DEF dan Max HP semua Resonator dalam tim masing-masing sebesar 14% dan 12%, bertahan selama 30m. Hanya efektif pada Resonator Anda sendiri dalam Co-op Mode."
+    }
+  }
+}

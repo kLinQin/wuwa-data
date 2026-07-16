@@ -1,0 +1,500 @@
+{
+  "name": "Yinlin",
+  "element": "Electro",
+  "weapon": "Rectifier",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Concerto Efficiency",
+    "Resonance Skill DMG",
+    "Coordinated Attack",
+    "Electro DMG Amplification",
+    "Resonance Liberation DMG Amplification"
+  ],
+  "sonatas": [
+    "Empyrean Anthem",
+    "Moonlit Clouds"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Public Security Bureau",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Congenital",
+  "image": "/characters/yinlin.webp",
+  "imageBanner": "/banners/yinlin-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1800+",
+    "Energy Regen": "120% - 135%",
+    "Crit Ratio (Crit Weapon)": "70-85% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Hecate",
+      "Impermanence Heron",
+      "Nightmare: Tempest Mephis"
+    ],
+    "bestWeapon": "Stringmaster",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Sub DPS General",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: electro%",
+            "3: electro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        },
+        {
+          "label": "Sub DPS DMG",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: electro%",
+            "3: electro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "hecate",
+          "echoSlugSecondary": "nightmare-tempest-mephis",
+          "sonataCustom": [
+            "Empyrean Anthem"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "stringmaster",
+        "percentage": "124",
+        "rank": ""
+      },
+      {
+        "id": "rime-draped-sprouts",
+        "percentage": "112",
+        "rank": ""
+      },
+      {
+        "id": "luminous-hymn",
+        "percentage": "110",
+        "rank": ""
+      },
+      {
+        "id": "cosmic-ripples",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "fusion-accretion",
+        "percentage": "95",
+        "rank": "5"
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Skill1(Cancel)",
+          "Ult",
+          "Skill2(Swap)",
+          "HA(Swap)",
+          "HA(Swap)",
+          "Intro",
+          "Forte",
+          "Heron(Swap)+Outro"
+        ],
+        "title": "Standar Rotasi"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Hypercarry",
+        "note": "Yinlin memberikan Xiangli Yao 20% Electro DMG Amplify dan 25% Resonance Liberation DMG Amplify selama 14 detik setelah ia melancarkan Outro Skill miliknya.",
+        "members": [
+          [
+            "Xiangli Yao",
+            "Jinhsi"
+          ],
+          [
+            "Yinlin"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      },
+      {
+        "name": "Quickswap",
+        "note": "Yinlin mampu memberikan Coordinated ATKs kepada Jinhsi, yang dibutuhkan Jinhsi untuk mengisi Forte Gauge miliknya. Selain itu, Yinlin memberikan Liberation DMG Amplify.",
+        "members": [
+          [
+            "Yinlin"
+          ],
+          [
+            "Jinhsi",
+            "Havoc Rover"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      }
+    ],
+    "teamNote": "\n"
+  },
+  "skills": {
+    "basic": {
+      "name": "Zapstring'S Dance",
+      "description": "Basic Attack\nYinlin mengendalikan boneka \"Zapstring\" untuk melakukan hingga 4 serangan, memberikan Electro DMG.\n\nHeavy Attack\nYinlin mengonsumsi STA untuk mengendalikan \"Zapstring\", memberikan Electro DMG.\n\nMid-air Attack\nYinlin mengonsumsi STA untuk mengendalikan \"Zapstring\" guna melakukan Mid-air Plunging Attack, memberikan Electro DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG."
+    },
+    "skill": {
+      "name": "Magnetic Roar",
+      "description": "Magnetic Roar\nBoneka \"Zapstring\" memberikan Electro DMG ke target, dan membuat Yinlin masuk ke dalam Resonance Skill Execution Mode.\n\nExecution Mode\nBasic Attack dan Dodge Counter akan memicu 1 Electromagnetic Blast saat mengenai target.\nSetiap tahap Basic Attack atau Dodge Counter hanya dapat memicu 1 Electromagnetic Blast, hingga 4 kali.\n\nElectromagnetic Blast\nMenyerang semua target yang ditandai dengan Forte Circuit Sinner's Mark, memberikan Electro DMG.\n\nLightning Execution\nGunakan Resonance Skill setelah melancarkan Resonance Skill Magnetic Roar untuk melancarkan Lightning Execution guna menyerang target, memberikan Electro DMG.\nJika Resonance Skill Lightning Execution tidak diaktifkan dalam beberapa waktu atau Karakter ini diganti, Skill ini akan masuk ke dalam Cooldown."
+    },
+    "liberation": {
+      "name": "Thundering Wrath",
+      "description": "Memerintahkan \"Zapstring\" untuk memanggil guntur agar jatuh pada area yang luas, memberikan Electro DMG.\n"
+    },
+    "forte": {
+      "name": "Chameleon Cipher",
+      "description": "Chameleon Cipher\nSaat Judgment Points Yinlin penuh, Heavy Attack miliknya diganti dengan Chameleon Cipher, yang mengonsumsi semua Judgment Points untuk menyerang target, memberikan Electro DMG. Saat mengenai target yang ditandai dengan Sinner's Mark, Sinner's Mark diganti dengan Punishment Mark, bertahan selama 18 detik. Chameleon Cipher memberikan Heavy Attack DMG.\n\nSinner's Mark\nBasic Attack Zapstring's Dance, Resonance Liberation Thundering Wrath, dan Intro Skill Roaring Storm memberikan Sinner's Mark pada target saat terkena serangan.\nSinner's Mark akan dihapus saat Yinlin diganti keluar.\n\nPunishment Mark\nSaat target yang ditandai dengan Punishment Mark menerima damage, Judgement Strike akan jatuh, memicu Coordinated Attacks ke semua target yang ditandai dengan Punishment Mark, memberikan Electro DMG. Efek ini dapat dipicu hingga 1 kali per detik. Judgement Strike memberikan Resonance Skill DMG.\n\nJudgment Points\nYinlin dapat menampung hingga 100 Judgement Points. Yinlin mendapatkan Judgement Points melalui cara-cara berikut:\nSaat melancarkan Intro Skill Raging Storm;\nSaat Basic Attack Zapstring's Dance mengenai target;\nSaat melancarkan Resonance Skill Magnetic Roar;\nSaat Resonance Skill Electromagnetic Blast mengenai target;\nSaat melancarkan Resonance Skill Lightning Execution."
+    },
+    "inherent": [
+      {
+        "name": "Pain Immersion",
+        "description": "Setelah menggunakan Resonance Skill Magnetic Roar, Crit. Rate Yinlin meningkat sebesar 15% selama 5 detik."
+      },
+      {
+        "name": "Deadly Focus",
+        "description": "Damage dari Resonance Skill Lightning Execution meningkat sebesar 10% saat mengenai target yang ditandai dengan Sinner's Mark, dan ATK Yinlin meningkat sebesar 10% selama 4 detik saat efek ini dipicu."
+      }
+    ],
+    "intro": {
+      "name": "Raging Storm",
+      "description": "Memerintahkan boneka \"Zapstring\" untuk menyerang, memberikan Electro DMG dalam area yang luas."
+    },
+    "outro": {
+      "name": "Strategist",
+      "description": "Resonator yang masuk mendapatkan Electro DMG Amplified sebesar 20% dan Resonance Liberation DMG Amplified sebesar 25% selama 14 detik atau sampai mereka diganti keluar."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Group Abomination Tacet Core",
+            "amount": 46
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Coriolus",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Dreamless Feather",
+          "amount": 26
+        },
+        {
+          "item": "LF Whisperin Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Whisperin Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Whisperin Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Whisperin Core",
+          "amount": 57
+        },
+        {
+          "item": "Lento Helix",
+          "amount": 25
+        },
+        {
+          "item": "Adagio Helix",
+          "amount": 28
+        },
+        {
+          "item": "Andante Helix",
+          "amount": 55
+        },
+        {
+          "item": "Presto Helix",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Stringmaster",
+          "value": 198905,
+          "imagePath": "",
+          "percentage": 123.81
+        },
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 179442,
+          "imagePath": "",
+          "percentage": 111.7
+        },
+        {
+          "type": "Luminous Hymn",
+          "value": 176503,
+          "imagePath": "",
+          "percentage": 109.87
+        },
+        {
+          "type": "Augment",
+          "value": 166239,
+          "imagePath": "",
+          "percentage": 103.48
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 160649,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Fusion Accretion",
+          "value": 146935,
+          "imagePath": "",
+          "percentage": 91.46
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Yinlin",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 12,
+          "imagePath": "",
+          "percentage": 12
+        },
+        {
+          "type": "Skill",
+          "value": 57.8,
+          "imagePath": "",
+          "percentage": 57.8
+        },
+        {
+          "type": "Lib",
+          "value": 20,
+          "imagePath": "",
+          "percentage": 20
+        },
+        {
+          "type": "Echo",
+          "value": 4.8,
+          "imagePath": "",
+          "percentage": 4.8
+        },
+        {
+          "type": "Intro",
+          "value": 5.4,
+          "imagePath": "",
+          "percentage": 5.4
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Yinlin",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1272131,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1299782,
+          "imagePath": "",
+          "percentage": 102.17
+        },
+        {
+          "type": "S2",
+          "value": 1299782,
+          "imagePath": "",
+          "percentage": 102.17
+        },
+        {
+          "type": "S3",
+          "value": 1330867,
+          "imagePath": "",
+          "percentage": 104.62
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Yinlin",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Morality'S Crossroad",
+      "description": "Resonance Skill Magnetic Roar dan Lightning Execution memberikan 70% lebih banyak DMG."
+    },
+    {
+      "stage": "S2",
+      "name": "Ensnarled By Rapport",
+      "description": "Resonance Skill Electromagnetic Blast memulihkan tambahan 5 Judgement Point(s) dan 5 Resonance Energy saat mengenai target."
+    },
+    {
+      "stage": "S3",
+      "name": "Unyielding Verdict",
+      "description": "Multiplier DMG dari Forte Circuit Judgment Strike meningkat sebesar 55%."
+    },
+    {
+      "stage": "S4",
+      "name": "Steadfast Conviction",
+      "description": "Saat Forte Circuit Judgment Strike mengenai target, ATK dari semua anggota tim meningkat sebesar 20% selama 12 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Resounding Will",
+      "description": "Resonance Liberation Thundering Wrath memberikan 100% ekstra DMG kepada target yang memiliki Sinner's Mark atau Punishment Mark dari Forte Circuit."
+    },
+    {
+      "stage": "S6",
+      "name": "Pursuit Of Justice",
+      "description": "Dalam 30 detik pertama setelah melancarkan Resonance Liberation Thundering Wrath, saat Basic Attack Yinlin mengenai target, Furious Thunder akan dipicu, memberikan Electro DMG sebesar 419,59% dari ATK Yinlin. Setiap pukulan Basic Attack dapat memicu Furious Thunder sebanyak 1 kali, hingga 4 kali. Efek ini dianggap sebagai Resonance Skill DMG."
+    }
+  ],
+  "lore": {
+    "description": "Yinlin adalah seorang Patroller yang terampil dan Natural Resonator yang kuat. Setelah diskors dari tugasnya di Public Security Bureau, ia kini harus mengejar kejahatan tersembunyi secara rahasia.\n\nBIRTHDAY\nSeptember 17th\n\nBIRTHPLACE\nHuanglong",
+    "report": {
+      "resonancePower": "Enforcer Puppet",
+      "overclockDiagnostic": "Grafik gelombang Resonator Yinlin menunjukkan fluktuasi zig-zag. Pola dari Time Domain bersifat tidak teratur. Nilai puncak atas dan bawah keduanya tinggi dan menunjukkan kedekatan dengan tingkat Criticality. Bentuk gelombang menampilkan segmen kekaburan parsial dan bentuk gelombang abnormal dapat terlihat.\n\nResonant Criticality: Relatif rendah, dengan stabilitas rendah. Risiko Overclocking tetap ada.\n\nResonator Yinlin tidak memiliki riwayat Overclocking yang tercatat. Tubuhnya menunjukkan kekuatan fisik, tetapi juga tanda-tanda paparan barang yang memicu Overclock dalam jangka panjang. Membutuhkan pemantauan lebih lanjut.\n\nMenilai dari observasi sejauh ini, risiko Overclocking sangat minimal. Resonator Yinlin disarankan untuk menghindari aktivitas berat dan jadwal yang tidak teratur.",
+      "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment 2917-G]\nTacet Mark milik Resonator Yinlin terletak di sisi luar paha kirinya. Tidak ada perubahan fisik signifikan yang diamati pada tubuh Yinlin setelah Awakening miliknya. Arus listrik ringan telah terdeteksi di permukaan kulitnya, tetapi hal tersebut tidak menghasilkan efek samping yang terdeteksi pada tubuhnya.\n\nYinlin memiliki kekuatan untuk memusatkan arus listrik menjadi benang-benang tipis. Manipulasi yang ia lakukan terhadap benang-benang ini sangat mahir.\n\nResonance Spectrum Pattern miliknya ditemukan serupa dengan Spectrum Pattern dari bahan konduktif yang dikenal. Pengujian telah menemukan Syntony yang kuat.\n\nAnalisis sampel uji telah mengungkapkan Rabelle's Curve yang tidak konvergen dengan gelombang periodik yang nyata, yang mengklasifikasikan Yinlin sebagai seorang Congenital Resonator.\n\nCATATAN SAMPING: Yinlin memiliki aritmia yang sudah ada sebelumnya yang mungkin atau mungkin tidak terkait dengan Forte miliknya. Memblokir Forte miliknya berpotensi meningkatkan risiko fibrilasi atrium."
+    },
+    "items": [
+      {
+        "name": "Zapstring The Puppet",
+        "imageUrl": "/icons/items/yinlin-1.webp",
+        "description": "Dahulu hanyalah sebuah boneka sederhana, kini menjadi senjata yang ganas berkat kekuatan empatik Yinlin. Ia mungkin menyangkalnya, tetapi kasih sayangnya terhadap boneka tersebut terlihat jelas dalam setiap detailnya, terlepas dari keausan akibat pertempuran selama bertahun-tahun. Dahulu benda ini hanyalah sebuah karya latihan bagi seorang pembuat boneka, tetapi sekarang ia berfungsi sebagai sekutu tepercaya Yinlin di medan perang."
+      },
+      {
+        "name": "Book On Qipao",
+        "imageUrl": "/icons/items/yinlin-2.webp",
+        "description": "Qipao milik Yinlin mungkin tampak sekadar pilihan busana, tetapi sebenarnya berfungsi sebagai buku kode rahasia untuk berkomunikasi dengan perantaranya. Buku mengenai desain qipao ini terus berubah dan diisi dengan gambar serta simbol terenkripsi, sehingga memberikan tantangan bahkan bagi perantara berpengalaman untuk menggunakannya. Selain peralatan dan senjata tersembunyinya, qipao ini juga membantu Yinlin bergerak tanpa terdeteksi, tetapi penampilannya yang khas terkadang dapat menarik perhatian yang tidak diinginkan."
+      },
+      {
+        "name": "Magnifying Glass",
+        "imageUrl": "/icons/items/yinlin-3.webp",
+        "description": "Investigative Magnifying Glass ini diberikan kepada para Patroller baru oleh Public Security Bureau. Alat ini kecil namun kuat, membantu mereka menemukan petunjuk tersembunyi. Yinlin, sebagai seorang secret agent, tidak sering menggunakannya. Namun benda ini tetap memiliki makna penting baginya: Ini adalah bentuk penghormatan kepada mendiang orang tuanya dan pengingat akan identitas aslinya."
+      }
+    ],
+    "stories": [
+      {
+        "title": "Scarlet In The Shadows",
+        "content": "Para Patroller, yang mengenakan seragam resmi, sangat dikenal di antara penduduk Jinzhou. Tugas mereka melibatkan penegakan hukum dan ketertiban sambil memastikan keselamatan individu serta harta benda mereka. Namun, ada juga Patroller pilihan yang tidak dapat mengenakan seragam. Mereka tidak diizinkan untuk mengungkapkan identitas mereka dengan mudah.\nIndividu-individu ini, yang dikenal sebagai Secret Agent, bekerja secara terselubung untuk menyusup ke organisasi kriminal, mengumpulkan bukti aktivitas kriminal, atau mencegah perilaku melanggar hukum, semuanya sambil menjaga anonimitas mereka. Alih-alih menangani pencurian kecil, mereka sering kali menghadapi penjahat berbahaya dan jahat, dan jika identitas mereka terungkap, hal itu sering kali menyebabkan misi gagal atau bahkan hilangnya nyawa.\n...\n“Siapa orang waras yang mau menjadi Secret Agent?” seru Pemimpin Exile, menekankan kata-katanya dengan tusukan tajam belati ke meja yang rusak. Semua orang di sekitar meledak dalam tawa riuh di gudang yang redup itu.\n“Ada mata-mata dari Patroller di sini? Bicara sekarang dan aku akan memesan tempat duduk untuk diriku sendiri di pesta perayaan nanti.” Kelompok itu tertawa lagi, meskipun mereka tidak bisa menahan diri untuk tidak saling melirik satu sama lain.\n“Menurut intelijen kami, sebuah konvoi akan berangkat dari Jinzhou malam ini dengan kargo berharga. Berkat rumor yang kami sebarkan, pengirim tidak bekerja sama dengan Lollo Logistics.”\n“Kerja bagus, Ming,” sang pemimpin menepuk bahu rekannya yang berpenampilan licik, yang menyeringai sebagai tanggapan.\n“Tetap saja, dia menyewa sekelompok Resonator sebagai pengawal…”\n“Jangan khawatir tentang itu. Hei pendatang baru, giliranmu akan segera tiba.”\nSang pemimpin mengalihkan perhatiannya ke sebuah sudut, di mana seorang wanita dengan rambut merah tua yang mencolok dan seringai tipis di wajahnya duduk.\n“Bos... aku sudah lama ingin bertanya, apakah cewek ini benar-benar bisa diandalkan dalam pertarungan? Aku benci jika kru kita dikalahkan oleh seseorang yang terlihat seperti bahkan tidak bisa mengalahkanku.”\nBibir Ming melengkung menjadi seringai licik saat ia meraih lengan wanita itu. Namun tepat saat jari-jarinya akan menyentuh kulit mulusnya, ia tiba-tiba membeku.\n“A-Apa yang terjadi? Kamu wanita jahanam! Apa yang telah kamu lakukan padaku?” Bos Exile cemberut dan melambaikan tangannya dengan frustrasi, memperhatikan benang petir yang bersinar menyelimuti Ming.\n“Biarkan dia, demi aku. Yang tersisa darinya hanyalah lidahnya yang tajam. Simpan permainanmu untuk nanti.”\nWanita itu dengan tenang merapikan rambutnya dan benang petir menghilang dari tubuh Ming.\n“Baiklah, mari kita mulai pertunjukannya. Ayo kawan, ini saatnya untuk meraih sukses besar!”\n...\nBeberapa saat kemudian… Ming terbaring di tanah, tidak berdaya dan terpaku saat konvoi yang seharusnya mereka serang lewat di kejauhan. Kenangan akan peristiwa-peristiwa dari hari sebelumnya membanjiri pikirannya.\n(Ini adalah perasaan lumpuh yang sama… Wanita itu! Dialah mata-matanya!)\nSaat ia berjuang untuk bangun dan memperingatkan timnya, ia melihat sebuah boneka mengerikan membayang di atasnya, membuatnya menjerit ketakutan. Sebelum ia sempat memproses apa yang sedang terjadi, kilatan petir yang tiba-tiba menenggelamkan teriakannya."
+      },
+      {
+        "title": "The Puppet Show",
+        "content": "Di kota Jinzhou yang ramai, seorang pria jangkung dengan jubah bertudung berjalan melewati jalanan yang padat dengan seorang anak laki-laki di belakangnya. Mereka tampak seperti ayah dan anak yang sedang menikmati tamasya hari libur, tetapi pengamat yang jeli dapat merasakan ketakutan yang tersembunyi di balik raut wajah anak itu.\n“Ya, cucu kesayangannya sekarang ada di tangan kita... Begitu kita mengirimnya keluar dari Jinzhou, tidak akan ada yang bisa menemukannya.” Pria itu menatap bocah kecil di sampingnya saat berbicara melalui alat komunikasi, memberi isyarat agar ia tidak macam-macam. “Dengan adanya anak ini dan kakeknya, bahkan para Patroller di Jinzhou harus sedikit waspada terhadap kita... Mari kita berhubungan lagi setelah aku meninggalkan kota.”\nSaat mereka mendekati gerbang kota dengan keamanan yang longgar, terlihat jelas bahwa kakek sang anak tidak melaporkan penculikan tersebut — kemungkinan karena ia sendiri juga merupakan seorang penjahat. Pria berjubah itu bergegas melewati banyak gang, tetapi harus berhenti mendadak ketika ia menabrak sesuatu.\nSeorang wanita yang mengenakan pakaian cerah dengan rambut merah panjang yang mencolok, sedang membawakan pertunjukan boneka. Aksi memukaunya menarik kerumunan anak-anak dan orang tua mereka. Boneka-boneka yang terbang tampak begitu hidup sehingga semua anak tidak bisa mengalihkan pandangan dari mereka, termasuk bocah laki-laki dalam genggamannya. Pertunjukan boneka tersebut menarik kerumunan besar anak-anak, membuatnya sulit untuk bermanuver melewatinya. Namun ia tidak perlu terburu-buru, karena pertunjukan itu hampir berakhir.\nSesuai dugaan, wanita dengan rambut merah tua itu membungkuk dengan anggun, di tengah tepuk tangan yang meriah dan bonekanya yang melambai sebagai ucapan selamat tinggal. Memanfaatkan jeda tersebut, ia memberi isyarat agar anak itu mengikuti saat mereka menyelinap melalui kerumunan yang ramai.\n“Baiklah semuanya, siapa yang ingin bergabung denganku untuk pertunjukan berikutnya? Angkat tangan kalian!”\nTiba-tiba, sang dalang berambut merah bertanya dengan senyum yang mempesona, memindai anak-anak di antara penonton. Hampir semua tangan terangkat dengan penuh semangat. \n“Ya, kamu yang di belakang bersama ayahmu. Ayo turun ke sini!” Semua mata tertuju pada bocah kecil dengan “ayah” bertudungnya, keduanya terkejut karena terpilih.\n“Aku...? Apakah dia menunjuk ke arahku?” Bocah kecil itu menatap pria itu dengan campuran rasa senang dan takut. Setelah ragu-ragu sejenak, pria itu melangkah menuju ke depan.\n“Maaf, tapi kami sedang terburu-buru...”\n“Tidak apa-apa, ini akan selesai segera... Apakah Anda akan bergabung dengan kami juga, tuan?”\n“Aku...? Aku lewatkan saja...” Pria itu secara insting menolak, tetapi ia gagal menyadari bagaimana bocah kecil itu sudah melepaskan diri dari genggamannya.\nIa mencoba menangkap bocah itu, tetapi malah menangkap sebuah boneka aneh. Pada saat itu, arus listrik yang kuat membuatnya jatuh pingsan.\n...\n“Bos! Berita buruk!” Seorang pria berpenampilan kasar menyerbu masuk ke dalam rumah tua, berteriak dengan keras.\n“Bodoh! Tidakkah kamu lihat aku sedang kesal?” Terkejut, pria tua di tengah aula memarahinya karena ketidaksopanannya. Karena merasa stres dan khawatir tentang cucunya yang diculik, ia kehilangan sikap tenangnya yang biasa dan dengan marah melemparkan cangkir tehnya ke arah penyusup itu dalam rasa frustrasi.\n“Wanita itu, wanita berambut merah itu kembali... Dia telah kembali bersama tuan muda kita!”\n“Apa?”\nSebelum pria tua itu dapat sepenuhnya memahami, wanita yang dimaksud berjalan masuk, ditemani oleh seorang anak laki-laki — cucunya yang diculik. Dia tidak lain adalah dalang yang baru saja tampil di gang tersebut.\n“Kakek!”\nMelihat pria tua itu, sang anak menangis dan berlari ke arahnya, mencari perlindungan dalam pelukannya. Pria tua itu merasa terkejut sekaligus senang.\n“Oh, anakku sayang...! Apakah kamu terluka? Bagaimana kamu bisa sampai di sini?” Anak itu menggelengkan kepalanya untuk menunjukkan bahwa ia tidak terluka, lalu menunjuk ke arah wanita berambut merah yang tidak jauh dari sana.\n“Wanita ini membawaku kembali dari orang-orang jahat!”\n“Mengapa kamu di sini? Seorang mata-mata bagi para Patroller, namun kamu ingin membantuku?”\nWanita berambut merah itu hanya memberi isyarat pada bonekanya, yang menunjukkan seorang pria bertudung yang tertangkap.\n“Aku hanya mengincar mereka, kebetulan mereka adalah musuhmu. Aku hanya memanfaatkanmu,” katanya dengan santai. “Tapi cucumu tidak bersalah.” Ia memindai kerumunan gangster yang memenuhi aula, senyum licik tersungging di bibirnya. “Atau apakah kamu benar-benar percaya bahwa kamu dapat menggagalkanku, sang mata-mata yang terkenal, dengan kru kecilmu ini?”\nPria tua itu memejamkan mata dan menghela napas, memberi isyarat agar anak buahnya menurunkan senjata mereka.\n“Pergilah dari sini dan jangan tunjukkan wajahmu lagi.”\nDengan sikap yang anggun, wanita itu keluar. Pria tua itu menghela napas sekali lagi dan mengeluarkan tawa pahit.\n“Kakek, apa yang kakek tertawakan?”\n“Aku sepertinya tidak bisa mencegahnya untuk datang atau pergi... Mungkin aku sudah tidak cocok lagi untuk menjalani hidup seperti ini.”\nSambil menatap wajah cucunya yang menggemaskan, pria tua itu merenungkan untuk meninggalkan dunia kriminal selamanya."
+      },
+      {
+        "title": "Names Born From Ashes",
+        "content": "“Saya menyesal memberi tahu Anda bahwa “Sparrow” dan “Canary” telah dikonfirmasi meninggal dunia. Identitas mereka terbongkar dan organisasi kriminal tersebut mengambil tindakan cepat.”\n“Itu tidak mungkin benar! Bagaimana bisa mereka...” Kemarahan pemuda itu menyebabkannya menjatuhkan sebuah botol, mengejutkan bayi di dalam ayunan. Ia segera menggendongnya.\n“Berbicara tentang hal itu, mereka meninggalkan seorang anak yang juga merupakan seorang Resonator. Hal ini bisa memperumit masalah... Sepertinya dia akan berada dalam perawatan Anda mulai sekarang. Namun karena Anda sedang diskors dari pekerjaan, Anda akan memiliki banyak waktu untuknya.”\n“Saya akan merawatnya. Bukan urusan Anda untuk mengkhawatirkan hal itu.”\n“Mentor Anda sedang menyelidiki sesuatu sebelumnya. Apakah Anda mengetahuinya?”\n“Saya tidak memiliki informasi apa pun mengenai hal itu...” Pemuda itu tahu bahwa pertanyaan sebenarnya adalah tentang mata-mata di Public Security Bureau, dan pria ini kemungkinan besar diutus oleh mereka... Ia tidak boleh mengucapkan sepatah kata pun.\n“Penyidik kami akan datang ke rumah ini besok untuk penyelidikan lebih lanjut. Harap bekerja sama.” Ia tidak bisa menghentikan mereka, terutama dengan seorang bayi yang dibawanya.\n“Besok kalau begitu. Saya akan berkemas malam ini dan mencari tempat baru untuk pindah. Apakah itu tidak apa-apa?”\n“Tentu saja, jangan ragu untuk menggunakan kesempatan ini untuk memulai awal yang baru.” Pemuda itu berpura-pura berkemas sambil diam-diam memperhatikan kilatan mencurigakan di mata Patroller tersebut.\n...\nDi tengah kobaran api, seorang pemuda memeluk erat bayi di lengannya. Anak itu tetap tenang, menatap kosong saat orang-orang bergegas melewati mereka. Saat seorang asing mendekat, pemuda itu menurunkan tudungnya dan menyembunyikan bayi itu lebih dalam ke dalam mantelnya. Gagal memperhatikannya, orang asing itu lewat dan menghilang ke dalam kegelapan untuk membuat laporan.\n“Sudah selesai,” kata orang asing itu. Pemuda itu menyeringai, tahu bahwa ini semua adalah bagian dari rencana mereka. Ia telah menciptakan boneka dirinya sendiri dan sang bayi menggunakan Forte miliknya, menipu musuh-musuh mereka agar mengira bahwa mereka sedang tidur nyenyak. Dengan tipu muslihat ini, mereka bisa melarikan diri melalui lorong tersembunyi dan menghilang dari jangkauan pengejar mereka. Itu adalah satu-satunya cara untuk menjamin keselamatan mereka dan melindungi rahasia yang tersembunyi di bekas rumah mentornya.\nMulai hari itu dan seterusnya, ia dan bayi perempuan di pelukannya tidak akan lagi dikenal dengan nama lama mereka. Mereka akan mengadopsi identitas baru: wajah baru, nama baru. Secara diam-diam, ia mengeluarkan topeng jelek dari sakunya dan mengenakannya pada wajahnya. Kemudian, menutup mata sang anak dengan tangannya, mereka menyelinap pergi dari api yang berkobar dan menghilang ke dalam kegelapan malam tanpa menoleh ke belakang.\n“Mulai saat ini... aku akan dipanggil sebagai ‘Dollmaker’, dan kamu akan menjawab dengan nama ‘Yinlin’ - sebuah nama yang telah lama dipilih orang tuamu untukmu.”"
+      },
+      {
+        "title": "Farewell To The Past",
+        "content": "Instruksi Translasi:\n1. Lakukan translasi dengan standarisasi Gramatikal Aktif Formal. Semua kata kerja dasar (root verb) yang berfungsi sebagai instruksi aksi wajib mengunakan prefiks me- hanya untuk kata kerja yang berada di awal kalimat atau awal baris (Contoh: \"Menyerang target...\").\n2. Gunakan kata kerja dasar (tanpa imbuhan) untuk instruksi yang berada di tengah kalimat setelah koma atau kata hubung (Contoh: \"...tekan Normal Attack\").\n3. Jangan mengubah istilah game.\n4. Pastikan bahasa mengalir natural untuk web.\n5. hati hati kalimat panjang \n6. kiirm translate ke dalam kodeblock\n7. jangan ada yang di potong di hilangkan di rubah hanya translate danmake sure bahasa mengalir natural\n"
+      },
+      {
+        "title": "A Corner In Darkness",
+        "content": "Meringis menahan rasa sakit di pinggangnya, Yinlin berjuang untuk berdiri dengan menggunakan meja di dekatnya sebagai penyangga.\nSesosok figur muncul dari bayang-bayang, mencabut bilah tajam boneka yang tertancap di tubuhnya dan membuangnya begitu saja ke samping.\n“Aku tidak tahu mengapa kamu mempertaruhkan segalanya untuk menyusup ke organisasi kami hanya demi beberapa catatan tentang dua Patroller yang sudah mati… Namun tampaknya akulah yang keluar sebagai pemenang,” ejeknya.\nDengan upaya keras, Yinlin memanggil cambuk petir yang berderak ke ujung jarinya dan melemparkannya ke arah pria itu, tetapi bidikannya meleset karena rasa sakit yang luar biasa dan cambuk itu mendarat beberapa meter jauhnya di tanah.\n“Forte milikku dapat memicu aritmia. Selama kamu adalah manusia, tidak ada cara bagimu untuk menghindarinya.”\nSaat Tacet Mark di lengan pria itu memancarkan cahaya terang lainnya, Yinlin kehilangan pegangannya dan jatuh tersungkur ke tanah, tubuhnya kehilangan seluruh kekuatannya.\n“Kami belum memiliki Resonator di tingkatmu dalam tim kami,” lanjut pria itu. “Tapi kami memiliki mata-mata di antara para Patroller. Hmm, bagaimana bisa kamu...?” Saat ia terus berbicara, kesadaran mulai muncul padanya dan sebuah seringai mengembang di wajahnya.\n“Aha, kamu adalah seorang Secret Agent, bukan? Betapa bodohnya mempertaruhkan nyawamu untuk sesuatu yang sepele ini. Bahkan jika kamu berhasil mengungkap rahasia kami, apa bedanya?”\nSaat napas Yinlin semakin melemah, pria itu tahu jantungnya telah berhenti berdetak.\n“Waktunya untuk menghabisimu. Sayang sekali. Kamu seharusnya tahu untuk tidak berurusan dengan Fractsidus...”\nNamun tepat saat belatinya hendak menyerang, gelombang petir kuat yang tiba-tiba mengalir melaluinya, membuatnya lumpuh di tempat.\n“Bagaimana... Bagaimana kamu...”\nSebelum ia pingsan, ia menangkap sekilas kilatan petir di dalam dada Yinlin. Ia telah memberikan sengatan listrik pada dirinya sendiri untuk mengembalikan jantungnya dari ambang kematian.\nYinlin mengendalikan bonekanya, “Zapstring,” dengan jentikan tangannya untuk mendekati pria itu karena ia sendiri terlalu lelah untuk bergerak. Dari saku pria itu, ia mengambil sekumpulan dokumen.\n“Fractsidus... Sudah waktunya untuk mencabut kegelapan yang tersembunyi ini.”"
+      }
+    ],
+    "specialFood": {
+      "name": " Golden Fried Rice",
+      "imageUrl": "/icons/food/yinlin.webp",
+      "description": "Meningkatkan DEF dari semua Resonator di dalam tim sebesar 28%, bertahan selama 30 menit. Dalam permainan multipemain, efek ini hanya memengaruhi Karakter milik pemain sendiri."
+    }
+  }
+}

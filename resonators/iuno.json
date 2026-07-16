@@ -1,0 +1,530 @@
+{
+  "name": "Iuno",
+  "element": "Aero",
+  "weapon": "Gauntlet",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-30",
+  "roles": [
+    "Support and Healer",
+    "Concerto Efficiency",
+    "Resonance Liberation Damage",
+    "Heavy Attack DMG Amplification"
+  ],
+  "sonatas": [
+    "Crown of Valor"
+  ],
+  "changelog": [
+    {
+      "text": "minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Tetragon Temple",
+  "affiliation": "Septimont,Rinascita",
+  "class": "Congenital",
+  "image": "/characters/iuno.webp",
+  "imageBanner": "/banners/iuno-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "70-85% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Lady of the Sea"
+    ],
+    "bestWeapon": "Moongazer's Sigil",
+    "echoDetails": {
+      "note": "Moonlit Clouds hanya digunakan ketika Iuno berperan sebagai Sub DPS untuk Augusta, meskipun penggunaannya mungkin terasa canggung karena sebagian besar kit Iuno dilakukan di udara, sementara Impermanence Heron hanya bisa digunakan saat berada di darat.",
+      "sets": [
+        {
+          "label": "Sub DPS // DMG",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "lady-of-the-sea",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Crown Of Valor",
+              "set": 3
+            },
+            {
+              "name": "Sierra Gale",
+              "set": 2
+            },
+            {
+              "name": "Windward Pilgrimage",
+              "set": 2
+            },
+            {
+              "name": "Gusts Of Welkin",
+              "set": 2
+            }
+          ]
+        },
+        {
+          "label": "Sub DPS // General",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen (120)",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "moongazers-sigil",
+        "percentage": "140",
+        "rank": ""
+      },
+      {
+        "id": "veritys-handle",
+        "percentage": "125",
+        "rank": ""
+      },
+      {
+        "id": "blazing-justice",
+        "percentage": "110",
+        "rank": ""
+      },
+      {
+        "id": "pulsation-bracer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "abyss-surges",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "stonard",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "aether-strike",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Intro",
+          "[E]Skill\n",
+          "Ult",
+          "Jump(Cancel)\n",
+          "MA123",
+          "Skill(x2)",
+          "[E]HA(Swap)",
+          "Outro"
+        ],
+        "title": "Standard"
+      }
+    ],
+    "talentPriority": {
+      "note": "Untuk Iuno sebagai Main DPS, targetkan 110-120% ER dan maksimalkan level Normal ATK miliknya.",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Resonance Skill",
+        "Intro Skill"
+      ]
+    },
+    "teams": [
+      {
+        "name": "augusta hypercarry",
+        "note": "Iuno memberikan 50% Heavy DMG Amplify kepada Augusta atau Jiyan saat mengeluarkan Outro Skill. Selain itu, Augusta mendapatkan keuntungan dari Iuno's Blessing of the Wan Light yang memberikan 4% All-DMG Amplify selama 10 detik, dapat ditumpuk hingga 10 kali.",
+        "members": [
+          [
+            "Augusta"
+          ],
+          [
+            "Iuno"
+          ],
+          [
+            "Shorekeeper",
+            "Lynae"
+          ]
+        ]
+      },
+      {
+        "name": "Mono Aero",
+        "note": "Ciaccona memberikan Iuno 24% Aero DMG Bonus dari Ensemble Sylphs miliknya, ditambah 15% Aero DMG dari set Gusts of Welkin. Selain itu, saat Ciaccona menggunakan senjata signature-nya, ia menurunkan Aero RES musuh sebesar 10%.",
+        "members": [
+          [
+            "Jiyan"
+          ],
+          [
+            "Iuno"
+          ],
+          [
+            "Ciaccona"
+          ]
+        ]
+      },
+      {
+        "name": "",
+        "note": "Untuk opsi tim Main DPS Iuno, ia dapat memilih Lynae, Ciaccona, Jianxin (S2), Sanhua, atau Yinlin. Pilihan ini memerlukan Signature miliknya (Moongazer's Sigil) atau Signature Xiangli Yao (Verity's Handle). Lynae, Jianxin, dan Yinlin memberikan buff pada Liberation DMG Iuno.",
+        "members": [
+          [
+            "Iuno"
+          ],
+          [
+            "Lynae",
+            "Ciaccona",
+            "Jianxin",
+            "Sanhua",
+            "Yinlin"
+          ],
+          []
+        ]
+      }
+    ],
+    "teamNote": "Iuno memberikan buff berikut untuk rekan satu timnya:\n- 50% Heavy DMG Amplify selama 14 detik setelah menggunakan Outro Skill.\n- 40% All-DMG Amplify selama 10 detik saat mendapatkan shield di dalam [Full Moon Domain], yang hanya berlaku untuk Augusta atau Iuno sebagai Main DPS."
+  },
+  "skills": {
+    "basic": {
+      "name": "Moon Steps",
+      "description": "Moonring - Basic Attack\nMelakukan hingga 3 serangan berturut-turut dengan Moonring, memberikan Aero DMG.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan Aero DMG.\n\nMoonring - Dodge Counter\nTekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target dengan Moonring, memberikan Aero DMG. Tekan Normal Attack lagi sesaat setelah melakukan skill ini untuk melancarkan Moonring - Basic Attack Stage 3.\n\nMoonbow - Basic Attack\nMemasuki Lunar Cycle - New Moon dengan melancarkan Heavy Attack - Flux: Moonring. Saat berada dalam status ini, Iuno akan menyerang dengan Moonbow.\nMelakukan hingga 3 serangan berturut-turut dengan Moonbow, memberikan Aero DMG, yang dianggap sebagai Resonance Liberation DMG.\nDapat dilancarkan di udara.\n\nMoonbow - Dodge Counter\nSaat berada dalam Lunar Cycle - New Moon, tekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target dengan Moonbow, memberikan Aero DMG, yang dianggap sebagai Resonance Liberation DMG.\nSaat berada dalam Lunar Cycle - New Moon, tekan Normal Attack lagi sesaat setelah melakukan skill ini untuk melancarkan Moonbow - Basic Attack Stage 3.\nDapat dilancarkan di udara."
+    },
+    "skill": {
+      "name": "Foresight Fugue",
+      "description": "Pulse of Origins\nMelesat ke depan, memberikan Aero DMG.\n\nClosing Refrain\nSaat tidak dalam Lunar Cycle, melancarkan Moonring - Basic Attack Stage 3, Intro Skill, atau Pulse of Origins menggantikan Resonance Skill Iuno dengan Closing Refrain selama 5 detik.\nMelancarkan Closing Refrain melepaskan serangkaian serangan bertubi-tubi, memberikan Aero DMG, dan mengaktifkan Lunar Cycle.\n\nUnfinished Refrain\nSaat dalam Lunar Cycle - Half Moon, Resonance Skill Iuno digantikan dengan Unfinished Refrain.\nMelancarkan Unfinished Refrain melepaskan serangkaian serangan bertubi-tubi, memberikan Aero DMG.\nUnfinished Refrain berbagi Cooldown yang sama dengan Closing Refrain.\n\nArc Beyond the Edge\nSaat Iuno berada dalam Lunar Cycle - New Moon, Resonance Skill miliknya digantikan dengan Arc Beyond the Edge, yang memiliki 2 charge awal.\nMelancarkan Arc Beyond the Edge membuat Iuno berpindah posisi dan memberikan Aero DMG, yang dianggap sebagai Resonance Liberation DMG.\n- Input arah dapat digunakan untuk memperpanjang jarak perpindahan. Jika Iuno terkena hit atau terlempar ke udara, melancarkan Arc Beyond the Edge segera membuatnya pulih dari serangan tersebut.\nDapat dilancarkan di udara."
+    },
+    "liberation": {
+      "name": "Beneath Lunar Tides",
+      "description": "Memberikan Aero DMG dan mengaktifkan status Lunar Cycle.\nDapat dilancarkan di udara."
+    },
+    "forte": {
+      "name": "Ebb And Flow",
+      "description": "Lunar Cycle\nIuno dapat mengaktifkan Lunar Cycle dengan melancarkan Resonance Skill - Closing Refrain atau Resonance Liberation.\nLunar Cycle memiliki dua status: Half Moon dan New Moon. Secara default, Iuno memasuki status Half Moon saat mengaktifkan Lunar Cycle dan dapat berpindah di antara kedua status tersebut dengan melancarkan Heavy Attack - Flux.\nSaat dalam Lunar Cycle:\n- Jump Iuno digantikan dengan Heavy Attack - Flux. STA tidak akan pulih saat Iuno berada di udara.\n- Pergerakan Iuno menjadi Meandering, yang mengonsumsi STA secara terus-menerus di udara untuk bergerak dengan cara yang unik.\n- Melakukan interaksi lingkungan, menggunakan Utilities, atau menahan Jump akan mengakhiri Lunar Cycle.\n\nLunar Cycle - Half Moon\nIuno menyerang menggunakan Moonring, memulihkan Sentience saat terkena hit.\nIa dapat menggunakan Heavy Attack - Flux: Moonbow untuk memberikan Aero DMG (dianggap sebagai Resonance Liberation DMG) dan berpindah ke Lunar Cycle - New Moon.\nHeavy Attack - Flux: Moonbow dapat dilancarkan di udara.\n\nLunar Cycle - New Moon\nIuno menyerang menggunakan Moonbow. Saat dalam status ini, melancarkan Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, atau Moonbow - Dodge Counter mengonsumsi Sentience untuk meningkatkan DMG Multiplier skill tersebut, memulihkan tambahan Concerto Energy, dan memulihkan HP Resonator terdekat di dalam tim.\nIuno dapat menggunakan Heavy Attack - Flux: Moonring untuk memberikan Aero DMG (dianggap sebagai Resonance Liberation DMG) dan berpindah ke Lunar Cycle - Half Moon.\nHeavy Attack - Flux: Moonring dapat dilancarkan di udara.\n\nHeavy Attack - Absolute Fullness\nSaat Concerto Energy Iuno penuh, Heavy Attack miliknya digantikan dengan Absolute Fullness.\nMelancarkan Absolute Fullness mengakhiri Lunar Cycle, memberikan pemulihan HP bagi Resonator terdekat di dalam tim, memberikan Aero DMG pada target terdekat (dianggap sebagai Resonance Liberation DMG), dan memunculkan Full Moon domain di lokasinya. Efek ini dapat dipicu sekali setiap 25 detik.\nDapat dilancarkan di udara.\n\nFull Moon Domain\nResonator di dalam domain secara periodik memulihkan HP dan STA.\nMendapatkan Shield di dalam domain memberikan 1 stack Blessing of the Wan Light. Efek ini dapat dipicu sekali setiap 0.5 detik.\n\nBlessing of the Wan Light\nResonator yang menerima mendapatkan 4% all DMG Amplification selama 10 detik, dapat menumpuk hingga 10 stack. Mendapatkan stack baru akan mereset durasi. Efek ini berakhir lebih awal jika Resonator yang menerima diganti keluar dari field.\n\nSentience\nIuno dapat menampung hingga 100 poin Sentience.\nMelancarkan Intro Skill memulihkan 40 poin Sentience.\nMelancarkan Resonance Liberation memulihkan 60 poin Sentience.\nMelancarkan Closing Refrain atau Unfinished Refrain memulihkan 25 poin Sentience.\nSaat Iuno berada dalam Lunar Cycle, Moonring - Basic Attack, Moonring - Dodge Counter, dan Mid-air Attack memulihkan Sentience saat terkena hit."
+    },
+    "inherent": [
+      {
+        "name": "Waxing Ascent",
+        "description": "Setiap kali Iuno melancarkan Basic Attack, Heavy Attack, Dodge Counter, Resonance Skill, Resonance Liberation, atau Intro Skill, ia mendapatkan 1 Shield setara dengan 32% dari ATK miliknya selama 15 detik. Shield ini tidak akan diteruskan kepada Resonator yang masuk ke field selanjutnya."
+      },
+      {
+        "name": "Derivation",
+        "description": "Saat Iuno melancarkan Intro Skill atau Resonance Liberation, ia segera mendapatkan 5 stack Blessing of the Wan Light."
+      }
+    ],
+    "intro": {
+      "name": "Illuminated Manifestation",
+      "description": "Deal Aero DMG."
+    },
+    "outro": {
+      "name": "From Gloom To Gleam",
+      "description": "Menyerang target untuk memberikan 100% Aero DMG. Resonator yang masuk mendapatkan 50% Heavy Attack DMG Amplification selama 14 detik. Efek ini berakhir lebih awal jika mereka diganti keluar dari field.\nMelancarkan Outro Skill tidak akan menginterupsi Heavy Attack - Absolute Fullness, dan efek Outro Skill tetap berlaku."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Abyssal Husk",
+            "amount": 46
+          },
+          {
+            "item": "LF Polygon Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Polygon Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Polygon Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Polygon Core",
+            "amount": 4
+          },
+          {
+            "item": "Sliverglow Bloom",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "The Netherworld's Stare",
+          "amount": 26
+        },
+        {
+          "item": "LF Polygon Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Polygon Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Polygon Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Polygon Core",
+          "amount": 57
+        },
+        {
+          "item": "Cadence Seed",
+          "amount": 25
+        },
+        {
+          "item": "Cadence Bud",
+          "amount": 28
+        },
+        {
+          "item": "Cadence Leaf",
+          "amount": 55
+        },
+        {
+          "item": "Cadence Blossom",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Skill",
+          "value": 7.9,
+          "imagePath": "",
+          "percentage": 7.9
+        },
+        {
+          "type": "Lib",
+          "value": 82.5,
+          "imagePath": "",
+          "percentage": 82.5
+        },
+        {
+          "type": "Echo",
+          "value": 5.7,
+          "imagePath": "",
+          "percentage": 5.7
+        },
+        {
+          "type": "Intro",
+          "value": 1.9,
+          "imagePath": "",
+          "percentage": 1.9
+        },
+        {
+          "type": "Outro",
+          "value": 1.9,
+          "imagePath": "",
+          "percentage": 1.9
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Damage - Iuno",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "Moongazer'S Sigil",
+          "value": 559688.9,
+          "imagePath": "",
+          "percentage": 140
+        },
+        {
+          "type": "Verity'S Handle",
+          "value": 506798.92,
+          "imagePath": "",
+          "percentage": 126
+        },
+        {
+          "type": "Blazing Justice",
+          "value": 442839.2,
+          "imagePath": "",
+          "percentage": 110
+        },
+        {
+          "type": "Abyss Surges",
+          "value": 400831.36,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Aether Strike",
+          "value": 384388.48,
+          "imagePath": "",
+          "percentage": 96
+        },
+        {
+          "type": "Celestial Spiral",
+          "value": 337640.88,
+          "imagePath": "",
+          "percentage": 84
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Weapon - Iuno",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 559688.9,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 616159.98,
+          "imagePath": "",
+          "percentage": 110
+        },
+        {
+          "type": "S2",
+          "value": 791710.05,
+          "imagePath": "",
+          "percentage": 141
+        },
+        {
+          "type": "S3",
+          "value": 948116.69,
+          "imagePath": "",
+          "percentage": 169
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Sequence - Iuno",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Wax Or Wane, All Gild The Bough",
+      "description": "Saat Iuno berada dalam Lunar Cycle, ATK miliknya meningkat sebesar 40%.\nSaat Iuno berada di dalam Full Moon Domain, ia secara tambahan memulihkan 1 poin Resonance Energy per detik.\nResonance Skill - Arc Beyond the Edge dan Heavy Attack - Absolute Fullness menjadi kebal terhadap interupsi (immune to interruption)."
+    },
+    {
+      "stage": "S2",
+      "name": "Day Or Night, Let This Be Eternal",
+      "description": "Resonator di dalam tim dengan 10 stack Blessing of the Wan Light mendapatkan tambahan 40% all DMG Amplification."
+    },
+    {
+      "stage": "S3",
+      "name": "I Drink Deep Of Their Forgetting",
+      "description": "Saat Iuno berada dalam Lunar Cycle, DMG yang diberikan oleh Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, dan Moonbow - Dodge Counter mendapatkan Amplified sebesar 65%.\nDalam periode tertentu setelah melakukan Moonbow - Basic Attack atau Moonbow - Dodge Counter, melancarkan Resonance Skill - Arc Beyond the Edge tidak akan mereset urutan (cycle) dari Moonbow - Basic Attack."
+    },
+    {
+      "stage": "S4",
+      "name": "Rainy Season Dwell In My Eyes",
+      "description": "Melancarkan Heavy Attack - Absolute Fullness memberikan Shield setara dengan 160% dari ATK Iuno kepada semua Resonator di dalam tim selama 30 detik, yang tidak dapat diteruskan kepada Resonator yang masuk ke field selanjutnya."
+    },
+    {
+      "stage": "S5",
+      "name": "A Thousand Futile Glimpses",
+      "description": "Iuno mendapatkan 20% Resonance Liberation DMG Bonus."
+    },
+    {
+      "stage": "S6",
+      "name": "I Am The Constant In The Chaos",
+      "description": "DMG Multiplier dari Heavy Attack - Absolute Fullness meningkat sebesar 1600%. Setelah melancarkan skill ini, Iuno memasuki kembali Lunar Cycle - New Moon, mendapatkan 100 poin Sentience, dan mereset semua cooldown dari Resonance Skill - Arc Beyond the Edge."
+    }
+  ],
+  "lore": {
+    "description": "Ia diuntungkan oleh nasib dengan satu nama, dan disapu olehnya dengan nama yang lain. Namun, tidak pernah sekalipun ia dikalahkan, dan ia tidak pernah menyerah.\nSekarang, saksikanlah Priestess yang menantang ini. Saksikan apa yang membuatnya terus melangkah maju, tanpa pernah menoleh ke belakang. Saksikan bagaimana ia menelusuri jaring takdir yang rumit dan menjadi satu-satunya jawaban.",
+    "report": {
+      "resonancePower": "Stasis, Cycle, Renewal",
+      "overclockDiagnostic": "[Excerpt from the Priestess Register, Tetragon Temple]\nEntri ini berkaitan dengan Priestess ke-127 dari Tetragon Temple.\n\nWaveform dari Priestess ini sebagian besar tetap berada dalam parameter yang dapat dikendalikan, tanpa tanda-tanda risiko Overclocking. Namun, beberapa interupsi dengan durasi yang bervariasi telah diamati, disertai dengan penurunan frekuensinya yang bertahap dan konsisten. Hal ini menunjukkan kemungkinan adanya kondisi deplesi jangka panjang. Penyebab dasarnya masih belum diketahui. Priestess tersebut telah menolak pemeriksaan lebih lanjut dan menunjukkan kesediaan yang terbatas untuk terlibat dalam dialog yang lebih dalam mengenai masalah ini.\n\nSangat jelas bahwa ia memahami jauh lebih banyak tentang kondisinya sendiri daripada yang ia tunjukkan. Namun jika waveform ini terus berkurang melampaui rentang yang dapat dikendalikan, atau bahkan mencapai nol… apa yang mungkin terjadi kemudian?\nApakah ia benar-benar tidak takut? Atau apakah ia sudah menemukan cara untuk mengintervensi?",
+      "resonanceEvaluation": "[Excerpt from the Priestess Register, Tetragon Temple]\nEntri ini berkaitan dengan Priestess ke-127 dari Tetragon Temple, yang dikenal sebagai Iu▇.\n\nIa lahir pada malam bulan yang hampa. Sebagai seorang Congenital Resonator, matanya konon memiliki kekuatan untuk ▇▇▇▇.\n\nTacet Mark miliknya terletak di atas kaki kirinya. Saat ia mengaktifkan kemampuan Resonance miliknya, konstruksi energi ▇▇ dengan bentuk fase-fase bulan bermanifestasi di sekitarnya, dan ujung rambutnya berubah menjadi transparan, memancarkan cahaya lembut yang hampir tidak bisa dibedakan dari cahaya bulan yang sebenarnya.\n\nAnalisis spektral Resonance mengungkapkan bahwa Forte miliknya selaras secara luar biasa dengan pola frekuensi bulan alami, menunjukkan modulasi berkelanjutan yang menyerupai fase bulan. Khususnya, tiga tahun lalu, Forte miliknya tampak ▇▇▇▇. Hal itu menjadi mampu melakukan An▇ dan Mani▇, memungkinkannya untuk membentuk cahaya bulan menjadi panah padat yang dapat mengungkap monster yang ditandai yang bersembunyi di Dark Tide.\n\nSaat kami mengarsipkan entri ini, Grandmother Lillibet meminta kami untuk memverifikasinya berkali-kali. Anehnya, tidak ada dari kami yang ingat siapa yang menulisnya pertama kali. Dan yang lebih aneh lagi, tidak ada yang tampak mengingat Priestess yang dijelaskan di sini. Mungkinkah seorang Priestess sekuat dia benar-benar ada? Entah bagaimana, catatan yang muncul entah dari mana ini terasa seolah-olah ditulis oleh cahaya bulan itu sendiri!"
+    },
+    "items": [
+      {
+        "name": "Broken Rebirth",
+        "description": "Sebuah dahan patah yang tumbuh dari luka yang pernah retak. Ini menyerupai Lunarum Bough yang pernah Anda bentuk dalam Chaos. Namun, dengan bow milik Iuno yang sudah ditempa, sebuah dahan yang tanpa cela tidak lagi memiliki banyak arti. Bertahan dari segala lika-liku nasib, ia bukan lagi sebuah persembahan untuk pengorbanan, hanyalah sebuah dahan sederhana—tanpa definisi, tanpa beban, dan bebas, sebagaimana mestinya.\n\nHasilnya, Anda dan Iuno akhirnya bisa menyaksikannya tumbuh perlahan dalam kedamaian sekarang, di masa depan yang belum tertulis melampaui akhir yang penghabisan.\n\nTunas yang segar sangat cocok untuk sebuah awal yang baru, awal yang berakar pada harapan.",
+        "imageUrl": "/icons/items/iuno-1.webp"
+      },
+      {
+        "name": "Lightly Tossed Suspense",
+        "description": "Beberapa dadu tidak beraturan dan asimetris ini adalah milik Iuno.\n\nSeptimontians mencari kegembiraan dalam permainan kompetitif mereka, baik itu tontonan pertandingan gladiator maupun sensasi taruhan santai. Iuno pun tidak berbeda. Namun, ia lebih menyukai serendipity daripada keteraturan.\n\nDimulai dengan dadu sederhana bersisi dua belas, ia terus menambahkan batasan dan hadiah baru untuk permainannya secara acak. Satu per satu, dadu yang lebih aneh muncul, masing-masing terikat pada permainan kecilnya sendiri. Dengan sisi yang tidak rata dan simbol yang muncul dengan probabilitas berbeda, peluangnya jelas miring. Namun di bawah aturan yang sama, menggunakan dadu yang sama, kedua pemain menanggung risiko yang sama pula. Keadilan dalam permainan tetap utuh.\n\nSejujurnya, inilah cara ia menambahkan percikan pada perjuangan yang panjang dan tidak pasti. Dengan menjaga hasil tetap di luar prediksi, ia melawan tarikan dari inevitability.",
+        "imageUrl": "/icons/items/iuno-2.webp"
+      },
+      {
+        "name": "Permanence Measured By Moments",
+        "description": "Sebuah kamera instan, dan segelintir foto di mana siluet Iuno masih tertinggal.\n\nPerangkat ini, yang dibawa ke Septimont oleh para Montellis, dengan cepat memikat perhatian Iuno. Ia segera menemukan tujuan tenang bagi dirinya sendiri dalam alat tersebut: untuk mengabadikan momen-momen kegembiraan, kesedihan, dan hubungan sunyi dengan orang lain yang sekilas, serta melestarikannya dalam cetakan-cetakan halus ini.\n\nSetiap foto menjadi sebuah pelindung, sebuah perlawanan kecil terhadap efek samping dari kemampuan Anchoring miliknya, yang mengaburkan keberadaannya dalam ingatan orang-orang di sekitarnya. Dan seiring berjalannya waktu, hal itu menjadi caranya untuk bersiap menghadapi apa yang tak terelakkan: saat ia akan menghilang sepenuhnya.\n\nBahkan jika mereka yang pernah memandangnya kini telah melupakannya, bahkan jika gambar-gambarnya sudah mulai memudar, apa yang tertangkap akan tetap ada. Betapapun buramnya, momen-momen indah itu nyata. Hal itu benar terjadi, dan itu adalah bukti dari eksistensinya.",
+        "imageUrl": "/icons/items/iuno-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "At First, She Closed Her Eyes",
+        "content": "Iuno terbangun seolah-olah ditarik dari air yang dalam.\n\nUdara mengisi paru-parunya sedikit demi sedikit. Anak tangga batu di bawah kakinya terasa dingin dan padat. Setiap jejak sensasi yang tumbuh mengejutkannya. Terlalu jelas, terlalu nyata. Menghilang berarti tidak ada yang tersisa. Masa lalu, masa kini, dan semua yang mungkin terjadi... tidak ada apa-apa selain keheningan. Ia telah menerima konsekuensi dan pelenyapan dirinya. Jadi mengapa, seperti sisa-sisa yang tenggelam dan terendam air, ia masih di sini?\n\nFaktanya, ia bahkan tidak tahu di mana ia berada. Segala sesuatu di sekitarnya tampak normal, namun membawa tarikan yang berat dan lamban, seolah-olah waktu bisa berhenti kapan saja. Hanya jalan di bawahnya yang terus berlanjut. Lembap, retak, namun kokoh. Maka ia berjalan. Setiap langkah terasa seperti menginjak tulang-tulang yang telah mendingin, membawanya lebih dalam ke tempat yang tidak diketahui.\n\nTeruslah berjalan.\n\nItulah yang paling sering dilakukan Iuno saat masih kecil. Ia berjalan di atas batu, lumut, kelopak bunga, bahkan melintasi mata air yang berbuih. Ia tidak pernah butuh alasan, tidak pernah mengejar makna. Ia hanya tidak bisa diam. Membayangkan tempat-tempat yang belum terlihat dan hal-hal yang belum dicoba saja sudah memenuhi dirinya dengan kegembiraan. Ia ingin merasakan segalanya.\n\nIbunya, Sibylla, mungkin adalah satu-satunya yang benar-benar tahu cara membesarkan anak seperti itu—berjiwa bebas, liar, namun tidak pernah sombong. Sibylla tidak mengikatnya dengan aturan bangsawan mana pun. Ia membiarkan Iuno berlari liar dan memeluk kerinduannya. Tidak pernah hanya ada satu jalan. Jalan mana pun yang dipilih Iuno, ibunya akan menunggu di ujung jalan itu.\n\nHari itu dimulai seperti hari-hari lainnya. Iuno kecil melesat menaiki tangga, berlari lurus ke pelukan ibunya. Sibylla membungkuk untuk mendekapnya, tangannya berada di bagian belakang kepalanya, suaranya hangat. \"Iuno-ku melakukannya dengan sangat baik seperti biasanya.\" Tentu saja. Iuno berkedip dengan bangga. Bahwa Grandmother Lillibet telah mengatakan ia akan menjadi Priestess paling berbakat yang pernah dilihat Septimont. Tapi... mengapa hanya Priestess? Mengapa ia tidak bisa berbakat dalam hal lain?\n\nSaat itu, Iuno masih memiliki rasa ingin tahu yang murni dan polos terhadap ramalan. Ia terlalu muda untuk menyadari bahwa menjadi yang diuntungkan oleh takdir adalah sebuah beban tersendiri.\n\nNamun takdir sudah lelah menunggu.\n\nSenyum Iuno membeku. Ia melihat ibunya hancur, terurai. Daging terkelupas seperti lilin yang meleleh. Kegelapan menggerogotinya, tapi apa yang tumpah bukanlah darah. Itu lebih gelap dan lebih kental daripada malam, melonjak maju seolah-olah akan membanjiri mata Iuno di detik berikutnya.\n\nIa terhuyung mundur, lalu memejamkan matanya rapat-rapat. Terlalu gelap, terlalu dingin, terlalu dekat. Ia mencengkeram lengan baju ibunya, gemetar. Kemudian, ia memaksa matanya terbuka lagi, dan semuanya normal. Pasang surut takdir telah menyapunya, tiba-tiba dan tanpa peringatan. Dan sama cepatnya, ia surut, meninggalkan hanya sentuhan yang paling samar.\n\nIa akan menceritakan tentang apa yang tidak pernah benar-benar ia lihat hari itu, berulang kali. Dan ibunya hanya akan tersenyum dan membelai rambutnya. \"Tidak apa-apa, sayangku. Kau sudah melihat cukup banyak.\"\n\nDan kemudian, dalam sebuah operasi bantuan, ibunya dibawa oleh Dark Tide, tenggelam dalam kekotoran yang tak berujung. Kata-kata penghibur itu tenggelam bersamanya dan tidak pernah muncul lagi. Iuno memutar ulang hari biasa itu berkali-kali. Kapan materi kalsifikasi abu-abu mulai merayap di tubuh ibunya? Kapan kegelapan itu pertama kali mulai mengalir? Apakah itu kuncinya?\n\n\"Jika saja aku tahu… bisakah aku menyelamatkannya?\"\n\"Bagaimana jika... aku tidak memejamkan mataku?\"\n\nIuno kecil berdiri sekali lagi di anak tangga batu dan menoleh ke belakang. Ia membuka matanya lebar-lebar, mencoba mengukir bagian yang hilang ke dalam tatapannya. Namun bahkan sekarang, di alam yang tanpa kenyataan ini, ia tidak melihat apa-apa.\n\n\"Satu kesempatan lagi.\"\nSuaranya nyaris seperti bisikan, seolah ingin larut dalam udara yang lembap. Mungkin ia berbicara pada dirinya sendiri. Mungkin pada sesuatu yang lain sama sekali.\n\n\"Beri aku satu kesempatan lagi… Biarkan aku melihatnya.\"\n\nNamun takdir tidak pernah menoleh ke belakang. Hanya jalan di bawah yang tersisa, berlapis-lapis seperti tulang, menarik sosok bayangan lebih dekat di setiap langkah.\n\nItu adalah Iuno sendiri. Ia maju ke depan, selangkah demi selangkah, melewati tempat di mana ibunya selalu berdiri menunggu, menuju versi dirinya yang lebih muda. Tarikannya hampir melumpuhkan. Tak lama lagi, segalanya mungkin kembali ke dalam keheningan. Namun tidak apa-apa. Masih ada cukup waktu untuk satu tanggapan.\n\nIa telah ditarik dari kedalaman. Dan dalam nafas singkat ini, ia memilih untuk menarik sesuatu sebagai balasannya.\n\nIuno berlutut. Anak di depannya memiliki mata yang jernih karena air mata, bulu matanya gemetar, seolah-olah akan menutup lagi. Ia menjangkau dan dengan lembut mengetuk kelopak mata kecil itu.\n\n\"Kalau begitu, jangan tutup matamu.\"\n\"Tidak peduli seberapa gelap, seberapa dingin, seberapa dekat… Jangan tutup matamu.\"\n\nTiba-tiba, angin bertiup. Angin itu berhembus entah dari mana, melintasi menara-menara tertinggi, melewati pepohonan rendah, dan berhenti, tepat di sana, di atas anak tangga yang berlapis-lapis. Cukup untuk mengeringkan sudut mata Iuno."
+      },
+      {
+        "title": "I Offer You The Bitterness Of A Moongazer",
+        "content": "Sekali lagi, Iuno terbangun seolah-olah ditarik dari air yang dalam.\n\nSejak saat pertama kali ia bertemu dengan dirinya yang lebih muda dan menjawabnya, Iuno mulai mengalami lebih banyak kebangkitan aneh ini.\n\nTerkadang, ia melihat masa lalu. Terkadang, ia melihat dirinya sendiri. Namun lebih sering, ia dipaksa untuk menanggung semuanya lagi apa adanya, menghidupkan kembali ingatan seolah-olah itu adalah masa kini, berulang kali, hingga segalanya melambat, hingga keheningan menelannya secara utuh, hingga kebangkitan berikutnya tiba.\n\nIa mulai terbiasa dengan siklus ini. Rasanya mulai menjadi hampir normal. Namun tetap saja, sebuah absurditas yang sunyi tetap ada. Tidak ada orang lain yang mengingat momen-momen yang hampa akan makna ini. Namun momen-momen itu melekat padanya, sosok yang memilih untuk menghilang. Ia sendiri yang dipaksa untuk membawanya dalam siklus yang tak berujung. Apakah ini tipu muslihat takdir yang kejam? Atau hukuman karena telah melenyapkan diri?\n\nNamun tidak ada jawaban. Ia terbangun lagi, dan itu berarti fragmen masa lalu lainnya telah mengejarnya.\n\nHari itu, hujan turun dengan deras dan dingin, namun tidak menghentikan kerumunan orang untuk berkumpul di dalam Tetragon Temple. Mereka datang untuk menyaksikan kedatangan sosok jenius yang telah lama diramalkan, yang akan segera bergabung dalam jajaran para Priestesses. Hari itu, Iuno mendengar lebih banyak tentang para Priestesses daripada sebelumnya: kekaguman, penghormatan, dan rumor-rumor fantastis. Beberapa orang mengklaim bahwa Priestesses dapat melihat sekilas kebenaran mutlak dan menemukan kesempurnaan yang terkubur dalam keputusasaan di momen-momen terakhir mereka.\n\nBagaimanapun, Priestesses berdiri lebih dekat daripada siapa pun dengan takdir, dengan masa depan, dengan hal yang tidak diketahui, dan dengan jalan yang benar. Itu saja sudah cukup untuk memicu rasa iri. Namun bagi Iuno, setengah dari klaim itu adalah kebohongan. Dan setengah lainnya, delusi. Karena malam sebelum hari itu juga, saat sedang beristirahat di taman bersama yang lainnya, ia telah menyaksikan kematian seorang Priestess.\n\nSeekor merpati putih mendarat di bawah pohon laurel kuno, sayapnya mengepak, nyaris menutupi suara desahan yang melemah. Priestess yang sekarat itu menoleh padanya, suaranya sayup, dan berbisik:\n\n\"Kau... kau tidak seperti kami. Kau lahir dengan kemampuan untuk melihat. Maka pergilah. Lihatlah itu untuk kami.\"\n\n\"Aku akan melakukannya,\" jawab Iuno, hampir tidak terdengar.\n\nItu adalah sesuatu yang bisa ia lakukan. Namun sosok yang mendengar janjinya tidak akan pernah hidup untuk melihat janji itu terpenuhi. Jadi ya, bahkan mereka yang berjalan di samping takdir, masa depan, dan hal yang tidak diketahui di antaranya tidak selalu lebih kuat dari orang lain. Mereka tidak selalu bisa melihat bagaimana akhir bagi diri mereka sendiri. Dan mereka pun merindukan sebuah jawaban.\n\nProphecy adalah sebuah rantai sekaligus kunci. Iuno ingin memegang kuncinya. Namun jika ia bisa, ia juga ingin memutus rantainya. Itulah sebabnya ia memilih untuk menjadi seorang Priestess, namun tidak terikat oleh ekspektasi atau idealisme orang lain.\n\nHari itu, ia tidak mengenakan jubah upacara, melainkan pakaian kuno yang dihiasi satin dan emas. Bukan sebagai pemohon takdir, melainkan sebagai seseorang yang berani menatap matanya. Ia melangkah maju, membawa candelabrum di tangan.\n\nBisik-bisik mulai terdengar di antara kerumunan. Seorang Elder, yang kaku dengan tradisi, bergumam dengan nada meremehkan,\n\"Kurang ajar... Bagaimana bisa dia begitu tidak memiliki kerendahan hati?\"\n\nIuno mendengarnya. Dan untuk pertama dan terakhir kalinya, ia menjawab:\n\"Seseorang yang melihat tidak perlu berlutut.\"\n\nIa mengangkat kepalanya. Mata abu-abu birunya, dengan cahaya yang bersinar turun dari kubah tinggi Temple di dalamnya, setajam bilah pedang, berkilau seolah ingin membelah sesuatu hingga terbuka.\n\nSetelah hari itu, ia memulai pengerukan yang panjang dan tak berujung melalui arus kekacauan, menjangkau ke dalam hal yang tidak diketahui demi kejelasan. Ia melihat lebih banyak tentang masa depan. Hal-hal itu terfragmentasi, menakutkan, dan tidak dapat dihindari. Ia menyampaikan penglihatan ini. Mereka yang menerimanya memperlakukan kata-katanya sebagai kitab suci, sebuah harapan untuk digenggam. Namun Iuno tahu lebih baik. Itu hanyalah sekilas pandang, potongan takdir yang lewat begitu saja melalui celah-celah.\n\nDan semakin banyak ia melihat, semakin ia menyadari bahwa penglihatan ini sama seperti bilah pedang. Jika seseorang mengayunkannya tanpa membelah sesuatu hingga terbuka, maka mereka sendirilah yang akan terpotong.\n\nSejak saat itu, Iuno tidak pernah menutup matanya lagi. Namun jauh di dalam lubuk hatinya, ia mulai merasakan ada sesuatu yang mencabik-cabik dirinya juga.\n\nMungkin itu adalah ingatan.\nMungkin itu adalah nama yang orang-orang gunakan untuk memanggilnya.\nMungkin itu hanyalah sepotong dirinya yang memudar sedikit demi sedikit setiap kali ia memandang dunia terlalu dekat.\n\nNamun tetap saja, ia tidak takut.\n\nIa berdiri di tengah angin Septimont, hujan menempel di bulu matanya seperti benang perak.\n\nGrandmother Lillibet pernah memberitahunya bahwa ia lahir untuk melihat semuanya. Dan ia telah melakukannya. Namun sekarang, ia ingin melihat sesuatu yang lain:\n\nApakah ia bisa berjalan menjauh dari bilah pedang itu dan hidup untuk mencapai tempat yang lebih jauh."
+      },
+      {
+        "title": "With Uncertainty, With Danger, With Defeat",
+        "content": "Sebelum High Tide benar-benar melonjak, Iuno adalah orang pertama yang meramalkan masa depan yang menghancurkan tersebut.\n\nMakhluk-makhluk menyeramkan yang muncul dari pasang surut itu segelap malam tanpa bulan. Gladiators bertarung dengan segenap kemampuan mereka, tetapi tidak ada gunanya. Setiap kali senjata mereka akan menembus tubuh makhluk Dark Tide tersebut, benda-benda itu akan berpencar dan meleleh kembali ke dalam pasang, hanya untuk bersatu kembali dan terlahir kembali. Semua yang mereka tinggalkan hanyalah jejak lumpur yang berkilauan dan mengejek di kaki para Gladiators.\n\nBeberapa hal di dunia ini tidak akan tunduk pada keinginanmu hanya karena kau melihat mereka datang dengan kejelasan yang sempurna.\n\nMalam itu, Iuno nyaris tidak tidur. Dalam mimpinya, bukan makhluk-makhluk itu yang tenggelam dalam Dark Tide. Melainkan dirinya. Pasang itu menelan mulut dan hidungnya, menariknya turun inci demi inci. Ia tidak pernah tahu seberapa dalam itu terjadi. Ketika kakinya akhirnya menyentuh dasar, matanya menangkap versi dirinya yang lebih dingin dan tajam berdiri di sisi lain.\n\n\"Kau benar-benar percaya bahwa melihat berarti menyelamatkan?\"\nIuno yang satunya tersenyum. Di matanya terdapat versi Septimont yang hancur tak terhitung jumlahnya—terbakar, tenggelam, dibangun kembali, dan runtuh lagi.\n\"Kau bisa melihat semua orang… kecuali dirimu sendiri.\"\n\nIuno mencoba menjawab, tetapi tidak ada suara yang keluar.\n\nDark Tide masih bergejolak di seluruh Plateaus. Gladiators menyerbu berkali-kali, selalu dengan hasil yang nihil. Semakin banyak orang berkumpul di Tetragon Temple, menunggu dia dan Priestesses lainnya untuk menawarkan ramalan, sesuatu yang berguna. Mereka berbicara tentang menemukan akhir dengan merunut awal, tentang mengubah hasil dengan memahami penyebab. Mereka ingin membentuk takdir yang lebih baik, tetapi Iuno mendapati dirinya terdiam. Ia melihat sosok ibunya sebelum terkubur oleh Dark Tide. Ia melihat bangunan-bangunan runtuh, kerumunan orang berpencar, dan anak panah demi anak panah melesat dari busurnya, masing-masing tertelan kegelapan sebelum sempat mendarat.\n\nTidak ada yang berubah. Ia bisa melihat. Namun hanya itulah satu-satunya hal yang pernah diizinkan oleh takdir.\n\nMalam putih lainnya. Iuno duduk lagi di meja divinasinya. Riak menyebar di permukaan air. Dalam keheningan, ia merasa mendengar sebuah bisikan:\n\n\"Kau bisa melihat semuanya… tapi jika kau hanya menonton, akan jadi apa dirimu?\"\n\nUntuk sesaat, setiap kepingan masa depan yang telah diramalkan di masa lalu bangkit kembali dalam benaknya. Dinding batu yang terukir dengan wawasan berdiri diam. Gulungan-gulungan yang meluap dengan ramalan terbuka. Benang-benang cahaya takdir melilit di sekelilingnya. Dan ia mendongak, ke arah di mana semuanya memusat. Ia melihat bulan terpantul di atas kepala, satu-satunya hal yang pernah memberinya arah. Mungkin itulah hal yang paling dekat dengan takdir yang dalam dan tak terduga itu sendiri.\n\nTakdir tidak pernah memberinya jawaban. Namun kali ini, ia tidak membutuhkannya.\n\n\"Jika aku tidak bisa mengubah apa yang kulihat… maka biarkan aku menghancurkannya.\"\nMaka ia mengangkat tangannya dan memutuskan semuanya. Menarik setiap garis kekuatan yang bisa ia kendalikan, dengan senyum menantang yang nekat, ia menghujamkan anak panahnya ke bawah.\n\nAnak panah itu menghujam tanpa keriuhan, namun pada saat itu, ia memaku jalur tersembunyi dari Dark Tide, dan memakukannya di antara Septimont dan takdir. Untuk pertama kalinya, monster-monster itu tidak menyelinap pergi tanpa terlihat tetapi tercabik-cabik, inci demi inci, oleh cahaya putih-biru yang berderak.\n\nNamun apa biayanya? Setelah pertempuran, di sebuah kamp di Plateaus, orang-orang mengangkat gelas mereka dengan lega. Api berderak, suara-suara tumpang tindih, dan perayaan membengkak dengan sendirinya. Iuno berdiri di pinggir itu semua, jauh dari nyala api yang paling terang.\n\nSeseorang memperhatikannya.\n\n\"...Siapa itu?\"\n\"Kau bodoh atau apa? Dia itu Priestess… Tunggu, siapa namanya lagi? Iuno?\"\n\"Iuno sang Priestess? Maksudmu jenius yang dibicarakan semua orang itu?\"\n\"Aneh. Bagaimana mungkin aku belum pernah mendengar nama yang begitu terkenal?\"\n\nSeorang Gladiator muda mendekat dengan ragu-ragu. Ia mengangkat gelas dengan sopan, suaranya tidak yakin. \"Kau… kau bersama kami tadi, kan? Pokoknya, bergabunglah dalam perayaan ini.\"\n\nIuno mengangkat alisnya dan tidak mengatakan apa-apa. Ia hanya mengangkat gelasnya dan membenturkannya ke gelas pemuda itu.\n\nKemudian, di luar cahaya lentera, ia duduk sendirian di tepi danau, dagu bersandar di lutut, tawa tersembunyi di lekukan lengannya. Ia menoleh kembali pada jalan yang telah ia tempuh dan bayangan-bayangan yang telah mengikutinya. Beberapa mulai mengabur, yang lain sudah retak. Ia mendengar orang-orang memanggil di belakangnya, tetapi tidak ada dari mereka yang menggunakan namanya. Ia melihat mata yang pernah bertemu dengan matanya, kini menjauh dalam kebingungan dan ketidakenalan. Padahal belum lama ini, mereka memanggilnya \"Iuno\" dengan penuh kepastian saat ia memberikan ramalannya. Mereka telah berdiri bersamanya sebelum anak-anak panah melesat. Namun, semua yang telah mereka lalui dan lalui bersama mulai memudar.\n\nDi tepi danau, ia menelusuri permukaan air dengan ujung jarinya, riak-riak memecah pantulan. Ia melihat dirinya sendiri di dalam air. Garis luarnya jelas, tetapi selalu terselubung. Ia menjangkau ke dalam air, mencoba menyentuh wajah itu. Saat jarinya menyentuhnya, pantulan itu bergetar, seolah-olah mencoba melarikan diri.\n\n\"Jangan lari,\" Iuno tertawa pada air itu. \"Bahkan kau pun tidak bisa mengenaliku sekarang?\"\n\nPermukaan air beriak lagi, seolah pantulan itu berbisik balik:\n\"Apakah kau ingin diingat?\"\n\nIuno tidak mengatakan apa-apa. Ia hanya mengusap air itu lagi, mencoba membuat gambarnya lebih jelas. Namun jarinya hanya menghancurkan permukaan, membuyarkan pantulan bersamanya.\n\n\"…Tidak masalah.\"\nSetelah keheningan yang lama, ia bergumam pelan, lalu mendongakkan kepalanya, menatap tajam ke arah bulan. Bulan itu menggantung di atas seperti koin perak yang tergigit di tepinya. Sebuah simbol ketidaksempurnaan.\n\nIuno tersenyum padanya, seperti menyapa saingan lama pada akhirnya.\n\"…Bahkan jika kau adalah satu-satunya yang tersisa yang mengenalku… itu sudah cukup.\""
+      },
+      {
+        "title": "A Thousand Times Has The Moon Fallen",
+        "content": "Keheningan. Penenggelaman. Kesendirian. Terbangun.\nDalam siklus tanpa akhir ini, Iuno terkadang menemukan dirinya dalam momen-momen yang bukan milik masa lalunya.\n\nMalam tanpa bintang itu, bulan menggantung lebih rendah dari sebelumnya, begitu dekat hingga tampak siap jatuh ke telapak tangannya yang terbuka saat ia duduk di atas atap. Ia tidak ingat bagaimana ia tertidur. Atau mungkin ia tidak tidur sama sekali, hanya hanyut, terbawa oleh cahaya bulan ke dalam ilusi lembut yang tidak pernah ia impikan. Sebuah pembalasan yang sunyi, mungkin, atas anak panah yang pernah ia lepaskan ke langit… dan tantangan yang pernah ia beranikan untuk diucapkan dengan lantang.\n\nDi tempat itu, tidak ada Dark Tide. Tidak ada kiamat. Hanya sebuah ladang yang aneh namun familier. Anak-anak berlarian telanjang kaki di bawah matahari pagi. Asap membubung tinggi di kala senja. Seorang gadis, seusianya, bersantai di dahan pohon yang sarat buah, kaki berayun malas, ekspresi lembut, bebas seperti ikan yang hanyut di laut yang diterangi matahari. Iuno hampir bisa melihat senyumnya, beriak seperti lingkaran di atas air yang tenang.\n\n\"Kau lihat?\" bulan berbicara, suaranya hangat dan semanis madu. \"Ini juga merupakan salah satu cara untuk hidup.\"\n\nIuno tidak menjawab. Ia hanya memperhatikan saat versi lain dari dirinya melambai pada seseorang di kejauhan, lalu melompat ringan turun dari pohon dan menggoyangkan roknya dengan jenaka.\n\n\"Itu adalah dirimu,\" suara itu berbisik. \"Begitulah keajaiban ilusi. Kau bisa melihat sekilas salju dan lautan yang tidak pernah kau ketahui… kehidupan yang tidak pernah kau jalani.\"\n\nIa berbalik dan melihat bulan di belakangnya. Bukan lagi sekadar hiasan langit yang sunyi, melainkan lebih seperti mata besar yang hampa, selalu mengawasi.\n\n\"Tidak ada lagi yang tersisa untuk kau pegang,\" katanya lagi, suaranya lembut dan kuno, seperti cara cahaya api pernah membawa ramalan ke tulang-tulangnya. \"Jadi mengapa tidak tinggal saja? Ini memang tidak nyata, tidak. Tapi apa salahnya sedikit sukacita? Mengapa harus begitu kejam pada dirimu sendiri?\"\n\nDan kemudian, segalanya mulai berputar mundur.\nAkhir yang penghabisan. Yang ke seribu. Yang ke seratus… Yang ke sepuluh… Yang pertama.\nKetika seseorang bergerak cukup jauh ke belakang, melintasi setiap ambang pintu kembali ke titik awal, bagian di antaranya hanyalah angka-angka, mudah untuk ditulis ulang.\n\nDirinya yang lain tertawa, berlari melintasi ladang, sekeranjang buah tumpah di kakinya. Sinar matahari melilit lengannya seperti pita. Temannya melangkah ke arahnya sekarang, tersenyum. \"Ingin pergi ke tepi laut hari ini?\" tanyanya, seolah itu adalah hal yang paling alami di dunia.\n\n\"Pernahkah kau mempertimbangkan,\" gumam bulan, \"bahwa segala sesuatu yang telah kau capai adalah karena kau terikat oleh ramalan sejak awal? Bahwa kau tidak pernah benar-benar memiliki pilihan? Tapi… bagaimana jika kau punya?\"\n\n\"Kau tahu ini tidak nyata,\" kata Iuno pelan, tatapannya terangkat ke arah bulan, yang secara aneh hadir sekarang di langit siang yang biru.\n\n\"Dan kau tahu kau tidak akan pernah bisa kembali,\" jawabnya. Tidak kejam, hanya membujuk dengan lembut.\n\"Segala sesuatu yang kau miliki telah terkubur. Di sinilah tempatmu sekarang, dan setiap hari ke depan,\" bulan terhenti sejenak. \"Bahkan sekarang, dalam ilusi, kau masih menolak untuk melupakan dirimu sendiri. Kau tidak mau melepaskan masa lalumu dan merangkul kehidupan baru yang mungkin terjadi. Keras kepala yang sangat menyebalkan.\"\n\nIuno tidak mengatakan apa-apa.\nIa menatap telapak tangannya. Tidak ada busur. Hanya seikat bunga liar yang belum mekar.\n\nSetelah keheningan yang lama, ia memberikan senyum kecil yang miring. \"Dan kau sama sepertiku,\" bisiknya. \"Keras kepala.\"\n\nIa menatap lagi dirinya yang lain. Gadis itu sekarang sedang menyusuri jalanan yang ramai, berhenti di depan etalase kaca, tertawa bebas.\n\n\"Apakah kau kesepian?\" tanya bulan.\nIuno memiringkan kepalanya. \"Mungkin… sedikit,\" akunya.\n\"Tidakkah kau ingin seseorang mendengar kesepian itu?\"\n\"Itu akan membuatku terlihat rapuh.\"\n\"Lalu apakah kau akan menyangkalnya?\"\n\"Itu hanyalah jenis kerapuhan yang lain.\"\n\"Lalu?\"\n\nIa berbisik balik, \"Jadi aku merangkulnya. Aku akan membawanya melalui malam-malam yang hanya aku yang ingat.\"\n\nIa melangkah ke dalam toko dan melihat Iuno yang lain sedang merapikan rambutnya di depan cermin.\nMendekat, ia mengulurkan tangan dan dengan lembut menyelipkan helai rambut yang lepas ke belakang telinga Iuno yang lain, persis seperti yang biasa dilakukan ibu mereka. Setelah terdiam sejenak, ia meletakkan bunga-bunga itu ke dalam pelukan Iuno yang lain.\n\n\"Kau luar biasa,\" ucapnya lembut. \"Tapi aku tidak akan pernah bisa menjadi dirimu. Tidak sejak waktu yang lama sekali.\"\n\nDan dengan itu, ia berbalik dan pergi, meninggalkan toko dan ilusi yang telah ditenun bulan. Cahaya bulan memanjangkan bayangannya di atas tanah, mencoba untuk terakhir kalinya menariknya kembali. Namun Iuno terus berjalan. Perlahan. Mantap. Tanpa menoleh. Di belakangnya, bulan melakukan upaya terakhir.\n\n\"Kau tahu,\" katanya, \"terkadang… aku benar-benar mengasihanimu. Kau begitu keras kepala. Begitu tidak mau tunduk.\"\n\nBiarlah ia merasa kasihan padanya. Ia tidak peduli. Hidup, bagaimanapun juga, hanyalah sebuah permainan. Tidak peduli siapa yang duduk di seberang meja, ia berniat untuk menang. Setiap saat.\n\nIa telah melangkah sejauh ini, dan ia tidak akan menyerah. Bahkan pada dirinya sendiri."
+      },
+      {
+        "title": "At Last, The Cycle Begins Again",
+        "content": "Setelah berkali-kali tak terhitung, Iuno terbangun lagi seolah-olah ditarik dari air yang dalam.\n\nIa lelah dengan siklus yang hampa dan pahit ini. Mati rasa terhadap masa lalunya. Namun ia tidak bisa berhenti, karena sekarang, akhirnya, ia mengerti di mana ia berada: terombang-ambing dalam kekacauan antara eksistensi dan pelenyapan. Di dunia tempatnya berasal, namanya telah lama terkelupas. Untuk setiap makhluk Dark Tide yang ia Anchor, sepotong bagian dari \"Iuno\" diambil. Ia memilih akhir ini, sebuah jalan tanpa jalan kembali.\n\nMaka ia terus berlanjut.\n\nHanyut dari satu siklus yang hancur ke siklus berikutnya, melewati diri-diri pinjaman dalam kabut, hingga suatu saat, ia mengulurkan tangannya. Dan untuk pertama kalinya, kehangatan orang lain menyentuh kehangatannya sendiri.\n\nThe Unwritten One. Makhluk pertama dalam kekacauan ini yang bukan merupakan gema dari dirinya sendiri.\n{Male=Dia;Female=Dia} melihatnya apa adanya, tertahan di antara cahaya bulan dan Dark Tide.\n\n\"…Iuno.\"\n\nSegalanya berubah saat {Male=dia;Female=dia} mengucapkan namanya. {Male=Dia;Female=Dia} ingat. Dan karena itu, ia pun ingat. Dua pengecualian, di tempat di mana ingatan seharusnya tidak ada. Dan tiba-tiba, kekacauan itu tidak lagi terasa tanpa akhir.\n\n\"Ke mana kau membawaku?\" The Unwritten One berjalan di sampingnya, suaranya lembut, seperti batu yang menyentuh air dengan pelan.\n\nIuno tersenyum tipis. \"Untuk menyelesaikan sesuatu. Atau mungkin... untuk memulai kembali.\"\n\nMereka berpisah, hanya untuk bertemu lagi di medan perang tempat segalanya dimulai. Di sana, di bawah bulan yang hancur, terletak tanda pengorbanannya. Sebuah bukti yang tidak bisa dihapus oleh takdir. Sebuah celah sempit yang tersisa untuk ia lalui.\n\n\"Jika kau melaluinya, kau akan kembali ke momen itu. Bersama {Male=dia;Female=dia}, kau akan me-Anchor dirimu yang terlupakan. Namun segala sesuatu yang telah kau Anchor sebelumnya, segala sesuatu yang ingin kau Anchor, bahkan takdir itu sendiri, perlu di-Anchor kembali. Apakah kau mengerti apa yang akan terjadi?\"\n\nIa mendengar suaranya sendiri. Kedengarannya seperti peringatan, atau sebuah bujukan.\n\nIuno mengangkat wajahnya dan menatap lurus ke arah bulan.\n\"…Aku mengerti.\"\n\nIa berbicara hampir dengan santai. Ekspresinya masih membawa lengkungan bangga yang familier itu.\n\n\"Dulu aku berpikir bahwa jika aku melihat lebih banyak, meramalkan lebih banyak, aku bisa mengubah sesuatu. Bahwa pengetahuan akan memberiku kekuatan. Namun semakin banyak aku melihat, semakin aku terjebak olehnya.\"\n\nThe Unwritten One tetap diam, hanya memperhatikannya.\n\nIuno mengangkat tangannya. Jejak masa lalunya yang tersisa berkumpul menjadi satu wujud, mengungkap Moon Arrow lainnya. Bulu panahnya bersinar dengan warna perak dan biru lembut, seperti keheningan sebelum fajar.\n\n\"Kali ini, mari kita ubah urutannya,\" katanya, sambil menarik tali busur dengan kencang. Matanya tidak menyimpan kesedihan, tidak ada dendam. \"Aku akan me-Anchor diriku sendiri terlebih dahulu. Lalu segala sesuatu yang mencoba melarikan diri. Dan setelah itu... aku akan pergi melihat sesuatu yang baru.\"\n\nIa menarik busurnya.\n\nMoon Arrow berkilau, tertahan seperti bulan purnama di depan dinding yang hancur. Angin berhembus kencang, mengacak-acak rambutnya, namun napasnya tetap stabil. The Unwritten One melihat siluetnya terpantul di dinding, dan untuk sesaat, itu tampak seperti bulan yang melengkapi dirinya sendiri.\n\nSaat anak panah itu melesat, tidak ada suara. Cahaya mengalir dari bulan yang hancur, bergejolak mundur seperti pasang yang berbalik. Cahaya itu membasuh dirinya, menenggelamkan sekaligus mengangkatnya seketika. Nama-nama yang pernah hilang dan bayangan-bayangan yang pernah ditelan oleh takdir kembali kepadanya, di-Anchor kembali oleh satu tembakan.\n\nWaktu berlalu.\n\nKetika ia akhirnya melangkah keluar dari kehampaan kemungkinan tak terbatas itu dan kembali ke dunia perayaan, kelopak bunga berjatuhan dari langit seperti hujan.\n\nDi dekat cahaya api, seseorang mengangkat gelas anggur dan menatap matanya. Ia berkedip dalam kebingungan.\n\n\"Kau, um… Aneh sekali. Sepertinya kita belum pernah bertemu, tapi… apakah aku mengenalmu?\"\n\nIuno mengangkat alisnya dan tidak mengatakan apa-apa, sama seperti sebelumnya. Ia mengangkat gelasnya dan membenturkannya ke gelas orang itu.\n\nSetelah malam itu, tidak ada yang ingat gadis yang melepaskan anak panah menembus takdir. Namun sejak saat itu, bulan milik Iuno bukan lagi sekadar tentang membesar dan mengecil. Bulan itu berputar lagi dan lagi, bukan dalam pengulangan, melainkan dalam pembaruan.\n\nIa telah menulis maknanya sendiri ke dalam siklus tersebut. Dan sekarang, itu berlanjut, selalu berubah, dan selalu menjadi miliknya."
+      }
+    ],
+    "specialFood": {
+      "name": "Sweetened Olives",
+      "imageUrl": "/icons/food/iuno.webp",
+      "description": "Memberikan 55% Resonance Skill DMG Bonus kepada semua Resonator di dalam tim selama 30 menit. Hanya efektif pada Resonator milikmu sendiri dalam Co-op Mode."
+    }
+  }
+}

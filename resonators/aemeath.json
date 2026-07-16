@@ -1,0 +1,474 @@
+{
+  "name": "Aemeath",
+  "element": "Fusion",
+  "weapon": "Sword",
+  "rarity": 5,
+  "version": "3.1",
+  "lastUpdated": "2026-02-13",
+  "roles": [
+    "Main Damage Dealer",
+    "Resonance Liberation Damage",
+    "DMG Amplification",
+    "Fusion Burst",
+    "Tune Rupture Response"
+  ],
+  "sonatas": [
+    "Trailblazing Star"
+  ],
+  "changelog": [
+    {
+      "text": "input character details ",
+      "type": "input",
+      "isNew": true,
+      "leaks": false
+    }
+  ],
+  "faction": "Roya Tribe",
+  "affiliation": "Startorch Academy",
+  "class": "Natural",
+  "image": "/characters/aemeath.webp",
+  "imageBanner": "/banners/aemeath-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "65% : 225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Everbright Polestar",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: fusion%",
+            "3: fusion%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "sigillum",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Trailblazing Star"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "everbright-polestar",
+        "percentage": "122",
+        "rank": ""
+      },
+      {
+        "id": "red-spring",
+        "percentage": "101",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "feather-edge",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Intro",
+          "BA34",
+          "Skill",
+          "[E]BA234",
+          "[E]Skill",
+          "Ult",
+          "[F]Skill",
+          "BA234",
+          "[F]Skill",
+          "HA",
+          "Ult2",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Aemeath Tune-Break",
+        "note": "Sinergi Tune Break yang kuat & kemampuan untuk memaksimalkan Inherent Skill milik Aemeath: Between the Stars. Sebagai alternatif, bisa juga menggunakan Shorekeeper; namun, Mornye lebih ideal karena ia memberikan lebih banyak Ruptures.",
+        "members": [
+          [
+            "Aemeath"
+          ],
+          [
+            "Lynae"
+          ],
+          [
+            "Mornye",
+            "Chisa",
+            "Shorekeeper"
+          ]
+        ]
+      },
+      {
+        "name": "Mono Fusion",
+        "note": "bisa juga ganti Mornye dengan Changli, yang memberikan 25% Res. Liberation Amplify, atau Brant. Jika bersama Changli atau Brant, pilih mode Fusion Burst.",
+        "members": [
+          [
+            "Aemeath"
+          ],
+          [
+            "Lupa",
+            "Changli",
+            "Brant"
+          ],
+          [
+            "Mornye",
+            "Lupa"
+          ]
+        ]
+      }
+    ],
+    "teamNote": ""
+  },
+  "skills": {
+    "basic": {
+      "name": "Infinity Calibration",
+      "description": "Basic Attack - Aemeath\nMelakukan hingga 4 serangan berturut-turut, memberikan Fusion DMG.\n\nHeavy Attack - Aemeath\nTahan Normal Attack untuk mengisi daya serangan dengan mengonsumsi STA, lepas untuk melancarkan Heavy Attack - Aemeath: Charged I, memberikan Fusion DMG.\nTahan Normal Attack lebih lama untuk melancarkan Heavy Attack - Aemeath: Charged II, memberikan Fusion DMG yang lebih tinggi.\nSaat berada dalam Instant Response, Heavy Attack - Aemeath: Charged II mengisi daya dengan lebih cepat. Melancarkan Heavy Attack - Aemeath: Charged II, Heavy Attack - Mech: Charged II, atau Resonance Liberation Heavenfall Edict: Finale mengakhiri Instant Response.\nSkill DMG ini dianggap sebagai Resonance Liberation DMG.\nTekan Normal Attack sesaat setelah melancarkan Heavy Attack - Aemeath: Charged I untuk melancarkan Basic Attack - Aemeath Stage 2.\nTekan Normal Attack sesaat setelah melancarkan Heavy Attack - Aemeath: Charged II untuk melancarkan Basic Attack - Aemeath Stage 3.\n\nMid-air Attack - Aemeath\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan Fusion DMG.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Aemeath Stage 2.\n\nDodge Counter - Aemeath\nTekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target, memberikan Fusion DMG.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Aemeath Stage 4."
+    },
+    "skill": {
+      "name": "Shared Voyage",
+      "description": "Form Switch\nAemeath dapat berganti wujud antara dirinya dan Mech miliknya. Mech mewarisi Stat Aemeath dan membuka gerakan baru.\nAemeath secara otomatis melancarkan Basic Attack - Stage 1 saat melancarkan Form Switch.\nSaat dalam wujud Mech, Aemeath melancarkan Mid-air Attack secara otomatis saat melancarkan Form Switch di udara.\n\nSync Strike: Armament Merge\nTekan Resonance Skill sesaat setelah melancarkan Basic Attack - Aemeath Stage 2, 3 & 4, Heavy Attack - Aemeath, atau Dodge Counter - Aemeath untuk melancarkan Sync Strike: Armament Merge, memberikan Fusion DMG.\nBerganti ke wujud Mech setelah melancarkan skill ini. Tekan tombol Normal Attack sesaat setelahnya untuk melancarkan Basic Attack - Mech Stage 2.\n\nSync Strike: Call of Dawn\nTekan Resonance Skill sesaat setelah melancarkan Basic Attack - Mech Stage 2, 3 & 4, Heavy Attack - Mech, atau Dodge Counter - Mech untuk melancarkan Sync Strike: Call of Dawn, memberikan Fusion DMG.\nDapat dilancarkan di udara.\nBerganti ke Aemeath setelah melancarkan skill ini. Tekan tombol Normal Attack sesaat setelahnya untuk melancarkan Basic Attack - Aemeath Stage 2.\n\nBasic Attack - Mech\nMelakukan hingga 4 serangan berturut-turut, memberikan Fusion DMG.\nDapat dilancarkan di udara dekat dengan tanah.\n\nHeavy Attack - Mech\nTahan tombol Normal Attack untuk mengisi daya dengan mengonsumsi STA, lepas untuk melancarkan Heavy Attack - Mech: Charged I guna menyerang target, memberikan Fusion DMG.\nTahan tombol Normal Attack lebih lama untuk melancarkan Heavy Attack - Mech: Charged II, memberikan Fusion DMG yang lebih tinggi.\nSaat berada dalam Instant Response, Heavy Attack - Mech: Charged II mengisi daya dengan lebih cepat. Melancarkan Heavy Attack - Aemeath: Charged II, Heavy Attack - Mech: Charged II, atau Resonance Liberation Heavenfall Edict: Finale mengakhiri Instant Response.\nSkill DMG ini dianggap sebagai Resonance Liberation DMG.\nDapat dilancarkan di udara dekat dengan tanah.\nTekan Normal Attack sesaat setelah melancarkan Heavy Attack - Mech: Charged I untuk melancarkan Basic Attack - Mech Stage 2.\nTekan Normal Attack sesaat setelah melancarkan Heavy Attack - Mech: Charged II untuk melancarkan Basic Attack - Mech Stage 3.\n\nMid-air Attack - Mech\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan Fusion DMG.\nTekan tombol Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Mech Stage 2.\n\nDodge Counter - Mech\nTekan tombol Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target, memberikan Fusion DMG.\nTekan tombol Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Mech Stage 4.\nDapat dilancarkan di udara dekat dengan tanah."
+    },
+    "liberation": {
+      "name": "Towards The Daybreak",
+      "description": "Heavenfall Edict - Overdrive\nMemberikan Fusion DMG. Berganti ke wujud Mech setelah melancarkan skill ini.\nDapat dilancarkan di udara dekat dengan tanah.\nMelancarkan skill ini memberikan efek berikut:\n- Memasuki Stardust Resonance selama 30 detik.\n- Memasuki Heavenfall Edict: Unbound selama 60 detik.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Mech Stage 2.\nTekan Resonance Skill untuk melakukan Resonance Skill Form Switch sesaat setelah melancarkan skill ini guna melancarkan Basic Attack - Aemeath Stage 2.\nPeluncuran Seraphic Duet berikutnya dalam waktu 30 detik setelah melancarkan skill ini tidak mengonsumsi Rupturous Trail/Fusion Trail.\n\nStardust Resonance\nMeningkatkan efek dari Resonance Skill Seraphic Duet.\nEfek ini berakhir setelah Seraphic Duet dilancarkan sebanyak 2 kali.\n\nHeavenfall Edict - Unbound\nHeavenfall Edict - Overdrive digantikan dengan Heavenfall Edict - Finale.\nSaat berada dalam Heavenfall Edict - Unbound dan Resonance Rate mencapai batas, masuki Instant Response. Instant Response dihapus saat status Heavenfall Edict - Unbound berakhir.\n\nHeavenfall Edict - Finale\nTekan Resonance Skill atau Resonance Liberation untuk melancarkan Heavenfall Edict: Finale saat kondisi berikut terpenuhi:\n- Berada dalam status Heavenfall Edict: Unbound.\n- Synchronization Rate mencapai batas.\n- Resonance Rate mencapai batas.\nMelancarkan skill ini menghabiskan semua Synchronization Rate dan Resonance Rate, memberikan Fusion DMG, serta mengakhiri status Heavenfall Edict: Unbound dan status Seraphic Duo.\nBerganti kembali ke Aemeath setelah melancarkan skill ini.\nDapat dilancarkan di udara dekat dengan tanah."
+    },
+    "forte": {
+      "name": "To Sculpt The Silence",
+      "description": "Seraphic Duo\nSaat melancarkan Basic Attack - Aemeath Stage 4 atau Basic Attack - Mech Stage 4, masuki status Seraphic Duo selama 5 detik.\n\nResonance Skill - Seraphic Duet: Overture\nSaat Aemeath berada dalam status Seraphic Duo dan Synchronization Rate tidak kurang dari 100 poin, tekan Resonance Skill untuk melancarkan Resonance Skill Seraphic Duet: Overture dengan biaya 100 poin Synchronization Rate, memberikan Fusion DMG, yang dianggap sebagai Resonance Liberation DMG.\nDapat dilancarkan di udara dekat dengan tanah.\nBerganti ke wujud Mech setelah melancarkan skill ini dan keluar dari status Seraphic Duo. Tekan Normal Attack dalam jangka waktu tertentu untuk melancarkan Basic Attack - Mech Stage 2.\n\nResonance Skill - Seraphic Duet: Encore\nDalam wujud Mech, saat berada dalam status Seraphic Duo dan Synchronization Rate tidak kurang dari 100 poin, tekan Resonance Skill untuk melancarkan Resonance Skill Seraphic Duet: Encore dengan biaya 100 poin Synchronization Rate, memberikan Fusion DMG, yang dianggap sebagai Resonance Liberation DMG.\nDapat dilancarkan di udara dekat dengan tanah.\nBerganti kembali ke Aemeath dan keluar dari status Seraphic Duo. Tekan Normal Attack sesaat setelahnya untuk melancarkan Basic Attack - Aemeath Stage 2.\n\nResonance Mode\n- Dalam Resonance Mode - Tune Rupture, saat Resonator dalam tim menanggapi Tune Rupture - Interfered, berikan 10 stack Rupturous Trail pada target selama 30 detik, dapat ditumpuk hingga 30 kali.\n\n- Dalam Resonance Mode - Fusion Burst, saat Resonator dalam tim memberikan Fusion Burst, berikan 1 stack Fusion Trail selama 30 detik, dapat ditumpuk hingga 30 kali.\nSaat dalam pertempuran, ketika Fusion Burst pada target di dekat Resonator aktif mencapai 0 stack, berikan 1 stack Fusion Burst. Jika target memiliki lebih dari 5 stack Fusion Burst, pemicu Fusion Burst berdasarkan batas stack maksimal mereka dan hapus semua stack mereka.\n\nDalam Resonance Mode - Tune Rupture/Resonance Mode - Fusion Burst, berikan Tune Rupture - Shifting/Fusion Burst saat skill berikut memberikan damage. Skill yang sama hanya dapat memicu efek ini pada target yang sama sekali setiap 3 detik:\nBasic Attack - Aemeath Stage 3 & 4, Basic Attack - Mech Stage 3 & 4, Resonance Skill Sync Strike: Armament Merge, Resonance Skill Sync Strike: Call of Dawn, Intro Skill Songs Across the Universe, dan Intro Skill Debut of Meteoric Radiance.\n\nResonance Skill Seraphic Duet mendapatkan peningkatan berikut berdasarkan Resonance Mode Aemeath:\n- Saat dalam Resonance Mode - Tune Rupture, Resonance Skill Seraphic Duet menghapus stack Rupturous Trail pada target terdekat dan memberikan tambahan 5 instansi Tune Rupture DMG, setiap kali ke target acak dalam jangkauan. Untuk setiap stack Rupturous Trail yang dihapus dari target, DMG Multiplier dari instansi tambahan Tune Rupture DMG yang dipicu oleh Seraphic Duet terhadap target tersebut meningkat sebesar 4%. Efek ini bertahan selama 1 detik. Off-Tune Level target tidak memengaruhi pemicuan instansi Tune Rupture DMG ini.\n- Saat dalam Resonance Mode - Fusion Burst, Resonance Skill Seraphic Duet menghapus stack Fusion Trail pada target jika mereka terkena Fusion Trail, dan pemicu Fusion Burst pada target berdasarkan batas stack maksimalnya tanpa menghapus stacknya. Setiap stack Fusion Trail yang dihapus dari target meningkatkan DMG Multiplier dari Fusion Burst pada target utama sebesar 10%.\n\nSaat dalam status Stardust Resonance, Resonance Skill Seraphic Duet mendapatkan peningkatan berikut berdasarkan Resonance Mode Aemeath:\n- Dalam Resonance Mode - Tune Rupture, melancarkan Resonance Skill Seraphic Duet akan memberikan tambahan 10 instansi Tune Rupture DMG.\n- Dalam Resonance Mode - Fusion Burst, DMG Multiplier dari Fusion Burst yang dipicu oleh Resonance Skill Seraphic Duet pada target utama meningkat tambahan sebesar 200%. Efek peningkatan DMG Multiplier ini dapat ditumpuk dengan efek yang diberikan oleh Fusion Trail.\n\nTune Rupture Response - Starburst\nAktif dalam Resonance Mode - Tune Rupture. Memberikan Fusion DMG kepada target dalam jangkauan yang terkena efek Tune Rupture - Interfered, yang dianggap sebagai Tune Rupture DMG.\n\nStarflux Thrust\nSaat dalam wujud Mech dan Starflux lebih dari 200, gunakan tombol Utility untuk melancarkan Starflux Thrust dan membubung di udara dengan mengonsumsi Starflux secara terus-menerus.\n\nSynchronization Rate\nSynchronization Rate dibatasi pada 200 poin.\n- Memberikan damage dengan Basic Attack - Aemeath, Mid-air Attack - Aemeath, Dodge Counter - Aemeath, Basic Attack - Mech, Mid-air Attack - Mech, Dodge Counter - Mech, Resonance Skill Sync Strike: Armament Merge, dan Resonance Skill Sync Strike: Call of Dawn memulihkan Synchronization Rate.\n- Melancarkan Intro Skill Songs Across the Universe dan Debut of Meteoric Radiance memulihkan 40 poin Synchronization Rate.\n- Melancarkan Resonance Liberation Heavenfall Edict: Overdrive memulihkan 30 poin Synchronization Rate.\n- Saat berada dalam Instant Response dan Heavenfall Edict: Unbound secara bersamaan, melancarkan Heavy Attack - Aemeath Charged II atau Heavy Attack - Mech Charged II memulihkan 200 poin Synchronization Rate.\n\nResonance Rate\nResonance Rate dibatasi pada 4 poin.\n- Melancarkan Resonance Skill Seraphic Duet memulihkan 1 poin Resonance Rate.\n- Melancarkan Resonance Liberation Heavenfall Edict: Overdrive memulihkan 1 poin Resonance Rate.\n- Saat dalam status Starlume Acceleration, melancarkan Resonance Liberation Heavenfall Edict: Overdrive memulihkan tambahan 1 poin Resonance Rate.\n\nStarflux\nStarflux dibatasi pada 600 poin.\nStarflux pulih secara alami seiring berjalannya waktu."
+    },
+    "inherent": [
+      {
+        "name": "Before All Sounds",
+        "description": "Dalam Instant Response, Heavy Attack - Aemeath dan Heavy Attack - Mech mendapatkan 200% DMG Amplification."
+      },
+      {
+        "name": "Between The Stars",
+        "description": "Dalam Resonance Mode - Tune Rupture, saat Resonator dalam tim memberikan Tune Rupture - Shifting atau memberikan Tune Rupture DMG, Crit. DMG Aemeath meningkat sebesar 20%, hingga 3 kali. Setiap Resonator hanya dapat memicu efek ini satu kali.\nDengan 3 stack, DMG Resonance Liberation Heavenfall Edict: Finale diperkuat sebesar 25%.\nResonator yang bergabung dalam tim atau berganti Resonance Mode mengatur ulang efek ini.\n\nDalam Resonance Mode - Fusion Burst, saat Resonator dalam tim memberikan Fusion Burst, Crit. DMG Aemeath meningkat sebesar 30%, hingga 2 kali. Setiap Resonator hanya dapat memicu efek ini satu kali.\nDengan 2 stack, DMG Resonance Liberation Heavenfall Edict: Finale diperkuat sebesar 25%.\nResonator yang bergabung dalam tim atau berganti Resonance Mode mengatur ulang efek ini."
+      },
+      {
+        "name": "Tune Break - Unlanded Melody",
+        "description": "Saat Off-Tune Level target penuh, Aemeath dapat melancarkan Tune Break pada target.\nTekan Normal Attack sesaat setelah melancarkan Tune Break untuk melancarkan Basic Attack Stage 3.\n\nMenanggapi Tune Rupture - Interfered: saat Resonator dalam tim memicu Tune Break pada target dan menyebabkan mereka terkena efek Tune Rupture - Interfered, Aemeath memicu Tune Rupture Response - Starburst. Target yang sama hanya dapat menerima damage dari skill ini sekali setiap 8 detik."
+      }
+    ],
+    "intro": {
+      "name": "Overture Of Departure",
+      "description": "Songs Across the Universe\nMemberikan Fusion DMG.\nMelancarkan skill ini untuk memasuki Starlume Acceleration selama 15 detik.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Aemeath Stage 3.\nTekan Resonance Skill dan lancarkan Resonance Skill Form Switch sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Mech Stage 3 secara otomatis.\n\nDebut of Meteoric Radiance\nDalam wujud Mech, Songs Across the Universe digantikan dengan Debut of Meteoric Radiance.\nMemberikan Fusion DMG.\nMelancarkan skill ini memberikan Starlume Acceleration selama 15 detik.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Mech Stage 3.\nTekan Resonance Skill dan lancarkan Resonance Skill Form Switch sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Aemeath Stage 3 secara otomatis.\n\nStarlume Acceleration\nDalam Starlume Acceleration, melancarkan Resonance Liberation Heavenfall Edict: Overdrive memberikan tambahan pemulihan Resonance Rate.\nMelancarkan Resonance Liberation Heavenfall Edict: Overdrive mengakhiri Starlume Acceleration.\n"
+    },
+    "outro": {
+      "name": "Silent Protection",
+      "description": "Saat melancarkan skill ini, efek berikut dipicu berdasarkan Resonance Mode yang sedang digunakan Aemeath:\n- Dalam Resonance Mode - Tune Rupture: semua Resonator dalam tim kecuali Aemeath mendapatkan 10% All-DMG Amplification selama 20 detik. Efek All-DMG Amplification meningkat menjadi 20% bagi Resonator yang memberikan Tune Rupture - Shifting.\n- Dalam Resonance Mode - Fusion Burst: semua Resonator dalam tim kecuali Aemeath mendapatkan 10% All-DMG Amplification selama 20 detik. Efek All-DMG Amplification meningkat menjadi 20% bagi Resonator yang memberikan Fusion Burst.\nMelancarkan skill ini mengatur ulang efek-efek di atas."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Our Choice",
+            "amount": 46
+          },
+          {
+            "item": "LF Exoswarm Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Exoswarm Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Exoswarm Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Exoswarm Core",
+            "amount": 4
+          },
+          {
+            "item": "Moss Amber",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Gold In Memory",
+          "amount": 26
+        },
+        {
+          "item": "LF Exoswarm Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Exoswarm Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Exoswarm Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Exoswarm Core",
+          "amount": 57
+        },
+        {
+          "item": "Broken Wing Polarizer",
+          "amount": 25
+        },
+        {
+          "item": "Monowing Polarizer",
+          "amount": 28
+        },
+        {
+          "item": "Polywing Polarizer",
+          "amount": 55
+        },
+        {
+          "item": "Layered Wing Polarizer",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Everbright Polestar",
+          "value": 1615238.24,
+          "imagePath": "",
+          "percentage": 122
+        },
+        {
+          "type": "Red Spring",
+          "value": 1342437.18,
+          "imagePath": "",
+          "percentage": 101
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 1323648.43,
+          "imagePath": "",
+          "percentage": 100
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Aemeth - Weapon",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 6.8,
+          "imagePath": "",
+          "percentage": 6.8
+        },
+        {
+          "type": "Skill",
+          "value": 1.9,
+          "imagePath": "",
+          "percentage": 1.9
+        },
+        {
+          "type": "Lib",
+          "value": 66.7,
+          "imagePath": "",
+          "percentage": 66.7
+        },
+        {
+          "type": "Echo",
+          "value": 2.4,
+          "imagePath": "",
+          "percentage": 2.4
+        },
+        {
+          "type": "Rupture",
+          "value": 21.3,
+          "imagePath": "",
+          "percentage": 21.3
+        },
+        {
+          "type": "Intro",
+          "value": 0.8,
+          "imagePath": "",
+          "percentage": 0.8
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Aemeath - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1615238.24,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1731316.12,
+          "imagePath": "",
+          "percentage": 107
+        },
+        {
+          "type": "S2",
+          "value": 2107723.59,
+          "imagePath": "",
+          "percentage": 130
+        },
+        {
+          "type": "S3",
+          "value": 2751897.81,
+          "imagePath": "",
+          "percentage": 170
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Aemeath - Sequence",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Gilded Glimmer Of The First Dawn",
+      "description": "Dalam Instant Response, Heavy Attack - Aemeath dan Heavy Attack - Mech mendapatkan 300% peningkatan Crit. DMG dan terus menarik target terdekat saat mengisi daya.\n\nSaat Aemeath tetap dalam status yang memenuhi semua kondisi berikut selama lebih dari 4 detik, ia memasuki Instant Response - Brilliance:\n- Berada di luar pertempuran;\n- Tidak melakukan Heavy Attack - Aemeath, Heavy Attack - Mech, atau Resonance Liberation Heavenfall Edict: Finale.\nInstant Response: Brilliance mewarisi semua efek dari Instant Response dan tetap aktif bahkan ketika berada di luar durasi Heavenfall Edict: Unbound.\nSaat berada dalam Instant Response - Brilliance dan tidak dalam Heavenfall Edict: Unbound, melancarkan Heavy Attack - Aemeath Charged II atau Heavy Attack - Mech Charged II memberikan 100 poin Synchronization Rate.\n\nDalam Resonance Mode - Tune Rupture atau Resonance Mode - Fusion Burst, saat Aemeath mengalahkan target yang terkena efek Rupturous Trail/Fusion Trail, ia memasuki Sealed Trail - Tune Rupture/Sealed Trail - Fusion Burst selama {3} detik.\nSelama berada dalam Sealed Trail - Tune Rupture atau Sealed Trail - Fusion Burst, Aemeath mencatat jumlah stack tertinggi dari Rupturous Trail/Fusion Trail di antara target yang dikalahkan.\nSkill berikutnya yang memberikan damage langsung pada target akan segera memberikan stack Rupturous Trail/Fusion Trail yang tercatat kepada target tersebut, hingga batas maksimal saat ini dari Rupturous Trail/Fusion Trail. Ini mengakhiri Sealed Trail - Tune Rupture/Sealed Trail - Fusion Burst dan Aemeath tidak dapat memasuki Sealed Trail - Tune Rupture atau Sealed Trail - Fusion Burst selama 1 detik."
+    },
+    {
+      "stage": "S2",
+      "name": "Downy Notes Of Snowfluff",
+      "description": "DMG Multiplier dari Resonance Skill Seraphic Duet: Overture meningkat sebesar 100%.\nDMG Multiplier dari Resonance Skill Seraphic Duet: Encore meningkat sebesar 100%.\n\nSaat berada dalam Resonance Mode - Tune Rupture, ketika instansi tambahan Tune Rupture DMG yang dipicu oleh Resonance Skill Seraphic Duet mengenai target yang sama, DMG Multiplier dari Tune Rupture DMG yang dipicu oleh Resonance Skill Seraphic Duet terhadap target ini meningkat sebesar 20% selama 1 detik, dapat ditumpuk hingga 5 kali.\n\nSaat berada dalam Resonance Mode - Fusion Burst, dapatkan efek berikut:\n- Dalam status Stardust Resonance, DMG Multiplier dari Fusion Burst yang dipicu oleh Resonance Skill Seraphic Duet meningkat lebih lanjut menjadi 400% terhadap target utama dari Fusion Burst.\n- Fusion Trail kini memberikan tambahan peningkatan DMG Multiplier dari Fusion Trail yang dipicu oleh Resonance Skill Seraphic Duet. Setiap stack Fusion Trail yang dihapus kini memberikan peningkatan 15% DMG Multiplier pada Fusion Burst terhadap target utama.\n- Dalam status pertempuran, saat target di dekat Resonator aktif dalam tim dikalahkan, segera pemicu Fusion Burst berdasarkan batas stack Fusion Burst saat ini dari target tersebut."
+    },
+    {
+      "stage": "S3",
+      "name": "Fervor Sightly Burns Bright As New",
+      "description": "DMG Multiplier dari Resonance Liberation Heavenfall Edict: Finale meningkat sebesar 100%.\nDMG Multiplier dari Resonance Liberation Heavenfall Edict: Overdrive meningkat sebesar 40%.\n\nDalam Instant Response, Aemeath kini memberikan Tune Rupture - Shifting atau Fusion Burst pada target terdekat saat melancarkan Heavy Attack - Aemeath atau Heavy Attack - Mech, berdasarkan Resonance Mode miliknya saat ini.\n\nInherent Skill Between the Stars digantikan dengan efek berikut:\n\n- Dalam Resonance Mode - Tune Rupture, saat Resonator dalam tim memberikan Tune Rupture - Shifting atau memberikan Tune Rupture DMG, Crit. DMG Aemeath meningkat sebesar 60%, dan DMG Resonance Liberation Heavenfall Edict: Finale kini diperkuat sebesar 25%.\nResonator yang bergabung dalam tim atau berganti Resonance Mode mengatur ulang efek ini.\nLua error in Module:Size at line 21: Second parameter (text) is required.\n- Dalam Resonance Mode - Fusion Burst, saat Resonator dalam tim memberikan Fusion Burst, Crit. DMG Aemeath meningkat sebesar 60%, dan DMG Resonance Liberation Heavenfall Edict: Finale kini diperkuat sebesar 25%.\nResonator yang bergabung dalam tim atau berganti Resonance Mode mengatur ulang efek ini."
+    },
+    {
+      "stage": "S4",
+      "name": "Ethereal Waltz On Binary Tides",
+      "description": "Saat melancarkan Intro Skill Songs Across the Universe, Intro Skill Debut of Meteoric Radiance, Resonance Skill Sync Strike dan Resonance Skill Seraphic Duet, Resonator dalam tim mendapatkan 20% All-Attribute DMG Bonus selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Voyage To The Astral Shore",
+      "description": "Saat Aemeath mengalahkan target secara langsung dengan skill miliknya, Starflux diatur ulang menjadi 100%.\n\nSaat menerima damage fatal, Aemeath akan tumbang dan berubah menjadi 2D Digital Ghost selama 5 detik.\nDalam status 2D Digital Ghost, Aemeath memberikan Resonator dalam tim sebuah Shield yang setara dengan 360% dari ATK miliknya selama 5 detik. Saat ia keluar dari status 2D Digital Ghost, ia hidup kembali dan memulihkan 100% dari Max HP serta 30 poin Resonance Energy. Efek ini dapat dipicu sekali setiap 10 menit.\nSaat Aemeath hidup kembali, ia keluar dari status 2D Digital Ghost dan menghapus Shield yang diberikan."
+    },
+    {
+      "stage": "S6",
+      "name": "A Zephyr-Kissed Journey To You",
+      "description": "Target menerima 40% lebih banyak Resonance Liberation DMG dari Aemeath.\n\nSaat berada dalam Resonance Mode - Tune Rupture, Tune Rupture DMG Aemeath dapat memberikan serangan kritikal, dengan Crit. Rate tetap sebesar 80%, dan Crit. DMG tetap sebesar 275%.\n\nSaat berada dalam Resonance Mode - Fusion Burst dan dalam status pertempuran, Fusion Burst DMG yang dipicu pada target di dekat Resonator aktif dalam tim dapat memberikan serangan kritikal, dengan Crit. Rate tetap sebesar 80%, dan Crit. DMG tetap sebesar 275%.\n\nstack Rupturous Trail dan Fusion Trail yang diberikan kepada target melalui Forte Circuit To Sculpt the Silence digandakan.\n\nDalam Resonance Mode - Tune Rupture/Resonance Mode - Fusion Burst dan dalam pertempuran, batas stack maksimal dari Rupturous Trail/Fusion Trail pada target di dekat Resonator aktif dalam tim ditingkatkan menjadi 60. Saat melancarkan Resonance Skill Seraphic Duet, berikan 10 stack Rupturous Trail/Fusion Trail pada target dalam jangkauan selama 30 detik."
+    }
+  ],
+  "lore": {
+    "description": "Dahulu merupakan seorang Exostrider Synchronist dari Rabelle College, ia kini menjadi hantu digital yang menyanyi dengan tenang di antara bintang-bintang.\n\nBIRTHPLACE\nLahai-Roi\n\nALIAS\nFleet Snowfluff",
+    "report": {
+      "resonancePower": "Guiding Starlance",
+      "overclockDiagnostic": "Analisis sampel uji Rabelle's Waveform menunjukkan pola osilasi elips dan Time Domain yang stabil. Tidak ada fluktuasi abnormal yang teramati. Hasil pemeriksaan ditentukan berada dalam parameter normal.\n\nKesimpulan: Resonant Criticality berada dalam rentang normal. Stabilitas subjek tetap kuat. Tidak ada riwayat dan tidak ada risiko Overclocking saat ini. Rabelle's Curve tetap stabil.\n\nKonseling psikologis saat ini dianggap tidak perlu.\n\n\"Aemeath… telah melakukannya dengan baik di tahun akademik ini. Namun kita memang perlu memantau garis dasar psikologisnya dengan cermat. Jika itu bergeser, intervensi terapeutik adalah suatu keharusan.\"\n\"Tapi... dia selalu tampak begitu ceria.\"\n\"Itulah sebabnya kita memantau, bukan ikut campur. Jika ini adalah kehidupan yang ia pilih untuk dirinya sendiri, kita menghormatinya. Kita hanya akan melakukan bagian kita sebagai guru.\"",
+      "resonanceEvaluation": "[Retrieved from the Spacetrek Collective Archive: Startorch Academy - Student Records]\n[Resonance Ability Assessment Report RA2362-G]\n\nNama Siswa: Aemeath\nKualifikasi Synchronist: Afirmatif\nRingkasan Forte: Pengujian menunjukkan Rabelle's Curve dengan tren kenaikan yang stabil, memusat ke dalam kondisi osilasi yang stabil. Berdasarkan parameter saat ini, subjek diklasifikasikan sebagai Natural Resonator. Tacet Mark miliknya terletak di daerah toraks.\n\nMenurut catatan pribadi pra-penerimaan dan keterangan subjek sendiri, individu tersebut ▇▇▂▇▋▌▏▉█... Oke, jadi laporan ini tidak memiliki nilai referensi yang banyak lagi. Ini benar-benar ketinggalan zaman. Ini membicarakan tentang diriku saat aku masih memiliki tubuh. Izinkan aku meluruskan fakta yang ada. Saat ini, aku sudah menjadi Synchronist dari Exostrider. Tacet Mark milikku telah berubah, dibandingkan dengan sebelumnya. Sekarang itu bukanlah yang paling... stabil. Mengenai kemampuanku, aku dapat memanifestasikan Exostrider Armament dan sinkronisasi dengannya secara langsung. Terjemahannya—Ya, aku bisa bertransformasi! Dan karena aku suka bertarung dengan efisien, aku memprogram fitur autopilot khusus untuk unit tersebut. Hasil simulasi saat ini terlihat bagus. Memungkinkanku untuk mewarnai seluruh medan perang dengan cakupan laser setingkat pertunjukan cahaya. Oh, dan hal hantu digital itu memungkinkanku menyelinap ke sistem data mana pun. Tidak yakin apakah itu benar-benar bagian dari Forte milikku atau hanya keuntungan dari kondisi Resonance unikku... ▇▉▇▇▂▇\n\n\"Aneh... mengapa file siswa ini rusak? Isinya tidak lain hanyalah galat data.\"\n\"Synchronist yang hilang? Begitu rupanya... Laporkan hal ini kepada Presiden Lucilla.\""
+    },
+    "items": [
+      {
+        "name": "Game Cartridge",
+        "description": "Space Fantasy: Katya VI adalah game klasik mutlak di kalangan pemain di seluruh Solaris. Terkenal karena pengalaman RPG yang mendalam dan sistem pertarungan yang halus, game ini mengajak pemain untuk melangkah ke dalam perjalanan seorang pahlawan tunggal yang merekrut berbagai macam rekan pendamping untuk melawan kejahatan yang merajalela di alam semesta.\n\nDi luar narasi dan pertempuran epiknya, favorit pribadi Aemeath adalah mini-game easter-egg. Setelah menyelesaikan cerita utama, ia sering kembali memainkannya, bermain bersama keluarganya di kabin mereka.\n\n\"Haha! Lihat aku, aku No. 1 di papan peringkat penyusunan balok itu!\"",
+        "imageUrl": "/icons/items/aemeath-1.webp"
+      },
+      {
+        "name": "Exostrider Figurine",
+        "description": "Saat tangan yang menutupi mata Aemeath terangkat, sebuah kotak kecil tergeletak menunggunya di hadapannya.\n\nKeempat temannya berkumpul di sekelilingnya, tersenyum cerah dan mendesaknya untuk membukanya. Di dalamnya terletak sebuah miniatur figurin Exostrider. Para Synchronists muda itu berkicau dengan gembira seperti sekawanan burung kecil saat mereka mengucapkan selamat ulang tahun kepadanya. Mereka berharap ia akan menjadi orang yang berhasil mengemudikan Exostrider suatu hari nanti, agar mereka semua bisa mencapai langit berbintang yang sesungguhnya bersama-sama. Bibir Aemeath terbuka seolah hendak membalas, namun pada akhirnya, ia menyimpan harapan yang terpendam di dalam hatinya untuk dirinya sendiri.\n\nPerlahan, ia mengusapkan jari di atas hadiah itu. Kemudian ia berdiri dan, dengan senyum yang berseri-seri, merangkul teman-temannya.",
+        "imageUrl": "/icons/items/aemeath-2.webp"
+      },
+      {
+        "name": "Paper Plane",
+        "description": "Aemeath duduk di atap gedung Akademi, menikmati angin sepoi-sepoi dengan tenang.\n\nIa telah melipat pesawat kertas yang tak terhitung jumlahnya, namun ia selalu mengingat yang pertama dari kabin. Cahaya sore mengalir melalui jendela, sementara angin dingin dan salju tertahan kuat di luar. Hanya gemeretak api perapian yang memenuhi udara, bercampur dengan aroma lezat semur yang mendidih untuk makan malam. Di sampingnya, orang yang ia panggil keluarga dengan cekatan melipat sebuah pesawat untuknya, pesawat yang dimaksudkan untuk terbang jauh. Aemeath mendongak dan melihatnya tersenyum saat ia menawarkan pesawat yang sudah jadi itu kepadanya.\n\nPemandangan itu memudar ke dalam kabut ingatan, meninggalkan hanya lanskap Akademi di hadapannya sekali lagi. Dengan senyum tipis, Aemeath melepaskan pesawat kertas yang baru saja dilipatnya ke arah angin.",
+        "imageUrl": "/icons/items/aemeath-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "On The Frostlands",
+        "content": "Sebuah kepingan salju mendarat di hidung Aemeath, sebuah sensasi dingin dan basah yang menggelitik. Ia menatap danau itu sejenak, lalu memutuskan untuk tidak bermain di dalam air.\n\nBeberapa waktu lalu, ia telah bersusah payah menyeret beberapa batang besar Foxtail Kelp dari air, berpura-pura bahwa benda itu adalah pedang yang perkasa. Ia dan Snowfluff Seals menjalani pertempuran terbaik. Ia adalah pahlawannya, tentu saja, dan mereka adalah penjahatnya. Memang, makhluk-makhluk lembut dan penurut ini tidak pernah memberikan perlawanan yang berarti, dan Aemeath selalu menang. Namun suatu kali, ia telah bertindak terlalu jauh. Potongan-potongan kelp berakhir berserakan di seluruh kabin, meninggalkan kekacauan yang mengerikan. Ketika orang itu pulang dan melihatnya, ia hanya berdiri di ambang pintu, terdiam untuk waktu yang sangat, sangat lama.\n\nAemeath mendapatkan teguran yang semestinya, tentu saja. Namun setelahnya, mungkin karena merasa bersalah karena terlalu keras, orang itu segera kembali dengan setumpuk kaset game sebagai permintaan maaf sekaligus pengalih perhatian. Hal itu berhasil dengan sangat baik. Video game tersebut memikat Aemeath dan ia segera melupakan semua tentang pertempurannya dengan para anjing laut.\n\nDari semua game yang ada, favoritnya adalah seri Space Fantasy: Katya. Mendapatkan kesempatan untuk menjelajahi luar angkasa dan menyelamatkan alam semesta? Tentu saja! Siapa yang tidak ingin bermain peran sebagai pahlawan yang tenang, karismatik, dan sedikit melankolis itu?\n\nSuatu hari, Aemeath mendorong buka pintu dan mendapati orang itu sedang membaca di sofa. Ia dengan senang hati merangsek masuk ke sampingnya dan mengangkat sebuah pengontrol.\n\n\"Bermainlah denganku,\" seluruh postur tubuh Aemeath berteriak demikian.\nOrang itu tersenyum, menyentuh hidungnya dengan ringan, dan setuju.\n\nDi luar, musim dingin membentang selamanya. Namun di dalam, perapian menyala, menyelimuti ruangan dalam kehangatan dan kedamaian yang sunyi.\nSetelah bermain sebentar, Aemeath bersuara. \"Mari berhenti di sini hari ini. Oh! Coba tebak? Aku menemukan ruang rahasia di sisi kanan peta! Kata sandinya adalah 9072. Kamu bisa bermain Lahai-Roi Blocks di sana. Itu sangat menyenangkan!\"\n\n\"Itu mengejutkan,\" kata orang itu. \"Bukankah kamu terburu-buru untuk menyelesaikan misi dan menyelamatkan dunia baru kemarin?\"\n\nAemeath menggelengkan kepalanya dan tertawa. \"Memang, tapi tidak hari ini. Dan jika kita menyelesaikan misinya, gamenya berakhir. Aku ingin bermain denganmu lebih lama. Kamu harus beristirahat, bahkan saat kamu sedang menyelamatkan dunia, kan? Tidak boleh terus bekerja tanpa bermain!\"\n\nSebuah tangan yang hangat mendarat di kepalanya, mengacak-acak rambutnya dengan lembut. Setelah jeda singkat, ia berkata dengan pelan, \"Kamu benar, Aemeath. Aku akan mencoba.\"\n\n\"Kalau begitu… mari kita mulai sekarang?\"\n\n\"Baiklah. Mulai sekarang.\" Orang itu tersenyum. \"Sejujurnya, berada di sini bersamamu sudah terasa seperti sebuah istirahat. Ayo, mari mainkan Lahai-Roi Blocks. Kamu duluan.\""
+      },
+      {
+        "title": "The Young Ones",
+        "content": "Sore hari saat nilai Voidmatter Reverse Engineering diumumkan, keceriaan waktu makan siang yang biasanya dimiliki Aemeath dan teman-temannya digantikan oleh kemuraman.\n\nRambut merah Alara yang cerah tampak kehilangan kilaunya saat ia mengeluarkan erangan lemah: \"Ugh... makanan kantin bahkan tidak terasa enak lagi!\" Di sampingnya, Nova, yang sedang tekun menghabiskan semangkuk zat yang tidak dapat dikenali, berkomentar dengan tenang, \"Ya, kawan. Skornya memang menyakitkan. Tapi mari jujur saja, makanan di sini memang tidak pernah enak sejak awal.\" Lynn tampak benar-benar hancur karena hasilnya, dan Celeste dengan lembut menghiburnya. Aemeath, di sisi lain, memasang ekspresi jauh dan linglung saat ia menyesap Squeezy Jelly rasa kustom miliknya, mengobrol santai dengan sesama Synchronists.\n\nTiba-tiba, Alara berpaling kepadanya.\n\n\"Aemeath! Kenapa kamu sepertinya tidak terganggu sama sekali?\"\n\nAemeath berkedip. \"Khawatir tentang apa? ...Oh, maksudmu nilainya?\" Ia terdiam sejenak, lalu melambaikan tangan dengan santai. \"Tapi nilai semua orang pada dasarnya sama kali ini. Profesor Sakya memang terlalu ketat. Bukannya kita sebenarnya seburuk itu. Tenang saja.\" Ia mengeluarkan tisu dan menyerahkannya kepada si cengeng di grup mereka. \"Ini, Lynn! Keringkan matamu!\"\n\nCeleste menyerahkan tisu itu, bertukar pandang dengan yang lain, dan berkata dengan lembut, \"Kamu benar-benar sepertinya tidak terlalu peduli dengan masa depanmu sebagai seorang Synchronist.\"\n\nApa yang biasanya dilakukan Aemeath di saat-saat seperti ini? Mungkin melontarkan lelucon, ganti topik pembicaraan, atau menertawakannya. Namun hari ini adalah hari ulang tahun orang itu, dan pikiran tentangnya memenuhi benaknya. Untuk kali ini, ia lupa menyembunyikan perasaannya dari teman-temannya.\n\n\"Menjadi seorang Synchronist... Itu hanyalah satu jalan,\" katanya dengan datar. \"Seseorang pernah mengatakan kepadaku bahwa ia berharap aku akan menjalani kehidupan yang bahagia dan tanpa beban. Aku pikir itu lebih penting. Impianku tidak semegah impian kalian. Bukankah normal bagi pemalas sepertiku untuk santai saja?\"\n\n\"Benarkah?\" teman-temannya bertanya, sembari memperhatikannya dengan saksama.\nAemeath hanya membalas dengan senyuman. \"Benar.\"\n\nTapi itu bukanlah kebenaran yang sesungguhnya.\n\nImpian aslinya terlalu berat, terlalu sombong, terlalu konyol untuk diucapkan dengan kata-kata yang tenang dan terukur. Impian itu tumbuh semakin besar setiap hari, menancapkan akarnya jauh ke dalam hatinya. Namun ia menolak untuk mengakuinya, karena ia telah menerima janji tersebut. Jika kebahagiaan sederhana hari demi hari sudah cukup, maka ia akan tetap bahagia seperti ini selamanya. Ia akan menepati janjinya. Kecuali jika...\n\nPikirannya tiba-tiba terhenti saat Alara mencubit pipinya dengan keras.\n\"Aduh! Untuk apa itu?\" protes Aemeath, dengan kata-kata yang tidak jelas.\n\"Kamu pembohong kecil,\" gerutu temannya. \"Baiklah, baiklah. Kami akan berhenti bertanya... Perpustakaan sore ini? Sesi belajar kelompok?\"\nAemeath mengangguk. \"Tentu saja!\"\n\nTertawa dan saling berdesakan dengan teman-temannya, Aemeath melangkah menuju lift. Mereka semua masih muda, tidak terburu-buru untuk menemukan jawaban saat ini. Di Akademi yang penuh dengan orang-orang jenius ini, masa depan terbentang di hadapan mereka, penuh dengan kemungkinan yang tak terbatas."
+      },
+      {
+        "title": "Only The Unseen Shall See",
+        "content": "Aemeath berjalan mendekati cermin, namun tidak ada bayangan yang muncul.\nSetelah kematiannya, dunia terasa tidak seirama lagi. Teman-teman Synchronist miliknya pernah berdebat tentang apa yang membentuk esensi kemanusiaan.\nAlara mengatakan itu adalah cinta, Nova percaya itu adalah ingatan, Celeste berargumen bahwa itu adalah diri sendiri, dan Lynn menyatakan itu adalah iman... \"Tidak,\" pikir Aemeath. \"Esensi kemanusiaan adalah frekuensi.\" Mengingat wujudnya saat ini, itulah satu-satunya kerangka kerja yang masuk akal.\nApakah Resonance miliknya dengan Exostrider yang telah mengubah status keberadaannya? Tubuh fisiknya telah tercabik-cabik di dalam kokpit simulasi. Ia seharusnya sudah mati. Namun ia ada di sini. Ia tidak lagi repot memikirkan esensi eksistensi, meskipun bagi seorang hantu digital, ia memiliki seluruh waktu di dunia untuk merenungkan hal-hal seperti itu.\nApa yang ia pahami sekarang jauh lebih penting.\nSaat ia memasuki Reactor Drive milik Exostrider yang menggantung di langit, ia melihat pesan yang tersembunyi di dalamnya.\n\"Jadi begini rupanya,\" ia menyadari. Pesan itu tidak pernah terbaca karena, sejak awal, ia ditempatkan di tempat yang tidak dapat diakses.\nHanya sekarang, sebagai seorang Synchronist yang beresonansi dengan Exostrider, ia dapat melihatnya. Seluruh gua bawah tanah bergantung pada \"matahari\" ini untuk bertahan hidup, jadi tentu saja, penduduk Lahai-Roi tidak pernah memiliki kesempatan untuk mengetahuinya.\n\nHaruskah ia merasa bahagia? Isi pesan tersebut memberinya kesempatan untuk mewujudkan visi terbesarnya, namun dengan cara yang tidak pernah ia bayangkan. Sebuah lelucon kosmik yang pahit. Namun ini adalah tugas yang hanya bisa ia selesaikan sendiri.\n\"Jika aku bisa membantu, aku akan melakukannya. Aku harus.\" ...Ya. Begitulah seharusnya.\nAemeath memikirkan orang itu dan diam-diam menyemangati dirinya sendiri.\nIa bisa menjadi lebih berani. Lebih teguh. Ia belum siap sekarang, tapi itu tidak masalah. Masih ada waktu untuk bersiap. Dalam hal ini, takdir telah berbuat baik kepadanya. Tenggelam dalam pikiran, ia mendapati dirinya menggumamkan sebuah nada dengan lembut. Sayang sekali Fleet Snowfluff tidak akan bisa merilis lagu barunya. Jika ia tahu apa yang akan terjadi esok, ia pasti sudah menyelesaikannya.\nCermin itu tidak memantulkan wajahnya, sehingga Aemeath tidak melihat senyumnya sendiri. Senyum itu menyerupai goresan krayon yang diseret ke samping, warnanya berakhir dengan ujung yang tumpul dan tiba-tiba."
+      },
+      {
+        "title": "What She Fears, What She Dreads",
+        "content": "Tidak ada apa pun selain keheningan.\n\nAemeath berbalik dan melihatnya.\n\nItu menyerupai sebuah mata, namun ia tahu itu bukan mata. Sebuah lubang hitam? Mungkin itulah konsep manusia yang paling mendekati. Namun bagi seseorang yang beresonansi dengan Exostrider, itu adalah tatanan eksistensi yang berbeda: sebuah \"fenomena\" dari kejadian yang meluap dan tanpa henti. Apa pun yang ditelannya akan lenyap begitu saja. Spacetrek Collective menamakannya Voidmatter. Biarlah ia disebut demikian. Makhluk dari dimensi yang lebih rendah membutuhkan sebuah istilah untuk itu, sama seperti manusia yang perlu menyebut \"mata\" itu sebagai Aleph-1.\n\nIni bukan pertama kalinya ia bertemu dengan apa yang disebut sebagai \"tatapannya.\" Pertemuan seperti itu tidak dapat dihindari dalam perjalanannya yang berulang antara Voidspace dan dunia luar. Seiring berjalannya waktu, ia telah belajar untuk tidak bereaksi.\n\nHingga belum lama ini, tatapannya selalu memengaruhinya. Sebuah kehampaan. Sebuah keinginan sunyi untuk pembubaran. Sebuah perasaan bahwa tidak ada yang penting jika dibandingkan dengan alam semesta yang sunyi dan tidak menjawab. Ini adalah efek samping dari menatap Aleph-1 yang bahkan kematian pun tidak dapat membebaskannya. Namun sekarang, setelah menjelajahi reruntuhan dari salah satu peradaban yang telah dilahapnya, ia menatap mata yang luar biasa luas dan melampaui ruang serta waktu itu, dan hanya mendengar tawanya sendiri, tipis dan hampir mendekati histeria.\n\n\"Jadi inikah yang ia cari?\"\nTawa yang keluar darinya terasa rapuh.\n\"Inikah… kebenarannya?\"\n\nBetapa konyolnya.\n\nSetiap idealisme dan visi yang dipupuk sejak masa kanak-kanak runtuh seketika, kosong dari segala makna. Aemeath merasa lelah. Di balik rasa lelah itu muncul rasa sakit yang tumpul, diikuti dengan sesuatu yang lebih dingin.\n\n\"Bagaimana dengan dia?\"\n\"Apakah dia tahu?\"\n\nJika dia tahu, Aemeath tidak bisa membayangkan bagaimana dia bisa terus melangkah maju sambil memikul pengetahuan ini. Dan jika dia tidak tahu... maka kebenaran ini tidak akan pernah bisa mencapainya. Ini harus dikubur. Dihancurkan. Dihapus sepenuhnya. Kekhawatiran yang dingin menetap di hatinya, bahkan saat hatinya terbakar dengan amarah yang murni dan menjernihkan. Untuk pertama kalinya, ia memahami kebencian.\n\nIlusi pesawat kertas yang ia munculkan hancur dalam genggamannya. Ia membiarkan potongan-potongan itu lepas dari jemarinya dan memperhatikannya hanyut, melarut ke dalam kehampaan yang tak berujung."
+      },
+      {
+        "title": "Every Unspoken Word",
+        "content": "Aemeath menaiki tangga dengan langkah santai dan kembali ke meja kerjanya.\n\nMimpi itu telah mengusir segala kesempatan untuk kembali tidur. Bukannya ia benar-benar membutuhkan tidur lagi. Mimpi hanyalah sedikit lebih dari sekadar ingatan yang diputar ulang dalam urutan yang berbeda. Besok, ia dan Rover akan berdiri di hadapan Exostrider. Ia tidak tahu apa yang akan terjadi nanti, hanya saja ia ingin bersiap.\n\nKata-kata adalah makna yang diberi wujud. Jadi ia ingin meninggalkan sesuatu—sesuatu yang ingin ia katakan kepadanya, namun masih belum sanggup ia ucapkan dengan lantang.\n\nTapi dari mana harus memulai? Ia bisa menceritakan kembali semua yang terjadi selama bertahun-tahun: momen-momen kecil yang terlupakan, kegembiraan, kehilangan, hari-hari sepele, dan peristiwa-peristiwa yang mengubah dunia. Atau mungkin ia bisa sedikit mengeluh. Ia telah pergi begitu lama, dan hal-hal yang ingin ia bagikan telah menumpuk, menunggu. Dan jika semua itu terasa tidak tepat, ia selalu bisa menggambar seluruh perjalanan darat ini. Persis seperti masa lalu.\n\nIa mengetik. Ia menghapus. Ia mengetik lagi. Pada akhirnya, hanya satu baris yang tersisa.\n\n\"Aku tahu bahwa jika aku mendongak, bintang itu akan selalu menemukanku.\"\n\nIa menyimpan pesan itu di salah satu perangkat di ruangan tersebut, membiarkannya untuk masa depan di mana pesan itu mungkin ditemukan, atau tidak pernah diperhatikan sama sekali.\n\nUntuk saat ini, ia merasa tidak memiliki hal lain untuk diminta.\n\nRover tampak bahagia. Itu saja sudah terasa cukup. Jika memungkinkan, kebenaran itu bisa tetap terkubur selamanya. Selama orang itu aman dan tersenyum, hal lainnya adalah sesuatu yang bisa ia lalui dengan senyuman.\n\nIa bisa memilih untuk menjadi egois, atau ia bisa memilih untuk menjadi baik hati. Namun ketika menyangkut keluarga, orang-orang selalu melindungi apa yang paling berarti. Aemeath tidak terkecuali. Apakah kebenaran itu penting, pada akhirnya?\n\nYang terpenting adalah Rover bisa menjalani kehidupan yang bahagia.\n\nPikiran itu membuatnya terdiam sejenak. Dengan senyum tipis, ia menyadari bahwa hal itu tidak berbeda dengan janji yang pernah mengikatnya sejak awal.\n\nRuangan itu jatuh ke dalam keheningan. Di luar, salju turun tanpa suara, menyelimuti dunia dalam warna putih selagi menunggu musim semi."
+      }
+    ],
+    "specialFood": {
+      "name": "Super Snowfluff Storm",
+      "imageUrl": "/icons/food/aemeath.webp",
+      "description": ""
+    }
+  }
+}

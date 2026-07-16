@@ -1,0 +1,482 @@
+{
+  "name": "Phrolova",
+  "element": "Havoc",
+  "weapon": "Rectifier",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer",
+    "Resonance Skill DMG",
+    "Havoc DMG Amplification",
+    "Heavy Attack DMG Amplification"
+  ],
+  "sonatas": [
+    "Dream of the Lost"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "",
+  "affiliation": "Fractsidus",
+  "class": "Mutant",
+  "image": "/characters/phrolova.webp",
+  "imageBanner": "/banners/phrolova-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1900-2100+",
+    "Energy Regen": "0",
+    "Crit Ratio (Crit Weapon)": "60-75% : 265-340%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Hecate"
+    ],
+    "bestWeapon": "Lethean Elegy",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS",
+          "echoSlug": "nightmare-hecate",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: havoc%",
+            "3: havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            {
+              "name": "Dream Of The Lost",
+              "set": 3
+            },
+            {
+              "name": "Midnight Veil",
+              "set": 2
+            },
+            {
+              "name": "Havoc Eclipse",
+              "set": 2
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "lethean-elegy",
+        "rank": "",
+        "percentage": "137"
+      },
+      {
+        "id": "stringmaster",
+        "rank": "",
+        "percentage": "116"
+      },
+      {
+        "id": "whispers-of-sirens",
+        "rank": "",
+        "percentage": "105"
+      },
+      {
+        "id": "cosmic-ripples",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "fusion-accretion",
+        "rank": "",
+        "percentage": "90"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Intro or BA2",
+          "BA3",
+          "[F]BA(Dash Cancel)",
+          "BA123",
+          "[F]BA(Cancel)",
+          "Skill",
+          "[F]BA",
+          "[E]HA",
+          "Ult",
+          "[U]BA12",
+          "Swap"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Normal Attack",
+        "Intro Skill",
+        "Resonance Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Hypercarry - Phrolova",
+        "members": [
+          [
+            "Phrolova"
+          ],
+          [
+            "Qiuyuan"
+          ],
+          [
+            "Cantarella",
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Phrolova meningkatkan Qiuyuan (Heavy) dan Cantarella meningkatkan Phrolova (Havoc & Res. Skill). Qiuyuan memberikan tambahan penggunaan Echo Skill dan buff Law of Harmony sonata set untuk Phrolova."
+      },
+      {
+        "name": "Core",
+        "members": [
+          [
+            "Phrolova"
+          ],
+          [
+            "Cantarella"
+          ],
+          [
+            "Roccia",
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Phrolova meningkatkan Roccia (Havoc & Heavy). Danjin memberikan Phrolova 23% Havoc DMG Amplify setelah melancarkan Outro Skill miliknya, berfungsi sebagai pasangan bintang 4 terbaik bagi Phrolova. Sebagai alternatif, Phrolova dapat dipasangkan dengan Rover: Havoc - meskipun mereka secara inheren tidak memberikan buff apa pun kepada Phrolova, mereka dapat memanfaatkan buff Outro milik Phrolova.\nSlot ketiga dapat diisi oleh healer mana pun, seperti Shorekeeper, Buling, atau Verina."
+      }
+    ],
+    "teamNote": "\n"
+  },
+  "skills": {
+    "basic": {
+      "name": "Movement Of Life And Death",
+      "description": "Basic Attack\nMelancarkan hingga 3 serangan beruntun, memberikan  Havoc DMG.\nSaat melakukan Basic Attack Tahap 3, akan memasuki status Reincarnate.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target dan memberikan  Havoc DMG.\nGunakan Normal Attack segera setelah skill ini untuk melancarkan Basic Attack Stage 2.\n\nScarlet Coda\nPhrolova memasuki status Compose setiap 25 detik.\nSaat ketiga kondisi berikut terpenuhi, Heavy Attack akan digantikan dengan Scarlet Coda:\n- Memiliki 6 Volatile Notes.\n- Berada dalam status Compose.\n- Tidak berada dalam status Resolving Chord.\n\nScarlet Coda: Mengonsumsi STA untuk memberikan  Havoc DMG, menyebabkan efek Stagnate dan menarik musuh di sekitar. Serangan ini dianggap sebagai Resonance Skill DMG.\nSetiap stack Aftersound akan meningkatkan DMG Multiplier dari serangan ini.\nMengaktifkan skill ini dihitung sebagai cast Echo Skill.\nMengaktifkan skill ini akan membuat status Compose memasuki cooldown dan mengaktifkan status Resolving Chord.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.\n\nDodge Counter\nTekan Normal Attack setelah berhasil menghindar untuk menyerang target, memberikan  Havoc DMG.\nTekan Normal Attack segera setelah menggunakan skill ini untuk melancarkan Basic Attack Stage 3."
+    },
+    "skill": {
+      "name": "Whispers In A Fleeting Dream",
+      "description": "Menyerang target dan memberikan  Havoc DMG.\nMengaktifkan skill ini membuat Phrolova memasuki Reincarnate."
+    },
+    "liberation": {
+      "name": " Waltz Of Forsaken Depths",
+      "description": "Waltz of Forsaken Depths\nResonance Energy Phrolova maksimal adalah 0. Waltz of Forsaken Depths tidak mengonsumsi Resonance Energy.\nSaat berada dalam status Resolving Chord, skill Waltz of Forsaken Depths dapat digunakan.\nMengaktifkan skill ini akan mengakhiri status Resolving Chord, dan Phrolova akan memasuki status Maestro selama 24 detik.\n\nMaestro\nMeningkatkan ATK sebesar 120%.\nPhrolova akan melayang di udara dan memerintahkan Hecate untuk bertarung. Hecate akan mewarisi semua status dan statistik milik Phrolova, dan seluruh serangan dari Hecate dihitung sebagai serangan dari Phrolova. Serangan Hecate tidak akan menghilangkan status Hazy Dream dari musuh.\nSelama durasi ini, Phrolova akan memainkan Volatile Notes secara bergiliran, masing-masing bertahan selama 4 detik.\n\nJika Phrolova adalah Resonator aktif di field, ia dapat memberi perintah berikut kepada Hecate. Seluruh damage yang diterima Hecate dalam status ini juga akan diterima oleh Phrolova:\n- Isyarat - Basic Attack: tekan Normal Attack untuk memerintahkan Hecate menggunakan Basic Attack – Hecate.\nJika Phrolova adalah Resonator aktif, setiap 2 kali Hecate menggunakan Basic Attack – Hecate, serangan berikutnya akan diganti dengan Enhanced Attack – Hecate.\n- Isyarat - Dodge: tekan Dodge untuk memerintahkan Hecate menghindar. Hecate tidak akan menerima damage jika berhasil menghindar.\n- Isyarat - Reset: tekan Jump untuk mengatur ulang posisi Hecate.\n- Isyarat - Curtain Call: tekan Resonance Liberation untuk memerintahkan Hecate menggunakan Curtain Call dan mengakhiri status Maestro.\n\nJika Phrolova bukan Resonator aktif, Hecate tidak menerima damage dan akan secara otomatis menyerang musuh menggunakan Basic Attack – Hecate. Saat Resonator dalam tim menggunakan Echo Skill, Hecate akan menggunakan Enhanced Attack – Hecate. Efek ini dapat terpicu hingga 10 kali selama status Maestro aktif. Echo dengan nama yang sama hanya dapat memicu efek ini 1 kali.\n\nBeralih kembali ke Phrolova akan mengakhiri status Maestro .\nMengakhiri status Maestro juga akan menghapus semua Volatile Notes.\n\nBasic Attack - Hecate\nMelancarkan hingga 2 serangan beruntun, memberikan  Havoc DMG (dianggap sebagai Echo Skill DMG).\n\nEnhanced Attack - Hecate: Strings\nSaat Phrolova memainkan Volatile Note - Strings, Hecate akan melancarkan Enhanced Attack – Hecate: Strings saat menggunakan Enhanced Attack – Hecate, memberikan  Havoc DMG dan menyebabkan Stagnate pada target (dianggap sebagai Echo Skill DMG).\n\nEnhanced Attack - Hecate: Winds\nSaat Phrolova memainkan Volatile Note - Winds, Hecate akan melancarkan Enhanced Attack - Hecate: Winds saat menggunakan Enhanced Attack – Hecate, memberikan  Havoc DMG dan menarik target ke arah tengah (dianggap sebagai Echo Skill DMG).\n\nEnhanced Attack - Hecate: Cadenza\nSaat Phrolova memainkan Volatile Note - Cadenza, Hecate akan melancarkan Enhanced Attack - Hecate: Cadenza saat menggunakan Enhanced Attack – Hecate, memberikan  Havoc DMG, menyebabkan Stagnate, dan menarik target ke arah tengah (dianggap sebagai Echo Skill DMG).\n\nCurtain Call\nCurtain Call dapat digunakan melalui lima cara berikut, memberikan  Havoc DMG dan menyebabkan Stagnate pada target:\n- Saat Phrolova adalah Resonator aktif di medan, akhiri Maestro state.\n- Saat berada dalam Maestro state, beralih ke Phrolova tanpa memicu Intro Skill.\n- Saat Maestro state berakhir dan Phrolova bukan Resonator aktif, lalu beralih ke Phrolova tanpa memicu Intro Skill.\n- Saat berada dalam Maestro state, tekan Resonance Liberation.\n- Saat berada dalam Resolving Chord state, tahan Resonance Liberation.\n\nSaat dalam Resolving Chord state, menggunakan Curtain Call akan menghapus semua Volatile Notes dan mengakhiri Resolving Chord state."
+    },
+    "forte": {
+      "name": "Rhapsody Of A New World",
+      "description": "Basic Attack - Movement of Fate and Finality\nSaat berada dalam status Reincarnate, Tekan Normal Attack di darat untuk melancarkan Movement of Fate and Finality, yang menyebabkan Stagnate pada target, memberikan  Havoc DMG (dianggap sebagai Resonance Skill DMG), dan mengakhiri status Reincarnate setelahnya.\n\nResonance Skill - Murmurs in a Haunting Dream\nSaat berada dalam status Reincarnate, tekan Resonance Skill di darat untuk melancarkan Murmurs in a Haunting Dream, memberikan  Havoc DMG (dianggap sebagai Resonance Skill DMG), dan mengakhiri status Reincarnate setelahnya.\n\nAftersound\nPhrolova dapat menampung hingga 24 stack Aftersound.\nSaat Phrolova bukan Resonator aktif, melancarkan Enhanced Attack – Hecate: Strings, Enhanced Attack - Hecate: Winds, atau Enhanced Attack - Hecate: Cadenza akan memberikan 1 stack Aftersound.\nSaat Phrolova berada di luar pertarungan, seluruh stack Aftersound akan dihapus setiap 30 detik.\n\nVolatile Note\nPhrolova dapat menampung hingga 6 Volatile Notes.\nSaat jumlahnya mencapai batas maksimum, mendapatkan Volatile Notes baru akan menggeser semua Volatile Notes satu slot ke kiri, dan Volatile Note - Strings atau Volatile Note - Winds paling kiri akan dihapus.\n\nMengenai target dengan Basic Attack Stage 3 atau Movement of Fate and Finality memberikan 1 Volatile Note - Strings.\nMengenai target dengan Resonance Skill Whispers in a Fleeting Dream atau Resonance Skill Murmurs in a Haunting Dream memberikan 1 Volatile Note - Winds.\nSaat Inherent Skill - Accidental diaktifkan, melancarkan Suite of Quietus, Suite of Immortality, atau Echo Skill akan memberikan 1 Volatile Note - Cadenza.\n\nPhrolova tidak dapat memperoleh Volatile Notes selama berada dalam kondisi Resolving Chord."
+    },
+    "inherent": [
+      {
+        "name": "Accidental",
+        "description": "Menggunakan Echo Skill memberikan peningkatan ketahanan terhadap interruption dan mengurangi damage yang diterima sebesar 30% selama 15 detik.\nSetelah menggunakan Suite of Quietus, Suite of Immortality dan Echo Skill, Volatile Notes berikutnya akan menjadi Volatile Note - Cadenza."
+      },
+      {
+        "name": "Octet",
+        "description": "Memperoleh 10 stack Aftersound saat memasuki pertempuran. Efek ini tidak dapat dipicu kembali dalam waktu 4 detik setelah keluar dari status bertarung.\nUntuk setiap 1 stack Aftersound, Crit. DMG meningkat sebesar 2,5%.\nSaat Aftersound mencapai jumlah maksimum, setiap stack tambahan akan meningkatkan Crit. DMG Phrolova sebesar 1%, hingga maksimum 100%.\nPeningkatan Crit. DMG ini akan hilang ketika semua stack Aftersound dihapus."
+      }
+    ],
+    "intro": {
+      "name": "Suite Of Quietus",
+      "description": "Suite of Quietus\nMenyerang target dan memberikan  Havoc DMG.\nTekan Normal Attack sesaat setelah skill ini digunakan untuk melancarkan Basic Attack Stage 3.\n\nSuite of Immortality\nSaat berada dalam status Maestro, Suite of Quietus berikutnya akan digantikan oleh Suite of Immortality. Penggantian ini akan dibatalkan jika Curtain Call digunakan selama status tersebut aktif. Suite of Immortality memberikan  Havoc DMG (dianggap sebagai Resonance Skill DMG) dan menyebabkan Stagnate pada target.\nTekan Normal Attack sesaat setelah skill ini digunakan untuk melancarkan Basic Attack Stage 3."
+    },
+    "outro": {
+      "name": "Unfinished Piece",
+      "description": "Resonator yang masuk ke field memperoleh 20%  Havoc DMG Amplification dan 25% Heavy Attack DMG Amplification selama 14 detik atau hingga diganti.\n\nJika Phrolova berada dalam kondisi Maestro saat melancarkan skill ini, Hecate juga akan melancarkan Enhanced Attack – Hecate sebanyak 2 kali ketika Phrolova keluar dari medan tempur selama durasi Maestro yang sama."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Truth in Lies",
+            "amount": 46
+          },
+          {
+            "item": "LF Polygon Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Polygon Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Polygon Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Polygon Core",
+            "amount": 4
+          },
+          {
+            "item": "Afterlife",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "The Netherworld's Stare",
+          "amount": 26
+        },
+        {
+          "item": "LF Polygon Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Polygon Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Polygon Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Polygon Core",
+          "amount": 57
+        },
+        {
+          "item": "Lento Helix",
+          "amount": 25
+        },
+        {
+          "item": "Adagio Helix",
+          "amount": 28
+        },
+        {
+          "item": "Andante Helix",
+          "amount": 55
+        },
+        {
+          "item": "Presto Helix",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Lova",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Lethean Elegy",
+          "value": 1005471.52,
+          "percentage": 138.25,
+          "imagePath": ""
+        },
+        {
+          "type": "Stringmaster",
+          "value": 861203.2,
+          "percentage": 118.42,
+          "imagePath": ""
+        },
+        {
+          "type": "Whispers Of Sirens",
+          "value": 837970.02,
+          "percentage": 115.22,
+          "imagePath": ""
+        },
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 790575.74,
+          "percentage": 108.7,
+          "imagePath": ""
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 727267.73,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Fusion Accretion",
+          "value": 659730.77,
+          "percentage": 90.71,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Lova",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 4.4,
+          "percentage": 4.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 47,
+          "percentage": 47,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 48.7,
+          "percentage": 48.7,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Lova",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 1005471.52,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 1096817.68,
+          "percentage": 109.08,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1356162,
+          "percentage": 134.88,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1674840.05,
+          "percentage": 166.57,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "A Key To Netherworld'S Secrets",
+      "description": "DMG Multiplier untuk Movement of Fate and Finality meningkat sebesar 80%.\nDMG Multiplier untuk Murmurs in a Haunting Dream juga meningkat sebesar 80%.\n\nJika Phrolova memiliki kurang dari 2 Volatile Notes saat tidak berada dalam kondisi Maestro dan berada di luar pertarungan selama 4 detik, ia akan memperoleh Volatile Note - Cadenza hingga jumlah Volatile Notes-nya mencapai setidaknya 2."
+    },
+    {
+      "stage": "S2",
+      "name": "A Rope Tied To A Life Beyond",
+      "description": "DMG Multiplier untuk Scarlet Coda meningkat sebesar 75%.\nAftersound kini juga meningkatkan DMG Multiplier dari Scarlet Coda sebesar 75%.\n\nMengaktifkan Scarlet Coda memberikan 14 stack Aftersound."
+    },
+    {
+      "stage": "S3",
+      "name": "A Dagger To Cut Clean Obsessions",
+      "description": "Echo Skill DMG diperkuat sebesar 80%.\nMengaktifkan Scarlet Coda akan mengubah semua Volatile Notes menjadi Volatile Note - Cadenza secara berurutan.\n\nTarget yang terkena Enhanced Attack - Hecate: Cadenza akan mengalami pengurangan ATK sebesar 20% selama 15 detik."
+    },
+    {
+      "stage": "S4",
+      "name": "A Torch Illuminating The Path",
+      "description": "Mengaktifkan Echo Skill memberikan Attribute DMG Bonus sebesar 20% kepada semua Resonator dalam tim selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "A Forked Road In Fate'S Heartland",
+      "description": "Saat memasuki status Maestro, menciptakan sebuah field yang menyebabkan Stagnation pada musuh di sekitarnya selama 4 detik. Efek Stagnation akan berakhir lebih awal jika keluar dari status Maestro atau berpindah ke Resonator lain.\nSelama berada dalam status Maestro, damage yang diterima berkurang sebesar 30%."
+    },
+    {
+      "stage": "S6",
+      "name": "A Night To Depart From Eternal Rest",
+      "description": "Multiplier Enhanced Attack – Hecate meningkat sebesar 24%.\n\nSaat menggunakan Movement of Fate and Finality atau Murmurs in a Haunting Dream, perintahkan Hecate untuk mengeluarkan 1 Apparition of Beyond - Hecate, memberikan  Havoc DMG setara 216,42% dari ATK Phrolova (dianggap sebagai Echo Skill DMG) dan memberikan 8 stack Aftersound saat mengenai musuh.\n\nJika Phrolova bukan Resonator aktif selama dalam status Maestro, target menerima 40% lebih banyak DMG dari serangan Hecate dan Phrolova. Jika Phrolova adalah Resonator aktif dalam status Maestro, memperoleh 60%  Havoc DMG Bonus."
+    }
+  ],
+  "lore": {
+    "description": "Phrolova, seorang Overseer Fractsidus yang melangkah di antara batas hidup dan mati—seorang deadly conductor.\nDengan satu gerakan halus baton di tangannya, ia mampu menyelaraskan frekuensi keberadaan dan menggubah simfoni para \"jiwa.\"\nAlunan musiknya bisa membentuk dunia yang lebih baik, atau sama mudahnya, memanggil legiun untuk menebar kehancuran.\n\nADDITIONAL TITLES\nThe Conductor\nMysterious Woman in Red",
+    "report": {
+      "resonancePower": "Symphony of Beyond",
+      "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment RA-F2005-G]\n\nAwakening Phrolova terjadi di saat kematiannya, momen yang memberinya kemampuan untuk menyelaraskan frekuensi target dan mengubah \"melodi\" mereka, berdasarkan pemahaman mendalam tentang struktur frekuensi kritis pada materi.\nKekuatan kemampuan ini bergantung langsung pada kondisi fisiknya.\nData uji terbaru menunjukkan bahwa dalam kondisi Overclock ekstrem dan tetap sadar, jangkauan tuning Phrolova bisa meluas hingga 30 kali lipat dari normal, dengan durasi maksimum yang pernah tercatat selama 46 detik.\nKarena asal-usul kemampuannya yang kompleks, waktu dan penyebab pasti Awakening-nya tidak bisa dipastikan.\n\nTacet Mark Phrolova terletak di lengan kirinya. Mutasi Tacet Discord yang muncul setelah Awakening menghentikan proses penuaan tubuhnya—satu-satunya perubahan fisik yang tercatat hanyalah perubahan warna pada iris mata kirinya.\nHasil pengujian menunjukkan bahwa selama tubuhnya dalam kondisi sehat, regenerasi kulit dan penyusunan ulang frekuensi hanya memerlukan waktu sekitar 6 detik, sementara pemulihan organ dalam berlangsung antara 15 sampai 18 menit.\nSampai laporan ini ditulis, belum ditemukan kelemahan fatal pada dirinya.\n\nPemeriksaan juga mengungkap adanya kumpulan besar frekuensi kacau dalam tubuh Phrolova, diperkirakan berjumlah sekitar seribu frekuensi—meskipun jumlah pastinya belum diketahui.\nEksperimen lanjutan memastikan bahwa frekuensi-frekuensi ini tidak berdampak negatif terhadap tubuh maupun kemampuan Resonance-nya.\nFrekuensi tersebut dianggap tidak memiliki nilai signifikan dan hanya berkaitan dengan fluktuasi mental yang dialaminya.\n\nAnalisis sampel uji menunjukkan pola Kurva Rabelle yang datar dan stabil, diikuti lonjakan tajam lalu kembali menurun secara konsisten. Karena itu, Phrolova diklasifikasikan sebagai Mutant Resonator.\nSerangkaian eksperimen juga mengonfirmasi bahwa metode Awakening miliknya tidak bisa direplikasi secara buatan pada individu lain.",
+      "overclockDiagnostic": "Gelombang frekuensi milik Resonator Phrolova menunjukkan pola seperti gigi gergaji dan fluktuasi tajam menyerupai jarum. Pola dalam Time Domain sering kali menampilkan aktivitas yang intens dan kacau.\nSelama pengujian, data Time Domain mengalami distorsi besar, dan nilai puncaknya tidak dapat ditentukan.\n\nResonant Criticality: Sangat rendah.\nFrekuensi Phrolova menunjukkan tingkat stabilitas yang sangat rendah.\nTercatat bahwa ia memiliki riwayat Overclocking, namun sejauh ini ia selalu mampu mengendalikan kondisi tersebut.\nHal ini mengindikasikan adanya potensi untuk meneliti metode stabilisasi dan perpanjangan durasi Overclock pada Resonator biasa, dengan memanfaatkan kestabilan mental yang dimilikinya."
+    },
+    "items": [
+      {
+        "name": "Phrolova'S Music Sheet",
+        "description": "Ekspresinya tenang, namun tangannya bergerak penuh semangat dengan gerakan yang dramatis, menyapu lembar demi lembar partitur.\nNalar goyah, lalu hancur, tenggelam dalam badai emosi.\nNada-nada pecah, lalu terlahir kembali—terpuntir menjadi suara yang menyimpang.",
+        "imageUrl": "/icons/items/phrolova-1.webp"
+      },
+      {
+        "name": "Phrolova'S Violin",
+        "description": "Dialah yang menerima pemberian mereka.\nDialah yang mengubur sisa-sisa mereka.\nSatu per satu, senar-senar itu menyanyikan seruan agung mereka.\nSiklus demi siklus, busurnya terus mengalunkan nada di tengah kematian yang berulang.",
+        "imageUrl": "/icons/items/phrolova-2.webp"
+      },
+      {
+        "name": "Retained Concert Ticket",
+        "description": "Sekali lagi, ia berdiri di depan pintu aula konser, dengan tiket di tangannya.\nIa mulai lupa, sebenarnya apa yang sedang ia tunggu.\nTeman yang memahami musiknya? \nAtau jalan yang menuju tujuan yang serupa?\n\nKerumunan mulai menipis.\nPintu tertutup di belakang penonton terakhir.\nNamun, tiket itu masih tergenggam erat di tangannya.\n\nLalu datanglah kejelasan: ia tidak menunggu siapa pun.\nIa hanya menunggu seutas benang kecil untuk tetap bertahan.\nSebuah harapan yang selama ini hanya ada dalam mimpinya.\n\nKini, ia tak akan menunggu lagi.",
+        "imageUrl": "/icons/items/phrolova-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Song Of Red And Black",
+        "content": "Penonton larut dalam pertunjukan.\nSebagian membeku di tempat, sebagian lain menggigil, terombang-ambing bak ilalang di tengah badai.\nDalam gelap, ribuan pasang mata terpaku pada sosok tunggal itu—rapuh namun penuh kuasa—terbius oleh naik turunnya lengannya, seolah nada-nada yang tercerai-berai dalam elegi panas yang lahir dari kegilaan.\n\nMelodi mendidih di bagian presto menyalakan hasrat yang membara dalam dada mereka.\nEmosi-emosi yang selama ini ditekan mulai meledak. Tak terkendali. Tak terbendung.\nMereka tercekat di puncak kegilaan musik itu, terseret bersama sang dirigen ke tepi kewarasan.\nDi ambang jurang yang menganga, mereka mendamba mekarnya kehancuran dan kelahiran kembali.\n\nNamun sebelum lompatan itu benar-benar terjadi, sang dirigen menghentikan lengannya di bawah sorotan lampu.\nMusik terputus mendadak, seolah dipangkas dengan kejam.\n\nIa berdiri kaku, seperti patung, dadanya naik turun menahan napas.\nSatu-satunya sisa nalar yang menahannya telah putus—menghilang ke dalam lautan emosi tempat ia kini terombang-ambing sendirian.\nTatapannya tertuju ke langit-langit, tak pernah sekali pun menunduk menatap mata penonton di bawahnya.\n\nApakah itu akhir?\n\nHening. Gelisah. Tersesat.\nPenonton mulai meninggalkan ruangan dalam kondisi linglung.\nNamun sebelum mereka mencapai pintu, musik itu kembali—seperti gema dari masa lalu.\nMudah sekali merayap hidup kembali dalam kepala mereka, berulang tanpa akhir, lebih memesona dari saat pertama terdengar, membangkitkan dan memperbesar kegilaan yang tersembunyi di setiap hati.\n\nDi masa terang, orang-orang akan keluar dengan senyum, memeluk hari esok berlapis emas sambil meneguk lagu berwarna merah darah.\nDi masa gelap, lagu yang menghitam itu akan menjadi jerat terakhir—dan tanpa ragu mereka akan menuju jendela di atas.\n\nPhrolova tak pernah peduli warna apa yang dilukiskan musiknya bagi orang lain.\nIa hanya terus mengayunkan tangannya, mengikuti siklus waktu.\nDan mereka yang duduk di aula konser itu tak pernah mempertanyakan ke mana musik itu membawa mereka.\nBerkali-kali pencipta dari melodi hangat dan pilu itu berdiri di atas panggung,\nnamun tak seorang pun pernah berhenti untuk bertanya:\napa yang menahannya tetap di sana—apakah seni, amarah,\natau duka atas cinta yang telah lama terkubur dalam debu."
+      },
+      {
+        "title": "Hidden Lycoris",
+        "content": "Aula merah tua itu sering kali kosong, hanya diisi oleh bendera para Overseer yang berkibar dihembus angin dingin.\nDi antara semuanya, bendera yang membawa lambang Lycoris sudah lama kehilangan warnanya—namun tetap bergeming di tempatnya, tak pernah jatuh.\nSebagaimana diingat oleh sebagian besar anggota Fractsidus, para Overseer datang dan pergi seperti bayangan—hampir tak ada yang memilih untuk tinggal lama.\nNamun dia adalah yang paling sulit dipahami, dan bendera itu menjadi satu-satunya jejak keberadaannya.\n\nIa telah meninggalkan segala hal yang biasanya dimiliki oleh seorang Overseer di tempat ini—tak ada barang di ruangannya, tak ada kata yang tak perlu.\nIa tidak berasal dari sini.\nKeheningan yang dingin membuatnya tampak mudah dilupakan,\nnamun setiap kali muncul pikiran bahwa ia mungkin tak lagi penting bagi Fractsidus—atau Fractsidus tak lagi penting baginya—Lycoris yang diam itu akan muncul dari kegelapan, tak terduga.\nSeperti bunga yang mekar tajam, ia akan menembus jantung musuh, menyelesaikan misinya, lalu kembali lenyap.\nTak ada yang benar-benar menarik perhatiannya di tempat ini, dan hanya sedikit yang tahu alasan ia bergabung sejak awal.\n\nHanya ada satu tempat di dalam Fractsidus yang bisa menahan langkahnya.\nKadang-kadang, ia berdiri di lantai atas laboratorium, diam-diam mengamati proses integrasi manusia dengan daging dan anggota tubuh Tacet Discord, atau perkembangan teknologi Overclocking.\nIa memperhatikan hasrat menyala di mata mereka yang mengejar evolusi, menyaksikan perjuangan menuju kelahiran kembali.\nTeriakan keberhasilan, ratapan kegagalan—seolah ia melihat sesuatu yang lebih dari sekadar mereka.\n\nDi lain waktu, ia muncul seperti bayangan di tengah malam, membawa lentera sambil membaca hasil riset terbaru.\nNamun ia tak pernah membawa selembar pun hasil itu pergi, seakan semuanya hanya berujung pada kekecewaan.\nMereka yang kadang menyaksikan momen itu hanya bisa bertanya-tanya—\nsebenarnya, apa yang sedang ia cari?"
+      },
+      {
+        "title": "Treading Through Woes",
+        "content": "Saat hidup menjadi tak terbatas, jalan seperti apa yang seharusnya ditempuh di dunia ini?\nIa tak pernah menemukan jawabannya.\nKekosongan yang belum pernah ia rasakan sebelumnya, dan luasnya keberadaan yang tak berujung, membuatnya kehilangan arah.\nSebagai respons, ia memilih untuk memejamkan mata dan membiarkan musik berbicara—nada-nada liar meluapkan kesepiannya, dukanya, amarahnya, tanpa peduli kapan atau di mana semuanya akan jatuh.\n\nSang jenius yang nyaris gila itu dikenal luas, namun tetap sama keras kepalanya.\nIa bertahan lebih lama dari setiap pujian maupun hinaan, menyaksikan peristiwa yang sama berulang, mendengar komentar yang tak berubah, lagi dan lagi.\nKesendirian terus menyapanya—hingga akhirnya ia sadar, menggantungkan diri pada siapa pun adalah harapan yang sia-sia.\nMomen-momen berharga sering kali singkat, dan hanya mereka yang tak bisa pergi yang akan terus menanggung rasa sakit.\nLambat laun pikirannya menjadi jernih—lalu membatu.\nIa menutup dirinya dari dunia, mati rasa terhadap semua perasaan.\nIa berjalan sendirian, mengabaikan kerumunan di bawah panggung, dan buta terhadap dunia di luar sana.\n\nIa tak pernah mengganti namanya untuk menyembunyikan diri, tak peduli pada spekulasi atau pertanyaan orang.\nSiapa pun bisa menebak usia fisiknya, tapi hanya sedikit yang bisa menebak usia jiwanya.\n\nIa mungkin akan terus mengembara seperti arwah tanpa tujuan,\nnamun apa yang terjadi di satu pertunjukan itu memberinya makna.\nDi momen kesadarannya itu, waktu yang tak tertahankan seolah berlalu dalam sekejap—seakan seluruh hidupnya dikompres menjadi satu titik.\nIa mulai mencari mati-matian apa pun yang belum ia pahami,\nmencari kilau talenta yang mungkin bersinar di arus waktu.\n\nJika orang-orang percaya bahwa ia adalah harapan terbesar mereka,\nmaka ia akan dengan senang hati memuaskan rasa ingin tahu mereka.\nMelintasi era demi era, ia menyerahkan dirinya pada eksperimen,\nmenjalani pembusukan dan kelahiran kembali berkali-kali.\n\nRasa sakit membuatnya tetap berpijak pada kenyataan—namun hanya melalui celah-celah rasa sakit itulah ia bisa mendekati masa lalu.\nTak satu pun dari usahanya terasa terlalu berat, karena pada akhirnya rasa sakit akan dilupakan.\n\nNamun mengapa sekarang ia merasa ruang semakin menyempit?\nMengapa jalur tanpa batas ini justru terasa seperti jerat yang semakin menjerat lehernya?\nBukankah ini seharusnya jalan menuju depan?\n\nIa merentangkan jarinya di antara celah yang semakin menyempit itu,\nmencari putus asa—sebuah jalan keluar.\n\n"
+      },
+      {
+        "title": "The Perfect Gap",
+        "content": "Patung kuno selalu bernilai tinggi dan sulit didapat karena bahan pembuatannya yang unik serta keahlian luar biasa di baliknya.\nNamun, semakin berharga suatu harta, semakin besar pula kemungkinan ia hancur.\nApa yang tampak sebagai kecelakaan sering kali mengandung kesan keniscayaan—seolah naluri merusak dari pemiliknya sendiri telah menentukan takdir benda itu sejak awal.\n\nSuatu hari, patung itu terjatuh dari atas lemari—pecah berkeping-keping, serpihannya tersebar di lantai.\nEra ketika ia diciptakan telah lama berlalu, dan kini hanya dia yang masih mengingat wujud aslinya.\nDengan tekad bulat untuk mengembalikannya seperti semula, ia meluangkan waktu, menempelkan kembali setiap pecahan satu per satu dengan hati-hati.\nIa mulai dari bagian dalam, menyusun puluhan ribu potongan berdasarkan gambaran yang tersimpan dalam ingatannya.\n\nItu adalah pekerjaan yang menuntut konsentrasi penuh, dan dalam momen-momen itulah, hatinya yang kosong menemukan ketenangan dan rasa cukup.\nDunia seakan mencapai keharmonisan sempurna ketika ia bekerja.\nNamun begitu ritmenya melambat, dunia di sekitarnya justru terasa bergerak lebih cepat.\nTanpa ia sadari, sebagian besar patung telah berhasil ia pulihkan.\nPatung itu kini dapat berfungsi dan bergerak seperti dahulu.\nNamun itu belum cukup.\nKeindahan bagian luarnya adalah bagian tak terpisahkan dari keseluruhan wujudnya.\nSetiap penyesuaian, setiap gerakan, harus mengikuti kehendaknya—agar kesempurnaan bisa tercapai, dari dalam hingga luar.\n\nKemenangan terasa begitu dekat, namun sekaligus menjauh.\nSetiap kali satu bagian berhasil ia selesaikan, bagian lain runtuh di bawah beban waktu.\nRetakan akan selalu ada.\n\nIa terus bekerja, menempatkan kembali setiap kepingan yang jatuh, lagi dan lagi.\nSemakin ia cemas dan merindukan hasil akhir, semakin keping-keping itu tercerai-berai.\n\nTerlalu lama ia menatap patung itu—hingga retakan-retakan di permukaannya mulai menyerupai deretan senyuman,\nmengejek usahanya yang sia-sia dalam mengejar kesempurnaan.\nRetakan itu mengingatkannya bahwa jarak antara fantasi dan kenyataan akan selalu ada,\nbahwa yang sedang ia perjuangkan hanyalah kehampaan yang tiada ujung.\n\nNamun terlalu lama ia menatap patung itu—hingga retakan itu juga mengingatkannya bahwa masih banyak yang bisa diperbuat.\nKetidaksempurnaan ini sudah menjadi bagian dari patung itu sendiri.\nRetakan-retakan di luar kesempurnaan itu, entah sejak kapan, telah menjelma menjadi celah-celah yang sempurna."
+      },
+      {
+        "title": "Afterlife And Beyond",
+        "content": "Ia menatap ke langit. Langit itu biru. Tapi yang ia ingat, langit seharusnya merah gelap.\n\nIa memanjat pagar, mencari sesuatu, sementara suara-suara bergema di sekelilingnya, mencoba menahan langkahnya.\n\"Itu cuma mimpi buruk,\" kata mereka.\nJadi semuanya hanya mimpi…\nSeperti awan yang melintas cepat di atas sana, gaun putihnya melayang di padang rumput, menuju ke kota.\nMatahari terbit seperti biasa, dan kota itu terus mengulang asap cerobong dan tawa yang sama—hari demi hari…\nHari demi hari, kebiasaan yang monoton meresap ke dalam dirinya, begitu juga dengan rasa mandek yang tak kunjung reda.\nMusiknya tak lagi berkembang, pikiran orang-orang pun tak lagi berubah. Hari demi hari…\n\nSudah berapa lama sejak terakhir kali seseorang melangkah keluar dari tepi kota?\nDari mana datangnya makanan? Bagaimana semua kebutuhan sehari-hari terus tersedia tanpa henti?\nItulah pertanyaan-pertanyaan yang memenuhi benaknya saat ia berjalan menjauh dari kota.\n\nTiba di batas kota, ia melihat sosok merah berdiri di hadapan kabut yang samar.\nSosok itu telah lama menunggu—seakan memang menantikan kehadirannya.\n\nNaluri berkata untuk menjauh.\nNamun entah mengapa, ia justru mengulurkan tangan, menyentuh telapak sosok itu—dan hanya meraih segenggam darah.\n\nLangit memang berwarna merah gelap.\n\nIa bukan siapa-siapa lagi—hanya tubuh yang rusak, dengan satu mata tersisa, ditutupi bunga merah terang, tak mampu bergerak atau melawan.\nMengapa ia belum mati?\n\nIa menatap langit kelabu, tangannya bergerak tanpa sadar, berusaha menggenggam tanah merah yang berlumpur.\nDalam pandangan sempitnya, jari-jarinya yang lama menghilang perlahan muncul kembali.\nKematian orang-orang lain menggendong kelahirannya kembali, gema Resonansi mereka menyatu di mata kanannya.\n\nBarulah saat ia punya keberanian meninggalkan kota dan menghadapi kenyataan, \"Beyond\" yang menyelimutinya mundur—kembali ke kedalaman hatinya.\nBunga-bunga merah itu gemetar dan gugur, memperlihatkan kulit baru di bawahnya.\nGema tawa belum benar-benar menghilang.\nIa memang telah bermimpi sangat lama—mimpi indah yang diberikan oleh \"Beyond.\"\n\nNamun, siapa yang bisa bilang bahwa mimpi tak bisa menjadi nyata?\n\nIa menatap ke atas. Langit kini benar-benar biru.\nKebekuan yang tak berujung dan kabut yang menghancurkan mimpi itu telah hilang.\nInilah \"Beyond\" yang baru—yang ia ciptakan dengan susah payah, sama persis seperti yang pernah mereka tanam dalam hatinya.\n\nOrang-orang masih memanggil namanya.\nDan kali ini, ia akan benar-benar menyambut mereka yang nyata."
+      }
+    ],
+    "specialFood": {
+      "name": "Redcurrant Tart",
+      "description": "Mengurangi konsumsi Flight STA untuk semua Resonator dalam tim sebesar 12% selama 15 menit. Hanya efektif pada Resonator Anda sendiri dalam Co-op Mode.",
+      "imageUrl": "/icons/food/phrolova.webp"
+    }
+  }
+}

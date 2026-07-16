@@ -1,0 +1,342 @@
+{
+  "name": "Yuanwu",
+  "element": "Electro",
+  "weapon": "Gauntlet",
+  "rarity": 4,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Concerto Efficiency",
+    "Coordinated Attack",
+    "Vibration Strength Reduction",
+    "Interruption Resistance Boost"
+  ],
+  "sonatas": [
+    "Moonlit Clouds",
+    "Rejuvenating Glow"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Yuanwu Boxing Gym",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Natural",
+  "image": "/characters/yuanwu.webp",
+  "imageBanner": "/banners/yuanwu-banner.jpeg",
+  "recommendedStats": {
+    "DEF": "3900+",
+    "Energy Regen": "130-140%+",
+    "Crit Ratio (Crit Weapon)": "NA",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return",
+      "Impermanence Heron"
+    ],
+    "bestWeapon": "Originite: Type IV",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Healer",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: electro%",
+            "3: Electro DMG/DEF%",
+            "1: DEF%",
+            "1: DEF%"
+          ],
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "bell-borne-geochelone",
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        },
+        {
+          "label": "Sub DPS",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: electro%",
+            "3: Electro DMG/DEF%",
+            "1: DEF%",
+            "1: DEF%"
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "DEF%",
+        "DEF"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "Originite: Type IV",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "gauntlet-21d",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "marcato",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Forte Circuit",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "",
+        "members": [
+          [
+            "Jinhsi"
+          ],
+          [
+            "Verina"
+          ],
+          [
+            "Yuanwu"
+          ]
+        ],
+        "note": ""
+      }
+    ],
+    "teamNote": "Yuanwu dianggap sebagai salah satu opsi budget Coord ATK battery untuk Jinhsi. Dalam skenario ini, Yuanwu menggunakan Rejuvenating Glow dan Verina menggunakan Moonlit Clouds."
+  },
+  "skills": {
+    "basic": {
+      "name": "Leihuangquan",
+      "description": "Basic Attack\nYuanwu melakukan hingga 5 serangan berturut-turut, memberikan Electro DMG.\n\nHeavy Attack\nYuanwu mengonsumsi STA untuk menyerang target, memberikan Electro DMG.\n\nMid-air Attack\nYuanwu mengonsumsi STA untuk melancarkan Mid-air Plunging Attack, memberikan Electro DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG.\nSkill Level"
+    },
+    "skill": {
+      "name": "Leihuang Master",
+      "description": "Thunder Wedge\nYuanwu memanggil Thunder Wedge, memberikan Electro DMG, dan membentuk Thunder Field yang berpusat pada Thunder Wedge. Thunder Wedge bertahan selama 12 detik.\nForte Circuit Rumbling Spark dan Resonance Liberation Blazing Might akan segera meledakkan Resonance Skill Thunder Wedge yang ada di field, memberikan Electro DMG, yang dianggap sebagai Resonance Skill DMG.\n\nThunder Field\nKarakter aktif mendapatkan efek di bawah ini saat berada di dalam Thunder Field: sebuah Coordinated Attack dari Resonance Skill Thunder Wedge dipicu saat serangan mengenai target, memberikan Electro DMG. Efek ini dapat dipicu sekali setiap 1,2 detik. Efek bertahan selama 1,5 detik."
+    },
+    "liberation": {
+      "name": "Blazing Might",
+      "description": "Membangkitkan kekuatan guntur dan memberikan status Forte Circuit Lightning Infused kepada semua karakter dalam tim terdekat selama 10 detik, lalu melancarkan pukulan kuat yang memberikan Electro DMG."
+    },
+    "forte": {
+      "name": "Unassuming Blade",
+      "description": "Rumbling Spark\nSaat \"Readiness\" penuh, tahan Resonance Skill untuk mengonsumsi semua \"Readiness\" dan melancarkan Rumbling Spark, memberikan Electro DMG dan memasuki status Lightning Infused.\n\nThunder Uprising\nSaat \"Readiness\" penuh, Resonance Skill Thunder Wedge akan digantikan dengan Thunder Uprising, memberikan Electro DMG.\n\nLightning Infused\nKarakter dalam status Lightning Infused memiliki peningkatan ketahanan terhadap gangguan yang signifikan.\nSaat Yuanwu berada dalam status ini:\n-Basic Attacks: Mengenai target dalam jangkauan yang lebih luas, kurangi Vibration Strength musuh dengan efisiensi yang ditingkatkan.\n-Heavy Attacks: Memiliki kecepatan serangan yang meningkat, kurangi Vibration Strength musuh dengan efisiensi yang ditingkatkan.\n-Dodge Counters: Memiliki kecepatan serangan yang meningkat, kurangi Vibration Strength musuh dengan efisiensi yang ditingkatkan.\n-Gunakan Basic Attack dalam waktu 3 detik setelah melancarkan Heavy Attack atau Counterattack yang berhasil untuk melancarkan Thunderweaver, memberikan Electro DMG, yang dianggap sebagai Basic Attack DMG.\n-Tidak memulihkan \"Readiness\".\n\nReadiness\nYuanwu dapat menampung hingga 100 \"Readiness\".\nSaat Resonance Skill Thunder Wedge berada di field, Yuanwu mendapatkan 6 \"Readiness\" setiap detik, bahkan ketika ia bukan merupakan karakter aktif;\nSaat Resonance Skill Thunder Wedge mengenai target dengan Coordinated Attack, Yuanwu mendapatkan 5 \"Readiness\"."
+    },
+    "inherent": [
+      {
+        "name": "Thunderous Determination",
+        "description": "Multiplier DMG dari Resonance Skill Thunder Uprising meningkat sebesar 40%, dan efisiensi pengurangan Vibration Strength musuh miliknya ditingkatkan."
+      },
+      {
+        "name": "Reserved Confidence",
+        "description": "Jangkauan dari Resonance Skill Thunder Field dan Thunder Uprising diperluas secara signifikan. Saat berganti keluar field selama pertempuran, jika \"Readiness\" tidak penuh, Yuanwu akan secara otomatis meninggalkan 1 Resonance Skill Thunder Wedge di tempat."
+      }
+    ],
+    "intro": {
+      "name": "Thunder Bombardment",
+      "description": "Menyerang target, memberikan Electro DMG."
+    },
+    "outro": {
+      "name": "Lightning Manipulation",
+      "description": "Yuanwu melepaskan sambaran petir di area yang berpusat di sekitar target skill, sangat mengurangi Vibration Strength musuh saat terkena benturan."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Hidden Thunder Tacet Core",
+            "amount": 46
+          },
+          {
+            "item": "Crude Ring",
+            "amount": 4
+          },
+          {
+            "item": "Basic Ring",
+            "amount": 12
+          },
+          {
+            "item": "Improved Ring",
+            "amount": 12
+          },
+          {
+            "item": "Tailored Ring",
+            "amount": 4
+          },
+          {
+            "item": "Terraspawn Fungus",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Unending Destruction",
+          "amount": 26
+        },
+        {
+          "item": "Crude Ring",
+          "amount": 25
+        },
+        {
+          "item": "Basic Ring",
+          "amount": 28
+        },
+        {
+          "item": "Improved Ring",
+          "amount": 40
+        },
+        {
+          "item": "Tailored Ring",
+          "amount": 57
+        },
+        {
+          "item": "Cadence Seed",
+          "amount": 25
+        },
+        {
+          "item": "Cadence Bud",
+          "amount": 28
+        },
+        {
+          "item": "Cadence Leaf",
+          "amount": 55
+        },
+        {
+          "item": "Cadence Blossom",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Steaming Cup Of Justice",
+      "description": "Saat Yuanwu berada dalam status Lightning Infused dari Forte Circuit, Basic Attack Speed miliknya meningkat sebesar 20%, dan Heavy Attack Speed miliknya meningkat sebesar 20%. "
+    },
+    {
+      "stage": "S2",
+      "name": "Fierce Heart, Serene Mind",
+      "description": "Intro Skill Thunder Bombardment memulihkan tambahan 15 Resonance Energy untuk Yuanwu."
+    },
+    {
+      "stage": "S3",
+      "name": "Upholder Of Integrity",
+      "description": "Saat Coordinated Attacks dari Resonance Skill Thunder Wedge mengenai target, damage tersebut meningkat tambahan sebesar 20% dari DEF Yuanwu.\n"
+    },
+    {
+      "stage": "S4",
+      "name": "Retributive Knuckles",
+      "description": "Saat melancarkan Resonance Liberation Blazing Might, karakter yang berada di field akan mendapatkan Shield setara dengan 200% dari DEF Yuanwu selama 10 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Neighborhood Protector",
+      "description": "Saat Resonance Skill Thunder Wedge berada di field, Resonance Liberation DMG Bonus milik Yuanwu meningkat sebesar 50%."
+    },
+    {
+      "stage": "S6",
+      "name": "Defender Of All Realms",
+      "description": "Semua anggota tim terdekat di dalam jangkauan Resonance Skill Thunder Wedge akan mendapatkan peningkatan DEF sebesar 32%, bertahan selama 3 detik.      "
+    }
+  ],
+  "lore": {
+    "description": "Yuanwu memiliki sebuah sasana tinju tempat ia mengajar seni bela diri dan manajemen kesehatan. Ia sangat dihormati di masyarakat karena sikapnya yang ramah dan pembawaannya yang menyenangkan.\n\nBIRTHPLACE\n",
+    "report": {
+      "resonancePower": "Fist of Thunder",
+      "overclockDiagnostic": "Grafik gelombang Resonator Yuanwu menunjukkan fluktuasi elips. Pola Time Domain tampak stabil tanpa adanya gelombang abnormal yang teramati.\n\nResonant Criticality: Relatif tinggi. Frekuensi Resonator Yuanwu menunjukkan stabilitas tinggi dengan risiko Overclocking yang minimal.\n\nCatatan sebelumnya menunjukkan tidak ada riwayat Overclocking; namun, pada masa remaja Resonator Yuanwu, selama penggunaan Resonance Ability miliknya yang tercatat paling awal, terjadi peristiwa hampir Overclocking yang menghasilkan fluktuasi frekuensi yang hebat dan perilaku yang tidak terkendali. Insiden tersebut diklasifikasikan sebagai bahaya Kelas 2 dan diarsipkan di bawah kode EX42978.\n\nPemeriksaan selanjutnya mengungkapkan bahwa episode ini disebabkan oleh tekanan emosional. Tidak ada efek lanjutan dari Overclocking yang dicatat.\n\nSaat ini, kondisi psikologis Resonator Yuanwu dianggap stabil dan sehat. Pemeriksaan rutin disarankan untuk mencegah insiden Overclocking di masa mendatang.",
+      "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment 1425-G]\nWaktu tepat kebangkitan (Awakening) Resonator Yuanwu tidak jelas. Resonator Yuanwu menceritakan bahwa ia terpapar energi listrik yang kuat untuk waktu yang lama sebelum kebangkitannya.\n\nTacet Mark Resonator Yuanwu terletak di sisi kanan lehernya. Setelah kebangkitannya, struktur menyerupai kristal biru muncul pada tungkai depannya, dengan jaringan parut yang terlihat pada tangan dan pergelangan tangannya. Perubahan ini telah stabil sejak saat itu.\n\nResonator Yuanwu memiliki kendali luar biasa atas fluktuasi frekuensi tubuhnya. Ia dapat merekayasa amplitudo dan jangkauan frekuensinya dalam sekejap, tampaknya tanpa membahayakan dirinya sendiri. Pengujian telah menyimpulkan bahwa ia 82,58% lebih mahir dalam memanipulasi frekuensi daripada rata-rata Resonator.\n\nResonance Spectrum Pattern milik Yuanwu telah diamati selaras erat dengan guntur. Reaksi Syntony yang kuat telah diamati, namun penyebab kebangkitan Yuanwu tetap tidak jelas.\nAnalisis sampel uji telah mengungkapkan Rabelle's Curve non-konvergen dengan kenaikan bertahap. Resonator Yuanwu dengan demikian diklasifikasikan sebagai Natural Resonator."
+    },
+    "items": [
+      {
+        "name": "Dried Fish",
+        "imageUrl": "/icons/items/yuanwu-1.webp",
+        "description": "Ikan kering yang terbuat dari Tetra. Ikan ini biasanya dibawa ke Yuanwu Boxing Gym oleh Lingyang, sebagai ucapan terima kasih kepada Mimi karena telah \"berlatih tanding\" dengannya. Saat Mimi tidak bisa menghabiskan ikannya, Yuanwu mengeringkannya untuk penggunaan di masa mendatang."
+      },
+      {
+        "name": "Blue Flask",
+        "imageUrl": "/icons/items/yuanwu-2.webp",
+        "description": "Yuanwu selalu membawa sebuah termos dalam aktivitas kesehariannya. Beberapa orang mengatakan bahwa itu berisi ramuan rahasia miliknya untuk tetap bugar, tetapi pada kenyataannya, itu biasanya hanyalah air panas biasa."
+      },
+      {
+        "name": "Old Gauntlet",
+        "imageUrl": "/icons/items/yuanwu-3.webp",
+        "description": "Sebuah gauntlet kuno yang sudah lama tidak diproduksi lagi. Bagian luarnya menunjukkan tanda-tanda keausan yang nyata akibat penggunaan ekstensif, dengan sebagian besar komponen interiornya terekspos. Namun benda ini telah dibersihkan dan dirawat dengan hati-hati, hingga setiap garis dan celah pada senjata tersebut masih terlihat jelas."
+      }
+    ],
+    "stories": [
+      {
+        "title": "Popular Boxing Gym",
+        "content": "Yuanwu menjaga rutinitas harian yang sederhana. Setiap hari di pagi buta, ia membuka sasarannya dan lanjut membersihkan peralatan latihan satu per satu. Kemudian ia merebus sekochi teh dan menyapa pelanggan sambil menikmatinya.\nBagi mereka yang ingin belajar seni bela diri, Yuanwu menilai fisik serta kondisi mereka saat ini sebelum menyarankan gaya yang sesuai. Intensitas latihan dapat disesuaikan dengan preferensi individu, baik untuk kebugaran fisik atau untuk mencari nama di dunia seni bela diri. Setiap pelanggan didengarkan dengan penuh perhatian, dengan Yuanwu secara sabar menyusun rencana latihan yang dipersonalisasi untuk tujuan mereka. Bahkan mereka yang masuk tanpa tujuan yang jelas pun disambut dengan keramahan yang hangat dan diberikan panduan dalam mengeksplorasi minat mereka.\nSegera setelah klien melangkah melewati pintu depan sasana, mata ramah Yuanwu segera bertemu dengan mata mereka.\n“Tinggalkan kekhawatiran Anda dan bangkitkan semangat Anda di sasana kami. Mari mulai dengan beberapa pukulan mudah untuk bersantai.”\nHanya dari beberapa gerakan dan pukulan, Yuanwu dapat mengetahui kondisi fisik tamu saat ini dan merekomendasikan rencana latihan yang sesuai.\n“Postur tubuh Anda membungkuk, dan cara jalan Anda kurang stabil... Otot punggung bagian bawah tampak tegang. Coba rangkaian gerakan ini: tiga pukulan lambat diikuti oleh satu pukulan cepat. Ini seharusnya memberikan kelegaan.”\nSetelah berlatih sesuai instruksinya, pelanggan akan merasakan relaksasi yang signifikan, baik secara mental maupun fisik. Sebelum pergi, Yuanwu akan mengucapkan selamat tinggal dengan rasa peduli yang tulus dan pas, hampir seperti seorang teman lama.\n“Merasa lebih baik sekarang? Itu bagus. Dan jangan lupa untuk sedikit bersantai di hari-hari yang biasanya menegangkan itu. Bawa paket teh ini, ini akan membantu Anda beristirahat.”\nDi antara sekian banyak sasana tinju dengan berbagai ukuran di Jinzhou, hanya sasana Yuanwu yang menikmati popularitas berkelanjutan seperti itu."
+      },
+      {
+        "title": "Bad Bargain",
+        "content": "Konon pemilik Yuanwu Boxing Gym bersedia membantu pelanggannya dengan masalah apa pun, bahkan masalah yang tidak berhubungan dengan olahraga.\nSuatu hari, Mahe, seorang pelanggan yang biasanya fokus dan berbakti selama latihan, tiba-tiba kehilangan konsentrasinya. Yuanwu menyadari hal itu dan bertanya kepadanya apakah ada sesuatu yang salah. Sikap Mahe tampak muram saat ia menuntun Yuanwu ke loker sasana, tempat ia mengeluarkan piring makan yang indah dari barang-barangnya.\nPiring itu memiliki lingkaran bunga merah kecil di pinggirannya. Yuanwu mengenalinya sebagai kerajinan enamel dari luar negeri. Bunga-bunganya sempurna, kecuali sebagian kecil pinggiran emas yang hilang. Seluruh piring itu tampak tidak lengkap tanpanya.\nItu adalah hadiah yang Mahe siapkan untuk Panhua. Beberapa tahun yang lalu, ketika Panhua Restaurant dibuka, Mahe berjanji bahwa ia akan menemukan piring makan terindah di dunia untuk menyajikan hidangan paling lezat di dunia. Meskipun mereka berdua kemudian berpisah karena perbedaan cita-cita, Mahe tetap mengingat janjinya.\nIa tetap berpegang pada cita-citanya, tetapi tidak bisa melepaskan kasih sayangnya kepada wanita itu.\nSelama bertahun-tahun, ia mencari piring makan yang sempurna, yang tidak terlalu mencolok atau norak. Akhirnya, matanya tertuju pada benda sederhana namun elegan ini - putih dengan bunga merah. Piring itu terasa sangat pas.\nPiring itu mahal, dan ia kesulitan mengamankan dana untuk membelinya. Kecemasannya meningkat saat ia berdebat apakah akan memberikan hadiah tersebut. Apakah itu pantas? Haruskah ia tetap mengirimkannya? Di tengah keraguannya, bagian dari filigrana pinggiran emas yang menghiasi piring tersebut hilang secara misterius. Ia bertanya kepada semua pedagang di Jinzhou, tetapi mereka tidak terbiasa dengan porselen impor atau tidak berani mencoba memperbaiki barang berharga tersebut. Mahe pun terjebak dalam dilema.\nSetelah mendengarkan situasi Mahe, Yuanwu dengan lembut mengambil piring makan tersebut, memberi tahu Mahe untuk datang mengambilnya seminggu kemudian.\nKetika Mahe kembali, bunga-bunga itu tersusun sempurna dalam lingkaran, tanpa ada tanda-tanda perbaikan.\nSebagai imbalannya, Yuanwu hanya meminta Mahe untuk membawanya dan piring yang telah diperbaiki itu ke Panhua Restaurant untuk makan.\nDisajikan di atas piring indah yang dihiasi bunga enamel, hidangan yang pedas dan harum itu tampak semakin menggoda. Senyum Panhua tampak sangat menawan hari itu, dan Mahe yang biasanya pendiam berhasil menunjukkan senyum di wajahnya juga. Itu benar-benar makan malam yang menyenangkan.\nTidak peduli seberapa populer sasana itu sebagai sebuah bisnis, menetapkan biaya yang begitu sedikit untuk pekerjaan seperti ini tampak seperti kesepakatan yang buruk bagi banyak orang.\nYuanwu, bagaimanapun, hanya mengabaikannya dengan senyuman, seolah-olah uang adalah hal yang paling tidak penting baginya."
+      },
+      {
+        "title": "Lightning On Stage",
+        "content": "Terletak di garis depan, Jinzhou memiliki budaya seni bela diri yang kuat, dengan banyak sasana dalam berbagai ukuran. Di era yang relatif tenang ini, adat istiadat yang dulunya ketat dan keras dalam mengatur duel secara bertahap memudar, memberi jalan bagi konsultasi dan pertukaran yang lebih \"ramah\" antar sasana.\nDi mana orang-orang berkumpul, politik pasti akan mengikuti. Meskipun kegiatan-kegiatan tersebut terselubung di bawah bendera pertukaran, di balik layar, individu-individu terlibat dalam kompetisi rahasia, menggunakan segala cara untuk muncul sebagai pemenang. Bagaimanapun juga, hal ini memberikan kesempatan langka untuk publisitas. Sebuah pernyataan sederhana dari pemenang tentang sasana afiliasi mereka akan membawa lonjakan perhatian dan kontrak bisnis yang menguntungkan.\nSeiring acara tersebut mendapatkan lebih banyak pengaruh, semakin banyak sasana yang memutuskan untuk berpartisipasi. Secara mengejutkan, bahkan Yuanwu, yang dikenal karena ketidakpeduliannya terhadap ketenaran dan kekayaan, ikut mendaftarkan diri.\nSasana Yuanwu sudah menjadi bisnis yang berkembang pesat dan patut ditiru. Partisipasinya segera menimbulkan masalah bagi beberapa pihak yang berkepentingan, dan yang paling merasa terganggu adalah peraih peringkat teratas sebelumnya, Wenxi. Wenxi, seorang pebisnis, memperlakukan sasana dan partisipasinya dalam acara tersebut hanya sebagai alat publisitas untuk bengkel senjatanya, dengan menekankan keuntungan komersial. Khususnya, peringkat teratasnya dibeli, bukan didapatkan melalui kemampuan.\nMemahami kemampuan Yuanwu dan menyadari bahwa sasananya tidak terlalu bersifat korporat, Wenxi secara pribadi berkunjung dan mengajukan tawaran menggiurkan untuk membeli bisnis Yuanwu. Namun, Yuanwu menolak proposal tersebut tanpa berpikir dua kali.\nTanpa merasa gentar, Wenxi beralih dengan membayar sejumlah besar uang kepada beberapa pelanggan tetap Yuanwu untuk membocorkan setiap detail teknik tinju Yuanwu. Ia kemudian menyuap wasit dan staf yang mengawasi babak final, memastikan mereka menutup mata terhadap sabotase yang ia lakukan pada pakaian tempur para petarung.\nPada hari final, lonjakan guntur yang mengejutkan memenuhi udara, hanya untuk menghilang dalam sekejap. Di antara kilatan cahaya dan ketenangan yang tiba-tiba, kedua pakaian tempur tersebut hancur terbuka. Guntur yang membakar tepat mengenai kostum, menghindari kulit yang tidak terlindungi; sedikit lebih jauh saja, maka sendi para petarung akan terbakar. Mekanisme internal yang terekspos dari pakaian yang rusak tersebut mengungkapkan semua skema rahasia, menyebabkan kegemparan di antara penonton dan berujung pada penghentian pertandingan.\nSetelah penyelidikan dilakukan, guntur yang mengerikan selama pertandingan tersebut dianggap sebagai kecelakaan yang disebabkan oleh perangkat tersembunyi di dalam pakaian. Secara bersamaan, bengkel senjata milik Wenxi, yang bertanggung jawab atas pembuatan perangkat semacam itu, mulai diawasi secara ketat.\nTak lama kemudian, bengkel tersebut menghilang secara misterius, memudar dalam ketidaktahuan bersama dengan acara pertarungan yang dicurangi tersebut.\nSetelah badai mereda, Yuanwu Boxing Gym kembali ke keadaan meriah seperti biasanya, sebuah tempat perlindungan kecil yang ramai dengan pelanggan. Bagi pelanggan yang bermata tajam, sedikit perbedaan mungkin teramati–beberapa wajah yang dikenal tidak lagi terlihat dari kerumunan yang datang dan pergi dari tempat tersebut."
+      },
+      {
+        "title": "Soothing Tea",
+        "content": "Fitur utama yang membedakan Yuanwu Boxing Gym dari yang lain adalah penekanannya pada kenyamanan.\nDi bawah bimbingan Bos Yuanwu, para praktisi menjalani rutinitas mereka, mengakhiri setiap sesi dengan menyeka keringat dan menikmati sekochi teh. Kenyamanan yang luar biasa! Baik saat berlatih Xianfengquan yang lincah, Leihuangquan yang kuat, atau Sanfuquan yang fleksibel, Yuanwu telah memasangkan setiap gaya tinju dengan teh tertentu yang memiliki manfaat pelengkap. Para praktisi, sambil menyesap seduhan panas setelah latihan, merelaksasi otot-otot mereka, menyegarkan sirkulasi, dan menghilangkan rasa lelah.\nYuanwu secara pribadi menguji formula teh ini sebelum menyerahkannya ke kedai teh tetangga, yang kini berkembang pesat dengan bisnis yang meledak. Permintaan pemesanan teh biasanya dilakukan berbulan-bulan sebelumnya, dan meskipun sesekali terjadi keterlambatan, hal itu tidak pernah memengaruhi pesanan Yuanwu untuk dikirimkan sesuai jadwal. Spekulasi muncul bahwa Yuanwu bukanlah bos sasana biasa yang tampak santai, melainkan seorang tokoh besar yang mengawasi banyak perusahaan. Mungkinkah teh yang sangat dicari ini hanyalah aspek lain dari bisnisnya?\nSaat dihadapkan dengan pertanyaan, Yuanwu hanya tersenyum dan menyerahkan secangkir teh, sembari berucap, \"Berhenti mengejar bayangan. Minumlah teh dan segarkan diri. Perbanyak keringat, kurangi spekulasi.\" Setelah sesi latihan dan secangkir teh, dengan hidung yang dipenuhi aroma segar, keraguan dan kecemasan pun sirna bersama tetesan keringat. Pertanyaan tentang kekayaan Yuanwu dan bagaimana ia mengumpulkannya menjadi tidak relevan. Rasa relaksasi yang mendalam menyelimuti seluruh tubuh, sejenak menghilangkan intrik dan pengejaran duniawi.\nDi dunia ini, kebanyakan hal menuntut kecepatan dan keseimbangan. Saat lelah, beristirahatlah sejenak dan nikmati teh. Ini adalah momen untuk berhenti sejenak, menyegarkan diri, lalu lanjut kembali."
+      },
+      {
+        "title": "Timeless Heritage",
+        "content": "Yuanwu Boxing Gym dahulu dikenal sebagai sasana bagi para penerus Leihuangquan. Sasana ini membanggakan penghargaan yang tak terhitung jumlahnya, dan setiap masternya meraih ketenaran di seluruh Huanglong.\nReputasi Leihuangquan bertumpu pada gayanya yang agresif, tetapi intensitas seperti itu sering kali harus dibayar mahal. Sayangnya, tiga master terakhir menemui nasib yang cukup malang, dengan master yang paling baru mengalami kejatuhan yang sangat tragis. Rumor mengatakan bahwa ia, dalam panasnya persaingan, memukul tembus peralatan tinju, melanggar peraturan dan menyebabkan pengusirannya. Mencari pelipur lara dari pukulan terhadap kariernya, ia memulai tur kapal, hanya untuk menemui badai petir yang fatal. Secara kebetulan, ia memiliki keahlian untuk memanipulasi guntur, dan dalam ironi yang kejam, ia menyerah pada kekuatan yang pernah ia kendalikan. Tampaknya karma menolak untuk membiarkan siapa pun pergi.\nSaat agen properti menyelesaikan pengenalan sejarah sasana tersebut, ia berhenti sejenak untuk menilai reaksi pria paruh baya itu. \"Properti ini tidak benar-benar membawa keberuntungan. Apakah Anda masih ingin membeli?\" Pria itu hanya tersenyum dan mengangguk, tanpa merasa gentar.\n\"Baiklah, saya sudah mengatakan semua yang harus saya katakan,\" agen itu menghela napas, sembari memperingatkan, \"Jika Anda masih ingin membelinya, silakan, tapi jangan mengubahnya menjadi sasana seni bela diri lagi. Itu membawa sial.\"\nYuanwu mendorong buka pintu kayu yang berderit, membiarkan sinar matahari tumpah ke dalam ruangan. Debu yang tidak aktif menari-nari dalam kehangatan sinar matahari yang diperoleh dengan susah payah, hinggap di perabotan yang familier namun lapuk—tiang kayu yang aus, ring tinju dengan lantai yang usang, lemari pajangan yang sunyi, dan medali kehormatan yang berdebu.\nYuanwu menyeka benda-benda dari masa lalu ini dengan lembut, bersama dengan kenangan yang dikaburkan oleh debu. Tiang-tiang kayu itu menanggung bekas latihan intensif mendiang rekan-rekan magangnya. Medali-medali di lemari pajangan adalah kemenangan yang diraih dengan susah payah, dan untuk lantainya, itu memang dirusak oleh dirinya sendiri.\nDahulu dalam pertandingan, ia tidak mengenal rasa takut dan tanpa hambatan. Satu pukulan menghancurkan keseimbangan halus yang dijaga oleh para master selama bertahun-tahun, menghancurkan lantai dan melemparkannya ke dalam badai kenyataan. Badai, yang juga disebut kenyataan, mencabik-cabik seniman bela diri muda yang tidak tahu apa-apa selain bertarung. Mungkin, seperti yang ditunjukkan oleh rumor, ia benar-benar terkubur di dasar laut.\nSaat sasana dibuka kembali di bawah kepemilikan baru, seorang pemilik paruh baya dengan senyum hangat menyambut pelanggan yang datang dan pergi. \"Selamat datang di Yuanwu Boxing Gym.\""
+      }
+    ],
+    "specialFood": {
+      "name": "Sanqing Tea",
+      "imageUrl": "/icons/food/yuanwu.webp",
+      "description": "Meningkatkan maks HP semua anggota party sebesar 28% dari maks HP mereka, bertahan selama 30 menit. (Efek ini hanya berlaku untuk Resonator milik Anda sendiri dalam Co-op Mode)"
+    }
+  }
+}

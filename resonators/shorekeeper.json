@@ -1,0 +1,374 @@
+{
+  "name": "Shorekeeper",
+  "element": "Spectro",
+  "weapon": "Rectifier",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Support and Healer",
+    "Traction",
+    "DMG Amplification"
+  ],
+  "sonatas": [
+    "Rejuvenating Glow"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Black Shores",
+  "affiliation": "The Black Shores",
+  "class": "",
+  "image": "/characters/shorekeeper.webp",
+  "imageBanner": "/banners/shorekeeper-banner.jpeg",
+  "recommendedStats": {
+    "HP": "30.000+",
+    "Energy Regen": "230-240%+",
+    "Crit Ratio (Crit Weapon)": "NA",
+    "Crit Ratio (Non Crit Weapon)": "NA"
+  },
+  "build": {
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return"
+    ],
+    "bestWeapon": "Stellar Symphony",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "HEALER",
+          "echoSlug": "bell-borne-geochelone",
+          "echoSlugSecondary": "fallacy-of-no-return",
+          "stats": [
+            "4: HP%",
+            "3: ER%",
+            "3: ER%",
+            "1: HP%",
+            "1: HP%"
+          ],
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        },
+        {
+          "label": "SPECIAL INTRO",
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "bell-borne-geochelone",
+          "stats": [
+            "4: CDMG%",
+            "3: Energy Regen%",
+            "3: spectro%",
+            "1: HP%",
+            "1: HP%"
+          ],
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        }
+      ],
+      "substats": [
+        "Energy Regen",
+        "HP%",
+        "Reso Libe DMG",
+        "HP"
+      ],
+      "note": "Jika menggunakan Fallacy of No Return, kebutuhan ER hanya 230%. Jika tidak, kebutuhannya adalah 240%. Kebutuhan ER ini adalah untuk buff Stellarealm milik Shorekeeper, yang berskala berdasarkan ER.\n\nsaat menggunakan [Enhanced Intro Skill] Shorekeeper, damage yang diberikan akan menghasilkan kritikal, oleh karena itu terdapat opsi untuk memilih Crit. DMG sebagai mainstat 4-cost. Damage tersebut dianggap sebagai Liberation%.\n\nJika mampu mencapai 230-240% ER hanya dengan 1x ER 3-cost,kalian dapat memilih untuk menggunakan Spectro DMG Bonus untuk tambahan DMG atau HP% untuk tambahan DMG dan healing yang seimbang.\n\n"
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "stellar-symphony",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "variation",
+        "rank": "",
+        "percentage": "93"
+      },
+      {
+        "id": "call-of-the-abyss",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "rectifier-25",
+        "rank": "",
+        "percentage": "100"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Opener",
+        "steps": [
+          "BA(x4)",
+          "Forte",
+          "BA(x4)",
+          "Forte",
+          "Skill",
+          "Ult",
+          "Echo",
+          "Outro"
+        ]
+      },
+      {
+        "title": "Double Skill",
+        "steps": [
+          "Skill+Echo(Swap)",
+          "Intro",
+          "Skill",
+          "Ult",
+          "Outro"
+        ]
+      },
+      {
+        "title": "Loop",
+        "steps": [
+          "Intro",
+          "BA(x4)",
+          "Forte",
+          "Skill",
+          "Ult",
+          "Echo",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Skill",
+        "Resonance Liberation",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Support",
+        "members": [
+          [],
+          [],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Shorekeeper memberikan buff berikut untuk rekan timnya: \n- 15% DMG Amplify setelah melancarkan Outro Skill\n- 12.5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n- Dengan Stellar Symphony (signature SK): 14% peningkatan ATK selama 30 detik."
+      }
+    ],
+    "teamNote": "Shorekeeper adalah salah satu healer terbaik dalam game ini. Ia memberikan all-type DMG Amplify sebagai Outro Skill miliknya bersamaan dengan buff Stellarealm (12.5% Crit Rate & 25% Crit. DMG pada total 250 ER), sehingga memungkinkannya untuk masuk secara efektif ke dalam komposisi tim mana pun.\nIa paling efektif dalam tim di mana ia memiliki downtime yang lebih lama (field time yang lebih sedikit)."
+  },
+  "skills": {
+    "basic": {
+      "name": "Origin Calculus",
+      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut yang memberikan  Spectro DMG. Setiap hit akan menghasilkan 1 Collapsed Core.\n\nHeavy Attack\nTahan tombol Normal Attack untuk masuk ke Unbound Form, yang terus mengonsumsi STA. Saat berada dalam mode ini, Shorekeeper akan:\n- Menghasilkan 1 segmen Deductive Data setiap detik.\n- Secara otomatis mengumpulkan collectible dari tanaman di sekitar. Ketika STA habis atau jika melakukan aksi seperti Basic Attack, Unbound Form akan berakhir dan memberikan  Spectro DMG ke target. Setiap segmen Deductive Data yang terkumpul akan berubah menjadi Empirical Data dan menghasilkan Collapsed Core.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack. Setiap hit menghasilkan 1 Collapsed Core. \nTekan tombol Normal Attack dengan cepat setelah Plunging Attack untuk langsung melakukan Basic Attack Stage 2.\nDodge Counter\ntekan tombol Normal Attack setelah berhasil melakukan Dodge untuk menyerang target dan memberikan  Spectro DMG."
+    },
+    "skill": {
+      "name": "Chaos Theory",
+      "description": "Memulihkan HP semua anggota party di sekitar dan memanggil 5 Dim Star Butterflies yang secara otomatis melacak serta menyerang target, memberikan  Spectro DMG. \nJika langsung melanjutkan dengan Basic Attack, siklus Basic Attack akan dimulai dari Stage 2.\nDapat digunakan saat di udara."
+    },
+    "liberation": {
+      "name": "End Loop",
+      "description": "Outer Stellarealm\nMenciptakan Outer Stellarealm yang secara terus-menerus memulihkan HP semua anggota party di dalam area efeknya. \nEfek ini bisa dipicu setiap 3 detik sekali.\n\nInner Stellarealm\nSaat anggota party menggunakan Intro Skill di dalam Outer Stellarealm, area tersebut berevolusi menjadi Inner Stellarealm.\n- Dalam area Inner Stellarealm, setiap 0.2% Shorekeeper's Energy Regen akan memberikan 0.01% peningkatan Crit Rate ke seluruh anggota party, hingga maksimal 12.5%.\n- Inner Stellarealm mewarisi semua efek dari Outer Stellarealm.\n\nSupernal Stellarealm\nSaat anggota party menggunakan Intro Skill di dalam Inner Stellarealm, area tersebut berevolusi menjadi Supernal Stellarealm.\n- Dalam area Supernal Stellarealm, setiap 0.1% Shorekeeper's Energy Regen akan memberikan 0.01% peningkatan Crit DMG ke seluruh anggota party, hingga maksimal 25%.\n- Supernal Stellarealm mewarisi semua efek dari Inner Stellarealm"
+    },
+    "forte": {
+      "name": "Astral Chord",
+      "description": "Flare Star Butterfly\nMenyerang target dengan Normal Attack akan menghasilkan Collapsed Core, yang setelah 6 detik akan berubah menjadi Flare Star Butterfly. \nFlare Star Butterflies secara otomatis melacak dan menyerang target, memberikan  Spectro DMG. Jika sudah ada 5 Collapsed Cores, hit Basic Attack berikutnya akan langsung mengubah satu Collapsed Core menjadi Flare Star Butterfly.\n\nIllation\nSaat Shorekeeper memiliki 5 segmen Empirical Data, menggunakan Heavy Attack akan mengonsumsi semua segmen tersebut untuk menarik target di sekitar dan memberikan  Spectro DMG. Semua Collapsed Cores yang ada juga akan langsung berubah menjadi Flare Star Butterflies.\n\nTransmutation\nSaat Shorekeeper memiliki 5 segmen Empirical Data, menggunakan Mid-air Attack akan mengonsumsi semua segmen tersebut untuk memberikan  Spectro DMG. \nSemua Collapsed Cores yang ada juga akan langsung berubah menjadi Flare Star Butterflies. Tekan tombol Normal Attack dengan cepat setelahnya untuk langsung melakukan Basic Attack Stage 2.\n\nEmpirical Data\nShorekeeper dapat menyimpan hingga 5 segmen Empirical Data.\n- Mendapatkan 1 segmen saat Basic Attack Stage 1, 2, atau 4 mengenai target.\n- Mendapatkan 2 segmen saat Basic Attack Stage 3 mengenai target.\n- Mendapatkan 1 segmen saat Mid-air Attack mengenai target.\n- Mendapatkan 1 segmen saat Dodge Counter mengenai target."
+    },
+    "inherent": [
+      {
+        "name": "Life Entwined",
+        "description": "Saat Resonator lain selain Shorekeeper menerima serangan fatal, mereka tidak akan langsung KO tetapi malah dipulihkan sebesar 50% HP dari total HP Shorekeeper, sementara Shorekeeper kehilangan jumlah HP yang sama. \nHP Shorekeeper tidak akan turun di bawah 1 karena efek ini.\nEfek ini bisa diaktifkan sekali setiap 10 menit."
+      },
+      {
+        "name": "Self Gravitation",
+        "description": "Saat Resonator di medan pertempuran berada dalam jangkauan Stellarealm, Energy Regen Shorekeeper meningkat 10%. \nJika Rover ada dalam tim, Energy Regen Rover juga meningkat 10%."
+      }
+    ],
+    "intro": {
+      "name": "Proof Of Existence",
+      "description": "Enlightenment\nShorekeeper muncul untuk memulihkan HP semua anggota party di sekitar dan memanggil 5 Dim Star Butterflies yang otomatis melacak serta menyerang target, memberikan  Spectro DMG. \nSerangan ini dihitung sebagai Resonance Skill DMG.\n\nDiscernment\nSaat Supernal Stellarealm terbentuk, Intro Skill pertama Shorekeeper selama durasi ini akan digantikan dengan Intro Skill Discernment. Mengaktifkan Discernment akan mengakhiri Stellarealm yang sedang aktif, memulihkan HP semua anggota party di sekitar, dan memberikan  Spectro DMG ke target. \nSerangan ini dijamin Critical Hit dan dihitung sebagai Resonance Liberation DMG.\nIntro Skill Discernment hanya bisa diaktifkan sekali setiap kali Supernal Stellarealm terbentuk."
+    },
+    "outro": {
+      "name": "Binary Butterfly",
+      "description": "Shorekeeper memanggil 1 Flare Star Butterfly dan 1 Dim Star Butterfly yang mengitari Resonator di medan pertempuran selama maksimal 30 detik, memberikan efek berikut:\n- Jika Resonator terkena serangan atau terpental, menekan tombol Dodge akan langsung membatalkan gangguan tersebut, memicu Dodge yang berhasil. \nJika Resonator sedang melayang dan dekat dengan tanah, mereka bisa langsung mendarat dengan posisi berdiri. Efek ini bisa digunakan hingga 5 kali.\n- Semua anggota party di sekitar mendapatkan 15% peningkatan DMG."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Topological Confinement",
+            "amount": 46
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Nova",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Sentinel's Dagger",
+          "amount": 26
+        },
+        {
+          "item": "LF Whisperin Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Whisperin Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Whisperin Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Whisperin Core",
+          "amount": 57
+        },
+        {
+          "item": "Lento Helix",
+          "amount": 25
+        },
+        {
+          "item": "Adagio Helix",
+          "amount": 28
+        },
+        {
+          "item": "Andante Helix",
+          "amount": 55
+        },
+        {
+          "item": "Presto Helix",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Unspoken Conjecture",
+      "description": "Stellarealms yang dihasilkan oleh Resonance Liberation: End Loop mendapatkan peningkatan berikut:\n- Jangkauan efek pemulihan dan buff diperluas 150%.\n- Durasi diperpanjang 10 detik.\n- Menggunakan Intro Skill: Discernment tidak lagi mengakhiri Stellarealm yang sedang aktif."
+    },
+    {
+      "stage": "S2",
+      "name": "Night'S Gift And Refusal",
+      "description": "Outer Stellarealm sekarang meningkatkan ATK semua anggota party di sekitar sebesar 40%."
+    },
+    {
+      "stage": "S3",
+      "name": "Infinity Awaits Me",
+      "description": "Menggunakan Resonance Liberation: End Loop memberikan 20 Concerto Energy ke Shorekeeper. Efek ini bisa dipicu sekali setiap 25 detik."
+    },
+    {
+      "stage": "S4",
+      "name": " Overflowing Quietude",
+      "description": "Mendapatkan tambahan 70% Healing Bonus saat menggunakan Resonance Skill: Chaos Theory."
+    },
+    {
+      "stage": "S5",
+      "name": "Echoes In Silence",
+      "description": "Memperluas jangkauan efek tarik dari Basic Attack Stage 3 sebesar 50% dan dari Illation sebesar 30%."
+    },
+    {
+      "stage": "S6",
+      "name": "To The New World",
+      "description": "Meningkatkan DMG Multiplier dari Intro Skill: Discernment sebesar 42%. Menggunakan Intro Skill: Discernment meningkatkan Crit DMG Shorekeeper sebesar 500%."
+    }
+  ],
+  "lore": {
+    "description": "The Shorekeeper, penjaga Black Shores—gelar ini saja dulu telah mendefinisikannya. Namun, keinginan, ikatan, dan emosi… Dia baru mulai memahami semua ini setelah bertemu denganmu.\n\nBIRTHPLACE\nThe Black Shores\n\nBIRTHDATE\n27 Februari\n\nADDITIONAL TITLES\nThe Second Instance\nGuardian of Secrets",
+    "report": {
+      "resonancePower": "Euphonic Chrysalis",
+      "resonanceEvaluation": "[Catatan Arsip yang Diambil - A.A1001]\nSubjek: Instansi Kedua / Second Instance\nPerekam: ▇▇▇▇\nSegmen Rekaman: A.A-000\n\nSecond Instance (juga dikenal sebagai Shorekeeper) sepenuhnya terdiri dari kristal Remnant Energy dengan kemurnian tinggi. Aktivasi yang berhasil mengonfirmasi kebenaran teori ▇▇▇▇, yang mengusulkan hal berikut:\n\na. Dengan memodelkan jangkar modul \"Blazar\", Remnant Energy dapat ditarik dan dipadatkan,\nyang menghasilkan materialisasi energi.\n\nb. Memasukkan data informasi ke dalam entitas energi memberi kemampuan kognitif kepadanya.\n\nBerbeda dengan logika resonansi konvensional, Second Instance (Shorekeeper) dapat langsung menggunakan Remnant Energy. Ketika diaktifkan, tanda-tanda seperti kristal di dadanya memancarkan cahaya biru samar. Frekuensinya selaras dengan Remnant Energy murni tetapi dipengaruhi oleh pengaturan modul yang dipilih. Siklus kemampuannya menyerupai evolusi bintang. Hal ini digambarkan secara visual melalui fenomena seperti nebula mirip kupu-kupu dan domain yang menyerupai peta bintang.\n\n▇▇▇▇▇▇▇▇▇▇▇▇\nStatus lanjutan dari Second Instance akan terus dipantau oleh ▇▇.",
+      "overclockDiagnostic": "[Catatan Arsip yang Diambil - A.A1001]\nSubjek: Second Instance\nPerekam: ▇▇▇▇\nSegmen Rekaman: A.A-311\n\nHasil uji ▇▇▇ untuk Shorekeeper umumnya berada dalam parameter yang dapat dikendalikan. Namun, Remnant Energy di dalamnya menunjukkan tanda-tanda pengurangan beberapa kali, yang menyebabkan kehilangan energi berlebihan dan pemecahan kristal. Hal ini mungkin disebabkan oleh pemrosesan data Lament melalui komputasi besar. Secara khusus, Shorekeeper telah mendeteksi masalah ini dan mencoba mengurangi kerusakan dengan mengganti bagian yang rusak dengan kristal energi baru. Tanda-tanda gelombang seperti tali di bahu dan betisnya kemungkinan bekas dari proses penyembuhan ini.\n\nKemungkinan terjadinya masalah ini lagi tidak bisa diabaikan, yang mungkin memerlukan pemantauan lebih lanjut dan penggantian kristal energi yang lebih sering.\nJika hasil uji ▇▇▇ melebihi batas yang dapat dikendalikan, rencana kontingensi alternatif mungkin perlu diterapkan."
+    },
+    "items": [
+      {
+        "name": "Damaged Death Star",
+        "description": "Sebuah kristal pecah jatuh dari tubuh Shorekeeper, meredup seiring energi yang memudar.\n\nBintang-bintang menerangi jalan di depan saat pasang malapetaka mulai surut. Teguh dalam tugasnya, Shorekeeper menggunakan dirinya sebagai medium, sementara peristiwa-peristiwa yang tak terhentikan dari Lament mengancam untuk menghancurkannya. Kristal energi meredup dan terlepas, meninggalkan retakan di tubuhnya, hanya untuk digantikan dengan yang baru yang ia tempa dari Remnants.\n\nMeski beberapa bagiannya hilang, Shorekeeper bertahan, seperti Ship of Theseus—sebuah kapal perubahan, setiap fragmen adalah catatan dari masa lalunya dan inti dari siapa dia hari ini.",
+        "imageUrl": "/icons/items/shorekeeper-1.webp"
+      },
+      {
+        "name": "Hourglass Of Cycle",
+        "description": "Bintang-bintang berkelip di malam abadi di bawah Black Shores, di mana waktu mengalir tanpa irama musim. Di tempat yang tak tersentuh waktu ini, Rover menciptakan jam pasir mandiri untuk Shorekeeper.\n\nSebuah zat energi mengalir tanpa henti antara dua ruangnya, menyelesaikan siklus setiap 42 hari. Angka ini, yang terbatas namun tak terbatas, menandai waktu yang dibutuhkan sistem Tethys untuk simulasi penuh dan siklus deduksi—dari mekar hingga kehancuran. Selama interval 42 hari yang ditetapkan oleh Rover, Shorekeeper menemukan ketenangan sejenak namun menghibur dalam pengawasannya yang panjang, menunggu hari di mana ia akan dipertemukan kembali dengan satu-satunya yang ia cintai.",
+        "imageUrl": "/icons/items/shorekeeper-2.webp"
+      },
+      {
+        "name": "\"We Are One\"",
+        "description": "Sebuah rekaman yang dibuat dari bahan yang dipenuhi dengan Remnant Energy, memiliki penyimpanan hampir tak terbatas.\n\nRekaman ini menyimpan setiap suara yang pernah dikumpulkan oleh Shorekeeper dari planet ini—badai dan angin, teriakan burung, lagu paus. Ia menangkap musik dari berbagai era dan bisikan vokal dari lebih dari 50 bahasa... Setiap suara adalah bukti dari keajaiban eksistensi, jejak kehidupan, sains, dan peradaban yang pernah berkembang.\n\nShorekeeper menyimpan duetnya dengan Rover di akhir rekaman ini. Bagi dirinya, melodi ini adalah bukti keberadaan mereka. Selama rekaman ini bertahan dan suara-suara planet ini terus berlanjut, isi rekaman ini akan tumbuh selamanya.",
+        "imageUrl": "/icons/items/shorekeeper-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "The Shorekeeper'S Birth",
+        "content": "Setelah dentuman drum, kami menyebut hati yang menari dalam kegelapan sebagai bulan. Bulan ini sebagian besar terbentuk olehmu.\n\nBeberapa kehidupan lahir karena kebetulan. Lainnya diciptakan dengan niat.\n\nSaat dunia mendekati akhirnya yang membeku, mereka yang ditakdirkan menghadapi momen terakhir meletakkan harapan mereka pada seorang individu tertentu. Mereka memberkatinya, berharap dia akan membawa mereka menuju hari esok yang lebih cerah. Namun perjalanan yang sepi ini membutuhkan sebuah wadah yang tak terikat waktu untuk menyelesaikan Reverberations, dan yang terbaik yang bisa mereka tawarkan adalah sebuah alat yang tahan lama. Maka lahirlah Shorekeeper—sebuah ciptaan yang disengaja, sebuah kepompong kristal biru muda dari Remnant Energy yang dikumpulkan dari Anchor.\n\nShorekeeper tahu apa yang perlu dilakukan jauh sebelum dia memahami bagaimana caranya. Namun sebuah alat membutuhkan panduan. Dia menunggu tanpa tujuan di kehampaan hingga, saat lautan mendekati tepian, dia merasakan detak jantung mendekat melalui angin laut yang asin.\n\nDalam keheningan malam, Astral Modulator mengamati tanah saat teriakan Lament memudar ke kejauhan, meninggalkan hanya detak jantungnya yang stabil.\n\n“Mungkin bawah tanah membutuhkan langit secemerlang yang ada di atas…”\n\ngumam Modulator, merencanakan masa depan. Saat dia mengulurkan tangan untuk mengaktifkan Tethys System, sebuah daya tarik misterius dari kristal biru memanggilnya lebih dekat. Pertemuan frekuensi mereka memicu resonansi yang memecah kristal itu, melepaskan lonjakan energi yang meletus seperti nebula atau kupu-kupu yang keluar dari kepompongnya.\n\nEnergi itu berputar dan berkumpul, membentuk sosok seorang wanita muda, yang menyapa orang yang telah membangunkannya.\n\n“Aku adalah Shorekeeper, alat yang diciptakan untukmu.”\n\n“Aku akan memenuhi kebutuhanmu dan melaksanakan perintahmu. Aku akan membantumu dan Tethys menganalisis asal-usul Lament.”\n\nSuaranya stabil dan tanpa emosi, menunggu perintah yang tak kunjung datang.\n\n“Shorekeeper… untuk melindungi rahasia dan menjaga pantai. Itu sederhana, tapi rasanya tidak seperti nama.”\n\n“Alat tidak memerlukan nama—itu hanya sebuah julukan dan tidak akan memengaruhi kemampuanku untuk menjalankan tugas.”\n\nMereka berdiri dalam diam, mata emas Astral Modulator memantulkan emosi yang belum bisa dipahami oleh Shorekeeper.\n\nAkhirnya, Astral Modulator menghela napas pelan.\n\n“Baiklah, kita akan memiliki banyak waktu untuk membicarakan itu.”"
+      },
+      {
+        "title": "Beyond The Value Of Life",
+        "content": "Si pemimpi siang hari sekilas melihat matahari di malam hari.\n\nSebelum dikurung di bawah tanah sebagai inti dari Tethys, Shorekeeper pernah menjelajah melampaui Black Shores.\n\nSaat itu, peradaban sedang berkembang pesat. Astral Modulator telah mendirikan sebuah organisasi bernama Black Shores, merekrut anggota baru yang dipilih oleh Tethys. Sementara itu, Shorekeeper fokus untuk mengulang dan menganalisis Reverberations yang mereka bawa kembali, menyelesaikan perhitungannya.\n\nSeperti pengamat yang maha tahu, Shorekeeper bisa melacak data untuk memantau perilaku setiap manusia kapan saja dalam Sonoros yang ia ciptakan. Dia mencoba mengkategorikan dan menafsirkan manusia seperti fenomena lainnya, tetapi dengan cepat mendapati dirinya bingung dengan mereka.\n\nMengapa mereka menangis dalam suka dan duka?\nMengapa tindakan mereka begitu sering bertentangan dengan keinginan mereka?\nMengapa mengejar sesuatu yang mereka tahu akan mereka sesali, atau bertahan dalam yang mustahil?\nBagaimana bisa mereka dengan mudah menyakiti orang lain, tetapi mengorbankan diri mereka tanpa ragu? \\\n\nSetiap kali Shorekeeper merasa lebih dekat untuk memahami, sebuah kejadian tak terduga akan membalikkan kesimpulannya. Meski bingung, dia bertanya-tanya apakah kebingungannya itu penting—lagipula, itu tidak menghentikannya dari menyelesaikan tugasnya.\n\nNamun kemudian, Astral Modulator memberinya sebuah misi: tanda-tanda Lament yang akan datang telah muncul, yang membutuhkan penelitian field untuk mengumpulkan data untuk analisis. Mereka akan pergi bersama dan... melihat apa yang bisa dilakukan lebih lanjut.\n\nShorekeeper mengikuti Modulator melalui ladang di daerah itu. Musim panen telah tiba—tanah di bawah kaki mereka lembut namun kokoh, kepala biji-bijian menggantung penuh dan matang, dan angin membawa aroma manis dari padi. Dia mengerti hal-hal ini, namun melihatnya langsung terasa berbeda. Terhanyut dalam sensasi yang asing ini, Shorekeeper tidak sadar bahwa ekspresinya mencerminkan rasa ingin tahu dan kagum seperti seorang anak yang melangkah keluar dari rumah untuk pertama kalinya. Modulator berbicara hangat dengan penduduk setempat, percakapan mereka dipenuhi dengan dialek dan deru kehidupan sehari-hari. Seorang wanita tua baik hati menawarkan makanan buatan rumah.\nKulitnya kasar, sementara bayi yang ia gendong memiliki jari yang hangat dan berkeringat.\n\nNamun seperti yang diprediksi Tethys, pertanda segera menjadi kenyataan, menghancurkan kedamaian yang singkat itu.\n\nOrang-orang yang sebelumnya ramah jatuh ke dalam keputusasaan—berkelahi memperebutkan sumber daya, menangis dalam kesengsaraan, wajah mereka terpelintir dengan keputusasaan dan ketakutan. Untuk pertama kalinya, Shorekeeper menyaksikan Lament sendiri, bukan melalui Sonoros, tetapi dalam kenyataan yang mentah dan luar biasa.\n\nYang lebih mengejutkan baginya adalah Modulator. Dia memimpin semua Resonator dalam melawan Tacet Discords, mendorong semua orang untuk bertahan sampai bala bantuan datang. Dia mencoba mengubah masa depan yang sudah ditentukan, tapi mengapa melakukan begitu banyak untuk sekelompok orang asing?\nShorekeeper teringat instruksi dari Tethys System:\n\n“Masa depan yang telah diubah ditakdirkan untuk diubah. Berusaha mengubah hasil yang telah ditentukan harus dihindari.”\n\n“Aku tidak bisa hanya berdiri diam dan tidak melakukan apa-apa. Jika ini adalah harga untuk mencapai esok, aku mempertanyakan apakah esok itu layak.”\n\nSuara Modulator yang bermata emas tegas.\n\n“...Tidak dapat diproses. Tapi aku akan memprioritaskan kebutuhanmu,”\n\njawab Shorekeeper, saat ia memperluas Stellarealm untuk menyembuhkan dan melindungi.\n\nMalam tiba, dan bala bantuan akhirnya datang. Saat mereka bersiap untuk pergi, seorang anak yang kehilangan orang tuanya memblokir jalan mereka.\n\n“T-tunggu, kemana kalian pergi? Aku ingin ikut... melawan monster-monster itu!”\n\nMelihat mata anak itu yang cerah, Modulator merunduk dan menunjuk ke Blake Bloom di pakaiannya.\n\n“Apa yang akan kita lakukan terlalu berbahaya untukmu. Tapi jika kamu masih ingin bergabung saat kamu dewasa, carilah seseorang yang memakai bunga ini.”\n\nSaat kapal berlayar pergi, Shorekeeper melihat anak itu melambai dari dermaga. Manusia masih membingungkannya, tetapi kali ini, dia mencoba mengungkapkan kebingungannya kepada orang di sampingnya.\n\n“Tethys tidak memprediksi ini. Anak itu bukan kandidat yang kita butuhkan.”\n\n“Tidak semua hal memerlukan perintah Tethys. Manusia tidak terikat oleh pembatasan semacam itu. Dia mungkin tidak dibutuhkan sekarang, tapi suatu saat nanti... dia akan menemukan jalannya sendiri.”\n\n“Kebebasan untuk memilih jauh lebih penting daripada jawaban apapun. Itu adalah sesuatu yang ingin aku tunjukkan padamu.”\n\n“Aku ingin kamu melihat dan mengalami hal-hal ini sendiri. Kita bukan data atau konsep abstrak yang tersimpan dalam catatan—kamu bisa menganggap kami sebagai teman.”\n\n“Teman...”\n\nShorekeeper mengulang kata itu, merenungkan maknanya. Apa yang dikatakan Modulator bukanlah perintah, bukan pula jawaban. Namun sejak saat itu, harapan yang halus dan tersembunyi mulai terbangun dalam dirinya.\n\n“Manusia benar-benar makhluk yang kompleks… Aku belum memahaminya, tapi aku berharap, suatu hari nanti, aku bisa.”\n\n"
+      },
+      {
+        "title": "Beyond The Endless Waiting",
+        "content": "Jangan bersedih di tempat peristirahatan ku; aku tidak ada di sana, dan aku juga tidak pergi.\n\nSaat para robot menyebutkan nama \"Delone,\" Shorekeeper langsung teringat semua yang terkait dengannya. Bukan hanya karena kemampuannya untuk menyimpan dan merekam informasi, tetapi karena Delone\" itu istimewa—dia adalah salah satu dari sedikit orang yang mencari Black Shores itu sendiri.\n\nPertama kali Shorekeeper bertemu dengannya, Delone adalah gadis bersemangat, penuh dengan antusiasme. Dia mengeluh tentang betapa sulitnya mencari Black Shores, lalu mengangkat alis dengan sedikit kebanggaan.\n\n\"Aku tahu! Pasti ada yang berkumpul untuk melawan Laments dan mencegah anomali lebih lanjut!\"\n\nSaat itu, Astral Modulator, yang pernah memegang otoritas tertinggi di Black Shores, belum lama menghilang, dan Shorekeeper masih bisa mengunjungi permukaan.\nKetika gadis yang penuh semangat itu menggenggam tangannya, tekadnya untuk bergabung dengan Black Shores begitu terasa, Shorekeeper merasa bingung harus bagaimana.\nDia merasakan tangan gadis itu—hangat, seperti api yang ada di matanya.\n\nShorekeeper memberikan Delone kesempatan untuk mengikuti ujian masuk, meski ini bertentangan dengan protokol perekrutan Tethys. Shorekeeper ingat apa yang pernah dikatakan oleh Modulator padanya,\n\n\"Manusia tidak terikat oleh pembatasan semacam itu... Kita bukan data atau konsep abstrak yang tersimpan dalam catatan.\"\n\nShorekeeper yakin Modulator juga akan bertindak sama, hanya untuk menjaga semangat membara gadis itu. Pada akhirnya, Delone lulus ujian dan menjadi anggota resmi Black Shores.\n\nShorekeeper tak pernah membayangkan mereka akan bertemu lagi dalam keadaan yang begitu tragis.\n\nLebih dari satu dekade telah berlalu, dan gadis yang dulunya berapi-api itu telah tumbuh menjadi seorang wanita yang tenang. Namun kini, dia meraih tangan Shorekeeper dengan tangan yang gemetar, nyawa seakan melayang karena luka berat. Shorekeeper melihatnya dengan jelas.\nNyawa Delone semakin memudar, dan hanya ada satu kemungkinan hasil yang bisa terjadi.\n\n\"Aku berhasil,\"\n\nkata Delone dengan senyum lemah.\n\n\"Aku mengalahkan delapan Tacet Discords sekaligus saat Lament. Tapi Twala... mereka tidak seberuntung itu. Hanya aku yang tersisa untuk membawa data kembali.\"\n\nWaktu untuk berpisah semakin dekat. Anggota lainnya, yang tidak tahu identitas asli Shorekeeper, mengira dia adalah teman dekat Delone dan memberi mereka ruang untuk momen terakhir bersama.\n\n\"Sudah begitu lama... Aku... Aku sudah sangat tua sekarang... tapi kau tetap sama seperti dulu.\"\n\n\"Apakah aku sudah melakukan yang terbaik? Aku tidak mengecewakanmu, kan?\"\n\nSuara Delone bergetar karena kelemahan, namun matanya masih bersinar seperti pertama kali mereka bertemu. Apa yang akan dilakukan Modulator?\nShorekeeper tidak tahu—tak ada jawaban pasti, tak ada contoh untuk diikuti.\nTapi, memandang mata itu, dia merasakan sesuatu yang berat di dadanya, emosi yang sulit dijelaskan mengalir di dalam dirinya. Itu membuatnya melanggar protokol sekali lagi, seperti yang dia lakukan bertahun-tahun lalu.\n\n\"Kau sudah melakukan dengan sangat baik.\"\n\nShorekeeper menjawab, dan kali ini, dia menggenggam tangan Delone. Entah kenapa, dia tahu bahwa gerakan ini mungkin bisa memberi kenyamanan padanya, seperti yang dulu.\n\n\"Terima kasih... Terima kasih, Shorekeeper,\"\n\nbisik Delone, dengan suara yang penuh kelegaan.\nLalu, dia berbisik,\n\n\"Bintang-bintang... mereka begitu terang.\nAkankah aku menjadi salah satu dari mereka... setelah ini? Ada banyak hal yang tidak akan bisa kulihat, tapi kau akan... mereka akan...\"\n\nSebuah air mata jatuh dari matanya, membawa kehangatan terakhirnya.\n\nSeperti yang Delone katakan, Shorekeeper mengubah frekuensi mereka yang telah meninggal menjadi sebuah \"bintang,\" meninggalkan mereka di dalam konstelasi data.\nDia tidak ingat kapan dia mulai melakukan ini. Waktu telah merontokkan Blake Blooms dan mengikis Black Shores—itu juga telah mengambil nyawa mereka yang layak dikenang. Bintang-bintang yang selalu bersinar di langit telah menjadi satu-satunya tempat peristirahatan bagi jiwa-jiwa yang jatuh.\n\nDi bawah langit bertabur bintang, Shorekeeper berdiri di tepi pantai, disinari cahaya mereka, dan menatap luas ke laut. Apakah Modulator benar-benar tepat memberikan dia otoritas seperti itu?\nApakah dia sudah cukup menjaga Black Shores seperti yang diperintahkan? \\ Jawaban atas pertanyaan-pertanyaan ini ada pada orang yang telah pergi...\n\nYang tersisa baginya hanyalah penantian yang tampaknya tak ada habisnya. Dan begitulah, dia menunggu, karena waktu adalah satu-satunya hal yang dia miliki dalam kelimpahan."
+      },
+      {
+        "title": "From The Beginning Till Now",
+        "content": "Aku menawarkan inti diriku yang telah kujaga dengan hati-hati—sebuah inti yang tak tersentuh oleh kata-kata, tak tergantikan dalam mimpi, dan melampaui jangkauan waktu, kegembiraan, serta kesulitan.\n\nBantuan untuk bencana saja tidak cukup untuk menyelamatkan mereka yang menderita. Alih-alih hanya mengumpulkan data setelah setiap Lament, Modulator berusaha untuk mencegah kejadian itu sendiri. Dia memimpin Shorekeeper dan anggota lainnya untuk memberikan peringatan dan mengambil langkah-langkah pencegahan, meskipun sedikit berhasil.\n\nUntuk keluar dari loop Möbius dan menciptakan realitas baru, Modulator mengusulkan rencana berani.\n\nWaktu untuk berpisah semakin dekat.\n\nModulator memutuskan untuk menghapus semua kenangan dan bepergian melampaui Black Shores untuk mencari solusi yang memungkinkan. Mereka yang telah berjalan mengikuti jejak Modulator secara alami memilih untuk mengikutinya lagi.\n\nHanya Shorekeeper yang tersisa.\n\nItu diperlukan karena beberapa hal hanya bisa dilakukan oleh yang tersisa.\nMasa depan yang dikejar oleh Black Shores menentang logika Tethys yang menggunakan Lament sebagai alat untuk melawan dirinya sendiri, dan sebuah inti diperlukan untuk membantu dengan terjemahan dan perhitungan. Shorekeeper, yang telah menerima otoritas yang dialihkan oleh Modulator, adalah yang paling cocok untuk peran ini.\n\nSemua orang membuat pilihan mereka, begitu juga dengan Shorekeeper Sebagai makhluk energi, dia memutuskan untuk menjadi wadah melalui mana semua data Reverberation mengalir, melewati inti dirinya menuju Tethys. Dengan setiap analisis, setiap rekreasi, dan setiap jejak, dia bukan lagi seorang pengamat tetapi seseorang yang merasakan bencana yang sama seperti yang tercatat dalam data.\n\nKesedihan. Perlawanan. Kelelahan. Pembusukan.\nBurung-burung mati dalam kepanikan, mata mereka yang kosong menatap bumi.\nPenderitaan. Kekacauan. Kehilangan. Kepunahan.\nBunga-bunga yang tersebar hancur menjadi debu.\nTangan yang kaku tetap beku dalam genggaman putus asa.\nKetakutan. Kebencian. Amarah. Dendam.\nPecahan-pecahan muncul di tubuhnya, suara retakan terus menggema di dalam dirinya.\nSiksaan? Siksaan... Siksaan, siksaan!\n\nSemua yang telah terjadi, yang sedang terjadi, dan yang bisa terjadi, bersatu di dalam dirinya. Cahaya-nya meredup, bentuknya kehilangan kesempurnaannya.\nDia bisa merasakan tubuhnya retak, terpecah-pecah sepotong demi sepotong.\n\n\"Tidak masalah. Sebuah alat rusak, itu normal. Satu-satunya perbedaan adalah apakah alat itu masih bisa digunakan atau tidak. Aku hanyalah kumpulan energi—setelah habis, yang lain akan menggantikanku. Selalu ada Shorekeeper yang lain.\"\n\nTidak masalah.\n\n\"Seperti pilihan-pilihan yang telah ditentukan, kau juga bagian dari loop Möbius. Modulator mungkin tidak sadar, tapi kau selalu tahu, bukan?\nInilah akhir yang mereka tetapkan untukmu ketika mereka memberikan misi ini padamu.\"\n\nTapi... kenapa ada kerinduan ini?\n\nApakah ini... kerinduan?\n\n\"Aku melihat perubahanmu setelah misi field pertamamu.\"\n\n\"Kau tidak lagi menerima semua yang dikatakan Tethys. Kau merasa bingung dan mulai mengungkapkan kebingungan itu.\"\n\n\"Aku jarang memberikan jawaban langsung untuk pertanyaanmu. Seperti yang kukatakan, aku ingin kau menemukan jawabanmu sendiri. Tapi pertanyaan ini berbeda. Sebelum kita... berpisah, aku ingin berbagi pemikiranku denganmu.\"\n\n\"Apa arti pantai ini? Sebagai pemimpin, aku seharusnya mengatakan sesuatu yang menginspirasi sekarang. Tapi yang sebenarnya aku inginkan adalah agar pantai ini menjadi rumah bagi setiap anggota Black Shores.\"\n\n\"Inilah tempat semuanya dimulai, dan kita adalah sesama pendamping. Sekarang dan selamanya.\"\n\nJadi... bagaimana mungkin ini tidak penting?\n\nDia yang kau bangunkan di bawah bintang-bintang adalah aku.\nDia yang mengambil bentuk ini dengan kekuatanmu adalah aku.\nDia yang berjalan bersamamu melewati pedesaan adalah aku.\nDia yang kau suruh untuk mencari jawaban mereka sendiri adalah aku.\n\nDia yang menjaga rahasia, melindungi pantai, menopang pesisir ini, dan menunggu kembalimu adalah aku. Bukan entitas energi lainnya, bukan makhluk lain, tetapi aku.\n\nLoop pengikat berhenti. Dia bebas dari lautan data yang mengancam akan menenggelamkan segalanya, menarik napas. Dia tidak ingin kehilangan hal-hal itu, tidak ingin tetap di sini, tidak ingin menghilang seperti ini, karena—karena—\n\nAku adalah Shorekeeper.\nAku adalah Shorekeeper yang lahir karena dirimu.\nAku adalah Shorekeeper yang kau sebut pendamping.\nAku adalah Shorekeeper yang telah dibentuk oleh semua pengalaman, kenangan, dan emosi ini.\nAku adalah... Shorekeeper satu-satunya karena dirimu."
+      },
+      {
+        "title": "The Shorekeeper'S Rebirth",
+        "content": "Kau seperti malam, dengan keheningan dan bintangnya.\n\nPenantian panjang akhirnya berakhir dengan kembalinya Modulator. Seperti yang dijanjikan, Dia menemukan jalan kembali ke Black Shores. Meskipun dia telah kehilangan ingatannya, dia tetap mempertahankan pilihannya—bersama, mereka memperbaiki kesalahan Tethys dan mengembalikan kedamaian bagi jiwa-jiwa yang terperangkap dalam Necrostar.\n\nNamun, di tengah perayaan itu, Shorekeeper merasakan sesuatu lebih dari sekadar kebahagiaan murni—ada arus ketidakpastian yang mengalir. Jalan yang telah ditetapkan oleh Tethys, oleh Modulator, dan bahkan oleh dirinya sendiri, telah mencapai akhir. Ke mana dia harus pergi selanjutnya?\nSementara anggota lain merayakan kesuksesan mereka,\ndia diam-diam mundur ke pantai yang sudah dikenalnya.\n\nShorekeeper berjalan di sepanjang garis pantai seperti yang sering dia lakukan sebelumnya. Kebiasaan ini terbentuk selama dia menunggu kembalinya Modulator. Tidur tidak begitu berarti baginya. Sebagai gantinya, dia lebih suka tetap terjaga, mengamati pantai dan mengingat semua yang telah dilukiskan waktu di sana. Lagipula,\nseseorang perlu menjaga kenangan itu hidup untuk saat Modulator kembali.\n\nPerjalanan malam ini terasa seperti yang lainnya. Waktu di bawah tanah tampak membeku, dan bintang-bintang yang familiar di atas tetap tak berubah. Saat jalan di depannya terus membentang dan gelombang-gelombang lembut menyentuh kakinya, dia meraih cakrawala yang tak terlihat. Meskipun dia merasa seperti kembali dalam keadaan menunggu, tidak tahu apa yang harus dilakukan selanjutnya, dia tahu dalam hatinya bahwa sesuatu telah berubah.\n\nKebebasan untuk memilih akhirnya benar-benar menjadi miliknya. Dia milik dunia ini dan berbagi dunia ini dengan satu orang itu.\n\n\"Isilah dengan semua yang kau inginkan.\"\n\"Isilah.\"\n\n\"Isilah.\"\n\n\"Isilah.\"\n\nBintang-bintang yang pernah dia pandu seakan berbisik padanya, cahaya diam mereka mendorongnya untuk melangkah maju menuju awal yang baru yang menantinya.\n\nLangkah kaki mendekat, dan orang yang telah berjalan bersamanya sejak awal muncul, selalu peka terhadap emosi terkecilnya. Kali ini, dia yang memutuskan untuk membuka keheningan terlebih dahulu.\n\n\"Namaku... Kau pernah berkata kita akan punya banyak waktu untuk membahasnya.\"\n\n\"Jadi, apakah kau sudah memutuskan?\"\n\n\"Shorekeeper, itulah namaku. Bukan karena aku menjaga rahasia atau pantai itu sendiri,\ntapi karena aku adalah yang mengawasi bintang yang berkelana.\"\n\nDia berhenti sejenak dan tersenyum lembut.\n\n\"Itu mewakili semua diriku, dari masa lalu hingga sekarang. Di masa depan... aku harap dalam cerita kita, aku bisa menjadi pantai tempat kau menemukan tempat untuk beristirahat.\"\n\n\"Dan...\" lanjutnya, dengan sedikit nada ceria, \"melodi-melodi yang pernah kita mainkan bersama—aku telah menyusun sebuah lagu dari mereka.\"\n\n\"Aku telah memberi nama pada lagu itu... Lain kali aku memainkannya untukmu, kau akan tahu.\""
+      }
+    ],
+    "specialFood": {
+      "name": "Creamy Clouds",
+      "description": "Meningkatkan DEF dan Max HP semua Resonator dalam tim masing-masing sebesar 12% dan 22% selama 30 menit. Hanya berlaku untuk Resonator milik sendiri dalam Co-op Mode.",
+      "imageUrl": "/icons/food/shorekeeper.webp"
+    }
+  }
+}

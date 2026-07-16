@@ -1,0 +1,455 @@
+{
+  "name": "Camellya",
+  "element": "Havoc",
+  "weapon": "Sword",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer",
+    "Concerto Efficiency",
+    "Basic Attack DMG"
+  ],
+  "sonatas": [
+    "Havoc Eclipse"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false
+    }
+  ],
+  "faction": "Black Shores",
+  "affiliation": "The Black Shores",
+  "class": "Artificial",
+  "image": "/characters/camellya.webp",
+  "imageBanner": "/banners/camellya-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2100+",
+    "Energy Regen": "110-120%",
+    "Crit Ratio (Crit Weapon)": "65% : 285%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 240%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Crownless"
+    ],
+    "bestWeapon": "Red Spring",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS",
+          "echoSlug": "nightmare-crownless",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: DMG%",
+            "3: DMG%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Havoc Eclipse"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "red-spring",
+        "percentage": "116",
+        "rank": ""
+      },
+      {
+        "id": "blazing-brilliance",
+        "percentage": "100.78",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "somnoire-anchor",
+        "percentage": "96",
+        "rank": "5"
+      },
+      {
+        "id": "commando-of-conviction",
+        "percentage": "92",
+        "rank": "5"
+      },
+      {
+        "id": "lumingloss",
+        "percentage": "85",
+        "rank": "5"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Resonance Skill",
+        "Normal Attack",
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Intro Skill"
+      ],
+      "note": "Normal ATK memiliki nilai yang setara dengan Res. Skill pada Forte Priority Camellya berdasarkan apakah  menggunakan Normal (rambut putih) Heavy ATK miliknya atau tidak, namun juga dapat menempatkan ini pada prioritas lebih rendah jika kekurangan resource dan tidak menggunakannya dalam rotasi.",
+      "equalPriority": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "",
+        "members": [
+          [
+            "Camellya"
+          ],
+          [
+            "Roccia",
+            "Sanhua",
+            "Danjin"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": ""
+      }
+    ],
+    "teamNote": "Roccia memberikan 20% Havoc DMG Amplify & 25% Basic Attack DMG Amplify selama 14 detik setelah melancarkan Outro Skill miliknya.\nSanhua berpasangan dengan baik dengan Camellya karena 38% Basic DMG Amplify yang diberikan oleh Outro Skill miliknya, yang secara signifikan meningkatkan output damage Camellya."
+  },
+  "skills": {
+    "basic": {
+      "name": "Burgeoning",
+      "description": "Basic Attack\nMelakukan hingga 5 serangan berturut-turut, memberikan  Havoc DMG.\nSetelah melakukan Basic Attack Stage 3 atau Heavy Attack: Pruning, tahan tombol Normal Attack untuk terus menyerang target, memberikan  Havoc DMG.\nBasic Attack Stage 4 akan otomatis diikuti oleh Basic Attack Stage 5.\n\nHeavy Attack – Pruning\nMengonsumsi STA untuk menyerang target, memberikan Havoc DMG.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.\n\nDodge Counter\nGunakan Basic Attack segera setelah Dodge berhasil untuk menyerang target, memberikan  Havoc DMG."
+    },
+    "skill": {
+      "name": "Valse Of Bloom And Blight",
+      "description": "Crimson Blossom\nMenyerang target, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG), lalu masuk ke Blossom Mode.\nSerangan ini bisa dilakukan di udara.\n\nBlossom Mode\n- Tidak dapat bergerak saat tergantung di tanaman merambat.\n- Basic Attack dan Heavy Attack: Pruning digantikan oleh Basic Attack: Vining Waltz, yang menghubungkan 4 serangan berturut-turut, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG).\n- Saat melakukan Vining Waltz Stage 3, tahan Normal Attack Button untuk menggunakan Blazing Waltz, yang memberikan  Havoc DMG, sebelum otomatis melanjutkan ke Vining Waltz Stage 4.\n- Dodge Counter digantikan oleh Dodge Counter: Atonement. Tekan Normal Attack Button setelah Dodge berhasil untuk menyerang target, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG).\n- Resonance Skill digantikan oleh Resonance Skill: Floral Ravage, yang memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG).\n- Resonance Skill: Floral Ravage dapat digunakan di udara.\n- Blossom Mode berakhir setelah menggunakan Resonance Skill: Floral Ravage atau Levitator.\n- Tombol Jump digantikan oleh Basic Attack: Vining Ronde, yang menyerang target dengan biaya STA, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG), dan mengakhiri Blossom Mode.\n- Menggunakan Basic Attack: Vining Waltz dan Basic Attack: Blazing Waltz di udara mengonsumsi STA.\n- Menggunakan Resonance Skill: Floral Ravage tidak memulihkan STA.\n- STA akan terus terkuras untuk tetap tergantung di tanaman merambat."
+    },
+    "liberation": {
+      "name": "Fervor Efflorescent",
+      "description": "Menyerang target, memberikan  Havoc DMG.\nDapat digunakan di udara."
+    },
+    "forte": {
+      "name": "Vegetative Universe",
+      "description": "Menyerang target dengan Normal Attack, Basic Attack: Vining Waltz, Basic Attack: Blazing Waltz, Basic Attack: Vining Ronde, Dodge Counter: Atonement, Resonance Skill: Crimson Blossom, dan Resonance Skill: Floral Ravage akan mengonsumsi Crimson Pistils.\nEnergy Regen Multiplier dari serangan ini meningkat 150%.\nMengonsumsi 10 Crimson Pistils akan memulihkan 4 Concerto Energy dan mendapatkan 1 Crimson Bud (bertahan 15 detik, dapat ditumpuk hingga 10 kali).\n\nForte Circuit: Ephemeral\nKetika Concerto Energy penuh dan Ephemeral tidak dalam cooldown, Resonance Skill akan digantikan oleh Ephemeral.\nMenggunakan Ephemeral mengonsumsi 70 Concerto Energy, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG), lalu Camellya memasuki Budding Mode.\nEphemeral dapat digunakan di udara.\n\nBudding Mode\n- Sweet Dream : Meningkatkan DMG Multiplier dari Normal Attack, Basic Attack: Vining Waltz, Basic Attack: Blazing Waltz, Basic Attack: Vining Ronde, Dodge Counter: Atonement, Resonance Skill: Crimson Blossom, dan Resonance Skill: Floral Ravage sebesar 50%.\n- Menggunakan Ephemeral mengonsumsi semua Crimson Buds. Setiap Crimson Bud yang dikonsumsi meningkatkan DMG Multiplier Sweet Dream sebesar 5%, hingga maksimum 50%.\n- Dalam Budding Mode, Camellya tidak bisa mendapatkan Crimson Buds.\n- Dalam Budding Mode,, Energy Regen Multiplier dari semua serangan yang disebutkan di atas menjadi 0%.\n- Budding Mode, berakhir jika Camellya keluar dari medan pertempuran.\n- Budding Mode, berakhir jika semua  Crimson Pistils habis.\n\nCrimson Pistil\nCamellya dapat menyimpan hingga 100  Crimson Pistils.\n- Menggunakan Intro Skill: Everblooming memulihkan 100 Crimson Pistils.\n- Mengaktifkan Forte Circuit: Ephemeral memulihkan 100 Crimson Pistils."
+    },
+    "inherent": [
+      {
+        "name": "Seedbed",
+        "description": "Meningkatkan  Havoc DMG Bonus sebesar 15%.\nHeavy Attack: Pruning kini dihitung sebagai Basic Attack DMG"
+      },
+      {
+        "name": "Epiphyte",
+        "description": "Meningkatkan Basic DMG Bonus sebesar 15%.\nMeningkatkan ketahanan terhadap interupsi saat menggunakan Basic Attack, Basic Attack: Vining Waltz, dan Basic Attack: Blazing Waltz."
+      }
+    ],
+    "intro": {
+      "name": "Everblooming",
+      "description": "menyerang target, memberikan  Havoc DMG."
+    },
+    "outro": {
+      "name": "Twining",
+      "description": "Menyerang target, memberikan  Havoc DMG sebesar 329.24% dari ATK Camellya.\nSetelah mengaktifkan Forte Circuit: Ephemeral, Outro Skill: Twining akan memberikan tambahan  Havoc DMG sebesar 459.02% dari ATK Camellya."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Topological Confinement",
+            "amount": 46
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Nova",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Dreamless Feather",
+          "amount": 26
+        },
+        {
+          "item": "LF Whisperin Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Whisperin Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Whisperin Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Whisperin Core",
+          "amount": 57
+        },
+        {
+          "item": "Inert Metallic Drip",
+          "amount": 25
+        },
+        {
+          "item": "Reactive Metallic Drip",
+          "amount": 28
+        },
+        {
+          "item": "Polarized Metallic Drip",
+          "amount": 55
+        },
+        {
+          "item": "Heterized Metallic Drip",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Camellya",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Red Spring",
+          "value": 943689.15,
+          "percentage": 117.99,
+          "imagePath": ""
+        },
+        {
+          "type": "Blazing Brilliance",
+          "value": 803989.14,
+          "percentage": 100.52,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 799794.25,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Unflickering Valor R5",
+          "value": 671486.89,
+          "percentage": 83.96,
+          "imagePath": ""
+        },
+        {
+          "type": "Somnoire Anchor R5",
+          "value": 670131.16,
+          "percentage": 83.79,
+          "imagePath": ""
+        },
+        {
+          "type": "Endless Collapse R5",
+          "value": 663962.48,
+          "percentage": 83.02,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Camellya",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 79.2,
+          "percentage": 79.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 11,
+          "percentage": 11,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 0.6,
+          "percentage": 0.6,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 3,
+          "percentage": 3,
+          "imagePath": ""
+        },
+        {
+          "type": "Outro Skill",
+          "value": 6.3,
+          "percentage": 6.3,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Camellya",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 943689.15,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 1021624.5,
+          "percentage": 108.26,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1288966.89,
+          "percentage": 136.59,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1569799.55,
+          "percentage": 166.35,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Somewhere No One Travelled",
+      "description": "Menggunakan Intro Skill: Everblooming meningkatkan Crit. DMG Camellya sebesar 28% selama 18 detik. Efek ini bisa dipicu sekali setiap 25 detik.\nKebal terhadap interupsi saat menggunakan Ephemeral."
+    },
+    {
+      "stage": "S2",
+      "name": "Calling Upon The Silent Rose",
+      "description": "DMG Multiplier dari Resonance Skill: Ephemeral meningkat sebesar 120%."
+    },
+    {
+      "stage": "S3",
+      "name": "A Bud Adorned By Thorns",
+      "description": "DMG Multiplier dari Resonance Liberation: Fervor Efflorescent meningkat sebesar 50%.\nSaat dalam Budding Mode, ATK Camellya meningkat sebesar 58%."
+    },
+    {
+      "stage": "S4",
+      "name": "Roots Set Deep In Eternity",
+      "description": "Menggunakan Everblooming memberikan seluruh anggota tim 25% Basic Attack DMG Bonus selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Infinity Held In Your Palm",
+      "description": "DMG Multiplier dari Intro Skill: Everblooming meningkat sebesar 303%.\nDMG Multiplier dari Outro Skill: Twining meningkat sebesar 68%"
+    },
+    {
+      "stage": "S6",
+      "name": "Bloom For You Thousand Times Over",
+      "description": "DMG Multiplier dari Forte Circuit: Sweet Dream meningkat tambahan sebesar 150%.\n\nForte Circuit: Perennial\nDalam 15 detik setelah menggunakan Ephemeral, jika Concerto Energy penuh dan Perennial tidak dalam cooldown, Resonance Skill akan digantikan oleh Perennial.\nMenggunakan Perennial mengonsumsi 50 Concerto Energy dan memulihkan 50 Crimson Pistils, memberikan  Havoc DMG setara dengan 100% dari DMG Ephemeral (dihitung sebagai Basic Attack DMG).\nSkill ini dapat digunakan sekali setiap 25 detik.\nCamellya memasuki Budding Mode setelah menggunakan Perennial dan menghapus semua Crimson Buds.\nBonus DMG Multiplier yang diberikan oleh Forte Circuit: Sweet Dream meningkat menjadi 250%.\nKebal terhadap interupsi saat menggunakan Perennial."
+    }
+  ],
+  "lore": {
+    "description": "Camellya, seorang Bloom Bearer of the Black Shores, adalah sosok yang bebas dan mempesona dengan cara yang berbahaya. Dia berkeliling Solaris mencari talenta, tenggelam dalam setiap momen yang ada dan menikmati kenikmatannya, sambil tetap setia pada dirinya sendiri, tanpa terbebani oleh pikiran tentang masa lalu atau masa depan.",
+    "report": {
+      "resonancePower": "Sanguine Blossom",
+      "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment RA2███-G]\n\nWaktu pasti awakening Resonator Camellya sulit dipastikan karena gangguan ███ yang dialaminya. Sejak awakening, dia sudah bisa memanfaatkan Forte-nya.\n\nTacet Mark Resonator Camellya ada di dadanya. Setelah awakening-nya, tubuhnya menunjukkan tanda-tanda somatisasi vegetatif. Lengan kanan dan kepalanya mengalami perubahan, dengan tingkat yang semakin intensif seiring fluktuasi frekuensinya.\n\nPola Resonance Spectrum Camellya sangat mirip dengan bunga camelia, menunjukkan reaksi Syntony yang kuat. Namun, alasan kebangkitan Camellya masih belum jelas karena belum ditemukan objek yang sesuai dengan perubahan dalam Resonance Spectrum Pattern-nya.\n\nFase awal Rabelle's Curve menunjukkan fluktuasi yang tidak teratur. Begitu Rabelle's Curve melewati batas kritis, █████████████████.\n\n\"Subjek ini diduga merupakan Resonator Buatan. Namun, pola kurva saat ini tidak cocok dengan sampel yang diketahui. Oleh karena itu, laporan ini disegel untuk saat ini.\"",
+      "overclockDiagnostic": "Grafik gelombang Resonator Camellya menunjukkan fluktuasi seperti jarum. Pola Domain Waktu menunjukkan aktivitas yang intens dan kacau, dengan frekuensi yang sangat tinggi. Selama pengujian, data Domain Waktu menunjukkan distorsi yang signifikan, dan nilai puncak tetap tidak dapat ditentukan.\n\nResonant Criticality: Rendah. Frekuensi Resonator Camellya menunjukkan stabilitas yang sangat rendah, dengan risiko Overclocking yang tinggi.\n\nResonator Camellya memiliki riwayat Overclocking yang tercatat.\n\nNilai Overclocking tertinggi yang tercatat: Tinggi.\n\nMenurut laporan Camellya, episode Overclocking terjadi setelah kebangkitannya dan sering dikaitkan dengan pemulihan dari gangguan ███, serta fluktuasi emosional. Pada tahap akhir Overclocking, gejalanya berkembang menjadi somatisasi vegetatif seluruh tubuh. Kondisi ini mengakibatkan penurunan kemampuan berbicara, disorientasi kognitif, dan episode rasa sakit. Pemicu spesifik untuk penurunan kondisi saat ini tetap tidak dapat ditentukan.\n\nPemeriksaan fisik secara teratur wajib dilakukan, dan intervensi wajib dijadwalkan mengingat efektivitas konseling psikologis yang minimal.\n\n"
+    },
+    "items": [
+      {
+        "name": "Wooden Doll",
+        "description": "Sebuah boneka kayu yang diukir dengan rumit, dibentuk menyerupai Rover dan terbuat dari akar yang diciptakan oleh Forte milik Camellya. Ini mencerminkan estetika uniknya. Sebelum pertemuan mereka lagi di Jinzhou, Camellya berulang kali mencoba memahat wajah boneka itu, tapi selalu frustrasi karena tak bisa menyempurnakan detail terakhirnya. Sekarang, setelah semua usaha dan sedikit kekecewaan, visinya akhirnya jadi nyata. Saat melihat hasil karyanya, dia tidak bisa menahan tawa.\n\n\"Jadi, beginilah seharusnya,\"\n\npikirnya.\n\n\"Hehe, lucu sekali seperti yang aku bayangkan.\"",
+        "imageUrl": "/icons/items/camellya-1.webp"
+      },
+      {
+        "name": "Spectrum Bracelet",
+        "description": "Sebuah gelang pemantau spektrum frekuensi yang dirancang oleh Black Shores, dibuat atas desakan Camellya. Desainnya mirip dengan hadiah berharga dari masa lalu, dilengkapi fitur pelacakan untuk menjaga lokasi dan keselamatan pemakainya dari jauh. Camellya paham kalau dia bukan lagi Lady Flora yang dulu, dan dia tidak mau kembali ke masa itu. Masa-masa mengikuti Rover sudah berlalu, tapi buat apa? Keduanya akan melakukan apa yang membuat mereka bahagia. Bagi Camellya, ini adalah satu-satunya jangkar dalam lautan makna yang tak ada habisnya.",
+        "imageUrl": "/icons/items/camellya-2.webp"
+      },
+      {
+        "name": "A Camellia",
+        "description": "Sebuah bunga yang didedikasikan untuk seseorang tertentu. Entah sebagai pemimpin, seorang Modulator, atau sekarang sebagai Rover, pahlawan Jinzhou, seorang pemandu… Camellya tidak pernah peduli dengan gelar atau tanggung jawab yang menyertainya. Namun, dia tahu bahwa dia tidak bisa, dan memang tidak akan, membiarkan pandangannya tentang kehidupan mempengaruhi penilaiannya. Jadi, biarkan bunga abadi ini menyampaikan perasaannya di tempat yang kata-kata mungkin gagal.\n\n\"Itu hanya mekar untukmu, selamanya dan selalu.\"",
+        "imageUrl": "/icons/items/camellya-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "To The Days Ahead",
+        "content": "Dia terbangun dari mimpinya.\n\nMatahari terbit di cakrawala, memancarkan cahaya hangat di atas Black Shores. Ini adalah awal dari hari biasa lainnya. Camellya membuka matanya, meregangkan tubuhnya dengan santai di atas puncak pohon. Gerakannya begitu anggun, dan jatuh tak pernah terbayangkan. Bahkan jika dia tergelincir, sulur-sulur akan menahan jatuhnya. Dia sangat suka tidur seperti ini, jauh dari gangguan atau orang lain.\n\n\"Betapa indahnya pagi ini,\"\n\ngumamnya. Dia merasa stabil, baik secara pikiran maupun tubuh, dan pikiran tentang membutuhkan pod medis terasa begitu jauh. Ini adalah hal yang baik.\n\nDia tahu Rover akan tetap berada di Black Shores, mempersiapkan perjalanannya ke Rinascita. Prospek itu menyenangkannya, karena berarti lebih banyak waktu untuk berbicara, tertawa, dan menghabiskan waktu bersama.\n\nDia memberi Rover sebuah hadiah, sebuah gelang yang dirancang untuk memantau frekuensi, seperti yang dulu diberikan olehnya.\n\nItu adalah hadiah pertama yang pernah dia persiapkan untuk seseorang.\n\n\"Betapa aneh!\"\n\ngumamnya.\n\nMemikirkan keselamatan seseorang, atau apakah mereka bahkan ada... benar-benar perasaan yang baru! Pasti itu berarti dia peduli dengan kehidupan mereka. Pemikiran seperti itu terasa asing—dia tidak pernah peduli dengan hidupnya sendiri, atau hidup orang lain. Namun, setelah meninggalkan Stellar Matrix bersama Rover dan menemukan identitasnya sebagai Lady Flora, dia mulai melihat segala sesuatu dengan cara yang sangat halus, namun berbeda.\n\nNamun, dia tidak berniat mengikuti Rover ke Rinascita. Pandangannya tentang beberapa aspek sejarah Solaris berbeda, dan sama seperti dia tidak berniat mengganggu pilihannya, dia juga tidak merasa perlu untuk menjelaskan pilihannya sendiri. Bahkan, untuk menghindari beban tambahan bagi Rover, dia menyembunyikan beberapa kebenaran darinya. Di Stellar Matrix, dia belum sepenuhnya kehilangan semua ingatan tentang masa lalunya.\n\nYa, masa lalunya…\nCamellya menyipitkan mata, sebuah dengungan lembut keluar dari bibirnya saat dia merenung tentang langkah selanjutnya. Dia ingin menyelidikinya lebih lanjut sendiri, menunggu waktu yang tepat untuk berbagi apa yang dia ketahui dengan Rover. Dia memiliki sedikit kepercayaan pada organisasi yang dibangun di pantai ini, dan lebih sedikit lagi pada Tethys System. Selain Rover, dia memiliki sedikit kepercayaan pada orang lain.\n\nDulu,\nsebagai Lady Flora, dia menghindari keterikatan, enggan melihat Rover mengorbankan dirinya demi kebaikan yang lebih besar. Namun kini, pandangannya telah berubah. Dia merasa sangat berbeda dari Lady Flora yang dulu.\n\nDia telah mengikuti perjalanan Rover dari Jinzhou hingga sekarang. Sebuah kekuatan tunggal, yang selalu bergerak maju, mengumpulkan berbagai macam teman di sepanjang jalan.\n\nDia mengerti bahwa ini masih bukan jalannya, namun dia tidak lagi menentang untuk mengamatinya. Seperti satu batu yang bertemu dengan batu lainnya, mengirimkan riak di permukaan air, dia menerima gagasan untuk menjadi \"variabel\" dalam tarian ini.\n\nKini, kebahagiaan yang dia rasakan dari hubungan mereka begitu mendalam. Dia tidak merasakan kebosanan biasa yang menyusup, dan dia tidak ingin menghapus pikiran tentang mereka. Sebaliknya, pikirannya sering kali mengarah padanya, merindukan untuk mengetahui lebih banyak tentang petualangannya dan berbagi lebih banyak permainan yang menyenangkan.\n\nSaat itu, Camellya menyadari bahwa pikiran-pikiran ini sudah meninggalkan jejak yang menyakitkan namun menyenangkan di jiwanya, jauh sebelum dia menyadarinya.\n\nMerasa terinspirasi, dia mengaktifkan Terminal-nya dan menulis pesan singkat untuk Rover, yang akan dikirim tepat sebelum keberangkatannya. Gelang itu memungkinkannya untuk memeriksa keadaannya kapan saja, jadi tidak ada yang perlu dikhawatirkan. Meskipun Solaris sangat luas, dia percaya bahwa jika mereka adalah benang dalam cerita yang sama, jalan mereka pasti akan bertemu lagi.\n\nPada saat di mana Rover tidak tahu apa-apa, saat itulah dia akan mengejutkannya!\n\nSaat dia membayangkan momen yang menyenangkan itu, sebuah melodi keluar dari bibirnya. Sulur-sulur melilit lengannya, naik ke atas, saat kuncup-kuncup kecil mulai mekar di ujungnya.\n\nTiba-tiba, sebuah pemikiran muncul.\n\n\"Aku akan memberinya sebuah bunga.\"\n\nSaat ide ini meresap dalam pikirannya, itu sepenuhnya menguasainya. Dia harus segera menemui Rover—sekarang! Bunga itu, yang lahir dari dirinya, tidak akan layu atau membusuk kecuali dia mati. Dia terkejut dengan kegembiraannya sendiri dan merasakan secercah kesedihan. Saat dia merenung, sebuah rasa sakit yang tumpul menginterupsi pikirannya.\n\nDengan sebuah desahan, dia memilih untuk tidak terlalu memikirkannya. Karena... Ya! Sebuah senyuman menyapu bibirnya saat dia memutuskan untuk menjaga bunga itu tetap mekar untuk Rover. Dia akan berusaha semampunya untuk tidak mati terlalu cepat.\n\nCamellya melompat dari puncak pohon, dengan penuh kegembiraan menuju Rover, biji takdir yang dia cintai."
+      },
+      {
+        "title": "Labyrinth",
+        "content": "Dia terbangun dari mimpinya.\n\nDinding-dinding pod medis tenggelam dalam kegelapan. Terbungkus dalam keheningan berat karena peredam suara, Camellya berkedip dan mengalihkan pandangannya yang kering ke kanan. Indikator di layar Terminal kembali normal. Belenggu di pergelangan tangan dan kaki telah melonggar, namun dia masih merasa lemah, memaksanya tetap terbaring dalam ruang sempit pod.\n\nDia berusaha mengingat apa yang telah terjadi. Dia memaksakan ketenangan yang rapuh, mencoba mengingat, tetapi ingatan yang hilang terasa seperti lubang hitam tak berujung—menatapnya hanya mengungkapkan kegelapan. Ingatannya kembali terpecah.\n\nSudah setahun bersama Black Shores, Camellya baru saja lulus ujian untuk menjadi seorang Bloom Bearer resmi. Kini dia memiliki akses lebih luas ke arsip informasi Tethys System.\n\nSebelum tiba di sana, dia telah berkelana melintasi Solaris cukup lama.\n\nGua tempat dia pertama kali terbangun tidak menunjukkan tanda-tanda keberadaan orang lain, hanya tanaman-tanaman melilit yang merambat di dinding. Tanpa alas kaki, Camellya mengarungi air hingga akhirnya muncul ke udara terbuka, menemukan sebuah desa yang sepi. Kakinya menghantam sesuatu—sebuah batu besar dengan tulisan pudar, \"Petalfall Village.\"\n\nButuh waktu lama baginya untuk keluar dari tempat terbengkalai itu. Ketika rasa lapar datang, dia berburu binatang liar untuk makan. Ketika haus mendera, dia meminum air dari mata air gunung. Butuh beberapa bulan untuk menempuh hutan lebat dan akhirnya tiba di tempat yang ramai dengan orang-orang. Baru kemudian dia sadar bahwa desa itu mungkin sudah terlupakan selama ratusan tahun.\n\nMeskipun sudah kembali ke peradaban, ingatan Camellya tetap kosong, tidak terstimulasi oleh lingkungan barunya. Dia merasa seperti binatang liar, hidup hanya berdasarkan insting. Aturan dan regulasi dunia manusia terasa asing baginya, namun dia tidak merasa frustrasi—menggunakan Forte-nya sudah cukup. Baginya, kekuatan adalah senjata instingtif, dan dia menggunakannya dengan bebas, membuka jalannya sendiri melalui tanah yang tercabik Lament.\n\nAwalnya, segala sesuatu di Solaris mempesonanya. Namun, seiring berjalannya waktu, rasa bosan datang dengan cepat. Kedatangan di Black Shores terjadi secara tidak sengaja, namun Camellya merasa ada keakraban aneh dengan tempat itu. Setahun kemudian, dia menemukan namanya di Tethys System dan mengetahui bahwa dia pernah tinggal dan bekerja di sana, dikenal saat itu sebagai Lady Flora. Aneh bagaimana dia bisa melupakan segalanya namun tetap mengingat nama \"Camellya.\"\n\nDidorong oleh rasa ingin tahu, dia mulai menyelidiki Black Shores, bersemangat untuk mengungkap masa lalunya dan kisah Lady Flora. Apa yang sebenarnya terjadi padanya?\n\nSaat pikiran itu muncul, rasa sakit tajam kembali menusuk kepalanya, dan bunga di dadanya tiba-tiba membengkak, berubah menjadi ungu gelap. Duri tajam pada urat-uratnya mengancam untuk merobek pod medis. Potongan-potongan ingatan berkelebat dalam benaknya—Ah, Lady Flora melarangnya mengingat masa lalu. Camellya mengeluarkan teriakan teredam kesakitan saat belenggu di tubuhnya kembali mengencang, dan alarm keras berbunyi. Petugas medis akan segera datang.\n\nNamun, dia tahu tak banyak yang bisa mereka lakukan. Mereka sudah memeriksanya dengan teliti, menyimpulkan bahwa gejala Overclocking-nya unik dan tidak bisa diobati, hanya bisa dikendalikan dengan pembatasan. Kematian bisa memberikan kelegaan, tetapi dalam kondisinya saat ini, bahkan untuk mati begitu saja pun dia tidak bisa.\n\nYang bisa dia lakukan hanyalah menunggu, menanti anugerah kematian. Keadaan pasif ini menyiksa jiwanya. Jika dia tidak bisa memutuskan hasilnya, setidaknya dia ingin mengendalikan prosesnya.\n\n\"Aku akan mengikuti instingku sampai kematian menemuiku.\"\n\n\"Itu sakit!\"\n\npikirnya.\n\nMeskipun kesakitan menyelimutinya, Camellya tertawa keras."
+      },
+      {
+        "title": "A Fleeting Moment",
+        "content": "Dia terbangun dari mimpinya.\n\nLady Flora membuka matanya, merasakan udara dingin menyentuh ujung jari-jarinya, membuat tangan dan kakinya sedikit mati rasa. Dia duduk sejenak, lalu perlahan bangkit untuk melihat sekelilingnya.\n\nKendaraan itu berhenti di sebuah gua, berlindung dari badai salju di luar, di mana hamparan salju yang tak ada habisnya membentang di hadapannya. Bunga salju melayang lembut dari langit, mendarat dengan hati-hati di ujung hidungnya. Menggigil, dia menyelubungi dirinya lebih dalam ke pakaian tebalnya.\n\nDia bukanlah jenis tanaman yang bisa tahan terhadap dingin.\n\n\"Ke mana pemimpin pergi?\"\n\ntanyanya setelah meneguk beberapa teguk air, lalu menoleh ke Bloom Bearer yang duduk di kursi depan.\n\n\"Aku tidak melihat dia.\"\n\n\"Pemimpin? Dia pergi ke barat. Dia bilang ada sesuatu yang menarik yang muncul dan ingin melihatnya.\"\n\n\"Kenapa dia tidak mengajakku? Bukankah aku pengawalnya?\"\n\nkeluhnya pelan.\n\nBloom Bearer di depannya tertawa ringan sambil mengemudi, sesekali melirik sup yang mengepul.\n\n\"Kamu tidur! Kamu sudah tidak tidur dengan baik selama perjalanan, selalu menggigil di tengah dingin. Dia tidak ingin membangunkanmu saat akhirnya kamu bisa tidur dengan nyenyak.\"\n\nMurum dengan pelan, Lady Flora mendengus dan membuka pintu.\n\n\"Bagaimanapun, aku akan menemuinya sekarang!\"\n\nBloom Bearer melambaikan tangan, tampak sudah terbiasa dengan dinamika antara Lady Flora dan pemimpin mereka.\n\nMeninggalkan kehangatan kendaraan, Lady Flora menyeret kakinya melintasi hamparan salju, kenangan tentang pertemuan pertama mereka di Petalfall Village kembali memenuhi benaknya. Dia tahu bahwa mereka akan datang ke dataran salju ini untuk misi, dan meskipun dia tidak menyukai dingin, dia tahu waktu yang dihabiskan bersama pemimpin Black Shores akan sebanding.\n\nKebanyakan waktu, dia lebih memilih menemani Rover dalam berbagai tugas, meninggalkan jejak kakinya di sepanjang Solaris, dari kota yang ramai hingga lorong-lorong tersembunyi, dari tempat-tempat aman hingga tanah yang berbahaya.\n\nLady Flora menikmati eksistensi ini, dipenuhi dengan kegembiraan dari yang tak diketahui, dan Rover memiliki bakat luar biasa untuk mengubah yang biasa menjadi sesuatu yang luar biasa.\n\nDia tidak keberatan dengan ancaman bahaya. Bahkan, dia lebih menikmatinya. Baginya, bahaya berarti perubahan, dan perubahan mengarah pada kegembiraan. Namun, dia mendapati bahwa dengan pemimpinnya di sisinya, dia menahan dorongan untuk mencari masalah hanya demi kesenangan.\n\nBahaya...\n\nCamellya mengangkat tangannya, rantai halus di pergelangannya menangkap cahaya. Bracelet yang memantau indikator Rabelle-nya menunjukkan hasil normal. Dia memeras pergelangan tangannya dan menghela napas perlahan.\n\n\"Bagus, semuanya seperti seharusnya,\"\n\npikirnya.\n\n\"Jika aku mulai kehilangan kendali, Dia harus menjaga diriku. Itu akan mengganggu seluruh misi.\"\n\nDia benci kehilangan kendali.\n\nDalam beberapa tahun terakhir, Lady Flora dihantui oleh mimpi-mimpi aneh dan terpecah-pecah. Mimpi-mimpi itu terasa seperti kenangan dari kehidupan yang belum pernah dia jalani. Dalam mimpi-mimpi tersebut, dia selalu mencari Rover, tetapi keduanya tidak pernah bertemu. Setiap kali terjaga, kegelisahan menyelimuti dirinya, dan kekacauan mental itu meresap ke dalam dirinya. Dia sering kali terpaksa melapor ke fasilitas medis Black Shores.\n\nPikiran itu merusak suasana hatinya.\n\nDia perlu menemukan Rover secepatnya.\n\nMenepis pikiran-pikiran kusut itu, dia memusatkan perhatian untuk menemukan frekuensi Rover. Setelah menyeberangi dua bukit dan danau beku, akhirnya dia melihat sosok kabur di kejauhan.\n\n\"Camellya, bagaimana tidurmu?\"\n\nMata emasnya bersinar hangat, dan dia tak bisa menahan untuk tersenyum balik.\n\n\"Hehe... Dengan pemimpinku di sisiku, tentu aku memiliki mimpi yang paling indah,\"\n\ndengarnya membalas."
+      },
+      {
+        "title": "Eve",
+        "content": "Dia terbangun dari mimpinya.\n\nJarak antara ketidaksadaran dan kesadaran semakin pendek setiap hari. Lady Flora mulai merasa kesulitan membedakan di mana mimpi berakhir dan kenyataan dimulai. Bahkan, dia tidak ingat kapan kebingungan ini dimulai.\n\nKenangan datang dalam gelombang-gelombang ganas, menghantam pikirannya dan mengacaukan inderanya. Rasa sakit merobek tubuhnya, tanpa henti dan tanpa ampun. Dia membuka mulut untuk berteriak, namun Overclocking telah mengubah tenggorokannya menjadi akar yang kusut dan kasar, membungkam jeritannya.\n\nSetelah berjuang untuk mengambil beberapa langkah tertatih-tatih, dia terjatuh ke tepi sungai berlumpur, gemetar, jari-jari tangannya kejang-kejang tanpa bisa dikendalikan.\n\nBerapa kali ini terjadi? Dia menatap kosong langit malam yang gelap di atasnya.\n\nKosongnya kekacauan berputar di dalam dirinya, namun ada satu hal yang terlihat jelas: Rover.\n\nSekarang dia ingat semuanya.\n\nSiapa dirinya, siapa Rover, alasan keberadaannya, Solaris, dan Lament...\n\nSebelum kegilaan Overclocking menelan dirinya, kenangan-kenangan itu selalu terkubur dalam-dalam, terkunci di kedalaman jiwanya. Setiap kali dia terbangun, dia kehilangan ingatan, hanya menyisakan kekosongan yang menyakitkan. Seiring berjalannya waktu dan tubuhnya melemah di bawah beban Overclocking, sekilas tentang misinya dan akarnya muncul, hanya untuk menghilang lagi dalam siklus tanpa akhir.\n\nBerapa kali itu terjadi? Lady Flora tidak tahu jawabannya.\n\nPeradaban runtuh menjadi debu, hanya untuk bangkit kembali; kehidupan memudar, hanya untuk mekar sekali lagi.\n\nDia adalah saksi pasang surut Solaris, namun tetap selamanya menjadi pengembara dalam pikirannya sendiri.\n\n\"Rover...\"\n\nNama itu terlepas dari bibirnya seperti doa.\n\nMereka tidak pernah benar-benar bertemu atau saling bertukar kata, dan sekarang, dengan ingatannya yang memudar, dia bahkan tidak bisa memastikan apakah mereka teman atau musuh. Namun entah bagaimana, ketika dia terbangun berikutnya, dia tahu nalurinya akan membawanya untuk mencarinya. Itu bukan sekadar kerinduan lembut. Lebih terasa seperti beban rantai yang berat, yang tidak bisa ditolak oleh Lady Flora.\n\nNamun, dia tidak merasakan kebencian terhadap rantai itu.\n\nGemerisik daun menghancurkan lamunannya. Dengan lelah, dia berkedip, dan bunga kamelia merah itu mekar, sulurnya menembus melalui Tacet Discords yang bersembunyi di bayang-bayang. Ya, ini adalah nalurinya, esensinya, inti dari keberadaannya... Bahkan ketika dia hampir lupa segalanya, dia selalu bisa mengandalkan nalurinya.\n\nSejujurnya, selain nalurinya, tidak ada lagi yang bisa dipegang olehnya.\n\n\"Suatu saat nanti, jika saja aku bisa benar-benar mengenal Rover dan berbicara dengannya.\"\n\nLady Flora termenung dengan samar. Mungkin Tethys System akan membawa Rover padanya, karena dia telah mengungkapkan dirinya dalam misi ini.\n\nLady Flora menutup matanya dan menyerah pada kegelapan saat rasa sakit mencapai puncaknya.\n\nAir danau yang dingin menyentuh pipinya, bunga kamelia itu layu saat sulurnya mundur ke dalam tubuhnya.\n\nAngin malam musim gugur berhembus melalui daun-daun, menyentuhnya dengan lembut saat dia terbaring di tepi danau. Di utara, para penduduk Petalfall Village akan segera terbangun dari mimpi mereka, saling memanggil satu sama lain saat mereka bersiap untuk memulai hari baru memancing."
+      },
+      {
+        "title": "Once Upon A Time",
+        "content": "Dia terbangun dari mimpinya.\n\nAngin mengerang dengan keras di tepi atap saat dia meregangkan tubuh, menyipitkan mata menatap jalanan yang ramai di bawah. Kendaraan-kendaraan saling bersilangan di jalan, lampu rem mereka membentuk rantai api yang semarak. Menyandarkan dagunya di tangan, dia mulai mendendangkan lagu.\n\nLagu yang dia pelajari dari Rover.\n\nTentu saja, dia tidak mendengarnya langsung dari Rover; dia mempelajarinya secara diam-diam.\n\nMereka mungkin bukan musuh, tapi hubungan mereka jauh dari kata bersahabat—setidaknya, itu adalah kenalan sepihak. Kehadiran Rover menarik perhatian berbagai pihak, termasuk organisasi tempat dia berada. Namun, itu tidak banyak mengganggunya, dan bukan pula sesuatu yang bisa dia pikirkan.\n\nDia hanyalah \"benih terpilih,\" sebuah \"bunga\" yang mekar dengan satu tujuan: memburu Rover. Sebagian besar hari, suntikan yang diberikan membuatnya berada dalam kabut, melayang dalam kesadaran yang setengah mati, dengan hanya hasrat naluriah terhadap seseorang yang terpatri dalam hatinya.\n\nZat yang diberikan padanya memiliki bau tajam dan asam, menyeret akalnya ke dalam kubangan, merampas kejernihan dan jati dirinya.\n\nPikirannya berputar dengan kacau, seperti bom yang hampir meledak, dipaksa untuk mereset tepat sebelum hitungan mundur berakhir.\n\nNamun, dia tidak peduli.\n\nDi luar Rover, hampir tidak ada yang menarik perhatiannya. Terkadang, dia merasa seperti bayangan di atas kanvas kosong, sekadar gambaran seorang asing. Potret itu terbentuk dari potongan-potongan informasi yang dia kumpulkan dengan susah payah—mereka begitu dekat, namun tidak pernah benar-benar bertemu. Dia tidak tahu seperti apa rupa dirinya.\n\nKatanya, jarak ini diperlukan untuk menghindari pelacakan Tethys System. Kontak dilarang.\n\nNamun, betapa dia merindukan untuk bertemu dengan Rover!\n\nDuduk di tepi bangunan dengan bahaya yang mengintai, dia tertawa membayangkan fantasi itu. Sulur-sulur tanaman melilit lengannya, merambat lebih tinggi, dengan kuncup-kuncup lembut yang perlahan membuka di ujung-ujungnya.\n\nTiba-tiba, sebuah pikiran terlintas di benaknya.\n\n\"Aku akan memberikan dia sebuah bunga.\"\n\nBegitu pikiran itu muncul, ia menguasainya sepenuhnya. Dia membayangkan saat dia akan menemukan Rover dan memberikan hadiah ini—sebuah bunga yang tumbuh dari dirinya sendiri. Bunga itu tidak akan layu atau busuk kecuali dia mati. Namun, seperti kilat, pikiran itu lenyap ke dalam kekacauan pikirannya, meninggalkan tanpa jejak.\n\nSedikit yang dia tahu, berabad-abad kemudian, pemandangan di depannya akan lenyap dalam Lament. Dia akan terombang-ambing tanpa henti melalui labirin kenangan hingga suatu pagi musim gugur, di tepi danau Petalfall Village, di mana dia akhirnya akan bertemu dengan Rover, di sana untuk menyelamatkan desa dari serangan Tacet Discord. Dari sana, dia akan bergabung dengan Black Shores dan menghabiskan beberapa ratus tahun bersama sebelum dia akhirnya meninggalkannya.\n\nDia juga akan meninggalkan Black Shores, hanya untuk dipertemukan kembali beberapa dekade kemudian di Jinzhou. Semua masa depan itu belum terungkap, seperti halnya kemungkinan yang terlelap di dalam benih, menunggu takdir untuk mekar.\n\nDia melompat dari bangunan itu, sulurnya menenun melalui struktur-struktur kota, mencarinya."
+      }
+    ],
+    "specialFood": {
+      "name": "Iced Grape Tea",
+      "description": "Mengalahkan musuh di overworld memberikan 28% lebih banyak Shell Credits selama 30 menit.\n\nHanya berlaku untuk Resonator milik sendiri dalam Co-op Mode.",
+      "imageUrl": "/icons/food/camellya.webp"
+    }
+  }
+}

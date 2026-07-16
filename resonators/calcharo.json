@@ -1,0 +1,421 @@
+{
+  "name": "Calcharo",
+  "element": "Electro",
+  "weapon": "Broadblade",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer",
+    "Resonance Liberation Damage"
+  ],
+  "sonatas": [
+    "Void Thunder"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Jinzhou",
+  "affiliation": "Ghost Hounds",
+  "class": "Natural",
+  "image": "/characters/calcharo.webp",
+  "imageBanner": "/banners/calcharo-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110% - 130%",
+    "Crit Ratio (Crit Weapon)": "65% : 285%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 240%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Thundering Mephis"
+    ],
+    "bestWeapon": "Ages of Harvest",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: electro%",
+            "3: electro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "nightmare-thundering-mephis",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Void Thunder"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "wildfire-mark",
+        "percentage": "109",
+        "rank": ""
+      },
+      {
+        "id": "ages-of-harvest",
+        "percentage": "104",
+        "rank": ""
+      },
+      {
+        "id": "verdant-summit",
+        "percentage": "102",
+        "rank": ""
+      },
+      {
+        "id": "radiance-cleaver",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "lustrous-razor",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "autumntrace",
+        "percentage": "96",
+        "rank": "5"
+      },
+      {
+        "id": "helios-cleaver",
+        "percentage": "90",
+        "rank": "5"
+      },
+      {
+        "id": "waning-redshift",
+        "percentage": "89",
+        "rank": "5"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "Intro Skill sebaiknya dibiarkan pada Level 1, karena Calcharo memiliki [Intro Skill (\"Necessary Means\")] berbeda yang ditingkatkan dari bagian Res. Liberation pada Forte tree.",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Calc-Tune",
+        "note": "ngarep aja dulu",
+        "members": [
+          [
+            "Calcharo"
+          ],
+          [
+            "Lynae"
+          ],
+          [
+            "Mornye"
+          ]
+        ]
+      },
+      {
+        "name": "Calc-Hypercarry",
+        "note": "Yinlin atau Sanhua adalah pilihan Sub DPS yang sangat baik untuk Calcharo, karena mereka membutuhkan field time yang minimal sambil menawarkan buff yang secara signifikan meningkatkan performanya. Kemampuan mereka untuk memberikan buff secara efisien memungkinkan gaya bermain hypercarry, membuat Calcharo menonjol sebagai penyumbang damage utama.",
+        "members": [
+          [
+            "Calcharo"
+          ],
+          [
+            "Lynae",
+            "Yinlin",
+            "Sanhua"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      },
+      {
+        "name": "Calc-QS",
+        "note": "Changli dan Xiangli Yao berpasangan dengan sangat baik dengan Calcharo bagi mereka yang menikmati gaya bermain dual DPS yang sedikit lebih mahir. Animasi attack & skill mereka dapat dilakukan swap cancelled, memungkinkan mereka untuk memberikan damage secara efisien di antara Death Messengers milik Calcharo.",
+        "members": [
+          [
+            "Calcharo"
+          ],
+          [
+            "Xiangli Yao",
+            "Carlotta",
+            "Changli"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      }
+    ],
+    "teamNote": ""
+  },
+  "skills": {
+    "basic": {
+      "name": "Gnawing Fangs",
+      "description": "Basic Attack\nCalcharo melakukan hingga 4 serangan beruntun, memberikan Electro DMG.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target, memberikan Electro DMG.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Mid-Air Plunging Attack, memberikan Electro DMG.\n\nDodge Counter\nMenggunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG."
+    },
+    "skill": {
+      "name": "Extermination Order",
+      "description": "Calcharo melakukan hingga 3 serangan beruntun, memberikan Electro DMG.\nJika Calcharo ditarik dari field, atau jika Resonance Skill Extermination Order tidak diaktifkan kembali dalam beberapa waktu, skill ini akan memasuki Cooldown.\nResonance Skill Extermination Order tidak menghentikan siklus Basic Attack Calcharo."
+    },
+    "liberation": {
+      "name": "Phantom Etching",
+      "description": "Calcharo menyerang target, memberikan Electro DMG dan memasuki status Deathblade Gear. Setelah status Deathblade Gear berakhir, Intro Skill Calcharo berikutnya digantikan dengan Intro Skill \"Necessary Means\", yang memberikan Electro DMG, yang dianggap sebagai Intro Skill DMG.\n\nDeathblade Gear\n- Basic Attack digantikan dengan Basic Attack Hounds Roar.\n- Heavy Attack memberikan DMG yang meningkat, dianggap sebagai Resonance Liberation DMG.\n- Dodge Counter memberikan DMG yang meningkat, dianggap sebagai Resonance Liberation DMG.\n\nBasic Attack: Hounds Roar\nCalcharo melakukan hingga 5 serangan beruntun, memberikan Electro DMG, yang dianggap sebagai Basic Attack DMG."
+    },
+    "forte": {
+      "name": "Hunting Mission",
+      "description": "Heavy Attack: \"Mercy\"\nSaat Calcharo memiliki 3 \"Cruelty\", Heavy Attack miliknya digantikan dengan Heavy Attack \"Mercy.\"\nSaat melancarkan Heavy Attack \"Mercy\", Calcharo mengonsumsi 3 \"Cruelty\" untuk memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG, serta memulihkan Resonance Energy dan Concerto Energy.\n\n\"Cruelty\"\nCalcharo dapat menyimpan hingga 3 \"Cruelty.\"\nDalam status Resonance Liberation Deathblade Gear, \"Cruelty\" tidak dapat diperoleh.\nSaat Resonance Skill Extermination Order mengenai target, dapatkan 1 \"Cruelty.\"\n\nHeavy Attack: \"Death Messenger\"\nSaat Calcharo memiliki 5 \"Killing Intent\", Basic Attack miliknya digantikan dengan Heavy Attack \"Death Messenger.\"\nSaat melancarkan Heavy Attack \"Death Messenger,\" Calcharo mengonsumsi 5 \"Killing Intent\" untuk memberikan Electro DMG, yang dianggap sebagai Resonance Liberation DMG, serta memulihkan Resonance Energy dan Concerto Energy.\n\n\"Killing Intent\"\nDalam status Resonance Liberation Deathblade Gear, Forte Gauge Calcharo digantikan dengan \"Killing Intent\", yang dapat ditumpuk hingga 5.\nSaat Basic Attack Hounds Roar mengenai target, Calcharo mendapatkan 1 \"Killing Intent.\""
+    },
+    "inherent": [
+      {
+        "name": "Bloodshed Awaken",
+        "description": "Melancarkan Heavy Attack Mercy memberikan Calcharo 10% Resonance Liberation DMG Bonus selama 15 detik."
+      },
+      {
+        "name": "Revenant Rush",
+        "description": "Saat Heavy Attack \"Death Messenger\" mengenai target, damage yang diterima oleh Calcharo berkurang sebesar 15% selama 5 detik."
+      }
+    ],
+    "intro": {
+      "name": "Wanted Outlaw",
+      "description": "Menyerang target, memberikan Electro DMG."
+    },
+    "outro": {
+      "name": "Shadowy Raid",
+      "description": "Calcharo memanggil Phantom untuk mendukung Resonator yang aktif, menyapu target di depan dengan sebuah tebasan. Serangan Phantom memberikan Electro DMG sebesar 195.98%+391.96% dari ATK Calcharo."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Thundering Tacet Core",
+            "amount": 46
+          },
+          {
+            "item": "Crude Ring",
+            "amount": 4
+          },
+          {
+            "item": "Basic Ring",
+            "amount": 12
+          },
+          {
+            "item": "Improved Ring",
+            "amount": 12
+          },
+          {
+            "item": "Tailored Ring",
+            "amount": 4
+          },
+          {
+            "item": "Iris",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Monument Bell",
+          "amount": 26
+        },
+        {
+          "item": "Crude Ring",
+          "amount": 25
+        },
+        {
+          "item": "Basic Ring",
+          "amount": 28
+        },
+        {
+          "item": "Improved Ring",
+          "amount": 40
+        },
+        {
+          "item": "Tailored Ring",
+          "amount": 57
+        },
+        {
+          "item": "Waveworn Residue 210",
+          "amount": 25
+        },
+        {
+          "item": "Waveworn Residue 226",
+          "amount": 28
+        },
+        {
+          "item": "Waveworn Residue 235",
+          "amount": 55
+        },
+        {
+          "item": "Waveworn Residue 239",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Wildfire Mark",
+          "value": 109,
+          "imagePath": "",
+          "percentage": 109
+        },
+        {
+          "type": "Ages Of Harvest",
+          "value": 105,
+          "imagePath": "",
+          "percentage": 105
+        },
+        {
+          "type": "Verdant Summit",
+          "value": 105,
+          "imagePath": "",
+          "percentage": 105
+        },
+        {
+          "type": "Lustrous Razor",
+          "value": 100,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Waning Redshift",
+          "value": 87,
+          "imagePath": "",
+          "percentage": 87
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Calc",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Covert Negotiation",
+      "description": "Saat Resonance Skill Extermination Order mengenai target, ia memulihkan tambahan 10 Resonance Energy. Efek ini dapat dipicu sekali setiap 20 detik."
+    },
+    {
+      "stage": "S2",
+      "name": "Zero-Sum Game",
+      "description": "Setelah Calcharo melancarkan Intro Skill Wanted Criminal atau Intro Skill \"Necessary Means\", Resonance Skill DMG Bonus miliknya meningkat sebesar 30% selama 15 detik."
+    },
+    {
+      "stage": "S3",
+      "name": "Iron Fist Diplomacy",
+      "description": "Selama status Resonance Liberation Deathblade Gear, Electro DMG Bonus Calcharo meningkat sebesar 25%."
+    },
+    {
+      "stage": "S4",
+      "name": "Dark Alliance",
+      "description": "Setelah melancarkan Outro Skill Shadowy Raid, Electro DMG Bonus dari semua anggota tim meningkat sebesar 20% selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Unconventional Compact",
+      "description": "Intro Skill Wanted Criminal dan Intro Skill \"Necessary Means\" memberikan 50% DMG lebih banyak."
+    },
+    {
+      "stage": "S6",
+      "name": "The Ultimatum",
+      "description": "Saat melancarkan Resonance Liberation \"Death Messenger\", Calcharo akan memanggil 2 Phantoms untuk melakukan Coordinated Attacks. Setiap Phantom memberikan Electro DMG sebesar 100.00% dari ATK Calcharo, yang dianggap sebagai Resonance Liberation DMG."
+    }
+  ],
+  "lore": {
+    "description": "Pemimpin \"Ghost Hounds,\" sebuah kelompok tentara bayaran internasional. Kejam, pendendam, tidak kenal ampun. Forte miliknya memungkinkan dia untuk memanggil Tacet Discord khusus guna membantu serangannya terhadap target.\nCalon klien harus memperhatikan harga yang harus dibayar sebelum mengajukan penawaran kepadanya.\n\nBIRTHPLACE\nNew Federation\n\nBIRTHDATE\nJuly 8th",
+    "report": {
+      "resonancePower": "Phantom Hunters",
+      "overclockDiagnostic": "Grafik waveform Resonator Calcharo menunjukkan fluktuasi zig-zag. Pola Time Domain tidak teratur. Baik nilai puncak atas maupun bawah berada pada posisi tinggi dan memanifestasikan kedekatan dengan tingkat Criticality. Bentuk gelombang menampilkan segmen kekaburan parsial dan bentuk gelombang abnormal dapat terlihat.\n\nResonance Criticality: Relatif tinggi, dikombinasikan dengan stabilitas yang sangat rendah. Risiko Overclocking sangat besar.\n\nResonator Calcharo memiliki riwayat Overclocking yang terdokumentasi. Peringkat Overclocking maksimum yang tercatat: Parah (Severe).\n\nSelama Overclocking, tanda-tanda erosi Tacet Discord menyebar di tubuh Resonator Calcharo dan inti Tacet Core emas di dadanya berkedip. Fluktuasi frekuensi meningkat secara signifikan. Berbagai entitas menyerupai hantu muncul.\n\nTidak ada insiden besar berupa cedera warga sipil atau kerusakan properti dari episode Overclocking Calcharo yang ditemukan.\n\nResonator Calcharo memiliki risiko overclocking yang sangat tinggi dengan pemicu yang tidak teridentifikasi. Disarankan untuk menaikkan tingkat penilaian risikonya dan memantau kondisinya dengan cermat.",
+      "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment 2300-G]\nWaktu awakening bagi Resonator Calcharo masih belum jelas. Menurut laporan Calcharo, dia bertahan dalam periode yang lama di lingkungan yang berbahaya dan menghadapi banyak situasi yang mengancam nyawa. Sebagai hasilnya, Forte miliknya bangkit secara alami sebagai sarana perlindungan diri.\n\nTacet Mark milik Resonator Calcharo terletak di dahinya. Saat Calcharo mengaktifkan Forte miliknya, sebuah inti emas bermanifestasi di dadanya. Secara bersamaan, berbagai bagian tubuhnya menunjukkan karakteristik Tacet Discords, yang terjerat dengan duri-duri menyerupai bayangan.\n\nKhususnya, tubuh Calcharo memiliki jumlah energi bioelektrik yang jauh lebih tinggi dibandingkan dengan manusia rata-rata. Dia menunjukkan kesadaran dan kontrol yang luar biasa terhadap arus listrik dan kekuatan magnetik.\n\nPenyebab pasti dari Kebangkitan Resonator Calcharo tidak dapat diidentifikasi saat ini, karena Spectrum Pattern miliknya tidak menunjukkan kemiripan dengan sampel lain yang diketahui.\n\nAnalisis dari sampel uji telah mengungkapkan Rabelle's Curve yang tidak konvergen dengan kenaikan bertahap. Resonator Calcharo dengan demikian diklasifikasikan sebagai Natural Resonator.\n\n\"Sebenarnya... ada satu Spectrum Pattern yang sangat mirip yang sepertinya telah kita lewatkan, atau lebih tepatnya, kita ragu untuk memikirkan kemungkinan itu.\"\n\n\"Ya... Itu adalah Tacet Discords.\""
+    },
+    "items": [
+      {
+        "name": "The Underdog'S Nameplate",
+        "imageUrl": "/icons/items/calcharo-1.webp",
+        "description": "Pelat nama Calcharo dari masa kecilnya. Benda ini telah kehilangan warna aslinya karena karat, yang tersisa hanyalah ukiran berkarat berbentuk seekor anjing. Tanda-tanda tersebut tampaknya digambar secara kasar oleh seorang anak kecil."
+      },
+      {
+        "name": "Military Rations",
+        "imageUrl": "/icons/items/calcharo-2.webp",
+        "description": "Bagi Calcharo, benda ini adalah harta karun penyelamat nyawa. Rasanya kasar, namun baik untuk perut. Dalam kondisi kelaparan yang ekstrem, apa pun rasa yang Anda makan, akan terasa seperti hidangan surgawi. Menyengat, semur, pedas... Menurutnya, ransum kalengan yang diproduksi di Huanglong sedikit lebih lezat daripada ransum dari wilayah lain."
+      },
+      {
+        "name": "Broken Fang",
+        "imageUrl": "/icons/items/calcharo-3.webp",
+        "description": "Sebuah pedang pendek yang telah dibawa Calcharo sejak masa kanak-kanak. Pedang ini ada di sana saat ia pertama kali naik daun sebagai Underdog yang kejam. Sayangnya, pedang tersebut patah dalam sebuah pertemuan yang tidak diketahui. Calcharo tidak suka membicarakan pertempuran itu, namun terkadang Anda dapat memergokinya sedang menyentuh bilah yang patah tersebut sebagai cara untuk mengingat mereka yang telah gugur dan waktu yang telah berlalu."
+      }
+    ],
+    "stories": [
+      {
+        "title": "\"Dogs Of War\"",
+        "content": "Calcharo \"the Vicious\" dulunya adalah salah satu dari Exiles di Lawless Zone milik New Federation. Ia telah lama menguasai segala jenis strategi licik untuk bertahan hidup. Saat ini, ia tumbuh menjadi lebih kejam demi tentara bayarannya: Peracunan, pembunuhan, penyuapan, penculikan, bom... Ia akan melakukan apa pun yang dianggap perlu untuk menyelesaikan pekerjaan. Rumor tentang pencapaian mustahil Calcharo beredar tanpa henti. Beberapa menceritakan tentang dia yang tinggal di gurun selama 7 hari tanpa air demi penyergapan yang direncanakan, yang lain menceritakan tentang dia yang mengenakan bom di sekujur tubuhnya selama negosiasi di masa lalu. Bahkan ada bisikan tentang dia yang menyewa pembunuh untuk memalsukan pembunuhan dirinya dalam sebuah skema demi mendapatkan kepercayaan.\n\nMeskipun berpotensi dilebih-lebihkan, rumor tersebut tidak sepenuhnya mustahil bagi mereka yang mengenal Calcharo secara pribadi. Namun, cerita-cerita itu menjadi semakin aneh seiring berjalannya waktu...\n\"Dia sendirian menghentikan truk pada usia 12 tahun; ketika dia berusia 15 tahun, Forte miliknya membuat seluruh New Federation gemetar ketakutan. Dia bahkan melawan polisi di seluruh negeri pada usia 18 tahun dan pergi tanpa terluka...\"\n\"Dadanya adalah rumah bagi roh-roh mati, dan dahinya memikul kutukan para dewa. Di bawah kakinya menyambar guntur, dan dari matanya memancar api. Kemarahannya tidak akan pernah terpuaskan sampai surga terbakar habis...\"\n\"Dia telah ke neraka dan kembali, berkali-kali... Dia akan selalu datang sebagai kilat, hantu, dan merebut kembali semua yang layak dia dapatkan...\"\n\nRumor terbaru tentang Calcharo telah menjadi salah satu topik utama di antara anggota tentara bayaran saat sedang tidak bertugas.\nNamun pria itu sendiri tampak tidak terganggu... Ia mungkin sudah tidak peka lagi atau sedang merencanakan untuk memanfaatkan rumor tersebut.\nDi Lawless Zone, teman bisa menjadi musuh dalam sekejap — hal yang biasa seperti perubahan arus udara. Perubahan adalah hal yang konstan, bahkan di tempat yang paling tidak terduga sekalipun. Apa yang dulu tampak berbahaya bisa seketika menjadi alat yang berguna. Semuanya tergantung pada bagaimana kita memilih untuk menggunakannya.\n\nRumor menaburkan prasangka. Prasangka tumbuh menjadi kesalahpahaman. Kesalahpahaman menghasilkan salah penilaian.\nDan dalam permainan yang kejam, salah penilaian terhadap kekuatan musuh selalu menjadi kutukan."
+      },
+      {
+        "title": "Quid Pro Quo",
+        "content": "Calcharo memulai dari nol tetapi membangun reputasinya hanya dalam beberapa tahun yang singkat. Kesuksesannya berasal dari dua faktor: Pertama, ia bersedia mengambil pekerjaan berbahaya namun menguntungkan yang tidak berani ditangani oleh orang lain. Kedua, ia memiliki kode moral yang fleksibel sehingga memungkinkannya untuk bekerja dengan semua jenis orang.\nIa mengambil uang tunai, ia menyelesaikan pekerjaan. Ia berjanji, ia menepati.\nDari perlindungan bersenjata hingga pembuangan bahan berbahaya, ia selalu menyelesaikan pekerjaan dengan tanpa cela. Namun jika kliennya mengingkari kesepakatan mereka, mereka akan menghadapi perburuan seumur hidup oleh Calcharo.\n\"Ketidakterpihakan\" semacam itu membuatnya mendapatkan rasa takut dan kepatuhan dari kekuatan lain di wilayah tersebut.\nCalcharo menganggap bisnis sebagai pertukaran nilai semata, di mana tidak ada pekerjaan yang terlalu tidak bermoral, dan tidak ada rahasia yang disimpan. Setiap transaksi adalah permainan yang adil.\nMeskipun demikian, nilai tidak selalu diukur dengan uang. Saat menghadapi orang-orang miskin dan putus asa yang memohon bantuan, Calcharo akan membebankan biaya simbolis sebesar satu Shell Credit atas namanya sendiri. Para penerima manfaat yang bersyukur tidak menyadari bahwa pemberian ini menjadi kontrak yang mengikat mereka dengan Calcharo, dan hutang budi tidak pernah mudah untuk dibayar.\nJangan pernah menerima kesepakatan yang tidak membawa keuntungan. Itulah prinsip inti Calcharo.\nPendekatan ini memungkinkan Calcharo untuk membina banyak mata dan telinga di kalangan rakyat jelata, menciptakan jaringan intelijen yang tangguh yang mencakup semua lapisan masyarakat.\nHaus uang, tidak kenal ampun, dan pendendam — ini hanyalah beberapa kata yang digunakan orang lain untuk mendeskripsikan Calcharo. Namun bahkan para kritikusnya mengakui bahwa jaringannya telah mencegah banyak pertumpahan darah yang tidak perlu. Tidak ada yang bisa memastikan apakah seorang wanita yang menjual jajanan kaki lima di gang adalah salah satu informan Calcharo. Setiap perundung yang bertujuan untuk mencelakai rakyat jelata harus mempertimbangkan hal itu sebelum bertindak."
+      },
+      {
+        "title": "Beast Instict [Sic]",
+        "content": "Banyak Exiles terhalang untuk mendapatkan pekerjaan sah di New Federation, menghadapi diskriminasi dan prasangka yang tidak ada habisnya.\nMereka terpaksa membangun kamp di pinggiran negara, dan tempat mereka berkumpul menjadi \"Lawless Zone\".\nUntuk bertahan hidup dengan lebih baik, Exiles di Lawless Zone membentuk berbagai geng.\nKala itu, sebuah geng bernama \"the Underdogs\" dengan cepat naik daun.\nAnggota pertama dari the Underdogs hanyalah sekelompok anak-anak berusia sekitar 12 tahun. Sebagai anak-anak, mereka ditindas dan diusir, sampai seorang anak laki-laki yang tidak kenal takut menyatukan mereka. Ia mengamati mereka yang ditindas dan mengajak mereka untuk bergabung. Dengan perencanaan strategis dan keberanian yang tak tergoyahkan, the Underdogs mendapatkan ketenaran di antara geng-geng saingan.\nDi dalam geng ini, tidak ada hirarki atau politik — hanya kebutuhan primer untuk bertahan hidup dan kebebasan.\nNamun, para anggota tewas satu demi satu: dibunuh oleh geng saingan, dikhianati oleh orang-orang yang mereka percayai, atau terjebak oleh pelindung yang menipu.\nWaktu tidak menunjukkan belas kasihan kepada mereka di Lawless Zone. Itu adalah perjuangan masing-masing orang untuk dirinya sendiri.\nPada akhirnya, bocah pemimpin itu memutuskan untuk mengambil alih nasibnya sendiri sekali lagi, mempertaruhkan segalanya dalam pertaruhan kekuasaan yang berani.\n...\nBertahun-tahun kemudian, New Federation mengobarkan perang melawan \"the Underdogs\", geng terakhir di Lawless Zone. Dalam sebuah perubahan tak terduga, sebuah kelompok tentara bayaran baru yang dikenal sebagai \"Ghost Hounds\" mencaplok \"the Underdogs\" dalam semalam dan mengakhiri kekacauan tersebut.\nBaru saat itulah orang-orang mengetahui bahwa pemimpin kelompok tentara bayaran tersebut memiliki nama yang sama dengan mantan pemimpin bocah dari \"the Underdogs\".\nIa telah kembali dalam sosok yang mengerikan, hampir menyerupai hantu. Ia dikelilingi oleh duri-duri bayangan, dan ditemani oleh hantu-hantu yang menakutkan.\nKali ini, ia akan mencapai puncak tangga, dan menyelesaikan apa yang dulu gagal ia capai karena kenaifan, simpati, dan keragu-raguan.\nNamun terlepas dari semua waktu yang telah berlalu, ia tidak bisa melepaskan ingatan tentang suatu sore itu. Matahari bersinar menyinari mereka saat mereka mendirikan Underdog di sebuah tempat pembuangan sampah yang terpencil.\nItu adalah momen kelembutan yang langka dalam hidupnya."
+      },
+      {
+        "title": "Let Sleeping Dogs Lie",
+        "content": "\"Selalu hitung amunisi kalian, periksa senjata kalian, kenakan perlengkapan pelindung kalian, dan pastikan Terminal kalian terhubung...\"\n\nMeskipun menyadari sepenuhnya bahaya yang melekat dalam profesi mereka, Calcharo masih mendapati dirinya mengulangi pengingat keselamatan sebelum misi, atau mengamati timnya secara diam-diam saat mereka menjalankan tugas atau melapor kembali. Ini adalah insting kebapakan yang tidak bisa ia hilangkan, selalu mengkhawatirkan kesejahteraan mereka terlepas dari pertumpahan darah yang tidak terelakkan.\n\nMemastikan keselamatan mereka, Calcharo membuat serangkaian aturan:\n\"Pembentukan tim bersifat bebas, namun anggota harus diberi tahu dan tidak dipaksa.\"\n\"Detail pekerjaan wajib dirahasiakan dari pihak eksternal.\"\n\"Patuhi hukum dan peraturan setempat.\"\n\"Pengkhianatan dilarang, dihukum dengan eksekusi.\"\n...\n\nDi balik aturan-aturan tersebut terdapat kepedulian mendalam Calcharo terhadap kelompoknya.\nCalcharo selalu tahu bahwa jurang maut pun balas menatap. Menetap dalam bisnis bunuh-atau-dibunuh ini bukanlah solusi terbaik.\nOleh karena itu, Calcharo memutuskan untuk menjaga profil rendah dan mulai mencari peluang bisnis legal.\n\nNamun, kehati-hatiannya memicu ancaman saat beberapa rival baru mencoba menggantikan Ghost Hounds. Dalam sebuah aksi provokasi, mereka melukai parah seorang rekrutan Ghost Hound, melanggar salah satu \"aturan tidak tertulis\" dari dunia bawah.\n\nKelompok tersebut mengira mereka telah lolos dari konsekuensi tindakan mereka terhadap Calcharo, namun keesokan harinya mereka disapu bersih dari muka bumi. Insiden tersebut dianggap sebagai kebakaran yang tidak disengaja. Tidak ada yang bersuara, meskipun semua orang tahu kebenarannya.\nAnjing yang menggonggong tidak menggigit, tetapi jika Anda melewati garis batas anjing yang sedang tidur, akan terlambat untuk lari saat ia bangun dan menunjukkan taringnya."
+      },
+      {
+        "title": "Domestication",
+        "content": "Saat berada di Huanglong, Anda harus melakukan apa yang dilakukan orang Huanglong.\nKarena alasan yang tidak disebutkan, Calcharo berpapasan dengan pasukan Jiyan di dalam perbatasan Huanglong.\nSebagai tentara bayaran yang berpengalaman, Calcharo menyadari nilai strategis Jinzhou dan ancaman yang dihadapinya. Ia kemudian mengajukan sebuah kesepakatan: Ia akan membantu Midnight Rangers dalam \"perang\" mereka melawan Tacet Discords, dan sebagai imbalannya, Jinzhou akan bekerja sama dengannya.\nSetelah pertimbangan yang matang, Jiyan menerima kesepakatan yang saling menguntungkan ini.\n\nJiyan menyarankan agar Calcharo tidak mengenakan seragam sebelumnya selama berada di kota Jinzhou. Sebaliknya, ia menyarankan untuk mengadaptasi pakaiannya agar membaur dan berpotensi tinggal dalam waktu lama karena situasi tersebut.\nMengikuti etiket diplomatik dan demi kepraktisan, Calcharo mengikuti saran Jiyan serta mengadopsi bahasa sehari-hari dan pakaian Huanglong. Meskipun seragam tempur barunya fungsional dan fleksibel, pita serta pola dekoratifnya membuatnya bingung. Demikian pula, kebaikan orang-orang Jinzhou yang tidak beralasan membuatnya tercengang.\n\nTerbiasa dengan kekejaman manusia, Calcharo tidak bisa tidak curiga bahwa ini semua adalah bagian dari rencana rahasia Jiyan terhadapnya. Namun Jiyan hanya meyakinkannya bahwa ia akan terbiasa dengan hal itu.\nKini, seiring berjalannya kesepakatan, Calcharo mulai merasa nyaman dengan gegar budaya yang dibawa oleh orang-orang Huanglong kepadanya.\nPada Hari Loong-rising, salah satu festival yang paling dirayakan di Huanglong, Calcharo duduk di atas atap sendirian, mengawasi kota yang \"tak berdaya\" ini.\nOrang-orang menari dengan kostum Singa dan Loong. Udara dipenuhi dengan kegembiraan dan kemeriahan.\nMeskipun telah melewati pertempuran dan pengorbanan yang tak terhitung jumlahnya, mereka tetap mencoba menjalani setiap hari dengan sepenuh hati.\nOrang-orang ini menunjukkan kepadanya bagaimana kesedihan bukanlah satu-satunya cara untuk menghormati mereka yang telah gugur. Merayakan kehidupan adalah cara ampuh lainnya untuk mengucapkan selamat tinggal.\n\nTidak akan buruk untuk menempatkan markas permanen Ghost Hounds di kota ini, pikir Calcharo.\nKemudian sesuatu yang tidak biasa menginterupsi lamunannya.\nAwan berkumpul, dan guntur berderak... Itu adalah pertanda dari Tacet Field yang sedang terbentuk.\nJika ia dan orang-orangnya akhirnya akan hidup di bawah sinar matahari suatu hari nanti, maka misinya adalah menghalau kegelapan, sebanyak yang ia bisa, sebelum perubahan itu akhirnya terjadi.\nCalcharo menghunus bilah pedangnya dan berjalan menuju malam yang gelap. Di belakangnya, lampu-lampu kota berkilauan dengan semangat dan kemakmuran."
+      }
+    ],
+    "specialFood": {
+      "name": "Ration Bar",
+      "imageUrl": "/icons/food/calcharo.webp",
+      "description": "Meningkatkan DEF dari semua Resonator dalam tim sebesar 36% selama 15 menit. Dalam multiplayer games, efek ini hanya memengaruhi karakter milik Anda sendiri."
+    }
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "name": "Spectro Rover",
+  "element": "Spectro",
+  "weapon": "Sword",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Concerto Efficiency",
+    "Stagnation"
+  ],
+  "sonatas": [
+    "Eternal Radiance",
+    "Moonlit Clouds",
+    "Rejuvenating Glow"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Black Shores",
+  "affiliation": "Unknown",
+  "class": "Arbiters",
+  "image": "/characters/spectro-rover.webp",
+  "imageBanner": "/banners/spectro-rover-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "105-125%+",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Mourning Aix",
+      "Impermanence Heron",
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return"
+    ],
+    "bestWeapon": "Blazing Brilliance",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS",
+          "echoSlug": "mourning-aix",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: spectro%",
+            "3: spectro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Eternal Radiance"
+          ]
+        },
+        {
+          "label": "Sub DPS",
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: spectro%",
+            "3: spectro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        },
+        {
+          "label": "Healer",
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "bell-borne-geochelone",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: spectro%",
+            "3: spectro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "blazing-brilliance",
+        "rank": "",
+        "percentage": "115"
+      },
+      {
+        "id": "red-spring",
+        "rank": "",
+        "percentage": "102"
+      },
+      {
+        "id": "emerald-of-genesis",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "commando-of-conviction",
+        "rank": "5",
+        "percentage": "91"
+      },
+      {
+        "id": "fables-of-wisdom",
+        "rank": "5",
+        "percentage": "86"
+      },
+      {
+        "id": "lumingloss",
+        "rank": "5",
+        "percentage": "86"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Intro",
+          "Ult",
+          "[E]Forte",
+          "FUA",
+          "BA123",
+          "HA(x2)",
+          "Dash",
+          "BA123",
+          "HA(x2)",
+          "[E]Forte",
+          "FUA"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Intro Skill",
+        "Resonance Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Hypercarry - Zani",
+        "members": [
+          [
+            "Zani"
+          ],
+          [
+            "Phoebe"
+          ],
+          [
+            "Spectro Rover"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "Hypercarrt - Pheeb",
+        "members": [
+          [
+            "Phoebe"
+          ],
+          [
+            "Spectro Rover"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": ""
+      }
+    ],
+    "teamNote": "Rover: Spectro dapat berperan sebagai Dual DPS (set Eternal Radiance), buffer (Moonlit Clouds), atau sustain (Rejuvenating Glow) saat dipasangkan dengan Phoebe. Kehadiran Rover: Spectro merupakan sebuah persyaratan karena Phoebe (Absolution) tidak dapat memberikan stack Spectro Frazzle yang cukup secara mandiri.\n\nUntuk membuka ability Rover: Spectro dalam memberikan Spectro Frazzle, kalian harus mencapai Chapter 2 Prologue (Through the Sea Thou Break).\nS4 diperlukan agar Rover: Spectro dapat memicu 5-pc. bonus set Rejuvenating Glow dengan melancarkan Res. Liberation, jika tidak maka Rover harus menggunakan senjata Originite: Type II."
+  },
+  "skills": {
+    "basic": {
+      "name": "Vibration Manifestation",
+      "description": "Basic Attack\nRover melakukan hingga 4 serangan beruntun, memberikan  Spectro DMG. \n\nHeavy Attack\nRover mengonsumsi STA untuk menyerang target, memberikan  Spectro DMG.  \n\nHeavy Attack: Resonance\nSetelah Basic Attack 3 atau Heavy Attack, tekan Basic Attack Button pada waktu yang tepat untuk melakukan Heavy Attack: Resonance, memberikan  Spectro DMG. \n\nHeavy Attack: Aftertune\nSetelah Heavy Attack: Resonance atau Dodge Counter mengenai target, tekan Basic Attack Button untuk melakukan Heavy Attack: Aftertune, memberikan  Spectro DMG.\n\nMid-air Attack\nRover mengonsumsi STA untuk melakukan Mid-air Plunging Attack, memberikan  Spectro DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge berhasil untuk menyerang target, memberikan  Spectro DMG."
+    },
+    "skill": {
+      "name": "Resonating Slashes",
+      "description": "Rover melancarkan serangan ke depan, memberikan  Spectro DMG. "
+    },
+    "liberation": {
+      "name": "Echoing Orchestra",
+      "description": "Rover mengumpulkan energi Spectro untuk menyerang area target, meledakkannya setelah jeda singkat, dan memberikan  Spectro DMG. "
+    },
+    "forte": {
+      "name": "World In A Grain Of Sand",
+      "description": "Resonance Skill: Resonating Spin\n\nJika Diminutive Sound lebih dari 50 saat Resonance Skill digunakan, Rover mengonsumsi 50 Diminutive Sound untuk mengaktifkan Resonating Spin, memberikan  Spectro DMG. Serangan ini dihitung sebagai Resonance Skill DMG.\n\nBasic Attack: Resonating Echoes\nSetelah Resonance Skill: Resonating Spin berakhir, Rover akan melakukan Resonating Echoes saat menekan Basic Attack Button, menyerang ke depan dan memberikan  Spectro DMG. Serangan ini dihitung sebagai Resonance Skill DMG.\n\nDiminutive Sound\nRover bisa menyimpan hingga 100 Diminutive Sound.\nRover mendapatkan Diminutive Sound setiap kali Normal Attack: Vibration Manifestation mengenai target.\nRover mendapatkan Diminutive Sound setiap kali Heavy Attack: Aftertune mengenai target.\nRover mendapatkan Diminutive Sound saat menggunakan Intro Skill: Waveshock."
+    },
+    "inherent": [
+      {
+        "name": "Reticence",
+        "description": "DMG dari Basic Attack: Resonating Echoes meningkat 60%."
+      },
+      {
+        "name": "Silent Listener",
+        "description": "Setelah menggunakan Heavy Attack: Resonance, ATK Rover meningkat 15% selama 5 detik."
+      }
+    ],
+    "intro": {
+      "name": "Waveshock",
+      "description": "Rover menyerang target, memberikan  Spectro DMG."
+    },
+    "outro": {
+      "name": "Instant",
+      "description": "Membuat area stasis di sekitar Resonator yang masuk, bertahan selama 3 detik."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Mysterious Code",
+            "amount": 46
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Pecok Flower",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Unending Destruction",
+          "amount": 26
+        },
+        {
+          "item": "LF Whisperin Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Whisperin Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Whisperin Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Whisperin Core",
+          "amount": 57
+        },
+        {
+          "item": "Inert Metallic Drip",
+          "amount": 25
+        },
+        {
+          "item": "Reactive Metallic Drip",
+          "amount": 28
+        },
+        {
+          "item": "Polarized Metallic Drip",
+          "amount": 55
+        },
+        {
+          "item": "Heterized Metallic Drip",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Srover",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Blazing Brilliance",
+          "value": 114,
+          "percentage": 114,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 100,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Red Spring",
+          "value": 100,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Fables Of Wisdom R5",
+          "value": 85,
+          "percentage": 85,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Odyssey Of Beginnings",
+      "description": "Saat menggunakan Resonance Skill: Resonating Slashes atau Resonance Skill: Resonating Spin, Crit Rate Rover meningkat 15% selama 7 detik."
+    },
+    {
+      "stage": "S2",
+      "name": "Microcosmic Murmurs",
+      "description": "Spectro DMG Bonus Rover meningkat 20%."
+    },
+    {
+      "stage": "S3",
+      "name": "Visages Of Dust",
+      "description": "Energy Regen Rover meningkat 20%."
+    },
+    {
+      "stage": "S4",
+      "name": "Resonating Lamella",
+      "description": "Saat menggunakan Resonance Liberation: Echoing Resonance, Rover secara terus-menerus memulihkan HP seluruh anggota tim: Setiap detik selama 5 detik, HP yang dipulihkan setara dengan 20% ATK Rover."
+    },
+    {
+      "stage": "S5",
+      "name": "Temporal Virtuoso",
+      "description": "Resonance Liberation DMG Bonus Rover meningkat 40%."
+    },
+    {
+      "stage": "S6",
+      "name": "Echoes Of Wanderlust",
+      "description": "Serangan dari Resonance Skill: Resonating Slashes dan Resonance Skill: Resonating Spin mengurangi Spectro RES target sebesar 10% selama 20 detik."
+    }
+  ],
+  "lore": {
+    "description": "",
+    "report": {
+      "resonancePower": "",
+      "resonanceEvaluation": "",
+      "overclockDiagnostic": ""
+    },
+    "items": [],
+    "stories": [],
+    "specialFood": {
+      "name": "",
+      "description": "",
+      "imageUrl": ""
+    }
+  }
+}

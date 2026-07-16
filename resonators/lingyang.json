@@ -1,0 +1,370 @@
+{
+  "name": "Lingyang",
+  "element": "Glacio",
+  "weapon": "Gauntlet",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer"
+  ],
+  "sonatas": [
+    "Lingering Tunes",
+    "Freezing Frost",
+    "Frosty Resolve"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Liondance Troupe",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Natural",
+  "image": "/characters/lingyang.webp",
+  "imageBanner": "/banners/lingyang-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110-125%",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Mech Abomination"
+    ],
+    "bestWeapon": "Tragicomedy",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Dps Glacio DMG",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: glacio%",
+            "3: glacio%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "lampylumen-myriad",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Freezing Frost"
+          ]
+        },
+        {
+          "label": "DPS General ATK",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: glacio%",
+            "3: glacio%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "mech-abomination",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Lingering Tunes"
+          ]
+        },
+        {
+          "label": "DPS Skill DMG",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: glacio%",
+            "3: glacio%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "sentry-construct",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Frosty Resolve"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Skill/BA",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "tragicomedy",
+        "percentage": "106",
+        "rank": ""
+      },
+      {
+        "id": "veritys-handle",
+        "percentage": "105",
+        "rank": ""
+      },
+      {
+        "id": "pulsation-bracer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "abyss-surges",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "stonard",
+        "percentage": "83",
+        "rank": ""
+      },
+      {
+        "id": "hollow-mirage",
+        "percentage": "81",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Lingyang Hypercarry",
+        "note": "",
+        "members": [
+          [
+            "Lingyang"
+          ],
+          [
+            "Sanhua",
+            "Zhezhi"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      }
+    ],
+    "teamNote": "Zhezhi memberikan Lingyang 20% Glacio & 25% Res. Skill DMG Amplify setelah melancarkan Outro Skill miliknya.\nSanhua memberikan Lingyang 38% Basic ATK DMG Amplify. Pada S6, ia dapat memberikan hingga 20% ATK setelah meledakkan Ice Prisms/Glaciers miliknya."
+  },
+  "skills": {
+    "basic": {
+      "name": "Majestic Fists",
+      "description": "Basic Attack\nLingyang melakukan hingga 5 serangan berturut-turut, memberikan  Glacio DMG.\n\nBasic Attack: Feral Roars\nSetelah menggunakan Resonance Skill Furious Punches, Basic Attack ke-5 digantikan dengan Feral Roars, memberikan  Glacio DMG.\n\nHeavy Attack\nLingyang mengonsumsi STA untuk menyerang target, memberikan  Glacio DMG.\n\nMid-air Attack\nLingyang mengonsumsi STA untuk melakukan Mid-air Plunging Attack, memberikan  Glacio DMG.\n\nDodge Counter\nMenggunakan Basic Attack setelah berhasil melakukan Dodge untuk menyerang target, memberikan  Glacio DMG."
+    },
+    "skill": {
+      "name": "Ancient Arts",
+      "description": "Ancient Arts\nMenyerang target, memberikan  Glacio DMG.\n\nFurious Punches\nKetika Basic Attack ke-3, ke-4, ke-5, atau Basic Attack Feral Roars mengenai target, Resonance Skill Ancient Arts digantikan dengan Resonance Skill Furious Punches.\n- Setelah menggunakan Basic Attack Feral Roars dan Resonance Skill Furious Punches, siklus Basic Attack akan dimulai dari Basic Attack ke-3.\n- Resonance Skill Lingyang tidak akan mereset siklus Basic Attack."
+    },
+    "liberation": {
+      "name": "Strive: Lion'S Vigor",
+      "description": "Menyerang target, memberikan  Glacio DMG, dan memperoleh Lion's Vigor.\n\nLion's Vigor\nLingyang mendapatkan 50%  Glacio DMG Bonus."
+    },
+    "forte": {
+      "name": "Unification Of Spirits",
+      "description": "Heavy Attack: Glorious Plunge\nKetika Lion's Spirit penuh, gunakan Heavy Attack untuk melakukan Glorious Plunge, memberikan  Glacio DMG.\n\nMid-air Attack: Tail Strike\nKetika Lion's Spirit tidak penuh, gunakan Basic Attack setelah Heavy Attack untuk melakukan Tail Strike, memberikan  Glacio DMG.\n\nStriding Lion\n- Setelah menggunakan Heavy Attack Glorious Plunge, Lingyang memasuki Striding Lion state.\n- Jika Lion's Spirit penuh saat menggunakan Intro Skill Lion Awakens atau Resonance Liberation Strive: Lion's Vigor, gunakan Basic Attack untuk memasuki Striding Lion state.\n\nDalam Striding Lion state:\n- Dapat menyerang di udara. Jika berada di tanah, gunakan Heavy Attack Glorious Plunge untuk kembali ke udara.\n- Lion's Spirit terus berkurang dan habis dalam 5 detik, setelah itu Striding Lion berakhir.\n- Jika berada dalam Lion's Vigor, konsumsi Lion's Spirit berkurang 50%, memperpanjang Striding Lion hingga 10 detik.\n- Basic Attack digantikan dengan Basic Attack Feral Gyrate, yang dapat melakukan hingga 2 serangan berturut-turut, memberikan  Glacio DMG.\n- Resonance Skill digantikan dengan Mountain Roamer, memberikan  Glacio DMG.\n- Jika Lion's Spirit kurang dari 10, gunakan Basic Attack untuk melakukan Stormy Kicks, memberikan  Glacio DMG. Setelah Stormy Kicks, Mid-air Attack Tail Strike dapat digunakan.\n- Mengonsumsi Lion's Spirit akan memulihkan Concerto Energy.\n\nLion's Spirit\n- Lingyang dapat menyimpan hingga 100 Lion's Spirit.\n- Lion's Spirit dipulihkan saat menggunakan Resonance Skill Furious Punches, Intro Skill Lion Awakens, dan Resonance Liberation Strive: Lion's Vigor."
+    },
+    "inherent": [
+      {
+        "name": "Lion'S Pride",
+        "description": "DMG dari Intro Skill Lion Awakens meningkat sebesar 50%."
+      },
+      {
+        "name": "Diligent Practice",
+        "description": "Saat berada dalam Forte Circuit Striding Lion state, dalam 3 detik setelah setiap Basic Attack, Resonance Skill Mountain Roamer berikutnya akan memberikan  Glacio DMG tambahan sebesar 150% dari Mountain Roamer DMG (dianggap sebagai Resonance Skill DMG)."
+      }
+    ],
+    "intro": {
+      "name": "Lion Awakens",
+      "description": "Lingyang memasuki medan pertempuran, memberikan  Glacio DMG."
+    },
+    "outro": {
+      "name": "Frosty Marks",
+      "description": "Lingyang melepaskan gelombang kejut di sekitar target, memberikan  Glacio DMG sebesar 587.94% dari ATK Lingyang kepada musuh dalam jangkauan."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Sound-Keeping Tacet Core",
+            "amount": 46
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Coriolus",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Unending Destruction",
+          "amount": 26
+        },
+        {
+          "item": "LF Whisperin Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Whisperin Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Whisperin Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Whisperin Core",
+          "amount": 57
+        },
+        {
+          "item": "Cadence Seed",
+          "amount": 25
+        },
+        {
+          "item": "Cadence Bud",
+          "amount": 28
+        },
+        {
+          "item": "Cadence Leaf",
+          "amount": 55
+        },
+        {
+          "item": "Cadence Blossom",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Lion Of Light, Blessings Abound",
+      "description": "Selama Resonance Liberation Lion's Vigor, Anti-Interruption Lingyang diperkuat."
+    },
+    {
+      "stage": "S2",
+      "name": "Dominant And Fierce, Power Unbound",
+      "description": "Intro Skill Lion Awakens memulihkan tambahan 10 Resonance Energy untuk Lingyang. Dapat dipicu sekali setiap 20 detik."
+    },
+    {
+      "stage": "S3",
+      "name": "Jaw-Dropping Feats, Loud And Wide",
+      "description": "Selama Resonance Liberation Lion's Vigor:\n- Basic Attack DMG Bonus Lingyang meningkat 20%.\n- Resonance Skill DMG Bonus meningkat 10%."
+    },
+    {
+      "stage": "S4",
+      "name": "Immortals Bow, In Reverence Flawed",
+      "description": "Outro Skill Frosty Marks meningkatkan  Glacio DMG Bonus seluruh anggota tim sebesar 20% selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Seven Stars Shine, Stepped Upon High",
+      "description": "Resonance Liberation Strive: Lion's Vigor memberikan tambahan  Glacio DMG sebesar 200% dari ATK Lingyang"
+    },
+    {
+      "stage": "S6",
+      "name": "Demons Tremble, Divine Power Nigh",
+      "description": "Dalam Forte Circuit Striding Lion state, selama 3 detik pertama setelah setiap Resonance Skill Mountain Roamer, Basic Attack DMG Bonus untuk Basic Attack berikutnya meningkat sebesar 100%."
+    }
+  ],
+  "lore": {
+    "description": "Lingyang adalah anggota Liondance Troupe di Jinzhou yang berbakat dan ramah. Semangat dan keberaniannya terlihat jelas saat ia berinteraksi dengan manusia, menunjukkan kemampuan fisiknya yang luar biasa. Dengan gayanya yang khas, ia benar-benar mewujudkan semangat Liondancing.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n08 Agustus",
+    "report": {
+      "resonancePower": "Frosty Gusto",
+      "overclockDiagnostic": "Gelombang grafik Resonator Lingyang menunjukkan fluktuasi elips. Pola Time Domain teratur dengan nilai puncak yang stabil, tanpa adanya anomali dalam gelombang.\n- Resonant Criticality: Sangat stabil. Resonator Lingyang memiliki tingkat Criticality yang cukup tinggi. Risiko Overclocking sangat rendah.\n- Riwayat Overclocking: Tidak ada catatan Overclocking sebelumnya.\n- Lingyang menunjukkan kendali yang sangat baik atas Forte-nya dan mampu menjaga kestabilan emosinya secara konsisten.\n- Saat menggunakan kemampuannya, yang dikenal sebagai \"Will Transmission\", medan bersuhu rendah yang dihasilkan terutama memberikan manfaat bagi sekutunya. Dalam situasi kelompok, efek ini membantu mengurangi risiko Overclocking bagi Lingyang.\n\nRekomendasi:\n- Menjaga risiko Overclocking tetap rendah.\n- Melakukan pemantauan berkala terhadap perkembangannya.\n- Observasi lebih lanjut dianjurkan.",
+      "resonanceEvaluation": "Dasar Evaluasi: [Resonance Assessment 1888-G]\n\nUsia dan waktu Awakening dari Resonator Lingyang masih belum diketahui, namun tampaknya ia telah mengalami Awakening sejak lama. Lingyang telah bertahan dalam kondisi lingkungan yang ekstrem dalam waktu lama, dan kemungkinan besar telah mengaktifkan Forte-nya secara alami saat bertarung.\n\nLingyang memiliki Tacet Mark di lengan kanannya. Tidak ditemukan mutasi setelah Awakening.\n\nDaya tahan fisik dan kekuatannya luar biasa, kemungkinan besar akibat terbiasa dengan kondisi ekstrem. Ia menunjukkan keterampilan bertarung dan bertahan hidup yang sangat baik, tetapi kurang berpengalaman dalam menggunakan Forte-nya karena tidak terbiasa menggunakannya dalam keseharian. Evaluasi lebih lanjut diperlukan untuk menentukan apakah ia membutuhkan bimbingan dalam menguasai Forte-nya.\n\nSaat berada di bawah pengaruh Forte-nya, Lingyang mengalami peningkatan indra dan dapat menghasilkan Gusto beku tak kasat mata dalam area terbatas. Efek ini juga menciptakan medan bersuhu rendah yang memberikan tekanan pada musuh di sekitarnya. Selain itu, Lingyang dapat memengaruhi dan membangkitkan semangat orang-orang di sekitarnya melalui kehendaknya yang ditransmisikan.\n\nBelum pernah ditemukan Resonance Spectrum Pattern yang mirip dengan Lingyang. Penyebab Awakening-nya masih belum diketahui hingga saat ini.\n\nAnalisis sampel uji menunjukkan Rabelle’s Curve yang tidak konvergen dengan peningkatan bertahap. Oleh karena itu, Lingyang diidentifikasi sebagai Natural Resonator.\n\n\"Apa? Jadi penampilannya yang seperti 'binatang buas' bukan karena efek dari Forte-nya? Sebenarnya ini apa...?\""
+    },
+    "items": [
+      {
+        "name": "Liondance Head",
+        "imageUrl": "/icons/items/lingyang-1.webp",
+        "description": "Kepala Liondance ini diberikan kepada Lingyang oleh Tuan Qixing dari Liondance Troupe sebagai tanda kehormatan.\n\nLingyang bergabung dengan Liondance Troupe secara kebetulan ketika masih kecil, dan pertunjukan Liondance membantunya menyalurkan sisi liarnya sekaligus membawa semangat dan berkah bagi masyarakat. Berkat ini, Lingyang dapat membaur dengan warga Jinzhou.\n\nDengan kerja keras dan latihan yang tekun, tubuh kecil Lingyang mampu mengekspresikan suka duka sang singa, gerakan lincahnya, serta ketakutannya.\n\nKini, meskipun ia sudah menjadi Liondancer yang terkenal, Lingyang tetap membawa kepala singa ini ke mana pun ia pergi."
+      },
+      {
+        "name": "Jinzhou Skewers",
+        "imageUrl": "/icons/items/lingyang-2.webp",
+        "description": "Memanggang adalah metode memasak yang populer di Jinzhou, tetapi Lingyang selalu merasa bahwa arang panggangan terlalu mendominasi rasa alami daging. Karena itu, ia bertekad menciptakan sesuatu yang unik. Setelah bereksperimen, ia akhirnya menyempurnakan teknik membuat sate \"medium-rare\" versinya sendiri.\n\nDengan menggabungkan Jinzhou Skewers yang terkenal dengan bumbu sederhana namun kaya rasa, Lingyang berhasil mempertahankan kelembutan dan tekstur daging yang halus, sambil menambahkan cita rasa baru yang langsung menjadi sensasi di kota.\n\nMeskipun ia telah membagikan teknik memasaknya, hanya Lingyang yang mampu mencapai tingkat kesempurnaan \"medium-rare\" yang khas. Berkat dedikasi dan kreativitasnya, hidangan sederhana ini kini menjadi karya khasnya.\n\n\"Mau tahu rahasia masakanku? Perlakukan tiap bahan dengan hati-hati dan sesuaikan api sesuai kebutuhan. Gampang, kan?\""
+      },
+      {
+        "name": "Worn Longevity Lock",
+        "imageUrl": "/icons/items/lingyang-3.webp",
+        "description": "Liontin Longevity Lock misterius yang dikenakan Lingyang saat pertama kali bertemu dengan anggota Liondance Troupe.\n\nSetelah tiba di Jinzhou, anggota Liondance Troupe berkeliling kota untuk membantu Lingyang mencari pedagang yang mungkin tahu asal-usul liontin ini. Namun, hasilnya nihil. Semua yang mereka dengar hanyalah,\n\n\"Ini desain kuno yang belum pernah saya lihat sebelumnya.\"\n\nMengingat gerakan lincah dalam Liondance bisa saja merusaknya, Lingyang memutuskan untuk menyimpannya dengan aman di dalam kotak kayu.\n\nTerlepas dari siapa pun yang membuatnya, Longevity Lock tetap membawa harapan baik untuk kesehatan dan kebahagiaan. Dengan membagikannya kepadamu, Lingyang menunjukkan ketulusan hatinya dan berharap yang terbaik untukmu."
+      }
+    ],
+    "stories": [
+      {
+        "title": "Auspicious \"Lion Head\"",
+        "content": "Liondance di Jinzhou memiliki banyak penggemar. Baik itu acara besar seperti upacara penyambutan mahasiswa baru dan peresmian toko, maupun acara lebih intim seperti perayaan ulang tahun orang tua dan pesta 100 hari bayi, selalu ada momen yang membutuhkan ritual perayaan. Inilah alasan mengapa Liondance Troupe selalu memiliki aliran klien yang stabil.\n\nSebagai Liondancer utama, peran Lingyang tidak hanya terbatas pada pertunjukan menegangkan di atas Plum Blossom Poles yang penuh risiko. Merancang koreografi Liondance yang unik untuk setiap acara adalah bagian penting dari pekerjaannya, memastikan setiap pertunjukan memberikan kesan mendalam bagi para klien.\n\nLingyang sangat menikmati berinteraksi dengan klien, menggali keinginan mereka untuk menciptakan pertunjukan Liondance yang sesuai dengan harapan. Namun, lebih dari sekadar pekerjaan, ini adalah hasrat pribadinya. Baginya, setiap cerita seseorang adalah harta karun yang menunggu untuk ditemukan, dan ia senang mengungkapnya. Rasa ingin tahunya yang tulus sering kali membuat klien merasa nyaman untuk berbagi pemikiran mereka. Bahkan, ada yang sampai bertanya-tanya,\n\n\"Apa Liondance Troupe sekarang juga menawarkan layanan konseling psikologis?\"\n\nLiondance Troupe harus menghadapi jadwal padat, perubahan mendadak, dan berbagai keadaan tak terduga. Menyeimbangkan konflik dan ketegangan adalah tantangan konstan, karena satu kesalahan kecil saja bisa berarti kehilangan klien yang berharga. Oleh karena itu, kunci kesuksesan mereka terletak pada memahami dan menangani emosi setiap klien. Lingyang telah menguasai seni negosiasi ini, menjadikannya salah satu keahliannya yang paling berharga.\n\nUntungnya, Lingyang punya cara lain untuk menghadapi klien yang sulit: memberikan Lucky Greetings. Dengan senyum cerah dan harapan baik yang tulus, ia bahkan bisa membuat klien yang paling keras kepala luluh. Lambat laun, koleksi Lucky Greetings miliknya menjadi bacaan wajib bagi para Liondancer, hingga akhirnya kebiasaan “memberikan Lucky Greetings kepada semua orang” menjadi ciri khas dari Liondance Troupe.\n\n\"Memberikan salam keberuntungan saat bertemu seseorang... Kamu pasti dari Liondance Troupe, kan? Silakan masuk!\"\n\nNamun, Lucky Greetings dari Lingyang bukanlah sekadar ucapan yang sama untuk semua orang. Setiap salamnya harus tulus dan disesuaikan dengan penerimanya. Meski telah menjadi kebiasaan bagi Liondance Troupe, Lingyang tetap berusaha memberikan doa dan harapan yang benar-benar bermakna. Ia yakin bahwa Lucky Greetings membawa keberuntungan bagi siapa pun yang menerimanya.\n\nJadi, jika suatu hari kamu bertemu seorang Liondancer yang menghujanimu dengan Lucky Greetings, jangan curiga. Terimalah doa dan harapan baiknya dengan tulus, karena itu adalah respons terbaik untuk seseorang yang penuh kebaikan dan ketulusan."
+      },
+      {
+        "title": "A Twist Of Fate",
+        "content": "Berbicara tentang bagaimana Lingyang bergabung dengan Liondance Troupe, kita harus kembali ke hari yang tampaknya “biasa” itu—hari ketika pertunjukan Liondance di Jinzhou Theater baru saja berakhir. Saat para staf sibuk merapikan properti panggung, seorang pemuda berpenampilan aneh tiba-tiba jatuh dari atap. Lebih tepatnya, bukan sekadar “jatuh”, tapi lebih seperti “terhempas” dengan cukup dramatis.\n\nTernyata, ini bukan insiden biasa, melainkan kecelakaan yang sudah direncanakan dengan matang. Lingyang awalnya berniat mendekati Liondance Troupe dengan cara yang lebih terkontrol. Namun, satu hal yang tidak ia perhitungkan adalah bahwa atap, terutama setelah hujan, jauh lebih licin dibandingkan ranting pohon.\n\nSaat itu, Lingyang bahkan belum sepenuhnya menguasai bahasa manusia, dan ia juga belum memiliki nama. Dalam waktu yang cukup lama, para anggota Liondance Troupe hanya memanggilnya “si kecil”.\n\nMeski sudah berusaha sebaik mungkin, Lingyang tetap kesulitan berkomunikasi dengan anggota kelompok. Akhirnya, ia memilih cara lain—menampilkan Liondance dengan canggung menggunakan kepala singa yang ia temukan entah dari mana.\n\nSetiap kali para anggota Liondance Troupe mengenang momen ini, mereka selalu tertawa dan berkata bahwa saat itu, Lingyang lebih terlihat seperti sedang memamerkan cakar dan taringnya daripada benar-benar menampilkan Liondance yang sesungguhnya.\n\nMeski maksud Lingyang cukup jelas, penampilannya yang tidak biasa memicu berbagai perdebatan di antara anggota kelompok.\n\nPada akhirnya, anggota tertua dari kelompok, yang bahkan dihormati sebagai \"Master\" oleh para pemimpin Liondance Troupe saat ini, membuat keputusan—menerima Lingyang sebagai bagian dari mereka.\n\nLingyang sudah berkali-kali bertanya alasan di balik keputusan itu, tetapi jawabannya selalu samar:\n\n\"Haha, mungkin karena telinga dan ekormu mirip dengan singa legendaris pembawa keberuntungan.\"\n\nNamun, sesekali, saat sang Master tertidur siang, Lingyang sempat mendengar gumaman dalam tidurnya:\n\n\"‘Singa Besar’... Aku berhasil... Janjiku...\"\n\nDi bawah bimbingan sang Master, Lingyang pun memulai perjalanan belajarnya secara resmi—mempelajari Liondance, kaligrafi, serta cara berinteraksi dengan manusia.\n\nUntuk membantunya mengendalikan kekuatan liar dalam tubuhnya, ia diajarkan sebuah rangkaian gerakan kuno dari Huanglong, yang dipercaya dapat mengatur aliran energi sekaligus menjadi dasar dari teknik Liondance. Dengan latihan yang tekun, Lingyang akhirnya mendapatkan gelar \"Lion Head\" secara resmi.\n\nDi Jinzhou, istilah \"Lion Head\" memiliki beberapa makna. Bagi orang biasa, itu bisa merujuk pada kepala singa yang digunakan dalam pertunjukan, atau penari utama dalam Liondance. Namun, bagi para Liondancer, itu adalah sebuah mimpi bersama—aspirasi untuk menjadi \"pemimpin singa\" melalui latihan keras dan teknik yang sempurna.\n\n\"Aku lahir dengan kekuatan ini dan mengasah keterampilan berburu di alam liar. Tapi Liondance bukan sekadar soal kekuatan—postur, langkah, ritme, koordinasi dengan rekan satu tim... Semua itu tidak bisa dipelajari dalam semalam. Master selalu menekankan betapa pentingnya Liondance bagi masyarakat Jinzhou, dan aku tidak bisa menghilangkan rasa khawatir kalau aku belum memenuhi harapan mereka. Untuk benar-benar layak menyandang gelar 'Lion Head', aku tahu aku harus berusaha lebih keras.\"\n\nMenurut sang Master, Lingyang bukan sekadar berbakat. Yang lebih penting, ia memiliki keinginan kuat untuk terus berkembang.\n\nSetiap kali mempelajari gerakan baru, ia akan berlatih tanpa henti hingga langit dipenuhi bintang. Sering kali, ia berdiri di atas Plum Blossom Pole di Central Plains, menatap bayangannya di air, seolah sedang merenung atau menantang batas dirinya sendiri.\n\nDi antara kelopak bunga yang berguguran, Lion Head muda itu menari penuh semangat di atas tiang, menciptakan pemandangan yang unik dan tak terlupakan di wilayah tersebut."
+      },
+      {
+        "title": "A Helpful Lion",
+        "content": "Tak lengkap rasanya membicarakan Central Plains tanpa menyebut Liondance Troupe dan latihan musim dingin tahunan mereka.\n\nDi musim sepi pertunjukan, Liondance Troupe berkumpul di Taoyuan Vale untuk menjalani latihan intensif di tempat pelatihan mereka. Persiapan ini sangat penting untuk menghadapi New Year Parade, acara besar di Jinzhou yang menandai perpisahan dengan tahun lama dan menyambut tahun baru.\n\nMeskipun musim dingin dianggap sebagai masa istirahat, Liondance Troupe tetap bekerja keras—menyempurnakan karakter, mengasah keterampilan, membuat properti, dan merancang pertunjukan baru. Tidak ada waktu untuk bersantai. Namun, bagi Lingyang, meninggalkan kota dan pergi ke alam liar adalah kesempatan emas untuk kembali ke akarnya.\n\nDi tengah hawa dingin, semangat alami Lingyang tetap membara, tak ubahnya seperti binatang buas yang mendiami pegunungan di sekitarnya.\n\nSaat dunia tertutup oleh salju, para makhluk liar mulai berburu dengan penuh semangat. Setiap kali Lingyang mendengar raungan atau jeritan minta tolong di kejauhan, ia akan segera berlari ke dalam hutan saat ada jeda latihan. Dengan kecepatan petir, ia menghadapi ancaman dengan brutal, mencabik-cabik para pemangsa dalam sekejap.\n\nOrang-orang yang diselamatkan merasa bersyukur, tetapi tatapan mereka menyiratkan ketakutan.\nLingyang tak bisa menahan diri untuk bertanya dalam hati:\n\n\"Apakah mereka masih takut pada binatang buas itu? Atau... mereka khawatir aku akan mencabik-cabik mereka juga?\"\n\nBerulang kali dihadapkan pada rasa takut manusia, Lingyang mulai menyadari perbedaan dirinya dengan mereka—cakar dan taringnya, yang digunakan saat bertarung, terlihat sangat mirip dengan para binatang buas yang ia lawan.\n\nBisakah orang-orang benar-benar menerima sisi dirinya yang ini?\n\nMungkin... ia perlu menemukan cara yang lebih \"diterima\" untuk membantu orang lain—setidaknya, dengan niat baik?\n\nTak lama, rumor mulai beredar di Jinzhou: setiap musim dingin, ada sosok misterius berkepala singa yang muncul untuk menolong mereka yang sedang dalam bahaya di Central Plains.\n\nSeiring waktu, orang-orang mulai menyadari bahwa makhluk itu tidak berniat jahat. Rasa takut berubah menjadi rasa penasaran, dan sosok tersebut akhirnya dijuluki sebagai \"dewa pelindung musim dingin\", yang mengawasi para pelancong selama bulan-bulan dingin.\n\nTapi, itu cerita untuk lain waktu. Untuk saat ini, Lingyang punya masalah lain yang lebih mendesak—suasana hati sang Master.\n\nAkhir-akhir ini, saat ia seharusnya ada di sesi latihan, Lingyang justru sering menghilang dari gym. Suara kemarahan sang Master bergema di lembah, membuat burung-burung yang bertengger beterbangan ketakutan.\n\n\"Lingyang? Lingyang! Ke mana lagi bocah nakal itu sekarang?!\""
+      },
+      {
+        "title": "A Lone Journey",
+        "content": "\"Seperti apa rupa tanah di pinggiran Huanglong dahulu?\"\n\nBahkan para peneliti tertua pun tak bisa memberikan jawaban pasti.\n\nLegenda yang diwariskan dari generasi ke generasi menceritakan tentang sebuah tanah yang dulu diselimuti hutan lebat, penuh dengan kehidupan, dan menjadi rumah bagi makhluk suci yang dihormati oleh semua. Namun, itu semua terjadi sebelum Lament turun ke dunia—mengubah tanah yang dahulu subur itu menjadi hamparan beku yang sunyi dan tak bernyawa.\n\nSejauh yang bisa diingatnya, Lingyang hanya mengenal lanskap tandus ini.\n\nIa tak tahu kapan pertama kali mulai mengingat sesuatu, tapi tak ada kenangan tentang apa yang terjadi sebelumnya. Ia tak tahu kapan ia lahir, di mana ia pernah tinggal, atau ke mana ia harus pergi. Setelah melarikan diri dari kehancuran tanah kelahirannya, ia mengembara sendirian di alam liar, berjuang melawan kesepian, cuaca yang ganas, dan kehampaan yang tak berujung. Ia merasa tak jauh berbeda dengan binatang buas, bertahan hidup hanya dengan naluri—tanpa tujuan, tanpa arah.\n\nNamun segalanya berubah ketika ia bertemu sekelompok pasukan manusia.\n\nDi dalam hutan, saat berburu, Lingyang melihat makhluk-makhluk aneh yang berjalan dengan dua kaki. Ia mengamati mereka dengan waspada, mengikuti dari kejauhan, dan memperhatikan setiap gerakan mereka. Lingyang tak bisa menahan rasa ingin tahunya.\n\nMereka menghadapi musuh yang jauh lebih kuat, tapi tak pernah menyerah atau melarikan diri.\n\nBahkan ketika terluka, mereka tetap melindungi satu sama lain dan berbagi suplai penting. Kelaparan pun tak membuat mereka kehilangan tekad untuk saling membantu.\n\nLingyang bertanya-tanya, kenapa makhluk-makhluk berkaki dua ini selalu menunjukkan tindakan yang tak bisa ia pahami?\n\nNamun, entah kenapa, melihat perilaku mereka yang \"aneh\" ini membuat sesuatu di dalam dirinya mulai menyala—mencairkan sedikit rasa takut dan dingin yang telah lama membelenggunya.\n\nTahun-tahun berlalu, tetapi bayangan para pejuang itu tak pernah pudar dari pikirannya. Lingyang terus mengikuti jejak dan aroma mereka hingga akhirnya tiba di tanah asing—Jinzhou.\n\nDari atas tebing, ia menatap tempat tinggal para makhluk aneh ini dari kejauhan. Tiba-tiba, suara gong dan tabuhan genderang menggema, mengejutkannya. Namun, ia segera menyadari bahwa mereka sedang berkumpul di gerbang kota.\n\nSaat itulah Lingyang melihat sesuatu yang mengguncang jiwanya.\n\nDi tengah keramaian, seorang penari berkepala singa bergerak dengan irama yang penuh semangat. Melihatnya, sesuatu di dalam diri Lingyang bergolak—sebuah perasaan yang telah lama ia cari, sesuatu yang seolah terukir dalam darahnya.\n\nDi sanalah ia memutuskan untuk bergabung dengan makhluk-makhluk aneh ini.\n\nDi masa mendatang, ia akan menghadapi kesulitan, mengerahkan seluruh tenaga, dan merasakan rasa sakit demi menemukan tujuan yang selama ini ia cari. Tapi satu hal pasti—tekadnya tak akan pernah goyah.\n\n"
+      },
+      {
+        "title": "The Naming Day",
+        "content": "Sejak bergabung dengan Liondance Troupe, Lingyang selalu memperlakukan orang lain dengan penuh semangat. Ia bercita-cita menjadi seperti nyala api, mengusir rasa takut dari hati mereka yang ada di sekitarnya.\n\nNamun, takdir menempuh jalannya sendiri. Lingyang justru menemukan bahwa Forte-nya berhubungan dengan es yang menusuk tulang.\n\n\"Tapi tidak ada yang menyukai dingin,\"\n\npikirnya.\n\n\"Aku sendiri sudah berkali-kali bertahan di tengah hawa beku, tapi tetap saja takut pada dingin. Bagaimana caranya aku bisa membantu orang lain mengatasi ketakutan mereka dengan kekuatan ini?\"\n\nRasa frustrasi membuatnya kembali ke tempat latihan, melemparkan dirinya ke dalam irama tarian di atas Plum Blossom Poles. Setiap langkah dan loncatan adalah caranya mencari jalan keluar dari kegelisahan yang berkecamuk dalam hati.\n\nDi sanalah sang master mendekatinya. Seolah memahami kegundahan muridnya, ia pun mendorong Lingyang untuk mengungkapkan perasaannya.\n\n“Haha, aku mengerti sekarang. Omong-omong, bocah, kau belum punya nama, kan?”\n\ntanya sang master.\n\n“Nama? Apakah itu penting?”\n\n“Bagi kami, manusia, iya. Nama membawa harapan dan doa dari orang tua kita. Tapi apakah kau akan memenuhi harapan itu atau justru menentangnya, itu sepenuhnya pilihanmu.”\n\nSang master melanjutkan,\n\n“Karena kau tak ingat masa lalumu dan kami tak tahu siapa orang tuamu, bagaimana kalau kau memilih namamu sendiri? Bocah, ingin jadi seperti apa kau di masa depan?”\n\n“Seperti apa... manusia?”\n\nLingyang bertanya balik, membuat sang master tertawa kecil sebelum mengoreksi ucapannya,\n\n“Maksudku, apa yang paling ingin kau lakukan saat ini?”\n\n“Oh! Aku ingin berdiri di Plum Blossom Pole tertinggi di dunia! Yang lebih tinggi dari matahari!”\n\n“Haha, mimpi besar! Tapi mereka yang terlalu dekat dengan matahari bisa terbakar dan meleleh, kau tahu?”\n\n“Hmm... itu memang bisa jadi masalah, tapi aku tidak takut! Aku ingin membawa kegembiraan dan kedamaian untuk semua orang. Dan! Aku juga ingin menjadi seseorang yang bisa memberikan kehangatan dan keberanian kepada orang-orang! Jika matahari bisa melelehkanku, maka aku akan menjadi lebih panas dari matahari dan melelehkannya lebih dulu!”\n\n“Hahaha, ambisius sekali, ya? Baiklah, kalau begitu... bagaimana kalau ‘Lingyang’? Nama itu mencerminkan keinginanmu untuk melampaui matahari—‘Yang’.”\n\n“Mulai sekarang, kau memiliki nama. Itu berarti kau adalah seorang individu yang mandiri. Anggap saja hari ini sebagai hari ulang tahunmu.”\n\n“Ulang tahun? Apa itu?”\n\n“Ulang tahun adalah hari di mana manusia mengenang perjalanan waktu dan kefanaan hidup. Yang lebih penting, ini adalah hari untuk merayakan kelahiran kita, bersyukur atas semua keajaiban yang kita temui sepanjang perjalanan tumbuh dewasa.”\n\n“Kalau begitu...”\n\n“Selamat ulang tahun, Lingyang!”\n\nTiba-tiba, suara riuh menggema di sekelilingnya. Para seniornya telah berkumpul dan meneriakkan namanya dalam satu suara.\n\n“Ling... yang...”\n\nPerlahan, ia mengulang nama itu dalam hati. Nama yang menjadi hadiah paling berharga dalam hidupnya. Dengan jantung berdegup kencang, ia berjanji dalam hati—janji untuk memenuhi harapan yang terkandung dalam namanya, serta melindungi mereka yang ia cintai.\n\nSuatu hari nanti, kehadirannya akan mencairkan hati yang beku dan membawa kehangatan dalam kehidupan orang-orang...\n\nSeperti matahari yang muncul dari balik awan kelam."
+      }
+    ],
+    "specialFood": {
+      "name": "Liondance Companion",
+      "imageUrl": "/icons/food/lingyang.webp",
+      "description": "Meningkatkan ATK semua Resonator dalam tim sebesar 120, bertahan selama 15 menit. Hanya efektif pada Resonator milik sendiri saat dalam Mode Co-op."
+    }
+  }
+}

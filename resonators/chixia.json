@@ -1,0 +1,361 @@
+{
+  "name": "Chixia",
+  "element": "Fusion",
+  "weapon": "Pistol",
+  "rarity": 4,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer"
+  ],
+  "sonatas": [
+    "Molten Rift"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Public Security Bureau",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Mutant",
+  "image": "/characters/chixia.webp",
+  "imageBanner": "/banners/chixia-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1800+",
+    "Energy Regen": "110-145%",
+    "Crit Ratio (Crit Weapon)": "60-65% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Rider"
+    ],
+    "bestWeapon": "The Last Dance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: fusion%",
+            "3: fusion%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "nightmare-rider",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Molten Rift"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK",
+        "Reso Libe DMG",
+        "Energy Regen"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "the-last-dance",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "phasic-homogenizer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "static-mist",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "thunderbolt",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "relativistic-jet",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "novaburst",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Normal Attack",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Mono Fushion",
+        "note": "Brant memberikan Fusion DMG & Res. Skill DMG Amplify untuk Chixia, menjadikannya salah satu pasangan terbaik bagi Chixia.\nAlternatifnya, Changli memberikan Fusion DMG & Res. Liberation DMG Amplify untuk Chixia.",
+        "members": [
+          [
+            "Chixia"
+          ],
+          [
+            "Changli",
+            "Brant"
+          ],
+          [
+            "Lupa"
+          ]
+        ]
+      },
+      {
+        "name": "Chixia Hypercarry",
+        "note": "Jika Brant atau Changli tidak tersedia, Res. Skill Amplifier lain seperti Cantarella atau Zhezhi bisa menjadi pilihan. Taoqi juga merupakan opsi meskipun rotasinya jauh lebih lambat.",
+        "members": [
+          [
+            "Chixia"
+          ],
+          [
+            "Cantarella",
+            "Zhezhi",
+            "Taoqi"
+          ],
+          [
+            "Shorekeeper",
+            "Verina"
+          ]
+        ]
+      }
+    ],
+    "teamNote": ""
+  },
+  "skills": {
+    "basic": {
+      "name": "POW POW",
+      "description": "Basic Attack\nChixia menembakkan hingga 4 tembakan beruntun, memberikan   Fusion DMG.\n\nHeavy Attack \nChixia memasuki mode Aiming untuk menembakkan serangan yang lebih kuat.\nTembakan yang dilepaskan setelah charge selesai memberikan Fusion DMG.\n\nMid-air Attack\nMenggunakan Stamina untuk melakukan beberapa tembakan ke arah target saat berada di udara, memberikan  Fusion DMG.\n\nDodge Counter\nGunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG."
+    },
+    "skill": {
+      "name": "Whizzing Fight Spirit",
+      "description": "Chixia melepaskan rentetan tembakan, memberikan  Fusion DMG.\nWhizzing Fight Spirit memiliki 2 initial charges."
+    },
+    "liberation": {
+      "name": "Blazing Flames",
+      "description": "Chixia menembakkan peluru cepat ke musuh di sekitar, memberikan  Fusion DMG."
+    },
+    "forte": {
+      "name": "Heroic Bullets",
+      "description": "Resonance Skill: DAKA DAKA!\nTahan Resonance Skill: Whizzing Fight Spirit untuk memasuki mode DAKA DAKA!. \nDalam mode ini:\nChixia terus mengonsumsi \"Thermobaric Bullets\" untuk menyerang target, memberikan  Fusion DMG (dihitung sebagai Resonance Skill DMG).\nTekan Basic Attack untuk langsung menggunakan Basic Attack 4, memberikan  Fusion DMG (dihitung sebagai Basic Attack DMG), lalu keluar dari mode DAKA DAKA!.\nJika 30 Thermobaric Bullets telah ditembakkan sebelum Basic Attack diaktifkan, Chixia akan melepaskan Resonance Skill: Boom Boom, lalu keluar dari mode DAKA DAKA!.\nChixia akan otomatis keluar dari mode DAKA DAKA! ketika semua Thermobaric Bullets habis.\n\nResonance Skill: Boom Boom\nMemberikan  Fusion DMG, dihitung sebagai Resonance Skill DMG.\n\nThermobaric Bullets\nChixia dapat menyimpan hingga 60 Thermobaric Bullets.\nInherent Skill: Scorching Magazine meningkatkan batas maksimal Thermobaric Bullets sebanyak 10.\nChixia mendapatkan Thermobaric Bullets saat Basic Attack: POW POW mengenai target.\nChixia mendapatkan Thermobaric Bullets saat menggunakan Intro Skill: Grand Entrance dan Resonance Skill: Whizzing Fight Spirit."
+    },
+    "inherent": [
+      {
+        "name": "Scorching Magazine",
+        "description": "Maksimum Thermobaric Bullets bertambah 10 peluru.\nDMG dari Resonance Skill: Boom Boom meningkat 50%."
+      },
+      {
+        "name": "Numbingly Spicy!",
+        "description": "Setiap Thermobaric Bullets yang mengenai target saat berada dalam DAKA DAKA! meningkatkan ATK sebesar 1% selama 10 detik, dapat ditumpuk hingga 30 kali."
+      },
+      {
+        "name": "Tune Break: Pistols",
+        "description": ""
+      }
+    ],
+    "intro": {
+      "name": "Grand Entrance",
+      "description": "Chixia melakukan heroic entrance dan menembakkan rentetan peluru dengan pistol ganda ke arah target, memberikan  Fusion DMG."
+    },
+    "outro": {
+      "name": "Leaping Flames",
+      "description": "Chixia melepaskan gelombang kejut di sekitar target, memberikan  Fusion DMG setara dengan 530% ATK Chixia kepada musuh dalam jangkauan."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Rage Tacet Core",
+            "amount": 46
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Belle Poppy",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Monument Bell",
+          "amount": 26
+        },
+        {
+          "item": "LF Whisperin Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Whisperin Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Whisperin Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Whisperin Core",
+          "amount": 57
+        },
+        {
+          "item": "Impure Phlogiston",
+          "amount": 25
+        },
+        {
+          "item": "Extracted Phlogiston",
+          "amount": 28
+        },
+        {
+          "item": "Refined Phlogiston",
+          "amount": 55
+        },
+        {
+          "item": "Flawless Phlogiston",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "No.1 Hero Play Fan",
+      "description": "Serangan dari Resonance Skill: Boom Boom selalu menghasilkan Critical Hit."
+    },
+    {
+      "stage": "S2",
+      "name": "Leaping Sparkles",
+      "description": "Selama Resonance Liberation: Blazing Flames, setiap kali 1 musuh dikalahkan, \nChixia memulihkan 5 Resonance Energy, hingga maksimum 20 per penggunaan."
+    },
+    {
+      "stage": "S3",
+      "name": "Eternal Flames",
+      "description": "Resonance Liberation: Blazing Flames memberikan 40% lebih banyak DMG kepada target dengan HP di bawah 50%."
+    },
+    {
+      "stage": "S4",
+      "name": "Hero’S Ultimate Move",
+      "description": "Menggunakan Resonance Liberation: Blazing Flames langsung memberikan 60 Thermobaric Bullets dan langsung mereset Cooldown dari Resonance Skill: Whizzing Fight Spirit."
+    },
+    {
+      "stage": "S5",
+      "name": "Triumphant Explosions",
+      "description": "Saat Inherent Skill: Numbingly Spicy! mencapai jumlah stack maksimal, \nATK bertambah 30% tambahan."
+    },
+    {
+      "stage": "S6",
+      "name": "Easter Egg Performance",
+      "description": "Resonance Skill: Boom Boom meningkatkan Basic Attack DMG Bonus seluruh anggota tim sebesar 25% selama 15 detik."
+    }
+  ],
+  "lore": {
+    "description": "Chixia adalah Patroller muda penuh semangat yang menerangi jalanan Jinzhou. Selalu siap, selalu sigap—ia adalah pahlawan yang selalu hadir saat dibutuhkan.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n18 April",
+    "report": {
+      "resonancePower": "Gallant Blaze",
+      "overclockDiagnostic": "Grafik gelombang Resonator Chixia menunjukkan fluktuasi elips yang stabil dalam Time Domain, tanpa adanya pola abnormal.\n\nSemua hasil pemeriksaan berada dalam batas normal.\n\nResonant Criticality: Tinggi\nStabilitas Frekuensi: Sangat tinggi\nRisiko Overclocking: Minimal\n\nResonator Chixia tidak memiliki riwayat Overclocking yang terdokumentasi.\n\nDisarankan untuk melakukan pemeriksaan rutin, sementara konseling psikologis saat ini tidak diperlukan.",
+      "resonanceEvaluation": "Dasar Evaluasi: [Resonance Assessment 2893-G]\n\nResonator Chixia mengalami Awakening enam tahun lalu setelah terpapar suhu ekstrem dan kobaran api yang dahsyat.\n\nTacet Mark milik Chixia terletak di bagian bawah perut kirinya. Setelah Awakening, ia mengalami perubahan warna rambut menjadi merah, serta peningkatan suhu tubuh yang signifikan.\n\nIa memiliki kemampuan untuk mengubah frekuensi zat bersuhu tinggi menjadi amunisi api yang nyata.\n\nResonance Spectrum Pattern Chixia menunjukkan keselarasan erat dengan elemen api. Reaksi Syntony yang kuat terdeteksi dalam pengujian, meskipun penyebab pasti Awakening-nya masih belum diketahui.\n\nAnalisis terhadap sampel uji menunjukkan adanya Kurva Rabelle yang tidak konvergen, dengan kenaikan curam di bagian tengahnya.\n\nBerdasarkan hasil ini, Resonator Chixia diklasifikasikan sebagai Mutant Resonator."
+    },
+    "items": [
+      {
+        "name": "Headline Screenshots",
+        "description": "Aksi heroik Chixia telah menjadikannya figur yang dihormati di Jinzhou.\n\nMeskipun ia tidak mencari ketenaran, pujian tulus dari orang-orang menjadi motivasi baginya untuk terus mengejar impiannya.",
+        "imageUrl": "/icons/items/chixia-1.webp"
+      },
+      {
+        "name": "Victor Savor",
+        "description": "Sebuah stoples saus pedas spesial, dibuat berdasarkan resep rahasia keluarga Chixia, disajikan dalam piala yang pernah ia menangkan.\n\nMeskipun Chixia sangat menyayangi trofi ini, menurutnya, saus luar biasa ini lebih pantas untuk mengisinya.\n\nRasanya segar, asin, asam, dan membuat lidah mati rasa.\n\nDalam kata-kata Chixia sendiri:\n\n\"Saus ini enak banget, bahkan kalau dicocol pakai sepatu tua pun masih bakal lahap!\"",
+        "imageUrl": "/icons/items/chixia-2.webp"
+      },
+      {
+        "name": "Badge Of Hero",
+        "description": "Sebuah lencana Patroller dan merchandise Fiamma.\n\nLencana ini telah dihiasi dengan sangat teliti, sementara merchandise-nya menunjukkan banyak tanda pemakaian.\n\nNamun, keduanya telah dipoles hingga berkilau sempurna.",
+        "imageUrl": "/icons/items/chixia-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Morning Routine",
+        "content": "Leluhur Chixia adalah para perantau dari Central Plains yang menetap di Jinzhou sejak beberapa generasi lalu.\nKeluarganya dikenal karena kecintaan dan keahlian mereka dalam dunia rempah-rempah.\n\nSaat matahari mulai menyinari langit Jinzhou, tanda pertama kehidupan di kota ini selalu berasal dari Dapur Panhua, di mana asap mengepul dari cerobongnya.\n\n\"Pagi, Nyonya Panhua! Satu mangkuk mi buatan tangan, ya. Ekstra pedas dan bikin lidah mati rasa!\"\n\nSuara Chixia yang lantang langsung menggema, mengalahkan hiruk-pikuk kota yang mulai ramai. Sekelompok anak kecil yang berada di dekatnya langsung menatapnya penuh kekaguman.\n\n\"Kak Chixia, kapan kita mulai latihan Overdash hari ini?\"\n\nseru salah satu anak dengan penuh semangat.\n\n\"Kayaknya murid-muridmu lebih bersemangat daripada kamu sendiri,\"\n\ncanda Panhua sambil menyajikan sarapan untuk Chixia dan anak-anak.\n\n\"Kenapa buru-buru? Aku aja belum pemanasan! Lagian, kerja keras itu gak bisa dilakukan kalau perut kosong, kan?\"\n\njawab Chixia, mulutnya masih penuh dengan mi pedas. Baginya, hari yang penuh energi harus dimulai dengan sensasi pedas yang membangunkan lidah.\n\nChixia menikmati setiap gigitan cabai pedasnya, menelannya dengan kuah panas yang mengepul. Begitu makanan menghangatkan perutnya, tubuhnya mulai bersinar dengan semangat. Dengan suapan terakhir, Chixia mengusap mulutnya dengan puas.\n\n\"Sekarang aku udah siap tempur!\""
+      },
+      {
+        "title": "The Famous Hero",
+        "content": "Ada pepatah di Huanglong:\n\n\"Seseorang harus berbuat baik tanpa mengharapkan pengakuan.\"\n\nTapi bagi Chixia, itu tidak berlaku.\n\n\"Kalau semua orang tetap anonim, gimana mereka tahu harus manggil siapa saat butuh bantuan?\"\n\"Seorang pahlawan harus meneriakkan namanya dengan lantang, supaya semua orang mengingatnya!\"\n\nInilah prinsip yang ia pegang sejak hari pertama bermimpi menjadi seorang pahlawan. Sejak kecil, Chixia mengidolakan para superhero seperti Speedster dan Fiamma dari Hero Plays. Nama-nama itu selalu membawa rasa keberanian dan kenyamanan. Ia ingin memiliki nama kepahlawanan yang akan dikenang, seperti mereka.\n\nSetiap kali Chixia membantu seseorang, ia selalu meninggalkan jejaknya—bahkan mengajarkan anak-anak cara menuliskan namanya, huruf demi huruf. Dengan cara itu, namanya menyebar di seluruh Jinzhou seperti kobaran api.\n\nSekarang, nama \"Chixia\" telah menjadi bagian dari keseharian kota. Orang-orang memanggilnya setiap kali ada masalah. Bahkan pedagang asing yang tidak bisa berbahasa lokal mulai menggunakan kata \"Chixia\" sebagai sapaan, mengira itu adalah salam khas Jinzhou!\n\nMeski tekun dan penuh semangat, Chixia tetap memiliki kekhawatiran. Ia terus bertarung melawan bandit, Tacet Discords, serta kelompok misterius berjubah merah di pinggiran Jinzhou*. Tapi bahaya selalu datang tanpa diduga, meski ia telah berusaha melindungi kota sebaik mungkin.\n\nApakah ia benar-benar sudah memenuhi standar seorang pahlawan?\n\nNamun, saat melihat senyuman orang-orang yang ia lindungi, semua keraguan itu langsung sirna. Bagi anak-anak Jinzhou, tidak ada pertanyaan tentang siapa pahlawan mereka.\n\nSaat mereka bermain pura-pura menjadi pahlawan, mereka selalu memilih \"Kak Chixia\" sebagai tokoh utamanya."
+      },
+      {
+        "title": "Ignite The Shadows",
+        "content": "Jinzhou terkenal dengan pertunjukan Hero Plays-nya yang spektakuler, dan Chixia sangat menyukainya. Dari tabuhan drum, gerakan aktor yang elegan, hingga tarian lengan kain sutra yang berayun anggun—semuanya selalu membuatnya terpukau.\n\nNamun, teknik favoritnya adalah Kindlefire, yang melambangkan kemunculan megah Fiamma.\n\nDalam momen ini, obor dinyalakan di tengah kegelapan, lalu menembakkan bola api ke langit, menyalakan deretan lilin di sekelilingnya. Penonton selalu terpukau oleh pertunjukan itu, dengan aroma kayu terbakar yang menyebar di udara.\n\nBagi Chixia, cahaya itu terasa sangat familiar—mengingatkannya pada masa kecilnya. Ia teringat saat berjalan di alam liar bersama orang tuanya, membangun kemah di perjalanan menuju Jinzhou.\n\nDi malam hari, hutan terasa berbahaya. Kegelapan yang sunyi menelan segalanya, termasuk tenda kecil tempat ia bersembunyi. Dalam kegelapan, Chixia menggenggam selimutnya erat, mengulang kisah pahlawan yang dulu diceritakan ibunya sebelum tidur.\n\nBerharap agar Fiamma melindunginya dari Tacet Discords yang mengintai dalam bayangan.\n\nSaat itu, sebuah nyala api kecil muncul di pikirannya. Matanya menatap dinding tenda, terpaku saat cahaya itu semakin terang dan terang...\n\n\"Lihat! Itu Fiamma!\"\n\nSuara Jiu yang duduk di sebelahnya membuyarkan lamunannya, menarik sudut bajunya dengan penuh semangat.\n\nDi panggung, Fiamma yang megah turun dari langit, mengayunkan obornya dengan gagah. Seketika, Fluffernox jahat melarikan diri ketakutan. Seluruh penonton bersorak riuh, dan Chixia bertepuk tangan paling keras di antara mereka.\n\nSetelah kembali ke rumah dari teater, Chixia bersiap untuk patroli.\nIa mengambil obor polosnya sebelum berangkat.\n\n\"Kamu masih pake barang itu? Aku udah gak ngitung berapa tahun obor itu bersamamu. Bukannya departemen sudah kasih kamu peralatan baru?\"\n\ntanya ibunya sambil menambahkan saus pedas ke tumisannya.\n\n\"Gak masalah! Obor ini cukup terang buat bertahan seratus tahun lagi!\"\n\njawab Chixia dengan penuh percaya diri."
+      },
+      {
+        "title": "Rooftop Encounter",
+        "content": "Chixia bertemu Jiu saat sedang berpatroli di malam hari.\nIa tengah menyelidiki sebuah kasus aneh—warga melaporkan adanya suara misterius di atas atap rumah mereka selama beberapa malam berturut-turut. Namun, setiap kali mereka keluar untuk memeriksa, tak ada apa pun di sana.\n\nBersenjatakan sebuah obor, Chixia memanjat ke atap, menyusuri tiap sudut dalam kegelapan. Saat matanya menyapu area sekitar, sebuah potongan gambar Fiamma yang sudah kusut menarik perhatiannya, tersembunyi di antara genting.\n\n\"...?\"\n&#xNAN;\"...Dapet!\"\n\nSaat Chixia berjongkok untuk mengambilnya, tiba-tiba sebuah bayangan melompat dari kegelapan, mengejutkannya. Dengan refleks cepat, ia mengarahkan obornya ke sosok itu—hanya untuk melihat wajah seorang anak kecil.\n\nMemanfaatkan kebingungan Chixia, anak itu dengan cepat meraih gambar Fiamma dari tangannya, lalu kabur ke dalam malam yang gelap. Chixia* segera berlari mengejarnya, tapi anak itu sudah lenyap tanpa jejak.\n\nSepanjang malam, Chixia terus mencari, hingga akhirnya fajar mulai menyingsing. Saat ia tiba di depan sebuah jendela yang setengah terbuka, terdengar suara seorang anak bernyanyi:\n\n\"Begitu aku mengangkat Pedang Obor...\"\n\nItu salah satu dialog Fiamma!\n\nChixia langsung menimpali:\n\n\"...Aku akan melenyapkan monster itu!\"\n\nSebuah kepala kecil menyembul dari balik jendela, matanya berbinar penuh semangat saat menyadari bahwa ia telah menemukan sesama penggemar Fiamma. Bagus. Siapa pun yang menyukai Fiamma pasti orang baik!.\n\nJiu dan keluarganya baru pindah ke Jinzhou, tapi karena orang tuanya bekerja hingga larut, ia dan adiknya sering ditinggal sendirian di rumah. Adiknya yang penakut selalu takut kalau ada Fluffernox yang bersembunyi di atap rumah mereka.\n\nJadi, untuk melindungi adiknya, Jiu mulai berpatroli di atap setiap malam.\n\n\"Sayangnya, aku gak pernah bisa nonton Fiamma secara langsung...\"\n&#xNAN;\"Aku cuma bisa dengar dialognya dari luar teater. Aku ngucapin dialognya dengan benar, kan?\"\n\nkata Jiu dengan sedikit malu.\n\n\"Tentu saja! Kamu luar biasa!\" kata Chixia,\n&#xNAN;\"Kamu harus bawa adikmu ke teater dan lihat sendiri gimana Fiamma ngalahin Fluffernox. Aku jamin dia gak bakal takut lagi setelah itu!\"\n\nmeyakinkannya.\n\nJiu ragu-ragu, lalu menunduk.\n\n\"Aku... Aku gak bisa. Ayah dan ibu udah cukup kesulitan...\"\n\nChixia berpikir sejenak, lalu tersenyum.\n\n\"Baiklah. Sekarang janji sama aku—jangan naik ke atap lagi, oke?\"\n&#xNAN;\"Itu bakal bikin tugasku jauh lebih gampang. Sebagai gantinya, aku bakal kasih kamu tiket pertunjukan. Setuju?\"\n\nMata Jiu membulat, lalu dengan penuh semangat, ia mengangguk keras.\n\n\"Siap, Kak Chixia!"
+      },
+      {
+        "title": "Thunder And Flames",
+        "content": "Hari kelulusannya dari pelatihan, banyak rekannya yang terkejut ketika Chixia memilih menjadi Community Patroller. Ia sudah melalui banyak rintangan untuk akhirnya bisa bergabung dengan Public Security Bureau, setelah berulang kali gagal dalam ujian masuk.\n\nBanyak yang mengira Chixia mengincar posisi lebih tinggi, jadi keputusannya membuat mereka kebingungan.\n\nSaat ditanya alasannya, Chixia hanya tersenyum lebar dan berkata:\n\n\"Aku gak bisa ninggalin Jinzhou. Mi pedasnya, teaternya, dan teman-temanku—Jiu, Qianqian, Ali...\"\n\nNamun, hanya Chixia yang tahu alasan sebenarnya.\n\nApi semangatnya sudah dinyalakan sejak kecil,\nDipupuk oleh cahaya obor keluarganya,\nDiperkuat oleh pahlawan yang ia lihat di teater,\nDan nyaris padam dalam badai suatu malam...\n\nHari itu, Chixia kecil mengayunkan obornya dengan gagah, berpura-pura menjadi Fiamma untuk menakuti bandit. Namun, usaha itu sia-sia. Salah satu bandit mengangkatnya dengan mudah dan melemparkannya di sebelah temannya, Ali. Dengan mata tertutup, Chixia membuka lengannya, melindungi Ali dengan tubuhnya.\n\nLalu—kilatan petir yang memekakkan telinga menyambar, membuat para bandit jatuh tersungkur. Di antara cahaya kilat, Chixia melihat lencana cerah milik penyelamatnya.\n\nTahun-tahun berlalu, Chixia akhirnya lulus ujian masuk.\nNamun, sang penyelamat sudah lama menghilang.\n\nIa akhirnya mengerti kenapa pahlawan itu harus tetap tersembunyi.\nDan kenapa ia bukan bagian dari mereka.\n\nMaka, ia menandai pilihan \"Community Patroller\" dengan tegas.\nMeskipun ia bukan petir yang menyambar, ia akan tetap menjadi api yang menjaga kehidupan sederhana di Jinzhou tetap hangat."
+      }
+    ],
+    "specialFood": {
+      "name": "Champion Hotpot",
+      "imageUrl": "/icons/food/chixia.webp",
+      "description": "Crit. Rate semua Resonator dalam tim meningkat 30% selama 30 menit.\n\nEfek ini hanya berlaku untuk Resonator milik sendiri dalam Co-op Mode."
+    }
+  }
+}

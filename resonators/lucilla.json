@@ -1,0 +1,545 @@
+{
+  "name": "Lucilla",
+  "element": "Glacio",
+  "weapon": "Rectifier",
+  "rarity": 5,
+  "version": "3.4",
+  "lastUpdated": "2026-06-08",
+  "roles": [
+    "Concerto Efficiency",
+    "Basic Attack DMG",
+    "Glacio Chafe",
+    "Echo Skill DMG",
+    "Echo Skill DMG Amplification"
+  ],
+  "sonatas": [
+    "Wishes of Quiet Snowfall"
+  ],
+  "changelog": [
+    {
+      "text": "",
+      "type": "updated",
+      "isNew": true,
+      "leaks": false
+    }
+  ],
+  "faction": "",
+  "affiliation": "Startorch Academy",
+  "class": "Unclear",
+  "image": "/characters/lucilla.webp",
+  "imageBanner": "/banners/lucilla-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1800-2000+",
+    "Energy Regen": "0%",
+    "Ratio (Crit Weapon)": "70-85% : 265-295%",
+    "Ratio (Non Crit Weapon)": "65% : 225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Freeze Frame",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "With Hiyuki",
+          "sonataCustom": [
+            "Wishes Of Quiet Snowfall"
+          ],
+          "echoSlug": "glommoth",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: glacio%",
+            "3: glacio%",
+            "1: ATK%",
+            "1: ATK%"
+          ]
+        },
+        {
+          "label": "With Echo DMG DPS",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 5
+            }
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: glacio%",
+            "3: glacio%",
+            "1: ATK%",
+            "1: ATK%"
+          ]
+        },
+        {
+          "label": "With Lova",
+          "sonataCustom": [
+            {
+              "name": "Dream Of The Lost",
+              "set": 3
+            },
+            {
+              "name": "Reel Of Spliced Memories",
+              "set": 2
+            }
+          ],
+          "echoSlug": "voidwing-moth",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: glacio%",
+            "3: glacio%",
+            "3: ATK%",
+            "3: ATK%"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "Freeze Frame (Signature Lucilla) memberikan peningkatan sekitar 7-8% team DPS dibandingkan dengan Cosmic Ripples.",
+    "weaponOptions": [
+      {
+        "id": "freeze-frame",
+        "rank": "",
+        "percentage": "129.82%"
+      },
+      {
+        "id": "whispers-of-sirens",
+        "rank": "",
+        "percentage": "127.44%"
+      },
+      {
+        "id": "stringmaster",
+        "rank": "",
+        "percentage": "117.06%"
+      },
+      {
+        "id": "rime-draped-sprouts",
+        "rank": "",
+        "percentage": "108.26%"
+      },
+      {
+        "id": "cosmic-ripples",
+        "rank": "",
+        "percentage": "100.00%"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "New Rotation",
+        "steps": [
+          "Intro",
+          "Skill(Hold: Perfect)",
+          "Ult",
+          "[U]BA123 or [U]BA(Hold)",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Chafe Premium",
+        "members": [
+          [
+            "Hiyuki"
+          ],
+          [
+            "Lucilla"
+          ],
+          [
+            "Chisa",
+            "Mornye"
+          ]
+        ],
+        "note": "Lucilla memberikan Hiyuki 60% Glacio Chafe DMG Amplify setelah melancarkan Outro Skill miliknya. Karena ia mampu memberikan Glacio Chafe sendirian, ia dapat memenuhi stack(s) terakhir dari Inherent Skill Hiyuki: Fine Snow, yang memberikan tambahan 30% Glacio Bite DMG Amplify."
+      },
+      {
+        "name": "Chafe Alt",
+        "members": [
+          [
+            "Carlotta"
+          ],
+          [
+            "Lucilla"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "Double Echo",
+        "members": [
+          [
+            "Sigrika",
+            "Galbrena",
+            "Phrolova"
+          ],
+          [
+            "Lucilla"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Lucilla sebagai opsi alternatif menggantikan Qiuyuan untuk Sigrika, Galbrena, dan Phrolova, memberikan 50% Echo Skill Amplify setelah melancarkan Outro Skill dan 4 kali penggunaan Echo Skill\n\nSaat dipasangkan dengan Phrolova, kamu dapat menggunakan Dream of the Lost & 2-pc Reels untuk melengkapi Voidwing Moth di slot utama. Selain itu, Moonlit Clouds juga merupakan opsi yang layak."
+      }
+    ],
+    "teamNote": "1. Dalam mode Glacio Chafe, Lucilla memberikan buff berikut untuk rekan satu timnya:\n- Pengurangan 8% Glacio RES\n- 37% Glacio DMG Bonus dari bonus set Wishes of Quiet Snowfall (12% dari Glammoth)\n- 60% Glacio Chafe DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n\n2. Dalam mode Echo, Lucilla memberikan buff berikut untuk rekan satu timnya:\n- 25% Echo Skill DMG Bonus selama 30 detik\n- 40% Crit. DMG pada 4 tumpukan [Zoom], yang hanya berlaku untuk Resonator yang sedang aktif\n- 50% Echo Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill.\n\nDengan Freeze Frame (Signature Lucilla): +24% ATK selama 30 detik saat memberikan Glacio Chafe."
+  },
+  "skills": {
+    "basic": {
+      "name": "Snapshot",
+      "description": "Basic Attack\nMelancarkan hingga 3 serangan berturut-turut, memberikan Glacio DMG.\nSaat melancarkan Basic Attack Tahap 3, tahan Normal Attack untuk menyebarkan Focus Ring. Sebuah kursor akan bergerak di sekitar Focus Ring.\n- Melepaskan tombol Normal Attack saat kursor berada di luar Perfect Focus akan memicu Basic Attack Tahap 3 - Unremarkable, memberikan Glacio DMG dan memulihkan Trace.\n- Melepaskan tombol Normal Attack saat kursor berada di dalam Perfect Focus akan memicu Basic Attack Tahap 3 - Commendable, memberikan Glacio DMG yang lebih besar dan memulihkan tambahan Trace.\nMenekan Normal Attack sesaat setelah melancarkan Basic Attack Tahap 2 akan memicu Basic Attack Tahap 3 - Unremarkable alih-alih menyebarkan Focus Ring.\nSaat Focus Ring disebarkan, zona Perfect Focus akan terus memenuhi cincin tersebut. Setelah Focus Ring terisi penuh, cincin akan otomatis runtuh dan memicu Basic Attack Tahap 3 - Commendable.\nTahan Normal Attack untuk melancarkan Basic Attack Tahap 1, 2, dan 3 secara berurutan, serta menyebarkan Focus Ring selama Basic Attack Tahap 3.\n\nMid-air Attack\nMengonsumsi STA untuk melancarkan Plunging Attack, memberikan Glacio DMG. Tekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Tahap 2.\n\nDodge Counter\nTekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG. Sesaat setelah melakukan serangan ini, tekan Normal Attack untuk melancarkan Basic Attack Tahap 3."
+    },
+    "skill": {
+      "name": "Phantom Frame",
+      "description": "Pull in nearby targets, dealing Glacio DMG.\nMenarik target di sekitar, memberikan Glacio DMG.\nSaat melancarkan skill ini, tahan Resonance Skill untuk menyebarkan Focus Ring. Sebuah kursor akan bergerak di sekitar Focus Ring.\n- Melepaskan tombol Resonance Skill saat kursor berada di luar Perfect Focus akan memicu Compensate, memberikan Glacio DMG dan memulihkan Trace.\n- Melepaskan tombol Resonance Skill saat kursor berada di dalam Perfect Focus akan memicu Spotlight, memberikan Glacio DMG yang lebih besar dan memulihkan tambahan Trace.\nJika Lucilla melancarkan skill ini di dalam field tanpa menahan Resonance Skill, ia akan langsung melancarkan Compensate alih-alih menyebarkan Focus Ring.\n\nCompensate\nMenyerang target, memberikan Glacio DMG dan mengurangi Cooldown dari Resonance Skill Lucilla sebesar 8 detik.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Tahap 2.\n\nSpotlight\nMenyerang target, memberikan Glacio DMG.\nSaat melancarkan Spotlight, Lucilla sebagai tambahan memulihkan 20 poin Concerto Energy, dan memberikan 1 stack(s) ekstra Glacio Chafe ke target jika ia berada dalam Resonance Mode - Glacio Chafe.\nSpotlight kebal terhadap interupsi. Beralih ke Resonator lain saat melancarkan Spotlight akan mengakhiri skill lebih awal.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Tahap 2."
+    },
+    "liberation": {
+      "name": "Clear As Day",
+      "description": "Lucilla's holds up to 0 Resonance Energy. Clear As Day consumes no Resonance Energy.\nClear As Day unlocks when Lucilla holds all 3 Photos.\n\nClear As Day\nMemberikan Glacio DMG dan memasuki Reminiscence:\n- Saat berada dalam Resonance Mode - Glacio Chafe, damage yang diberikan dianggap sebagai Basic Attack DMG. Melancarkan skill ini memberikan Lucilla 30% Basic Attack DMG Bonus selama 10 detik.\n- Saat berada dalam Resonance Mode - Echo, damage yang diberikan dianggap sebagai Echo Skill DMG. Melancarkan skill ini memberikan Lucilla 30% Echo Skill DMG Bonus selama 10 detik.\nSaat berada dalam Reminiscence, resistansi Lucilla terhadap interupsi meningkat, serta ia tidak dapat melancarkan Resonance Skill dan Resonance Liberation. Basic Attack, Dodge Counter, Mid-air Attack, dan Intro Skill - Clip It miliknya masing-masing digantikan dengan Basic Attack - Tracing Forms, Dodge Counter - Reminiscence, Mid-air Attack - Reminiscence, dan Intro Skill - Clip It: Hard Cut.\nDapat dilakukan di udara dekat dengan tanah.\n\nBasic Attack - Tracing Forms\nMelancarkan hingga 3 serangan berturut-turut, memberikan Glacio DMG, dianggap sebagai Basic Attack DMG.\nTahan Normal Attack untuk melancarkan Basic Attack - Tracing Forms Tahap 1, 2, & 3 secara berurutan.\nSaat melancarkan Basic Attack - Tracing Forms Tahap 3, tekan berturut-turut atau tahan Normal Attack untuk terus-menerus menyerang target.\nSaat melancarkan Basic Attack - Tracing Forms Tahap 3, lepaskan tombol Normal Attack atau selesaikan seluruh Basic Attack - Tracing Forms Tahap 3 untuk otomatis melancarkan Letting It Go.\n\nLetting It Go\nMemberikan Glacio DMG kepada target dalam jangkauan. Saat berada dalam Resonance Mode - Glacio Chafe/Resonance Mode - Echo, damage yang diberikan dianggap sebagai Basic Attack DMG/Echo Skill DMG.\nLucilla kebal terhadap interupsi dan damage selama Letting It Go, serta pergantian Resonator dinonaktifkan saat melancarkan skill ini.\nSaat melancarkan Letting It Go, Lucilla sebagai tambahan memulihkan 20 poin Concerto Energy.\nMelancarkan Letting It Go mengakhiri Reminiscence.\n\nMid-air Attack - Reminiscence\nMengonsumsi STA untuk melancarkan Plunging Attack, memberikan Glacio DMG, dianggap sebagai Basic Attack DMG.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Tracing Forms Tahap 2.\n\nDodge Counter - Reminiscence\nTekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG, dianggap sebagai Basic Attack DMG.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Tracing Forms Tahap 3."
+    },
+    "forte": {
+      "name": "Memory Palace",
+      "description": "Déjà Vu\nSaat melancarkan Resonance Liberation - Clear As Day, Lucilla memberikan peningkatan berikut berdasarkan Resonance Mode miliknya:\n- Saat berada dalam Resonance Mode - Glacio Chafe, mendapatkan 4 stack(s) Film Roll selama 30 detik, dapat ditumpuk hingga 4 kali. Semua stack(s) akan dihapus saat durasi berakhir.\n- Saat berada dalam Resonance Mode - Echo, mendapatkan 1 stack(s) Zoom selama 30 detik. Maksimal 1 stack(s), yang akan dihapus saat durasi berakhir.\nEfek di atas akan berakhir lebih awal saat Lucilla mengganti Resonance Mode.\n\nFilm Roll\nSaat Resonator aktif dalam tim selain Lucilla memberikan Glacio Chafe ke target, Lucilla mengonsumsi 1 stack(s) Film Roll untuk memberikan Glacio Chafe sebanyak 2 kali pada target di sekitar. Efek ini dapat dipicu sekali setiap 0.5 detik.\n\nZoom\nSetiap stack(s) Zoom meningkatkan Crit. DMG dari Echo Skill milik Resonator aktif sebesar 10%.\n\nOblivion\nSelama Basic Attack - Tracing Forms Tahap 3, Lucilla mengonsumsi 1 Photo secara berkala untuk melancarkan Oblivion, memberikan 1 bagian Glacio DMG:\n- Saat berada dalam Resonance Mode - Glacio Chafe, bagian DMG ini dianggap sebagai Basic Attack DMG. Skill ini memberikan 1 stack(s) Glacio Chafe pada target.\n- Saat berada dalam Resonance Mode - Echo, bagian DMG ini dianggap sebagai Echo Skill DMG. Setiap peluncuran Oblivion dianggap sebagai melancarkan Echo Skill yang berbeda.\n\nQuick Glance\nTekan Aim untuk memasuki mode kamera. Selama mode ini, Reverberations, item koleksi lingkungan, dan item koleksi khusus dalam jangkauan tertentu dari bidikan Lucilla akan ditandai. Tekan tombol rana untuk mengabadikan momen, dan item yang ditandai akan dikumpulkan.\n\nTrace\nLucilla dapat menampung hingga 150 poin Trace.\nMemulihkan 100 poin Trace saat melancarkan Intro Skill - Clip It.\nMemulihkan 50 poin Trace saat melancarkan Resonance Skill - Spotlight.\nMemulihkan 50 poin Trace saat melancarkan Basic Attack Tahap 3 - Commendable.\nMemulihkan 25 poin Trace saat melancarkan Resonance Skill - Compensate atau Basic Attack Tahap 3 - Unremarkable.\n\nPhotos\nLucilla dapat menampung hingga 3 Photos.\nSetiap 50 poin Trace yang dipulihkan akan menghasilkan 1 Photo."
+    },
+    "inherent": [
+      {
+        "name": "Slow Motion",
+        "description": "Saat Focus Ring disebarkan, Lucilla memperlambat target yang berada dalam tembakannya.\nSaat melancarkan Resonance Skill - Spotlight, Lucilla memberikan peningkatan berikut berdasarkan Resonance Mode miliknya:\n- Saat berada dalam Resonance Mode - Glacio Chafe, Glacio RES dari target dalam jangkauan tertentu di sekitar Resonator yang aktif berkurang sebesar 8% selama 30 detik. Jika musuh kalah oleh Glacio Chafe DMG selama waktu ini, hal itu dianggap disebabkan oleh Resonator aktif terdekat.\n- Saat berada dalam Resonance Mode - Echo, Resonator dalam tim mendapatkan 25% Echo Skill DMG Bonus selama 30 detik.\nPeningkatan ini akan berakhir saat Lucilla mengganti Resonance Mode."
+      },
+      {
+        "name": "Remembrance",
+        "description": "Film Roll kini dapat ditumpuk hingga 10 stack(s), dan Zoom hingga 4 stack(s).\nSetiap kali Lucilla mengonsumsi Photo saat berada dalam Resonance Mode - Glacio Chafe/Resonance Mode - Echo, ia mendapatkan 2 stack(s) Film Roll/1 stack(s) Zoom."
+      }
+    ],
+    "intro": {
+      "name": "Clip It",
+      "description": "Clip It\nMenyerang target, memberikan Glacio DMG dan memberikan 1 stack(s) Glacio Chafe.\n\nClip It: Hard Cut\nSaat berada dalam Reminiscence, Intro Skill digantikan dengan Clip It: Hard Cut.\nMenyerang target, memberikan Glacio DMG dan memberikan 1 stack(s) Glacio Chafe.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Tracing Forms Tahap 3."
+    },
+    "outro": {
+      "name": "Montage",
+      "description": "When in Resonance Mode - Glacio Chafe, Glacio Chafe DMG against targets within a certain range around the active Resonator is Amplified by 60% for 30s.\nSaat berada dalam Resonance Mode - Glacio Chafe, Glacio Chafe DMG terhadap target dalam jangkauan tertentu di sekitar Resonator yang aktif ditingkatkan sebesar 60% selama 30 detik.\nEfek ini berakhir saat Lucilla mengganti Resonance Mode.\n\nWhen in Resonance Mode - Echo, grant 50% Echo Skill DMG Amplification to the incoming Resonator for 14s.\nSaat berada dalam Resonance Mode - Echo, berikan 50% Echo Skill DMG Amplification kepada Resonator yang masuk selama 14 detik.\nEfek ini berakhir saat Resonator yang masuk meninggalkan field atau saat Lucilla mengganti Resonance Mode."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Suncoveter's Reach",
+            "amount": 46
+          },
+          {
+            "item": "LF Mech Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Mech Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Mech Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Mech Core",
+            "amount": 4
+          },
+          {
+            "item": "Forget Me Not",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "We Who Question",
+          "amount": 26
+        },
+        {
+          "item": "LF Mech Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Mech Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Mech Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Mech Core",
+          "amount": 57
+        },
+        {
+          "item": "Broken String",
+          "amount": 25
+        },
+        {
+          "item": "Spliced String",
+          "amount": 28
+        },
+        {
+          "item": "Solidified String",
+          "amount": 55
+        },
+        {
+          "item": "Melodic String",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Lucilla",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Spectral Trigger",
+          "value": 327200.1,
+          "percentage": 129.82,
+          "imagePath": ""
+        },
+        {
+          "type": "Whispers Of Sirens",
+          "value": 321186.81,
+          "percentage": 127.44,
+          "imagePath": ""
+        },
+        {
+          "type": "Stringmaster",
+          "value": 295017.94,
+          "percentage": 117.06,
+          "imagePath": ""
+        },
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 272862.1,
+          "percentage": 108.26,
+          "imagePath": ""
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 252032.66,
+          "percentage": 100,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Lucilla",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 64.4,
+          "percentage": 64.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 13.2,
+          "percentage": 13.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Chafe",
+          "value": 14.4,
+          "percentage": 14.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 5.9,
+          "percentage": 5.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 2.1,
+          "percentage": 2.1,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Lucilla",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 383961.27,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 383961.27,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 521090.29,
+          "percentage": 135.71,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 521090.29,
+          "percentage": 135.71,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Distant Noon",
+      "description": " Saat melancarkan Resonance Skill - Phantom Frame untuk menyebarkan Focus Ring, pertama kali mendaratkan kursor di dalam Perfect Focus akan segera memperluas Perfect Focus hingga memenuhi seluruh Focus Ring.\nCrit. Rate Lucilla meningkat sebesar 20% selama 10 detik ketika Resonance Skill - Spotlight dilancarkan.\nLucilla kebal terhadap interupsi saat melancarkan Resonance Skill - Phantom Frame dan Basic Attack - Tracing Forms Tahap 3.\n\n\n\n\n"
+    },
+    {
+      "stage": "S2",
+      "name": "Slumbering Moonlight",
+      "description": " Saat melancarkan Resonance Liberation - Clear As Day, Lucilla memberikan peningkatan berikut berdasarkan Resonance Mode miliknya:\n- Saat berada dalam Resonance Mode - Glacio Chafe, Glacio Chafe DMG terhadap target dalam jangkauan tertentu di sekitar Resonator yang aktif ditingkatkan sebesar 80%.\n- Saat berada dalam Resonance Mode - Echo, berikan 40% Echo Skill DMG Amplification kepada Resonator di dalam tim.\nPeningkatan ini berlangsung selama Reminiscence aktif dan tetap efektif selama 30 detik setelah Reminiscence berakhir.\nEfek ini berakhir saat Lucilla mengganti Resonance Mode."
+    },
+    {
+      "stage": "S3",
+      "name": "Days Fade Unheard",
+      "description": "DMG Multiplier dari Letting It Go meningkat sebesar 100%."
+    },
+    {
+      "stage": "S4",
+      "name": "The Past Fades Into Silence ",
+      "description": "Oblivion menarik target di sekitar saat mengenai hit. Saat melancarkan Oblivion, ATK Lucilla meningkat sebesar 10% selama 6 detik, dapat ditumpuk hingga 3 kali. Semua stack(s) akan dihapus saat durasi berakhir.\nSaat melancarkan Basic Attack - Tracing Forms Tahap 3, Lucilla menerima damage 30% lebih sedikit."
+    },
+    {
+      "stage": "S5",
+      "name": "Time Is Like A Stream",
+      "description": "DMG Multiplier dari Oblivion meningkat sebesar 50%."
+    },
+    {
+      "stage": "S6",
+      "name": "Gazing In The Mist Of Time",
+      "description": "Saat berada dalam Reminiscence, setiap kali Lucilla mengonsumsi Photo, ia mendapatkan 1 stack(s) Remembrance, dapat ditumpuk hingga 3 kali. Setiap stack(s) Remembrance meningkatkan damage Letting It Go yang diberikan kepada target sebesar 200%, hingga 600%. Melancarkan Letting It Go menghapus semua stack(s) Remembrance.\nLucilla mendapatkan Longing jika ia mengalahkan target saat berada dalam Reminiscence: Setelah mengakhiri Reminiscence saat tidak dalam pertempuran, konsumsi Longing untuk memulihkan 150 poin Trace."
+    }
+  ],
+  "lore": {
+    "description": "Lucilla, President of Startorch Academy dan seorang idealis dengan kedua kaki yang berpijak di bumi. Ia berjaga secara diam-diam atas para muridnya saat mereka bangkit untuk menantang langit itu sendiri.",
+    "manualEntries": [
+      {
+        "title": "Birthplace",
+        "description": "New Federation"
+      },
+      {
+        "title": "Nation",
+        "description": "Lahai-Roi"
+      },
+      {
+        "title": "Affiliations",
+        "description": "Startorch Academy (on profile)"
+      },
+      {
+        "title": "Family",
+        "description": "Kamerel (Ibu)"
+      }
+    ],
+    "report": {
+      "resonancePower": "Memory Palace",
+      "resonanceEvaluation": "[Filed from: Spacetrek Collective: Startorch Academy Faculty Records]\n[Forte Examination Report RA2399-G]\nName: Lucilla\nForte Overview: Pemeriksaan mengonfirmasi bahwa Tacet Mark milik subjek terletak di sisi luar betis kanan. Berdasarkan catatan dari New Federation, subjek diduga telah membangkitkan Forte miliknya dalam sebuah pesta ulang tahun masa kecil setelah menerima sebuah kamera sebagai hadiah. Selain kemampuan regresi ingatan yang umum dimiliki oleh Resonator tipe ingatan, subjek memiliki kemampuan unik untuk mengekstrak dan mewujudkan ingatan. Memanfaatkan kemampuan ini, subjek bahkan dapat \"mengonstruksi\" adegan dan \"peristiwa\" yang pernah dialami sebelumnya hingga tingkat tertentu dalam jangka waktu yang terbatas. Namun, rekonstruksi ini menunjukkan ketidakstabilan yang ekstrem, dan insiden Overclock yang dilaporkan oleh subjek berkorelasi kuat dengan upayanya untuk menciptakan kembali ingatan.\n\nSesuai dengan Spacetrek Collective Information Security and Protection Act, investigasi lebih lanjut terhadap riwayat Overclock President Lucilla dengan ini dihentikan.\nRevisi kedua: Berdasarkan laporan dari New Federation dan bukti yang diajukan oleh kerabat sedarah Lucilla, President Lucilla tidak pernah mengalami Overclocking. Catatan yang berkaitan dengan riwayat Overclock miliknya telah dihapus.",
+      "overclockDiagnostic": "Analysis Performed: Rabelle's Curve Fluctuation Stability Test\nResult: Rabelle's Curve dari subjek menunjukkan bentuk gelombang elips yang berfluktuasi dan Time Domain yang stabil. Tidak ditemukan fluktuasi abnormal.\nAssessment: Subjek tidak menunjukkan riwayat atau risiko Overclocking, dan tidak menunjukkan gejala hilangnya ingatan jangka panjang atau jangka pendek yang umum terjadi pada Resonator tipe ingatan.\n\nSesuai dengan Spacetrek Collective Information Security and Protection Act, Rabelle's Curve Fluctuation Stability Test pada President Lucilla dengan ini dihentikan.\nRevisi kedua: Dikonfirmasi bahwa President Lucilla memenuhi persyaratan New Federation untuk pemulangan penasihat elit dan talenta khusus."
+    },
+    "items": [
+      {
+        "name": "Old Action Camera",
+        "description": "Sebuah kamera aksi yang digunakan Lucilla selama waktunya di Pioneer Association. Meskipun kemampuannya sendiri jauh melampaui performa kamera tersebut, ia tetap menikmati merekam melalui lensa fisik. Terutama pada malam-malam yang sepi, saat ia secara diam-diam mengunjungi kembali momen-momen kecil dan tak terkawal yang ia lewatkan pada saat itu.",
+        "imageUrl": "/icons/items/lucilla-1.webp"
+      },
+      {
+        "name": "\"Golden Age\" Film Roll Copies",
+        "description": "Lucilla sangat suka membenamkan diri dalam kehidupan karakter di layar. Gulungan film lama dari film-film klasik ini adalah satu-satunya hal yang tidak sanggup ia tinggalkan ketika ia pergi dari New Federation.\nSetelah menjadi President dari Academy, ia jarang menemukan waktu untuk menonton film. Hal itu berubah pada hari ia menyadari bahwa salah satu muridnya telah muncul di sebuah poster film.\nSekarang, Lucilla menghargai gulungan film ini lebih dari sebelumnya.",
+        "imageUrl": "/icons/items/lucilla-2.webp"
+      },
+      {
+        "name": " All-In-One Makeup Kit",
+        "description": "Mengapa meluangkan waktu di sela hari yang sibuk untuk memakai riasan?\nDulu, jawabannya mungkin untuk menyesuaikan diri dengan citra yang diharapkan orang lain darinya. Namun sekarang, Lucilla melakukannya murni untuk menyenangkan dirinya sendiri.\nSama seperti yang ia katakan kepada para muridnya, \"Jangan pedulikan apa yang dipikirkan orang lain. Jadilah orang yang kamu bayangkan.\"",
+        "imageUrl": "/icons/items/lucilla-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Unsent Letter From Home",
+        "content": "Sebuah surat terletak dengan tenang di dalam kotak berkas, dicap dengan segel milik ibu Lucilla, Kamerel.\n\nBagi seorang Resonator tipe ingatan, buku harian, catatan, atau alat penyimpan memo lainnya adalah media yang berbahaya. Mereka adalah kayu apung yang digenggam oleh pelaut yang tenggelam dalam kecelakaan kapal. Menghadapi hantaman gelombang fluktuasi ingatan, Anda harus mengandalkan mereka agar tidak tenggelam di bawah pasang surut ingatan. Namun saat Anda mulai bergantung secara tidak sadar pada objek eksternal untuk mengisi kekosongan dalam ingatan Anda, Anda juga menerima risiko tertentu. Bahwa seseorang, misalnya, mungkin merusak buku harian Anda untuk menulis ulang siapa diri Anda yang sebenarnya.\n\nOleh karena itu, Lucilla, aku melarangnya. Aku melarangmu merekam masalah pribadimu dengan cara apa pun di luar pikiranmu sendiri. Aku melarangmu membicarakannya. Aku melarangmu membentuk ketergantungan seperti itu. Sebagai seorang Resonator ingatan, kamu harus menjadi tuannya, makhluk terkuat dan paling berbahaya di lautan ingatanmu sendiri. Aku menginginkan kehidupan tanpa kayu apung untukmu, tanpa tempat perlindungan. Tanpa kebutuhan akan diriku, atau orang lain.\n\nNamun, saat tubuhku sendiri mulai melemah, aku mendapati diriku, tanpa menyadarinya, menulis sebuah buku harian. Mungkin Resonator tipe ingatan, dalam beberapa hal, adalah pewaris ingatan yang prematur. Efek samping yang kamu tanggung hanyalah sebuah fase kehidupan yang pasti dialami oleh setiap jiwa yang menua.\n\nLucilla, pada saat surat ini sampai kepadamu, aku kemungkinan besar telah tiada. Kamu harus tahu bahwa aku tidak meracau kepadamu karena sentimentalitas. Ini adalah sebuah peringatan, sebuah tindakan pencegahan, agar kamu tidak melupakan siapa dirimu karena sesuatu yang sepele. Aku telah menyiapkan materi untukmu—catatan masa lalumu, untuk membantumu membangun kembali Memory Palace milikmu.\n\nTentu saja, apakah kamu menggunakannya atau tidak adalah pilihanmu. Seperti halnya setiap pilihan sebelum ini, hal itu sepenuhnya bersifat sukarela."
+      },
+      {
+        "title": "Surveillance Master Tape",
+        "content": "Sebuah surveillance master tape, disimpan dengan hati-hati di dalam wadah pelindung dengan kualitas yang sangat baik. Namun registrasi waktunya telah robek, dan wajah setiap orang yang terekam di dalamnya telah dihapus. Cara yang aneh, bahkan hampir menyimpang untuk melestarikannya. Sebuah catatan dapat ditemukan bersamanya:\nForte yang kamu bangkitkan mengacaukan semua rencana yang kusiapkan untukmu. Sekarang, kamu seharusnya memahami tantangan dalam melindungi seorang Resonator \"berbakat\" di New Federation. Aku tidak hanya ingin kamu bertahan hidup. Kamu perlu mendapatkan hak untuk hidup.\n\n\"Ini adalah Madam Kamerel. Katakan saja padanya apa yang baru saja kamu katakan kepadaku, dan setelah itu kamu boleh pergi, Andy.\"\n\"Baik, Pak. Jadi, kami menerima laporan tentang seorang gadis muda yang membangkitkan Forte miliknya...\"\n\"Mulai saja dari bagaimana kamu menemukannya.\"\n\"Ah, tentu saja! Mohon maaf... Menggunakan sistem pelacakan lokasi kamera, kami dengan cepat melacaknya ke sebuah taman sekitar lima kilometer dari lokasi yang dilaporkan.\"\n\"Kamu mengatakan kepadaku bahwa seorang gadis muda berlari sejauh lima kilometer ke dalam hutan. Bertelanjang kaki. Di tengah malam.\"\n\"Aku...\"\n\"Gunakan waktumu, Andy. Jawab dia dengan jujur.\"\n\"Ya. Ketika kami menemukannya, ada sebuah sepeda. Aku yakin aku melihatnya. Tapi kemudian benda itu menghilang begitu saja. Berubah menjadi... sebuah foto.\"\n\"Foto yang ini, Madam Kamerel.\"\n\"Apakah kamu yakin melihatnya? Maksudku, sepeda itu berubah menjadi sebuah foto?\"\n\"Uh, aku...\"\n\"Pergilah istirahat, Andy. Kamu sudah terjaga sepanjang malam. Kamu boleh pulang.\"\n\"Baik, Pak. Terima kasih, Madam. Permisi!\"\n*Suara pintu terbuka dan tertutup*\n\"Foto ini diambil pada hari pertama ia belajar mengendarai sepeda.\"\n\"Kemampuan Luci adalah kemampuan yang langka bahkan di antara Resonator tipe ingatan. Coba ingat, kapan ia membangkitkan Forte miliknya...?\"\n\"...Aku tidak tahu.\"\n\"Bakatnya akan menarik terlalu banyak perhatian. Kita bahkan tidak bisa menggunakan kontak kita di dalam pemerintahan untuk melindunginya.\"\n\"Ia harus pergi.\"\n\"Pergi? Kamerel, ke mana kamu ingin mengirimnya?\"\n\"Itu akan menjadi keputusannya.\""
+      },
+      {
+        "title": "A Letter From School",
+        "content": "Dua surat, satu dari sebuah sekolah di New Federation, yang lainnya berlambang segel Kamerel. Tulisan tangannya sangat tebal hingga hampir merobek amplopnya. Sebuah catatan kecil terselip di dalamnya: Jangan lupa, dunia ini penuh dengan guru yang tidak kompeten.\n\n[Surat Diterima]\nKepada Madam Kamerel yang terhormat,\n\nMohon maafkan surat kelancangan saya ini. Sesuai dengan pedoman sekolah, saya menulis untuk melaporkan perilaku Nona Lucilla selama beberapa bulan terakhir. Secara keseluruhan, situasinya agak memprihatinkan.\n\nMeskipun performa akademisnya sempurna, kami menerima laporan dari beberapa murid bahwa perilakunya di sekolah agak... tidak dapat dijelaskan. Sebagian besar waktu, ia tampak sangat tertutup, namun terkadang ia tiba-tiba menjadi terlalu akrab dengan teman-teman tertentu, mengklaim ingatan palsu seolah-olah mereka telah menjadi teman dekat selama bertahun-tahun. Ketika teman-sekelasnya menunjukkan dengan tenang bahwa mereka tidak mengenal satu sama lain dengan baik, ia langsung menjadi depresi dan sangat putus asa.\n\nMadam Kamerel, seperti yang kita diskusikan saat pendaftaran Nona Lucilla, meskipun sekolah tidak mendiskriminasi murid Resonator, semua ini didasarkan pada stabilitas Forte miliknya. Kondisinya saat ini, dengan menyesal saya katakan, masih jauh dari apa yang diharapkan.\n\n[Surat Balasan]\nKepada President Sofia yang terhormat,\n\nBenar-benar surat yang lancang.\n\nSaya menyesal mengetahui bahwa institusi Anda kurang memiliki kapasitas untuk memberikan pendidikan yang memadai dan komprehensif bagi Lucilla, serta kesadaran dasar untuk membimbing murid dalam interaksi sosial yang normal. Menurut pemahaman saya, sebuah institusi pendidikan yang bahkan tidak memiliki kemampuan mendasar untuk mendidik mungkin adalah apa yang benar-benar \"tidak dapat dijelaskan.\"\n\nTerlebih lagi, saya heran institusi Anda bisa salah mengira upaya kikuk seorang anak untuk berteman sebagai ketidakstabilan pada Forte miliknya. Saya akan menyampaikan karakterisasi yang tidak pantas ini kepada pengawas sekolah juga.\n\nTampaknya institusi Anda tidak cocok untuk Lucilla. Tolong kemas barang-barangnya. Saya akan menjemputnya besok.\n\n---\n"
+      },
+      {
+        "title": "Exploration Note",
+        "content": "Secarik kertas yang disobek dengan hati-hati dari sebuah buku catatan. Kertas itu menyandang lambang Spacetrek Collective. Sebuah pesan singkat tertulis di bagian belakang.\nAku sangat penasaran dengan jenis keberuntungan yang menyembuhkanmu, sampai aku menemukan pria Roya itu dan mengajukan beberapa pertanyaan sederhana kepadanya. Jika penyakit lamamu kambuh lagi, ucapannya yang tampak omong kosong itu mungkin bisa membantu memicu ingatanmu.\n\nAku menghabiskan hampir semua sarana transportasi yang tersedia untuk mencapai stasiun pengamatan Roya terpencil yang disebutkan dalam laporan ini.\n\nAku juga mengonfirmasi sekali lagi bahwa orang yang menyelamatkannya tidak lebih dari seorang pria tua jompo di masa senjanya. Tidak ada konspirasi. Tidak ada rencana tersembunyi. Kelangsungan hidupnya murni karena kebetulan.\n\nOrang Roya ini juga menunjukkan kepadaku objek-objek yang digunakan Lucilla untuk membaca kemampuannya—pernak-pernik acak, tidak lebih dari itu. Aku tidak dapat memahami keajaiban apa yang dimiliki objek-objek ini hingga memungkinkan Lucilla lolos dari histeria yang ditimbulkan oleh kemampuannya. Tentu saja, aku tidak akan percaya pria tua ini memahami Resonator tipe ingatan lebih baik daripada dokter terbaik di New Federation.\n\nBenar-benar perjalanan yang sia-sia. Minatku pada tempat ini habis dalam sekejap.\n\n\n\"Madam, sebuah kebenaran sederhana, begitulah adanya. Jika Anda hanya melihat melalui lensa kamera, hanya mengamati melalui foto, Anda tidak akan pernah memahami dinginnya tanah beku, maupun luasnya.\"\n\"Jangan berpura-pura misterius di depanku.\"\n\"Aku tidak melakukannya. President Lucilla lah yang mengatakan ini kepadaku. Setelah ia meletakkan tangannya pada objek-objek kecil yang sepele ini, ia akhirnya mengerti.\"\n\"Mengerti apa?\"\n\"Bahwa hidup bukanlah sebuah foto. Hidup adalah daging. Hidup adalah darah. Hidup tidak boleh sekadar dijalani untuk bertahan, melainkan harus dihidupkan.\"\n\"...Lucilla selalu memilih cara hidupnya sendiri.\"\n\"Aku juga punya anak. Itulah mengapa aku mengerti mengapa Anda gagal melihatnya. Sama seperti aku mengamati tanah beku, President Lucilla mengamati orang lain. Katakan padaku, apakah Anda selalu memperhatikannya dengan cara yang sama seperti yang Anda lakukan sekarang?\" pria Roya itu bertanya kepadaku.\n\nSebuah pertanyaan yang arogan. Pertanyaan yang lancang karena mengira bisa memahamiku. Aku tidak menjawabnya.\n\n---"
+      },
+      {
+        "title": "Within Pitch Black",
+        "content": "Di dalam kotak brankas yang berat terletak segulung film tanpa label deskriptif. Hanya bahannya yang menunjukkan usianya. Gulungan itu tampaknya hanya dapat dibaca dan diputar melalui perangkat yang dimiliki oleh Lucilla.\nSaat diputar, layar tetap hitam pekat, hanya ada audio.\n\n\"Gelap sekali!\"\n\"Kamu harus melepas penutup lensanya terlebih dahulu untuk melihat apa pun.\"\n\"Oh. Kalau begitu aku biarkan saja terpasang untuk sekarang.\"\n\"Kenapa?\"\n\"Aku belum siap. Aku ingin foto pertamaku adalah dirimu yang tampak cantik!\"\n\"Aku tidak butuh foto untuk mengingat bagaimana diriku. Aku memilikimu.\"\n\"Oke!\"\n\"Ucapkan sebuah permohonan, Lucilla.\"\n……\n……\n\"Aku berharap... aku bisa mengingat momen-momen ini selamanya.\""
+      }
+    ],
+    "specialFood": {
+      "name": "",
+      "description": "",
+      "imageUrl": ""
+    }
+  }
+}

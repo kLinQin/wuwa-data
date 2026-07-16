@@ -1,0 +1,458 @@
+{
+  "name": "Aero Rover",
+  "element": "Aero",
+  "weapon": "Pistol",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-29",
+  "roles": [
+    "Support and Healer",
+    "Resonance Skill DMG",
+    "Aero Erosion"
+  ],
+  "sonatas": [
+    "Windward Pilgrimage",
+    "Rejuvenating Glow"
+  ],
+  "changelog": [
+    {
+      "text": "minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "",
+  "affiliation": "",
+  "class": "",
+  "image": "/characters/aero-rover.webp",
+  "imageBanner": "/banners/aero-rover-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "60% : 270%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 220%"
+  },
+  "build": {
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fleurdelys"
+    ],
+    "bestWeapon": "Blazing Brilliance",
+    "echoDetails": {
+      "note": "Umumnya, Rover: Aero dimainkan sebagai support saat dipasangkan dengan Cartethyia yang scaling kekuatannya berdasarkan HP. oleh karena itu, buff All-type DMG dari Bellborne Geochelone lebih diutamakan dibandingkan buff ATK dari Fallacy of No Return.",
+      "sets": [
+        {
+          "label": "Sub DPS Erosion",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "fleurdelys",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Windward Pilgrimage"
+          ]
+        },
+        {
+          "label": "Healer",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "bell-borne-geochelone",
+          "echoSlugSecondary": "fallacy-of-no-return",
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        }
+      ],
+      "substats": [
+        "Energy Regen (120)",
+        "CR% / CDM%",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "Bloodpact's Pledge bisa didapatkan secara gratis sebagai hadiah melalui Main story quest Chapter 2: Act 4. Karena senjata ini memberikan Energy Regen, kebutuhan ER Rover: Aero akan terpenuhi tanpa memerlukan tambahan ER substats sama sekali.",
+    "weaponOptions": [
+      {
+        "id": "blazing-brilliance",
+        "percentage": "118",
+        "rank": ""
+      },
+      {
+        "id": "bloodpacts-pledge",
+        "percentage": "108",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "100",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ]
+    },
+    "teams": [
+      {
+        "name": "Cartethyia hypercarry",
+        "note": "Ciaccona memberikan Aero Erosion Amplify kepada Cartethyia saat mengeluarkan Outro Skill. Selain itu, clone milik Ciaccona memberikan Aero DMG Amplify. Ia juga memberikan tambahan stack Aero Erosion.",
+        "members": [
+          [
+            "Cartethyia"
+          ],
+          [
+            "Ciaccona"
+          ],
+          [
+            "Aero Rover"
+          ]
+        ]
+      },
+      {
+        "name": "Cartethyia HC // ALT",
+        "note": "Alternatif lainnya, Shorekeeper dapat digunakan untuk meningkatkan Crit. Rate atau DMG Cartethyia. Namun, Cartethyia tidak akan mendapatkan keuntungan dari set bonus Rejuvenating Glow.",
+        "members": [
+          [
+            "Cartethyia"
+          ],
+          [
+            "Aero Rover"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      },
+      {
+        "name": "Cartethyia HC // F2P",
+        "note": "Sebagai alternatif pilihan budget, Sanhua bisa digunakan karena mayoritas damage Cartethyia dianggap sebagai Basic ATK DMG. Sanhua memberikan amplify untuk tipe damage tersebut melalui Outro Skill miliknya.",
+        "members": [
+          [
+            "Cartethyia"
+          ],
+          [
+            "Sanhua"
+          ],
+          [
+            "Aero Rover"
+          ]
+        ]
+      },
+      {
+        "name": "Iuno hypercarry",
+        "note": "Jika menggunakan Rejuvenating Glow dalam tim Cartethyia, gunakan Bell karena Cartethyia tidak memiliki penskalaan dengan ATK.",
+        "members": [
+          [
+            "Iuno"
+          ],
+          [
+            "Ciaccona"
+          ],
+          [
+            "Aero Rover"
+          ]
+        ]
+      }
+    ],
+    "teamNote": "Rover: Aero atau Chisa dapat meningkatkan jumlah maksimum stack Aero Erosion pada musuh dalam satu waktu, sekaligus memberikan damage tambahan masing-masing melalui Bloodpact's Pledge (Rover: Aero) atau DEF shred dari Havoc Bane (Chisa)."
+  },
+  "skills": {
+    "basic": {
+      "name": "Wind Cutter",
+      "description": "**Basic Attack**\nMelakukan hingga empat serangan berturut-turut, memberikan  Aero DMG.\n\n**Heavy Attack**\nMengonsumsi STA untuk menyerang target, memberikan  Aero DMG.\n\n**Heavy Attack: Razor Wind**\nTahan Basic Attack setelah menggunakan Basic Attack Tahap 3, Dodge Counter, atau Heavy Attack untuk menggunakan Heavy Attack: Razor Wind. Mengonsumsi STA untuk menyerang target, memberikan  Aero DMG.\n\n**Mid-air Attack**\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan  Aero DMG.\n\n**Dodge Counter**\nGunakan Normal Attack langsung setelah berhasil menghindar untuk menyerang target, Memberikan  Aero DMG."
+    },
+    "skill": {
+      "name": "Illusion Breaker",
+      "description": "**Awakening Gale**\nMelompat ke udara dan menebas target, memberikan  Aero DMG.\n\n**Skyfall Severance**\nSaat berada di udara, gunakan Resonance Skill untuk Memberikan  Aero DMG, yang menghapus semua Stack(s)  Spectro Frazzle, Havoc Bane, Fusion Burst, Glacio Chafe, dan Electro Flare dari target yang terkena dan memberikan satu Stack(s)  Aero Erosion untuk setiap stack(s) yang dihapus."
+    },
+    "liberation": {
+      "name": "Omega Storm",
+      "description": "**Omega Storm**\nMelepaskan kekuatan Eye of Tempest,, memberikan  Aero DMG dan menyembuhkan semua Resonators di tim yang berada di sekitar.\nDapat digunakan di udara dekat dengan tanah."
+    },
+    "forte": {
+      "name": "Cycle Of Wind",
+      "description": "**Mid-air Attack - Cloudburst Dance**\nMelakukan hingga 2 serangan berturut-turut, memberikan  Aero DMG (dianggap sebagai Resonance Skill DMG) dan menyembuhkan semua Resonator di tim yang ada di sekitar. Gunakan dengan 3 cara berikut:\n- Tekan Serangan Normal tepat setelah menggunakan Resonance Skill Awakening Gale.\n- Tekan Serangan Normal tepat setelah menggunakan Intro Skill.\n- Tekan Serangan Normal tepat setelah menggunakan Heavy Attack: Razor Wind.\nSaat melakukan Mid-air Attack Cloudburst Dance, tahan Serangan Normal untuk melakukan Mid-air Attack.\n\n**Resonance Skill - Unbound Flow**\nPada Windstrings maksimum, Resonance Skill Awakening Gale berubah menjadi Resonance Skill Unbound Flow: Melakukan hingga 2 serangan berturut-turut. Setiap serangan menghabiskan 60 Windstrings, memberikan  Aero DMG, dianggap sebagai Resonance Skill DMG. Beralih ke Resonator lain setelah Tahap 1 secara otomatis memicu Tahap 2 dari skill ini.\n\n**Windstring**\nRover bisa menyimpan hingga 120 Windstrings.\nSetiap tahap dari Mid-air Attack Cloudburst Dance mengembalikan 25 Windstrings saat kena.\nMenggunakan Intro Skill mengembalikan 20 Windstrings.\nMengenai target dengan Basic Attack Tahap 3 atau 4 atau Dodge Counter mengembalikan 10 Windstrings."
+    },
+    "inherent": [
+      {
+        "name": "Sand In The Storm",
+        "description": "Menggunakan Intro Skill Relentless Squall meningkatkan ATK sebesar 20% selama 10 detik."
+      },
+      {
+        "name": "Boundless Winds",
+        "description": "Meningkatkan penyembuhan dari Resonance Liberation Omega Storm sebesar 20%."
+      },
+      {
+        "name": "Tune Break: Sword",
+        "description": ""
+      }
+    ],
+    "intro": {
+      "name": "Relentless Squall",
+      "description": "memberikan  Aero DMG."
+    },
+    "outro": {
+      "name": "Storm'S Echo",
+      "description": "Memberikan Aeolian Realm kepada semua Resonator di tim yang ada di sekitar selama 30 detik. Efek Aeolian Realm:\n- Saat mengenai target, meningkatkan stack(s) maksimum  Aero Erosion yang dapat diterima target sebanyak 3 selama 10 detik. Efek ini tidak dapat ditumpuk."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Mysterious Code",
+            "amount": 5
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Pecok Flower",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "When Irises Bloom",
+          "amount": 26
+        },
+        {
+          "item": "LF Tidal Residuum",
+          "amount": 25
+        },
+        {
+          "item": "MF Tidal Residuum",
+          "amount": 28
+        },
+        {
+          "item": "HF Tidal Residuum",
+          "amount": 40
+        },
+        {
+          "item": "FF Tidal Residuum",
+          "amount": 57
+        },
+        {
+          "item": "Inert Metallic Drip",
+          "amount": 25
+        },
+        {
+          "item": "Reactive Metallic Drip",
+          "amount": 28
+        },
+        {
+          "item": "Polarized Metallic Drip",
+          "amount": 55
+        },
+        {
+          "item": "Heterized Metallic Drip",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Skill",
+          "value": 73,
+          "percentage": 73
+        },
+        {
+          "type": "Liberation",
+          "value": 19.9,
+          "percentage": 19.9
+        },
+        {
+          "type": "Intro",
+          "value": 7,
+          "percentage": 7
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Damage - AeroRover",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 101129.89,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S3",
+          "value": 109061.74,
+          "imagePath": "",
+          "percentage": 108
+        },
+        {
+          "type": "S4",
+          "value": 114670.88,
+          "imagePath": "",
+          "percentage": 113
+        },
+        {
+          "type": "S5",
+          "value": 118804.25,
+          "imagePath": "",
+          "percentage": 117
+        },
+        {
+          "type": "S6",
+          "value": 131898.68,
+          "imagePath": "",
+          "percentage": 130
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Sequence- AeroRover",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Carte S0R1 WP, Cia S0R1 GoW, Arover S6R5 ",
+          "value": 1967671.04,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Carte S0R1 WP, Cia S0R1 GoW, S2R3 Rejuv/Bell",
+          "value": 1845798.05,
+          "imagePath": "",
+          "percentage": 94
+        },
+        {
+          "type": "Carte S0R1 WP, Cia S0R1 GoW, S2R3 WP",
+          "value": 1822903.65,
+          "imagePath": "",
+          "percentage": 93
+        },
+        {
+          "type": "Carte S0R1 WP, Cia S0R0 GoW, S2R3 WP",
+          "value": 1602182.86,
+          "imagePath": "",
+          "percentage": 81
+        },
+        {
+          "type": "Carte S0R0 WP, Cia S0R1 GoW, S2R3 WP",
+          "value": 1535214.04,
+          "imagePath": "",
+          "percentage": 78
+        },
+        {
+          "type": "Carte S0R0 WP, Cia S0R0 GoW, S2R3 WP",
+          "value": 1358354.7,
+          "imagePath": "",
+          "percentage": 69
+        },
+        {
+          "type": "Sanhua S6 MC, Arover S2R3 Rejuv/Bell",
+          "value": 1169896.6,
+          "imagePath": "",
+          "percentage": 59
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Team - AeroRover",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Storm Subsides In The Void",
+      "description": "Menggunakan Mid-air Attack Cloudburst Dance meningkatkan ketahanan Rover terhadap gangguan selama 3 detik."
+    },
+    {
+      "stage": "S2",
+      "name": "Glimmers Fade Into The Dark",
+      "description": "Menggunakan Resonance Skill Unbound Flow secara terus menerus memulihkan HP untuk Resonator di Field sebesar 20% dari ATK Rover setiap 3 detik selama 30 detik. Ketika Resonator di Field memiliki HP lebih rendah dari 35%, segera memulihkan 10% dari HP yang hilang. Efek pemulihan ini dapat dipicu sekali setiap 10 detik dan tidak akan dipengaruhi oleh Healing Bonus apa pun."
+    },
+    {
+      "stage": "S3",
+      "name": "Illusions Collapse In A Grip",
+      "description": "Aero DMG meningkat sebesar 15%."
+    },
+    {
+      "stage": "S4",
+      "name": "Boundaries Shatter In An Instant",
+      "description": "Menggunakan Mid-air Attack Cloudburst Dance meningkatkan Resonance Skill DMG Bonus sebesar 15% selama 5 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Life And Death Intertwine",
+      "description": "DMG Multiplier dari Resonance Liberation Omega Storm meningkat sebesar 20%."
+    },
+    {
+      "stage": "S6",
+      "name": "All Crumble In The Wind",
+      "description": "DMG Multiplier dari Resonance Skill Unbound Flow meningkat sebesar 30%"
+    }
+  ],
+  "lore": {
+    "description": "Resonator misterius yang memiliki kekuatan untuk menyerap semua Echo. Saat ini sedang dalam perjalanan untuk menemukan ingatan yang hilang.",
+    "report": {
+      "resonancePower": "Unknown",
+      "overclockDiagnostic": "Unknown",
+      "resonanceEvaluation": "Unknown"
+    },
+    "items": [],
+    "stories": [],
+    "specialFood": {
+      "name": "Unknown",
+      "imageUrl": "/icons/food/aero-rover.webp",
+      "description": ""
+    }
+  }
+}

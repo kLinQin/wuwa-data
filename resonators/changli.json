@@ -1,0 +1,491 @@
+{
+  "name": "Changli",
+  "element": "Fusion",
+  "weapon": "Sword",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer",
+    "Resonance Skill DMG",
+    "Fusion DMG Amplification",
+    "Resonance Liberation DMG Amplification"
+  ],
+  "sonatas": [
+    "Molten Rift"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "City Hall",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Natural",
+  "image": "/characters/changli.webp",
+  "imageBanner": "/banners/changli-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110-120%",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Rider"
+    ],
+    "bestWeapon": "Blazing Brilliance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Dps",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: fusion%",
+            "3: fusion%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "nightmare-rider",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Molten Rift"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "blazing-brilliance",
+        "percentage": "111",
+        "rank": ""
+      },
+      {
+        "id": "red-spring",
+        "percentage": "101",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "somnoire-anchor",
+        "percentage": "84",
+        "rank": "5"
+      },
+      {
+        "id": "commando-of-conviction",
+        "percentage": "82",
+        "rank": "5"
+      },
+      {
+        "id": "lumingloss",
+        "percentage": "76",
+        "rank": "5"
+      },
+      {
+        "id": "endless-collapse",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Skill",
+          "BA",
+          "Skill",
+          "BA",
+          "Echo(Swap)",
+          "Intro",
+          "MA",
+          "Skill",
+          "BA",
+          "Forte",
+          "Ult",
+          "Forte",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Skill",
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Mono Fusion",
+        "note": "Lupa memperkuat Brant (Fusion & Basic), Brant memperkuat Changli (Fusion & Res. Skill), dan Changli memperkuat Lupa (Fusion & Res. Liberation). ",
+        "members": [
+          [
+            "Changli"
+          ],
+          [
+            "Brant",
+            "Lupa"
+          ],
+          [
+            "Lupa",
+            "Shorekeeper"
+          ]
+        ]
+      },
+      {
+        "name": "Quickswap",
+        "note": "Lupa juga memberikan 6% ATK untuk setiap unit Fusion (maks. 18%) serta memberikan bonus Fusion DMG ke seluruh tim jika Wildfire Mark digunakan.",
+        "members": [
+          [
+            "Changli"
+          ],
+          [
+            "Brant",
+            "Xiangli Yao",
+            "Jinhsi"
+          ],
+          [
+            "Lupa",
+            "Shorekeeper"
+          ]
+        ]
+      }
+    ],
+    "teamNote": "Karena kemampuan Changli untuk melakukan quick swap dari hampir semua animasi serangan dan skill miliknya, ia sering kali cocok dipasangkan dengan sebagian besar Resonator penghasil damage (DPS)."
+  },
+  "skills": {
+    "basic": {
+      "name": "Blazing Enlightment",
+      "description": "Basic Attack\nMelakukan hingga 4 serangan beruntun, memberikan  Fusion DMG.\nSetelah menggunakan Basic Attack 4, masuk ke True Sight selama 12 detik.\n\nHeavy Attack\nTahan Basic Attack saat berada di tanah untuk melakukan tebasan ke atas dengan mengorbankan Stamina, memberikan  Fusion DMG\nGunakan Basic Attack dalam waktu tertentu untuk mengaktifkan Mid-air Attack 3.\n\nMid-air Attack\nMenggunakan Stamina untuk melakukan hingga 4 serangan beruntun di udara, memberikan  Fusion DMG.\nSetelah menggunakan Mid-air Attack 4, masuk ke True Sight selama 12 detik.\n\nMid-air Heavy Attack\nSesaat setelah menahan Basic Attack di udara atau menggunakan Basic Attack True Sight: Charge, gunakan Basic Attack untuk melakukan serangan jatuh dengan mengorbankan Stamina, memberikan  Fusion DMG.\nGunakan Basic Attack dalam waktu tertentu untuk mengaktifkan Basic Attack 3.\n\nDodge Counter\nGunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG."
+    },
+    "skill": {
+      "name": "Tripartite Flames",
+      "description": "True Sight: Capture\nSaat menggunakan Resonance Skill, Changli melesat ke arah musuh dan memasuki True Sight selama 12 detik. Setelahnya, ia melakukan Plunge ATK yang memberikan  Fusion DMG.\nTrue Sight: Capture memiliki 2 initial charges dan dapat menyimpan hingga 2 Maksimum charges.\ncharges akan bertambah 1 setiap 12 detik.\nDapat digunakan di udara.\n\nBasic Attack: True Sight - Conquest\nSaat berada dalam True Sight,jika Changli menggunakan Ground Basic Attack, ia akan melepaskan True Sight: Conquest, melesat ke arah musuh dan memberikan  Fusion DMG yang dihitung sebagai Resonance Skill DMG. Setelah menggunakannya, True Sight berakhir.\n\nBasic Attack: True Sight - Charge\nSaat berada dalam True Sight, jika Changli melompat atau menggunakan Basic Attack di udara, ia akan melepaskan True Sight: Charge melesat ke arah musuh dan memberikan  Fusion DMG yang dihitung sebagai Resonance Skill DMG. Setelah menggunakannya, True Sight berakhir."
+    },
+    "liberation": {
+      "name": "Radiance Of Fealty",
+      "description": "Memberikan  Fusion DMG ke target di sekitar, mendapatkan 4 stacks Enflamement, dan memasuki Fiery Feather.\nDapat digunakan di udara.\n\nFiery Feather\nSaat Changli menggunakan Heavy Attack: Flaming Sacrifice dalam 10 detik, ATK meningkat 25%, lalu Fiery Feather berakhir."
+    },
+    "forte": {
+      "name": "Flaming Sacrifice",
+      "description": "Heavy Attack: Flaming Sacrifice\nSaat menggunakan Heavy Attack, jika Changli memiliki 4 stack(s) Enflamement, ia akan menghabiskan semua stack(s) tersebut untuk melepaskan Flaming Sacrifice, memberikan  Fusion DMG yang dihitung sebagai Resonance Skill DMG.\nSaat menggunakan Flaming Sacrifice, Changli menerima 40% lebih sedikit DMG.\n\nEnflamement\n\nChangli dapat menyimpan hingga 4 stack(s) Enflamement.\n\nMendapatkan 1 stack(s) Enflamementsetiap kali Basic Attack: True Sight: Conquest mengenai target.\n\nMendapatkan 1 stack(s) Enflamement setiap kali Basic Attack: True Sight: Charge mengenai target.\n\nMendapatkan 4 tstack(s) Enflamement setiap kali menggunakan Resonance Liberation: Radiance of Fealty."
+    },
+    "inherent": [
+      {
+        "name": "Secret Strategist",
+        "description": "Saat Changli menggunakan Basic Attack: True Sight: Conquest atau Basic Attack: True Sight: Charge, untuk setiap stack(s) Enflamement,  Fusion DMG Bonus meningkat 5%."
+      },
+      {
+        "name": "Sweeping Force",
+        "description": "Menggunakan Heavy Attack: Flaming Sacrifice atau Resonance Liberation: Radiance of Fealty memberikan 20%  Fusion DMG Bonus dan mengabaikan 15% DEF musuh saat memberikan serangan."
+      },
+      {
+        "name": "Tune Break: Sword",
+        "description": ""
+      }
+    ],
+    "intro": {
+      "name": "Obedience Of Rules",
+      "description": "Changli muncul di udara, menyerang target, lalu memasuki True Sight selama 12 detik."
+    },
+    "outro": {
+      "name": "Strategy Of Duality",
+      "description": "Resonator yang masuk akan mendapatkan 20%  Fusion DMG Amplification dan 25% Resonance Liberation DMG Amplification selama 10 detik atau hingga mereka diganti."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Rage Tacet Core",
+            "amount": 46
+          },
+          {
+            "item": "Crude Ring",
+            "amount": 4
+          },
+          {
+            "item": "Basic Ring",
+            "amount": 12
+          },
+          {
+            "item": "Improved Ring",
+            "amount": 12
+          },
+          {
+            "item": "Tailored Ring",
+            "amount": 4
+          },
+          {
+            "item": "Pavo Plum",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Sentinel's Dagger",
+          "amount": 26
+        },
+        {
+          "item": "Crude Ring",
+          "amount": 25
+        },
+        {
+          "item": "Basic Ring",
+          "amount": 28
+        },
+        {
+          "item": "Improved Ring",
+          "amount": 40
+        },
+        {
+          "item": "Tailored Ring",
+          "amount": 57
+        },
+        {
+          "item": "Inert Metallic Drip",
+          "amount": 25
+        },
+        {
+          "item": "Reactive Metallic Drip",
+          "amount": 28
+        },
+        {
+          "item": "Polarized Metallic Drip",
+          "amount": 55
+        },
+        {
+          "item": "Heterized Metallic Drip",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Blazing Brilliance",
+          "value": 627227.42,
+          "imagePath": "",
+          "percentage": 111
+        },
+        {
+          "type": "Red Spring",
+          "value": 568138.03,
+          "imagePath": "",
+          "percentage": 101
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 564185.57,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Endless Collapse",
+          "value": 464517.5,
+          "imagePath": "",
+          "percentage": 82
+        },
+        {
+          "type": "Lumingloss",
+          "value": 438829.16,
+          "imagePath": "",
+          "percentage": 78
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Changli - Weapons",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Skill",
+          "value": 62.3,
+          "imagePath": "",
+          "percentage": 62.3
+        },
+        {
+          "type": "Lib",
+          "value": 31.1,
+          "imagePath": "",
+          "percentage": 31.1
+        },
+        {
+          "type": "Echo",
+          "value": 3.3,
+          "imagePath": "",
+          "percentage": 3.3
+        },
+        {
+          "type": "Intro",
+          "value": 3.4,
+          "imagePath": "",
+          "percentage": 3.4
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Changli - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 627227.42,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 648947.42,
+          "imagePath": "",
+          "percentage": 103
+        },
+        {
+          "type": "S2",
+          "value": 751733.98,
+          "imagePath": "",
+          "percentage": 120
+        },
+        {
+          "type": "S3",
+          "value": 821815.08,
+          "imagePath": "",
+          "percentage": 131
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Changli - Sequence",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Hidden Thoughts",
+      "description": "Resonance Skill: Tripartite Flames dan Heavy Attack: Flaming Sacrifice meningkatkan DMG yang dihasilkan oleh Changli sebesar 10% serta meningkatkan ketahanan terhadap gangguan saat menyerang."
+    },
+    {
+      "stage": "S2",
+      "name": "Pursuit Of Desires",
+      "description": "Setiap Enflamement meningkatkan Crit. Rate Changli sebesar 25% selama 8 detik.\n\n"
+    },
+    {
+      "stage": "S3",
+      "name": "Learned Secrets",
+      "description": "Resonance Liberation: Radiance of Fealty mendapatkan peningkatan DMG sebesar 80%."
+    },
+    {
+      "stage": "S4",
+      "name": "Polished Words",
+      "description": "Setelah menggunakan Intro Skill, ATK seluruh anggota tim meningkat 20% selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Sacrificed Gains",
+      "description": "Multiplier dari Heavy Attack: Flaming Sacrifice meningkat 50%, dan DMG yang dihasilkan juga meningkat 50%."
+    },
+    {
+      "stage": "S6",
+      "name": "Realized Plans",
+      "description": "Resonance Skill: Tripartite Flames, Heavy Attack: Flaming Sacrifice dan Resonance Liberation: Radiance of Fealty mengabaikan tambahan 40% dari DEF musuh saat memberikan serangan."
+    }
+  ],
+  "lore": {
+    "description": "Changli adalah penasihat yang melayani Magistrat Jinzhou, dan mantan Sekretaris Jenderal di ibu kota. Terselubung dalam api, dia ditakdirkan untuk bersinar terang hingga bara terakhirnya. Dengan tekadnya yang membara dan pola pikir strategisnya, dia naik ke tampuk kekuasaan, selalu berpikir ke depan untuk mencapai tujuan akhirnya.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDAY\nJune 6th",
+    "report": {
+      "resonancePower": "Eternal Blaze",
+      "overclockDiagnostic": "Gelombang Resonansi Changli menunjukkan fluktuasi elips, dengan pola Time Domain yang stabil dan tidak ada anomali dalam bentuk gelombang.\n\nKritisitas Resonansi: Tinggi\nStabilitas Frekuensi: Sangat tinggi\nRisiko Overclocking: Minimal\n\nMeskipun Resonator Changli memiliki riwayat Overclocking terdokumentasi, catatan menunjukkan bahwa:\n\nMaksimum Overclocking yang pernah tercatat: Diabaikan (Negligible)\n\nBerdasarkan laporan Changli, ia mengalami Overclocking saat masih kecil akibat paparan lingkungan berbahaya dalam jangka waktu lama. Hal ini menyebabkan Forte-nya beberapa kali meledak secara tidak terkendali sebagai bentuk pertahanan diri atau perlindungan terhadap orang lain, yang mengakibatkan bekas luka bakar permanen di lengan kirinya.\n\nNamun, seiring dengan meningkatnya kendali atas Forte-nya, fluktuasi frekuensi menjadi stabil, dan luka bakarnya tidak semakin memburuk. Meski begitu, ada kemungkinan kerusakan fisik permanen akibat ledakan Forte yang dapat memperpendek harapan hidupnya.\n\nDisarankan untuk melakukan pemeriksaan fisik rutin, sementara konseling psikologis saat ini tidak diperlukan.",
+      "resonanceEvaluation": "Dasar Evaluasi: [Resonance Assessment 2326-G]\n\nWaktu pasti Awakening Resonator Changli masih belum dapat dipastikan. Laporan menunjukkan bahwa Changli mulai menunjukkan tanda-tanda awal manipulasi api sejak kecil, meskipun sering mengalami kesulitan dalam mengendalikannya. Namun, seiring bertambahnya usia, frekuensi dan kestabilan manifestasi Forte-nya mengalami peningkatan yang signifikan.\n\nTacet Mark milik Changli terletak di bagian bawah dadanya. Pemeriksaan Post-Awakening menunjukkan adanya perubahan fisik tertentu, termasuk pudarnya warna rambut di ujungnya secara bertahap serta bekas luka bakar berbentuk bulu di lengan kirinya, yang memancarkan cahaya seperti api sesuai dengan Forte-nya.\n\nResonance Spectrum Pattern Changli mencerminkan karakteristik api, menunjukkan reaksi Syntony yang kuat selama pengujian. Meskipun pemicu pasti Kebangkitannya masih belum diketahui, sejauh ini tidak ada sampel lain dengan kesamaan Resonance Spectrum Pattern melebihi 60%.\nForte Changli tampaknya memiliki keselarasan erat dengan burung roh mistis dari folklore Huanglong, kemungkinan besar akibat pengaruh cerita-cerita yang ia dengar sejak kecil tentang makhluk legendaris tersebut.\n\nChangli memiliki kemampuan unik untuk memadatkan api menjadi proyektil berbentuk bulu yang halus. Saat Forte-nya dilepaskan sepenuhnya, ia dapat menciptakan kobaran api dengan suhu ekstrem, mampu melahap area yang luas dalam sekejap. Salah satu tanda paling mencolok ketika Forte-nya aktif adalah munculnya satu bulu api dengan pola menyerupai mata di dahinya, yang ia sebut sebagai \"Mind’s Eye\".\n\nAnalisis sampel uji menunjukkan adanya Kurva Rabelle yang tidak konvergen namun dengan kenaikan stabil. Beberapa fluktuasi sesekali terdeteksi, tetapi masih dalam rentang normal. Oleh karena itu, Changli diidentifikasi sebagai Natural Resonator."
+    },
+    "items": [
+      {
+        "name": "Firmament Weiqi Manual",
+        "description": "Sebuah buku panduan weiqi tua, berisi catatan permainan legendaris yang ditinggalkan oleh seorang pengunjung misterius di Gunung Firmament.\n\nHalaman-halamannya telah menguning karena usia, dengan sudut-sudut yang terlipat akibat sering dibaca. Manuskrip ini pernah menemani pemiliknya melewati banyak perjalanan berbahaya dan penuh kesendirian. Kini, buku ini telah dipulihkan dan dijilid ulang, dengan halaman baru yang siap mencatat pertandingan berikutnya.\n\nSekarang, lawan yang telah lama ia cari akhirnya berdiri di hadapannya. Sebuah pertandingan bersejarah akan terjadi—satu yang akan dikenang dan dipelajari selama berabad-abad. Selama para pemain masih ada, halaman-halaman ini akan terus terisi.",
+        "imageUrl": "/icons/items/changli-1.webp"
+      },
+      {
+        "name": "Flame-Soaked Cloth",
+        "description": "Kain dengan bahan tak dikenal, lembut saat disentuh dan dikatakan tahan api. Setelah dibersihkan dengan api, kain ini justru menjadi lebih putih dan bersih, seperti salju yang baru turun.\n\nTanaman yang dulunya digunakan untuk menenun kain ini telah punah selama Lament, membuat setiap helainya menjadi barang yang sangat langka dan berharga.\n\nSetelah Upacara Pengangkatan, Magistrate baru dari Jinzhou memberikan kain ini sebagai hadiah kepada gurunya yang ia hormati.",
+        "imageUrl": "/icons/items/changli-2.webp"
+      },
+      {
+        "name": "Blaze Feather",
+        "description": "Salah satu dari dua bulu api yang terbentuk dari Forte Changli.\n\nSatu bulu telah diberikan kepada tamu kehormatan di Jinzhou, sementara yang satunya lagi disimpan oleh Changli.\n\nBulu ini terasa hampir tidak berbobot, seakan bisa terus menyala selamanya. Namun, api ini tidak pernah melukai siapa pun yang menyentuhnya, justru memberikan kehangatan yang menenangkan, mencerminkan kemampuan Changli yang nyaris sempurna dalam mengendalikan Forte-nya.\n\nSeperti jubahnya, bulu ini sepenuhnya terbuat dari api.\n\nDulu, dalam dongeng yang diceritakan kepada seorang gadis kecil, dikisahkan bahwa phoenix yang lahir dari api akan memberikan bulu ekornya yang paling berharga kepada seseorang yang paling ia sayangi.",
+        "imageUrl": "/icons/items/changli-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Beneath The Whispers",
+        "content": "Belakangan ini, para pengunjung City Hall jarang melihat Counselor Changli, atau setidaknya itulah yang dikatakan banyak orang.\n\nMeskipun Counselor Changli bukan sosok yang suka tampil di depan umum, ia dikenal oleh semua orang di Jinzhou sebagai orang kepercayaan paling setia dari Magistrate Jinzhou. Namun, banyak rumor aneh dan tidak menentu tentang dirinya.\n\nDikatakan bahwa ketika masih di ibu kota, Counselor Changli mengusulkan renovasi Shelter Homes di seluruh Huanglong untuk memberikan tempat tinggal yang lebih layak bagi para pengungsi korban Lament. Ia juga memperjuangkan pengurangan pajak dagang di Jinzhou serta alokasi makanan dan dana untuk membantu kota pulih dari dampak Battle Beneath the Crescent.\n\nDikatakan bahwa begitu tiba di City Hall, Counselor Changli dengan mudah menyingkirkan dua kelompok bandit yang telah lama beroperasi di sekitar Jinzhou. Hanya dengan satu percakapan dan sebuah \"jebakan yang jelas\", kedua kelompok itu mulai mencurigai satu sama lain hingga akhirnya bertempur sendiri sampai mereka tak lagi menjadi ancaman.\n\nDikatakan bahwa Counselor Changli bukanlah penasihat yang ditunjuk setelah Sentinel memilih Magistrate Jinzhou, melainkan telah lebih dulu mengajukan diri untuk datang ke Jinzhou, untuk mengajar Jinhsi yang masih muda dan membantunya mengemban kekuasaan yang terlalu berat bagi seorang anak.\n\n\"Benarkah? Versi yang aku dengar bilang itu semua dilakukan oleh mantan Sekretaris Jenderal, dan Changli hanya diturunkan ke perbatasan karena menyinggung kekuasaan yang ada, bukan?\"\n\n\"Dari yang kudengar, dia adalah murid langsung Master Xuanmiao dan direkomendasikan oleh mantan Sekretaris Jenderal. Pidato dan debatnya telah meyakinkan semua pemikir hebat di negeri ini. Mana mungkin dia seorang penjilat?\"\n\n\"Kalian ini bicara apa? Katanya dia keturunan pertapa agung, dan dia datang ke Jinzhou untuk memastikan keluarganya punya suara di pusat kekuasaan...\"\n\nDi tengah semua gosip itu, Changli tetap tak tergoyahkan. Saat melewati orang-orang yang membicarakannya di belakang, tatapannya yang lembut namun tegas langsung membungkam mereka.\n\nRumor lain yang beredar adalah tentang Magistrate baru Jinzhou, seorang gadis muda yang bahkan belum cukup umur, tetapi telah dipilih oleh Sentinel untuk menduduki posisi berkuasa ini. Beberapa orang berbisik bahwa Changli memiliki terlalu banyak pengaruh dan berencana untuk menggulingkan Magistrate sebelum mengambil alih kekuasaan sendiri.\n\nNamun, setelah Upacara Pengangkatan, Changli menyerahkan kekuasaan kepada Jinhsi dan menjadi Counselor-nya. Dalam waktu tiga tahun, kehidupan di Jinzhou membaik secara signifikan, dan penduduknya bersyukur kepada Magistrate mereka. Tetapi, tak ada yang tahu seberapa besar peran Changli dalam semua itu.\n\nMereka yang pernah bertemu Changli mengatakan bahwa ia selalu tersenyum lembut, memperlakukan semua orang—baik jenderal maupun prajurit—dengan sikap yang sama. Namun, saat ia sendirian, aura yang mengintimidasi sering kali membuat calon pengunjung ragu untuk mendekatinya.\n\n\"Terakhir kali aku bertemu Counselor Changli di Patrol Station, dia tiba-tiba terlihat sangat tertarik dengan pohon di halaman. Aku kira dia punya tugas penting, tapi dia malah menghabiskan sepanjang sore... menonton semut...\"\n\n\"Lalu apa yang terjadi?\"\n\n\"Tiba-tiba seorang buronan datang menyerahkan diri! Awalnya kami curiga kalau ini jebakan. Tapi begitu Counselor Changli muncul, penjahat itu langsung gemetar ketakutan dan mengakui segalanya, bahkan kasus lama yang masih belum terpecahkan. Itu jadi kasus terbesar dalam karierku...\"\n\n\"Dan Counselor Changli?\"\n\n\"Dia pergi entah sejak kapan. Kami bahkan tidak menyadarinya... Hmm, dia memang sulit ditebak...\""
+      },
+      {
+        "title": "Master And Minister",
+        "content": "Sebelum menjadi guru Jinhsi, Changli hanya pernah bertemu dengannya sekali, saat gadis itu masih sangat muda.\n\nSuatu hari di Jinzhou, saat berjalan di dalam City Hall, Changli mendengar suara lantunan dari sebuah ruangan. Seorang gadis kecil duduk di antara stack buku, berusaha memahami teori-teori yang masih terlalu sulit baginya.\n\n\"'Siapa yang tidak dapat melihat asal mula keteraturan dan kekacauan, tidak pantas membuat hukum'... Tapi bagaimana aku bisa melihat akar dari semuanya? Bagaimana aku bisa mendapatkan wawasan seperti itu?\"\n\nSaat mengucapkan kalimat itu, gadis itu semakin bingung.\n\nSosok mungil yang bekerja keras itu mengingatkan Changli pada dirinya sendiri di masa lalu, saat ia berusaha keras menyerap sebanyak mungkin pengetahuan, mencoba menjadi orang dewasa sebelum waktunya.\n\nMengikuti dorongan hatinya, Changli maju dan menjawab kebingungan gadis itu.\n\n\"Terima kasih, Nyonya. Anda telah mencerahkan saya,\"\n\nucap gadis itu dengan suara yang masih kekanak-kanakan, mengungkapkan rasa terima kasihnya dengan sungguh-sungguh.\n\nSetelah ragu sejenak, ia kembali menatap Changli dan bertanya:\n\n\"Lalu, bagaimana aku bisa menjadi Magistrate yang baik, dan membawa keteraturan ke kota ini?\"\n\n\"Kenapa kamu ingin tahu?\"\n\n\"Penduduk Jinzhou sudah terlalu lama menjadi korban perang. Aku ingin membawa mereka kedamaian dan kemakmuran.\"\n\n\"…Itu bukan tugas yang mudah.\"\n\n\"Benar, tapi aku harus mencoba segalanya yang aku bisa.\"\n\n\"Kedamaian dan kemakmuran\"…\n\nSaat Changli menatap mata gadis itu, ia melihat tekad dan kekuatan—seperti kilauan bintang kecil di langit malam.\n\n\"Baiklah. Kalau begitu, aku akan membantumu mewujudkan keinginanmu.\"\n\nAkhirnya, gadis itu benar-benar menjadi Magistrate Jinzhou, dipilih oleh Sentinel. Saat Jinhsi bekerja keras di City Hall, Changli tetap berada di sisinya, selalu siap menjawab pertanyaan dan memberikan nasihat saat dibutuhkan.\n\nBagi kebanyakan orang, kisah-kisah kepahlawanan terlalu muluk dan tidak penting. Bagi rakyat biasa, kehidupan yang lebih baik hanya berarti makanan hangat dan tidur yang nyenya*.\n\n\"Seorang Magistrate tidak boleh terjebak dalam birokrasi, tapi harus turun langsung dan terlibat dengan rakyat,\"\n\nperingatan Changli kepada Jinhsi.\n\n\"Baik, Guru,\"\n\njawab Jinhsi patuh.\n\nLewat ritual permohonan tradisional Jinzhou, Jinhsi mulai membangun hubungan yang erat dengan rakyatnya, menciptakan kota yang penuh kehidupan dan empati.\n\nChangli menyaksikan dari kejauhan saat Jinhsi dikelilingi oleh warga yang gembira. Wajah-wajah yang dulu penuh kelelahan kini bersinar dengan kebahagiaan dan rasa syukur.\n\nSekarang, tidak ada lagi yang meragukan Jinhsi—baik rakyatnya maupun ibu kota.\n\n\"Lakukan apa yang kamu inginkan, aku akan mendukungmu,\"\n\nkata Changli, menanam benih pengetahuan dan menyalakan jalan bagi Jinhsi.\n\nApi dari obor yang ia nyalakan membakar langit malam, menerangi masa depan gadis muda itu."
+      },
+      {
+        "title": "Lone Feather In The Alley",
+        "content": "Pemilik Yanqing Bookstore, Changqing, baru-baru ini mengalami dua kejadian aneh.\n\nKejadian pertama berkaitan dengan bisnisnya.\n\nDengan begitu banyak barang yang berasal dari tanah luas dan kaya Huanglong, tren di Jinzhou selalu berubah-ubah. Baru-baru ini, buku kertas mulai kehilangan popularitas, membuat bisnis toko buku lokal semakin merosot.\n\nNamun, dalam beberapa hari terakhir, bisnis tiba-tiba meningkat pesat. Toko buku Changqing mendadak kebanjiran pelanggan. Banyak dari mereka terlihat seperti pejabat dari Central Court, jika dilihat dari pakaian yang mereka kenakan.\n\nSaat Changqing yang bingung bertanya kepada mereka, sebagian besar menyebut bahwa \"Sekretaris Jenderal\" merekomendasikan toko ini.\n\nSekretaris Jenderal?\n\nMeskipun ia tahu bahwa Sekretaris Jenderal baru telah menjabat, Changqing tak habis pikir—bagaimana mungkin seorang pemilik toko buku biasa seperti dirinya bisa dikaitkan dengan tokoh pemerintahan setinggi itu?\n\nKejadian kedua berkaitan dengan tampilan luar toko buku Yanqing yang telah lama terbengkalai.\n\nDi bawah tekanan ekonomi, toko ini sudah terlalu lama dibiarkan tak terawat. Bahkan, pemilik toko kelontong di sebelahnya pernah memberi saran:\n\n\"Changqing, kau harus memperbaiki gerbang toko itu. Kalau makin rusak, tak ada yang mau datang ke sini!\"\n\n\"Tenang saja. Meski tokoku tak semewah yang ada di ibu kota, aku punya koleksi teks klasik dan kuno terbaik. Orang-orang pasti akan mengetahuinya!\"\n\nMeskipun terlihat percaya diri, Changqing sebenarnya ragu apakah ia bisa merenovasi tokonya sendiri. Ia sempat berpikir untuk menyewa tukang, terutama saat bisnisnya sedang naik daun.\n\nNamun, keesokan harinya, saat ia tiba di toko, ia terkejut melihat tampilan luar toko berubah drastis dalam semalam. Plakat dan gerbang kini bersinar bersih, dengan tulisan \"Yanqing Bookstore\" terpampang megah.\nDi atas meja kasir, ada sebuah catatan kecil.\n\n\"Sebagai ungkapan terima kasih atas kebaikan pemilik toko, saya telah melakukan sedikit perbaikan sebagai tanda penghargaan.\"\n\nTidak ada tanda tangan di surat itu, tetapi pola bulu berwarna vermilion yang terukir di atasnya terasa sangat familiar. Changqing memegang catatan itu, perlahan duduk, lalu tenggelam dalam ingatan masa lalu.\n\nLebih dari sepuluh tahun yang lalu, toko buku ini pernah ramai oleh pelanggan yang datang dan pergi.\n\nSuatu hari, seorang gadis kecil berusia sekitar delapan atau sembilan tahun mulai menyelinap masuk dan menghabiskan waktu berjam-jam membaca buku di sana.\n\nAwalnya, Changqing tidak keberatan. Ia tidak masalah jika ada yang membaca tanpa membeli, asalkan tidak merusak buku atau mengganggu bisnisnya. Namun, setelah beberapa hari, penjualan mulai menurun drastis dan pelanggan semakin berkurang, membuatnya khawatir.\n\n\"Panas sekali! Udara di sini bikin gerah. Kita pergi ke tempat lain saja!\"\n\nPadahal saat itu sudah masuk awal musim gugur, tapi ruangan terasa sangat panas. Changqing menyeka keringat di dahinya dan mulai mencari penyebabnya.\n\nSaat ia menyisir rak-rak buku, ia akhirnya menemukan seorang gadis kecil meringkuk di bawah rak, sepenuhnya tenggelam dalam bacaannya. Di depannya, sebuah api kecil melayang di udara, menghangatkan seluruh ruangan tanpa ia sadari.\n\nPemandangan itu membuat amarah Changqing meledak.\n\n\"Hei, apa yang kau lakukan, bocah?! Kau hampir membakar tokoku!\"\n\nGadis kecil itu tersentak mendengar teriakannya dan segera memadamkan apinya. Mata Changqing terpaku pada buku yang ia genggam erat. Halamannya mulai menguning, seakan akan terbakar kapan saja.\n\n\"Kau... kau ini...!\"\n\nGadis itu dengan panik melemparkan bukunya ke lantai, wajahnya yang memerah menunjukkan campuran rasa takut dan bersalah saat ia melihat halaman yang mulai hangus.\n\n\"Maaf... tempat ini terlalu gelap... aku hanya ingin membuatnya lebih terang...\"\n\nSaat melihat buku kesayangannya rusak, Changqing tidak bisa menahan amarahnya. Ia ingat bagaimana penjualannya semakin menurun belakangan ini. Dengan wajah penuh kemarahan, ia mengambil sapu dari samping rak dan bersiap untuk menghukum anak itu.\n\nNamun, sebelum ia sempat bergerak, gadis itu bergerak lebih cepat. Tubuhnya tampak kecil dan rapuh, tetapi gerakannya sangat lincah.\n\nSaat Changqing berlari mengejarnya keluar dari toko, yang bisa ia lihat hanyalah rambut merah menyala yang menghilang di tengah keramaian pasar. Ia berdiri di gerbang, masih marah sekaligus bingung.\n\n\"Jangan pernah muncul di sini lagi!\"\n\nSaat itu, pemilik toko kelontong di sebelahnya keluar dan bertanya dengan santai:\n\n\"Ada apa? Bukankah itu gadis kecil yang bisa mengendalikan api?\"\n\n\"Kau mengenalnya? Dia hampir membakar tokoku!\"\n\nHei, dia anak baik, aku tidak bohong. Beberapa hari yang lalu, dia membantuku hanya demi mendapatkan sedikit roti kukus. Kasihan juga, harus berjalan sendirian sejauh ini... Kudengar desanya dihancurkan oleh TD Outbreak, dan tak ada yang selamat. Entah bagaimana dia bisa lolos...\"\n\n\"Kenapa kau tidak memberitahuku lebih awal?\"\n\n\"Yah, kau tidak pernah bertanya! Tapi sekarang kejadian ini sudah terjadi... dia mungkin tidak akan pernah kembali lagi.\"\n\nDi kejauhan, gadis kecil itu menghilang di balik gang sempit. Dari balik tembok, terdengar suara tawa anak-anak yang sedang bermain. Changqing menatap buku yang tergeletak di tanah, hatinya dipenuhi perasaan yang tak bisa ia jelaskan."
+      },
+      {
+        "title": "Radiance'S Return",
+        "content": "Bisnis di Yanqing Bookstore akhirnya kembali normal, dengan arus pelanggan yang stabil. Namun, gadis kecil yang dulu selalu membaca diam-diam di antara rak-rak buku tak pernah terlihat lagi.\n\nYang mengejutkan Changqing, gadis itu kembali seminggu kemudian.\n\n\"Ini semua uangku. Aku bersumpah, aku mendapatkannya dengan jujur! Maaf karena membakar bukumu... Hanya di sini aku bisa menemukan buku yang kucari. Tolong, bolehkah aku...\"\n\nGadis itu menggigit bibirnya, tampak ragu saat meletakkan Shell Credits yang ia kumpulkan di meja kasir.\n\nTubuhnya yang mungil bahkan tidak setinggi meja, hanya bagian atas kepalanya yang terlihat. Dengan berjinjit dan tangan gemetar, ia tetap menatap Changqing dengan mata yang terang dan penuh tekad, tanpa sedikit pun keinginan untuk menghindari tatapannya.\n\n\"...Baiklah.\"\n\nSetelah hari-hari berlalu, amarah Changqing sudah lama menghilang. Ia mengibaskan tangannya dengan malas.\n\n\"Bawa kembali uangmu. Jangan ganggu bisnisku.\"\n\nGadis itu menunduk dalam-dalam sebelum berbalik pergi, berjalan menjauh tanpa berkata apa-apa. Namun, setiap beberapa langkah, ia terus berhenti dan menoleh ke belakang.\n\nChangqing menghela napas panjang, menatap pakaian gadis itu yang lusuh dan tubuhnya yang kurus dalam diam.\n\nIa berdiri, mengambil sebuah lentera, lalu menyerahkannya bersama kunci cadangan toko.\n\n\"Ambil ini. Jangan pakai api untuk penerangan lagi. Datanglah membaca saat malam, ketika tidak ada pelanggan.\"\n\n\"...\"\n\n\"Aku tidak mengizinkanmu membaca gratis. Kau harus membuka toko untukku di pagi hari.\"\n\n\"T-terima kasih, Tuan...\"\n\nSaat itulah Changqing pertama kali melihat senyum polos gadis itu—cerah dan penuh kebahagiaan.\n\nSejak pertemuan itu, gadis kecil tersebut menjadi pelanggan tetap di Changqing Bookstore. Seperti yang telah disepakati, ia hanya datang saat malam, menghabiskan waktu dengan membaca tanpa mengganggu siapa pun.\n\nDi pagi hari, saat Changqing kembali ke toko, ia selalu menemukannya dalam keadaan bersih dan tertata rapi.\n\nDi hari-hari yang lebih dingin, gadis itu mulai datang di siang hari. Meski angin musim dingin bertiup kencang di luar, ruangan tetap terasa hangat dan nyaman.\n\nSesekali, Changqing melirik buku yang dibacanya—sebagian besar adalah buku sastra dan sejarah. Sikapnya tenang, jauh lebih dewasa dari usianya, hanya berubah hidup saat ia tenggelam dalam cerita-cerita yang ia baca.\n\nNamun, suatu hari... gadis itu menghilang. Desas-desus mulai menyebar—apakah ia ditangkap oleh Tacet Discords? Atau terluka dan tidak pernah berhasil mencapai ibu kota?\n\nKetika Changqing melihat pola api di surat yang ia terima, secercah harapan muncul di hatinya.\n\nMungkinkah dia masih hidup?\n\n\"Permisi?\"\n\nLamunan Changqing buyar saat suara lembut terdengar dari balik meja kasir.\n\nDi hadapannya, berdiri seorang wanita anggun dengan rambut berwarna api, berayun lembut diterpa angin—seperti bulu burung mistis. Matanya yang teduh membawa ketenangan, dan dengan senyuman hangat, ia meletakkan beberapa Shell Credits di meja.\n\n\"Tuan, hanya di sini aku bisa menemukan buku yang kucari. Tolong, bolehkah aku meminjamnya?\"\n\nKini, gadis kecil yang dulu rapuh telah berubah menjadi seorang Sekretaris Jenderal yang percaya diri—tokoh yang menjadi perbincangan seluruh kota.\n\nSaat matahari pagi masuk melalui jendela, menerangi seluruh ruangan dengan sinar keemasan, Changqing hanya bisa tertawa kecil, lalu melambaikan tangannya santai.\n\n\"Lanjutkan... Bacalah, meski kau tak membayar. Aku ragu bisa memaksamu lagi sekarang.\""
+      },
+      {
+        "title": "The Myth-Laden Savior",
+        "content": "Master Xuanmiao telah lama mencari seseorang.\n\nChangli muda menemani gurunya yang sudah lanjut usia dalam perjalanan melintasi berbagai lanskap Huanglong. Awalnya, sang Master enggan untuk membimbing murid lain, tetapi akhirnya ia sepenuh hati mewariskan semua kebijaksanaannya kepada Changli dalam waktu yang terbatas.\n\nMaster Xuanmiao adalah seorang pemain Weiqi yang berdedikasi. Dalam perjalanan mereka yang melelahkan, mereka kerap berhenti di pinggir jalan untuk memainkan pertandingan Weiqi yang intens. Namun, bagi sang Master, ini bukan sekadar permainan—melainkan cara untuk mengajarkan strategi, pemikiran taktis, dan dinamika kekuasaan dalam setiap gerakan.\n\nTerkadang, ia akan membahas sebuah permainan Weiqi yang belum selesai dengan Changli, tetapi jawaban-jawaban gadis itu tampaknya tidak pernah sepenuhnya memuaskannya.\n\nDi momen-momen seperti itu, Master Xuanmiao selalu menyebutkan seorang teman lamanya—seseorang yang ingin ia temukan kembali melalui Changli.\n\nChangli yang penasaran sering kali bertanya siapa orang itu dan di mana mereka bisa menemukannya, tetapi sang Master hanya menggeleng dan berkata:\n\n\"Waktunya belum tiba.\"\n\nPada hari di mana ia merasa ajalnya semakin dekat, Master Xuanmiao menyerahkan catatan permainan Weiqi-nya serta jurnal kesayangannya kepada Changli. Dengan penuh khidmat, ia berkata kepada muridnya yang setia:\n\n\"Dalam permainan yang belum selesai ini, kau akan menemukan kebenaran sejati.\"\n\nDengan membawa warisan Master Xuanmiao, Changli pun melangkah menuju takdirnya.\n\n\"...Seorang makhluk surgawi turun, menguasai kekuatan tak terbatas dari alam semesta, merangkul gema yang pertama...\"\n&#xNAN;\"...Sosok misterius dengan mata emas, berdiri di antara awan berputar dan cahaya yang meredup...\"\n&#xNAN;\"...Selalu berada di sisi Sentinel Jué, terikat dalam persahabatan yang mendalam...\"\n\nMengikuti catatan dalam jurnal gurunya, Changli terus mencari sosok misterius itu, menemukan jejaknya di tempat-tempat tak terduga.\n\nKadang-kadang, itu adalah kisah-kisah menakjubkan yang diceritakan oleh para pendongeng tua. Di lain waktu, itu hanyalah potongan-potongan kecil yang tersembunyi dalam arsip kuno.\n\nSeperti penjaga yang diam, sosok ini menjadi jangkar yang kuat dalam badai, menuntun umat manusia melewati kehancuran menuju cakrawala harapan baru.\n\nJejak yang mereka tinggalkan membentuk benang merah yang nyaris tak terlihat, tetapi tetap kokoh—menjembatani waktu dan sejarah yang jauh melampaui umur manusia biasa.\n\nDikatakan bahwa*kedatangan orang itu akan menjadi sesuatu yang mustahil untuk dilewatkan. Sosok ini memiliki kekuatan untuk benar-benar mengubah dunia.\n\nNamun, Changli tahu bahwa dunia yang damai dan sejahtera tidak bisa hanya bergantung pada kedatangan seorang penyelamat.\n\nIa memahami bahwa untuk mewujudkan impiannya, ia harus memiliki kekuatan dan pengaruh besar.\n\nMaka, ia memulai perjalanan panjang, menempuh berbagai negeri, memperdalam ilmunya, menghadapi setiap tantangan tanpa gentar, dan memenuhi ekspektasi yang ditaruh di pundaknya.\n\nKetika akhirnya ia meraih posisi bergengsi sebagai Sekretaris Jenderal, ia mendapatkan akses ke Grand Libraries yang dihormati.\n\nDi dalam lautan pengetahuan yang tersembunyi di sana, ia menemukan satu petunjuk penting—jejak yang membawanya ke Jinzhou, sebuah kota perbatasan di Huanglong.\n\nSejak saat itu, segalanya terjadi tepat seperti yang telah diramalkan oleh Sentinel Jué.\n\nOrang yang selama ini ia cari muncul di Jinzhou, melindungi kota dari Threnodian yang bangkit kembali.\n\nSosok samar dari catatan kuno dan mitos kini menjadi nyata dalam pikirannya—jelas, tegas, dan tak terbantahkan.\n\nPada hari yang telah ditakdirkan, Changli kembali ke Jinzhou dari Mingting, ibu kota Huanglong.\n\nHujan turun dengan lembut saat ia tiba di dermaga kapal feri, dan di sana—orang yang selama ini ia cari tengah menunggu, berdiri di tengah rintik hujan dengan ekspresi ragu.\n\nMengikuti nubuat Jué, Changli percaya bahwa takdir akan mempertemukan mereka pada saat yang tepat.\n\nDan saat yang telah dinanti itu telah tiba. Menyembunyikan badai emosi di balik matanya, Changli berjalan mendekat dengan langkah tenang.\n\nDengan payung kertas berhias motif burung roh, ia memiringkannya sedikit untuk melindungi mereka dari hujan.\n\nTatapan mereka bertemu—sebuah percakapan tanpa kata yang lebih dalam dari sekadar suara. Satu-satunya suara yang terdengar hanyalah nyanyian lembut rintik hujan yang mengetuk payungnya.\n\nChangli tersenyum, lalu dengan suara lembut bertanya:\n\n\"Apakah kau terperangkap di sini oleh hujan?\""
+      }
+    ],
+    "specialFood": {
+      "name": "Blazing Feather Spicy",
+      "imageUrl": "/icons/food/changli.webp",
+      "description": "Meningkatkan Energy Regen semua Resonator dalam tim sebesar 24%, bertahan selama 30 menit.\n\nHanya berlaku untuk Resonator sendiri dalam Co-op Mode."
+    }
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "name": "Mortefi",
+  "element": "Fusion",
+  "weapon": "Pistol",
+  "rarity": 4,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Concerto Efficiency",
+    "Resonance Liberation Damage",
+    "Coordinated Attack",
+    "Heavy Attack DMG Amplification"
+  ],
+  "sonatas": [
+    "Empyrean Anthem",
+    "Moonlit Clouds"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Huaxu Academy",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Mutant",
+  "image": "/characters/mortefi.webp",
+  "imageBanner": "/banners/mortefi-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1800+",
+    "Energy Regen": "120-140%+",
+    "Crit Ratio (Crit Weapon)": "60-65% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Impermanence Heron",
+      "Hecate"
+    ],
+    "bestWeapon": "The Last Dance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Sub DPS General",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: fusion%",
+            "3: fusion%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        },
+        {
+          "label": "Sub DPS DMG",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: fusion%",
+            "3: fusion%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "hecate",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Empyrean Anthem"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "Meskipun Static Mist 4% lebih buruk dalam hal DMG, Static Mist adalah pilihan yang lebih baik jika Mortefi digunakan sebagai Sub DPS karena memberikan bonus tambahan bagi Resonator berikutnya. Cadenza adalah alternatif bintang 4 yang layak karena memberikan tambahan energy regen dan concerto energy untuk mempersingkat rotasi.",
+    "weaponOptions": [
+      {
+        "id": "the-last-dance",
+        "percentage": "104",
+        "rank": ""
+      },
+      {
+        "id": "static-mist",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "cadenza",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "thunderbolt",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "relativistic-jet",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "novaburst",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "BA4(Swap)(x3)",
+          "Intro",
+          "Ult",
+          "Skill(x2)",
+          "Echo(Swap)",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Agus/Jiyan Hypercarry",
+        "note": "",
+        "members": [
+          [
+            "Augusta",
+            "Jiyan"
+          ],
+          [
+            "Mortefi"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      },
+      {
+        "name": "Jinhsi Blender",
+        "note": "",
+        "members": [
+          [
+            "Jinhsi"
+          ],
+          [
+            "Mortefi"
+          ],
+          [
+            "Jianxin"
+          ]
+        ]
+      },
+      {
+        "name": "Mono Fusion",
+        "note": "",
+        "members": [
+          [
+            "Galbrena"
+          ],
+          [
+            "Mortefi"
+          ],
+          [
+            "Shorekeeper",
+            "Lupa"
+          ]
+        ]
+      }
+    ],
+    "teamNote": "Mortefi memberikan buff berikut kepada rekan timnya:\n- 38% Heavy DMG Amplify selama 14 detik setelah melancarkan Outro Skill\n- Dengan Static Mist: +10% ATK kepada Resonator berikutnya selama 14 detik setelah melancarkan Outro Skill\n- Dengan S6: +20% ATK selama 20 detik."
+  },
+  "skills": {
+    "basic": {
+      "name": "Impromptu Show",
+      "description": "Basic Attack\nMortefi menggunakan sepasang pistol dan api untuk melakukan hingga 4 tembakan beruntun, memberikan  Fusion DMG.\n\nHeavy Attack\nMortefi memasuki mode Aiming untuk menembakkan serangan yang lebih kuat.\nTembakan yang dilepaskan setelah charge selesai memberikan  Fusion DMG.\n\nMid-air Attack\nMenggunakan Stamina untuk melakukan beberapa tembakan ke arah target saat berada di udara, memberikan  Fusion DMG.\n\nDodge Counter\nGunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG."
+    },
+    "skill": {
+      "name": "Passionate Variation",
+      "description": "Menembakkan kilatan api ke depan, memberikan  Fusion DMG."
+    },
+    "liberation": {
+      "name": "Violent Finale",
+      "description": "Memberikan  Fusion DMG dan menerapkan efek Burning Rhapsody kepada semua anggota tim.\nBurning Rhapsody\nSaat Basic Attack karakter aktif mengenai target, Mortefi akan melakukan Coordinated Attack, menembakkan 1 Marcato.\nSaat Heavy Attack karakter aktif mengenai target, Mortefi akan melakukan Coordinated Attack, menembakkan 2 Marcato.\nMortefi dapat melakukan 1 Coordinated Attack setiap 0.35 detik.\n\nMarcato\nMenyerang target, memberikan  Fusion DMG."
+    },
+    "forte": {
+      "name": "Fury Fugue",
+      "description": "Resonance Skill: Fury Fugue\nSaat Annoyance Mortefi mencapai 100, Resonance Skill akan berubah menjadi Fury Fugue.\nSaat menggunakan Fury Fugue, Mortefi mengonsumsi seluruh Annoyance untuk menembakkan kilatan api berkecepatan tinggi, memberikan  Fusion DMG yang dihitung sebagai Resonance Skill DMG.\n\nAnnoyance\nMortefi dapat menyimpan hingga 100 Annoyance dan dapat memulihkannya melalui cara berikut:\nSaat Normal Attack: Impromptu Show mengenai target.\nSaat Intro Skill: Dissonance mengenai target.\nSaat Resonance Skill: Passionate Variation mengenai target.\nDalam 5 detik setelah menggunakan Passionate Variation, \nsetiap Normal Attack: Impromptu Show yang mengenai target akan memulihkan Annoyance tambahan."
+    },
+    "inherent": [
+      {
+        "name": "Harmonic Control",
+        "description": "Setelah menggunakan Resonance Skill: Passionate Variation, DMG dari Resonance Skill: Fury Fugue meningkat 25% selama 8 detik"
+      },
+      {
+        "name": "Rhythmic Vibrato",
+        "description": "Saat dalam efek Burning Rhapsody, setiap serangan Marcato dari Resonance Liberation akan meningkatkan DMG dari Marcato berikutnya sebesar 1.5%.\nEfek ini dapat dipicu setiap 0.35 detik, hingga 50 stack(s).\nEfek ini akan dihapus setelah Burning Rhapsody berakhir."
+      },
+      {
+        "name": "Tune Break: Pistols",
+        "description": ""
+      }
+    ],
+    "intro": {
+      "name": "Dissonance",
+      "description": "Mortefi menyerang target, memberikan  Fusion DMG."
+    },
+    "outro": {
+      "name": "Rage Transposition",
+      "description": "Resonator yang masuk mendapatkan 38% Heavy Attack DMG Amplification selama 14 detik atau hingga mereka diganti."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Rage Tacet Core",
+            "amount": 46
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Coriolus",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Monument Bell",
+          "amount": 26
+        },
+        {
+          "item": "LF Whisperin Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Whisperin Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Whisperin Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Whisperin Core",
+          "amount": 57
+        },
+        {
+          "item": "Impure Phlogiston",
+          "amount": 25
+        },
+        {
+          "item": "Extracted Phlogiston",
+          "amount": 28
+        },
+        {
+          "item": "Refined Phlogiston",
+          "amount": 55
+        },
+        {
+          "item": "Flawless Phlogiston",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "The Last Dance",
+          "value": 275142,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "Static Mist",
+          "value": 263664,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Thunderbolt",
+          "value": 213140,
+          "imagePath": "",
+          "percentage": 81
+        },
+        {
+          "type": "Undying Flame",
+          "value": 210645,
+          "imagePath": "",
+          "percentage": 80
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Mortefi - Weapon",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA/HA",
+          "value": 6,
+          "imagePath": "",
+          "percentage": 6
+        },
+        {
+          "type": "Skill",
+          "value": 19,
+          "imagePath": "",
+          "percentage": 19
+        },
+        {
+          "type": "Lib",
+          "value": 68,
+          "imagePath": "",
+          "percentage": 68
+        },
+        {
+          "type": "Echo",
+          "value": 4,
+          "imagePath": "",
+          "percentage": 4
+        },
+        {
+          "type": "Intro",
+          "value": 3,
+          "imagePath": "",
+          "percentage": 3
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Mortefi - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1065221,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1083853,
+          "imagePath": "",
+          "percentage": 102
+        },
+        {
+          "type": "S2",
+          "value": 1083853,
+          "imagePath": "",
+          "percentage": 102
+        },
+        {
+          "type": "S3",
+          "value": 1094391,
+          "imagePath": "",
+          "percentage": 103
+        },
+        {
+          "type": "S4",
+          "value": 1136084,
+          "imagePath": "",
+          "percentage": 107
+        },
+        {
+          "type": "S5",
+          "value": 1144862,
+          "imagePath": "",
+          "percentage": 107
+        },
+        {
+          "type": "S6",
+          "value": 1263208,
+          "imagePath": "",
+          "percentage": 119
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Mortefi - Sequence",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Solitary Etude",
+      "description": "Saat berada dalam Burning Rhapsody, Mortefi akan melakukan Coordinated Attack saat Resonator di medan pertempuran menggunakan Resonance Skill, \nmenembakkan 2 Marcato yang memberikan  Fusion DMG."
+    },
+    {
+      "stage": "S2",
+      "name": "Hypocritical Hymn",
+      "description": "Setelah menggunakan Echo Skill, Mortefi memulihkan tambahan 10 Resonance Energy.\nDapat dipicu setiap 20 detik."
+    },
+    {
+      "stage": "S3",
+      "name": "Flaming Recitativo",
+      "description": "Saat berada dalam Burning Rhapsody, Crit. DMG dari Marcato meningkat 30%."
+    },
+    {
+      "stage": "S4",
+      "name": "Cathartic Waltz",
+      "description": "Durasi Burning Rhapsody diperpanjang 7 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Funerary Quartet",
+      "description": "Saat Resonance Skill: Passionate Variation atau Resonance Skill: Fury Fugue mengenai target, akan memicu Coordinated Attack yang menembakkan 4 Marcato, memberikan  Fusion DMG.\nDMG dari Marcato yang ditembakkan dengan cara ini dikurangi 50%."
+    },
+    {
+      "stage": "S6",
+      "name": "Apoplectic Instrumental",
+      "description": "Saat Resonance Liberation: Violent Finale digunakan, ATK semua anggota tim meningkat 20% selama 20 detik."
+    }
+  ],
+  "lore": {
+    "description": "Mortefi, seorang ahli terampil dalam Applied Tacetite Study dan anggota Departemen Keamanan Akademi, memiliki kemampuan unik untuk mengubah frustrasi yang ia kumpulkan menjadi kobaran api yang mengamuk. Dari amarah yang membakar segalanya, sang naga merah akan turun.\n\nBIRTHPLACE\nNew Federation\n\nBIRTHDATE\n06 November",
+    "report": {
+      "resonancePower": "Dragon's Breath",
+      "overclockDiagnostic": "Grafik gelombang Resonator Mortefi menunjukkan fluktuasi zigzag.\n- Pola Time Domain tetap teratur, tetapi nilai puncaknya menunjukkan kecenderungan meningkat.\n- Nilai puncak saat ini masih di bawah level Kritis, dan tidak teridentifikasi adanya gelombang abnormal.\n\nResonant Criticality: Tinggi, dikombinasikan dengan stabilitas yang rendah.\nRisiko Overclocking: Sangat tinggi.\n\nRiwayat Overclocking\n- Mortefi memiliki riwayat Overclocking yang terdokumentasi.\n- Maksimum tingkat Overclock yang tercatat: Sedang.\n\nSaat Overclocking terjadi:\n- Materi kristal berbentuk sisik naga terus berkembang, menutupi area kulit yang lebih luas.\n- Suhu tubuh meningkat secara signifikan.\n- Fluktuasi Frekuensi menjadi sangat intens.\n- Sebuah wujud api berbentuk naga muncul di belakang Mortefi selama fase ini.\n\nInsiden Desorock Highland\n- Mortefi adalah penyebab kebakaran besar di Desorock Highland.\n- Insiden ini diklasifikasikan sebagai Kode EX67891, bahaya Kelas 3.\n- Beruntung, tidak ada korban jiwa yang dilaporkan.\n\nKarena Forte dan riwayat Overclocking-nya sangat dipengaruhi oleh emosi negatif, Mortefi memiliki risiko tinggi untuk mengalami Overclocking yang tidak terkendali.\n\nOleh karena itu, pemantauan ketat terhadap kondisi psikologisnya sangat disarankan, termasuk konseling rutin dan pemeriksaan berkala.",
+      "resonanceEvaluation": "Dasar Evaluasi: [Resonance Assessment 2183-G]\n\nMenurut laporan Resonator Mortefi, tanda-tanda Awakening-nya mulai muncul sejak masa remajanya. Namun, Awakening yang sesungguhnya terjadi bersamaan dengan ledakan amarah yang luar biasa.\n\nMortefi memiliki Tacet Mark di dada kanannya.\n\nSaat Forte-nya diaktifkan, materi kristal berbentuk sisik naga akan muncul di sekitar Tacet Mark-nya, membara seiring dengan pengendalian kekuatannya.\n\nKemampuan Forte:\n- Mortefi dapat menghasilkan dan mengendalikan api dengan memusatkan panas dalam jumlah besar.\n- Intensitas api yang dihasilkan berkaitan erat dengan kondisi emosionalnya.\n- Eksperimen ekstensif menunjukkan bahwa api tersebut adalah manifestasi nyata dari emosi negatif yang telah terkumpul melewati ambang batas tertentu.\n\nResonance Spectrum Pattern Mortefi menunjukkan keselarasan kuat dengan Dragonkin, spesies yang telah dinyatakan punah.\n\nNamun, karena tidak adanya Dragonkin yang masih hidup untuk pengujian Syntony, penyebab pasti Kebangkitan Mortefi masih belum dapat dikonfirmasi secara empiris.\n\nAnalisis terhadap sampel uji menunjukkan Kurva Rabelle yang tidak konvergen, dengan kenaikan tajam di bagian tengahnya.\n\nBerdasarkan hasil ini, Resonator Mortefi diklasifikasikan sebagai Mutant Resonator."
+    },
+    "items": [
+      {
+        "name": "Emotion Switch",
+        "description": "Sebuah pemantik api sederhana, sangat biasa dibandingkan barang-barang mahal lainnya yang dimiliki Mortefi.\n\nMeskipun ia tidak pernah mengatakan dari mana asalnya, jelas bahwa pemantik ini adalah benda yang sangat berharga baginya.\n\nSaat Mortefi merasa terganggu atau marah, ia tanpa sadar akan menyalakan dan mematikan pemantik ini, berusaha untuk mengendalikan emosinya.",
+        "imageUrl": "/icons/items/mortefi-1.webp"
+      },
+      {
+        "name": "Homemade Candy",
+        "description": "Permen buatan Mortefi sendiri, disimpan dalam wadah steril untuk menjaga kebersihannya.\n- Mudah dibawa,\n- Cepat diserap oleh tubuh,\n- Dapat mengembalikan energi kapan saja dan di mana saja.\n\nRasanya manis dan disukai anak-anak, meskipun Mortefi sendiri jarang mengakuinya.",
+        "imageUrl": "/icons/items/mortefi-2.webp"
+      },
+      {
+        "name": "Shattered Skies",
+        "description": "Sebuah permata berharga yang dulu berwarna biru, kemudian pecah berkeping-keping.\n\nKini, warna birunya telah digantikan oleh merah menyala, mengungkapkan warna aslinya yang tersembunyi.\n\nPada hari Sang Naga Merah turun, api kemarahannya yang mengerikan membakar masa lalu yang dibangun atas kebohongan.",
+        "imageUrl": "/icons/items/mortefi-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "The International Research Fellow",
+        "content": "Sebagai satu-satunya International Research Fellow di Huaxu Academy, Mortefi menjadi pusat perhatian bagi penduduk setempat.\n\nGaya hidupnya yang unik semakin memperkuat kesan \"bangsawan asing\"—\n- Kecintaannya pada musik klasik,\n- Kebiasaannya menikmati teh sore dan dessert mewah,\n- Obsesi hampir patologis terhadap kebersihan.\n\nNamun, Mortefi sendiri mengakui bahwa latar belakang keluarganya bukan satu-satunya faktor yang membentuk kepribadiannya.\n\nSebuah teori mengatakan bahwa semua musik telah diciptakan—tugas musisi hanyalah menemukannya.\nBegitu pula dengan sains. Para ilmuwan menghabiskan hidupnya untuk memahami \"melodi\" alam semesta.\n\nMortefi menemukan inspirasi dalam keteraturan dan harmoni musik klasik untuk penelitian ilmiahnya.\n- Ia menyukai makanan manis karena setelah berjam-jam meneliti, ia butuh asupan energi cepat untuk menjaga otak tetap bekerja.\n- Obsesi terhadap kebersihan berasal dari kebutuhannya akan laboratorium yang steril, membuatnya benci terhadap siapa pun yang mengotori ruangannya.\n\nNamun, di balik semua itu, yang benar-benar mendefinisikan Mortefi adalah dedikasi dan gairahnya terhadap penelitian ilmiah.\n\nMeskipun prestasinya tidak terbantahkan, identitasnya sebagai peneliti asing tetap menuai kecurigaan dan rumor.\n\n\"Dia pasti masuk karena koneksi keluarganya.\"\n&#xNAN;\"Atau mungkin dia menyuap pejabat untuk mendapatkan posisi itu?\"\n\nNamun, Mortefi membungkam semua keraguan dengan kemampuannya yang luar biasa.\n\nMembuat lima prototipe senjata Tacetite dalam waktu kurang dari tiga hari?\n\nItu lebih dari cukup untuk membungkam mayoritas pengkritiknya."
+      },
+      {
+        "title": "The Art Of Language",
+        "content": "Meski terlihat intimidatif, Mortefi tidak mudah terpancing emosi.\nNamun, ketika rekan-rekannya harus menghadapi klien yang tidak masuk akal, ia tidak akan ragu menggunakan \"senjata lidahnya\".\n\nMortefi terkenal dengan sindiran tajamnya, menggunakan:\n- Metafora membingungkan,\n- Referensi sastra yang hanya dipahami elit New Federation,\n- Serta slang terbaru dari Huanglong, yang hanya semakin membuat lawannya kebingungan.\n\nBanyak yang merasa bahwa untuk benar-benar memahami hinaan Mortefi, seseorang harus mengalaminya langsung. Namun, mungkin ada beberapa misteri yang lebih baik tetap tidak terpecahkan.\n\nBahkan, beberapa orang mengumpulkan sindiran Mortefi dalam catatan kecil, menjadikannya \"amunisi portabel\" untuk melawan ketidakadilan ketika mereka kehabisan kata-kata.\n\nKetika Mortefi mengetahuinya, ia hanya tertawa pasrah.\n\n\"Mereka sebenarnya tahu apa yang ingin mereka katakan. Tapi tekanan sosial dan norma budaya membuat mereka diam. Sebagai orang luar yang tak terikat oleh adat Huanglong, kebetulan saja aku bisa bicara tanpa hambatan.\"\n\nSebagai seorang pria asing dari kalangan elit yang tidak perlu mengkhawatirkan status sosial atau dana penelitian, memang Mortefi memiliki kebebasan yang tidak dimiliki banyak orang**.\nLama-kelamaan, Mortefi justru menarik banyak pengikut dari kalangan ilmuwan yang canggung secara sosial.\n\nBagaimanapun, dia tidak pernah ragu untuk membela siapa pun—bahkan orang asing yang baru ia temui.\n\n"
+      },
+      {
+        "title": "The Tender Grump",
+        "content": "Bagi rekan-rekannya, laboratorium Mortefi adalah wilayah terlarang.\nNamun, bagi anak-anak Jinzhou, lab tersebut adalah surga penuh keajaiban.\n\nBeri Mortefi permintaan yang jelas, tambahkan beberapa pujian tulus, dan dalam waktu singkat, keinginanmu akan terwujud.\n\nIa mungkin terlihat enggan saat anak-anak mengganggunya untuk membuat mainan baru.\nBahkan, ia sering bercanda setengah kesal:\n\n\"Kalian ini jago banget menyuruh-nyuruh aku, ya?\"\n\nNamun, di balik itu semua, ia benar-benar tulus dalam memenuhi setiap permintaan mereka.\n\nIa rela tidak tidur berhari-hari demi menciptakan sesuatu untuk mereka.\nNamun, ia terlalu canggung untuk membiarkan mereka tahu betapa kerasnya ia bekerja.\n\nSebaliknya, ia hanya berkata bahwa semua itu \"mudah dikerjakan dalam beberapa jam saja.\"\n\nDi Jinzhou, Mortefi adalah otak di balik 80% mainan dan wahana anak-anak paling populer.\nBeberapa karyanya meliputi:\n- Spinning Bloop,\n- Swinging Loongboat,\n- Sabyrboar Scooter.\n\nYang mengejutkan,*ia tidak pernah menagih royalti atas desainnya.\nBagi Mortefi, ini bukan soal uang, tapi tentang melihat kebahagiaan, kekaguman, dan rasa takjub di mata anak-anak. Atau mungkin, ini adalah caranya untuk menghidupkan kembali masa kecil yang hilang.\n\nNamun, banyak orang merasa Mortefi menyia-nyiakan bakatnya.\nBeberapa bahkan berpikir bahwa asal berbicara dengan jelas dan sopan, mereka bisa memanfaatkan kemampuannya.\n\nBeberapa orang bahkan mencoba memaksanya bekerja untuk mereka. Namun, mereka yang cukup bodoh untuk mencobanya segera menyesal. Sebagai balasan, Mortefi menciptakan \"penemuan khusus\" yang dirancang hanya untuk mengejek mereka.\n\nsaksi mata mengklaim bahwa ciptaan tersebut cukup \"kejam\" untuk menyiksa mereka seperti dalam interogasi—\nNamun tetap menjalankan tugas yang diminta.\n\nMereka yang berhasil lolos bersumpah tidak akan pernah membuat Mortefi marah lagi selama hidup mereka.\n\n\"Kalau Jinzhou punya departemen khusus untuk merancang hukuman kreatif bagi para kriminal, Mortefi pasti akan menjadi pemimpinnya.\""
+      },
+      {
+        "title": "Shattered Crown Of Prodigy",
+        "content": "Masa kecil Mortefi terasa seperti kurungan yang menyesakkan, terperangkap dalam kemunafikan kaum elit dan diabaikan oleh orang tuanya.\n\nDi dalam ruang belajarnya yang suram, satu-satunya pelarian yang ia miliki adalah melempar amarahnya ke benda-benda di rumah.\n\nNamun, bahkan pemberontakan kecil ini tak lagi memuaskan, karena setiap kali ia menghancurkan sesuatu, orang tuanya hanya menggantinya dengan yang baru. Barang-barang itu selalu berkilau, tersusun rapi—sebuah pengingat konstan bahwa segala bentuk pemberontakannya hanyalah usaha sia-sia.\n\nSatu-satunya ketenangan yang ia temukan adalah ketika ia membongkar dan merakit ulang benda mekanik. Dalam hubungan diam-diam antara manusia dan mesin, ia menemukan ketulusan yang tidak ia dapatkan dari orang lain:\n- Ia bisa mempercayai mesin tanpa keraguan.\n- Ia bisa menjadi dirinya sendiri tanpa sanjungan palsu.\n- Ia tak perlu lagi menahan amarah yang tak beralasan.\n\nDi dunia roda gigi dan mesin, tidak ada ambiguitas. Jika sesuatu rusak, ia cukup mencari penyebabnya dan memperbaikinya, langkah demi langkah.\n\nKetika orang tuanya mengetahui apa yang ia lakukan, mereka tidak memarahinya. Sebaliknya, mereka bangga.\n\nDi New Federation, teknologi adalah kepercayaan.\n\nDan Mortefi, dengan bakatnya, adalah aset yang sangat berharga.\n\nMaka, ia diberikan akses ke sumber daya langka, mentor terbaik, serta acara penelitian paling bergengsi. Ia dibanjiri pujian, dipandang sebagai keajaiban ilmiah termuda di negaranya.\n\nNamun, semuanya berubah ketika ia bertemu dengan seorang pemuda tertentu.\nBahkan hingga hari ini, Mortefi masih mengingat pertemuan itu dengan jelas—di World Expo New Federation, ketika ia berusia 17 tahun.\n\nDi hadapannya berdiri sebuah mahakarya, dibuat dari bahan murah namun memiliki kestabilan sekelas material terbaik. Desainnya terlihat sederhana, tetapi menyimpan kejeniusan yang mendalam.\n\nPuluhan makalah penelitian telah ditulis tentangnya, membahas bagaimana keindahan kesederhanaannya mengungguli semua inovasi Mortefi dalam hal kegunaan dan efisiensi. Sebuah inovasi sejati untuk kemanusiaan.\n\nDi tengah kerumunan yang bersorak, Mortefi menatap pemuda itu. Seketika, pemuda itu seolah merasakan tatapannya, dan membalas pandangan Mortefi. Di antara kebisingan dan sorakan, hanya satu hal yang berhasil Mortefi ingat dari pemuda itu:\n\nAsal-usulnya—Huanglong."
+      },
+      {
+        "title": "The \"Magic\"",
+        "content": "Sebelum Wutherology diakui sebagai cabang sains modern, teknologi Tacetite dahulu dianggap sebagai \"sihir\".\n\nTak ada yang tahu mengapa Mortefi meninggalkan New Federation di hari upacara kedewasaannya, atau apa yang ia alami dalam perjalanannya ke Huanglong.\nNamun kini, ia begitu terobsesi dengan studi Tacetite.\n\n\"Aku hanya sedikit meningkatkan modul Tacetite di turret ini. Sekarang, output-nya bisa meningkat hingga seratus kali lipat.\"\n&#xNAN;\"Tapi pastikan kalian mengikuti 100 aturan operasionalnya...\"\n\n\"Tunggu, kalau aku tidak mengikuti aturan itu, apa yang akan terjadi?\"\n\n\"Energi Tacetite-nya akan cukup untuk mencabut kota ini dari tanah dan mengirimnya ke perjalanan surgawi.\"\n\n\"...\"\n\n\"Tsk. Kenapa tatapanmu seperti itu? Tanggung jawabku hanya memberimu alat dan penjelasan yang diperlukan. Bagaimana cara kalian menggunakannya, itu urusan kalian.\"\n\nKasus seperti ini sudah tak terhitung jumlahnya, membuat Huaxu Academy masuk dalam daftar pengawasan khusus dari Kementerian Pengembangan.Hasrat Mortefi yang tak kenal lelah telah mempercepat perkembangan Wutherology, tetapi juga memiliki konsekuensi.\n\nBahkan para akademisi lain mulai mengkhawatirkannya. Ia sering tidak tidur berhari-hari, terus bekerja tanpa henti untuk mengejar kesempurnaan.\n\nNamun, dengan kecepatan ini, ia hanya akan terbakar lebih cepat—seperti api yang menghanguskan dirinya sendiri.\n\nMortefi sering mengingat nasihat tutornya:\n\n\"Selalu ingat untuk apa kamu bekerja.\"\n\nMungkin, pikirnya, ia hanya mencari kebahagiaan dalam berkomunikasi dengan mesin.\n\nJika apinya suatu hari padam,\nia berharap dapat meninggalkan warisan pengetahuan bagi generasi mendatang.\n\nUntuk membuat nyala api itu bersinar lebih terang,\nmenerangi jalan bagi mereka yang akan mengikuti jejaknya.\n\nAkhirnya, hasil eksperimen yang ia nantikan telah keluar. Dengan mata lelah, ia menutup hasil ujiannya, merebahkan diri ke kursinya, dan menutup mata.\n\nMungkin,\"sihir\" yang sesungguhnya di Akademi ini bukanlah Tacetite atau Wutherology.\n\nMelainkan para peneliti yang begitu berdedikasi, seperti Mortefi.\n\nTak terikat oleh ekspektasi sosial, ia bekerja tanpa henti demi kemajuan pengetahuan umat manusia. Namun, seperti biasa...\n\nKemungkinan besar akan ada lebih banyak keluhan yang harus ditangani oleh Direktur baru."
+      }
+    ],
+    "specialFood": {
+      "name": "Smoked Pigeon",
+      "imageUrl": "/icons/food/mortefi.webp",
+      "description": "⭐⭐⭐⭐⭐\n\nDEF semua Resonator dalam tim meningkat 55% selama 30 menit.\nEfek ini hanya berlaku untuk Resonator milik sendiri dalam Co-op Mode."
+    }
+  }
+}

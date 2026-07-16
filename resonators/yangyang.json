@@ -1,0 +1,362 @@
+{
+  "name": "Yangyang",
+  "element": "Aero",
+  "weapon": "Sword",
+  "rarity": 4,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Concerto Efficiency",
+    "Traction",
+    "Resonance Liberation Regeneration"
+  ],
+  "sonatas": [
+    "Moonlit Clouds",
+    "Sierra Gale"
+  ],
+  "changelog": [
+    {
+      "text": "minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Midnight Rangers",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Natural",
+  "image": "/characters/yangyang.webp",
+  "imageBanner": "/banners/yangyang-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1700+",
+    "Energy Regen": "100%+",
+    "Crit Ratio (Crit Weapon)": "60% : 270%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 220%"
+  },
+  "build": {
+    "bestEcho": [
+      "Impermanence Heron",
+      "Nightmare: Beringal",
+      "Feilian Beringal"
+    ],
+    "bestWeapon": "Red Spring",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Sub Dps",
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        },
+        {
+          "label": "DPS",
+          "echoSlug": "feilian-beringal",
+          "echoSlugSecondary": "nightmare-beringal",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Sierra Gale"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "red-spring",
+        "percentage": "106",
+        "rank": ""
+      },
+      {
+        "id": "blazing-brilliance",
+        "percentage": "105",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "101",
+        "rank": ""
+      },
+      {
+        "id": "lumingloss",
+        "percentage": "83",
+        "rank": "5"
+      },
+      {
+        "id": "somnoire-anchor",
+        "percentage": "81",
+        "rank": "5"
+      },
+      {
+        "id": "commando-of-conviction",
+        "percentage": "68",
+        "rank": "5"
+      },
+      {
+        "id": "endless-collapse",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Forte Circuit",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "",
+        "members": [
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            "Yangyang"
+          ]
+        ],
+        "note": "Yangyang adalah salah satu Resonator sub DPS / support yang lebih fleksibel, sehingga cocok di tim mana pun. Yangyang paling menonjol sebagai Sub DPS / Support dalam tim yang membutuhkan dorongan ekstra pada Res. Liberation Energy Regen, karena membantu menghasilkan 4 Resonance Energy setiap detik selama 5 detik untuk Resonator berikutnya."
+      }
+    ],
+    "teamNote": "Yangyang memberikan buff berikut untuk rekan satu timnya:\n- Memulihkan 4 Resonance Energy per detik selama 5 detik setelah melancarkan Outro Skill - Dengan S6: +20% ATK selama 20 detik."
+  },
+  "skills": {
+    "basic": {
+      "name": "Feather As Blade",
+      "description": "Basic Attack\nYangyang melakukan hingga 4 serangan berturut-turut, memberikan Aero DMG.\n\nHeavy Attack\nYangyang mengonsumsi STA untuk menerjang ke depan, memberikan Aero DMG.\n\nHeavy Attack: Zephyr Song\nGunakan Basic Attack setelah Heavy Attack atau Dodge Counter untuk melancarkan Heavy Attack Zephyr Song, memberikan Aero DMG.\n\nMid-air Attack\nYangyang mengonsumsi STA untuk melakukan Plunging Attack dari udara, memberikan Aero DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk menusuk ke depan, memberikan Aero DMG."
+    },
+    "skill": {
+      "name": "Zephyr Domain",
+      "description": "Yangyang mengayunkan pedangnya untuk menciptakan pusaran angin yang menarik musuh di sekitar ke arah pusat, memberikan Aero DMG."
+    },
+    "liberation": {
+      "name": "Wind Spirals",
+      "description": "Yangyang memanggil sebuah Cyclone dahsyat yang menarik musuh di sekitar, memberikan Aero DMG."
+    },
+    "forte": {
+      "name": "Echoing Feathers",
+      "description": "Heavy Attack: Stormy Strike\nSaat Yangyang memiliki 3 Melodies, ia dapat melancarkan Stormy Strike setelah Heavy Attack atau Dodge Counter, memberikan Aero DMG.\n\nMid-air Attack: Feather Release\nSaat Yangyang memiliki 3 Melodies, lancarkan Basic Attack di udara untuk mengonsumsi semua Melodies dan melakukan serangan berturut-turut sembari menukik dari udara, memberikan Aero DMG. Saat Yangyang mendarat, ia menyarungkan pedangnya dengan sebuah serangan, memberikan Aero DMG, yang dianggap sebagai Basic Attack DMG.\n\nMelody\nYangyang dapat menampung hingga 3 Melodies.\nYangyang mendapatkan 1 Melody untuk setiap Basic Attack 4 yang mengenai target.\nYangyang mendapatkan 1 Melody untuk setiap Heavy Attack Zephyr Song yang mengenai target.\nYangyang mendapatkan 1 Melody untuk setiap Resonance Skill Zephyr Domain yang mengenai target.\nYangyang mendapatkan 1 Melody saat melancarkan Intro Skill Cerulean Song."
+    },
+    "inherent": [
+      {
+        "name": "Compassion",
+        "description": "Yangyang memulihkan 30 STA setelah ia melancarkan Mid-air Attack Feather Release."
+      },
+      {
+        "name": "Lazuline Mercy",
+        "description": "Aero DMG Bonus Yangyang meningkat sebesar 8% selama 8 detik setelah melancarkan Intro Skill Cerulean Song."
+      }
+    ],
+    "intro": {
+      "name": "Cerulean Song",
+      "description": "Yangyang sends the target into the air, dealing Aero DMG."
+    },
+    "outro": {
+      "name": "Whispering Breeze",
+      "description": "Memulihkan 4 Resonance Energy per detik selama 5 detik untuk Resonator yang masuk."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Roaring Rock Fist",
+            "amount": 46
+          },
+          {
+            "item": "Crude Ring",
+            "amount": 4
+          },
+          {
+            "item": "Basic Ring",
+            "amount": 12
+          },
+          {
+            "item": "Improved Ring",
+            "amount": 12
+          },
+          {
+            "item": "Tailored Ring",
+            "amount": 4
+          },
+          {
+            "item": "Wintry Bell",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Unending Destruction",
+          "amount": 26
+        },
+        {
+          "item": "Crude Ring",
+          "amount": 25
+        },
+        {
+          "item": "Basic Ring",
+          "amount": 28
+        },
+        {
+          "item": "Improved Ring",
+          "amount": 40
+        },
+        {
+          "item": "Tailored Ring",
+          "amount": 57
+        },
+        {
+          "item": "Inert Metallic Drip",
+          "amount": 25
+        },
+        {
+          "item": "Reactive Metallic Drip",
+          "amount": 28
+        },
+        {
+          "item": "Polarized Metallic Drip",
+          "amount": 55
+        },
+        {
+          "item": "Heterized Metallic Drip",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Sapphire Skies, Soaring Sparrows",
+      "description": "Intro Skill Cerulean Song meningkatkan Aero DMG Bonus Yangyang sebesar tambahan 15% selama 8 detik."
+    },
+    {
+      "stage": "S2",
+      "name": "Nesting Twigs, In Beaks They Harrow",
+      "description": "Heavy Attack memulihkan tambahan 10 Resonance Energy untuk Yangyang saat mengenai target, yang dapat dipicu 1 kali setiap 20 detik."
+    },
+    {
+      "stage": "S3",
+      "name": "Nature Sings In Symphony",
+      "description": "Resonance Skill DMG Bonus meningkat sebesar 40%. Efek penarik Wind Field terhadap target di sekitar diperkuat, dan jangkauan tarikannya diperluas sebesar 33%."
+    },
+    {
+      "stage": "S4",
+      "name": "Close Your Eyes And Listen In",
+      "description": "Damage dari Mid-air Attack Feather Release meningkat sebesar 95%."
+    },
+    {
+      "stage": "S5",
+      "name": "Winds Whisper In Harmony",
+      "description": "Damage dari Resonance Liberation Wind Spirals meningkat sebesar 85%."
+    },
+    {
+      "stage": "S6",
+      "name": "A Tribute To Life'S Sweet Hymn",
+      "description": "Setelah melancarkan Mid-air Attack Feather Release, ATK dari semua anggota tim meningkat sebesar 20% selama 20 detik."
+    }
+  ],
+  "lore": {
+    "description": "Yangyang adalah seorang Outrider dari Midnight Rangers.\nDahulu terlindungi, kini seorang pejuang. Ia membumbung tinggi bersama angin untuk melindungi orang lain, bagaikan burung skylark yang sedang terbang.\n\nBIRTHDAY\nOctober 11th\n\nBIRTHPLACE\nHuanglong",
+    "report": {
+      "resonancePower": "Breath of Winds",
+      "resonanceEvaluation": "Dasar Evaluasi: [Resonance Assessment 1011-G]\n\nWaktu dan penyebab pasti Awakening Resonator Yangyang masih belum jelas. Resonator Yangyang melaporkan sensitivitas yang meningkat terhadap lingkungan sekitarnya sejak masa kanak-kanak.\n\nTacet Mark dari Resonator Yangyang terletak di tengah dahi miliknya. Observasi pasca-Awakening tidak menemukan perubahan fisik yang berarti. Saat fluktuasi frekuensi muncul kembali, transformasi terbatas seperti bulu telah diamati pada ujung rambutnya.\n\nResonator Yangyang melakukan sinkronisasi dengan udara sekitar dengan mendeteksi informasi dalam aliran udara dan menciptakan medan energi menggunakan aliran udara yang memusat.\n\nResonance Spectrum Pattern dari Resonator Yangyang menunjukkan kemiripan lebih dari 20% dengan aliran udara dan spesies burung kecil. Meskipun terdapat reaksi Syntony yang kuat, pola tersebut juga berbagi kemiripan lebih dari 5% dengan beberapa sampel lain yang ada, menunjukkan potensi penyebab Awakening yang bersifat ganda atau kontaminatif.\n\nAnalisis sampel uji telah mengungkapkan Rabelle's Curve non-konvergen dengan kenaikan yang stabil. Fluktuasi sesekali dalam rentang normal telah terdeteksi. Oleh karena itu, Yangyang diidentifikasi sebagai Natural Resonator.",
+      "overclockDiagnostic": "Grafik waveform untuk Resonator Yangyang menunjukkan fluktuasi elips yang stabil dalam Time Domain tanpa adanya pola abnormal. Berdasarkan pemeriksaan, semua hasil berada dalam parameter normal.\n\nDalam hal Resonant Criticality, Resonator Yangyang berada pada tingkat yang relatif rendah dengan stabilitas tinggi. Hasil pemeriksaan tampak berada dalam parameter normal tanpa adanya risiko Overclocking.\n\nResonator Yangyang memiliki riwayat Overclocking yang terdokumentasi.\nPeringkat Overclocking maksimum: Dapat diabaikan (Negligible).\n\nSelama kejadian tersebut, Resonator Yangyang mengalami emotional overflow dan kehilangan kendali Forte untuk sementara waktu. Beruntung, tidak ada korban jiwa atau bahaya yang dilaporkan, meskipun ia menderita beberapa episode koma akibat stimulasi berlebih tersebut. Pemeriksaan lebih lanjut mengungkapkan bahwa persepsi Yangyang yang meningkat menyebabkan kerusakan pada tubuhnya melalui Forte miliknya. Efek sampingnya telah stabil sejak saat itu, tetapi transformasi seperti bulu pada ujung rambutnya tetap tidak dapat diubah (irreversible). Sensory overload Yangyang telah ditangani dan kondisi emosionalnya stabil, dengan prognosis yang positif. Pemeriksaan rutin direkomendasikan untuk tujuan pemantauan."
+    },
+    "items": [
+      {
+        "name": "Striped Ribbon",
+        "description": "Baret biru Yangyang selalu memiliki pita halus yang terpasang pada bagian tepinya. Ini adalah ciri khas penampilannya, dan merupakan hadiah berharga dari ibunya sebelum ia memulai perjalanannya.\n\nBagi Yangyang, pita tersebut melambangkan berkah dari sang ibu dan menandai dimulainya perjalanannya sendiri. Ia memegang teguh resolusi yang ia buat saat mengenakan pita itu, bertekad untuk menjalaninya hingga akhir.",
+        "imageUrl": "/icons/items/yangyang-1.webp"
+      },
+      {
+        "name": "Sound Recorder",
+        "description": "Seiring Yangyang mulai terbiasa dengan kehadiran Streams yang konstan, ia mulai merenungkan cara untuk menangkap suara angin yang berlalu begitu saja. Dengan bantuan modifikasi dari Baizhi dan teknologi konversi energi yang inovatif, sebuah perangkat diciptakan untuk menyimpan Streams sebagai informasi visual dan nyata. Baik itu suara lembut salju yang jatuh di pegunungan, kisah yang tak terucapkan, atau momen pedih yang membawa air mata ke mata seseorang, Yangyang kini memiliki kemampuan untuk merekam realitas-realitas yang selaras dengan indranya tersebut.",
+        "imageUrl": "/icons/items/yangyang-2.webp"
+      },
+      {
+        "name": "All In One",
+        "description": "Yangyang telah membuat genta angin sejak ia masih kecil, menggunakan kristal giok yang dipoles dalam bentuk burung sebagai plektrum. Dimulai dengan hanya beberapa buah, ia kini telah mengumpulkan dan menghadiahkan puluhan genta angin tersebut kepada orang-orang terkasihnya. Masing-masing berbeda, dengan desain rumit yang berkembang seiring waktu saat Yangyang menambahkan plektrum baru dan menyesuaikan penempatannya. Ia melihatnya sebagai perjalanan yang tidak pernah berakhir, dengan kemungkinan interpretasi yang tak terbatas. Meskipun tidak tahu melodi seperti apa yang akhirnya akan diciptakan oleh genta angin tersebut, Yangyang tetap setia pada niat awalnya—sebuah pengejaran seumur hidup untuk menyempurnakan keahliannya, persis seperti tradisi keluarganya yaitu \"Satu Instrumen untuk Seumur Hidup.\"",
+        "imageUrl": "/icons/items/yangyang-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "The Secret To Excellence",
+        "content": "Dalam kelompok sosial mana pun, selalu ada orang-orang yang memancarkan aura meyakinkan dan andal yang membuat orang lain percaya bahwa mereka bisa mencapai apa pun, meskipun mereka belum memulai atau melakukannya sebelumnya.\n\nYangyang adalah salah satu orang tersebut.\n\n\"Yangyang? Sepertinya... ia bisa melakukan segalanya dengan sangat baik.\" Orang-orang akan selalu berkata demikian. Kepercayaan ini kemungkinan besar berasal dari pengalaman mereka bersamanya.\n\nSejak kecil, Yangyang telah unggul dalam studinya, termasuk tata krama, musik, sastra, matematika, dan seni bela diri... Ia selalu menempati peringkat teratas dalam semua mata pelajaran dan ujian setiap tahunnya. Bahkan ketika menghadapi pengetahuan baru atau masalah yang sulit, Yangyang tidak pernah menunjukkan rasa frustrasi; sebaliknya, ia akan secara aktif mencoba memecahkan masalah apa pun yang menghampirinya.\n\nYangyang selalu terpilih untuk memberikan pidato pada upacara tahunan sekolahnya. Namun, sama seperti orang lain, ia akan menarik napas dalam-dalam sebelum berbicara, menyembunyikan rasa gugupnya. Meskipun memiliki bakat untuk memahami konsep-konsep kompleks, ia tidak memiliki kejeniusan yang murni. Dan sementara orang lain mungkin melihatnya sebagai sosok yang sukses dan percaya diri, ia berjuang keras menghadapi masalah sehari-hari sama seperti yang lainnya.\n\nDalam pelajaran ilmu pedang pertamanya, ia kesulitan mengendalikan ayunannya dan mengeksekusi teknik yang tepat. Terlepas dari hambatan ini, ia bertekad untuk bekerja lebih keras lagi. Selama dua bulan berikutnya, ia berlatih 100 kali sehari dan mencari bimbingan dari para senior yang berpengalaman, dengan rendah hati mengakui kelemahannya. Ia kemudian terus berlatih dengan pola pikir reflektif, memperbaiki kekurangan yang ditunjukkan oleh orang lain. Akhirnya, otot-ototnya beradaptasi dengan rasa sakit dan ia bisa menahan beberapa serangan dari lawan.\n\nDan dalam dua bulan berikutnya, Yangyang, sekali lagi, muncul sebagai murid terbaik di kelas ilmu pedangnya.\n\nOrang-orang yang peduli mencoba menghibur Yangyang, mengingatkannya bahwa hidup ini tidak sempurna dan ia harus merasa puas dengan pengakuan serta pujian yang ia terima. Namun Yangyang akan menolak saran ini dengan ramah, karena ia tahu bahwa dorongannya datang dari dalam diri dan bukan karena mencari validasi dari orang lain.\n\nApakah ia sudah memberikan segalanya? Apakah semuanya telah dilakukan dengan kemampuan terbaiknya? Inilah pertanyaan-pertanyaan yang menyita pikirannya.\n\nDengan senyuman dan gelengan kepala yang lembut, ia akan menolak saran apa pun untuk bersantai, bertekad untuk mendorong dirinya menuju kesempurnaan tanpa ruang untuk penyesalan atau rasa malu.\n\n\"Itulah Yangyang kita, melakukan hal luar biasa seperti biasa. Kami tahu kau akan berhasil!\"\n\nSaat itulah Yangyang menjadi seorang Outrider dan berhasil membantu menyelesaikan krisis TD regional. Orang-orang memuji keunggulannya seperti biasa.\n\n\"Ya, aku berhasil kali ini, tapi bagaimana dengan lain kali? Masih ada banyak hal yang bisa kulakukan dengan lebih baik; begitu banyak hal yang tidak kuketahui. Mungkin aku harus pergi mencari saran dari anggota senior Midnight Rangers...\"\n\nMenjadi sosok yang konsisten dan dapat diandalkan adalah hal yang menakutkan, namun krusial. Dibutuhkan usaha dan dedikasi yang tiada henti.\n\nYangyang bertekad untuk memberikan segalanya demi mencapai tujuan ini. Ia berjuang untuk menjadi sosok yang bisa dimintai bantuan oleh orang lain kapan saja, dan tidak akan berhenti sampai ia berhasil."
+      },
+      {
+        "title": "The Secret To Listening",
+        "content": "Kebanyakan orang tidak tahu bahwa Yangyang memiliki perfect pitch.\n\nMungkin itu karena bagaimana ia selalu menjadi sosok yang pasif, tidak pernah menyanyi di depan umum atau mengambil sorotan. Ia lebih suka berada di latar belakang dan mendengarkan. Seolah-olah ia memang dilahirkan untuk menjadi seorang pendengar.\n\nItulah sebabnya Chixia terkejut melihat kemampuan Yangyang dalam menyenandungkan melodi yang baru didengarnya dengan akurat. Ia tidak bisa menahan diri untuk berseru, \"Bagaimana kau menghafalnya begitu cepat? Dan itu terdengar luar biasa! Astaga!\"\n\nTiba-tiba, semua orang teringat identitas lain Yangyang, putri kedua dari keluarga musisi. Justru tidak wajar jika ia tidak memahami teori musik atau tidak tahu cara menyanyi.\n\nWahyu ini menjawab beberapa kebingungan sebelumnya. Cara menghadapi orang yang sempurna itu, tata krama yang tampak tanpa cela bahkan bagi orang yang paling menuntut sekalipun. Ya, tentu saja, ia pasti berasal dari keluarga yang sangat terdidik.\n\nNamun, hal itu juga menimbulkan pertanyaan lain: Mengapa putri dari keluarga ternama seperti itu pergi ke kota perbatasan sendirian, dengan mengorbankan kehidupan mewahnya dan karier yang menjanjikan? Apakah ada alasan mendasar yang memaksanya untuk pergi?\n\nJika memang ada alasan seperti itu, Yangyang tidak pernah menyebutkannya kepada siapa pun. Ia tidak pernah mengeluh atau menghindari tanggung jawab, baik saat ia memenuhi tanggung jawab Outrider-nya, maupun saat ia menghabiskan waktu bersama teman-teman. Jika harus dikatakan, justru rekan-rekan Outrider-nya yang lebih sering mengganggunya, karena... Ia selalu dengan sabar meminjamkan telinganya.\n\nBanyak yang mencari penghiburan dengan mencurahkan isi hati kepada Yangyang, bukan mencari solusi melainkan sekadar meluapkan stres mereka. Ia tahu betul hal ini dan tetap netral, berempati dengan perasaan si pencerita. Ia mendengarkan tanpa interupsi, menawarkan bimbingan saat dibutuhkan sebelum kembali ke peran diamnya. Dengan bantuannya, emosi yang kusut terurai tanpa disadari. Sesi katarsis ini terbukti berharga. Namun, dukungan Yangyang bukanlah persetujuan buta; ia menawarkan nasihat dengan memprioritaskan keinginan pembicara.\n\nTak lama kemudian, Chixia memberi tahu semua orang tentang bakat luar biasa Yangyang, yang memicu permintaan bercanda agar ia menyanyi.\nYangyang dengan malu-malu menolak permintaan mereka, sambil berkata, \"Mungkin... aku akan menyanyikannya untuk semua orang nanti, saat aku sudah siap?\"\n\nYangyang tampak tulus, jadi itu tidak terlihat sekadar basa-basi atau alasan semata. Itulah yang benar-benar ia pikirkan dari lubuk hatinya. Tapi kapan itu akan terjadi? Mungkin ia ingin menunggu sampai semua orang yang ingin ia dengarkan kekhawatirannya selesai berbicara?\n\nMemahami dan mengkritik pertunjukan membutuhkan pengetahuan musik yang mendalam.\nNamun, mahir dalam musik tidak mengharuskan seseorang untuk naik ke atas panggung.\n\nDemikian pikir Yangyang, saat ia sekali lagi memilih untuk melangkah mundur, membiarkan orang lain bersinar."
+      },
+      {
+        "title": "The Secret To Believing",
+        "content": "Sampai batas tertentu, tidak ada banyak perbedaan antara Yangyang yang berusia enam belas tahun dan Yangyang yang berusia enam tahun.\n\nIa masih memegang harapan yang sama terhadap dunia, tetap memercayai dongeng seperti biasa, memercayai kebaikan antar sesama manusia, memercayai keajaiban, dan percaya bahwa segala hal yang indah pada akhirnya akan terjadi.\n\nBanyak yang akan menyebut ini sebagai keberuntungan yang naif, pemikiran dari anak manja yang tidak pernah menghadapi realitas kehidupan yang keras.\n\nMemang benar, Yangyang tumbuh dalam rumah tangga yang berkecukupan dan penuh kasih sayang, terlindungi dari penderitaan. Hidupnya sempurna...\n\n...Sampai hari naas itu tiba.\n\nPada usia 11 tahun, kehidupannya yang tenang hancur oleh serangan kejam dari Exiles saat sedang bepergian bersama karavan keluarganya. Realitas brutal tentang kematian dan kekejaman membuatnya terguncang saat ia melarikan diri dan mencari perlindungan di antara orang asing di sebuah pemukiman yang tidak dikenal. Orang-orang yang ulet ini hidup dari hasil bumi, waspada namun banyak akal. Ia terpaksa berjuang sendiri, beradaptasi dengan dunia baru yang keras ini di usia muda. Ia tidak bisa memastikan apakah mereka seperti para penyerang yang kejam itu atau tidak. Kewaspadaan terus-menerus dari para penduduk ini membuatnya mempertanyakan apakah aman untuk memercayai siapa pun. Mengenakan pakaian mewah dan sendirian, ia tampak mencolok di antara mereka, dan mereka pun menaruh curiga padanya. Mungkinkah itu sebuah jebakan?\n\nPada akhirnya, mereka memberikan makanan kepadanya, dan ia menerimanya, meskipun ia belum pernah melihat makanan seperti itu sebelumnya.\n\nKebaikan menemukan akarnya bahkan di tanah yang paling tandus sekalipun. Yangyang ingin membalas kepercayaan yang mereka berikan padanya, tetapi pengetahuannya terbukti tidak membantu sama sekali di alam liar, dan keterampilan pedangnya terbukti terlalu kekanak-kanakan melawan permusuhan yang nyata. Segalanya tampak sepenuhnya asing baginya, padahal inilah kenyataan pahit yang harus dihadapi kebanyakan orang. Realitas itu terasa begitu menyiksa dan menyesakkan.\n\n\"Nenek, apakah Anda... sudah hidup seperti ini sepanjang waktu?\" Saat Yangyang mencoba membantu seorang wanita tua memilah sumber daya terbatas yang mereka miliki, ia tidak bisa menahan diri untuk mengajukan pertanyaan mendadak ini.\n\n\"Ya, kenapa? Gadis kota. Kau terkejut? Tenanglah. Segalanya akan baik-baik saja.\"\n\n\"Tapi kapan? Akankah segalanya benar-benar menjadi baik suatu hari nanti?\"\n\n\"Tentu saja. Bagaimana hal-hal baik akan menjadi nyata jika kau sendiri tidak memercayainya? Kami juga sempat ragu padamu, tapi kami memilih untuk percaya. Begitu juga bagimu. Harus punya keyakinan pada sesuatu dalam hidup. Bahkan jika kau tidak tahu bagaimana akhirnya. Itulah inti dari sebuah keyakinan.\"\n\n\"Kapan? Hm, mungkin saat kau sudah besar nanti, si kecil.\"\n\nJadi ya, mungkin Yangyang belum cukup mengalami kesulitan. Atau mungkin kecenderungan seseorang untuk menunjukkan kebaikan tidak didasarkan pada pengalaman masa lalu, melainkan melekat dalam karakter mereka.\n\nDalam situasi tergelap sekalipun, beberapa orang akan menunjukkan kebaikan hanya karena orang lain memilih untuk memercayai mereka. Dan hal ini pada gilirannya akan memicu lebih banyak tindakan niat baik.\n\nSejak saat itu, Yangyang selalu menebarkan kebaikan kepada orang asing, dipicu oleh satu pertemuan itu.\n\nTentu saja, kebaikannya bukan tanpa batasan. Pengkhianatan bisa mengubah semilir angin hangatnya menjadi badai yang keras.\n\nNamun ia tetap berpegang pada harapan, memercayai kekuatan dari kebaikan. Ia memilih untuk percaya dan mengharapkan yang terbaik dari orang lain. Inilah cara yang ia pilih untuk membuat dunia menjadi tempat yang lebih baik."
+      },
+      {
+        "title": "What Wind Taught Her",
+        "content": "Yangyang telah jatuh ke dalam angin sebanyak tiga kali.\n\nKali pertama adalah ketika ia jatuh dari pelukan ibunya.\n\nSesaat setelah kelahiran Yangyang, ia sudah dikelilingi oleh cinta. Ibunya mengayunkannya dengan riang di dalam pelukan, berpura-pura seolah ia sedang terbang dan mendarat.\n\nNamun ketika ayunan itu menjadi sedikit terlalu tinggi, Yangyang merasakan bisikan angin dan merasakan badai yang mendekat, bahkan sebelum ia bisa berbicara. Saat ia mendarat, celotehnya disalahartikan sebagai rasa takut akibat kecelakaan itu, padahal sebenarnya itu adalah reaksi terhadap badai yang akan datang.\n\nKali kedua adalah ketika ia pingsan karena sensory overload.\n\nSeiring ia tumbuh dewasa, kemampuan pengindraannya yang dulu samar mulai menguat, memungkinkannya merasakan aliran udara yang tak berwujud di telapak tangannya. Ia menyebutnya sebagai \"Streams\", dan hal itu memberinya wawasan tentang fluktuasi energi, anomali, dan bahkan detail fisik terkecil dari seseorang.\n\nTerjebak dalam siklus yang merusak diri sendiri, Yangyang rindu untuk mengeksplorasi kemampuannya dan mendapatkan lebih banyak wawasan. Namun semakin ia mencoba untuk menjadi teliti, semakin dalam ia terjatuh ke dalam labirin detail.\n\nApa yang terjadi selanjutnya tidak bisa disebut sebagai jatuh, karena itu adalah sebuah penurunan melalui waktu, bukan ruang. Sensory overload tersebut berlangsung selama berbulan-bulan, di antara kondisi pingsan dan sadar. Yangyang merasa seringan sehelai bulu yang terjebak dalam badai besar, jatuh terus-menerus tanpa henti.\n\n\"Aku harus fokus pada detail kunci dalam jangkauanku, daripada mencoba menangkap segalanya...\" Akhirnya, Yangyang menarik dirinya keluar dari terjun bebas yang tak kunjung usai dan mendarat dengan selamat.\n\nKali ketiga, tapi mungkin bukan yang terakhir, adalah ketika Yangyang melompat dan melemparkan dirinya ke dalam angin.\n\nSensory overload yang terus-menerus telah mengubah rambutnya dan mengajari Yangyang untuk menoleransi ketidaknyamanan tersebut. Meskipun Streams memberikan informasi yang berlebihan, penerimanya dapat memilah dan mengekstrak detail-detail penting. Tanda-tanda perkelahian di lokasi hilangnya seseorang, fluktuasi yang tidak biasa di luar kota, dan kenaikan konstan dalam reaksi energi...\n\nYangyang belum pernah menggunakan kemampuannya dalam situasi yang begitu mendesak, tetapi tekadnya untuk membantu mengalahkan keraguan apa pun. Streams melonjak, membentuk garis jelas yang mengarah ke seorang anak yang hilang, yang sedang dikejar oleh TDs dan terhuyung-huyung di tepi tebing. Tanpa ragu, Yangyang melompat ke arah sosok yang terancam itu, mengulurkan tangannya untuk menyelamatkan sang anak.\n\nBulu-bulu menari di udara, membawa Yangyang dan anak itu dalam angin yang lembut namun kuat. Anak itu melihat ke sekeliling pada bulu-bulu yang melayang dan bertanya, \"Apakah Anda peri burung lark yang terbang di dalam angin, Nona?\"\n\nTenggelam dalam kenangan, Yangyang tersenyum. Ia memikirkan saat-saat ketika ia jatuh ke dalam angin, berulang kali. Mungkin ia benar-benar menyatu dengan angin."
+      },
+      {
+        "title": "Answer Lies In The Winds",
+        "content": "Dalam perjalanannya jauh dari rumah, Yangyang bertemu dengan dua jenis orang.\n\nJenis pertama selalu tampak terburu-buru, namun tetap tidak yakin ke mana mereka menuju, dan sering kali berakhir tersesat lalu kembali dengan penyesalan. Jenis lainnya selalu memiliki tujuan yang jelas di pikiran mereka. Mereka selalu berhasil mencapainya pada akhirnya, meskipun melalui jalan yang sulit dan sesekali tersandung. Yangyang mengangkat kepalanya dan memandang kota Jinzhou di cakrawala, merasa tidak yakin apakah ia bisa dianggap sebagai salah satu dari jenis orang yang kedua. Sekali lagi, ia memikirkan istilah \"One Instrument for Life.\"\n\n\"One Instrument for Life.\" Itu adalah prinsip terpenting dalam ajaran keluarga Yangyang. Awalnya, itu berarti setiap anggota keluarga bisa berusaha untuk unggul dalam segala hal, tetapi mereka harus memilih satu instrumen musik untuk dikuasai secara khusus dan dilatih terus-menerus sepanjang hidup mereka untuk menjadi seorang maestro. Seiring perubahan keadaan, prinsip tersebut secara bertahap berkembang menjadi mendedikasikan seluruh hidup seseorang untuk satu pengejaran, berjuang demi keunggulan untuk membuat hidup ini berharga.\n\nInstrumen ibunya adalah menggubah lagu. Yangyang pernah melihat orang-orang menari mengikuti lagu-lagu ibunya. Di sisi lain, saudara perempuan Yangyang sudah menjadi sosok yang sukses di kamar dagang.\n\nNamun, Yangyang tidak bisa dengan mudah memutuskan Instrumen miliknya sendiri seperti yang mereka lakukan dulu. Apa hal yang layak untuk didedikasikan sepanjang hidupnya? Menjadi orang seperti apakah ia seharusnya?\n\nIa berpaling kepada ibunya untuk meminta bantuan: Ibu, apakah Ibu ingin aku mewarisi bisnis keluarga? Atau, apa yang Ibu ingin aku lakukan? Aku bisa mencoba apa saja dan aku akan berjuang untuk menjadi yang terbaik. Meskipun hidup penuh dengan kemungkinan yang tak terbatas, pada akhirnya, kita hanya bisa memilih satu jalan, bukan?\n\nIbunya memandangnya dengan penuh kasih dan berkata, anakku, justru karena itulah kau tidak seharusnya mencari jawaban dariku, melainkan bertanyalah pada hatimu sendiri. Ini adalah pertanyaan yang sulit, tetapi kau tidak perlu terburu-buru mencari jawabannya.\n\nMaka, Yangyang menyimpan pertanyaannya, menunggu dengan sabar sebuah jawaban yang seolah-olah menghindarinya. Ia menunggu melalui kepulangannya ke rumah dari pemukiman yang terpencil, melalui perjuangannya keluar dari jurang maut, dan melalui rasa jenuhnya terhadap perlindungan berlebihan dari keluarganya. Keinginannya untuk bergabung dengan dunia dan mengalami kekejamannya tumbuh semakin kuat, tidak lagi puas hanya menjadi sehelai daun yang hanyut terbawa angin. Ia rindu untuk menanggung beban realitas, alih-alih bersembunyi darinya.\n\nSaat itulah sebuah penyergapan mendadak di alam liar mengakibatkan jatuhnya banyak korban akibat serangan Tacet Discord di garis depan. Berita tentang tragedi ini dengan cepat menyebar ke seluruh kota, menyulut perasaan duka, amarah, dan keputusasaan di antara penduduknya. Emosi meluap-luap, dengan orang-orang berkumpul di sekitar api unggun. Air mata mengalir bebas, tangisan parau bergema sepanjang malam. Namun saat pagi tiba, kesedihan menjadi sebuah kemewahan karena kehidupan kembali normal.\n\nYangyang berdiri di antara mereka, air mata mengalir di wajahnya. Ia tidak mengalami kehilangan pribadi apa pun, tetapi menyaksikan kesedihan mereka dan kegembiraan anak-anak yang diselamatkan menggerakkan sesuatu di dalam dirinya. Itu adalah momen transformatif, saat ia menyadari panggilan sejatinya: untuk melindungi orang lain, sebagaimana ia pernah dilindungi sebelumnya. Ia ingin melindungi mereka dari kemalangan dan memberi mereka harapan untuk masa depan yang lebih cerah.\n\nSaat Yangyang berdiri di tepi Jinzhou pada malam pendaftarannya sebagai seorang Outrider, ia menatap langit dan para penduduk yang sibuk di bawah. Keraguan merayap masuk saat ia mempertanyakan kemampuannya untuk melindungi warga yang penuh semangat ini, sebuah tanggung jawab yang selalu ia impikan untuk dipenuhi.\n\nStreams datang dari jauh dan dengan lembut memeluk Yangyang, menghalau sisa-sisa keraguannya yang terakhir.\n\nMereka berbisik dalam diam: Jinzhou adalah tempatnya. Ini adalah tujuan bagi Yangyang si putri kaya, dan awal perjalanannya sebagai Yangyang si Outrider."
+      }
+    ],
+    "specialFood": {
+      "name": "Fluffy Wuthercake",
+      "description": "Meningkatkan ATK dari semua Resonator di dalam tim sebesar 33%, bertahan selama 30 menit. Hanya efektif pada Resonator milikmu sendiri dalam Co-op Mode.",
+      "imageUrl": "/icons/food/yangyang.webp"
+    }
+  }
+}

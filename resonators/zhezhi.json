@@ -1,0 +1,483 @@
+{
+  "name": "Zhezhi",
+  "element": "Glacio",
+  "weapon": "Rectifier",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Concerto Efficiency",
+    "Basic Attack DMG",
+    "Coordinated Attack",
+    "Resonance Liberation Regeneration",
+    "Glacio DMG Amplification",
+    "Resonance Skill DMG Amplification"
+  ],
+  "sonatas": [
+    "Empyrean Anthem",
+    "Moonlit Clouds"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false
+    }
+  ],
+  "faction": "Jinzhou",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Congenital",
+  "image": "/characters/zhezhi.webp",
+  "imageBanner": "/banners/zhezhi-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110% - 125%",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Myriad",
+      "Impermanence Heron"
+    ],
+    "bestWeapon": "Rime-Draped Sprouts",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Sub DPS General",
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: glacio%",
+            "3: glacio%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        },
+        {
+          "label": "Sub DPS Coordinated ATK",
+          "echoSlug": "nightmare-myriad",
+          "echoSlugSecondary": "hecate",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: glacio%",
+            "3: glacio%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Empyrean Anthem"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "Hecate 1% lebih baik daripada NM: Lampylumen Myriad, namun lebih memakan waktu untuk dikumpulkan dibandingkan dengan NM: Lampylumen Myriad. Pastikan bahwa NM: Lampy adalah Empyrean Anthem, karena ia dapat menjatuhkan Frosty Resolve dan ikonnya cukup mirip."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "rime-draped-sprouts",
+        "percentage": "120",
+        "rank": ""
+      },
+      {
+        "id": "stringmaster",
+        "percentage": "110",
+        "rank": ""
+      },
+      {
+        "id": "luminous-hymn",
+        "percentage": "106",
+        "rank": ""
+      },
+      {
+        "id": "cosmic-ripples",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "augment",
+        "percentage": "89",
+        "rank": ""
+      },
+      {
+        "id": "jinzhou-keeper",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar - Rotasi",
+        "steps": [
+          "Intro",
+          "BA123",
+          "Skill",
+          "[F]HA",
+          "Ult",
+          "[F]Skill(x3)(Jump-Cancel)",
+          "Echo(Swap)+Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Skill Buff",
+        "members": [
+          [
+            "Carlotta",
+            "Jinhsi",
+            "Lingyang"
+          ],
+          [
+            "Zhezhi"
+          ],
+          [
+            "Shorekeeper",
+            "Buling"
+          ]
+        ],
+        "note": "Jinhsi berkembang pesat dengan rekan tim yang memberikan Coordinated ATKs, DMG buff (terutama Res. Skill DMG), dan memiliki field time yang rendah. Zhezhi memenuhi semua kebutuhan tersebut dan meningkatkan Resonance Energy untuk uptime Res. Liberation yang lebih sering.\nSaat ini, Carlotta & Lingyang adalah satu-satunya Glacio Main Damage Dealer yang secara inheren akan mendapatkan manfaat dari Glacio DMG Amplify milik Zhezhi. Keduanya juga sangat diuntungkan oleh Res. Skill DMG Amplify & Resonance Energy Regeneration dari Zhezhi."
+      }
+    ],
+    "teamNote": "Zhezhi memberikan buff berikut untuk rekan timnya:\n- Memulihkan 15 Resonance Energy setelah melancarkan Outro Skill\n- 20% Glacio DMG dan 25% Res. Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill."
+  },
+  "skills": {
+    "basic": {
+      "name": "Dimming Brush",
+      "description": "Basic Attack\nMelakukan hingga 3 serangan berturut-turut, memberikan  Glacio DMG.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target, memberikan  Glacio DMG.\n(Heavy Attack tidak mereset siklus Basic Attack.)\n\nMid-air Attack\nMengonsumsi STA untuk melakukan hingga 2 serangan berturut-turut di udara, memberikan  Glacio DMG.\n\nDodge Counter\nGunakan Basic Attack setelah berhasil menghindar untuk menyerang target, memberikan  Glacio DMG."
+    },
+    "skill": {
+      "name": "Manifestation",
+      "description": "Menyerang target, memberikan  Glacio DMG. Jika Afflatus tidak kurang dari 60, konsumsi 60 Afflatus untuk memanggil Phantasmic Imprint - Left dan Phantasmic Imprint - Right.\n- Tekan tombol di darat untuk memanggil Phantasmic Imprints di darat.\n- Tahan tombol di darat atau tekan tombol di udara untuk memanggil Phantasmic Imprints di udara."
+    },
+    "liberation": {
+      "name": "Living Canvas",
+      "description": "Memanggil Inklit Spirits untuk membantu dalam pertempuran. Dapat digunakan saat di udara.\n\nInklit Spirit\nKetika Resonator aktif memberikan DMG, akan muncul Inklit Spirit untuk melakukan Coordinated Attack, memberikan  Glacio DMG yang dianggap sebagai Basic Attack DMG.\n- Selama 3 detik setelah memberikan DMG, 1 Inklit Spirit akan dipanggil setiap detik. Efek ini dapat dipicu sekali per detik.\n- DMG yang diberikan oleh Inklit Spirit tidak akan memicu pemanggilan tambahan.\n- Maksimal 1 Inklit Spirit dapat dipanggil setiap detik, dengan total 21 Inklit Spirits.\n- Efek ini berlangsung selama 30 detik atau hingga jumlah maksimum Inklit Spirits tercapai."
+    },
+    "forte": {
+      "name": "Ink And Wash",
+      "description": "Phantasmic Imprint\nZhezhi dapat memanggil Phantasmic Imprints dengan mengonsumsi Afflatus saat menggunakan Resonance Skill Manifestation atau Heavy Attack Conjuration.\n- Maksimal 1 dari setiap jenis Phantasmic Imprint (Left, Middle, Right) dapat ada secara bersamaan, masing-masing bertahan selama 15 detik.\n\nHeavy Attack - Conjuration\nMengonsumsi STA untuk menyerang dengan 5 cara berbeda, memberikan  Glacio DMG:\n- Tahan tombol Normal Attack setelah Basic Attack tahap 3.\n- Tekan tombol Normal Attack setelah menggunakan Resonance Skill Manifestation.\n- Tahan tombol Normal Attack setelah menggunakan Resonance Skill Stroke of Genius atau Resonance Skill Creation's Zenith.\n- Tahan tombol Normal Attack saat di udara.\n- Tahan tombol Normal Attack setelah Dodge yang berhasil.\n- Jika Zhezhi memiliki minimal 30 Afflatus, konsumsi 30 Afflatus untuk memanggil Phantasmic Imprint - Middle.\n\nResonance Skill - Stroke of Genius\nJika Phantasmic Imprint berada di dekatnya, Resonance Skill digantikan oleh Stroke of Genius, yang bisa digunakan saat di udara.\nSaat digunakan, Zhezhi akan:\n- Berpindah ke lokasi Phantasmic Imprint, menghilangkannya, dan memanggil Ivory Herald untuk menyerang target, memberikan  Glacio DMG yang dianggap sebagai Basic Attack DMG.\n- Meregenerasi percobaan Dodge di udara jika Phantasmic Imprint berada di udara.\n- Mendapatkan 1 stack Painter’s Delight, bertahan 8 detik, dapat ditumpuk hingga 2 kali.\n\nResonance Skill - Creation's Zenith\nJika Phantasmic Imprint berada di dekatnya dan Painter's Delight mencapai 2 stack, Stroke of Genius digantikan oleh Creation’s Zenith, yang bisa digunakan saat di udara.\nSaat digunakan, Zhezhi akan:\n- Kehilangan semua stack Painter’s Delight.\n- Berpindah ke lokasi Phantasmic Imprint, menghilangkannya, dan memanggil Ivory Herald untuk menyerang target, memberikan  Glacio DMG yang lebih besar, serta meningkatkan Basic Attack DMG Bonus sebesar 18% selama 27 detik.\n- Meregenerasi percobaan Dodge di udara jika Phantasmic Imprint berada di udara.\n\nAfflatus\n- Zhezhi dapat menyimpan hingga 90 Afflatus.\n- Normal Attack memberikan Afflatus saat mengenai target.\n- Menggunakan Intro Skill juga memberikan Afflatus."
+    },
+    "inherent": [
+      {
+        "name": "Calligrapher'S Touch",
+        "description": "Saat menggunakan Resonance Skill Stroke of Genius atau Resonance Skill Creation’s Zenith, ATK meningkat sebesar 6% selama 27 detik, dapat ditumpuk hingga 3 kali."
+      },
+      {
+        "name": "Flourish",
+        "description": "Setelah Outro Skill digunakan, memulihkan 15 Resonance Energy untuk Resonator yang masuk."
+      }
+    ],
+    "intro": {
+      "name": "Radiant Ruin",
+      "description": "Menyerang target, memberikan  Glacio DMG."
+    },
+    "outro": {
+      "name": "Carve And Draw",
+      "description": "Resonator yang masuk mendapatkan Amplifikasi  Glacio DMG sebesar 20% dan Amplifikasi Resonance Skill DMG sebesar 25% selama 14 detik atau hingga mereka diganti."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Sound-Keeping Tacet Core",
+            "amount": 46
+          },
+          {
+            "item": "LF Howler Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Howler Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Howler Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Howler Core",
+            "amount": 4
+          },
+          {
+            "item": "Lanternberry",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Monument Bell",
+          "amount": 26
+        },
+        {
+          "item": "LF Howler Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Howler Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Howler Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Howler Core",
+          "amount": 57
+        },
+        {
+          "item": "Lento Helix",
+          "amount": 25
+        },
+        {
+          "item": "Adagio Helix",
+          "amount": 28
+        },
+        {
+          "item": "Andante Helix",
+          "amount": 55
+        },
+        {
+          "item": "Presto Helix",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Zhezhi",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 314167.91,
+          "percentage": 119.33,
+          "imagePath": ""
+        },
+        {
+          "type": "Stringmaster",
+          "value": 303346.49,
+          "percentage": 115.22,
+          "imagePath": ""
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 263277.87,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Fusion Accretion R5",
+          "value": 228357.59,
+          "percentage": 86.74,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Zhezhi",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 29,
+          "percentage": 29,
+          "imagePath": ""
+        },
+        {
+          "type": "HA",
+          "value": 4.3,
+          "percentage": 4.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 8.9,
+          "percentage": 8.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 5.2,
+          "percentage": 5.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Coordinated ATK (BA)",
+          "value": 49.2,
+          "percentage": 49.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro Skill",
+          "value": 3.3,
+          "percentage": 3.3,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Zhezhi",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 314167.91,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 329500.82,
+          "percentage": 104.88,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 379902.39,
+          "percentage": 120.92,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 432855.8,
+          "percentage": 137.78,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Brushwork'S Finish",
+      "description": "Mengaktifkan Resonance Skill Creation's Zenith memulihkan 15 Resonance Energy dan meningkatkan Crit. Rate sebesar 10% selama 27 detik."
+    },
+    {
+      "stage": "S2",
+      "name": "Vivid Strokes",
+      "description": "Jumlah maksimum Inklit Spirits yang dapat dipanggil oleh Resonance Liberation Living Canvas bertambah 6."
+    },
+    {
+      "stage": "S3",
+      "name": "Reflection'S Grace",
+      "description": "Mengaktifkan Resonance Skill Manifestation, Resonance Skill Stroke of Genius, atau Resonance Skill Creation's Zenith meningkatkan ATK sebesar 15% selama 27 detik, dapat ditumpuk hingga 3 kali."
+    },
+    {
+      "stage": "S4",
+      "name": "Hue'S Spectrum",
+      "description": "Mengaktifkan Resonance Liberation Living Canvas meningkatkan ATK seluruh Resonator dalam tim sebesar 20% selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Composition'S Clue",
+      "description": "Setiap 3 Inklit Spirits yang dipanggil oleh Resonance Liberation Living Canvas, 1 Inklit Spirit tambahan dipanggil untuk melakukan Coordinated Attack, memberikan DMG sebesar 140% dari DMG Inklit Spirit, dianggap sebagai Basic Attack DMG.\n(DMG ini tidak akan memanggil Inklit Spirit tambahan.)"
+    },
+    {
+      "stage": "S6",
+      "name": "Infinite Legacy",
+      "description": "Mengaktifkan Resonance Skill Stroke of Genius atau Resonance Skill Creation's Zenith akan memanggil 1 Ivory Herald tambahan, yang memberikan DMG sebesar 120% dari DMG Resonance Skill Stroke of Genius, dianggap sebagai Basic Attack DMG."
+    }
+  ],
+  "lore": {
+    "description": "Seorang seniman lepas yang berusaha mencari nafkah. Pendiam dan pemalu, ia tidak pandai merangkai kata-kata, tetapi setiap lukisannya berbicara lebih lantang daripada yang bisa ia ungkapkan. Dalam karyanya, dunia yang ia ciptakan tampak begitu nyata—seolah memiliki kehidupan sendiri, dengan keaslian yang nyaris mustahil.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n31 Desember",
+    "report": {
+      "resonancePower": "Enchanted Brush",
+      "resonanceEvaluation": "Dasar Evaluasi: [Resonance Assessment 1231-G]\n\nWaktu pasti Awakening dari Resonator Zhezhi masih belum diketahui. Tanda-tanda \"animasi\" pertama kali muncul di gambar-gambar masa kecilnya, dan seiring dengan berkembangnya keterampilan melukisnya, kendali atas Forte-nya juga meningkat.\n\nTacet Mark milik Zhezhi terletak di punggung tangan kanannya. Setelah Awakening, tidak ditemukan perubahan fisik yang signifikan. Pengujian menunjukkan bahwa Zhezhi dapat \"menghidupkan\" lukisannya, mempengaruhi persepsi visual dan penilaian pengamat (berlaku baik untuk makhluk hidup maupun Tacet Discords).\n\n\"Animasi\" ini memiliki dua tingkatan:\n\nModerate: Menyebabkan sedikit pergerakan pada gambar dua dimensi.\n\nSevere: Mensimulasikan bentuk tiga dimensi secara sementara, bertahan hingga 30 menit 28 detik dan mencakup area hingga 274,5 meter persegi.\n\nKedua tingkatan ini hanya menghasilkan ilusi, bukan objek nyata. Tidak ditemukan pola waktu yang stabil. Belum ada Resonance Spectrum Pattern serupa yang teridentifikasi, dan penyebab Awakening milik Zhezhi masih belum jelas.\n\nSelain itu, analisis sampel uji menunjukkan Rabelle’s Curve dengan gelombang periodik yang mencolok. Oleh karena itu, Zhezhi diklasifikasikan sebagai Congenital Resonator.\n\n",
+      "overclockDiagnostic": "Grafik gelombang Zhezhi menunjukkan pola yang teratur dengan beberapa fluktuasi abnormal singkat. Pemantauan jangka panjang terhadap Time Domain-nya menunjukkan bahwa gelombang tetap stabil. Hasil pemeriksaan masih dalam parameter normal.\n- Resonant Criticality: Normal. Namun, frekuensi Zhezhi menunjukkan kestabilan yang rendah dengan risiko Overclocking yang tinggi.\n- Tidak ada catatan riwayat Overclocking.\n- Pemeriksaan rutin dan konseling psikologis disarankan."
+    },
+    "items": [
+      {
+        "name": "Paintbrush Set",
+        "description": "Satu set kuas lukis yang dibeli Zhezhi saat pertama kali berbelanja sendiri sebagai seorang anak, setelah sempat gugup saat berbicara dengan pemilik toko. Ke mana pun Zhezhi pergi, kuas ini selalu menemaninya, merekam perkembangan seninya. Meskipun sekarang sudah terlalu tua dan rapuh untuk digunakan, Zhezhi masih menganggapnya sebagai sumber motivasi dan selalu merawatnya dengan hati-hati.",
+        "imageUrl": "/icons/items/zhezhi-1.webp"
+      },
+      {
+        "name": "Empty Birdcage",
+        "description": "Sebuah sangkar burung mewah yang telah lama kosong.\n\nSebagai hadiah karena Zhezhi patuh menggunakan Forte-nya untuk melukis dan membantu menyelamatkan bisnis keluarga, orang tuanya membelikannya seekor burung peliharaan sebagai kejutan. Setiap hari, Zhezhi melihat burung itu terus mengepakkan sayapnya melawan jeruji hingga kelelahan. Setelah ragu cukup lama, akhirnya ia memberanikan diri untuk menentang keinginan orang tuanya dan melepaskan burung itu dari kandangnya.\n\nSetelah orang tuanya menghilang, Zhezhi menjual semua barang keluarga yang tersisa, kecuali sangkar burung ini sebagai kenang-kenangan. Setiap kali melihatnya, yang ia lihat bukanlah jeruji, tetapi burung yang telah lama terbang bebas.",
+        "imageUrl": "/icons/items/zhezhi-2.webp"
+      },
+      {
+        "name": "Wish List",
+        "description": "Makanan manis baru, tiket pameran seni, perjalanan ke kota-kota baru… Berjuang untuk melunasi hutang keluarganya sambil bertahan hidup dengan penghasilan pas-pasan, Zhezhi terbiasa mencatat hal-hal yang ingin ia beli atau lakukan dalam daftar keinginan. Ia sering mengecek daftar ini, tetapi hanya bisa mewujudkan satu atau dua keinginan kecil di kesempatan langka saat ia memiliki sedikit uang lebih.",
+        "imageUrl": "/icons/items/zhezhi-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Prized Possessions",
+        "content": "Gadis kecil itu dengan bangga menunjukkan lukisannya kepada ibunya, bersemangat untuk berbagi pencapaiannya. Sang ibu, yang sibuk memilih perhiasan yang akan dipakai, hanya melirik sekilas karya itu.\n\n\"Mengagumkan, Zhezhi,\"\n\ngumamnya dengan senyum singkat.\n\nMendapat pujian, Zhezhi mendekat dengan antusias.\n\n\"Orang-orang di dalam lukisan ini adalah—\"\n\nKata-katanya terhenti ketika ibunya berbalik, kembali fokus pada pilihan pakaiannya, sama sekali tak menyadari usaha putrinya untuk terhubung dengannya.\n\n\"Bagus sekali. Sekarang, bagaimana kalau kau melukis beberapa lagi sebelum para tamu datang?\"\n\nZhezhi berkedip, kehilangan kata-kata. Ibunya semakin tidak sabar, menghela napas sebelum menggiringnya ke pintu.\n\n\"Belilah semua perlengkapan yang kau butuhkan, sayang. Harganya tidak masalah, kita mampu membelinya. Sekarang, Ibu harus bersiap. Jadilah anak yang baik. Pergilah.\"\n\nSaat pintu tertutup, Zhezhi hanya bisa menatapnya, ingin mengatakan sesuatu, tetapi tak mampu mengungkapkan perasaan sesak di dadanya.\n\nMalam harinya, dengan pakaian yang rapi dan anggun, Zhezhi duduk di sudut ruangan, menggenggam ujung rok dengan gugup di tengah hiruk-pikuk para tamu. Sang ibu meliriknya, merasa tidak nyaman melihat putrinya yang terlihat canggung. Kenangan tentang perjuangan keluarga mereka di masa lalu melintas di benaknya.\n\nIa melangkah maju, menggenggam tangan Zhezhi dan membawanya ke pusat perhatian.\n\n\"Tahukah kalian? Zhezhi sudah berbakat sejak lahir. Lukisan-lukisannya terpilih untuk pameran bahkan sebelum kami mempekerjakan seorang tutor.\"\n\nDengan senyum yang sempurna, ia meniru keanggunan kaum kelas atas.\n\n\"Apakah kalian ingin sebuah lukisan juga? Zhezhi bisa menyelesaikannya dalam satu hari.\"\n\nZhezhi mengecil dalam dirinya sendiri, berharap bisa menghilang, namun ia justru didorong lebih jauh ke depan.\n\n\"Tunjukkan bakatmu, Zhezhi.\"\n\nSemua mata tertuju padanya. Tangan Zhezhi gemetar, dan untuk pertama kalinya, ia tidak bisa melukis satu goresan pun.\n\nSaat malam semakin larut dan rumah akhirnya sunyi, Zhezhi mengumpulkan keberaniannya. Membawa lukisan yang ia buat hari itu, ia melangkah menuju pintu kamar orang tuanya. Baru saja hendak mengetuk, ia mendengar percakapan mereka dari dalam.\n\n\"Tahukah kau? Lukisan itu terjual seharga 400.000 Kredit hari ini. Dengan uang ini, kita bisa menyelesaikan pesanan yang tertunda.\"\n\n\"Benar. Apakah lukisan untuk para tamu akhir pekan ini sudah siap?\"\n\n\"Belum. Zhezhi sempat bilang ingin pergi ke teater. Anak itu, selalu mencari alasan untuk bersenang-senang, tak pernah memikirkan apa yang terbaik untuk keluarga ini...\"\n\nZhezhi menunduk, menatap lukisan yang ia bawa—gambar sebuah keluarga bahagia. Jemarinya mencengkeram kanvas, meremasnya hingga berkerut, mengaburkan wajah ayah dan ibunya dalam gambar itu.\n\n\"…Maafkan aku.\""
+      },
+      {
+        "title": "The True Meaning Of Art",
+        "content": "Zhezhi baru menyadari ada yang kurang dalam lukisannya ketika ia pergi ke pedesaan untuk membuat sketsa. Saat ia menghirup udara segar dan menikmati keindahan alam, ide baru tiba-tiba menyapanya seperti sinar matahari yang menerobos awan. Ia menoleh ke sekeliling, memastikan tak ada orang lain, lalu merentangkan tangannya—untuk sesaat,\nia melepaskan semua tuntutan orang tuanya.\n\nSaat kakinya yang telanjang menyentuh rumput, sensasi dingin dan tajamnya membangkitkan perasaan segar yang belum pernah ia alami sebelumnya. Ia pun berlari tanpa beban, meninggalkan kekhawatiran tentang citra keluarga yang harus ia pertahankan.\n\nNamun, suaranya tiba-tiba terdengar dari kejauhan.\n\n\"Hei, siapa kau? Ngapain di ladang kami?\"\n\nTerkejut, Zhezhi langsung menunduk, malu karena menyadari dirinya telah menginjak properti milik orang lain.\n\n\"Maaf! Aku datang untuk melukis. Aku tidak tahu ini milik seseorang...\"\n\nGadis yang berbicara dengannya tertawa kecil, melihat kepanikan di wajah Zhezhi.\n\n\"Santai aja! Sayur-sayur ini kuat, nggak bakal rusak cuma karena diinjak. Jadi, kau seorang pelukis, ya? Menarik juga...\"\n\nZhezhi ragu sejenak, memperhatikan gadis itu yang sibuk bekerja.\n\n\"Biar aku bantu...\"\n\nGadis itu menatapnya dengan tatapan berbinar.\n\n\"Serius? Wah, terima kasih! Nih, pakai sabit ini. Aku ambil satu lagi!\"\n\nZhezhi menatap sabit di tangannya dengan bingung, tapi kemudian ikut berjongkok di antara sayuran tinggi, mencoba meniru gerakan si gadis.\n\n\"Tunggu, tunggu. Nggak gitu caranya. Nih, biar aku tunjukin!\"\n\nDi bawah terik matahari, mereka bekerja sama sampai ladang benar-benar selesai dipanen. Saat akhirnya mereka beristirahat di bawah pohon, Zhezhi melupakan lumpur di sepatunya dan noda tanah di gaun mahalnya. Ia hanya tenggelam dalam kebahagiaan sederhana, menikmati tawa lepas bersama teman barunya.\n\nNamun, kebahagiaan itu seketika sirna ketika sebuah suara tajam memecah suasana.\n\nZhezhi menoleh dan melihat ibunya berdiri di sana, matanya menyipit penuh amarah. Ia bisa merasakan ketidaksukaan ibunya terhadap teman barunya. Panik, ia segera bangkit, berlari untuk menjelaskan dan meminta maaf, kembali berubah menjadi anak penurut yang selalu diinginkan orang tuanya.\n\nBeberapa hari kemudian, gadis petani itu menerima sebuah gulungan.\n|Dengan hati-hati, ia membukanya, lalu tertegun.\n\nLukisan itu menampilkan dirinya dan Zhezhi, tengah memanen sayuran di ladangnya, dengan sinar matahari menerangi keduanya.\n\nSepucuk surat terjatuh dari dalam lukisan.\n\n\"Maaf aku tidak sempat berpamitan. Aku sangat senang bisa membantumu di ladang! Sabit, matahari yang menyengat, tangan yang pegal... Itu membuatku menyadari apa yang selama ini kurang dari lukisanku. Ini adalah karya terbaikku, dan ini untukmu! Semoga kau menyukainya! Mungkin minggu depan, aku bisa menyelinap keluar lagi untuk membantu.\"\n\nGadis itu tersenyum membaca suratnya, tetapi kalimat terakhir Zhezhi membuatnya sedikit bingung.\n\nMinggu depan? Apa dia pikir sayur-sayur ini bakal tumbuh secepat itu?"
+      },
+      {
+        "title": "No More Hesitation",
+        "content": "Zhezhi berdiri tak jauh dari toko perlengkapan seni, menatap pegawai bertubuh tinggi dengan wajah garang yang sedang mengerutkan dahi sambil menulis sesuatu di buku catatan. Dia ragu-ragu, lalu melangkah mundur beberapa langkah.\n\n\"Mungkin aku harus pergi ke toko lain...\"\n\nPikiran itu baru saja terlintas di benaknya sebelum dia menepisnya.\n\n\"Tapi... ini satu-satunya toko yang punya perlengkapan terbaru...\"\n\nZhezhi berhenti mondar-mandir dan mengeluarkan koin—sebuah kebiasaan yang ia kembangkan untuk situasi seperti ini. Dia melemparkan koin ke udara, menangkapnya, lalu berpikir,\n\n\"Seperti biasa. Gambar, aku masuk. Angka, aku kembali lain kali...\"\n\nPerlahan, dia membuka telapak tangannya, melirik sebentar, lalu buru-buru mengepalkan tangannya lagi.\n\n\"Tunggu, deh. Dua dari tiga kali lemparan.\"\n\nKoin itu melayang lagi dan jatuh ke tangannya.\n\n\"Gambar lagi,\"\n\ndesahnya.\n\nMenggenggam koin erat-erat, Zhezhi menarik napas dalam-dalam dan menguatkan dirinya.\n\n\"Ya sudahlah, anggap saja ini tanda. Aku nggak bisa terus-terusan menghindar.\"\n\nDengan napas panjang untuk mengumpulkan keberanian, dia berjalan ke toko dan mendorong pintu dengan sekuat tenaga. Bunyi lonceng tajam di atas pintu membuat jantungnya berdegup kencang. Dia buru-buru melangkah maju dengan kepala menunduk dan mengucapkan kata-kata yang sudah ia latih berkali-kali, seolah-olah lidahnya terbakar.\n\n\"H-Halo! Aku mau beli cat baru! Enam kaleng Malachite Green No.3, lima kaleng Azurite Blue No.3, lima kaleng Vermilion, tiga kaleng Indigo, tiga kaleng Ochre, tiga kaleng Gamboge, dan dua kaleng Golden Yellow. Terima kasih!\"\n\nBegitu berhasil mengucapkan semuanya tanpa tersendat, Zhezhi menarik napas dalam-dalam untuk mengatur ritme jantungnya. Saat dia mengangkat kepala, matanya bertemu dengan pegawai toko yang baru saja keluar dari ruangan belakang.\n\n\"Halo! Ada yang bisa saya bantu?\"\n\nSuara pegawai itu terdengar lembut—sangat berbeda dari yang ia bayangkan.\nMenyadari bahwa kata-kata yang tadi ia ucapkan tidak terdengar, Zhezhi membeku.\n\n\"Uhh... aku...\"\n\n\"Kamu mencari perlengkapan seni tertentu?\"\n\n\"C-Cat... aku...\"\n\n\"Produk terbaru? Itu memang cukup populer.\"\n\n\"T-Tidak... Aku pikir aku...\"\n\n\"Jangan buru-buru. Silakan lihat-lihat dulu.\"\n\nMasih berkeringat dan gugup, Zhezhi berjalan menuju rak.\n\n\"O-Oke...\"\n\nPenjelasan pegawai toko yang detail dan profesional perlahan-lahan membuat Zhezhi merasa lebih tenang. Dia akhirnya bisa menyebutkan barang yang diinginkannya, bahkan mulai mengobrol tentang lukisannya.\n\n\"Kalau kamu pakai White Jade Paper, produk ini bakal cocok banget.\"\n\n\"Pas sekali, ini yang aku cari. Aku ambil yang ini juga.\"\n\nSaat keluar dari toko dengan perlengkapan barunya, Zhezhi merasa lebih ringan dan percaya diri.\n\n\"Aku ternyata bisa berbicara dengan orang lain kalau nggak terlalu cemas. Lain kali... aku akan coba tanpa melempar koin. Mungkin semuanya akan tetap berjalan dengan baik...\""
+      },
+      {
+        "title": "Shaping A World",
+        "content": "Tanpa peringatan, Zhezhi diusir dari rumahnya, barang-barangnya berserakan di halaman seperti kenangan yang dibuang begitu saja. Saat menatap kekacauan itu, ia sadar bahwa dirinya tak lebih dari barang lain yang ditelantarkan—ditinggalkan oleh orang tuanya, sama seperti yang lain.\n\nPutus asa mencari tempat berlindung, ia mendatangi orang-orang yang dulu ia anggap dekat. Namun, mereka yang dulu ramah dan hangat kini berubah dingin begitu tahu keadaannya. Di balik alasan-alasan sopan mereka, Zhezhi bisa melihat rasa enggan di mata mereka saat menunjuk ke sebuah hotel tua di sudut jalan.\n\nKoridor hotel yang lapuk dipenuhi dengan suara pertengkaran dan teriakan. Duduk di atas ranjang, ia membungkus tubuhnya dengan selimut berbau apek, matanya terpaku pada pintu kayu tipis yang ia barikade dengan meja. Ia berharap bisa tertidur dan terbangun dari mimpi buruk ini, tetapi rasa takut membuatnya terjaga. Ia khawatir pintu itu akan hancur jika ia menutup mata.\n\nPerjalanannya dari kehidupan mewah ke kesulitan ini terasa tak ada ujungnya, setiap hari menjadi pengingat yang menyakitkan. Angka-angka dari utang orang tuanya seakan berkedip di langit-langit kamar gelap tanpa jendela. Tangannya, yang dipenuhi perban lusuh, gemetar setelah melukis tanpa henti selama dua hari, tetapi ia tak berani berhenti.\n\n\"Ini pesanan besar... Aku nggak boleh gagal,\"\n\ngumamnya, matanya yang lelah mulai kabur saat menatap lanskap di kanvasnya.\n\nTiba-tiba, suara teriakan keras memecah malam, membuatnya terbangun dari tidur yang tidak disengaja di meja kerja. Ia tersandung menuju pintu, lalu terpeleset oleh sesuatu yang basah di bawah kakinya.\n\nTerjatuh dengan tubuh yang sakit, ia berdiri dengan gugup di ambang pintu kamar bocornya, meminta maaf berulang kali kepada para tetangga. Dingin yang menusuk menembus pakaian basahnya, sementara keluhan tetangga terus terdengar melalui dinding tipis. Ia menatap lukisannya yang rusak karena air, lalu menghela napas berat—seolah udara tipis di kamar itu semakin menekan tubuhnya yang rapuh.\n\nTubuh Zhezhi yang kelelahan berdiri diam di genangan air dingin. Setelah lama terdiam, cahaya redup dari layar Terminal menerangi ruang sempit itu. Dengan ujung jari yang berlumuran cat, ia mulai menggulir layar, membaca dengan seksama.\n\n\"Pertama, matikan katup air... lalu ganti bagian yang rusak...\"\n\nIa sudah terbiasa mencari solusi untuk berbagai masalah dalam hidupnya.\n\n\"Aku rasa aku bisa... Aku akan mencobanya...\"\n\nIa berjalan perlahan melewati genangan air, menuju sumber masalah."
+      },
+      {
+        "title": "A Ray Of Light",
+        "content": "\"Lukisan ini adalah cerminan diriku. Semua orang harus langsung melihatnya sebagai mahakarya yang mahal.\"\n\n\"Kalau ini yang terbaik yang bisa kamu buat, aku akan beli. Tapi hanya dengan setengah harga.\"\n\nKata-kata klien itu terus terngiang di kepala Zhezhi. Dia berjalan tanpa tujuan di jalanan, membawa gulungan lukisannya, sementara perasaan mati rasa perlahan menyelimuti dirinya. Kemeriahan persiapan festival di sekitarnya mulai memudar dari pandangannya.\n\nBaru ketika dia tersandung dan lukisannya berjatuhan, dia tersentak dari lamunannya. Tanpa peduli mencari kacamatanya lebih dulu, dia buru-buru meraih kembali karya-karyanya. Namun, saat angin menerbangkan beberapa lembar menjauh dari jangkauan, dia berhenti. Dia menatap kosong, lalu memutuskan untuk membiarkannya pergi.\n\n\"Lupakan saja, lukisan-lukisan ini juga jelek... Buat apa aku ambil kembali...\"\n\nDia melepaskan sisa lukisan yang masih ada di pelukannya, membiarkannya jatuh begitu saja. Tenggelam dalam pikirannya, dia tidak menyadari seseorang berhenti di depannya.\n\nSeorang asing mengambil lukisan dan kacamatanya, lalu mengulurkannya kembali padanya.\n\n\"Kamu yang melukis ini? Aku belum pernah melihat seni seperti ini. Luar biasa.\"\n\nZhezhi terpaku mendengar pujian itu. Tanpa berkata-kata, dia menerima lukisan yang diulurkan dan hanya bisa menatap orang asing itu berbalik, berjalan pergi bersama teman-temannya, lalu menghilang di kegelapan malam.\n\nDengan tangan gemetar, dia buru-buru memasang kacamatanya, berusaha melihat lebih jelas. Tapi yang tertangkap hanyalah bayangan samar di kejauhan.\n\n\"Seseorang memuji aku...\"\n\"Mereka tidak punya alasan untuk melakukannya. Itu hanya... pujian tulus untuk lukisanku.\"\n\nKata-kata sederhana namun jujur dari orang asing itu menembus lapisan-lapisan keraguannya, langsung menuju hatinya. Untuk pertama kalinya, rasanya ada seseorang yang benar-benar melihat maksud dari setiap goresan kuasnya. Seperti cahaya yang tiba-tiba menembus awan gelap yang selama ini menyesakkan dadanya—membawa kehangatan yang sudah lama dinantikannya.\n\nZhezhi menatap ke arah sosok asing itu menghilang, menggenggam lukisannya erat-erat. Hingga akhirnya...\n\n\"Permisi... Halo?\"\n\nBeberapa hari kemudian, suara yang familiar membuyarkan lamunannya saat ia tengah mencari tempat yang pas untuk melukis.\n\n\"Jangan khawatir, kami hanya ingin mengobrol.\"\n\nZhezhi mendongak dan bertemu sepasang mata emas. Ingatan tentang malam itu langsung membanjiri pikirannya—ini adalah orang yang pernah memuji lukisannya. Suaranya jernih, bebas dari kepalsuan yang selama ini membuatnya muak.\nSuara itu telah memberinya kekuatan di saat ia hampir menyerah.\n\nKehangatan dari malam itu kembali mengalir, mengisi dunianya yang sempat memudar menjadi abu-abu, kini kembali penuh warna."
+      }
+    ],
+    "specialFood": {
+      "name": "Sweet Stuffed Flatbread",
+      "description": "Meningkatkan DEF semua Resonator dalam tim sebesar 220, bertahan selama 15 menit. Hanya efektif pada Resonator milik sendiri saat dalam Mode Co-op.",
+      "imageUrl": "/icons/food/zhezhi.webp"
+    }
+  }
+}

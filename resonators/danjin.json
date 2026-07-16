@@ -1,0 +1,531 @@
+{
+  "name": "Danjin",
+  "element": "Havoc",
+  "weapon": "Sword",
+  "rarity": 4,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Concerto Efficiency",
+    "Havoc DMG Amplification"
+  ],
+  "sonatas": [
+    "Midnight Veil",
+    "Moonlit Clouds",
+    "Havoc Eclipse"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Midnight Rangers",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Mutant",
+  "image": "/characters/danjin.webp",
+  "imageBanner": "/banners/danjin-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1800+",
+    "Energy Regen": "100%",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Impermanence Heron",
+      "Nightmare: Heron",
+      "Nightmare: Crownless"
+    ],
+    "bestWeapon": "Blazing Brilliance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Sub DPS - Havoc",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: havoc%",
+            "3: havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "nightmare-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Midnight Veil"
+          ]
+        },
+        {
+          "label": "Sub DPS - General",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: havoc%",
+            "3: havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        },
+        {
+          "label": "Solo",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: havoc%",
+            "3: havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "nightmare-crownless",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Havoc Eclipse"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "red-spring",
+        "rank": "",
+        "percentage": "116"
+      },
+      {
+        "id": "blazing-brilliance",
+        "rank": "",
+        "percentage": "100.78"
+      },
+      {
+        "id": "emerald-of-genesis",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "somnoire-anchor",
+        "rank": "5",
+        "percentage": "96"
+      },
+      {
+        "id": "commando-of-conviction",
+        "rank": "5",
+        "percentage": "92"
+      },
+      {
+        "id": "lumingloss",
+        "rank": "5",
+        "percentage": "85"
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Echo(Swap)",
+          "BA2",
+          "Skill12(Swap)",
+          "BA23",
+          "Skill123(Swap)",
+          "Intro",
+          "Skill12",
+          "Ult",
+          "BA123",
+          "Skill123",
+          "HA",
+          "BA1",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Skill",
+        "Normal Attack",
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Mono Havoc",
+        "note": "",
+        "members": [
+          [
+            "Havoc Rover",
+            "Camellya"
+          ],
+          [
+            "Danjin"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      }
+    ],
+    "teamNote": "Danjin memberikan buff berikut kepada rekan timnya:\n- 23% Havoc Dmg Amplify selama 14 detik setelah melancarkan Intro Skill \n- Dengan S6: +20% ATK selama 20 detik."
+  },
+  "skills": {
+    "basic": {
+      "name": "Execution",
+      "description": "Basic Attack\nDanjin melakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.\n\nHeavy Attack\nDanjin mengonsumsi STA untuk melancarkan serangan bertubi-tubi, memberikan  Havoc DMG.\n\nMid-air Attack\nDanjin melakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.\n\nDodge Counter\nSetelah Dodge Counter yang sukses, Danjin dapat menggunakan Resonance Skill: Crimson Fragment untuk melancarkan Resonance Skill: Crimson Erosion."
+    },
+    "skill": {
+      "name": "Crimson Fragment",
+      "description": "Setiap kali Crimson Fragment digunakan, mengonsumsi 3% HP maksimum Danjin.\nJika HP Danjin kurang dari 1%, skill ini tidak lagi mengonsumsi HP.\n\nCarmine Gleam\nDanjin menyerang target, memberikan  Havoc DMG.\n\nCrimson Erosion\nSetelah Basic Attack 2, Dodge Counter, atau Intro Skill: Vindication, gunakan Resonance Skill untuk melakukan hingga 2 serangan berturut-turut, memberikan  Havoc DMG.\nJika Crimson Erosion 2 mengenai target, akan menerapkan efek Incinerating Will.\n\nIncinerating Will\nDanjin memberikan 20% lebih banyak DMG ke target yang memiliki efek Incinerating Will.\n\nSanguine Pulse\nGunakan Resonance Skill setelah Basic Attack 3 untuk melancarkan hingga 3 serangan berturut-turut, memberikan  Havoc DMG."
+    },
+    "liberation": {
+      "name": "Crimson Bloom",
+      "description": "Danjin meluapkan amarahnya dengan mengayunkan dual blade secara cepat, melakukan serangkaian serangan bertubi-tubi dan diakhiri dengan Scarlet Burst, memberikan  Havoc DMG."
+    },
+    "forte": {
+      "name": "Serene Vigil",
+      "description": "Heavy Attack: Chaoscleave\nSetelah mengumpulkan 60 Ruby Blossom, tahan Basic Attack untuk mengonsumsi semua Ruby Blossom dan melancarkan Chaoscleave, memberikan  Havoc DMG (dihitung sebagai Heavy Attack DMG) serta memulihkan HP Danjin.\nJika Ruby Blossom mencapai lebih dari 120, maka 120 Ruby Blossom dikonsumsi untuk meningkatkan DMG Multiplier dari Chaoscleave dan Scatterbloom yang digunakan kali ini.\n\nHeavy Attack: Scatterbloom\nGunakan Basic Attack setelah Heavy Attack: Chaoscleave untuk melancarkan Scatterbloom, menyerang target dan memberikan  Havoc DMG (dihitung sebagai Heavy Attack DMG).\n\nRuby Blossom\nDanjin bisa menyimpan hingga 120 Ruby Blossom.\nDanjin mendapatkan Ruby Blossom setiap kali menggunakan Resonance Skill: Crimson Fragment."
+    },
+    "inherent": [
+      {
+        "name": "Crimson Light",
+        "description": "\nDMG dari Resonance Skill: Crimson Erosion yang dipicu oleh Dodge Counter: Ruby Shades meningkat 20%.\n\nCost HP berkurang dan jumlah Ruby Blossom yang diperoleh menjadi dua kali lipat."
+      },
+      {
+        "name": "Overflow",
+        "description": "Setelah menggunakan Resonance Skill: Sanguine Pulse, DMG dari Heavy Attack Danjin meningkat sebesar 30% selama 5 detik."
+      }
+    ],
+    "intro": {
+      "name": "Vindication",
+      "description": "Dengan tekad yang tak tergoyahkan, Danjin melancarkan serangan, memberikan  Havoc DMG."
+    },
+    "outro": {
+      "name": "Duality",
+      "description": "Resonator yang masuk mendapatkan 23%  Havoc DMG Amplification selama 14 detik atau hingga mereka digantikan."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Strife Tacet Core",
+            "amount": 46
+          },
+          {
+            "item": "Crude Ring",
+            "amount": 4
+          },
+          {
+            "item": "Basic Ring",
+            "amount": 12
+          },
+          {
+            "item": "Improved Ring",
+            "amount": 12
+          },
+          {
+            "item": "Tailored Ring",
+            "amount": 4
+          },
+          {
+            "item": "Belle Poppy",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Dreamless Feather",
+          "amount": 26
+        },
+        {
+          "item": "Crude Ring",
+          "amount": 25
+        },
+        {
+          "item": "Basic Ring",
+          "amount": 28
+        },
+        {
+          "item": "Improved Ring",
+          "amount": 40
+        },
+        {
+          "item": "Tailored Ring",
+          "amount": 57
+        },
+        {
+          "item": "Inert Metallic Drip",
+          "amount": 25
+        },
+        {
+          "item": "Reactive Metallic Drip",
+          "amount": 28
+        },
+        {
+          "item": "Polarized Metallic Drip",
+          "amount": 55
+        },
+        {
+          "item": "Heterized Metallic Drip",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Danjin",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Blazing Brilliance",
+          "value": 297325,
+          "percentage": 105.66,
+          "imagePath": ""
+        },
+        {
+          "type": "Red Spring",
+          "value": 283886,
+          "percentage": 100.88,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 281404,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Somnoire Anchor R5",
+          "value": 232571,
+          "percentage": 82.65,
+          "imagePath": ""
+        },
+        {
+          "type": "Endless Collapse R5",
+          "value": 225930,
+          "percentage": 80.29,
+          "imagePath": ""
+        },
+        {
+          "type": "Lumingloss R5",
+          "value": 223926,
+          "percentage": 79.57,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Danjin",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 7.44,
+          "percentage": 7.44,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 30.33,
+          "percentage": 30.33,
+          "imagePath": ""
+        },
+        {
+          "type": "HA",
+          "value": 35.3,
+          "percentage": 35.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 18.26,
+          "percentage": 18.26,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 4.43,
+          "percentage": 4.43,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 4.24,
+          "percentage": 4.24,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Danjin",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 1261634,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 1282930,
+          "percentage": 101.69,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1302370,
+          "percentage": 103.23,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1308942,
+          "percentage": 103.75,
+          "imagePath": ""
+        },
+        {
+          "type": "S4",
+          "value": 1329924,
+          "percentage": 105.41,
+          "imagePath": ""
+        },
+        {
+          "type": "S5",
+          "value": 1363232,
+          "percentage": 108.05,
+          "imagePath": ""
+        },
+        {
+          "type": "S6",
+          "value": 1442364,
+          "percentage": 114.33,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Crimson Heart Of Justice",
+      "description": "Saat Danjin menyerang target yang terkena Incinerating Will dari Resonance Skill, ATK meningkat 5% selama 6 detik, dapat ditumpuk hingga 6 kali.\nDanjin akan kehilangan 1 stack setiap kali menerima damage."
+    },
+    {
+      "stage": "S2",
+      "name": "Dusted Mirror",
+      "description": "Saat Danjin menyerang target yang terkena Incinerating Will dari Resonance Skill, DMG yang diberikan meningkat 20%"
+    },
+    {
+      "stage": "S3",
+      "name": "Fleeting Blossom",
+      "description": "Bonus DMG dari Resonance Liberation meningkat sebesar 30%."
+    },
+    {
+      "stage": "S4",
+      "name": "Solitary Carnation",
+      "description": "Jika Danjin memiliki lebih dari 60 Ruby Blossom, Crit Rate meningkat 15%.\nEfek ini bertahan hingga akhir Heavy Attack: Scatterbloom, bahkan setelah semua Ruby Blossom dikonsumsi saat menggunakan Heavy Attack: Chaoscleave."
+    },
+    {
+      "stage": "S5",
+      "name": "Reigning Blade",
+      "description": "Havoc DMG Bonus meningkat 15%, dan meningkat lagi 15% jika HP Danjin kurang dari 60%."
+    },
+    {
+      "stage": "S6",
+      "name": "Bloodied Jade",
+      "description": "Heavy Attack: Chaoscleave meningkatkan ATK seluruh anggota tim sebesar 20% selama 20 detik."
+    }
+  ],
+  "lore": {
+    "description": "Dengan sebilah pedang pembalasan yang terbuat dari darah pekat di tangannya, Ranger Danjin memburu pencuri dan bandit untuk membalas dendam. Ia melakukan perjalanan ke negeri-negeri jauh demi keadilan.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n31 Agustus",
+    "report": {
+      "resonancePower": "Scarlet Shade",
+      "overclockDiagnostic": "Grafik gelombang Resonator Danjin menunjukkan fluktuasi zig-zag. Pola Time Domain tidak teratur. Baik nilai puncak atas maupun bawah tinggi dan mendekati level Criticality. Gelombang tersebut menampilkan segmen yang sebagian kabur dan gelombang abnormal dapat terlihat.\n\nResonant Criticality: Rendah, dengan stabilitas rendah. Risiko Overclocking tetap ada.\n\nResonator Danjin tidak memiliki riwayat Overclocking. Namun, selama Kebangkitannya yang pertama, ia hampir mencapai Resonant Criticality-nya. Hal ini menyebabkan darahnya menunjukkan keadaan eksplosif dan reaksi Fluktuasi Frekuensi yang sangat sensitif. Danjin kehilangan kendali atas perilakunya, mengakibatkan sebagian Energi Frekuensinya tumpah. Tidak ada korban yang dilaporkan, tetapi insiden tersebut diklasifikasikan sebagai bahaya Kelas 2 (kode EX61453).\n\nAnalisis diagnostik mengungkapkan bahwa fluktuasi frekuensinya berasal dari provokasi besar dalam waktu singkat. Setelahnya, efek yang terlihat masih berlanjut. Akibatnya, masih ada kemungkinan kecil bagi Resonator Danjin untuk memasuki keadaan marah selama perubahan suasana hati yang hebat.\n\nPenilaian lebih lanjut mengungkapkan bahwa risiko Overclocking untuk Danjin terkait erat dengan keadaan emosinya, menimbulkan risiko tinggi. Disarankan untuk memantau kondisi psikologis dan fisiknya secara ketat, dan melakukan konseling dan pemeriksaan rutin.",
+      "resonanceEvaluation": "Dasar Evaluasi: [Penilaian Resonansi 1856-G]\n\nWaktu pasti Awakening Resonator Danjin masih belum pasti. Yang perlu diperhatikan, selama peristiwa Awakening Resonator Danjin, ia menunjukkan keadaan ledakan emosi yang tidak terkendali. Diduga emosi yang meluap-luap mungkin telah memicu kebangkitannya.\n\nTacet Mark terletak di lengan atas kiri Danjin. Pengamatan telah mengungkapkan perubahan yang berbeda dalam karakteristik fisiknya setelah Awakening-nya. Perubahan yang perlu diperhatikan adalah memerahnya pupil matanya setelah mengerahkan Forte-nya hingga batas tertentu.\n\nFluktuasi frekuensi Resonator Danjin lebih kuat dari biasanya, menunjukkan perubahan instan yang tidak biasa yang dapat mengakibatkan kerusakan fisik pada lingkungan sekitarnya dan makhluk hidup di dalamnya jika tidak ditangani.\n\nPengujian empiris telah mengungkapkan bahwa potensi destruktif Danjin melampaui orang normal sebesar 78,94 persen. Pola Resonance Spectrum Resonator ini cocok dengan darah manusia. Tes mengungkapkan Respons Syntony yang kuat, namun penyebab Kebangkitan Danjin masih belum jelas.\n\nAnalisis sampel uji telah mengungkapkan a non-convergent Rabelle's Curve with a steep rise in its middle section. Oleh karena itu, Danjin diklasifikasikan sebagai Mutant Resonator."
+    },
+    "items": [
+      {
+        "name": "Silky Reveries",
+        "description": "Danjin memiliki gigi manis. Di masa mudanya, selama acara reuni keluarga yang langka dan berharga, ibunya selalu membeli dua potong Loong Whiskers Crisp, satu untuk Danjin dan satu lagi untuk adik perempuannya. Kelezatan manis ini membawa kebahagiaan besar dalam hidupnya. Saat Danjin memulai perjalanannya sendiri, ia selalu membawa beberapa potong Loong Whiskers Crisp bersamanya karena kelezatan manis ini memberikan dorongan energi tepat waktu ketika kelelahan datang. Selain itu, kelezatan manis itu juga berfungsi sebagai pengingat. Itu mengingatkannya pada tujuannya untuk membantu lebih banyak orang menjalani kehidupan yang bahagia dan mendorongnya untuk terus maju.",
+        "imageUrl": "/icons/items/danjin-1.webp"
+      },
+      {
+        "name": "Hand Mirror",
+        "description": "Guru Danjin telah memberinya sebuah cermin tangan. Selama bertahun-tahun, saat ia berlatih keterampilan pedangnya, Danjin akan melihat pantulan dirinya yang basah kuyup oleh warna merah tua dan mencoba untuk tetap tenang. Seiring waktu, ia menguasai teknik tersebut dan pedang merah tua itu menjadi patuh. Tetapi kadang-kadang, sedikit rona merah tua masih akan menodai pipinya, dan Danjin akan dengan lembut menghapusnya dengan cermin tangannya. Itu adalah pengingat perjalanannya dari seorang gadis muda menjadi seorang prajurit terampil, selalu berjuang untuk kesempurnaan.",
+        "imageUrl": "/icons/items/danjin-2.webp"
+      },
+      {
+        "name": "Jade Pendant",
+        "description": "Liontin giok Danjin, simbol dunia murni yang diberikan oleh ayahnya. Saat masih kecil, ia tidak mengerti artinya. Tetapi setelah tragedi menimpa dan keluarganya terbunuh, ia selalu memakainya saat berkelana di alam liar. Permata berharga itu menarik orang-orang yang tidak baik yang berusaha mengambilnya darinya. Namun, mereka segera menyadari bahwa mereka yang menginginkan liontin itu akan menghadapi konsekuensi yang parah di tangannya.",
+        "imageUrl": "/icons/items/danjin-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": " Crimson Shade In The Wild",
+        "content": "Ada banyak daerah berbahaya di dekat Jinzhou —\nDim Forest yang diselimuti pepohonan menjulang;\nWhining Aix's Mire yang diselimuti kabut tak berujung; dan\nWasted Metropolis, tempat bayangan menyembunyikan bahaya yang tidak diketahui.\n\nSecara umum, orang selalu menghindari tempat-tempat berbahaya tersebut. Bahkan pada kesempatan langka ketika mereka harus melewati tempat-tempat ini, mereka melakukannya dengan hati-hati dan mencoba sebaik mungkin untuk menyembunyikan diri.\n\nNamun, ada seorang gadis yang tidak mengikuti aturan tak tertulis ini. Gadis itu, berpakaian merah cerah, berjalan-jalan melalui jalanan berbahaya dengan santai. Liontin giok cerah yang dikenakannya bergoyang mengikuti langkah kakinya yang ringan.\n\nTentu saja, penampilannya yang menarik membuatnya menjadi target utama para predator.\n\nSeorang bandit mendekatinya dengan alasan menawarkan bantuan, dan bertanya mengapa ia berkeliaran sendirian di tempat yang sunyi dan berbahaya ini.\n\n\"Aku sedang mencari seseorang,\"\n\njawab gadis itu.\n\n\"Wah, dunia kecil! Aku hampir tidak melihat siapa pun di sini. Lucunya, aku sebenarnya baru saja menyelamatkan seseorang dan mereka ada di tempatku. Mungkin itu orang yang kau cari? Maukah aku mengantarmu ke sana?\"\n\nBandit itu dengan antusias menawarkan.\n\nGadis itu memperhatikannya dengan penuh perhatian, merenung sejenak sebelum akhirnya mengangguk malu-malu.\n\nSenang dengan jawaban ini, bandit itu segera membawa gadis itu ke perkemahannya.\n\nMereka menjauh dari jalan utama dan segera menemukan diri mereka di tempat yang sunyi, diselimuti kabut tebal dan ditumbuhi vegetasi. Tangisan menyeramkan terdengar dari kedalaman hutan — apakah itu tangisan anak kecil atau jeritan kucing? Tidak ada yang tahu jawabannya.\n\nBandit itu, melirik gadis itu, khawatir mangsanya mungkin ketakutan oleh suasana mencekam itu.\n\nNamun, ia masih mengenakan ekspresi tenang tanpa sedikit pun rasa takut di wajahnya yang cantik.\n\n\"Cewek bodoh,\"\n\nbandit itu menyeringai dalam hati.\n\nSaat mereka mendekati pintu besi tua di ujung jalan, isakan sesekali terdengar dari baliknya. Gadis itu membuka pintu dan di dalam, mereka menemukan seorang gadis kecil yang gemetar dan babak belur.\n\n\"Apakah ini yang kau cari?\"\n\ntanya beberapa bandit dengan seringai jahat, mengelilingi gadis itu.\n\n\"Tepat sekali!\"\n\njawab gadis itu dengan senyum cerah.\n\nDi tengah jeritan memekakkan telinga dan erangan kesakitan, darah merah tua berceceran di mana-mana... Dan begitulah dimulainya pembantaian brutal yang membungkam bahkan cahaya senja."
+      },
+      {
+        "title": "A Strange Customer",
+        "content": "Paman Wei, si pandai besi, kedatangan pelanggan yang aneh suatu hari.\n\nItu adalah seorang gadis muda, yang tampak kurus dan pendiam. Namun, permintaannya agak tidak biasa: ia memintanya untuk memperbaiki pedang yang rusak.\n\n“Ada apa dengan itu?”\n\nPaman Wei mengerutkan kening dan bertanya. Ia tidak asing dengan memperbaiki berbagai jenis senjata yang rusak; tetap saja, ia tidak bisa tidak bertanya-tanya apa yang menyebabkan keausan yang signifikan pada bilah ini.\n\nDalam bayangan pikirannya, Paman Wei membayangkan seorang pria besar yang gagah memegang pedang dengan kekuatan luar biasa, menebas apa pun yang menghalangi jalannya tanpa ampun. Ia sama sekali tidak dapat mengaitkan bayangan ini dengan gadis ramping seperti dirinya.\n\n“Maaf, aku mungkin memukul mereka terlalu keras... Aku tidak bermaksud begitu...”\n\njawab gadis itu, rasa malunya terlihat jelas.\n\n“Apakah sulit untuk memperbaikinya?”\n\nPaman Wei menatapnya tak percaya. Ia memeriksa ujung yang tergulung dengan jarinya yang kapalan dan menjawab,\n\n“...Tidak masalah. Aku akan mencobanya.”\n\nDengan presisi dan keahlian, Paman Wei memanaskan bilah hingga berpijar dan memukulnya dengan kuat dengan palunya. Percikan beterbangan, tetapi bilah tetap kokoh. Bertahun-tahun keahlian membimbingnya saat ia memeriksa dan mengelus logam yang rusak, merenungkan setiap pukulan. Dalam sekejap, ia menemukan masalahnya.\n\n“Bilah ini sangat keras tetapi kurang tangguh. Pusat massanya sekarang bergeser, dan memiliki frekuensi khusus. Sulit untuk diperbaiki dan diasah dengan alat-alat tradisional.”\n\n“Jika kau ingin memperbaikinya,”\n\nPaman Wei melanjutkan,\n\n“kau akan membutuhkan beberapa kapur abu-abu yang sangat keras dengan cukup banyak Tacetite. Tapi itu tidak mudah didapat, hanya ditemukan di tempat berbahaya, dengan banyak tebing batu! Jangan berharap terlalu banyak, Nak.”\n\n“Maksudmu Desorock Highland, kan? Tolong beri aku waktu. Aku akan segera kembali.”\n\nDengan kata-kata itu, gadis itu berlari kencang seperti angin, meninggalkan Paman Wei bingung dan bilah yang tergulung terlupakan.\n\nIa kembali tak lama kemudian, dengan mudah membawa sepotong besar kapur abu-abu.\n\n“Apakah ini cukup?”\n\ntanyanya, mengejutkan Paman Wei dengan kepulangannya yang cepat dari Desorock Highland yang berbahaya.\n\n“Tentu saja!”\n\nia tergagap, takjub dengan kecepatannya. Bagaimana ia bisa kembali begitu cepat?\n\nGadis itu tersenyum, dan lesung pipit yang lucu muncul di wajahnya — sebuah titik merah samar dapat terlihat samar-samar di salah satu lesung pipitnya. Apakah itu tahi lalat? Atau itu... sesuatu yang lain?\n\n"
+      },
+      {
+        "title": "Special Loong Whisker Crisps",
+        "content": "Setiap pedagang makanan di Jinzhou mengenal Danjin. Setelah hujan, ketika matahari mengintip dan udara terasa lembap, mereka semua mendirikan warung mereka. Itu adalah simfoni dari suara wajan dan sirup yang harum. Saat itulah Danjin muncul, memberikan setumpuk rapi Shell Credits untuk camilan favoritnya: dua potong Loong Whisker Crisps.\nIa selalu memasukkan satu ke dalam sakunya terlebih dahulu, lalu dengan bersemangat memisahkan yang lain, menikmati setiap potongnya seolah itu permata yang berharga.\n\nSeorang pedagang wanita memperhatikan Danjin selalu datang sendirian dan tidak bisa tidak merasa kasihan padanya: Bahkan camilan termurah di Jinzhou, seperti Loong Whisker Crisps, tampak begitu berharga bagi gadis ini. Ingin menyebarkan kebaikan, wanita itu mulai memberi Danjin camilan tambahan yang populer di kalangan gadis seusianya — dari Rock Sugar yang cantik hingga Dreamy Floss yang lembut, dan banyak lagi. Awalnya, Danjin selalu menolak, karena ia merasa tidak nyaman menerima kebaikan seseorang tanpa alasan yang baik, dan karena dompetnya hampir kosong karena terus-menerus memperbaiki senjatanya.\n\nNamun, wanita itu bersikeras bahwa itu tidak akan merepotkan untuk membiarkan Danjin mendapatkan lebih banyak manisan secara gratis, karena ia selalu menyiapkan camilan tambahan untuk adik perempuannya yang suka manisan di rumah, yang usianya kira-kira seusia Danjin. Tersentuh oleh kebaikan yang tulus ini, Danjin akhirnya mengangguk dan menerima camilan tambahan itu.\n\nSejak hari itu, setiap kali wanita pedagang itu memberi Danjin camilan tambahan, hadiah misterius muncul di warungnya. Rock Sugar membawa Pearl Leaf, sementara Dreamy Floss menghasilkan Caltrop. Ramuan-ramuan ini sangat penting untuk meredakan gangguan panik adik perempuannya, yang bahkan tidak ia ceritakan kepada Danjin.\n\nMungkin cepat atau lambat, adik perempuannya akan dapat meninggalkan rumah sendirian, dan menikmati Loong Whisker Crisps yang baru dibuat bersama Danjin.\n\n"
+      },
+      {
+        "title": "Prey Or The Hunter?",
+        "content": "Danjin memang sedang berkelana di alam liar untuk mencari seseorang.\n\nIa sedang balas dendam.\n\nSebuah kelompok bandit yang kejam menculik anak-anak untuk tujuan jahat. Bertahun-tahun yang lalu, mereka membantai seluruh keluarga Danjin. Adik perempuannya, seorang gadis dengan jiwa yang baik hati, membukakan pintu untuk mereka karena simpati, hanya untuk menyambut bilah haus darah yang merenggut nyawa keluarganya.\n\nPara pelaku sudah merasakan murka pedang Danjin, tetapi bahkan setelah bertahun-tahun, tragedi serupa terus terjadi. Kejahatan itu berlanjut. Tampaknya seperti penghalang yang tak tertembus, mencegah siapa pun untuk lolos dari cengkeraman mereka. Hari demi hari, bulan demi bulan, tragedi baru muncul ketika para pelaku kejahatan lainnya melanjutkan pemerintahan teror mereka.\n\nDanjin tahu ia harus menemukan akar masalah dan memberantasnya sekali untuk selamanya untuk menghentikan siklus rasa sakit dan penderitaan yang ditimpakan kepada orang-orang tak berdosa. Ia tidak akan beristirahat sampai keadilan ditegakkan dan kedamaian dipulihkan.\n\nDanjin memutuskan untuk menjadikan dirinya umpan. Ia melakukan perjalanan melalui medan yang berbahaya dengan tampak polos dan tak berdaya, melenyapkan satu persembunyian demi satu persembunyian sambil mencari lebih banyak petunjuk.\n\nTersembunyi di seluruh hutan belantara adalah perkemahan-perkemahan ini, menyatu dengan lingkungan sekitar. Dengan presisi dan ketelitian, ia menjelajahi setiap inci dari setiap lokasi perkemahan, mengungkap detail penting di tengah tumpukan jerami yang berlumuran darah dan bangunan-bangunan yang bobrok.\n\nUpayanya membuahkan hasil ketika ia menemukan bahwa semua kendaraan perkemahan telah melewati lokasi tertentu: tempat para bandit telah menyergap korban yang tidak bersalah.\n\nBersembunyi di rerumputan tinggi, Danjin menggigit Loong Whisker Crisp, matanya terpaku pada persimpangan yang berkabut.\n\nSelama tujuh hari ia telah menunggu di persimpangan ini, menghentikan setiap kendaraan mencurigakan yang lewat. Ia menolak untuk menyerah pada harapan menangkap para bandit itu, apa pun yang terjadi.\n\nAkhirnya, lampu depan yang menyeramkan dan roda yang berderit menerobos kabut tebal. Derit roda hampir membenamkan isakan samar, tetapi itu tidak luput dari telinga Danjin.\n\nMuncul dari tempat persembunyiannya, Danjin mendekati kendaraan itu.\n\nIa mengucapkan kalimat yang telah ia persiapkan dengan suara pendiam yang dilatih dengan sempurna:\n\n“Permisi... aku tersesat. Bisakah kau mengantarku?”"
+      },
+      {
+        "title": "Moonlit Determination",
+        "content": "Membasmi semua kejahatan adalah tugas yang menakutkan. Persimpangan berkabut itu ternyata hanyalah titik transit, tetapi Danjin tidak berkecil hati. Kemajuan kecil tetaplah kemajuan, dan selain itu, ia telah menyelamatkan beberapa anak yang diculik di sepanjang jalan. Setelah mengantar anak-anak itu ke Pos Patroli, Danjin menghela napas lega dan memutuskan untuk kembali ke kota untuk beristirahat sejenak.\n\nIa berjalan-jalan di jalan yang dihiasi lampu lentera festival yang cerah dan cahaya hangat. Bulan bersinar terang di atas, menambah suasana malam yang mempesona.\n\nBertahun-tahun yang lalu, pada malam yang diterangi bulan yang serupa, keluarganya berbagi momen-momen berharga bersama. Ibunya telah menyiapkan meja penuh hidangan yang menggiurkan, sedangkan adik perempuan Danjin dengan senang hati memberikan dua potong Loong Whisker Crisps, satu untuk dirinya sendiri, dan satu untuk Danjin.\n\n“K-Kakak, ini untukmu...”\n\nKenangannya terputus oleh suara kecil. Seorang gadis kecil menyodorkan sepotong Loong Whisker Crisps, berbicara kepada Danjin dengan malu-malu. Camilan itu ditaburi Dreamy Floss dan permen warna-warni yang sangat cocok dengan suasana meriah. Wanita pedagang itu, dengan senyum hangat, memberi isyarat kepada Danjin untuk menerimanya.\n\nKaki Danjin membawanya mendekati warung, dan tampaknya ada wajah baru yang bekerja di warung hari ini.\n\n“Berkat ramuanmu, Xinxin sekarang bisa meninggalkan rumah kami. Karena akhir-akhir ini lebih aman, aku memutuskan untuk mengajaknya keluar untuk menghirup udara segar.”\n\n“Ini pertama kalinya ia berani berbicara dengan orang asing sejak pemulihannya. Mungkin ini berkah takdir?”\n\nMemang, pikir Danjin dalam hati. Gadis kecil bernama Xinxin ini adalah salah satu anak yang telah ia selamatkan selama salah satu penyerbuannya. Gadis itu tampaknya mengenali Danjin juga. Ia melepaskan sebuah lentera yang menghiasi warung dan menyelipkannya ke tangan Danjin.\n\n“B-bisakah kita... menerbangkannya bersama?”\n\nDanjin mengangguk, dan ketiganya menerbangkan lentera itu ke langit malam. Lentera itu melambung tinggi, membawa keinginan mereka bersamanya, bergabung dengan ribuan lampu mengambang lainnya di malam yang lembut."
+      }
+    ],
+    "specialFood": {
+      "name": "Silky Reveries",
+      "imageUrl": "/icons/food/danjin.webp",
+      "description": "Memulihkan 100 poin STA"
+    }
+  }
+}

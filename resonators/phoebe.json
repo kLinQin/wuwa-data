@@ -1,0 +1,504 @@
+{
+  "name": "Phoebe",
+  "element": "Spectro",
+  "weapon": "Rectifier",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer",
+    "Concerto Efficiency",
+    "Spectro Frazzle"
+  ],
+  "sonatas": [
+    "Eternal Radiance",
+    "Moonlit Clouds"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "input",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Order of the Deep",
+  "affiliation": "Ragunna,Rinascita",
+  "class": "Unclear",
+  "image": "/characters/phoebe.webp",
+  "imageBanner": "/banners/phoebe-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1800+",
+    "Energy Regen": "110-120%+",
+    "Crit Ratio (Crit Weapon)": "60-75% : 285-310%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 240%"
+  },
+  "build": {
+    "bestEcho": [
+      "Capitaneus"
+    ],
+    "bestWeapon": "Luminous Hymn",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "HYBRID",
+          "echoSlug": "capitaneus",
+          "echoSlugSecondary": "nightmare-mourning-aix",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: spectro%",
+            "3: spectro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Eternal Radiance"
+          ]
+        }
+      ],
+      "substats": [],
+      "note": "Cost 4 aix cost 3 (main echo) Capitaneus"
+    },
+    "weaponNote": "Pasif senjata Ocean's Gift dan Waltz in Masquerade tidak dapat dipicu jika Phoebe berada dalam tim yang sama dengan Zani, karena Zani mengubah semua stack Spectro Frazzle menjadi Embers.",
+    "weaponOptions": [
+      {
+        "id": "luminous-hymn",
+        "rank": "",
+        "percentage": "115"
+      },
+      {
+        "id": "stringmaster",
+        "rank": "",
+        "percentage": "114"
+      },
+      {
+        "id": "whispers-of-sirens",
+        "rank": "",
+        "percentage": "108"
+      },
+      {
+        "id": "cosmic-ripples",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "oceans-gift",
+        "rank": "5",
+        "percentage": "99"
+      },
+      {
+        "id": "augment",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "waltz-in-masquerade",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "fusion-accretion",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "jinzhou-keeper",
+        "rank": "",
+        "percentage": "100"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Confession",
+        "steps": [
+          "Skill(Hold)",
+          "Skill1(Cancel)",
+          "Ult",
+          "BA123(x2) or (DC+[E]HA)(x2)",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Hypercarry - Zani",
+        "members": [
+          [
+            "Zani"
+          ],
+          [
+            "Phoebe"
+          ],
+          [
+            "Chisa",
+            "Spectro Rover",
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Phoebe (Confession1) adalah rekan tim terbaik (best in slot) bagi Zani, memberikan Zani stack Spectro Frazzle, Amplify, dan pengurangan Spectro RES kepada musuh di sekitar."
+      },
+      {
+        "name": "Hypercarry - Pheeb",
+        "members": [
+          [
+            "Phoebe"
+          ],
+          [
+            "Spectro Rover"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Phoebe (Absolution1) tidak mampu menghasilkan stack Spectro Frazzle yang cukup secara mandiri, sehingga ia dipasangkan dengan Rover: Spectro. Rover: Spectro dapat berperan sebagai Dual DPS (set Eternal Radiance), buffer (Moonlit Clouds), atau sustain (Rejuvenating Glow) dalam team ini."
+      }
+    ],
+    "teamNote": "Confession merujuk pada wujud Sub DPS Phoebe, diaktifkan dengan menahan tombol Skill setelah bar Forte Gauge miliknya penuh. Absolution merujuk pada wujud Main DPS Phoebe, diaktifkan dengan menahan Basic ATK setelah bar Forte Gauge penuh. states ini tidak dapat digunakan secara bersamaan.\n\nPhoebe memberikan buff berikut kepada Zani:\n-Dalam [Confession]: 10% Spectro RES Reduction dan 100% Spectro Frazzle DMG Amplify selama 30 detik setelah melancarkan Outro Skill\n-Dengan Luminous Hymn (signature Phoebe): 30% Spectro Frazzle DMG Amplify selama 30 detik setelah melancarkan Outro Skill."
+  },
+  "skills": {
+    "basic": {
+      "name": "O Come Divine Light",
+      "description": "Basic Attack\nMelancarkan hingga 3 serangan berturut-turut dengan Holy Light, memberikan  Spectro DMG. \n\nHeavy Attack\nmengonsumsi STA untuk menyerang target, memberikan  Spectro DMG.  \n\nMid-air Attack\nMenggunakan STA untuk menaiki staff dan melakukan serangan dari udara, memberikan  Spectro DMG.\n\nMid-air Heavy Attack\nMenggunakan STA untuk menaiki staff dan meluncur ke depan.\nBisa digunakan kembali setelah Mid-Air Dodge atau menggunakan Grapple.\n\nDodge Counter\nSetelah Dodge berhasil, cepat gunakan Basic Attack untuk menyerang target, memberikan  Spectro DMG.\nSaat Phoebe berada di dalam Ring of Mirrors, Dodge Counter berubah menjadi Chamuel's Star: Dodge Counter."
+    },
+    "skill": {
+      "name": "To Where Light Shines",
+      "description": "Memanggil Ring of Mirrors di lokasi target, membuat musuh yang terkena efek stagnate selama 2 detik dan memberikan  Spectro DMG. Efek stagnate bisa diterapkan ke maksimal 12 target per Ring of Mirrors.\n\nMenggunakan Resonance Skill lagi dalam waktu singkat setelah memanggil Ring of Mirrors akan membuat Phoebe berpindah ke lokasi Ring of Mirrors, memberikan  Spectro DMG.\nPhoebe tidak bisa teleport jika jaraknya terlalu jauh dari Ring of Mirrors.\n\nRing of Mirrors\n- Ring of Mirrors bertahan selama 30 detik. Jika Phoebe memanggil Ring of Mirrors baru, yang sebelumnya akan menghilang.\n- Saat Phoebe berada di luar Ring of Mirrors, Basic Attack atau Dodge Counter yang mengenai Ring of Mirrors akan membiaskan Holy Light, memberikan  Spectro DMG ke musuh di dalam Ring of Mirrors dan menarik mereka ke tengah cincin. Damage yang diberikan dianggap sebagai Basic Attack DMG. Bisa dipicu setiap 0.5 detik sekali.\n- Saat Phoebe berada di dalam Ring of Mirrors, Basic Attack berubah menjadi Basic Attack Chamuel's Star, yang bisa melakukan hingga 3 serangan beruntun, memberikan  Spectro DMG  dan dianggap sebagai Basic Attack DMG."
+    },
+    "liberation": {
+      "name": "Dawn Of Enlightenment",
+      "description": "Phoebe mengumpulkan cahaya ke dalam Mirror of Enlightenment dan menghancurkannya, memberikan  Spectro DMG.\n- Absolution Enhancement: DMG Multiplier meningkat 255%.\n- Confession Enhancement: Menerapkan 8 stack  Spectro Frazzle ke target yang terkena serangan."
+    },
+    "forte": {
+      "name": "Radiant Invocation",
+      "description": "Saat Phoebe's Prayer penuh, konsumsi semua Prayer untuk menggunakan salah satu skill berikut:\n\nTahan Basic Attack untuk mengaktifkan Heavy Attack: Absolution Litany, memberikan  Spectro DMG dan menambahkan 1 stack  Spectro Frazzle ke musuh yang terkena. Phoebe masuk ke status Absolution, yang meningkatkan damage yang dia berikan.\n- Tahan Resonance Skill untuk mengaktifkan Resonance Skill: Utter Confession, memberikan  Spectro DMG dan menambahkan 1 stack  Spectro Frazzle ke musuh yang terkena. Phoebe masuk ke status Confession, yang membuatnya lebih efektif dalam memanfaatkan  Spectro Frazzle.\n- Absolution dan Confession tidak bisa aktif bersamaan. Masuk ke salah satu status akan otomatis mengakhiri yang lain.\n- Jika Divine Voice belum habis, Phoebe tidak bisa menggunakan Heavy Attack: Absolution Litany atau Resonance Skill: Utter Confession.\n- Jika Divine Voice sudah habis, Phoebe tidak akan keluar dari status Absolution atau Confession.\n\nHeavy Attack: Starflash\nJika Phoebe memiliki Divine Voice, melakukan Basic Attack Stage 3 atau Dodge Counter akan menggantikan Heavy Attack berikutnya dengan Heavy Attack: Starflash, memberikan  Spectro DMG dan mengonsumsi 30 Divine Voice.\n- Absolution Enhancement: Mengurangi konsumsi Divine Voice sebesar 15. Jika target terkena  Spectro Frazzle, DMG meningkat 256%.\n- Confession Enhancement: Menambahkan 5 stack  Spectro Frazzle ke target.\n\nPrayer\nPhoebe dapat menyimpan hingga 120 Prayer.\nPhoebe secara otomatis mendapatkan 5 Prayer setiap detik.\n\nDivine Voice\nPhoebe dapat menyimpan hingga 60 Divine Voice.\nMenggunakan Heavy Attack: Absolution Litany atau Resonance Skill: Utter Confession akan memulihkan 60 Divine Voice."
+    },
+    "inherent": [
+      {
+        "name": "Presence",
+        "description": "Mid-air Heavy Attack bisa digunakan 1 kali tambahan."
+      },
+      {
+        "name": "Revelation",
+        "description": "Saat dalam Absolution Status atau Confession Status,  Spectro DMG Bonus meningkat 12%."
+      }
+    ],
+    "intro": {
+      "name": "Golden Grace",
+      "description": "Knock back target di sekitar dan memberikan  Spectro DMG."
+    },
+    "outro": {
+      "name": "Attentive Heart",
+      "description": "Memberikan  Spectro DMG sebesar 528.41% ATK Phoebe ke musuh di sekitar. \n- Absolution Enhancement: Meningkatkan DMG Multiplier sebesar 255%.\n- Confession Enhancement: Memberikan Silent Prayer ke Resonator yang sedang aktif, yang mengurangi Spectro RES musuh di sekitar sebesar 10% dan meningkatkan Spectro Frazzle DMG Amplification sebesar 100%.  \n- Saat  Spectro Frazzle memberikan damage, interval damage-nya diperpanjang 50%. \n- Efek ini bertahan selama 30 detik atau hingga Phoebe beralih ke status Absolution."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Cleansing Conch",
+            "amount": 46
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Firecracker Jewelweed",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Sentinel's Dagger",
+          "amount": 26
+        },
+        {
+          "item": "LF Whisperin Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Whisperin Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Whisperin Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Whisperin Core",
+          "amount": 57
+        },
+        {
+          "item": "Lento Helix",
+          "amount": 25
+        },
+        {
+          "item": "Adagio Helix",
+          "amount": 28
+        },
+        {
+          "item": "Andante Helix",
+          "amount": 55
+        },
+        {
+          "item": "Presto Helix",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Phoebe",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Luminous Hymn",
+          "value": 320746.75,
+          "percentage": 114.38,
+          "imagePath": ""
+        },
+        {
+          "type": "Stringmaster",
+          "value": 317694.06,
+          "percentage": 113.29,
+          "imagePath": ""
+        },
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 308558.66,
+          "percentage": 110.03,
+          "imagePath": ""
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 280423.39,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Augment R5",
+          "value": 280355.52,
+          "percentage": 99.98,
+          "imagePath": ""
+        },
+        {
+          "type": "Ocean'S Gift R5",
+          "value": 279715.08,
+          "percentage": 99.75,
+          "imagePath": ""
+        },
+        {
+          "type": "Augment",
+          "value": 261330.04,
+          "percentage": 93.19,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Phoebe",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 24.5,
+          "percentage": 24.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 9.2,
+          "percentage": 9.2,
+          "imagePath": ""
+        },
+        {
+          "type": "HA",
+          "value": 22.5,
+          "percentage": 22.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Ult",
+          "value": 14.8,
+          "percentage": 14.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 7.1,
+          "percentage": 7.1,
+          "imagePath": ""
+        },
+        {
+          "type": "Outro",
+          "value": 18.8,
+          "percentage": 18.8,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Phoebe",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 320746.75,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 352228.44,
+          "percentage": 109.82,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 374308.44,
+          "percentage": 116.7,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 506666.9,
+          "percentage": 157.96,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Warm Light And Bedside Wishes",
+      "description": "Saat dalam Absolution, Resonance Liberation: Dawn of Enlightenment kini meningkatkan DMG Multiplier sebesar 480% (sebelumnya 255%).\n\nSaat dalam Confession, Resonance Liberation: Dawn of Enlightenment meningkatkan DMG Multiplier sebesar 90% dan menerapkan  Spectro Frazzle ke target hingga maksimum stack yang bisa diterima."
+    },
+    {
+      "stage": "S2",
+      "name": "A Boat Adrift In Tears",
+      "description": "Saat dalam Absolution, Outro Skill memberikan 120% Amplification terhadap target yang memiliki  Spectro Frazzle.\n\nSaat dalam Confession, Silent Prayer meningkatkan Amplification DMG untuk  Spectro Frazzle sebesar 120%."
+    },
+    {
+      "stage": "S3",
+      "name": "Daisy Wreaths And Dreams",
+      "description": "Saat dalam Absolution, DMG Multiplier dari Heavy Attack: Starflash meningkat 91%.\n\nSaat dalam Confession, DMG Multiplier dari Heavy Attack: Starflash meningkat 249%."
+    },
+    {
+      "stage": "S4",
+      "name": "Ringing Bells On Wings Aloft",
+      "description": "Saat Basic Attack, Basic Attack: Chamuel's Star, Dodge Counter, atau Chamuel's Star: Dodge Counter mengenai target,  Spectro RES target berkurang sebesar 10% selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Prayer To The Distant Light",
+      "description": "Menggunakan Intro Skill: Golden Grace meningkatkan  Spectro DMG Bonus Phoebe sebesar 12% selama 15 detik."
+    },
+    {
+      "stage": "S6",
+      "name": "Whispering Chirps In Silence",
+      "description": "Target yang masuk ke Ring of Mirrors akan mengalami stagnasi tambahan selama 2 detik.\n- Efek stagnasi ini berlaku untuk maksimal 12 target per Ring of Mirrors.\n- Setiap target hanya terkena efek ini sekali.\n\nSaat dalam Absolution atau Confession, memanggil Ring of Mirrors dengan Resonance Skill akan:\n- Meningkatkan ATK Phoebe sebesar 10% selama 20 detik.\n- Memicu Heavy Attack: Starflash tambahan di lokasi Ring of Mirrors. Starflash tambahan ini tidak mengonsumsi Divine Voice dan tidak dihitung sebagai Heavy Attack."
+    }
+  ],
+  "lore": {
+    "description": "Phoebe, Acolyte of the Order of the Deep, adalah seorang wanita muda yang penuh ketulusan. Dengan hati yang lembut, ia menjalankan tugasnya dengan ketekunan yang tak tergoyahkan. Doa-doanya, bagaikan cahaya yang selalu ia bawa, memberikan ketenangan dan kedamaian bagi semua yang berada di sekitarnya.\n\nBIRTHPLACE\nRinascita\n\nREAL NAME\nPhoebe Marino",
+    "report": {
+      "resonancePower": "Graceful Luminescence",
+      "resonanceEvaluation": "[Cuplikan Surat Rekomendasi dari Order Orphanage]\n\nSaat pertama kali aku melihat Tacet Mark yang bercahaya di paha kiri atasnya, aku langsung tahu bahwa ini adalah berkah dari Imperator.\n\n...Kemampuannya memungkinkan dia untuk memanifestasikan cahaya, membiaskannya ke dalam berbagai bentuk prisma. Bahkan di malam paling gelap, saat badai telah memadamkan semua cahaya lain, dia mengisi setiap ruangan dengan sinar lembut yang menenangkan. Cahaya yang begitu menenteramkan, seolah membawa esensi harapan di tengah kegelapan. Seperti tertulis dalam Tenets of the Deep, cahaya seperti itu pasti telah lama bersemayam di dalam hatinya, sebagai tanda dari pengabdiannya yang tanpa henti...\n\nCatatan ini telah dipindahkan dari Orphanage ke arsip Order of the Deep.\n\nKami memiliki alasan untuk percaya bahwa kemampuan Resonance yang luar biasa dari Acolyte Initiate Phoebe berasal dari imannya yang tak tergoyahkan terhadap Divinity.\n\nHal ini terlihat dari hubungan erat yang ia jalin dengan Echoes, sebuah keterikatan yang semakin memperkuat kepercayaan sebagian umat pada dirinya. Keterlibatannya yang aktif dalam kegiatan amal telah memberinya pengakuan luas, sehingga kami dengan suara bulat memutuskan untuk memberinya gelar Acolyte setelah masa novisiatnya.\n\nNamun, beberapa anggota Order berpendapat bahwa kedekatannya dengan Echoes melanggar doktrin. Berkah dari Divine Envoys seharusnya dibagikan secara merata, sebagaimana kasih Sentinel terhadap umatnya bersifat adil dan tanpa keberpihakan. Kedekatan yang terlalu erat dengan Divine Envoys dapat membawa risiko yang tak terduga. Oleh karena itu, kami tidak merekomendasikan penempatannya di Servitude Hall, dan percaya bahwa keputusan yang paling bijaksana adalah memindahkannya ke Ministry of Holy Rituals.",
+      "overclockDiagnostic": "[Order of the Deep - Ministry of Holy Rituals Records]\n\nGrafik gelombang Resonator Phoebe menunjukkan fluktuasi elips. Pola Time Domain tetap stabil, dan tidak ditemukan tanda-tanda fluktuasi abnormal. Hasil pengujian berada dalam rentang fase normal.\n- Kritikal Resonansi: Relatif tinggi. Frekuensi Resonator Phoebe menunjukkan stabilitas tinggi dengan risiko Overclocking yang rendah.\n- Riwayat Overclocking: Tidak ada.\n\nSebagai seorang Acolyte, Phoebe selalu mematuhi ajaran tentang \"keheningan\" dan \"pengendalian diri\", menjadikannya salah satu Resonator paling stabil di antara rekan-rekannya. Pengamatan menunjukkan bahwa kemampuan Resonance miliknya menghasilkan frekuensi yang stabil, dengan efek kuat terhadap Echoes dan Remnant Creatures. Pengaruhnya juga bisa dirasakan oleh manusia, memberikan efek \"penyembuhan\" di tingkat spiritual. Hal ini membuatnya sangat cocok untuk peran yang membutuhkan ketenangan dan mediasi.\n\nCatatan Terbaru: Fluktuasi kecil berbentuk sawtooth terdeteksi dalam gelombang reguler Acolyte Phoebe. Saat ini tidak ditemukan anomali lebih lanjut, tetapi pemantauan lanjutan disarankan, dengan peningkatan perhatian jika diperlukan."
+    },
+    "items": [
+      {
+        "name": "Frozen In Time",
+        "description": "Sebuah liontin yang selalu dibawa Phoebe, dibuat ulang dari jam saku tua. Di dalamnya terdapat potret keluarganya.\n\nBenda ini sempat hilang di kedalaman laut akibat kapal karam, tetapi berkat usaha tanpa lelah dari teman-temannya yang baik hati, liontin itu akhirnya kembali padanya.\n\n\"Dalam gelombang waktu yang cepat berlalu... dalam percikan indah lautan, dan dalam cahaya, ada kata-kata yang ingin kusampaikan kepadamu, berulang kali.\"",
+        "imageUrl": "/icons/items/phoebe-1.webp"
+      },
+      {
+        "name": "\"Envoy\"",
+        "description": "Sebuah suvenir buatan tangan dari negeri seberang, satu-satunya barang yang Phoebe simpan setelah seluruh harta keluarganya dijual.\n\nDulu, dalam dongeng sebelum tidur yang ia percayai tak akan pernah berakhir, ada seekor burung bersayap biru—utusan Divinity. Burung itu memiliki kekuatan untuk menembus badai dan membawa kebahagiaan bagi seorang gadis kecil yang menahan kesepian di setiap malamnya sebelum terlelap.",
+        "imageUrl": "/icons/items/phoebe-2.webp"
+      },
+      {
+        "name": "A Vision Far Away",
+        "description": "Sebuah edisi tua dan pudar dari Codex of the Deep, dijilid dengan tangan oleh seorang ibu yang penuh kasih dan ketulusan.\n\nSeorang Acolyte yang baik dan taat harus memahami isi Codex dengan baik, menjadikan bimbingan Sentinel sebagai pedoman dalam hati. Phoebe selalu berpegang pada ajaran tersebut, meskipun jika boleh jujur, ia lebih menyukai warna langit dibandingkan warna lautan.\n\n\"Codex mengatakan bahwa penderitaan mendekatkan kita kepada Divinity. Tapi aku tetap berharap hidupmu dipenuhi kedamaian dan kebahagiaan, anakku.\"",
+        "imageUrl": "/icons/items/phoebe-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": " A Day In The Life Of An Acolyte",
+        "content": "Suatu sore yang biasa di Ragunna, jalanan lebar kota itu dipenuhi hiruk-pikuk orang-orang, lebih ramai dibanding tahun-tahun sebelumnya.\n\nFestival Carnevale yang telah lama dinantikan akan segera kembali, dan kabar itu telah menyebar ke seluruh Ragunna, bahkan hingga ke negeri-negeri seberang lautan. Dalam beberapa hari terakhir, para pelancong dari berbagai penjuru mulai berdatangan. Bahkan sebelum jam makan malam, Trattoria Margherita sudah dipenuhi oleh para pengunjung yang tak sabar menikmati hidangan.\n\nAnggur berkualitas dari Ragunna tak kalah memesona dibandingkan pemandangannya yang menakjubkan. Nectarwine memiliki kemampuan meninabobokan seseorang ke dalam mimpi indah, meskipun terlalu banyak menikmatinya kadang berujung pada insiden yang tak diinginkan.\n\nApa yang awalnya hanya perdebatan kecil soal rasa, perlahan berubah menjadi adu argumen sengit. Mungkin ini karena kelelahan yang menumpuk, atau mungkin juga sore yang mengantuk itu memang butuh sedikit kekacauan untuk membuatnya lebih hidup. Bagaimanapun, semakin banyak orang yang berkumpul, ikut serta dalam perdebatan yang semakin panas.\n\nHingga akhirnya, pertengkaran itu berubah menjadi perkelahian sungguhan.\n\nRestoran seketika menjadi panggung kekacauan. Pizza dan makanan penutup beterbangan, makanan laut melompat dari piring dan mendarat tepat di wajah para pejalan kaki.\nPara pelanggan berusaha berlindung, meskipun banyak yang tak bisa menahan diri untuk mengintip kekacauan yang terjadi.\n\n\"Semua! Oh, jangan begitu! Kalian akan memecahkan piring! Letakkan peralatan makan kalian, itu berbahaya, dengar?\"\n\nseru pemilik restoran, ekornya mengembang karena panik, sambil melompat-lompat dan mengayunkan dayung pizza di tangannya. Meski begitu, ia terlalu takut untuk mendekati keributan itu.\n\nSaat itulah, sosok mungil melesat dari tengah kerumunan.\n\n\"Tolong, tenanglah!\"\n\nDengan tongkat di tangan, sosok kecil itu menggambar sebuah lengkungan lebar di udara.\nSeekor burung emas turun dari langit, seolah membawa beban surga di sayapnya.\nIa menyentuh dahi dua pria yang sedang bertengkar,\ntak lebih dari sekadar sentuhan lembut seperti capung yang menyentuh permukaan air.\n\nDalam sekejap, kedua pria yang semula saling menyerang itu langsung tenang.\nMereka jatuh tertelungkup ke atas meja, tersenyum dalam tidur nyenyak.\n\n\"Jangan khawatir, mereka hanya tertidur,\"\n\nujar seorang Acolyte mungil berambut pirang sambil menyimpan tongkatnya.\n\n\"Namun, mengganggu ketertiban umum adalah pelanggaran terhadap regulasi Order. Mereka yang menyebabkan kekacauan harus menerima hukuman yang sesuai.\"\n\n\"Kesederhanaan adalah kebajikan yang dianugerahkan oleh Sentinel. Itu membuat makanan dan Nectarwine terasa lebih nikmat... Kuharap insiden kecil ini tidak mengurangi kesenangan siapa pun saat berada di Ragunna.\"\n\nSenyuman Acolyte itu lembut dan hangat, sementara keheningan perlahan menyelimuti sekitarnya.\n\nSaat Acolytes lainnya tiba bersama La Guardias, keadaan sudah kembali tenang.\n\n\"Iya, iya, aku melihatnya sendiri! Dia menjatuhkan dua pria besar itu hanya dengan satu sentuhan tongkatnya! Lalu tiba-tiba muncul Plushie Echo raksasa yang membawa mereka pergi! Dia terlihat muda, tapi jangan menilai buku dari sampulnya...\"\n\nSeorang pelanggan yang tertinggal untuk membantu merapikan restoran menceritakan kejadian itu dengan penuh semangat.\n\nSeorang Acolyte senior mengeluarkan Terminal-nya untuk membuat laporan, hanya untuk menemukan bahwa laporan tersebut sudah dikirim ke Order, lengkap dengan detail kejadian dan keberadaan dua pria yang telah diamankan.\n\n\"Jadi... ini sudah beres?\"\n\n\"Tentu saja.\"\n\nAcolyte itu menyimpan Terminal-nya dengan tenang.\n\n\"Serahkan saja pada Acolyte Phoebe.\nDia tahu cara menangani hal-hal seperti ini lebih baik dari siapa pun.\""
+      },
+      {
+        "title": "Home",
+        "content": "Kepada Tuan Claremont,\n\nAku mohon maaf atas keterlambatan ini. Aku sangat sibuk menangani berbagai urusan yang mendesak. Dengan berat hati, aku harus menyampaikan kabar tragis ini: Keluarga Marino, mitra bisnis kita, diserang oleh Tacet Discords dalam perjalanan mereka ke New Federation.\nSayangnya, mereka tidak selamat. Semoga Sentinel membimbing jiwa mereka menuju kedamaian.\n\nMengenai pembayaran untuk kargo yang tenggelam, sesuai kesepakatan sebelumnya,\naku telah mulai melikuidasi aset keluarga Marino yang tersisa. Ini adalah langkah yang sangat tidak kuinginkan. Kita berdua tahu betapa besarnya investasi yang telah kita tanamkan dalam kesepakatan ini. Sekarang, dengan tidak ada lagi yang dapat menopangnya,\naku hanya bisa mencoba mengisi kekosongan ini dengan cara terbaik yang kumampu.\n\nKau pasti masih ingat Phoebe. Gadis malang itu telah kehilangan kedua orang tuanya. Dia tidak memiliki tempat untuk pulang, dan aku yang sering bepergian karena bisnis tidak bisa merawatnya sebagaimana seharusnya. Aku mendengar bahwa kau memiliki hubungan dekat dengan seorang kerabat jauh keluarga Marino, dan aku berdoa semoga kau bersedia memberinya sebuah rumah...\n\nAku melipat surat itu dengan hati-hati, memeriksa alamat sekali lagi, lalu mengetuk pintu.\n\nKetukan berulang kali telah menarik perhatian para tetangga yang mulai melirik penasaran, tetapi tidak ada jawaban dari dalam. Di belakangku, seorang gadis kecil berdiri dengan kepala tertunduk, seolah sudah terbiasa dengan situasi seperti ini.\n\n\"Mereka pergi berlibur beberapa waktu lalu,\"\n\nujar seorang tetangga yang lewat dengan santai.\n\n\"Mungkin mereka tidak akan kembali dalam waktu dekat.\"\n\n\"Begitu ya, terima kasih. Ayo, Phoebe.\"\n\nSaat kami berbalik, aku sekilas melihat gorden di jendela samping berkibar. Aku menggenggam tangan Phoebe lebih erat, membawanya pergi meninggalkan lingkungan mewah itu.\n\nKota Ragunna luas, tetapi menemukan rumah di sini bukanlah tugas yang mudah. Aku sudah kehilangan hitungan berapa banyak pintu yang telah kuketuk,\ndan berapa banyak penolakan yang kuterima.\n\nSetelah bertahun-tahun bekerja di panti asuhan, aku sudah terbiasa dengan berbagai macam alasan penolakan. Namun, aku tak sanggup membiarkan Phoebe merasakan semua itu. Dia masih terlalu muda. Yang dia butuhkan adalah rumah yang hangat dan stabil,\ntempat di mana dia bisa menyembuhkan luka-lukanya dengan damai.\n\n\"Kami sangat menyesal... Kami turut berduka atas nasib gadis kecil ini, tetapi Anda pasti mengerti, mengadopsi anak bukan sekadar menambah satu piring di meja makan... Ini yang bisa kami berikan. Semoga berhasil.\"\n\n\"Surat? Ahem... Aku tidak ingat pernah menerima surat seperti itu. Lagipula, bukankah dia sudah mendapat tempat di panti asuhan? Itu tempat yang baik untuk anak-anak.\"\n\n\"...Aku dengar keluarga Marino masih memiliki utang yang belum lunas. Kami lebih baik menghindari kemungkinan ada kreditur yang datang mengetuk pintu kami. Mohon pengertiannya.\"\n\n...\n\n\"Jangan sedih, Sister Isabella.\"\n\nTiba-tiba, sebuah es krim diulurkan ke hadapanku. Sekelompok Echoes kecil telah muncul tanpa aku sadari, masing-masing membawa es krim dan permen yang seharusnya untuk turis.\nMereka mengelilingi kami—atau lebih tepatnya, mengelilingi Phoebe.\n\n\"Aku tahu orang dewasa selalu sibuk, seperti Ayah dan Ibu dulu. Mereka selalu pulang larut malam.\"\n\nAku menatap kosong pada es krim yang mulai meleleh, terkejut bahwa anak sekecil ini justru mencoba menghiburku.\n\n\"Semua akan tetap bersama, kan? Sister Isabella? Acolytes bilang Sentinel selalu bersama kita, menjaga kita agar tidak terpisah.\"\n\nDia mengucapkannya dengan keyakinan penuh. Aku hanya bisa menelan gumpalan di tenggorokanku, menahan air mata, lalu menariknya ke dalam pelukan.\n\n\"Baiklah... Ayo kita pulang. Pulang ke rumah.\""
+      },
+      {
+        "title": "Countless Nights",
+        "content": "Hujan badai di tengah malam seakan berusaha menguras setiap tetes air yang tersisa di Ragunna. Kilat menyambar langit, menciptakan bayangan bercabang di dinding kamar,\ntempat seorang gadis kecil meringkuk dalam selimutnya.\n\nPhoebe tak bisa tidur. Setiap kali menutup mata, ia melihat lautan yang mengamuk, mengamati kapal kesepian yang tak akan pernah kembali ke rumah—dan ia tenggelam bersamanya.\n\nDi malam-malam seperti ini, ayahnya biasa menyelipkan liontin bergambar Sentinel di bawah bantalnya, berkata bahwa Divinity akan membimbingnya melewati badai dalam mimpi hingga ke pelabuhan yang aman. Ibunya akan meletakkan buket bunga aster di samping tempat tidurnya dan menceritakan dongeng pengantar tidur. Ia berkata bahwa Sentinel mengirim Divine Envoys untuk melindungi anak-anak pemberani dan baik hati seperti dirinya.\n\nTapi sekarang, Acolytes hanya akan menepuk kepalanya dan berkata bahwa ia sama saja seperti anak-anak lain. Setiap Rinascitan harus menanggung penderitaan sebelum akhirnya menerima pengampunan dari Sentinel.\n\nSuatu ketika, Phoebe mengintip dari balik bahu seorang Acolyte dan untuk pertama kalinya melihat patung megah Sentinel. Pandangannya langsung tertuju pada ekor ikan raksasa yang berliku-liku, membuatnya merasa panik sesaat. Namun, sentuhan lembut di pundaknya dan doa yang lirih membantu menenangkan detak jantungnya yang berdegup kencang.\n\nIa dibawa ke sebuah ruangan hangat yang dipenuhi cahaya. Acolytes memperlakukannya dengan baik, tapi ia tahu, mereka mungkin lebih menyukai anak-anak yang tidak membawa masalah.\n\nPhoebe mencoba mengingat lagu pengantar tidur yang biasa dinyanyikan ibunya, berharap melodi itu dapat bergema di kepalanya dan menutupi suara badai di luar.\n\nTapi guntur yang tak henti-hentinya membawanya kembali ke malam itu.\n\nIa pernah menyelinap ke dalam sebuah kapal dagang, mengintip melalui jendela bundar di ruang kargo untuk melihat cakrawala yang jauh. Ia tak mau lagi menunggu kepulangan orang tuanya—kali ini, ia ingin menjadi pemberani dan mencari mereka sendiri.\n\nNamun laut tak seindah yang diceritakan ibunya.\n\nLangkah-langkah tergesa terdengar di geladak. Suara-suara panik memenuhi udara, hingga akhirnya jeritan memilukan pecah ketika kapal itu mulai terombang-ambing liar di genggaman badai. Kapal mulai tenggelam.\n\nPhoebe berteriak memanggil orang tuanya, tapi suara ombak yang mengamuk seakan berbisik padanya bahwa mereka tak akan pernah kembali.\n\nAir laut yang dingin menelannya, dan dalam pandangan yang semakin redup, ia melihat liontin ayahnya jatuh ke dalam kegelapan lautan.\n\nKetika membuka mata lagi, ia terbaring di tepi pantai, tubuhnya basah kuyup. Tacet Mark bersinar di kakinya. Acolytes yang menemukannya berkata bahwa tak seorang pun bisa selamat dari lautan seganas itu, apalagi seorang gadis kecil. Mereka percaya bahwa itu adalah berkah dari Sentinel.\n\nTapi Phoebe mengingat samar bahwa sesuatu telah menyelamatkannya. Sebuah kehadiran yang begitu lembut, seperti angin sepoi-sepoi, mengangkatnya ke permukaan dan membawanya dengan lembut ke pantai, berbisik padanya...\n\n\"Jangan takut. Aku di sini.\"\n\nSesuatu menariknya dari mimpinya.\n\nIa merasakan tempat tidurnya sedikit bergeser, seolah sesuatu yang lembut dan empuk telah bersandar di sampingnya. Benda itu membawa aroma hujan dan wangi bunga aster.\n\nLalu Phoebe melihat sepasang mata kancing dan telinga floppy—itu Echo liar yang ia temui di Whisperwind Haven tadi siang. Ia pernah melepaskannya dari tali layang-layang yang kusut, lalu menamainya Brenno.\n\nMalam itu, Brenno membawanya mengamati awan di perbukitan, menghapus air matanya, dan bahkan membuatkan mahkota bunga untuknya.\n\n\"Jangan sedih, Phoebe.\"\n\nTubuh Plushie itu terasa hangat dan lembut. Dalam kabut kantuknya, Phoebe merasakan kehadiran yang samar namun familiar. Rasanya seperti angin.\n\nIa mengubur wajahnya dalam bulu lembut Plushie, dan perlahan tenggelam ke dalam tidur yang damai.\n\n"
+      },
+      {
+        "title": "But Morning Came",
+        "content": "Saat Phoebe terbangun, ia merasakan sisa-sisa kehangatan di sudut matanya.\n\n\"Atas berkah Sentinel, satu hari lagi untuk bersinar dan bersyukur!\"\n\nIa melompat dari tempat tidur dan segera merapikan selimutnya. Tempat tidur kecil yang telah menemaninya sejak kecil masih terlihat seakrab dulu. Ia menepuk pipinya beberapa kali untuk mengusir kantuk, lalu langsung bergegas menyelesaikan tugasnya hari itu.\n\nHari ini, panti asuhan mengadakan perayaan kecil, dan ia telah bergabung dengan Acolyte senior untuk membantu persiapannya. Ini adalah pertama kalinya ia kembali sejak menjadi Acolyte Initiate. Malam sebelumnya, ia berbincang lama dengan saudara-saudaranya.\nMungkin itulah sebabnya ia bermimpi tentang masa lalunya.\n\nSemua orang mengatakan bahwa ia terlihat lebih dewasa dan bertanggung jawab sekarang.\nIa tak ingin mengecewakan mereka.\n\nSetelah doa pagi, Phoebe mulai menyiapkan perlengkapan untuk perayaan. Kehidupan sebagai Acolyte memang sibuk, tetapi penuh makna. Baginya, mengikuti rencana dan melihatnya berhasil membawa ketenangan tersendiri.\n\nSaat matahari sudah tinggi, ruang makan sederhana diubah menjadi tempat yang penuh warna. Phoebe menyusun teh dan camilan, menyaksikan anak-anak kecil berlari dengan pakaian bersih yang telah disetrika oleh Echoes,\nlangsung menuju pengasuh mereka untuk menerima hadiah yang dibungkus rapi.\n\nMelihat pemandangan yang begitu hangat ini, Phoebe tersenyum lembut.\n\nIa teringat bagaimana ayahnya selalu membawakan hadiah untuknya saat kembali dari perjalanan bisnis pertama dalam setahun. Ibunya selalu membuat cerita dari hadiah itu—kadang cerita petualangan seru, kadang dongeng sebelum tidur. Hadiah favoritnya adalah boneka kelinci berwarna merah muda. Dalam cerita ibunya, kelinci itu adalah seorang musisi anggun.\n\nBagian-bagian kelam dari masa lalunya perlahan memudar,\nmenyisakan hanya kenangan-kenangan indah.\n\nSeorang Echo kecil menarik lengan bajunya, dengan bangga menunjukkan balon besar yang baru saja ia buat. Tanpa berpikir, Phoebe mengulurkan tangan untuk mengelus kepalanya.\n\n\"Acolyte Initiate Phoebe!\"\n\nSebuah suara tegas membuatnya tersentak. Phoebe buru-buru menarik tangannya, melihat Echo itu melangkah mundur dengan sedikit kesedihan.\nTatapan tajam Acolyte senior seakan menembus dirinya.\n\n\"Atas berkah Sentinel, ingatlah posisimu.\"\n\n...Ia masih belum terbiasa dengan peran barunya. Sebagai Acolyte,\nia tak bisa memiliki keterikatan dengan Echoes.\n\nSentinel telah membawanya pada orang-orang baik, memberinya tempat tinggal dan makanan.\nDan bersama berkah itu datang pula tanggung jawab baru.\n\nNamun, sebagai Phoebe, ia masih punya waktunya sendiri untuk bertemu dengan teman-temannya.\n\nTanpa sadar, tangannya meraba liontin yang tergantung di pinggangnya—harta kecilnya sendiri, sebuah mukjizat yang dikembalikan dari dasar lautan oleh teman-temannya.\n\n\"Nona Phoebe, balonku tersangkut di pohon dan aku tak bisa mengambilnya. Jimmy bilang kau bisa terbang. Bisakah kau...?\"\n\n\"Tentu saja!\"\n\nAnak kecil yang menarik bajunya menyadarkan Phoebe dari lamunannya.\nIa mengesampingkan pikirannya yang kusut dan kembali larut dalam kesibukan perayaan.\n\nSaat matahari mulai terbenam dan langit perlahan berubah warna, Phoebe duduk di bangku, menutup matanya, menikmati semilir angin laut yang lembut.\n\nSosoknya tampak kecil di bawah cahaya senja. Acolyte senior yang datang mencarinya memperhatikan napasnya yang tenang, menyadari bahwa gadis itu telah tertidur.\n\nDi sekelilingnya, Echoes kecil merayap pelan dan berkumpul di sisinya.\n\nAcolyte senior hanya menghela napas pelan, lalu berbalik, membiarkan gadis itu beristirahat.\n\n\"Kali ini... Aku akan pura-pura tidak melihatnya.\""
+      },
+      {
+        "title": "Within Distant Brilliance",
+        "content": "Phoebe masih memiliki ingatan samar tentang Carnevale terakhir yang pernah ia hadiri.\n\nDuduk di atas bahu ayahnya, ia menyaksikan Wingrays melayang di langit, sementara pita-pita warna-warni dan kelopak bunga berjatuhan seperti hujan. Udara dipenuhi dengan sorak-sorai yang menggema di seluruh kota. Namun, kenangan masa kecil itu terlalu buram untuk bisa ia genggam sepenuhnya. Kini, setiap kali memikirkan Carnevale,\nyang terlintas di benaknya hanyalah cahaya lembut dan gema yang jauh.\n\nNamun, satu hal yang tetap ia ingat dengan jelas adalah ekspresi wajah orang tuanya. Tawa mereka datang dari lubuk hati yang terdalam. Dulu, kenangan itu membawa rasa sakit, tetapi kini, ia mulai melihat kilau hangat yang tersimpan di dalamnya.\n\nDan kini, pemandangan yang sebelumnya hanya ada dalam mimpinya terhampar nyata di depan mata.\n\nDi tengah kerumunan, Phoebe berdiri dan menyaksikan sang pahlawan berambut gelap, diselimuti cahaya keemasan, sementara sebuah mahkota perlahan turun dan bertengger di atas kepalanya.\n\nJantungnya berdegup lebih kencang. Di antara riuhnya sorak-sorai, pandangannya tanpa sadar terus mengikuti kilauan cahaya emas ke mana pun ia bergerak.\n\n\"Itu Laureate!\"\n\n\"Pujaan bagi Imperator!\"\n\n\"Sentinel telah mengirimkan mukjizat bagi kita!\"\n\nVisinya mulai kabur di tengah tangisan bahagia yang menggema di sekelilingnya.\n\nSiapa yang tak akan tergerak oleh pemandangan yang begitu menyilaukan? Bahkan Divinity pun telah menurunkan mukjizatnya untuk momen ini. Dalam sekejap, Phoebe tak bisa menahan diri untuk bertanya-tanya: bagaimana mungkin Sentinel bisa murka melihat rakyatnya merayakan Carnevale?\nBukankah Sentinel mencintai Carnevale, dan kebahagiaan yang dibawanya bagi semua orang?\n\nBayangan samar yang menyelimuti hatinya sejak kembali dari Atrium of Reflections kembali muncul—tetapi untuk sesaat, semua itu hanyut dalam nyanyian dan tawa yang memenuhi udara.\n\nNamun kali ini, Phoebe tidak membiarkan keraguan itu lenyap begitu saja. Hal-hal yang sebelumnya ia perhatikan tetapi ia abaikan. Pertanyaan-pertanyaan yang sempat muncul, tetapi secara naluriah ia hindari untuk dihadapi. Ia berkedip beberapa kali, menghapus air mata yang menggantung di sudut matanya. Lalu, ia kembali mengarahkan pandangannya ke sosok yang kini dikelilingi oleh kerumunan yang bersorak.\n\nIa memiliki firasat bahwa orang itu mungkin memiliki jawaban untuk kebingungannya.\n\nDan suatu hari nanti, ia akan mencari kebenaran di balik keraguan itu."
+      }
+    ],
+    "specialFood": {
+      "name": "A Slice Of Pizza",
+      "description": "Meningkatkan Basic Attack DMG Bonus seluruh Resonator dalam tim sebesar 44% selama 30 menit.\n\nHanya berlaku untuk Resonator milik sendiri dalam Co-op Mode.",
+      "imageUrl": "/icons/food/phoebe.webp"
+    }
+  }
+}

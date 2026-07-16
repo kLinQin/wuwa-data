@@ -1,0 +1,421 @@
+{
+  "name": "Jiyan",
+  "element": "Aero",
+  "weapon": "Broadblade",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Heavy Attack Damage",
+    "Main Damage Dealer",
+    "Traction"
+  ],
+  "sonatas": [
+    "Sierra Gale",
+    "Windward Pilgrimage"
+  ],
+  "changelog": [
+    {
+      "text": "menambah Opsi NM Kelpie di slot echo",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Midnight Rangers",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Mutant",
+  "image": "/characters/jiyan.webp",
+  "imageBanner": "/banners/jiyan-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "115% - 130%",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 220%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Beringal",
+      "Feilian Beringal",
+      "Nightmare: Kelpie"
+    ],
+    "bestWeapon": "verdant Summit",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Aero DPS",
+          "echoSlug": "feilian-beringal",
+          "echoSlugSecondary": "nightmare-beringal",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Sierra Gale"
+          ]
+        },
+        {
+          "label": "Aero DPS ALT",
+          "echoSlug": "nightmare-kelpie",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Windward Pilgrimage"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Heavy Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "1. Res. Liberation Jiyan [Emerald Storm: Finale] dianggap sebagai [Heavy DMG], oleh karena itu substat [Res. Liberation DMG Bonus] tidak berguna (dead stat) untuknya\n\n2. bisa juga menggunakan Jiyan dengan ER sekitar ~115-120% jika menerapkan rotasi double intro. ER 130% hanya disarankan jika merasa kurang nyaman dengan eksekusi rotasin."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "verdant-summit",
+        "percentage": "127",
+        "rank": ""
+      },
+      {
+        "id": "thunderflare-dominion",
+        "percentage": "114",
+        "rank": ""
+      },
+      {
+        "id": "ages-of-harvest",
+        "percentage": "112",
+        "rank": ""
+      },
+      {
+        "id": "radiance-cleaver",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "lustrous-razor",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "autumntrace",
+        "percentage": "99",
+        "rank": "5"
+      },
+      {
+        "id": "helios-cleaver",
+        "percentage": "87",
+        "rank": "5"
+      },
+      {
+        "id": "waning-redshift",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Mono Aero",
+        "members": [
+          [
+            "Jiyan"
+          ],
+          [
+            "Iuno"
+          ],
+          [
+            "Ciaccona"
+          ]
+        ],
+        "note": "Iuno memberikan 50% Heavy DMG Amplify kepada Jiyan saat mengeluarkan Outro Skill.\nCiaccona memberikan Jiyan 24% Aero DMG Bonus dari Ensemble Sylphs miliknya, ditambah 15% Aero DMG dari set Gusts of Welkin. Selain itu, saat Ciaccona menggunakan senjata signature-nya, ia menurunkan Aero RES musuh sebesar 10%. Ketika dipasangkan bersama, Jiyan sebaiknya menggunakan set Windward Pilgrimage."
+      },
+      {
+        "name": "F2P Options",
+        "members": [
+          [
+            "Jiyan"
+          ],
+          [
+            "Mortefi"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Sebagai alternatif, Mortefi memberikan Jiyan 38% Heavy DMG Amplify melalui Outro Skill miliknya."
+      }
+    ],
+    "teamNote": ""
+  },
+  "skills": {
+    "basic": {
+      "name": "Lone Lance",
+      "description": "Basic Attack\nMelakukan hingga 5 serangan berturut-turut, memberikan Aero DMG.\n\nHeavy Attack\nMengonsumsi Stamina untuk menusuk ke depan, memberikan Aero DMG.\n\nHeavy Attack: Windborne Strike\nTahan Basic Attack selama Heavy Attack untuk melancarkan Windborne Strike setelah Heavy Attack berakhir, memberikan Aero DMG.\n\nHeavy Attack: Abyssal Slash\nLepaskan Basic Attack selama Heavy Attack untuk melancarkan Abyssal Slash setelah Heavy Attack berakhir, memberikan Aero DMG.\n\nMid-Air Attack\nMengonsumsi Stamina untuk melakukan Plunging Attack saat berada di udara, memberikan Aero DMG.\nSetelah melakukan Plunging Attack, gunakan Basic Attack untuk melakukan serangan lanjutan (follow-up attack), memberikan Aero DMG.\n\nMid-Air Attack: Banner of Triumph\nSetelah melancarkan Heavy Attack Windborne Strike atau Resonance Skill Windqueller di udara, Jiyan dapat melakukan mid-air attack, memberikan Aero DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG."
+    },
+    "skill": {
+      "name": "Windqueller",
+      "description": "Melesat ke depan dalam jarak tertentu, memberikan Aero DMG.\n\nDapat dilancarkan di udara."
+    },
+    "liberation": {
+      "name": "Emerald Storm - Prelude",
+      "description": "Setelah melepaskan Emerald Storm: Prelude, Jiyan memasuki Qingloong Mode.\n\nQingloong Mode\nJiyan mendapatkan peningkatan Anti-interruption;\nBasic Attack, Heavy Attack, dan Dodge Counter digantikan dengan Heavy Attack Lance of Qingloong.\n\nHeavy Attack: Lance of Qingloong\nMelakukan hingga 3 serangan beruntun, memberikan Aero DMG, yang dianggap sebagai Heavy Attack damage."
+    },
+    "forte": {
+      "name": "Qingloong At War",
+      "description": "Saat melancarkan Resonance Skill Windqueller, jika Jiyan memiliki 30 atau lebih \"Resolve\", ia mengonsumsi 30 \"Resolve\" untuk meningkatkan DMG dari Resonance Skill Windqueller ini sebesar 20%.\nSaat Jiyan berada dalam Qingloong Mode, DMG dari Resonance Skill Windqueller meningkat sebesar 20% dan tidak lagi mengonsumsi \"Resolve\".\n\nResonance Liberation: Emerald Storm - Finale\nSaat melancarkan Resonance Liberation Emerald Storm - Prelude, jika Jiyan memiliki 30 \"Resolve\" atau lebih, ia akan mengonsumsi 30 \"Resolve\" untuk melancarkan Emerald Storm - Finale, memberikan Aero DMG, yang dianggap sebagai Heavy Attack DMG.\nEmerald Storm: Finale dapat dilancarkan di udara pada ketinggian rendah.\n\nResolve\nJiyan dapat menampung hingga 60 Resolve.\nJiyan mendapatkan \"Resolve\" saat Normal Attack Lone Lance mengenai target.\nJiyan mendapatkan \"Resolve\" saat Intro Skill Tactical Strike mengenai target.\n\"Resolve\" akan berkurang secara bertahap jika Jiyan tidak mengenai target dalam waktu 15 detik."
+    },
+    "inherent": [
+      {
+        "name": "Heavenly Balance",
+        "description": "Setelah melancarkan Intro Skill Tactical Strike, ATK Jiyan meningkat sebesar 10% selama 15 detik."
+      },
+      {
+        "name": "Tempest Taming",
+        "description": "Saat serangan Jiyan mengenai target, Crit. DMG Jiyan meningkat sebesar 12% selama 8 detik."
+      }
+    ],
+    "intro": {
+      "name": "Tactical Strike",
+      "description": "Jiyan menusuk target di udara, memberikan Aero DMG."
+    },
+    "outro": {
+      "name": "Discipline",
+      "description": "hati hati kalimat panjang \nistilah game jngn di translate\nkirim tl ke dalam codeblock\n\njangan ada yang di potong di hilangkan di rubah hanya translate danmake sure bahasa mengalir natural untuk keperluan web"
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Roaring Rock Fist",
+            "amount": 46
+          },
+          {
+            "item": "LF Howler Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Howler Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Howler Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Howler Core",
+            "amount": 4
+          },
+          {
+            "item": "Pecok Flower",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Monument Bell",
+          "amount": 26
+        },
+        {
+          "item": "LF Howler Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Howler Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Howler Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Howler Core",
+          "amount": 57
+        },
+        {
+          "item": "Waveworn Residue 210",
+          "amount": 25
+        },
+        {
+          "item": "Waveworn Residue 226",
+          "amount": 28
+        },
+        {
+          "item": "Waveworn Residue 235",
+          "amount": 55
+        },
+        {
+          "item": "Waveworn Residue 239",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Jiyan",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "SOURCE // TETHYS.GG",
+      "data": [
+        {
+          "type": "Verdant Summit",
+          "value": 100,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Ages Of Harvest",
+          "value": 90,
+          "percentage": 90,
+          "imagePath": ""
+        },
+        {
+          "type": "Lustrous Razor",
+          "value": 79,
+          "percentage": 79,
+          "imagePath": ""
+        },
+        {
+          "type": "Autumntrace",
+          "value": 77,
+          "percentage": 77,
+          "imagePath": ""
+        },
+        {
+          "type": "Waning Redshift",
+          "value": 71,
+          "percentage": 71,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Benevolence",
+      "description": "Resonance Skill Windqueller dapat digunakan 1 kali lagi.\nSaat melancarkan Resonance Skill Windqueller, biaya Resolve berkurang sebanyak 15.\n"
+    },
+    {
+      "stage": "S2",
+      "name": "Versatility",
+      "description": "Setelah melancarkan Intro Skill Tactical Strike, Jiyan mendapatkan 30 Resolve dan ATK miliknya meningkat sebesar 28% selama 15 detik. Efek ini dapat dipicu sekali setiap 15 detik."
+    },
+    {
+      "stage": "S3",
+      "name": "Spectation",
+      "description": "Saat melancarkan Resonance Skill Windqueller, Resonance Liberation Emerald Storm: Prelude, Resonance Skill Emerald Storm: Finale, atau Intro Skill Tactical Strike, Crit. Rate Jiyan meningkat sebesar 16% dan Crit. DMG meningkat sebesar 32% selama 8 detik."
+    },
+    {
+      "stage": "S4",
+      "name": "Prudence",
+      "description": "Saat melancarkan Resonance Liberation Emerald Storm: Prelude atau Resonance Liberation Emerald Storm: Finale, Heavy Attack DMG Bonus untuk semua anggota tim meningkat sebesar 25% selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Resolution",
+      "description": "Outro Skill Discipline mendapatkan tambahan DMG Multiplier sebesar 120%.\nSaat serangan Jiyan mengenai target, ATK miliknya meningkat sebesar 3% selama 8 detik, dapat ditumpuk hingga 15 kali; efek ini segera mencapai stack maksimal setelah ia melancarkan Intro Skill Tactical Strike."
+    },
+    {
+      "stage": "S6",
+      "name": "Fortitude",
+      "description": "Setiap kali Heavy Attack, Intro Skill Tactical Strike, atau Resonance Skill Windqueller digunakan, Jiyan mendapatkan 1 tumpuk \"Momentum\", dapat ditumpuk hingga 2 kali.\nResonance Liberation Emerald Storm: Finale akan mengonsumsi semua \"Momentum\", dan setiap stack yang dikonsumsi meningkatkan DMG multiplier dari Resonance Liberation Emerald Storm: Finale sebesar 120%."
+    }
+  ],
+  "lore": {
+    "description": "Jiyan, pemimpin Midnight Rangers, bertindak dengan kebenaran yang sigap dan tegas. Ia memiliki kemampuan luar biasa untuk memanggil Qingloong yang kuat dari angin, menjadikannya tak terkalahkan di medan perang.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDAY\nDecember 14th\n\nADDITIONAL TITLE\nTeal General",
+    "report": {
+      "resonancePower": "Windborne Rider",
+      "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment 2141-G]\n\nResonator Jiyan mengalami Forte-Awakening yang teramati di Camp Overwatch yang terletak di Desorock Highland. Peristiwa ini ditandai dengan akumulasi arus udara di sekitar tubuhnya, membentuk tombak yang khas.\n\nJiyan memiliki Tacet Mark unik yang terletak di atas dorsal ridge miliknya. Pengamatan pasca-Awakening menemukan beberapa pertumbuhan yang menyerupai sisik Loong pada rahang kirinya. Tidak ada indikasi ekspansi progresif yang terdeteksi.\n\nResonator Jiyan memiliki kemampuan untuk memanipulasi energi angin, yang dapat ia salurkan menjadi \"Qingloong\" Teal Dragon yang membantunya dalam pertempuran. Selain itu, ia memiliki kemampuan persepsi dan kepemimpinan yang luar biasa, memanfaatkan hubungannya dengan angin untuk mengumpulkan dan menganalisis informasi medan perang dengan akurasi yang mencengangkan. Pengujian empiris telah menunjukkan tingkat akurasi yang mengesankan sebesar 99,12% dalam mengevaluasi situasi dinamis.\n\nResonance Spectrum Pattern milik Resonator Jiyan tidak menunjukkan kemiripan dengan sampel yang diketahui. Penyebab Awakening miliknya tetap tidak diketahui.\n\nAnalisis sampel uji telah mengungkapkan Rabelle's Curve yang bersifat non-konvergen dengan kenaikan tajam di bagian tengahnya. Resonator Jiyan dengan ini diklasifikasikan sebagai Mutant Resonator.",
+      "overclockDiagnostic": "Grafik waveform untuk Resonator Jiyan menunjukkan fluktuasi pulsa persegi panjang non-periodik, dengan nilai puncak yang berkelanjutan selama interval waktu tertentu. Waveform ini menunjukkan perubahan yang cepat dan substansial dalam rentang waktu yang singkat. Terdapat dua waveform berbeda yang teridentifikasi, masing-masing dengan nilai puncak yang sangat tinggi.\n\nResonant Criticality: Relatif tinggi. Frekuensi Resonator Jiyan menunjukkan stabilitas tinggi dengan risiko Overclocking yang rendah.\n\nTidak ada riwayat Overclocking yang terdokumentasi. Pemeriksaan dan konseling rutin direkomendasikan."
+    },
+    "items": [
+      {
+        "name": "The Art Of War",
+        "description": "\"Seorang jenderal adalah sosok yang memiliki kebijaksanaan, keyakinan, kebajikan, keberanian, dan disiplin.\"\nSeseorang membutuhkan lebih dari sekadar kekuatan yang tak terkalahkan untuk memimpin pasukan. Ini lebih tentang pola pikir kepemimpinan yang baik dan perencanaan yang cermat. Hasilnya, meja Jiyan selalu tertata rapi dengan buku-buku tentang peperangan, yang dipenuhi dengan catatan-catatan yang mencerminkan strateginya sendiri.",
+        "imageUrl": "/icons/items/jiyan-1.webp"
+      },
+      {
+        "name": "Medicine Box",
+        "description": "Pendaftaran Jiyan ke dalam pasukan disertai dengan hadiah dari ibunya—sebuah kotak obat yang dibentuk menyerupai Terminal. Sang ibu takut Jiyan akan menjadi seorang pembunuh di medan perang dan mengingatkannya akan perannya sebagai seorang penyembuh. Ia kemudian menggunakan kotak tersebut untuk membawa obat-obatan yang diperlukan, sebagai bentuk berjaga-jaga.",
+        "imageUrl": "/icons/items/jiyan-2.webp"
+      },
+      {
+        "name": "A Corner Of Jinzhou",
+        "description": "Pada suatu sore yang biasa di Jinzhou, matahari bersinar menembus langit yang cerah dan menyebar ke ribuan rumah, dan Jiyan tidak bisa menahan diri untuk mengambil foto dari pemandangan tersebut. Pengorbanan para prajurit memiliki makna yang jauh lebih besar jika dibandingkan dengan latar belakang yang tenang ini.",
+        "imageUrl": "/icons/items/jiyan-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "The Unyielding Will",
+        "content": "Tak lama setelah pengangkatan Jiyan sebagai jenderal Midnight Rangers, sebuah Tacet Discord Outbreak yang tak terduga terjadi. Selama pertempuran inilah ia mencurigai adanya kebangkitan Threnodian.\n\nSaat para prajurit yang kelelahan sedang pulih dari pertempuran sengit di garis depan, mereka disambut oleh pemandangan yang mengerikan: gagak-gagak bayangan yang berputar-putar di atas dan kawanan Tacet Discords yang menyerbu ke arah posisi mereka di celah Norfall Barrens dan Desorock Highland.\n\nPasukan yang kalah jumlah itu tahu bahwa kegagalan dalam mempertahankan benteng ini bisa berarti kehancuran bagi seluruh Huanglong.\n\nBahkan para veteran berpengalaman pun belum pernah menghadapi krisis semendesak ini. Di tengah kekacauan tersebut, Jiyan tetap tenang seorang diri.\n\n\"Kalian semua. Bersiaplah untuk bertarung.\"\n\n\"Mustahil! Jika kita kalah sekarang, semuanya benar-benar berakhir. Kita masih bisa mundur dan melindungi kota!\"\n\n\"Pilih sekarang: berdiri dengan keberanian, ambil kesempatan kita. Atau lari dan hadapi kekalahan. Selama berabad-abad, Midnight Rangers telah menahan celah ini tanpa pernah mundur. Atau apakah kalian lebih suka tercatat dalam sejarah sebagai pengecut?\"\n\nPara veteran itu pergi, dengan emosi yang berkisar dari kekecewaan hingga kemarahan.\n\nTekad Jiyan tetap tak tergoyahkan. Ia mempelajari gambar real-time dari perangkat pemantauan dengan cermat dan menyadari adanya hubungan antara Tacet Discords dan gagak bayangan di atas. Dengan cepat memanggil komandan militer lainnya, Jiyan menyusun rencana dan memimpin pasukan terkoordinasi mereka untuk menghadapi musuh secara langsung. Dengan presisi, mereka menggunakan Sound Emulators yang dipasang di lembah sempit untuk memancarkan frekuensi gagak bayangan tersebut. Seperti yang ia duga, Tacet Discords terpancing ke arah suara itu, sehingga memudahkan mereka untuk ditangkap.\n\nSementara itu, Midnight Rangers yang ditempatkan di Norfall Barrens diperintahkan untuk bergabung dengan rekan-rekan mereka di Desorock Highland, dan melancarkan serangan pincer terhadap Tacet Discords. Di tengah badai pasir, Jiyan dengan gagah berani melawan gerombolan musuh, membuka jalan bagi rekan-rekan prajuritnya dengan kekuatan yang tak tertandingi.\n\nTacet Mark di tengkuk Jiyan berkedip-kedip, tanda dari penggunaan Forte yang berlebihan, tetapi ia terus maju. Qingloong miliknya terbang tinggi di angkasa bak panji resolusi yang membanggakan, tidak pernah sekalipun goyah ke tanah."
+      },
+      {
+        "title": "The Reason To Fight",
+        "content": "Jiyan adalah jenderal termuda dalam sejarah Midnight Rangers. Ia adalah Qingloong yang dikagumi semua orang, dan pejuang tak terkalahkan yang tidak memberikan kesempatan bagi musuh mana pun. Namun, pada suatu titik, Jiyan mulai dihantui oleh mimpi buruk yang terus berulang.\n\nDalam mimpi itu, kota Jinzhou dilalap api dan dilahap oleh Tacet Discords. Monster-monster itu terus mengamuk, memakan frekuensi dari mereka yang telah tiada. Suara-suara kacau bergema di seluruh kota, menciptakan simfoni kehancuran.\n\nDi medan perang yang diterangi api, sesosok figur sendirian bertarung tanpa henti dengan tombak di tangannya. Setiap ayunan merobek udara. Satu, dua, tiga... Ratusan ribu Tacet Discords tumbang di bawah serangannya yang sengit dan tanpa istirahat.\n\nTerlepas dari upaya terbaiknya, pria itu tidak bisa memadamkan kawanan Tacet Discords yang tak ada habisnya merusak daratan. Hari demi hari, tahun demi tahun, ia bertarung sia-sia hingga ia menjadi satu-satunya yang selamat di medan perang yang terpencil. Tacet Discords berubah menjadi rekan-rekannya yang telah gugur, mengepung dan mendekatinya.\n\n\"Itu anak yang tidak tahu apa-apa! Bagaimana kita bisa memercayakan hidup kita padanya?\"\n\n\"Kau bilang kau akan melindungi kami... tapi kenapa?\"\n\n\"Jiyan, untuk apa sebenarnya kau bertarung?\"\n\nMeskipun dikenal karena sifatnya yang tenang dan tegas, hanya sedikit orang yang menyadari mimpi buruk yang terkadang mengejutkannya hingga terbangun, dihantui oleh suara-suara orang mati.\n\nSebagai jenderal, merupakan tugas Jiyan untuk menjaga tidak hanya perbatasan, tetapi juga seluruh negaranya. Setiap langkah yang ia buat dan setiap rencana yang ia laksanakan membawa tanggung jawab dan konsekuensi yang sangat besar.\n\nInilah sebabnya ia tampak selalu mengerutkan kening, berpikir, dan merencanakan jauh ke depan. Suatu hari, mungkin, ia akhirnya akan berbalik dan menjawab pertanyaan-pertanyaan dari mereka yang telah tiada itu.\n\nIa bertarung demi mereka yang hidup, dan demi mereka yang telah gugur."
+      },
+      {
+        "title": "Silent Caretaker",
+        "content": "Hal-hal aneh memang terjadi di kamp Midnight Rangers.\n\nSeorang prajurit dengan cedera lutut menerima koyo pereda nyeri khusus dari petugas medis setiap kali musim berganti, terlepas dari fakta bahwa ia tidak pernah memberi tahu siapa pun tentang hal itu.\n\nPrajurit lain, yang sebelumnya tidak fokus saat pelatihan, mengetahui beberapa hari kemudian bahwa General Affairs Department Midnight Rangers telah membayar biaya operasi ibunya.\n\nKetika departemen logistik kekurangan dana, departemen tersebut menerima pemberitahuan kenaikan anggaran untuk kuartal berikutnya bahkan sebelum permintaan anggaran diajukan secara resmi.\n\nTerlepas dari besar atau lamanya masalah tersebut, selalu ada seseorang yang hadir untuk memberikan solusi tepat waktu saat sangat dibutuhkan. Sama seperti hujan lembut yang membasahi tanah yang gersang, orang ini dengan cermat mengatur bantuan dan memastikan tidak ada area yang terlewatkan tanpa bantuan.\n\n\"Kapten Tim 3 jelas kesulitan menggunakan kaki kirinya selama latihan. Aku memeriksa catatan operasinya, dan sepertinya itu berasal dari paparannya yang terlalu lama di rawa dalam salah satu misi sebelumnya. Sampaikan resep ini kepada petugas medis. Mereka akan tahu apa yang harus dilakukan.\"\n\n\"Transfer sejumlah uang ke rekening ini atas nama General Affairs Department. Debet rekeningku untuk pendanaannya.\"\n\n\"Aku ingat ada kenaikan 20% dalam jumlah rekrutan tahun ini. Verifikasi hal ini dengan bagian Logistik. Jika dikonfirmasi, sesuaikan anggaran kuartal berikutnya.\"\n\nInilah Jiyan, yang kekejamannya dicadangkan untuk musuh, sementara kelembutannya ditunjukkan kepada rekan-rekannya."
+      },
+      {
+        "title": "What'S Inside His Gourd?",
+        "content": "Ketika ditanya tentang masa kecilnya, Jiyan mengingat banyak kenangan: bau obat-obatan, lampu terang di ruang operasi, suara peralatan medis yang beradu, dan lorong tempat banyak ucapan selamat tinggal dipertukarkan.\n\nLahir dalam keluarga medis, Jiyan menjadi asisten ibunya pada usia 10 tahun. Ia unggul dalam keterampilan medis dan populer di kalangan pasien, tidak hanya karena keahliannya, tetapi juga karena kemampuannya yang luar biasa dalam menenangkan kegelisahan mereka dan memenuhi kebutuhan mereka.\n\nTerlepas dari kecakapan medisnya yang luar biasa, masih ada beberapa nyawa yang tidak bisa Jiyan selamatkan dari cengkeraman maut—pasien terakhir yang tidak bisa ia selamatkan adalah Beiwang, teman dan mentornya, yang terluka parah oleh Tacet Discords.\n\nBeiwang awalnya dikenal oleh Jiyan sebagai pasien, di antara banyak anggota Midnight Rangers lainnya yang harus mengunjungi dokter setelah melawan gelombang Tacet Discord yang sering melanda daratan tersebut.\n\nBeiwang terkesan oleh kecerdasan dan intuisi Jiyan, yang membuatnya berbagi detail tentang gerak maju Midnight Rangers dan memberikan instruksi militer. Sebaliknya, Jiyan secara aktif menyumbangkan keterampilan analitisnya dalam diskusi strategi, meskipun belum pernah mengalami pertempuran secara langsung. Perspektif uniknya menyuntikkan vitalitas ke dalam percakapan mereka, menyegarkan sudut pandang Beiwang dengan pandangan yang baru.\n\nKepergian Beiwang menyulut percikan transformatif dalam diri Jiyan—rasa melankolis, frustrasi, dan penyesalannya berubah menjadi kekuatannya untuk mengayunkan tombak di medan perang.\n\nJiyan mulai menyadari bahwa Lament adalah penyakit yang begitu mengakar di dalam nadi dunia sehingga instrumen medis tercanggih atau ahli bedah terpintar sekalipun tidak dapat menghilangkannya. Kesadaran ini mendorongnya untuk menyembuhkan dunia dengan cara lain—ia mengangkat senjata dan melawan Tacet Discords secara langsung, dengan tekad yang tak tergoyahkan.\n\nSekarang, hanya kotak pil berbentuk labu di ikat pinggangnya yang menunjukkan bahwa ia dulunya adalah seorang dokter. Spekulasi beredar luas tentang isi kotak tersebut, dengan beberapa orang mengeklaim ia menggunakan mutiara gula untuk menghibur anak-anak dan yang lain mengatakan ia minum darinya setelah pertempuran.\n\nJika seseorang bertanya kepada Jiyan tentang hal itu, ia akan menjawab dengan jujur, \"Hanya beberapa obat umum, untuk berjaga-jaga jika seseorang membutuhkannya.\""
+      },
+      {
+        "title": "The Temporary Team",
+        "content": "Di tengah kemeriahan Jinzhou Riverside Games yang hidup, sekelompok pemuda berdiri bersama.\n\n\"Begini masalahnya. Kapten kami memiliki urusan mendesak yang harus diselesaikan, jadi kami kekurangan satu orang untuk balapan ini. Jika kau tidak bergabung dengan kami, kami mungkin harus didiskualifikasi.\"\n\n\"Tolong, tolong bantu kami. Kami sudah berlatih sangat keras untuk Gulpuff Relay. Jadi tolong...\"\n\n\"Ya, tolong, Jiyan!\" seru mereka serempak, urgensi mereka terasa sangat jelas.\n\nBerdiri di tengah-tengah adalah seorang pemuda bermata cerah. Menanggapi tatapan tulus mereka, ia mengangguk setuju. Dengan demikian, sebuah tim sementara pun terbentuk.\n\nPemuda itu menanyakan kondisi masing-masing rekan tim dan urutan estafet. Kemudian, ia memutuskan untuk menyesuaikan strategi dan mengambil posisi pelari terakhir (anchor leg) sendiri.\n\nGames tersebut, yang awalnya diadakan untuk meredakan ketegangan penduduk Jinzhou setelah kemenangan pertama mereka atas Tacet Discord Outbreaks, telah berkembang menjadi acara besar di Jinzhou, di mana Gulpuff Relay menjadi salah satu sorotan utamanya.\n\nPeluit berbunyi. Para pelari estafet melesat maju, dengan terampil menghindari rintangan saat mereka mengemudikan Gulpuff mereka. Kerumunan penonton yang bersorak memenuhi tepi sungai.\n\nNamun, sebuah kesalahan terjadi saat pertukaran tongkat antara pelari pertama dan kedua, menyebabkan tim sementara tersebut tertinggal jauh di belakang.\n\n\"Ups, sepertinya tim ini mengalami sedikit kendala! Sebagai tim sementara, kerja sama mereka mungkin agak kaku. Sayang sekali bagi mereka!\"\n\nKomentator kemudian mengalihkan perhatiannya ke tiga pesaing teratas.\n\nDi tengah sorak-sorai, balapan mencapai puncaknya saat pelari terakhir dari tim sementara dengan cepat memperkecil jarak dengan lawan-lawan mereka, tanpa disadari oleh siapa pun.\n\n\"Wah! Lihat tim sementara itu! Ada kendala sebelumnya, tapi sekarang pelari terakhirnya sedang menyalip! Ada tikungan kunci di depan... A-apa yang terjadi? Dia menyalip semua orang di tikungan! Itu benar-benar luar biasa!\"\n\nTanpa terganggu oleh kebisingan dan kegembiraan penonton, ia tetap mengunci pandangannya pada garis finis. Sebuah pikiran tunggal mendorongnya maju—lebih cepat, sedikit lebih cepat lagi. Jantungnya berdegup kencang, menenggelamkan suara sorak-sorai yang keras.\n\nSaat konfeti turun dengan dentuman keras, hiruk-pikuk suara sekali lagi mengalir masuk ke telinganya.\n\nMereka menang!\n\n\"Siapa yang bisa membayangkan tim sementara ini akan memecahkan rekor! Selamat untuk para pemuda ini!\"\n\nRekan-rekan setimnya mengerumuninya dengan gembira, mengelilingi pemuda tersebut. Sambil mengangkat trofi yang berat, mereka berjanji untuk membentuk tim lagi pada Games berikutnya."
+      }
+    ],
+    "specialFood": {
+      "name": "Yesterday In Jinzhou",
+      "description": "Meningkatkan ATK dan Crit. Rate untuk semua Resonator di dalam tim masing-masing sebesar 10% dan 8%, bertahan selama 30 menit. Hanya efektif pada Resonator milikmu sendiri dalam Co-op Mode.",
+      "imageUrl": "/icons/food/jiyan.webp"
+    }
+  }
+}

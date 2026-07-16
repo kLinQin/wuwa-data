@@ -1,0 +1,541 @@
+{
+  "name": "Encore",
+  "element": "Fusion",
+  "weapon": "Rectifier",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer",
+    "Basic Attack DMG"
+  ],
+  "sonatas": [
+    "Molten Rift"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update.",
+      "type": "input",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "",
+  "affiliation": "",
+  "class": "",
+  "image": "/characters/encore.webp",
+  "imageBanner": "/banners/encore-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1900+",
+    "Energy Regen": "110-125%",
+    "Crit Ratio (Crit Weapon)": "60-75% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Inferno Rider"
+    ],
+    "bestWeapon": "Stringmaster",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: fusion%",
+            "3: fusion%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "inferno-rider",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Molten Rift"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ]
+    },
+    "weaponNote": "Saat menggunakan Luminous Hymn, Encore harus dipasangkan dengan Rover: Spectro untuk memicu skill senjata (Basic% dan Heavy% DMG Bonus).",
+    "weaponOptions": [
+      {
+        "id": "stringmaster",
+        "percentage": "120",
+        "rank": ""
+      },
+      {
+        "id": "rime-draped-sprouts",
+        "percentage": "111",
+        "rank": ""
+      },
+      {
+        "id": "whispers-of-sirens",
+        "percentage": "110",
+        "rank": ""
+      },
+      {
+        "id": "luminous-hymn",
+        "percentage": "108",
+        "rank": ""
+      },
+      {
+        "id": "cosmic-ripples",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "augment",
+        "percentage": "98",
+        "rank": "5"
+      },
+      {
+        "id": "fusion-accretion",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "jinzhou-keeper",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Skill(Swap)",
+          "Skill",
+          "Echo(Swap)",
+          "Intro",
+          "Ult",
+          "[U]Skill",
+          "[U]BA123",
+          "[U]BA4(Dash-Cancel)",
+          "[U]BA123",
+          "[U]BA4+Skill(Cancel)",
+          "[U]BA1234",
+          "Echo(Swap)",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Forte Circuit",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Encore Hyoercary",
+        "note": "Sanhua memberikan 38% Basic DMG Amplify untuk Encore. Sebagai alternatif, Roccia bisa digunakan.",
+        "members": [
+          [
+            "Encore"
+          ],
+          [
+            "Sanhua",
+            "Roccia",
+            "Yangyang"
+          ],
+          [
+            "Lupa",
+            "Shorekeeper"
+          ]
+        ]
+      },
+      {
+        "name": "Quickswap",
+        "note": "",
+        "members": [
+          [
+            "Encore"
+          ],
+          [
+            "Xiangli Yao",
+            "Havoc Rover",
+            "Jinhsi"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      },
+      {
+        "name": "Quickswap Alternatif",
+        "note": "",
+        "members": [
+          [
+            "Encore"
+          ],
+          [
+            "Changli",
+            "Carlotta",
+            "Brant"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      }
+    ],
+    "teamNote": "Lupa memberikan Fusion & Basic ATK DMG Amplify untuk Encore. Selain itu, Encore adalah Fusion Resonator, yang meningkatkan ATK% Buff dari Lupa. Encore juga bisa menerima manfaat dari buff yang diberikan Wildfire Mark."
+  },
+  "skills": {
+    "basic": {
+      "name": "Wooly Attack",
+      "description": "Basic Attack\nEncore melakukan hingga 4 serangan beruntun, memberikan  Fusion DMG.\n\nHeavy Attack \nEncore mengonsumsi Stamina untuk menyerang target, memberikan  Fusion DMG.\n\nMid-air Attack\nEncore mengonsumsi Stamina untuk melakukan Mid-Air Plunging Attack, memberikan  Fusion DMG.\n\nDodge Counter\nGunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG."
+    },
+    "skill": {
+      "name": "Flaming Woolies",
+      "description": "Encore memanggil Cloudy dan Cosmos untuk menyerang dengan sinar api, \nmemberikan  Fusion DMG.\n\nEnergetic Welcome\nSetelah menggunakan Flaming Woolies, \ntekan Resonance Skill untuk melepaskan Energetic Welcome, memberikan  Fusion DMG."
+    },
+    "liberation": {
+      "name": "Cosmos Rave",
+      "description": "Saat Encore kehilangan kendali, \nCosmos melepaskan diri dan menghancurkan segala sesuatu di sekitarnya.\n\nBasic Attack: Cosmos - Frolicking\nSaat Cosmos Rave aktif, Basic Attack digantikan dengan Cosmos - Frolicking, melakukan hingga 4 serangan beruntun, \nmemberikan  Fusion DMG (dihitung sebagai Basic Attack DMG).\n\nCosmos: Heavy Attack\nSaat Cosmos Rave aktif, Heavy Attack digantikan dengan Cosmos - Heavy Attack, mengonsumsi Stamina untuk menyerang target, \nmemberikan  Fusion DMG (dihitung sebagai Heavy Attack DMG).\n\nResonance Skill: Cosmos - Rampage\nSaat Cosmos Rave aktif, Flaming Woolies digantikan dengan Cosmos - Rampage, memberikan  Fusion DMG (dihitung sebagai Resonance Skill DMG).\n\nCosmos: Dodge Counter\nSaat Cosmos Rave aktif, gunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG (dihitung sebagai Basic Attack DMG)."
+    },
+    "forte": {
+      "name": "Black & White Woolies",
+      "description": "Heavy Attack: Cloudy Frenzy\nSaat Mayhem Encore penuh, setelah menggunakan Heavy Attack, Encore akan mengonsumsi seluruh Mayhem untuk memasuki Mayhem State, \nmengurangi DMG yang diterima sebesar 70%.\nMayhem State tidak akan terputus jika mengganti karakter.\nSetelah Mayhem State berakhir, Encore akan menggunakan Cloudy Frenzy, \nmemberikan  Fusion DMG (dihitung sebagai Resonance Liberation DMG).\n\nHeavy Attack: Cosmos Rupture\nSaat Cosmos Rave aktif, jika Mayhem penuh saat menggunakan Heavy Attack, Encore akan mengonsumsi seluruh Mayhem untuk memasuki 'Cosmos' Mayhem State, \nmengurangi DMG yang diterima sebesar 70%.\n'Cosmos' Mayhem State tidak akan terputus jika mengganti karakter.\nSetelah 'Cosmos' Mayhem State berakhir, Encore akan menggunakan Cosmos Rupture, memberikan  Fusion DMG (dihitung sebagai Resonance Liberation DMG).\n\nMayhem\nEncore dapat menyimpan hingga 100 Mayhem.\nEncore memulihkan Mayhem saat Basic Attack: Wooly Attack mengenai target.\nEncore memulihkan Mayhem saat Resonance Skill: Flaming Woolies mengenai target.\nEncore memulihkan Mayhem saat Resonance Skill: Energetic Welcome mengenai target.\nEncore memulihkan Mayhem saat Intro Skill: Woolies Helpers mengenai target.\nSaat Resonance Liberation: Cosmos Rave aktif, \nEncore memulihkan Mayhem setiap kali serangan mengenai target."
+    },
+    "inherent": [
+      {
+        "name": "Angry Cosmos",
+        "description": "Saat Resonance Liberation: Cosmos Rave aktif dan HP Encore di atas 70%, \nDMG yang dihasilkan meningkat 10%."
+      },
+      {
+        "name": "Woolies Cheer Dance",
+        "description": "Saat menggunakan Resonance Skill: Flaming Woolies atau Resonance Skill: Cosmos - Rampage, \n Fusion DMG Bonus Encore meningkat 10% selama 10 detik."
+      },
+      {
+        "name": "Tune Break: Rectifier",
+        "description": ""
+      }
+    ],
+    "intro": {
+      "name": "Woolies Helpers",
+      "description": "Encore melompat ke arah musuh bersama Cosmos, memberikan  Fusion DMG."
+    },
+    "outro": {
+      "name": "Thermal Field",
+      "description": "Encore menciptakan Thermal Field dengan radius 3 meter di sekitar target.\nMusuh di dalam Thermal Field akan terbakar secara terus-menerus, \nmenerima  Fusion DMG sebesar 176.76% ATK Encore setiap 1.5 detik selama 6 detik"
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Rage Tacet Core",
+            "amount": 46
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Pecok Flower",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Unending Destruction",
+          "amount": 26
+        },
+        {
+          "item": "LF Whisperin Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Whisperin Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Whisperin Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Whisperin Core",
+          "amount": 57
+        },
+        {
+          "item": "Lento Helix",
+          "amount": 25
+        },
+        {
+          "item": "Adagio Helix",
+          "amount": 28
+        },
+        {
+          "item": "Andante Helix",
+          "amount": 55
+        },
+        {
+          "item": "Presto Helix",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Stringmaster",
+          "value": 1462215,
+          "imagePath": "",
+          "percentage": 119
+        },
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 1392465,
+          "imagePath": "",
+          "percentage": 113
+        },
+        {
+          "type": "Luminous Hymn",
+          "value": 1332880,
+          "imagePath": "",
+          "percentage": 108
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 1232897,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Augment",
+          "value": 1221488,
+          "imagePath": "",
+          "percentage": 99
+        },
+        {
+          "type": "Fusion Accretion",
+          "value": 1070956,
+          "imagePath": "",
+          "percentage": 87
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Encore - Weapon",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 66,
+          "imagePath": "",
+          "percentage": 66
+        },
+        {
+          "type": "Skill",
+          "value": 13.8,
+          "imagePath": "",
+          "percentage": 13.8
+        },
+        {
+          "type": "Echo",
+          "value": 8.9,
+          "imagePath": "",
+          "percentage": 8.9
+        },
+        {
+          "type": "Intro",
+          "value": 2.2,
+          "imagePath": "",
+          "percentage": 2.2
+        },
+        {
+          "type": "Outro",
+          "value": 9.1,
+          "imagePath": "",
+          "percentage": 9.1
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Encore - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1462215,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1519447,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "S2",
+          "value": 1519447,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "S3",
+          "value": 1519447,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "S4",
+          "value": 1519447,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "S5",
+          "value": 1541596,
+          "imagePath": "",
+          "percentage": 105
+        },
+        {
+          "type": "S6",
+          "value": 1666572,
+          "imagePath": "",
+          "percentage": 114
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Encore - Sequence",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Wooly'S Fairy Tale",
+      "description": "Saat Basic Attack mengenai target, Fusion DMG Bonus Encore meningkat 3%, dapat ditumpuk hingga 4 kali selama 6 detik."
+    },
+    {
+      "stage": "S2",
+      "name": "Sheep-Counting Lullaby",
+      "description": "Encore memulihkan tambahan 10 Resonance Energy saat menggunakan Basic Attack: Wooly Strike atau Resonance Skill: Energetic Welcome.\nDapat dipicu setiap 10 detik."
+    },
+    {
+      "stage": "S3",
+      "name": "Fog? The Black Shores!",
+      "description": "Multiplier DMG dari Heavy Attack: Cloudy Frenzy dan Heavy Attack: Cosmos Rupture meningkat 40%."
+    },
+    {
+      "stage": "S4",
+      "name": "Adventure? Let'S Go",
+      "description": "Heavy Attack: Cosmos Rupture meningkatkan  Fusion DMG  Bonus seluruh anggota tim sebesar 20% selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Hero Takes The Stage!",
+      "description": "Resonance Skill DMG Bonus meningkat 35%."
+    },
+    {
+      "stage": "S6",
+      "name": "Woolies Save The World!",
+      "description": "Saat Resonance Liberation: Cosmos Rave aktif, setiap kali Encore memberikan serangan, \nia mendapatkan 1 stack(s) \"Lost Lamb\", \ndi mana setiap stack(s) meningkatkan ATK sebesar 5% selama 10 detik, dapat ditumpuk hingga 5 kali."
+    }
+  ],
+  "lore": {
+    "description": "Seorang gadis yang selalu ditemani oleh satu Wooly hitam dan satu Wooly putih. Encore, Konsultan dari Black Shores, bermimpi menciptakan kisah-kisah bahagia dengan permen, dongeng, dan imajinasinya.\n\nBIRTHPLACE\nNew Federation\n\nBIRTHDATE\n21 Maret\n\nADDITIONAL TITLES\nHeavenly Sheep",
+    "report": {
+      "resonancePower": "Wooly-Counting Game",
+      "overclockDiagnostic": "Grafik gelombang Resonator Encore menunjukkan fluktuasi zigzag, dengan pola Time Domain yang tidak teratur.\n\nBaik puncak atas maupun bawah memiliki nilai tinggi dan mendekati level kritis.\n\nGelombang tersebut juga memiliki segmen yang tidak jelas, menunjukkan pola abnormal.\n\nResonant Criticality: Relatif tinggi\n\nStabilitas: Rendah\n\nRisiko Overclocking: Signifikan\n\nDisarankan untuk menghubungi walinya untuk pemeriksaan rutin, serta memberikan intervensi psikologis jika diperlukan.\n\nCatatan Coretan:\n\nEncore bilang Aalto BUKAN walinya! Gak mau pemeriksaan! Dia lebih suka cerita!\n\nCatatan tambahan:\n\nTolong jadi anak baik, ya. Kami punya permen kalau kamu mau.",
+      "resonanceEvaluation": "Dasar Evaluasi: [Resonance Assessment 1631-G]\n\nWaktu pasti Awakening Resonator Encore masih belum diketahui.\n\nBerdasarkan laporan dari Encore dan hasil inspeksi resonansi, entitas berbentuk domba yang selalu menyertainya dianggap sebagai manifestasi dari imajinasinya dan kondisi psikologisnya.\n\nMereka diyakini sebagai representasi dari Forte-nya.\n\nEvaluasi Resonansi Encore menunjukkan bahwa hasilnya sangat dipengaruhi oleh emosi kolektif di lingkungan uji.\n\nSelama pengujian, respons Syntony-nya sangat kuat, namun penyebab pasti Awakening-nya masih belum dikonfirmasi.\n\nEncore memiliki Tacet Mark di bagian atas punggungnya.\n\nPemeriksaan pasca-Kebangkitan mengungkap mutasi fisik ringan, termasuk ujung rambut yang menyerupai wol.\n\nDalam kondisi emosional yang tinggi, ia dapat memanifestasikan tanduk domba, yang mengharuskan pengujian dilakukan dengan hati-hati.\n\nAnalisis terhadap sampel uji menunjukkan adanya Kurva Rabelle yang tidak konvergen, dengan pola gelombang periodik yang mencolok.\n\nBerdasarkan hasil ini, Encore diklasifikasikan sebagai Congenital Resonator."
+    },
+    "items": [
+      {
+        "name": "Wooly Dolls",
+        "description": "Boneka Wooly adalah hadiah dari Mama.\n\nMereka selalu mendengarkan Encore dan selalu ada di sisinya.\n\nBagi Encore, Woolies bukan hanya proyeksi emosinya, tetapi juga teman-teman penting dalam hidupnya.",
+        "imageUrl": "/icons/items/encore-1.webp"
+      },
+      {
+        "name": "Coral Bowl",
+        "description": "Hidangan spesial Encore, dibuat dari karang ungu dari Black Shores, dimasak dengan berbagai bahan yang diracik dengan penuh kreativitas.\n\nEncore selalu mencoba menciptakan sesuatu yang baru, dan entah bagaimana, rasa masakannya ternyata cukup enak.\n\nTapi... penampilannya begitu mengerikan hingga butuh keberanian besar untuk mencobanya.\n\nBahkan Aalto pun gak sanggup memakannya.",
+        "imageUrl": "/icons/items/encore-2.webp"
+      },
+      {
+        "name": "Prank Toy",
+        "description": "Sebuah mainan jahil yang telah dimodifikasi oleh Aalto.\n\nMainan ini pertama kali muncul saat ulang tahun Encore, meskipun Camellya sangat tidak setuju dengan selera Aalto dalam memilih hadiah.\n\nSekarang, setiap kali ada anggota Black Shores yang berulang tahun, Encore selalu memutar lagu ulang tahun yang direkam dalam mainan ini sebagai kejutan kecil.\n\nLagi pula, kejutan tak terduga—dan sering kali tidak menyenangkan—sudah menjadi bagian dari petualangan mereka.",
+        "imageUrl": "/icons/items/encore-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Let'S Be Friends!",
+        "content": "\"Kalau ada pertanyaan yang bikin pusing, jangan khawatir, tinggal tanya Encore! Kalau ada jawaban yang terasa sulit dipahami, jangan khawatir, tinggal minta Encore bantuin! Kalau ada tempat yang gak bisa kamu jangkau... tetap aja gak perlu khawatir, ayo kita teriak bareng—‘Encore’!\"\n\nBagi yang baru tiba di Black Shores, jangan sampai keindahan menyeramkan dari Blake Bloom dan metode \"hortikultura\" unik organisasi ini membuatmu gentar. Dengan Little Encore di sisimu, semua keraguan akan segera sirna berkat sapaan hangat dan penuh semangatnya.\n\nDia penuh percaya diri, tulus, dan benar-benar apa adanya. Teman kecil yang menawan ini akan memastikan perjalananmu penuh warna.\n\nJangan lupa untuk menikmati waktu-waktu istimewa bersama Woolies-nya Encore\n\n—Oh! Maaf kalau Cosmos tiba-tiba menabrakmu. Kadang dia terlalu bersemangat.\nTapi tenang saja, wajahmu akan tetap cantik tanpa satu goresan pun!\n\nBagi para pengunjung dari jauh, tinggalkan semua kekhawatiranmu, kosongkan pikiranmu, dan dengarkan kisah-kisah menarik dari Encore.\n\nTidak perlu ragu menerima hadiah kecil darinya—kebanyakan buatan tangan.\n\nTapi kalau hadiah itu ternyata berupa permen... atau makanan, siapkan mentalmu untuk menghadapi \"penampilan berani\" hidangannya.\n\nMeskipun begitu, kalau kamu makan sambil merem, siapa tahu ternyata rasanya gak seburuk yang kamu kira!\n\nEncore adalah teman perjalanan yang luar biasa.\nIa akan menggenggam tanganmu, membawamu menjelajahi setiap sudut dunia.\n\nTakut dengan Tacet Discords? Tenang saja.\nEncore bukan anak kecil biasa yang bersembunyi di balik orang dewasa.\n\nDengansedikit nyala api dari Forte-nya, Tacet Discords bisa berubah jadi abu dalam sekejap.\nSekarang, kalau dia gak sengaja membakar rambutmu...?\n\nEncore janji bakal lebih hati-hati lain kali!\nLagian, mengganti gaya rambut sesekali itu gak buruk juga, kan?\n\nJadi, ayo bergabung dengan Encore dalam petualangan besar ini!\nPercayalah, tidak ada yang lebih menyenangkan di Black Shores selain ini.\nTapi, tentu saja, kamu harus siap sepenuhnya.\nTarik napas dalam-dalam, hitung sampai tiga, dan tanyakan pada dirimu—Apakah kamu sudah siap?"
+      },
+      {
+        "title": "A Kid From The Theater",
+        "content": "Encore tidak begitu ingat sejak kapan Cosmos dan Cloudy menjadi bagian dari hidupnya. Rasanya mereka selalu ada di sana, menyatu dengan keberadaannya sejak awal.\nMungkin ia bertemu mereka saat masih terlalu kecil untuk mengingat?\n\nTapi, kenangan pertamanya yang paling jelas tentang Woolies-nya berasal dari sebuah teater kecil yang sesak dan ramai. Saat itu, sebuah pertunjukan yang memukau tengah berlangsung, diiringi tepuk tangan meriah dan sorakan anak-anak.\n\nAnak-anak lain yang seusianya berteriak penuh semangat, memanggil nama sang pahlawan, tapi panggung masih gelap, dengan tirai yang tertutup rapat.\n\nSempat kebingungan, mereka akhirnya menemukan irama mereka lagi—bersama-sama meneriakkan\n\n\"Encore!\"\n\nLalu, tabuhan drum terdengar, tirai pun terangkat, menyambut kembalinya sang pahlawan.\n\nIbunya—atau lebih tepatnya, Wooly ksatria yang \"diperankan\" oleh ibunya—muncul di panggung, mengayunkan pedang panjangnya hingga sang penjahat melarikan diri. Wooly hitam menyelamatkan Wooly putih sang putri, dan mereka pun hidup bahagia selamanya.\n\nUntuk waktu yang lama, Encore selalu menghubungkan sosok ibunya dengan Wooly ksatria hitam itu. Pelindung kerajaan yang gagah itu mengingatkannya pada cara ibunya selalu menjaga dan merawatnya.\n\nTerkadang, saat Encore bertindak naka, ia melihat ekspresi tegas yang sama di wajah ibunya dan Wooly ksatria itu.\n\nSebagai anak kecil, Encore sebenarnya lebih menyukai Cloudy yang lucu, meskipun ia tidak pernah memberitahu Cosmos soal itu.\n\nCloudy adalah putri yang lembut dan baik hati, selalu mengenakan gaun indah dan mahkota, tinggal di dalam istana yang seperti mimpi. Encore kecil bercita-cita menjadi seorang putri, membayangkan dirinya mengenakan gaun elegan, duduk di atas ranjang megah yang empuk.\n\nAnak bebas seperti Encore kecil tidak terlalu peduli dengan monster di luar istana.\n\nDi luar istana adalah medan perang para ksatria.\nTugas Wooly hitam adalah melindungi sang putri.\n\nDulu, Cosmos dan Cloudy hanyalah boneka biasa.\nMereka adalah teman baik Encore, tetapi setelah waktu bermain selesai, mereka tetap diam, berbaring di dalam kotak tanpa mengucapkan sepatah kata pun.\n\nNamun, saat malam tiba, bisikan lembut mulai terdengar di samping tempat tidurnya.\n\nTangan kecil berbulu mereka menyentuh pipi Encore dengan lembut, memberi kenyamanan dan mengusir mimpi buruknya.\n\n\"Jangan takut, Encore. Tidurlah dengan nyenyak, karena petualangan bersama Woolies akan tersimpan dengan baik dalam mimpi.\""
+      },
+      {
+        "title": "A Heroine'S Return",
+        "content": "Cosmos dan Cloudy pertama kali berbicara kepada Encore saat pemakaman ibunya.\n\nSemuanya terjadi begitu tiba-tiba—Encore masih bisa mengingat dengan jelas suara mereka, bersamaan dengan jatuhnya tanah dan daun layu ke atas peti mati.\n\nAwalnya, boneka-boneka Wooly itu hanya diam di pelukannya, seperti bagaimana mereka selalu berbaring tenang di dalam kotak yang ibunya bawa untuk pertunjukan.\n\nNamun, saat para pelayat mulai menimbun peti dengan tanah, Cloudy menghela napas pelan—hampir tak terdengar.\n\nTak ada yang memperhatikannya selain Encore.\n\n\"Encore, Encore...\"\n\nKetika mereka menyadari tak ada orang lain yang mendengar suara mereka, suara Cosmos dan Cloudy semakin jelas. Encore dengan waspada melirik sekelilingnya, memastikan tak ada orang lain yang mendengar.\n\n\"Ayo pergi, Encore. Aku bosan sekali...\"\n\nkeluh Cosmos.\nSuara itu terdengar lebih mirip Encore daripada suara ibunya sendiri.\n\n\"Tapi... tapi Cloudy gak mau pergi...\"\n\nlirih Cloudy, suaranya berubah-ubah—\nkadang terdengar seperti Encore, kadang seperti ibunya.\n\nKemudian, keheningan sesaat melingkupi mereka.\nAngin dingin pagi itu berembus kencang, melewati kerumunan yang berduka, membawa suara tanah yang jatuh ke peti mati semakin menjauh.\n\n\"Tidak!\"\n&#xNAN;\"Kita gak bisa nunggu lebih lama! Pertunjukannya hampir selesai!\"\n\nseru Cosmos dengan tidak sabar.\n\nSeolah baru mengingat sesuatu, Cloudy menjadi panik.\n\n\"Encore, Encore! Ke teater! Kita harus ke teater!\n\nMemandang ke kejauhan, di balik bayangan pepohonan pemakaman, Encore terpaku pada papan nama teater yang sudah usang namun masih mencolok. Ia mendengar tawa anak-anak—kebahagiaan mereka yang tak terbendung kontras dengan suara tanah dan batu yang jatuh.\n\nDi tengah tatapan tidak setuju dari para kerabatnya, Encore berlari meninggalkan pemakaman, menuju teater yang terbengkalai. Saat ia mendorong pintu yang berdebu, keheningan yang pekat langsung buyar. Sorotan lampu panggung menyala redup, mengungkap hamparan bunga.\n\nDi tengah lautan bunga itu, Encore melihat ibunya yang dulu tampak layu, kini bersinar terang.\nKerinduannya membuncah.\n\n\"Mama...\"\n\nMatanya berkaca-kaca, kakinya gemetar saat ia melangkah ke panggung. Namun, sebelum ia bisa menyentuh ibunya, kegelapan menariknya masuk.\n\nPertunjukan telah usai.\nLampu-lampu meredup, tirai tertutup rapat.\nKesunyian yang mencekam memenuhi teater, dan bayangan ketakutan mulai menghantui Encore.\n\n\"Encore!\"\n\nteriak Cosmos.\n\n\"Encore!\"\n\nseru Cloudy.\n\nUntuk mengusir rasa takut dan mengembalikan keberaniannya, Cosmos dan Cloudy terus menyerukan nama yang bisa menghidupkan kembali pertunjukan itu.\n\n\"ENCORE!\"\n\nMereka terus berteriak, sampai Encore kembali sadar dan ikut bergabung.\n\nDan kemudian—\n\nTirai panggung terbuka kembali.\nTabuhan drum menggema.\nCahaya menembus kegelapan.\n\nEncore berdiri di atas panggung sebagai pemeran utama yang baru, disambut tepuk tangan meriah dari Cosmos dan Cloudy. Tangisnya pecah—kesedihan dan ketakutan yang menghantuinya akhirnya luruh bersama air matanya.\n\nTak lama, senyum khasnya kembali menghiasi wajahnya.\n\nSekarang, giliran Encore menjadi Wooly ksatria pemberani.\nPetualangan baru akan dimulai.\n\nKali ini, ia akan memastikan kisahnya berakhir bahagia."
+      },
+      {
+        "title": "Orphanage And Candy House",
+        "content": "Meskipun kini Encore telah menjadi Konsultan hebat di Black Shores, ia tetap menolak untuk bertingkah seperti orang dewasa.\n\nBaginya, tumbuh dewasa berarti harus mengucapkan selamat tinggal pada dongeng sebelum tidur.\n\nDan itu adalah sesuatu yang tidak akan pernah ia terima.\nTidur dalam kegelapan tanpa mimpi penuh warna? Itu bukan pilihan.\nUntungnya, orang dewasa di Black Shores membiarkannya seperti itu.\n\nTapi masalahnya... siapa di antara mereka yang cukup senggang untuk membacakan cerita sebelum tidur? Saat itulah Cloudy mengangkat tangan kecilnya yang berbulu.\n\nTak lama, Cosmos juga ikut mengangkat tangannya yang gelap dan berbulu lebat.\nMalam itu, Cloudy membacakan cerita lama tentang Rumah Permen.\n\n\"Lalu... lalu...\"\n\nSuaranya melemah. Oh tidak. Cloudy lupa bagian selanjutnya.\nGugup, ia melirik Cosmos, lalu menyelimuti dirinya sendiri karena malu.\n\n\"Aku tahu! Aku tahu!\"\n\nseru Cosmos, dengan penuh semangat.\nIa mendorong Cloudy ke samping, lalu berdiri tegak di samping ranjang Encore.\n\n\"Lalu, Sang Hebat Encore, yang diberkati dengan api yang berkobar, mengalahkan kucing jahat! Bulu kotorannya terbakar habis!\"\n\n\"Lalu, bagaimana dengan teman-teman Sang Hebat Encore?\"\n\ntanya Encore, mengantuk.\n\n\"Tentu saja semuanya selamat! Berkat Sang Hebat Encore, mereka bisa hidup bahagia tanpa takut pada kucing jahat lagi!\"\n\nEncore larut dalam cerita itu, sampai matanya semakin berat dan akhirnya terpejam.\nDi tengah kantuknya, ia mencoba menggumamkan sesuatu.\n\n\"Mama Direktur... bukan kucing jahat...\"\n\nTapi ia terlalu lelah untuk menyelesaikan kalimatnya.\nCosmos dan Cloudy, yang kebingungan dengan gumaman Encore, akhirnya ikut merayap masuk ke bawah selimutnya.\n\nMereka pun tertidur bersama.\n\nDalam mimpinya, Encore kembali ke panti asuhan.\nDi hadapannya, Rumah Permen dilahap oleh kobaran api. Atapnya meleleh dalam panas, dan sirup mendidih menetes ke tubuh kucing hitam yang sekarat. Makhluk itu adalah lambang dari segala dosanya sendiri.\n\nEncore menyaksikan kejatuhannya, sebuah akhir yang tak terhindarkan. Namun, Sang Pencabut Nyawa tidak memberikan pengampunan dengan mudah.\n\nSebaliknya,ia menikmati penderitaan kucing itu, memaksanya mengakui segala kesalahannya.\n\nJeritan menyayat memenuhi hutan.\nHyena yang dulu kejam dan gagak yang dulu sombong, kini meringkuk ketakutan.\n\nDi tengah kesunyian, hanya Encore dan jiwa-jiwa yang sekarat yang tersisa.\n\n\"Pasti sakit sekali...\"\n\nDalam cahaya api yang menari, Encore mendekati kucing yang sekarat itu.\nDengan tangan kecilnya yang penuh luka bakar, ia mengelus bulu kucing itu dengan lembut.\n\nKucing itu membenci Encore. Ia ingin gadis itu merasakan hal yang sama.\n\nNamun, mengapa...\nMengapa dari tangan kecilnya, yang ada hanya kehangatan dan kesedihan?\n\nApi terus membakar Rumah Permen.\nNamun, Encore tidak takut.\nIa menyandarkan dirinya pada kucing besar itu, lalu mulai menyanyikan lagu pengantar tidur.\n\nLagu yang dulu dinyanyikan oleh \"Mama Direktur\" untuk semua anak-anaknya.\n\nEncore terus bernyanyi, suaranya semakin serak, hingga api perlahan padam.\nSampai cahaya pagi pertama menyinari langit. Ketika ia membuka matanya, kucing besar yang mengerikan itu telah berubah menjadi anak kucing kecil.\n\nYang kini tertidur nyenyak dalam pelukannya."
+      },
+      {
+        "title": "A New Story, A New Adventure",
+        "content": "Kesan pertama Encore terhadap Aalto berada di antara \"lumayan\" dan \"aneh.\"\n\n\"Orang dewasa yang aneh tapi seru,\"\n\nkomentarnya.\n\nMelihat seseorang memakai kacamata hitam di dalam ruangan tentu menarik perhatiannya. Tapi memakainya di tempat yang remang-remang? Itu terasa benar-benar aneh.\nEncore tidak bisa memahami alasannya.\n\nSaat melihat perawat membimbing orang dewasa aneh itu masuk, Encore cepat-cepat kembali ke ranjang, berpura-pura membaca buku ceritanya.\n\n\"Jadi... kamu anak itu? Yang dari berita... anak dari panti asuhan...\"\n\nAalto melepas kacamata hitamnya, menatap Encore dengan penuh perhatian.\n\nMungkinkah anak sekecil ini benar-benar telah melakukan semua itu?\n\nIa teringat tajuk berita yang pernah ia lihat:\n\n\"Gadis Sembilan Tahun Pecahkan Kasus Sensasional!\"\n\nMeski ia masih meragukan kebenaran berita tabloid, ia tetap memiliki misi yang harus diselesaikan.\n\nLagi pula, bahkan ORANG ITU pun berkata:\n\n\"Ini keputusan dari Tethys.\"\n\nDan Sistem Tethys tak pernah salah.\n\n\"Paman ini aneh sekali. Encore gak ngerti apa yang paman bicarakan.\"\n\nEncore menutup bukunya, lalu mulai menatap Aalto dengan penuh rasa ingin tahu — meniru cara pria itu menatapnya tadi.\n\nBagi Encore, Aalto terlihat seperti anjing besar... atau mungkin serigala. Serigala abu-abu yang ramah, yang tidak akan mengancamnya.\n\n\"Oh iya, kamu ini Encore. Benar juga. Kamu yang kucari.\"\n&#xNAN;\"Tunggu! Kenapa kau manggil aku 'paman'?! Coba lihat baik-baik, aku gak setua itu, kan?\"\n\nRaut wajah Aalto yang putus asa hanya membuat Encore tertawa.\nSepertinya, karena terlalu bosan dirawat di rumah sakit, dia ingin sedikit mengerjai orang dewasa aneh ini.\n\n\"Baiklah, biar Encore lihat lebih dekat... Yap! Masih terlihat tua! Tetap paman!\"\n\nAalto menghela napas panjang.\n\n\"Haaah...\"\n\n\"Ayolah, bilang sesuatu yang baik. Ini tugas yang gak mudah, lho.\"\n\n\"Aku juga harus ngurus anak-anak lain dari panti asuhan itu, tahu?\"\n\nTapi, digoda oleh seorang anak tidak ada artinya dibandingkan tugasnya di Black Shores.\n\n\"Baiklah, kembali ke intinya. Anak kecil, kamu ikut aku atau tidak?\"\n\nNada Aalto berubah serius, lalu kembali santai seperti biasa.\n\n\"Kamu bisa dapat permen sebanyak yang kamu mau. Tapi ya... gak terlalu banyak, sih. Nanti gigimu rusak.\"\n\n\"Hmm... mencurigakan,\"\n\ngumam Encore, matanya berbinar penasaran.\n\nAlih-alih menjawab pertanyaan Aalto, ia mengangkat Cosmos dan Cloudy, lalu mendekatkan mereka ke telinganya.\n\n\"Woolies? Kalian mau ngomong sesuatu?\"\n&#xNAN;\"Hmm... Hah? Serius? Jadi paman aneh ini sebenarnya orang baik?\"\n&#xNAN;\"Gak mungkin!\"\n\n\"Hei! Aku bisa terima kalau kamu manggil aku 'paman' sekarang, tapi kenapa 'gak mungkin'?!\nApa aku gak keliatan kayak orang baik?\"\n\n\"Karena Cosmos dan Cloudy bilang kamu orang baik, Encore akan ikut!\"\n\nEncore mengangkat dagunya dengan bangg*, berusaha menggunakan nada bicara resmi.\n\n\"Tapi Cosmos dan Cloudy juga ikut. Mereka teman terbaik Encore.\"\n\n\"Tentu.\"\n\nAalto mengangguk tanpa ragu.\n\n\"Mereka cuma boneka biasa, kan?\"\n\nNamun, saat Aalto memandangi Cosmos dan Cloudy, ia tak bisa memahami perspektif seorang anak.\n\nBenda mati ini... mengapa Encore begitu percaya kalau mereka hidup?\n\nTapi bagi Encore, ini adalah awal dari sebuah petualangan.\n\nIa memeluk Woolies kesayangannya, berputar-putar dalam kebahagiaan—pertama dengan Cosmos, lalu dengan Cloudy.\n\nSeiring waktu, ia belajar untuk memperlakukan semua temannya dengan cinta dan perhatian yang sama. Namun, tiba-tiba Encore* teringat sesuatu yang penting.\n\n\"Sebentar, kita akan melakukan apa?\"\n\nAalto tersenyum misterius, lalu kembali mengenakan kacamata hitamnya.\n\n\"Menyelamatkan dunia, tentu saja!\""
+      }
+    ],
+    "specialFood": {
+      "name": "Baa Baa Crisp",
+      "imageUrl": "/icons/food/encore.webp",
+      "description": "DEF seluruh Resonator dalam tim meningkat 40% selama 30 menit.\n\nEfek ini hanya berlaku untuk Resonator milik sendiri dalam Co-op Mode."
+    }
+  }
+}

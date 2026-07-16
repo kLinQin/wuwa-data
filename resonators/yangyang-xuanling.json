@@ -1,0 +1,457 @@
+{
+  "name": "Yangyang-xuanling",
+  "element": "Havoc",
+  "weapon": "Sword",
+  "rarity": 5,
+  "version": "3.5",
+  "lastUpdated": "2026-07-09",
+  "roles": [
+    "Main Damage Dealer",
+    "Heavy Attack Damage",
+    "Traction",
+    "Havoc Bane"
+  ],
+  "sonatas": [
+    "Song of Feather Trace"
+  ],
+  "changelog": [
+    {
+      "text": "9 July 2026\n- finishing\n- sisa material\n\n5 July 2026\n- minimal input\n- icon echo masih pakai stay tuned\n- icon sequence belum di rubah\n- materials\n- lore page",
+      "type": "input",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "",
+  "affiliation": "",
+  "class": "Natural",
+  "image": "/characters/yangyang-xuanling.webp",
+  "imageBanner": "/banners/yangyang-xuanling-banner.jpeg",
+  "recommendedStats": {
+    "Crit Rate": "68.80%",
+    "Crit Damage": "257.00%",
+    "Total ATK (ELE/ELE)": "1929.267",
+    "HA DMG%": "7.90%",
+    "ER": "122.00%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Azure Oath",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS Havoc Bane",
+          "sonataCustom": [
+            "Song Of Feather Trace"
+          ],
+          "echoSlug": "thousand-puppet-pavilion",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: Havoc%",
+            "3: Havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "ER%",
+        "ATK%",
+        "HA DMG%",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "azure-oath",
+        "rank": "",
+        "percentage": "125.48%"
+      },
+      {
+        "id": "emerald-sentence",
+        "rank": "",
+        "percentage": "109.97%"
+      },
+      {
+        "id": "emerald-of-genesis",
+        "rank": "",
+        "percentage": "100.00%"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Reso Libe",
+        "Normal Attack"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Premium NS Team",
+        "members": [
+          [
+            "Yangyang-xuanling"
+          ],
+          [
+            "Chisa"
+          ],
+          [
+            "Suisui"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "Dual DPS",
+        "members": [
+          [
+            "Yangyang-xuanling"
+          ],
+          [
+            "Phrolova"
+          ],
+          [
+            "Suisui"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "Xuanling HC",
+        "members": [
+          [
+            "Yangyang-xuanling"
+          ],
+          [
+            "Rebecca",
+            "Lynae",
+            "Phrolova"
+          ],
+          [
+            "Chisa"
+          ]
+        ],
+        "note": ""
+      }
+    ],
+    "teamNote": ""
+  },
+  "skills": {
+    "basic": {
+      "name": "Succor And Smite",
+      "description": "Basic Attack - Azure Sword Stance\nMenekan atau menahan Normal Attack untuk mengonsumsi Melody dan melakukan hingga 4 serangan berturut-turut, menimbulkan Havoc DMG. Selama Melody belum habis, Energy Regen dari Basic Attack - Azure Sword Stance meningkat sebesar 20%.\nTahap 4 dari Basic Attack - Azure Sword Stance memberikan 1 tumpukan Havoc Bane kepada target yang terkena.\n\nBasic Attack - Feather Sword Stance\nMenekan atau menahan Normal Attack untuk mengonsumsi Melody dan melakukan hingga 4 serangan berturut-turut, menimbulkan Havoc DMG. Selama Melody belum habis, Energy Regen dari Basic Attack - Feather Sword Stance meningkat sebesar 20%.\nTahap 4 dari Basic Attack - Feather Sword Stance memberikan 1 tumpukan Havoc Bane kepada target yang terkena.\n\nMid-air Attack - Azure Sword Stance\nMengonsumsi STA untuk melakukan Plunging Attack yang menghabiskan Melody dan menimbulkan Havoc DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini akan memicu Basic Attack - Azure Sword Stance Stage 2.\n\nMid-air Attack - Feather Sword Stance\nMengonsumsi STA untuk melakukan Plunging Attack yang menghabiskan Melody dan menimbulkan Havoc DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini akan memicu Basic Attack - Feather Sword Stance Stage 2.\n\nDodge Counter - Azure Sword Stance\nMenekan Normal Attack sesaat setelah Dodge berhasil untuk mengonsumsi Melody dan menyerang target, menimbulkan Havoc DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini akan memicu Basic Attack - Azure Sword Stance Stage 3.\nMelancarkan Dodge Counter - Azure Sword Stance dihitung sebagai pelancaran Basic Attack - Azure Sword Stance Stage 2.\n\nDodge Counter - Feather Sword Stance\nMenekan Normal Attack sesaat setelah Dodge berhasil untuk mengonsumsi Melody dan menyerang target, menimbulkan Havoc DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini akan memicu Basic Attack - Feather Sword Stance Stage 3.\nMelancarkan Dodge Counter - Feather Sword Stance dihitung sebagai pelancaran Basic Attack - Feather Sword Stance Stage 2."
+    },
+    "skill": {
+      "name": "Feather'S Edge",
+      "description": "Sword Stance Switch\nSaat berada dalam Azure Sword Stance, menekan Resonance Skill akan beralih ke Feather Sword Stance dan melancarkan Basic Attack - Feather Sword Stance Stage 1, menimbulkan Havoc DMG.\n\nSaat berada dalam Feather Sword Stance, menekan Resonance Skill akan beralih ke Azure Sword Stance dan melancarkan Basic Attack - Azure Sword Stance Stage 1, menimbulkan Havoc DMG.\n\nSword Stance Switch: Azure\nMenekan Resonance Skill sesaat setelah melancarkan Basic Attack - Feather Sword Stance untuk beralih ke Azure Sword Stance dan melancarkan Sword Stance Switch: Azure, menimbulkan Havoc DMG yang dihitung sebagai Heavy Attack DMG.\nDodge berhasil dapat dipicu sesaat setelah aksi skill ini dimulai, yang mengonsumsi 50 Melody.\nSetelah melancarkan skill ini, siklus Basic Attack tidak akan reset untuk sementara waktu.\n\nSword Stance Switch: Feather\nMenekan Resonance Skill sesaat setelah melancarkan Basic Attack - Azure Sword Stance untuk beralih ke Feather Sword Stance dan melancarkan Sword Stance Switch: Feather, menimbulkan Havoc DMG yang dihitung sebagai Heavy Attack DMG.\nDodge berhasil dapat dipicu sesaat setelah aksi skill ini dimulai, yang mengonsumsi 50 Melody.\nSetelah melancarkan skill ini, siklus Basic Attack tidak akan reset untuk sementara waktu."
+    },
+    "liberation": {
+      "name": "Hush Of A Thousand Voices",
+      "description": "Hush of a Thousand Voices\nMengonsumsi seluruh Melody untuk menimbulkan Havoc DMG dan memulihkan 1 Azure Plume. DMG ini dihitung sebagai Heavy Attack DMG.\n\nSaat melancarkan skill ini, mendapatkan efek Voice upon Voice. Saat melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather, memanggil Shadow of Xuanling untuk menyerang target, menimbulkan Havoc DMG yang dihitung sebagai Heavy Attack DMG.\nVoice upon Voice tidak dapat bertumpuk. Setelah Shadow of Xuanling dipanggil, status Voice upon Voice akan hilang."
+    },
+    "forte": {
+      "name": "The Way Of Ten Thousand Voices",
+      "description": "Resonance Skill - Sword Stance Flow: Azure\nYangyang: Xuanling berada dalam Azure Sword Stance. Saat Melody habis saat berada dalam Feather Sword Stance, Resonance Skill - Feather's Edge digantikan oleh Resonance Skill - Sword Stance Flow: Azure.\nTekan Resonance Skill untuk beralih ke Azure Sword Stance dan melancarkan Resonance Skill - Sword Stance Flow: Azure, menimbulkan Havoc DMG serta memulihkan 100 poin Melody dan 1 poin Azure Plume. Damage ini dihitung sebagai Heavy Attack DMG.\nSaat Resonance Skill - Sword Stance Flow: Azure mengenai target, konsumsi 1 stack Havoc Bane pada target tersebut.\nSiklus Basic Attack - Feather Sword Stance tidak di-reset dalam waktu singkat setelah melancarkan Resonance Skill - Sword Stance Flow: Azure. Jika melancarkan Resonance Skill - Sword Stance Flow: Azure me-reset siklus, panggil Wraith of Sound untuk menyelesaikan serangan saat ini dan menimbulkan satu instance Havoc DMG tetap, dihitung sebagai Basic Attack DMG, yang tidak terpengaruh oleh efek DMG Bonus apa pun dan tidak memberikan Havoc Bane.\nSuccessful Dodge dapat dipicu dalam waktu singkat saat aksi skill ini berlangsung, yang mengonsumsi 50 poin Melody.\n\nResonance Skill - Sword Stance Flow: Feather\nSaat Melody habis saat berada dalam Azure Sword Stance, Resonance Skill - Feather's Edge digantikan oleh Resonance Skill - Sword Stance Flow: Feather.\nTekan Resonance Skill untuk beralih ke Feather Sword Stance dan melancarkan Resonance Skill - Sword Stance Flow: Feather, beralih ke Feather Sword Stance serta menimbulkan Havoc DMG, memulihkan 100 poin Melody dan 1 poin Azure Plume. Instance damage ini dihitung sebagai Heavy Attack DMG.\nSaat Resonance Skill - Sword Stance Flow: Feather mengenai target, konsumsi 1 stack Havoc Bane pada target tersebut.\nSiklus Basic Attack - Feather Sword Stance tidak di-reset dalam waktu singkat setelah melancarkan Resonance Skill - Sword Stance Flow: Feather. Jika melancarkan Resonance Skill - Sword Stance Flow: Feather me-reset siklus, panggil Wraith of Sound untuk menyelesaikan serangan saat ini dan menimbulkan satu instance Havoc DMG tetap, dihitung sebagai Basic Attack DMG, yang tidak terpengaruh oleh efek DMG Bonus apa pun dan tidak memberikan Havoc Bane.\nSuccessful Dodge dapat dipicu dalam waktu singkat saat aksi skill ini berlangsung, yang mengonsumsi 50 poin Melody.\n\nHeavy Attack - Azure Sword Stance\nSaat Azure Plume pulih hingga maksimum saat berada dalam Azure Sword Stance, tahan Normal Attack untuk mengonsumsi STA dan seluruh Azure Plume guna melancarkan Heavy Attack - Azure Sword Stance, menghasilkan siklon besar yang menghantam area di depan, menimbulkan Havoc DMG, dihitung sebagai Heavy Attack DMG.\nSaat melancarkan Heavy Attack - Azure Sword Stance, peroleh Bated Breath: Jika Yangyang: Xuanling adalah Resonator aktif di lapangan, Crit. DMG dari Heavy Attack - Azure Sword Stance ini meningkat sebesar 160%. Saat Heavy Attack - Azure Sword Stance berakhir, Bated Breath dihapus. Bated Breath dapat diperoleh maksimal sekali setiap 25 detik.\nHeavy Attack - Azure Sword Stance memberikan 2 stack Havoc Bane pada target yang terkena.\n\nHeavy Attack - Feather Sword Stance\nSaat Azure Plume pulih hingga maksimum saat berada dalam Feather Sword Stance, jika Yangyang: Xuanling berada di tanah dan tidak dalam siklus Basic Attack - Havoc in Bloom, tahan Normal Attack untuk mengonsumsi STA dan melancarkan Heavy Attack - Feather Sword Stance, menimbulkan Havoc DMG. Setelah mengenai target, Mid-air Attack - Feather Fall otomatis dilancarkan.\nSaat melancarkan Resonance Skill - Sword Stance Flow: Feather, peroleh Streaming Storm, yang berlangsung selama 15 detik. Selama Yangyang: Xuanling adalah Resonator aktif dalam tim, Crit. DMG dari Heavy Attack - Feather Sword Stance berikutnya, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, atau Dodge Counter - Havoc in Bloom meningkat sebesar 160%. Streaming Storm dihapus saat Basic Attack - Havoc in Bloom Stage 3 atau Dodge Counter - Havoc in Bloom Stage 3 berakhir. Streaming Storm dapat diperoleh maksimal sekali setiap 25 detik.\nHeavy Attack - Feather Sword Stance memberikan 2 stack Havoc Bane pada target yang terkena.\n\nMid-air Attack - Feather Fall\nSaat Azure Plume pulih hingga maksimum saat berada dalam Feather Sword Stance dan berada di udara, Mid-air Attack - Feather Sword Stance digantikan oleh Mid-air Attack - Feather Fall. Beralih ke Resonator lain secara otomatis melancarkan Mid-air Attack - Feather Fall.\nTekan atau tahan Normal Attack untuk mengonsumsi STA dan seluruh Azure Plume guna melancarkan Mid-air Attack - Feather Fall, menimbulkan Havoc DMG. Melancarkan Mid-air Attack - Feather Fall memasuki status Hark the Wind selama 12 detik.\n\nHark the Wind\nSelama berada dalam Feather Sword Stance, Basic Attack - Feather Sword Stance digantikan oleh Basic Attack - Havoc in Bloom, mengonsumsi STA untuk melakukan hingga 3 tahap serangan, menimbulkan Havoc DMG, dihitung sebagai Heavy Attack DMG.\nBasic Attack - Havoc in Bloom Stage 2 dan Stage 3 dapat dilancarkan di udara dekat dengan tanah. Melancarkan Stage 3 mengakhiri Basic Attack - Havoc in Bloom. Siklus serangan ini tidak dapat di-reset.\nSelama Hark the Wind, Dodge Counter dihitung sebagai bagian dari siklus Basic Attack - Havoc in Bloom.\n\nFeathered Oath\nSaat Resonator terdekat dalam tim memberikan Havoc Bane pada target, Yangyang: Xuanling memperoleh 1 stack Feathered Oath selama 4 detik. Feathered Oath dapat diperoleh sekali setiap 1 detik, menumpuk hingga 6 kali. Selama Yangyang: Xuanling adalah Resonator aktif dalam tim, setiap stack meningkatkan Crit. DMG dari Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, dan Dodge Counter - Havoc in Bloom sebesar 25%, hingga maksimal 150%.\n\nRefrain\nSebelum Basic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, atau Heavy Attack - Feather Sword Stance milik Yangyang: Xuanling mengenai target, catat dan sebarkan jumlah stack Havoc Bane tertinggi pada target dalam jangkauan tertentu ke semua target dalam jangkauan tersebut.\n\nMelody\nMelody memiliki maksimum 100 poin.\nMelancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather memulihkan 100 Melody.\nMelancarkan Resonance Liberation Hush of a Thousand Voices mengonsumsi seluruh Melody.\nNormal Attack mengonsumsi Melody saat menimbulkan damage.\nSuccessful Dodge dapat dipicu selama aksi Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, atau Resonance Skill - Sword Stance Flow: Feather dalam waktu tertentu setelah melancarkan skill-skill ini, yang mengonsumsi 50 poin Melody.\n\nAzure Plume\nAzure Plume memiliki maksimum 2 poin.\nMelancarkan Resonance Skill - Sword Stance Flow: Azure, Resonance Skill - Sword Stance Flow: Feather, atau Intro Skill - Skybound Feather memulihkan 1 poin Azure Plume.\nMelancarkan Resonance Liberation - Hush of a Thousand Voices memulihkan 1 poin Azure Plume.\nMelancarkan Heavy Attack - Azure Sword Stance atau Mid-air Attack - Feather Fall mengonsumsi seluruh Azure Plume."
+    },
+    "inherent": [
+      {
+        "name": "Unbroken Vow",
+        "description": "Saat target memiliki 1 hingga 3 tumpukan Havoc Bane, setiap tumpukan Havoc Bane meningkatkan DMG dari Yangyang: Xuanling sebesar 10%, hingga maksimal 30%.\n\nSaat target memiliki 4 hingga 6 tumpukan Havoc Bane, setiap tumpukan Havoc Bane meningkatkan DMG dari Yangyang: Xuanling sebesar 12%, hingga maksimal 36%."
+      },
+      {
+        "name": "One Life, One Blade",
+        "description": "Resonance Liberation Hush of a Thousand Voices meningkatkan tumpukan Havoc Bane pada target yang terkena hingga maksimal.\n\nSaat Resonator dalam tim memberikan efek Havoc Bane, Yangyang: Xuanling mendapatkan 1 tumpukan Windbound. Windbound dapat diperoleh sekali setiap 1 detik, dengan tumpukan maksimal 6 kali.\n\nSaat Windbound mencapai 6 tumpukan, Yangyang: Xuanling menghilangkan seluruh Windbound dan mendapatkan status One with the Wind.\nSelama One with the Wind aktif, saat Yangyang: Xuanling melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather, ia memanggil Feather Release: Xuanling untuk menyerang target, memberikan 6 tumpukan Havoc Bane kepada target.\nWindbound tidak dapat diperoleh selama One with the Wind aktif.\n\nSetelah Feather Release: Xuanling dipanggil, status One with the Wind akan hilang."
+      },
+      {
+        "name": "Tune Break - Sword",
+        "description": "Saat Off-Tune Level target penuh, Resonator dapat melancarkan Tune Break pada target."
+      }
+    ],
+    "intro": {
+      "name": "Skybound Feather",
+      "description": "Menimbulkan Havoc DMG dan memulihkan 1 poin Azure Plume.\nSaat Intro Skill - Skybound Feather menimbulkan damage, skill ini memberikan 1 stack Havoc Bane pada target."
+    },
+    "outro": {
+      "name": "As The Wind Wills",
+      "description": "Menyerang target, menimbulkan Havoc DMG sebesar 300% dari ATK Yangyang: Xuanling.\nSeluruh Resonator dalam tim selain Yangyang: Xuanling memperoleh Tonal Switch selama 20 detik. Saat Resonator dengan Tonal Switch memberikan Havoc Bane, Havoc DMG Resonator tersebut diamplifikasi sebesar 20%.\nEfek ini di-reset saat melancarkan skill ini kembali."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Solidaritys Loneflame",
+            "amount": 46
+          },
+          {
+            "item": "LF Autopuppet Kernel",
+            "amount": 4
+          },
+          {
+            "item": "MF Autopuppet Kernel",
+            "amount": 12
+          },
+          {
+            "item": "HF Autopuppet Kernel",
+            "amount": 12
+          },
+          {
+            "item": "FF Autopuppet Kernel",
+            "amount": 4
+          },
+          {
+            "item": "Cloudperch Seed",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Skyward Glazed Heart",
+          "amount": 26
+        },
+        {
+          "item": "Broken Wing Polarizer",
+          "amount": 25
+        },
+        {
+          "item": "Monowing Polarizer",
+          "amount": 28
+        },
+        {
+          "item": "Polywing Polarizer",
+          "amount": 40
+        },
+        {
+          "item": "Layered Wing Polarizer",
+          "amount": 57
+        },
+        {
+          "item": "LF Autopuppet Kernel",
+          "amount": 25
+        },
+        {
+          "item": "MF Autopuppet Kernel",
+          "amount": 28
+        },
+        {
+          "item": "HF Autopuppet Kernel",
+          "amount": 55
+        },
+        {
+          "item": "FF Autopuppet Kernel",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Xuanling",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Azure Oath",
+          "value": 2341928.39,
+          "percentage": 125.48,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Sentence",
+          "value": 2052468.29,
+          "percentage": 109.97,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 1866383.41,
+          "percentage": 100,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Xuanling",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 2341928.39,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 2565307.46,
+          "percentage": 109.54,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 3034172.28,
+          "percentage": 129.56,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 3540663.48,
+          "percentage": 151.19,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Xuanling",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Heavy ",
+          "value": 90.2,
+          "percentage": 90.2,
+          "imagePath": ""
+        },
+        {
+          "type": "BA",
+          "value": 3.7,
+          "percentage": 3.7,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 2.7,
+          "percentage": 2.7,
+          "imagePath": ""
+        },
+        {
+          "type": "Outro",
+          "value": 2.3,
+          "percentage": 2.3,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "At The Wind'S Breath, The Blossoms Wake",
+      "description": "Melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather memanggil Shadow of Xuanling: Unfaltering untuk menyerang target, menimbulkan Havoc DMG sebesar 337,98% dari ATK Yangyang: Xuanling. DMG ini dihitung sebagai Heavy Attack DMG.\nMelancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather membuat musuh di sekitar menjadi Stagnant.\n\nHeavy Attack - Azure Sword Stance, Basic Attack - Havoc in Bloom, dan Dodge Counter - Havoc in Bloom kebal terhadap interupsi."
+    },
+    {
+      "stage": "S2",
+      "name": "River Carries Her Song Away",
+      "description": "DMG yang ditimbulkan oleh Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, dan Dodge Counter - Havoc in Bloom meningkat sebesar 100%.\n\nSetiap kali Yangyang: Xuanling berada di luar pertempuran selama lebih dari 4 detik setelah keluar dari status bertarung atau pulih dari pingsan, ia mendapatkan efek berikut sekali:\n- Mendapatkan Strung Notes, maksimal 1 tumpukan. Melancarkan Basic Attack - Azure Sword Stance atau Basic Attack - Feather Sword Stance memanggil Shadow of Xuanling: Strung Notes untuk menyerang target, menimbulkan Havoc DMG sebesar 337,98% dari ATK Yangyang: Xuanling, dihitung sebagai Heavy Attack DMG. Strung Notes hilang setelah Shadow of Xuanling: Strung Notes dipanggil.\n- Memulihkan 2 poin Azure Plume.\n- Mereset Cooldown untuk mendapatkan Bated Breath dan Streaming Storm.\n"
+    },
+    {
+      "stage": "S3",
+      "name": "My Grief Follows You Into The Clouds",
+      "description": "DMG yang ditimbulkan melalui Resonance Liberation Hush of a Thousand Voices ditingkatkan sebesar 175%.\n\nSetelah melancarkan Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Flow: Azure, atau Resonance Skill - Sword Stance Flow: Feather, meningkatkan batas maksimal tumpukan Havoc Bane pada target dalam jangkauan tertentu sebanyak 3, berlangsung selama 20 detik. Efek ini tidak bertumpuk.\n\nBasic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, dan Heavy Attack - Feather Sword Stance memberikan 1 tumpukan tambahan Havoc Bane kepada target."
+    },
+    {
+      "stage": "S4",
+      "name": "Across The Miles, A Letter And My Longing",
+      "description": "Saat melancarkan Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, atau Resonance Skill - Sword Stance Flow: Feather, ATK Resonator dalam tim meningkat sebesar 20% selama 20 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Take Wing. Take Wing. ",
+      "description": "Saat Yangyang: Xuanling menerima serangan fatal, ia tidak akan down, melainkan memulihkan HP sebesar 50% dari Max HP sambil menjadi kebal terhadap DMG dan interupsi selama 3 detik. Efek ini dapat terpicu sekali setiap 10 menit."
+    },
+    {
+      "stage": "S6",
+      "name": "Let The Azure Keep Its Light Let The Azure Keep Its Light",
+      "description": "\nSaat Yangyang: Xuanling memberikan efek Havoc Bane kepada target, mendapatkan Voice Flux selama 30 detik. Selama Voice Flux aktif, Heavy Attack DMG dari Yangyang: Xuanling meningkat sebesar 40%.\n\nSetelah melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather, mendapatkan Still as Withered Wood selama 30 detik. Selama Still as Withered Wood aktif, jika Yangyang: Xuanling berada di medan pertempuran, maka saat Resonator terdekat dalam tim memberikan efek Glacio Chafe, Fusion Burst, Electro Flare, Aero Erosion, Spectro Frazzle, atau Havoc Bane, Yangyang: Xuanling memanggil Shadow of Xuanling: Still as Withered Wood untuk menyerang target, menimbulkan Havoc DMG sebesar 337,98% dari ATK Yangyang: Xuanling. DMG dari Shadow of Xuanling: Still as Withered Wood dihitung sebagai Heavy Attack DMG dan dipastikan menjadi critical hit.\n\nShadow of Xuanling: Still as Withered Wood dapat dipanggil sekali setiap 1 detik dan habis setelah dipanggil 5 kali. Saat Still as Withered Wood habis atau dihapus, reset jumlah panggilan yang tersedia untuk Shadow of Xuanling: Still as Withered Wood. Still as Withered Wood memiliki Cooldown 25 detik."
+    }
+  ],
+  "lore": {
+    "description": "Putri kedua dari keluarga musik ternama di Mingting, ia lembut namun teguh, berhati murni dan penuh khayalan. seorang perempuan yang menghunus pedang demi keadilan. Sebagai \"Votary of the Voice\", ia mampu berkomunikasi dengan Streams. Dulu seorang Outrider dari Midnight Rangers di Jinzhou, kini ia menjabat sebagai acting Xuan Watcher di Xuanfang Hold. Bebas seperti angin, gagah dalam perbuatannya, hidup dan pedangnya hanya untuk melindungi yang lemah.",
+    "manualEntries": [
+      {
+        "title": "Birthplace",
+        "description": "Huanglong"
+      },
+      {
+        "title": "Affiliation",
+        "description": "Ministry of War"
+      }
+    ],
+    "report": {
+      "resonancePower": "Voices of Azure Plume",
+      "resonanceEvaluation": "[Resonance Assessment RA2710-G]\n\nDibandingkan dengan penilaian sebelumnya, tingkat kecocokan pola Resonance Spectrum tetap sangat tinggi. Kurva Rabelle tidak menunjukkan perubahan signifikan, meski terdapat tren naik yang stabil, dan akhirnya memasuki osilasi yang konsisten. Hasil ini mengonfirmasi klasifikasi sebagai Natural Resonator.\n\nSubjek mampu beresonansi dengan arus udara di sekitarnya dan mengumpulkannya menjadi medan energi. Lebih dari itu, ia dapat memadatkan kekuatan Resonansinya menjadi \"Azure Plumes\", yang mampu menetralisir dan memulihkan frekuensi yang disentuhnya, serta menghapus kekuatan dan efek Resonansi yang tercetak pada makhluk hidup maupun benda mati.\n\nMenurut subjek, ia menerima suatu frekuensi dari \"Xuanling Bird\"—makhluk Remnant dari masa lalu Land of Xuanfang—selama pertemuannya di Censure Court Xuanfang Hold. Peristiwa ini dilaporkan mengubah kemampuan Resonansinya. Namun, penilaian Resonansi tidak menemukan perubahan signifikan pada sumber Forte-nya. Oleh karena itu, kami menyimpulkan bahwa tidak terjadi mutasi sekunder.\n\n> \"Beresonansi dengan Xuanling Bird... Itu dugaan intuitif, tapi datanya tidak mendukung... Frekuensimu bukan berubah, melainkan 'lengkap'. Dengan kata lain, seperti orang amnesia yang tiba-tiba mengingat masa lalunya. Mungkin kemampuan ini selalu milikmu, dan baru sekarang kamu menyadarinya. Meski begitu, ini masih spekulasi.\"  \n> — Dari percakapan dengan tenaga medis Huaxu Academy",
+      "overclockDiagnostic": "Grafik gelombang subjek menunjukkan fluktuasi elips, dengan sesekali lonjakan tajam berbentuk jarum. Nilai puncak kedua komponen cenderung naik, namun saat ini tidak ditemukan bentuk gelombang abnormal.\n\nResonant Criticality: Lebih rendah dibanding hasil laporan sebelumnya. Stabilitas tetap tinggi, namun risiko laten Overclocking perlu diwaspadai.\n\nResonator Yangyang memiliki riwayat Overclocking sebelumnya.  \nTingkat Overclock maksimum: Moderate.\n\nSubjek mengalami sensory overload dalam beberapa kesempatan di Land of Xuanfang. Pertumbuhan bulu yang tidak dapat dipulihkan di ujung rambutnya semakin memburuk, dan penyebarannya lebih lanjut harus dipantau secara ketat.\n\nPemeriksaan fisik rutin dianjurkan. Konseling psikologis saat ini dianggap tidak diperlukan."
+    },
+    "items": [
+      {
+        "name": "\"Shell\"",
+        "description": "\nPita rambut dan topi Yangyang. Pita itu adalah berkah perpisahan dari ibunya; topinya, hadiah dari teman-temannya setelah ia menjadi Outrider. Pagi demi pagi, Yangyang mengikat pita itu dan memakai topi itu di depan cermin. Ini adalah ritual kecil—saat untuk mengumpulkan hatinya sebelum menghadapi dunia, memastikan ia tak pernah menyimpang dari sumpah pertamanya.\n\nSetelah kemampuan Resonansinya berubah, Yangyang merenung panjang sebelum akhirnya menyimpan dua \"simbol\" seumur hidup ini di dalam lemari pakaiannya. Makna yang dibawanya telah lama terpatri di hatinya, dan anak burung yang telah memecahkan cangkangnya tak lagi membutuhkan cangkang itu untuk menjaga bentuknya. Kini, ia ingin melangkah maju dengan gagah, membentangkan sayapnya ke langit. Harapannya telah melayang bersama angin ke penjuru dunia, dan kini ia bertekad menancapkan diri yang baru—seorang \"dewasa\" yang mampu memikul beban orang lain, seekor burung berbulu azure yang terbang tinggi di langit, mengabarkan fajar.",
+        "imageUrl": "/icons/items/yangyang-xuanling-1.webp"
+      },
+      {
+        "name": "Records Of Each Other",
+        "description": "Surat-surat yang disimpan Yangyang dari Rover. Ia menjaga setiap surat itu dengan hati-hati, dan kini tumpukannya sudah cukup membentuk bukit kecil.  \nSetiap surat adalah perjalanan tersendiri—kisah yang tak sempat mereka bagi langsung, namun dipilih untuk ditulis dengan tinta.  \nIa menyimpan kenangan ini erat-erat. Setiap kali ujung jarinya menyusuri baris-baris tulisan—tempat yang kakinya sendiri tak pernah injak—bayangan {Male=him;Female=her} yang menjelajahi tanah-tanah itu terbentuk jelas dan hidup di benaknya.",
+        "imageUrl": "/icons/items/yangyang-xuanling-2.webp"
+      },
+      {
+        "name": "The Voice Of The World",
+        "description": "Hadiah kedewasaan dari ibu Yangyang, yang dititipkan kepada Suisui untuk diserahkan bertahun-tahun setelah Yangyang meninggalkan rumah. Di dalamnya seolah tersegel suara ombak laut.\n\n\"Seperti ngengat pada api, semua yang mendengar ■■ terikat untuk menempuh jalan ■■■■. Untuk Votary of the Voice terakhir di dunia ini: semoga perjalananmu—yang tak diharapkan dan ditakdirkan gagal—menemukan sedikit makna lewat kehadiran ■■■.\"",
+        "imageUrl": "/icons/items/yangyang-xuanling-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "A Record Of Failure ",
+        "content": "Tiga hari telah berlalu sejak ia memberi tahu ibunya tentang ambisinya.  \nMalam itu, sepasang sumpit tambahan tergeletak di meja makan keluarga.  \n\n\"Aku dengar anakmu ingin masuk militer? Militer yang mana?\" Tamu itu menyeruput tehnya usai makan malam dan melemparkan pertanyaan pada orang tua Yangyang.  \n\"Mm... matanya jernih, hatinya murni. Tipe yang tahan uji.\" Sang tamu mengamati wajahnya yang masih kekanak-kanakan dan tersenyum. \"Kelihatannya kau sudah punya dasar. Dari mana belajarnya? Di kwoon? Mereka tidak mengajarkan ilmu sesungguhnya di sana. Kalau kau ingin bertempur melawan musuh, apa yang diajarkan di sana tidak cukup.\"  \n\n\"Ayo, tunjukkan padaku apa yang sudah kau pelajari sejauh ini.\" Tamu itu bangkit dan turun ke halaman. \"Aku tak bisa menikmati masakan ibumu secara cuma-cuma.\"  \n\n\"Baiklah.\" Dengan anggukan orang tuanya, ia mengeluarkan pedang kayu yang biasa dipakai latihan harian, maju menghadap sang tamu, dan mengambil posisi siap.  \n\nSiapa tamu itu, ia tidak tahu—hanya bahwa perempuan itu teman orang tuanya. Namun secerdas itu, Yangyang paham mengapa perempuan itu datang makan malam malam itu, dan mengapa ia menawarkan diri untuk mengujinya.  \n\nOrang tuanya mendukung mimpinya, tapi mereka juga ingin ia melihat sendiri betapa banyak ujian yang masih menghadang antara dirinya dan impian itu.  \n\nIa melemparkan diri ke ujian pertamanya, seperti anak burung yang pertama kali mengepakkan sayapnya, meraih langit terbuka.  \n\n...  \n\n\"Spirit bagus. Sayang bakatmu biasa saja, jauh dari golongan jenius satu dalam sepuluh ribu. Di jalan seni bela diri, kau bisa mencurahkan seluruh hidupmu dan tetap takkan pernah sampai ke ujungnya.\"  \n\nBegitu tubuhnya jatuh ke tanah, ia merasa seolah kembali ke hari pertamanya di kwoon.  \nTak tahu apa-apa. Tersesat dan hanyut.  \n\n\"Ibumu pernah bercerita tentang bakat lainmu. Ambil alih kerajinan ibumu saja, aku yakin kau akan melampauinya dalam sekejap.\" Tamu itu mengambil pedang kayu yang terjatuh darinya. \"Meski begitu, apakah kau masih ingin melanjutkan?\"  \n\nIa mengangguk, mengulurkan tangan, dan menggenggam erat gagang pedang yang diulurkan padanya.  \n\n...  \n\nSetelah itu, kira-kira setiap dua belas hari sekali sang tamu mampir ke rumah Yangyang, dan tak pernah pergi tanpa memberinya satu atau dua petunjuk—kadang soal ilmu pedang, kadang strategi. Ia tak mengizinkan Yangyang memanggilnya \"Guru\", bersikeras bahwa ia hanyalah tamu yang suka numpang makan, digerakkan oleh dorongan aneh untuk mengajar anak temannya.  \n\n\"Kalau boleh tanya... kapan aku tahu kalau aku sudah siap?\"  \n\n\"Hmm... begini saja.\"  \n\nKeesokan pagi, sebuah tiang kayu berdiri tegak di halaman Yangyang. Hitam keabu-abuan, permukaannya keras seperti besi. Bahkan pedang asli pun kesulitan meninggalkan bekas.  \n\nSang tamu mengambil pedang kayu Yangyang dan mengayunkannya ringan. Hembusan angin tajam menyambar, dan mata pedang itu menancap tiga inci ke dalam.  \n\nIa menunjuk goresan dalam itu. \"Saat kau bisa melakukan hal yang sama tanpa menggunakan Resonance Ability-mu, kau akan siap.\"  \n\n...  \n\nMusim berganti. Dua tahun berlalu.  \n\nWajah gadis itu telah kehilangan kelembutan masa kecilnya, dan tiang itu penuh dengan luka—dalam, dangkal, tak terhitung jumlahnya.  \n\nIa menahan napas, menguatkan posisi, dan mengayunkan pedangnya. Kilatan bilahnya seperti angin, mengangkat karpet daun dari tanah.  \n\n...  \n\nPukulan yang membawa dua tahun ketekunan itu nyaris tak menembus sepersepuluh inci dari permukaan.  \n\nHari ini adalah hari yang disepakati bersama orang tuanya untuk berangkat ke Jinzhou.  \n\nIa belum memenuhi standar yang ditetapkan \"Gurunya\", tapi tetap berangkat.  \n\nIa membungkuk dalam-dalam pada tiang itu dan meninggalkan pedang kayunya di halaman.  \n\nSetelah berpamitan pada orang tua dan adiknya, ia berjalan melewati tembok Mingting. Saat hendak melewati pos pemeriksaan pertama, ia melihat sosok di kejauhan.  \n\n\"Maafkan saya, Guru. Saya gagal.\"  \n\n\"Dan bagaimana jika kubilang kau mungkin takkan pernah berhasil, meski mencoba seumur hidup?\"  \n\n\"Maka saya rasa... saya akan bersedih sebentar.\"  \n\n\"Tapi itu takkan menghentikanmu, kan?\"  \n\n\"Tidak.\"  \n\n\"Bagus.\" Sang \"Guru\" menepuk kepalanya lalu berbalik menuju kota. \"Ketahuilah bahwa dunia ini penuh hal yang takkan pernah bisa kaulakukan, lalu...\"  \n\n\"...teruslah melangkah. Sampai akhir.\"  "
+      },
+      {
+        "title": "A Record Of Beginnings  ",
+        "content": "Perjalanan dari Mingting ke Jinzhou memakan waktu yang sangat lama—cukup lama terasa seperti seumur hidup terpisah, cukup lama hingga segala yang ia saksikan dan alami di jalan mampu menghancurkan segala yang dulu ia kira telah ia bangun dalam dirinya.  \n\nDulu ia percaya telah melihat \"kebenaran\". Dulu ia yakin, sejelas siang, untuk siapa pedangnya harus diangkat. Bahwa ia bisa menimbang \"benar\" lawan \"salah\", membedakan \"baik\" dari \"jahat\". Bahwa ukuran itu ada dalam hatinya. Tapi semakin banyak tempat yang ia lewati, semakin ia sadar ukuran itu tak bisa diterapkan pada segala sesuatu di dunia.  \n\nAda yang memulai jalan dengan niat tulus, namun berakhir tragis. Ada yang tenggelam dalam dosa, namun justru melindungi kebahagiaan orang lain dengan kejahatan itu sendiri. Dunia terlalu rumit—rumit hingga seumur hidup mungkin tak cukup untuk memahaminya.  \n\nLalu tiba saatnya ia melepaskan bahkan hasrat untuk memahami.  \n\nItu terjadi di Yuezhou. Seorang ibu memohon bantuannya menemukan anak yang diculik.  \n\nPara penculik adalah faksi lokal yang menyembah dewa jahat—gerombolan fanatik yang tangan mereka basah oleh dosa, makhluk yang tak layak lagi disebut \"manusia\".  \n\nSaat ia menyerbu markas mereka bersama pasukan Ministry of War setempat, yang menyambut matanya adalah definisi neraka itu sendiri.  \n\nDi saat itu, segala pikiran hangus dalam benaknya. Segala yang baik dan adil, ia tinggalkan jauh di belakang.  \n\n...  \n\nBaru saat prajurit Ministry of War selesai membersihkan medan dan menepuk bahunya, ia sadar semuanya telah berakhir.  \n\nIa mendengar tetesan ragu jatuh dari ujung pedangnya yang menancap ke tanah. Melepas ikatan rambutnya, ia menemukan pita pemberian ibunya telah basah oleh merah yang terlalu pekat untuk ditanggung.  \n\nIa tak ingat jelas apa yang terjadi dalam rentang waktu itu. Apakah ia telah mengambil nyawa? Jika bukan kali ini, maka selama ia berjalan di jalan ini, hari itu pasti akan tiba.  \n\nIa tahu, jika ia tak berani menghadapi kebenaran yang gamblang ini, pedangnya takkan pernah memiliki kekuatan sejati.  \n\nNamun rasanya tetap pahit.  \n\nSaat kembali melanjutkan perjalanan, ia mencuci bersih noda di pitanya, tapi tak bisa menghapus kelam dari matanya.  \n\nMeski menerima ucapan terima kasih tulus sang ibu, meski telah melindungi kebahagiaan orang tak berdosa, ia tak mampu membalas dengan satu senyum jujur pun.  \n\nDengan hati yang remuk, ia tiba sendirian di Jinzhou, berdiri di tengah alun-alun yang menghadap City Hall. Ia tahu ke mana harus pergi selanjutnya, tapi kakinya terasa seperti timah, dan ia tak kuasa melangkah.  \n\n...  \n\n\"Hei—kenapa kamu berdiri di sini sendirian? Tersesat, ya?\"  \n\n\"Aku Chixia, Patroller Jinzhou—well, 'calon' Patroller. Ada yang bisa kubantu? Oh iya, kamu lapar nggak? Dengar-dengar, kalau di Jinzhou wajib coba restoran Panhua...\"  \n\n...Hingga seorang gadis seusianya yang polos dan ramah menyapanya. Hingga gadis itu menggenggam tangannya dan menariknya menuju semua hal yang belum sempat ia kenal.  "
+      },
+      {
+        "title": "A Record Of Friendship  ",
+        "content": "\"Yangyang, ini Baizhi, peneliti dari Huaxu Academy. Selama evaluasimu, ia akan memberikan dukungan teknis saat kalian menyelidiki Tacet Field baru dekat Jinzhou.\"  \n\n...  \n\n\"Salam. Nama saya Baizhi...\"  \n\n\"—Yangyang! Makan siang hari ini apa? Bibi Panhua manggil kita coba masakan barunya. Oh, tapi Wuthercake yang kemarin enak banget, ya...\"  \n\n\"Maaf, tapi investigasi dimulai sore ini. Kurasa kalian tak punya waktu untuk makan.\"  \n\n\"Bahkan tentara bergerak karena makanan. Apa pun itu bisa ditunda sampai setelah makan... eh, tapi kamu siapa, sih?\"  \n\n\"...\"  \n\nHari itu, saat mata hijau itu bertemu pupil merah menyala untuk pertama kalinya, kemungkinan besar pikiran yang sama muncul di benak keduanya: \"Tak mungkin aku akur dengan orang ini.\"  \n\n\"Haha...\" Dua suhu yang sangat berbeda mengapitnya dari kiri dan kanan, namun anehnya ia tak merasa canggung atau tidak nyaman.  \n\nSeolah ia selalu tahu pertemuan ini akan terjadi; seolah sudah ditakdirkan bahwa mereka bertiga akan saling mengenal persis seperti ini.  \n\nMeski udara di antara mereka tegang, ia tahu—mereka masih saling memandang.  \n\n\"Kalau begitu, ayo beli sesuatu untuk dimakan di jalan.\" Ia menepuk tangan pelan dan menawarkan jalan tengah. \"Baizhi, kerja lapangan butuh stamina juga. Kita tak bisa berangkat dengan perut kosong.\"  \n\n\"Mm... usulan yang masuk akal.\"  \n\n\"Kalau begitu coba tempat yang buka minggu lalu... Eh, tidak. Yangyang, kamu yang putuskan.\"  \n\nItu pertama kalinya tiga sosok—biru, putih, dan merah—berjalan berdampingan di jalanan Jinzhou.  \n\n...  \n\n\"Yangyang, ini obat baru yang dikembangkan Huaxu. Bawa ke Chixia, ya? Sekali minum, flu-nya pasti sembuh dalam sehari atau dua.\"  \n\n\"Tentu saja bisa. Tapi Baizhi, kenapa tidak kau bawa sendiri?\"  \n\n\"Mm...\"  \n\n...  \n\n\"Oh, Yangyang, Bibi Panhua menggoreng beberapa lauk. Bawa ini, ya? Bukankah Baizhi kerja lembur malam ini? Ini bisa jadi camilan tengah malamnya.\"  \n\n\"Bisa saja... tapi Chixia, kamu juga bisa bawa sendiri, lho.\"  \n\n\"Uh...\"  \n\n...  \n\nDan hari-hari pun berlalu, satu demi satu. Tak ada kenangan yang menggores tulang, tak ada pergantian dramatis seperti dalam sandiwara.  \n\nMelalui hari-hari yang biasa seperti air, mereka perlahan saling mengenal—langsung maupun tak langsung.  \n\n\"Baizhi, soal investigasi nanti... Chixia kebetulan sangat paham medannya, jadi aku minta stasiun Patroller meminjamkannya sebentar.\"  \n\n\"Ehem... demi Yangyang, tentu saja. Dengan aku yang memimpin, kalian tak perlu bolak-balik, dan pekerjaan jadi lebih cepat juga...\"  \n\n\"Mengerti...\" Baizhi menutup berkas di tangannya dan memejamkan mata sejenak. \"Kalau begitu...\"  \n\n\"...Makan siang hari ini apa?\"  \n\n"
+      },
+      {
+        "title": "A Record Sealed Away  ",
+        "content": "\"Ta-da! Selamat jadi Outrider, Yangyang! Ini hadiah dari aku dan Baizhi. Suka?\"  \n\n\"Sebagai Outrider, kau sering berkemah di alam liar, dan rambutmu susah diatur. Topi ini akan melindungimu dari angin dan hujan. Menurutku cukup praktis.\"  \n\n\"Yang penting bukan itu! Yang penting—Yangyang pakai topi ini pasti cantik banget, kan?\"  \n\n\"Terima kasih... Baizhi, Chixia.\"  \n\nIa mengambil hadiah dari tangan kedua sahabatnya dan memasangnya di kepala.  \n\nDan di saat itu, ia merasa seperti kembali ke adegan bertahun-tahun lalu.  \n\n...  \n\n\"Apa-apaan, Yangyang?\" Di pasar malam yang dipenuhi lentera, kakaknya menyadari ia berhenti di depan sebuah kios, memandang terpesona pada sesuatu di rak. \"Ah, mau topi itu? Mm... bagus juga! Lihat, ada bordir burung kecilnya!\"  \n\n\"Tapi mahal banget...\" Ia melirik harga di rak, menunduk pada koin yang digenggamnya, lalu mundur selangkah. \"Ayo, Kak. Katanya kita mau beli permen maltose bareng...\"  \n\n\"Mm! Sudah kuduga cocok!\" Sebelum ia sadar, topi itu sudah ada di kepalanya.  \n\n\"Kakak...?! Kamu nggak boleh ambil barang yang bukan milikmu...\" Ia gelagapan, lalu melihat Suisui mengeluarkan kantong entah dari mana dan menggoyangkannya di depan matanya.  \n\n\"Hehe. Yangyang, kamu nggak tahu betapa dalam kantong kakakmu ini.\" Suisui tersenyum licik, koin berdenting di dalam kantong. \"Cuma satu topi. Buat kas kecilku, itu cuma setetes air di laut.\"  \n\n\"Tapi itu uang hasil kerja keras Kakak...\"  \n\n\"Aduh, nggak apa-apa! Aku kakakmu! Milikku milikmu, dan milikmu juga milikku, tentu saja...\"  \n\n...  \n\nBaginya, sejak lahir, memiliki \"kakak perempuan\" adalah hal yang dianggap lumrah.  \n\nIa menganggap lumrah tawa dan main-main bersama. Ia menganggap lumrah berbagi segala hal kecil. Ia menganggap lumrah... kehadirannya yang terus-menerus dalam setiap hari hidupnya.  \n\nBaru saat ia membuat keputusan itu, ia sadar ia akan mengucap selamat tinggal pada segala yang dulu dianggapnya lumrah.  \n\nJika ia tak mengambil langkah itu, ia takkan pernah menjadi \"dirinya\" yang ia idamkan. Dan jika ia mengambilnya, setiap ikatan yang dikenal dan diandalkannya harus dibentuk ulang menjadi sesuatu yang baru.  \n\nIa menyegel segala hal tentang kakaknya di rumahnya di Mingting. Dan suatu hari, mungkin, saat tiba waktunya meninggalkan Jinzhou, ia juga akan menyegel segala sesuatu di tempat ini?  \n\nIa tak tahu. Tapi ia tahu bahwa...  \n\n...Di sini, sekarang, kehangatan yang turun dari atas kepalanya tak berbeda sedikit pun dari bertahun-tahun lalu.  \n\nIa tahu ia bukan lagi gadis kecil yang berlari mengikuti kakaknya di pasar malam.  \n\nIa tahu surat berikutnya dari kakaknya akan tiba bulan depan.  "
+      },
+      {
+        "title": "An Unsent Record  ",
+        "content": "Pertemuan itu, hari itu... Apakah kebetulan? Atau takdir?  \n\nSaat pertama kali terbangun, kau telah melupakan segalanya. Namun mata emasmu memberitahuku bahwa apa yang kau bawa, apa yang telah kau alami, mungkin jauh melampaui apa pun yang bisa kubayangkan.  \n\nKau selalu bergegas ke depan tanpa ragu. Kau selalu bersikeras menempatkan diri di pusat badai.  \n\nApakah itu pilihan? Atau sudah menjadi insting?  \n\nKau selalu... melangkah lebih jauh dari yang lain. Dan tak peduli berapa banyak yang dulu berjalan di sisimu, kau selalu... berakhir di tempat yang tak seorang pun bisa ikuti.  \n\nTapi aku tak percaya ada jiwa yang ditakdirkan sendirian.  \n\nMungkin aku hanya ingin melakukan ini demi diriku sendiri.  \n\nAku hanya ingin melindungi seseorang... well... seseorang yang begitu sedikit tahu cara melindungi dirinya sendiri.  \n\nMeski waktu yang kita bagi mungkin, dibanding seluruh perjalananmu, tak lebih dari satu ombak di lautan tak bertepi.  \n\nNamun perasaan ini, dorongan ini... Tak ada hubungannya dengan layak atau tidak, atau dengan waktu.  \n\nIni hanyalah... harapan mewahku sendiri.  \n\nKuharap, dalam suka maupun duka, di hari cerah atau badai, saat kau butuh seseorang untuk disandari, saat kau butuh tempat curhat, aku bisa berdiri di sisimu.  \n\nKuharap...  \n\n...  \n\nUjung pulpennya berhenti.  \n\nIa menatap surat yang belum selesai itu, membacanya berulang-ulang dalam diam.  \n\nAkhirnya, ia melipat kertas itu, memasukkannya ke amplop, dan menyelipkannya di bawah laci.  \n\nIa mengeluarkan selembar kertas baru dan mulai menulis lagi.  \n\nRover, apa kabarmu akhir-akhir ini? Apakah semuanya berjalan lancar?"
+      }
+    ],
+    "specialFood": {
+      "name": "",
+      "description": "",
+      "imageUrl": ""
+    }
+  }
+}

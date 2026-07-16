@@ -1,0 +1,505 @@
+{
+  "name": "Augusta",
+  "element": "Electro",
+  "weapon": "Broadblade",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer",
+    "Heavy Attack DMG",
+    "DMG Amplification"
+  ],
+  "sonatas": [
+    "Crown of Valor"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Ephor's Palace",
+  "affiliation": "Septimont,Rinascita",
+  "class": "Congenital",
+  "image": "/characters/augusta.webp",
+  "imageBanner": "/banners/augusta-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2200+",
+    "Energy Regen": "125%",
+    "Crit Ratio (Crit Weapon)": "75-80% : 225-270%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "The False Sovereign"
+    ],
+    "bestWeapon": "Wildfire Mark",
+    "echoDetails": {
+      "note": "3PC Crown Of Valor dan 2PC Void Thunder / Lingering Tunes",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: electro%",
+            "3: electro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "the-false-sovereign",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Crown Of Valor",
+              "set": 3
+            },
+            {
+              "name": "Void Thunder",
+              "set": 2
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen (125)",
+        "ATK%",
+        "Heavy Attack DMG Bonus",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "thunderflare-dominion",
+        "percentage": "135",
+        "rank": ""
+      },
+      {
+        "id": "verdant-summit",
+        "percentage": "125",
+        "rank": ""
+      },
+      {
+        "id": "ages-of-harvest",
+        "percentage": "111",
+        "rank": ""
+      },
+      {
+        "id": "radiance-cleaver",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "lustrous-razor",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "aureate-zenith",
+        "percentage": "90.82",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Intro",
+          "[E]HA12",
+          "Skill",
+          "Ult1",
+          "[E]HA12",
+          "[E]Skill123",
+          "Ult2(Hold)",
+          "[U]BA(x9)",
+          "[U]Ult",
+          "Echo",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Normal Attack",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Hypercarry",
+        "note": "Iuno memberikan Augusta 50% Heavy DMG Amplify setelah melancarkan Outro Skill miliknya.\nSelain itu, Augusta mendapatkan manfaat dari Blessing of the Wan Light milik Iuno di mana ia mendapatkan 4% All-DMG Amplify selama 10 detik, dapat ditumpuk hingga 10 kali.",
+        "members": [
+          [
+            "Augusta"
+          ],
+          [
+            "Iuno",
+            "Mortefi"
+          ],
+          [
+            "Shorekeeper",
+            "Lynae"
+          ]
+        ]
+      },
+      {
+        "name": "Dual DPS",
+        "note": "",
+        "members": [
+          [
+            "Augusta"
+          ],
+          [
+            "Xiangli Yao",
+            "Phrolova"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      },
+      {
+        "name": "Dual DPS",
+        "note": "Mortefi memberikan Augusta 38% Heavy DMG Amplify setelah melancarkan Outro Skill miliknya, berfungsi sebagai opsi tim \"budget\" untuk Augusta.",
+        "members": [
+          [
+            "Augusta"
+          ],
+          [
+            "Mortefi"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      }
+    ],
+    "teamNote": ""
+  },
+  "skills": {
+    "basic": {
+      "name": "Hunter'S Path",
+      "description": "Basic Attack\nMelakukan hingga 4 serangan beruntun, memberikan Electro DMG.\n\nHeavy Attack - Steelclash\nMengonsumsi STA untuk menyerang target, memberikan Electro DMG. Tekan Normal Attack segera setelah melakukan Heavy Attack untuk melancarkan Basic Attack Stage 2.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack dari udara, memberikan Electro DMG.\n\nDodge Counter\nTekan Normal Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG.\n\nMid-air Dodge Counter\nTekan Normal Attack setelah Mid-air Dodge yang berhasil untuk melakukan Plunging Attack dengan mengonsumsi STA, memberikan Electro DMG.\n\nHeavy Attack - Thunderoar: Backstep\nSaat Prowess penuh, Heavy Attack - Steelclash digantikan dengan Heavy Attack - Thunderoar: Backstep, memberikan Electro DMG dan mengonsumsi seluruh Prowess.\n- Selama aksi berlangsung, lepas atau tekan Normal Attack lagi dalam periode tertentu untuk melancarkan Heavy Attack - Thunderoar: Spinslash.\n- Heavy Attack - Thunderoar: Spinslash tersedia jika Augusta tetap berada di darat selama periode tertentu setelah skill ini terhenti.\n\nHeavy Attack - Thunderoar: Spinslash\nAugusta berputar dan menyerang dengan Broadblade miliknya, memberikan Electro DMG.\n\nHeavy Attack - Thunderoar: Uppercut\nTekan Jump saat Prowess penuh untuk melancarkan Heavy Attack - Thunderoar: Uppercut, memberikan Electro DMG dan mengonsumsi seluruh Prowess.\nJika Prowess penuh saat melancarkan Resonance Skill - Warrior's Blade, tekan Resonance Skill atau Jump untuk melancarkan Heavy Attack - Thunderoar: Uppercut, memberikan Electro DMG dan mengonsumsi seluruh Prowess.\nJika Prowess penuh saat melancarkan Heavy Attack - Steelclash atau Dodge Counter — Heavy Attack: Steelclash, lepas Normal Attack setelah periode tertentu atau tekan Normal Attack atau Jump lagi untuk melancarkan Heavy Attack - Thunderoar: Uppercut, memberikan Electro DMG dan mengonsumsi seluruh Prowess.\n\nDodge Counter - Heavy Attack: Steelclash\nSaat Prowess penuh, Dodge Counter digantikan dengan Dodge Counter - Heavy Attack: Steelclash, memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG.\n\nDodge Counter - Thunderoar: Backstep\nSaat Ascendancy penuh, tekan Normal Attack setelah Dodge yang berhasil di darat untuk melancarkan Dodge Counter - Thunderoar: Backstep sebagai pengganti Dodge Counter dan Dodge Counter - Heavy Attack: Steelclash, memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG.\n- Lepas atau tekan Normal Attack lagi dalam periode tertentu selama aksi untuk melancarkan Heavy Attack - Thunderoar: Spinslash.\n- Heavy Attack - Thunderoar: Spinslash tersedia jika Augusta tetap berada di darat selama periode tertentu setelah skill ini terhenti.\n\nProwess\nAugusta dapat menampung hingga 100 poin Prowess.\n- Prowess didapatkan saat Basic Attack, Heavy Attack - Steelclash, Mid-air Attack, Mid-air Dodge Counter, Resonance Skill - Warrior's Blade, Dodge Counter, atau Dodge Counter - Heavy Attack: Steelclash memberikan damage.\n- Prowess dipulihkan sepenuhnya saat melancarkan Intro Skill - Stride of Goldenflare."
+    },
+    "skill": {
+      "name": "Warrior'S Blade",
+      "description": "Augusta melompat dan menghantamkan Broadblade miliknya ke bawah, memberikan Electro DMG."
+    },
+    "liberation": {
+      "name": "Sunward Conquest",
+      "description": "Resonance Liberation - Sword of Eternal Oath\nTekan dan lepas Resonance Liberation untuk melancarkan skill ini. Augusta akan menyapukan Broadblade miliknya ke depan, memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG.\n\nResonance Liberation - Sublime is the Sun\nSaat Majesty mencapai 2 stack, tahan Resonance Liberation untuk melancarkan Resonance Liberation - Sublime is the Sun. Melancarkan Resonance Liberation - Sublime is the Sun tidak memerlukan Resonance Energy melainkan mengonsumsi 2 stack Majesty.\n- Saat melancarkan Resonance Liberation - Sublime is the Sun, Augusta menghasilkan Ruler's Realm dan memasuki status Sworn Allegiance selama 7 detik. Dalam durasi ini, waktu dihentikan sementara, dan Resonator switching dinonaktifkan. Hanya Sublime is the Sun - Sunborne, Sublime is the Sun - Everbright Protector, dan Dodge yang dapat dilakukan dalam status Sworn Allegiance. Mid-air Attack tersedia saat berada di udara.\n- Dalam status Sworn Allegiance, tekan atau tahan Normal Attack untuk melancarkan Sublime is the Sun - Sunborne. Augusta dapat berjalan di atas air tanpa mengonsumsi STA dalam status ini.\n- Melakukan interaksi lingkungan, gameplay, atau interaksi lainnya akan mengakhiri Sworn Allegiance tanpa memicu Sublime is the Sun - Everbright Protector.\n\nSublime is the Sun - Sunborne\nMemberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG. Setelah melancarkan Sublime is the Sun - Sunborne sebanyak 9 kali, tekan Normal Attack atau Resonance Liberation untuk melakukan Sublime is the Sun - Everbright Protector.\n\nSublime is the Sun - Everbright Protector\nMemberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG. Melancarkan Sublime is the Sun - Everbright Protector mengakhiri status Sworn Allegiance dan mengonsumsi semua stack Crown of Wills kemudian. Semua Resonator lain dalam tim akan dipaksa meninggalkan medan tempur.\n- Saat Sworn Allegiance berakhir, Sublime is the Sun - Everbright Protector akan dilancarkan secara otomatis.\n- Selama Sworn Allegiance, tahan Resonance Liberation untuk melancarkan Sublime is the Sun - Everbright Protector lebih awal.\n\nRuler's Realm\n- Ruler's Realm bertahan selama 30 detik.\n- Saat Resonator dalam tim melancarkan Intro Skill di dalam Ruler's Realm, mereka mendapatkan shield setara dengan 650 + 5% dari Max HP Augusta selama 10 detik. Efek ini tidak dapat ditumpuk. Shield ini tidak akan diteruskan ke Resonator yang masuk.\n\nMajesty\nAugusta dapat menampung hingga 2 stack Majesty.\n- 1 stack Majesty didapatkan saat melancarkan Resonance Skill - Undying Sunlight: Plunge.\n- 1 stack Majesty didapatkan saat Resonator lain dalam tim melancarkan Outro Skill di bawah efek Outro Skill - Battlesong of the Unyielding milik Augusta."
+    },
+    "forte": {
+      "name": "Call Me By The Sun",
+      "description": "Resonance Skill - Undying Sunlight: Strike\nSaat Ascendancy penuh, Resonance Skill - Warrior's Blade digantikan dengan Resonance Skill - Undying Sunlight: Strike, memberikan Electro DMG.\n- Tekan Normal Attack atau Resonance Skill selama aksi berlangsung untuk melancarkan Resonance Skill - Undying Sunlight: Leap.\n- Resonance Skill - Undying Sunlight: Strike dapat dilancarkan kembali sesaat setelah terhenti.\n- Resonance Skill - Undying Sunlight: Leap dapat dilancarkan kembali beberapa saat setelah terhenti.\n- Dapat dilancarkan di udara.\n\nResonance Skill - Undying Sunlight: Leap\nMemberikan Electro DMG.\n- Tekan Normal Attack atau Resonance Skill selama aksi berlangsung untuk melancarkan Resonance Skill - Undying Sunlight: Plunge.\n- Resonance Skill - Undying Sunlight: Leap dapat dilancarkan kembali sesaat setelah terhenti.\n- Resonance Skill - Undying Sunlight: Plunge dapat dilancarkan kembali beberapa saat setelah terhenti.\n- Hanya dapat dilancarkan di udara.\n\nResonance Skill - Undying Sunlight: Plunge\nMengonsumsi seluruh Ascendancy untuk melancarkan skill ini, memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG.\n- Melancarkan skill ini memberikan 1 stack Majesty.\n- Hanya dapat dilancarkan di udara.\n\nDodge Counter - Undying Sunlight: Strike\nSaat Ascendancy penuh, tekan Resonance Skill setelah Dodge di darat yang berhasil atau tekan Normal Attack atau Resonance Skill setelah Mid-air Dodge yang berhasil untuk melancarkan Dodge Counter - Undying Sunlight: Strike, memberikan Electro DMG, yang dianggap sebagai Resonance Skill DMG.\n- Tekan Normal Attack atau Resonance Skill selama aksi berlangsung untuk melancarkan Resonance Skill - Undying Sunlight: Leap.\n- Resonance Skill - Undying Sunlight: Leap dapat dilancarkan kembali beberapa saat setelah terhenti.\n\nAscendancy\nAugusta dapat menampung hingga 100 poin Ascendancy.\n- Ascendancy didapatkan saat Normal Attack memberikan damage.\n- Melancarkan Intro Skill - Stride of Goldenflare memulihkan 20% Ascendancy.\n- Melancarkan Resonance Skill - Warrior's Blade memulihkan 10% Ascendancy.\n- Melancarkan Resonance Liberation - Sword of Eternal Oath memulihkan 40% Ascendancy."
+    },
+    "inherent": [
+      {
+        "name": "Glory'S Favor",
+        "description": "Saat Augusta memberikan damage, ia mendapatkan shield setara dengan 350 + 2.5% dari Max HP miliknya selama 5 detik, dipicu sekali setiap 0.5 detik. Efek ini tidak dapat ditumpuk. Shield ini tidak akan diteruskan ke Resonator yang masuk."
+      },
+      {
+        "name": "Blazing Valor",
+        "description": "Saat Augusta berada di luar pertempuran selama lebih dari 4 detik, ia mendapatkan efek berikut yang dapat dipicu sekali setiap 4 detik:\n- Jika Majesty kurang dari 1 stack, memulihkan 1 stack.\n- Memulihkan Crown of Wills sepenuhnya."
+      }
+    ],
+    "intro": {
+      "name": "Stride Of Goldenflare",
+      "description": "Deal electro DMG"
+    },
+    "outro": {
+      "name": "Battlesong Of The Unyielding",
+      "description": "Resonator berikutnya yang masuk ke medan tempur mendapatkan efek berikut selama 14 detik, yang akan segera berakhir jika mereka digantikan:\n- Mendapatkan 15% DMG Amplification untuk semua Attributes.\n- Melancarkan Outro Skill memberikan 1 stack Majesty dan 1 stack Crown of Wills kepada Augusta.\n\nCrown of Wills\nSetiap stack memberikan 15% Electro DMG Bonus, hingga 1 stack. Saat Resonance Liberation - Sublime is the Sun: Everbright Protector berakhir, semua stack Crown of Wills akan dihapus."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Blighted Crown of Puppet King",
+            "amount": 46
+          },
+          {
+            "item": "LF Tidal Residuum",
+            "amount": 4
+          },
+          {
+            "item": "MF Tidal Residuum",
+            "amount": 12
+          },
+          {
+            "item": "HF Tidal Residuum",
+            "amount": 12
+          },
+          {
+            "item": "FF Tidal Residuum",
+            "amount": 4
+          },
+          {
+            "item": "Luminous Calendula",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "When Irises Bloom",
+          "amount": 26
+        },
+        {
+          "item": "LF Tidal Residuum",
+          "amount": 25
+        },
+        {
+          "item": "MF Tidal Residuum",
+          "amount": 28
+        },
+        {
+          "item": "HF Tidal Residuum",
+          "amount": 40
+        },
+        {
+          "item": "FF Tidal Residuum",
+          "amount": 57
+        },
+        {
+          "item": "Waveworn Residue 210",
+          "amount": 25
+        },
+        {
+          "item": "Waveworn Residue 226",
+          "amount": 28
+        },
+        {
+          "item": "Waveworn Residue 235",
+          "amount": 55
+        },
+        {
+          "item": "Waveworn Residue 239",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "HA",
+          "value": 84.1,
+          "imagePath": "",
+          "percentage": 84.1
+        },
+        {
+          "type": "Skill",
+          "value": 11.2,
+          "imagePath": "",
+          "percentage": 11.2
+        },
+        {
+          "type": "Echo",
+          "value": 3.66,
+          "imagePath": "",
+          "percentage": 3.66
+        },
+        {
+          "type": "Intro",
+          "value": 1.1,
+          "imagePath": "",
+          "percentage": 1.1
+        }
+      ],
+      "note": "sorce // tethys.gg",
+      "title": "Damage - Agus",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1229055.63,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1448537.25,
+          "imagePath": "",
+          "percentage": 118
+        },
+        {
+          "type": "S2",
+          "value": 1840111.79,
+          "imagePath": "",
+          "percentage": 150
+        },
+        {
+          "type": "S3",
+          "value": 2143294.3,
+          "imagePath": "",
+          "percentage": 174
+        }
+      ],
+      "note": "sorce // tethys.gg",
+      "title": "Sequence - Agus",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Thunderflare Dominion",
+          "value": 1229055.63,
+          "imagePath": "",
+          "percentage": 138
+        },
+        {
+          "type": "Verdant Summit",
+          "value": 1123360.13,
+          "imagePath": "",
+          "percentage": 126
+        },
+        {
+          "type": "Ages Of Harvest",
+          "value": 998241.8,
+          "imagePath": "",
+          "percentage": 112
+        },
+        {
+          "type": "Aureate Zenith (R5)",
+          "value": 898996.15,
+          "imagePath": "",
+          "percentage": 101
+        },
+        {
+          "type": "Lustrous Razor",
+          "value": 890556.33,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Autumntrace (R5)",
+          "value": 884627.02,
+          "imagePath": "",
+          "percentage": 99
+        }
+      ],
+      "note": "sorce // tethys.gg",
+      "title": "Weapon - Agus",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Stained In Scorched Earth",
+      "description": "- Setiap stack Crown of Wills secara tambahan meningkatkan Crit. DMG Augusta sebesar 15%.\n- stack maksimum Crown of Wills ditingkatkan menjadi 2.\n- Melancarkan Intro Skill - Stride of Goldenflare sekarang memberikan 1 stack Crown of Wills.\n- Resonance Skill - Undying Sunlight: Strike, Resonance Skill - Undying Sunlight: Leap, dan Resonance Skill - Undying Sunlight: Plunge sekarang kebal terhadap gangguan (immune to interruption)."
+    },
+    {
+      "stage": "S2",
+      "name": "Cleansed In Crimson War",
+      "description": "Crown of Wills memberikan efek tambahan: Setiap stack meningkatkan Crit. Rate Augusta sebesar 20%.\n- Untuk setiap 1% Crit. Rate di atas 100%, Augusta mendapatkan peningkatan 2% Crit. DMG, hingga maksimal 100%."
+    },
+    {
+      "stage": "S3",
+      "name": "Forged In Rot And Ruin",
+      "description": "Skill berikut memiliki DMG Multiplier yang ditingkatkan sebesar 25%:\n- Heavy Attack - Thunderoar: Backstep, Dodge Counter - Thunderoar: Backstep, Heavy Attack - Thunderoar: Spinslash, Heavy Attack - Thunderoar: Uppercut.\n- Resonance Skill - Undying Sunlight: Plunge.\n- Resonance Liberation - Sublime is the Sun: Sunborne, Resonance Liberation - Sublime is the Sun: Everbright Protector."
+    },
+    {
+      "stage": "S4",
+      "name": "Ascent In Sun And Glory",
+      "description": "Melancarkan Intro Skill - Stride of Goldenflare meningkatkan ATK seluruh Resonator dalam tim sebesar 20% selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Unshaken In Wrathful Tides",
+      "description": "Shield yang diberikan oleh Inherent Skill - Glory's Favor ditingkatkan sebesar 50%."
+    },
+    {
+      "stage": "S6",
+      "name": "Engraved In Radiant Light",
+      "description": "- Augusta kini dapat menampung hingga 4 stack Crown of Wills.\n- Untuk setiap 1% Crit. Rate di atas 150%, Augusta mendapatkan peningkatan 2% Crit. DMG, hingga maksimal 50%.\n- Saat Augusta melancarkan Heavy Attack - Thunderoar: Spinslash atau Heavy Attack - Thunderoar: Uppercut, ia mendapatkan 2 stack Crown of Wills. Augusta hanya dapat memperoleh 2 stack Crown of Wills setiap 1 detik melalui Engraved in Radiant Light.\n- Saat melancarkan Heavy Attack - Thunderoar: Spinslash atau Heavy Attack - Thunderoar: Uppercut, Thunder Rage terpicu di lokasi tersebut, memberikan dua instansi Electro DMG, dengan setiap instansi setara dengan 100% dari ATK Augusta, yang dianggap sebagai Heavy Attack DMG."
+    }
+  ],
+  "lore": {
+    "description": "Ephor dari Septimont. Matahari abadi yang selamanya berkobar, dan sebuah panji yang di bawahnya kekalahan tidak pernah ada.\nIa datang. Ia melihat. Ia menaklukkan.\nDengan bilah pedang yang terangkat tinggi, ia menanti penantang berikutnya atau takdir yang mengeklaim bahwa ia tidak dapat ditentang.\n\nBIRTHPLACE\nRinascita\n\nADDITIONAL TITLES\nEphor of Septimont\nChampion of the Great Agon\nHero of Heroes",
+    "report": {
+      "resonancePower": "Magnetism Before Light",
+      "overclockDiagnostic": "[Laporan Medis Tahunan Istana Ephor—Akses Terverifikasi]\nGrafik waveform subjek menunjukkan fluktuasi elips. Pola Time Domain teratur, dan tidak ada tanda-tanda fluktuasi abnormal yang diamati. Hasil pengujian berada dalam rentang fase normal.\n\nResonant Criticality: Subjek ini memiliki risiko Overclocking yang minimal. Berdasarkan intensitas waveform, potensi Overclocking juga dikesampingkan.\n\nCatatan menunjukkan tidak ada riwayat Overclocking, dan konseling psikologis saat ini dianggap tidak perlu.\n\n\"Setiap kali kita melakukan ini, rasanya seperti memeriksa tinggi badanmu saat kau sudah menjadi wanita dewasa, yang mana... agak sedikit canggung...\"\n\n\"Tapi saat masuk ke tes fisik, kau tidak pernah gagal membuat kejutan. Yah, lebih tepatnya mengejutkan siapa pun yang merancang peralatan tes ini...\"\n\n\"Haha, benarkah begitu?\"",
+      "resonanceEvaluation": "[Di Ekstrak dari Laporan Fisik Peserta █████ Agon]\n\nNama: Augusta\nRiwayat Resonansi peserta ini bermula sejak masa kanak-kanak awal, hampir bersamaan dengan usianya. Dispekulasikan bahwa ia adalah seorang Congenital Resonator.\n\nTacet Mark milik peserta Augusta terletak di punggung tangan kirinya. Saat diaktifkan, ia dapat menghasilkan dan memanipulasi medan magnet dengan radius sekitar sepuluh meter, berpusat pada dirinya sendiri. Dengan penguasaan Forte yang semakin meningkat, ia dapat secara bebas mengendalikan dan membentuk kembali material seperti besi, kobalt, dan nikel. Namun, berdasarkan kesaksian pribadi maupun data pengujian, Forte miliknya tampaknya telah mencapai batas perkembangan (developmental ceiling), dengan radius sepuluh meter sebagai batas atas praktisnya.\n\n\"Seorang Congenital Resonator yang langka, namun Forte miliknya hanya menawarkan sedikit dukungan dalam pertempuran, dan paling banter, dapat digambarkan sebagai 'biasa saja'. Seseorang seperti dia menonjol di Agon? Itu sama mustahilnya dengan matahari yang terbit di tengah malam. Benar-benar fantasi.\" —Dari catatan pemeriksa medis\n\nTacet Mark yang terstempel di punggung tangannya sejak kecil adalah hadiah dari langit sekaligus lelucon yang kejam. Forte miliknya yang lemah dulunya mengikatnya seperti belenggu, tetapi sekarang, ia telah lama melelehkan rantai-rantai tersebut. Langkah demi langkah, ia menaiki tangga menuju takhta, membuktikan kepada semua orang bahwa bahkan seseorang yang lahir dari debu pun dapat bersinar dengan kecemerlangan matahari yang berkobar."
+    },
+    "items": [
+      {
+        "name": "Seal Of Sun And Gryphon",
+        "imageUrl": "/icons/items/augusta-1.webp",
+        "description": "Batu yang digunakan untuk membuat segel ini digali dari pegunungan tempat para leluhur Septimont pertama kali menapakkan kaki. Halus dan tangguh, permukaan putih murninya dihiasi pola berkelok yang dipahat oleh waktu itu sendiri, sebuah tanda sejarah yang tak terhapuskan yang terukir di tanah tersebut.\n\nMenghiasi segel ini adalah seekor gryphon dan matahari, keduanya ditempa dari logam mulia. Yang pertama melambangkan keberanian dan visi, sementara yang terakhir melambangkan keabadian dan kejayaan. Segel kecil ini membawa harapan dan impian para pendiri Septimont, sebuah pengingat konstan bagi pembawanya agar tidak melupakan tekad yang mengawali segalanya.\n\nAugusta masih mengingat sensasi di ujung jarinya saat ia memegangnya untuk pertama kali. Rasanya dingin namun diwarnai dengan panas yang tenang. Panas dari kekuasaan. Ia tahu betul bahwa di balik kekuasaan itu terdapat lebih dari sekadar kehormatan. Segel tersebut, meskipun cukup ringan untuk dilemparkan ke udara, terasa berat di telapak tangan, seperti beban di atas bahunya, sebuah tanggung jawab yang tidak bisa dilepaskan."
+      },
+      {
+        "name": "Old Headband",
+        "imageUrl": "/icons/items/augusta-2.webp",
+        "description": "Sebelum Augusta dikenal luas, ia mengais penghasilan dari pekerjaan serabutan untuk membeli ikat kepala ini yang dihiasi dengan pola tradisional Septimont. Kala itu, ia hanyalah seorang Gladiator tanpa nama lainnya yang menjalani kehidupan keras, tidak terlihat dan tidak terdengar. Setiap kali sebelum melangkahkan kaki ke dalam arena, ia akan mengikatkan ikat kepala ini di kepalanya. Benda ini menjadi saksi bisu dari setiap pertempuran yang ia lalui dan secara diam-diam menghapus setiap air mata sunyi yang ia teteskan.\n\nMenjelang malam Agon yang berdarah, Augusta membentangkan ikat kepala itu di atas lututnya. Dengan tangan yang kaku, ia menjahit sebaris kalimat pendek di sisi dalamnya:\n\n\"Semoga aku tidak pernah lupa mengapa aku menghunus bilah pedangku saat aku berdarah.\"\n\nHuruf-hurufnya miring, jahitannya kasar. Saat benang terakhir ditarik, ia berdiri dan mengikat ikat kepala itu dengan kencang sekali lagi.\n\nIa tidak menoleh ke belakang pada jalan yang telah membawanya sampai ke titik ini.\n\nIa tidak perlu melakukannya."
+      },
+      {
+        "name": "\"Little Acorniator\"",
+        "imageUrl": "/icons/items/augusta-3.webp",
+        "description": "Ketika Augusta masih kecil, ia membuat seorang \"teman bermain\" dari sebuah biji ek. Sama seperti saudara-saudaranya yang berbentuk aneh dan bernasib malang, biji ek itu pun berasal dari pohon ek raksasa di Fabianum.\n\nKala itu, Augusta belum mempelajari seni kerajinan tangan. Sebagian besar \"Acorniators\" yang ia buat berbentuk tidak keruan; ada yang kakinya patah, ada pula yang kepalanya penyok. Ia memberikan nama kepada masing-masing kawan kecil yang berumur pendek tersebut, lalu membaringkan mereka untuk beristirahat di taman. Sampai pada suatu malam yang hangat, ia menyerahkan sebuah Acorniator yang belum jadi kepada ayahnya. Dan di tangan ayahnya, benda itu menjadi \"hidup\". Kokoh. Gagah. Persis seperti seorang Gladiator sungguhan yang perkasa.\n\nBenar sekali. Acorniator Kecil adalah seorang Gladiator yang berprestasi. Pencapaian heroiknya meliputi:\n—Mengalahkan seekor laba-laba yang mencoba memintal jaring di helmnya.\n—Mengalahkan badai yang bertiup masuk melalui jendela.\n—Mengalahkan Acorniator \"Chunky\".\n—Mengalahkan Acorniator \"Lanky\".\n\nDalam imajinasi masa kecil Augusta yang tanpa batas, Acorniator Kecil adalah gambaran sempurna dari seorang Hero of the Heroes.\n\nTahun-tahun telah berlalu. Kini, Acorniator Kecil beristirahat dengan tenang di sudut ruang kerjanya, bagaikan seorang veteran kawakan yang menikmati masa pensiun yang layak. Sementara itu, gadis yang dulu mengaguminya tetap melangkah maju, mantap seperti biasanya, menempuh jalannya sendiri menuju kejayaan."
+      }
+    ],
+    "stories": [
+      {
+        "title": "The Whisper",
+        "content": "\"Tring!\"\nSaat pedang terlempar dari tangannya, kesadaran gadis itu pun ikut terlempar ke dalam kekacauan.\nRasa panas berdenyut melalui anggota tubuhnya. Kemudian, mati rasa. Saraf yang meregang terlalu kencang putus satu demi satu, menjatuhkannya ke dalam kegelapan yang dingin dan sunyi.\nIa tidak lagi ingat berapa kali ia telah dijatuhkan. Ia tidak tahu berapa kali lagi ia harus bangkit kembali.\nKetakutan mulai berakar di dadanya. Rasa itu melilit kemauannya yang mulai terurai bagaikan kepompong yang dipintal dari sutra.\nIa takut. Takut ia akan tumbang sebelum mencapai apa pun. Takut ia akan terjatuh di jalan yang tidak memiliki jalan kembali.\n\"Terimalah perasaan ini, Augusta...\"\nSuara itu terngiang di telinganya, menembus kegelapan bagaikan korek api yang dinyalakan di ruang hampa.\n\"Pelajarilah rasa takut. Pelajarilah kengerian. Ini adalah pelajaran pertamamu...\"\n\"Belajarlah untuk menerima kelemahanmu. Hanya dengan mengetahui kelemahan, kau bisa memahami kekuatan.\"\n\"Hanya dengan mencicipi kekalahan, kau bisa memahami nilai dari kekuasaan...\"\n\"Jalan kejayaan tidak dipersiapkan untukmu. Tetapi jika kau mencapai ujungnya, tidak akan ada yang peduli nama siapa yang kau sandang di awal.\"\n\"Tekad untuk menjadi seorang pahlawan... Itu saja sudah cukup untuk mulai menjadi salah satunya...\"\n\"Jadi tempuhlah jalan itu, Augusta... Kau tidak punya pilihan lain. Dan kau tidak butuh pilihan lain.\"\n\"Jangan mengejar cahaya seperti ngengat. Jadilah matahari yang berkobar yang tak seorang pun berani menatapnya.\"\n\"Sekarang bangkitlah, Augusta.\"\nBisikan itu merobek kepompong ketakutan, meninggalkannya kembali bersahaja di tengah kegelapan yang membeku.\nRasa dingin menyengat sisa-sisa tekad yang ia miliki, dan kemudian—\nIa berdiri.\nKakinya gemetar. Satu kaki terseret di belakang kaki lainnya. Ia meraih pedangnya. Mengambilnya.\nDan sekali lagi, ia menantang Gladiator bernama Cato.\nSejak saat itu dan seterusnya—\nIa mengayunkan kemenangan pertamanya bagaikan bilah pedang, mengukir jalannya sendiri menuju kejayaan."
+      },
+      {
+        "title": "The Right Of The Strong",
+        "content": "Hadapi. Nilai. Berikan serangan. Lalu datanglah vonis, tepuk tangan, dan sorak-sorai.\nIa mengabaikan tatapan-tatapan yang membara dan berbalik pergi tanpa menoleh untuk kedua kalinya.\nDi suatu titik dalam perjalanannya, Augusta telah kehilangan semua gairah untuk kemenangan yang datang terlalu mudah.\nIa menginginkan batu asah. Seseorang yang bisa menajamkan bilah pedangnya. Namun di seluruh Septimont, lawan seperti itu telah menjadi langka.\n\"Tidak cukup... Masih jauh dari cukup...\"\n\"Dua serangan untuk mematahkan serangan mereka. Satu untuk menghancurkan pertahanan mereka. Satu serangan terakhir untuk mengakhirinya.\"\n\"Lawan setingkat ini... Seharusnya aku bisa mengakhiri pertarungan itu dalam empat gerakan...\"\nDi ruang tunggu, Augusta duduk sendirian, meninjau kembali kekurangan dalam penampilannya.\n\"Tidak perlu terburu-buru, Augusta...\"\n\"Kau sudah memiliki pola pikir orang yang kuat. Itu bagus...\"\n\"Mencari celah, mengais kesempatan—begitulah cara orang lemah bertarung. Bagi yang kuat, kemenangan bukanlah tujuannya. Itu hanyalah permulaan.\"\nSeperti biasa, bisikan itu datang.\nItu seperti seorang mentor, sabar namun tegas. Seorang penatua yang persuasif yang muncul untuk menawarkan wawasan setiap kali ia sangat membutuhkannya.\n\"Orang yang kuat...?\" Augusta mempererat cengkeramannya pada pedangnya, ada keraguan dalam suaranya.\n\"Apakah aku... benar-benar telah menjadi salah satu dari mereka?\"\n\"Tanpa keraguan, Augusta. Kau bukan lagi gadis kecil yang tidak berdaya itu.\"\n\"Kuras setiap tetes nilai dari mereka yang lemah. Biarkan mereka yang lebih kuat menjadi bahan bakarmu.\"\n\"Naiki tangga yang dibangun dari tubuh mereka dan ambillah takhta yang memang ditujukan untukmu...\"\n\"...!\"\nSeolah-olah sebilah es menusuk tulang belakangnya, mata Augusta terbuka lebar.\n\"Ada apa, Augusta?\"\n\"Tidak ada... aku hanya...\" Ia menekan tangannya ke wajahnya, dahi berkerut, mencoba mengingat.\n\"Aku hanya... tidak bisa mengingat seperti apa rupa lawan hari ini...\"\nBeberapa hari kemudian, Augusta menerima undangan untuk menghadiri pit bawah tanah. Dulu, ia berdiri di sana sebagai seorang Gladiator. Sekarang, mereka menyambutnya sebagai tamu terhormat, duduk di antara para bangsawan.\n\"Terimalah itu, Augusta. Perluas cakrawalamu. Hanya dengan melangkah melampaui sangkar kecil itu kau bisa naik ke puncak Septimont.\"\nIa berniat untuk menolak. Namun pada akhirnya, ia mendengarkan bisikan itu. Maka ia duduk dengan kaku di kursi mewah yang tidak biasa baginya, membalas obrolan ringan kelas atas dengan kalimat sopan yang tidak terdengar seperti dirinya. Rasa tidak nyaman menyergapnya, jadi ia mengalihkan pandangannya ke arena di bawah.\nSaat itulah ia menyadari, di balik jeruji besi, terdapat jauh lebih banyak Gladiator daripada yang dibutuhkan untuk pertandingan standar mana pun.\n\"Augusta, bintang kami yang paling terang!\" kata bangsawan di sampingnya. \"Semua orang berharap penantang yang layak akan bangkit untuk menghadapimu. Sayangnya, kami belum menemukannya.\"\n\"Jadi kami telah menyiapkan sesuatu yang istimewa. Sebuah Agon yang belum pernah dilihat siapa pun sebelumnya. Tanpa aturan, tanpa batasan. Sebuah pertempuran bebas besar-besaran sampai mati!\"\nKegelisahan yang aneh merayap di dada Augusta, menyelinap diam-diam ke dalam darahnya.\n\"Lihat, Augusta! Semua yang sedang menunggu untuk masuk. Mereka semua pernah jatuh oleh bilah pedangmu. Semuanya.\"\n\"Sekarang, mereka telah diberikan kesempatan kedua. Untuk bertarung lagi. Untuk mendapatkan hak menantangmu sekali lagi.\"\n\"Dan hak itu… hanya milik orang terakhir yang tetap berdiri.\"\nSuara berdengung memenuhi kepalanya. Ia mendengar darahnya berdenyut kencang di gendang telinganya.\n\"Nikmati pertunjukannya, Augusta…\" Bisikan itu bergumam. \"Nikmati pesta yang disiapkan untukmu. Sebuah hak yang hanya dimiliki oleh yang kuat…\"\n\"Hak… orang yang kuat…\"\nGumamannya berbenturan dengan suara bisikan itu, dua batu api yang saling menghantam, dan sesuatu di dalam dirinya terbakar.\nItu menyulut darahnya. Itu menyulut keraguan dan pertanyaan-pertanyaan yang telah lama ia simpan.\n\"Tidak perlu repot-repot dengan semua itu…\"\nTacet Mark miliknya berkobar di punggung tangannya. Seberkas angin membelah udara. Pedangnya terbang langsung ke dalam genggamannya.\nPara bangsawan tersentak kaget saat Augusta bangkit dari tempat duduknya dan melompat turun ke arena.\n\"Jika kalian ingin menantangku, kalian tidak butuh hak apa pun!\" Ia menghujamkan pedangnya ke tanah, suaranya menggema di seluruh arena.\n\"Jika kalian berbagi mimpi yang sama, maka arahkan bilah pedang kalian pada orang yang paling ingin kalian kalahkan. Sekarang juga!\"\nMendengar kata-katanya, gerbang besi berderit terbuka. Para Gladiator melangkah masuk, satu demi satu, mengepungnya.\nSeketika itu juga, ingatan membanjiri pikiran Augusta. Ia memindai kerumunan itu. Apa yang tampak seperti hampir seratus pasang mata menatapnya tajam. Tidak ada satu pun yang asing baginya.\nIa mengingat nama mereka. Gerakan mereka. Kekuatan mereka. Dan kelemahan mereka.\nIa menunggu, tenang dan diam, sampai terompet perang berbunyi.\nHari itu, ia adalah orang terakhir yang berdiri di arena. Namun ia tidak mengambil nyawa satu pun.\nHari itu, ia mendengar raungan seribu suara. Namun bisikan itu… tidak ada di antara mereka."
+      },
+      {
+        "title": "The \"Flawless\" Hero",
+        "content": "\"Siapa dia?\"\n\"Kau bercanda? Itu Ephor Magno! Tidak ada satu jiwa pun di Septimont yang tidak mengenalnya.\"\n\"Ephor...\"\n\nDi bayang-bayang sudut jalan, Augusta menghabiskan gigitan terakhir roti keringnya, matanya terpaku pada sosok tinggi yang sedang berbicara di alun-alun. Pria itu tampak berusia tiga puluhan. Fitur wajahnya terpahat tegas seperti marmer, namun dilembutkan oleh senyum yang hangat dan terbuka. Saat pidatonya mencapai puncaknya, ia membentangkan tangannya lebar-lebar. Kerumunan itu meledak dalam tepuk tangan yang mengguruh.\n\nSeorang juara yang tak terkalahkan dalam Agon publik. Seorang gladiator jenius yang hanya muncul sekali dalam satu generasi. Ia telah membantai tujuh Corrosaurus di Sanguis Plateaus dan kembali hidup-hidup, bermandikan darah naga. Mereka menjulukinya \"Dragon Slayer.\" Pada masa itu, kisah-kisah tentang perbuatannya bergema di seluruh Septimont.\n\nIa mendengarkan rakyatnya. Tidak pernah menolak permohonan. Ia memerintah tanpa keserakahan. Seorang Ephor yang dipilih oleh kehendak massa. Banyak yang percaya ia akan bangkit sebagai Hero of Heroes yang dinubuatkan di era mereka.\n\nBagi Augusta, gelar itu selalu terasa jauh dan tak tergapai. Namun untuk pertama kalinya, ia melihat seseorang yang mungkin benar-benar bisa mencapainya.\n\nApi menyala di dadanya. Pencapaian-pencapaian yang dulu ia anggap berlebihan, legenda-legenda yang menggugah jiwa itu... Seseorang di masa hidupnya sendiri benar-benar telah menjalaninya. Itu berarti mimpinya bukan sekadar fantasi. Mimpi itu bisa berada dalam jangkauannya.\n\nNamun perlahan, api itu mulai mendingin. Ia mengamati wajah pria itu, tatapannya tertuju pada senyum indah yang tanpa cela itu—\n\"Mengapa seseorang yang sekuat itu... tidak bisa menyelamatkan Fabianum?\"\n\nTidak lama kemudian, Augusta berdiri berhadapan langsung dengan pria yang sama, pertanyaan-pertanyaan itu masih terasa berat di hatinya.\n\n\"Selamat, anak muda. Kau telah mendapatkan berkat Arsinosa. Kau akan dinobatkan sebagai Champion yang baru.\"\n\nDi atas panggung medali, Augusta menghadapi Magno saat ia bersiap menyematkan medali ke dadanya. Namun di balik senyum yang dipaksakan pria itu, Augusta melihat mata yang tumpul oleh kelelahan.\n\nPahlawan yang dulu ia bayangkan tidak lagi berdiri di sana. Begitu pula dengan apinya. Prajurit yang dulu dipuja sebagai Dragon Slayer telah tiada.\n\nAugusta menerima kehormatan itu dalam diam. Kemudian, tepat sebelum melangkah pergi, ia berbisik, cukup pelan sehingga hanya pria itu yang bisa mendengar—\n\"Apakah legenda tentangmu itu... pernah menjadi nyata?\"\n\nIa menjawab dengan senyum bisu yang sama.\n\nBeberapa waktu kemudian, seorang Gladiator tanpa nama muncul di pit bawah tanah. Ia mengenakan helm yang menyembunyikan wajahnya, dan baju besi hitam pekat seperti obsidian. Ia bertarung seperti orang yang tidak memiliki beban apa pun untuk dilepaskan. Hanya mencari lawan terkuat. Tanpa gaya. Tanpa martabat. Ia tidak bertarung demi kehormatan. Ia bertarung seolah-olah ia sedang memburu kematian.\n\n\"The Nameless\" mengumpulkan kemenangan dengan kecepatan yang mengerikan, segera menarik perhatian Augusta. Meskipun ia sudah dinobatkan sebagai Champion, ia menerima tantangannya.\n\nSaat bilah pedang mereka bertemu, ia tahu. Helm atau bukan, itu tidak bisa menyembunyikan mata yang sama-sama keruh dan lelah.\n\nIa tidak tahu mengapa seorang Ephor yang dihormati, seorang pahlawan yang tidak punya apa-apa lagi untuk dibuktikan, akan turun ke dalam kegelapan untuk bertarung di kandang yang berlumuran darah. Namun pada saat itu, semua itu tidak penting. Yang penting hanyalah lawan kuat di hadapannya dan bagaimana cara mengalahkannya.\n\nBaja beradu, berkali-kali. Tidak ada yang mengalah sedikit pun. Untuk memecah kebuntuan, pedang milik Nameless memercikkan aliran listrik. Busur kilat merah menari-nari di sepanjang bilahnya. Petir yang ditempa menjadi senjata. Serangan pamungkasnya, yang dimaksudkan untuk mengakhiri segalanya.\n\nDan dalam kilatan yang membutakan itu, Augusta melihatnya. Sang legenda. Prajurit dari Sanguis Plateaus, dengan petir di tangan, menembus awan badai dan keputusasaan untuk membawa harapan bagi mereka yang berada di belakangnya.\n\nTacet Mark miliknya berkobar di punggung tangannya. Ia tidak akan pernah bisa memanggil petir seperti milik pria itu. Forte miliknya hanyalah sebuah bisikan dibandingkan dengan raungan pria itu. Namun meski begitu—\n\nPercikan perlawanan yang redup itu membengkokkan petir tersebut, hanya sedikit saja.\n\nDan dalam celah sesaat itu, Augusta menyerang dengan segala yang ia miliki. Satu ayunan terakhir.\n\nSetelah hari itu, Nameless menghilang dari pit. Bagi dunia, itu hanyalah satu lagi dari sekian banyak kemenangan Augusta. Tidak ada yang menyadari bahwa sebuah legenda telah berakhir dengan tenang.\n\nBeberapa waktu kemudian, pada hari yang biasa-biasa saja, Augusta menerima sebuah surat. Sebuah undangan tulisan tangan dari Ephor's Palace."
+      },
+      {
+        "title": "Throne Of Thorns",
+        "content": "\"Sebelum kau mengajukan semua pertanyaan 'mengapa' itu... izinkan aku satu pertanyaan terlebih dahulu.\"\n\"Apakah kau... berasal dari Fabianum?\"\n\"Ya.\"\n\"Sudah kuduga. Memikirkan seorang yatim piatu dari Fabianum akan menjadi Champion di Septimont.\"\n\"Apakah kau terkejut?\"\n\"Tidak. Hanya... menyesal.\"\n\nDi ruang resepsi Ephor's Palace, senyum khas Magno telah memudar. Meskipun usianya hampir sepuluh tahun lebih tua dari Augusta, ekspresinya—berbeda dengan api kemudaan milik Augusta—menyerupai ekspresi seorang pria yang sudah berada di ambang kematian.\n\n\"Seranganmu itu,\" katanya tiba-tiba, mengingat duel mereka di pit bawah tanah, \"sangat indah. Aku ragu bahkan diriku yang lebih muda bisa menangkisnya.\"\n\"Mengapa… meskipun semua orang memanggilmu pahlawan,\" tanya Augusta, \"aku hanya bisa melihat kepasrahan di dalam dirimu?\"\n\"Aku mungkin telah hidup layak sebagai pahlawan, tetapi tidak sebagai Ephor.\"\n\"Sebagai pahlawan, aku bisa menjawab harapan sepuluh... seratus, bahkan seribu orang. Tetapi sebagai Ephor, aku tidak bisa mewujudkan satu pun visi sejati untuk Septimont.\"\n\"Kau duduk di puncak kekuasaan. Bagaimana kau bisa mengeklaim bahwa kau tidak berdaya?\"\n\"Aku tidak membuat alasan untuk diriku sendiri. Saat pertama kali mengambil peran ini, aku benar-benar percaya bahwa aku bisa memikul beban dari seribu harapan.\"\n\"Tetapi aku bisa membohongi diriku sendiri, namun tidak pada kenyataan. Anak muda... aku tahu siapa dirimu sejak awal. Hari saat kau dibawa ke Septimont, aku tahu kau adalah penyintas terakhir dari Fabianum.\"\n\"Keberadaanmu adalah pedang yang tergantung di atasku. Dan hari saat kau menjadi Champion… pedang itu akhirnya jatuh. Aku tidak lagi bisa bersembunyi dari kesalahan yang aku buat—menutup mata terhadap jatuhnya Fabianum, hanya untuk mempertahankan mahkotaku yang menyedihkan ini.\"\n\"Apakah kau menceritakan ini padaku karena rasa bersalah?\"\n\"Mungkin. Atau mungkin… harapan.\" Magno bangkit dan mengeluarkan sebuah gelas dari laci yang tersembunyi di bawah meja.\n\n\"Mahkota ini memberiku kekuatan yang sangat besar, tetapi ia juga mengubahku menjadi seorang pengecut. Aku bukan lagi pahlawan yang dibutuhkan Septimont.\" Ia mengangkat gelas kosong itu ke arahnya. \"Kenakan mahkotanya, Augusta. Kau telah mengalahkan setiap lawan yang bisa kau lihat. Sekarang saatnya menghadapi lawan-lawan yang tidak bisa kau lihat.\"\n\"Dan kau pikir aku layak hanya karena aku mengalahkanmu?\"\n\"Tidak. Tidak ada yang sependek itu.\" Magno menggelengkan kepalanya. \"Itu karena aku mendengar namamu. Dari ketinggian Septimont hingga ke dasarnya, dari aula yang bersepuh emas hingga gang-gang yang rendah. Terlepas dari kekayaan, kekuatan, kelas, atau keyakinan, orang-orang telah terhubung oleh satu nama saja. Dan aku percaya, suatu hari nanti, koneksi itu akan menjadi kekuatan baru yang mendorong Septimont maju.\"\n\"Aku menguji beban dari nama itu dengan pedangku sendiri. Itu... adalah hal terakhir yang bisa kutawarkan sebagai Ephor.\"\n\"Bahkan jika tulang-tulangmu terbakar menjadi abu, janganlah pergi dengan tenang ke dalam malam palsu itu.\" Untuk sesaat yang sangat singkat, melalui pinggiran gelasnya, kilatan api kembali muncul di mata Magno.\n\nMalam harinya, pelayan pembersih menemukan Magno duduk di atas takhta Ephor. Wajahnya pucat, bibirnya ungu. Racun, kata mereka. Sebuah gelas pecah tergeletak di kakinya, cairan yang tumpah berkilauan saat mengalir turun dari anak tangga.\n\nAda yang mengatakan itu adalah ulah para rival.\nAda pula yang mengatakan itu adalah hadiah dari Senate. Sebuah kematian yang elegan di dalam gelas.\nTetapi sebagian besar setuju bahwa Septimont membutuhkan seorang \"pahlawan\" baru.\nDan tepat seperti yang diramalkan Magno, nama Augusta mulai menyebar ke seluruh Septimont bagaikan angin.\n\nMusim semi berganti menjadi musim gugur, dan takhta Ephor menyambut penghuni barunya.\nAugusta berdiri di tempat yang dulunya hanya bisa ia pandangi dari bawah. Ia menatap takhta berduri yang telah menelan begitu banyak pahlawan. Ia teringat Magno pada malam terakhir itu. Dan dalam benaknya, ia melihat Magno mengangkat gelasnya kepada sosok yang suatu hari nanti akan duduk di sini, lalu meminum racun itu dalam-dalam.\n\nAugusta tidak memiliki banyak pemikiran rumit di benaknya. Ia tidak menaruh kebencian terhadap siapa pun. Ia telah melihat kegelapan dengan matanya sendiri, tetapi ia juga tahu seperti apa rupa cahaya itu.\nPikirannya sederhana—\nHanya seseorang yang melampaui semua pahlawan yang bisa disebut sebagai Hero of Heroes.\nDan duri-duri pada takhta itu hanyalah ujian lain yang harus diatasi.\n\nIa duduk di tempatnya dan, dengan tangan yang mantap, mengenakan belenggu sekaligus mahkota di kepalanya.\n\"Ephor Augusta, pesan dari Senate. Para Senator meminta audiensi... untuk mendiskusikan masalah yang mendesak.\" Utusan itu membungkuk di depan takhta.\n\"Baiklah,\" kata Augusta, tersenyum.\nIa sangat bersemangat untuk bertemu dengan para \"lawan\" di luar arena ini.\n\"Tunjukkan jalannya.\""
+      },
+      {
+        "title": "One Day, In The Arena...",
+        "content": "Bagi Augusta, kehidupan sebagai Hero of Heroes tidaklah jauh berbeda dari sebelumnya.\nKetika perayaan singkat berakhir, stack dokumen masih tetap ada. Selama apa pun sensasi kemenangan bertahan, ia akan selalu tersapu oleh gelombang tenang kehidupan sehari-hari.\n\nNamun Augusta tidak keberatan dengan hari-hari yang tenang seperti ini. Agons masih meraung dengan gairah. Tidak peduli era apa pun, Septimont tetap menjadi bangsa yang membara dengan semangat.\nSegalanya bergerak menuju masa depan yang lebih cerah. Semua orang bergerak maju.\n\nNamun, Augusta masih memiliki satu kekhawatiran kecil.\nSebagai Ephor Septimont, ia lebih dari siap untuk membayangkan masa depan yang bersinar bagi rakyatnya. Namun sebagai Augusta, ia mendapati dirinya terpaku pada catatan kaki ceritanya sendiri.\nDari masa kecil hingga sekarang, ia telah menempuh jalan kejayaan. Dan kini, ia berdiri di ujungnya.\nIa telah memenuhi ramalan kuno dan menjadi Hero of Heroes yang dulu ia kagumi.\nIa telah bertemu dengan mereka yang ditakdirkan untuk berjalan di sampingnya dan mengatasi ujian yang dulu ia anggap mustahil.\n\nJika seseorang menulis sebuah kisah untuk diwariskan turun-temurun, ini mungkin saja menjadi kesimpulannya. Bab terakhir dari Hero of Heroes, Augusta.\nSebuah akhir yang sempurna. Sesuatu yang tidak menyisakan ruang untuk penyesalan.\nNamun hidup bukanlah sebuah drama. Hidup tidak berakhir hanya karena klimaksnya telah berlalu.\n\nIa bertanya-tanya, dan ia ingin bertanya-tanya—\nKetika Septimont tidak lagi membutuhkan Augusta, ketika negeri ini mulai melahirkan legenda-legenda baru—\nKetika kisah ini benar-benar berakhir... Ia bisa menjadi apa selanjutnya?\n\nDengan pertanyaan yang terus mengganggunya itu, Augusta menyelinap keluar dari Ephor's Palace.\nIa tidak memilih arah. Ia membiarkan instingnya yang memimpin.\nSambil berkelana, ia terus berpikir—\nHaruskah ia mengejar kekuatan yang lebih besar? Mencari lawan baru yang tangguh? Menjelajahi daratan di luar Septimont? Atau mungkin, ketika semuanya sudah selesai, meletakkan pedangnya dan menjalani kehidupan yang tenang dan memuaskan?\nBegitu banyak kemungkinan. Begitu banyak jalan terbentang di hadapannya.\n\nPada saat Augusta tersadar kembali, ia menyadari bahwa ia telah berjalan menuju arena. Tempat yang menyimpan begitu banyak kenangannya.\nHari ini adalah hari istirahat. Arena tersebut, untuk sekali ini, berdiri kosong.\nTidak, tidak sepenuhnya kosong.\nSeolah ditarik oleh suatu kesepakatan diam-diam, seseorang yang lain juga telah berkelana ke sana.\n\nMata Rover mereka bertemu dengan mata Augusta. Dan mereka berdua tersenyum, seolah berbagi rahasia yang hanya diketahui oleh mereka berdua.\nBegitu saja, semua kekhawatiran Augusta mencair.\nIa belum memiliki jawabannya. Namun ia masih punya waktu untuk menemukannya.\nTidak perlu terburu-buru.\n\n\"Sudah lama sejak terakhir kali aku melakukan peregangan dengan benar…\"\n\"Nah, teman baikku—\"\n\"Bagaimana kalau kita melakukan latih tanding yang sudah lama tertunda?\""
+      }
+    ],
+    "specialFood": {
+      "name": "Sweetleaf Blooming Bread",
+      "imageUrl": "/icons/food/augusta.webp",
+      "description": "Memberikan 44% Heavy Attack DMG Bonus kepada seluruh Resonator dalam tim selama 30 menit. Hanya efektif pada Resonator milik Anda sendiri dalam Co-op Mode."
+    }
+  }
+}

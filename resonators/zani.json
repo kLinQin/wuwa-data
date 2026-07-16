@@ -1,0 +1,483 @@
+{
+  "name": "Zani",
+  "element": "Spectro",
+  "weapon": "Gauntlet",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer",
+    "Heavy Attack DMG",
+    "Spectro DMG Amplification",
+    "Spectro Frazzle"
+  ],
+  "sonatas": [
+    "Eternal Radiance"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "input",
+      "isNew": false
+    }
+  ],
+  "faction": "Montelli Family",
+  "affiliation": "Ragunna,Rinascita",
+  "class": "Mutant",
+  "image": "/characters/zani.webp",
+  "imageBanner": "/banners/zani-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110-120%+",
+    "Crit Ratio (Crit Weapon)": "50-70% : 270-315%",
+    "Crit Ratio (Non Crit Weapon)": "50% : 265%"
+  },
+  "build": {
+    "bestEcho": [
+      "Capitaneus",
+      "Nightmare: Mourning Aix"
+    ],
+    "bestWeapon": "Blazing Justice",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Dps",
+          "echoSlug": "capitaneus",
+          "echoSlugSecondary": "nightmare-mourning-aix",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: spectro%",
+            "3: spectro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Eternal Radiance"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Heavy Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "Capitaneus 4-6% lebih baik daripada menggunakan NM: Mourning Aix.\n\nKarena Eternal Radiance memberikan tambahan 20% Crit. Rate saat dalam pertempuran, disarankan untuk menggunakan Mainstat 4-cost Crit. DMG, terutama saat Zani dipasangkan dengan Shorekeeper. Jika tidak, Zani mungkin akan melampaui batas (overcap) Crit. Rate."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "blazing-justice",
+        "rank": "",
+        "percentage": "122"
+      },
+      {
+        "id": "tragicomedy",
+        "rank": "",
+        "percentage": "116"
+      },
+      {
+        "id": "veritys-handle",
+        "rank": "",
+        "percentage": "105"
+      },
+      {
+        "id": "pulsation-bracer",
+        "rank": "",
+        "percentage": "-"
+      },
+      {
+        "id": "abyss-surges",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "stonard",
+        "rank": "",
+        "percentage": "-"
+      },
+      {
+        "id": "hollow-mirage",
+        "rank": "5",
+        "percentage": "90"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Intro",
+          "Echo",
+          "Skill",
+          "BA",
+          "Forte",
+          "Ult1",
+          "[U]BA12 or Parry",
+          "[U]BA3",
+          "[U]BA12 or Parry",
+          "[U]BA3",
+          "Ult2",
+          "Skill",
+          "BA",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Hypercarry - Zani",
+        "members": [
+          [
+            "Zani"
+          ],
+          [
+            "Phoebe",
+            "Spectro Rover"
+          ],
+          [
+            "Chisa",
+            "Spectro Rover",
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Phoebe (Confession) adalah rekan tim terbaik (best in slot) bagi Zani, memberikan Zani tumpukan Spectro Frazzle, Amplify, dan pengurangan Spectro RES kepada musuh di sekitar."
+      }
+    ],
+    "teamNote": "Rover: Spectro adalah opsi slot ketiga terbaik untuk mencapai batas kemampuan (skill ceiling) yang lebih tinggi. kalian juga dapat menggunakan healer lain seperti Shorekeeper sebagai gantinya."
+  },
+  "skills": {
+    "basic": {
+      "name": "Routine Negotiation",
+      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut untuk  Spectro DMG.\nSetelah melakukan Basic Attack Stage 3, dapat menekan Normal Attack pada waktu yang tepat untuk melakukan Basic Attack Breakthrough, lalu melanjutkan ke Basic Attack Stage 4 dengan menekan Normal Attack lagi.\nSetelah Basic Attack Stage 3, Basic Attack Stage 4 juga dapat diaktifkan dengan melakukan dodging (menghindar), lalu menekan Normal Attack dalam waktu tertentu setelah Basic Attack Stage 3.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target, memberikan  Spectro DMG.\nMenekan Normal Attack dalam waktu tertentu dapat melakukan Basic Attack Stage 3.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan plunging attack, memberikan  Spectro DMG.\nMenekan Normal Attack dalam waktu tertentu dapat melakukan Basic Attack Stage 3.\n\nDodge Counter\nMenekan Normal Attack dalam waktu tertentu setelah berhasil melakukan dodge (menghindar) untuk menyerang target, memberikan  Spectro DMG.\nSetelah itu, menekan Normal Attack pada waktu yang tepat akan mengaktifkan Basic Attack Breakthrough.\nJika Dodge Counter tidak dilanjutkan dengan Basic Attack Stage 4, dapat menekan Normal Attack di darat dalam waktu tertentu untuk mengaktifkan Basic Attack Stage 4."
+    },
+    "skill": {
+      "name": "Restless Watch",
+      "description": "Standard Defense Protocol\nMenyerang target untuk memberikan  Spectro DMG dan memasuki posisi bertahan (block stance).\nStatus ini akan berakhir lebih cepat jika Zani diganti keluar dari medan pertempuran.\nMenekan Normal Attack dalam waktu tertentu dapat melakukan Basic Attack Stage 3, memulihkan 10 poin Redundant Energy dan menyebabkan efek Stagnate pada target saat terkena serangan.\nSaat menerima serangan dari musuh dalam posisi bertahan, serangan tersebut akan mengurangi 100% DMG yang diterima dan memberikan efek Stagnate ke target di sekitar, lalu mengaktifkan Resonance Skill Pinpoint Strike, memberikan memberikan  Spectro DMG serta mengurangi Vibration Strength mereka sebesar 5%.\nDMG yang diterima oleh Zani juga dikurangi sebesar 30% selama 2 detik setelahnya.\n\nCrisis Response Protocol\nSaat Zani tidak berada dalam Inferno Mode dan memiliki Redundant Energy penuh, Resonance Skill miliknya akan digantikan menjadi Resonance Skill Crisis Response Protocol.\nMenahan tombol Resonance Skill akan membuat Zani memasuki Ready Stance. Selama berada di Ready Stance, Zani kebal terhadap interupsi. Status ini akan berakhir lebih cepat jika Zani diganti keluar dari medan pertempuran.\nSetelah melepaskan tombol Resonance Skill atau saat durasi stance berakhir, semua Redundant Energy akan dikonsumsi untuk mengaktifkan Targeted Action, memberikan  Spectro DMG.\nJika terkena serangan musuh saat berada di Ready Stance, serangan tersebut akan mengurangi 100% DMG yang diterima dan semua Redundant Energy akan dikonsumsi untuk mengaktifkan Forcible Riposte, memberikan  Spectro DMG, menyebabkan efek Stagnate pada target, serta mengurangi Vibration Strength mereka sebesar 5%.\nDMG yang diterima oleh Zani juga dikurangi sebesar 30% selama 2 detik setelahnya.\nMengaktifkan Targeted Action atau Forcible Riposte akan memberikan satu stack Heliacal Ember kepada target saat terkena serangan dan memulihkan Blaze sebelum masuk ke mode Sunburst.\n\nSunburst\n Spectro Frazzle DMG yang diberikan oleh Zani kepada target akan diperkuat sebesar 20%. \n\n"
+    },
+    "liberation": {
+      "name": "Between Dawn And Dusk",
+      "description": "Rekindle\nMemberikan  Spectro DMG dan memasuki Inferno Mode, meningkatkan Max Blaze dari 100 menjadi 150 serta memberikan 50 Blaze.\nSaat berada dalam Inferno Mode, DMG Multiplier dari Basic Attack akan meningkat.\n\nThe Last Stand\nSaat berada dalam Inferno Mode, Resonance Liberation The Last Stand akan tersedia ketika Blaze berada di bawah 30 atau setelah 8 detik dalam Inferno Mode.\nMengaktifkan Resonance Liberation The Last Stand akan memberikan Memberikan  Spectro DMG dan mengakhiri Inferno Mode."
+    },
+    "forte": {
+      "name": "There Will Be A Light",
+      "description": "Heliacal Ember\nSaat Zani berada di dalam tim dan Resonator terdekat memberikan  Spectro Frazzle kepada target, semua stack  Spectro Frazzle akan langsung dikonsumsi dan DMG yang sesuai akan terpicu, lalu  Spectro Frazzle tersebut akan dikonversi menjadi jumlah Heliacal Embers yang sama.\nSetiap kali konversi terjadi, Zani akan mendapatkan Blaze berdasarkan jumlah stack Heliacal Embers yang diberikan.\nHeliacal Ember memiliki batas maksimum 60 stack, dengan setiap stack bertahan selama 6 detik.\nStack Heliacal Embers juga dihitung sebagai stack  Spectro Frazzle untuk efek Eternal Radiance Sonata.\n\nScorching Light\nSaat Zani berada dalam Inferno Mode, Heavy Slash - Daybreak, Heavy Slash - Dawning, Heavy Slash - Nightfall, dan Heavy Slash - Lightsmash akan tersedia, yang Memberikan  Spectro DMG dan dianggap sebagai Heavy Attack DMG sekaligus  Spectro Frazzle DMG.\nSaat Blaze lebih dari 30, Resonance Skill Standard Defense Protocol akan digantikan menjadi Resonance Skill Scorching Light.\nMenahan tombol Resonance Skill akan membuat Zani memasuki Ready Stance, di mana Zani kebal terhadap interupsi. Status ini akan berakhir lebih cepat jika Zani diganti keluar dari medan pertempuran.\nMelepaskan tombol Resonance Skill akan mengonsumsi Blaze untuk melakukan Heavy Slash - Daybreak.\nJika terkena serangan dalam waktu tertentu setelah memasuki Ready Stance, serangan tersebut akan mengurangi 100% DMG yang diterima dan menyebabkan efek Stagnate pada target di sekitar, lalu mengaktifkan Heavy Slash - Lightsmash, mengonsumsi Blaze serta mengurangi Vibration Strength mereka sebesar 10%.\nDMG yang diterima dalam 2 detik berikutnya juga akan dikurangi sebesar 30%.\nSetelah mengaktifkan Heavy Slash - Lightsmash, Basic Attack akan digantikan dengan Heavy Slash - Nightfall, yang mengonsumsi hingga 40 Blaze saat mengenai target, dengan setiap Blaze meningkatkan DMG Multiplier dari Heavy Slash - Nightfall.\nSaat Ready Stance berakhir, Heavy Slash - Nightfall akan langsung diaktifkan.\nSaat Blaze lebih dari 30, Basic Attack akan digantikan dengan Heavy Slash - Daybreak. Setelah memasuki Inferno Mode, mengaktifkan Basic Attack akan langsung menggantikan Basic Attack saat ini dengan Resonance Skill Scorching Light.\nMenahan Basic Attack akan membuat Zani memasuki Ready Stance.\nSetelah melakukan Heavy Slash - Daybreak, Basic Attack akan digantikan dengan Heavy Slash - Dawning jika Zani memiliki lebih dari 30 Blaze.\nHeavy Slash - Dawning akan mengonsumsi Blaze.\nSetelah melakukan Heavy Slash - Dawning, Basic Attack akan digantikan dengan Heavy Slash - Nightfall.\nJika Basic Attack tidak digantikan dengan Heavy Slash - Nightfall setelah berhasil melakukan dodge (menghindar), dapat menekan Normal Attack dalam waktu tertentu untuk melakukan Heavy Slash - Lightsmash dengan biaya Blaze.\n\nRedundant Energy\nZani dapat menyimpan hingga 100 Redundant Energy.\nRedundant Energy diperoleh saat Normal Attack mengenai target.\nRedundant Energy diperoleh saat Intro Skill Immediate Execution mengenai target.\nRedundant Energy diperoleh saat mengaktifkan Resonance Skill Standard Defense Protocol.\nRedundant Energy diperoleh saat mengaktifkan Pinpoint Strike.\nRedundant Energy tidak dapat diperoleh saat berada dalam Inferno Mode.\n\nBlaze\nBlaze dibatasi hingga 100 saat tidak berada dalam Inferno Mode.\nBlaze dibatasi hingga 150 saat berada dalam Inferno Mode.\nMengaktifkan Targeted Action atau Forcible Riposte akan memberikan 10 Blaze .\nSetiap stack Heliacal Ember yang dikonversi dari  Spectro Frazzle akan memberikan 5 Blaze .\nMengaktifkan Resonance Liberation Rekindle akan memberikan 50 Blaze ."
+    },
+    "inherent": [
+      {
+        "name": "Quick Response",
+        "description": "Mengaktifkan Intro Skill Immediate Execution memberikan 12%  Spectro DMG Bonus selama 14 detik."
+      },
+      {
+        "name": "Fear No Pain",
+        "description": "Saat berada dalam Ready Stance, semua DMG yang diterima dikurangi sebesar 40%."
+      }
+    ],
+    "intro": {
+      "name": "Immediate Execution",
+      "description": "Menyerang musuh, memberikan  Spectro DMG."
+    },
+    "outro": {
+      "name": "Beacon For The Future",
+      "description": "Menyerang target, memberikan  Spectro DMG sebesar 150% dari ATK milik Zani dan menghapus semua stack Heliacal Ember yang diberikan kepada target.\nSetiap stack akan meningkatkan DMG yang diberikan sebesar 10%.\nDMG ini dianggap sebagai  Spectro Frazzle.\n Spectro DMG yang diberikan oleh Resonator lain di dalam tim kepada target yang ditandai oleh Heliacal Ember akan diperkuat sebesar 20% selama 20 detik."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Platinum Core",
+            "amount": 46
+          },
+          {
+            "item": "LF Polygon Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Polygon Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Polygon Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Polygon Core",
+            "amount": 4
+          },
+          {
+            "item": "Sword Acorus",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "The Netherworld's Stare",
+          "amount": 26
+        },
+        {
+          "item": "LF Polygon Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Polygon Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Polygon Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Polygon Core",
+          "amount": 57
+        },
+        {
+          "item": "Cadence Seed",
+          "amount": 25
+        },
+        {
+          "item": "Cadence Bud",
+          "amount": 28
+        },
+        {
+          "item": "Cadence Leaf",
+          "amount": 55
+        },
+        {
+          "item": "Cadence Blossom",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Zani",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Blazing Justice",
+          "value": 1223116.85,
+          "percentage": 122.41,
+          "imagePath": ""
+        },
+        {
+          "type": "Tragicomedy",
+          "value": 1162092.79,
+          "percentage": 116.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Verity'S Handle",
+          "value": 1059759.32,
+          "percentage": 106.06,
+          "imagePath": ""
+        },
+        {
+          "type": "Abyss Surges",
+          "value": 999220.15,
+          "percentage": 100,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Zani",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Outro (Frazzle)",
+          "value": 9.2,
+          "percentage": 9.2,
+          "imagePath": ""
+        },
+        {
+          "type": "BA",
+          "value": 2,
+          "percentage": 2,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 0.8,
+          "percentage": 0.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill (Frazzle)",
+          "value": 5.7,
+          "percentage": 5.7,
+          "imagePath": ""
+        },
+        {
+          "type": "HA (Frazzle)",
+          "value": 65.8,
+          "percentage": 65.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 12.3,
+          "percentage": 12.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 2.7,
+          "percentage": 2.7,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Zani",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 1223116.85,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 1494438.74,
+          "percentage": 122.18,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1777455.94,
+          "percentage": 145.32,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1926937.22,
+          "percentage": 157.54,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "When The Alarm Clock Rings",
+      "description": "Mengaktifkan Targeted Action atau Forcible Riposte akan memberikan 50%  Spectro DMG Bonus selama 14 detik.\nKebal terhadap interupsi saat mengaktifkan Resonance Skill Heavy Slash - Nightfall."
+    },
+    {
+      "stage": "S2",
+      "name": "Stale Bread With Energy Drink",
+      "description": "Crit. Rate meningkat sebesar 20%.\nDMG Multiplier dari Targeted Action dan Forcible Riposte meningkat sebesar 80%."
+    },
+    {
+      "stage": "S3",
+      "name": "Each Day A New Commute",
+      "description": "Saat berada dalam Inferno Mode, setiap 1 Blaze yang dikonsumsi akan meningkatkan DMG Multiplier dari Resonance Liberation The Last Stand sebesar 8%, dengan batas maksimum 1200%."
+    },
+    {
+      "stage": "S4",
+      "name": "More Efficiency, Less Drama",
+      "description": "Saat Intro Skill Immediate Execution diaktifkan, ATK semua Resonator di dalam tim akan meningkat sebesar 20% selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Delivered In Full On Time",
+      "description": "DMG Multiplier dari Resonance Liberation Rekindle meningkat sebesar 120%."
+    },
+    {
+      "stage": "S6",
+      "name": "First Things First? Clock Out!",
+      "description": "DMG Multiplier dari Heavy Slash - Daybreak, Heavy Slash - Dawning, Heavy Slash - Nightfall, dan Heavy Slash - Lightsmash meningkat sebesar 40%.\nMendapatkan efek berikut saat berada dalam Inferno Mode:\n- Saat Blaze berada di bawah 70, akan langsung memulihkan 70 Blaze. Efek ini hanya terpicu satu kali selama berada dalam Inferno Mode.\n- Dalam 8 detik setelah memasuki Inferno Mode, Zani akan tetap berdiri dengan setidaknya 1 HP jika terkena serangan fatal."
+    }
+  ],
+  "lore": {
+    "description": "Anggota tim keamanan Averardo Vault dan pemegang gelar \"Karyawan Terbaik\" selama lebih lama dari yang ingin ia ingat. \nIa punya banyak rencana untuk waktu luangnya, tapi untuk sekarang, \nmisinya yang paling penting sangat sederhana: pulang tepat waktu.\n\nBIRTHPLACE\nRinascita\n\nADDITIONAL TITLES\nThe Blazing Nightwalker",
+    "report": {
+      "resonancePower": "Scorched Radiance",
+      "resonanceEvaluation": "[Profil Karyawan Averardo Vault — Access Permission Confirmed]\n\nNama Karyawan: Zani\n\nRiwayat Awakening milik Zani tetap tidak diketahui. \nTingkat perkembangan Forte serta frekuensi penggunaannya tergolong tinggi.\n\nTacet Mark milik Zani membentang secara diagonal di punggungnya. \nSetelah mengalami Awakening, ia menunjukkan perubahan fisik yang signifikan, termasuk tumbuhnya tanduk menyerupai kambing jantan dan ekor ramping yang memanjang dari tulang ekornya. \nSaat mengaktifkan Forte, Zani dapat menyimpan energi kinetik berlebih di dalam tubuhnya untuk memperkuat kemampuan fisik. \nEnergi yang tersimpan ini tampak secara visual sebagai aliran cahaya terang yang keluar dari tanduk, ekor, dan rambutnya. \nSelain itu, tanda-tanda bercahaya muncul di seluruh bagian tubuh atasnya. \nMenurut pengakuannya, tanda tersebut adalah bekas luka yang telah sembuh, meninggalkan jejak samar yang nyaris tak terlihat oleh mata telanjang. \nDiduga struktur halus dari kulit yang telah sembuh ini memungkinkan konsentrasi energi di area tersebut.\n\nZani menceritakan sebuah insiden beberapa tahun lalu, di mana ia terluka parah akibat upaya penyerangan yang direncanakan oleh ▇▇▇▇▇▇▇. \nDi tengah serangan tersebutlah ia membangkitkan Forte-nya, dan berhasil mengusir para penyerang menggunakan kemampuan barunya. \nHasil analisis Resonance Spectrum Pattern tidak mampu menentukan penyebab Awakening-nya. Pengujian sampel menunjukkan Rabelle’s Curve yang tidak konvergen. \nKarena itu, Zani diklasifikasikan sebagai seorang Mutant Resonator dengan periode inkubasi.\n\n\"Ciri fisik khas Zani pasca-Awakening mengingatkanku pada legenda-legenda lama yang pernah dikumpulkan keluargaku. \nCerita-cerita itu menyebutkan sosok-sosok supernatural aneh yang konon bersembunyi di bayang-bayang jauh sebelum Lament. \nMungkinkah ada kaitan antara legenda itu dan penyebab Awakening-nya? \nAtau ini hanya kebetulan aneh belaka?\"\n\n\"Jangan dipikirkan terlalu dalam. Mungkin dia bangkit karena Tumbleyak... atau kambing.\"",
+      "overclockDiagnostic": "[Profil Karyawan Averardo Vault — Access Permission Confirmed]\n\nGrafik waveform milik karyawan ini menunjukkan fluktuasi elips. \nPola Time Domain terpantau teratur dan tidak ditemukan tanda-tanda fluktuasi abnormal. \nHasil pengujian dinilai berada dalam fase normal.\n\nResonant Criticality: Tinggi. \nKaryawan ini memiliki tingkat stabilitas tinggi dengan risiko Overclocking yang minimal.\n\nCatatan menunjukkan tidak ada riwayat Overclocking. \nTidak ada kebutuhan saat ini untuk konseling psikologis.\n\n\"Sejujurnya, aku tidak heran dengan hasil ini. \nKetahanan mental Nona Zani mungkin lebih kuat dari dinding tahan ledakan di Vault! \nDengan semua stres yang ia hadapi di tempat kerja, aku nggak akan kaget kalau dia sudah menemukan cara melepas penat yang sangat efektif. \nKupikir aku akan tanya langsung setelah tugasku hari ini selesai. \nAkan bagus kalau bisa dibagikan ke Resonator lain di keluarga.\"\n— Memo Departemen Riset\n\n\"Cara aku ngilangin stres? \nYah, kadang aku... ugh, kerja sukarela setelah jam kerja. \nItu termasuk, kan?\"\n— Zani"
+    },
+    "items": [
+      {
+        "name": "Personal Memo",
+        "description": "Sebuah buku catatan—teman setia Zani. \n\nIsinya bukan cuma jadwal harian dan tugas penting, tapi juga beragam life hack yang ia kumpulkan sepanjang waktu.\n\nMulai dari resep yang ia temukan di forum, tips sukses dari buku laris, hingga tutorial cepat memperbaiki mesin cuci dalam lima menit—Zani mencatat segala macam trik yang tampaknya tak berguna. \n\nKoreksi. \n\nTrik yang benar-benar nggak ada gunanya.\n\nNamun bagi Zani, setiap catatan adalah bagian berharga dari kesehariannya. \n\nIa tetap menyimpan harapan bahwa suatu hari nanti, semua trik itu akan berguna. \n\nMungkin hari ini saat ia sedang libur kerja, atau saat liburan jauhnya berikutnya, atau mungkin saja...",
+        "imageUrl": "/icons/items/zani-1.webp"
+      },
+      {
+        "name": "\"Master Of Time Management\"",
+        "description": "Sebuah jam alarm—teman setia Zani.\n\nJam ini adalah jenis hibrida: dari desain dan bahannya, ia tampak seperti jam saku, tapi ukurannya jauh lebih besar. \n\nSetiap pagi di hari kerja, dentingannya membangunkan Zani dengan keras, menandai dimulainya hari.\n\nSebagai karyawan Montelli, Zani menangani kekayaan besar dan rahasia tersembunyi, dan bahkan keterlambatan satu menit saja bisa berujung pada kerugian yang katastrofik. \n\nKarena itulah, ketepatan waktu sangatlah penting baginya.\n\nZani membagi harinya ke dalam segmen-segmen waktu yang terukur dengan cermat, memastikan semua tenggat dapat ia penuhi dengan presisi tinggi. \n\nMeski sebagian orang mengira ia memang terlahir dengan bakat manajemen waktu, hanya para karyawan lama yang tahu kenyataannya: Zani telah bekerja keras tanpa henti untuk mencapai efisiensi seperti itu.",
+        "imageUrl": "/icons/items/zani-2.webp"
+      },
+      {
+        "name": "A Token Of Gratitude",
+        "description": "Bagi Zani, membantu orang lain hanyalah bagian dari rutinitas sehari-hari—bukan sesuatu yang perlu dibanggakan atau dicari pengakuannya. Pernah berada di posisi sulit, ia tahu betapa berharganya sebuah uluran tangan. \n\nDan ketika ia akhirnya cukup kuat untuk menghadapi kekejaman, ia memilih untuk menjadi tangan penolong itu. \n\nTanpa pamrih. \n\nKarena memang begitulah dirinya.\n\nBeberapa bekas luka di tubuhnya adalah pengingat dari kasus penculikan yang sudah lama dilupakan oleh Ragunnesi. \n\nSetelah perjuangan panjang, ia berhasil menyelamatkan gadis kecil yang diculik. \n\nSebagai tanda terima kasih, gadis itu menghadiahkan mainan ini kepada Zani sebelum orang tuanya tiba.\n\nBagi Zani, apa yang ia lakukan mungkin terasa biasa saja. \n\nTapi bagi orang lain, itu mengubah segalanya. \n\nIa tak sering mengingatnya, namun mainan itu tetap ia simpan—sebagai pengingat diam-diam akan masa lalunya.",
+        "imageUrl": "/icons/items/zani-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "\"A Regular\"",
+        "content": "Sudah lewat tengah malam, dan cahaya dari jendela-jendela toko perlahan padam, meninggalkan kota Ragunna yang semarak dalam pelukan sunyi yang khidmat. \nBahkan Signor Octopus di menara lonceng seolah ikut terlelap. \nYah, kalau Echo memang bisa bermimpi, tentu saja.\n\n\"Sepertinya nggak bakal ada pelanggan lagi malam ini,\" \n\nMargherita menguap. \n\n\"Yah, mendingan beres-beres dan pulang.\"\n\n\"Ciao, Margherita. Seperti biasa. \nNectarwine dan kentang goreng. \nTambah selai gemberry dan lada hitam. \nTerima kasih.\"\n\nMargherita terdiam sejenak mendengar suara familiar dari belakangnya. \nSuara itu membawa beban kelelahan yang berat, seolah jiwa si pemiliknya sudah ditarik ke langit oleh Imperator, menyisakan tubuh kosong yang masih tersisa. \nBagi orang luar yang tak mengenal Ragunna, nada hambar itu bisa saja membuat mereka langsung kabur.\n\n\"Sudah lama nggak mampir, Nona Zani,\" \n\nujar Margherita sambil tetap sibuk membersihkan remah-remah pizza dari oven. \n\n\"Baru pulang kerja? Akhir-akhir ini sibuk ya?\"\n\n\"Yah, bisa dibilang begitu,\" \n\njawab Zani, tatapannya terpaku pada meja seakan yang dilihatnya adalah tumpukan laporan baru dicetak, bukan pizza hangat yang menggoda. \n\n\"Kau tahu sendiri, dengan Carnevale yang sebentar lagi, Bank kerja kayak tiga orang sekaligus. Tapi ya, itu juga nggak terlalu ngaruh. Beban kerjanya nggak ada habisnya juga.\"\n\n\"Bagi kami, keluarga Montelli, Carnevale adalah peluang sekaligus tantangan.\n\nItu yang dikatakan Alberto saat ia menerima tugasnya. \n\n\"Demi masa depan Ragunna, kita semua harus menjalankan peran kita.\"\n\nTapi bagi Zani, kata-kata itu terasa hampa. \nIa bekerja untuk Bank karena mereka membayar. Ia bukan aktor yang datang untuk \"bermain peran.\" Meskipun begitu, ia harus mengakui—tamu yang harus ia lindungi kali ini sempat memantik sedikit rasa penasaran di hatinya. \nAroma kentang goreng dari penggorengan mulai menyebar, membuat perutnya merintih protes.\n\n\"Besok sarapan apa ya?\" \n\npikirnya. \n\n\"Pancake tadi pagi dingin dan bikin perutku sakit. Mungkin bubur pakai telur panggang aja... \nOh, dan dua sendok gula. Wajib.\"\n\nTepat saat itu, suara retakan kecil memecah keheningan malam. \nMargherita yang sedang sibuk dengan penggorengan tak menyadarinya. \nMungkin seluruh kota Ragunna yang tengah tertidur pun tak menyadarinya. \nTapi Zani sadar. \nIa mendongak dan melihat bayangan melintas di atap. \nSuara itu berasal dari genteng lepas yang terinjak secara ceroboh.\n\nCarnevale tidak hanya menarik turis yang taat hukum.\n\nDengan helaan napas pasrah, Zani merogoh dompet dan meletakkan beberapa Shell Credit di atas meja. \nBatal sudah camilan tengah malamnya.\n\n\"Ta-da! Kentang gorengmu sudah siap, Nona Zani—\" \n\nseru Margherita sambil berbalik membawa sepiring penuh, hanya untuk mendapati bangku tempat Zani duduk kini kosong."
+      },
+      {
+        "title": "Shadow Of The Blaze",
+        "content": "Kutipan dari Edisi Khusus Pioneer Express: Penjaga Malam — Inkarnasi Keadilan, atau Penjahat Licik?\n\n\"Saat aku ingin berteriak, dia langsung melesat di atas kepalaku! \nDia... Nggak, tunggu, dia itu cewek. \nYa, aku rasa perempuan. \nGerakannya cepat banget, dan gelapnya malam bikin aku nggak bisa lihat jelas. \nTapi aku bersumpah, ada sesuatu di kepalanya, kayak penjepit rambut aneh.\n Atau mungkin itu cuma rambutnya yang terhempas angin? \nAku nggak yakin sih...\"\n\n\n—Sabrina (Perempuan, 36), salah satu saksi mata.\n\n\"Para saudara di Chamber of Discipline akhirnya sepakat bahwa buronan itu adalah sosok yang benar. Aku sangat menentang keputusan itu saat itu, dan sampai sekarang pun masih! Buronan itu sudah melakukan puluhan penyerangan di Ragunna! Ya, ya, aku tahu yang dia serang itu para penjahat, tapi seharusnya mereka ditangkap oleh Chamber of Discipline atas nama Imperator, dan dijatuhi hukuman di bawah tatapan agung Sentinel! Bukan oleh preman yang menegakkan ‘keadilan jalanan’! Ini penghinaan terhadap otoritas Sentinel!\"\n\n\n—Acolyte anonim, dari Chamber of Discipline\n\n\"Ya, beberapa tetanggaku juga pernah melihatnya. \nKatanya, metodenya makin ekstrem sekarang. \nMereka bahkan menyebutnya 'Jagal Penjahat'... \nKatanya sih dia nggak pernah membunuh? \nHah, aku nggak percaya. \nDia menghadapi penjahat kelas berat, masa bisa nahan diri? \nKecuali dia jauh lebih kuat dari mereka, tapi... apa itu mungkin?\"\n\n\n—El Lawson (Laki-laki, 42), warga Egla Town, mengomentari aksi misteriusnya saat insiden penyerangan Plushie Echoes oleh “Si Pembantai Plushie”. \nKarena warga Egla selalu menghindari keluar malam, tak ada yang melihat wajahnya.\n\n\"Aku sudah lama mengikuti jejak si pembalas yang dikirim oleh Sentinel. Kenapa aku yakin dia terkait dengan Sentinel? Belum dengar soal Flames of Retribution yang menyelimutinya? Api suci itu pasti anugerah dari Sentinel. Semakin besar kejahatan yang ia hadapi, semakin terang cahaya yang membakar. Ada yang menyebutnya iblis? Omong kosong... Iblis macam apa yang berjuang demi keadilan?\"\n\n—Rhea (Perempuan, 33), Acolyte dari Chamber of Discipline. \nPernah ikut penyelidikan terhadap sosok ini beberapa tahun lalu.\n\n\"Waktu itu aku lembur. \nSaat lewat di depan gerbang Chamber of Discipline, aku lihat Talos dari Black Alley diikat bareng komplotannya, semuanya pingsan. \nMungkin aku cuma berhalusinasi, tapi di cahaya pagi yang temaram, aku sempat lihat seseorang jongkok di atas atap seberang. \nDia langsung lenyap. \nYang aku ingat, tubuhnya penuh luka, kayak baru keluar dari neraka. \nApa? \nMaksudmu dia ngalahin Talos dan seluruh gengnya sendirian?!\"\n\n\n—Rekaman audio arsip dari beberapa tahun lalu. Identitas pembicara tidak diketahui.\n\nSebagian besar kejadian ini terjadi bertahun-tahun lalu, dan kesaksian yang dikumpulkan sejauh ini sering kali saling bertentangan dan minim detail. \nNamun satu hal tetap jelas: Gelombang Gelap Kedua dan insiden Carnevale satu dekade lalu meninggalkan luka mendalam di Ragunna. \nDalam kekacauan yang menyusul, muncul sosok misterius yang menghukum kejahatan dalam gelap malam.\n\nDi masa kelam itu, banyak orang kehilangan harapan dan terjerumus ke dalam dunia kriminal. \nBarulah ketika sosok perempuan misterius itu memburu mereka satu per satu dan menyeret mereka ke penjara, ketertiban perlahan kembali ke Ragunna.\n\nTak banyak yang mau membicarakan tahun-tahun pahit itu. \nSesuai dengan tradisi Carnevale, masyarakat Ragunna percaya bahwa Imperator menghendaki mereka untuk merayakan kegembiraan, bukan tenggelam dalam luka masa lalu. \nAkibatnya, catatan tentang sosok ini—yang dikenal sebagai Blazing Nightwalker—perlahan menghilang menjadi legenda.\n\nNamun menjelang Carnevale baru-baru ini, bisikan-bisikan kembali terdengar. \nSeseorang mengaku melihat sosok yang mirip legenda lama itu kembali berkeliaran di jalanan.\n\nBagi Ragunna, apakah ini pertanda krisis yang akan datang?\nAtau sekadar peniru bayangan sang pahlawan masa lalu?\n\nWaktu yang akan menjawabnya."
+      },
+      {
+        "title": "Best Employee",
+        "content": "\"Ya, keluarga Figaro ngaku mereka sudah bayar tiga hari lalu. \nPenjamin mereka yang katanya 'terhormat'? \nHilang entah ke mana. \nSekarang mereka coba muterbalikkan bukti tipis itu jadi kesalahan pencatatan di pihak kita.\" \n\nZani mengangkat bahu, nadanya tenang dan santai, seolah hanya sedang ngobrol dengan Acorus si Pedang di taman. \n\n\"Iya. Intinya mereka mau ngerjain kita. \nTrik lama, sejak zaman orang Ragunnesi pertama kali mancing dari Gondola. \nSantai aja, aku yang 'negosiasi' nanti. Sip, selesai. Ciao.\"\n\nZani menutup panggilan, menyelipkan buku besar di bawah lengannya, lalu melangkah keluar dari kantor. \nDi belakangnya, bisik-bisik mulai menyebar di antara rekan kerja. \nBukan karena mereka meragukan kemampuannya—justru sebaliknya. \nSemua tahu pasti bagaimana ini akan berakhir. \nMasalah remeh begini nggak bakal masuk halaman depan koran. \nPaling banter, diselipkan di pojok bawah rubrik kecil bareng iklan murah dan barang hilang. \nTidak akan ada nama Zani, apalagi keluarga Montelli. \nMungkin hanya ada berita singkat soal beberapa anggota Figaro yang ‘secara kebetulan’ tertimpa perancah di dekat menara jam, atau kepala keluarga mereka yang tiba-tiba bermurah hati mendanai seni untuk ‘mitra bisnis tercinta’ mereka, Montelli.\n\nApakah Zani karyawan terbaik di bank? \nTidak diragukan lagi.\n\nKinerjanya yang luar biasa sering bikin penasaran para pegawai baru. \nIa selalu pulang larut malam setiap hari, datang kerja dengan wajah kelelahan dan lingkaran hitam di bawah mata. \nIa juga sering dapat tugas field yang paling berbahaya, tapi tak pernah gagal satu kali pun. \nPara pegawai lama menyebut namanya dengan nada khidmat, seolah ia adalah semacam dewa pelindung. \nBahkan ada yang bilang, kalau ia ditugaskan menangkap Cetus the Tidebreaker hanya bermodalkan mie basah, ia tetap akan pulang keesokan paginya dengan si \"ikan kecil\" itu—tepat waktu, seakan cuma mengambil pizza takeout.\n\nBagaimana caranya? \nTak ada yang tahu.\n\nBeberapa anak baru mencoba meniru semua kebiasaannya, berharap bisa mengungkap rahasia keberhasilannya. \nMereka lihat ia tak pernah lepas dari minuman energi, dan menyimpulkan itu sumber stamina supernya—seperti Heliobane Fungia bagi pelaut Riccioli di komik lama. \nMaka mereka pun ikut menenggak minuman energi, berharap bisa begadang dan menyelesaikan proyek legendaris. \nTapi hasilnya? \nTertidur lemas di meja, pegal karena tidur sambil duduk, dan akhirnya kena semprot supervisor karena performa jeblok keesokan harinya.\n\nApa yang ada di pikirannya? \nTak ada yang tahu.\n\nPegawai lama masih ingat samar-samar Zani saat pertama kali masuk bank. \nGadis muda yang pendiam dan dingin, agak nekat, dan sedikit terlalu nyaman dengan kekerasan. \nTapi dalam dua bulan, ia sudah menguasai semua prosedur. \nDua bulan setelah itu, ia nyaris setara dengan karyawan terbaik. \nDi tahun ketiganya, lencana \"Karyawan Terbaik\" tak lebih dari bonus kecil yang datang bersamaan dengan gajinya.\n\nTapi... \napa yang membuatnya sampai sejauh ini? \nJawabannya beragam. \nAda yang bilang ia punya cinta besar untuk Ragunna, dan merasa punya tanggung jawab melindunginya. \nAda yang menilai ia ambisius, ingin menyandang nama keluarga Montelli, bahkan mungkin mengincar posisi kepala keluarga. \nLalu ada juga yang curiga Montelli membayarnya sangat besar—lebih dari gaji standar—agar tetap terikat secara finansial.\n\nKalau ada yang langsung bertanya pada Zani, dia hanya akan berkedip, tanpa ekspresi.\n\n\"Menarik juga. Tapi aku cuma pegawai biasa kok. Tapi aku ada ide. \nKalau kamu yakin departemenku gajinya segitu bagus, kenapa nggak pindah ke sini aja? \nBantu kurangi bebanku. \nIni kan cuma rotasi internal, jadi nggak bakal melanggar perjanjian non-kompetisi, kan?\""
+      },
+      {
+        "title": "Night'S Solitary Path",
+        "content": "...Masih ada cukup waktu.\n\nZani berlari menembus lorong-lorong gelap, rasa perih di bahunya menjadi pengingat nyata betapa dekatnya ia dengan maut. \nPria kekar tadi—pergelangan tangannya bahkan setebal lehernya—hampir saja menghabisinya. Rencananya sederhana: menjatuhkan pria itu sebelum sempat bereaksi. \nTapi ia ternyata jauh lebih cepat dari yang diperkirakan. \nUntungnya, refleks Zani masih lebih tajam. \nKalau tidak, pisau itu bukan hanya menggores bahunya, tapi menembus langsung ke jantung.\n\nBukan cedera pertamanya. \nIa sudah lama kehilangan hitungan akan berapa banyak luka yang ia kumpulkan selama berbulan-bulan membasmi kejahatan. \nLuka-luka itu toh sembuh. \nLagipula, ia yakin orang-orang yang memberinya luka itu pasti berakhir jauh lebih parah.\n\nStrateginya sederhana: beri pelajaran keras pada para kriminal tanpa pernah mengungkap jati dirinya, lalu lenyap sebelum Chamber of Discipline datang membereskan sisa-sisa. \nBukan karena ingin jadi pahlawan. \nIa hanya tidak cukup bodoh untuk memberi sasaran besar di punggungnya, lalu diusir dari Ragunna dan bersembunyi di kota suram yang bahkan tidak punya pizza atau Nectarwine.\n\nLebih aman jadi orang biasa. \nSosok yang tak mencolok. \nYang tak dianggap ancaman oleh siapa pun.\n\nTarget malam ini: komplotan penculik. \nIa sudah melacak mereka selama beberapa hari, dan si pemimpin—pria tangguh dari sebelumnya—ternyata bukan cuma otot. \nSeorang Resonator licik. \nTapi ia membuat kesalahan fatal: berjalan sendirian. \nItu membuka celah sempurna bagi Zani untuk menyerang. \nSekarang, tinggal menyingkirkan sisanya sebelum mereka sadar bosnya hilang.\n\nIa menggenggam erat brass knuckle-nya, memutar pergelangan tangannya.\n\n\"Bos pasti balik sebentar lagi, kan? \nRumah anak itu nggak jauh,\" \n\nucap pria kurus sambil menguap, melirik ke arah gadis kecil yang meringkuk di pojok kandang kayu, memeluk bonekanya. \nIa mengangkat dagunya, \n\n\"Setelah kita dapat uang, gimana? Kulepas aja anaknya, ya?\"\n\n\"Tapi dia udah lihat wajah kita,\" \n\nkeluh pria pendek. \n\n\"Kalau kita lepasin, kita bisa jadi buruan si... \nsiapa tuh namanya? \nBlazing apa?\"\n\n\"Blazing Nightwalker,\" \n\npria kurus mengoreksi. \n\n\"Gua ngerti kenapa bos khawatir, tapi perjanjian ya perjanjian. \nKita ambil uangnya, kita lepas anaknya. \nNgebunuh tuh berlebihan.\"\n\n\"Demi nama Imperator, Ragunna udah lama jadi tanah tanpa hukum,\" \n\ngumam si pendek, membuat keheningan suram menyelimuti mereka. \nSi kurus menoleh ke arah gadis kecil di kandang, tapi cepat-cepat memalingkan wajah, seolah terbakar.\n\n\"...Gue butuh udara.\"\n\nIa berdiri, kesal, dan membuka pintu markas mereka. \nUdara malam yang dingin menyergapnya sejenak, tapi tidak lama. \nSebelum sempat bereaksi, benda logam dingin menghantam dahinya, dan gelap pun menelannya.\n\n\"Siapa, siapa lu?!\"\n\nPria pendek itu merangkak ke arah pistol di seberang meja. \nIa nyaris berhasil meraihnya—tapi penyusup itu lebih cepat. \nSaat kesadarannya mulai memudar, ia merasa ujung jarinya menyentuh gagang pistol. \nItu saja.\n\nSelesai, pikir Zani, menghela napas lega. \nLuka di bahunya terbuka lagi, tapi semua ini sepadan.\n\nDengan satu pukulan, ia menghancurkan gembok kandang kayu, melepas mantel si pria kurus, lalu menyelimutkan tubuh gemetar si gadis. \nIa sudah mengirim surat tanpa nama ke Chamber of Discipline dalam perjalanannya tadi. \nKalau semuanya berjalan lancar, mereka akan segera tiba. \nSaatnya ia pergi.\n\n\"E-eh... permisi...\"\n\nZani menoleh, melihat si gadis kecil berdiri di belakangnya, ragu-ragu. \nMengumpulkan semua keberaniannya, sang gadis mengulurkan boneka kesayangannya.\n\n\"Ini, ini buat kamu! Makasih udah selamatin aku!\"\n\nTidak perlu. Aku nggak melakukannya demi ucapan terima kasihmu.\n\nNamun kata-kata itu tak sempat keluar. \nZani berjongkok, menatap mata si gadis—mata yang lebar, penuh rasa takut. \nDalam tatapan polos itu, ia melihat dirinya sendiri. \nZani yang dulu. \nYang sendirian. \nYang tak berdaya. \nYang tak bisa melakukan apa pun.\n\nIa pun tersenyum, mengusap rambut si gadis, lalu mengambil boneka itu dari tangannya.\n\n\"Terima kasih,\" \n\nucapnya pelan. \n\n\"Akan kujaga baik-baik.\""
+      },
+      {
+        "title": "Eve Of The Carnevale",
+        "content": "Mungkin Zani bermimpi. Atau mungkin tidak.\nKalau iya pun, mimpi itu telah menguap dari ingatannya terlalu mulus—seperti mentega yang meleleh di atas roti hangat. \nIa membuka mata dan mematikan jam alarm yang masih berdering di samping ranjangnya.\n\nCahaya pagi mengalir lewat jendela, membingkai tepi karpet dengan cahaya keemasan yang lembut. \nIa mengambil satu menit untuk benar-benar memaksa dirinya bangun sepenuhnya, dan saat itulah sisa-sisa mimpi yang rapuh menghilang tanpa jejak.\n\nBukan masalah. Mungkin memang bukan mimpi yang bagus juga.\n\nDengan semua lembur akhir-akhir ini, bahkan mimpi Zani pun jadi kacau dan tak berarti, hanya campuran tugas-tugas yang belum selesai berlompatan di pikirannya. \nTak ada pelarian dari tekanan hidup nyata—jadi kenapa berharap bisa kabur lewat mimpi?\n\n“Cukup, ah. Ada tugas penting yang harus diselesaikan.”\n\nZani menepuk ringan pipinya, membuang lamunan. Ia tahu kalau misi ini ingin ditangani dengan benar, ia harus fokus—demi cuti berbayar yang sudah dijanjikan atasannya.\n\nMenghadap cermin, ia merapikan setelan kerjanya dengan cermat, menyesuaikan dasi hingga tepat seperti seharusnya. Ia tak tahu banyak soal tamu misterius itu. Yang ia tahu hanya bahwa dia punya Echo yang sangat spesial, dan bahwa keluarga telah mengirimkan dana dalam jumlah cukup besar untuk mendukung dirinya.\n\nEntah kenapa, ia merasa ada sesuatu yang tak bisa dijelaskan. \nMungkin hanya sisa kegelisahan dari mimpi aneh tadi, tapi ia tak bisa mengabaikan perasaan bahwa apa pun yang akan ia dan tamu ini lakukan beberapa hari ke depan... \nbisa menentukan nasib banyak orang di Ragunna.\n\n\"Heh, ayolah. Aku cuma karyawan biasa.\"\n\nBegitu “biasa” hingga kalau papan reklame di distrik Montelli roboh, ia pasti ikut tertimpa bareng belasan orang lain. \nZani meraih jubahnya dari gantungan dan menyampirkannya ke bahu, seperti setiap pagi.\n\nIa menguap. Untung tak ada rekan kerja yang melihat.\n\nTugasnya hari ini tidak terlalu banyak. \nTuan Alberto bilang ia bebas pulang setelah membantu tamu terhormat berpakaian hitam itu menyelesaikan urusannya di Bank. \nSetelah itu, tugas satu-satunya adalah menjadi pengawal dan penunjuk jalan hingga Carnevale berakhir.\nKedengarannya mudah.\n\n\"Lakukan saja tugasku dan semuanya akan beres.\"\n\nZani menarik napas dalam. Aneh, ia merasa gugup, ekornya melambai perlahan tanpa ia sadari.\n\n\"Kalau dia datang pas jam makan siang, aku bisa sarankan makan di Trattoria Margherita, biar coba spesialitas Ragunna. Kalau ditolak, pakai rencana cadangan.\"\n\n\nZani cepat-cepat mengulang rute di kepalanya.\n\n\"Pizza di Bratta’s Bakery, lalu santai sore di tepi Whisperwind Haven...\"\n\nIa cek lagi dan lagi, baru membiarkan dirinya rileks saat tak menemukan celah di rencananya.\n\nSenyum kecil muncul di sudut bibirnya.\nDi sana—di balik gerbang bank—ia melihat tamu terhormat itu, berpakaian hitam, dengan sepasang mata emas. Seperti yang sudah ia duga.\n\n\"Kami sudah menantimu, Rover. \nSelamat datang di Averardo Bank.\""
+      }
+    ],
+    "specialFood": {
+      "name": "One-Pot Pasta",
+      "description": "Mengurangi biaya STA untuk Wall Dash dan Swimming seluruh Resonator di dalam tim sebesar 35% selama 30 menit.\nEfek ini hanya berlaku untuk Resonator milik sendiri saat berada dalam Co-op Mode.",
+      "imageUrl": "/icons/food/zani.webp"
+    }
+  }
+}

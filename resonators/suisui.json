@@ -1,0 +1,284 @@
+{
+  "name": "Suisui",
+  "element": "Glacio",
+  "weapon": "Rectifier",
+  "rarity": 5,
+  "version": "3.5",
+  "lastUpdated": "2026-07-05",
+  "roles": [
+    "Support and Healer",
+    "DMG Amplification",
+    "Glacio Chafe"
+  ],
+  "sonatas": [
+    "Song of Feather Trace"
+  ],
+  "changelog": [
+    {
+      "text": "9 July 2026\n- finishing\n- sisa material dan chart\n\n5 July 2026\n- minimal input\n- icon echo masih pakai stay tuned\n- icon sequence belum di rubah\n- materials\n- lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "",
+  "affiliation": "",
+  "class": "Natural",
+  "image": "/characters/suisui.webp",
+  "imageBanner": "/banners/suisui-banner.jpeg",
+  "recommendedStats": {
+    "Crit Rate": "10.00%",
+    "Crit Damage": "213.00%",
+    "Total HP (ELE/ER)": "31330",
+    "ER": "260.00%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Firstlights-Herald",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "NS Support",
+          "sonataCustom": [
+            {
+              "name": "Song Of Feather Trace",
+              "set": 5
+            }
+          ],
+          "echoSlug": "forbidden-bastion",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: Healing Bonus",
+            "3: ER%",
+            "3: ER%",
+            "1: HP%",
+            "1: HP%"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "HP%",
+        "ATK%",
+        "BA DMG Bonus",
+        "ATK%",
+        "ATK",
+        "HP"
+      ],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "firstlights-herald",
+        "rank": "",
+        "percentage": "100"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Intro Skill",
+        "Forte Circuit",
+        "Resonance Liberation"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "NS - Havoc Bane",
+        "members": [
+          [
+            "Yangyang-xuanling"
+          ],
+          [
+            "Chisa"
+          ],
+          [
+            "Suisui"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "NS - Havoc Bane",
+        "members": [
+          [
+            "Hiyuki"
+          ],
+          [
+            "Lucilla",
+            "Chisa",
+            "Lynae"
+          ],
+          [
+            "Suisui"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "Double Havoc",
+        "members": [
+          [
+            "Yangyang-xuanling"
+          ],
+          [
+            "Phrolova"
+          ],
+          [
+            "Suisui"
+          ]
+        ],
+        "note": ""
+      }
+    ],
+    "teamNote": "Team Lain bissaa juga: \n1. Aemeath Denia\n2. Cartethyiaa Ciaccona"
+  },
+  "skills": {
+    "basic": {
+      "name": "Unraveled Spring",
+      "description": "Basic Attack - Zephyr Stance\nMenekan berulang kali atau menahan Normal Attack untuk melakukan hingga 4 serangan berturut-turut, menimbulkan Glacio DMG dan memulihkan Cloud Breath saat mengenai target.\n\nMid-air Attack - Zephyr Stance\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Glacio DMG.\n\nDodge Counter - Zephyr Stance\nMenekan Normal Attack sesaat setelah Dodge berhasil untuk menyerang target, menimbulkan Glacio DMG dan memulihkan Cloud Breath saat mengenai target.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melakukan Basic Attack - Zephyr Stance Stage 4."
+    },
+    "skill": {
+      "name": "Vernal Screen",
+      "description": "Resonance Skill - Zephyr Stance\nSaat berada dalam Zephyr Stance dan Cloud Breath belum penuh, tekan Resonance Skill agar Suisui menusuk ke depan, menimbulkan Glacio DMG. Jika Suisui adalah Resonator aktif saat melancarkan skill ini, pulihkan Cloud Breath.\nDapat dilancarkan di udara dekat tanah.\nSkill ini berbagi Cooldown dengan Resonance Skill - Drizzle Stance.\n\nAwakening Spring\nSaat berada dalam Zephyr Stance dan Cloud Breath penuh, Resonance Skill - Zephyr Stance digantikan dengan Awakening Spring. Melancarkan skill ini mengonsumsi seluruh Cloud Breath, menarik target di sekitar, dan mengirimkan Suisui ke Drizzle Stance, menimbulkan Glacio DMG serta memberikan 1 kali efek Glacio Chafe pada target saat mengenai.\n\nEnrichment\nMelancarkan Awakening Spring atau Intro Skill - Tinkling Jade memberikan 1 tumpukan Enrichment kepada semua Resonator terdekat dalam tim. Efek ini dapat terpicu sekali setiap 25 detik. Resonator yang masuk menerima healing dari Suisui dengan mengorbankan Enrichment.\n\nResonance Skill - Drizzle Stance\nSaat berada dalam Drizzle Stance, Resonance Skill - Zephyr Stance digantikan dengan Resonance Skill - Drizzle Stance.\nTekan Resonance Skill agar Suisui menusuk ke depan, menimbulkan Glacio DMG. Jika Suisui adalah Resonator aktif saat melancarkan skill ini, pulihkan Floral Epistle.\nDapat dilancarkan di udara dekat tanah.\nSkill ini berbagi Cooldown dengan Resonance Skill - Zephyr Stance."
+    },
+    "liberation": {
+      "name": "Song Of Thoroughfare",
+      "description": "Melancarkan skill ini menempatkan Ceaseless Landscape yang bertahan selama 30 detik. Saat Ceaseless Landscape aktif, Suisui memasuki status Roaming Transcendent ketika melancarkan Outro Skill - Rippling Waters.\nCeaseless Landscape memberikan peningkatan berikut kepada semua Resonator terdekat dalam tim:\n- Memberikan efek Spectro Frazzle, Fusion Burst, Glacio Chafe, dan Aero Erosion kepada target, atau menimbulkan DMG dari Negative Status yang sesuai, meningkatkan batas maksimal tumpukan Negative Status yang dapat diterima target sebanyak 3 selama 15 detik. Efek ini tidak bertumpuk.\n- Memberikan efek Electro Flare kepada target atau menimbulkan DMG dari Negative Status yang sesuai, meningkatkan batas maksimal tumpukan Electro Flare dan Electro Rage yang dapat diterima target sebanyak 3 selama 15 detik. Efek ini tidak bertumpuk.\n- Mengonsumsi tumpukan Havoc Bane pada target setelah skill mendarat memungkinkan DMG Havoc dari Resonator mengabaikan 6% DEF dan 12% RES Havoc target selama 30 detik. Efek ini tidak bertumpuk.\nDapat dilancarkan di udara dekat tanah."
+    },
+    "forte": {
+      "name": "Lambent Gold",
+      "description": "Zephyr Stance\nSuisui berada dalam Zephyr Stance secara default. Saat berada dalam Zephyr Stance, Suisui dapat memperoleh Cloud Breath melalui skill tertentu.\n\nDrizzle Stance\nMemasuki Drizzle Stance menghapus seluruh Floral Epistle.\nSelama Drizzle Stance:\n- Suisui membuka gerakan tempur baru dan memulihkan Floral Epistle melalui skill tertentu.\n- Suisui mendapatkan ketahanan terhadap interupsi yang meningkat.\n- Tekan Normal Attack dalam waktu tertentu setelah memicu Dodge berhasil melalui skill Dodge untuk melancarkan Basic Attack - Drizzle Stance Stage 1.\nSetelah memasuki Drizzle Stance selama 15 detik, Suisui mengakhiri Drizzle Stance dan menghapus seluruh Floral Epistle saat keluar dari status tersebut.\n\nDodge - Parting Mist\nSaat melakukan serangan di tanah, tekan Dodge untuk melancarkan Dodge - Parting Mist dengan mengorbankan STA.\nSaat berada dalam Zephyr Stance, memicu Dodge berhasil saat melancarkan Dodge - Parting Mist memulihkan Cloud Breath. Tekan Normal Attack sesaat setelah memicu Dodge untuk melancarkan Dodge Counter - Zephyr Stance.\n- Saat berada dalam Drizzle Stance, memicu Dodge berhasil saat melancarkan Dodge - Parting Mist memulihkan Floral Epistle, dan tidak mereset siklus Basic Attack - Drizzle Stance dalam periode tertentu.\n\nBasic Attack - Drizzle Stance\nSaat berada dalam Drizzle Stance, Basic Attack - Zephyr Stance digantikan dengan Basic Attack - Drizzle Stance.\nTekan Normal Attack berulang kali untuk melakukan hingga 4 serangan berturut-turut, menimbulkan Glacio DMG dan memulihkan Floral Epistle saat mengenai target.\nSaat melancarkan Basic Attack - Drizzle Stance Stage 3, terus menarik target di sekitar.\nBasic Attack - Drizzle Stance Stage 4 memberikan 1 kali efek Glacio Chafe pada target saat mengenai.\n\nHeavy Attack - Drizzle Stance\nMengonsumsi STA untuk menyerang target, menimbulkan Glacio DMG, dan memulihkan Floral Epistle saat mengenai target.\n\nIlluminating Dew\nSaat berada dalam Drizzle Stance, tahan Normal Attack setelah melancarkan Heavy Attack - Drizzle Stance untuk melancarkan skill ini.\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Glacio DMG.\n\nSwallow's Cut\nSaat berada dalam Drizzle Stance, lancarkan skill ini dengan salah satu cara berikut:\n- Lepaskan tombol Normal Attack saat melancarkan Heavy Attack - Drizzle Stance.\n- Tekan Normal Attack saat Suisui berada di udara.\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Glacio DMG.\n\nCloud Breath\nMaksimal 120 poin.\nSaat berada dalam Zephyr Stance:\n- Basic Attack - Zephyr Stance dan Dodge Counter - Zephyr Stance memulihkan Cloud Breath saat mengenai target.\n- Melancarkan Resonance Skill - Zephyr Stance memulihkan 40 poin Cloud Breath saat Suisui menjadi Resonator aktif dalam tim.\n- Memicu Dodge berhasil saat melancarkan Dodge - Parting Mist memulihkan 35 poin Cloud Breath.\n\nFloral Epistle\nMaksimal 600 poin.\nSaat berada dalam Drizzle Stance:\n- Basic Attack - Drizzle Stance dan Heavy Attack - Drizzle Stance memulihkan Floral Epistle saat mengenai target.\n- Melancarkan Resonance Skill - Drizzle Stance memulihkan 100 poin Floral Epistle saat Suisui menjadi Resonator aktif dalam tim.\n- Memicu Dodge berhasil saat melancarkan Dodge - Parting Mist memulihkan 102 poin Floral Epistle."
+    },
+    "inherent": [
+      {
+        "name": "Sky Over Water",
+        "description": "Mengonsumsi Enrichment memberikan 10 tumpukan Spring's Birth kepada Resonator, maksimal 10 tumpukan. Saat Resonator dengan Spring's Birth tidak memiliki HP penuh, pulihkan HP mereka sebesar 62 + 0,34% dari Max HP Suisui dengan mengorbankan 1 tumpukan Spring's Birth setiap 2 detik.\n\nSaat Resonance Skill - Awakening Spring dan Intro Skill - Tinkling Jade mengenai target, keduanya juga memulihkan 18 poin Concerto Energy dan 13 poin Resonance Energy, serta meningkatkan Crit. Rate serangan sebesar 80% dan Glacio DMG sebesar 240%. Efek ini dapat terpicu maksimal sekali setiap 25 detik."
+      },
+      {
+        "name": "Glimmering Gold",
+        "description": "Saat Resonator selain Suisui menerima serangan fatal, mereka tidak akan pingsan melainkan memulihkan 50% dari HP Suisui saat ini, sementara Suisui sendiri kehilangan jumlah HP yang sama. HP Suisui tidak akan turun di bawah 1 karena efek ini. Efek ini dapat terpicu sekali setiap 10 menit."
+      },
+      {
+        "name": "Tune Break: Rectifier",
+        "description": "Saat Level Off-Tune target penuh, Resonator dapat melancarkan Tune Break pada target tersebut."
+      }
+    ],
+    "intro": {
+      "name": "Tinkling Jade",
+      "description": "Menyerang target, menimbulkan Glacio DMG, dan memberikan 1 kali efek Glacio Chafe pada target.\nSaat melancarkan skill ini, mengonsumsi seluruh Cloud Breath untuk menarik target di sekitar dan memasuki Drizzle Stance."
+    },
+    "outro": {
+      "name": "Rippling Waters",
+      "description": "Resonator dalam tim mendapatkan amplifikasi 25% All DMG selama 30 detik.\n\nSuisui memasuki Roaming Transcendent saat Ceaseless Landscape aktif.\nSuisui keluar dari Drizzle Stance dan mengonsumsi seluruh Floral Epistle serta membuka efek berikut berdasarkan jumlah Floral Epistle yang dikonsumsi:\n\n0 Floral Epistle dikonsumsi:\n- Semua Resonator terdekat dalam tim mendapatkan Reflecting Shadows selama 6 detik. Resonator dengan Reflecting Shadows memiliki ketahanan terhadap interupsi yang meningkat.\n\nMinimal 200 Floral Epistle dikonsumsi:\n- Jika Ceaseless Landscape aktif, Suisui dapat melakukan Plume Step untuk pertama kalinya pada detik ke-6 dari Transcendent Dance saat berada dalam Roaming Transcendent.\n\nMinimal 400 Floral Epistle dikonsumsi:\n- Selama status Roaming Transcendent ini, Resonator aktif di dalam Ceaseless Landscape menimbulkan lebih banyak DMG jika mereka memiliki Reflecting Shadows. Untuk setiap 1% Energy Regen Suisui di atas 200%, DMG yang ditimbulkan Resonator meningkat sebesar 0,2%, hingga maksimal 12%.\n- Jika Ceaseless Landscape aktif, Suisui dapat melakukan Plume Step kedua pada detik ke-12 dari Transcendent Dance saat berada dalam Roaming Transcendent.\n\nMinimal 600 Floral Epistle dikonsumsi:\n- Saat Suisui melakukan Plume Step pertama, semua Resonator aktif terdekat dalam tim di dalam Ceaseless Landscape mendapatkan efek berikut selama 24 detik:\nMelancarkan Outro Skill memberikan Undulating Mist kepada Resonator yang masuk. Saat Resonator dengan Undulating Mist mengonsumsi tumpukan Negative Status atau Electro Rage pada target, mereka mendapatkan peningkatan ATK: Untuk setiap 0,12% Energy Regen Suisui di atas 200%, ATK Resonator meningkat sebesar 0,1% selama 6 detik, hingga maksimal 50%. Undulating Mist bertahan selama 14 detik atau hingga Resonator diganti keluar dari medan pertempuran. Saat Undulating Mist hilang, efek peningkatan ATK juga dihapus.\n- Jika Ceaseless Landscape aktif, Suisui dapat melakukan Plume Step ketiga pada detik ke-18 dari Transcendent Dance saat berada dalam Roaming Transcendent.\n\nRoaming Transcendent\nBertahan selama {10} detik.\nSelama Roaming Transcendent, Suisui akan menyatu dengan Ceaseless Landscape dan memulai Transcendent Dance, di mana ia akan melakukan Plume Step secara berkala berdasarkan jumlah Floral Epistle yang dikonsumsi saat Outro Skill - Rippling Waters dilancarkan.\nSaat Suisui menjadi Resonator aktif dalam tim, ia menghentikan Transcendent Dance.\nSaat Ceaseless Landscape tidak aktif, ia akan keluar dari status Roaming Transcendent.\n\nPlume Step\nMelakukan Plume Step memberikan Reflecting Shadows kepada semua Resonator terdekat dalam tim selama 6 detik, memberikan 1 tumpukan Glacio Chafe pada semua musuh di dalam Ceaseless Landscape, dan menyembuhkan Resonator aktif terdekat dalam tim di dalam Ceaseless Landscape."
+    }
+  },
+  "materials": {
+    "ascension": [],
+    "skills": {
+      "totalCosts": []
+    }
+  },
+  "analysisCharts": [],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Mountains Washed Into Paintings",
+      "description": "Resonator dengan Undulating Mist juga mendapatkan peningkatan ATK setelah memberikan Negative Status atau menimbulkan DMG dari Negative Status.\nDurasi Reflecting Shadows yang diperoleh melalui Plume Step ketiga diperpanjang sebesar 100%.\nBasic Attack - Drizzle Stance, Heavy Attack - Drizzle Stance, dan Enhanced Plunging Attack - Enhanced State kebal terhadap interupsi."
+    },
+    {
+      "stage": "S2",
+      "name": "Clouds Pour Like Molten Gold",
+      "description": "Semua Resonator terdekat dalam tim di dalam Ceaseless Landscape mendapatkan peningkatan Crit. DMG sebesar 50% selama 30 detik setelah melakukan tindakan berikut:\n- Memberikan efek Spectro Frazzle, Fusion Burst, Glacio Chafe, Aero Erosion, dan Electro Flare, atau menimbulkan DMG dari Negative Status yang sesuai.\n- Mengonsumsi tumpukan Havoc Bane pada target.\nSaat Resonator aktif tidak berada di dalam Ceaseless Landscape, efek bonus Crit. DMG ini dinonaktifkan."
+    },
+    {
+      "stage": "S3",
+      "name": "Sparse Curtains Invite Evening Glow",
+      "description": "Menekan Normal Attack sesaat setelah melancarkan Resonance Skill - Drizzle Stance untuk melancarkan Basic Attack - Drizzle Stance Stage 4.\n\nMelancarkan Resonance Skill - Drizzle Stance memberikan status Kingfisher. Beralih ke Resonator lain mengakhiri efek ini. Melancarkan Basic Attack - Drizzle Stance Stage 4 mengonsumsi Kingfisher untuk memulihkan 20 poin Concerto Energy dan 350 poin Floral Epistle. Kingfisher dapat dikonsumsi maksimal sekali setiap 25 detik."
+    },
+    {
+      "stage": "S4",
+      "name": "Autumn Mountains In Choir Sing",
+      "description": "Healing yang diberikan oleh Enrichment dan Spring's Birth meningkat sebesar 50%."
+    },
+    {
+      "stage": "S5",
+      "name": "I Long To Ride The Eastern Wind",
+      "description": "Damage Multiplier dari Basic Attack - Drizzle Stance dan Heavy Attack - Drizzle Stance meningkat sebesar 100%."
+    },
+    {
+      "stage": "S6",
+      "name": "Staying True To This Splendid Realm",
+      "description": "Crit. DMG dari Intro Skill - Tinkling Jade dan Resonance Skill - Awakening Spring meningkat sebesar 500%."
+    }
+  ],
+  "lore": {
+    "description": "Lahir dari keluarga bangsawan Mingting, ia adalah direktur muda cemerlang dari Zhaoming Commerce Guild. Dengan kipas air di tangannya, ia menjalin transaksi dagang menjadi permadani perdagangan yang megah. Meski tak menguasai ilmu pedang, keahliannya dalam urusan keuangan merajut perdamaian abadi bagi dunia.",
+    "manualEntries": [
+      {
+        "title": "Birthplace",
+        "description": "Huanglong"
+      },
+      {
+        "title": "Affiliation",
+        "description": "Zhaoming Commerce Guild"
+      }
+    ],
+    "report": {
+      "resonancePower": "Host of Harmony",
+      "resonanceEvaluation": "[Forte Examination Report RA1034-G]\n\nTacet Mark subjek terletak di tengah dahi. Ia menunjukkan kemampuan unik untuk beresonansi dengan badan air di sekitarnya, memungkinkannya memahami lintasan aliran dan potensi kinetik dalam air cair. Ia mampu memadatkan kelembapan udara, hujan, atau aliran sungai menjadi domain akuatik yang terkendali—mengubah hujan deras menjadi gerimis lembut, dan arus ganas menjadi air tenang.\n\nFrekuensi Resonansi subjek membawa harmoni estetika yang kuat. Saat menarik energi Resonansi, kipas air dan lengan bajunya yang mengalir terbuka dalam gerakan menyatu, menenun pemandangan di antara ombak berkabut, seolah menghidupkan gulungan lukisan induk yang megah ke dalam realitas.\n\nKurva Rabelle-nya menunjukkan tren naik yang lembut dan stabil, lalu merata pada plateau bernilai tinggi yang mulus. Subjek dikonfirmasi sebagai Natural Resonator.\n\n> \"Frekuensinya nyaris sepenuhnya bebas dari turbulensi atau retakan, mempertahankan stabilitas yang lembut dan konsisten sepanjang waktu... Mm, ini mencerminkan temperamen pribadi subjek dengan sempurna.\"  \n> — Cuplikan wawancara dengan tenaga medis Huaxu Academy.",
+      "overclockDiagnostic": "Grafik gelombang subjek menampilkan pola elips melingkar yang teratur, mulus, dan konsisten. Seluruh hasil pembacaan bersih dan stabil, tanpa tanda gangguan atau interferensi abnormal.\n\nKesimpulan: Subjek menunjukkan Resonant Criticality rendah, dipadukan dengan kapasitas sangat stabil dalam menahan frekuensi resonansi. Risiko lonjakan volatil ditetapkan tidak ada. Pemeriksaan retrospektif tidak menemukan riwayat Overclocking sebelumnya.\n\nBerdasarkan profil keseluruhan grafik, individu ini memiliki fondasi psikologis yang kokoh, ketahanan emosional luar biasa, dan tingkat pengendalian diri yang tinggi."
+    },
+    "items": [
+      {
+        "name": "Green Jade Pendant  ",
+        "description": "Sejak kecil, Suisui gemar mengumpulkan pernak-pernik indah. Entah itu bulu yang diwarnai atau batu permata berkilau, semuanya menemukan tempat di kotak harta karun kecilnya. Seiring waktu, koleksinya tumbuh menjadi tumpukan berkilauan berisi giok dan perhiasan yang ia senang-senang gunakan untuk mendandani Yangyang.\n\nDi antara semuanya, favorit mutlaknya tetaplah liontin giok hijau pemberian orang tuanya. Giok itu hangat dan halus seperti air tenang, diukir menjadi bentuk burung yang siap terbang kapan saja.\n\n> \"Pakailah giok ini dekat hatimu, dan biarkan jiwamu menjulang. Semoga kau membentangkan sayap seperti burung Chongming—pandanganmu jernih, dan jalananmu selalu terbuka.\"",
+        "imageUrl": "/icons/items/suisui-1.webp"
+      },
+      {
+        "name": "Peace And Prosperity  ",
+        "description": "Kipas lipat buatan pengrajin terbaik Mengzhou. Permukaannya menampilkan lanskap yang disulam dengan benang emas dan zamrud ultra-halus. Pegunungan jauh menjulang seperti giok gelap, kabut menyelimuti perairan terdekat, dan beberapa ikan koi berenang santai di antara rerumputan sungai. Ini adalah mahakarya yang memukau.\n\nTahun Suisui mengambil alih pimpinan Commerce Guild, krisis besar mengancam menghancurkan segala yang telah ia bangun. Pesaing bergabung menekan, sekutu satu per satu berbalik. Terkurung di studionya selama tiga hari penuh, ia nyaris menandatangani dokumen menyerah. Namun pada pagi keempat, saat membuka jendela untuk menghirup udara segar, matanya tertuju pada kipas tua ini yang tergeletak di mejanya. Ia teringat membelinya dengan emas pertama yang pernah ia hasilkan, saat dirinya yang lebih muda bersumpah akan \"memegang sungai dan gunung di telapak tanganku.\" Menggenggam kipas itu, Suisui menyalurkan Forte-nya ke dalamnya. Melihat riak sulaman perlahan hidup, pikirannya yang kacau akhirnya tenang.\n\nIa akhirnya berhasil melewati krisis itu. Sejak hari itu, ia selalu menyimpan kipas di sisinya—permukaannya hidup dengan ombak perak, burung yang melambung, dan ikan yang berenang. Memandang pemandangan itu, seolah ia sedang menatap pemandangan favoritnya: dunia dalam damai.",
+        "imageUrl": "/icons/items/suisui-2.webp"
+      },
+      {
+        "name": "Letters Between Sisters  ",
+        "description": "Saat Suisui berusia dua belas tahun, ia dan Yangyang menggunakan sari bunga persik segar untuk mewarnai dua tumpuk kertas surat. Dengan hati-hati memegang kuasnya, Suisui menggambar sepasang burung kecil yang saling berdekatan di sudut kertas. Yang di kanan adalah dirinya sendiri, yang di kiri adalah adiknya.\n\nBertahun-tahun kemudian, Yangyang berangkat ke Jinzhou untuk menjadi Outrider, sementara Suisui melanjutkan perjalanannya sebagai pebisnis. Mereka tetap berkomunikasi lewat surat, dan Suisui melipat rapi setiap pesan dari adiknya, menyimpannya di dalam tumpukan suratnya.\n\nWaktu berlalu, dan kertas itu telah habis sejak lama. Tak tega menggunakan lembar kosong terakhir, Suisui menyimpannya dengan aman di meja studionya. Dua burung kecil yang saling berdekatan di sudut kertas telah memudar oleh waktu, terhaluskan oleh sentuhan lembut yang tak terhitung. Namun setiap kali ia mengeluarkan surat-surat adiknya untuk dibaca, ia merasa bahwa sejauh apa pun jarak memisahkan mereka, dua burung kecil yang canggung dan miring itu masih saling berpelukan erat.",
+        "imageUrl": "/icons/items/suisui-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Spring  ",
+        "content": "Hari-hari musim semi berlalu perlahan, manis dan tenang. Di pekarangan seluruh Mingting, bunga-bunga mekar dengan megah.\n\nSuisui duduk lunglai di mejanya, kuas tergenggam di tangan dan noda cat ocher menghiasi pipinya. Setelah melukis dengan konsentrasi berjam-jam, ia berdiri untuk mengagumi mahakaryanya—gumpalan warna biru, hijau, dan merah tua yang saling bertumpuk. Sulit dikatakan bentuknya apa, tapi lukisan itu memancarkan kehangatan yang nyaman. Puas dengan karyanya, Suisui menyambar kertas itu dan berlari keluar, roknya mengibas udara dan membuat lembaran-lembaran kosong di belakangnya berdesir.\n\n\"Yangyang! Yangyang—\"\n\nDalam sekejap, kertas itu sudah berada di tangan Yangyang. Suisui bersandar pada meja qin, menatap wajah adiknya penuh harap. \"Kamu bisa tebak ini apa?\"  \nYangyang mengamati lukisan itu, ujung jarinya menyentuh noda emas di sisi kanan, lalu noda putih di sisi kiri. \"Ini... dua ekor burung kecil yang sedang berdekatan.\"  \nMata Suisui langsung berbinar, dan ia menepuk meja. \"Tepat sekali! Mereka burung! Aku tahu orang dewasa itu buta! Mereka terus bilang ini anak ayam!\"  \n\"Bukan, bukan anak ayam.\" Yangyang meletakkan gambar itu dan memiringkan kepala. \"Ekor anak ayam menjuntai. Ini justru tegak.\"  \n\"Benar!\" Suisui ingin sekali mengangkat adiknya dan memutarnya di udara. \"Hanya kamu yang paham seniku!\"  \nYangyang menerima pujian itu hanya dengan lengkung lembut di bibirnya. Ia menunjuk gumpalan emas di sisi kanan. \"Apakah yang ini kamu, Kakak?\"  \n\"Mm-hmm! Yang di kanan aku, yang di kiri kamu.\" Suisui mendekat, menggunakan ujung kuasnya untuk menunjuk burung putih itu. \"Lihat? Bentuknya anggun. Persis seperti kamu.\"\n\nBegitulah musim semi masa kecil mereka berlalu. Di luar, gugusan bunga merah muda dan putih menggantung berat di atas daun hijau. Setiap kali angin berhembus, kelopak-kelopak jatuh ke meja qin, sketsa mereka, dan rambut mereka. Sinar matahari lembut memandikan pekarangan dalam cahaya keemasan. Burung berkicau di bawah atap, menyatu dengan alunan qin Yangyang yang mengalun pelan. Suisui duduk santai di mejanya atau di beranda, mengangkat gambarnya ke arah matahari, mengamati warna-warna itu perlahan mekar di atas kertas...\n\nHari-hari dulu terasa sangat lambat. Bayangan di bawah atap merayap perlahan, membawa pergi sore demi sore. Dan sebelum sempat disadari, banyak musim semi telah berlalu.\n\n\n\n"
+      },
+      {
+        "title": "Summer  ",
+        "content": "Begitu musim panas tiba, pekarangan terasa pengap seperti kukusan bambu yang tertelungkup.\n\nNyanyian jangkrik tak henti-hentinya menggema dari fajar hingga senja. Bahkan bunga teratai di dalam gentong air di bawah atap tampak lesu—cermin sempurna suasana hati Suisui. Ia terbaring di ambang jendela, menatap langit yang memutih oleh terik. Di belakangnya, Yangyang duduk berlatih qin. Ia telah memainkan melodi yang sama tujuh atau delapan kali, nadanya seolah meleleh dalam panas yang pekat. Mendengarnya, Suisui merasa otaknya sendiri akan larut menjadi genangan, persis seperti musik itu.\n\n\"Kakak mau pergi?\" tanya Yangyang, berhenti saat mendengar Suisui bangkit.  \n\"Ke sungai.\" Suisui melempar senyum ke belakang, rambut panjangnya berkibar melewati jaketnya. \"Di sana ada angin. Aku sesak di sini.\"  \n\"Tapi mataharinya menyilaukan—\"  \n\"Tidak akan membunuhku!\" Suaranya sudah menghilang di balik tikungan tembok.\n\nTepi sungai tidak jauh—cukup berlari cepat melewati dua gang. Suisui berjalan gesit, mengetuk kipas lipatnya secara ritmis ke telapak tangannya. Begitu kakinya menginjak tanggul, angin sejuk dan lembap menyambutnya, kental dengan aroma rerumputan sungai.\n\nDermaga ramai seperti sarang lebah. Di sebuah kios dekat situ, seorang pedagang paruh baya sedang menggerakkan sempoa, menyebut angka baris demi baris sementara biji-bijinya meluncur cepat. Terpesona, Suisui mendekat, bibirnya bergerak pelan menghitung diam-diam bersamanya.\n\nSaat pedagang itu menjentikkan biji terakhir dan menengok, ia terkejut melihat mata Suisui yang tajam dan penuh fokus. \"Dari mana kamu muncul, gadis kecil?\"  \n\"Pak Liu, totalnya tiga ratus dua puluh tujuh gulung kain, kan?\" Suisui langsung menyahut, mengabaikan pertanyaannya sama sekali.  \nPak Liu menatap bukunya lalu menatap Suisui, senyum mengembang di balik kumisnya. \"Kamu mengikuti hitunganku?\"  \n\"Tidak perlu. Aku menghitung di kepala sambil kamu membaca angkanya.\" Suisui tersenyum lebar, sama sekali tak canggung. \"Dan batch daun teh itu seratus enam setengah jin, kan? Aku dengar potongannya saat lewat tadi.\"  \nPak Liu meletakkan sempoanya dan menatapnya penuh penilaian. \"Wah, kamu tajam sekali... Bagaimana kalau kerja di tokoku saja?\"  \n\"Gajinya berapa per bulan?\"  \nOrang-orang di sekitar tertawa. Pak Liu ikut tertawa, mengetuknya main-main dengan kipasnya. \"Baiklah, bos kecil, pergilah. Jangan bikin usahaku rugi.\"\n\nTerhibur, Suisui mengipaskan kipasnya dan berjalan santai ke kios jamu di sebelah. Karena penasaran, ia bertanya mengapa mereka tidak menggunakan jalur darat yang lebih cepat.\n\n\"Jalur darat memang cepat, tapi berguncang,\" jelas pemilik kios dengan sabar. \"Ramuan tak tahan benturan. Kalau hancur jadi bubur di jalan, harganya jatuh sampai tak bernilai.\"\n\nSuisui mengambil sehelai ramuan, menciumnya, lalu meletakkannya kembali dengan hati-hati. \"Tujuh hari lewat sungai, tiga hari lewat darat. Tapi muatan yang penyok kehilangan lebih dari separuh nilainya, jadi menukar waktu demi pelestarian adalah investasi yang lebih cerdas.\" Ia menghitung dalam kepala dan merasa logika perdagangan ini sungguh memikat.\n\nMatahari perlahan tenggelam di cakrawala, dan keramaian di tepi sungai mulai berkurang. Kapal-kapal kargo terakhir melepaskan tambatannya, layarnya mengembang dalam angin senja, bayangan panjangnya meluncur di atas air yang keemasan. Suisui duduk di anak tangga batu dan akhirnya meletakkan kipasnya. Ia mendongak, mengikuti kapal-kapal itu meninggalkan perairan dangkal, menyeberangi pusat sungai, lalu mengecil menjadi titik gelap di tepi langit.\n\n\"Ke mana mereka menuju...?\"\n\nTak ada yang menjawab, tapi ia sudah tahu jawabannya. Kapal-kapal itu membawa gandum, kain, dan ramuan dari segala penjuru—utara, selatan, pegunungan, dan pesisir. Mereka akan membelah sungai besar dan menyeberangi pegunungan menuju tempat-tempat jauh yang belum pernah ia kunjungi.\n\n\"Suatu hari, aku akan naik salah satu kapal itu. Berdiri di haluan, dengan daftar pengiriman di tanganku.\"\n\nSebelum kegelapan sepenuhnya datang, Suisui berdiri dan membersihkan debu dari roknya. Anak tangga batu masih menyimpan hangat sisa terik siang. Ia menoleh sekali lagi ke sungai. Di bawah langit malam yang luas, lentera-lentera tersebar di permukaan air gelap seperti bintang. Indah luar biasa—dunia dalam damai, dan kehidupan yang sangat ia cintai."
+      },
+      {
+        "title": "Autumn  ",
+        "content": "Saat musim gugur tiba di Mingting, angin menyapu daun kuning yang layu ke jendela berjeruji lalu membawanya pergi—seperti seseorang yang perlahan membalik halaman buku tua.\n\nYangyang akan berangkat ke Jinzhou untuk menjadi Outrider. Keputusan itu dibuat setengah bulan lalu. Meski keluarga tak mengatakannya, semua orang sibuk tanpa henti, seolah berusaha menghindari kepergiannya. Di dalam kamar, Suisui membantu adiknya berkemas. Peti kayu kamper telah terbuka sepanjang hari, daun mugwort kering di dasarnya melepaskan aroma pahit yang segar. Ia mengibaskan pakaian Yangyang satu per satu, melipatnya dengan hati-hati. Di luar, seekor serangga berkicau tersendat-sendat, enggan menyerah pada musim gugur.\n\nSinar matahari yang membawa aroma kamper jatuh lembut di tangan Suisui. Ia menengadah, pandangannya jatuh pada tiang utama aula. Barisan takik terukir di kayu itu, membentang dari setinggi lutut hingga setinggi telinganya. Dua yang paling bawah milik Yangyang saat usia tujuh dan sembilan tahun, ditandai ringan oleh ayah mereka karena takut melukai putrinya. Suisui ingat Yangyang dulu nyaris tak bisa berdiri tegak, harus berpegangan pada tiang itu. Namun bahkan sebagai balita, ia sudah luar biasa manis, membuat Suisui diam-diam bangga: Ya, ini adikku.\n\nLebih tinggi lagi adalah takik Suisui sendiri saat usia empat belas tahun—tahun ia ngambek ingin pergi belajar pengobatan. Ayahnya tak menolak, hanya menyuruhnya berdiri di depan tiang itu hampir sepanjang hari. Memandangi tanda-tanda yang menumpuk, ia menyaksikan dirinya tumbuh, inci demi inci. Entah bagaimana, ia sadar pertumbuhannya terasa begitu cepat, namun juga sangat lambat. Ia mungkin lebih tinggi, tapi masih banyak yang harus dipelajari.\n\nDi dekat puncak, takik Yangyang semakin rapat. Yang dari musim dingin lalu, diukir sendiri oleh Yangyang, hanya setengah jari lebih pendek dari milik Suisui. Saat musim semi tahun ini, tinggi mereka sudah sama persis.\n\nKicau burung masuk dari pekarangan. Suisui mendorong pintu, sinar matahari musim gugur menyentuh wajahnya dengan hangat yang singkat. Di bawah atap, seekor burung punggung biru melompat dari dahan, sayapnya mengibaskan daun kuning.\n\nYangyang datang dari ujung pekarangan lain. Berhenti di anak tangga, ia melihat kakaknya di beranda dan berjalan mendekat. Suisui menyunggingkan senyum lembut.  \n\"Kapan berangkatnya?\"  \n\"Besok pagi.\"  \nSuisui hanya mengucap \"Oh\" pelan. Ia ingin berkata lebih, tapi kata-katanya larut di lidah. Alih-alih, ia mengulurkan tangan dan merapikan kerah jubah Yangyang. Yangyang berdiri diam, menunggu. Baru saat Suisui menarik tangannya, Yangyang berbisik: \"Aku akan kembali.\"  \nSuisui tersenyum. \"Pergilah. Angin di Jinzhou keras. Jaga dirimu baik-baik.\"  \nYangyang mengangguk. Mendengar orang tua mereka memanggil, ia berbalik dan bergabung. Langkahnya pelan, punggungnya tegak—sudah mengambil sikap seorang Outrider.\n\nSekali lagi, Suisui ditinggal sendirian. Burung punggung biru kembali ke dahannya, berkicau dengan kepala mendongak. Daun-daun layu menutupi anak tangga. Ia membungkuk mengambil satu, bertanya-tanya buku mana yang layak jadi tempatnya—lalu sadar itu sebenarnya tak penting.\n\nToh, musim gugur selalu berlalu.\n\nSuisui berdiri. Dari balik tembok pekarangan, ringkikan kuda terdengar samar—seperti gema yang datang dari Jinzhou. Ia tahu itu mustahil, tapi tetap berdiri mendengar lama sekali sebelum kembali ke kamar.\n\nPeti kamper masih terbuka, menunggunya untuk ditutup."
+      },
+      {
+        "title": "Winter  ",
+        "content": "Musim dingin di Mengzhou jarang membawa salju, tapi tahun itu, selimut putih lembut telah menutupi danau hanya dalam setengah hari. Tukang perahu mendayung pelan, sengaja diam agar tak mengganggu ketenangan itu.\n\nSuisui duduk di haluan, sebuah teko porselen putih terletak di pangkuannya. Uap yang mengepul dari ceratnya langsung menguap begitu menyentuh udara dingin. Ia menuangkan secangkir untuk tamunya, lalu mengisi cangkirnya sendiri. Percikan kecil saat teh menyentuh porselen terdengar sunyi, namun cukup jelas menutupi suara dayung yang membelah air.\n\nNegosiasi berjalan buruk. Pihak lawan menolak berkompromi, dan kebuntuan telah berlangsung tiga hari. Pagi itu, Suisui mengirim undangan—mengusulkan mereka menepikan urusan bisnis dan bertemu di tengah danau. Tamunya datang terlambat dengan gaya khas, menyelubungi diri dalam jubah abu-abu saat matahari mulai tenggelam di barat, hanya memberi anggukan singkat saat naik ke perahu.\n\nPerahu kecil itu hanyut perlahan ke tengah danau. Kabut tipis bergulung di atas permukaan air, perlahan melarutkan siluet pegunungan jauh. Di tengah suasana langka yang tenang ini, Suisui secara alami menyingkirkan urusan dagang. Dengan kecerdasan dan kelancaran lidahnya yang biasa, ia memecah kebekuan dengan bercerita tentang kampung halamannya. Ia menggambarkan airnya yang jernih hingga setiap kerikil tak beraturan di dasar bisa dihitung. Ia bercerita tentang masa kecilnya, menyaksikan kafilah pedagang membongkar muatan di tepi sungai—karung-karung yang ditumpuk tinggi melebihi kepalanya, sementara denting ritmis biji sempoa bergema memikat di udara. Ia melukiskan hari ia pergi dari rumah di bawah gerimis, saat kabut bahkan mengaburkan wajah orang tuanya yang melepasnya. Cerita-cerita jauh itu menyeberangi tahun-tahun di atas perahu goyah mereka, dan tiba di akhirnya di danau Mengzhou yang tertaburi salju ini.\n\n> \"Bagiku, semakin banyak dunia ini kulihat, semakin aku jatuh cinta padanya,\" bisik Suisui. \"Aku ingin hal-hal baik sampai ke tempat yang membutuhkannya. Gandum ke tanah yang kelaparan, obat ke ranjang orang sakit, kain ke yang miskin. Tapi barang-barang itu takkan berjalan sendiri menemui yang membutuhkan. Seseorang harus menghubungkan titik-titik itu, dan aku tak ingin hanya jadi penonton.\"\n\nTamu itu tak menjawab. Ia hanya meletakkan cangkir tehnya di atas lutut dan menatap jauh ke permukaan air. Suisui mengamati jemarinya yang mengencang dan mengendur di tepi cangkir, berulang kali, hingga akhirnya desahan pelan lolos dari bibirnya.\n\nSaat perahu merapat, salju semakin deras, jatuh seperti serpihan kapas halus. Melangkah ke anak tangga batu, sang tamu menoleh dan akhirnya berkata: \"Kita akan bicara lagi besok.\" Lalu, membuka payungnya, ia lenyap dalam badai salju. Memandangi sosok abu-abu itu memudar ke dalam hamparan putih, Suisui tahu arus telah berbalik.\n\nIa berdiri lama di tepi danau sebelum pergi. Penginapannya terletak di sebelah timur danau, dan saat ia masuk ke dalam, sepatunya sudah basah kuyup. Ia berlutut di depan perapian untuk menyalakan api. Percikan api muncrat beberapa kali sebelum menyala, dan kehangatan arang perlahan menyebar—pertama menghangatkan punggung tangannya, lalu wajahnya. Saat salju turun diam-diam di luar jendela, ia bersandar pada perapian, kelopak matanya mengantuk.\n\nDalam mimpinya, musim panas di kampung halamannya. Matahari menyilaukan, dan udara di dalam dipenuhi aroma kayu tua yang kaya. Kafilah sedang membongkar bata teh, buruh pelabuhan mengangkat karung garam berat di pundak, dan pemilik toko melempar untaian koin tembaga ke meja dengan denting ritmis yang terdengar lebih manis daripada musik apa pun.\n\nSuisui kecil yang nyaris tak setinggi pinggang orang dewasa berdiri di bawah jendela ruang hitung. Berjinjit mengintip dari ambang jendela, ia terpaku sepenuhnya—mengabaikan siapa pun yang memanggil namanya, matanya berbinar penuh fokus.\n\nSaat itu, ia tak mengerti mekanisme perdagangan. Ia hanya tahu bahwa hal-hal paling menakjubkan di dunia hidup di balik bingkai jendela kecil itu. Pedagang itu menengok, menangkapnya mengintip, lalu tersenyum. Dari tempat kuasnya, ia mengambil kuas tua dan mendorongnya keluar lewat jendela. Suisui mengulurkan tangan menerimanya. Kuas itu lebih tebal dari jarinya dan terasa sangat berat di genggamannya. Menggenggam erat-erat, ia perlahan berdiri tegak di bawah jendela.\n\nTiba-tiba, denting koin tembaga, dentang lonceng keledai, teriakan pedagang, dan nyanyian ritmis buruh pelabuhan semua mengalir mendekat, menyelimuti tubuh mungilnya. Ia tersenyum, matanya menyipit seperti bulan sabit, penuh kegembiraan yang meluap-luap."
+      },
+      {
+        "title": "Seasons She Walked  ",
+        "content": "Senja turun perlahan di Land of Xuanfang, cahaya senja meredup inci demi inci di cakrawala. Suisui berjalan di jalan utama, langkahnya mengetuk pelan lempengan batu teal. Sisa cahaya keemasan memandikan jalan tempat lentera yang belum dinyalakan bergoyang lembut dalam angin. Toko-toko mulai tutup. Para penjual membawa papan penutup bolak-balik, obrolan santai mereka mengambang ke udara senja. Suisui berjalan melewati permainan cahaya dan bayangan yang berubah-ubah, siluetnya memanjang di tanah.\n\nFestival Waking Moon semakin dekat. Tumpukan sutra warna-warni berjejer di etalase saat pegawai toko menghitung gulungan yang dibawa masuk. Sekelompok anak berlari melewatinya, lalu berhenti mendadak di tikungan jalan. Mereka menatap terpana pada deretan kuali mekanis yang mengepul, menelan ludah sebelum akhirnya pergi dengan pandangan mundur yang enggan.\n\nSuisui berhenti di kios itu dan mengamati sejenak. Penjualnya menjajakan \"Brocade Pearl Meatballs\"—bola-bola lembut mengilap yang dihiasi daun bawang, tersusun rapi dalam kukusan bambu.\n\n>Satu kukusan Brocade Pearl Meatballs, please.\"\n\nPenjual itu menengok, melihat perempuan muda di hadapannya yang bermata tersenyum, lalu ikut tersenyum lebar. Setelah menerima kukusannya, Suisui membayar, lalu mendorong beberapa Shell Credit ekstra di atas meja.\n\n> \"Untuk anak-anak yang baru saja lewat. Beri masing-masing satu porsi,\" katanya ringan sambil berbalik pergi. \"Tak perlu bilang siapa yang memberi.\"\n\nPenjual itu terkejut, tapi saat ia mengangkat kepala, sosoknya sudah lenyap dalam keramaian.\n\nSaat kegelapan tiba, lentera di kedai teh dan tavern mulai dinyalakan, memercikkan cahaya keemasan hangat ke trotoar. Suisui melangkah melewati bercak-bercak cahaya itu, tangannya penuh dengan kantong meatball hangat. Saat angin meniup helai rambutnya menutupi wajah, ia bahkan tak punya tangan bebas untuk menyingkirkannya.\n\nTiba-tiba ia teringat—kipas airnya tertinggal. Ia tertawa kecil, tak peduli. Lagipula, jarang ada kesempatan yang benar-benar membutuhkannya menggunakannya. Badai sesungguhnya telah ia lalui selama Siege of Xuanfang Hold. Segalanya kini tenang, damai cukup baginya untuk berjalan santai di jalanan dan menyaksikan orang-orang menjalani malam biasa.\n\nDengan pikiran itu, langkahnya tanpa sadar semakin cepat.\n\nMelewati gang sempit dan menyeberangi jembatan kecil terletak tujuannya. Adiknya ada di sana. Dan juga orang itu. Ia bertanya-tanya apakah lentera sudah dinyalakan, dan apakah mereka akan menyukai hidangan ini. Ia telah berjalan melewati musim semi dan panas Mingting, saat dirinya yang muda berlari di tengah keramaian dengan rambut berkibar, hatinya terpikat oleh permadani dunia yang hidup. Ia telah berjalan melewati musim gugur dan dingin Mengzhou, mendayung ke pagi berkabut untuk bernegosiasi, dan duduk sendirian di malam bersalju membaca surat keluarga berulang-ulang di depan perapian.\n\nDan kini, musim-musim itu membawanya tepat ke malam ini. Di bawah kakinya adalah jalan-jalan Xuanfang. Di tangannya adalah sajian untuk orang-orang yang ia sayangi. Suisui memindahkan kantong itu ke tangan lain dan mempercepat langkah. Angin menderu sepanjang jalan, membuat lengan bajunya berkibar dalam cahaya lentera yang samar. Ia menyipitkan mata ke arah cahaya, tapi tak memperlambat langkah.\n\nJembatan sudah di depan."
+      }
+    ],
+    "specialFood": {
+      "name": "",
+      "description": "",
+      "imageUrl": ""
+    }
+  }
+}

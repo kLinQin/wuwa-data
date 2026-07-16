@@ -1,0 +1,333 @@
+{
+  "name": "Taoqi",
+  "element": "Havoc",
+  "weapon": "Broadblade",
+  "rarity": 4,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Support and Healer",
+    "Resonance Liberation Damage",
+    "Resonance Skill DMG Amplification"
+  ],
+  "sonatas": [
+    "Moonlit Clouds",
+    "Rejuvenating Glow"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false
+    }
+  ],
+  "faction": "Ministry of Development",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Natural",
+  "image": "/characters/taoqi.webp",
+  "imageBanner": "/banners/taoqi-banner.jpeg",
+  "recommendedStats": {
+    "DEF": "2800+",
+    "Energy Regen": "130-160%+"
+  },
+  "build": {
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Impermanence Heron"
+    ],
+    "bestWeapon": "Discord",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Healer",
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "bell-borne-geochelone",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: havoc%",
+            "3: havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        },
+        {
+          "label": "Sub DPS",
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: havoc%",
+            "3: havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": []
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "DEF%",
+        "DEF"
+      ],
+      "note": "FONR memberikan 10% ATK buff selama 20 detik (100% uptime, 20 detik CD), sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat terhenti lebih awal jika shield yang diberikan terkena serangan sebanyak 3 kali. FONR juga lebih mudah secara keseluruhan untuk dikumpulkan karena hanya menjatuhkan satu sonata set."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "discord",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "dauntless-evernight",
+        "rank": "",
+        "percentage": "100"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Skill Buff",
+        "members": [
+          [
+            "Carlotta",
+            "Jinhsi",
+            "Phrolova"
+          ],
+          [
+            "Taoqi"
+          ],
+          [
+            "Shorekeeper",
+            "Verina"
+          ]
+        ],
+        "note": "Taoqi dapat memberikan Resonator berikut 38% Res. Skill Amplify setelah melancarkan Outro Skill miliknya. Namun, ia sering kali digantikan oleh pilihan lain."
+      }
+    ],
+    "teamNote": "Taoqi menawarkan buff 38% Resonance Skill DMG Amplify selama 14 detik; namun, ia membutuhkan banyak field time yang berharga untuk membangun concerto miliknya sebelum buff tersebut dapat diaktifkan. Pada akhirnya, Taoqi sering kali digunakan sebagai buffer Rejuvenating Glow, karena ia mampu memicu bonus set tersebut."
+  },
+  "skills": {
+    "basic": {
+      "name": "Concealed Edge",
+      "description": "Basic Attack\nMelancarkan hingga 4 serangan beruntun, memberikan  Havoc DMG.\n\nHeavy Attack\nMengonsumsi Stamina untuk memberikan  Havoc DMG\nTahan Basic Attack untuk masuk ke mode Rocksteady Defense.\n\nRocksteady Defense\n- Damage yang diterima Taoqi berkurang 35%.\n- Saat Taoqi diserang dalam mode Rocksteady Defense, dia akan mengaktifkan Strategic Parry.\n- Strategic Parry akan otomatis aktif setelah Rocksteady Defense bertahan selama 3 detik.\n- Jika Taoqi diserang saat menggunakan Resonance Skill Fortified Defense, Strategic Parry juga akan otomatis aktif. \n\nStrategic Parry\nMenyerang target, memberikan  Havoc DMG.\n\nMid-Air Attack\nMengonsumsi Stamina untuk melakukan Plunging Attack saat di udara, memberikan  Havoc DMG.\n\nDodge Counter\nGunakan Basic Attack setelah sukses menghindar untuk menyerang target, memberikan  Havoc DMG."
+    },
+    "skill": {
+      "name": "Fortified Defense",
+      "description": "Taoqi memberikan  Havoc DMG ke musuh di sekitarnya, menghasilkan 3 Rocksteady Shield, dan memulihkan HP-nya.\nJika diserang saat menggunakan Fortified Defense, Strategic Parry akan otomatis aktif.\n\nRocksteady Shield\nSaat karakter aktif dalam tim diserang, 1 Rocksteady Shield akan dikonsumsi untuk mengurangi damage yang diterima."
+    },
+    "liberation": {
+      "name": "Unmovable",
+      "description": "Menyerang target berdasarkan DEF Taoqi, memberikan  Havoc DMG."
+    },
+    "forte": {
+      "name": "Power Shift",
+      "description": "Timed Counters\nSaat memiliki Resolving Caliber, gunakan Basic Attack setelah Heavy Attack Strategic Parry atau Intro Skill Defense Formation untuk mengaktifkan Timed Counters, melakukan hingga 3 serangan beruntun yang dianggap sebagai Basic Attack DMG.\nTimed Counters mengonsumsi 1 Resolving Caliber saat mengenai musuh untuk memberikan shield.\nSetelah menggunakan Intro Skill Defense Formation, gunakan Basic Attack untuk langsung mengaktifkan Timed Counters.\n\nResolving Caliber\nTaoqi dapat menampung hingga 3 Resolving Caliber.\nBasic Attack ke-4 akan mengonsumsi semua Rocksteady Shield dan mengubahnya menjadi Resolving Caliber dalam jumlah yang sama.\nSaat Rocksteady Shield masih ada, jika karakter aktif diserang, 1 Rocksteady Shield akan dikonsumsi untuk memulihkan Resolving Caliber.\nSetelah Rocksteady Shield habis, semua yang tersisa akan dikonversi menjadi Resolving Caliber dalam jumlah yang sama."
+    },
+    "inherent": [
+      {
+        "name": "Steadfast Protection",
+        "description": "Saat Rocksteady Shield dari Resonance Skill masih aktif, DEF karakter meningkat 15%."
+      },
+      {
+        "name": "Unyielding",
+        "description": "Setelah Heavy Attack Strategic Parry berhasil diaktifkan, memulihkan 25 Stamina."
+      }
+    ],
+    "intro": {
+      "name": "Defense Formation",
+      "description": "Menyerang target, memberikan  Havoc DMG."
+    },
+    "outro": {
+      "name": "Iron Will",
+      "description": "Karakter Resonator yang masuk akan mendapatkan peningkatan Resonance Skill DMG sebesar 38% selama 14 detik atau sampai mereka diganti."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Gold-Dissolving Feather",
+            "amount": 46
+          },
+          {
+            "item": "LF Howler Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Howler Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Howler Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Howler Core",
+            "amount": 4
+          },
+          {
+            "item": "Iris",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Dreamless Feather",
+          "amount": 26
+        },
+        {
+          "item": "LF Howler Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Howler Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Howler Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Howler Core",
+          "amount": 57
+        },
+        {
+          "item": "Waveworn Residue 210",
+          "amount": 25
+        },
+        {
+          "item": "Waveworn Residue 226",
+          "amount": 28
+        },
+        {
+          "item": "Waveworn Residue 235",
+          "amount": 55
+        },
+        {
+          "item": "Waveworn Residue 239",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Essense Of Tranquility",
+      "description": "Shield dari Forte Circuit Power Shift meningkat 40%."
+    },
+    {
+      "stage": "S2",
+      "name": "Silent Strength",
+      "description": "Crit Rate dan Crit DMG dari Resonance Liberation Unmovable meningkat masing-masing 20%."
+    },
+    {
+      "stage": "S3",
+      "name": "Keen-Eyed Observer",
+      "description": "Durasi Rocksteady Shield dari Resonance Skill diperpanjang hingga 30 detik."
+    },
+    {
+      "stage": "S4",
+      "name": "Heavylifting Duty",
+      "description": "Saat Heavy Attack Strategic Parry berhasil diaktifkan, Taoqi memulihkan 25% HP dan meningkatkan DEF sebesar 50% selama 5 detik. Dapat diaktifkan setiap 15 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Benevolent Guardian",
+      "description": "Damage Forte Circuit Power Shift meningkat 50%. Saat Forte Circuit Power Shift mengenai target, memulihkan 20 Resonance Energy."
+    },
+    {
+      "stage": "S6",
+      "name": "Defender Of Peace",
+      "description": "Damage Basic Attack dan Heavy Attack Taoqi meningkat 40% selama Shield dari Rocksteady Shield masih aktif."
+    }
+  ],
+  "lore": {
+    "description": "Taoqi adalah direktur pertahanan perbatasan di Ministry of Development. Meskipun pembawaannya tampak santai, ia secara konsisten membuktikan dirinya sebagai individu yang dapat diandalkan dan suportif, selalu mengulurkan tangannya kepada mereka yang membutuhkan. Taoqi bukan hanya rekan kerja yang dapat diandalkan, tetapi juga teman terpercaya tempat orang-orang bisa mencurahkan isi hati mereka.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\nFebruary 25th",
+    "report": {
+      "resonancePower": "Blossom of Slashes",
+      "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment 2083-G]\n\nResonator Taoqi mengalami Forte-Awakening milikinya 3 tahun yang lalu, tanpa adanya peristiwa pemicu yang dapat diidentifikasi.\n\nTacet Mark milik Resonator Taoqi terletak di area interskapular. Observasi pasca-Kebangkitan belum menemukan perubahan fisik yang menonjol. Pengujian menunjukkan bahwa kulit Taoqi memiliki tingkat ketangguhan yang lebih tinggi dibandingkan dengan individu rata-rata.\n\nIa memiliki kemampuan untuk menghasilkan medan gaya yang unik, menciptakan penghalang pelindung guna melindungi dirinya sendiri dan orang lain dari potensi bahaya.\nResonance Spectrum Pattern milik Taoqi tidak menunjukkan kemiripan dengan sampel yang dikenal. Penyebab Kebangkitannya tetap tidak diketahui.\n\nAnalisis sampel uji telah mengungkapkan Rabelle's Curve yang tidak konvergen dengan kenaikan yang stabil. Fluktuasi sesekali dalam rentang normal telah terdeteksi. Oleh karena itu, Taoqi diklasifikasikan sebagai Natural Resonator.",
+      "overclockDiagnostic": "Grafik gelombang untuk Resonator Taoqi menampilkan fluktuasi sinusoidal yang stabil dalam Time Domain tanpa pola abnormal. Setelah pemeriksaan, semua hasil berada dalam parameter normal.\n\nResonant Criticality: Menengah. Frekuensi Resonator Taoqi menunjukkan stabilitas tinggi dengan risiko Overclocking yang rendah.\n\nTidak ada riwayat Overclocking yang tercatat untuk Resonator Taoqi. Pemeriksaan rutin direkomendasikan, sementara konseling psikologis saat ini dianggap tidak perlu."
+    },
+    "items": [
+      {
+        "name": "Guardian Wall Model",
+        "description": "\"Beban Jinzhou jauh melampaui apa yang dapat dipikul oleh sebuah model, tetapi Anda dapat merasakan beban menjaga Jinzhou dari dekat dengan membeli model Guardian Wall.\" Ministry of Development bekerja sama dengan sebuah perusahaan mainan untuk menciptakan model ini, yang dirumorkan sebagai edisi pertama terbatas yang didapatkan secara pribadi oleh Taoqi dari seorang tokoh mainan terpandang.\n",
+        "imageUrl": "/icons/items/taoqi-1.webp"
+      },
+      {
+        "name": "Jinzhou Strategies",
+        "description": "Modul data untuk pemuatan Terminal ini berisi observasi dan pemikiran Taoqi tentang Jinzhou, mulai dari renungan masa kecilnya hingga keputusannya saat ini untuk melindungi kota. Setiap detail telah didokumentasikan dengan cermat di dalam perangkat kecil namun kuat ini. Mungkin suatu hari nanti, benda ini akan mengubah nasib Jinzhou.",
+        "imageUrl": "/icons/items/taoqi-2.webp"
+      },
+      {
+        "name": "Peachy Turtle",
+        "description": "Taoqi selalu rindu untuk mendapatkan tidur siang yang nyenyak dan damai di waktu luangnya. Peachy Turtle yang lembut dan empuk menjadi tempat perindungannya, sebuah surga yang menghapus semua kelelahan yang terkumpul dari pekerjaan. \"Jika aku bisa menjalani kehidupan yang lambat seperti Peachy Turtle, namun tetap menjadi pendukung yang andal bagi semua orang, itu akan sangat sempurna.\"",
+        "imageUrl": "/icons/items/taoqi-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Prisoner'S Dilemma",
+        "content": "\"Sudahkah kalian dengar? Direktur baru di Divisi Pertahanan Ministry of Development tidak membiarkan apa pun lolos darinya!\" Rumor ini menyebar dengan cepat ke seluruh Jinzhou, dan segera menjadi topik hangat di kota tersebut.\n\nMinistry of Development memesan sejumlah material yang ditujukan untuk pembangunan garis pertahanan baru, tetapi satu kontainer terisi dengan barang-barang di bawah standar tanpa label. Untuk memperumit masalah, kelompok barang tersebut berasal dari tiga produsen berbeda, dan tidak ada satu pun yang bersedia bertanggung jawab atas cacat tersebut.\n\n\"Direktur Taoqi, Anda harus membantu kami menyelesaikan masalah ini. Ministry of Development tidak bisa begitu saja menuduh orang yang tidak bersalah!\"\nKetiga perwakilan itu berujar, suara mereka semakin keras dalam upaya untuk menarik lebih banyak perhatian.\n\nTaoqi dengan tenang menavigasi kekacauan tersebut, sembari menunda perwakilan yang berisik itu dengan lembut. \"Baiklah, baiklah, saya mengerti,\" meskipun ia tidak benar-benar memperhatikan keluhan mereka. Ia kemudian berjongkok untuk memeriksa kontainer tanpa label tersebut. Setelah memeriksa beberapa keping material selama beberapa saat, Taoqi tampaknya mendapatkan sebuah ide. Dengan nada santai, ia berbalik ke arah tiga perwakilan tersebut dan berkata, \"Tetapi tampaknya salah satu dari kalian berbohong. Atau mungkin, kalian bertiga berbohong.\"\n\nSetelah itu, Taoqi dan juniornya, Xiaoyu, mengunjungi tiga pabrik manufaktur secara diam-diam. Mereka mengumpulkan petunjuk tentang mesin, rute transportasi yang digunakan malam itu, dan jadwal pengiriman. Dengan informasi ini, Taoqi mampu memecahkan teka-teki tersebut dan memastikan mereka yang telah bertindak licik akan menghadapi konsekuensi.\n\nDalam beberapa hari, rumor menyebar ke seluruh kota. Salah satu dari tiga perwakilan diinterogasi oleh Direktur Taoqi dari Ministry of Development. Kemudian, muncul berita tentang perwakilan lain yang tertangkap, diikuti oleh yang terakhir. Akhirnya, Jinzhou News memuat berita yang mengungkap kolusi mereka dalam memasok material di bawah standar. Publik pun tertegun, sementara hanya Taoqi dan Xiaoyu yang mengetahui kebenarannya.\n\n\"Aku tahu! I-itu adalah dilema tahanan yang tipikal! Anda membawa salah satu dari mereka untuk 'pembicaraan pribadi' terlebih dahulu, lalu Anda memastikan dua lainnya tahu apa yang terjadi. Semua ini dimaksudkan untuk menekan mereka agar mereka saling mengkhianati dan melapor, kan? Tapi bagaimana Anda tahu mereka semua berbohong?\"\n\n\"Manusia bisa berbohong, tetapi mesin tidak bisa. Setiap pabrik memiliki spesifikasi mesin yang unik. Jawabannya sudah jelas saat aku memeriksa material tersebut. Yah... hal itu memang mengorbankan beberapa waktu istirahat makanku.\" Taoqi mengeluh sambil menarik penutup matanya ke bawah, bertekad untuk mengganti waktu istirahat yang hilang itu."
+      },
+      {
+        "title": "Taoqi'S Tempo",
+        "content": "\"Ugh... hari kerja lainnya.\"\n\nDengan desahan enggan, Taoqi berjuang untuk merangkak keluar dari kepompong selimutnya yang nyaman, menatap matahari yang perlahan terbit di atas Jinzhou. Baginya, hal itu menandai dimulainya hari biasa lainnya.\n\nJalanan ramai dengan kedai sarapan dan kerumunan pekerja sudah mulai mengantre. Beberapa orang meninggalkan uang dan menyambar sekantong bakpao dengan terburu-buru untuk berangkat kerja. Tidak perlu bagi pemilik kedai untuk meninggikan suara, semua orang bersemangat untuk makan cepat sebelum berangkat.\n\nJinzhou, setelah istirahat malam yang cukup, kembali hidup.\n\nDi tengah kerumunan yang ramai, Taoqi muncul dengan langkah santai. Penutup matanya masih terpasang di dahi, dan ia menguap dari waktu ke waktu, tampak seolah-olah ia belum sepenuhnya bangun.\n\n\"Hmm... antrean mana yang harus aku ikuti?\"\n\nMenggosok matanya, Taoqi mengamati setiap kedai dan menghitung dalam hati, \"Tiga, dua, satu...\"\n\nSetelah menyelesaikan hitungannya, orang di depan antrean pergi dengan sekantong bakpao yang baru dipanggang di tangan.\n\nTaoqi tampaknya sedang menghitung waktu yang dibutuhkan untuk mengukus bakpao di setiap kedai. Setelah memeriksa waktu dan jumlah orang dalam antrean, ia membuat keputusannya.\n\n\"Hmm... Bagus. Taruhan aku tidak akan terlambat hari ini.\"\n\nTaoqi mengetukkan satu tangan ke tangan lainnya dengan tempo tertentu untuk melacak waktu. Saat antrean merayap maju, ia menyadari bahwa temponya \"tiga, dua, satu\" sedikit lebih cepat daripada kemajuan antrean.\n\n\"Oh? Sepertinya aku tidak akan sampai tepat waktu, ternyata.\"\n\nTaoqi bertekad untuk melakukan clock in tepat waktu, tetapi hitungannya tidak sesuai dengan kemajuan antrean. Ia memeriksa kecepatan ketukannya dan memastikan itu akurat. Apakah pemilik kedai melambat? Ia mengamati mereka dengan hati-hati, tangan mereka bergerak sangat cepat. Merasa bingung, ia tidak bisa menemukan alasan ketidakkonsistenan tersebut. Waktu terus berjalan, dan ia benar-benar harus berangkat kerja tepat waktu.\n\n\"Aku mengerti. Pasti ini masalahnya?\"\n\nSetelah beberapa saat, perhatiannya teralihkan ke kincir angin seorang anak dan kemudian kembali ke tungku, di mana sebuah lubang besar membiarkan angin menyebarkan api. Namun sang penjual tampaknya tidak menyadarinya.\n\nTaoqi meninggalkan antrean, mengambil sebuah kotak, dan melindungi api dari angin.\n\n\"Permisi, nona muda, apa yang sedang Anda lakukan?\"\n\n\"Hanya mencoba untuk tidak terlambat!\"\n\nTaoqi menjelaskan dengan seringai puas saat ia kembali ke tempat asalnya di antrean. Namun, tampaknya ia harus mengantre lagi dari awal.\n\n\"Ya ampun, aku pasti akan terlambat sekarang.\""
+      },
+      {
+        "title": "Taoqi'S Time",
+        "content": "Meskipun Taoqi tampak malas, seolah-olah ia bisa tertidur kapan saja, Taoqi secara konsisten tidak cela dalam semua yang ia lakukan.\n\n\"Apakah menurutmu Nona Taoqi tertidur lagi?\" Rekrutan baru di Ministry of Development sering kali membagikan keraguan ini. Dalam situasi seperti itu, rekan-rekan yang akrab dengan Taoqi selalu meyakinkan mereka bahwa ia memang pemimpin yang sangat bisa diandalkan.\n\n\"Nona Taoqi, maaf mengganggu Anda, tetapi saya telah mencoba mengoptimalkan rencana konstruksi ini untuk waktu yang cukup lama, namun saya masih buntu...\" Di waktu luangnya, Taoqi sering kali mendapati dirinya didatangi oleh rekan-rekan muda yang mencari sarannya.\n\n\"Hmm... sudah mulai larut. Mari kita sudahi untuk hari ini. Mari kita jalan-jalan. Aku dengar ada restoran baru dengan makanan enak. Ingin memeriksanya?\"\n\"Uh, m-maaf?\" Para juniornya sering kali kesulitan mengikuti perubahan topik bicaranya yang tiba-tiba.\n\nTaoqi jarang memberi tahu siapa pun apa yang harus dilakukan. Ia percaya untuk membiarkan orang-orang menyelesaikannya sendiri.\nIa membawa juniornya yang bingung ke pasar jalanan yang sibuk, tempat yang sama yang ia bantu tingkatkan untuk akses komunitas yang lebih mudah dan perencanaan kota yang lebih baik. Taoqi mendesaknya untuk mengamati segalanya dalam perjalanan mereka: pemandangan, suara, dan rasa dari jalanan tersebut. Ia menjelaskan bahwa dengan memperhatikan penduduk setempat dan percakapan mereka, mereka dapat mengungkap masalah tersembunyi yang benar-benar perlu ditangani. Junior tersebut berterima kasih kepada Taoqi dengan senyum syukur, setelah menyadari niatnya. Taoqi membalas dengan senyuman hangat.\n\nTaoqi adalah \"kakak perempuan yang andal\" bagi semua orang, baik dalam pekerjaan maupun dalam kehidupan sehari-hari.\n\"Nona Taoqi, tolong...\"\nRuang penyimpanan tertentu, yang dulunya merupakan tempat tidur siang pribadi Taoqi, telah diubah menjadi \"ruang obrolan\" yang nyaman dengan sofa empuk, meja yang sempurna, dan teh yang nikmat. Rekan-rekan juniornya sekarang sering datang untuk berkonsultasi selama waktu luang mereka.\n\nTaoqi bersandar malas di sofa, mendengarkan dengan sabar saat para juniornya mencurahkan kekhawatiran mereka.\n\"Tahukah Anda? Harga perumahan di sini naik lagi!\"\n\"Memang benar begitu.\"\n\"Harus bekerja lebih keras untuk melunasi cicilan, tetapi memikirkan hal ini membuatku sangat stres. Aku merasa lemas...\"\n\"Sama di sini...\"\n\"Hela napas... Waktu berlalu begitu cepat. Sudah waktunya untuk kembali bekerja...\"\n\nMungkin popularitas ruang obrolan ini hanya berakar dari tempat bagi kaum muda untuk menumpahkan masalah mereka dan menemukan penghiburan satu sama lain.\nAdapun bagi Taoqi, ia hanya perlu menjadi pendengar yang sabar, memahami kekhawatiran mereka dan menawarkan saran bila sesuai guna meringankan beban mereka dengan lembut."
+      },
+      {
+        "title": "Reunion With Friends",
+        "content": "Taoqi menanggung niat buruk yang tidak berdasar karena kelambatannya saat masih kecil. Namun beruntung, ia bertemu dengan beberapa teman yang menerima dan membelanya.\n\nTumbuh bersama, mereka tidak terpisahkan. Namun sebagai orang dewasa, jalan mereka berbeda. Yang tertua bergabung dengan Midnight Rangers dan sekarang ditempatkan di garis depan; yang kedua menjadi guru di kota terpencil, membimbing generasi berikutnya; yang termuda menjadi penulis perjalanan yang terus-menerus bepergian.\nTerlepas dari karier mereka yang berbeda, mereka selalu kembali ke kampung halaman. Taoqi, anak kedua termuda dari kelompok tersebut yang tetap tinggal di Jinzhou, menjadi tujuan utama mereka untuk pertemuan dan perpisahan.\n\nSaat mereka menunggunya sekali lagi, seseorang menyebut namanya dan menarik perhatian pengunjung lainnya. Tampaknya ia cukup terkenal di sini.\n\"Oh benarkah? Apakah kalian sedang membicarakan Nona Taoqi?\"\n\"Aku pikir Nona Taoqi selalu menjadi orang yang santai?\"\n\"Ya, itu benar. Tapi dia sudah banyak berubah sejak kecil! Ingat bagaimana dia dulu mengikuti kita ke mana-mana? Sekarang, dia tampak begitu tenang sepanjang waktu. Luar biasa. Dia dulu sering tersesat dan menangis karena tertinggal.\"\n\"Dia bahkan dulu ditindas...\"\n\"Benarkah? Aku tidak percaya Nona Taoqi pernah mengalami hal itu...\"\n\"Haha, taruhan kamu tidak akan percaya. Dan saat itulah kami, teman-teman tersayangnya, turun tangan. Kami benar-benar menghajar mereka demi dia!\"\n\"Wow... lalu apa yang dilakukan Nona Taoqi saat itu?\"\n\"Erm... Dia memberikan bantuan cadangan? Seperti, memberi tahu orang tua mereka, merundingkan kompensasi dan semacamnya.\"\n\"Dia memiliki mata yang tajam untuk mengumpulkan informasi yang berguna... seolah dia bisa dengan cepat mengidentifikasi kelemahan orang-orang yang kami lawan.\"\n\"Yah... Dia sudah seperti adik bagiku. Aku selalu mencoba melindunginya, tetapi suatu hari aku menyadari bahwa dia telah diam-diam melindungi kami selama ini dengan kebijaksanaan dan matanya yang tajam. Itu benar-benar menyentuh perasaanku.\"\n\"Dia sudah banyak berkembang. Meskipun dia tetap melakukan segalanya dengan lambat, dia tampak lebih percaya diri sekarang.\"\n\"Wow, itu sangat mencerminkan Nona Taoqi! Aku tahu dia selalu bisa dipercaya!\"\n\"Hah? Bukankah kami mencoba memberitahumu sisi lain dari dirinya?\"\n\nTeman-teman lama itu semua meledak dalam tawa.\n\"Whew, selamat siang, semuanya. Apa yang kalian bicarakan? Sedang asyik mengobrol, ya.\"\n\"Kami sudah menunggumu. Ketiduran saat tidur siang lagi, ya? Kamu harus mentraktir kami karena terlambat di reuni berharga ini!\"\n\"Kami sedang membicarakanmu...\"\nTaoqi duduk, menggosok matanya dengan lesu, \"Apakah itu sesuatu yang menyenangkan? Ceritakan semuanya padaku.\""
+      },
+      {
+        "title": "Work-Life Balance",
+        "content": "Pekerjaan adalah pekerjaan dan kehidupan adalah kehidupan; menjaga batas yang jelas antara keduanya sangat penting agar semuanya berfungsi dengan baik.\nTaoqi selalu hidup dengan prinsip ini, dan tidak ada apa pun di Jinzhou yang dapat menghentikannya untuk pulang kerja tepat waktu.\nMinistry of Development adalah tempat yang sibuk, orang-orang terus datang dan pergi, bergegas menyelesaikan tugas mereka. Di tengah kekacauan, suara lembut Taoqi selalu bisa menenangkan badai. Di antara lembaran kertas yang dibalik, hal itu membawa kedamaian dan memperlambat ritme yang ada.\n\n“Sudah waktunya pulang. Saatnya menuju rumah.”\n“Mohon tunggu sebentar, Nona Taoqi. Kami memiliki dokumen yang baru diterbitkan yang memerlukan perhatian Anda.”\n“Baiklah, biarkan saya lihat... Sepertinya tidak mendesak. Saya akan menanganinya besok.”\n\nSetelah bekerja, Taoqi memiliki cara uniknya sendiri untuk \"relaksasi\". Baginya, \"relaksasi\" dapat datang dalam berbagai bentuk — mulai dari tidur yang nyenyak hingga jalan-jalan santai.\nSaat Taoqi berjalan pulang, ia menikmati berjalan-jalan menyusuri jalanan Jinzhou dan mengobrol dengan penduduknya. Ia senang mendengar cerita dari para tetua tentang sejarah kota dan melakukan percakapan ringan dengan anak-anak yang mengingatkannya pada harapan di dalam Jinzhou. Cara relaksasi ini membantunya terhubung lebih baik dengan kota tempat ia tinggal dan juga berkontribusi pada pekerjaannya.\n\nDulu di masa lalu, Midnight Rangers selalu kesulitan bertahan melawan serangan mendadak dari Tacet Discords. Dengan garis depan yang begitu luas, hampir mustahil untuk mendeteksi setiap penerobosan dan mereka terus-menerus berada dalam posisi rentan. Jadi, mereka berpaling kepada Taoqi untuk meminta bantuan.\nMerasa stres dan kewalahan, Taoqi beristirahat di ayunan terdekat. Saat ia melihat anak-anak bermain di kotak pasir, sebuah ide muncul padanya - sama seperti bagaimana mereka mengisi celah di istana pasir mereka, mereka juga bisa mengisi celah di garis depan. Ia mengajukan pembangunan dinding pasir di garis depan selama serangan Tacet Discord. Hal ini akan memperpendek garis depan dan membatasi jalur serangan bagi musuh. Dengan lebih sedikit titik untuk dipertahankan, Midnight Rangers akan memiliki lebih banyak waktu untuk menilai setiap serangan dan merespons dengan tepat berdasarkan variasi frekuensi yang disebabkan oleh deformasi pasir. Berkat pemikiran cerdas Taoqi, mereka mampu melindungi diri dengan lebih baik dari serangan dan mendapatkan ruang bernapas yang sangat dibutuhkan di garis depan.\n\nMenurut Taoqi, menatap meja sepanjang hari menyebabkan kemonotonan dan terputusnya hubungan dengan realitas. Maka ia mencari metode alternatif demi efisiensi. Di waktu luangnya jugalah ia menemukan panduan dan inspirasi tak terduga melalui pertemuan-pertemuan yang tidak disengaja."
+      }
+    ],
+    "specialFood": {
+      "name": "Floral Porridge",
+      "description": "Meningkatkan Crit. Rate semua Resonator dalam tim sebesar 24% selama 30 menit.\nHanya berlaku untuk Resonator milik sendiri dalam Co-op Mode.\n\n",
+      "imageUrl": "/icons/food/taoqi.webp"
+    }
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "name": "Rebecca",
+  "element": "Electro",
+  "weapon": "Pistol",
+  "rarity": 5,
+  "version": "3.4",
+  "lastUpdated": "2026-06-08",
+  "roles": [
+    "Concerto Efficiency",
+    "Basic Attack DMG",
+    "Heavy Attack DMG Amplification",
+    "Tune Break Boost"
+  ],
+  "sonatas": [
+    "Shadow of Shattered Dreams"
+  ],
+  "changelog": [
+    {
+      "text": "NEW CHARACTER",
+      "type": "updated",
+      "isNew": true,
+      "leaks": false
+    }
+  ],
+  "faction": "",
+  "affiliation": "",
+  "class": "Mutant",
+  "image": "/characters/rebecca.webp",
+  "imageBanner": "/banners/rebecca-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1900 - 200+",
+    "Energy Regen": "120",
+    "Crit Ratio (Crit Weapon)": "70% : 265 - 295%",
+    "Crit Ratio (Non Crit Weapon)": "65% : 225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Skull Thrasher",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "With Lucy/Augusta",
+          "sonataCustom": [
+            {
+              "name": "Shadow Of Shattered Dreams",
+              "set": 3
+            },
+            {
+              "name": "Reel Of Spliced Memories",
+              "set": 2
+            },
+            {
+              "name": "Void Thunder",
+              "set": 2
+            }
+          ],
+          "echoSlug": "reminiscence-adam-smasher",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: electro%",
+            "3: electro%",
+            "1: ATK%",
+            "1: ATK%"
+          ]
+        },
+        {
+          "label": "Other DPS",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 5
+            }
+          ],
+          "echoSlug": "bell-borne-geochelone",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: electro%",
+            "3: electro%",
+            "1: ATK%",
+            "1: ATK%"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "Saat dipasangkan dengan Lucy atau Augusta, gunakan Moonlit Clouds untuk team DPS yang lebih tinggi. Bellborne lebih disukai karena rotasinya. Shadows of Shattered Dreams hanya untuk personal damage miliknya."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "skull-thrasher",
+        "rank": "",
+        "percentage": "118.72%"
+      },
+      {
+        "id": "phasic-homogenizer",
+        "rank": "",
+        "percentage": "102.97%"
+      },
+      {
+        "id": "static-mist",
+        "rank": "",
+        "percentage": "100.00%"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Normal Attack",
+        "Intro Skill",
+        "Resonance Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "HACK PREMIUM",
+        "members": [
+          [
+            "Rebecca"
+          ],
+          [
+            "Lucy"
+          ],
+          [
+            "Mornye",
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Disarankan untuk menggunakan Moonlit Clouds pada Rebecca karena menghasilkan team DPS yang lebih besar, terutama jika Lucy milikmu memiliki investasi yang lebih tinggi."
+      },
+      {
+        "name": "HACK ALT",
+        "members": [
+          [
+            "Rebecca"
+          ],
+          [
+            "Augusta"
+          ],
+          [
+            "Mornye",
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Rebecca memberikan Augusta hingga 35% Heavy DMG Amplify setelah melancarkan Outro Skill miliknya beserta dengan buff tambahan seperti peningkatan 20% ATK saat melancarkan Resonance Liberation [Party 'Til Dawn!]."
+      },
+      {
+        "name": "HACK F2P",
+        "members": [
+          [
+            "Rebecca"
+          ],
+          [
+            "Sanhua"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": ""
+      }
+    ],
+    "teamNote": "Rebecca memberikan buff berikut untuk rekan satu timnya:\n- +20% ATK selama 30 detik saat melancarkan Resonance Liberation [Party 'Til Dawn!]\n- 30 Tune Break Boost untuk Lucy\n- 15% All-DMG Amplify selama 14 detik setelah melancarkan Outro Skill, di mana Resonator yang masuk kemudian bisa mendapatkan hingga 35% Heavy Attack DMG Amplify pada tumpukan penuh. Efek ini otomatis jika Resonator tersebut adalah Lucy\n- Memanggil sebuah turret yang terus-menerus menyerang selama 14 detik, yang dapat diperkuat lebih lanjut oleh Lucy, meningkatkan DMG multiplier miliknya sebesar 250%\n- Dengan Skull Trasher (Signature Rebecca): +24% ATK selama 30 detik saat memberikan Hack - Shifting."
+  },
+  "skills": {
+    "basic": {
+      "name": "Mix-'N'-Match",
+      "description": "Basic Attack - Huntress\nMelancarkan hingga 3 serangan berturut-turut, memberikan Electro DMG.\n\nHeavy Attack - Huntress\nTahan Normal Attack untuk terus menembak musuh dengan mengonsumsi STA, memberikan Electro DMG, dianggap sebagai Basic Attack DMG.\n- Tahan lalu lepaskan Normal Attack saat Rebecca tidak melancarkan Tactical Dodge - Huntress untuk melancarkan Heavy Attack - Eat Lead!: Huntress\n\nHeavy Attack - Eat Lead!: Huntress\nMemberikan Electro DMG.\n\nComin' in Hot! - Huntress\nMelompat salto di udara dan mendarat.\nTerus tahan Normal Attack setelah melancarkan skill ini untuk melanjutkan dengan Heavy Attack - Huntress tanpa mengonsumsi STA.\n\nMid-air Plunging Attack - Huntress\nMengonsumsi STA untuk melancarkan Plunging Attack, memberikan Electro DMG.\n\nDodge Counter - Huntress\nTekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Electro DMG.\n\nTactical Dodge - Huntress\nTekan Dodge untuk menyerang target sambil menghindar, memberikan Electro DMG.\nDapat dilancarkan selama tindakan berikut (saat berada di darat):\n- Melakukan Basic Attack - Huntress.\n- Melakukan Heavy Attack - Huntress.\n- Melakukan Heavy Attack - Eat Lead!: Huntress\n- Melancarkan Comin' in Hot! - Huntress.\n- Melancarkan Tactical Dodge - Huntress.\n- Melancarkan Resonance Skill.\n- Melancarkan Intro Skill.\nTambahan Electro DMG diberikan setelah berhasil melakukan Dodge selama Tactical Dodge - Huntress.\nTerus tahan Normal Attack setelah melancarkan skill ini untuk melanjutkan dengan Heavy Attack - Huntress tanpa mengonsumsi STA.\n\nBasic Attack - Guts\nMelancarkan hingga 3 serangan berturut-turut, memberikan Electro DMG.\nMelancarkan Tactical Dodge - Guts tidak mengatur ulang siklus serangan Basic Attack - Huntress dalam waktu tertentu.\n\nHeavy Attack - Guts\nMengonsumsi STA dan menyerang target, memberikan Electro DMG.\n\nMid-air Plunging Attack - Guts\nMengonsumsi STA untuk melancarkan Plunging Attack, memberikan Electro DMG.\n\nDodge Counter - Guts\nTekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Electro DMG.\n\nTactical Dodge - Guts\nTekan Dodge dan menyerang target sambil menghindar, memberikan Electro DMG.\nDapat dilancarkan selama tindakan berikut (saat berada di darat):\n- Melakukan Basic Attack - Guts.\n- Melancarkan Tactical Dodge - Guts.\n- Melancarkan Resonance Skill.\n- Melancarkan Intro Skill.\nTambahan Electro DMG diberikan setelah berhasil melakukan Dodge selama Tactical Dodge - Guts."
+    },
+    "skill": {
+      "name": "Tactical Tweaks",
+      "description": "Resonance Skill - It's Big Boomin' Time!\nTekan Resonance Skill saat berada dalam mode Huntress untuk memperkecil jarak dan menyemburkan peluru ke arah musuh, lalu beralih ke mode Guts untuk meledakkan target, memberikan Electro DMG.\n\nResonance Skill - Come 'n' Get Me!\nTekan Resonance Skill saat berada dalam mode Guts untuk menyemburkan peluru ke arah musuh, lalu gunakan rekoil dari tembakan ke tanah untuk memperkecil jarak dan beralih ke mode Huntress untuk melanjutkan rentetan serangan, memberikan Electro DMG.\nTekan atau tahan Normal Attack saat dekat dengan tanah sesaat setelah melancarkan skill ini untuk melanjutkan dengan Comin' in Hot! - Huntress."
+    },
+    "liberation": {
+      "name": "Party 'Til Dawn!",
+      "description": "Beralih ke mode Mk. 31 HMG menciptakan medan Stagnation selama 9.5 detik, yang mana di dalamnya:\nRebecca menembakkan Mk. 31 HMG secara otomatis, memberikan Electro DMG, dianggap sebagai Basic Attack DMG, sembari mengumpulkan Overload. Tekan atau tahan Normal Attack atau tekan Resonance Liberation secara berkala setelah Rebecca mulai menembak untuk memperkuat daya tembak Mk. 31 HMG miliknya dan mengumpulkan Overload dengan lebih cepat. Efek ini dapat dipicu hingga 2 kali.\n- Senapan mesin hanya akan melakukan auto-lock pada musuh terdekat dari crosshair dalam bidikan aim down sight.\n- Rebecca tidak dapat bergerak saat menembakkan Mk. 31 HMG dan mendapatkan 50% DMG Reduction serta Immunity to Interrruption.\n\nOverload\nRebecca dapat menampung hingga 90 poin Overload.\nMengenai target dengan daya tembak standar Mk. 31 HMG memberikan 2 poin.\nMengenai target dengan daya tembak yang diperkuat Mk. 31 HMG memberikan 4 poin.\nMengenai target dengan daya tembak yang diperkuat dua kali Mk. 31 HMG memberikan 6 poin.\n\nBOOM! Fireworks!\nSetelah mode Mk. 31 HMG berakhir atau saat Overload penuh, BOOM! Fireworks! otomatis dilancarkan, memberikan Electro DMG. Melancarkan BOOM! Fireworks! mengakhiri Mk. 31 HMG.\n- Tahan Resonance Liberation saat berada dalam mode Mk. 31 HMG untuk segera melancarkan BOOM! Fireworks!.\n- Meninggalkan mode Mk. 31 HMG menghapus semua Overload."
+    },
+    "forte": {
+      "name": "Gloves Are Comin' Off!",
+      "description": "Switch Gears!\nSetelah melancarkan Resonance Skill atau Intro Skill, Rebecca dapat dengan bebas beralih antara mode Huntress dan Guts.\n- Mode Huntress meningkatkan Crit. DMG Rebecca sebesar 30%.\n- Mode Guts memungkinkan Rebecca mengabaikan 15% DEF target.\nSecara default, Rebecca memulai pertempuran dalam mode Huntress.\n\nHack - Shifting\nRebecca memberikan Hack - Shifting setelah menghasilkan damage pada target melalui skill berikut. Skill yang sama dapat memicu efek ini sekali setiap 3 detik:\nIntro Skill - Yo, It's Big Boomin' Time!, Intro Skill - Hey, Leadhead, Come 'n' Get Me!, Heavy Attack - Rat-tat-tat!: Huntress, Heavy Attack - Bang-bang-bang!: Guts, dan Resonance Liberation - BOOM! Fireworks!.\n\nHack Response - Meltdown\nMemberikan Electro DMG kepada semua target yang terkena dampak Hack - Interfered dalam jangkauan, dianggap sebagai Hack DMG.\n\nHeavy Attack - Rat-tat-tat!: Huntress\nPada 120 poin Fervor, Heavy Attack - Huntress digantikan dengan Heavy Attack - Rat-tat-tat!: Huntress. Tahan Normal Attack untuk melancarkan Heavy Attack - Rat-tat-tat!: Huntress, yang mengonsumsi semua Fervor untuk menarik target di sekitar dan memberikan Electro DMG, dianggap sebagai Basic Attack DMG.\nSelama Heavy Attack - Huntress, jika Fervor berada pada 120 poin dan Rebecca tidak sedang melakukan tindakan Tactical Dodge - Huntress, lepaskan Normal Attack untuk melancarkan Heavy Attack - Rat-tat-tat!: Huntress.\n\nHeavy Attack - Bang-bang-bang!: Guts\nPada 120 poin Fervor, Heavy Attack - Guts digantikan dengan Heavy Attack - Bang-bang-bang!: Guts. Tahan Normal Attack untuk melancarkan Heavy Attack - Bang-bang-bang!: Guts, yang mengonsumsi semua Fervor untuk menarik target di sekitar dan memberikan Electro DMG, dianggap sebagai Basic Attack DMG.\n\nFervor\nRebecca dapat menampung hingga 120 poin Fervor.\nNormal Attack memulihkan Fervor setelah menghasilkan damage pada target.\nResonance Skill memulihkan Fervor setelah menghasilkan damage pada target.\nSaat A Girl Gets What She Wants! didapatkan dengan melancarkan Intro Skill - Yo, It's Big Boomin' Time! atau Intro Skill - Hey, Leadhead, Come 'n' Get Me!, Rebecca memulihkan 50 poin Fervor.\n\nHot Hand\nRebecca dapat menampung hingga 120 poin Hot Hand.\nBeregenerasi seiring berjalannya waktu dengan laju 10 poin per detik.\nMelancarkan Heavy Attack - Rat-tat-tat!: Huntress atau Heavy Attack - Bang-bang-bang!: Guts memulihkan 40 poin.\n\nA Girl Gets What She Wants!\nPada 120 poin Hot Hand, melancarkan Intro Skill - Yo, It's Big Boomin' Time!, Intro Skill - Hey, Leadhead, Come 'n' Get Me!, Resonance Skill - It's Big Boomin' Time!, atau Resonance Skill - Come 'n' Get Me! memberikan efek berikut selama 12 detik:\nRebecca secara bersamaan mendapatkan Stat Bonus dari kedua mode Huntress dan Guts, terlepas dari mode apa yang sedang ia gunakan saat ini.\nHot Hand tidak dapat dipulihkan selama periode ini dan berkurang sebesar 10 poin per detik."
+    },
+    "inherent": [
+      {
+        "name": "Tag, You'Re It!",
+        "description": "ATK meningkat sebesar 10% selama 12 detik saat A Girl Gets What She Wants! dipicu, atau saat Heavy Attack - Rat-tat-tat!: Huntress atau Heavy Attack - Bang-bang-bang!: Guts dilancarkan, dapat ditumpuk hingga 2 kali.\nSaat seorang Resonator dalam tim memberikan Hack - Shifting, Tune Break Boost mereka meningkat sebesar 30 selama 30 detik.\n"
+      },
+      {
+        "name": "Left An Opening!",
+        "description": "Heavy Attack - Rat-tat-tat!: Huntress dan Heavy Attack - Bang-bang-bang!: Guts mendapatkan peningkatan resistansi terhadap interupsi.\nSaat Rebecca melancarkan Resonance Liberation - Party 'til Dawn!, ATK dari semua Resonator di sekitar dalam tim meningkat sebesar 20% selama 30 detik."
+      },
+      {
+        "name": "Hack - Meltdown",
+        "description": "Saat Off-Tune Level target penuh, Rebecca dapat melancarkan Tune Break pada target.\n\nRebecca dapat memberikan Hack - Shifting dan merespons Hack - Interfered pada target.\nMerespons Hack - Interfered: Saat salah satu Resonator dalam tim memberikan Tune Break DMG dan memberikan Hack - Interfered, Rebecca memicu Hack - Meltdown pada target. Setiap target dapat menerima damage dari skill ini hingga sekali setiap 8 detik."
+      }
+    ],
+    "intro": {
+      "name": "My Turn!",
+      "description": "Yo, It's Big Boomin' Time!\nSaat berada dalam mode Huntress, setelah melancarkan Intro Skill, Rebecca mendekati musuh dan menyemburkan peluru dengan Huntress, lalu beralih ke mode Guts untuk meledakkan target, memberikan Electro DMG.\n\nHey, Leadhead, Come 'n' Get Me!\nSaat berada dalam mode Guts, setelah melancarkan Intro Skill, Rebecca mendekati musuh menggunakan rekoil Guts dari tembakan ke tanah dan beralih ke mode Huntress untuk menyemburkan peluru ke arah musuh, memberikan Electro DMG.\nTekan atau tahan Normal Attack saat dekat dengan tanah sesaat setelah melancarkan skill ini untuk melanjutkan dengan Comin' in Hot! - Huntress."
+    },
+    "outro": {
+      "name": "Preem Choom",
+      "description": "Memanggil sebuah turret yang terus-menerus menyerang musuh selama 14 detik, memberikan 2.5% Electro DMG pada setiap hit.\nResonator yang masuk mendapatkan Edgerunner Bonds, memberikan 15% All DMG Amplification selama 14 detik. Resonator dengan Edgerunner Bonds mendapatkan 1 tumpukan Overlimit setiap 0.2 detik, yang mana setiap tumpukan memberikan 0.5% Heavy Attack DMG Amplification, hingga 35% (Lucy secara otomatis menerima tumpukan maksimal saat Edgerunner Bonds miliknya aktif). Beralih ke Resonator lain akan mengakhiri Edgerunner Bonds dan Overlimit lebih awal.\nLucy dapat memperkuat turret, meningkatkan DMG Multiplier miliknya sebesar 250%, tetapi durasi di dalam field akan berkurang menjadi 4 detik."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Nightmare Flashdrive",
+            "amount": 46
+          },
+          {
+            "item": "LF Mech Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Mech Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Mech Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Mech Core",
+            "amount": 4
+          },
+          {
+            "item": "Past Reveries",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "We Who Question",
+          "amount": 26
+        },
+        {
+          "item": "LF Mech Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Mech Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Mech Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Mech Core",
+          "amount": 57
+        },
+        {
+          "item": "Incomplete Combustor",
+          "amount": 25
+        },
+        {
+          "item": "Remnant Combustor",
+          "amount": 28
+        },
+        {
+          "item": "Aftertune Combustor",
+          "amount": 55
+        },
+        {
+          "item": "Reverb Combustor",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Rebecca",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Skull Thrasher",
+          "value": 641496.24,
+          "percentage": 118.72,
+          "imagePath": ""
+        },
+        {
+          "type": "Phasic Homogenizer",
+          "value": 556385.23,
+          "percentage": 102.97,
+          "imagePath": ""
+        },
+        {
+          "type": "Static Mist",
+          "value": 540342.15,
+          "percentage": 100,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Rebeccaa",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 641496.24,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 676542.03,
+          "percentage": 105.46,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 779441.24,
+          "percentage": 121.5,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 971418.73,
+          "percentage": 151.43,
+          "imagePath": ""
+        },
+        {
+          "type": "S4",
+          "value": 1050453.52,
+          "percentage": 163.75,
+          "imagePath": ""
+        },
+        {
+          "type": "S5",
+          "value": 1106622.58,
+          "percentage": 172.51,
+          "imagePath": ""
+        },
+        {
+          "type": "S6",
+          "value": 1440584.36,
+          "percentage": 224.57,
+          "imagePath": ""
+        },
+        {
+          "type": "S6R5",
+          "value": 1619034.62,
+          "percentage": 252.38,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Rebeccaa",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 62.5,
+          "percentage": 62.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Hack",
+          "value": 20.4,
+          "percentage": 20.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro Skill",
+          "value": 4.2,
+          "percentage": 4.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Outro",
+          "value": 4.6,
+          "percentage": 4.6,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 4.4,
+          "percentage": 4.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Reso Skill",
+          "value": 3.9,
+          "percentage": 3.9,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [],
+  "lore": {
+    "description": "",
+    "report": {
+      "resonancePower": "",
+      "resonanceEvaluation": "",
+      "overclockDiagnostic": ""
+    },
+    "items": [],
+    "stories": [],
+    "specialFood": {
+      "name": "",
+      "description": "",
+      "imageUrl": ""
+    }
+  }
+}

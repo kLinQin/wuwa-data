@@ -1,0 +1,490 @@
+{
+  "name": "Hiyuki",
+  "element": "Glacio",
+  "weapon": "Sword",
+  "rarity": 5,
+  "version": "3.3",
+  "lastUpdated": "2026-04-28",
+  "roles": [
+    "Main Damage Dealer",
+    "Resonance Liberation Damage",
+    "Glacio Chafe"
+  ],
+  "sonatas": [
+    "Wishes of Quiet Snowfall"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "input",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Startorch Academy",
+  "affiliation": "Spacetrek Collective",
+  "class": "Unclear",
+  "image": "/characters/hiyuki.webp",
+  "imageBanner": "/banners/hiyuki-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2100+",
+    "Energy Regen": "120",
+    "Crit Ratio (Crit Weapon)": "70& : 265%",
+    "Crit Ratio (Non Crit Weapon)": "65& : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Threnodian - Voidborne Construct"
+    ],
+    "bestWeapon": "Frostburn",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: glacio%",
+            "3: glacio%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "threnodian-voidborne-construct",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Wishes Of Quiet Snowfall"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "frostburn",
+        "rank": "",
+        "percentage": "125.55%"
+      },
+      {
+        "id": "blazing-brilliance",
+        "rank": "",
+        "percentage": "100.75%"
+      },
+      {
+        "id": "emerald-of-genesis",
+        "rank": "",
+        "percentage": "100.00%"
+      },
+      {
+        "id": "feather-edge",
+        "rank": "5",
+        "percentage": "96.45%"
+      },
+      {
+        "id": "feather-edge",
+        "rank": "1",
+        "percentage": "87.61%"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "New Rotation",
+        "steps": [
+          "Intro",
+          "BA3",
+          "[F]HA",
+          "Ult",
+          "Skill12",
+          "[U]BA12345",
+          "Dodge",
+          "Iai(x3)",
+          "[F]HA",
+          "Ult2",
+          "Skill",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Normal Attack",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Hiyuki - HC",
+        "members": [
+          [
+            "hiyuki"
+          ],
+          [
+            "Lynae"
+          ],
+          [
+            "Chisa",
+            "Mornye"
+          ]
+        ],
+        "note": "Saat info ini dibuat, tim terbaik Hiyuki saat ini terdiri dari Lynae dan Chisa.\nMeskipun Lynae kemungkinan akan digantikan oleh unit Glacio Chafe di masa depan, ia tetap memberikan buff kuat yang menguntungkan Hiyuki."
+      },
+      {
+        "name": "Hiyuki - HC Alt 1",
+        "members": [
+          [
+            "hiyuki"
+          ],
+          [
+            "Zhezhi"
+          ],
+          [
+            "Chisa"
+          ]
+        ],
+        "note": "Kehadiran Chisa di dalam tim memaksimalkan Inherent Skill Hiyuki: Fine Snow.\nIa masih kekurangan satu unit yang dapat memberikan stack(s) terakhir dari Snow Rust dan saat ini belum dapat memberikan Amplify pada Glacio Bite DMG sebesar 30%."
+      },
+      {
+        "name": "Hiyuki - HC Alt 2",
+        "members": [
+          [
+            "hiyuki"
+          ],
+          [
+            "Changli",
+            "Yinlin"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": ""
+      }
+    ],
+    "teamNote": ""
+  },
+  "skills": {
+    "basic": {
+      "name": "Flaming Sakura Blade Art",
+      "description": "Basic Attack - Present Self\nMenekan Normal Attack secara berturut-turut atau menahan tombol untuk melancarkan hingga 3 serangan berturut-turut, memberikan Glacio DMG.\nBasic Attack - Present Self Stage 3 memberikan 1 tumpukan Glacio Chafe saat mengenai target.\n\nHeavy Attack - Frost Splinter: Present Self\nSaat Dedication mencapai 300 poin, Heavy Attack - Frost Splinter: Present Self menjadi tersedia.\nMenahan Normal Attack untuk menembakkan 3 anak panah satu per satu dengan mengonsumsi STA, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Hiyuki menjadi kebal terhadap interupsi selama durasi tersebut.\nSaat anak panah terakhir ditembakkan, 300 poin Dedication akan dikonsumsi dan Foreclaiming: Inward Vision menjadi tersedia. Anak panah tersebut memberikan 1 tumpukan Glacio Chafe saat mengenai target.\n\nMid-air Attack - Present Self\nMengonsumsi STA untuk melancarkan Plunging Attack dari udara, memberikan Glacio DMG.\n\nDodge Counter - Present Self\nMenekan Normal Attack dalam periode tertentu setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG.\nMenekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Present Self Stage 3.\n\nBasic Attack - Foreclaimed Self\nSaat berada dalam Foreclaimed Self, Basic Attack - Present Self digantikan oleh Basic Attack - Foreclaimed Self.\nMelancarkan hingga 5 serangan berturut-turut, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nBasic Attack - Foreclaimed Self Stage 3, 4, dan 5 masing-masing memberikan 1 tumpukan Glacio Chafe saat mengenai target.\n\nHeavy Attack - Foreclaimed Self\nDalam status Foreclaimed Self, tahan Normal Attack untuk memasuki Hold Breath, yang mengonsumsi STA secara terus-menerus. Saat Normal Attack dilepaskan atau STA habis, Hiyuki meninggalkan status Hold Breath dan menusuk ke depan, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Tekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 2.\nJika Hiyuki diserang oleh musuh dalam periode tertentu saat melakukan tusukan, netralkan instansi damage tersebut, berikan efek Stagnate pada target di sekitar, dan menjadi kebal terhadap interupsi untuk periode tertentu setelahnya sambil mengurangi semua damage yang masuk sebesar 100%. Tekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk menyambung ke Basic Attack - Foreclaimed Self Stage 4 sebagai gantinya.\n\nHeavy Attack - Bitterfrost: Foreclaimed Self\nSaat Whiteout Bitterfrost penuh, Heavy Attack - Foreclaimed Self digantikan dengan Heavy Attack - Bitterfrost: Foreclaimed Self.\nMenahan Normal Attack dan mengonsumsi STA serta 3 tumpukan Whiteout Bitterfrost untuk mendapatkan 1 poin Snowforged Blade, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nHeavy Attack - Bitterfrost: Foreclaimed Self memberikan 1 tumpukan Glacio Chafe saat mengenai target.\nJika Hiyuki berada di udara saat melancarkan skill ini, ia akan mendarat di tanah terlebih dahulu.\n\n\nMid-air Attack - Foreclaimed Self\nSaat berada dalam Foreclaimed Self, Mid-air Attack - Present Self digantikan oleh Mid-air Attack - Foreclaimed Self.\nMengonsumsi STA untuk melancarkan hingga 3 serangan berturut-turut di udara, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Stage 3 merupakan Plunging Attack.\nMid-air Attack - Foreclaimed Self Stage 2 & 3 memberikan 1 tumpukan Glacio Chafe saat mengenai target.\nKombo Mid-air Attack - Foreclaimed Self tidak akan diatur ulang dengan melancarkan skill selain Basic Attack - Iai dalam periode singkat.\nMenahan Normal Attack saat berada di udara untuk melancarkan Plunging Attack dengan mengonsumsi STA.\n\n\nDodge Counter - Foreclaimed Self\nSaat berada dalam Foreclaimed Self, Dodge Counter - Present Self digantikan oleh Dodge Counter - Foreclaimed Self.\nMenekan Normal Attack dalam periode tertentu setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nMenekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 3."
+    },
+    "skill": {
+      "name": "Resonance Skill - Present Self",
+      "description": "Memberikan Glacio DMG.\nMelancarkan skill ini memperkuat Basic Attack - Present Self Stage 3 berikutnya, yang kini memulihkan 100 poin Dedication saat dilancarkan. Beralih ke Resonator lain akan mengakhiri efek ini.\nMenekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Present Self Stage 3.\nJika Dedication berada di bawah 300 poin, tahan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Present Self Stage 3.\n\nSaat berada dalam Foreclaimed Self, Resonance Skill - Present Self digantikan oleh Frostblight: Jade Cleave dan Frostblight: Petalfall:\n\nFrostblight: Jade Cleave\nSaat berada di tanah, tekan Resonance Skill untuk menarik target di sekitar dan memberikan Glacio DMG, menghapus status Frostbind pada target tersebut.\nSkill ini berbagi Cooldown dengan Frostblight: Petalfall.\n\nFrostblight: Petalfall\nSaat berada di udara, tekan Resonance Skill untuk menarik target di sekitar dan memberikan Glacio DMG, menghapus status Frostbind pada target tersebut.\nSkill ini berbagi Cooldown dengan Frostblight: Jade Cleave."
+    },
+    "liberation": {
+      "name": "Foreclaiming",
+      "description": "Foreclaiming: Inward Vision\nHeavy Attack - Foreclaiming: Inward Vision menjadi tersedia setelah melancarkan Frost Splinter: Present Self.\nSaat berada dalam Present Self, tekan Resonance Liberation untuk melancarkan skill ini, memberikan Glacio DMG. Setelah melancarkan skill ini, dapatkan 3 poin Frostharden Iai, hapus 300 poin Dedication dan Frostheart. Kemudian, masuk ke status Foreclaimed Self dan pulihkan 50 poin Frostheart.\nForeclaiming: Inward Vision memberikan 4 tumpukan Glacio Chafe saat mengenai target.\nMelancarkan Foreclaiming: Inward Vision tidak mengonsumsi Resonance Energy, dan memulihkan 50 poin Frostheart.\n\nForeclaiming: Blade Liberation\nSaat berada dalam Foreclaimed Self, Foreclaiming: Blade Liberation dapat dilancarkan melalui cara-cara berikut:\n- Menekan Resonance Liberation dan lepaskan untuk melancarkan Foreclaiming: Blade Liberation. Jika Hiyuki memiliki 3 poin Snowforged Blade, konsumsi semua Snowforged Blade. Jika tidak, peluncuran ini tidak mengonsumsi Snowforged Blade.\n- Menahan Resonance Liberation untuk memasuki status pengisian daya (charging). Selama status ini, konsumsi 1 poin Snowforged Blade secara berkala. Lepaskan Resonance Liberation untuk melancarkan Foreclaiming: Blade Liberation. Jika tidak ada Snowforged Blade yang dikonsumsi saat Resonance Liberation dilepaskan, Hiyuki akan terus mengisi daya serangan dan melancarkan skill secara otomatis setelah waktu tertentu. Foreclaiming: Blade Liberation juga akan dilancarkan secara otomatis saat Snowforged Blade habis.\nHiyuki memberikan Glacio DMG. Setiap poin Snowforged Blade yang dikonsumsi meningkatkan DMG Multiplier dari serangan ini.\nMelancarkan skill ini mengonsumsi 300 poin Dedication dan Frostheart, serta mengakhiri status Foreclaimed Self."
+    },
+    "forte": {
+      "name": "",
+      "description": ""
+    },
+    "inherent": [
+      {
+        "name": "Fine Snow",
+        "description": "Saat Resonator dalam tim memberikan Glacio Chafe atau Havoc Bane, Hiyuki mendapatkan 1 tumpukan Snow Rust. Snow Rust dapat ditumpuk hingga 3 kali. Setiap Resonator hanya dapat memicu efek ini satu kali melalui cara tersebut.\nBerdasarkan jumlah tumpukan Snow Rust Hiyuki saat ini, bonus berikut akan terbuka:\n1 tumpukan Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, Glacio Bite DMG mendapatkan Amplify sebesar 30% terhadap target dalam jarak tertentu. Crit. DMG Hiyuki meningkat sebesar 40%.\n2 tumpukan Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali ia memberikan Glacio Chafe, ia tambahan memberikan 102% Glacio Bite DMG sebanyak satu kali.\n3 tumpukan Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, Glacio Bite DMG tambahan mendapatkan Amplify sebesar 30% terhadap target dalam jarak tertentu.\nEfek ini diatur ulang saat Resonator baru ditambahkan ke dalam tim.\n"
+      },
+      {
+        "name": "Ephemeral Realm",
+        "description": "Setelah Hiyuki meninggalkan status pertempuran atau pulih setelah pingsan, saat ia berada di luar pertempuran selama 4 detik dengan kondisi memiliki kurang dari 1 poin Snowforged Blade, pulihkan 1 poin tersebut."
+      },
+      {
+        "name": "Tune Break",
+        "description": "Saat Off-Tune Level target penuh, Hiyuki dapat melancarkan Tune Break pada target.\n\nSaat berada dalam Present Self, tekan atau tahan Normal Attack sesaat setelah melancarkan Tune Break untuk melancarkan Basic Attack - Present Self Stage 3.\nSaat berada dalam Foreclaimed Self, tekan Normal Attack sesaat setelah melancarkan Tune Break untuk melancarkan Basic Attack - Foreclaimed Self Stage 3."
+      }
+    ],
+    "intro": {
+      "name": "Frostedge",
+      "description": "Memberikan Glacio DMG, dianggap sebagai Resonance Liberation DMG, dan memberikan 1 tumpukan Glacio Chafe saat mengenai target.\nDalam status Present Self, melancarkan skill ini memulihkan 200 poin Dedication. Tekan atau tahan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 3.\nDalam status Foreclaimed Self, tekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 2."
+    },
+    "outro": {
+      "name": "Snowlight Blessing",
+      "description": "Glacio DMG yang diberikan oleh Resonator di sekitar selain Hiyuki dalam tim mendapatkan Amplify sebesar 20% terhadap target yang terkena efek Glacio Chafe selama 20 detik."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Our Choice",
+            "amount": 46
+          },
+          {
+            "item": "LF Exoswarm Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Exoswarm Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Exoswarm Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Exoswarm Core",
+            "amount": 4
+          },
+          {
+            "item": "Redbell",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "We Who Question",
+          "amount": 26
+        },
+        {
+          "item": "LF Exoswarm Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Exoswarm Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Exoswarm Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Exoswarm Core",
+          "amount": 57
+        },
+        {
+          "item": "Broken Wing Polarizer",
+          "amount": 25
+        },
+        {
+          "item": "Monowing Polarizer",
+          "amount": 28
+        },
+        {
+          "item": "Polywing Polarizer",
+          "amount": 55
+        },
+        {
+          "item": "Layered Wing Polarizer",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1591077.49,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1760986.58,
+          "imagePath": "",
+          "percentage": 110.68
+        },
+        {
+          "type": "S2",
+          "value": 2184854.4,
+          "imagePath": "",
+          "percentage": 137.32
+        },
+        {
+          "type": "S3",
+          "value": 2858704.18,
+          "imagePath": "",
+          "percentage": 179.67
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - hiyuki",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Frostburn",
+          "value": 1591077.49,
+          "imagePath": "",
+          "percentage": 125.55
+        },
+        {
+          "type": "Blazing Brilliance",
+          "value": 1276789.46,
+          "imagePath": "",
+          "percentage": 100.75
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 1267327.68,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Feather EdgeR5",
+          "value": 1222382.55,
+          "imagePath": "",
+          "percentage": 96.45
+        },
+        {
+          "type": "Feather EdgeR1",
+          "value": 1110307.09,
+          "imagePath": "",
+          "percentage": 87.61
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - hiyuki",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Lib",
+          "value": 73.4,
+          "imagePath": "",
+          "percentage": 73.4
+        },
+        {
+          "type": "Glacio Chafe",
+          "value": 14.7,
+          "imagePath": "",
+          "percentage": 14.7
+        },
+        {
+          "type": "Skill",
+          "value": 7.9,
+          "imagePath": "",
+          "percentage": 7.9
+        },
+        {
+          "type": "Echo",
+          "value": 2.7,
+          "imagePath": "",
+          "percentage": 2.7
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - hiyuki",
+      "layout": "horizontal",
+      "chartType": "radar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Springless",
+      "description": "DMG Multiplier dari Basic Attack - Foreclaimed Self, Heavy Attack - Foreclaimed Self, Mid-air Attack - Foreclaimed Self, Mid-air Plunging Attack - Foreclaimed Self, dan Dodge Counter - Foreclaimed Self meningkat sebesar 120%.\nBasic Attack - Foreclaimed Self Stage 3 kini memiliki jangkauan yang lebih luas dan menarik musuh dalam jangkauan ke arah pusat. Hiyuki menjadi kebal terhadap interupsi saat melancarkan Basic Attack - Foreclaimed Self Stage 4 & 5.\nMelancarkan Foreclaiming: Inward Vision memperkuat Basic Attack - Foreclaimed Self Stage 1 & 2 berikutnya, yang kini memberikan 1 tumpukan Glacio Chafe saat mengenai target."
+    },
+    {
+      "stage": "S2",
+      "name": "To Burn Cold In Silence",
+      "description": "DMG Multiplier dari Basic Attack - Iai meningkat sebesar 125%.\nEfek Inherent Skill Ephemeral Realm berubah menjadi berikut:\nSetelah Hiyuki meninggalkan status pertempuran atau pulih setelah pingsan, setelah berada di luar pertempuran selama 4 detik, pulihkan 3 poin Snowforged Blade.\n\nSetelah Hiyuki meninggalkan status pertempuran atau pulih setelah pingsan, setelah berada di luar pertempuran selama 4 detik, efek berikut akan dipicu satu kali:\n- Memulihkan 3 poin Frostharden Iai.\n- Mengatur ulang Cooldown dari 2 pengisian Frostblight: Jade Cleave.\n- Memulihkan tambahan 50 poin Frostheart untuk 2 peluncuran Frostblight: Jade Cleave atau Frostblight: Petalfall berikutnya."
+    },
+    {
+      "stage": "S3",
+      "name": "No Self, No Bound",
+      "description": "Inherent Skill Fine Snow mendapatkan efek berikut:\nSetiap 2 detik setelah seorang Resonator bergabung ke dalam tim atau Hiyuki dibangkitkan, Hiyuki mendapatkan 1 tumpukan Snow Rust. Hiyuki dapat memperoleh hingga 1 tumpukan Snow Rust melalui cara ini.\n\nDMG Multiplier dari Heavy Attack - Frost Splinter: Present Self dan Heavy Attack - Bitterfrost: Foreclaimed Self meningkat sebesar 160%.\nPada 2 tumpukan Snow Rust, saat Hiyuki menjadi Resonator aktif dalam tim, DMG Multiplier dari Glacio Bite DMG tambahan yang diberikan setiap kali ia memberikan Glacio Chafe meningkat sebesar 488%."
+    },
+    {
+      "stage": "S4",
+      "name": "Like Reeds On Tides",
+      "description": "Melancarkan Resonance Skill: Present Self, Frostblight: Jade Cleave, atau Frostblight: Petalfall meningkatkan damage yang diberikan oleh semua Resonator di sekitar dalam tim sebesar 20% selama 30 detik.\nMemulihkan 18% dari Max HP saat melancarkan Frostblight: Jade Cleave atau Frostblight: Petalfall."
+    },
+    {
+      "stage": "S5",
+      "name": "Vessel Of Thousand Wishes",
+      "description": "DMG Multiplier dari Resonance Skill - Present Self, Frostblight: Jade Cleave, dan Frostblight: Petalfall meningkat sebesar 80%."
+    },
+    {
+      "stage": "S6",
+      "name": "Into A Night Without End",
+      "description": "Crit. DMG dari Foreclaiming: Inward Vision dan Foreclaiming: Blade Liberation meningkat sebesar 500%.\n\nPada 2 tumpukan Snow Rust, efek \"Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali ia memberikan Glacio Chafe, ia tambahan memberikan satu instansi Glacio Bite DMG dengan DMG Multiplier tetap\" berubah menjadi \"Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali seorang Resonator dalam tim memberikan Glacio Chafe, ia tambahan memberikan satu instansi Glacio Bite DMG dengan DMG Multiplier tetap.\"\nPada 2 tumpukan Snow Rust, Crit. DMG Hiyuki meningkat sebesar 40%.\nPada 3 tumpukan Snow Rust, total Glacio Bite DMG yang diterima oleh target dalam jangkauan tertentu dari Resonator aktif dalam tim meningkat sebesar 25%."
+    }
+  ],
+  "lore": {
+    "description": "Berasal dari Ashinohara, Miko of Flaming Sakura kini menetap di Lahai-Roi sebagai anggota terakhir dan satu-satunya dari Special Response Force.",
+    "report": {
+      "resonancePower": "Futures' Tithe",
+      "overclockDiagnostic": "Diagram Rabelle's Waveform subjek menunjukkan pola osilasi elips dengan representasi Time Domain yang stabil. Tidak ditemukan fluktuasi abnormal. Hasil pemeriksaan ditentukan berada dalam parameter normal.\n\nAmbang batas Overclocking saat ini sangat tinggi, dan stabilitas subjek tetap kuat. Tidak ada risiko Overclocking, dan subjek tidak memiliki riwayat Overclocking sebelumnya. Namun, rangkaian intervensi psikologis direkomendasikan.\n\n\"Miko ini... Bagaimana aku harus mengatakannya...\"\n\"Buku teks Ashinohara tidak pernah menunjukkan wajahnya, tetapi mereka jelas tentang satu hal. Ia adalah pejuang hidup terkuat di seluruh Ashinohara.\"\n\"Namun, dengan semua pertempuran itu, pembacaan datanya tetap stabil sempurna. Ada sesuatu yang terasa tidak benar...\"\n\"Aku mengerti kekhawatiranmu, tetapi datanya jelas. Tidak ada satu pun kejanggalan.\"\n\"...Lalu bagaimana dengan bayangan-bayangan itu? Seperti versi dirinya dari alam semesta paralel dalam sebuah film?\"\n\"Hampir tidak mungkin. Itu pastilah kekuatan Suzu. Sama seperti yang dijelaskan dalam catatan Ashinohara, hal itu memungkinkan ia untuk 'memanfaatkan masa depan' hingga batas tertentu.\"",
+      "resonanceEvaluation": "Resonance Evaluation Report\n[Spacetrek Collective: Classified Archive]\n\nInterview Dossier: Hiyuki\n\nKarena pertimbangan yang multifaset, kami telah membatalkan evaluasi yang benar-benar komprehensif terhadap perwakilan dari Ashinohara—Miko of Flaming Sakura.\nMayoritas intelijen yang dikumpulkan di sini didasarkan pada kesaksian pribadinya. Dalam estimasi profesional pencatat, yang dikuatkan melalui referensi silang selanjutnya, ia tampaknya tidak memiliki niat untuk menyembunyikan informasi apa pun mengenai latar belakangnya.\n\"Bagaimanapun juga, informasi mengenai 'Miko of Eternal Flaming Sakura' dapat ditemukan di hampir semua buku teks sekolah dasar Ashinohara...\"\n\nMenurut pengakuan Hiyuki sendiri, Forte miliknya memiliki sifat yang relatif sederhana: itu terbatas pada pembekuan kelembapan sekitar, memungkinkan manifestasi permukaan es, kristal, dan serpihan dalam berbagai bentuk.\n\"Diverifikasi oleh staf asli Ashinohara di dalam Spacetrek Collective dan arsip resmi Ashinohara.\"\n\nSumber dari kemampuan anomali lainnya diduga adalah \"Suzu,\" sebuah Legacy Talisman yang dikenakan di pergelangan tangan kanannya.\nHiyuki mendeskripsikan Suzu sebagai berikut: Benda tersebut memberikan pemakainya kemampuan untuk merasakan dan menggunakan \"kemungkinan masa depan\" dari diri sendiri, meskipun tidak memungkinkan adanya komunikasi langsung dengan \"bayangan kemungkinan masa depan\" ini.\n\"Diverifikasi melalui laporan resmi Ashinohara: Legacy Talisman adalah lima relik yang ditinggalkan oleh para Sentinel, didistribusikan di antara faksi-faksi internal Ashinohara untuk disimpan dengan aman.\"\n\"Di antara mereka, Suzu dideskripsikan memberikan pemakainya kekuatan untuk 'memanfaatkan masa depan'.\"\n\nOleh karena itu, ditentukan bahwa sumber mendasar dari kecakapan tempurnya yang luar biasa tetaplah keahlian bawaannya sendiri.\nNamun, \"masa depan\" yang tersedia untuk ia manfaatkan tidaklah tak terbatas. Karena kekhawatiran terhadap masa pakai fisiologisnya, pengerahan kemampuan yang agresif sangat tidak disarankan.\n\"Investigasi mengonfirmasi bahwa setiap Miko of Flaming Sakura memiliki penyebab kematian tunggal yang sama: menghilang dari medan perang tanpa jejak setelah penggunaan Suzu secara berlebihan.\""
+    },
+    "items": [
+      {
+        "name": "Origami Familiar",
+        "description": "Sedikit yang akan menduga bahwa burung-burung putih yang membumbung tinggi di atas langit Lahai-Roi, burung-burung yang berada di bawah komando Miko of Flaming Sakura, dapat terlihat begitu menggemaskan jika dilihat dari dekat.\nJari-jari Hiyuki sangat lincah, namun mereka seolah gagal membantunya setiap kali ia mencoba membuat burung origami \"profesional\". Ia bahkan sampai mencuri dengar pelajaran origami dari balik jendela, tetapi hasil akhirnya selalu berupa bentuk yang sama, yakni bentuk imut yang tidak berbahaya.",
+        "imageUrl": "/icons/items/hiyuki-1.webp"
+      },
+      {
+        "name": "Fortune Lot",
+        "description": "Sebuah fortune lot dari Flaming Sakura. Motif sakura dan teks ramalan di atasnya telah tertutup sepenuhnya, terkubur di bawah bunga-bunga putih kecil yang dikumpulkan dari suatu tempat yang tidak diketahui.\nHiyuki pertama kali mengambil lot ini saat ia mencari bimbingan, menanyakan apakah ia akan mewarisi gelar Miko of Flaming Sakura dengan lancar. Hanya beberapa hari kemudian, ia menyadari bahwa seseorang telah, secara rahasia, menjahit dan membentuk kembali nasibnya menjadi wujud ini.",
+        "imageUrl": "/icons/items/hiyuki-2.webp"
+      },
+      {
+        "name": " Carving Kit Set",
+        "description": "Di waktu luangnya, Hiyuki pergi ke sudut terpencil untuk memahat.\nFigur orang, hewan, lanskap miniatur, atau adegan dari karya seni, ia mencoba untuk menampilkan semuanya dengan pisau pahatnya. Baru-baru ini, ada rumor bahwa minatnya telah beralih dari Exoswarm ke berbagai konstruksi mekanis Spacetrek Collective. Para murid bahkan melaporkan telah melihatnya di tanah beku, sedang mencoba memahat rupa dari Exostrider.\n\nMungkin suatu hari nanti, pisau pahat di tangannya akhirnya akan menggantikan bilah pedang yang tersarung di pinggangnya.",
+        "imageUrl": "/icons/items/hiyuki-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Words Left Unsaid",
+        "content": "Pertama kali Hiyuki mendengar kebenaran tentang masa lalunya sendiri, hal itu terucap dari bibir Gyokuro yang sedang mabuk. Mulut Hiyuki mengatup rapat. Tanpa sepatah kata pun, ia menuangkan segelas minuman keras yang pahit untuk dirinya sendiri.\n\n\"Hiyuki... Hiyuki-ku tersayang...\"\n\"Kamu tidak bisa melakukan ini. Kamu tidak boleh menjadi Miko of Flaming Sakura yang terkutuk itu... Hidupmu tidak pernah dimaksudkan untuk menjadi seperti ini!\"\n\nMata Hiyuki menyipit. Jika orang-orang Ashinohara melihat Miko of Flaming Sakura mereka yang biasanya bermartabat dan tenang bertingkah seperti ini di balik pintu tertutup...\n\nJarum detik berdetak. Jarum menit menyusul. Akhirnya, jarum jam tersentak maju. Menurut waktu Ashinohara, momen ini menandai transisi Hiyuki menuju kedewasaan. Ia menghela napas dan menghabiskan minuman itu dalam satu tegukan yang membakar.\n\n\"Anda berhasil melakukannya. Anda pikir aku tidak bisa?\"\n\nMinuman keras itu membakar tenggorokannya dan mengendap seperti timah di tubuhnya yang ramping. Jadi inilah yang mereka sebut sebagai \"minuman kedewasaan.\" Rasanya, ia memutuskan, hampir tidak sepadan dengan penantiannya. Hiyuki berdiri dan menyelimuti tubuh Gyokuro yang terus meracau. Ia tertahan di sudut ruangan untuk waktu yang lama. Akhirnya, ia melangkah maju, menyelipkan pinggiran selimut dengan rapat, dan menutup pintu dengan lembut di belakangnya.\n\nKeesokan paginya, kemarahan Gyokuro terhadap pelayan yang ditugaskan untuk suksesi Legacy Talisman terdengar cukup keras hingga mencapai dua blok jauhnya.\n\nKekuatan Suzu terletak pada kemampuan untuk \"memanfaatkan masa depan.\" Dalam istilah sederhana, itu berarti setiap penggunaan menuntut pengorbanan dari sisa masa hidup pemakainya. Dalam kasus terburuk, itu berarti penerus yang mewarisi lonceng hari ini mungkin menghilang menjadi ketiadaan dalam pertempuran pertama mereka melawan Threnodian. Karena harganya sangat mahal, penerus biasanya dipilih lebih awal. Hiyuki telah berada di sisi Gyokuro selama lebih dari satu dekade. Bahkan jika Gyokuro menolak untuk menamainya... siapa lagi yang mungkin bisa dipilih?\n\nPelayan tersebut, yang tidak mampu menangani temperamen Gyokuro, hanya bisa menawarkan senyum menenangkan yang dipaksakan. \"Bahkan jika bukan Hiyuki, Anda tetap harus menamai seseorang, Lady Miko.\"\n\nGyokuro terdiam selama beberapa saat. Ia menghela napas, berdeham, dan bersiap untuk melanjutkan omelannya.\n\nHiyuki lah yang akhirnya membuka pintu, mengakhiri sandiwara tersebut.\n\n\"Selama bertahun-tahun, aku telah melakukan perjalanan bersamamu melintasi Ashinohara. Aku tahu apa yang dituntut oleh setiap tugas.\"\n\"Aku telah menguasai setiap seni yang harus diketahui oleh seorang miko. Penenunan jimat, tarian upacara—semuanya dari guru-guru pilihanmu sendiri.\"\n\"Hanya aku yang bisa memastikan nama Flaming Sakura tetap tidak ternoda, Gyokuro... Tidak. Lady Miko.\"\n\nAlis Gyokuro berkerut. Ia melambaikan tangan dengan nada meremehkan.\n\n\"Kamu sudah mempelajari semuanya, begitu? Lalu tidakkah kamu menyadari bahwa Suzu akan menjadi kematianmu?\"\n\"Aku adalah seorang yatim piatu yang Anda ambil. Keluargaku terkubur di bawah salju akibat serangan Threnodian itu. Aku tidak memiliki keterikatan lagi yang tersisa.\"\n\nRuangan itu menjadi sunyi yang menyesakkan. Satu-satunya suara adalah gesekan parau dan obsesif dari jempol Gyokuro saat ia menggosok lonceng di pergelangan tangannya. Ia mencoba untuk berbicara, tetapi pada akhirnya, tidak ada kata-kata yang keluar."
+      },
+      {
+        "title": "There Will Never Be Another...",
+        "content": "Hari-hari setelah suksesi Hiyuki tidak terelakkan menjadi sangat sibuk. Di mana dulu ia hanya berjalan di bawah bayang-bayang Gyokuro, kini ia mendapati beban dari setiap tugas berada di pundaknya sendiri.\n\nAshinohara telah lama menderita di bawah bayang-bayang Threnodian, memaksa negeri itu untuk merajut kelangsungan hidupnya di sekitar para miko. Sebagai pembawa Suzu, status Hiyuki menjadi sangat sakral sekaligus berat, dan yurisdiksinya mencakup seluruh Ashinohara. Ia menjadi pengembara karena kebutuhan, berpacu di antara tempat-tempat yang berbeda untuk membantu para miko lokal dan membalikkan keadaan pertempuran.\n\nNamun seorang miko merupakan simbol yang hidup sekaligus sebuah bilah pedang. Di mana pun orang-orang berkumpul, di sana seorang miko harus muncul untuk mengingatkan mereka mengapa mereka berjuang. Miko of Flaming Sakura tidak terkecuali. Hiyuki memikul kedua beban tersebut dengan baik. Mungkin itu karena ia telah mempelajari setiap tugas di sisi Gyokuro sejak kecil, pertempuran dan upacara telah lama menjadi sifat keduanya. Satu-satunya hal yang hilang adalah teknik pedang Flaming Sakura khusus milik Gyokuro. Gyokuro dengan gigih menolak untuk mewariskan jurus-jurus tersebut, bahkan melangkah lebih jauh dengan menjauhkan dirinya dari Hiyuki.\n\n\"Baiklah. Jika Anda tidak mau mengajariku, aku akan belajar secara rahasia. Suatu hari nanti, aku akan menguasainya. Suatu hari nanti.\"\n\nNamun hari itu tidak pernah datang.\n\n\"Suzu memungkinkan pemakainya untuk memanfaatkan masa depan, dan seorang penerus yang mewarisi Suzu hari ini mungkin menghilang menjadi ketiadaan selama pertempuran pertama mereka dengan Threnodian...\"\n\nHiyuki tidak bisa mengingat kata-kata yang dibisikkan pelayan saat meletakkan Suzu di tangannya. Ia tidak bisa mengingat cara kikuknya saat mengikat benda itu ke pergelangan tangannya, meniru gerakan yang telah ia lihat berkali-kali. Ia tidak bisa mengingat cuaca hari itu, atau wajah orang yang menyerahkan kotak kayu kecil berisi warisan Gyokuro kepadanya.\n\nPada saat dunia kembali fokus, ia sedang duduk sendirian di aula kosong kedudukan Flaming Sakura, menggenggam kertas permohonan yang ada di dalam kotak tersebut.\n\nDarah membeku di dadanya. Embun beku yang merayap membuat ujung jarinya mati rasa. Inci demi inci, Hiyuki menyeret dirinya ke sudut ruangan yang familier itu dan meringkuk. Ia telah meremas kertas permohonan itu sebelumnya. Sekarang ia menghaluskannya kembali hingga rata.\n\n\"...Aku mengerti.\"\n\"...Aku menerima permohonan Anda.\"\n\"...Tidak akan pernah ada lagi Miko of Flaming Sakura lainnya.\""
+      },
+      {
+        "title": "Snowed In",
+        "content": "\"Lady Hiyuki, Anda telah melayani sebagai Miko of Flaming Sakura selama satu abad sekarang. Jika kita ingin memperbarui kontrak...\"\n\"Itu bukan masalah besar.\"\n\"Lalu, sesuai dengan pengaturan kita sebelumnya... untuk berapa tahun kita akan menetapkan pembaruan ini?\"\n\"Isi saja sesuka Anda.\"\n\"Aku tidak menyangka Anda akan sangat mirip dengan Miko sebelumnya... Ehem. Baiklah. Sesuai keinginan Anda, Miko of Eternal Flaming Sakura.\"\n\nPelayan itu membungkuk dan menarik diri, menutup pintu dengan rasa hormat yang terlatih. Hiyuki mencatat bahwa staf yang mendampinginya telah berganti tiga kali selama beberapa dekade. Ia menggelengkan kepala, matanya menyipit saat tertuju pada amplop di atas mejanya. Setelah terdiam sejenak, ia justru meraih cangkir teh yang sudah lama mendingin.\n\n\"Sangat mirip dengan Miko sebelumnya... benarkah aku?\"\n\nSudah berapa lama sebenarnya sejak ia menyandang gelar tersebut?\nCukup lama sehingga nama \"Hiyuki\" kini menjadi entri tetap dalam buku sejarah Ashinohara.\nApakah itu waktu yang lama?\nTidak cukup lama.\n\nSesuai dengan fortune lot yang ia warisi tahun itu, Hiyuki telah menggunakan kekuatannya sendiri untuk membuktikan sebuah sumpah sunyi: Tidak akan pernah ada lagi Miko of Flaming Sakura lainnya. Lambat laun, suara-suara yang mendesaknya untuk memilih penerus telah memudar. Office of Legacy Talismans kini menganggap kunjungan mereka ke kuil hanya sebagai formalitas belaka. Bahkan sang pelayan pun, ia curiga, percaya bahwa penerus tidak lagi diperlukan. Bagi mereka, Hiyuki telah menjadi gelar itu sendiri.\n\nNamun Hiyuki sering mendengar sebuah suara. Itu bukan godaan Fractsidus yang parau dan gigih. Itu adalah gumaman damai yang menyatakan fakta secara gamblang di telinganya.\n\n\"Hiyuki, kamu telah bertahan begitu lama. Tetapi musuhmu, Threnodian, memiliki masa hidup yang jauh lebih lama. Ia akan menunggu sampai kamu mati, sampai setiap miko, dan setiap penerus dari setiap miko, telah berlalu menjadi kenangan.\"\n\"Apakah jalan perlawanan ini benar-benar memiliki akhir?\"\n\nTeh dingin selalu menjadi yang paling pahit. Rasa getir yang terlalu pekat menempel di lidahnya, membuat setiap napas terasa berat. Hiyuki mengetukkan jari pada amplop di atas meja. Seketika, lapisan embun beku merambat di permukaannya. Dengan satu sentuhan ringan lagi, segel Fractsidus yang belum terbuka itu hancur menjadi debu kristal.\n\nHiyuki bangkit dan memanggil anak yang telah menawarkan diri untuk membantu membersihkan kuil, mengingatkannya untuk tetap waspada dan mengawasi penyusup selama ia pergi. Bibirnya menyunggingkan senyuman saat ia mengacak-acak rambut gadis itu dan menekan sebuah jimat pelindung ke telapak tangan kecilnya.\n\n\"Lady Miko, ke mana Anda akan pergi membantu kali ini?\"\n\"Honami. Aku akan segera kembali. Simpan jimat ini bersamamu selama waktu ini, mengerti?\"\n\nHiyuki melambaikan tangan untuk mengucapkan selamat tinggal kepada gadis kecil itu. Saat ia berbalik untuk pergi, lonceng di pergelangan tangannya menangkap cahaya, bersinar secemerlang biasanya."
+      },
+      {
+        "title": "Vanished Honami",
+        "content": "Orang-orang Ashinohara telah lama terbiasa dengan distorsi yang disebabkan oleh Threnodian. Kelangsungan hidup adalah masalah rutinitas: mencari perlindungan, menunggu miko setempat dikerahkan, dan jika situasi memburuk, menunggu tim pemulihan serta Miko of Flaming Sakura tiba.\n\nBagi Hiyuki, ini terasa seperti pertempuran lainnya di antara ribuan lainnya. Ia menebas monster-monster dengan efisiensi yang terlatih, memeriksa integritas penghalang seperti yang selalu ia lakukan. Saat warga sipil keluar dari tempat perlindungan, para orang tua menunjuk ke arahnya dengan rasa lega yang penuh hormat kepada anak-anak mereka. \"Lihat, itu Lady Miko of Flaming Sakura.\"\n\nHiyuki memberikan anggukan kecil sebagai tanggapan. Ia melangkahi papan tanda \"Dilarang Masuk\" yang jatuh dan berbalik kembali ke arah penghalang untuk menyelesaikan pembersihan terakhirnya.\n\nFokus. Serang. Sarungkan... Hm?\n\nBilah pedang itu menebas udara seperti biasanya. Namun ada sesuatu yang berbeda. Halus, tetapi tidak dapat disangkal.\n\nHiyuki memeriksa kembali seluruh penghalang. Semuanya tampak utuh, namun rasa salah yang mendalam dan menetap menempel di ujung jarinya. Ia melepaskan gagang pedangnya. Meregangkan pergelangan tangan. Menekan jari-jarinya bersama-sama—\n\nSetetes lumpur hitam yang berkilau muncul dari kulitnya. Cairan itu menggenang di lipatan telapak tangannya sebelum menetes ke tanah, menyebar secara diam-diam di bawah kakinya.\n\nHiyuki mencabut bilah pedangnya. Embun beku tercipta secara tiba-tiba di sekelilingnya. Pertama, bendung hal itu. Evakuasi warga sipil. Lalu temukan cara untuk—\n\nIa berbalik, tetapi teriakan itu tercekat di tenggorokannya. Tidak ada apa pun di depannya. Seolah-olah udara itu sendiri menghilang. Untuk satu momen yang membeku, Hiyuki tidak bisa bernapas.\n\nHonami telah pergi.\n\nSelain papan tanda yang hancur di kakinya dan jejak lumpur yang merayap di ujung gaunnya, tidak ada yang tersisa.\n\nHiyuki mengulurkan tangan, tetapi tangannya tersentak mundur dengan sendirinya. Ia terengah-engah mencari napas, tetapi tidak ada oksigen. Seolah-olah atmosfer itu sendiri telah dihapus dari keberadaan. Ia mengangkat bilah pedang untuk menyerang, tetapi tidak menemukan musuh untuk ditebas. Hanya frekuensi residu samar yang tersisa, bukti bahwa Threnodian telah bertindak, selama sepersekian detik, dengan kekuatan yang belum pernah tercatat sebelumnya.\n\nMenurut catatan Ashinohara, Honami telah ditarik ke dimensi lain pada saat itu. Bahkan setelah permohonan putus asa kepada Spacetrek Collective untuk teknologi pelacakan tercanggih mereka, tidak ada satu pun jejak yang dapat ditemukan.\n\nKetika orang-orang akhirnya membawa Hiyuki pergi, ia masih menggosok lonceng di pergelangan tangannya tanpa sadar, pikirannya terjebak dalam momen keterkejutan itu.\n\nApakah bencana sunyi ini adalah kesalahannya?\nTentu saja itu kesalahannya. Sebagai Miko of Flaming Sakura, ia gagal melindungi Honami.\nDan tentu saja, itu bukan kesalahannya. Melawan kekuatan seorang Threnodian, satu orang saja tidak menjadi masalah—bahkan seseorang yang dapat menarik sejuta masa depan untuk menjaga masa kini.\n\nHiyuki kembali ke Flaming Sakura. Ia mengambil jimat pelindung dari anak di gerbang, memaksakan senyuman tipis. Kemudian ia berjalan perlahan ke kamarnya dan mendorong pintu hingga terbuka. Di sana, duduk dengan tenang di atas mejanya, terdapat amplop yang telah ia hancurkan.\n\n\"Hiyuki, oh Hiyuki... Apakah jalan ini benar-benar memiliki akhir?\""
+      },
+      {
+        "title": "Even Should The Path Have No End",
+        "content": "Hiyuki tidak terpaku pada banyak tawaran Fractsidus. Tidak ada orang waras yang akan bekerja sama dengan mereka yang memandang nyawa manusia hanya sebagai bahan bakar yang bisa dibuang.\n\nSebaliknya, ia melakukan perjalanan melintasi Ashinohara, meninggalkan burung-burung kertas putih yang diresapi dengan frekuensinya sendiri. Ia memberi instruksi kepada para miko setempat bahwa pikirannya terhubung dengan utusan-utusan ini, dan jika terjadi insiden yang tidak dapat diatasi, ia akan berada di sana saat mereka menghancurkan burung tersebut.\n\nJalan perlawanan terhadap Threnodian... itu harus memiliki akhir. Harus.\n\nSaat itulah Hiyuki mendengar kabar bahwa Spacetrek Collective sedang berjuang menghadapi kurangnya ketentuan keselamatan yang kritis untuk ekspedisi mereka. Ia melihat sebuah peluang dan mengajukan sebuah \"pertukaran.\" Ia akan menjamin keselamatan upaya eksplorasi mereka, dan sebagai imbalannya, Collective akan menempa sebuah bilah pedang untuknya menggunakan puncak teknologi Solaris. Sebuah senjata yang cukup tajam untuk membelah Threnodian.\n\nHiyuki bergabung dengan Spacetrek Collective sebagai bagian dari Special Response Force. Unit tersebut dulunya besar, tetapi korban jiwa terus bertambah seiring Aleph-1 yang menjadi lebih aktif. Maka Hiyuki mengajukan permintaan, mengusulkan bahwa mulai sekarang, ia sendiri yang akan menangani penahanan Threnodian dan menjamin keselamatan mereka yang melakukan survei.\n\nKetika ia pertama kali tiba di sini, Collective tidak lebih dari sebidang fondasi di tanah. Ia menyaksikan saat Lahai-Roi dibangun, langkah demi langkah, dan mulai memahami ukuran sebenarnya dari potensi manusia. Konstruksi fasilitas tersebut adalah sebuah keajaiban, mungkin pencapaian teknik terbesar dalam sejarah Solaris. Namun, hal itu tidak datang dari dewa, maupun dari pahlawan tunggal mana pun. Itu dibangun, bata demi bata, oleh orang-orang di seluruh Solaris yang berani bermimpi.\n\n\"Lucilla.\"\n\"Hmm?\"\n\nLucilla dengan santai menarik sebotol minuman keras berkualitas dari bawah meja, sebuah spesialisasi dari Ashinohara. Seorang murid yang berharap lulus ujian akhir telah meninggalkannya di salah satu tempat yang sering dikunjungi Hiyuki, terselip di bawah catatan rapi yang meminta berkah sang miko.\n\nHiyuki menghela napas, menyiapkan dua gelas, dan mendorong satu gelas ke arah Lucilla yang gelisah.\n\n\"Spacetrek Collective... itu dibangun untuk menjelajahi bintang-bintang di luar Solaris, bukan?\"\n\"Begitulah idenya.\"\n\"Bagaimana kemajuannya?\"\n\"Ugh...\" Lucilla menghabiskan minumannya dalam satu tegukan. \"Masih jauh. Penelitian membentur tembok di mana-mana, dan para atasan terus menekan kita dengan tuntutan yang mustahil.\"\n\nHiyuki menggosok lonceng di pergelangan tangannya, matanya menunduk.\n\n\"Pernahkah kalian bertanya-tanya... di mana akhir dari jalan ini?\"\n\nLucilla memainkan gelas kosongnya, lalu dengan lembut membenturkannya ke gelas Hiyuki.\n\n\"Tidak ada akhir, Hiyuki. Sama seperti apa yang sedang kamu coba lakukan... Tidak ada akhir.\"\n\"Tapi kita harus tetap melangkah maju.\"\n\"Bukan untuk mencapai garis finis, tetapi untuk mengambil satu langkah lagi bersama orang-orang yang berdiri di samping kita.\"\n\nHiyuki terdiam untuk waktu yang lama. Akhirnya, ia memberikan anggukan pelan dan mengangkat gelasnya, meminumnya dalam-dalam. Minuman keras itu membakar tenggorokannya dan mengendap seperti timah di tubuhnya yang ramping.\n\nLonceng di pergelangan tangannya berdentang—sebuah suara tunggal, tetapi Miko of Flaming Sakura akan tetap mengambil langkah selanjutnya."
+      }
+    ],
+    "specialFood": {
+      "name": "Kehadiran Chisa Di Dalam Tim Memaksimalkan Inherent Skill Hiyuki: Fine Snow. Ia Masih Kekurangan Satu Unit Yang Dapat Memberikan Stack(S) Terakhir Dari Snow Rust Dan Saat Ini Belum Dapat Memberikan Amplify Pada Glacio Bite DMG Sebesar 30%.",
+      "imageUrl": "/icons/food/hiyuki.webp",
+      "description": "Meningkatkan Max HP dari semua Resonator dalam tim sebesar 25% selama 30 menit. Hanya efektif pada Resonator Anda sendiri dalam Co-op Mode."
+    }
+  }
+}

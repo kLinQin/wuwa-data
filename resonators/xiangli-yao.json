@@ -1,0 +1,536 @@
+{
+  "name": "Xiangli Yao",
+  "element": "Electro",
+  "weapon": "Gauntlet",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer",
+    "Resonance Liberation Damage"
+  ],
+  "sonatas": [
+    "Void Thunder"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "input",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Huaxu Academy",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Mutant",
+  "image": "/characters/xiangli-yao.webp",
+  "imageBanner": "/banners/xiangli-yao-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "200p+",
+    "Energy Regen": "115% - 120%",
+    "Crit Ratio (Crit Weapon)": "65% : 285%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 240%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Tempest Mephis"
+    ],
+    "bestWeapon": "Verity's Handle",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: electro%",
+            "3: electro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "nightmare-thundering-mephis",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Void Thunder"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "veritys-handle",
+        "percentage": "120",
+        "rank": ""
+      },
+      {
+        "id": "blazing-justice",
+        "percentage": "111",
+        "rank": ""
+      },
+      {
+        "id": "tragicomedy",
+        "percentage": "108",
+        "rank": ""
+      },
+      {
+        "id": "pulsation-bracer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "abyss-surges",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "stonard",
+        "percentage": "96",
+        "rank": ""
+      },
+      {
+        "id": "hollow-mirage",
+        "percentage": "86",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Echo(Swap)",
+          "Intro",
+          "HA(Cancel)",
+          "Skill(Cancel)",
+          "Ult",
+          "Skill",
+          "MA",
+          "Skill",
+          "BA(x3)",
+          "Skill",
+          "Skill",
+          "MA",
+          "Skill",
+          "Outro"
+        ],
+        "title": "Hypercarry"
+      },
+      {
+        "steps": [
+          "Echo(Swap)",
+          "Intro",
+          "HA(Cancel)",
+          "Skill(Cancel)",
+          "Ult",
+          "Skill",
+          "MA",
+          "Skill",
+          "BA(x3)",
+          "Skill",
+          "Skill",
+          "MA",
+          "Skill",
+          "Outro"
+        ],
+        "title": "Yao-Quickswap"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "equalPriority": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Yao-Break",
+        "note": "",
+        "members": [
+          [
+            "Xiangli Yao"
+          ],
+          [
+            "Lynae"
+          ],
+          [
+            "Mornye"
+          ]
+        ]
+      },
+      {
+        "name": "Yao-Hypercarry",
+        "note": "",
+        "members": [
+          [
+            "Xiangli Yao"
+          ],
+          [
+            "Lynae",
+            "Yinlin"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      },
+      {
+        "name": "Yao-Quickswap",
+        "note": "",
+        "members": [
+          [
+            "Xiangli Yao"
+          ],
+          [
+            "Jinhsi",
+            "Changli",
+            "Carlotta"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ]
+      }
+    ],
+    "teamNote": "Changli atau Calcharo berpasangan dengan sangat baik dengan Xiangli Yao bagi mereka yang menikmati gaya bermain dual DPS yang sedikit lebih mahir. Animasi serangan dan skill mereka dapat swap cancelled, memungkinkan mereka untuk bersinergi dengan baik.\n\nLynae, Yinlin, atau Sanhua adalah pilihan Sub DPS yang sangat baik untuk Xiangli Yao karena mereka membutuhkan waktu yang minimal di field dan buff yang mereka berikan memungkinkan gaya bermain hypercarry.\n"
+  },
+  "skills": {
+    "basic": {
+      "name": "Probe",
+      "description": "Basic Attack\nMelakukan hingga 5 serangan berturut-turut, memberikan Electro DMG.\n\nHeavy Attack\nMelakukan serangan bermuatan dengan mengonsumsi STA, memberikan Electro DMG.\n\nMid-air Attack\nMelakukan Plunging Attack dari udara dengan mengonsumsi STA, memberikan Electro DMG.\n\nDodge Counter\nMenggunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG."
+    },
+    "skill": {
+      "name": "Deduction",
+      "description": "menyerang target, dealing Electro DMG."
+    },
+    "liberation": {
+      "name": "Cogitation Model",
+      "description": "Menyerang target, memberikan Electro DMG. Memasuki status Intuition.\nSaat berada dalam Intuition:\n-Mendapatkan 3 Hypercube(s). Setiap kali Resonance Skill Law of Reigns dilancarkan, konsumsi 1 Hypercube(s). Intuition berakhir setelah semua Hypercube dikonsumsi.\n-Basic Attack dan Heavy Attack digantikan dengan Basic Attack Pivot - Impale, yang melakukan hingga 3 serangan berturut-turut, memberikan Electro DMG.\n-Resonance Skill Deduction digantikan dengan Resonance Skill Divergence, yang memberikan Electro DMG.\n-Dodge Counter digantikan dengan Dodge Counter Unfathomed, yang dianggap sebagai Resonance Liberation DMG."
+    },
+    "forte": {
+      "name": "Forever Seeking",
+      "description": "Resonance Skill - Decipher\nSaat Capacity mencapai 100, Resonance Skill Deduction digantikan oleh Resonance Skill Decipher.\nMengonsumsi 100 Capacity untuk melancarkan Resonance Skill Decipher, memberikan Electro DMG, yang dianggap sebagai Resonance Liberation DMG.\n\nResonance Skill - Law of Reigns\nSaat Performance Capacity mencapai 5 dalam status Intuition, Resonance Skill Divergence digantikan oleh Resonance Skill Law of Reigns.\nMengonsumsi 5 Performance Capacity untuk melancarkan Resonance Skill Law of Reigns, memberikan Electro DMG, yang dianggap sebagai Resonance Liberation DMG.\n\nMid-air Attack - Revamp\nSesaat setelah melancarkan Resonance Skill Decipher atau Resonance Skill Divergence, gunakan Basic Attack untuk melakukan Mid-air Attack Revamp dengan mengonsumsi STA, memberikan Electro DMG, yang dianggap sebagai Resonance Liberation DMG.\n\nCapacity\nXiangli Yao dapat menyimpan hingga 100 Capacity.\nSetiap Normal Attack Probe yang mengenai target memberikan Capacity.\nSetiap Resonance Skill Deduction yang mengenai target memberikan Capacity.\n\n\nPerformance Capacity\nXiangli Yao dapat menyimpan hingga 5 Performance Capacity.\nSaat berada dalam status Intuition yang dipicu oleh Resonance Liberation:\nMendapatkan 1 Performance Capacity saat Tahap 1 dari Basic Attack Pivot - Impale mengenai target.\nMendapatkan 2 Performance Capacity saat Tahap 2 atau 3 dari Basic Attack Pivot - Impale mengenai target.\nMendapatkan 2 Performance Capacity untuk setiap Resonance Skill Divergence yang mengenai target.\nMendapatkan 3 Performance Capacity untuk setiap Mid-air Attack Revamp yang mengenai target.\nMendapatkan 2 Performance Capacity untuk setiap Dodge Counter Unfathomed yang mengenai target."
+    },
+    "inherent": [
+      {
+        "name": "Knowing",
+        "description": "Mendapatkan 5% Electro DMG Bonus setelah melancarkan Resonance Skill selama 8 detik, dapat ditumpuk hingga 4 kali."
+      },
+      {
+        "name": "Focus",
+        "description": "Saat berada dalam status Intuition yang dipicu oleh Resonance Liberation, resistansi Xiangli Yao terhadap gangguan ditingkatkan."
+      }
+    ],
+    "intro": {
+      "name": "Principle",
+      "description": "menyerang target, dealing Electro DMG."
+    },
+    "outro": {
+      "name": "Chain Rule",
+      "description": "Xiangli Yao akan memanggil turun sinar laser pada target pertama yang terkena Basic Attack dari Resonator yang masuk, memberikan Electro DMG sebesar 237,63% dari ATK Xiangli Yao ke suatu area. Efek ini berlangsung selama 8 detik dan dapat dipicu sekali setiap 2 detik, hingga 3 kali."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Hidden Thunder Tacet Core",
+            "amount": 46
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Violet Coral",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Unending Destruction",
+          "amount": 26
+        },
+        {
+          "item": "LF Whisperin Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Whisperin Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Whisperin Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Whisperin Core",
+          "amount": 57
+        },
+        {
+          "item": "Cadence Seed",
+          "amount": 25
+        },
+        {
+          "item": "Cadence Bud",
+          "amount": 28
+        },
+        {
+          "item": "Cadence Leaf",
+          "amount": 55
+        },
+        {
+          "item": "Cadence Blossom",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Verity'S Handle",
+          "value": 850765.68,
+          "imagePath": "",
+          "percentage": 119.72
+        },
+        {
+          "type": "Blazing Justice",
+          "value": 788417.79,
+          "imagePath": "",
+          "percentage": 110.95
+        },
+        {
+          "type": "Tragicomedy",
+          "value": 767100.67,
+          "imagePath": "",
+          "percentage": 107.95
+        },
+        {
+          "type": "Abyss Surges",
+          "value": 710635.22,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Stonard R5",
+          "value": 701398.59,
+          "imagePath": "",
+          "percentage": 98.7
+        },
+        {
+          "type": "Celestial Spiral R5",
+          "value": 620114.81,
+          "imagePath": "",
+          "percentage": 87.26
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Yao",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 7.5,
+          "imagePath": "",
+          "percentage": 7.5
+        },
+        {
+          "type": "Skill",
+          "value": 15.1,
+          "imagePath": "",
+          "percentage": 15.1
+        },
+        {
+          "type": "Lib",
+          "value": 67.3,
+          "imagePath": "",
+          "percentage": 67.3
+        },
+        {
+          "type": "Echo",
+          "value": 4,
+          "imagePath": "",
+          "percentage": 4
+        },
+        {
+          "type": "Intro",
+          "value": 2.3,
+          "imagePath": "",
+          "percentage": 2.3
+        },
+        {
+          "type": "Outro",
+          "value": 3.9,
+          "imagePath": "",
+          "percentage": 3.9
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Yao",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 850765.68,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 988579.16,
+          "imagePath": "",
+          "percentage": 116.2
+        },
+        {
+          "type": "S2",
+          "value": 1098562.72,
+          "imagePath": "",
+          "percentage": 129.13
+        },
+        {
+          "type": "S3",
+          "value": 1217687.99,
+          "imagePath": "",
+          "percentage": 143.13
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Yao",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Prodigy Of ProtéGéS",
+      "description": "Resonance Skill Law of Reigns memberikan tambahan 6 Convolution Matrices ke arah musuh, yang masing-masing memberikan Resonance Liberation DMG sebesar 8% dari DMG Multiplier skill tersebut."
+    },
+    {
+      "stage": "S2",
+      "name": "Traces Of Predecessors",
+      "description": "Melancarkan Resonance Skill atau Resonance Liberation Cogitation Model meningkatkan Crit. DMG sebesar 30% selama 8 detik."
+    },
+    {
+      "stage": "S3",
+      "name": "Ruins Of Ancient",
+      "description": "Melancarkan Resonance Liberation Cogitation Model meningkatkan DMG dari gerakan Resonance Skill berikut sebesar 63% selama 24 detik:\nDecipher, Deduction, Divergence, dan Law of Reigns.\nEfek ini dapat dipicu hingga 5 kali."
+    },
+    {
+      "stage": "S4",
+      "name": "Vessel Of Rebirth",
+      "description": "Melancarkan Resonance Liberation Cogitation Model memberikan 25% DMG Bonus untuk Resonance Liberation semua anggota tim selama 30 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "End Of Stars",
+      "description": "DMG Multiplier dari Outro Skill Chain Rule meningkat sebesar 222%. DMG Multiplier dari Resonance Liberation Cogitation Model meningkat sebesar 100%."
+    },
+    {
+      "stage": "S6",
+      "name": "Solace Of The Ordinary",
+      "description": "Hypercubes yang didapatkan dari Resonance Liberation Cogitation Model ditingkatkan, meningkatkan DMG Multiplier dari Resonance Skill Law of Reigns sebesar 76%."
+    }
+  ],
+  "lore": {
+    "description": "Investigator Utama di Huaxu Academy Kampus Jinzhou, dan ilmuwan lintas disiplin termuda di Akademi tersebut.\nSeorang jiwa yang lembut dengan pikiran yang tajam, yang gairah gigihnya terhadap Automata Mechanics selalu menghasilkan temuan dan wawasan konstruktif.\n\nBIRTHPLACE\njinzhou\n",
+    "report": {
+      "resonancePower": "Matter Weaver",
+      "overclockDiagnostic": "Grafik gelombang Resonator Xiangli Yao menunjukkan fluktuasi elips. Pola Time Domain bersifat stabil tanpa ada gelombang abnormal yang teramati.\n\nResonant Criticality: Tinggi. Frekuensi Xiangli Yao menunjukkan stabilitas tinggi dengan risiko Overclocking yang minimal.\n\nCatatan menunjukkan tidak ada riwayat Overclocking.\n\nPemeriksaan rutin disarankan, tanpa kebutuhan konseling psikologis saat ini.",
+      "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment 2603-G]\nAwakening Resonator Xiangli Yao terjadi dua tahun lalu, setelah sebuah insiden di Court of Savantae Ruins tempat ia kehilangan lengannya dan bersentuhan dengan substansi logam yang tidak dikenal.\n\nTacet Mark Resonator Xiangli Yao terletak pada lengan kanan prostetiknya. Observasi pasca-Kebangkitan mengungkapkan kemampuannya untuk melakukan Metalmorph dengan memanipulasi bentuk dan menyimpan energi dari lengan prostetiknya.\n\nResonance Spectrum Pattern milik Xiangli Yao telah diamati selaras dengan pola guntur. Reaksi Syntony yang kuat telah diamati, namun penyebab Kebangkitan Xiangli Yao tetap tidak jelas karena ketidakmampuan untuk memulihkan sampel dari substansi logam yang tidak dikenal tersebut.\n\nAnalisis sampel uji telah mengungkapkan Rabelle's Curve yang konsisten dan datar yang diikuti oleh kenaikan tajam dan stabilisasi. Oleh karena itu, Xiangli Yao diidentifikasi sebagai Mutant Resonator."
+    },
+    "items": [
+      {
+        "name": "Xiangli Yao'S ID Card",
+        "imageUrl": "/icons/items/xiangli-yao-1.webp",
+        "description": "Kartu identitas kerja Xiangli Yao bertuliskan \"Xiangli Yao, Peneliti, Huaxu Academy,\" tercetak dengan rapi. Membutuhkan waktu tambahan satu tahun bagi Xiangli Yao untuk mengenakan kartu sederhana dan polos dengan chip ID terintegrasi ini di dadanya dibandingkan dengan rekan-rekannya di Akademi—setahun yang lalu, ia telah memilih untuk tidak mengikuti ujian Akademi, melainkan meninggalkan Jinzhou untuk mencari jawaban atas pertanyaan hidup yang lebih mendalam. Sebagai seorang remaja pada saat itu, ia berdiri di persimpangan jalan, merasa tidak yakin apakah harus mengikuti jejak orang tuanya atau merintis jalannya sendiri. Namun, setahun kemudian, hatinya membimbingnya ke jalur yang sepenuhnya berbeda dari jalur mereka... Pada hari pertamanya sebagai peneliti, Xiangli Yao meletakkan kartu identitasnya dengan rapi di atas meja, membuka jendela, dan membiarkan suara hiruk pikuk Kota Jinzhou masuk ke dalam. \"Huaxu Academy. Ini adalah tempat yang menyenangkan.\""
+      },
+      {
+        "name": "Beep-Boop",
+        "imageUrl": "/icons/items/xiangli-yao-2.webp",
+        "description": "Robot kecil yang menawan ini, dengan permukaannya yang sedikit menguning, bersifat sederhana sekaligus ringkas. Berikan tepukan pada kepala kecilnya, dan ia akan membacakan salah satu baris kalimat Hero Play klasik, disertai dengan emoji piksel menggemaskan yang ditampilkan pada monitornya yang agak tua. Ini adalah ciptaan pertama Xiangli Yao selama masa studinya dan berfungsi sebagai prototipe untuk penemuan-penemuannya di kemudian hari, Xiang-Lee dan Patty. Meskipun merupakan upaya awal Yao, desain, bahan, dan pemrograman robot ini dengan indah menunjukkan kecerdasan penciptanya. Dinamai dengan penuh kasih sayang sebagai Beep-Boop, mesin yang menggemaskan ini akhirnya menemukan rumah pada salah satu teman sekelas Yao yang beruntung. Sejak saat itu, Xiangli Yao mencurahkan banyak waktu luangnya untuk merakit model, robot, dan gadget menarik lainnya bagi teman-temannya. Baik saat di sekolah maupun sekarang di Academy, kemurahan hati Yao dalam mendedikasikan waktu dan upaya bagi orang-orang di sekitarnya tetap menjadi sebuah ketetapan. Sifat tidak mementingkan diri sendiri ini selalu menjadi, dan terus menjadi, bagian integral dari siapa dirinya."
+      },
+      {
+        "name": "CSC Lock Puzzle",
+        "imageUrl": "/icons/items/xiangli-yao-3.webp",
+        "description": "Sebuah teka-teki yang dirakit dari sambungan yang saling mengunci secara rumit, sebuah bukti dari desainnya yang cerdas. Dikatakan bahwa pernak-pernik seperti itu berfungsi sebagai hadiah dari anggota senior Court of Savantae kepada generasi muda mereka. Xiangli Yao masih bisa mengingat kehangatan ujung jari ayahnya yang kasar saat ia menyerahkan teka-teki itu kepadanya di hari ulang tahunnya. Namun apa yang benar-benar memikatnya adalah pengaturan kompleks dan strukturnya yang membingungkan—teka-teki semacam itu adalah hal yang menariknya ke dalam dunia logika yang rumit, membuatnya terpesona selama bertahun-tahun yang akan datang. Ini adalah pertemuan pertama Xiangli Yao dengan sebuah teka-teki, tetapi pastinya bukan yang terakhir."
+      }
+    ],
+    "stories": [
+      {
+        "title": "An Interview",
+        "content": "Bertahun-tahun kemudian, aku mendapati diriku berdiri di depan pintu itu lagi. Keluarga Xiangli selalu menjadi bintang di lingkaran jurnalistik Jinzhou. Saat itu, membuat sebuah tulisan tentang keluarga tersebut dianggap sebagai sebuah kehormatan, dan memang, warisan ilmiah mereka terus menghasilkan pencapaian yang mengagumkan. Terakhir kali aku berdiri di ambang pintu ini, aku masih seorang pemula yang haus akan pengakuan, dan keluarga Xiangli membantuku mewujudkan hal itu dengan mengizinkanku mengambil foto potret keluarga mereka. Sebuah karya yang memenuhi semua kriteria. Foto itu memberiku sebuah penghargaan kecil dan mengamankan pekerjaanku. Saat pintu terbuka, aku menunduk untuk melihat seorang anak laki-laki dengan mata cerah dan jernih yang membalas tatapanku. Aku menunjukkan lencana pers milikku, dan ia mengantarku masuk ke dalam. Xiangli Yao, sang \"Putra dari Sang Jenius\" dan \"Keturunan Paragon\". Kecemerlangan ayahnya telah memukau seluruh Jinzhou, dan kegigihan ibunya menyelamatkan nyawa banyak anak di kota ini. Rumah ini sendiri dulunya menarik perhatian banyak orang, dan tetap seperti itu hingga hari ini. Aku bangga pada diriku sendiri dalam melakukan wawancara, tetapi anak muda ini tampak lebih tenang daripada diriku. Xiangli Yao, seperti orang tuanya, memiliki kefasihan bicara yang alami, sikapnya lembut dan anggun. Wawancara mengalir dengan lancar, dan setelah meletakkan buku catatanku, ia menawarkanku secangkir teh. Aku berterima kasih kepadanya, tetapi ia menggelengkan kepala. \"Seharusnya aku yang berterima kasih karena Anda berkunjung demi orang tuaku,\" Xiangli Yao tersenyum, \"Aku telah mendengar satu atau dua hal tentang apa yang sedang terjadi.\" Jinzhou, dengan tanahnya yang luas dan sumber daya yang kaya, tidak luput dari perselisihan. Keluarga Xiangli telah membantuku di masa lalu, bantuan yang aku merasa harus membalasnya, baik secara profesional maupun pribadi dengan memastikan putra mereka baik-baik saja. Xiangli Yao tersenyum sendu, ekspresinya mengisyaratkan sebuah kenangan yang dihidupkan kembali. \"Orang tuaku selalu sibuk dengan pekerjaan, jadi aku senang ada seseorang yang mengingat mereka. Laporan Anda menangkap momen-momen mereka, hasil penelitian, kata-kata yang diucapkan, dan banyak detail lainnya yang bahkan aku tidak ketahui... Saat aku membaca berita dan wawancara itu, aku merasa seperti bisa mengenal mereka lebih baik.\" Aku ragu sejenak tetapi tetap lanjut bertanya. \"Apakah menurutmu... ini tidak adil? Bahwa mungkin orang tuamu seharusnya menghabiskan lebih banyak waktu dengan anak mereka?\" \"Mereka berdua memiliki gairah masing-masing, dan itu sama bagiku. Aku senang mereka melakukan apa yang mereka cintai.\" \"...Begitukah.\" Aku menarik napas dalam-dalam dan bersiap untuk pergi, tetapi Xiangli Yao memintaku untuk tetap tinggal. Aku lupa alasan tepat yang ia berikan. Namun, aku yakin itu pastilah alasan yang bagus. Xiangli Yao memiliki cara bicara yang membuat penolakan terhadap keramahannya menjadi sulit. Aku hanya ingat meminum secangkir teh hangat lagi dan terus mengobrol sebentar sebelum akhirnya berpamitan. Saat aku meraih pintu, anak itu berujar dengan wajah serius, \"Jika ada sesuatu yang ingin Anda konfirmasi, sebaiknya lakukan secara langsung. Saat aku masih kecil, ibuku dan aku sering berbicara tentang pentingnya pendampingan—kami bahkan bertukar catatan kecil. Meskipun aku masih sangat muda saat itu, catatan-catatan itu, dengan beberapa kata sederhananya... aku merasa itu sama menenangkannya hari ini.\" Aku mengangguk dan meninggalkan rumah tersebut, siap untuk menulis karya berikutnya. Namun sebelum itu, aku akan mengirim pesan kepada anakku, yang telah aku abaikan untuk dihubungi selama beberapa hari."
+      },
+      {
+        "title": "A Persuasion",
+        "content": "Xiangli Yao condong ke depan di kursinya dan menatap mantap pria tua di depannya. Pria yang lebih tua itu memegang posisi bergengsi dalam sistem pendidikan dan memiliki hubungan pribadi dengan ayah Xiangli Yao. Hari ini, itu adalah upaya persuasi lainnya, sangat mirip dengan yang sebelumnya. \"Aku tidak akan menghadiri kelas terpisah. Sekolah reguler sudah cukup bagiku,\" tegas Xiangli Yao sekali lagi. Pria tua itu mengetuk meja, \"Kecepatanmu saat ini mungkin tidak cocok dengan kurikulum standar. Bergerak terlalu cepat dapat mendatangkan tantangan. Kamu dan teman sekelasmu tidak berada di tingkat persaingan yang sama.\" Xiangli Yao menggelengkan kepalanya. \"Tidak ada gunanya membuang sumber daya dengan membuka kelas khusus hanya untukku. Aku sudah memiliki akses ke arsip Jinzhou untuk belajar. Selain itu... aku sama seperti yang lainnya,\" katanya, menghitung dengan jari-jarinya, \"Aku bersenang-senang menonton pertunjukan pahlawan bersama mereka, dan kami bertukar kartu... Oh, dan saat mereka mengundangku makan malam, aku bisa menguji gadget buatanku pada mereka dan mendapatkan umpan balik mereka!\" Orang tua itu menghela napas panjang. \"Gurumu telah menyebutkan hal-hal seperti itu kepadaku. Dia bilang kamu rukun dengan teman sekelasmu. Tapi ini bukan hanya tentang dirimu, ini tentang membuatmu masuk ke Academy lebih cepat,\" katanya, menatap anak muda di hadapannya. \"Xiangli Yao, ayahmu juga mempercepat studinya dan memiliki lebih banyak waktu untuk melakukan semua penelitian yang ia cintai.\" \"Aku bukan ayahku.\" \"Namun kamu berbagi bakat dan temperamennya. Itu yang aku perhatikan.\" Xiangli Yao menggenggam buku pelajaran di tangannya, seraya ia menggelengkan kepalanya perlahan dan tegas, \"Tapi bukan itu yang aku inginkan. Aku ingin menjalani segala sesuatunya dengan perlahan, seperti keadaannya sekarang.\" \"Memainkan permainan sepele dengan teman sekelasmu tidak akan memberimu manfaat apa pun... Cepat atau lambat kamu akan bosan. Itu membuang-buang waktu.\" Orang tua itu berdiri di samping jendela, melihat ke arah siswa yang bermain dan tertawa di halaman sekolah. Xiangli Yao menghampirinya, menepuk bahunya. \"Itu tidak akan terjadi,\" kata Xiangli Yao lembut, turut menatap pemandangan yang sama. Mereka adalah teman-temannya. \"Aku ingin menjadi seperti mereka, pergi ke sekolah, berbicara tentang camilan, menangkap ikan di sungai, dan menonton Echoes yang keren. Hei, mereka bahkan mengajariku kapan dan bagaimana cara tersenyum serta memuji seseorang. Itu penting bagiku. Aku tahu Anda bermaksud baik, tapi... aku yang berhak memutuskan apa yang terbaik untukku, kan?\" Tua dan muda saling berhadapan di kantor yang sunyi itu. Orang tua itu menghela napas lagi. \"Kamu mengingatkanku pada ayahmu. Tapi kalian berdua tidaklah persis sama.\" Xiangli Yao tersenyum, \"Yah, seperti yang aku katakan... aku bukan ayahku. Aku bukan siswa yang pernah Anda miliki.\" Pintu terbuka kembali.\nKeesokan harinya, Xiangli Yao kembali ke kelas regulernya."
+      },
+      {
+        "title": "A Question",
+        "content": "\"Ini. Paketmu yang lain.\" Temannya meletakkan kotak itu di sudut asrama yang terlupakan, lalu merebahkan diri di tempat tidur, \"Xiangli Yao, kamu benar-benar harus mendaftar keanggotaan Lollo Logistics. Dengan seberapa sering kamu menerima pengiriman ini, itu akan sangat sepadan.\" Xiangli Yao memutar kursinya untuk menghadap temannya, \"Haha. Aku akan memikirkannya.\" \"Edisi terbaru?\" \"Ya, mereka mengirimiku sampel.\" \"Iri sekali! Aku berharap bisa bekerja secepat itu, mengeluarkan artikel di sana-sini sambil mengambil kelas di saat yang sama. Bung.\" Ia melambaikan tangannya dan menyeringai, \"Aku rasa kamu sudah mengantongi ujian Imperial Academy itu. Jadi, di mana tempatnya nanti?\" Dengan itu, ia melemparkan sekaleng soda. Kaleng itu membentuk busur sempurna di udara, mendarat tepat di tangan Xiangli Yao. \"Terlalu banyak gula,\" desah sang siswa teladan, yang dikenal karena kebiasaan sehatnya saat bibirnya membentuk senyuman, tetap membuka kaleng itu. \"Tentang hal itu...\" Keheningan singkat mengikuti. Kemudian Xiangli menggelengkan kepalanya dengan lembut. \"Aku belum memutuskannya.\" Temannya mengangkat alis, terkejut. \"Wah, itu hal baru. Aku pikir kamu sudah memantapkan pilihan. Para profesor pasti sedang memperebutkanmu.\" \"Ada beberapa hal yang belum aku pahami.\" \"Yaitu...?\" \"Batasan. Batasan dari kebenaran,\" kata Xiangli Yao perlahan, memutar sebuah kubus di tangannya. \"Pascar, apakah menurutmu umat manusia akan menahan diri dalam mengejar batasan kebenaran?\" \"Mungkin. Ada banyak ilmuwan gila di luar sana, jadi siapa yang tahu.\" \"Kita mengejar bintang-bintang, hanya untuk jatuh di bawahnya. Batasan membatasi jangkauan kita... tetapi tanpanya, tidak ada cara untuk mengetahui apakah kamu mengalami kemajuan.\" \"Yah... kamu dan aku memiliki pendapat yang berbeda tentang ini, dan aku akan menyimpan pendapatku sendiri untuk menghindari perdebatan. Tapi apa hubungannya semua ini dengan penerimaanmu? Kamu mencoba mengalihkan pembicaraan dariku?\" Xiangli Yao tersenyum lembut. \"Ada hubungannya. Setelah ayahku menempuh jalannya sendiri, aku hanya mendengar sedikit tentang dia. Tapi aku telah menemukan beberapa petunjuk... Mungkin itu akan membawaku ke Court of Savantae, tempat yang ia cari.\" \"Kamu yakin akan pergi? Setelah bertahun-tahun, banyak orang telah mencoba menemukan sedikit pun petunjuk terkait CSC, dengan sedikit keberhasilan.\" \"Aku merasa harus pergi. Bahkan jika aku akhirnya tidak menemukan apa pun. Aku ingin tahu...\" Sarjana muda itu berbicara perlahan, suaranya berangsur-angsur melembut, \"Aku ingin tahu... apakah ayahku melintasi batasan itu.\"\nSebulan sebelum ujian, Xiangli menghilang. Ia meninggalkan sebuah video, yang mengungkapkan kebingungannya dan rasa hampa yang ia rasakan dalam perjalanannya mengejar kebenaran. Namun jalan mana pun yang ia pilih selanjutnya, ia akan menerima hasilnya. Kursi kosong tetap ada di asrama, sementara kehidupan terus berlanjut."
+      },
+      {
+        "title": "A Ruin",
+        "content": "Membutuhkan waktu lebih dari sepuluh hari untuk masuk ke dalam reruntuhan tersebut. Di setiap langkah, sisa-sisa pertahanan Court of Savantae menyulitkan Xiangli Yao. Terlepas dari persiapannya yang teliti, beberapa persediaan dan perbekalan telah hilang di tengah jalan. Xiangli Yao menilai apa yang tersisa, mempertimbangkan pilihannya, dan akhirnya memilih untuk menekan lebih dalam ke dalam reruntuhan. Ia sudah lama meninggalkan perbatasan Huanglong, dan kembali untuk kedua kalinya guna menjelajah lebih jauh akan terbukti sangat sulit. Setelah mensurvei tanah saat tiba, sarjana muda itu menduga bahwa reruntuhan ini, seperti yang sebelumnya, memiliki sedikit waktu tersisa. Namun, secara internal, kondisinya jauh lebih baik. Sebagian besar instrumen terpelihara dengan baik dan utuh. Cairan berwarna biru melonjak dan bersirkulasi dalam saluran semua mekanisme dengan vitalitas yang melampaui penciptanya. Setiap mekanisme, yang presisi, kokoh, dan elegan, dikatalogkan secara teliti oleh Xiangli Yao saat ia melihat penyimpangan halus dari teknologi Huanglong yang ada. Semakin ia menjelajah, semakin rasa sensasi yang tak tertahankan menguasainya. Seperti seorang penyair yang terpesona oleh anggur berkualitas, Xiangli Yao merasa mabuk oleh luapan pengetahuan yang mengelilinginya. Terminal miliknya telah kehilangan koneksi dengan dunia luar, tetapi ia tetap melakukan yang terbaik untuk merekam segalanya. Ketertarikannya pada mekanika, sebuah domain tempat Savantae telah membuat kemajuan yang tak tertandingi, membuatnya bertanya-tanya apakah ayahnya mengetahui inovasi ini, dan di mana ayahnya berada sekarang dalam jalur mengejar bintang-bintang. Namun di tengah keajaiban tersebut, tanda-tanda intrusi aneh mulai terlihat. Sejak Lament, sebagian besar teknologi seharusnya kembali ke keadaan dasar mereka. Tetapi di sini, struktur yang dulunya akrab memiliki tanda-tanda perubahan asing, menentang erosi namun dijiwai dengan keanggunan yang melampaui ciptaan Savantae lainnya. Semakin dalam Xiangli Yao masuk ke dalam reruntuhan, anomali tersebut semakin intens. Rekaman Xiangli Yao melambat. Kebutuhan untuk membedakan antara anomali dan desain asli menuntut ketelitian yang saksama. Akhirnya, ia mendarat pada sebuah tebakan: Orang-orang di sini mencoba menciptakan semacam pintu. Sebuah pintu. Sebuah gerbang. Sebuah... portal. Untuk pertama kalinya, Xiangli Yao ragu. Selain bahaya, keraguan itu adalah tentang arah. Sejauh ini, tidak ada jalan alternatif menuju reruntuhan yang menampakkan diri, menunjukkan bahwa kepergian ayahnya telah menempuh jalur yang berbeda. Apakah ayahnya gugur di sini? Atau... Jika kebenaran memiliki sebuah jalur, mungkin ini adalah gerbang terdekatnya."
+      },
+      {
+        "title": "A Smile",
+        "content": "Kemudian, ketika Xiangli Yao merenungkan perjalanannya melalui reruntuhan Court of Savantae, ia menyadari bahwa sebagian ingatannya telah menjadi kabur. Ia menduga hal itu disebabkan oleh efek mekanisme kuno dan medan gaya—perangkat yang melampaui batas teknologi saat ini dan memiliki tingkat kemajuan yang hampir tak terduga. Menciptakan mereka jelas merupakan tindakan yang tidak bijaksana, setidaknya bagi para peneliti CSC. Sejak Lament, eksplorasi melampaui batas telah terhenti karena pembengkokan hukum fisika. Namun, banyak sarjana masih mendambakan untuk melintasi langit lagi dan menjelajahi ruang antarbintang. Portal itu mungkin dibangun untuk tujuan tersebut: melompat ke langit, atau mungkin lebih jauh lagi, ke jantung peradaban yang telah mengubah reruntuhan ini. Xiangli Yao tidak yakin apakah mereka telah berhasil, tetapi ia membayar harga yang mahal untuk rasa ingin tahunya—lengannya. Ia hanya bisa berspekulasi bahwa ia telah berhasil memecahkan urutan dan mengaktifkan mekanismenya. Ia ingat tanda-tanda yang terukir di rongga yang sangat besar itu. Tanda itu kasar dan terpuntir, seolah-olah sebuah Tacet mark besar terukir di sana. Kemudian, kupu-kupu kristal yang halus muncul dari retakan tersebut. Kekuatan aneh merembes dari celah itu, bersinar dengan misteri dari peradaban lain. Saat Xiangli Yao menatap ke dalamnya, rintangan masa lalu yang dulunya tampak mustahil kini tampak dapat dipecahkan dalam kerangka baru ini. Gelombang pengetahuan melonjak, mampu membengkokkan, menaklukkan, dan menjalin semua frekuensi yang ada. Ia melangkah maju, hampir melupakan darah yang memancar dari dagingnya yang robek. Pusing karena kehilangan darah dan euforia samar mengaburkan inderanya. Pada saat itu, ia melihat sebuah benda yang familier tergeletak tertutup debu di meja kerja. Ingatan masa kecilnya samar-samar, tetapi ia segera mengenalinya sebagai hadiah dari ibunya untuk ayahnya. Xiangli Yan pernah menunjukkannya kepadanya saat masih kecil, sebuah foto ayah dan anak saat mereka bersama. Tiba-tiba, ia mengerti. Bahkan di akhir hayatnya, ayahnya tetap mempertahankan kenangan tentang keluarga mereka. Ayahnya tidak meninggalkan segalanya. Di luar ambang pintu itu, mampukah ayahnya masih melihat dirinya sendiri maju, di akhir teori murni di mana tidak ada yang bisa mengamati...? Ayahnya mencurahkan segalanya untuk ilmu pengetahuan teoretis, ibunya untuk ilmu pengetahuan terapan. Xiangli Yao seperti mereka, selalu rindu untuk meraih bintang-bintang, bahkan rela membakar dirinya sendiri dalam prosesnya. Mereka telah memberikan segalanya. Dan bagaimana dengan dia? Berdiri hanya selangkah lagi dari jawaban akhir, sarjana muda itu mendapati dirinya memikirkan hal-hal sepele yang tidak terkait. Ia teringat bagaimana, setelah kepergian orang tuanya, teman-teman dan tetangga telah mengajaknya keluar untuk bergabung dalam festival Jinzhou. Seharusnya itu adalah Moon-Chasing Festival, tetapi ancaman dari Threnodian telah memaksa perayaan yang lebih sederhana. Namun, sebuah festival tetaplah sebuah festival, pengingat untuk merayakan bahkan di masa-masa sulit. Ia telah mendemonstrasikan salah satu ciptaan terbarunya, sebuah gadget kecil, yang memenangkan tepuk tangan dari orang banyak. Ia seperti orang tuanya. Namun, ia bukanlah klon mereka. Bahkan saat bayangannya mengikuti bayangan mereka, ia mendapati dirinya tidak mampu menempuh jalan yang sama dengan yang telah mereka lalui. Dengan tangan gemetar, sarjana muda itu mencari bagian-bagian yang berserakan, mencoba merakit perangkat untuk menghentikan pendarahan. Forte yang baru ia dapatkan melonjak lembut dan mulai membengkokkan struktur logam sesuai dengan keinginannya. Saat pendarahan berhenti, begitu pula kesempatan besar di hadapannya. Jaraknya hanya beberapa langkah... tetapi Xiangli Yao telah membalikkan punggungnya. Ia tahu ia telah menemukan jawabannya sendiri."
+      }
+    ],
+    "specialFood": {
+      "name": "",
+      "imageUrl": "/icons/food/xiangli-yao.webp",
+      "description": "Meningkatkan ATK sebesar 8% dan Energy Regen sebesar 12% untuk semua anggota tim, bertahan selama 30 menit. Hanya efektif pada Resonator milik sendiri dalam Co-op Mode."
+    }
+  }
+}

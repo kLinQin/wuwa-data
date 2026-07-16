@@ -1,0 +1,471 @@
+{
+  "name": "Luuk Herssen",
+  "element": "Spectro",
+  "weapon": "Gauntlet",
+  "rarity": 5,
+  "version": "3.1",
+  "lastUpdated": "2026-02-14",
+  "roles": [
+    "Main Damage Dealer",
+    "Basic Attack DMG",
+    "Tune Rupture Response",
+    ""
+  ],
+  "sonatas": [
+    "Rite of Gilded Revelation"
+  ],
+  "changelog": [
+    {
+      "text": "input data character baru",
+      "type": "updated",
+      "isNew": true,
+      "leaks": false
+    }
+  ],
+  "faction": "Startorch Academy",
+  "affiliation": "",
+  "class": "Unclear",
+  "image": "/characters/luuk-herssen.webp",
+  "imageBanner": "/banners/luuk-herssen-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2100+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "70%/265%",
+    "Crit Ratio (Non Crit Weapon)": "65%/225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Daybreaker'S Spine",
+    "echoDetails": {
+      "note": "main Echo Cost 3: Twin Nova Nebulous Cannon",
+      "sets": [
+        {
+          "label": "Tune-Break",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: spectro%",
+            "3: spectro%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "twin-nova-nebulous-cannon",
+          "echoSlugSecondary": "hyvatia",
+          "sonataCustom": [
+            "Rite Of Gilded Revelation"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ]
+    },
+    "weaponNote": "Jika ia menggunakan senjata signature miliknya, pertimbangkan Spectro / ATK untuk 3-Cost.",
+    "weaponOptions": [
+      {
+        "id": "daybreakers-spine",
+        "percentage": "117.66",
+        "rank": ""
+      },
+      {
+        "id": "pulsation-bracer",
+        "percentage": "100.00",
+        "rank": ""
+      },
+      {
+        "id": "blazing-justice",
+        "percentage": "98.26",
+        "rank": ""
+      },
+      {
+        "id": "abyss-surges",
+        "percentage": "86.92",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Intro",
+          "Mid Air Attack 23",
+          "Enhanced Skill 1 ",
+          "Enhanced Basic",
+          "Mid-Air 123",
+          "Enhanced Skill 2",
+          "Enhanced Basic",
+          "Mid-Air 123",
+          "Enhanced Skill",
+          "Enhanced Basic (plunge) ",
+          "Liberation",
+          "Skill",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Forte Circuit",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Tune-Team",
+        "note": "Karena Lynae dapat menanggapi Tune Strain, batas stack maksimal meningkat sebanyak 1. Meskipun Luuk tidak dapat menerima manfaat dari Res. Lib Amp miliknya, Lynae tetap memberikan buff kuat lainnya dan Tune Break Boost yang meningkatkan damage miliknya sebesar 25% dari Inherent Skill miliknya: Uncaused Diagnosis. Ia saat ini tidak mampu mencapai batas 30% tersebut.",
+        "members": [
+          [
+            "Luuk Herssen"
+          ],
+          [
+            "Lynae"
+          ],
+          [
+            "Mornye",
+            "Shorekeeper"
+          ]
+        ]
+      },
+      {
+        "name": "Alt",
+        "note": "Sanhua memberikan 38% Basic ATK Amplify setelah melancarkan Outro Skill miliknya, namun setting team F2P ini merupakan kerugian besar dibandingkan dengan menggunakan Lynae.",
+        "members": [
+          [
+            "Luuk Herssen"
+          ],
+          [
+            "Sanhua"
+          ],
+          [
+            "Shorekeeper",
+            "Verina"
+          ]
+        ]
+      }
+    ],
+    "teamNote": "Mornye membantu Luuk mengumpulkan lebih banyak stack Tune Strain: Interference dengan lebih cepat. kalian dapat menggunakan Shorekeeper sebagai alternatif; namun, Mornye adalah support ideal karena alasan khusus ini.\n\nKonsep di balik Tune Strain bekerja sama dengan Tune Rupture. Namun alih-alih \"menanggapi\" dengan ledakan damage, Tune Strain meningkatkan DMG yang diberikan berdasarkan jumlah stack. Jumlah maksimal stack yang dapat diberikan adalah 1.\nKarena hal ini berskala pada jumlah Resonator yang dapat menanggapi Tune Strain: Interfered, memiliki Lynae dan Mornye secara bersamaan dalam timnya adalah hal yang ideal. Mereka masing-masing meningkatkan batas stack sebanyak 1"
+  },
+  "skills": {
+    "basic": {
+      "name": "Such Is Light",
+      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut, memberikan Spectro DMG.\nMelemparkan bilah berputar pada Tahap 3, yang menghilang saat Luuk Herssen melancarkan skill lain yang dapat memberikan damage atau meninggalkan medan tempur.\n\nHeavy Attack\nMengonsumsi STA untuk melompat ke udara, memberikan Spectro DMG.\n\nMid-air Attack\nMelakukan hingga 4 serangan berturut-turut di udara, memberikan Spectro DMG. Tahap 4 adalah Plunging Attack dengan mengonsumsi STA.\nTekan Normal Attack atau Jump untuk melakukan Basic Attack Tahap 2 dan 3 di udara.\nLuuk Herssen menyerang dengan Scythe: Dissection saat input berupa Normal Attack.\nLuuk Herssen menyerang dengan Scythe: Resection saat input berupa Jump. Ia juga memberikan Tune Strain - Shifting pada target yang terkena serangan selama 25 detik dan mengurangi DMG yang diterima sebesar 15% selama 1 detik.\nSebagai Resonator aktif, saat berada di udara, siklus skill ini tidak akan direset.\nSaat berada di udara, tahan Normal Attack untuk melakukan Plunging Attack dengan mengonsumsi STA.\n\nDodge Counter\nTekan Normal Attack tepat setelah Dodge yang berhasil di darat untuk memberikan Spectro DMG. Tekan Normal Attack tepat setelah melancarkan skill ini untuk melancarkan Basic Attack Tahap 3.\nTekan Normal Attack tepat setelah Dodge yang berhasil di udara untuk berpindah cepat ke arah target, memberikan Spectro DMG."
+    },
+    "skill": {
+      "name": "Reunion Of All The Fallen",
+      "description": "Golden Reflux\nBerpindah cepat ke arah target dan memberikan Spectro DMG. Memberikan Tune Strain - Shifting pada target yang terkena serangan selama 25 detik.\nGolden Reflux memiliki 2 cas.\nDapat dilancarkan di udara.\n\nAureole of Execution\nMelancarkan Basic Attack Tahap 4 atau Mid-air Attack Tahap 3 menggantikan Resonance Skill dengan Aureole of Execution, yang memberikan Basic Attack DMG dan memberikan Tune Strain - Shifting pada target yang terkena serangan selama 25 detik.\nAureole of Execution memiliki 3 wujud, termasuk Aureole of Execution: Ring, Aureole of Execution: Breach, dan Aureole of Execution: Glare.\nMelancarkan wujud apa pun dari Aureole of Execution memberikan 1 stack Endnotes on the Endgame dan mengubah Aureole of Execution ke wujud berikutnya secara berurutan.\nBeralih ke Resonator lain me-reset siklus Aureole of Execution dan Resonance Skill dikembalikan ke Golden Reflux.\nDapat dilancarkan di udara.\n\nAureole of Execution: Ring\nMemberikan Spectro DMG, dan reset siklus Mid-air Attack ke Tahap 1.\nNormal Attack berikutnya memicu Basic Attack - Golden Impale.\nBasic Attack - Golden Impale tidak lagi tersedia jika Dodge Counter dilancarkan di udara atau Luuk Herssen diganti selama durasi tersebut.\n\nAureole of Execution: Breach\nBerputar dan menerjang ke depan, memberikan Spectro DMG kepada musuh di sepanjang jalur dan reset siklus Mid-air Attack ke Tahap 1. Kemudian, melemparkan Ichor Blade.\nNormal Attack berikutnya memicu Basic Attack - Golden Impale.\nBasic Attack - Golden Impale tidak lagi tersedia jika Dodge Counter dilancarkan di udara atau Luuk Herssen diganti selama durasi tersebut.\n\nAureole of Execution: Glare\nMelemparkan Solid-State Ichor, memberikan Spectro DMG dan membentuk Ichor Deposit di darat.\n\nBasic Attack - Golden Impale\nBerpindah cepat ke arah target dan memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.\n\nIchor Deposit\nIchor Deposit meledak secara otomatis setelah 5 detik, memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.\n\nEndnotes on the Endgame\nMeningkatkan DMG Multiplier dari Resonance Liberation Rewritten in Winter's Margins sebesar 25%, dapat menumpuk hingga 3 kali. Melancarkan Rewritten in Winter's Margins atau beralih ke Resonator lain menghapus semua stack."
+    },
+    "liberation": {
+      "name": "Rewritten In Winter'S Margins",
+      "description": "Memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.\nDapat dilancarkan di udara.\n"
+    },
+    "forte": {
+      "name": "Spark From The Frost",
+      "description": "Mid-air Attack - Gavel of Earthshaker\nSaat Solid-State Ichor dari Resonance Skill Aureole of Execution: Glare dilemparkan, tekan Normal Attack di udara untuk melancarkan Mid-air Attack - Gavel of Earthshaker.\nMenghantam turun dari udara untuk meledakkan Ichor Deposit, memberikan Spectro DMG (dianggap sebagai Basic Attack DMG) dan memulihkan semua STA.\nMid-air Attack - Gavel of Earthshaker tidak lagi tersedia saat Resonance Liberation Rewritten in Winter's Margins dilancarkan atau Luuk Herssen meninggalkan medan tempur.\n\nAureate Judge\nDengan Ichor Flow penuh, masuki status Aureate Judge. Dalam status ini, Luuk Herssen mendapatkan efek berikut:\n- Ichor Flow tidak pulih. DMG Multiplier dari semua wujud Resonance Skill Aureole of Execution meningkat sebesar 110%.\n- Melancarkan Aureole of Execution: Glare meningkatkan DMG Multiplier dari Mid-air Attack - Gavel of Earthshaker berikutnya dan damage Ichor Deposit sebesar 110%.\n- 100 poin Ichor Flow dikonsumsi setiap kali Resonance Skill Aureole of Execution dilancarkan.\n- Aureate Judge berakhir saat Ichor Flow habis.\n\nGolden Rule\nSaat Luuk Herssen berada di dalam tim, semua Resonator lain dalam tim mendapatkan Golden Rule. Saat Resonator dengan Golden Rule melancarkan Outro Skill dan Resonator yang masuk adalah Luuk Herssen, hapus semua Golden Rule pada Resonator di dalam tim dan berikan Luuk Herssen 200 poin Ichor Flow serta 12 poin Concerto Energy. Resonator dalam tim mendapatkan Golden Rule kembali setelah 24 detik. Efek ini tidak berlaku dalam Co-op Mode.\n\nDawnlit Keep\nLuuk Herssen mendapatkan 1 stack Dawnlit Keep saat ia berada di luar pertempuran selama lebih dari 4 detik atau melancarkan Intro Skill Before Injection of Dawn.\nDawnlit Keep dibatasi hingga 1 stack. Saat menerima damage dari musuh, konsumsi 1 stack Dawnlit Keep untuk mengurangi damage yang diterima sebesar 60% dan dapatkan kekebalan terhadap gangguan (interruption) selama 1 detik. Efek ini dapat dipicu sekali per detik.\n\nRadiant Reave\nSaat Luuk Herssen melakukan Dodge di udara, ia tetap melayang di udara sejenak dan melemparkan Ichor Blade.\nLuuk Herssen mengonsumsi STA secara terus-menerus saat melayang di udara.\nJika Luuk Herssen terlempar ke udara, tekan Dodge sebelum mendarat untuk memicu efek ini, hingga 3 kali. Saat ia berada di darat atau diganti selama lebih dari 3 detik, jumlah pemicu akan di-reset.\n\nIchor Blade\nMemberikan Spectro DMG tetap, dianggap sebagai Basic Attack DMG yang tidak dipengaruhi oleh DMG Bonus apa pun.\nHanya satu Ichor Blade yang dapat ada dalam satu waktu. Ini tidak dapat memicu Counterattack.\nIchor Blade tidak dapat diluncurkan tanpa target di sekitar.\nIchor Blade menghilang saat Luuk Herssen melancarkan skill lain yang memberikan damage atau meninggalkan medan tempur.\n\nIchor Flow\nLuuk Herssen menampung hingga 300 poin Ichor Flow.\nNormal Attack, Resonance Skill Golden Reflux, Resonance Skill Aureole of Execution, Basic Attack - Golden Impale, dan Mid-air Attack - Gavel of Earthshaker memulihkan Ichor Flow saat mengenai target.\nMelancarkan Intro Skill Before Injection of Dawn memulihkan 100 poin Ichor Flow."
+    },
+    "inherent": [
+      {
+        "name": "Pulses Under The Snow",
+        "description": "Saat Resonator dalam tim memberikan damage langsung dan mengalahkan target, jika target tersebut terkena pengaruh Tune Strain - Interfered:\n- Jika Luuk Herssen tidak memiliki Perpetuating Daytime, dapatkan stack Perpetuating Daytime sejumlah stack Tune Strain - Interfered.\n- Jika Luuk Herssen sudah memiliki Perpetuating Daytime, dan stack Tune Strain - Interfered target melebihi stack Perpetuating Daytime saat ini, tingkatkan stack Perpetuating Daytime agar sesuai dengan stack Tune Strain - Interfered target.\n\n\nPerpetuating Daytime\n- Saat Resonator dalam tim melancarkan Tune Break, jika target terkena pengaruh Tune Strain - Shifting, Luuk Herssen kehilangan semua stack Perpetuating Daytime, lalu berikan stack Tune Strain - Interfered yang setara pada target, hingga batas maksimal stack Tune Strain - Interfered target saat ini. Cooldown: 1 detik.\nLuuk Herssen kehilangan semua stack Perpetuating Daytime dan tidak akan bisa mendapatkan stack baru saat terkapar (knocked out).\n- Perpetuating Daytime menumpuk hingga 2 kali."
+      },
+      {
+        "name": "Uncaused Diagnosis",
+        "description": "Saat skill Luuk Herssen memberikan damage langsung pada target yang terkena pengaruh Tune Strain - Interfered, setiap 10 poin Tune Break Boost yang ia miliki akan melakukan Amplify pada instansi damage ini sebesar 5%, hingga maksimal 30%.\nSetelah Resonator terdekat dalam tim memberikan Tune Strain - Shifting pada musuh atau memberikan Tune Break DMG, ATK Luuk Herssen meningkat sebesar 25% selama 20 detik."
+      },
+      {
+        "name": "Tune Break - Silent Debate Of Light",
+        "description": "Luuk Herssen dapat memberikan Tune Strain - Shifting pada target.\nLuuk Herssen dapat menanggapi Tune Strain - Interfered.\nSaat menanggapi Tune Strain - Interfered: Untuk setiap stack Tune Strain - Interfered pada target, setiap poin Tune Break Boost Luuk Herssen meningkatkan total DMG miliknya terhadap target sebesar 0.12%. Selama Luuk Herssen berada di dalam tim, batas stack maksimal Tune Strain - Interfered pada target meningkat sebanyak 1.\nSaat Off-Tune Level target penuh, Luuk Herssen dapat melancarkan Tune Break pada target."
+      }
+    ],
+    "intro": {
+      "name": "Before Injection Of Dawn",
+      "description": "intro\nMemberikan Spectro DMG. Melemparkan Ichor Blade dan memberikan Tune Strain - Shifting pada target.\nTekan Normal Attack setelah skill ini untuk melancarkan Mid-air Attack Tahap 2 - Scythe: Dissection atau Jump untuk melancarkan Mid-air Attack Tahap 2 - Scythe: Resection.\n"
+    },
+    "outro": {
+      "name": "Bow To The Last Light",
+      "description": "Memberikan Spectro DMG sebesar 500% dari ATK Luuk Herssen."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Suncoveter's Reach",
+            "amount": 46
+          },
+          {
+            "item": "LF Exoswarm Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Exoswarm Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Exoswarm Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Exoswarm Core",
+            "amount": 4
+          },
+          {
+            "item": "Edelschnee",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Gold In Memory",
+          "amount": 26
+        },
+        {
+          "item": "Fractured Exoswarm Pendant",
+          "amount": 25
+        },
+        {
+          "item": "Worn Exoswarm Pendant",
+          "amount": 28
+        },
+        {
+          "item": "Chipped Exoswarm Pendant",
+          "amount": 40
+        },
+        {
+          "item": "Intact Exoswarm Pendant",
+          "amount": 57
+        },
+        {
+          "item": "LF Waveworn Shard",
+          "amount": 25
+        },
+        {
+          "item": "MF Waveworn Shard",
+          "amount": 28
+        },
+        {
+          "item": "HF Waveworn Shard",
+          "amount": 55
+        },
+        {
+          "item": "FF Waveworn Shard",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Daybreaker'S Spine",
+          "value": 1581834.51,
+          "imagePath": "",
+          "percentage": 118
+        },
+        {
+          "type": "Pulsation Bracer",
+          "value": 1344428.87,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Blazing Justice",
+          "value": 1321018.24,
+          "imagePath": "",
+          "percentage": 98
+        },
+        {
+          "type": "Abyss Surges",
+          "value": 1168639.56,
+          "imagePath": "",
+          "percentage": 87
+        }
+      ],
+      "note": "sorce // tethys.gg",
+      "title": "Weapon - Luuk",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 88.8,
+          "imagePath": "",
+          "percentage": 88.8
+        },
+        {
+          "type": "Outro",
+          "value": 5.4,
+          "imagePath": "",
+          "percentage": 5.4
+        },
+        {
+          "type": "Skill",
+          "value": 2.2,
+          "imagePath": "",
+          "percentage": 2.2
+        },
+        {
+          "type": "Intro",
+          "value": 2.1,
+          "imagePath": "",
+          "percentage": 2.1
+        },
+        {
+          "type": "Echo",
+          "value": 1.5,
+          "imagePath": "",
+          "percentage": 1.5
+        }
+      ],
+      "note": "sorce // tethys.gg",
+      "title": "Damage - Luuk",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1581834.51,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1752718.39,
+          "imagePath": "",
+          "percentage": 111
+        },
+        {
+          "type": "S2",
+          "value": 2176556.03,
+          "imagePath": "",
+          "percentage": 138
+        },
+        {
+          "type": "S3",
+          "value": 2655759.5,
+          "imagePath": "",
+          "percentage": 168
+        }
+      ],
+      "note": "sorce // tethys.gg",
+      "title": "Sequence - Luuk",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Gold Kindled In Ash",
+      "description": "Luuk Herssen mendapatkan 150% Mid-air Attack DMG Bonus.\nBatas stack maksimal Dawnlit Keep meningkat sebanyak 1.\nSaat dalam status Aureate Judge, melancarkan Resonance Skill Aureole of Execution memberikan 1 stack Dawnlit Keep.\n"
+    },
+    {
+      "stage": "S2",
+      "name": "Avalanche Roaring In Eyes",
+      "description": "DMG Multiplier dari Resonance Liberation Rewritten in Winter's Margins meningkat sebesar 60%. Efek peningkatan DMG Multiplier ini dapat menumpuk dengan efek dari Endnotes on the Endgame.\nInherent Skill Uncaused Diagnosis diperkuat:\nSaat Luuk Herssen memberikan damage pada target yang terkena pengaruh Tune Strain - Interfered, setiap 10 poin Tune Break Boost yang ia miliki sekarang melakukan Amplify pada instansi damage ini sebesar 10%. Efek ini sekarang meningkatkan DMG Amplification hingga 60%, alih-alih 30%."
+    },
+    {
+      "stage": "S3",
+      "name": "Spine Tempered By Golden Rain",
+      "description": "DMG Multiplier dari semua wujud Resonance Skill Aureole of Execution meningkat sebesar 136% dalam status Aureate Judge. Melancarkan Aureole of Execution: Glare meningkatkan DMG Multiplier dari Mid-air Attack - Gavel of Earthshaker berikutnya dan Ichor Deposit sebesar 136%.\nInherent Skill Pulses Under the Snow diperkuat:\nPerpetuating Daytime sekarang menumpuk hingga 4 kali."
+    },
+    {
+      "stage": "S4",
+      "name": "Pulse Thrumming Under Rime",
+      "description": "Setelah Resonator dalam tim memberikan Tune Break DMG, semua Resonator dalam tim memberikan 20% DMG lebih banyak selama 20 detik. Efek ini tidak dapat menumpuk."
+    },
+    {
+      "stage": "S5",
+      "name": "Through The Stillness Of Snowstorm",
+      "description": "Intro Skill Before Injection of Dawn dan Outro Skill Bow to the Last Light mendapatkan 80% DMG Bonus.\nResonance Skill Golden Reflux memiliki DMG Multiplier yang meningkat sebesar 50% dan Cooldown berkurang selama 2 detik, serta mendapatkan 1 cas tambahan."
+    },
+    {
+      "stage": "S6",
+      "name": "Dawn Unfurling Over Frostlands",
+      "description": "Saat Resonator terdekat dalam tim memberikan Tune Break DMG, semua wujud Resonance Skill Aureole of Execution, Ichor Deposit, dan Mid-air Attack - Gavel of Earthshaker memberikan 30% DMG lebih banyak kepada target selama 25 detik.\nSetiap stack Endnotes on the Endgame secara tambahan memberikan Resonance Liberation Rewritten in Winter's Margins 40% DMG Bonus, hingga maksimal 120%.\nSaat Luuk Herssen memberikan damage pada target yang terkena pengaruh Tune Strain - Interfered, jumlah stack Tune Strain - Interfered pada target meningkat sebanyak 2. Efek ini mengabaikan batas stack maksimal."
+    }
+  ],
+  "lore": {
+    "description": "Dokter yang bertugas di Unit Keperawatan Resonator Startorch Academy, terkenal karena kecerdasannya yang tajam dan ketenangannya yang tak tergoyahkan. Rumor mengatakan bahwa tidak ada seorang pun yang pernah melihatnya kehilangan kendali.\n\nIa adalah pendengar yang tajam yang mahir dalam membedah bayang-bayang di hati seseorang. Dari luka yang tidak kunjung sembuh di tangannya, darah emas merembes, sebuah substansi yang dapat ia panggil untuk menjadi bilah dengan presisi yang paling tinggi.",
+    "report": {
+      "resonancePower": "Phase Transition",
+      "overclockDiagnostic": "Analisis yang Dilakukan: Rabelle's Curve Fluctuation Stability Test\n\nHasil: Sampel uji Rabelle's Curve menunjukkan gelombang elips yang memanjang dengan amplitudo yang cukup besar. Namun, ritme periodik yang jelas teramati, dan ambang batas Resonant Criticality belum tercapai.\n\nAsesmen: Subjek menunjukkan kontrol yang stabil dalam kondisi beban tinggi, dengan data yang mengindikasikan regulasi diri dan fokus mental yang luar biasa. Tidak ada indikasi kehilangan kendali yang teramati.\n\nKesimpulan: Stabilitas subjek sangat baik. Tidak ada risiko Overclocking saat ini. Konseling psikologis saat ini dianggap tidak perlu. Pengujian tindak lanjut terjadwal dengan pemantauan berkelanjutan terhadap indeks kelelahan saraf direkomendasikan.\n\nSubjek telah menyatakan kesediaan untuk bekerja sama dengan observasi selanjutnya.\n\n\"Dr. Luuk... apakah rumusan kata-kata ini sudah benar? Rasanya agak terlalu resmi.\"\n\"Ini sangat bisa diterima. Kamu melakukan pekerjaan yang baik.\"",
+      "resonanceEvaluation": "Resonance Evaluation Report\n[Diarsipkan dari: Spacetrek Collective: Catatan Fakultas Startorch Academy]\n[Forte Examination Report RA2462-G]\n\nNama: Luuk Herssen\n\nForte Overview: Pemeriksaan mengonfirmasi bahwa Tacet Mark subjek terletak di tengah telapak tangan kanan, ditandai dengan luka kronis yang tidak kunjung sembuh. Tanda-tanda fisik dan hasil pemeriksaan darah menunjukkan adanya cairan energi anomali—sebuah \"Ichor\"—yang bersirkulasi di dalam tubuh subjek. Substansi ini dapat mengubah fase statusnya dengan cepat di bawah kehendak sadar. Aktivasi disertai dengan sensasi terbakar dan suhu tinggi sementara. Penggunaan jangka panjang telah mengakibatkan buta warna. Saat ini, subjek hanya mempresepsikan warna emas, dengan semua rona lainnya tampak dalam skala abu-abu (grayscale).\n\nSubjek melaporkan gejala yang stabil dan menolak pengobatan lebih lanjut.\n\n\"Pemeriksaan dan pelaporan dilakukan oleh subjek secara pribadi untuk memastikan keakuratan catatan.\"\n\"Lokasi: Startorch Academy - Resonator Nursing Unit.\nPencatat: Luuk Herssen.\""
+    },
+    "items": [
+      {
+        "name": "Non-Prescription Glasses",
+        "description": "Digunakan terutama sebagai bagian dari penyamarannya saat melacak Fractsidus.\n\nSecara resmi, benda ini berfungsi untuk menjaga profil rendah. Secara tidak resmi, ia menganggap tindakan tersebut menghibur, hampir seperti sebuah ritual.\n\nSeseorang pernah bercanda bahwa kacamata itu membuatnya terlihat seperti cendekiawan gadungan yang berniat menipu orang. Sebagai tanggapan, ia menyesuaikan bingkainya dengan ketenangan yang dibuat-buat dan menjawab, dengan ketulusan penuh, \"Anda sepenuhnya benar.\"",
+        "imageUrl": "/icons/items/luuk-herssen-1.webp"
+      },
+      {
+        "name": "Medical Gloves",
+        "description": "Sepasang sarung tangan medis putih bersih. Benda ini menyembunyikan Tacet Mark miliknya dan luka lama yang tidak pernah sembuh, tempat mengalirnya darah emas yang ia sebut sebagai \"Ichor.\"\n\nBaginya, darah ini adalah sumber kekuatan. Bagi orang lain, hal itu adalah bahaya yang membakar. Maka ia menyimpan kilauan tersebut, dan sejarah yang diwakilinya, tersimpan rapi di bawah kain yang tanpa noda.",
+        "imageUrl": "/icons/items/luuk-herssen-2.webp"
+      },
+      {
+        "name": "Faded Candy Wrapper Bookmark",
+        "description": "Terselip di antara halaman-halaman buku di mejanya adalah sebuah bungkus permen, tepinya sedikit melengkung. Tercetak di atasnya adalah desain \"Sunshine Bear\" yang sudah lama tidak diproduksi lagi. Dahulu saat ia masih kecil, ayahnya akan memberinya permen ini sebagai hadiah sesekali.\n\nSekarang, pria itu telah tiada. Rumah itu telah tiada. Permen itu juga tidak lagi diproduksi. Ia meratakan bungkus yang memudar tersebut dan menggunakannya sebagai pembatas buku, memadatkan masa kecil yang penuh konflik dan rasa sakit menjadi sesuatu yang rapuh namun cukup tahan lama untuk terselip diam-diam di antara halaman-halaman ingatan.",
+        "imageUrl": "/icons/items/luuk-herssen-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "\"Brother\"",
+        "content": "Cahaya dingin menyorot tajam ke dalam kegelapan malam. Luuk duduk di bawahnya dan menjulurkan tangannya tanpa protes. Pria yang dikenal sebagai \"ayahnya\" mencengkeram telapak tangannya, yang masih jelas merupakan tangan seorang anak kecil, dan menyaksikan darah emas, \"Ichor,\" merembes keluar dari luka tersebut seperti emas cair.\n\nLuuk tahu pria itu tidak sedang melihat dirinya, melainkan melihat melalui dirinya, kepada anak lain. Putra kandung yang telah meninggal karena penyakit langka. Luuk hanyalah sebuah wadah untuk membawa obsesi itu, sebuah kesempatan untuk mengisi kekosongan tersebut. Namun perubahan yang dirindukan ayahnya tidak pernah datang. Ichor terus mengalir dalam keheningan, dan cahaya penuh gairah di mata ayahnya perlahan meredup menjadi kekecewaan.\n\n\"...Mengapa ini tidak berubah? Kamu adalah satu dari sedikit orang yang bisa mentoleransi Ichor,\" gumam ayahnya. Kata-kata itu menggetarkan gendang telinga sang anak seperti guntur. \"Ini adalah obat paling menjanjikan yang kita miliki untuk penyakit langka... Bahkan setelah semua yang telah kita investasikan dalam hal ini... Mengapa tidak pernah ada perubahan?\"\n\nSaat itulah Rhein bergabung dengan \"keluarga\" tersebut.\n\nLuuk memperhatikan ayahnya berbicara, kegembiraan membuat suaranya tidak stabil, tentang bagaimana anak ini sama seperti dirinya: menderita penyakit langka, tetapi mampu bertahan dalam pengobatan Ichor. \"Dia adalah saudaramu sekarang.\"\n\nLuuk memandang \"saudara\" ini, yang tidak memiliki hubungan darah. Anak laki-laki itu lebih kecil dari dirinya sendiri, kulitnya pucat karena penyakit kronis, jelas terlalu muda untuk memahami dunia, apalagi memahami apa arti penelitian tentang \"Darah Emas\" ini, dan harapan yang kini ia pikul di pundaknya yang rapuh. Seperti anak kecil seusianya, ia merasa sangat gembira hanya karena permen yang diletakkan oleh \"ayah\" barunya di tangannya.\n\nSeorang anak yang menyukai manisan. Luuk Herssen menatap ikal lembut di kepala bocah itu dan merasakan keinginan untuk mengelusnya. Ia mengulurkan tangan, lalu berhenti, mengingat luka di telapak tangannya yang menolak untuk sembuh.\n\nSesuai harapan ayahnya, Rhein langsung merasa dekat dengan Luuk. Sebelum ia mempelajari banyak kata, ia sudah mengejar Luuk, memanggil \"kakak\" berulang kali.\n\nApa yang tidak diduga oleh ayahnya adalah betapa cepatnya tubuh Rhein menolak Ichor. Lebih cepat daripada yang dialami Luuk. Pengobatan itu berhenti bekerja, dan tak lama kemudian tubuhnya menyusut hingga ia nyaris tidak mampu meninggalkan tempat tidurnya.\n\nLalu tibalah hari ulang tahun Rhein. Luuk menggendongnya di punggung, tetap berada dalam bayang-bayang di sepanjang dinding saat mereka menyelinap melalui koridor panjang dan keluar dari rumah. Ia berlari dan berlari, sampai udara segar yang berbau tanah mengisi paru-parunya, sampai langit berbintang, yang menyilaukan hingga terasa berlebihan, menyingkirkan lampu plafon ruang perawatan yang dingin.\n\nMereka berhenti di taman yang terlupakan di tepi properti tersebut.\n\nTempat itu dipenuhi dengan pot-pot rusak dan daun-daun mati, hampir tidak bisa disebut sebagai pemandangan yang indah. Namun tanahnya lunak, udaranya hidup, dan bagi Rhein, yang telah terkurung di ruang sakit terlalu lama, matanya tetap berbinar.\n\n\"Selamat ulang tahun, Rhein.\"\n\nSambil bernapas terengah-engah, Luuk mengeluarkan sesuatu dari dalam mantelnya: sebuah... benda kecil yang dibungkus dengan tidak rapi. Bentuknya miring, permukaannya belang-belang dengan krim cokelat dan putih yang hangus. Di atasnya terdapat hiasan berbentuk beruang kecil, logo dari merek permen favorit Rhein.\n\n\"Aku... aku belum pernah membuatnya sebelumnya. Mungkin rasanya tidak enak,\" kata Luuk, suaranya diwarnai rasa malu. Untuk menutupinya, ia menyalakan lilin dengan tergesa-gesa. Nyala api yang rapuh itu berkedip-kedip tertiup angin malam, terpantul di mata Rhein yang lebar dan bersinar.\n\n\"Ucapkan sebuah keinginan, lalu tiup lilinnya,\" kata Luuk, mencoba terdengar ceria. Seorang kakak laki-laki harus bisa menenangkan. \"Dengan begitu, keinginanmu akan terkabul.\"\n\nRhein mengangguk kuat, mengatupkan kedua tangannya, menggembungkan pipinya, dan meniup.\n\nWusss. Api itu padam.\n\nRasa dingin kembali mendekat, merenggut Luuk keluar dari mimpi panjang dan kembali ke masa kini. Ruangan itu masih bergema dengan retakan samar dari kayu yang terbakar. Ia membuka matanya, tatapannya tertuju pada perapian, yang sekarang tidak menyisakan apa pun selain abu, baru saat itulah ia merasakan hawa dingin yang melilit di sekelilingnya.\n\n...Sudah begitu banyak tahun berlalu.\n\nIa mengembuskan napas dan menekan kenangan-kenangan itu kembali ke jangkauan tidur yang jauh."
+      },
+      {
+        "title": "Undercurrent",
+        "content": "Luuk menyadari ada sesuatu yang salah bertahun-tahun setelah kematian ayahnya.\n\nMeskipun ia menyandang gelar pewaris Novialle Regenerative Group, para veteran di dewan direksi melihatnya sebagaimana ia tampak saat itu: seorang pemimpin formalitas yang masih di bawah umur. Tentu saja, mereka mengabaikannya karena dianggap bukan ancaman. Namun...\n\nHalaman demi halaman, Luuk menyaring perbedaan finansial yang tampaknya tidak berhubungan, prosedur lab yang nyaris luput dari pengawasan, dan rencana perjalanan bulan-bulan terakhir ayahnya yang telah dihapus. Seperti kepingan teka-teki, semua itu perlahan-lahan menyatu menjadi sebuah gambaran yang retak dan mengerikan, sesuatu yang disebut sebagai \"kebenaran\". Tatapannya menajam.\n\nFaktanya, hal ini tidak ada bedanya dengan operasi bedah. Membedah permukaan yang tampak utuh. Menusukkan bilah tajam lebih dalam. Memotong pembusukan di tempat ia bernanah pada tulang.\n\nIa telah melakukannya sebelumnya, dan ia mahir dalam hal itu.\n\nBagi publik, yang mereka lihat hanyalah seorang eksekutif baru yang jauh terlalu muda untuk peran tersebut. Ia membawa dirinya dengan ketenangan dan mengendalikan konglomerat tersebut dengan kemauan keras yang tak tergoyahkan. Bisikan keraguan di awal segera terbungkam di hadapan hasil nyata. Pengembangan obat-obatan dipercepat, sementara laboratorium yang dulunya didedikasikan untuk meneliti \"Golden Blood\" ditutup, satu demi satu.\n\nPada malam hari, saat sendirian, Luuk melepas sarung tangannya dan menyaksikan Ichor merembes dari telapak tangannya. Darah emas itu tumpah di kulitnya, menyatu menjadi bentuk bilah yang mengeras. Kemudian, dengan satu putaran pergelangan tangan, bilah itu larut kembali menjadi cairan yang patuh.\n\nSetelah bertahun-tahun, \"perubahan\" yang sangat diobsesikan oleh ayahnya akhirnya muncul. Dan perubahan itu tunduk pada Luuk.\n\n\"Tapi aku sudah selesai mengorbankan orang-orang untukmu,\" katanya pelan, matanya tertuju pada kilauan emas itu. \"Aku akan... menggunakanmu.\"\n\n\n\"Menyusup ke Fractsidus?\" Suara dari Terminal itu jelas terdengar ragu.\n\n\"Ya.\" Luuk berdiri di tepi atap, angin menerpa mantelnya. \"Terlalu banyak petunjuk yang mengarah kembali kepada mereka. Aku curiga mereka terhubung dengan kematian ayahku.\"\n\n\"...Sudahkah kamu memikirkan hal ini dengan matang? Begitu kamu masuk, tidak ada jalan untuk kembali.\"\n\nLuuk menatap lampu-lampu yang tersebar di bawah. Berapa banyak nyawa, yang hanya ditopang oleh obat-obatan, berkedip lemah seperti lilin tertiup angin, menunggu melalui malam tanpa akhir agar ilusi terbakar habis dan fajar akhirnya tiba?\n\n\"Tidak ada jalan untuk kembali,\" katanya sambil melompat ke dalam kegelapan malam, suaranya memudar tertiup angin, \"Itulah mengapa hal ini layak dilakukan.\""
+      },
+      {
+        "title": "Dark Clouds",
+        "content": "Udara di pos terdepan Fractsidus ini selalu terasa tebal dengan debu, jamur, dan aroma logam yang menyengat.\n\nLuuk Herssen berjalan menyusuri koridor redup mengenakan kacamata tipis berbingkai perak, sebuah tas medis tua terayun di sampingnya. Langkahnya ringan, terukur, sangat sesuai dengan karakternya: seorang dokter muda yang pendiam dan rendah hati, cukup terampil untuk menjadi berguna, cukup pemalu untuk diabaikan.\n\nPintu tertutup di belakangnya. Apa yang menyambutnya berikutnya adalah bau darah yang menyengat dan aroma tajam dari disinfektan.\n\nBeberapa anggota Fractsidus yang terluka merosot di dinding atau berbaring di dipan. Saat ia mendekat, seseorang mendecakkan lidah dengan tidak sabar. \"Lama sekali kamu sampai di sini.\"\n\nLuuk membungkukkan bahunya, menundukkan kepala, dan mempercepat langkahnya hingga ia tampak menyusut di dalam jubah medisnya.\n\nTas medis terbuka dengan bunyi klik lembut. Ia mengambil pinset dan kapas antiseptik dengan hati-hati lalu mulai membersihkan luka menganga di lengan salah satu anggota. Di sudut ruangan, beberapa anggota yang lukanya tidak terlalu parah berbicara dengan nada berbisik.\n\n\"Ssshh!\" Seseorang menyela dengan tajam, matanya melirik waspada ke arah Luuk saat ia bekerja.\n\nPembicara itu membeku sejenak, lalu mencemooh. \"Apa yang perlu dikhawatirkan? Dia?\" Ia sengaja meninggikan suaranya. \"Terakhir kali dia mengobati bahuku, dia begitu gugup sampai-sampai ia terengah-engah. Lihat dia, penakut seperti tikus. Dia tidak akan pernah menjadi ancaman.\"\n\nTepat pada waktunya, Luuk mendorong kacamatanya kembali ke atas hidungnya. Tatapannya tetap tertunduk, fokus sepenuhnya pada perban di tangannya seolah-olah ia tidak mendengar apa pun.\n\n\"Tetap saja, lebih baik aman daripada menyesal,\" gumam seseorang. \"Semua pos terdepan dalam siaga tinggi. Kabarnya, ada tikus yang menyelinap masuk...\"\n\nSuara mereka memudar menjadi gumaman yang tidak jelas. Luuk mempertahankan postur tubuhnya yang tidak mengancam, tetapi tangannya tidak pernah kehilangan presisinya. Melakukan disinfeksi, memberi obat, membalut luka, setiap langkah dijalankan tanpa cacat. Hanya sesekali ia membiarkan sedikit tanda kegugupan terlihat: denting samar pinset, tutup botol yang goyah sekali atau dua kali.\n\nSaat perban terakhir diikat, para pria yang terluka itu bangkit dan mulai pergi. Pria yang bersuara keras tadi menepuk bahunya saat lewat. \"Terima kasih, Dok.\"\n\n\"...Hanya menjalankan tugas saya.\" Jakunnya bergerak saat ia menjawab dengan lembut.\n\nLangkah kaki memudar. Pintu tertutup. Ruang perawatan menjadi sunyi kembali, bau disinfektan tercium samar di udara.\n\nLuuk Herssen perlahan menegakkan tubuh. Aura penakut itu menguap. Ia melepas kacamatanya, menyeka lensanya sambil berjalan menuju stack persediaan medis di sudut. Terbebas dari penyamaran, matanya, merah seperti darah merpati, terangkat ke arah bagian atas lemari.\n\nIa merogoh ke dalam stack barang dan mengambil sebuah alat penyadap yang tidak lebih besar dari kancing.\n\nJaring-jaring mulai menutup.\n\nSetelah mengonfirmasi transmisi, Luuk bergerak ke jendela dan menyibakkan tirai tebal itu sedikit. Di luar terbentang kompleks Fractsidus yang suram, seberkas cahaya senja terakhir larut ke dalam malam. Ia mengenakan kembali kacamatanya. Satu per satu, lampu-lampu di kejauhan berkedip menyala, terpantul di lensa seperti mata binatang di kegelapan.\n\nIa berdiri di perbatasan antara cahaya dan bayangan, membiarkan matanya melengkung dengan sedikit rasa puas di balik lensa tersebut.\n\nPertunjukan baru saja dimulai."
+      },
+      {
+        "title": "Storm",
+        "content": "Musim dingin hampir berakhir, tetapi hawa dingin menolak untuk pergi. Saat Luuk akhirnya berhasil menarik diri dari stack urusan korporat dan investigasi rahasia, ia mendorong buka pintu bangsal perawatan khusus, nyaris tidak mengenali sosok kurus kering di atas tempat tidur tersebut.\n\nRhein terbaring di bantal. Rambut ikal yang dulunya lembut dan lebat kini menggantung menguning dan rapuh di dahinya. Mendengar suara pintu, matanya bergeser sedikit. Tidak ada suara yang mengikuti.\n\nLuuk tiba-tiba teringat kata-kata ayahnya: \"Kamu harus merasa beruntung. Ichor memilihmu.\"\n\nMeskipun menderita buta warna dan serangan rasa sakit yang membakar secara berkala, Luuk tetap menjadi satu-satunya orang yang benar-benar sembuh oleh Ichor. Tanpa pengecualian, orang-orang lainnya semua mengikuti lintasan suram yang sama seperti Rhein.\n\nLuuk mengambil kursi di samping tempat tidur. Ruangan itu sunyi kecuali bunyi bip ritmis dari monitor. Ia mencoba memecah keheningan yang menyesakkan itu.\n\n\"Aku belajar psikologi untuk beberapa waktu,\" katanya. \"Aku pikir... itu mungkin membantuku memahami berbagai hal dengan lebih baik. Membantu orang-orang dengan lebih baik.\" Setelah jeda sejenak, ia menambahkan, \"Aku juga sudah jauh lebih mahir dalam memasak. Aku tidak lagi membuat kue menjadi gosong. Apakah ada sesuatu yang ingin kamu makan? Aku bisa membuatnya.\"\n\nKeheningan. Luuk tidak menyerah. Ia mengganti topik pembicaraan.\n\n\"Aku... bertemu seseorang baru-baru ini. Seorang teman. Cerdas, dapat diandalkan. Ia telah menantang banyak ide lama dan keras kepalaku. Aku pikir mungkin aku harus mencoba untuk berubah...\"\n\n\"Apakah kamu benar-benar perlu melakukannya?\" suara Rhein menyela, serak dan rapuh seperti pemecah es. \"Bukankah kamu orang yang selalu luar biasa? Tidak seperti kami semua, orang-orang biasa ini.\"\n\nNapas Luuk tertahan. Ketenangan yang ia pertahankan runtuh. Ia menatap ke dalam mata Rhein, yang dulunya cerah dan lincah, kini meredup hingga hampir kosong. Dan di bawah permukaan yang tenang itu bergejolak sesuatu yang tidak salah lagi—kebencian.\n\n...\n\n\"Ia menolak untuk berbicara denganku lagi,\" kata Luuk pelan.\n\nRespons dari Terminal, seperti biasa, tetap tenang. \"Apa yang ia benci bukanlah dirimu. Melainkan segala sesuatu yang diwakili oleh nama 'Herssen'. Kamu hanyalah satu-satunya target yang aman untuk kebencian itu.\"\n\nLuuk terdiam sejenak. \"...Terima kasih.\"\n\n\"Apakah kamu sudah menemukan sesuatu?\"\n\n\"Titik-titiknya mulai terhubung,\" jawab Luuk, sambil menatap keluar jendela. Awan gelap melingkar dan menebal, menjanjikan badai. \"Malam ini... aku akan mengonfirmasi kebenarannya.\"\n\nMalam itu, hujan turun seolah-olah mencoba memalu seluruh dunia ke dalam bumi. Luuk berjalan sendirian ke dalam pemakaman yang sepi. Kilat putih merobek langit, menerangi batu nisan di depannya. Itu adalah nisan ayahnya.\n\nDan kemudian ia melihatnya.\n\nMelalui tirai hujan, sebuah sosok berdiri dalam diam di depan makam, payung di tangan, seolah-olah mereka telah menunggu. Tetesan hujan meledak di atas kain, mengalir turun di tepinya seperti air terjun. Namun melalui kekaburan abu-abu dan hitam, Luuk dapat melihat mata yang menatap balik ke arahnya dengan kejelasan yang sempurna.\n\n...Emas. Seperti Ichor cair. Seperti sinar matahari pertama di atas tanah yang membeku.\n\nSatu-satunya warna yang hidup di dunia yang kelabu.\n\n\"Jika kamu benar-benar telah mengungkap sesuatu,\" katanya, melangkah melalui genangan air ke arah Luuk, \"maka kamu akan membutuhkan seorang saksi.\""
+      },
+      {
+        "title": "After The Thaw",
+        "content": "Cahaya sore menyaring melalui kaca jendela, memancarkan garis-garis cahaya dan bayangan di atas lantai. Para siswa yang baru saja selesai berlatih berkerumun di sekitar tempat tidur perawatan, menyaksikan Luuk Herssen membalut pergelangan kaki teman mereka yang sangat tidak beruntung.\n\n\"Dr. Luuk, bagaimana cara Anda membalut seperti itu?\" siswa yang terluka itu menyeringai sambil mengatupkan gigi. \"Dapatkah Anda mengajari saya cara melakukannya?!\"\n\nLuuk menyelesaikan balutan dengan simpul yang rapi dan menepuk bahunya. \"Tentu. Kita akan menyatukan pelajaran tersebut dengan tagihan medis Anda.\" Melihat ekspresi anak itu yang membeku, Luuk melengkungkan bibirnya. \"Saya bercanda. Tapi ingatlah untuk melakukan pemanasan lain kali. Saya tidak ingin melihat Anda berkompetisi dari kursi roda.\"\n\nGelak tawa pun pecah di dalam ruangan tersebut.\n\n\"Dr. Herssen, kami akan pergi ke Royan Market nanti! Mau ikut dengan kami?\"\n\nLuuk melirik jam dan menggelengkan kepalanya dengan penyesalan yang tulus. \"Tidak untuk hari ini. Saya memiliki janji lain yang akan datang.\" Ia mencondongkan tubuh dan merendahkan suaranya. \"Dan saya dengar kue kantin didiskon setengah harga hari ini. Jika Anda terlambat, tidak akan ada yang tersisa.\"\n\nPara siswa menepuk dahi mereka dan berhamburan keluar dalam keributan. Pintu ruang kesehatan tertutup di belakang mereka, memutus percakapan tersebut. Dalam kesunyian yang tiba-tiba, aroma disinfektan entah bagaimana terasa lebih menonjol. Luuk berbalik ke arah jendela, mengingat kembali terakhir kali ia melihat sinar matahari seperti ini.\n\nItu juga terakhir kalinya ia melihat Rhein.\n\nAtau lebih tepatnya, sulit untuk mengatakan apakah \"makhluk\" yang kulitnya dipenuhi urat-urat emas itu masih bisa dipanggil Rhein. Rencana pengobatan yang telah menghabiskan upaya seumur hidup konglomerat tersebut telah gagal menyembuhkan pasien penyakit langka mana pun kecuali Luuk Herssen. Di saat-saat terakhirnya, Rhein bahkan tidak meninggal karena penyakitnya. Ichor, yang dulunya diyakini sebagai keselamatannya, telah sepenuhnya melahap dirinya. Terjerat dalam kegilaan, ia telah melukai beberapa orang dan melarikan diri dari bangsal, terhuyung-huyung di ambang kehancuran total yang penuh kekerasan. Luuk merasakan Ichor di telapak tangannya menjadi sangat panas, berhasrat untuk menjadi bilah. Namun…\n\nApakah benar-benar tidak ada cara lain?\n\nLuuk menatap ke dalam mata yang dulunya berbinar karena sepotong permen dan tidak menemukan jejak anak laki-laki itu yang tersisa. Ichor membakar, mendesaknya, tetapi ia ragu-ragu, memikirkan cara untuk menghentikan Rhein tanpa membunuhnya.\n\nBadai salju dan raungan tanpa akal budi menerjangnya, memutihkan penglihatannya.\n\n\"Ada cara lain.\" Ia mengepalkan tinjunya.\n\n\"Karena aku sama seperti dia. Karena kami... membawa darah yang sama.\"\n\nPada saat terakhir itu, Luuk membalikkan status Ichor di telapak tangannya. Menggunakan tubuhnya sendiri sebagai jangkar, ia mendorong Rhein ke bawah tanah yang membeku. Emas yang memadat mengikat mereka berdua. Embusan es menyebar dari kakinya saat rasa sakit yang membakar melonjak dari telapak tangannya. Di dalam dirinya, kedua kekuatan itu bertemu dalam sebuah kebuntuan yang keras dan sunyi.\n\nSaat kesadarannya mulai memudar, ia merasakan seseorang bergegas ke sisinya. Sebuah suara lembut bertanya apakah ia masih bisa melihat. Ia mengangguk. Di dunia yang memutih, ia melihat matahari terbit di atas tanah beku yang jauh, dan jauh lebih dekat, mata yang bahkan lebih terang daripada fajar itu.\n\n\"Kita akan membuat janji,\" katanya. Tidak peduli berapa banyak musim dingin yang terlewati, mereka akan bertemu kembali. Ia akan membuka matanya, dan perempuan itu akan berdiri tepat di sini, sama seperti hari ini.\n\nIa berpikir, itu pastilah…\n\nKlik.\n\nLuuk berbalik. Banjir sinar matahari tumpah ke dalam ruangan, membentuk siluet sosok di ambang pintu. Kehangatan yang akrab meresap ke dalam dunianya yang monokrom, menghancurkan hamparan abu-abu di dalam dirinya menjadi pancaran cahaya emas.\n\n...Itu pastilah saat matahari terbit sekali lagi.\n\nLuuk tersenyum dan berjalan menuju cahaya tersebut. Di luar jendela, sehelai daun baru, yang terlepas oleh angin musim semi yang lembut, melayang turun dan hinggap di ambang jendela.\n\nMusim dingin yang panjang akhirnya telah berlalu."
+      }
+    ],
+    "specialFood": {
+      "name": "Hearty Double-Smoked Stew",
+      "imageUrl": "/icons/food/luuk-herssen.webp",
+      "description": "Memberikan 44% Resonance Liberation DMG Bonus kepada semua Resonator dalam tim selama 30 menit. Hanya efektif pada Resonator milik Anda sendiri dalam Co-op Mode."
+    }
+  }
+}

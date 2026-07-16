@@ -1,0 +1,440 @@
+{
+  "name": "Jianxin",
+  "element": "Aero",
+  "weapon": "Gauntlet",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Support and Healer",
+    "Heavy Attack DMG",
+    "Traction",
+    "Resonance Liberation DMG Amplification"
+  ],
+  "sonatas": [
+    "Moonlit Clouds",
+    "Rejuvenating Glow",
+    "Sierra Gale"
+  ],
+  "changelog": [
+    {
+      "text": "update weapon",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "",
+  "affiliation": "Jinzhou,Huanglong",
+  "class": "Natural",
+  "image": "/characters/jianxin.webp",
+  "imageBanner": "/banners/jianxin-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1900+",
+    "Energy Regen": "130-150%+",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 220%"
+  },
+  "build": {
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Impermanence Heron",
+      "Nightmare: Beringal"
+    ],
+    "bestWeapon": "Blazing Justice",
+    "echoDetails": {
+      "note": "FONR memberikan buff 10% ATK selama 20 detik (100% uptime, CD 20 detik), sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, CD 20 detik), yang durasinya bisa terhenti lebih cepat jika perisai terkena serangan sebanyak 3 kali. Secara keseluruhan, FONR juga lebih mudah untuk difarming karena hanya menjatuhkan satu jenis set sonata.",
+      "sets": [
+        {
+          "label": "Support",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "bell-borne-geochelone",
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        },
+        {
+          "label": "Sub DPS",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        },
+        {
+          "label": "Main DPS",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: aero%",
+            "3: aero%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "feilian-beringal",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Sierra Gale"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "er",
+        "ATK%",
+        "Reso Libe DMG",
+        "Heavy Attack DMG Bonus",
+        "ATK"
+      ]
+    },
+    "weaponNote": "Jika lebih mengutamakan kenyamanan bermain (quality of life) daripada personal DMG, gunakan [Marcato] untuk Energy Regen + pengumpulan concerto yang lebih cepat, atau [Originite: Type IV] jika menggunakan set Rejuvenating Glow agar bonus set 5-pc lebih mudah dipicu.",
+    "weaponOptions": [
+      {
+        "id": "blazing-justice",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "veritys-handle",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "tragicomedy",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "pulsation-bracer",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "abyss-surges",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "marcato",
+        "percentage": "100",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Intro",
+          "Skill(Dash-Cancel)",
+          "BA1234",
+          "Ult(Cancel)",
+          "[F]HA",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "Tidak perlu memaksimalkan level Forte Circuit jika sering membatalkan (cancel) penggunaan Forte dan/atau tidak memanfaatkannya secara penuh.",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Mono Aero",
+        "note": "",
+        "members": [
+          [
+            "Iuno"
+          ],
+          [
+            "Ciaccona"
+          ],
+          [
+            "Jianxin"
+          ]
+        ]
+      },
+      {
+        "name": "Jinhsi Hypercarry",
+        "note": "",
+        "members": [
+          [
+            "Jinhsi"
+          ],
+          [
+            "Mortefi"
+          ],
+          [
+            "Jianxin"
+          ]
+        ]
+      },
+      {
+        "name": "Buff Liberation",
+        "note": "Jianxin memberikan 38% Res. Liberation DMG Amplify selama 14 detik kepada Calcharo / Iuno / Xiangli Yao. Dalam skenario ini, Jianxin menggunakan set Moonlit Clouds sebagai Sub DPS.\n",
+        "members": [
+          [
+            "Xiangli Yao",
+            "Calcharo",
+            "Iuno"
+          ],
+          [
+            "Jianxin",
+            "Jianxin"
+          ],
+          [
+            "Shorekeeper",
+            "Verina"
+          ]
+        ]
+      }
+    ],
+    "teamNote": "\nSecara umum, Jianxin adalah Resonator Sub DPS / Support yang solid; selain kemampuan healing dan shield yang ia berikan, ia juga memiliki kemampuan \"Traction\" yang baik — di mana ia mampu mengumpulkan musuh (grouping) untuk DPS."
+  },
+  "skills": {
+    "basic": {
+      "name": "Fengyiquan",
+      "description": "Basic Attack\nJianxin melakukan hingga 4 serangan berturut-turut, memberikan Aero DMG.\n\nHeavy Attack\nJianxin mengonsumsi STA untuk menyerang target, memberikan Aero DMG.\n\nMid-air Attack\nJianxin mengonsumsi STA untuk terjun dan melepaskan tendangan yang kuat, memberikan Aero DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG."
+    },
+    "skill": {
+      "name": "Calming Air",
+      "description": "Tahan Resonance Skill untuk memasuki Parry Stance.\n\nChi Counter\nSaat Jianxin diserang dalam Parry Stance, ia tidak menerima damage dan segera melakukan Chi Counter, memberikan Aero DMG.\n\nChi Parry\nLepaskan tombol Resonance Skill selama Parry Stance untuk menginterupsi Parry Stance dan melakukan Chi Parry, memberikan Aero DMG."
+    },
+    "liberation": {
+      "name": "Purification Force Field",
+      "description": "Menciptakan wind field yang kuat, secara terus-menerus menarik target di dalam wind field ke titik pusat dan memberikan Aero DMG. Saat wind field menghilang, hal ini akan memicu ledakan untuk memberikan Aero DMG kembali kepada semua target di dalam jangkauan tersebut."
+    },
+    "forte": {
+      "name": "Primordial Chi Spiral",
+      "description": "Heavy Attack: Primordial Chi Spiral\nSaat \"Chi\" mencapai stack maksimal, tahan Basic Attack untuk melancarkan Primordial Chi Spiral dan memulai Zhoutian Progress.\n\nZhoutian Progress\nResistance to interruption Jianxin meningkat, dan damage yang diterima berkurang sebesar 50%:\nJianxin terus-menerus mengonsumsi \"Chi\" dan melancarkan Chi Strike untuk menyerang target di sekitar, memberikan Aero DMG.\nSeiring terakumulasinya Zhoutian Progress, Jianxin mencapai Zhoutian yang berbeda dan mendapatkan efek yang sesuai.\n-Sebelum Minor Zhoutian: Mendapatkan Zhoutian Progress 1 shield. Saat Zhoutian Progress terinterupsi, lancarkan Pushing Punch untuk menyerang target, memberikan Aero DMG.\n-Minor Zhoutian: Mendapatkan Zhoutian Progress 2 shield dan lancarkan Shock untuk menyerang target, memberikan Aero DMG. Saat Zhoutian Progress terinterupsi, lancarkan Yielding Pull untuk menyerang target, memberikan Aero DMG.\n-Major Zhoutian - Inner: Mendapatkan Zhoutian Progress 3 shield dan lancarkan Shock untuk menyerang target, memberikan Aero DMG. Saat Zhoutian Progress terinterupsi, lancarkan Yielding Pull untuk menyerang target, memberikan Aero DMG.\n-Major Zhoutian - Outer: Mendapatkan Zhoutian Progress 3 shield dan lancarkan Shock untuk menyerang target, memberikan Aero DMG.\n-Saat tombol Basic Attack dilepaskan, interupsi Zhoutian Progress dan hilangkan semua \"Chi\";\n-Saat semua \"Chi\" habis dikonsumsi, akhiri Zhoutian Progress.\n\nSaat Zhoutian Progress berakhir, dapatkan kembali shield sesuai dengan Zhoutian Progress yang dicapai;\nSelama shield yang diberikan oleh Heavy Attack: Primordial Chi Spiral bertahan, karakter yang aktif akan dipulihkan (heal) setiap 6 detik.\n\nChi\nJianxin dapat menampung hingga 120 Chi.\nChi didapatkan saat Normal Attack Fengyiquan mengenai target.\nChi didapatkan saat Resonance Skill Calming Air dilancarkan.\nChi didapatkan saat Resonance Skill Chi Counter atau Chi Parry mengenai target.\nChi didapatkan saat Intro Skill Essence of Tao mengenai target."
+    },
+    "inherent": [
+      {
+        "name": "Formless Release",
+        "description": "Damage dari Resonance Liberation Purification Force Field meningkat sebesar 20%."
+      },
+      {
+        "name": "Reflection",
+        "description": "Shield yang didapatkan dari Heavy Attack Primordial Chi Spiral meningkat sebesar 20%."
+      },
+      {
+        "name": "Une Break: Gauntlets",
+        "description": "Saat Off-Tune Level target penuh, Resonator dapat melancarkan Tune Break pada target tersebut."
+      }
+    ],
+    "intro": {
+      "name": "Essence Of Tao",
+      "description": "Menarik target di dalam jangkauan, memberikan Aero DMG."
+    },
+    "outro": {
+      "name": "Transcendence",
+      "description": "Resonator yang masuk mendapatkan Resonance Liberation DMG Amplified sebesar 38% selama 14 detik atau hingga mereka diganti keluar dari field."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Roaring Rock Fist",
+            "amount": 46
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Lanternberry",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Unending Destruction",
+          "amount": 26
+        },
+        {
+          "item": "LF Whisperin Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Whisperin Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Whisperin Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Whisperin Core",
+          "amount": 57
+        },
+        {
+          "item": "Cadence Seed",
+          "amount": 25
+        },
+        {
+          "item": "Cadence Bud",
+          "amount": 28
+        },
+        {
+          "item": "Cadence Leaf",
+          "amount": 55
+        },
+        {
+          "item": "Cadence Blossom",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Verdant Branchlet",
+      "description": "Setelah melancarkan Intro Skill Essence of Tao, Jianxin mendapatkan 100% ekstra Chi dari Basic Attacks selama 10 detik."
+    },
+    {
+      "stage": "S2",
+      "name": "Tao Seeker'S Journey",
+      "description": "Resonance Skill Calming Air dapat digunakan 1 kali lagi."
+    },
+    {
+      "stage": "S3",
+      "name": "Principles Of Wuwei",
+      "description": "Setelah berada dalam Parry Stance dari Resonance Skill Calming Air selama 2,5 detik, Resonance Skill Chi Counter akan segera tersedia untuk digunakan."
+    },
+    {
+      "stage": "S4",
+      "name": "Multitide Reflection",
+      "description": "Saat melakukan Forte Circuit Heavy Attack: Primordial Chi Spiral, DMG Resonance Liberation Purification Force Field milik Jianxin meningkat sebesar 80% selama 14 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Mirroring Introspection",
+      "description": "Jangkauan dari Resonance Liberation Purification Force Field meningkat sebesar 33%."
+    },
+    {
+      "stage": "S6",
+      "name": "Truth From Within",
+      "description": "Selama Forte Circuit Heavy Attack: Primordial Qi Spiral, jika Jianxin melakukan Pushing Punch, Resonance Skill yang diperkuat yaitu Special Chi Counter dapat digunakan sebanyak 1 kali dalam 5 detik. Special Chi Counter: Memberikan Aero DMG setara dengan 556,67% dari ATK Jianxin, yang dianggap sebagai Heavy Attack DMG. Mendapatkan Zhoutian Progress 4 Shield (Mendapatkan manfaat dari efek bonus Inherent Skill Reflection.)"
+    }
+  ],
+  "lore": {
+    "description": "Jianxin, seorang biksu Tao dan penerus Fengyiquan, telah mendedikasikan hidupnya untuk menguasai seni bela diri pamungkas. Dengan kekuatan untuk memanfaatkan dan mentransformasikan Chi lingkungan, ia dapat menciptakan penghalang pelindung yang memurnikan tubuh dan pikiran.\n\nBIRTHDAY\nApril 6th\n\nBIRTHPLACE\nHuanglong",
+    "report": {
+      "resonancePower": "Cleansing Reflections",
+      "overclockDiagnostic": "Grafik waveform dari Jianxin mengilustrasikan Time Domain yang stabil, sangat cocok dengan pola fluktuasi standar. Tidak ada parameter abnormal yang diamati dalam sampel uji.\n\nResonant Criticality: Tinggi. Frekuensi Resonator Jianxin menunjukkan stabilitas tinggi, dan risiko Overclocking sangat minimal.\n\nJianxin tidak memiliki riwayat Overclocking yang terdokumentasi. Konseling dan pemeriksaan rutin tidak diperlukan.",
+      "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment 1541-G]\n\nResonator Jianxin mengalami Awakening miliknya 3 tahun yang lalu. Awakening tersebut tidak dipicu oleh peristiwa apa pun sehingga diamati sebagai Natural Awakening.\n\nTacet Mark dari Resonator Jianxin terletak di bahu kirinya. Pengamatan pasca-Awakening tidak menemukan adanya perubahan fisik yang nyata.\n\nForte milik Jianxin memungkinkannya untuk memperkuat serangannya dengan memanipulasi aliran udara dan menciptakan force fields. Evaluasi mengungkapkan kecepatan serangan sebesar 340m/s. Detail mengenai force fields masih belum dapat disimpulkan. Secara keseluruhan, Forte milik Jianxin menunjukkan potensi untuk pengembangan lebih lanjut.\n\nResonance Spectrum Pattern milik Resonator Jianxin memiliki kemiripan 5% terhadap lebih dari 10 objek dan tidak ditemukan kemiripan signifikan di atas 20%. Sumber Awakening tidak dapat ditentukan saat ini.\n\nAnalisis sampel uji telah mengungkapkan Rabelle's Curve yang bersifat non-konvergen dengan kenaikan yang stabil. Fluktuasi sesekali dalam rentang normal telah terdeteksi. Oleh karena itu, Jianxin diidentifikasi sebagai seorang Natural Resonator."
+    },
+    "items": [
+      {
+        "name": "",
+        "imageUrl": "https://api.hakush.in/ww/UI/UIResources/UiRole/Image/Treasure/T_Treasure52_UI.webp",
+        "description": ""
+      },
+      {
+        "name": "",
+        "imageUrl": "https://api.hakush.in/ww/UI/UIResources/UiRole/Image/Treasure/T_Treasure53_UI.webp",
+        "description": ""
+      },
+      {
+        "name": "",
+        "imageUrl": "https://api.hakush.in/ww/UI/UIResources/UiRole/Image/Treasure/T_Treasure54_UI.webp",
+        "description": "Tanaman itu berdiri tegak dan kuat, seolah-olah masih bergoyang tertiup angin di rumah pegunungannya. Pemandangannya saja menghadirkan sensasi menyegarkan seperti berada di puncak tertinggi. Spesies khusus ini berada di ambang kepunahan, dengan hanya menyisakan jejak dalam deskripsi singkat Jianxin. Bahkan setelah penyelidikan menyeluruh, Academy tetap tidak dapat memastikan di mana ia menemukannya. Yang diketahui hanyalah bahwa tanaman langka ini pernah berada dalam kepemilikannya. Beberapa orang percaya tanaman ini memiliki kekuatan mistis, sementara yang lain melihatnya sebagai simbol ketahanan dan kelangsungan hidup."
+      },
+      {
+        "name": "Mirrors Of Clarity",
+        "description": "",
+        "imageUrl": "/icons/items/jianxin-1.webp"
+      },
+      {
+        "name": "Coupon Clip",
+        "description": "Jianxin belajar mengumpulkan segala jenis kupon saat pertama kali ia mengikuti masternya turun gunung untuk tinggal di kota. Baginya, itu bukan hanya cara unik untuk bertahan hidup, tetapi juga simbol keramahan orang-orang. \"Hidangan eksklusif... GRATIS!\" Jianxin tidak memahami makna mendalam dari penggunaan ukuran fon oleh pengusaha tersebut untuk menciptakan titik fokus visual, belum lagi daftar panjang kondisi tambahan yang mengejutkan yang menyertainya.",
+        "imageUrl": "/icons/items/jianxin-2.webp"
+      },
+      {
+        "name": "Velvet Grass",
+        "description": "Saat masih kecil, Jianxin dihadiahi sebuah perhiasan berharga oleh masternya. Benda itu berisi satu set cermin, dengan beberapa bagian yang hilang. Sepanjang pelatihannya, ia menggunakannya untuk merefleksikan diri dan kemajuannya, memahami bahwa pengembangan diri dan seni bela diri membutuhkan kesabaran serta dedikasi. Sekembalinya ia ke sekte, masternya dengan hati-hati mengganti cermin yang hilang tersebut. Saat itulah Jianxin melihat pantulan dirinya dalam potongan yang telah lengkap—sebuah simbol dari semua ajaran dan pertumbuhan yang telah ia alami dalam perjalanannya.",
+        "imageUrl": "/icons/items/jianxin-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Untainted Soul Of The Woods",
+        "content": "Gadis itu tinggal di pegunungan. Ia tidur di bawah langit, beristirahat di atas bumi, berteman dengan bukit-bukit hijau, dan bermain dengan para hewan. Gesit dan bebas, ia menjelajahi ladang bersama teman-teman hewannya.\n\nSaat Shiling menjelajah ke dalam hutan, sebuah suara aneh menarik perhatiannya. Ia melirik dan melihat seorang anak di antara dahan-dahan pohon, dengan mata yang murni dan sikap yang polos.\n\nJiwa yang sangat langka dan tidak ternoda, tak tersentuh oleh korupsi dunia.\n\nTerpikat oleh tatapannya, Shiling mendekat dengan hati-hati, tetapi gadis itu mundur lebih tinggi, waspada terhadapnya.\n\nShiling memperhatikan tubuhnya yang kurus dan pakaiannya yang compang-camping, lalu ia mengeluarkan sepotong flatbread untuknya. Gadis itu dengan penuh semangat merenggutnya, melindunginya dengan tubuhnya dengan cara yang liar. Perilakunya tampak tidak terdomestikasi, seolah-olah ia telah melupakan kemanusiaannya. Sebagai tanggapan, Shiling meletakkan sepotong flatbread lagi di samping miliknya.\n\nHaruskah aku membawa anak ini bersamaku dan menjadikannya muridku? Duduk bersila di sampingnya, Shiling merenung sambil memperhatikannya memakan flatbread tersebut. Tapi saat ini kami sedang kekurangan dana... Mungkin akan sulit untuk mendukung anak lain, pikirnya. Akhirnya, ia memutuskan untuk membiarkan gadis itu memilih jalannya sendiri.\n\n\"Hei, Nak, kau lihat jalan di depan ini? Ini adalah satu-satunya jalan menuju gunung, tempat sect-ku berada. Pendiri kami menghabiskan segala upaya untuk membukanya saat itu. Jika kau bisa mengejarku dan mendaki hingga ke puncaknya sebelum matahari terbenam, aku akan menjadikanmu murid baruku. Bagaimana menurutmu?\"\n\nTerlepas dari tawarannya, gadis itu terus makan sambil berkedip ke arahnya dengan acuh tak acuh, seolah-olah ia tidak mengerti sama sekali apa yang dia katakan.\n\nSetelah memantapkan hati pada janji tersebut, Shiling berdiri dan mulai mendaki gunung. Sesekali ia menoleh ke belakang, berharap adanya perubahan hati dari gadis itu, tetapi ia tetap terpaku di tempatnya, terfokus pada makanannya.\n\nKarena kecewa, Shiling menyerah untuk meninggalkannya dan melanjutkan perjalanan menuju puncak. Saat ia mendekati sect-nya di puncak gunung, tawa samar terdengar dari dekat gerbang aula. Mendekat, ia melihat murid-muridnya berjongkok, menawarkan air kepada gadis yang baru saja ia tinggalkan.\n\n\"Master, Anda sudah kembali. Lihat, anak ini mendaki gunung sendirian.\"\n\n\"K-Kapan dia sampai?\"\n\n\"Saya tidak tahu. Saya sudah di sini cukup lama, dan dia sudah ada di sini sebelum saya tiba.\"\n\nTanpa mengatakan apa-apa lagi, Shiling mengulurkan tangannya kepada gadis yang masih diam itu, yang tetap tidak bergerak, tidak mengerti makna di balik isyaratnya.\n\nShiling mengambil tangannya dan meletakkannya dengan kokoh di tangannya. Ia membimbingnya berdiri, dan mereka berjalan berdampingan memasuki aula."
+      },
+      {
+        "title": "Innocent Heart'S Valor",
+        "content": "Gadis itu tahu tujuan hidupnya: untuk menyempurnakan satu gerakan di setiap waktu. Yang ia inginkan hanyalah menguasai seni bela dirinya, sebuah pencapaian yang membutuhkan fokus dan dedikasi yang intens. Ini adalah tingkat konsentrasi yang sulit dicapai oleh kebanyakan orang, tetapi baginya, itu adalah tujuan utama.\n\n\"Master Deqing, apakah ada kesalahan lain dalam gerakanku?\"\n\n\"Tiga. Di sini, akan kutunjukkan sekali lagi. Perhatikan baik-baik. Kau tidak harus menghafal semuanya sekarang, asalkan kau melakukannya dengan benar pada akhirnya.\"\n\n\"Jianxin, ini sudah larut. Berlatihlah besok.\"\n\n\"Aku akan kembali setelah menyelesaikan yang satu ini! Anda harus pergi istirahat, master!\"\n\nDi tempat latihan yang mulai menggelap, gadis itu mengulangi gerakannya tanpa lelah. Dari yang awalnya berhati-hati menjadi cepat, ia berlatih hingga gerakan tersebut menjadi insting alaminya.\n\nHati murni gadis itu membimbing pilihan-pilihannya, bebas dari rasa takut dan kelemahan. Pikirannya sederhana, namun tak tergoyahkan dalam keyakinannya.\n\n\"Jianxin, dia terlalu kuat. Ayo lari. Kita biarkan saja dia mengambil persediaan itu.\"\n\nJianxin, bagaimanapun, mempersiapkan dirinya untuk bertarung, \"Aku tidak akan pergi. Aku tahu kita kalah jumlah dan kekuatan, tapi aku ingin mencobanya.\"\n\n\"Apa? Mencoba? Ini bukan lelucon! Kita pergi sekarang!\"\n\n\"Aku akan mencoba mengambil kembali barang-barang kita tanpa terluka.\"\n\n\"Tunggu! Ugh... Dia mulai lagi...\""
+      },
+      {
+        "title": "Benevolent Hand Of Grace",
+        "content": "Suatu hari, dalam perjalanannya mendaki gunung untuk mengumpulkan bambu, Jianxin berpapasan dengan seorang Taoist lain di Qingyang Bridge.\n\nIa tidak mengenal orang ini atau dari mana asalnya.\n\nNamun, Rongfu, sang Taoist tersebut, saat melihat Jianxin, langsung menghentikan langkahnya.\n\n\"Kau memang memiliki potensi, tetapi kau belum menjadi manusia sepenuhnya,\" komentarnya.\n\n\"Aku? Apa maksudmu? Aku adalah manusia,\" bantah Jianxin.\n\n\"Mencintai adalah sifat manusia, namun kau tidak mencintai,\" Rongfu menatap matanya dan berkata, \"Kau murni hingga ke titik ekstrem, tetapi masih kosong di dalam.\"\n\n\"Aku tahu cara mencintai. Aku menghormati Masters-ku dan mengikuti etika. Aku memuliakan para tetua di sect-ku, selalu berusaha membantu mereka.\"\n\n\"Saat aku mengatakan 'mencintai', maksudku adalah membantu mereka yang membutuhkan dan peduli pada orang-orang yang menderita di dunia yang kacau ini,\" jelas Rongfu.\n\n\"Master Shiling pernah mengatakan hal serupa. Tapi apa gunanya hal itu?\" tanya Jianxin.\n\n\"Orang bijak terbaik memperoleh pencerahan di tengah kemiliteran, orang bijak menengah memperoleh pencerahan di kota-kota yang ramai, dan orang bijak terburuk memperoleh pencerahan dalam pengasingan. Tao tidak dapat dicapai hanya melalui kesendirian atau meditasi. Melalui interaksi kehidupan nyata dengan orang lainlah seseorang dapat mencapai kebebasan spiritual sekaligus elevasi fisik. Mencari keuntungan pribadi dan kurang dalam meditasi menunjukkan pengejaran Tao yang salah arah. Sebaliknya, carilah wawasan dalam jalanmu dan berusahalah untuk mencapai kesempurnaan dalam segala aspek kehidupan.\"\n\n\"Lalu bagaimana aku bisa belajar mencintai?\" tanya Jianxin.\n\n\"Kau belum pernah meninggalkan gunung ini, bukan?\" tanya Rongfu.\n\n\"Belum,\" jawab Jianxin.\n\n\"Mungkin belum waktunya bagimu untuk pergi. Tapi sekarang, waktunya telah tiba. Bagaimana kau bisa benar-benar mencapai Tao tanpa benar-benar mengalami dunia?\"\n\nRongfu duduk di samping Jianxin, dan keduanya berbicara lama di jembatan itu tentang apa artinya mencintai sesama.\n\n\"Master Rongfu, lama tidak bertemu!\"\n\n\"Jianxin, karena jalan kita bersilangan lagi, mengapa tidak ikut denganku untuk membantu mereka yang membutuhkan?\"\n\n\"Tentu saja!\"\nMendengar ucapan terima kasih mereka yang tulus dan merasakan sentuhan hangat dari tangan-tangan asing tersebut, Jianxin tahu bahwa tindakannya telah memberikan dampak kecil. Sebuah senyuman terpancar di wajahnya, menggantikan kebingungan yang ada sebelumnya."
+      },
+      {
+        "title": "Dilligent Devotion",
+        "content": "\"Ini traktiranku yang terakhir, Jianxin. Kau harus menghidupi dirimu sendiri dan mencari uang sendiri untuk makan mulai sekarang.\"\n\n\"Tapi Master, aku tidak tahu cara membaca telapak tangan atau meramal nasib.\"\n\n\"Kau tidak harus mencari uang dengan melakukan hal-hal khas Taoist! Kau bisa melakukan apa saja. Kau adalah pembelajar yang cepat, dan itu adalah salah satu kelebihanmu.\"\n\nJianxin berkelana keliling dunia, bekerja keras dan menggunakan penghasilannya untuk menghidupi dirinya sendiri serta membantu orang lain. Ia melakukan tugas-tugas yang paling tidak berarti sekalipun dengan tekun dan penuh tekad, membangun reputasi yang kuat bagi dirinya sendiri di sepanjang jalan.\n\n\"Hei Jianxin, arus pelanggan tur benar-benar membaik karenamu! Ngomong-ngomong, bisakah kau membagikan resep diet itu? Resepnya sangat populer di kalangan pelanggan dan kita bisa menjadikannya hidangan khas kita. Ini gaji bulananmu, teruskan kerja bagusmu!\"\n\n\"Tentu saja! Aku akan menuliskannya untuk Anda.\"\n\n\"Sejak kau mulai bekerja di sini, toko ini jadi jauh lebih bersih. Kau luar biasa! Kami beruntung memilikimu.\"\n\n\"Aku menggunakan beberapa trik pembersihan yang kupelajari dari pekerjaan sebelumnya. Apakah Anda ingin aku menuliskannya juga?\"\n\n\"Ngomong-ngomong, tahukah kau pelanggan terakhir tadi membayar dengan penemuan baru dari Academy? Sebuah kartu perak!\"\n\n\"Kartu? Kartu apa? Bagaimana cara dia membayar?\"\n\n\"Dia hanya menempelkannya di sini, dan bum—pembayaran selesai.\"\n\n\"Tunggu dulu, itu bukan hal yang nyata. Dia mencoba menipumu untuk mendapatkan makanan gratis.\"\n\n\"Apa? Jadi itu bukan penemuan baru... Aku akan melacaknya dan mengambil uangnya kembali.\"\n\n\"Hati-hati saja, jangan terlalu menyakitinya! Itu tidak sebanding bagiku!\"\n\n\"Aku tidak akan bertindak terlalu jauh. Jangan khawatir!\""
+      },
+      {
+        "title": "All In One",
+        "content": "Pengejaran tanpa henti Jianxin terhadap kesempurnaan seni bela diri mendorong pertumbuhannya. Namun, melampaui batas pikiran dan tubuh bisa menjadi tantangan yang menakutkan. Pencerahan adalah perjalanan sendirian. Jawaban harus ditemukan sendiri, dengan tangan sendiri dan pendekatan yang unik. Tidak ada yang bisa membantunya dalam pengejaran ini.\n\n\"Dengarkan hatimu dan bentuk jalanmu sendiri. Pelajaran hidup lebih dari sekadar pertemuan kebetulan. Manfaatkan kekuatan mereka dan biarkan jiwamu berkembang dengan kebijaksanaan.\"\n\nDengan bimbingan Shiling, ia merangkul pengembangan spiritual diri dan melepaskan pencapaian masa lalunya. Prinsip-prinsip alami Taoisme mengajarkannya untuk menghargai dan mencintai dunia di sekitarnya, memanfaatkan emosi orang lain sebagai kekuatannya sendiri. Dalam keadaan konsentrasi yang intens, ia mengandalkan teknik seni bela diri sederhana untuk terhubung dengan dunia di sekitarnya. Itu adalah keadaan yang nyaris gila, namun memberikan kesatuan dan harmoni. Tinju dan telapak tangannya menggenggam dunia dan egonya, melebur menjadi satu. Setiap pukulan membawa kasih sayang dan kebajikan, diulang sebanyak tiga ribu kali. Pikiran yang bergejolak menetap menjadi kekuatan spiritual yang lebih kuat.\n\nIa berdiri di tempat yang sama, menguasai teknik-teknik dasar tiga ribu kali, tanpa mempedulikan musim. Duduk di atas rumput, ia menyatu dengan alam. Bernapas dalam harmoni dengan angin dan merasakan vitalitas dari tanaman hijau di sekitarnya, ia memasuki keadaan simbiosis. Pikiran, tubuh, dan lingkungan menyatu ke dalam aliran alami, menumbuhkan kedamaian di dalam diri.\n\nKetika pikiran tenang, kekuatan menjadi lembut. Ketika kekuatan lembut, esensi menjadi padat. Ketika esensi padat, semangat menjadi bertenaga.\n\nSekarang, latihan seni bela diri Jianxin telah berkembang melampaui batas fisik, didorong oleh kekuatan batin yang kuat yang tidak tertembus oleh pengaruh luar. Dalam dunianya, setiap momen terfokus dan intens, sebuah refleksi dari dunia alami yang bergetar. Pukulan-pukulannya bergerak dengan kecepatan yang tidak terlihat, memanfaatkan kekuatan angin dengan tenaga yang lembut. Melalui kelembutannya, ia menaklukkan semua rintangan dengan cinta dan penghormatan terhadap dunia di sekitarnya."
+      }
+    ],
+    "specialFood": {
+      "name": "Lotus Seed Soup",
+      "imageUrl": "/icons/food/jianxin.webp",
+      "description": "Meningkatkan Max HP untuk semua Resonator di dalam tim sebesar 33% selama 30 menit. Hanya efektif pada Resonator milik sendiri dalam Co-op Mode."
+    }
+  }
+}

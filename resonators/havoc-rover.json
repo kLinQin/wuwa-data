@@ -1,0 +1,430 @@
+{
+  "name": "Havoc Rover",
+  "element": "Havoc",
+  "weapon": "Sword",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer"
+  ],
+  "sonatas": [
+    "Havoc Eclipse"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Black Shores",
+  "affiliation": "",
+  "class": "Arbiters",
+  "image": "/characters/havoc-rover.webp",
+  "imageBanner": "/banners/havoc-rover-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "100-125%",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Dreamless",
+      "Nightmare: Crownless"
+    ],
+    "bestWeapon": "Red Spring",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS",
+          "echoSlug": "dreamless",
+          "echoSlugSecondary": "nightmare-crownless",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: havoc%",
+            "3: havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            "Havoc Eclipse"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "Reso Libe DMG",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "red-spring",
+        "rank": "",
+        "percentage": "106"
+      },
+      {
+        "id": "blazing-brilliance",
+        "rank": "",
+        "percentage": "104"
+      },
+      {
+        "id": "emerald-of-genesis",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "somnoire-anchor",
+        "rank": "5",
+        "percentage": "97"
+      },
+      {
+        "id": "commando-of-conviction",
+        "rank": "",
+        "percentage": "84"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Skill",
+          "Ult",
+          "Echo(Swap)",
+          "Intro",
+          "Skill",
+          "[F]HA",
+          "[F]Skill",
+          "[F]BA1234",
+          "[F]BA5(Cancel)",
+          "[F]BA1234",
+          "[F]BA5(Cancel)",
+          "[F]BA1234",
+          "[F]BA5(Cancel)",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Hypercarry",
+        "members": [
+          [
+            "Havoc Rover"
+          ],
+          [
+            "Sanhua",
+            "Danjin",
+            "Roccia",
+            "Cantarella"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "Quickswap",
+        "members": [
+          [
+            "Havoc Rover"
+          ],
+          [
+            "Changli"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": ""
+      }
+    ],
+    "teamNote": "bisa menggunakan Sanhua, Roccia, atau Cantarella sebagai Sub DPS untuk Rover: Havoc. Sanhua dan Roccia memberikan Basic DMG Amplify. Roccia dan Cantarella memberikan Havoc DMG Amplify.\nSebagai alternatif, Danjin juga merupakan sebuah pilihan.\nJika menikmati gaya bermain quickswap, dapat juga memasangkan Rover: Havoc dengan Changli. Rover juga dapat menerima manfaat dari Res. Liberation DMG Amplify milik Changli."
+  },
+  "skills": {
+    "basic": {
+      "name": "Tuneslayer",
+      "description": "Basic Attack\nRover-Havoc melakukan hingga 5 serangan berturut-turut, memberikan  Havoc DMG.\n\nHeavy Attack\nRover-Havoc mengonsumsi STA untuk menyerang, memberikan  Havoc DMG.\nGunakan Basic Attack setelah Heavy Attack untuk mengeluarkan Basic Attack 4.\n\nMid-air Attack\nRover-Havoc mengonsumsi STA untuk melakukan Mid-Air Plunging Attack, memberikan  Havoc DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang sukses untuk menyerang, memberikan  Havoc DMG."
+    },
+    "skill": {
+      "name": "Wingblade",
+      "description": "Mengubah suara/Sound menjadi bulu tajam, memberikan Havoc DMG."
+    },
+    "liberation": {
+      "name": "Deadening Abyss",
+      "description": "Rover mengumpulkan suara resonansi untuk menyerang target,  Havoc DMG."
+    },
+    "forte": {
+      "name": "Umbra Eclipse",
+      "description": "Devastation\nSaat \"Umbra\" penuh, tahan Basic Attack untuk mengeluarkan Devastation, menyerang target dan memberikan  Havoc DMG (dianggap sebagai Heavy Attack DMG).\n\nDark Surge\nSetelah menggunakan Devastation, Rover memasuki Dark Surge Mode. Dalam mode ini:\n- Basic Attack digantikan dengan Enhanced Basic Attack, melakukan 5 serangan berturut-turut, memberikan  Havoc DMG.\n- Heavy Attack digantikan dengan Enhanced Heavy Attack.\n- Gunakan Basic Attack setelah Enhanced Heavy Attack untuk mengeluarkan Heavy Attack Thwackblade, memberikan  Havoc DMG (dianggap sebagai Heavy Attack DMG).\n- Gunakan Basic Attack setelah Heavy Attack Thwackblade untuk mengeluarkan Enhanced Basic Attack 3, memberikan  Havoc DMG.\n- Resonance Skill Wingblade digantikan dengan Resonance Skill Lifetaker, mengubah suara menjadi bilah tajam untuk menyerang target, memberikan  Havoc DMG.\n\nUmbra\nRover dapat menyimpan hingga 100 Umbra.\nNormal Attack - Tuneslayer memulihkan Umbra saat mengenai target.\nResonance Skill - Wingblade memulihkan Umbra saat digunakan.\nResonance Skill - Lifetaker memulihkan Umbra saat digunakan.\nIntro Skill - Instant of Annihilation memulihkan Umbra saat digunakan."
+    },
+    "inherent": [
+      {
+        "name": "Metamorph",
+        "description": "Saat berada dalam Dark Surge Mode, mendapatkan 20%  Havoc DMG Bonus."
+      },
+      {
+        "name": "Bleak Crescendo",
+        "description": "Saat dalam Dark Surge Mode, Basic Attack memulihkan 1 Resonance Energy tambahan saat mengenai target (dapat dipicu sekali per detik)."
+      }
+    ],
+    "intro": {
+      "name": "Instant Of Annihilation",
+      "description": "Menyerang target, memberikan Havoc  DMG."
+    },
+    "outro": {
+      "name": "Soundweaver",
+      "description": "Rover memanggil Havoc Field, memberikan  Havoc DMG sebesar 143.3% ATK Rover ke semua target dalam area setiap 2 detik selama 6 detik."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Mysterious Code",
+            "amount": 46
+          },
+          {
+            "item": "LF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Whisperin Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Whisperin Core",
+            "amount": 4
+          },
+          {
+            "item": "Pecok Flower",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Unending Destruction",
+          "amount": 26
+        },
+        {
+          "item": "LF Whisperin Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Whisperin Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Whisperin Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Whisperin Core",
+          "amount": 57
+        },
+        {
+          "item": "Inert Metallic Drip",
+          "amount": 25
+        },
+        {
+          "item": "Reactive Metallic Drip",
+          "amount": 28
+        },
+        {
+          "item": "Polarized Metallic Drip",
+          "amount": 55
+        },
+        {
+          "item": "Heterized Metallic Drip",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Hrover",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Red Spring",
+          "value": 978445,
+          "percentage": 104.89,
+          "imagePath": ""
+        },
+        {
+          "type": "Blazing Brilliance",
+          "value": 960585,
+          "percentage": 102.97,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 932873,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Somnoire Anchor R5",
+          "value": 851975,
+          "percentage": 91.33,
+          "imagePath": ""
+        },
+        {
+          "type": "Lumingloss R5",
+          "value": 790808,
+          "percentage": 84.77,
+          "imagePath": ""
+        },
+        {
+          "type": "Endless Collapse R5",
+          "value": 743580,
+          "percentage": 79.71,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Hrover",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 40.8,
+          "percentage": 40.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 21,
+          "percentage": 21,
+          "imagePath": ""
+        },
+        {
+          "type": "HA",
+          "value": 2.9,
+          "percentage": 2.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 20.4,
+          "percentage": 20.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 7.5,
+          "percentage": 7.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 1.8,
+          "percentage": 1.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Outro",
+          "value": 6,
+          "percentage": 6,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Cryptic Insight",
+      "description": "Resonance Skill DMG Bonus meningkat 30%."
+    },
+    {
+      "stage": "S2",
+      "name": "Waning Crescent",
+      "description": "Cooldown Resonance Skill di-reset saat Rover memasuki Dark Surge Mode dengan menggunakan Heavy Attack - Devastation."
+    },
+    {
+      "stage": "S3",
+      "name": "Surging Resonance",
+      "description": "Saat dalam Dark Surge Mode, Basic Attack 5 memulihkan HP sebesar 10% dari total HP yang hilang saat mengenai target."
+    },
+    {
+      "stage": "S4",
+      "name": "Annihilated Silence",
+      "description": "Heavy Attack - Devastation dan Resonance Liberation - Deadening Abyss mengurangi Havoc RES musuh sebesar 10% selama 20 detik saat mengenai target."
+    },
+    {
+      "stage": "S5",
+      "name": "Aeon Symphony",
+      "description": "Saat dalam Dark Surge Mode, Basic Attack 5 memberikan  Havoc DMG tambahan sebesar 50% dari Basic Attack 5 DMG."
+    },
+    {
+      "stage": "S6",
+      "name": "Ebbing Undercurrent",
+      "description": "Saat dalam Dark Surge Mode, Crit. Rate Rover meningkat sebesar 25%."
+    }
+  ],
+  "lore": {
+    "description": "Resonator misterius yang memiliki kekuatan untuk menyerap semua suara. Saat ini sedang dalam perjalanan untuk menemukan ingatan yang hilang.",
+    "report": {
+      "resonancePower": "",
+      "resonanceEvaluation": "",
+      "overclockDiagnostic": ""
+    },
+    "items": [],
+    "stories": [],
+    "specialFood": {
+      "name": "",
+      "description": "",
+      "imageUrl": ""
+    }
+  }
+}

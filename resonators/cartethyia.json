@@ -1,0 +1,496 @@
+{
+  "name": "Cartethyia",
+  "element": "Aero",
+  "weapon": "Sword",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Main Damage Dealer",
+    "Traction",
+    "Aero DMG Amplification",
+    "Aero Erosion"
+  ],
+  "sonatas": [
+    "Windward Pilgrimage"
+  ],
+  "changelog": [
+    {
+      "text": "minimal update",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false
+    }
+  ],
+  "faction": "Order of the Deep",
+  "affiliation": "Ragunna,Rinascita",
+  "class": "Congenital",
+  "image": "/characters/cartethyia.webp",
+  "imageBanner": "/banners/cartethyia-banner.jpeg",
+  "recommendedStats": {
+    "HP": "35.000+",
+    "Energy Regen": "100-110%",
+    "Crit Ratio (Crit Weapon)": "75% : 310%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 270%"
+  },
+  "build": {
+    "bestEcho": [
+      "Fleurdelys"
+    ],
+    "bestWeapon": "Defier's Thorn",
+    "echoDetails": {
+      "note": "Meskipun [Reminiscence: Fleurdelys] wajib menjadi Main Echo, NM: Kelpie harus dipilih sebagai Echo 4-Cost.",
+      "sets": [
+        {
+          "label": "DPS Erosion",
+          "stats": [
+            "4: CR%/CDMG%",
+            "4: CR%/CDMG%",
+            "1: HP%",
+            "1: HP%",
+            "1: HP%"
+          ],
+          "echoSlug": "fleurdelys",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Windward Pilgrimage"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "HP%",
+        "Basic Attack DMG Bonus",
+        "HP",
+        "Reso Libe DMG",
+        "Energy Regen (110)"
+      ]
+    },
+    "weaponNote": "Jika menggunakan Defier's Thorn (Signature Cartethyia), gunakan 1 Crit. Rate dan 1 Crit. DMG untuk Echo 4-Cost. Gunakan 2 Crit. DMG jika menggunakan Emerald of Genesis.",
+    "weaponOptions": [
+      {
+        "id": "defiers-thorn",
+        "percentage": "131",
+        "rank": ""
+      },
+      {
+        "id": "red-spring",
+        "percentage": "105",
+        "rank": ""
+      },
+      {
+        "id": "blazing-brilliance",
+        "percentage": "101",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "feather-edge",
+        "percentage": "100",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Intro",
+          "BA34",
+          "Skill",
+          "MA",
+          "Echo",
+          "Ult",
+          "[U]BA12345",
+          "[U]Skill1",
+          "[U]MA12",
+          "[U]Skill2",
+          "[U]BA345",
+          "[U]Ult",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "note": "Intro dan Reso Skill cukup di level 6 saja",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Intro Skill",
+        "Resonance Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    "teams": [
+      {
+        "name": "Carte Hypercarry",
+        "members": [
+          [
+            "Cartethyia"
+          ],
+          [
+            "Ciaccona"
+          ],
+          [
+            "Chisa",
+            "Aero Rover",
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Ciaccona memberikan Aero Erosion Amplify kepada Cartethyia saat Outro Skill. Selain itu, clone milik Ciaccona memberikan Aero DMG Amplify serta tambahan stack Aero Erosion."
+      },
+      {
+        "name": "Carte HC Alternatif",
+        "members": [
+          [
+            "Cartethyia"
+          ],
+          [
+            "Sanhua"
+          ],
+          [
+            "Chisa",
+            "Aero Rover",
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Sebagai opsi budget, Sanhua bisa digunakan karena mayoritas damage Cartethyia dianggap sebagai Basic ATK DMG; Sanhua memberikan amplify untuk tipe damage tersebut melalui Outro Skill miliknya."
+      },
+      {
+        "name": "Erosion Team",
+        "members": [
+          [
+            "Cartethyia"
+          ],
+          [
+            "Aero Rover"
+          ],
+          [
+            "Chisa",
+            "Shorekeeper"
+          ]
+        ],
+        "note": "Rover: Aero atau Chisa dapat meningkatkan batas maksimum stack Aero Erosion pada musuh, sekaligus memberikan damage tambahan masing-masing melalui Bloodpact's Pledge (Rover: Aero) atau DEF shred dari Havoc Bane (Chisa)."
+      }
+    ],
+    "teamNote": "Sebagai alternatif, Shorekeeper dapat digunakan untuk meningkatkan Crit. Rate atau DMG Cartethyia. Namun, perlu dicatat bahwa Cartethyia tidak akan mendapatkan keuntungan dari set bonus Rejuvenating Glow."
+  },
+  "skills": {
+    "basic": {
+      "name": "Sword To Carve My Forms",
+      "description": "Basic Attack - Cartethyia\nMelakukan hingga 4 serangan berturut-turut, memberikan Aero DMG.\nSetelah Basic Attack - Cartethyia Stage 4, memberikan 1 stack Aero Erosion pada target yang terkena dan panggil Sword of Divinity's Shadow.\nHanya 1 Sword of Divinity's Shadow yang dapat ada di saat yang sama, berlangsung selama 20 detik.\n\nHeavy Attack - Cartethyia\nMengonsumsi STA untuk menyerang target, memberikan Aero DMG dan memanggil Sword of Discord's Shadow. Dapat dilakukan di udara.\nHanya 1 Sword of Discord's Shadow yang dapat ada di saat yang sama, berlangsung selama 20 detik.\nInstance DMG ini dianggap sebagai Basic Attack DMG.\n\nMid-air Attack - Cartethyia\nLepaskan tombol Normal Attack saat berada di udara untuk melakukan Plunging Attack dengan mengonsumsi STA, memberikan Aero DMG, yang juga dianggap sebagai Aero Erosion DMG.\nTekan Normal Attack sesaat setelah Plunging Attack untuk melakukan Basic Attack - Cartethyia Stage 2.\nMelancarkan Mid-air Attack - Cartethyia menarik kembali semua Sword Shadows. Berdasarkan tipe dan jumlah Sword Shadows yang ditarik kembali, lakukan berbagai bentuk Plunging Attack dan dapatkan Heart of Virtue, Mandate of Divinity, serta Power of Discord yang sesuai.\n\nDodge Counter - Cartethyia\nTekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG."
+    },
+    "skill": {
+      "name": "Sword To Bear Their Names",
+      "description": "Resonance Skill - Cartethyia\nMenyerang target, melontarkan musuh di sekitar ke udara, lalu menghujamkan mereka ke tanah, memberikan Aero DMG dan memberikan 2 stack Aero Erosion pada target yang terkena. Instance DMG ini dianggap sebagai Basic Attack DMG. Dapat dilakukan di udara.\nSetelah Cartethyia - Resonance Skill, panggil Sword of Virtue's Shadow.\nHanya 1 Sword of Virtue's Shadow yang dapat ada di saat yang sama, berlangsung selama 20 detik."
+    },
+    "liberation": {
+      "name": "A Knight'S Heartfelt Prayers",
+      "description": "Resonance Liberation - A Knight's Heartfelt Prayers\nDengan mengurangi HP hingga 50% dari Max HP, Cartethyia bertransformasi menjadi Fleurdelys, membuka move baru dan memasuki status Manifest selama 12 detik.\nDapat dilakukan di udara.\nMemasuki Manifest menghapus semua Conviction.\nSebagai Fleurdelys, Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, dan Resonance Skill - May Tempest Break the Tides secara instan memicu 1 instance Aero Erosion DMG dan mengurangi stack Aero Erosion pada target yang terkena sebanyak 1.\n- Mengakhiri status ini tidak akan menghapus Resonance Energy.\n- Tidak ada biaya HP saat HP berada di bawah 50%.\n\nSerangan Fleurdelys memulihkan Conviction saat terkena hit. Saat Conviction mencapai 120 poin, tekan Resonance Liberation untuk melancarkan Resonance Liberation - Blade of Howling Squall.\n\nSaat Conviction di bawah 120 poin, tekan Resonance Liberation untuk bertransformasi kembali menjadi Cartethyia. Saat dalam Manifest, melancarkan Resonance Liberation - A Knight's Heartfelt Prayers sebagai Cartethyia tidak mengonsumsi Resonance Energy.\n\nSaat Fleurdelys memiliki Heart of Virtue dalam Manifest:\n- Basic Attack - Fleurdelys Stage 4 akan menghasilkan force field untuk Stagnate target di dalam jangkauan.\n- Resistance to Interruption Fleurdelys meningkat.\nHeart of Virtue dihapus saat Manifest berakhir.\n\nSaat Fleurdelys memiliki Mandate of Divinity dalam Manifest:\nAero Erosion DMG mendapatkan Amplified sebesar 50% dan interval damage berkurang sebesar 50% untuk musuh dalam jarak tertentu dari Fleurdelys.\nMandate of Divinity dihapus saat Manifest berakhir.\n\nSaat Fleurdelys memiliki Power of Discord dalam Manifest:\nSaat melancarkan Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, dan Enhanced Heavy Attack - Fleurdelys atau setelah Resonance Skill - May Tempest Break the Tides memberikan damage, tingkatkan stack Aero Erosion pada semua target terdekat ke jumlah tertinggi di antara target tersebut.\nPower of Discord dihapus saat Manifest berakhir.\n\nFleurdelys akan bertransformasi kembali menjadi Cartethyia selama dialog quest, animasi interaksi lingkungan, atau menggunakan Utilities.\nFleurdelys dapat berjalan di atas air. Melakukan hal tersebut di air yang dalam akan terus mengonsumsi STA. Saat dalam status berjalan, Fleurdelys dapat melangkah keluar dari tempat tinggi dan berjalan di udara dengan terus mengonsumsi STA.\n\nAvatar - Cartethyia\nSebagai Fleurdelys, saat Conviction di bawah 120 poin, tekan Resonance Liberation untuk melakukan Basic Attack - Cartethyia Stage 2 dan bertransformasi kembali menjadi Cartethyia untuk sementara, yang akan menghentikan timer pada Manifest.\nDapat dilancarkan di udara. Melancarkan skill di udara akan melakukan Mid-air Attack - Cartethyia.\n\nAvatar - Fleurdelys\nSaat dalam Manifest, melancarkan Resonance Liberation sebagai Cartethyia akan melakukan Basic Attack - Fleurdelys Stage 2 tanpa mengonsumsi Resonance Energy dan mentransformasikannya kembali menjadi Fleurdelys, yang akan melanjutkan timer pada Manifest.\nDapat dilancarkan di udara. Melancarkan skill ini di udara akan melakukan Mid-air Attack - Fleurdelys Stage 1.\n\nResonance Liberation - Blade of Howling Squall\nSaat Fleurdelys memiliki 120 poin Conviction, Resonance Liberation - A Knight's Heartfelt Prayers digantikan oleh Resonance Liberation - Blade of Howling Squall.\nMelancarkan Resonance Liberation - Blade of Howling Squall menghapus semua Conviction, mengakhiri Manifest, memulihkan 50% dari Max HP, dan kemudian memberikan Aero DMG ke semua target di area dalam garis lurus di depan. Setelah mengenai target, hapus semua stack Aero Erosion pada target tersebut. Setiap stack yang dihapus memberikan Amplified pada DMG yang diterima oleh target sebesar 20%, hingga maksimal 5 stack.\nDapat dilancarkan di udara."
+    },
+    "forte": {
+      "name": "Tempest",
+      "description": "Cartethyia membuka move baru saat dia bertransformasi menjadi Fleurdelys:\n\nBasic Attack - Fleurdelys\nBasic Attack - Cartethyia digantikan oleh Basic Attack - Fleurdelys.\nMelakukan hingga 5 serangan berturut-turut, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\n\nMid-air Attack - Fleurdelys\nMid-air Attack - Cartethyia digantikan oleh Mid-air Attack - Fleurdelys.\nMelakukan hingga 3 serangan berturut-turut di udara dengan mengonsumsi STA, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\nSaat berada di udara, tahan Normal Attack untuk melancarkan Mid-air Attack - Fleurdelys Stage 3.\nIkuti dengan Basic Attack sesaat setelahnya untuk melancarkan Basic Attack - Fleurdelys Stage 3.\nSaat berada di udara, melancarkan Resonance Skill - Sword to Answer Waves' Call dan Resonance Skill - May Tempest Break the Tides akan me-reset siklus Mid-air Attack - Fleurdelys.\n\nHeavy Attack - Fleurdelys\nHeavy Attack - Cartethyia digantikan oleh Heavy Attack - Fleurdelys.\nMenerjang ke depan untuk memberikan serangan terfokus, memberikan Aero DMG dan memulihkan Conviction saat terkena hit. Instance DMG ini dianggap sebagai Basic Attack DMG.\n\nEnhanced Heavy Attack - Fleurdelys\nSaat melancarkan Heavy Attack - Fleurdelys, tekan Normal Attack lagi untuk melancarkan Enhanced Heavy Attack - Fleurdelys: mundur ke belakang dan meledakkan area dalam garis lurus di depan, memberikan Aero DMG dan memulihkan Conviction saat terkena hit. Instance DMG ini dianggap sebagai Basic Attack DMG.\nIkuti dengan Basic Attack sesaat setelah melancarkan Enhanced Heavy Attack - Fleurdelys untuk melancarkan Upward Cut - Fleurdelys.\n\nUpward Cut - Fleurdelys\nSaat Fleurdelys berada di tanah, Jump untuk melancarkan skill ini, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\n\nDodge Counter - Fleurdelys\nDodge Counter - Cartethyia digantikan oleh Dodge Counter - Fleurdelys.\nTekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\nIkuti dengan Basic Attack sesaat setelahnya untuk melancarkan Basic Attack - Fleurdelys Stage 4.\n\nResonance Skill - Sword to Answer Waves' Call\nResonance Skill - Cartethyia digantikan oleh Resonance Skill - Sword to Answer Waves' Call.\nMemanggil force field di dekat lokasi target untuk terus menarik target di sekitarnya, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\nDapat dilancarkan di udara.\n\nResonance Skill - May Tempest Break the Tides\nSetelah Resonance Skill - Sword to Answer Waves' Call, tekan Resonance Skill lagi untuk memanggil giant Sword Shadow guna menghantam area di sekitar target, menciptakan force field untuk menarik target di sekitarnya, memberikan Aero DMG pada target di tanah, dan memulihkan Conviction saat terkena hit.\nIkuti dengan Basic Attack sesaat setelahnya untuk melancarkan Basic Attack - Fleurdelys Stage 3.\nResonance Skill memasuki cooldown jika Resonance Skill - May Tempest Break the Tides tidak dilancarkan dalam periode tertentu atau saat berganti ke Resonator lain.\nDapat dilancarkan di udara."
+    },
+    "inherent": [
+      {
+        "name": "A Heart'S Truest Wishes",
+        "description": "Healing yang diterima oleh semua Resonator selain Cartethyia/Fleurdelys di dalam tim meningkat sebesar 20% dan Resistance to Interruption mereka ditingkatkan. Jika Rover: Aero ada di dalam tim, Rover: Aero mendapatkan tambahan pemulihan 25 Windstrings saat melancarkan Omega Storm."
+      },
+      {
+        "name": "Wind'S Indelible Imprint",
+        "description": "Target dengan 1 sampai 3 stack Aero Erosion menerima 30% lebih banyak DMG dari Cartethyia dan Fleurdelys. Target dengan lebih dari 3 stack Aero Erosion secara tambahan menerima 10% lebih banyak DMG dari Cartethyia dan Fleurdelys untuk setiap stack Aero Erosion yang mereka miliki, hingga maksimal 3 stack."
+      },
+      {
+        "name": "Tune Break: Sword",
+        "description": "Saat Off-Tune Level target penuh, Resonator dapat melancarkan Tune Break pada target tersebut."
+      }
+    ],
+    "intro": {
+      "name": "Sword To Mark Tide'S Trace",
+      "description": "Cartethyia - Sword to Mark Tide's Trace\nMemberikan Aero DMG dan memberikan 2 stack Aero Erosion pada target yang terkena. Memanggil Sword of Discord's Shadow.\nHanya 1 Sword of Discord's Shadow yang dapat ada di saat yang sama, berlangsung selama 20 detik.\nTekan Normal Attack sesaat setelah Cartethyia - Sword to Mark Tide's Trace untuk melakukan Basic Attack - Cartethyia Stage 2.\n\nFleurdelys - Sword to Call for Freedom\nMenerjang ke depan untuk menusuk target, memberikan Aero DMG dan memulihkan Conviction.\nTekan Normal Attack sesaat setelah Fleurdelys - Sword to Call for Freedom untuk melancarkan Basic Attack - Fleurdelys Stage 2."
+    },
+    "outro": {
+      "name": "Wind'S Divine Blessing",
+      "description": "Aero DMG yang diberikan oleh Resonator aktif di dalam tim selain Cartethyia/Fleurdelys kepada target dengan Negative Statuses mendapatkan Amplified sebesar 17.5% selama 20 detik."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Unfading Glory",
+            "amount": 46
+          },
+          {
+            "item": "LF Tidal Residuum",
+            "amount": 4
+          },
+          {
+            "item": "MF Tidal Residuum",
+            "amount": 12
+          },
+          {
+            "item": "HF Tidal Residuum",
+            "amount": 12
+          },
+          {
+            "item": "FF Tidal Residuum",
+            "amount": 4
+          },
+          {
+            "item": "Bamboo Iris",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "When Irises Bloom",
+          "amount": 26
+        },
+        {
+          "item": "LF Tidal Residuum",
+          "amount": 25
+        },
+        {
+          "item": "MF Tidal Residuum",
+          "amount": 28
+        },
+        {
+          "item": "HF Tidal Residuum",
+          "amount": 40
+        },
+        {
+          "item": "FF Tidal Residuum",
+          "amount": 57
+        },
+        {
+          "item": "Inert Metallic Drip",
+          "amount": 25
+        },
+        {
+          "item": "Reactive Metallic Drip",
+          "amount": 28
+        },
+        {
+          "item": "Polarized Metallic Drip",
+          "amount": 55
+        },
+        {
+          "item": "Heterized Metallic Drip",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Damage - Carte",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "SOURCE // TETHYS.GG",
+      "data": [
+        {
+          "type": "BA",
+          "value": 48.2,
+          "percentage": 48.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 11.3,
+          "percentage": 11.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 28.4,
+          "percentage": 28.4,
+          "imagePath": ""
+        },
+        {
+          "type": "BA Erosion",
+          "value": 10.8,
+          "percentage": 10.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 1.3,
+          "percentage": 1.3,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Carte",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "SOURCE // TETHYS.GG",
+      "data": [
+        {
+          "type": "S0",
+          "value": 129035224,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 147999164,
+          "percentage": 115,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 191002855,
+          "percentage": 148,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 233323916,
+          "percentage": 181,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Weapon - Carte",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "SOURCE // TETHYS.GG",
+      "data": [
+        {
+          "type": "Defier'S Thorn",
+          "value": 128452816,
+          "percentage": 129,
+          "imagePath": ""
+        },
+        {
+          "type": "Red Spring",
+          "value": 104879753,
+          "percentage": 105,
+          "imagePath": ""
+        },
+        {
+          "type": "Blazing Brilliance",
+          "value": 101240327,
+          "percentage": 102,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 99683855,
+          "percentage": 100,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Crown Destined By Fate",
+      "description": "Mendapatkan Zeal yang berlangsung selama 10 detik saat serangan Cartethyia atau Fleurdelys secara langsung memberikan damage dan mengalahkan target yang terkena Aero Erosion.\nDalam status Zeal, setelah mengalahkan musuh, gerakan berikutnya yang secara langsung memberikan damage pada target akan meningkatkan stack Aero Erosion pada target tersebut ke jumlah tertinggi di antara target yang dikalahkan. Ini tidak akan melebihi batas max stack Aero Erosion saat ini. Zeal dihapus setelahnya dan memasuki cooldown selama 1 detik.\nSaat Conviction Fleurdelys mencapai 30/60/90/120, Crit. DMG Fleurdelys meningkat sebesar 25% selama 15 detik, hingga 4 stack. Durasi efek ini tidak akan reset saat mendapatkan stack baru. Setelah melancarkan Resonance Liberation - Blade of Howling Squall, peningkatan Crit. DMG tersebut akan dihapus."
+    },
+    {
+      "stage": "S2",
+      "name": "Blade Broken By Tempest",
+      "description": "Melancarkan Resonance Liberation - A Knight's Heartfelt Prayers meningkatkan batas max stack Aero Erosion pada target dalam jangkauan tertentu sebanyak 3 stack. Serangan berikutnya yang memberikan damage langsung pada target akan memberikan 3 stack Aero Erosion pada semua target dalam jangkauan tertentu dan segera memicu Aero Erosion DMG pada target yang terkena sebanyak satu kali tanpa mengonsumsi stack Aero Erosion.\nDMG Multipliers dari Basic Attack, Heavy Attack, Dodge Counter, dan Intro Skill Cartethyia meningkat sebesar 50% dan DMG Multiplier dari Mid-air Attack miliknya meningkat sebesar 200%.\nSetelah melancarkan Mid-air Attack - Cartethyia, setiap 1 tipe Sword Shadow yang ditarik kembali akan mengurangi cooldown Resonance Skill - Cartethyia sebesar 1 detik."
+    },
+    {
+      "stage": "S3",
+      "name": "Prisoner Hanged In The Tower",
+      "description": "Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, Enhanced Heavy Attack - Fleurdelys, dan Resonance Skill - May Tempest Break the Tides sekarang memberikan 2 stack Aero Erosion pada target yang terkena.\nDMG Multiplier dari Resonance Liberation - Blade of Howling Squall meningkat sebesar 100%."
+    },
+    {
+      "stage": "S4",
+      "name": "Sacrifice Made For Salvation",
+      "description": "Setelah Resonator di dalam tim memberikan Havoc Bane, Fusion Burst, Spectro Frazzle, Electro Flare, Glacio Chafe, atau Aero Erosion, semua Resonator di dalam tim mendapatkan 20% DMG Bonus untuk semua Attributes selama 20 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Hope Reshaped In Storms",
+      "description": "Saat Cartethyia atau Fleurdelys menerima fatal blow, mereka tidak akan downed oleh instance damage ini, melainkan mendapatkan Shield setara dengan 20% dari Max HP Cartethyia selama 10 detik. Efek ini dapat dipicu sekali setiap 10 menit.\nBiaya HP untuk melancarkan Resonance Liberation - A Knight's Heartfelt Prayers berkurang menjadi 25% dari Max HP."
+    },
+    {
+      "stage": "S6",
+      "name": "Freedom Found In Storm'S Wake",
+      "description": "Setelah melancarkan Resonance Liberation - Blade of Howling Squall, tingkatkan stack Aero Erosion pada target yang terkena hingga maksimal. Melancarkan Resonance Liberation - Blade of Howling Squall tidak lagi menghapus stack Aero Erosion pada target tersebut.\nDalam kurun waktu 30 detik setelah melancarkan Intro Skill - Sword to Mark Tide's Trace, Intro Skill - Sword to Call for Freedom, Resonance Liberation - A Knight's Heartfelt Prayers, dan Resonance Liberation - Blade of Howling Squall, saat Resonator mana pun di dalam tim memberikan Aero Erosion pada target dengan stack Aero Erosion maksimal, segera pemicu Aero Erosion DMG sebanyak satu kali.\nTarget menerima 40% lebih banyak DMG dari Fleurdelys."
+    }
+  ],
+  "lore": {
+    "description": "Cartethyia, ksatria pengembara yang melakukan perjalanan melintasi Rinascita. Dulunya dikenal sebagai Blessed Maiden, perantara Divinity, dan Queen of Gale and Tide, ia menggunakan nama Fleurdelys. Kini, ia hanyalah seorang ksatria pengembara yang bebas dan tidak terikat. \n\nTITLE\n- The Blessed Maiden\n- Blessed Maiden of the Order of the Deep\n- Queen of Gale and Tide\n- Enlightened One\n\nBIRTHPLACE\nRinascita",
+    "report": {
+      "resonancePower": "Feathered Tempest",
+      "overclockDiagnostic": "Grafik waveform Cartethyia menunjukkan fluktuasi elips dengan Time Domain yang stabil. Nilai puncak antara batas atas dan bawah menunjukkan tren kenaikan intermiten, dengan nilai puncak yang belum melampaui ambang batas kritis. Tidak ada fluktuasi abnormal yang teramati.\n\nKekuatan eksternal dan internal di dalam tubuh Cartethyia hampir mencapai tahap fusi.\n\nResonant Criticality: Tinggi. Stabilitas tinggi dengan risiko Overclocking yang minimal. Namun, perlu dicatat bahwa tubuh Cartethyia menunjukkan fluktuasi kekuatan yang tidak stabil saat berada jauh dari Rinascita.\n\nCartethyia adalah individu langka yang telah menjalani Second Awakening, memungkinkannya untuk bertransisi secara bebas di antara dua wujud. Perlu ditekankan bahwa ini bukanlah kasus Overclocking, melainkan pemanggilan kekuatannya secara presisi.\n\nNote from a Bloom Bearer: Saat Nona Cartethyia... Tidak, tunggu, Fleurdelys, mendemonstrasikan kekuatannya, badainya hampir menghancurkan seluruh simulasi! Astaga. Kita harus mengambil tindakan pencegahan ekstra pada pengujian berikutnya!",
+      "resonanceEvaluation": "[Resonance Evaluation Report RA-X006]\nWaktu Awakening tidak diketahui. Diasumsikan bahwa karena pengaruh berlawanan yang diberikan oleh Sentinel Imperator dan Threnodian Leviathan, data Spectrum Performance Cartethyia melampaui nilai standar sebesar ▇▇▇▇▇▇▇. Kalkulasi data yang akurat menggunakan metode yang ada saat ini tidak mungkin dilakukan.\n\nAnalisis sampel uji telah mengungkapkan Rabelle's Curve yang tidak konvergen dengan gelombang periodik yang nyata. Oleh karena itu, Cartethyia diklasifikasikan sebagai seorang Congenital Resonator.\n\nSistem telah mengklasifikasikan Cartethyia sebagai subjek unik. Berkasnya telah disegel di bawah kelompok proyek khusus. Izin akses: ▇▇▇\nSistem akan melakukan pemantauan berkelanjutan terhadap Cartethyia."
+    },
+    "items": [
+      {
+        "name": "Worn Wooden Sword",
+        "description": "Sebuah pedang properti panggung kayu kecil. Bahkan pedesaan Egla Town yang tenang tidak luput dari pengaruh pertunjukan panggung populer Rinascita. Kincir angin yang berputar dan legenda ksatria yang brilian membentuk masa kecil Cartethyia. Pedang kayu ini adalah hadiah dari seorang dramawan yang telah pensiun. Setiap hari setelah pelajarannya, ia akan berpatroli di desa dengan mata yang berbinar dan semangat tinggi, mengayunkannya saat ia menangani setiap \"ketidakadilan\" yang ia temui.\n\nIni seharusnya menjadi awal perjalanannya untuk menjadi seorang ksatria pengembara.\n\nNasib penuh dengan apa yang seharusnya terjadi, namun ia tidak pernah terungkap seperti yang kita bayangkan.",
+        "imageUrl": "/icons/items/cartethyia-1.webp"
+      },
+      {
+        "name": "Golden Laurel",
+        "description": "Sebuah Laurel emas kecil.\n\nKetika mahkota emas diletakkan di atas kepalanya, bisikan Divinity mencapai telinganya untuk pertama kalinya.\nMulai saat itu, ia bukan lagi Cartethyia. Ia akan menjadi Blessed Maiden dari Rinascita, \"Fleurdelys\" yang dibicarakan oleh semua orang.\n\nNasib bisa menjadi terlalu baik pada awalnya, hanya untuk kemudian berubah menjadi hujan yang tidak pernah berhenti turun.",
+        "imageUrl": "/icons/items/cartethyia-2.webp"
+      },
+      {
+        "name": "Hand Puppets",
+        "description": "Boneka tangan yang sedang berkelahi.\n\nIa telah mencari di menara itu selama yang terasa seperti selamanya, namun tidak menemukan jejak jiwa lainnya. Maka ia membuat boneka, mementaskan pertunjukan demi pertunjukan, hanya agar tidak lupa cara berbicara, dan untuk mengisi kesunyian karena sendirian.\n\nIa merindukan pertunjukan yang pernah ia lihat di dunia orang hidup, merindukan ladang gandum di pedesaan, merindukan minuman manis dan suara tawa orang-orang.\n\nNasib bisa mengisi kita dengan nostalgia, bahkan saat ia mengirim kita maju sendirian.",
+        "imageUrl": "/icons/items/cartethyia-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "The Knight'S Faded Hours",
+        "content": "Seorang dramawan yang telah pensiun gemar menceritakan sebuah kisah tertentu: Dahulu kala, di pedesaan Egla Town, hiduplah seorang ksatria pengembara. Dengan pedang di tangan, ia berkelana jauh dan luas untuk mencari raksasa legendaris. Seorang raksasa yang berdiri setinggi kincir angin, dengan lengan panjang dan ramping seperti bilah-bilahnya. Berulang kali, sang ksatria pengembara bertarung dengan segenap kekuatannya melawan raksasa itu, tetapi sang raksasa tidak pernah mengucapkan sepatah kata pun, hanya terus mengayunkan lengannya, membuat serangan sang ksatria sia-sia.\n\nBeberapa orang mengejek kebodohan sang ksatria, beberapa mengasihani delusinya. Bagaimanapun juga, apa yang disebut raksasa itu hanyalah sebuah kincir angin, dan pertempurannya hanyalah fantasi. Namun, gadis paling jahil di pedesaan itu melihatnya secara berbeda.\n\nIa mencari helm ksatria untuk dirinya sendiri dan memohon kepada sang dramawan untuk sebuah pedang kayu kecil. \"Untuk bertarung demi raksasa seperti itu,\" katanya, \"dia pasti memiliki hati dengan kemuliaan yang murni.\" Maka, ia pun ingin menjadi seperti ksatria itu, mencari raksasa yang menghancurkan rumah-rumah dan menceraiberaikan ternak, serta memastikan bahwa Golden Thiefbats yang mengintai di sepanjang jalan tidak lagi bisa mencuri satu pun harta karun dari para pengembara.\n\nMenunggangi Tumbleyak dengan gaya yang mencolok, ia memacu kecepatannya melewati ladang gandum. Dunia tidak pernah terasa begitu luas. Di sinilah legenda Blessed Maiden dimulai. Melewati ladang, melewati kemeriahan festival, dan masuk ke dalam Inverted Tower.\n\nIni akan menjadi sebuah misi yang agung."
+      },
+      {
+        "title": "Steadfast In The Final Dance",
+        "content": "Misi ini berlanjut untuk beberapa waktu.\n\nDalam momen-momen yang tidak diperhatikan itu, sang gadis mengunjungi setiap ladang di Whisperwind Haven. Nakal dan berjiwa bebas secara alami, ia bahkan mencuri sesap anggur sakramental di bawah pengawasan penjaga, menari-nari di platform tinggi, dan mengubah upacara khidmat menjadi kegilaan total. Bahkan dinding penjara Order pun menjadi kanvas pribadinya.\n\n\"Dia benar-benar gadis paling riuh di pedesaan,\" kata orang-orang. \"Nasib yang serius bukanlah takdirnya, dan tidak ada dinding, sekuat apa pun, yang bisa menghalanginya untuk membentangkan sayap.\"\n\nNamun, di luar dugaan semua orang, ia dipilih oleh Divinity.\n\nMengapa dia? Beberapa orang bertanya-tanya. Dia hanyalah putri seorang pejabat, seorang gadis desa yang kurang disiplin! Tidak ada setetes pun darah bangsawan mengalir di nadinya. Bagaimana mungkin dia bisa memahami hierarki dunia?\n\n\"Dialah orangnya!\" seru yang lain. \"Dia mendengarkan kesedihan kami dan menggantinya dengan sukacita! Jika ada yang layak mengenakan mahkota Divinity, itu adalah dia.\"\n\nNamun apa yang dipikirkan oleh sosok yang menyandang nama Fleurdelys tentang semua ini? Sebelum upacara penobatan nama sucinya, di sebuah aula yang membosankan dan menyesakkan, ia membawakan tarian terakhirnya sebagai Cartethyia.\n\nApakah ia bingung oleh bisikan Divinity? Takut akan masa depan yang tidak pasti? Percaya diri bahwa ia bisa mengayunkan pedang suci tersebut?\n\nIa hanya menyimpan nama \"Cartethyia\" tersembunyi jauh di dalam hatinya. Selamat tinggal, ladang gandum yang bergoyang ditiup angin, dan Tumbleyaks yang berkeliaran dengan bebas. Di dunia yang begitu luas, seseorang harus mengangkat pedang. Seseorang harus mengikatkan diri dalam duri. Seseorang harus menerima beban tanggung jawab. Seseorang—\n\nHarus menjadi Fleurdelys, pelindung Rinascita."
+      },
+      {
+        "title": "Hesitation Amid Gale And Tide",
+        "content": "Sebagai Fleurdelys, ia harus berangkat berperang dengan pedang di tangan.\n\nUntuk ini, ia mempelajari segala hal yang ia bisa. Ia mempelajari kitab suci Order dan mengasah keterampilan tempurnya. Ia mendengarkan suara rakyat, mengabdikan dirinya untuk memenuhi harapan mereka. Ketika seseorang berdoa memohon kesehatan, ia mengatur pengiriman obat-obatan berharga. Ketika seseorang mencari kedamaian, ia akan mendengarkan pengakuan mereka, menyerap kesedihan masa lalu mereka. Ketika Tacet Discord Outbreak terjadi, ia menghunuskan pedangnya dan menghancurkannya sejak dini. Tindakan-tindakan ini tidak berbeda dengan apa yang telah ia lakukan di kampung halamannya.\n\nSatu-satunya perbedaan adalah ia tidak lagi menghadapi desa kecil atau wajah-wajah yang dikenalnya. Sebagian besar dari mereka yang mencari bantuannya adalah orang asing, dan ia memahami bahwa masing-masing dari mereka seperti sebuah lampu kecil. Semakin banyak ia membantu, semakin terang mereka akan bersinar di langit malam Rinascita.\n\nNamun, dunia begitu luas, dan Order jauh dari kata sempurna seperti yang diklaim dalam buku-buku. Kaum bangsawan hanya terpaku pada kepentingan mereka sendiri, dan para Acolytes yang mengaku taat hanyalah memamerkan iman mereka, sambil menutup mata terhadap jeritan rakyat. Ia melihat para bangsawan yang membual tentang kebaikan hati mereka sambil mengisi kantong sendiri, menolak untuk mendengar permohonan mereka yang menderita.\n\nDi saat-saat seperti ini, yang bisa ia lakukan hanyalah mempererat genggamannya pada pedangnya.\n\nIa mengalami keraguan, gangguan, dan kekecewaan. Dan karena hal ini, genggamannya justru semakin kuat saat ia menghadapi Dark Tide—Ia akan mempertanyakan sang Divinity. Ia harus melakukannya.\n\nTidak peduli jawaban apa yang menantinya, Fleurdelys telah siap untuk itu.\n\nDengan tekad ini, ia berjalan masuk ke dalam menara. Sendirian."
+      },
+      {
+        "title": "Yet Within Solitude",
+        "content": "Ia sepertinya telah bermimpi untuk waktu yang sangat lama.\n\nDalam mimpi itu, himne dan pujian mengalir ke arahnya dalam gelombang yang tak berujung, menelannya. Ia mengangkat pedangnya untuk memotong gelombang itu berkali-kali, bertarung melawan makhluk laut raksasa di perairan tersebut. Ia bertarung sekuat tenaga. Bahkan ketika air berubah menjadi bilah yang cukup tajam untuk mengiris daging, ia tidak mundur selangkah pun.\n\nKetika ia membuka matanya, ia mendapati dirinya sendirian di tempat yang asing.\n\nDi mana dia? Apa tujuannya? Siapa dia? Pertanyaan-pertanyaan yang jawabannya telah menghilang dari ingatan.\n\nIa menjelajahi menara untuk mencari apa yang hilang. Ia bahkan mencoba menemukan jalan ke menara pusat untuk mencari jawaban. Namun setelah menjelajahi setiap sudut yang bisa ia jangkau, ia tidak menemukan apa pun kecuali dirinya sendiri. Tidak ada eksistensi \"lain\". Dialah satu-satunya jiwa di sana.\n\nMaka ia mulai berbicara dengan dirinya sendiri. Ia menjahit boneka dari kain perca. Ia mengarang cerita.\n\nAnehnya, kabut memorinya mulai terangkat sedikit demi sedikit di bawah ujung jarinya.\n\nIa membuat satu boneka gadis pemegang pedang dan satu lagi monster laut. Ia menggumamkan beberapa baris dialog di antara mereka, lalu terdiam. Ia tahu cerita ini. Ia pernah mendengarnya sebelumnya. Gadis pemegang pedangksatria pengembara telah melakukan perjalanan untuk menghadapi raksasa legendarmonster laut yang mengerikan. Berkali-kali, ia melawannya dengan segala yang ia miliki.\n\nTidak peduli apa yang diperjuangkan oleh gadis pemegang pedangksatria pengembara itu, ia memahami satu hal—\n\nSetiap kali ia mengangkat pedangnya, ia tidak peduli dengan masa lalunya. Ia hanya peduli pada apa yang perlu dilakukan pada saat itu juga.\n\nDan jika itu benar, maka kehilangan ingatannya bukanlah kerugian besar. Di dunia yang begitu luas, ia akan menemukan dirinya kembali.\n\nDan ketika saat itu tiba, apakah ia ternyata adalah sang pejuang atau sang monster, itu adalah jawaban yang bersedia ia terima."
+      },
+      {
+        "title": "The Wandering Knight Marches To Freedom",
+        "content": "Di dalam sebuah restoran kecil di Whisperwind Haven, seorang gadis muda memesan beberapa Laurus Salad. Sambil menunggu makanannya, ia diam-diam menyelinap ke dapur, mengikuti kepala koki dan mengamati teknik kulinernya dengan saksama.\n\n\"Hmm. Tolong tambahkan beberapa Viscum Berries lagi. Ah, ya, ya. Dan satu lagi!\"\n\n\"Anda juga bisa menambahkan lebih banyak madu... Ya, terima kasih!\"\n\n\"Dan dari mana asalmu, bocah nakal? Jika kau sedang menunggu makananmu, kau harus menunggu di luar.\" Kepala koki meletakkan peralatannya dan mendongak, terdiam dalam keheranan. Gadis di depannya tampak familier, tetapi ia tidak bisa mengingat namanya dengan tepat.\n\n\"A-aku minta maaf! Aku hanya ingin mempelajari beberapa keterampilan memasakmu. Aku memiliki perjalanan panjang di depanku, dan aku mungkin tidak memiliki keberuntungan untuk menemukan restoran yang menyajikan makanan selezat ini lagi. Jika permintaan maafku tidak cukup, aku akan membelah kayu bakar untukmu sebagai gantinya.\"\n\n\"Apakah ini pertama kalinya kau makan di restoran kami? Aku merasa seperti pernah melihatmu sebelumnya.\" Kepala koki menyerahkan makanan kepada gadis yang penasaran itu.\n\n\"Apakah itu dari jendela kaca patri itu...?\"\n\n\"Ini bukan pertama kalinya, sebenarnya! Tapi sudah cukup lama sejak terakhir kali aku berkunjung,\" jawab gadis itu sambil menerima piringnya. \"Izinkan aku memperkenalkan diri. Namaku Cartethyia. Aku seorang ksatria pengembara yang sedang bersiap untuk misi baru. Jika Anda membutuhkan bantuan, beri tahu aku.\"\n\n\"Aku hanya harus mencoba ini sebelum memulai perjalananku!\" Gadis itu menyendok salad dan menggigitnya.\n\nDi dunia yang begitu luas, salad yang penuh dengan Viscum Berries membuat awal perjalanannya terasa sangat pas.\n\n\"Lezat sekali.\" Ia memuji dari lubuk hatinya."
+      }
+    ],
+    "specialFood": {
+      "name": "Knight-Errant'S Essentials",
+      "imageUrl": "/icons/food/cartethyia.webp",
+      "description": "Memberikan 34% Healing Bonus kepada semua Resonator di dalam tim selama 30 menit. Hanya efektif pada Resonator milikmu sendiri dalam Co-op Mode."
+    }
+  }
+}

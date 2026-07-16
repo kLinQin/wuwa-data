@@ -1,0 +1,494 @@
+{
+  "name": "Lucy",
+  "element": "Spectro",
+  "weapon": "Pistol",
+  "rarity": 5,
+  "version": "3.4",
+  "lastUpdated": "2026-06-07",
+  "roles": [
+    "Main Damage Dealer",
+    "Heavy Attack Damage",
+    "Basic Attack DMG Amplification",
+    "Hack Response"
+  ],
+  "sonatas": [
+    "Shadow of Shattered Dreams"
+  ],
+  "changelog": [
+    {
+      "text": "",
+      "type": "updated",
+      "isNew": true,
+      "leaks": false
+    }
+  ],
+  "faction": "",
+  "affiliation": "Lahai-Roi",
+  "class": "Mutant",
+  "image": "/characters/lucy.webp",
+  "imageBanner": "/banners/lucy-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1900-2000+",
+    "Energy Regen": "120-125%",
+    "Crit Ratio (Crit Weapon)": "70% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "65% : 225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Spectral Trigger",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS HACK",
+          "sonataCustom": [
+            {
+              "name": "Shadow Of Shattered Dreams",
+              "set": 2
+            },
+            {
+              "name": "Celestial Light",
+              "set": 2
+            }
+          ],
+          "echoSlug": "reminiscence-adam-smasher",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: spectro%",
+            "3: spectro%",
+            "1: ATK%",
+            "1: ATK%"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Heavy Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "Untuk melengkapi 5 slot Echo, gunakan 2-pc dari set Spectro apa saja. Meskipun menggunakan 2-pc set Spectro lainnya akan menjadi yang paling optimal, kamu juga dapat menggunakan 2-pc Reels of Spliced Memories sebagai gantinya."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "spectral-trigger",
+        "rank": "",
+        "percentage": "119.76%"
+      },
+      {
+        "id": "phasic-homogenizer",
+        "rank": "",
+        "percentage": "100.00%"
+      },
+      {
+        "id": "the-last-dance",
+        "rank": "",
+        "percentage": "92.14%"
+      },
+      {
+        "id": "static-mist",
+        "rank": "",
+        "percentage": "89.25%"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "New Rotation",
+        "steps": [
+          "Intro",
+          "Skill12",
+          "BA123",
+          "[E]Skill",
+          "[F]BA1234",
+          "[F]HA12",
+          "Ult",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Normal Attack",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "HACK PREMIUM",
+        "members": [
+          [
+            "Lucy"
+          ],
+          [
+            "Rebecca"
+          ],
+          [
+            "Mornye"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "HACK PREMIUM",
+        "members": [
+          [
+            "Lucy"
+          ],
+          [
+            "Rebecca"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": ""
+      }
+    ],
+    "teamNote": "1. Menggunakan para Edgerunner bersama-sama akan membuka sinergi yang sangat kuat di antara mereka, beserta dengan buff tambahan:\nLucy menyediakan buff berikut untuk rekan satu timnya saat melancarkan Outro Skill: \n- 20% Basic Attack DMG Amplify selama 14 detik\n- \"Countermeasure Program\" selama 25 detik, di mana Rebecca mendapatkan 20% All-DMG Amplify. Ketika Resonator lain diserang, mereka menerima damage 30% lebih sedikit selama 3 detik dan memberikan efek stagnate pada penyerang mereka selama 1 detik. Efek ini dapat dipicu hingga 1 kali.\n\n2. Lucy merupakan Main DPS yang solid bersama dengan rekan tim gratisnya, Rebecca. Ia tidak merusak keseimbangan game ataupun mengubah meta, tetapi ia masih dapat berfungsi sebagai DPS yang mumpuni.\nSecara teknis ia bisa dipasangkan dengan Heavy DMG buffer mana pun, tetapi karena Rebecca bisa didapatkan secara gratis dan kit mereka memiliki sinergi yang terstruktur satu sama lain, tidak ada alasan nyata untuk memisahkan keduanya."
+  },
+  "skills": {
+    "basic": {
+      "name": "Locked Thread",
+      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut, menimbulkan Spectro DMG.\nMenahan Normal Attack segera setelah Basic Attack Stage 1 untuk terus menyerang target, menimbulkan Spectro DMG. Menahan skill ini selama durasi tertentu untuk melancarkan Heavy Attack Stage 1.\nMenahan Normal Attack sesaat setelah Basic Attack Stage 3 mendarat untuk melancarkan Heavy Attack Stage 2.\n\nHeavy Attack\nMengonsumsi STA untuk menghajar musuh dengan Monowire, menimbulkan Spectro DMG.\nMenahan Normal Attack setelah Heavy Attack Stage 1 mendarat untuk melancarkan Heavy Attack Stage 2, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan Heavy Attack Stage 1 untuk melancarkan Basic Attack Stage 3.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 2.\n\nDodge Counter\nMenekan Normal Attack sesaat setelah Dodge berhasil untuk menyerang target, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 4.\nMenahan Normal Attack sesaat setelah skill ini mendarat untuk melancarkan Heavy Attack Stage 2.\n\nBasic Attack - Thread Shredding\nSaat berada dalam Algorithm Compaction, Basic Attack Lucy digantikan dengan Basic Attack - Thread Shredding.\nMelakukan hingga 4 serangan berturut-turut, menimbulkan Spectro DMG, dihitung sebagai Heavy Attack DMG.\n\nHeavy Attack - Single Threading\nSaat berada dalam Algorithm Compaction, Heavy Attack Lucy digantikan dengan Heavy Attack - Single Threading.\nMengonsumsi STA untuk menyerang target, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini saat berada di udara untuk melancarkan Mid-air Attack - Algorithm Compaction.\nMenekan Normal Attack sesaat setelah melancarkan skill ini saat berada di tanah untuk melancarkan Basic Attack - Thread Shredding Stage 2.\n\n\nHeavy Attack - Dual Threading\n\nSaat berada dalam Algorithm Compaction dan Root Access mencapai 100 poin, Heavy Attack - Single Threading digantikan dengan Heavy Attack - Dual Threading.\nMengonsumsi STA dan seluruh Root Access untuk menyerang target, menimbulkan Spectro DMG.\nMenekan atau menahan Normal Attack sesaat setelah melancarkan skill ini saat berada di udara untuk melancarkan Heavy Attack - Multi-threading.\nMenekan Normal Attack sesaat setelah melancarkan skill ini saat berada di tanah untuk melancarkan Basic Attack - Thread Shredding Stage 2.\n\n\nHeavy Attack - Multi-threading\n\nMengonsumsi STA untuk menyerang target, menimbulkan Spectro DMG dan memberikan efek Hack - Shifting pada target. SQL dapat dikonsumsi untuk meningkatkan Damage Multiplier serangan ini sebesar 270%.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Thread Shredding Stage 2.\n\n\nMid-air Attack - Algorithm Compaction\n\nSaat berada dalam Algorithm Compaction, Mid-air Attack digantikan dengan Mid-air Attack - Algorithm Compaction.\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Thread Shredding Stage 2.\n\n\nDodge Counter - Algorithm Compaction\n\nSaat berada dalam Algorithm Compaction, Dodge Counter digantikan dengan Dodge Counter - Algorithm Compaction.\nMenekan Normal Attack sesaat setelah Dodge berhasil untuk menyerang target, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Thread Shredding Stage 3."
+    },
+    "skill": {
+      "name": "Protocol Breach",
+      "description": "Resonance Skill - Payload\nMelancarkan Resonance Skill - Payload untuk menerjang ke depan, menimbulkan Spectro DMG dan memberikan efek Hack - Shifting. Saat mengenai target, serangan susulan otomatis terpicu, menimbulkan Spectro DMG dan mengaktifkan Resonance Skill - Pulse Interference. Jika tidak ada target yang terkena saat menerjang, kurangi CD skill sebesar 70%. Jika penerangan terhenti atau tidak berhasil dilancarkan, CD skill tidak berkurang.\nMenekan Normal Attack sesaat setelah serangan susulan untuk melancarkan Basic Attack Stage 2.\nMenahan Normal Attack sesaat setelah serangan susulan mendarat untuk melancarkan Heavy Attack Stage 2.\n\nResonance Skill - Pulse Interference\nMelancarkan Resonance Skill - Pulse Interference untuk menebas target, menimbulkan Spectro DMG dan membuat target Stagnate sejenak, sebelum memberikan Digital Handshake.\nDigital Handshake: Saat Lucy tidak berada dalam Algorithm Compaction dan menjadi Resonator aktif di tim, ia mendapatkan TCP setiap detik. Efek ini hilang ketika TCP mencapai 100 poin atau saat Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive dilancarkan.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 2.\n\nResonance Skill - Deadlock\nSaat TCP mencapai 100 poin atau Lucy berada dalam Algorithm Compaction, Resonance Skill - Payload dan Resonance Skill - Pulse Interference digantikan dengan Resonance Skill - Deadlock.\nMelancarkan Resonance Skill - Deadlock untuk menyerang target, menimbulkan Spectro DMG dan memberikan efek Hack - Shifting, dihitung sebagai Heavy Attack DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Thread Shredding Stage 2.\nMengatur ulang CD Resonance Skill - Deadlock setelah melancarkan Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive."
+    },
+    "liberation": {
+      "name": "Netrunner",
+      "description": "Resonance Liberation - Netrunner\nMelakukan deep dive ke cyberspace dan membuka Protocol Interface selama 10 detik. Saat Protocol Interface aktif, pilih hingga 7 efek Spoofing Program yang berbeda, masing-masing membutuhkan biaya RAM yang berbeda. Lucy memulai dengan 24 poin RAM.\nSaat berada dalam Protocol Interface, Lucy menandai target dalam jangkauan tertentu di pandangannya. Target yang ditandai akan menerima semua efek Spoofing Program yang dipilih setelahnya. Sesuaikan pandangan Lucy untuk menandai lebih banyak target. Jika tidak ada target dalam pandangan, tidak ada Spoofing Program yang dapat diterapkan.\nSaat berada dalam Protocol Interface, ketika durasi berakhir atau saat Normal Attack ditahan, Override terpicu, yang menimbulkan Spectro DMG pada semua target yang ditandai sebelum menutup Protocol Interface, dihitung sebagai Heavy Attack DMG. Ketika RAM habis atau tidak cukup untuk mengaktifkan Spoofing Program apa pun, tekan Normal Attack untuk memicu Override pada semua target yang ditandai.\nDapat dilancarkan di udara dekat tanah.\n\nSpoofing Program: Ping\nMembutuhkan 2 RAM. Memperluas bidang pandang. Lucy menandai dan menimbulkan Spectro DMG pada semua target terdekat dalam jangkauan efektif tanpa harus menyesuaikan pandangan, dihitung sebagai Heavy Attack DMG.\n\nSpoofing Program: Cyberware Malfunction\nMembutuhkan 4 RAM. Target yang ditandai menerima 5% lebih banyak DMG selama 30 detik.\n\nSpoofing Program: Breach Protocol\nMembutuhkan 4 RAM. DEF target yang ditandai berkurang sebesar 5% selama 30 detik.\n\nSpoofing Program: Synapse Burnout\nMembutuhkan 5 RAM. Menimbulkan Spectro DMG pada semua target yang ditandai dalam jangkauan tertentu, dihitung sebagai Heavy Attack DMG.\n\nSpoofing Program: Cripple Movement\nMembutuhkan 6 RAM. Menimbulkan Hack DMG pada semua target yang ditandai dan mengurangi ATK mereka sebesar 5% selama 30 detik.\n\nSpoofing Program: Weapon Glitch\nMembutuhkan 5 RAM. Menyebabkan serangan semua target yang ditandai memiliki kemungkinan berkurang sebesar 100% dalam 30 detik.\n\nSpoofing Program: Cyberpsychosis\nMembutuhkan 6 RAM. Mengubah semua target yang ditandai menjadi unit netral dan mengurangi Vibration Strength mereka. Hanya efektif terhadap musuh kelas Common.\n\nResonance Liberation - Old Net Deep Dive\nSaat berada dalam Algorithm Compaction, setelah Heavy Attack - Multi-threading dilancarkan, Resonance Liberation - Netrunner digantikan dengan Resonance Liberation - Old Net Deep Dive. Lucy mendapatkan semua efek dari Resonance Liberation - Netrunner, dan Damage Multiplier dari Override meningkat secara signifikan.\nSetelah melancarkan Resonance Liberation - Old Net Deep Dive, atau ketika Lucy keluar dari keadaan Algorithm Compaction, Resonance Liberation - Old Net Deep Dive digantikan dengan Resonance Liberation - Netrunner.\nDapat dilancarkan di udara dekat tanah."
+    },
+    "forte": {
+      "name": "Depths Of Blackwall",
+      "description": "Cloud Portal\nSaat tidak berada dalam Algorithm Compaction, Lucy mendapatkan TCP saat mengenai target. Pada 100 poin TCP, Resonance Skill - Payload dan Resonance Skill - Pulse Interference digantikan dengan Resonance Skill - Deadlock.\nMelancarkan Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive menghapus seluruh TCP.\n\nAlgorithm Compaction\nSetelah melancarkan Resonance Skill - Deadlock, Lucy memasuki Algorithm Compaction dan mendapatkan 1 tumpukan SQL. Basic Attack-nya digantikan dengan Basic Attack - Thread Shredding, dan Heavy Attack digantikan dengan Heavy Attack - Single Threading. Bonus Spectro DMG Lucy meningkat sebesar 65% selama 8 detik.\nSaat berada dalam Algorithm Compaction, melancarkan Resonance Skill - Deadlock lagi tidak akan memberikan SQL dan Bonus Spectro DMG secara berulang.\nSaat berada dalam Algorithm Compaction, Lucy mendapatkan Root Access saat mengenai target dengan serangan termasuk Basic Attack - Thread Shredding dan Heavy Attack - Single Threading. Mencapai 100 poin Root Access menggantikan Heavy Attack - Single Threading dengan Heavy Attack - Dual Threading. Tekan atau tahan Normal Attack sesaat setelah melancarkan Heavy Attack - Dual Threading untuk melancarkan Heavy Attack - Multi-threading.\nSaat melancarkan Heavy Attack - Multi-threading, jika Lucy memiliki SQL, tingkatkan Damage Multiplier serangan ini sebesar 270% dan hapus SQL.\nSaat melancarkan Heavy Attack - Multi-threading, jika Lucy tidak memiliki SQL, ia kehilangan 20% HP saat ini. Jika HP Lucy di bawah 1%, tidak ada HP yang dikonsumsi.\nSetelah melancarkan Heavy Attack - Multi-threading, Resonance Liberation - Netrunner digantikan dengan Resonance Liberation - Old Net Deep Dive.\nLucy keluar dari keadaan Algorithm Compaction setelah melancarkan Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive, atau jika Heavy Attack - Multi-threading tidak diikuti oleh salah satu skill berikut: Normal Attack - Locked Thread, Resonance Skill - Protocol Breach, Intro Skill - Outdated Hallucination, dan Tune Break - Data Crash.\n\nHack Response - Data Crash\nLucy menimbulkan Spectro DMG pada target yang terkena Hack - Interfered dan menerapkan Data Crash pada target tersebut, dihitung sebagai Hack DMG.\nData Crash: Setelah target memberikan damage, buat target Stagnate selama 0,5 detik. Data Crash dihapus setelah efek ini terpicu.\n\nTCP\nLucy menyimpan hingga 100 poin TCP.\nLucy mendapatkan TCP saat menimbulkan damage melalui Basic Attack, Heavy Attack, Mid-air Attack, Dodge Counter.\nLucy mendapatkan TCP saat menimbulkan damage melalui Resonance Skill - Payload dan Resonance Skill - Pulse Interference.\nSetelah melancarkan Intro Skill - Outdated Hallucination, melancarkan Resonance Skill - Pulse Interference berikutnya memberikan tambahan 20 poin TCP.\n\nRoot Access\nLucy menyimpan hingga 100 poin Root Access.\nLucy mendapatkan Root Access saat menimbulkan damage melalui Basic Attack - Thread Shredding, Heavy Attack - Single Threading, Mid-air Attack - Algorithm Compaction, dan Dodge Counter - Algorithm Compaction."
+    },
+    "inherent": [
+      {
+        "name": "Ghost Cyberware",
+        "description": " Saat Lucy menjadi Resonator aktif di tim, jika ia tidak menerima damage selama 8 detik, ia mendapatkan 1 tumpukan Optical Illusion. Maksimal 1 tumpukan secara default.\nOptical Illusion: Saat diserang, kurangi damage instance ini sebesar 100%. Jika Lucy terkena atau terpental dari serangan, ia segera pulih dan memicu Dodge berhasil jika berada di tanah. Setelah efek ini terpicu, hapus 1 tumpukan Optical Illusion. Efek ini dapat terpicu hingga 1 kali setiap 0,5 detik."
+      },
+      {
+        "name": "Function Cracking",
+        "description": " Saat Resonance Skill - Payload, Resonance Skill - Pulse Interference, atau Resonance Skill - Deadlock memberikan damage pada musuh kelas Overlord atau Calamity, Lucy menerapkan Botnet Mark pada mereka selama 2 menit. Saat Botnet Mark aktif, ketika seorang Resonator di tim mengalahkan target tersebut dengan direct damage, Lucy mendapatkan efek Network Backdoor. Jika Rebecca berada di tim, ia juga mendapatkan efek yang sama.\n\nNetwork Backdoor\nMemberikan 10% All DMG Amplification dan 10% tambahan Hack DMG Multiplier. Efek ini berlangsung selama 2 menit dan dapat menumpuk hingga 2 kali. Pada 2 tumpukan, tambahkan peningkatan All DMG Amplification sebesar 5% dan Hack DMG Multiplier sebesar 5%. Saat Lucy downed, ia tidak dapat lagi mendapatkan Network Backdoor, dan semua efek Network Backdoor yang ada menjadi tidak valid."
+      },
+      {
+        "name": "Data Crash",
+        "description": "Saat Off-Tune Level target penuh, Lucy dapat melancarkan Tune Break pada target tersebut.\nMerespons Hack - Interfered: saat Resonator di tim memicu Tune Break pada target dan menyebabkan mereka terkena efek Hack - Interfered, Lucy menerapkan Hack Response - Data Crash pada target tersebut. Setiap target dapat menerima efek ini hingga 1 kali setiap 8 detik."
+      }
+    ],
+    "intro": {
+      "name": "Outdated Hallucination",
+      "description": "Menyerang target, menimbulkan Spectro DMG dan memberikan efek Involuntary Sharing kepada Resonator di tim, memungkinkan mereka melihat target di balik hambatan selama 25 detik. Selain itu, Involuntary Sharing ditingkatkan pada Rebecca, memungkinkannya mengunci target di balik hambatan. Jika turret Rebecca berada di medan pertempuran, efek Overload-nya diaktifkan, meningkatkan damage yang ditimbulkan selama 4 detik.\nJika Lucy tidak berada dalam Algorithm Compaction setelah melancarkan skill ini, tekan Normal Attack dalam waktu tertentu untuk melancarkan Basic Attack Stage 2.\nJika Lucy berada dalam Algorithm Compaction setelah melancarkan skill ini, tekan Normal Attack dalam waktu tertentu untuk melancarkan Basic Attack - Thread Shredding Stage 2.\nSetelah melancarkan skill ini, Resonance Skill - Pulse Interference berikutnya memberikan tambahan 20 poin TCP."
+    },
+    "outro": {
+      "name": "Countermeasure Program",
+      "description": "Resonator yang masuk mendapatkan 25% Basic Attack DMG Amplification selama 14 detik atau hingga mereka diganti keluar.\nMemberikan efek Countermeasure Program kepada semua Resonator di tim selama 25 detik.\nSaat efek aktif, ketika Resonator aktif di tim selain Lucy memberikan efek Hack - Shifting, Resonator tersebut mendapatkan 20% All DMG Amplification.\nSaat efek aktif, ketika Resonator di tim selain Lucy diserang, Lucy memberikan mereka 30% DMG Reduction selama 3 detik dan membuat penyerang mereka Stagnate selama 1 detik. Efek ini hanya dapat terpicu hingga 1 kali saat Countermeasure Program aktif. Mendapatkan Countermeasure Program lagi mengatur ulang muatan efektif.\nKetika All DMG Amplification efektif, beralih ke Resonator lain mengakhiri Countermeasure Program lebih awal."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Nightmare Flashdrive",
+            "amount": 46
+          },
+          {
+            "item": "LF Exoswarm Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Exoswarm Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Exoswarm Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Exoswarm Core",
+            "amount": 4
+          },
+          {
+            "item": "Past Reveries",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Gold In Memory",
+          "amount": 26
+        },
+        {
+          "item": "LF Exoswarm Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Exoswarm Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Exoswarm Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Exoswarm Core",
+          "amount": 57
+        },
+        {
+          "item": "Incomplete Combustor",
+          "amount": 25
+        },
+        {
+          "item": "Remnant Combustor",
+          "amount": 28
+        },
+        {
+          "item": "Aftertune Combustor",
+          "amount": 55
+        },
+        {
+          "item": "Reverb Combustor",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Lucy",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Spectral Trigger",
+          "value": 1143566.27,
+          "percentage": 119.76,
+          "imagePath": ""
+        },
+        {
+          "type": "Phasic Homogenizer",
+          "value": 954883.97,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "The Last Dance",
+          "value": 879840.15,
+          "percentage": 92.14,
+          "imagePath": ""
+        },
+        {
+          "type": "Static Mist",
+          "value": 852236.45,
+          "percentage": 89.25,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Lucy",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Heavy",
+          "value": 79.1,
+          "percentage": 79.1,
+          "imagePath": ""
+        },
+        {
+          "type": "Hack",
+          "value": 10.9,
+          "percentage": 10.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 3.8,
+          "percentage": 3.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 3,
+          "percentage": 3,
+          "imagePath": ""
+        },
+        {
+          "type": "BA",
+          "value": 1.9,
+          "percentage": 1.9,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Lucy",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 1143566.27,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 1186897.75,
+          "percentage": 103.79,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1454647,
+          "percentage": 127.2,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1926459.63,
+          "percentage": 168.46,
+          "imagePath": ""
+        },
+        {
+          "type": "S4",
+          "value": 2034050.94,
+          "percentage": 177.87,
+          "imagePath": ""
+        },
+        {
+          "type": "S5",
+          "value": 2034050.94,
+          "percentage": 177.87,
+          "imagePath": ""
+        },
+        {
+          "type": "S6",
+          "value": 2813276.67,
+          "percentage": 246.01,
+          "imagePath": ""
+        },
+        {
+          "type": "S6R5",
+          "value": 3479867.73,
+          "percentage": 304.3,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "The Moon, A Ticket, And A Dream",
+      "description": "Lucy kini kebal terhadap interupsi saat melancarkan Resonance Skill - Payload, Resonance Skill - Pulse Interference, Heavy Attack - Dual Threading, dan Heavy Attack - Multi-threading.\nMelancarkan Intro Skill - Outdated Hallucination meningkatkan ATK sebesar 20% selama 14 detik.\nSaat seorang Resonator di tim mengalahkan target yang terpengaruh oleh Spoofing Program dengan direct damage, Lucy mencatat efek yang terpicu dan mengaktifkan Quick Action yang sesuai pada Resonator tersebut selama 6 detik. Catatan ini kedaluwarsa saat Lucy KO.\nQuick Action: Saat diaktifkan, terapkan efek Spoofing Program yang tercatat pada target dalam jarak tertentu dari Resonator aktif di tim, efektif sekali saja pada setiap target.\nEfek Spoofing Program berikut dapat dicatat: Spoofing Program: Cyberware Malfunction, Spoofing Program: Breach Protocol, Spoofing Program: Cripple Movement, Spoofing Program: Weapon Glitch, dan Spoofing Program: Cyberpsychosis. Saat menerapkan efek Spoofing Program melalui Quick Action, hanya efek status berkelanjutan yang diterapkan."
+    },
+    {
+      "stage": "S2",
+      "name": "The Blackwall, The Past, The Escape",
+      "description": "Saat melancarkan Resonance Liberation - Netrunner dan Resonance Liberation - Old Net Deep Dive, RAM awal Lucy meningkat menjadi 32.\nSetelah melancarkan Resonance Skill - Pulse Interference, timbulkan 1 instance tambahan Spectro DMG sebesar 450% dari ATK Lucy, dihitung sebagai Heavy Attack DMG.\nSaat instance damage ini mengenai target, terapkan semua efek Spoofing Program berikut: Spoofing Program: Cyberware Malfunction, Spoofing Program: Breach Protocol, Spoofing Program: Cripple Movement, Spoofing Program: Weapon Glitch, dan Spoofing Program: Cyberpsychosis. Hanya efek status berkelanjutan yang diterapkan.\nForte Circuit - Depths of Blackwall ditingkatkan: Saat melancarkan Heavy Attack - Multi-threading, jika Lucy memiliki SQL, peningkatan Damage Multiplier naik dari 270% menjadi 560%."
+    },
+    {
+      "stage": "S3",
+      "name": "Cyberpunk",
+      "description": "Damage Multiplier dari Override pada Resonance Liberation - Netrunner dan Resonance Liberation - Old Net Deep Dive meningkat sebesar 50%, dan Crit. DMG-nya meningkat sebesar 100%.\nDamage Multiplier dari Spoofing Program: Cripple Movement meningkat sebesar 65%.\nDamage Multiplier dari Hack Response - Data Crash meningkat sebesar 65%."
+    },
+    {
+      "stage": "S4",
+      "name": "No Living Legends In Night City",
+      "description": "Saat Resonator di tim memberikan efek Hack - Shifting, Resonator di tim mendapatkan 20% All-Attribute DMG Bonus selama 20 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "A Broken Path To Hell",
+      "description": "Batas tumpukan Optical Illusion yang diperoleh melalui Inherent Skill - Ghost Cyberware meningkat menjadi 2.\nInherent Skill - Ghost Cyberware kini ditingkatkan: Saat HP Lucy turun di bawah 50%, ia segera mendapatkan 1 tumpukan Optical Illusion saat terkena serangan. Efek ini memiliki Cooldown 180 detik. Saat Optical Illusion terpicu, Lucy mendapatkan Shield sebesar 150% dari ATK selama 10 detik."
+    },
+    {
+      "stage": "S6",
+      "name": "I Really Want To Stay At Your House",
+      "description": "Target dengan efek Hack - Shifting atau dalam keadaan Hack - Interfered menerima peningkatan 40% Heavy Attack DMG dari Lucy.\nTarget dengan efek Hack - Shifting atau dalam keadaan Hack - Interfered menerima peningkatan 60% Hack DMG dari Lucy.\nStagnation yang dipicu oleh Hack Response - Data Crash kini berlangsung selama 1,5 detik."
+    }
+  ],
+  "lore": {
+    "description": "Real Name: Lucyna Kushinada\nNation: Night City\nAffiliations: Lahai-Roi \nFather: Takeshi Kushinada\n\nAbout: \nSeorang Edgerunner dari Night City. Netrunner dalam krunya.  \nDengan beban utang yang menghantui hatinya, ia sengaja menjaga jarak dari orang lain. Bahkan mereka yang paling dekat dengannya nyaris tak tahu apa-apa tentang masa lalunya.",
+    "report": {
+      "resonancePower": "Xeno-Domain Hacking",
+      "resonanceEvaluation": "[██ Record Modification Log]\n\nTarget Modifikasi: Lucy Kushinada  \nKode Modifikasi: RA2██-G\n\nSubjek teridentifikasi sebagai Mutant-Type Resonator, dengan Tacet Mark terletak di bahu kanan.\n\nForte Manifestation:  \nSubjek mampu meretas target dalam radius lima meter untuk mencapai tujuan seperti pengambilan informasi, manipulasi data, atau kendali atas target. Pengujian menunjukkan Forte ini dapat memengaruhi hingga tiga target secara simultan, dengan efektivitas lebih tinggi terhadap mechanical constructs.\n\nBio-organic Hacking:  \nForte ini juga dapat digunakan terhadap Tacet Discords. Setelah meretas Tacet Discord, subjek dapat memberikan damage atau mengendalikannya dengan mengganggu frekuensinya. Mekanisme dasar dan batas maksimalnya saat ini belum diketahui. Cakupan kendali diduga dipengaruhi oleh kondisi fisik dan emosional Resonator itu sendiri.\n\nAtas jaminan ███, Research Institute telah menyetujui ███ terbatas terhadap subjek.\n\nCyberware Technology:  \nSubjek menunjukkan sejumlah modifikasi mekanis yang menyatu dengan tubuhnya. Menurut kesaksian subjek, modifikasi tersebut berasal dari ███ dan diklasifikasikan sebagai cybernetic technology. Hasil uji menunjukkan cyberware ini tidak sesuai dengan teknologi yang diketahui saat ini, dan jenis implan ini memberikan tekanan signifikan terhadap tubuh serta psike pengguna. Pada ██ ██, ███ melakukan intervensi dan membatalkan proyek penelitian mengenai teknologi Night City.\n\n",
+      "overclockDiagnostic": "Diagram gelombang subjek menunjukkan fluktuasi tipe puncak (spike) dengan Time Domain yang tidak stabil, mengindikasikan kecenderungan fluktuasi abnormal. Hasil pemeriksaan menunjukkan faktor risiko moderat.\n\nKesimpulan: Resonant Criticality rendah dan stabilitas subjek moderat. Terdapat potensi risiko Overclocking.  \nTidak ada riwayat Overclocking; namun berdasarkan evaluasi klinis dan kriteria diagnostik, subjek menunjukkan gejala distress psikologis dan respons stres. Konseling psikologis rutin direkomendasikan.\n\n> \"Rekomendasi konseling telah ditolak oleh subjek.\"  \n> \"Subjek sebelumnya menggunakan Forte untuk mengubah hasil tes. Sebagian data telah dipulihkan.\""
+    },
+    "items": [
+      {
+        "name": "Moon Travel Poster",
+        "description": "Sebuah poster yang mengiklankan perjalanan ke Bulan. Pernah ada masa ketika kamu tak bisa berjalan sejauh satu blok di Night City tanpa melihat promosi wisata. Dalam iklan-iklan itu, Bulan dijual sebagai surga yang masih perawan dan bersih, bebas dari kebusukan keserakahan korporat. Tempat di mana semua orang hidup setara. Tanpa khawatir, tanpa beban. Tapi harganya selangit. Fasilitasnya konyol. Kabar pun menyebar bahwa ini hanyalah tipu daya korporat lainnya. Dan seperti semua skema serupa, ia pun menghilang dari perbincangan.\n\nKini, para pemimpi menganggapnya hanya sebagai tipu muslihat korporat biasa. Tapi masih ada satu gadis yang berdiri di atap gedung, menatap langit, berharap suatu hari nanti ia benar-benar bisa kabur ke Bulan.",
+        "imageUrl": "/icons/items/lucy-1.webp"
+      },
+      {
+        "name": "Braindance Wreath",
+        "description": " Braindance adalah bentuk media imersif paling populer di Night City dengan teknologi yang merekam dan memutar ulang ingatan serta pengalaman. Bagi banyak orang, ini adalah pelarian dari realitas; tempat untuk tenggelam dalam kehidupan ilusif yang terasa lebih baik daripada apa pun yang ditawarkan dunia nyata.\n\nBagi Lucy, ini adalah tali penyelamat. Ia memiliki braindance berisi rekaman perjalanan ke Bulan, dan ini adalah salah satu barang kesayangannya. Larut malam, sendirian di apartemennya, ia menyambungkan diri dan membiarkan realitas digital membawanya jauh. Ia menikmati ketenangannya, membayangkan masa depan di mana mimpi ini akhirnya menjadi nyata.",
+        "imageUrl": "/icons/items/lucy-2.webp"
+      },
+      {
+        "name": "Tarot Card",
+        "description": "Kartu Tarot The Moon. Kartu ini melambangkan ketakutan, alam bawah sadar, ilusi, dan kebenaran yang menunggu untuk ditemukan. Dalam ilustrasinya, seekor serigala melolong pada bulan yang jauh dan tak terjangkau. Yang lainnya menunggu dalam diam, matanya tertuju pada yang pertama.\n\nKartu ini adalah hadiah dari Misty, yang pernah memberinya pembacaan tarot. Lucy membawanya ke Bulan dan salah satu dari sedikit kenangan Night City yang ia bawa ke sana. Baginya, kartu ini memiliki makna yang kuat. Nyaris ajaib.",
+        "imageUrl": "/icons/items/lucy-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Silhouettes Of The Past",
+        "content": "Lucy menyimpan hampir seluruh masa lalunya untuk dirinya sendiri dan ada alasannya. Hanya sedikit yang tahu bahwa netrunner misterius ini sebenarnya dibina oleh program pendidikan rahasia Arasaka untuk anak-anak. Ada yang bilang itu bukan nasib terburuk; punya atap di atas kepala dan perut kenyang sudah lebih dari yang bisa diharapkan kebanyakan orang di Night City. Tapi bagi Lucy, tak pernah ada jalan lain. Ia dibesarkan di fasilitas hitam megacorp ini dikurung dan dipaksa berlatih. Hari demi hari, tahun demi tahun, ia menembus Blackwall, menyelam ke kedalaman berserakan Old Net, dan berusaha bertahan hidup dari AI liar yang mengintai di sana.\n\nSebagai anak kecil, pandangan dunia Lucy dibangun di atas pilar utama Arasaka: ketaatan sering disalahartikan sebagai loyalitas. Dan ia bukan satu-satunya yang diajari mempercayainya. Sejumlah anak ikut dalam program ini, entah direbut dari orang tua mereka atau diambil dari jalanan. Melayani korporasi paling kuat di planet ini itulah mimpi yang ditanamkan Arasaka di kepala mereka. Di dalam fasilitas itu, mereka dipaksa menyelam dalam Old Net, menjalankan misi bunuh diri berulang-ulang. Tak seorang pun tahu bahwa masa depan sempurna yang dijanjikan hanyalah fatamorgana fantasi rumit yang diciptakan pengawas Arasaka demi kepentingan perusahaan. Saat Lucy akhirnya menyadari kebenarannya, semuanya sudah terlambat.\n\nDorongan untuk bertahan hidup membuat mereka menggaruk jalan keluar dari penjara yang selama ini mereka kira rumah. Mereka lari secepat mungkin, peluru mengoyak udara di sekitar. Tembakan dan jeritan meledak di telinga Lucy, satu demi satu. Tapi ia akan selamat. Ia memejamkan mata, memblokir segalanya, dan terus berlari. Pintu keluar. Ia hanya perlu mencapai pintu keluar.\n\nIa terbangun di sebuah tempat rongsokan tanpa ingatan bagaimana ia sampai di sana, dan tak tahu apakah ada yang selamat bersamanya. Ia lolos dari kejaran untuk saat ini tapi rasa takut yang diukir Arasaka dalam dirinya tak akan pergi. Ia tahu mereka akan memburunya. Bisa merasakannya di bawah kulitnya. Sejak itu, ia tak pernah tinggal lama di satu tempat. Selalu bergerak. Selalu bersembunyi."
+      },
+      {
+        "title": "Dreams & The City Of Dreams  ",
+        "content": "Semua berawal dari sebuah poster: seorang pria berbaju antariksa, menunjuk jalan menuju masa depan yang lebih baik. Bagi Lucy, itu adalah janji akan pelarian. Dan mungkin, hanya mungkin, menemukan tempat yang begitu jauh dari bahaya sehingga ia bisa berhenti berlari. Di malam-malam panjang, berjongkok dengan tangan melingkari lutut, mimpi itu berakar ditanam oleh ketakutan, kesepian, dan kebutuhan akan tempat yang bisa disebut rumah.\n\n> \"Mungkin di Bulan, aku akhirnya akan bebas?\"\n\nPara sinis menertawakan gagasan itu, yakin tak ada sudut pun yang aman dari dominasi korporat. Pergi ke sana sia-sia belaka hanya mimpi kosong yang dipicu propaganda. Tapi itu pendapat orang-orang yang tak pernah ke Bulan. Jadi apa yang mereka tahu? Lucy akan pergi ke sana. Melihat sendiri. Suatu hari nanti.\n\nNight City terasa seperti tempat yang cukup baik untuk bersembunyi sementara. Hutan beton. Saat pertama kali tiba, ia khawatir jangkauan Arasaka terlalu luas, tapi cepat ia belajar menghuni sudut-sudut kota yang diabaikan korporasi. Ia sadar bahwa kejahatan dan kekerasanlah yang benar-benar memerintah di sini. Dan dengan keahliannya serta kewaspadaannya, ia secara alami cocok jadi bahan merc. Seorang edgerunner yang sudah lama terbentuk. Rumah barunya memang tak sepenuhnya aman, tapi untuk pertama kalinya dalam bertahun-tahun, ia merasa bisa bertahan hidup.\n\nMenghapus setiap jejak masa lalunya menjadi identitas barunya. Untuk tetap hidup tanpa membocorkan identitasnya, mantan prodigi netrunner ini hidup dengan kode sederhana: Stay low. Ask nothing. Tell less. Avoid Arasaka. Itu kedoknya. Prinsip kecil, tapi miliknya sendiri. Hidupnya benar-benar berubah saat Kiwi datang mencari netrunner preem untuk mengisi pos di kru Maine. Ia menarik Lucy masuk dan memberinya nasihat paling berguna yang pernah ia dengar:  \n> \"Ingat. Jangan pernah percaya siapa pun di Night City.\""
+      },
+      {
+        "title": "When The Sandevistan Hits  ",
+        "content": "Suatu malam, Lucy membawa David ke tempatnya dan mengajaknya mengalami braindance tentang Bulan. Karena ia belum mampu pergi ke sana, ini adalah cara terdekat untuk merasakan kenyataannya. Merasakan sinar matahari di wajah. Melompat dan melayang seperti bulu. Ketenteraman. Tanpa corpo, tanpa gangster. Ini adalah bagian paling berharga dari dirinya yang bisa ia bagikan.\n\nIa tak bisa menyangkal bahwa David membangkitkan minatnya. Mantan siswa Arasaka Academy yang ambisius bahkan gegabah ingin jadi edgerunner. Menggunakan cyberware militer tingkat tinggi yang sangat menuntut dan sangat berbahaya seolah mainan. Tapi ia anak baik, tulus, murni hatinya. Seseorang yang rasanya bisa ia percaya. Tapi Lucy terlalu lama menjauhkan dunia hingga ia lupa cara meraih tangan orang lain.\n\nSetelah David bergabung dengan kru Maine, Lucy menggerutu karena harus mengasuhnya. Tapi meski protes, ia tetap mengambil alih. Menjadi guru pertamanya di jalanan Night City. Ia mengajarinya dasar-dasar kehidupan merc, mengira anak ini tak akan tahan. Tapi saat melihat David tumbuh menjadi dirinya sendiri, simpul di dadanya mulai longgar.\n\nKeyakinannya padanya muncul pada hari ia menyelamatkan nyawanya.\n\nMalam biasa berubah jadi pembantaian. Saat Pilar jatuh, kru pecah jadi kabut insting dan amarah. Anggota impulsif seperti Rebecca menyerbu si pembunuh, sementara Lucy berlindung untuk menyerang dengan hati-hati. Di tengah kekacauan, David membeku tak bisa bergerak, bertarung, atau bahkan menyelamatkan dirinya sendiri. Tapi di tengah kekacauan itu, dialah satu-satunya yang menyadari Lucy terpojok. Itu saja sudah cukup. Dalam sekejap, ia melompat ke pertempuran, senjata meletus untuk menyelamatkannya.\n\nBang.\n\nAsap. Keheningan. Titik balik bagi mereka berdua.\n\nSetelah itu, Lucy membawanya ke atap tempat ia selalu menatap Bulan. Untuk pertama kalinya, ia tak pergi sendirian. Ia membawa seorang anak yang tak punya apa-apa, tapi menjanjikannya segalanya.\n\nIa berkata akan membawanya ke sana. Ke Bulan. Suatu hari, entah bagaimana. Janji yang terasa lebih nyata dan lebih terang daripada neon mana pun di kota di bawahnya.\n\nJadi, bagaimana mungkin ia tidak mencintainya?"
+      },
+      {
+        "title": "My Moon My Man  ",
+        "content": "Ada yang bilang tragedi adalah satu-satunya kebenaran di Night City. Bahwa kebahagiaan hanyalah asap yang cepat menguap.\n\nMaine dan Dorio gugur dalam misi yang gagal. David mengambil alih beban itu. Memimpin kru. Mewarisi warisan Maine. Menjalani hidup sebagai edgerunner. Rebecca mengganti lengannya dengan cybernetik lebih kuat dan bersumpah tak akan kehilangan siapa pun lagi. Semua orang melangkah maju.\n\nSemua orang, kecuali Lucy.\n\nIa mundur. Menjauh dari kru dan diam-diam melindungi David dari bayangan, memastikan Arasaka tak bisa melacaknya. Ia tak memberi tahu siapa pun. Apalagi David. Ia tahu David akan menghentikannya, atau lebih buruk mengikutinya ke dalam api. Itu sifatnya. Ia terobsesi melindunginya. Tapi kali ini, Lucy bertekad menjadi yang memegang perisai.\n\nIa waspada, tapi ternyata belum cukup. Ia meremehkan Arasaka. Fixernya, Faraday, melihat celah itu. Menemukan retakan di armor. Dan di dalamnya, ia menemukan cara memanfaatkan cinta dua edgerunner untuk naik tangga korporat.\n\nSetelah menculik Lucy, Faraday memaksa David menjalankan misi penyelamatan putus asa saat anak itu berada di ambang cyberpsychosis. David tak menyerah, bahkan saat MaxTac menguntitnya. Rebecca dan Falco sisa kru yang setia melemparkan diri ke garis tembak hanya agar ia terus maju.\n\nCyberskeleton melakukan tugasnya. David berhasil mengeluarkan Lucy... hanya untuk jatuh ke dalam perangkap Arasaka. Perangkap yang dijaga Adam Smasher.\n\nDavid memeluk Lucy erat dan melompat menuju Bulan, yang menggantung dingin dan putih di atas kekacauan. Di saat itu, ciumannya menariknya kembali dari jurang cukup lama. Cukup untuk perpisahan terakhir."
+      },
+      {
+        "title": "So, Get Away  ",
+        "content": "Rebecca dan David telah tiada. Hanya Lucy dan Falco yang selamat hari itu. Mereka berpisah setelah meninggalkan Night City, dan saat debu mengendap, tiba waktunya bergerak lagi.\n\nHanya ada satu tempat yang ia anggap tujuan. Pilihan terlalu jelas. Sebuah janji, yang tak pernah ditepati. Apakah ia pergi ke sana untuk menghormatinya, mewujudkan mimpi, atau bersembunyi selamanya? Lucy tiba di Bulan tanpa jawaban.\n\nPengalaman nyatanya berbeda dari braindance-nya, namun tempat itu terasa anehnya akrab. Sesaat, ia bersumpah melihat David di ujung matanya. Saat itulah kesedihan akhirnya pecah. Bulan tetap sama, tapi anak yang dulu menyertainya dalam braindance sudah tak ada lagi.\n\nNamun, mungkin kisah ini belum usai.\n\n> \"Ada... caranya. Agar kamu bisa tinggal.\"\n\nDi hari ia meninggalkan Somnoire, Lucy berhenti di ambang gerbang dan menoleh pada Rover. Melemparkan pandangan terakhir pada Bulan yang sunyi di kejauhan.\n\n> \"Itu bukan yang mereka inginkan, kan?\""
+      }
+    ],
+    "specialFood": {
+      "name": "",
+      "description": "",
+      "imageUrl": ""
+    }
+  }
+}

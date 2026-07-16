@@ -1,0 +1,495 @@
+{
+  "name": "Chisa",
+  "element": "Havoc",
+  "weapon": "Sword",
+  "rarity": 5,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Support and Healer",
+    "Resonance Liberation Damage",
+    "Havoc Bane"
+  ],
+  "sonatas": [
+    "Thread of Severed Fate"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false
+    }
+  ],
+  "faction": "Black Shores",
+  "affiliation": "Startorch Academy",
+  "class": "Mutant",
+  "image": "/characters/chisa.webp",
+  "imageBanner": "/banners/chisa-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "1900-2100+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "75-85% : 270%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Threnodian Leviathan"
+    ],
+    "bestWeapon": "Kumokiri",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "NS Support",
+          "echoSlug": "threnodian-leviathan",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: havoc%",
+            "3: havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "sonataCustom": [
+            {
+              "name": "Thread Of Severed Fate",
+              "set": 3
+            },
+            {
+              "name": "Havoc Eclipse",
+              "set": 2
+            },
+            "Midnight Veil"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "Jika ia menggunakan senjata signature miliknya, pertimbangkan Havoc DMG Bonus / ATK untuk 3-Cost.",
+    "weaponOptions": [
+      {
+        "id": "kumokiri",
+        "rank": "",
+        "percentage": "125"
+      },
+      {
+        "id": "wildfire-mark",
+        "rank": "",
+        "percentage": "113"
+      },
+      {
+        "id": "ages-of-harvest",
+        "rank": "",
+        "percentage": "105"
+      },
+      {
+        "id": "radiance-cleaver",
+        "rank": "",
+        "percentage": "-"
+      },
+      {
+        "id": "lustrous-razor",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "meditations-on-mercy",
+        "rank": "",
+        "percentage": "-"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar - Opener",
+        "steps": [
+          "Skill",
+          "[E]BA1",
+          "Ult",
+          "BA2",
+          "[E]BA1",
+          "[E]BA2(Hold)",
+          "Echo",
+          "[F]Skill",
+          "[F]BA2(Hold)",
+          "[F]BA3(Hold)",
+          "[E][F]BA",
+          "Outro"
+        ]
+      },
+      {
+        "title": "Standar - Loop",
+        "steps": [
+          "Intro",
+          "Skill",
+          "[E]BA1",
+          "[E]BA2",
+          "Ult",
+          "Echo",
+          "[F]Skill",
+          "[F]BA2(Hold)",
+          "[F]BA3(Hold)",
+          "[E][F]BA",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Erosion ",
+        "members": [
+          [
+            "Cartethyia"
+          ],
+          [
+            "Ciaccona",
+            "Aero Rover"
+          ],
+          [
+            "Chisa"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "Frazzle",
+        "members": [
+          [
+            "Zani",
+            "Phoebe"
+          ],
+          [
+            "Phoebe",
+            "Spectro Rover"
+          ],
+          [
+            "Chisa"
+          ]
+        ],
+        "note": ""
+      }
+    ],
+    "teamNote": "Chisa bukan merupakan pilihan terbaik (best in slot) untuk tim mana pun. Kemampuan tarikan dan pengelompokan (grouping) miliknya mungkin membuatnya lebih disukai untuk gameplay Rover: Aero dalam tim Cartethyia dan Ciaccona.\n\nChisa memberikan buff berikut untuk rekan timnya: \n- Meningkatkan stack maksimal Negative Statuses sebanyak 3 selama 15 detik\n- 30% Def Ignore (12% dari Havoc Bane, 18% dari Forte)\n- Dengan Kumokiri (signature Chisa): 24% All-Attribute DMG Bonus selama 15 detik saat Resonator dalam tim memberikan Negative Statuses.\n\nChisa dapat memaksimalkan DMG Amplify dari Resonance Liberation milik Cartethyia [Blade of Howling Squall]. Ia merupakan alternatif untuk Rover: Aero, yang gameplay miliknya mungkin tidak disukai oleh sebagian orang.\nIa juga memberikan 30% Def Ignore.\n\nBuff Chisa tidak bermanfaat bagi Zani karena ia mengubah semua Spectro Frazzle menjadi Heliacal Embers, yang tidak dianggap sebagai Negative Status."
+  },
+  "skills": {
+    "basic": {
+      "name": "Reign Of Silence",
+      "description": "Basic Attack\nMelakukan hingga 2 serangan beruntun, memberikan  Havoc DMG. \nTekan Normal Attack segera setelah melancarkan Basic Attack Stage 2 untuk melancarkan Rending Lunge.\n\nRending Lunge\nMemberikan  Havoc DMG. \nTekan Normal Attack segera setelah melancarkan Rending Lunge di darat untuk melancarkan Death Snip. Gunakan Normal Attack segera setelah melancarkan Rending Lunge di udara untuk melancarkan Hanging Finality.\n\nDeath Snip\nBuka gunting, memberikan  Havoc DMG. \nSetelah beberapa saat, gunting menjepit, memberikan  Havoc DMG dan memulihkan HP untuk semua Resonators tim terdekat. Gunakan Normal Attack selama Death Snip untuk memberikan Havoc DMG tambahan. Gunakan Normal Attack lagi untuk segera menjepit target. Skill DMG ini dianggap sebagai Resonance Liberation DMG. Tekan Normal Attack segera setelah melancarkan Death Snip untuk melancarkan Thread Withdrawn.\n\nThread Withdrawn\nMemberikan  Havoc DMG. \nDapat memicu successful Dodge dalam periode waktu tertentu setelah dilancarkan.\n\nHeavy Attack\nLompat ke udara dan menggunakan STA untuk menyerang target, memberikan  Havoc DMG. \nSkill Heavy Attack ini tidak dapat dilancarkan saat berada dalam Chainsaw Mode. Lakukan tindakan berikut dalam periode waktu tertentu setelah melancarkan Heavy Attack untuk melancarkan Hanging Finality:\n- Tekan Normal Attack;\n- Lancarkan Lifethread - Glide dan Tekan Normal Attack sebelum mendarat. \nTahan Normal Attack sebelum mendarat setelah melancarkan Heavy Attack untuk melancarkan Heavy Attack - Severed Facet.\n\nMid-air Attack\nMenggunakan STA untuk melakukan Plunging Attack, memberikan  Havoc DMG. \nSaat tidak dalam Chainsaw Mode, Tekan Normal Attack dalam periode waktu tertentu setelah melancarkan Mid-air Attack untuk melancarkan Basic Attack Stage 2.\n\nHeavy Attack - Severed Facet\nMemberikan  Havoc DMG. \nGunakan Normal Attack dalam periode waktu tertentu setelah melancarkan Heavy Attack - Severed Facet untuk melancarkan Hanging Finality. Jika terinterupsi, Heavy Attack - Severed Facet dapat dilancarkan kembali dengan menahan Normal Attack sebelum mendarat. Efek ini hanya dapat dipicu satu kali sebelum mendarat.\n\nHanging Finality\nMenggunakan STA untuk melakukan Plunging Attack, memberikan  Havoc DMG. \nTekan Normal Attack segera setelah melancarkan Hanging Finality di darat untuk melancarkan Death Snip.\n\nDodge Counter\nTekan Normal Attack tepat setelah successful Dodge untuk menyerang target, memberikan  Havoc DMG. \nTekan Normal Attack segera setelah melancarkan Dodge Counter untuk melancarkan Rending Lunge.\n\nDodge Counter - Eye of Unraveling: Retraction\nTahan Dodge setelah successful Dodge di darat untuk melancarkan Dodge Counter - Eye of Unraveling: Retraction. Aksi ini menyerang dan Stagnate target, memberikan  Havoc DMG.\n- Saat tidak dalam Chainsaw Mode, setelah melancarkan skill ini, Tekan Normal Attack di darat atau Gunakan Normal Attack di udara untuk melancarkan Rending Lunge. Efek ini hilang saat Chisa memasuki Chainsaw Mode.\n- Saat dalam Chainsaw Mode, Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Sawring - Blitz Stage 3."
+    },
+    "skill": {
+      "name": "Fractured Composition",
+      "description": "Eye of Unraveling\nStagnate target dan memberikan  Havoc DMG.\n- Saat tidak dalam Chainsaw Mode, setelah melancarkan skill ini, Tekan Normal Attack di darat atau Gunakan Normal Attack di udara untuk melancarkan Rending Lunge. Efek ini hilang saat Chisa memasuki Chainsaw Mode.\n- Saat dalam Chainsaw Mode dan berada di darat, Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Sawring - Blitz Stage 2. Skill ini dapat dilancarkan di udara.\n\nSerrated Loop\nSaat berada di darat dan Ring of Chainsaw penuh, Resonance Skill diganti dengan Serrated Loop. Stagnate target, memberikan  Havoc DMG dan menarik target terdekat. Melancarkan skill ini membuat Chisa memasuki Chainsaw Mode dan mengganti Resonance Skill dengan Eye of Unraveling. Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Sawring - Blitz Stage 2. \nTahan Resonance Skill saat melancarkan skill ini untuk terus menyerang dan menarik target terdekat. Lepaskan tombol Resonance Skill selama durasi atau tahan terus selama periode waktu tertentu untuk melancarkan Sawring - Blitz Stage 1."
+    },
+    "liberation": {
+      "name": "Moment Of Nihility",
+      "description": "Memberikan  Havoc DMG dan memulihkan HP untuk semua Resonators tim terdekat. Melancarkan skill ini membuat Chisa memasuki Woven Myriad - Convergence selama 15 detik. Saat tidak dalam Chainsaw Mode, Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 2. Skill ini dapat dilancarkan di udara dekat daratan.\n\nWoven Myriad - Convergence\nDMG Multiplier dari Sawring - Blitz, Chainsaw Mode - Dodge Counter, dan Sawring - Eradication meningkat sebesar 120%. Bonus DMG Multiplier untuk Sawring - Eradication yang diberikan oleh Sawring - Blitz dan Chainsaw Mode - Dodge Counter saat Ring of Chainsaw digunakan akan meningkat tambahan sebesar 120%. Melancarkan Sawring - Eradication mengakhiri Woven Myriad - Convergence."
+    },
+    "forte": {
+      "name": "Sight Of Unraveling - Oblivion",
+      "description": "Unseen Snare\nChisa memberikan Unseen Snare pada target selama 30 detik melalui 4 cara berikut:\n- Mengenai target dengan Resonance Skill.\n- Mengenai target dalam periode waktu tertentu setelah melancarkan Serrated Loop.\n- Mengenai target dengan Dodge Counter - Eye of Unraveling: Retraction.\n- Melakukan Locking pada target. Ketika target yang ditandai Unseen Snare menerima direct damage dari Resonators, Chisa memberikan 1 stack Havoc Bane pada mereka. Efek ini dapat dipicu hingga sekali setiap 2 detik.\n\nThread of Bane\nKetika memberikan damage kepada target yang terkena Unseen Snare, mengabaikan 18% dari DEF mereka.\n\nChainsaw Mode\nSaat berada dalam Chainsaw Mode, Chisa unlock skill Sawring - Blitz, Sawring - Eradication, Chainsaw Mode - Dodge Counter. Sawring - Blitz dan Chainsaw Mode - Dodge Counter menggunakan Ring of Chainsaw saat mengenai target.\n\nSawring - Blitz\nSawring - Blitz merangkai hingga 3 serangan beruntun, memberikan  Havoc DMG. \n- Tekan Normal Attack untuk memulai kombo dari Sawring - Blitz Stage 1. \n- Tahan Normal Attack untuk memulai dari Sawring - Blitz Stage 2. Tahan Normal Attack saat melancarkan Sawring - Blitz Stage 2 untuk terus menyerang target. Sawring - Blitz Stage 2 secara otomatis dilanjutkan dengan Sawring - Blitz Stage 3. Saat melancarkan Sawring - Blitz Stage 2, Lepaskan tombol Normal Attack atau Dodge tanpa input arah untuk secara otomatis melancarkan Sawring - Blitz Stage 2: Discordance, memberikan  Havoc DMG. \nSegera setelah melancarkan Sawring - Blitz Stage 2: Discordance, successful Dodge dapat dipicu. Tekan Normal Attack segera setelah melancarkan Sawring - Blitz Stage 2: Discordance untuk melancarkan Sawring - Blitz Stage 3. Saat melancarkan Sawring - Blitz Stage 3, Tahan Normal Attack untuk terus menyerang target. \nSawring - Blitz Stage 3 secara otomatis dilanjutkan dengan Sawring - Eradication. \nLepaskan Normal Attack selama Sawring - Blitz Stage 3 untuk secara otomatis melancarkan Sawring - Blitz Stage 3: Falltone, memberikan  Havoc DMG. \nSawring - Blitz DMG dianggap sebagai Resonance Liberation DMG.\n\nChainsaw Mode - Dodge Counter\nSaat dalam Chainsaw Mode, Tekan Normal Attack setelah successful Dodge untuk melancarkan Chainsaw Mode - Dodge Counter, memberikan  Havoc DMG. \nTekan Normal Attack setelah Chainsaw Mode - Dodge Counter untuk melancarkan Sawring - Blitz Stage 3. Tahan Normal Attack saat melancarkan Chainsaw Mode - Dodge Counter untuk mempertahankan serangan. Ketika Chainsaw Mode - Dodge Counter berakhir, Sawring - Blitz Stage 3 dilancarkan secara otomatis. \nLepaskan tombol Normal Attack atau Dodge tanpa input arah saat melancarkan Chainsaw Mode - Dodge Counter untuk secara otomatis melancarkan Sawring - Blitz Stage 2: Discordance. Chainsaw Mode - Dodge Counter memberikan Resonance Liberation DMG.\n\nSawring - Eradication\nSaat dalam Chainsaw Mode, Chisa melancarkan Sawring - Eradication melalui 2 cara berikut:\n- Tekan Normal Attack setelah melancarkan Sawring - Blitz Stage 3: Falltone.\n- Tekan Normal Attack setelah menggunakan semua Ring of Chainsaw dengan Sawring - Blitz atau Chainsaw Mode - Dodge Counter. \n- Menyerang target dengan Sawring - Eradication memberikan  Havoc DMG dan memberikan Shield kepada semua Resonators tim terdekat selama 30 detik. Skill DMG ini dianggap sebagai Resonance Liberation DMG. Setiap 1 poin Ring of Chainsaw yang digunakan oleh Sawring - Blitz dan Chainsaw Mode - Dodge Counter akan meningkatkan DMG Multiplier dari Sawring - Eradication berikutnya. \n- Maksimal 100 poin akan dihitung untuk efek ini. Melancarkan skill ini menggunakan semua Ring of Chainsaw dan mengakhiri Chainsaw Mode\n\nChainsaw Fever\nSaat dalam Chainsaw Mode, Lifethread - Jetstream diganti dengan Chainsaw Fever. \nChainsaw Fever berada pada 100% secara default. Ketika Chisa tidak memberikan damage selama periode waktu tertentu, Chainsaw Fever akan berkurang dengan cepat. \nBegitu mencapai 0, Chisa memasuki Burnout State dan keluar dari Chainsaw Mode. Saat dalam Chainsaw Mode, Chisa mengatur ulang Chainsaw Fever saat memberikan damage atau saat melancarkan Resonance Liberation Moment of Nihility, Intro Skill Reverberance - Return dan Sawring - Blitz Stage 3: Falltone. \nSaat dalam Burnout State, Ring of Chainsaw akan berkurang dengan cepat. Begitu mencapai 0, Chisa keluar dari Burnout State. Saat dalam Burnout State, Chisa keluar dari status ini setelah memberikan damage, atau melancarkan Resonance Liberation Moment of Nihility dan Intro Skill Reverberance - Return.\n\nLifethread - Glide\nKetika Chisa tidak dalam Chainsaw Mode dan memiliki lebih dari 10 poin Lifethread - Jetstream, dia dapat menggunakan 50 poin Lifethread - Jetstream untuk melancarkan Lifethread - Glide melalui 5 cara berikut:\n- Tekan Dodge di udara sebelum mendarat setelah melancarkan Heavy Attack.\n- Saat di udara, Tekan Dodge sebelum mendarat setelah melancarkan Resonance Skill Eye of Unraveling atau Rending Lunge.\n- Dodge maju segera setelah melancarkan Thread Withdrawn.\n- Tekan Dodge sebelum mendarat ketika diluncurkan ke udara.\n- Tekan Dodge sebelum mendarat setelah melancarkan Lifethread - Glide. \nMelancarkan skill ini dapat menarik musuh terdekat yang ditandai Unseen Snare. \nSelama skill, Tahan Dodge untuk meluncur dengan jarak pendek menggunakan senjata. Successful Dodge dapat dipicu dalam periode waktu tertentu setelah melancarkan skill ini.\n\nRing of Chainsaw\nChisa dapat menyimpan hingga 100 poin Ring of Chainsaw. \nMengenai target dengan Normal Attack dan Resonance Skill Eye of Unraveling memberikan RRing of Chainsaw. \nMelancarkan Resonance Liberation Moment of Nihility memberikan 40 poin Ring of Chainsaw.\nMelancarkan Intro Skill Reverberance - Return memberikan 20 poin Ring of Chainsaw.\n\nLifethread - Jetstream\nChisa dapat menyimpan hingga 100 poin Lifethread - Jetstream. \nChisa terus mendapatkan Lifethread - Jetstream seiring berjalannya waktu. \nChisa mendapatkan 100 poin Lifethread - Jetstream setelah mengalahkan target. \nKeluar dari Chainsaw Mode mengatur ulang Lifethread - Jetstream hingga batas maksimal. \nChisa tidak dapat memperoleh Lifethread - Jetstream secara pasif untuk periode waktu singkat setelah melancarkan Lifethread - Glide."
+    },
+    "inherent": [
+      {
+        "name": "Inescapable Fate",
+        "description": "Ketika Resonator dalam tim mengalahkan target yang ditandai Unseen Snare, Cooldown Resonance Skill Eye of Unraveling milik Chisa diatur ulang (reset), dapat dipicu hingga sekali setiap 3 detik."
+      },
+      {
+        "name": "All Ends Here",
+        "description": "Melancarkan Intro Skill Reverberance - Return atau Resonance Liberation Moment of Nihility memberikan 20%  Havoc DMG Bonus dan 20% Healing Bonus selama 12 detik. Ketika Resonators dalam tim yang memiliki Thread of Bane mengalahkan target yang ditandai Unseen Snare, Chisa mendapatkan Sight of Unraveling, yang berlangsung selama 3 detik. Saat dalam Sight of Unraveling, Chisa memberikan Unseen Snare yang berlangsung selama 30 detik pada target yang menerima damage dari Resonators tim yang memiliki Thread of Bane."
+      }
+    ],
+    "intro": {
+      "name": "Reverberance - Return",
+      "description": "Menyerrang target, memberikan  Havoc DMG. \nSaat tidak dalam Chainsaw Mode, Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 2. \nSaat dalam Chainsaw Mode, Gunakan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Sawring - Blitz Stage 2."
+    },
+    "outro": {
+      "name": "Unraveling - Law Zero",
+      "description": "Memberikan Resonant Thread of Closure kepada semua Resonators tim terdekat selama 20 detik. Saat dalam Resonant Thread of Closure:\n- Ketika serangan mengenai target, tingkatkan maksimum stack Negative Status dan Electro Rage yang dapat diterima target sebanyak 3 selama 15 detik. Tidak dapat ditumpuk (Unstackable).\n- Memberikan Negative Status atau memberikan Negative Status DMG memberikan Thread of Bane selama 15 detik."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Abyssal Husk",
+            "amount": 46
+          },
+          {
+            "item": "LF Polygon Core",
+            "amount": 4
+          },
+          {
+            "item": "MF Polygon Core",
+            "amount": 12
+          },
+          {
+            "item": "HF Polygon Core",
+            "amount": 12
+          },
+          {
+            "item": "FF Polygon Core",
+            "amount": 4
+          },
+          {
+            "item": "Summer Flower",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "When Irises Bloom",
+          "amount": 26
+        },
+        {
+          "item": "LF Polygon Core",
+          "amount": 25
+        },
+        {
+          "item": "MF Polygon Core",
+          "amount": 28
+        },
+        {
+          "item": "HF Polygon Core",
+          "amount": 40
+        },
+        {
+          "item": "FF Polygon Core",
+          "amount": 57
+        },
+        {
+          "item": "Waveworn Residue 210",
+          "amount": 25
+        },
+        {
+          "item": "Waveworn Residue 226",
+          "amount": 28
+        },
+        {
+          "item": "Waveworn Residue 235",
+          "amount": 55
+        },
+        {
+          "item": "Waveworn Residue 239",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Chisa",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Kumokiri",
+          "value": 300301.98,
+          "percentage": 125.49,
+          "imagePath": ""
+        },
+        {
+          "type": "Wildfire Mark",
+          "value": 269750.59,
+          "percentage": 112.73,
+          "imagePath": ""
+        },
+        {
+          "type": "Ages Of Harvest",
+          "value": 251561.15,
+          "percentage": 105.12,
+          "imagePath": ""
+        },
+        {
+          "type": "Lustrous Razor",
+          "value": 239297.98,
+          "percentage": 100,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Chisa",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 3.2,
+          "percentage": 3.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 3.9,
+          "percentage": 3.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 83.4,
+          "percentage": 83.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 7.8,
+          "percentage": 7.8,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Chisa",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 300301.98,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 368540.02,
+          "percentage": 122.72,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 455861.82,
+          "percentage": 151.8,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 591492.08,
+          "percentage": 196.97,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Wandering Through The Desolate Corridors",
+      "description": "Chisa kebal terhadap interupsi selama Sawring - Blitz, Sawring - Eradication, dan Chainsaw Mode - Dodge Counter.\nMemberikan Unseen Snare, menambahkan efek tambahan berikut:\n- ATK Chisa meningkat sebesar 30% selama 15 detik.\n- Memberikan 61803 poin  Havoc DMG tetap. HP target hanya dapat berkurang maksimal hingga 61.80% dan setiap target hanya dapat menerima damage ini satu kali. Damage ini dianggap sebagai Basic Attack DMG yang tidak membawa efek apa pun dari bonus damage. "
+    },
+    {
+      "stage": "S2",
+      "name": "Into The Web Of Endless Bonds",
+      "description": "Mengabaikan 10% Havoc RES target saat memberikan damage. \nResonators tim terdekat yang memiliki Thread of Bane mendapatkan 50% All-Attribute DMG Bonus."
+    },
+    {
+      "stage": "S3",
+      "name": "Across The Confusion Of The Long Night",
+      "description": "DMG Multiplier dari Sawring - Blitz, Chainsaw Mode - Dodge Counter dan Sawring - Eradication meningkat sebesar 120%. \nEfek ini dapat ditumpuk secara bersamaan dengan efek dari Woven Myriad - Convergence. \nBonus DMG Multiplier untuk Sawring - Eradication yang diberikan oleh Sawring - Blitz dan Chainsaw Mode - Dodge Counter saat Ring of Chainsaw digunakan ditingkatkan sebesar 120%. \nEfek ini dapat ditumpuk secara bersamaan dengan efek dari Woven Myriad - Convergence. \nVibration Strength Reduction Rate dari Sawring - Blitz, Chainsaw Mode - Dodge Counter dan Sawring - Eradication ditingkatkan sebesar 50%."
+    },
+    {
+      "stage": "S4",
+      "name": "Severing The Endless Cycle Of Tragic Fate",
+      "description": "Efek dari Unseen Snare menjadi: \nKetika target yang ditandai Unseen Snare menerima direct damage dari Resonators, Chisa memberikan 1 stack Havoc Bane pada mereka. \nEfek ini dipicu hingga sekali setiap 1 detik."
+    },
+    {
+      "stage": "S5",
+      "name": "Thousands Of Lights To Guide The Way Home",
+      "description": "Resonance Liberation Moment of Nihility mendapatkan 100% DMG Bonus. \nLifethread - Glide membutuhkan 50% lebih sedikit Lifethread - Jetstream."
+    },
+    {
+      "stage": "S6",
+      "name": "Thus, Hope Is Rekindled With The Rising Dawn",
+      "description": "Ketika Chisa menerima pukulan fatal selama Sawring - Blitz, Sawring - Eradication, dan Chainsaw Mode - Dodge Counter, dia akan tetap berdiri dengan setidaknya 1 HP.\n- Unseen Snare menjadi Unseen Snare - Finality, yang memiliki efek berikut:\n- Unseen Snare - Finality memiliki semua efek dari Unseen Snare.\n- Target yang terkena Unseen Snare - Finality menerima 30% Amplified DMG dari Negative Statuses.\n- Target yang terkena Unseen Snare - Finality menerima 40% peningkatan DMG dari Chisa."
+    }
+  ],
+  "lore": {
+    "description": "\"Just an ordinary student.\"\nDengan tenang, ia memperkenalkan dirinya, samar kilauan warna-warni berkedip di matanya. \nLagi, struktur dunia terungkap dalam pandangannya. Ia menyipitkan mata, memilih satu benang yang tepat dengan benang yang menarik kehidupan itu sendiri.\n\nBIRTHPLACE\nAshinohara",
+    "report": {
+      "resonancePower": "Eye of Unraveling",
+      "resonanceEvaluation": "Otorisasi dikonfirmasi. Berkas terkait telah dibuka. Selamat datang, Inspektur ███\n\nForte Examination Report: NHA-Eye of Unraveling-017\n\nSubject: Chisa Kuchiba\nTipe Resonator: Mutant\nLokasi Tacet Mark: Lengan atas kanan\nLembaga Pengujian: Ashinohara - Neo Honami - Resonator Monitoring Center\n\nPengujian menunjukkan subjek memiliki kemampuan kognitif luar biasa untuk secara intuitif memahami struktur, bentuk, dan pergerakan objek yang diamati. Saat menggunakan Forte-nya, ia mampu menganalisis titik lemah objek melalui penglihatannya dan memberikan gangguan presisi untuk memicu kehancuran struktural.\n\nCatatan: Subjek melaporkan melihat \"benang-benang\" yang menyebabkan objek terurai. Analisis awal menunjukkan bahwa \"benang-benang\" tersebut bukan entitas nyata, melainkan manifestasi visual yang eksklusif bagi penglihatannya.",
+      "overclockDiagnostic": "Access Level Upgrade: R-III\n\nForte subjek menunjukkan sifat ekstensif dan potensi pertumbuhan yang melampaui ambang batas keamanan. Dalam kondisi ekstrem, ia berpotensi menganalisis struktur spasial abstrak, mengidentifikasi \"benang-benang\" anomali di dalam ruang anomali, serta memicu kejadian distorsi realitas, termasuk kerusakan spasial ██.\n\nIndikator Anomali Saat Ini:\n\nTerdeteksi fluktuasi tajam berulang pada Kurva Rabelle-nya, dengan nilai puncak mendekati batas kritis.\n\nStabilitas Forte tetap lemah, menimbulkan risiko terukur terhadap Overclocking.\n\nLangkah Pemantauan Awal:\nSubjek diwajibkan mengenakan perangkat supresi Resonator berbentuk kalung untuk mengatur Forte-nya dan dimasukkan ke dalam daftar observasi Resonator berisiko tinggi.\n\nLembaga pemantau terkait diperintahkan untuk terus memperbarui catatan kepada otoritas pusat mengenai perubahan Forte dan lokasi real-time subjek. Jika dianggap perlu, tindakan wajib dapat diambil sesuai ketentuan hukum."
+    },
+    "items": [
+      {
+        "name": "Old-Style Scissors",
+        "description": "Sepasang gunting bergaya vintage. \nDulu merupakan pemandangan umum di setiap pasar puluhan tahun lalu, kini perlahan tenggelam dalam keterlupaan.\n\n\nDulu, gunting ini memotong benang-benang lepas dari seragam sekolah. Pernah pula menggunting pita hadiah ulang tahun. Takdir memang suka menyembunyikan pertanda dalam gerakan terkecil sekalipun. Setiap bukaan dan tutupannya menandai tak terhitung akhir dan permulaan dalam hidupnya—memotong benang, pita, struktur, maupun lingkaran tak berujung.\n\nSetiap potongan tak pernah benar-benar menjadi akhir, melainkan bisikan halus akan sesuatu yang baru.",
+        "imageUrl": "/icons/items/chisa-1.webp"
+      },
+      {
+        "name": "Red Hair Ribbon",
+        "description": "Ada yang bilang benang merah memberi perlindungan. Yang lain percaya ia mengusir kejahatan. Tapi dalam kisah yang lebih kuno, konon benang itu mengikat orang-orang dengan tarikan takdir yang tak terelakkan.\n\nSebuah ikatan tak kasatmata, terjalin oleh takdir, telah diam-diam menghubungkannya dengan orang lain dan pada suatu masa depan yang belum diketahui—dengan kekuatan yang tak tertahankan.\n\nSejak saat itu, seberapa pun panjang atau sunyinya perjalanan, ia terus melangkah maju dengan echo of companionship menyertainya.\n\n",
+        "imageUrl": "/icons/items/chisa-2.webp"
+      },
+      {
+        "name": "Protective Charm",
+        "description": "Ia masih mengingat hari itu. Hujan baru saja reda, meninggalkan langit biru tanpa cela. Orang tuanya menggenggam tangannya saat mereka bersama-sama menarik tali lonceng kuil. Di tengah dentang yang masih bergema, ibunya mengikatkan jimat pelindung kecil ke pergelangan tangannya.\n\n\"Ini akan selalu melindungimu, Chisa.\"\n\nChisa kecil menggoyangkan pergelangannya, memandangi rumbai jimat itu bergoyang tertiup angin, seolah menjawab sebuah janji yang belum ia pahami.\n\n\"Tak peduli sejauh apa kau pergi, kapan pun itu, kami akan selalu di sini—menunggumu pulang.\"",
+        "imageUrl": "/icons/items/chisa-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": " The Summer Where The Story Began",
+        "content": "Ia melewati musim panas usia enam tahunnya dengan duduk di pundak ayahnya.\n\nAngin malam membawa aroma campuran petasan dan cumi bakar dari kios festival. Dengan sebatang marshmallow di satu tangan, Chisa kecil menunjuk langit dengan tangan satunya lagi. Lentera berbentuk ikan mas bergoyang tertiup angin, dan kembang api mekar di atas kepala. Ia melihat benang-benang merah yang diikat di pergelangan tangan orang-orang meregang dan saling menjalin, membentuk jaring tak kasatmata yang hangat dan melingkupi kerumunan festival dengan lembut.\n\n\"Apa permohonan yang tadi kamu ucapkan, Chisa?\" \n\ntanya ibunya, dengan pantulan kembang api yang lembut di matanya.\nPipi Chisa lengket oleh sirup apel saat ia mengembungkannya dan dengan bangga menyatakan,\n\n\"Aku mau jadi seperti Ibu! Membuat guntingan kertas terindah supaya aku bisa menyimpan semua hal berharga dan bahagia—\"\n\nMusim panas saat usianya dua belas tahun berbeda. Tahun itu, dunianya tiba-tiba jatuh ke dalam keheningan.\n\nAyahnya terus-menerus pergi dinas, dan pintu kulkas dipenuhi jadwal shift ibunya. Lama-kelamaan, ia terbiasa dengan bunyi bip dingin yang menyambutnya di ujung telepon.\n\n\"Gak apa-apa. Aku bisa jaga diri sendiri,\" \n\nbisik Chisa kecil pada dirinya sendiri.\nDengan tekad itu, ia membuka tutup panci dan memutuskan memasak sukiyaki beraroma lemon untuk dirinya sendiri. Bungkus paket makanan siap saji di meja bertuliskan tebal: hidangan penyembuh untuk kumpul keluarga.\n\nKaldu mulai mendidih, memenuhi ruangan dengan aroma daging sapi dan kaya sayuran. Uap mengaburkan jendela. Saat Chisa menoleh ke kaca yang berkabut, yang terlihat hanyalah bayangannya sendiri, kesepian. Tak ada tawa, tak ada denting gelas.\n\n\"Untuk kumpul keluarga.\"\n\nKalimat yang terdengar begitu lembut, pikirnya, namun terasa sangat, sangat jauh."
+      },
+      {
+        "title": "The Long Rainy Season",
+        "content": "Musim panasnya yang kelima belas beraroma serutan pensil dan kesepian.\n\nSuatu sore, hujan tak henti-hentinya di musim tsuyu sempat reda sejenak. Sambil membawa stack buku yang akan dikembalikan, Chisa menyeberangi halaman sekolah dan melewati ruang perlengkapan. Dari balik pintu terdengar isakan tertahan. Lewat celah sempit, ia melihat teman sekelasnya Ritsuko terpojok oleh tiga gadis—bajunya bernoda tinta, kacamata pecah berserakan di lantai. Gadis di depan menempelkan korek api ke sulaman nama di seragam Ritsuko, mengisi udara dengan bau anyir kain yang hangus.\n\nPemandangan itu mengingatkannya pada katak di pelajaran biologi—dipaku rata di nampan bedah, kaki-kakinya terentang, tapi jantungnya masih berdetak sia-sia. Sebelum sempat berpikir, tangannya sudah bertindak. Ia mendorong pintu yang terbuka sedikit itu dan mengeluarkan gunting yang selalu dibawanya.\n\nGunting kecil itu dulu setia menemani ibunya sepanjang kariernya, lalu diwariskan padanya. Kini, untuk pertama kalinya, ujungnya mengarah ke wajah seseorang.\n\n\"Biarkan dia pergi,\" \n\ntuntutnya.\n\nPembalasan datang cepat. Keesokan pagi, mejanya terukir kata \"idiot\". Lokernya meluap dengan buku pelajaran yang disobek-sobek. Tapi yang terburuk adalah wajah-wajah yang kabur—begitu ia mencoba mengenali siapa yang menjatuhkannya, semua wajah di sekitarnya telah melebur jadi coretan warna tak berbentuk. Laporan dokter menyebutnya \"gangguan pengenalan wajah psikogenik.\" Akibat Forte-nya yang terbangun, otaknya memutus benang yang memungkinkannya mengenali wajah orang.\n\nSaat itu, ia mendengar bunyi samar—bukan patahnya saraf yang rapuh, melainkan seperti suara tali lentera ikan masnya yang tersangkut di dahan bertahun-tahun lalu. Benang-benang hangat yang dulu mengikat orang-orang perlahan terurai, jatuh berhamburan seperti kepingan yang retak.\n\nSaat guntingnya merobek catatan terakhir penuh kata-kata kejam, hujan menghantam jendela kelas. Chisa menatap pantulan dirinya yang kabur dan berkedip di kaca, lalu tiba-tiba sadar: tumbuh dewasa berarti belajar memotong sendiri semua benang yang kusut—tali lentera yang tersangkut di dahan, benang layang-layang yang makin menjauhkannya dari orang tua, atau lengkung kejam yang membeku di bibir para pengganggunya.\n\nMusim hujan terus berlangsung. Suara jangkrik muncul seiring panas musim panas yang kian menguat. Sambil menggenggam erat guntingnya, Chisa mulai membayangkan jalan yang bisa ia ukir sendiri: mungkin sepi, tapi setia pada hatinya. Jalan yang tak perlu ia tinggalkan lagi."
+      },
+      {
+        "title": "Blurred Features",
+        "content": "Di musim panasnya yang keenam belas, awan kelam membentang tanpa ujung, dan hujan deras mengguyur. Guntur menghantam gendang telinganya saat ia berdiri di depan jendela kaca setinggi langit-langit di Resonator Monitoring Center.\n\n\"Kamu dengar aku?\" \n\nSuara itu tajam penuh ketidakpuasan. Chisa mengangkat pandangannya, hanya untuk melihat wajah sang pembicara perlahan larut menjadi kosong.\n\n\"Jelas sekali,\" \n\njawabnya pada kehampaan.\n\nKalung itu mengunci di lehernya dengan bunyi klik, membawa sentuhan dingin perangkat pengawas.\n\nSaat badai akhirnya reda, ia pun pulang. Melewati taman, ia melihat seorang anak laki-laki menangis di samping seluncuran, menggenggam erat benang layang-layang yang putus. Dalam pandangannya, layang-layang yang tersangkut di pohon tampak jelas luar biasa: tiga dahan membentuk kunci alami, dan jika dahan paling kanan dipotong—\n\n\"Tunggu dulu,\" \n\nia menghentikan anak itu sebelum menarik benangnya. Mata sang anak melebar. Dengan bunyi patah yang lembut, dahan itu terbelah, dan layang-layangnya perlahan melayang turun, jatuh pelan ke pelukannya.\n\n\"Makasih—\" \n\nSeruan riangnya terhenti oleh teriakan nyaring.\n\n\"M-monster! Jauhi anakku!\"\n\nMengikuti arah pandang sang ibu yang ketakutan, Chisa pun kembali sadar akan kalung yang menggigit lehernya dengan dingin.\n\nBukan masalah besar. Ia mengingatkan dirinya sendiri—ia seharusnya sudah terbiasa dengan ini.\n\nIa bisa melihat rangka layang-layang, lintasan tetesan hujan, bahkan aliran elektron yang mengalir di awan badai dengan kejelasan luar biasa—tapi tak pernah bisa menembus wajah orang lain, apalagi hati mereka.\n\nIa berbalik dan hendak melangkah ke dalam hujan, tapi tarikan kecil menahan lengan bajunya. Anak itu telah melepaskan diri dari genggaman ibunya. Ia menekan sebungkus permen berbentuk bintang ke telapak tangan Chisa.\n\n\"Ini buat kamu! \nGuruku bilang cuma yang berani yang dapat permen bintang, jadi…\"\n\nBungkus plastiknya berderak pelan di tangannya. Chisa menatap anak itu. Wajahnya tetap kabur, tapi bersinar—seperti kunang-kunang yang mengelilingi lentera di festival lama.\n\n\"Ibu bilang orang yang pakai kalung begini itu jahat,\" \n\nbisiknya, mendekat. \n\n\"Tapi aku nggak percaya. Cara kamu motong dahan tadi? Keren banget.\"\n\nChisa berhenti sejenak, lalu berjongkok dan mengelus kepalanya.\n\nPerangkat di lehernya tetap diam. Spektrum Resonansinya menunjukkan kurva langka yang stabil. Seperti langit musim panas setelah badai, secercah cahaya akhirnya menembus."
+      },
+      {
+        "title": "Nightmare Of The Second Month",
+        "content": "\"...!\"\n\nChisa terbangun dari mimpi buruknya, keringat dingin membasahi punggungnya. Masih dalam keadaan linglung, sisi tubuhnya terasa nyeri tajam—rasa sakit hantu yang mencakar sarafnya.\n\nTapi kulitnya utuh, tidak seperti dalam mimpinya. Ia menarik napas dalam, lalu menekan dada, berusaha menenangkan detak jantung yang kacau.\n\nSudah dua bulan sejak ia terjebak di Honami. Tubuhnya perlahan beradaptasi dengan hari yang berulang tanpa akhir, tapi tiap malam mimpi buruk itu menarik jiwanya semakin dalam ke jurang.\n\nIa menoleh ke arah sofa. Sumika tertidur pulas—satu tangan terlepas dari bantal, tangan lainnya tergeletak di samping buku catatan terbuka yang penuh coretan angka dan catatan acak.\n\nDi luar, hujan turun tanpa henti.\n\nSaat Sumika terbangun, senja sudah datang. Badai mulai reda. Bintang-bintang samar bertebaran di langit biru pekat, seperti paku perak yang tersebar acak di malam yang dingin. Masih menguap, ia mengikuti Chisa masuk ke sebuah toko kelontong. Sementara Chisa dengan hati-hati mengumpulkan makanan dan perlengkapan dari rak, ia menoleh dan melihat Sumika terpaku pada papan iklan berkedip di atas kepala—buku catatan dan pulpen sudah siap di tangannya.\n\n\"Chisa, lihat ini—\" \n\nbisiknya, suaranya penuh semangat yang ditahan. \n\n\"Ini sama persis seperti kemarin! \nWaktu, kecepatan kedipannya... \nsemuanya cocok! \nKalau kita bisa kumpulkan sedikit lagi data... \nkita bisa temukan pola di balik loop ini!\"\n\nMelihat kilau di matanya, Chisa tanpa sadar menggenggam erat tangannya. Di telapaknya masih tersisa sensasi potongan kemarin—saat ia memotong benang Tacet Discords—getaran dingin seperti kain sutra yang putus.\n\nSetiap kali ia mengeluarkan gunting dan menggunakan Forte-nya, garis-garis merah muncul dalam pandangannya: benang-benang kehidupan yang hanya bisa dilihatnya. Berbeda dengan kehangatan urat nadi manusia, benang-benang ini menguapkan bau busuk. Mereka mengejar para Left Behind, mengoyak mereka, lalu menarik nyawa rapuh itu masuk ke loop baru bersama Lament.\n\nChisa menatap bayangannya di jendela: wajah tenang, nyaris pucat, tapi masih menyisakan bara api di matanya.\n\nKemarin, di toko yang sama ini, ia bertemu lagi dengan gadis itu. Gadis yang selalu ia temui di tiap loop, yang dengan tulus berbagi camilan, tanpa pernah menyadari bahwa dirinya memancarkan cahaya iridescent khas Left Behind. Mungkin justru kebaikan rapuh namun teguh itulah yang membuat Chisa enggan menerima kenyataan bahwa kota ini telah selamanya terpenjara di masa lalu.\n\nMalam memang panjang, tapi fajar akan selalu datang.\n\nSaat cahaya pertama akhirnya menembus awan kelabu, ia merasa mendengar dengung getaran halus dari benang-benang itu. Menempelkan tangan ke dadanya, Chisa tahu—saat loop berikutnya dimulai, segalanya akan di-reset lagi.\n\nTapi itu tidak masalah.\n\nSelama gunting masih berada di genggamannya, selama kepingan kehangatan itu belum sepenuhnya dilupakan...\n\nIa akan terus melangkah maju, sampai hari ia akhirnya bisa memotong mimpi buruk ini dan memutus jeratnya."
+      },
+      {
+        "title": "Beyond The Summer'S End",
+        "content": "Di sore hari, gerimis mengetuk jendela dengan pelan.\n\nChisa berdiri di depan jendela kaca setinggi langit-langit di Spacetrek Archive. Di usia delapan belas, ia akhirnya punya waktu luang untuk mendengarkan irama hujan—bukan dentuman monoton hujan berulang di Honami, melainkan tetesan alami Lahai-Roi. Segar, hidup, dengan semburat manis samar di udara. Jenis hujan yang dengan santai membasahi seragam sekolah yang tergantung di balkon, atau menguyur siswa yang tak siap di tengah jalan pulang.\n\nUap perlahan mengepul dari cangkir kopi di mejanya. Dengan guntingnya, ia membuka bungkus gula... Ya, ia masih membawanya ke mana-mana, meski kini lebih sering dipakai untuk memangkas tanaman pot atau membuka paket. Gula itu larut perlahan ke permukaan hitam kopi. Di luar jendela, beberapa siswa berjubah hujan kuning cerah melompat-lompat di genangan air. Warna cerah mereka menusuk kabut abu-abu gerimis, membangkitkan kenangan tentang hari-hari yang dihabiskan menghadapi loop tanpa akhir dan permulaan yang tak henti—tentang seseorang yang dulu berjalan bersamanya menuju tujuan dari siklus abadi itu, memotong jalan melewati malam yang panjang; dan tentang seseorang yang memilih menapaki jalan palsu berulang kali sendirian, mengubah dirinya menjadi batu penjuru kebenaran.\n\nSaat hujan mereda, Chisa keluar dari Archive sambil menggenggam sebuah buku. Angin senja yang lembap mengangkat helai rambut barunya yang pendek. Kampus terbentang di hadapannya, bermandikan cahaya lembut selepas hujan. Sekelompok mahasiswa Teknik sedang berdebat sengit tentang perangkat melayang. Seseorang melihatnya lewat kabut yang mulai menipis, melambai ceria, dan memanggilnya untuk bergabung—\n\nIa memandang jiwa-jiwa muda yang penuh semangat ini—kawan seperlangit, semua menuju lautan bintang yang sama. Dan dengan kejelasan yang menusuk, ia sadar: ia bukan lagi pengembara yang tersesat dalam loop tanpa akhir. Hidupnya, setelah masa terhenti yang panjang, kini telah kembali menyatu dengan arus deras yang membawa semua orang maju.\n\nIa benar-benar telah meninggalkan musim panas abadi itu di belakang.\n\nDengan langkah mantap, ia berjalan menuju masa depan barunya."
+      }
+    ],
+    "specialFood": {
+      "name": "Lemon-Scented Sukiyaki",
+      "description": "Meningkatkan drop rate Echo sebesar 22%, berlangsung selama 30 menit. Hanya efektif untuk Resonators sendiri dalam Co-op Mode.",
+      "imageUrl": "/icons/food/chisa.webp"
+    }
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "name": "Youhu",
+  "element": "Glacio",
+  "weapon": "Gauntlet",
+  "rarity": 4,
+  "version": "3.0",
+  "lastUpdated": "2026-01-12",
+  "roles": [
+    "Support and Healer",
+    "Resonance Skill DMG",
+    "Vibration Strength Reduction",
+    "Coordinated Attack DMG Amplification"
+  ],
+  "sonatas": [
+    "Rejuvenating Glow"
+  ],
+  "changelog": [
+    {
+      "text": "Minimal update",
+      "type": "updated",
+      "isNew": false
+    }
+  ],
+  "faction": "Chongzhou",
+  "affiliation": "",
+  "class": "Mutant",
+  "image": "/characters/youhu.webp",
+  "imageBanner": "/banners/youhu-banner.jpeg",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110-125%+",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return"
+    ],
+    "bestWeapon": "Verity's Handle",
+    "echoDetails": {
+      "note": "FONR memberikan 10% ATK buff selama 20 detik (100% uptime, 20 detik CD), sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat terhenti lebih awal jika shield yang diberikan terkena serangan sebanyak 3 kali. FONR juga lebih mudah secara keseluruhan untuk dikumpulkan karena hanya menjatuhkan satu sonata set.",
+      "sets": [
+        {
+          "label": "Healer",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: glacio%",
+            "3: glacio%",
+            "1: ATK%",
+            "1: ATK%"
+          ],
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "bell",
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "veritys-handle",
+        "percentage": "113",
+        "rank": ""
+      },
+      {
+        "id": "tragicomedy",
+        "percentage": "107",
+        "rank": ""
+      },
+      {
+        "id": "pulsation-bracer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "abyss-surges",
+        "percentage": "100 ",
+        "rank": ""
+      },
+      {
+        "id": "stonard",
+        "percentage": "86",
+        "rank": ""
+      },
+      {
+        "id": "hollow-mirage",
+        "percentage": "82",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Skill",
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      {
+        "name": "Support - Coordinated ATK",
+        "note": "",
+        "members": [
+          [],
+          [],
+          [
+            "Youhu"
+          ]
+        ]
+      }
+    ],
+    "teamNote": "Youhu, seperti healer lainnya, terintegrasi dengan baik ke dalam sebagian besar komposisi tim. Ia memberikan Coordinated ATK DMG bagi Resonator berikutnya sebesar 100% selama 28 detik setelah melancarkan Outro Skill miliknya.\nIa paling bersinar saat dipasangkan dengan unit Sub DPS yang memiliki Coordinated Attacks, seperti Cantarella, Mortefi, Yinlin, dan Zhezhi.\n\nYouhu memberikan buff berikut untuk rekan timnya:\n- 100% Coordinated Attack DMG Amplify selama 28 detik setelah melancarkan Outro Skill."
+  },
+  "skills": {
+    "basic": {
+      "name": "Frosty Punches",
+      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut, memberikan  Glacio DMG.\n\nHeavy Attack\n- Saat Frost penuh, tahan tombol Normal Attack untuk mengaktifkan Frostfall.\n- Saat Frost penuh dalam keadaan Fortune Rolling, lepaskan tombol Normal Attack untuk mengaktifkan Frostfall. Jika Youhu tidak dapat mengaktifkan Frostfall saat itu, maka akan melakukan Lucky Draw sebagai gantinya.\n\nYouhu dapat memperoleh Frost dengan cara berikut:\n- Saat Frost tidak penuh, tahan tombol Normal Attack untuk memasuki Fortune Rolling dan memulihkan Frost seiring waktu.\n- Saat Basic Attack mengenai target.\n\nHeavy Attack: Frostfall\nYouhu menerjang ke depan, memberikan  Glacio DMG, dan melakukan Lucky Draw sekali.\n\nMid-air Attack\nMelakukan Plunging Attack dengan menghabiskan STA, memberikan  Glacio DMG.\n\nDodge Counter\nSaat Youhu tidak memiliki Antique, tekan tombol Normal Attack dengan cepat setelah berhasil Dodge untuk menerjang ke depan, memberikan  Glacio DMG, dan melakukan Lucky Draw sekali."
+    },
+    "skill": {
+      "name": "Scroll Divination",
+      "description": "Youhu menghantam musuh dengan gulungannya, memberikan  Glacio DMG, memulihkan HP semua anggota tim di sekitarnya, dan melakukan Lucky Draw sekali.\n\nLucky Draw\nYouhu memperoleh Antique secara acak setelah menggunakan Lucky Draw.\nSaat memiliki Antique, Basic Attack berikutnya akan mengaktifkan Antique Appraisal yang sesuai.\nHanya satu Antique yang dapat ada dalam satu waktu, dan Antique baru akan menggantikan yang lama.\n\nAntique Appraisal\n- Chime: Menyerang musuh dengan lonceng, memberikan  Glacio DMG. Chime dapat mengurangi Vibration Strength musuh secara efektif.\n- Ruyi: Menghantam musuh dengan tongkat Ruyi, memberikan  Glacio DMG. Ruyi memiliki DMG Multiplier lebih tinggi.\n- Ding: Menerjang musuh dengan Ding, memberikan  Glacio DMG. Ding dapat mematahkan stance musuh lebih efektif.\n- Mask: Melempar topeng ke musuh di depan, memberikan  Glacio DMG. Mask dapat menarik musuh dalam jalurnya."
+    },
+    "liberation": {
+      "name": "Fortune'S Favor",
+      "description": "Youhu melemparkan gulungannya ke musuh, menghasilkan ledakan  Glacio DMG di area tersebut.\n\nSaat ledakan terjadi, empat tombol akan muncul. Pilih tombol dalam waktu yang ditentukan untuk memperoleh Antique yang sesuai. Jika tidak memilih, Youhu akan mendapatkan Antique secara acak."
+    },
+    "forte": {
+      "name": "Poetic Essence",
+      "description": "Saat memiliki empat Auspices, tahan tombol Normal Attack untuk mengaktifkan Poetic Essence, memberikan  Glacio DMG (dianggap sebagai Resonance Skill DMG) dan memulihkan HP semua anggota tim di sekitar.\n\nYouhu dapat menyimpan hingga empat Auspices.\nPoetic Essence\nMemberikan  Glacio DMG kepada musuh dalam area dan mendapatkan efek tambahan berdasarkan kombinasi Auspice:\n- Free Verse: (4 Auspices berbeda) → Mengurangi Vibration Strength musuh yang terkena.\n- Antithesis: (2 pasang Auspices) → Meningkatkan DMG Poetic Essence sebesar 70%.\n- Double Pun: (2 pasang Auspices yang sama) → Memulihkan HP semua anggota tim.\n- Triplet: (3 Auspices identik) → Meningkatkan DMG Poetic Essence sebesar 175%.\n- Perfect Rhyme: (4 Auspices identik) → Mengaktifkan efek Free Verse, Double Pun, dan Triplet secara bersamaan.\n\nMenggunakan Poetic Essence akan menghapus semua Auspices.\n\nAuspice\n- Youhu memperoleh Auspice melalui Antique Appraisal. Gunakan Basic Attack saat memiliki Antique untuk mendapatkan Auspice yang sesuai.\n- Youhu memperoleh Antique melalui Resonance Skill Scroll Divination, Intro Skill Scroll of Wonders, Heavy Attack Frostfall, Resonance Liberation Fortune’s Favor, dan Dodge Counter."
+    },
+    "inherent": [
+      {
+        "name": "Treasured Piece",
+        "description": "Saat Resonance Skill Antique Appraisal digunakan, memulihkan HP semua anggota tim di sekitar berdasarkan 30% dari pemulihan yang diberikan oleh Resonance Skill Scroll Divination."
+      },
+      {
+        "name": "Rare Find",
+        "description": "Meningkatkan  Glacio DMG Bonus sebesar 15% selama 14 detik setelah menggunakan Intro Skill Scroll of Wonders."
+      }
+    ],
+    "intro": {
+      "name": "Scroll Of Wonders",
+      "description": "Melempar gulungan dan melakukan Lucky Draw sekali."
+    },
+    "outro": {
+      "name": "Timeless Classics",
+      "description": "Resonator yang masuk memperoleh Amplifikasi DMG Coordinated Attack sebesar 100% selama 28 detik."
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "cost": [
+          {
+            "item": "Topological Confinement",
+            "amount": 46
+          },
+          {
+            "item": "Crude Ring",
+            "amount": 4
+          },
+          {
+            "item": "Basic Ring",
+            "amount": 12
+          },
+          {
+            "item": "Improved Ring",
+            "amount": 12
+          },
+          {
+            "item": "Tailored Ring",
+            "amount": 4
+          },
+          {
+            "item": "Violet Coral",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ],
+        "level": 90
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": "Monument Bell",
+          "amount": 26
+        },
+        {
+          "item": "Crude Ring",
+          "amount": 25
+        },
+        {
+          "item": "Basic Ring",
+          "amount": 28
+        },
+        {
+          "item": "Improved Ring",
+          "amount": 40
+        },
+        {
+          "item": "Tailored Ring",
+          "amount": 57
+        },
+        {
+          "item": "Cadence Seed",
+          "amount": 25
+        },
+        {
+          "item": "Cadence Bud",
+          "amount": 28
+        },
+        {
+          "item": "Cadence Leaf",
+          "amount": 55
+        },
+        {
+          "item": "Cadence Blossom",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "analysisCharts": [],
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Waterside Respite",
+      "description": "Youhu memiliki 10% peluang untuk menjadi kebal terhadap damage dan interupsi setelah menggunakan Lucky Draw. Efek ini berlangsung selama 5 detik atau hingga dia diganti keluar."
+    },
+    {
+      "stage": "S2",
+      "name": "Sunroom Siesta",
+      "description": "Bonus DMG dari Antithesis, Triplet, dan Perfect Rhyme pada Poetic Essence menjadi dua kali lipat."
+    },
+    {
+      "stage": "S3",
+      "name": "Restless Sleep",
+      "description": "ATK Youhu meningkat sebesar 20%."
+    },
+    {
+      "stage": "S4",
+      "name": "Frosted Lullaby",
+      "description": "Setiap kali Resonance Skill Scroll Divination digunakan, terdapat 20% peluang agar skill tidak memasuki Cooldown."
+    },
+    {
+      "stage": "S5",
+      "name": "Dreamland Meander",
+      "description": "Saat Intro Skill Scroll of Wonders digunakan, Crit. Rate Youhu meningkat sebesar 15% selama 14 detik."
+    },
+    {
+      "stage": "S6",
+      "name": "Slumber Evermore",
+      "description": "Saat menggunakan Resonance Skill Antique Appraisal, Youhu memperoleh 1 stack Sky Blue, dapat ditumpuk hingga 4 kali dan bertahan selama 7 detik.\nSetiap stack meningkatkan Crit. DMG Youhu sebesar 15%."
+    }
+  ],
+  "lore": {
+    "description": "Seorang appraiser barang antik yang cerewet dan penuh kejenakaan. Dikenal karena kemampuannya menciptakan limerik secara spontan, ia menyampaikan hasil appraisal dengan gaya teatrikal namun akurat. Dengan membuka lapak di pinggir jalan, ia memastikan setiap barang antik menemukan pemilik yang benar-benar menghargainya.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n13 Oktober",
+    "report": {
+      "resonancePower": "Cryogenic Wonders",
+      "overclockDiagnostic": "Grafik gelombang Resonator Youhu menunjukkan pulse fluctuation persegi non-periodik yang terjadi sekali, dengan nilai puncak yang bertahan selama interval tertentu sebelum perlahan menurun. Saat ini, gelombang ini menunjukkan sinusoidal fluctuations yang jelas, dengan nilai puncak atas dan bawah yang rendah.\n\nKritisitas Resonansi: Relatif tinggi.\nFrekuensi resonansi Youhu menunjukkan stabilitas tinggi, dengan risiko Overclocking yang rendah.\n\nDianjurkan untuk melakukan pemeriksaan fisik rutin, sementara konseling psikologis belum diperlukan untuk saat ini.",
+      "resonanceEvaluation": "Dasar Evaluasi: [Evaluasi Resonansi RA1013-G]\n\nAwakening Resonator Youhu terjadi tiga tahun lalu, dengan manifestasi awal sudah terlihat sejak masa kanak-kanak. Awakening ini disertai gejala hipotermia akibat paparan suhu rendah dalam waktu yang lama.\n\nTacet Mark Youhu terletak di lengan kiri atas, dengan pola kristal salju yang muncul di kedua lengan bawah. Suhu pada pola ini tercatat di bawah 0°C. Tekstur kulit di area tersebut tidak menunjukkan perubahan signifikan, meskipun pemeriksaan taktil mendeteksi adanya partikel mikro-kristal dalam jumlah kecil.\n\nYouhu memiliki kemampuan untuk menduplikasi benda antik menggunakan es, dengan cara beresonansi dengan frekuensi benda tersebut. Namun, pengumpulan data yang lebih rinci terhambat oleh sifat Youhu yang tidak dapat diprediksi dan kurang kooperatif.\n\nSpektrum Resonansi Youhu menunjukkan keselarasan kuat dengan Ruyi Ring, yang mengindikasikan reaksi Syntony yang tinggi.\n\nAnalisis terhadap sampel uji menunjukkan bahwa kurva Rabelle yang terbentuk tidak konvergen, dengan kenaikan tajam di bagian tengahnya. Oleh karena itu, Youhu diklasifikasikan sebagai Mutant Resonator."
+    },
+    "items": [
+      {
+        "name": "Youhu'S Poetry Collection",
+        "imageUrl": "/icons/items/youhu-1.webp",
+        "description": "Sebuah buku kecil yang selalu dibawa Youhu untuk mencatat puisi favorit dan ide-ide inspiratif untuk pantunnya.\n\nMereka bilang, tulislah semua idemu—karena kita tidak pernah tahu kapan akan membutuhkannya. Itulah yang dilakukan Youhu setiap hari, menangkap setiap pemikiran cerdasnya, entah untuk menilai benda antik atau sekadar menciptakan syair yang tajam. Ini adalah caranya melatih ketajaman pikirannya.\n\nTapi tentu saja,\n\nini rahasianya—jadi, biarkan ini tetap antara kita, ya?"
+      },
+      {
+        "name": "An Ice Mask",
+        "imageUrl": "/icons/items/youhu-2.webp",
+        "description": "Sebuah topeng es yang diciptakan dengan Forte milik Youhu. Desainnya berbeda dari yang asli, tetapi senyuman licik yang tergambar di sana mencerminkan ekspresi Youhu saat ia tengah menyusun rencana isengnya.\n\nYouhu sering memainkan topeng ini di waktu luangnya—sebagai pengingat bagaimana ia hampir tertipu saat menilai benda antik di awal kariernya.\n\nSelain sebagai simbol kehati-hatian, topeng ini juga alat sempurna untuk menakuti orang atau mempermainkan mereka yang menarik perhatiannya."
+      },
+      {
+        "name": "The Ruyi Ring",
+        "imageUrl": "/icons/items/youhu-3.webp",
+        "description": "Sebuah cincin giok yang pernah retak, kini telah diperbaiki oleh Youhu dengan Forte kryogeniknya.\n\nCincin ini pernah hilang dalam kekacauan kebakaran, namun setelah pencarian panjang yang melewati berbagai tempat, pusaka keluarga ini akhirnya kembali ke tangan Youhu.\n\nKadang-kadang, Youhu masih memimpikan masa lalu—semilir angin dari kipas ibunya, suara ayahnya yang sedang menyeduh teh. Saat terbangun, ia sering menemukan Cincin Ruyi masih tergenggam erat di tangannya.\n\nRuyi, simbol kedamaian dan kebahagiaan, dipercaya dapat mengabulkan keinginan seseorang. Namun bagi Youhu, cincin ini lebih dari sekadar benda antik."
+      }
+    ],
+    "stories": [
+      {
+        "title": "Street Antique Appraisal",
+        "content": "Di jalan tersibuk Jinzhou, terkadang muncul sebuah lapak penilaian barang antik yang menambah sedikit kegemerlapan di tengah hiruk-pikuk kota.\n\nPemiliknya adalah seorang gadis ceria bernama Youhu, yang dengan percaya diri menyebut dirinya appraiser ulung. Ia mengklaim bahwa hanya dengan sekali sentuhan ringan, ia bisa menyingkap sejarah di balik sebuah benda antik.\n\nSepanjang kariernya, ia hanya pernah salah sekali—saat keliru menilai sebuah Ding kuno. Merasa bertanggung jawab, ia kemudian membeli benda tersebut dari kliennya, memperbaikinya dengan Forte kryogeniknya, dan kini menyimpannya sebagai pengingat untuk selalu waspada.\n\nMeskipun sering berpromosi dengan gaya ceria dan sedikit usil, orang-orang tetap mempercayainya—apalagi karena tarif penilaiannya sangat murah. Cukup dengan makan enak dan sedikit pujian, Youhu siap memberikan penilaian terbaiknya.\n\n“Lipatannya sudah ada sejak sebelum *Jinzhou\" berdiri—harta langka yang masih terawat sempurna! Bisa dibilang, ia telah menyaksikan naik turunnya kejayaan **\"Jinzhou\"\"!”\n\n“Lihat lapisan glazurnya? Halus seperti giok, lembut seperti sutra. Memang bukan barang antik, tapi keterampilannya pantas dihargai!”\n\nBaik dalam keindahan seni maupun nilai historis, setiap analisisnya selalu tepat, membuat para kliennya semakin percaya akan kemampuannya.\n\nNamun, yang membuat penilaian Youhu benar-benar istimewa adalah gaya teatrikalnya—atau bisa dibilang, sebuah pertunjukan kecil.\n\nJika appraiser lain sibuk dengan kaca pembesar, Youhu menilai benda dengan gerakan ekspresif, melontarkan pantun-pantun cerdas, seolah-olah ia sedang melakukan ritual kuno yang misterius.\n\nAwalnya, orang-orang khawatir ia tanpa sengaja akan merusak barang berharga mereka, tetapi setelah melihat kemahirannya, mereka mulai menerima keunikan Youhu. Mungkin memang begitulah sifat para ahli sejati—masing-masing punya keanehannya sendiri."
+      },
+      {
+        "title": "A Returned Treasure",
+        "content": "Youhu selalu membawa kotak berbentuk gulungan berisi miniatur replika barang antik yang pernah ia nilai—semuanya dibuat dengan Forte miliknya. Replika ini bukan sekadar oleh-oleh, tetapi juga bisa digunakan untuk melawan Tacet Discords.\n\nDi musim panas, benda-benda ini punya fungsi lain—cukup letakkan buah di dalamnya bersama satu replika es, dan voilà—camilan dingin siap dinikmati!\n\nDi dalam kotaknya, terselip juga sebuah buku kecil tempat ia mencatat pantun serta catatan tentang benda-benda antik yang pernah ia temui:\n\n“Seorang pejabat dari Kementerian Pembangunan memintaku mencari porselen enamel yang hilang dari Huanglong. Baiklah, sudah dicatat!”\n\n“Pedagang itu pasti dapat tungku dupa celadon dari cara yang nggak benar! Sudah aku kasih kode biar dia mengembalikannya, tapi entah bakal didengar atau tidak. Harus tetap awasi dia.”\n\n“Si tukang kayu di gerbang kota pakai pisau berusia ratusan tahun buat menebang pohon?! Dasar lancang! Hmm… biarlah kali ini. Aku tinggal kasih tahu nilai aslinya nanti.”\n\nCatatan-catatan ini membantunya mengingat berbagai kejadian menarik.\n\nSeperti kasus pedagang dengan tungku dupa. Setelah minggu-minggu dihantui kejadian aneh dan tidak bisa tidur, ia teringat ucapan si appraiser jalanan:\n\n“Haiya, tungku dupa itu berasal dari tempat yang buruk! Keberuntunganmu nggak akan bertahan lama—kesialan sudah di depan mata!”\n\nSaat pertama kali mendengarnya, pedagang itu hanya tertawa, menganggapnya sebagai bualan seorang pendongeng. Tapi setelah berbagai kesialan menimpanya, pikirannya mulai goyah.\n\nLalu, pada suatu malam—setelah bayangan mengerikan kelima belas melintas di luar jendelanya, diiringi jeritan menggigilkan tulang—pedagang itu akhirnya bergegas mengembalikan benda curian tersebut.\n\nSeandainya ia berani mendongak ke atas, mungkin ia akan melihat sesuatu yang lain terjadi di saat yang sama:\n\nPara Patroller telah melihat sosok mencurigakan di atap, dan mereka pun bergerak untuk menginterogasinya.\n\nDi sanalah Youhu, menyamar seadanya, yang langsung melarikan diri begitu melihat para penjaga mendekat. Beberapa kali, ia hampir tersandung dalam pelariannya.\n\nNamun bahkan di tengah kejaran, ia masih sempat mencatat sesuatu dalam bukunya:\n\n“Tungku dupa celadon—sudah kembali ke tempatnya.”"
+      },
+      {
+        "title": "Where History Endures",
+        "content": "Youhu lahir di kota pelabuhan yang ramai, terkenal dengan perdagangan barang antiknya. Kedua orang tuanya adalah appraiser ternama.\n\nPada ulang tahunnya yang pertama, sesuai tradisi setempat, orang tuanya mengelilinginya dengan berbagai benda yang melambangkan berbagai profesi. Konon, *enda pertama yang disentuh anak akan menentukan minat dan jalur kariernya di masa depan.\n\nNamun hari itu, bocah kecil Youhu mengabaikan pena, pedang, dan alat masak, lalu merangkak langsung ke arah ibunya, meraih erat cincin pusaka keluarga—sebuah Ruyi kuno asli—dan tak mau melepaskannya.\n\nDibesarkan di antara benda-benda antik, Youhu tumbuh dengan kecintaan yang mendalam terhadapnya. Ia terpesona oleh segala hal tentang barang antik, bahkan fakta appraisal yang paling kering dan rumit pun diserapnya dengan mata berbinar-binar. Namun, yang paling ia sukai adalah mendengarkan kisah-kisah yang diceritakan orang tuanya tentang benda-benda tersebut.\n\nGema dalam lonceng kuno seolah membawa kembali kenangan lama, saat orang-orang bersujud di hadapan patung emas, berdoa untuk kesejahteraan keluarga mereka.\n\nUkiran batu tua menggambarkan para pemuda gagah mengangkat busur mereka, melindungi rakyat dari Tacet Discords.\n\nSaat larut dalam dunia barang antik, sifat ceria Youhu semakin bersinar. Tacet Mark di lengannya berpendar lembut, memantulkan cahaya di matanya.\n\nBaginya, setiap barang antik menyimpan sepotong sejarah, seolah-olah ia bisa mengintip jejak peradaban yang telah lama berlalu. Pesona ini masih **menahannya dalam sihir yang sama hingga hari ini.\n\nGuru Youhu, Chenpi, sering memuji bakatnya.\n\n\"Sejujurnya, pengetahuanmu tentang barang antik masih kurang terstruktur. Tapi jangan khawatir, aku akan mengajarkan semuanya padamu.\"\n\n\"Yang lebih penting adalah rasa hormatmu terhadap sejarah dalam benda-benda ini dan ketajaman nalurimu. Singkatnya, kau memang terlahir sebagai appraiser sejati.\"\n\nDan dengan senyum jenaka, Youhu akan membalas,\n\n\"Pfft, orang tuaku juga sudah bilang begitu dari dulu!\""
+      },
+      {
+        "title": "The Value Of Antiques",
+        "content": "Para appraiser terkenal sering terlibat dalam debat sengit tentang nilai barang antik.\n\nMula-mula mereka meremehkan nilai sebuah benda, membelinya dengan harga murah, lalu menjualnya kembali dengan harga selangit setelah sedikit membumbui ceritanya.\n\nKeahlian?\nSejarah?\nSemua itu hanya sekadar embel-embel dalam permainan harga mereka.\nNamun, pendekatan Youhu berbeda.\n\nBaginya, nilai barang antik bukan hanya sekadar angka, tetapi sesuatu yang jauh lebih bermakna.\n\nFaktor pertama adalah apresiasi yang tulus*. Youhu senang menjadi penghubung antara penjual yang ingin melepas harta mereka dengan pembeli yang benar-benar menghargainya. Saat barang itu berpindah tangan, frekuensinya bergema dalam hati kedua belah pihak.\n\nFaktor berikutnya adalah hati nurani.\nSaat Youhu berusia tujuh tahun, segerombolan perampok menyerbu kotanya, mencari kekayaan untuk dijarah.\n\nBagi mereka, barang antik tidak lebih dari sekadar harta rampasan.\n\nPara pedagang kaya dan appraiser lokal panik, meninggalkan koleksi berharga mereka demi menyelamatkan diri.\nKarena tak mengerti nilai benda-benda itu, para perampok merasa tidak ada yang salah dalam menjarahnya.\n\n“Penduduk sini bahkan tak cukup peduli untuk mempertahankannya. Kalau begitu, lebih baik kita bawa barang-barang ini ke tempat yang bisa menghargainya!”\n\nNamun, tidak semua orang memilih untuk melarikan diri. Sebagian tetap berdiri tegak, menghadapi para perampok tanpa rasa takut. Mereka tahu betapa berharganya benda-benda itu, dan bersedia mempertaruhkan nyawa demi melindunginya. Dan inilah faktor terakhir—keberanian untuk berkorban.\n\nSekarang, giliran Youhu untuk berkorban.\n\nBaik bakat, pengetahuan, maupun tekadnya, semuanya ia gunakan untuk mengembalikan setiap barang antik yang hilang ke pemiliknya yang sah.\n\nDi masa lalu, mereka yang tak bisa melihat nilai sejati dari peninggalan ini telah menginjak-injaknya.\n\nNamun hari ini, misi Youhu adalah mengembalikan setiap benda yang hilang ke tempat di mana ia benar-benar seharusnya berada."
+      },
+      {
+        "title": "The Ruyi Ring",
+        "content": "Sepanjang kariernya, Youhu mengembangkan kebiasaan membuat replika barang antik favoritnya dengan kekuatan es. Ia pernah membuat lonceng es, meskipun nada suaranya tak setepat aslinya, tapi suara pecahannya yang jernih terasa menyenangkan.\n\nIa juga pernah membuat Ruyi es, mengayunkannya dengan penuh semangat, hingga hampir menumbangkan tungku es dan topeng yang ada di dekatnya!. Saat orang bertanya barang antik mana yang paling ia hargai, Youhu selalu terdiam sejenak, menatap cincin Ruyi di hadapannya.\n\nPusaka keluarga ini—pernah hancur, namun kini tersusun kembali dalam es.Ibunya pernah berkata bahwa Ruyi melambangkan kebahagiaan dan kelengkapan.\n\nSejak kecil, Youhu terpesona oleh kejernihan gioknya.\nNamun, saat para perampok datang, ia hanya bisa menyaksikan cincin itu dirampas, bersama dengan harta pusaka lainnya.\n\nTiga tahun kemudian, ia menemukan barang-barang hasil jarahan itu dipajang sebagai koleksi museum. Tapi tak peduli seberapa keras ia mencari, cincin Ruyi tak terlihat di mana pun.\n\nBaru ketika ia menyusup ke gudang berdebu, ia menemukannya—berserakan dalam pecahan-pecahan kecil.\nPada labelnya tertulis:\n\n“Nilai rendah, tidak layak dipamerkan.”\n\nBarang yang paling ia hargai… telah diabaikan oleh mereka yang tak mengerti nilainya.Dengan hati yang hancur, namun penuh tekad, Youhu memungut pecahan itu, melangkah melewati salju setinggi lutut, sementara air matanya membeku di pipi.\n\nLalu, sebuah pemikiran tiba-tiba melintas di benaknya.\nDi tengah gigitan udara dingin, ia berjongkok, merapatkan pecahan itu, dan menggunakan Forte-nya untuk menyatukannya kembali dengan es… sebelum akhirnya jatuh pingsan.\n\nSaat ia sadar, tangannya kini dihiasi pola salju yang halus.\n\nDan di sampingnya, tergeletak cincin Ruyi yang sempurna, berkilau dalam es, seolah menunggunya untuk kembali."
+      }
+    ],
+    "specialFood": {
+      "name": "Frostwork Cake",
+      "imageUrl": "/icons/food/youhu.webp",
+      "description": "Meningkatkan ATK dan Crit. DMG semua Resonator dalam tim masing-masing sebesar 10% dan 16%, berlangsung selama 30 menit. Hanya efektif pada Resonator milik sendiri saat dalam Mode Co-op."
+    }
+  }
+}
