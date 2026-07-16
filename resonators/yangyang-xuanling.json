@@ -19,7 +19,8 @@
       "text": "9 July 2026\n- finishing\n- sisa material\n\n5 July 2026\n- minimal input\n- icon echo masih pakai stay tuned\n- icon sequence belum di rubah\n- materials\n- lore page",
       "type": "input",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "",
@@ -150,41 +151,220 @@
   "skills": {
     "basic": {
       "name": "Succor And Smite",
-      "description": "Basic Attack - Azure Sword Stance\nMenekan atau menahan Normal Attack untuk mengonsumsi Melody dan melakukan hingga 4 serangan berturut-turut, menimbulkan Havoc DMG. Selama Melody belum habis, Energy Regen dari Basic Attack - Azure Sword Stance meningkat sebesar 20%.\nTahap 4 dari Basic Attack - Azure Sword Stance memberikan 1 tumpukan Havoc Bane kepada target yang terkena.\n\nBasic Attack - Feather Sword Stance\nMenekan atau menahan Normal Attack untuk mengonsumsi Melody dan melakukan hingga 4 serangan berturut-turut, menimbulkan Havoc DMG. Selama Melody belum habis, Energy Regen dari Basic Attack - Feather Sword Stance meningkat sebesar 20%.\nTahap 4 dari Basic Attack - Feather Sword Stance memberikan 1 tumpukan Havoc Bane kepada target yang terkena.\n\nMid-air Attack - Azure Sword Stance\nMengonsumsi STA untuk melakukan Plunging Attack yang menghabiskan Melody dan menimbulkan Havoc DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini akan memicu Basic Attack - Azure Sword Stance Stage 2.\n\nMid-air Attack - Feather Sword Stance\nMengonsumsi STA untuk melakukan Plunging Attack yang menghabiskan Melody dan menimbulkan Havoc DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini akan memicu Basic Attack - Feather Sword Stance Stage 2.\n\nDodge Counter - Azure Sword Stance\nMenekan Normal Attack sesaat setelah Dodge berhasil untuk mengonsumsi Melody dan menyerang target, menimbulkan Havoc DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini akan memicu Basic Attack - Azure Sword Stance Stage 3.\nMelancarkan Dodge Counter - Azure Sword Stance dihitung sebagai pelancaran Basic Attack - Azure Sword Stance Stage 2.\n\nDodge Counter - Feather Sword Stance\nMenekan Normal Attack sesaat setelah Dodge berhasil untuk mengonsumsi Melody dan menyerang target, menimbulkan Havoc DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini akan memicu Basic Attack - Feather Sword Stance Stage 3.\nMelancarkan Dodge Counter - Feather Sword Stance dihitung sebagai pelancaran Basic Attack - Feather Sword Stance Stage 2."
+      "effects": [
+        {
+          "title": "Basic Attack - Azure Sword Stance",
+          "description": "Menekan atau menahan Normal Attack untuk mengonsumsi Melody dan melakukan hingga 4 serangan berturut-turut, menimbulkan Havoc DMG. Selama Melody belum habis, Energy Regen dari Basic Attack - Azure Sword Stance meningkat sebesar 20%.\nTahap 4 dari Basic Attack - Azure Sword Stance memberikan 1 tumpukan Havoc Bane kepada target yang terkena.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Feather Sword Stance",
+          "description": "Menekan atau menahan Normal Attack untuk mengonsumsi Melody dan melakukan hingga 4 serangan berturut-turut, menimbulkan Havoc DMG. Selama Melody belum habis, Energy Regen dari Basic Attack - Feather Sword Stance meningkat sebesar 20%.\nTahap 4 dari Basic Attack - Feather Sword Stance memberikan 1 tumpukan Havoc Bane kepada target yang terkena.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Azure Sword Stance",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack yang menghabiskan Melody dan menimbulkan Havoc DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini akan memicu Basic Attack - Azure Sword Stance Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Feather Sword Stance",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack yang menghabiskan Melody dan menimbulkan Havoc DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini akan memicu Basic Attack - Feather Sword Stance Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Azure Sword Stance",
+          "description": "Menekan Normal Attack sesaat setelah Dodge berhasil untuk mengonsumsi Melody dan menyerang target, menimbulkan Havoc DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini akan memicu Basic Attack - Azure Sword Stance Stage 3.\nMelancarkan Dodge Counter - Azure Sword Stance dihitung sebagai pelancaran Basic Attack - Azure Sword Stance Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Feather Sword Stance",
+          "description": "Menekan Normal Attack sesaat setelah Dodge berhasil untuk mengonsumsi Melody dan menyerang target, menimbulkan Havoc DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini akan memicu Basic Attack - Feather Sword Stance Stage 3.\nMelancarkan Dodge Counter - Feather Sword Stance dihitung sebagai pelancaran Basic Attack - Feather Sword Stance Stage 2.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Feather'S Edge",
-      "description": "Sword Stance Switch\nSaat berada dalam Azure Sword Stance, menekan Resonance Skill akan beralih ke Feather Sword Stance dan melancarkan Basic Attack - Feather Sword Stance Stage 1, menimbulkan Havoc DMG.\n\nSaat berada dalam Feather Sword Stance, menekan Resonance Skill akan beralih ke Azure Sword Stance dan melancarkan Basic Attack - Azure Sword Stance Stage 1, menimbulkan Havoc DMG.\n\nSword Stance Switch: Azure\nMenekan Resonance Skill sesaat setelah melancarkan Basic Attack - Feather Sword Stance untuk beralih ke Azure Sword Stance dan melancarkan Sword Stance Switch: Azure, menimbulkan Havoc DMG yang dihitung sebagai Heavy Attack DMG.\nDodge berhasil dapat dipicu sesaat setelah aksi skill ini dimulai, yang mengonsumsi 50 Melody.\nSetelah melancarkan skill ini, siklus Basic Attack tidak akan reset untuk sementara waktu.\n\nSword Stance Switch: Feather\nMenekan Resonance Skill sesaat setelah melancarkan Basic Attack - Azure Sword Stance untuk beralih ke Feather Sword Stance dan melancarkan Sword Stance Switch: Feather, menimbulkan Havoc DMG yang dihitung sebagai Heavy Attack DMG.\nDodge berhasil dapat dipicu sesaat setelah aksi skill ini dimulai, yang mengonsumsi 50 Melody.\nSetelah melancarkan skill ini, siklus Basic Attack tidak akan reset untuk sementara waktu."
+      "effects": [
+        {
+          "title": "Sword Stance Switch",
+          "description": "Saat berada dalam Azure Sword Stance, menekan Resonance Skill akan beralih ke Feather Sword Stance dan melancarkan Basic Attack - Feather Sword Stance Stage 1, menimbulkan Havoc DMG.\nSaat berada dalam Feather Sword Stance, menekan Resonance Skill akan beralih ke Azure Sword Stance dan melancarkan Basic Attack - Azure Sword Stance Stage 1, menimbulkan Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sword Stance Switch: Azure",
+          "description": "Menekan Resonance Skill sesaat setelah melancarkan Basic Attack - Feather Sword Stance untuk beralih ke Azure Sword Stance dan melancarkan Sword Stance Switch: Azure, menimbulkan Havoc DMG yang dihitung sebagai Heavy Attack DMG.\nDodge berhasil dapat dipicu sesaat setelah aksi skill ini dimulai, yang mengonsumsi 50 Melody.\nSetelah melancarkan skill ini, siklus Basic Attack tidak akan reset untuk sementara waktu.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sword Stance Switch: Feather",
+          "description": "Menekan Resonance Skill sesaat setelah melancarkan Basic Attack - Azure Sword Stance untuk beralih ke Feather Sword Stance dan melancarkan Sword Stance Switch: Feather, menimbulkan Havoc DMG yang dihitung sebagai Heavy Attack DMG.\nDodge berhasil dapat dipicu sesaat setelah aksi skill ini dimulai, yang mengonsumsi 50 Melody.\nSetelah melancarkan skill ini, siklus Basic Attack tidak akan reset untuk sementara waktu.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Hush Of A Thousand Voices",
-      "description": "Hush of a Thousand Voices\nMengonsumsi seluruh Melody untuk menimbulkan Havoc DMG dan memulihkan 1 Azure Plume. DMG ini dihitung sebagai Heavy Attack DMG.\n\nSaat melancarkan skill ini, mendapatkan efek Voice upon Voice. Saat melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather, memanggil Shadow of Xuanling untuk menyerang target, menimbulkan Havoc DMG yang dihitung sebagai Heavy Attack DMG.\nVoice upon Voice tidak dapat bertumpuk. Setelah Shadow of Xuanling dipanggil, status Voice upon Voice akan hilang."
+      "effects": [
+        {
+          "title": "Hush of a Thousand Voices",
+          "description": "Mengonsumsi seluruh Melody untuk menimbulkan Havoc DMG dan memulihkan 1 Azure Plume. DMG ini dihitung sebagai Heavy Attack DMG.\nSaat melancarkan skill ini, mendapatkan efek Voice upon Voice. Saat melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather, memanggil Shadow of Xuanling untuk menyerang target, menimbulkan Havoc DMG yang dihitung sebagai Heavy Attack DMG.\nVoice upon Voice tidak dapat bertumpuk. Setelah Shadow of Xuanling dipanggil, status Voice upon Voice akan hilang.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "The Way Of Ten Thousand Voices",
-      "description": "Resonance Skill - Sword Stance Flow: Azure\nYangyang: Xuanling berada dalam Azure Sword Stance. Saat Melody habis saat berada dalam Feather Sword Stance, Resonance Skill - Feather's Edge digantikan oleh Resonance Skill - Sword Stance Flow: Azure.\nTekan Resonance Skill untuk beralih ke Azure Sword Stance dan melancarkan Resonance Skill - Sword Stance Flow: Azure, menimbulkan Havoc DMG serta memulihkan 100 poin Melody dan 1 poin Azure Plume. Damage ini dihitung sebagai Heavy Attack DMG.\nSaat Resonance Skill - Sword Stance Flow: Azure mengenai target, konsumsi 1 stack Havoc Bane pada target tersebut.\nSiklus Basic Attack - Feather Sword Stance tidak di-reset dalam waktu singkat setelah melancarkan Resonance Skill - Sword Stance Flow: Azure. Jika melancarkan Resonance Skill - Sword Stance Flow: Azure me-reset siklus, panggil Wraith of Sound untuk menyelesaikan serangan saat ini dan menimbulkan satu instance Havoc DMG tetap, dihitung sebagai Basic Attack DMG, yang tidak terpengaruh oleh efek DMG Bonus apa pun dan tidak memberikan Havoc Bane.\nSuccessful Dodge dapat dipicu dalam waktu singkat saat aksi skill ini berlangsung, yang mengonsumsi 50 poin Melody.\n\nResonance Skill - Sword Stance Flow: Feather\nSaat Melody habis saat berada dalam Azure Sword Stance, Resonance Skill - Feather's Edge digantikan oleh Resonance Skill - Sword Stance Flow: Feather.\nTekan Resonance Skill untuk beralih ke Feather Sword Stance dan melancarkan Resonance Skill - Sword Stance Flow: Feather, beralih ke Feather Sword Stance serta menimbulkan Havoc DMG, memulihkan 100 poin Melody dan 1 poin Azure Plume. Instance damage ini dihitung sebagai Heavy Attack DMG.\nSaat Resonance Skill - Sword Stance Flow: Feather mengenai target, konsumsi 1 stack Havoc Bane pada target tersebut.\nSiklus Basic Attack - Feather Sword Stance tidak di-reset dalam waktu singkat setelah melancarkan Resonance Skill - Sword Stance Flow: Feather. Jika melancarkan Resonance Skill - Sword Stance Flow: Feather me-reset siklus, panggil Wraith of Sound untuk menyelesaikan serangan saat ini dan menimbulkan satu instance Havoc DMG tetap, dihitung sebagai Basic Attack DMG, yang tidak terpengaruh oleh efek DMG Bonus apa pun dan tidak memberikan Havoc Bane.\nSuccessful Dodge dapat dipicu dalam waktu singkat saat aksi skill ini berlangsung, yang mengonsumsi 50 poin Melody.\n\nHeavy Attack - Azure Sword Stance\nSaat Azure Plume pulih hingga maksimum saat berada dalam Azure Sword Stance, tahan Normal Attack untuk mengonsumsi STA dan seluruh Azure Plume guna melancarkan Heavy Attack - Azure Sword Stance, menghasilkan siklon besar yang menghantam area di depan, menimbulkan Havoc DMG, dihitung sebagai Heavy Attack DMG.\nSaat melancarkan Heavy Attack - Azure Sword Stance, peroleh Bated Breath: Jika Yangyang: Xuanling adalah Resonator aktif di lapangan, Crit. DMG dari Heavy Attack - Azure Sword Stance ini meningkat sebesar 160%. Saat Heavy Attack - Azure Sword Stance berakhir, Bated Breath dihapus. Bated Breath dapat diperoleh maksimal sekali setiap 25 detik.\nHeavy Attack - Azure Sword Stance memberikan 2 stack Havoc Bane pada target yang terkena.\n\nHeavy Attack - Feather Sword Stance\nSaat Azure Plume pulih hingga maksimum saat berada dalam Feather Sword Stance, jika Yangyang: Xuanling berada di tanah dan tidak dalam siklus Basic Attack - Havoc in Bloom, tahan Normal Attack untuk mengonsumsi STA dan melancarkan Heavy Attack - Feather Sword Stance, menimbulkan Havoc DMG. Setelah mengenai target, Mid-air Attack - Feather Fall otomatis dilancarkan.\nSaat melancarkan Resonance Skill - Sword Stance Flow: Feather, peroleh Streaming Storm, yang berlangsung selama 15 detik. Selama Yangyang: Xuanling adalah Resonator aktif dalam tim, Crit. DMG dari Heavy Attack - Feather Sword Stance berikutnya, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, atau Dodge Counter - Havoc in Bloom meningkat sebesar 160%. Streaming Storm dihapus saat Basic Attack - Havoc in Bloom Stage 3 atau Dodge Counter - Havoc in Bloom Stage 3 berakhir. Streaming Storm dapat diperoleh maksimal sekali setiap 25 detik.\nHeavy Attack - Feather Sword Stance memberikan 2 stack Havoc Bane pada target yang terkena.\n\nMid-air Attack - Feather Fall\nSaat Azure Plume pulih hingga maksimum saat berada dalam Feather Sword Stance dan berada di udara, Mid-air Attack - Feather Sword Stance digantikan oleh Mid-air Attack - Feather Fall. Beralih ke Resonator lain secara otomatis melancarkan Mid-air Attack - Feather Fall.\nTekan atau tahan Normal Attack untuk mengonsumsi STA dan seluruh Azure Plume guna melancarkan Mid-air Attack - Feather Fall, menimbulkan Havoc DMG. Melancarkan Mid-air Attack - Feather Fall memasuki status Hark the Wind selama 12 detik.\n\nHark the Wind\nSelama berada dalam Feather Sword Stance, Basic Attack - Feather Sword Stance digantikan oleh Basic Attack - Havoc in Bloom, mengonsumsi STA untuk melakukan hingga 3 tahap serangan, menimbulkan Havoc DMG, dihitung sebagai Heavy Attack DMG.\nBasic Attack - Havoc in Bloom Stage 2 dan Stage 3 dapat dilancarkan di udara dekat dengan tanah. Melancarkan Stage 3 mengakhiri Basic Attack - Havoc in Bloom. Siklus serangan ini tidak dapat di-reset.\nSelama Hark the Wind, Dodge Counter dihitung sebagai bagian dari siklus Basic Attack - Havoc in Bloom.\n\nFeathered Oath\nSaat Resonator terdekat dalam tim memberikan Havoc Bane pada target, Yangyang: Xuanling memperoleh 1 stack Feathered Oath selama 4 detik. Feathered Oath dapat diperoleh sekali setiap 1 detik, menumpuk hingga 6 kali. Selama Yangyang: Xuanling adalah Resonator aktif dalam tim, setiap stack meningkatkan Crit. DMG dari Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, dan Dodge Counter - Havoc in Bloom sebesar 25%, hingga maksimal 150%.\n\nRefrain\nSebelum Basic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, atau Heavy Attack - Feather Sword Stance milik Yangyang: Xuanling mengenai target, catat dan sebarkan jumlah stack Havoc Bane tertinggi pada target dalam jangkauan tertentu ke semua target dalam jangkauan tersebut.\n\nMelody\nMelody memiliki maksimum 100 poin.\nMelancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather memulihkan 100 Melody.\nMelancarkan Resonance Liberation Hush of a Thousand Voices mengonsumsi seluruh Melody.\nNormal Attack mengonsumsi Melody saat menimbulkan damage.\nSuccessful Dodge dapat dipicu selama aksi Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, atau Resonance Skill - Sword Stance Flow: Feather dalam waktu tertentu setelah melancarkan skill-skill ini, yang mengonsumsi 50 poin Melody.\n\nAzure Plume\nAzure Plume memiliki maksimum 2 poin.\nMelancarkan Resonance Skill - Sword Stance Flow: Azure, Resonance Skill - Sword Stance Flow: Feather, atau Intro Skill - Skybound Feather memulihkan 1 poin Azure Plume.\nMelancarkan Resonance Liberation - Hush of a Thousand Voices memulihkan 1 poin Azure Plume.\nMelancarkan Heavy Attack - Azure Sword Stance atau Mid-air Attack - Feather Fall mengonsumsi seluruh Azure Plume."
+      "effects": [
+        {
+          "title": "Resonance Skill - Sword Stance Flow: Azure",
+          "description": "Yangyang: Xuanling berada dalam Azure Sword Stance. Saat Melody habis saat berada dalam Feather Sword Stance, Resonance Skill - Feather's Edge digantikan oleh Resonance Skill - Sword Stance Flow: Azure.\nTekan Resonance Skill untuk beralih ke Azure Sword Stance dan melancarkan Resonance Skill - Sword Stance Flow: Azure, menimbulkan Havoc DMG serta memulihkan 100 poin Melody dan 1 poin Azure Plume. Damage ini dihitung sebagai Heavy Attack DMG.\nSaat Resonance Skill - Sword Stance Flow: Azure mengenai target, konsumsi 1 stack Havoc Bane pada target tersebut.\nSiklus Basic Attack - Feather Sword Stance tidak di-reset dalam waktu singkat setelah melancarkan Resonance Skill - Sword Stance Flow: Azure. Jika melancarkan Resonance Skill - Sword Stance Flow: Azure me-reset siklus, panggil Wraith of Sound untuk menyelesaikan serangan saat ini dan menimbulkan satu instance Havoc DMG tetap, dihitung sebagai Basic Attack DMG, yang tidak terpengaruh oleh efek DMG Bonus apa pun dan tidak memberikan Havoc Bane.\nSuccessful Dodge dapat dipicu dalam waktu singkat saat aksi skill ini berlangsung, yang mengonsumsi 50 poin Melody.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Sword Stance Flow: Feather",
+          "description": "Saat Melody habis saat berada dalam Azure Sword Stance, Resonance Skill - Feather's Edge digantikan oleh Resonance Skill - Sword Stance Flow: Feather.\nTekan Resonance Skill untuk beralih ke Feather Sword Stance dan melancarkan Resonance Skill - Sword Stance Flow: Feather, beralih ke Feather Sword Stance serta menimbulkan Havoc DMG, memulihkan 100 poin Melody dan 1 poin Azure Plume. Instance damage ini dihitung sebagai Heavy Attack DMG.\nSaat Resonance Skill - Sword Stance Flow: Feather mengenai target, konsumsi 1 stack Havoc Bane pada target tersebut.\nSiklus Basic Attack - Feather Sword Stance tidak di-reset dalam waktu singkat setelah melancarkan Resonance Skill - Sword Stance Flow: Feather. Jika melancarkan Resonance Skill - Sword Stance Flow: Feather me-reset siklus, panggil Wraith of Sound untuk menyelesaikan serangan saat ini dan menimbulkan satu instance Havoc DMG tetap, dihitung sebagai Basic Attack DMG, yang tidak terpengaruh oleh efek DMG Bonus apa pun dan tidak memberikan Havoc Bane.\nSuccessful Dodge dapat dipicu dalam waktu singkat saat aksi skill ini berlangsung, yang mengonsumsi 50 poin Melody.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Azure Sword Stance",
+          "description": "Saat Azure Plume pulih hingga maksimum saat berada dalam Azure Sword Stance, tahan Normal Attack untuk mengonsumsi STA dan seluruh Azure Plume guna melancarkan Heavy Attack - Azure Sword Stance, menghasilkan siklon besar yang menghantam area di depan, menimbulkan Havoc DMG, dihitung sebagai Heavy Attack DMG.\nSaat melancarkan Heavy Attack - Azure Sword Stance, peroleh Bated Breath: Jika Yangyang: Xuanling adalah Resonator aktif di lapangan, Crit. DMG dari Heavy Attack - Azure Sword Stance ini meningkat sebesar 160%. Saat Heavy Attack - Azure Sword Stance berakhir, Bated Breath dihapus. Bated Breath dapat diperoleh maksimal sekali setiap 25 detik.\nHeavy Attack - Azure Sword Stance memberikan 2 stack Havoc Bane pada target yang terkena.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Feather Sword Stance",
+          "description": "Saat Azure Plume pulih hingga maksimum saat berada dalam Feather Sword Stance, jika Yangyang: Xuanling berada di tanah dan tidak dalam siklus Basic Attack - Havoc in Bloom, tahan Normal Attack untuk mengonsumsi STA dan melancarkan Heavy Attack - Feather Sword Stance, menimbulkan Havoc DMG. Setelah mengenai target, Mid-air Attack - Feather Fall otomatis dilancarkan.\nSaat melancarkan Resonance Skill - Sword Stance Flow: Feather, peroleh Streaming Storm, yang berlangsung selama 15 detik. Selama Yangyang: Xuanling adalah Resonator aktif dalam tim, Crit. DMG dari Heavy Attack - Feather Sword Stance berikutnya, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, atau Dodge Counter - Havoc in Bloom meningkat sebesar 160%. Streaming Storm dihapus saat Basic Attack - Havoc in Bloom Stage 3 atau Dodge Counter - Havoc in Bloom Stage 3 berakhir. Streaming Storm dapat diperoleh maksimal sekali setiap 25 detik.\nHeavy Attack - Feather Sword Stance memberikan 2 stack Havoc Bane pada target yang terkena.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Feather Fall",
+          "description": "Saat Azure Plume pulih hingga maksimum saat berada dalam Feather Sword Stance dan berada di udara, Mid-air Attack - Feather Sword Stance digantikan oleh Mid-air Attack - Feather Fall. Beralih ke Resonator lain secara otomatis melancarkan Mid-air Attack - Feather Fall.\nTekan atau tahan Normal Attack untuk mengonsumsi STA dan seluruh Azure Plume guna melancarkan Mid-air Attack - Feather Fall, menimbulkan Havoc DMG. Melancarkan Mid-air Attack - Feather Fall memasuki status Hark the Wind selama 12 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Hark the Wind",
+          "description": "Selama berada dalam Feather Sword Stance, Basic Attack - Feather Sword Stance digantikan oleh Basic Attack - Havoc in Bloom, mengonsumsi STA untuk melakukan hingga 3 tahap serangan, menimbulkan Havoc DMG, dihitung sebagai Heavy Attack DMG.\nBasic Attack - Havoc in Bloom Stage 2 dan Stage 3 dapat dilancarkan di udara dekat dengan tanah. Melancarkan Stage 3 mengakhiri Basic Attack - Havoc in Bloom. Siklus serangan ini tidak dapat di-reset.\nSelama Hark the Wind, Dodge Counter dihitung sebagai bagian dari siklus Basic Attack - Havoc in Bloom.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Feathered Oath",
+          "description": "Saat Resonator terdekat dalam tim memberikan Havoc Bane pada target, Yangyang: Xuanling memperoleh 1 stack Feathered Oath selama 4 detik. Feathered Oath dapat diperoleh sekali setiap 1 detik, menumpuk hingga 6 kali. Selama Yangyang: Xuanling adalah Resonator aktif dalam tim, setiap stack meningkatkan Crit. DMG dari Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, dan Dodge Counter - Havoc in Bloom sebesar 25%, hingga maksimal 150%.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Refrain",
+          "description": "Sebelum Basic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, atau Heavy Attack - Feather Sword Stance milik Yangyang: Xuanling mengenai target, catat dan sebarkan jumlah stack Havoc Bane tertinggi pada target dalam jangkauan tertentu ke semua target dalam jangkauan tersebut.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Melody",
+          "description": "Melody memiliki maksimum 100 poin.\nMelancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather memulihkan 100 Melody.\nMelancarkan Resonance Liberation Hush of a Thousand Voices mengonsumsi seluruh Melody.\nNormal Attack mengonsumsi Melody saat menimbulkan damage.\nSuccessful Dodge dapat dipicu selama aksi Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, atau Resonance Skill - Sword Stance Flow: Feather dalam waktu tertentu setelah melancarkan skill-skill ini, yang mengonsumsi 50 poin Melody.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Azure Plume",
+          "description": "Azure Plume memiliki maksimum 2 poin.\nMelancarkan Resonance Skill - Sword Stance Flow: Azure, Resonance Skill - Sword Stance Flow: Feather, atau Intro Skill - Skybound Feather memulihkan 1 poin Azure Plume.\nMelancarkan Resonance Liberation - Hush of a Thousand Voices memulihkan 1 poin Azure Plume.\nMelancarkan Heavy Attack - Azure Sword Stance atau Mid-air Attack - Feather Fall mengonsumsi seluruh Azure Plume.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Unbroken Vow",
-        "description": "Saat target memiliki 1 hingga 3 tumpukan Havoc Bane, setiap tumpukan Havoc Bane meningkatkan DMG dari Yangyang: Xuanling sebesar 10%, hingga maksimal 30%.\n\nSaat target memiliki 4 hingga 6 tumpukan Havoc Bane, setiap tumpukan Havoc Bane meningkatkan DMG dari Yangyang: Xuanling sebesar 12%, hingga maksimal 36%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat target memiliki 1 hingga 3 tumpukan Havoc Bane, setiap tumpukan Havoc Bane meningkatkan DMG dari Yangyang: Xuanling sebesar 10%, hingga maksimal 30%.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat target memiliki 4 hingga 6 tumpukan Havoc Bane, setiap tumpukan Havoc Bane meningkatkan DMG dari Yangyang: Xuanling sebesar 12%, hingga maksimal 36%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "One Life, One Blade",
-        "description": "Resonance Liberation Hush of a Thousand Voices meningkatkan tumpukan Havoc Bane pada target yang terkena hingga maksimal.\n\nSaat Resonator dalam tim memberikan efek Havoc Bane, Yangyang: Xuanling mendapatkan 1 tumpukan Windbound. Windbound dapat diperoleh sekali setiap 1 detik, dengan tumpukan maksimal 6 kali.\n\nSaat Windbound mencapai 6 tumpukan, Yangyang: Xuanling menghilangkan seluruh Windbound dan mendapatkan status One with the Wind.\nSelama One with the Wind aktif, saat Yangyang: Xuanling melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather, ia memanggil Feather Release: Xuanling untuk menyerang target, memberikan 6 tumpukan Havoc Bane kepada target.\nWindbound tidak dapat diperoleh selama One with the Wind aktif.\n\nSetelah Feather Release: Xuanling dipanggil, status One with the Wind akan hilang."
+        "effects": [
+          {
+            "title": "",
+            "description": "Resonance Liberation Hush of a Thousand Voices meningkatkan tumpukan Havoc Bane pada target yang terkena hingga maksimal.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat Resonator dalam tim memberikan efek Havoc Bane, Yangyang: Xuanling mendapatkan 1 tumpukan Windbound. Windbound dapat diperoleh sekali setiap 1 detik, dengan tumpukan maksimal 6 kali.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat Windbound mencapai 6 tumpukan, Yangyang: Xuanling menghilangkan seluruh Windbound dan mendapatkan status One with the Wind.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Selama One with the Wind aktif, saat Yangyang: Xuanling melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather, ia memanggil Feather Release: Xuanling untuk menyerang target, memberikan 6 tumpukan Havoc Bane kepada target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Windbound tidak dapat diperoleh selama One with the Wind aktif.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Setelah Feather Release: Xuanling dipanggil, status One with the Wind akan hilang.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break - Sword",
-        "description": "Saat Off-Tune Level target penuh, Resonator dapat melancarkan Tune Break pada target."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Off-Tune Level target penuh, Resonator dapat melancarkan Tune Break pada target.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Skybound Feather",
-      "description": "Menimbulkan Havoc DMG dan memulihkan 1 poin Azure Plume.\nSaat Intro Skill - Skybound Feather menimbulkan damage, skill ini memberikan 1 stack Havoc Bane pada target."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menimbulkan Havoc DMG dan memulihkan 1 poin Azure Plume.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Intro Skill - Skybound Feather menimbulkan damage, skill ini memberikan 1 stack Havoc Bane pada target.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "As The Wind Wills",
-      "description": "Menyerang target, menimbulkan Havoc DMG sebesar 300% dari ATK Yangyang: Xuanling.\nSeluruh Resonator dalam tim selain Yangyang: Xuanling memperoleh Tonal Switch selama 20 detik. Saat Resonator dengan Tonal Switch memberikan Havoc Bane, Havoc DMG Resonator tersebut diamplifikasi sebesar 20%.\nEfek ini di-reset saat melancarkan skill ini kembali."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, menimbulkan Havoc DMG sebesar 300% dari ATK Yangyang: Xuanling.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Seluruh Resonator dalam tim selain Yangyang: Xuanling memperoleh Tonal Switch selama 20 detik. Saat Resonator dengan Tonal Switch memberikan Havoc Bane, Havoc DMG Resonator tersebut diamplifikasi sebesar 20%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek ini di-reset saat melancarkan skill ini kembali.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -364,32 +544,118 @@
     {
       "stage": "S1",
       "name": "At The Wind'S Breath, The Blossoms Wake",
-      "description": "Melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather memanggil Shadow of Xuanling: Unfaltering untuk menyerang target, menimbulkan Havoc DMG sebesar 337,98% dari ATK Yangyang: Xuanling. DMG ini dihitung sebagai Heavy Attack DMG.\nMelancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather membuat musuh di sekitar menjadi Stagnant.\n\nHeavy Attack - Azure Sword Stance, Basic Attack - Havoc in Bloom, dan Dodge Counter - Havoc in Bloom kebal terhadap interupsi."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather memanggil Shadow of Xuanling: Unfaltering untuk menyerang target, menimbulkan Havoc DMG sebesar 337,98% dari ATK Yangyang: Xuanling. DMG ini dihitung sebagai Heavy Attack DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather membuat musuh di sekitar menjadi Stagnant.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Heavy Attack - Azure Sword Stance, Basic Attack - Havoc in Bloom, dan Dodge Counter - Havoc in Bloom kebal terhadap interupsi.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "River Carries Her Song Away",
-      "description": "DMG yang ditimbulkan oleh Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, dan Dodge Counter - Havoc in Bloom meningkat sebesar 100%.\n\nSetiap kali Yangyang: Xuanling berada di luar pertempuran selama lebih dari 4 detik setelah keluar dari status bertarung atau pulih dari pingsan, ia mendapatkan efek berikut sekali:\n- Mendapatkan Strung Notes, maksimal 1 tumpukan. Melancarkan Basic Attack - Azure Sword Stance atau Basic Attack - Feather Sword Stance memanggil Shadow of Xuanling: Strung Notes untuk menyerang target, menimbulkan Havoc DMG sebesar 337,98% dari ATK Yangyang: Xuanling, dihitung sebagai Heavy Attack DMG. Strung Notes hilang setelah Shadow of Xuanling: Strung Notes dipanggil.\n- Memulihkan 2 poin Azure Plume.\n- Mereset Cooldown untuk mendapatkan Bated Breath dan Streaming Storm.\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG yang ditimbulkan oleh Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, dan Dodge Counter - Havoc in Bloom meningkat sebesar 100%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setiap kali Yangyang: Xuanling berada di luar pertempuran selama lebih dari 4 detik setelah keluar dari status bertarung atau pulih dari pingsan, ia mendapatkan efek berikut sekali:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Mendapatkan Strung Notes, maksimal 1 tumpukan. Melancarkan Basic Attack - Azure Sword Stance atau Basic Attack - Feather Sword Stance memanggil Shadow of Xuanling: Strung Notes untuk menyerang target, menimbulkan Havoc DMG sebesar 337,98% dari ATK Yangyang: Xuanling, dihitung sebagai Heavy Attack DMG. Strung Notes hilang setelah Shadow of Xuanling: Strung Notes dipanggil.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Memulihkan 2 poin Azure Plume.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Mereset Cooldown untuk mendapatkan Bated Breath dan Streaming Storm.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "My Grief Follows You Into The Clouds",
-      "description": "DMG yang ditimbulkan melalui Resonance Liberation Hush of a Thousand Voices ditingkatkan sebesar 175%.\n\nSetelah melancarkan Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Flow: Azure, atau Resonance Skill - Sword Stance Flow: Feather, meningkatkan batas maksimal tumpukan Havoc Bane pada target dalam jangkauan tertentu sebanyak 3, berlangsung selama 20 detik. Efek ini tidak bertumpuk.\n\nBasic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, dan Heavy Attack - Feather Sword Stance memberikan 1 tumpukan tambahan Havoc Bane kepada target."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG yang ditimbulkan melalui Resonance Liberation Hush of a Thousand Voices ditingkatkan sebesar 175%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah melancarkan Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Flow: Azure, atau Resonance Skill - Sword Stance Flow: Feather, meningkatkan batas maksimal tumpukan Havoc Bane pada target dalam jangkauan tertentu sebanyak 3, berlangsung selama 20 detik. Efek ini tidak bertumpuk.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Basic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, dan Heavy Attack - Feather Sword Stance memberikan 1 tumpukan tambahan Havoc Bane kepada target.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Across The Miles, A Letter And My Longing",
-      "description": "Saat melancarkan Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, atau Resonance Skill - Sword Stance Flow: Feather, ATK Resonator dalam tim meningkat sebesar 20% selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat melancarkan Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, atau Resonance Skill - Sword Stance Flow: Feather, ATK Resonator dalam tim meningkat sebesar 20% selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Take Wing. Take Wing. ",
-      "description": "Saat Yangyang: Xuanling menerima serangan fatal, ia tidak akan down, melainkan memulihkan HP sebesar 50% dari Max HP sambil menjadi kebal terhadap DMG dan interupsi selama 3 detik. Efek ini dapat terpicu sekali setiap 10 menit."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Yangyang: Xuanling menerima serangan fatal, ia tidak akan down, melainkan memulihkan HP sebesar 50% dari Max HP sambil menjadi kebal terhadap DMG dan interupsi selama 3 detik. Efek ini dapat terpicu sekali setiap 10 menit.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Let The Azure Keep Its Light Let The Azure Keep Its Light",
-      "description": "\nSaat Yangyang: Xuanling memberikan efek Havoc Bane kepada target, mendapatkan Voice Flux selama 30 detik. Selama Voice Flux aktif, Heavy Attack DMG dari Yangyang: Xuanling meningkat sebesar 40%.\n\nSetelah melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather, mendapatkan Still as Withered Wood selama 30 detik. Selama Still as Withered Wood aktif, jika Yangyang: Xuanling berada di medan pertempuran, maka saat Resonator terdekat dalam tim memberikan efek Glacio Chafe, Fusion Burst, Electro Flare, Aero Erosion, Spectro Frazzle, atau Havoc Bane, Yangyang: Xuanling memanggil Shadow of Xuanling: Still as Withered Wood untuk menyerang target, menimbulkan Havoc DMG sebesar 337,98% dari ATK Yangyang: Xuanling. DMG dari Shadow of Xuanling: Still as Withered Wood dihitung sebagai Heavy Attack DMG dan dipastikan menjadi critical hit.\n\nShadow of Xuanling: Still as Withered Wood dapat dipanggil sekali setiap 1 detik dan habis setelah dipanggil 5 kali. Saat Still as Withered Wood habis atau dihapus, reset jumlah panggilan yang tersedia untuk Shadow of Xuanling: Still as Withered Wood. Still as Withered Wood memiliki Cooldown 25 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Yangyang: Xuanling memberikan efek Havoc Bane kepada target, mendapatkan Voice Flux selama 30 detik. Selama Voice Flux aktif, Heavy Attack DMG dari Yangyang: Xuanling meningkat sebesar 40%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather, mendapatkan Still as Withered Wood selama 30 detik. Selama Still as Withered Wood aktif, jika Yangyang: Xuanling berada di medan pertempuran, maka saat Resonator terdekat dalam tim memberikan efek Glacio Chafe, Fusion Burst, Electro Flare, Aero Erosion, Spectro Frazzle, atau Havoc Bane, Yangyang: Xuanling memanggil Shadow of Xuanling: Still as Withered Wood untuk menyerang target, menimbulkan Havoc DMG sebesar 337,98% dari ATK Yangyang: Xuanling. DMG dari Shadow of Xuanling: Still as Withered Wood dihitung sebagai Heavy Attack DMG dan dipastikan menjadi critical hit.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Shadow of Xuanling: Still as Withered Wood dapat dipanggil sekali setiap 1 detik dan habis setelah dipanggil 5 kali. Saat Still as Withered Wood habis atau dihapus, reset jumlah panggilan yang tersedia untuk Shadow of Xuanling: Still as Withered Wood. Still as Withered Wood memiliki Cooldown 25 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

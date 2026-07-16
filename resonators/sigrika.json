@@ -18,7 +18,8 @@
       "text": "New Character",
       "type": "updated",
       "isNew": true,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Startorch Academy",
@@ -172,15 +173,98 @@
   "skills": {
     "basic": {
       "name": "One, Two, Three",
-      "description": "Basic Attack\nMelancarkan hingga 4 serangan berturut-turut, memberikan Aero DMG.\nMemasuki status Decipher selama 5 detik setelah melancarkan Basic Attack Stage 4. Efek ini berakhir lebih awal jika Sigrika diganti keluar dari medan tempur.\nSaat Sigrika memiliki setidaknya 50 poin Full Stop, siklus Basic Attack miliknya dimulai dari Stage 2.\n\nBasic Attack - Elucidated\nDalam status Decipher, tekan Normal Attack di darat untuk melancarkan Basic Attack - Elucidated, memberikan Aero DMG (dianggap sebagai Echo Skill DMG).\nMeninggalkan status Decipher setelah melancarkan skill ini.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target, memberikan Aero DMG.\nTekan Normal Attack sesaat setelah melancarkan Heavy Attack untuk melancarkan Basic Attack Stage 2.\n\nMid-air Attack\nMengonsumsi STA untuk melancarkan Plunging Attack, memberikan Aero DMG.\nTekan Normal Attack sesaat setelah melancarkan Plunging Attack untuk melancarkan Basic Attack Stage 2.\n\nDodge Counter\nTekan Normal Attack sesaat setelah berhasil melakukan Dodge di darat untuk menyerang target, memberikan Aero DMG.\nTekan Normal Attack sesaat setelah melancarkan Dodge Counter untuk melancarkan Basic Attack Stage 4.\n\nDodge Counter - Decipher\nDalam status Decipher, tekan Normal Attack sesaat setelah berhasil melakukan Dodge di darat untuk melancarkan Dodge Counter - Decipher guna menyerang target, memberikan Aero DMG (dianggap sebagai Echo Skill DMG).\nMeninggalkan status Decipher setelah melancarkan skill ini.\n\nMid-air Dodge Counter\nTekan Normal Attack sesaat setelah berhasil melakukan Dodge di udara untuk menyerang target, memberikan Aero DMG.\nTekan Normal Attack sesaat setelah melancarkan Mid-air Dodge Counter untuk melancarkan Basic Attack Stage 2."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melancarkan hingga 4 serangan berturut-turut, memberikan Aero DMG.\nMemasuki status Decipher selama 5 detik setelah melancarkan Basic Attack Stage 4. Efek ini berakhir lebih awal jika Sigrika diganti keluar dari medan tempur.\nSaat Sigrika memiliki setidaknya 50 poin Full Stop, siklus Basic Attack miliknya dimulai dari Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Elucidated",
+          "description": "Dalam status Decipher, tekan Normal Attack di darat untuk melancarkan Basic Attack - Elucidated, memberikan Aero DMG (dianggap sebagai Echo Skill DMG).\nMeninggalkan status Decipher setelah melancarkan skill ini.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan Aero DMG.\nTekan Normal Attack sesaat setelah melancarkan Heavy Attack untuk melancarkan Basic Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melancarkan Plunging Attack, memberikan Aero DMG.\nTekan Normal Attack sesaat setelah melancarkan Plunging Attack untuk melancarkan Basic Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Normal Attack sesaat setelah berhasil melakukan Dodge di darat untuk menyerang target, memberikan Aero DMG.\nTekan Normal Attack sesaat setelah melancarkan Dodge Counter untuk melancarkan Basic Attack Stage 4.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Decipher",
+          "description": "Dalam status Decipher, tekan Normal Attack sesaat setelah berhasil melakukan Dodge di darat untuk melancarkan Dodge Counter - Decipher guna menyerang target, memberikan Aero DMG (dianggap sebagai Echo Skill DMG).\nMeninggalkan status Decipher setelah melancarkan skill ini.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Dodge Counter",
+          "description": "Tekan Normal Attack sesaat setelah berhasil melakukan Dodge di udara untuk menyerang target, memberikan Aero DMG.\nTekan Normal Attack sesaat setelah melancarkan Mid-air Dodge Counter untuk melancarkan Basic Attack Stage 2.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Royan Close Quarters Combat",
-      "description": "BOOMY BOOM!\nMenyerang target, memberikan Aero DMG.\nTekan Normal Attack sesaat setelah melancarkan BOOMY BOOM! untuk melancarkan Basic Attack Stage 3.\n\nBIG BOOMY BOOM!\nSelama berada dalam status Decipher, tekan Resonance Skill di darat untuk melancarkan BIG BOOMY BOOM!, memberikan Aero DMG (dianggap sebagai Echo Skill DMG).\nMeninggalkan status Decipher setelah melancarkan skill ini.\n\nSoliskin to the Aid\nSelama berada dalam status Decipher, dengan setidaknya 50 poin Full Stop, tekan Resonance Skill di darat untuk melancarkan Soliskin to the Aid, memberikan Aero DMG (dianggap sebagai Echo Skill DMG).\nMeninggalkan status Decipher setelah melancarkan skill ini."
+      "effects": [
+        {
+          "title": "",
+          "description": "BOOMY BOOM!",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan Aero DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan Normal Attack sesaat setelah melancarkan BOOMY BOOM! untuk melancarkan Basic Attack Stage 3.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "BIG BOOMY BOOM!",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Selama berada dalam status Decipher, tekan Resonance Skill di darat untuk melancarkan BIG BOOMY BOOM!, memberikan Aero DMG (dianggap sebagai Echo Skill DMG).",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Meninggalkan status Decipher setelah melancarkan skill ini.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Soliskin to the Aid",
+          "description": "Selama berada dalam status Decipher, dengan setidaknya 50 poin Full Stop, tekan Resonance Skill di darat untuk melancarkan Soliskin to the Aid, memberikan Aero DMG (dianggap sebagai Echo Skill DMG).\nMeninggalkan status Decipher setelah melancarkan skill ini.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Where Trust Leads Me!",
-      "description": "Memberikan Aero DMG (dianggap sebagai Echo Skill DMG). Memperoleh Divergent selama 20 detik.\n\nDivergent\nSaat berikutnya Sigrika mendapatkan Rune, dia akan mendapatkan tambahan Rune dengan tipe berlawanan dan menghapus Divergent.\nSaat Sigrika memiliki Divergent dan Convergent di waktu yang sama, Convergent menjadi prioritas.\nSaat Sigrika memiliki 100 poin Full Stop, Divergent tidak akan aktif."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan Aero DMG (dianggap sebagai Echo Skill DMG). Memperoleh Divergent selama 20 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Divergent",
+          "description": "Saat berikutnya Sigrika mendapatkan Rune, dia akan mendapatkan tambahan Rune dengan tipe berlawanan dan menghapus Divergent.\nSaat Sigrika memiliki Divergent dan Convergent di waktu yang sama, Convergent menjadi prioritas.\nSaat Sigrika memiliki 100 poin Full Stop, Divergent tidak akan aktif.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "",
@@ -189,24 +273,84 @@
     "inherent": [
       {
         "name": "True Names Invoked",
-        "description": "Melancarkan Intro Skill - Solsworn Etymology memberikan Convergent selama 20 detik.\n\nConvergent\nSaat berikutnya Sigrika mendapatkan Rune, dia akan mendapatkan tambahan Rune dengan tipe yang sama dan menghapus Convergent.\nSaat Sigrika memiliki Divergent dan Convergent di waktu yang sama, Convergent menjadi prioritas.\nSaat Sigrika memiliki 100 poin Full Stop, Convergent tidak akan aktif."
+        "effects": [
+          {
+            "title": "",
+            "description": "Melancarkan Intro Skill - Solsworn Etymology memberikan Convergent selama 20 detik.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "Convergent",
+            "description": "Saat berikutnya Sigrika mendapatkan Rune, dia akan mendapatkan tambahan Rune dengan tipe yang sama dan menghapus Convergent.\nSaat Sigrika memiliki Divergent dan Convergent di waktu yang sama, Convergent menjadi prioritas.\nSaat Sigrika memiliki 100 poin Full Stop, Convergent tidak akan aktif.",
+            "isTitleVisible": true
+          }
+        ]
       },
       {
         "name": "True Names Aligned",
-        "description": "Saat Resonator terdekat mana pun dalam tim melancarkan Echo Skill, Sigrika mendapatkan satu tumpukan Blessing of Runes, hingga 6 tumpukan. Echo dengan nama yang sama hanya dapat memicu efek ini satu kali.\nEfek ini akan diatur ulang saat terjadi pergantian lineup.\n\nBlessing of Runes\nSetiap tumpukan Blessing of Runes memberikan Resonator yang aktif dalam tim 3% Aero DMG Bonus dan 3% Echo Skill DMG Bonus.\nSaat Blessing of Runes mencapai 6 tumpukan, Sigrika mendapatkan tambahan peningkatan 30% Aero DMG Bonus dan Echo Skill DMG Bonus.\n\nUntuk setiap 1% Energy Regen Sigrika di atas 125%, Sigrika mendapatkan 2% Echo Skill DMG Bonus hingga maksimal 50%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Resonator terdekat mana pun dalam tim melancarkan Echo Skill, Sigrika mendapatkan satu tumpukan Blessing of Runes, hingga 6 tumpukan. Echo dengan nama yang sama hanya dapat memicu efek ini satu kali.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Efek ini akan diatur ulang saat terjadi pergantian lineup.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "Blessing of Runes",
+            "description": "Setiap tumpukan Blessing of Runes memberikan Resonator yang aktif dalam tim 3% Aero DMG Bonus dan 3% Echo Skill DMG Bonus.\nSaat Blessing of Runes mencapai 6 tumpukan, Sigrika mendapatkan tambahan peningkatan 30% Aero DMG Bonus dan Echo Skill DMG Bonus.\nUntuk setiap 1% Energy Regen Sigrika di atas 125%, Sigrika mendapatkan 2% Echo Skill DMG Bonus hingga maksimal 50%.",
+            "isTitleVisible": true
+          }
+        ]
       },
       {
         "name": "Tune Break",
-        "description": "Saat Off-Tune Level target penuh, Sigrika dapat melancarkan Tune Break pada target.\nTekan Normal Attack sesaat setelah melancarkan Tune Break untuk melancarkan Basic Attack Stage 3."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Off-Tune Level target penuh, Sigrika dapat melancarkan Tune Break pada target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Tekan Normal Attack sesaat setelah melancarkan Tune Break untuk melancarkan Basic Attack Stage 3.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Solsworn Etymology",
-      "description": "Memberikan Aero DMG.\nTekan Normal Attack sesaat setelah melancarkan Intro Skill untuk melancarkan Basic Attack Stage 2."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan Aero DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan Normal Attack sesaat setelah melancarkan Intro Skill untuk melancarkan Basic Attack Stage 2.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "In This Very Moment",
-      "description": "Menyerang target, memberikan Aero DMG sebesar 795% dari ATK Sigrika. Mendapatkan 2 tumpukan Encapsulated selama 30 detik.\n\nEncapsulated\nSaat Resonator terdekat mana pun dalam tim melancarkan Echo Skill, berikan status Stagnate pada target dan konsumsi 1 tumpukan Encapsulated. Encapsulated dapat ditumpuk hingga 2 kali."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan Aero DMG sebesar 795% dari ATK Sigrika. Mendapatkan 2 tumpukan Encapsulated selama 30 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Encapsulated",
+          "description": "Saat Resonator terdekat mana pun dalam tim melancarkan Echo Skill, berikan status Stagnate pada target dan konsumsi 1 tumpukan Encapsulated. Encapsulated dapat ditumpuk hingga 2 kali.",
+          "isTitleVisible": true
+        }
+      ]
     }
   },
   "materials": {
@@ -366,32 +510,103 @@
     {
       "stage": "S1",
       "name": "The Gleam Meant For Radiance",
-      "description": "DMG Multiplier dari Basic Attack - Elucidated, Dodge Counter - Decipher, Resonance Skill - BIG BOOMY BOOM!, dan Resonance Skill - Soliskin to the Aid meningkat sebesar 70%.\nSigrika menjadi kebal terhadap interupsi saat melancarkan Basic Attack - Elucidated, Resonance Skill - BIG BOOMY BOOM!, dan Resonance Skill - Soliskin to the Aid.\nEncapsulated kini dapat ditumpuk hingga 3 kali. Setelah melancarkan Outro Skill In This Very Moment, Sigrika mendapatkan 1 tumpukan tambahan."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Basic Attack - Elucidated, Dodge Counter - Decipher, Resonance Skill - BIG BOOMY BOOM!, dan Resonance Skill - Soliskin to the Aid meningkat sebesar 70%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Sigrika menjadi kebal terhadap interupsi saat melancarkan Basic Attack - Elucidated, Resonance Skill - BIG BOOMY BOOM!, dan Resonance Skill - Soliskin to the Aid.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Encapsulated kini dapat ditumpuk hingga 3 kali. Setelah melancarkan Outro Skill In This Very Moment, Sigrika mendapatkan 1 tumpukan tambahan.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "The Bitterness Steeped In Hope",
-      "description": "DMG Multiplier dari Forte Circuit - Learn My True Name meningkat sebesar 120%.\nSaat tidak berada dalam pertempuran selama lebih dari 4 detik, Sigrika mendapatkan Divergent. Efek ini aktif hingga 1 kali setiap 4 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Forte Circuit - Learn My True Name meningkat sebesar 120%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat tidak berada dalam pertempuran selama lebih dari 4 detik, Sigrika mendapatkan Divergent. Efek ini aktif hingga 1 kali setiap 4 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "I Flee, Yet I Seek",
-      "description": "Innate Gift? kini dapat ditumpuk hingga 4 kali dan tidak lagi terhapus setelah Sigrika melancarkan Forte Circuit - Learn My True Name atau diganti keluar dari medan tempur.\nSemua tumpukan Innate Gift? terhapus setiap 30 detik saat Sigrika tetap berada di luar pertempuran. "
+      "effects": [
+        {
+          "title": "",
+          "description": "Innate Gift? kini dapat ditumpuk hingga 4 kali dan tidak lagi terhapus setelah Sigrika melancarkan Forte Circuit - Learn My True Name atau diganti keluar dari medan tempur.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Semua tumpukan Innate Gift? terhapus setiap 30 detik saat Sigrika tetap berada di luar pertempuran.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "I Lose, Yet I Gain",
-      "description": "Saat Resonator dalam tim melancarkan Echo Skill, Resonator dalam tim mendapatkan peningkatan ATK sebesar 20% selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Resonator dalam tim melancarkan Echo Skill, Resonator dalam tim mendapatkan peningkatan ATK sebesar 20% selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Until Submerged By The Dark",
-      "description": "DMG Multiplier dari Resonance Liberation Where Trust Leads Me! meningkat sebesar 30%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation Where Trust Leads Me! meningkat sebesar 30%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "True Names Resurfaced, Rising In Light",
-      "description": "Target menerima 30% DMG lebih besar dari Sigrika. \n\nInnate Gift? mendapatkan efek berikut:\n- Setiap tumpukan memberikan Runic Outburst, Runic Chain Whip, Runic Soliskin, dan Forte Circuit - Learn My True Name 15% DMG Amplification, hingga 60%.\n- Setiap tumpukan menyebabkan Runic Outburst, Runic Chain Whip, Runic Soliskin, dan Forte Circuit - Learn My True Name mengabaikan 7.5% DEF target saat memberikan damage, hingga 30%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Target menerima 30% DMG lebih besar dari Sigrika.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Innate Gift? mendapatkan efek berikut:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Setiap tumpukan memberikan Runic Outburst, Runic Chain Whip, Runic Soliskin, dan Forte Circuit - Learn My True Name 15% DMG Amplification, hingga 60%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Setiap tumpukan menyebabkan Runic Outburst, Runic Chain Whip, Runic Soliskin, dan Forte Circuit - Learn My True Name mengabaikan 7.5% DEF target saat memberikan damage, hingga 30%.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

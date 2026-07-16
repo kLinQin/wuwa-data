@@ -19,7 +19,8 @@
       "text": "minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Tetragon Temple",
@@ -213,37 +214,160 @@
   "skills": {
     "basic": {
       "name": "Moon Steps",
-      "description": "Moonring - Basic Attack\nMelakukan hingga 3 serangan berturut-turut dengan Moonring, memberikan Aero DMG.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan Aero DMG.\n\nMoonring - Dodge Counter\nTekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target dengan Moonring, memberikan Aero DMG. Tekan Normal Attack lagi sesaat setelah melakukan skill ini untuk melancarkan Moonring - Basic Attack Stage 3.\n\nMoonbow - Basic Attack\nMemasuki Lunar Cycle - New Moon dengan melancarkan Heavy Attack - Flux: Moonring. Saat berada dalam status ini, Iuno akan menyerang dengan Moonbow.\nMelakukan hingga 3 serangan berturut-turut dengan Moonbow, memberikan Aero DMG, yang dianggap sebagai Resonance Liberation DMG.\nDapat dilancarkan di udara.\n\nMoonbow - Dodge Counter\nSaat berada dalam Lunar Cycle - New Moon, tekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target dengan Moonbow, memberikan Aero DMG, yang dianggap sebagai Resonance Liberation DMG.\nSaat berada dalam Lunar Cycle - New Moon, tekan Normal Attack lagi sesaat setelah melakukan skill ini untuk melancarkan Moonbow - Basic Attack Stage 3.\nDapat dilancarkan di udara."
+      "effects": [
+        {
+          "title": "Moonring - Basic Attack",
+          "description": "Melakukan hingga 3 serangan berturut-turut dengan Moonring, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Moonring - Dodge Counter",
+          "description": "Tekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target dengan Moonring, memberikan Aero DMG. Tekan Normal Attack lagi sesaat setelah melakukan skill ini untuk melancarkan Moonring - Basic Attack Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Moonbow - Basic Attack",
+          "description": "Memasuki Lunar Cycle - New Moon dengan melancarkan Heavy Attack - Flux: Moonring. Saat berada dalam status ini, Iuno akan menyerang dengan Moonbow.\nMelakukan hingga 3 serangan berturut-turut dengan Moonbow, memberikan Aero DMG, yang dianggap sebagai Resonance Liberation DMG.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Moonbow - Dodge Counter",
+          "description": "Saat berada dalam Lunar Cycle - New Moon, tekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target dengan Moonbow, memberikan Aero DMG, yang dianggap sebagai Resonance Liberation DMG.\nSaat berada dalam Lunar Cycle - New Moon, tekan Normal Attack lagi sesaat setelah melakukan skill ini untuk melancarkan Moonbow - Basic Attack Stage 3.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Foresight Fugue",
-      "description": "Pulse of Origins\nMelesat ke depan, memberikan Aero DMG.\n\nClosing Refrain\nSaat tidak dalam Lunar Cycle, melancarkan Moonring - Basic Attack Stage 3, Intro Skill, atau Pulse of Origins menggantikan Resonance Skill Iuno dengan Closing Refrain selama 5 detik.\nMelancarkan Closing Refrain melepaskan serangkaian serangan bertubi-tubi, memberikan Aero DMG, dan mengaktifkan Lunar Cycle.\n\nUnfinished Refrain\nSaat dalam Lunar Cycle - Half Moon, Resonance Skill Iuno digantikan dengan Unfinished Refrain.\nMelancarkan Unfinished Refrain melepaskan serangkaian serangan bertubi-tubi, memberikan Aero DMG.\nUnfinished Refrain berbagi Cooldown yang sama dengan Closing Refrain.\n\nArc Beyond the Edge\nSaat Iuno berada dalam Lunar Cycle - New Moon, Resonance Skill miliknya digantikan dengan Arc Beyond the Edge, yang memiliki 2 charge awal.\nMelancarkan Arc Beyond the Edge membuat Iuno berpindah posisi dan memberikan Aero DMG, yang dianggap sebagai Resonance Liberation DMG.\n- Input arah dapat digunakan untuk memperpanjang jarak perpindahan. Jika Iuno terkena hit atau terlempar ke udara, melancarkan Arc Beyond the Edge segera membuatnya pulih dari serangan tersebut.\nDapat dilancarkan di udara."
+      "effects": [
+        {
+          "title": "Pulse of Origins",
+          "description": "Melesat ke depan, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Closing Refrain",
+          "description": "Saat tidak dalam Lunar Cycle, melancarkan Moonring - Basic Attack Stage 3, Intro Skill, atau Pulse of Origins menggantikan Resonance Skill Iuno dengan Closing Refrain selama 5 detik.\nMelancarkan Closing Refrain melepaskan serangkaian serangan bertubi-tubi, memberikan Aero DMG, dan mengaktifkan Lunar Cycle.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Unfinished Refrain",
+          "description": "Saat dalam Lunar Cycle - Half Moon, Resonance Skill Iuno digantikan dengan Unfinished Refrain.\nMelancarkan Unfinished Refrain melepaskan serangkaian serangan bertubi-tubi, memberikan Aero DMG.\nUnfinished Refrain berbagi Cooldown yang sama dengan Closing Refrain.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Arc Beyond the Edge",
+          "description": "Saat Iuno berada dalam Lunar Cycle - New Moon, Resonance Skill miliknya digantikan dengan Arc Beyond the Edge, yang memiliki 2 charge awal.\nMelancarkan Arc Beyond the Edge membuat Iuno berpindah posisi dan memberikan Aero DMG, yang dianggap sebagai Resonance Liberation DMG.\n- Input arah dapat digunakan untuk memperpanjang jarak perpindahan. Jika Iuno terkena hit atau terlempar ke udara, melancarkan Arc Beyond the Edge segera membuatnya pulih dari serangan tersebut.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Beneath Lunar Tides",
-      "description": "Memberikan Aero DMG dan mengaktifkan status Lunar Cycle.\nDapat dilancarkan di udara."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan Aero DMG dan mengaktifkan status Lunar Cycle.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat dilancarkan di udara.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Ebb And Flow",
-      "description": "Lunar Cycle\nIuno dapat mengaktifkan Lunar Cycle dengan melancarkan Resonance Skill - Closing Refrain atau Resonance Liberation.\nLunar Cycle memiliki dua status: Half Moon dan New Moon. Secara default, Iuno memasuki status Half Moon saat mengaktifkan Lunar Cycle dan dapat berpindah di antara kedua status tersebut dengan melancarkan Heavy Attack - Flux.\nSaat dalam Lunar Cycle:\n- Jump Iuno digantikan dengan Heavy Attack - Flux. STA tidak akan pulih saat Iuno berada di udara.\n- Pergerakan Iuno menjadi Meandering, yang mengonsumsi STA secara terus-menerus di udara untuk bergerak dengan cara yang unik.\n- Melakukan interaksi lingkungan, menggunakan Utilities, atau menahan Jump akan mengakhiri Lunar Cycle.\n\nLunar Cycle - Half Moon\nIuno menyerang menggunakan Moonring, memulihkan Sentience saat terkena hit.\nIa dapat menggunakan Heavy Attack - Flux: Moonbow untuk memberikan Aero DMG (dianggap sebagai Resonance Liberation DMG) dan berpindah ke Lunar Cycle - New Moon.\nHeavy Attack - Flux: Moonbow dapat dilancarkan di udara.\n\nLunar Cycle - New Moon\nIuno menyerang menggunakan Moonbow. Saat dalam status ini, melancarkan Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, atau Moonbow - Dodge Counter mengonsumsi Sentience untuk meningkatkan DMG Multiplier skill tersebut, memulihkan tambahan Concerto Energy, dan memulihkan HP Resonator terdekat di dalam tim.\nIuno dapat menggunakan Heavy Attack - Flux: Moonring untuk memberikan Aero DMG (dianggap sebagai Resonance Liberation DMG) dan berpindah ke Lunar Cycle - Half Moon.\nHeavy Attack - Flux: Moonring dapat dilancarkan di udara.\n\nHeavy Attack - Absolute Fullness\nSaat Concerto Energy Iuno penuh, Heavy Attack miliknya digantikan dengan Absolute Fullness.\nMelancarkan Absolute Fullness mengakhiri Lunar Cycle, memberikan pemulihan HP bagi Resonator terdekat di dalam tim, memberikan Aero DMG pada target terdekat (dianggap sebagai Resonance Liberation DMG), dan memunculkan Full Moon domain di lokasinya. Efek ini dapat dipicu sekali setiap 25 detik.\nDapat dilancarkan di udara.\n\nFull Moon Domain\nResonator di dalam domain secara periodik memulihkan HP dan STA.\nMendapatkan Shield di dalam domain memberikan 1 stack Blessing of the Wan Light. Efek ini dapat dipicu sekali setiap 0.5 detik.\n\nBlessing of the Wan Light\nResonator yang menerima mendapatkan 4% all DMG Amplification selama 10 detik, dapat menumpuk hingga 10 stack. Mendapatkan stack baru akan mereset durasi. Efek ini berakhir lebih awal jika Resonator yang menerima diganti keluar dari field.\n\nSentience\nIuno dapat menampung hingga 100 poin Sentience.\nMelancarkan Intro Skill memulihkan 40 poin Sentience.\nMelancarkan Resonance Liberation memulihkan 60 poin Sentience.\nMelancarkan Closing Refrain atau Unfinished Refrain memulihkan 25 poin Sentience.\nSaat Iuno berada dalam Lunar Cycle, Moonring - Basic Attack, Moonring - Dodge Counter, dan Mid-air Attack memulihkan Sentience saat terkena hit."
+      "effects": [
+        {
+          "title": "Lunar Cycle",
+          "description": "Iuno dapat mengaktifkan Lunar Cycle dengan melancarkan Resonance Skill - Closing Refrain atau Resonance Liberation.\nLunar Cycle memiliki dua status: Half Moon dan New Moon. Secara default, Iuno memasuki status Half Moon saat mengaktifkan Lunar Cycle dan dapat berpindah di antara kedua status tersebut dengan melancarkan Heavy Attack - Flux.\nSaat dalam Lunar Cycle:\n- Jump Iuno digantikan dengan Heavy Attack - Flux. STA tidak akan pulih saat Iuno berada di udara.\n- Pergerakan Iuno menjadi Meandering, yang mengonsumsi STA secara terus-menerus di udara untuk bergerak dengan cara yang unik.\n- Melakukan interaksi lingkungan, menggunakan Utilities, atau menahan Jump akan mengakhiri Lunar Cycle.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Lunar Cycle - Half Moon",
+          "description": "Iuno menyerang menggunakan Moonring, memulihkan Sentience saat terkena hit.\nIa dapat menggunakan Heavy Attack - Flux: Moonbow untuk memberikan Aero DMG (dianggap sebagai Resonance Liberation DMG) dan berpindah ke Lunar Cycle - New Moon.\nHeavy Attack - Flux: Moonbow dapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Lunar Cycle - New Moon",
+          "description": "Iuno menyerang menggunakan Moonbow. Saat dalam status ini, melancarkan Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, atau Moonbow - Dodge Counter mengonsumsi Sentience untuk meningkatkan DMG Multiplier skill tersebut, memulihkan tambahan Concerto Energy, dan memulihkan HP Resonator terdekat di dalam tim.\nIuno dapat menggunakan Heavy Attack - Flux: Moonring untuk memberikan Aero DMG (dianggap sebagai Resonance Liberation DMG) dan berpindah ke Lunar Cycle - Half Moon.\nHeavy Attack - Flux: Moonring dapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Absolute Fullness",
+          "description": "Saat Concerto Energy Iuno penuh, Heavy Attack miliknya digantikan dengan Absolute Fullness.\nMelancarkan Absolute Fullness mengakhiri Lunar Cycle, memberikan pemulihan HP bagi Resonator terdekat di dalam tim, memberikan Aero DMG pada target terdekat (dianggap sebagai Resonance Liberation DMG), dan memunculkan Full Moon domain di lokasinya. Efek ini dapat dipicu sekali setiap 25 detik.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Full Moon Domain",
+          "description": "Resonator di dalam domain secara periodik memulihkan HP dan STA.\nMendapatkan Shield di dalam domain memberikan 1 stack Blessing of the Wan Light. Efek ini dapat dipicu sekali setiap 0.5 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Blessing of the Wan Light",
+          "description": "Resonator yang menerima mendapatkan 4% all DMG Amplification selama 10 detik, dapat menumpuk hingga 10 stack. Mendapatkan stack baru akan mereset durasi. Efek ini berakhir lebih awal jika Resonator yang menerima diganti keluar dari field.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sentience",
+          "description": "Iuno dapat menampung hingga 100 poin Sentience.\nMelancarkan Intro Skill memulihkan 40 poin Sentience.\nMelancarkan Resonance Liberation memulihkan 60 poin Sentience.\nMelancarkan Closing Refrain atau Unfinished Refrain memulihkan 25 poin Sentience.\nSaat Iuno berada dalam Lunar Cycle, Moonring - Basic Attack, Moonring - Dodge Counter, dan Mid-air Attack memulihkan Sentience saat terkena hit.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Waxing Ascent",
-        "description": "Setiap kali Iuno melancarkan Basic Attack, Heavy Attack, Dodge Counter, Resonance Skill, Resonance Liberation, atau Intro Skill, ia mendapatkan 1 Shield setara dengan 32% dari ATK miliknya selama 15 detik. Shield ini tidak akan diteruskan kepada Resonator yang masuk ke field selanjutnya."
+        "effects": [
+          {
+            "title": "",
+            "description": "Setiap kali Iuno melancarkan Basic Attack, Heavy Attack, Dodge Counter, Resonance Skill, Resonance Liberation, atau Intro Skill, ia mendapatkan 1 Shield setara dengan 32% dari ATK miliknya selama 15 detik. Shield ini tidak akan diteruskan kepada Resonator yang masuk ke field selanjutnya.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Derivation",
-        "description": "Saat Iuno melancarkan Intro Skill atau Resonance Liberation, ia segera mendapatkan 5 stack Blessing of the Wan Light."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Iuno melancarkan Intro Skill atau Resonance Liberation, ia segera mendapatkan 5 stack Blessing of the Wan Light.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Illuminated Manifestation",
-      "description": "Deal Aero DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Deal Aero DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "From Gloom To Gleam",
-      "description": "Menyerang target untuk memberikan 100% Aero DMG. Resonator yang masuk mendapatkan 50% Heavy Attack DMG Amplification selama 14 detik. Efek ini berakhir lebih awal jika mereka diganti keluar dari field.\nMelancarkan Outro Skill tidak akan menginterupsi Heavy Attack - Absolute Fullness, dan efek Outro Skill tetap berlaku."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target untuk memberikan 100% Aero DMG. Resonator yang masuk mendapatkan 50% Heavy Attack DMG Amplification selama 14 detik. Efek ini berakhir lebih awal jika mereka diganti keluar dari field.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan Outro Skill tidak akan menginterupsi Heavy Attack - Absolute Fullness, dan efek Outro Skill tetap berlaku.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -447,32 +571,83 @@
     {
       "stage": "S1",
       "name": "Wax Or Wane, All Gild The Bough",
-      "description": "Saat Iuno berada dalam Lunar Cycle, ATK miliknya meningkat sebesar 40%.\nSaat Iuno berada di dalam Full Moon Domain, ia secara tambahan memulihkan 1 poin Resonance Energy per detik.\nResonance Skill - Arc Beyond the Edge dan Heavy Attack - Absolute Fullness menjadi kebal terhadap interupsi (immune to interruption)."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Iuno berada dalam Lunar Cycle, ATK miliknya meningkat sebesar 40%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Iuno berada di dalam Full Moon Domain, ia secara tambahan memulihkan 1 poin Resonance Energy per detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Resonance Skill - Arc Beyond the Edge dan Heavy Attack - Absolute Fullness menjadi kebal terhadap interupsi (immune to interruption).",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Day Or Night, Let This Be Eternal",
-      "description": "Resonator di dalam tim dengan 10 stack Blessing of the Wan Light mendapatkan tambahan 40% all DMG Amplification."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator di dalam tim dengan 10 stack Blessing of the Wan Light mendapatkan tambahan 40% all DMG Amplification.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "I Drink Deep Of Their Forgetting",
-      "description": "Saat Iuno berada dalam Lunar Cycle, DMG yang diberikan oleh Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, dan Moonbow - Dodge Counter mendapatkan Amplified sebesar 65%.\nDalam periode tertentu setelah melakukan Moonbow - Basic Attack atau Moonbow - Dodge Counter, melancarkan Resonance Skill - Arc Beyond the Edge tidak akan mereset urutan (cycle) dari Moonbow - Basic Attack."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Iuno berada dalam Lunar Cycle, DMG yang diberikan oleh Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, dan Moonbow - Dodge Counter mendapatkan Amplified sebesar 65%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dalam periode tertentu setelah melakukan Moonbow - Basic Attack atau Moonbow - Dodge Counter, melancarkan Resonance Skill - Arc Beyond the Edge tidak akan mereset urutan (cycle) dari Moonbow - Basic Attack.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Rainy Season Dwell In My Eyes",
-      "description": "Melancarkan Heavy Attack - Absolute Fullness memberikan Shield setara dengan 160% dari ATK Iuno kepada semua Resonator di dalam tim selama 30 detik, yang tidak dapat diteruskan kepada Resonator yang masuk ke field selanjutnya."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Heavy Attack - Absolute Fullness memberikan Shield setara dengan 160% dari ATK Iuno kepada semua Resonator di dalam tim selama 30 detik, yang tidak dapat diteruskan kepada Resonator yang masuk ke field selanjutnya.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "A Thousand Futile Glimpses",
-      "description": "Iuno mendapatkan 20% Resonance Liberation DMG Bonus."
+      "effects": [
+        {
+          "title": "",
+          "description": "Iuno mendapatkan 20% Resonance Liberation DMG Bonus.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "I Am The Constant In The Chaos",
-      "description": "DMG Multiplier dari Heavy Attack - Absolute Fullness meningkat sebesar 1600%. Setelah melancarkan skill ini, Iuno memasuki kembali Lunar Cycle - New Moon, mendapatkan 100 poin Sentience, dan mereset semua cooldown dari Resonance Skill - Arc Beyond the Edge."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Heavy Attack - Absolute Fullness meningkat sebesar 1600%. Setelah melancarkan skill ini, Iuno memasuki kembali Lunar Cycle - New Moon, mendapatkan 100 poin Sentience, dan mereset semua cooldown dari Resonance Skill - Arc Beyond the Edge.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

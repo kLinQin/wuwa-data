@@ -22,7 +22,8 @@
     {
       "text": "Minimal update",
       "type": "input",
-      "isNew": false
+      "isNew": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Lawless Zone",
@@ -206,41 +207,245 @@
   "skills": {
     "basic": {
       "name": "Chroma Drift",
-      "description": "Basic Attack\nTekan atau tahan Normal Attack untuk melakukan hingga 3 serangan berturut-turut, memberikan Spectro DMG.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan Spectro DMG.\n\nDodge Counter\nTekan Normal Attack tepat setelah Dodge yang berhasil untuk menyerang target, memberikan Spectro DMG.\n\nBasic Attack - Spark Collision\nDengan Overflow penuh dalam Optical Sampling Stage, tahan Normal Attack untuk memasuki status pengisian daya (charging).\nSelama status ini, 15 poin Overflow akan dikonversi menjadi 12,5% Lumiflow setiap 0,2 detik. Lynae kebal terhadap gangguan dan menerima 50% DMG lebih sedikit.\nSetelah melepaskan Normal Attack atau saat Lumiflow penuh, Lynae melancarkan Spark Collision dengan kekuatan bervariasi berdasarkan rasio Lumiflow, memberikan Spectro DMG:\n- Spark Collision Lv. 1: Lumiflow <50%\n- Spark Collision Lv. 2: 50% ≤ Lumiflow < 100%\n- Spark Collision Lv. 3: Lumiflow = 100%\n\nKaleidoscopic Parade - Basic Attack\nSaat berada dalam Kaleidoscopic Parade, Basic Attack digantikan dengan Kaleidoscopic Parade - Basic Attack.\nMelakukan hingga 5 serangan berturut-turut, memberikan Spectro DMG.\nDengan 120 poin Lumiflow, Kaleidoscopic Parade - Basic Attack Tahap 1 & 4 melacak musuh dalam jarak yang lebih jauh.\n\nKaleidoscopic Parade - Ground Heavy Attack\nSaat berada dalam Kaleidoscopic Parade, tahan Normal Attack di darat untuk melancarkan skill ini. Mengonsumsi STA untuk menyerang target secara terus-menerus, memberikan Spectro DMG, dianggap sebagai Basic Attack DMG. Lepaskan untuk melancarkan Kaleidoscopic Parade - Graffiti Blast, memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.\n\nKaleidoscopic Parade - Mid-air Heavy Attack\nSaat berada dalam Kaleidoscopic Parade, tahan Normal Attack di udara untuk melancarkan skill ini. Mengonsumsi STA untuk menyerang target, memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.\nTidak dapat mendapatkan cas baru saat berada di udara. Cas yang tersedia di-reset saat Lynae menjadi Resonator aktif dan berada di darat.\n\nKaleidoscopic Parade - Mid-air Attack\nSaat berada dalam Kaleidoscopic Parade, Mid-air Attack digantikan dengan Kaleidoscopic Parade - Mid-air Attack.\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan Spectro DMG.\n\nKaleidoscopic Parade - Dodge Counter\nSaat berada dalam Kaleidoscopic Parade, Dodge Counter digantikan dengan Kaleidoscopic Parade - Dodge Counter.\nTekan Normal Attack tepat setelah Dodge yang berhasil untuk menyerang target, memberikan Spectro DMG.\nSaat berada dalam Kaleidoscopic Parade, tekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Tekan atau tahan Normal Attack untuk melakukan hingga 3 serangan berturut-turut, memberikan Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack, memberikan Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Normal Attack tepat setelah Dodge yang berhasil untuk menyerang target, memberikan Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Spark Collision",
+          "description": "Dengan Overflow penuh dalam Optical Sampling Stage, tahan Normal Attack untuk memasuki status pengisian daya (charging).\nSelama status ini, 15 poin Overflow akan dikonversi menjadi 12,5% Lumiflow setiap 0,2 detik. Lynae kebal terhadap gangguan dan menerima 50% DMG lebih sedikit.\nSetelah melepaskan Normal Attack atau saat Lumiflow penuh, Lynae melancarkan Spark Collision dengan kekuatan bervariasi berdasarkan rasio Lumiflow, memberikan Spectro DMG:",
+          "isTitleVisible": true
+        },
+        {
+          "title": "- Spark Collision Lv. 1: Lumiflow <50%",
+          "description": "- Spark Collision Lv. 2: 50% ≤ Lumiflow < 100%\n- Spark Collision Lv. 3: Lumiflow = 100%",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Kaleidoscopic Parade - Basic Attack",
+          "description": "Saat berada dalam Kaleidoscopic Parade, Basic Attack digantikan dengan Kaleidoscopic Parade - Basic Attack.\nMelakukan hingga 5 serangan berturut-turut, memberikan Spectro DMG.\nDengan 120 poin Lumiflow, Kaleidoscopic Parade - Basic Attack Tahap 1 & 4 melacak musuh dalam jarak yang lebih jauh.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Kaleidoscopic Parade - Ground Heavy Attack",
+          "description": "Saat berada dalam Kaleidoscopic Parade, tahan Normal Attack di darat untuk melancarkan skill ini. Mengonsumsi STA untuk menyerang target secara terus-menerus, memberikan Spectro DMG, dianggap sebagai Basic Attack DMG. Lepaskan untuk melancarkan Kaleidoscopic Parade - Graffiti Blast, memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Kaleidoscopic Parade - Mid-air Heavy Attack",
+          "description": "Saat berada dalam Kaleidoscopic Parade, tahan Normal Attack di udara untuk melancarkan skill ini. Mengonsumsi STA untuk menyerang target, memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.\nTidak dapat mendapatkan cas baru saat berada di udara. Cas yang tersedia di-reset saat Lynae menjadi Resonator aktif dan berada di darat.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Kaleidoscopic Parade - Mid-air Attack",
+          "description": "Saat berada dalam Kaleidoscopic Parade, Mid-air Attack digantikan dengan Kaleidoscopic Parade - Mid-air Attack.\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Kaleidoscopic Parade - Dodge Counter",
+          "description": "Saat berada dalam Kaleidoscopic Parade, Dodge Counter digantikan dengan Kaleidoscopic Parade - Dodge Counter.\nTekan Normal Attack tepat setelah Dodge yang berhasil untuk menyerang target, memberikan Spectro DMG.\nSaat berada dalam Kaleidoscopic Parade, tekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Lynae-Style Palettes",
-      "description": "Lynae-Style Palettes\nMenekan Resonance Skill untuk memberikan Spectro DMG.\nSaat berada dalam Kaleidoscopic Parade, tahan Resonance Skill untuk menyerang target, memberikan Spectro DMG dan keluar dari Kaleidoscopic Parade.\nTekan Normal Attack dalam waktu tertentu setelah skill ini untuk melancarkan Basic Attack Tahap 2.\nLynae-Style Palettes dan Additive Color berbagi cooldown.\n\nAdditive Color\nSelama Kaleidoscopic Parade, tekan Resonance Skill di darat untuk menyerang target, memberikan Spectro DMG.\nDalam waktu tertentu selama skill berlangsung, tekan Normal Attack untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.\nLynae-Style Palettes dan Additive Color berbagi cooldown."
+      "effects": [
+        {
+          "title": "Lynae-Style Palettes",
+          "description": "Menekan Resonance Skill untuk memberikan Spectro DMG.\nSaat berada dalam Kaleidoscopic Parade, tahan Resonance Skill untuk menyerang target, memberikan Spectro DMG dan keluar dari Kaleidoscopic Parade.\nTekan Normal Attack dalam waktu tertentu setelah skill ini untuk melancarkan Basic Attack Tahap 2.\nLynae-Style Palettes dan Additive Color berbagi cooldown.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Additive Color",
+          "description": "Selama Kaleidoscopic Parade, tekan Resonance Skill di darat untuk menyerang target, memberikan Spectro DMG.\nDalam waktu tertentu selama skill berlangsung, tekan Normal Attack untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.\nLynae-Style Palettes dan Additive Color berbagi cooldown.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Prismatic Overblast",
-      "description": "Memberikan Spectro DMG. Melancarkan skill ini meningkatkan DMG yang diberikan oleh semua Resonator terdekat dalam tim sebesar 24% selama 30 detik.\n\nBasic Attack - To a Vivid Tomorrow!\nTekan Normal Attack dalam waktu tertentu setelah melancarkan Resonance Liberation - Prismatic Overblast untuk melancarkan Basic Attack - To a Vivid Tomorrow!, memberikan Spectro DMG.\nSaat berada dalam Kaleidoscopic Parade, tekan Normal Attack dalam waktu tertentu selama skill berlangsung untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan Spectro DMG. Melancarkan skill ini meningkatkan DMG yang diberikan oleh semua Resonator terdekat dalam tim sebesar 24% selama 30 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Basic Attack - To a Vivid Tomorrow!",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan Normal Attack dalam waktu tertentu setelah melancarkan Resonance Liberation - Prismatic Overblast untuk melancarkan Basic Attack - To a Vivid Tomorrow!, memberikan Spectro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat berada dalam Kaleidoscopic Parade, tekan Normal Attack dalam waktu tertentu selama skill berlangsung untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Chromaticity Modeling",
-      "description": "Optical Sampling Stage\nLynae berada dalam Optical Sampling Stage secara default. Saat berada dalam status ini, Overflow pulih selama skill tertentu.\n\nKaleidoscopic Parade\nMelancarkan Basic Attack - Spark Collision membuat Lynae memasuki Kaleidoscopic Parade. Dalam status ini, Lynae terus-menerus memulihkan Lumiflow saat bergerak di darat atau selama periode tertentu dari skill tertentu. Lynae tidak akan Walk selama status ini, dan Running serta Sprinting miliknya akan digantikan oleh Free Skating dan Speed Skating yang lebih cepat.\n\nBasic Attack - Polychrome Leap\nSaat berada dalam Kaleidoscopic Parade, dengan setidaknya 1/3 dari Lumiflow maksimal, Jump digantikan oleh Basic Attack - Polychrome Leap.\nMengonsumsi 1/3 dari Lumiflow maksimal untuk memberikan Spectro DMG. Memberikan Photochromic Flux pada target yang terkena serangan. Dodge yang berhasil dapat dipicu dalam waktu tertentu selama skill ini. Saat di udara, Basic Attack - Polychrome Leap terhubung hingga 3 tahap. Beralih ke Resonator lain me-reset kombo tersebut.\nSaat dalam pertempuran, setiap tahap Basic Attack - Polychrome Leap yang dilancarkan memulihkan 1 poin True Color.\nDalam waktu tertentu setelah Basic Attack - Polychrome Leap Tahap 1, tekan Normal Attack di darat untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.\nMelancarkan Basic Attack - Polychrome Leap Tahap 2 juga menarik target di sekitar.\n\nBasic Attack - Iridescent Splash\nSelama Kaleidoscopic Parade, saat Lynae berada di udara dengan 3 poin True Color, dan Basic Attack - Visual Impact sedang dalam cooldown, tekan Normal Attack atau Resonance Skill untuk memberikan Spectro DMG dan memberikan Photochromic Flux pada target yang terkena serangan.\nSkill ini mengonsumsi 3 poin True Color.\nTekan Normal Attack dalam waktu tertentu selama skill ini untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.\n\nBasic Attack - Visual Impact\nSelama Kaleidoscopic Parade, saat Lynae berada di udara dengan 3 poin True Color, dan skill ini tidak dalam cooldown, tekan Normal Attack atau Resonance Skill untuk memberikan Spectro DMG dan memberikan Photochromic Flux pada target yang terkena serangan.\nSkill ini mengonsumsi 3 poin True Color dan memberikan semua Resonator terdekat dalam tim 40 poin Tune Break Boost selama 30 detik.\nTekan Normal Attack dalam waktu tertentu selama skill ini untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.\n\nResonance Mode\nMemberikan Photochromic Flux saat mengenai target dengan Basic Attack - Polychrome Leap, Basic Attack - Iridescent Splash, Basic Attack - Visual Impact, dan Intro Skill - Time to Show Some Colors!.\nLynae dapat beralih antara Resonance Mode - Tune Rupture dan Resonance Mode - Tune Strain:\n- Saat dalam Resonance Mode - Tune Rupture, Photochromic Flux memberikan Tune Rupture - Shifting pada target selama 25 detik.\n- Saat dalam Resonance Mode - Tune Strain, Photochromic Flux memberikan Tune Strain - Shifting pada target selama 25 detik.\n\nTune Rupture Response - Spectral Analysis\nMemberikan satu instansi Spectro DMG, dianggap sebagai Tune Rupture DMG, kepada target dalam jangkauan yang terkena pengaruh Tune Rupture - Interfered.\n\nOverflow\nLynae dapat menampung hingga 120 poin Overflow.\nSaat berada dalam Optical Sampling Stage, Overflow pulih selama Basic Attack, Lynae-Style Palettes, Mid-air Attack, dan Dodge Counter, atau saat Intro Skill dilancarkan.\nSaat Overflow penuh, Basic Attack - Spark Collision menjadi tersedia.\nMelancarkan Basic Attack - Spark Collision menghapus semua Overflow.\n\nLumiflow\nLynae dapat menampung hingga 120 poin Lumiflow.\nSelama Kaleidoscopic Parade:\n- Pulihkan 20% Lumiflow per detik saat Lynae bergerak di darat/memanjat, atau melakukan Dodge yang berhasil di darat, atau dalam waktu tertentu selama Kaleidoscopic Parade - Basic Attack, Kaleidoscopic Parade - Ground Heavy Attack, Kaleidoscopic Parade - Mid-air Heavy Attack, Kaleidoscopic Parade - Dodge Counter, Additive Color, Dodge darat, Intro Skill, atau Basic Attack - To a Vivid Tomorrow!.\n- Lumiflow mulai berkurang sebesar 20% per detik saat Lynae diam di darat/memanjat/berenang atau berada di luar medan tempur, atau setelah waktu tertentu mengikuti penggunaan skill yang tercantum di atas.\n- Lumiflow tidak berubah saat Lynae tidak berada dalam status apa pun yang dijelaskan di atas.\nKeluar dari Kaleidoscopic Parade menghapus semua Lumiflow.\nDengan 120 poin Lumiflow, kecepatan roller skating Lynae meningkat lebih jauh. Speed Skating mengonsumsi STA seiring waktu.\n\nTrue Color\nLynae dapat menampung hingga 3 poin True Color.\nSelama pertempuran, setiap kali Basic Attack - Polychrome Leap dilancarkan, dapatkan 1 poin True Color. Dengan 3 poin True Color, Basic Attack - Iridescent Splash dan Basic Attack - Visual Impact menjadi tersedia.\nKeluar dari Kaleidoscopic Parade menghapus semua True Color."
+      "effects": [
+        {
+          "title": "Optical Sampling Stage",
+          "description": "Lynae berada dalam Optical Sampling Stage secara default. Saat berada dalam status ini, Overflow pulih selama skill tertentu.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Kaleidoscopic Parade",
+          "description": "Melancarkan Basic Attack - Spark Collision membuat Lynae memasuki Kaleidoscopic Parade. Dalam status ini, Lynae terus-menerus memulihkan Lumiflow saat bergerak di darat atau selama periode tertentu dari skill tertentu. Lynae tidak akan Walk selama status ini, dan Running serta Sprinting miliknya akan digantikan oleh Free Skating dan Speed Skating yang lebih cepat.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Polychrome Leap",
+          "description": "Saat berada dalam Kaleidoscopic Parade, dengan setidaknya 1/3 dari Lumiflow maksimal, Jump digantikan oleh Basic Attack - Polychrome Leap.\nMengonsumsi 1/3 dari Lumiflow maksimal untuk memberikan Spectro DMG. Memberikan Photochromic Flux pada target yang terkena serangan. Dodge yang berhasil dapat dipicu dalam waktu tertentu selama skill ini. Saat di udara, Basic Attack - Polychrome Leap terhubung hingga 3 tahap. Beralih ke Resonator lain me-reset kombo tersebut.\nSaat dalam pertempuran, setiap tahap Basic Attack - Polychrome Leap yang dilancarkan memulihkan 1 poin True Color.\nDalam waktu tertentu setelah Basic Attack - Polychrome Leap Tahap 1, tekan Normal Attack di darat untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.\nMelancarkan Basic Attack - Polychrome Leap Tahap 2 juga menarik target di sekitar.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Iridescent Splash",
+          "description": "Selama Kaleidoscopic Parade, saat Lynae berada di udara dengan 3 poin True Color, dan Basic Attack - Visual Impact sedang dalam cooldown, tekan Normal Attack atau Resonance Skill untuk memberikan Spectro DMG dan memberikan Photochromic Flux pada target yang terkena serangan.\nSkill ini mengonsumsi 3 poin True Color.\nTekan Normal Attack dalam waktu tertentu selama skill ini untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Visual Impact",
+          "description": "Selama Kaleidoscopic Parade, saat Lynae berada di udara dengan 3 poin True Color, dan skill ini tidak dalam cooldown, tekan Normal Attack atau Resonance Skill untuk memberikan Spectro DMG dan memberikan Photochromic Flux pada target yang terkena serangan.\nSkill ini mengonsumsi 3 poin True Color dan memberikan semua Resonator terdekat dalam tim 40 poin Tune Break Boost selama 30 detik.\nTekan Normal Attack dalam waktu tertentu selama skill ini untuk melancarkan Kaleidoscopic Parade - Basic Attack Tahap 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Mode",
+          "description": "Memberikan Photochromic Flux saat mengenai target dengan Basic Attack - Polychrome Leap, Basic Attack - Iridescent Splash, Basic Attack - Visual Impact, dan Intro Skill - Time to Show Some Colors!.\nLynae dapat beralih antara Resonance Mode - Tune Rupture dan Resonance Mode - Tune Strain:\n- Saat dalam Resonance Mode - Tune Rupture, Photochromic Flux memberikan Tune Rupture - Shifting pada target selama 25 detik.\n- Saat dalam Resonance Mode - Tune Strain, Photochromic Flux memberikan Tune Strain - Shifting pada target selama 25 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Tune Rupture Response - Spectral Analysis",
+          "description": "Memberikan satu instansi Spectro DMG, dianggap sebagai Tune Rupture DMG, kepada target dalam jangkauan yang terkena pengaruh Tune Rupture - Interfered.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Overflow",
+          "description": "Lynae dapat menampung hingga 120 poin Overflow.\nSaat berada dalam Optical Sampling Stage, Overflow pulih selama Basic Attack, Lynae-Style Palettes, Mid-air Attack, dan Dodge Counter, atau saat Intro Skill dilancarkan.\nSaat Overflow penuh, Basic Attack - Spark Collision menjadi tersedia.\nMelancarkan Basic Attack - Spark Collision menghapus semua Overflow.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Lumiflow",
+          "description": "Lynae dapat menampung hingga 120 poin Lumiflow.\nSelama Kaleidoscopic Parade:\n- Pulihkan 20% Lumiflow per detik saat Lynae bergerak di darat/memanjat, atau melakukan Dodge yang berhasil di darat, atau dalam waktu tertentu selama Kaleidoscopic Parade - Basic Attack, Kaleidoscopic Parade - Ground Heavy Attack, Kaleidoscopic Parade - Mid-air Heavy Attack, Kaleidoscopic Parade - Dodge Counter, Additive Color, Dodge darat, Intro Skill, atau Basic Attack - To a Vivid Tomorrow!.\n- Lumiflow mulai berkurang sebesar 20% per detik saat Lynae diam di darat/memanjat/berenang atau berada di luar medan tempur, atau setelah waktu tertentu mengikuti penggunaan skill yang tercantum di atas.\n- Lumiflow tidak berubah saat Lynae tidak berada dalam status apa pun yang dijelaskan di atas.\nKeluar dari Kaleidoscopic Parade menghapus semua Lumiflow.\nDengan 120 poin Lumiflow, kecepatan roller skating Lynae meningkat lebih jauh. Speed Skating mengonsumsi STA seiring waktu.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "True Color",
+          "description": "Lynae dapat menampung hingga 3 poin True Color.\nSelama pertempuran, setiap kali Basic Attack - Polychrome Leap dilancarkan, dapatkan 1 poin True Color. Dengan 3 poin True Color, Basic Attack - Iridescent Splash dan Basic Attack - Visual Impact menjadi tersedia.\nKeluar dari Kaleidoscopic Parade menghapus semua True Color.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Colors Never Fade!",
-        "description": "Setelah melancarkan Basic Attack - Visual Impact, Lynae meninggalkan Spray Paint di darat dan memberikan Photochromic Flux secara terus-menerus pada target di dalam Spray Paint selama 5 detik, dipicu sekali setiap 2 detik. Saat Spray Paint berada di darat, beralih ke Resonance Mode lain tidak memengaruhi efek Photochromic Flux yang diberikan oleh Spray Paint.\n\nDengan adanya Lynae di dalam tim, Energy Tank motor ekspedisi meluas sebesar 600 poin. Lynae memasuki Kaleidoscopic Parade secara otomatis saat berada di atas motor ekspedisi dan memulihkan 20% Lumiflow per detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Setelah melancarkan Basic Attack - Visual Impact, Lynae meninggalkan Spray Paint di darat dan memberikan Photochromic Flux secara terus-menerus pada target di dalam Spray Paint selama 5 detik, dipicu sekali setiap 2 detik. Saat Spray Paint berada di darat, beralih ke Resonance Mode lain tidak memengaruhi efek Photochromic Flux yang diberikan oleh Spray Paint.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Dengan adanya Lynae di dalam tim, Energy Tank motor ekspedisi meluas sebesar 600 poin. Lynae memasuki Kaleidoscopic Parade secara otomatis saat berada di atas motor ekspedisi dan memulihkan 20% Lumiflow per detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "\"Adaptive Optics: Everyday Applications\"",
-        "description": "Melancarkan Intro Skill - Time to Show Some Colors! meningkatkan Spectro DMG Bonus Lynae sebesar 25% selama 9 detik.\n\nSelama Kaleidoscopic Parade, jika Lynae tidak sedang dalam pertempuran, melakukan dodge tanpa input arah memberikan ia Optic Camo selama 15 detik, yang akan dihapus saat Lynae melancarkan skill apa pun selain dodge atau diganti keluar dari medan tempur. Melakukan interaksi lingkungan, gameplay, atau fungsional, atau memasuki pertempuran, akan menghapus Optic Camo. Dengan Optic Camo, Lynae dapat memasuki jarak aggro musuh tanpa memicu pertempuran."
+        "effects": [
+          {
+            "title": "",
+            "description": "Melancarkan Intro Skill - Time to Show Some Colors! meningkatkan Spectro DMG Bonus Lynae sebesar 25% selama 9 detik.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Selama Kaleidoscopic Parade, jika Lynae tidak sedang dalam pertempuran, melakukan dodge tanpa input arah memberikan ia Optic Camo selama 15 detik, yang akan dihapus saat Lynae melancarkan skill apa pun selain dodge atau diganti keluar dari medan tempur. Melakukan interaksi lingkungan, gameplay, atau fungsional, atau memasuki pertempuran, akan menghapus Optic Camo. Dengan Optic Camo, Lynae dapat memasuki jarak aggro musuh tanpa memicu pertempuran.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Spectral Analysis",
-        "description": "Lynae dapat memberikan Tune Rupture - Shifting atau Tune Strain - Shifting pada target.\nLynae dapat menanggapi Tune Rupture - Interfered dan Tune Strain - Interfered.\n- Menanggapi Tune Rupture - Interfered: Saat Resonator mana pun dalam tim memberikan Tune Break DMG dan memberikan status Tune Rupture - Interfered, Lynae melancarkan Tune Rupture Response - Spectral Analysis. Setiap target dapat menerima damage dari skill ini hingga satu kali setiap 8 detik.\n- Menanggapi Tune Strain - Interfered: Untuk setiap stack Tune Strain - Interfered pada target, setiap poin Tune Break Boost Lynae meningkatkan total DMG miliknya terhadap target tersebut sebesar 0.12%. Saat Lynae berada dalam tim, batas stack maksimal Tune Strain - Interfered pada target meningkat sebanyak 1.\nSaat Off-Tune Level target penuh, Lynae dapat melancarkan Tune Break pada target."
+        "effects": [
+          {
+            "title": "",
+            "description": "Lynae dapat memberikan Tune Rupture - Shifting atau Tune Strain - Shifting pada target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Lynae dapat menanggapi Tune Rupture - Interfered dan Tune Strain - Interfered.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Menanggapi Tune Rupture - Interfered: Saat Resonator mana pun dalam tim memberikan Tune Break DMG dan memberikan status Tune Rupture - Interfered, Lynae melancarkan Tune Rupture Response - Spectral Analysis. Setiap target dapat menerima damage dari skill ini hingga satu kali setiap 8 detik.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Menanggapi Tune Strain - Interfered: Untuk setiap stack Tune Strain - Interfered pada target, setiap poin Tune Break Boost Lynae meningkatkan total DMG miliknya terhadap target tersebut sebesar 0.12%. Saat Lynae berada dalam tim, batas stack maksimal Tune Strain - Interfered pada target meningkat sebanyak 1.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat Off-Tune Level target penuh, Lynae dapat melancarkan Tune Break pada target.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Time To Show Some Colors!",
-      "description": "Memberikan Spectro DMG, memberikan Photochromic Flux pada target yang terkena serangan.\nSaat berada dalam Optical Sampling Stage, melancarkan skill ini memulihkan 100 poin Overflow."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan Spectro DMG, memberikan Photochromic Flux pada target yang terkena serangan.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat berada dalam Optical Sampling Stage, melancarkan skill ini memulihkan 100 poin Overflow.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Let'S Hit The Road!",
-      "description": "Menyerang target dan memberikan 100% Spectro DMG. Resonator berikutnya yang masuk mendapatkan 15% All DMG Amplification dan 25% Resonance Liberation DMG Amplification selama 14 detik atau hingga mereka diganti keluar.\nLynae keluar dari status Kaleidoscopic Parade setelah melancarkan Outro Skill."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target dan memberikan 100% Spectro DMG. Resonator berikutnya yang masuk mendapatkan 15% All DMG Amplification dan 25% Resonance Liberation DMG Amplification selama 14 detik atau hingga mereka diganti keluar.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Lynae keluar dari status Kaleidoscopic Parade setelah melancarkan Outro Skill.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -438,32 +643,128 @@
     {
       "stage": "S1",
       "name": "Days To Be Painted Like A Canvas",
-      "description": "DMG Multiplier dari Basic Attack - Polychrome Leap meningkat sebesar 120%.\nDurasi dari Spray Paint meningkat sebesar 100%. Target di dalam jangkauan Spray Paint ditarik ke arah pusat setiap 6 detik.\nLynae sekarang kebal terhadap gangguan selama Basic Attack - Polychrome Leap dan Basic Attack - Visual Impact.\nSelama Optical Sampling Stage, setelah berada dalam status non-pertempuran selama 2 detik, pulihkan 120 poin Overflow setiap 2 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Basic Attack - Polychrome Leap meningkat sebesar 120%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Durasi dari Spray Paint meningkat sebesar 100%. Target di dalam jangkauan Spray Paint ditarik ke arah pusat setiap 6 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Lynae sekarang kebal terhadap gangguan selama Basic Attack - Polychrome Leap dan Basic Attack - Visual Impact.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Selama Optical Sampling Stage, setelah berada dalam status non-pertempuran selama 2 detik, pulihkan 120 poin Overflow setiap 2 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Into Lights' Vanishing Point",
-      "description": "Mendapatkan 25% All DMG Amplification.\nOutro Skill mendapatkan efek berikut:\nMelancarkan Outro Skill sekarang secara tambahan memberikan Resonator berikutnya yang masuk 25% All DMG Amplification selama 14 detik atau hingga Resonator tersebut diganti keluar."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mendapatkan 25% All DMG Amplification.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Outro Skill mendapatkan efek berikut:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan Outro Skill sekarang secara tambahan memberikan Resonator berikutnya yang masuk 25% All DMG Amplification selama 14 detik atau hingga Resonator tersebut diganti keluar.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "For One Brilliant Moment",
-      "description": "DMG Multiplier dari Basic Attack - Visual Impact dan Basic Attack - Iridescent Splash meningkat sebesar 90%.\nSaat Lynae berada dalam pertempuran, ketika Lumiflow setidaknya 120 poin, dapatkan 1 stack Premixed Hue setiap 1 detik, hingga 25 stack. Setiap stack Premixed Hue meningkatkan Spectro DMG Bonus dari Additive Color sebesar 55%. Tidak ada Premixed Hue yang didapatkan saat melancarkan Additive Color. Saat Additive Color berakhir, hapus semua stack Premixed Hue. Lynae kehilangan satu stack Premixed Hue setiap 0,5 detik saat Lumiflow di bawah 120 poin.\nSaat Lynae berada di luar pertempuran, dengan setidaknya 120 poin Lumiflow, dapatkan 1 stack Premixed Hue setiap 0,5 detik; ketika Lumiflow di bawah 120 poin, kehilangan 1 stack Premixed Hue setiap 1 detik.\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Basic Attack - Visual Impact dan Basic Attack - Iridescent Splash meningkat sebesar 90%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Lynae berada dalam pertempuran, ketika Lumiflow setidaknya 120 poin, dapatkan 1 stack Premixed Hue setiap 1 detik, hingga 25 stack. Setiap stack Premixed Hue meningkatkan Spectro DMG Bonus dari Additive Color sebesar 55%. Tidak ada Premixed Hue yang didapatkan saat melancarkan Additive Color. Saat Additive Color berakhir, hapus semua stack Premixed Hue. Lynae kehilangan satu stack Premixed Hue setiap 0,5 detik saat Lumiflow di bawah 120 poin.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Lynae berada di luar pertempuran, dengan setidaknya 120 poin Lumiflow, dapatkan 1 stack Premixed Hue setiap 0,5 detik; ketika Lumiflow di bawah 120 poin, kehilangan 1 stack Premixed Hue setiap 1 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Shadows Of A Wind Racer",
-      "description": "ATK meningkat sebesar 20%."
+      "effects": [
+        {
+          "title": "",
+          "description": "ATK meningkat sebesar 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Visions Of A Future Unbound",
-      "description": "DMG Multiplier dari Resonance Liberation - Prismatic Overblast meningkat sebesar 70%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation - Prismatic Overblast meningkat sebesar 70%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Painted In My True Color",
-      "description": "Setiap kali Kaleidoscopic Parade - Graffiti Blast atau Kaleidoscopic Parade - Mid-air Heavy Attack dilancarkan, Lynae mendapatkan 1 stack Color of Soul, hingga 3 stack. Setiap stack Color of Soul meningkatkan DMG yang diterima target dari Basic Attack - Iridescent Splash dan Basic Attack - Visual Impact sebesar 30%. Setelah melancarkan Basic Attack - Iridescent Splash atau Basic Attack - Visual Impact, semua stack Color of Soul dihapus.\nMelancarkan Basic Attack - Polychrome Leap me-reset cas dari Kaleidoscopic Parade - Mid-air Heavy Attack.\nLynae kebal terhadap gangguan, dan damage yang diterima berkurang sebesar 30% selama Kaleidoscopic Parade - Mid-air Heavy Attack.\nLynae sekarang tetap berada dalam Kaleidoscopic Parade setelah melancarkan Outro Skill - Let's Hit the Road!.\nBatas atas Lumiflow meningkat dari 120 menjadi 360. Pada batas maksimal, kecepatan roller skating Lynae meningkat lebih jauh.\nJika Intro Skill dilancarkan selama Kaleidoscopic Parade, pulihkan 120 poin Lumiflow."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setiap kali Kaleidoscopic Parade - Graffiti Blast atau Kaleidoscopic Parade - Mid-air Heavy Attack dilancarkan, Lynae mendapatkan 1 stack Color of Soul, hingga 3 stack. Setiap stack Color of Soul meningkatkan DMG yang diterima target dari Basic Attack - Iridescent Splash dan Basic Attack - Visual Impact sebesar 30%. Setelah melancarkan Basic Attack - Iridescent Splash atau Basic Attack - Visual Impact, semua stack Color of Soul dihapus.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan Basic Attack - Polychrome Leap me-reset cas dari Kaleidoscopic Parade - Mid-air Heavy Attack.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Lynae kebal terhadap gangguan, dan damage yang diterima berkurang sebesar 30% selama Kaleidoscopic Parade - Mid-air Heavy Attack.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Lynae sekarang tetap berada dalam Kaleidoscopic Parade setelah melancarkan Outro Skill - Let's Hit the Road!.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Batas atas Lumiflow meningkat dari 120 menjadi 360. Pada batas maksimal, kecepatan roller skating Lynae meningkat lebih jauh.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Intro Skill dilancarkan selama Kaleidoscopic Parade, pulihkan 120 poin Lumiflow.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

@@ -19,7 +19,8 @@
       "text": "Minimal update",
       "type": "input",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Order of the Deep",
@@ -175,37 +176,190 @@
   "skills": {
     "basic": {
       "name": "O Come Divine Light",
-      "description": "Basic Attack\nMelancarkan hingga 3 serangan berturut-turut dengan Holy Light, memberikan  Spectro DMG. \n\nHeavy Attack\nmengonsumsi STA untuk menyerang target, memberikan  Spectro DMG.  \n\nMid-air Attack\nMenggunakan STA untuk menaiki staff dan melakukan serangan dari udara, memberikan  Spectro DMG.\n\nMid-air Heavy Attack\nMenggunakan STA untuk menaiki staff dan meluncur ke depan.\nBisa digunakan kembali setelah Mid-Air Dodge atau menggunakan Grapple.\n\nDodge Counter\nSetelah Dodge berhasil, cepat gunakan Basic Attack untuk menyerang target, memberikan  Spectro DMG.\nSaat Phoebe berada di dalam Ring of Mirrors, Dodge Counter berubah menjadi Chamuel's Star: Dodge Counter."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melancarkan hingga 3 serangan berturut-turut dengan Holy Light, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "mengonsumsi STA untuk menyerang target, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Menggunakan STA untuk menaiki staff dan melakukan serangan dari udara, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Heavy Attack",
+          "description": "Menggunakan STA untuk menaiki staff dan meluncur ke depan.\nBisa digunakan kembali setelah Mid-Air Dodge atau menggunakan Grapple.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Setelah Dodge berhasil, cepat gunakan Basic Attack untuk menyerang target, memberikan  Spectro DMG.\nSaat Phoebe berada di dalam Ring of Mirrors, Dodge Counter berubah menjadi Chamuel's Star: Dodge Counter.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "To Where Light Shines",
-      "description": "Memanggil Ring of Mirrors di lokasi target, membuat musuh yang terkena efek stagnate selama 2 detik dan memberikan  Spectro DMG. Efek stagnate bisa diterapkan ke maksimal 12 target per Ring of Mirrors.\n\nMenggunakan Resonance Skill lagi dalam waktu singkat setelah memanggil Ring of Mirrors akan membuat Phoebe berpindah ke lokasi Ring of Mirrors, memberikan  Spectro DMG.\nPhoebe tidak bisa teleport jika jaraknya terlalu jauh dari Ring of Mirrors.\n\nRing of Mirrors\n- Ring of Mirrors bertahan selama 30 detik. Jika Phoebe memanggil Ring of Mirrors baru, yang sebelumnya akan menghilang.\n- Saat Phoebe berada di luar Ring of Mirrors, Basic Attack atau Dodge Counter yang mengenai Ring of Mirrors akan membiaskan Holy Light, memberikan  Spectro DMG ke musuh di dalam Ring of Mirrors dan menarik mereka ke tengah cincin. Damage yang diberikan dianggap sebagai Basic Attack DMG. Bisa dipicu setiap 0.5 detik sekali.\n- Saat Phoebe berada di dalam Ring of Mirrors, Basic Attack berubah menjadi Basic Attack Chamuel's Star, yang bisa melakukan hingga 3 serangan beruntun, memberikan  Spectro DMG  dan dianggap sebagai Basic Attack DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memanggil Ring of Mirrors di lokasi target, membuat musuh yang terkena efek stagnate selama 2 detik dan memberikan  Spectro DMG. Efek stagnate bisa diterapkan ke maksimal 12 target per Ring of Mirrors.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Menggunakan Resonance Skill lagi dalam waktu singkat setelah memanggil Ring of Mirrors akan membuat Phoebe berpindah ke lokasi Ring of Mirrors, memberikan  Spectro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Phoebe tidak bisa teleport jika jaraknya terlalu jauh dari Ring of Mirrors.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Ring of Mirrors",
+          "description": "- Ring of Mirrors bertahan selama 30 detik. Jika Phoebe memanggil Ring of Mirrors baru, yang sebelumnya akan menghilang.\n- Saat Phoebe berada di luar Ring of Mirrors, Basic Attack atau Dodge Counter yang mengenai Ring of Mirrors akan membiaskan Holy Light, memberikan  Spectro DMG ke musuh di dalam Ring of Mirrors dan menarik mereka ke tengah cincin. Damage yang diberikan dianggap sebagai Basic Attack DMG. Bisa dipicu setiap 0.5 detik sekali.\n- Saat Phoebe berada di dalam Ring of Mirrors, Basic Attack berubah menjadi Basic Attack Chamuel's Star, yang bisa melakukan hingga 3 serangan beruntun, memberikan  Spectro DMG  dan dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Dawn Of Enlightenment",
-      "description": "Phoebe mengumpulkan cahaya ke dalam Mirror of Enlightenment dan menghancurkannya, memberikan  Spectro DMG.\n- Absolution Enhancement: DMG Multiplier meningkat 255%.\n- Confession Enhancement: Menerapkan 8 stack  Spectro Frazzle ke target yang terkena serangan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Phoebe mengumpulkan cahaya ke dalam Mirror of Enlightenment dan menghancurkannya, memberikan  Spectro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Absolution Enhancement: DMG Multiplier meningkat 255%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Confession Enhancement: Menerapkan 8 stack  Spectro Frazzle ke target yang terkena serangan.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Radiant Invocation",
-      "description": "Saat Phoebe's Prayer penuh, konsumsi semua Prayer untuk menggunakan salah satu skill berikut:\n\nTahan Basic Attack untuk mengaktifkan Heavy Attack: Absolution Litany, memberikan  Spectro DMG dan menambahkan 1 stack  Spectro Frazzle ke musuh yang terkena. Phoebe masuk ke status Absolution, yang meningkatkan damage yang dia berikan.\n- Tahan Resonance Skill untuk mengaktifkan Resonance Skill: Utter Confession, memberikan  Spectro DMG dan menambahkan 1 stack  Spectro Frazzle ke musuh yang terkena. Phoebe masuk ke status Confession, yang membuatnya lebih efektif dalam memanfaatkan  Spectro Frazzle.\n- Absolution dan Confession tidak bisa aktif bersamaan. Masuk ke salah satu status akan otomatis mengakhiri yang lain.\n- Jika Divine Voice belum habis, Phoebe tidak bisa menggunakan Heavy Attack: Absolution Litany atau Resonance Skill: Utter Confession.\n- Jika Divine Voice sudah habis, Phoebe tidak akan keluar dari status Absolution atau Confession.\n\nHeavy Attack: Starflash\nJika Phoebe memiliki Divine Voice, melakukan Basic Attack Stage 3 atau Dodge Counter akan menggantikan Heavy Attack berikutnya dengan Heavy Attack: Starflash, memberikan  Spectro DMG dan mengonsumsi 30 Divine Voice.\n- Absolution Enhancement: Mengurangi konsumsi Divine Voice sebesar 15. Jika target terkena  Spectro Frazzle, DMG meningkat 256%.\n- Confession Enhancement: Menambahkan 5 stack  Spectro Frazzle ke target.\n\nPrayer\nPhoebe dapat menyimpan hingga 120 Prayer.\nPhoebe secara otomatis mendapatkan 5 Prayer setiap detik.\n\nDivine Voice\nPhoebe dapat menyimpan hingga 60 Divine Voice.\nMenggunakan Heavy Attack: Absolution Litany atau Resonance Skill: Utter Confession akan memulihkan 60 Divine Voice."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Phoebe's Prayer penuh, konsumsi semua Prayer untuk menggunakan salah satu skill berikut:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tahan Basic Attack untuk mengaktifkan Heavy Attack: Absolution Litany, memberikan  Spectro DMG dan menambahkan 1 stack  Spectro Frazzle ke musuh yang terkena. Phoebe masuk ke status Absolution, yang meningkatkan damage yang dia berikan.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Tahan Resonance Skill untuk mengaktifkan Resonance Skill: Utter Confession, memberikan  Spectro DMG dan menambahkan 1 stack  Spectro Frazzle ke musuh yang terkena. Phoebe masuk ke status Confession, yang membuatnya lebih efektif dalam memanfaatkan  Spectro Frazzle.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Absolution dan Confession tidak bisa aktif bersamaan. Masuk ke salah satu status akan otomatis mengakhiri yang lain.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Jika Divine Voice belum habis, Phoebe tidak bisa menggunakan Heavy Attack: Absolution Litany atau Resonance Skill: Utter Confession.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Jika Divine Voice sudah habis, Phoebe tidak akan keluar dari status Absolution atau Confession.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Heavy Attack: Starflash",
+          "description": "Jika Phoebe memiliki Divine Voice, melakukan Basic Attack Stage 3 atau Dodge Counter akan menggantikan Heavy Attack berikutnya dengan Heavy Attack: Starflash, memberikan  Spectro DMG dan mengonsumsi 30 Divine Voice.\n- Absolution Enhancement: Mengurangi konsumsi Divine Voice sebesar 15. Jika target terkena  Spectro Frazzle, DMG meningkat 256%.\n- Confession Enhancement: Menambahkan 5 stack  Spectro Frazzle ke target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Prayer",
+          "description": "Phoebe dapat menyimpan hingga 120 Prayer.\nPhoebe secara otomatis mendapatkan 5 Prayer setiap detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Divine Voice",
+          "description": "Phoebe dapat menyimpan hingga 60 Divine Voice.\nMenggunakan Heavy Attack: Absolution Litany atau Resonance Skill: Utter Confession akan memulihkan 60 Divine Voice.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Presence",
-        "description": "Mid-air Heavy Attack bisa digunakan 1 kali tambahan."
+        "effects": [
+          {
+            "title": "",
+            "description": "Mid-air Heavy Attack bisa digunakan 1 kali tambahan.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Revelation",
-        "description": "Saat dalam Absolution Status atau Confession Status,  Spectro DMG Bonus meningkat 12%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat dalam Absolution Status atau Confession Status,  Spectro DMG Bonus meningkat 12%.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Golden Grace",
-      "description": "Knock back target di sekitar dan memberikan  Spectro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Knock back target di sekitar dan memberikan  Spectro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Attentive Heart",
-      "description": "Memberikan  Spectro DMG sebesar 528.41% ATK Phoebe ke musuh di sekitar. \n- Absolution Enhancement: Meningkatkan DMG Multiplier sebesar 255%.\n- Confession Enhancement: Memberikan Silent Prayer ke Resonator yang sedang aktif, yang mengurangi Spectro RES musuh di sekitar sebesar 10% dan meningkatkan Spectro Frazzle DMG Amplification sebesar 100%.  \n- Saat  Spectro Frazzle memberikan damage, interval damage-nya diperpanjang 50%. \n- Efek ini bertahan selama 30 detik atau hingga Phoebe beralih ke status Absolution."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan  Spectro DMG sebesar 528.41% ATK Phoebe ke musuh di sekitar.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Absolution Enhancement: Meningkatkan DMG Multiplier sebesar 255%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Confession Enhancement: Memberikan Silent Prayer ke Resonator yang sedang aktif, yang mengurangi Spectro RES musuh di sekitar sebesar 10% dan meningkatkan Spectro Frazzle DMG Amplification sebesar 100%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Saat  Spectro Frazzle memberikan damage, interval damage-nya diperpanjang 50%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Efek ini bertahan selama 30 detik atau hingga Phoebe beralih ke status Absolution.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -421,32 +575,108 @@
     {
       "stage": "S1",
       "name": "Warm Light And Bedside Wishes",
-      "description": "Saat dalam Absolution, Resonance Liberation: Dawn of Enlightenment kini meningkatkan DMG Multiplier sebesar 480% (sebelumnya 255%).\n\nSaat dalam Confession, Resonance Liberation: Dawn of Enlightenment meningkatkan DMG Multiplier sebesar 90% dan menerapkan  Spectro Frazzle ke target hingga maksimum stack yang bisa diterima."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat dalam Absolution, Resonance Liberation: Dawn of Enlightenment kini meningkatkan DMG Multiplier sebesar 480% (sebelumnya 255%).",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat dalam Confession, Resonance Liberation: Dawn of Enlightenment meningkatkan DMG Multiplier sebesar 90% dan menerapkan  Spectro Frazzle ke target hingga maksimum stack yang bisa diterima.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "A Boat Adrift In Tears",
-      "description": "Saat dalam Absolution, Outro Skill memberikan 120% Amplification terhadap target yang memiliki  Spectro Frazzle.\n\nSaat dalam Confession, Silent Prayer meningkatkan Amplification DMG untuk  Spectro Frazzle sebesar 120%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat dalam Absolution, Outro Skill memberikan 120% Amplification terhadap target yang memiliki  Spectro Frazzle.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat dalam Confession, Silent Prayer meningkatkan Amplification DMG untuk  Spectro Frazzle sebesar 120%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Daisy Wreaths And Dreams",
-      "description": "Saat dalam Absolution, DMG Multiplier dari Heavy Attack: Starflash meningkat 91%.\n\nSaat dalam Confession, DMG Multiplier dari Heavy Attack: Starflash meningkat 249%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat dalam Absolution, DMG Multiplier dari Heavy Attack: Starflash meningkat 91%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat dalam Confession, DMG Multiplier dari Heavy Attack: Starflash meningkat 249%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Ringing Bells On Wings Aloft",
-      "description": "Saat Basic Attack, Basic Attack: Chamuel's Star, Dodge Counter, atau Chamuel's Star: Dodge Counter mengenai target,  Spectro RES target berkurang sebesar 10% selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Basic Attack, Basic Attack: Chamuel's Star, Dodge Counter, atau Chamuel's Star: Dodge Counter mengenai target,  Spectro RES target berkurang sebesar 10% selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Prayer To The Distant Light",
-      "description": "Menggunakan Intro Skill: Golden Grace meningkatkan  Spectro DMG Bonus Phoebe sebesar 12% selama 15 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Intro Skill: Golden Grace meningkatkan  Spectro DMG Bonus Phoebe sebesar 12% selama 15 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Whispering Chirps In Silence",
-      "description": "Target yang masuk ke Ring of Mirrors akan mengalami stagnasi tambahan selama 2 detik.\n- Efek stagnasi ini berlaku untuk maksimal 12 target per Ring of Mirrors.\n- Setiap target hanya terkena efek ini sekali.\n\nSaat dalam Absolution atau Confession, memanggil Ring of Mirrors dengan Resonance Skill akan:\n- Meningkatkan ATK Phoebe sebesar 10% selama 20 detik.\n- Memicu Heavy Attack: Starflash tambahan di lokasi Ring of Mirrors. Starflash tambahan ini tidak mengonsumsi Divine Voice dan tidak dihitung sebagai Heavy Attack."
+      "effects": [
+        {
+          "title": "",
+          "description": "Target yang masuk ke Ring of Mirrors akan mengalami stagnasi tambahan selama 2 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Efek stagnasi ini berlaku untuk maksimal 12 target per Ring of Mirrors.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Setiap target hanya terkena efek ini sekali.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat dalam Absolution atau Confession, memanggil Ring of Mirrors dengan Resonance Skill akan:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Meningkatkan ATK Phoebe sebesar 10% selama 20 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Memicu Heavy Attack: Starflash tambahan di lokasi Ring of Mirrors. Starflash tambahan ini tidak mengonsumsi Divine Voice dan tidak dihitung sebagai Heavy Attack.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

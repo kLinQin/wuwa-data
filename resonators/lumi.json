@@ -18,7 +18,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Lollo Logistics",
@@ -137,37 +138,155 @@
   "skills": {
     "basic": {
       "name": "Navigation Support",
-      "description": "Yellow Light: Basic Attack\nMemanggil Squeakie untuk menembakkan tiga tembakan berturut-turut, memberikan Electro DMG.\n\nYellow Light: Sprint\nMelakukan Dodge untuk melakukan Sprint dan memasuki Zoom Mode. Lumi tidak dapat melakukan Dodge saat melakukan Sprint.\n\nYellow Light: Zoom\nSaat berada dalam status ini, tembakkan Glitters secara otomatis pada target yang terkunci dan berikan Electro DMG, yang dianggap sebagai Basic Attack DMG.\n\nYellow Light: Plunging Attack\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan Electro DMG.\n\nRed Light: Basic Attack\nMelakukan hingga 3 serangan beruntun, memberikan Electro DMG.\n\nRed Light: Heavy Attack\nMengonsumsi STA untuk menghantam tanah dengan Squeakie, menyebabkan dampak yang memberikan Electro DMG, yang dianggap sebagai Basic Attack DMG.\n\nRed Light: Plunging Attack\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan Electro DMG.\n\nRed Light: Dodge Counter\nMenggunakan Basic Attack tepat setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG."
+      "effects": [
+        {
+          "title": "Yellow Light: Basic Attack",
+          "description": "Memanggil Squeakie untuk menembakkan tiga tembakan berturut-turut, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Yellow Light: Sprint",
+          "description": "Melakukan Dodge untuk melakukan Sprint dan memasuki Zoom Mode. Lumi tidak dapat melakukan Dodge saat melakukan Sprint.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Yellow Light: Zoom",
+          "description": "Saat berada dalam status ini, tembakkan Glitters secara otomatis pada target yang terkunci dan berikan Electro DMG, yang dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Yellow Light: Plunging Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Red Light: Basic Attack",
+          "description": "Melakukan hingga 3 serangan beruntun, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Red Light: Heavy Attack",
+          "description": "Mengonsumsi STA untuk menghantam tanah dengan Squeakie, menyebabkan dampak yang memberikan Electro DMG, yang dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Red Light: Plunging Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Red Light: Dodge Counter",
+          "description": "Menggunakan Basic Attack tepat setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Searchlight Service",
-      "description": "Pounce\nSaat berada dalam Yellow Light Mode, gunakan Resonance Skill untuk melakukan Pounce, yang mengonsumsi STA untuk menerkam target sebelum beralih ke Red Light Mode. Lumi akan melakukan Pounce tanpa biaya STA saat ditarik masuk ke field.\n\nRebound\nSaat berada dalam Red Light Mode, gunakan Resonance Skill untuk melakukan Rebound, yang mengonsumsi STA untuk melompat mundur dan menyerang target sebelum beralih ke Yellow Light Mode.\n\nYellow Light Mode\nMelakukan serangan jarak jauh saat berada dalam Yellow Light Mode.\n\nRed Light Mode\nMelakukan serangan jarak dekat saat berada dalam Red Light Mode."
+      "effects": [
+        {
+          "title": "Pounce",
+          "description": "Saat berada dalam Yellow Light Mode, gunakan Resonance Skill untuk melakukan Pounce, yang mengonsumsi STA untuk menerkam target sebelum beralih ke Red Light Mode. Lumi akan melakukan Pounce tanpa biaya STA saat ditarik masuk ke field.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Rebound",
+          "description": "Saat berada dalam Red Light Mode, gunakan Resonance Skill untuk melakukan Rebound, yang mengonsumsi STA untuk melompat mundur dan menyerang target sebelum beralih ke Yellow Light Mode.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Yellow Light Mode",
+          "description": "Melakukan serangan jarak jauh saat berada dalam Yellow Light Mode.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Red Light Mode",
+          "description": "Melakukan serangan jarak dekat saat berada dalam Red Light Mode.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Squeakie Express",
-      "description": "Melemparkan Squeakie raksasa ke arah target, memberikan Electro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melemparkan Squeakie raksasa ke arah target, memberikan Electro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Signal Light",
-      "description": "Energized Pounce\n\nSaat Yellow Light Spark pulih sepenuhnya, mengganti Resonance Skill dengan Resonance Skill Energized Pounce yang memberikan Electro DMG dan memasuki status Red Spotlight Mode. DMG yang diberikan dianggap sebagai Basic Attack DMG.\nSaat berada dalam Red Spotlight Mode, DMG Multiplier dari Red Light: Basic Attack dan Red Light: Heavy Attack meningkat, dengan sejumlah ekstra Sparks yang dipulihkan.\nRed Spotlight Mode berakhir setelah melakukan total 4 Basic Attack dan/atau Heavy Attack.\n\nEnergized Rebound\nSaat Red Light Spark pulih sepenuhnya, mengganti Resonance Skill dengan Resonance Skill Energized Rebound yang memberikan Electro DMG dan memasuki status Yellow Spotlight Mode. DMG yang diberikan dianggap sebagai Basic Attack DMG.\nSaat berada dalam Yellow Spotlight Mode, Glitter digantikan oleh Glare, dengan DMG Multiplier yang meningkat dan sejumlah ekstra Sparks yang dipulihkan.\nYellow Spotlight Mode berakhir setelah menembakkan 6 Glares.\n\nLaser\nMelancarkan Outro Skill mengonsumsi semua Sparks yang diperoleh dalam mode saat ini.\nLaser dapat dilancarkan saat jumlah Sparks yang dikonsumsi lebih besar dari atau sama dengan 25, memberikan Electro DMG. DMG yang diberikan dianggap sebagai Basic Attack DMG.\nSetiap 25 Sparks yang dikonsumsi menghasilkan 1 sinar Laser tambahan, hingga maksimal 4 sinar Laser.\n\nYellow Light Spark\nLumi dapat menyimpan hingga 100 Yellow Light Sparks.\nLumi mendapatkan Yellow Light Spark dalam kondisi berikut:\nSaat Yellow Light: Basic Attack mengenai target;\nSaat Glitter mengenai target;\nSaat Glare mengenai target;\nSaat Resonance Skill Energized Rebound mengenai target;\nSaat melancarkan Intro Skill Special Delivery.\n\nRed Light Spark\nLumi dapat menyimpan hingga 100 Red Light Sparks.\nLumi mendapatkan Red Light Spark dalam kondisi berikut:\nSaat Normal Attack Navigation Support mengenai target dalam Red Light Mode atau Red Spotlight Mode."
+      "effects": [
+        {
+          "title": "Energized Pounce",
+          "description": "Saat Yellow Light Spark pulih sepenuhnya, mengganti Resonance Skill dengan Resonance Skill Energized Pounce yang memberikan Electro DMG dan memasuki status Red Spotlight Mode. DMG yang diberikan dianggap sebagai Basic Attack DMG.\nSaat berada dalam Red Spotlight Mode, DMG Multiplier dari Red Light: Basic Attack dan Red Light: Heavy Attack meningkat, dengan sejumlah ekstra Sparks yang dipulihkan.\nRed Spotlight Mode berakhir setelah melakukan total 4 Basic Attack dan/atau Heavy Attack.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Energized Rebound",
+          "description": "Saat Red Light Spark pulih sepenuhnya, mengganti Resonance Skill dengan Resonance Skill Energized Rebound yang memberikan Electro DMG dan memasuki status Yellow Spotlight Mode. DMG yang diberikan dianggap sebagai Basic Attack DMG.\nSaat berada dalam Yellow Spotlight Mode, Glitter digantikan oleh Glare, dengan DMG Multiplier yang meningkat dan sejumlah ekstra Sparks yang dipulihkan.\nYellow Spotlight Mode berakhir setelah menembakkan 6 Glares.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Laser",
+          "description": "Melancarkan Outro Skill mengonsumsi semua Sparks yang diperoleh dalam mode saat ini.\nLaser dapat dilancarkan saat jumlah Sparks yang dikonsumsi lebih besar dari atau sama dengan 25, memberikan Electro DMG. DMG yang diberikan dianggap sebagai Basic Attack DMG.\nSetiap 25 Sparks yang dikonsumsi menghasilkan 1 sinar Laser tambahan, hingga maksimal 4 sinar Laser.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Yellow Light Spark",
+          "description": "Lumi dapat menyimpan hingga 100 Yellow Light Sparks.\nLumi mendapatkan Yellow Light Spark dalam kondisi berikut:\nSaat Yellow Light: Basic Attack mengenai target;\nSaat Glitter mengenai target;\nSaat Glare mengenai target;\nSaat Resonance Skill Energized Rebound mengenai target;\nSaat melancarkan Intro Skill Special Delivery.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Red Light Spark",
+          "description": "Lumi dapat menyimpan hingga 100 Red Light Sparks.\nLumi mendapatkan Red Light Spark dalam kondisi berikut:\nSaat Normal Attack Navigation Support mengenai target dalam Red Light Mode atau Red Spotlight Mode.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Pathfinding",
-        "description": "Mendapatkan 10% Electro DMG Bonus saat berada dalam Red Light Mode.\n"
+        "effects": [
+          {
+            "title": "",
+            "description": "Mendapatkan 10% Electro DMG Bonus saat berada dalam Red Light Mode.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Expediting",
-        "description": "Melancarkan Energized Pounce atau Energized Rebound meningkatkan ATK sebesar 10% selama 5 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Melancarkan Energized Pounce atau Energized Rebound meningkatkan ATK sebesar 10% selama 5 detik.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Special Delivery",
-      "description": "Memasuki Yellow Light Mode dan menyerang target, memberikan Electro DMG.\n\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "Memasuki Yellow Light Mode dan menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Escorting",
-      "description": "Resonator yang masuk mendapatkan Resonance Skill DMG Amplified sebesar 38% selama 10 detik atau hingga mereka ditarik keluar dari field."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk mendapatkan Resonance Skill DMG Amplified sebesar 38% selama 10 detik atau hingga mereka ditarik keluar dari field.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -256,32 +375,68 @@
     {
       "stage": "S1",
       "name": "Parcel To Be Delivered",
-      "description": "Setelah melancarkan Energized Rebound, memulihkan tambahan 60 STA dalam waktu 3 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah melancarkan Energized Rebound, memulihkan tambahan 60 STA dalam waktu 3 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Lollo Logistics, Ready To Help",
-      "description": "Energized Pounce dan Energized Rebound mengabaikan 20% dari DEF target."
+      "effects": [
+        {
+          "title": "",
+          "description": "Energized Pounce dan Energized Rebound mengabaikan 20% dari DEF target.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Priority Parcel In Transit",
-      "description": "DMG dari Resonance Liberation Squeakie Express meningkat sebesar 30%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG dari Resonance Liberation Squeakie Express meningkat sebesar 30%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Captain Lumi, At Your Service",
-      "description": "Mendapatkan 30% Basic Attack DMG Bonus."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mendapatkan 30% Basic Attack DMG Bonus.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Parcel Collected On Time",
-      "description": "Saat Spark pulih sepenuhnya, DMG Multiplier Laser meningkat sebesar 100%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Spark pulih sepenuhnya, DMG Multiplier Laser meningkat sebesar 100%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Give Me A Five-Star Rating",
-      "description": "Melancarkan Resonance Liberation Squeakie Express meningkatkan ATK semua anggota tim sebesar 20% selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Liberation Squeakie Express meningkatkan ATK semua anggota tim sebesar 20% selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

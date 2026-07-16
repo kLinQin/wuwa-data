@@ -19,7 +19,8 @@
       "text": "minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "",
@@ -177,28 +178,99 @@
   "skills": {
     "basic": {
       "name": "Wind Cutter",
-      "description": "**Basic Attack**\nMelakukan hingga empat serangan berturut-turut, memberikan  Aero DMG.\n\n**Heavy Attack**\nMengonsumsi STA untuk menyerang target, memberikan  Aero DMG.\n\n**Heavy Attack: Razor Wind**\nTahan Basic Attack setelah menggunakan Basic Attack Tahap 3, Dodge Counter, atau Heavy Attack untuk menggunakan Heavy Attack: Razor Wind. Mengonsumsi STA untuk menyerang target, memberikan  Aero DMG.\n\n**Mid-air Attack**\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan  Aero DMG.\n\n**Dodge Counter**\nGunakan Normal Attack langsung setelah berhasil menghindar untuk menyerang target, Memberikan  Aero DMG."
+      "effects": [
+        {
+          "title": "**Basic Attack**",
+          "description": "Melakukan hingga empat serangan berturut-turut, memberikan  Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Heavy Attack**",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan  Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Heavy Attack: Razor Wind**",
+          "description": "Tahan Basic Attack setelah menggunakan Basic Attack Tahap 3, Dodge Counter, atau Heavy Attack untuk menggunakan Heavy Attack: Razor Wind. Mengonsumsi STA untuk menyerang target, memberikan  Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Mid-air Attack**",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack, memberikan  Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Dodge Counter**",
+          "description": "Gunakan Normal Attack langsung setelah berhasil menghindar untuk menyerang target, Memberikan  Aero DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Illusion Breaker",
-      "description": "**Awakening Gale**\nMelompat ke udara dan menebas target, memberikan  Aero DMG.\n\n**Skyfall Severance**\nSaat berada di udara, gunakan Resonance Skill untuk Memberikan  Aero DMG, yang menghapus semua Stack(s)  Spectro Frazzle, Havoc Bane, Fusion Burst, Glacio Chafe, dan Electro Flare dari target yang terkena dan memberikan satu Stack(s)  Aero Erosion untuk setiap stack(s) yang dihapus."
+      "effects": [
+        {
+          "title": "**Awakening Gale**",
+          "description": "Melompat ke udara dan menebas target, memberikan  Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Skyfall Severance**",
+          "description": "Saat berada di udara, gunakan Resonance Skill untuk Memberikan  Aero DMG, yang menghapus semua Stack(s)  Spectro Frazzle, Havoc Bane, Fusion Burst, Glacio Chafe, dan Electro Flare dari target yang terkena dan memberikan satu Stack(s)  Aero Erosion untuk setiap stack(s) yang dihapus.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Omega Storm",
-      "description": "**Omega Storm**\nMelepaskan kekuatan Eye of Tempest,, memberikan  Aero DMG dan menyembuhkan semua Resonators di tim yang berada di sekitar.\nDapat digunakan di udara dekat dengan tanah."
+      "effects": [
+        {
+          "title": "**Omega Storm**",
+          "description": "Melepaskan kekuatan Eye of Tempest,, memberikan  Aero DMG dan menyembuhkan semua Resonators di tim yang berada di sekitar.\nDapat digunakan di udara dekat dengan tanah.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Cycle Of Wind",
-      "description": "**Mid-air Attack - Cloudburst Dance**\nMelakukan hingga 2 serangan berturut-turut, memberikan  Aero DMG (dianggap sebagai Resonance Skill DMG) dan menyembuhkan semua Resonator di tim yang ada di sekitar. Gunakan dengan 3 cara berikut:\n- Tekan Serangan Normal tepat setelah menggunakan Resonance Skill Awakening Gale.\n- Tekan Serangan Normal tepat setelah menggunakan Intro Skill.\n- Tekan Serangan Normal tepat setelah menggunakan Heavy Attack: Razor Wind.\nSaat melakukan Mid-air Attack Cloudburst Dance, tahan Serangan Normal untuk melakukan Mid-air Attack.\n\n**Resonance Skill - Unbound Flow**\nPada Windstrings maksimum, Resonance Skill Awakening Gale berubah menjadi Resonance Skill Unbound Flow: Melakukan hingga 2 serangan berturut-turut. Setiap serangan menghabiskan 60 Windstrings, memberikan  Aero DMG, dianggap sebagai Resonance Skill DMG. Beralih ke Resonator lain setelah Tahap 1 secara otomatis memicu Tahap 2 dari skill ini.\n\n**Windstring**\nRover bisa menyimpan hingga 120 Windstrings.\nSetiap tahap dari Mid-air Attack Cloudburst Dance mengembalikan 25 Windstrings saat kena.\nMenggunakan Intro Skill mengembalikan 20 Windstrings.\nMengenai target dengan Basic Attack Tahap 3 atau 4 atau Dodge Counter mengembalikan 10 Windstrings."
+      "effects": [
+        {
+          "title": "**Mid-air Attack - Cloudburst Dance**",
+          "description": "Melakukan hingga 2 serangan berturut-turut, memberikan  Aero DMG (dianggap sebagai Resonance Skill DMG) dan menyembuhkan semua Resonator di tim yang ada di sekitar. Gunakan dengan 3 cara berikut:\n- Tekan Serangan Normal tepat setelah menggunakan Resonance Skill Awakening Gale.\n- Tekan Serangan Normal tepat setelah menggunakan Intro Skill.\n- Tekan Serangan Normal tepat setelah menggunakan Heavy Attack: Razor Wind.\nSaat melakukan Mid-air Attack Cloudburst Dance, tahan Serangan Normal untuk melakukan Mid-air Attack.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Resonance Skill - Unbound Flow**",
+          "description": "Pada Windstrings maksimum, Resonance Skill Awakening Gale berubah menjadi Resonance Skill Unbound Flow: Melakukan hingga 2 serangan berturut-turut. Setiap serangan menghabiskan 60 Windstrings, memberikan  Aero DMG, dianggap sebagai Resonance Skill DMG. Beralih ke Resonator lain setelah Tahap 1 secara otomatis memicu Tahap 2 dari skill ini.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Windstring**",
+          "description": "Rover bisa menyimpan hingga 120 Windstrings.\nSetiap tahap dari Mid-air Attack Cloudburst Dance mengembalikan 25 Windstrings saat kena.\nMenggunakan Intro Skill mengembalikan 20 Windstrings.\nMengenai target dengan Basic Attack Tahap 3 atau 4 atau Dodge Counter mengembalikan 10 Windstrings.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Sand In The Storm",
-        "description": "Menggunakan Intro Skill Relentless Squall meningkatkan ATK sebesar 20% selama 10 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Menggunakan Intro Skill Relentless Squall meningkatkan ATK sebesar 20% selama 10 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Boundless Winds",
-        "description": "Meningkatkan penyembuhan dari Resonance Liberation Omega Storm sebesar 20%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Meningkatkan penyembuhan dari Resonance Liberation Omega Storm sebesar 20%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break: Sword",
@@ -207,11 +279,28 @@
     ],
     "intro": {
       "name": "Relentless Squall",
-      "description": "memberikan  Aero DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "memberikan  Aero DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Storm'S Echo",
-      "description": "Memberikan Aeolian Realm kepada semua Resonator di tim yang ada di sekitar selama 30 detik. Efek Aeolian Realm:\n- Saat mengenai target, meningkatkan stack(s) maksimum  Aero Erosion yang dapat diterima target sebanyak 3 selama 10 detik. Efek ini tidak dapat ditumpuk."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan Aeolian Realm kepada semua Resonator di tim yang ada di sekitar selama 30 detik. Efek Aeolian Realm:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Saat mengenai target, meningkatkan stack(s) maksimum  Aero Erosion yang dapat diterima target sebanyak 3 selama 10 detik. Efek ini tidak dapat ditumpuk.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -412,32 +501,68 @@
     {
       "stage": "S1",
       "name": "Storm Subsides In The Void",
-      "description": "Menggunakan Mid-air Attack Cloudburst Dance meningkatkan ketahanan Rover terhadap gangguan selama 3 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Mid-air Attack Cloudburst Dance meningkatkan ketahanan Rover terhadap gangguan selama 3 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Glimmers Fade Into The Dark",
-      "description": "Menggunakan Resonance Skill Unbound Flow secara terus menerus memulihkan HP untuk Resonator di Field sebesar 20% dari ATK Rover setiap 3 detik selama 30 detik. Ketika Resonator di Field memiliki HP lebih rendah dari 35%, segera memulihkan 10% dari HP yang hilang. Efek pemulihan ini dapat dipicu sekali setiap 10 detik dan tidak akan dipengaruhi oleh Healing Bonus apa pun."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Resonance Skill Unbound Flow secara terus menerus memulihkan HP untuk Resonator di Field sebesar 20% dari ATK Rover setiap 3 detik selama 30 detik. Ketika Resonator di Field memiliki HP lebih rendah dari 35%, segera memulihkan 10% dari HP yang hilang. Efek pemulihan ini dapat dipicu sekali setiap 10 detik dan tidak akan dipengaruhi oleh Healing Bonus apa pun.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Illusions Collapse In A Grip",
-      "description": "Aero DMG meningkat sebesar 15%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Aero DMG meningkat sebesar 15%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Boundaries Shatter In An Instant",
-      "description": "Menggunakan Mid-air Attack Cloudburst Dance meningkatkan Resonance Skill DMG Bonus sebesar 15% selama 5 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Mid-air Attack Cloudburst Dance meningkatkan Resonance Skill DMG Bonus sebesar 15% selama 5 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Life And Death Intertwine",
-      "description": "DMG Multiplier dari Resonance Liberation Omega Storm meningkat sebesar 20%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation Omega Storm meningkat sebesar 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "All Crumble In The Wind",
-      "description": "DMG Multiplier dari Resonance Skill Unbound Flow meningkat sebesar 30%"
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Skill Unbound Flow meningkat sebesar 30%",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

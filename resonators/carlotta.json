@@ -16,7 +16,8 @@
     {
       "text": "Minimal update",
       "type": "input",
-      "isNew": false
+      "isNew": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Montelli Family",
@@ -179,37 +180,175 @@
   "skills": {
     "basic": {
       "name": "Silent Execution",
-      "description": "Basic Attack\nMelakukan hingga 2 serangan berturut-turut, memberikan  Glacio DMG.\n\nBasic Attack - Necessary Measures\nDengan Moldable Crystals, Basic Attack Carlotta digantikan dengan Necessary Measures.\nMelakukan hingga 3 serangan berturut-turut, memberikan  Glacio DMG.\nSetiap serangan Necessary Measures mengonsumsi 1 Moldable Crystal.\n\nHeavy Attack\nMelancarkan serangan kuat ke target dengan biaya STA, memberikan  Glacio DMG.\n\nHeavy Attack - Containment Tactics\nSaat Substance Carlotta penuh, Heavy Attack akan digantikan dengan Containment Tactics:\n- Mengonsumsi semua Substance untuk memberikan  Glacio DMG.\n- Mengurangi cooldown Resonance Skill Art of Violence sebesar 6 detik.\n\nMid-air Attack\nMelakukan Plunging Attack dengan biaya STA, memberikan  Glacio DMG.\nMenggunakan Basic Attack segera setelah mendarat akan mengaktifkan Customary Greetings.\n\nMid-air Attack - Customary Greetings\nMelompati target dan melepaskan tembakan kejutan, memberikan  Glacio DMG.\n\nDodge Counter\nTekan Basic Attack segera setelah berhasil menghindar untuk melancarkan riposte shot, memberikan  Glacio DMG.\nSerangan ini mengonsumsi 1 Moldable Crystal."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 2 serangan berturut-turut, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Necessary Measures",
+          "description": "Dengan Moldable Crystals, Basic Attack Carlotta digantikan dengan Necessary Measures.\nMelakukan hingga 3 serangan berturut-turut, memberikan  Glacio DMG.\nSetiap serangan Necessary Measures mengonsumsi 1 Moldable Crystal.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Melancarkan serangan kuat ke target dengan biaya STA, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Containment Tactics",
+          "description": "Saat Substance Carlotta penuh, Heavy Attack akan digantikan dengan Containment Tactics:\n- Mengonsumsi semua Substance untuk memberikan  Glacio DMG.\n- Mengurangi cooldown Resonance Skill Art of Violence sebesar 6 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Melakukan Plunging Attack dengan biaya STA, memberikan  Glacio DMG.\nMenggunakan Basic Attack segera setelah mendarat akan mengaktifkan Customary Greetings.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Customary Greetings",
+          "description": "Melompati target dan melepaskan tembakan kejutan, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Basic Attack segera setelah berhasil menghindar untuk melancarkan riposte shot, memberikan  Glacio DMG.\nSerangan ini mengonsumsi 1 Moldable Crystal.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Art Of Violence",
-      "description": "Memberikan  Glacio DMG dan menginfeksi target dengan Dispersion.\nTekan Resonance Skill lagi dalam waktu singkat untuk melancarkan Chromatic Splendor.\n\nDispersion\nTarget yang terkena Dispersion akan terkunci pergerakannya selama 1.5 detik.\n\nChromatic Splendor\n- Mengonsumsi semua Moldable Crystals dan memberikan  Glacio DMG.\n- Resonance Skill akan memasuki cooldown setelah beberapa saat jika Chromatic Splendor tidak digunakan atau jika Carlotta keluar dari medan pertempuran."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan  Glacio DMG dan menginfeksi target dengan Dispersion.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan Resonance Skill lagi dalam waktu singkat untuk melancarkan Chromatic Splendor.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Dispersion",
+          "description": "Target yang terkena Dispersion akan terkunci pergerakannya selama 1.5 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Chromatic Splendor",
+          "description": "- Mengonsumsi semua Moldable Crystals dan memberikan  Glacio DMG.\n- Resonance Skill akan memasuki cooldown setelah beberapa saat jika Chromatic Splendor tidak digunakan atau jika Carlotta keluar dari medan pertempuran.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Era Of New Wave",
-      "description": "Memberikan  Glacio DMG ke semua target dalam area (dianggap sebagai Resonance Skill DMG) dan menginfeksi target dengan Deconstruction, lalu mengaktifkan Twilight Tango.\nDapat digunakan di udara saat dekat dengan tanah.\n\nDeconstruction\nMengabaikan 18% DEF target yang terinfeksi saat menerima DMG.\n\nTwilight Tango\nSaat berada dalam Twilight Tango, tekan Basic Attack atau Resonance Liberation untuk melancarkan Death Knell.\n- Setiap Death Knell memberikan 1 Meta Vector.\n- Dengan 4 Meta Vectors, tekan Basic Attack atau Resonance Liberation untuk melancarkan Fatal Finale.\n- Semua Substance akan dihapus saat Twilight Tango diaktifkan dan berakhir.\n- Tidak dapat menggunakan Basic Attack Necessary Measures, Heavy Attack Containment Tactics, atau Heavy Attack Imminent Oblivion selama Twilight Tango.\n\nDeath Knell\nCarlotta menembakkan peluru kuat dari musket dan memanggil 4 pecahan kristal untuk menyerang target, memberikan  Glacio DMG (dianggap sebagai Resonance Skill DMG).\n- Carlotta bergerak ke arah input gerakan setiap kali menembakkan Death Knell.\n\nFatal Finale\nMemberikan  Glacio DMG ke area (dianggap sebagai Resonance Skill DMG).\n- Twilight Tango berakhir setelah menggunakan Fatal Finale."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan  Glacio DMG ke semua target dalam area (dianggap sebagai Resonance Skill DMG) dan menginfeksi target dengan Deconstruction, lalu mengaktifkan Twilight Tango.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat digunakan di udara saat dekat dengan tanah.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Deconstruction",
+          "description": "Mengabaikan 18% DEF target yang terinfeksi saat menerima DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Twilight Tango",
+          "description": "Saat berada dalam Twilight Tango, tekan Basic Attack atau Resonance Liberation untuk melancarkan Death Knell.\n- Setiap Death Knell memberikan 1 Meta Vector.\n- Dengan 4 Meta Vectors, tekan Basic Attack atau Resonance Liberation untuk melancarkan Fatal Finale.\n- Semua Substance akan dihapus saat Twilight Tango diaktifkan dan berakhir.\n- Tidak dapat menggunakan Basic Attack Necessary Measures, Heavy Attack Containment Tactics, atau Heavy Attack Imminent Oblivion selama Twilight Tango.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Death Knell",
+          "description": "Carlotta menembakkan peluru kuat dari musket dan memanggil 4 pecahan kristal untuk menyerang target, memberikan  Glacio DMG (dianggap sebagai Resonance Skill DMG).\n- Carlotta bergerak ke arah input gerakan setiap kali menembakkan Death Knell.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Fatal Finale",
+          "description": "Memberikan  Glacio DMG ke area (dianggap sebagai Resonance Skill DMG).\n- Twilight Tango berakhir setelah menggunakan Fatal Finale.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Lethal Repertoire",
-      "description": "Heavy Attack - Imminent Oblivion\nCarlotta mengaktifkan Tinted Crystal setiap 22 detik.\n- Saat Substance penuh dan Tinted Crystal aktif, tahan Basic Attack untuk mengonsumsi seluruh Substance dan melancarkan Heavy Attack Imminent Oblivion, setelah itu Tinted Crystal masuk ke dalam cooldown.\n- Memberikan  Glacio DMG (dianggap sebagai Resonance Skill DMG) dan mengurangi cooldown Resonance Skill Art of Violence sebesar 6 detik.\n\nFinal Bow\n- Saat Substance penuh, Carlotta memasuki status Final Bow.\n- Meningkatkan DMG Multiplier dari Resonance Liberation Era of New Wave, Resonance Liberation Death Knell, dan Resonance Liberation Fatal Finale sebesar 80%.\n- Efek ini berakhir jika Carlotta keluar dari medan pertempuran saat Twilight Tango atau ketika Twilight Tango berakhir.\n\nSubstance\n- Carlotta dapat menyimpan hingga 120 Substance.\n- Tidak bisa mendapatkan Substance saat berada dalam Twilight Tango yang dipicu oleh Resonance Liberation.\n\nPemulihan Substance:\n- +30 Substance saat menggunakan Intro Skill Wintertime Aria.\n- +10 Substance per 1 Moldable Crystal yang dikonsumsi saat menggunakan Resonance Skill Chromatic Splendor.\n- +10 Substance per 1 Moldable Crystal yang dikonsumsi saat menggunakan Basic Attack Necessary Measures.\n- +10 Substance saat menggunakan Dodge Counter (mengonsumsi 1 Moldable Crystal).\n\nMoldable Crystal\n- Carlotta dapat menyimpan hingga 6 Moldable Crystals.\n- Tidak bisa mendapatkan Moldable Crystal saat berada dalam Twilight Tango yang dipicu oleh Resonance Liberation.\n\nPemulihan Moldable Crystal:\n\n- +3 Moldable Crystal saat menggunakan Basic Attack Stage 2.\n- +3 Moldable Crystal saat menggunakan Heavy Attack.\n- +3 Moldable Crystal saat menggunakan Mid-air Attack Customary Greetings.\n- +3 Moldable Crystal saat menggunakan Intro Skill Wintertime Aria.\n- +3 Moldable Crystal saat menggunakan Resonance Skill Art of Violence.\n- +3 Moldable Crystal saat berhasil melakukan Dodge."
+      "effects": [
+        {
+          "title": "Heavy Attack - Imminent Oblivion",
+          "description": "Carlotta mengaktifkan Tinted Crystal setiap 22 detik.\n- Saat Substance penuh dan Tinted Crystal aktif, tahan Basic Attack untuk mengonsumsi seluruh Substance dan melancarkan Heavy Attack Imminent Oblivion, setelah itu Tinted Crystal masuk ke dalam cooldown.\n- Memberikan  Glacio DMG (dianggap sebagai Resonance Skill DMG) dan mengurangi cooldown Resonance Skill Art of Violence sebesar 6 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Final Bow",
+          "description": "- Saat Substance penuh, Carlotta memasuki status Final Bow.\n- Meningkatkan DMG Multiplier dari Resonance Liberation Era of New Wave, Resonance Liberation Death Knell, dan Resonance Liberation Fatal Finale sebesar 80%.\n- Efek ini berakhir jika Carlotta keluar dari medan pertempuran saat Twilight Tango atau ketika Twilight Tango berakhir.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Substance",
+          "description": "- Carlotta dapat menyimpan hingga 120 Substance.\n- Tidak bisa mendapatkan Substance saat berada dalam Twilight Tango yang dipicu oleh Resonance Liberation.\nPemulihan Substance:\n- +30 Substance saat menggunakan Intro Skill Wintertime Aria.\n- +10 Substance per 1 Moldable Crystal yang dikonsumsi saat menggunakan Resonance Skill Chromatic Splendor.\n- +10 Substance per 1 Moldable Crystal yang dikonsumsi saat menggunakan Basic Attack Necessary Measures.\n- +10 Substance saat menggunakan Dodge Counter (mengonsumsi 1 Moldable Crystal).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Moldable Crystal",
+          "description": "- Carlotta dapat menyimpan hingga 6 Moldable Crystals.\n- Tidak bisa mendapatkan Moldable Crystal saat berada dalam Twilight Tango yang dipicu oleh Resonance Liberation.\nPemulihan Moldable Crystal:\n- +3 Moldable Crystal saat menggunakan Basic Attack Stage 2.\n- +3 Moldable Crystal saat menggunakan Heavy Attack.\n- +3 Moldable Crystal saat menggunakan Mid-air Attack Customary Greetings.\n- +3 Moldable Crystal saat menggunakan Intro Skill Wintertime Aria.\n- +3 Moldable Crystal saat menggunakan Resonance Skill Art of Violence.\n- +3 Moldable Crystal saat berhasil melakukan Dodge.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Flawless Purity",
-        "description": "Setelah menggunakan Resonance Skill Chromatic Splendor, Carlotta dapat melakukan Mid-air Attack sambil kebal terhadap semua DMG dan gangguan sampai Mid-air Attack mengenai target.\n\nSaat Carlotta berada di tim, Flight STA cost dari Resonator yang aktif berkurang sebesar 20%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Setelah menggunakan Resonance Skill Chromatic Splendor, Carlotta dapat melakukan Mid-air Attack sambil kebal terhadap semua DMG dan gangguan sampai Mid-air Attack mengenai target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat Carlotta berada di tim, Flight STA cost dari Resonator yang aktif berkurang sebesar 20%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Ars Gratia Artis",
-        "description": "Intro Skill Wintertime Aria, Resonance Skill Chromatic Splendor, Resonance Liberation Death Knell, dan Heavy Attack Imminent Oblivion dapat menginfeksi target dengan Deconstruction."
+        "effects": [
+          {
+            "title": "",
+            "description": "Intro Skill Wintertime Aria, Resonance Skill Chromatic Splendor, Resonance Liberation Death Knell, dan Heavy Attack Imminent Oblivion dapat menginfeksi target dengan Deconstruction.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Wintertime Aria",
-      "description": "Menyerang target, memberikan  Glacio DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan  Glacio DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Closing Remark",
-      "description": "Menyerang target, memberikan  Glacio DMG setara dengan 794.2% dari ATK Carlotta."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan  Glacio DMG setara dengan 794.2% dari ATK Carlotta.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -407,32 +546,93 @@
     {
       "stage": "S1",
       "name": "Beauty Blazes Brightest Before It Fades",
-      "description": "- Saat Carlotta memberikan DMG ke target yang terkena Deconstruction, Crit. Rate dari serangan tersebut meningkat 12.5%.\n- Saat Resonance Skill Chromatic Splendor mengenai target yang terkena Dispersion, Carlotta memulihkan tambahan 30 poin Substance."
+      "effects": [
+        {
+          "title": "",
+          "description": "- Saat Carlotta memberikan DMG ke target yang terkena Deconstruction, Crit. Rate dari serangan tersebut meningkat 12.5%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Saat Resonance Skill Chromatic Splendor mengenai target yang terkena Dispersion, Carlotta memulihkan tambahan 30 poin Substance.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Fallen Petals Give Life To New Blooms",
-      "description": "DMG Multiplier dari Resonance Liberation Fatal Finale meningkat 126%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation Fatal Finale meningkat 126%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Adelante, Cortado, Spinning In Grace",
-      "description": "Mengaktifkan Outro Skill Kaleidoscope Sparks:\n- Outro Skill Closing Remark memberikan 1 serangan tambahan, memberikan  Glacio DMG setara dengan 1032.18% ATK Carlotta.\n\nDMG Multiplier dari Resonance Skill Art of Violence dan Resonance Skill Chromatic Splendor meningkat 93%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mengaktifkan Outro Skill Kaleidoscope Sparks:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Outro Skill Closing Remark memberikan 1 serangan tambahan, memberikan  Glacio DMG setara dengan 1032.18% ATK Carlotta.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Skill Art of Violence dan Resonance Skill Chromatic Splendor meningkat 93%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Yesterday'S Raindrops Make Finest Wine",
-      "description": "Menggunakan Heavy Attack, Heavy Attack Containment Tactics, atau Heavy Attack Imminent Oblivion memberikan 25% Resonance Skill DMG Bonus ke semua Resonator dalam tim selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Heavy Attack, Heavy Attack Containment Tactics, atau Heavy Attack Imminent Oblivion memberikan 25% Resonance Skill DMG Bonus ke semua Resonator dalam tim selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Toast To Past, Today, And Every Day To Come",
-      "description": "DMG Multiplier dari Heavy Attack Imminent Oblivion meningkat 47%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Heavy Attack Imminent Oblivion meningkat 47%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "As The Curtain Falls, I Remain What I Am",
-      "description": "Serangan Resonance Liberation Death Knell:\n- Menembakkan dua kali lipat jumlah pecahan kristal, meningkatkan total DMG Multiplier sebesar 186.6%.\n- Menginfeksi target dengan Scattering, menyebabkan immobilize selama 1.5 detik atau hingga target menerima DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Serangan Resonance Liberation Death Knell:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Menembakkan dua kali lipat jumlah pecahan kristal, meningkatkan total DMG Multiplier sebesar 186.6%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Menginfeksi target dengan Scattering, menyebabkan immobilize selama 1.5 detik atau hingga target menerima DMG.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

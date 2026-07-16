@@ -12,7 +12,8 @@
       "text": "09-07-2026\n- input data Electro Rover\n- minus build \n- minus stats rekomendasi\n- minus mats\n- minus chart",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "image": "/characters/electro-rover.webp",
@@ -39,41 +40,135 @@
   "skills": {
     "basic": {
       "name": "Deterrence",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut, menimbulkan Electro DMG.\n\nParry Stance\nMenahan Normal Attack untuk memasuki Parry Stance dengan mengorbankan STA.\nSelama aktif, Rover kebal terhadap interupsi, menerima 60% lebih sedikit DMG, dan terus-menerus mengonsumsi STA. Lepaskan Normal Attack untuk keluar dari Parry Stance dan melancarkan Basic Attack - Riposte Strike, menimbulkan Electro DMG.\nMenekan Normal Attack sesaat setelah melancarkan Basic Attack - Riposte Strike untuk menetralkan serangan ini dan membuat target menjadi Stagnant sebelum melancarkan Basic Attack - Riposte Strike: Crumble, menimbulkan Electro DMG.\nMenekan Normal Attack sesaat setelah melancarkan Basic Attack - Riposte Strike untuk melancarkan Basic Attack Stage 2.\nMenekan Normal Attack sesaat setelah melancarkan Basic Attack - Riposte Strike: Crumble untuk melancarkan Mid-air Attack - Havoc.\nSaat berada dalam Apex Resonance, menekan Normal Attack sesaat setelah melancarkan Basic Attack - Riposte Strike: Crumble untuk melancarkan Thrum of All Sounds: Havoc Mid-air Attack, yang dapat disambung ke Thrum of All Sounds: Aero Mid-air Attack.\nDalam Parry Stance, menggunakan Dodge untuk mengonsumsi STA guna melakukan Dodge: Flicker, yang dapat memicu Dodge berhasil selama aksi skill ini sesaat setelah dilancarkan.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack di udara, menimbulkan Electro DMG.\n\nMid-air Attack - Havoc\nMelakukan hingga 3 serangan berturut-turut, menimbulkan Havoc DMG. Menekan Normal Attack sesaat setelah melancarkan skill ini untuk melakukan Basic Attack Stage {5}.\n\nDodge Counter\nMenekan Normal Attack tepat setelah Dodge berhasil untuk menyerang target, menimbulkan Electro DMG.\nMenekan Normal Attack sesaat setelahnya untuk melakukan Basic Attack Stage {6}."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan berturut-turut, menimbulkan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Parry Stance",
+          "description": "Menahan Normal Attack untuk memasuki Parry Stance dengan mengorbankan STA.\nSelama aktif, Rover kebal terhadap interupsi, menerima 60% lebih sedikit DMG, dan terus-menerus mengonsumsi STA. Lepaskan Normal Attack untuk keluar dari Parry Stance dan melancarkan Basic Attack - Riposte Strike, menimbulkan Electro DMG.\nMenekan Normal Attack sesaat setelah melancarkan Basic Attack - Riposte Strike untuk menetralkan serangan ini dan membuat target menjadi Stagnant sebelum melancarkan Basic Attack - Riposte Strike: Crumble, menimbulkan Electro DMG.\nMenekan Normal Attack sesaat setelah melancarkan Basic Attack - Riposte Strike untuk melancarkan Basic Attack Stage 2.\nMenekan Normal Attack sesaat setelah melancarkan Basic Attack - Riposte Strike: Crumble untuk melancarkan Mid-air Attack - Havoc.\nSaat berada dalam Apex Resonance, menekan Normal Attack sesaat setelah melancarkan Basic Attack - Riposte Strike: Crumble untuk melancarkan Thrum of All Sounds: Havoc Mid-air Attack, yang dapat disambung ke Thrum of All Sounds: Aero Mid-air Attack.\nDalam Parry Stance, menggunakan Dodge untuk mengonsumsi STA guna melakukan Dodge: Flicker, yang dapat memicu Dodge berhasil selama aksi skill ini sesaat setelah dilancarkan.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack di udara, menimbulkan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Havoc",
+          "description": "Melakukan hingga 3 serangan berturut-turut, menimbulkan Havoc DMG. Menekan Normal Attack sesaat setelah melancarkan skill ini untuk melakukan Basic Attack Stage {5}.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Menekan Normal Attack tepat setelah Dodge berhasil untuk menyerang target, menimbulkan Electro DMG.\nMenekan Normal Attack sesaat setelahnya untuk melakukan Basic Attack Stage {6}.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Thunderclap",
-      "description": "Meluncurkan Cloudrift Bolt dan menarik diri menuju target, menimbulkan Electro DMG. Menekan Normal Attack sesaat setelahnya untuk melancarkan Basic Attack - Repel, menimbulkan Electro DMG, dihitung sebagai Basic Attack DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Meluncurkan Cloudrift Bolt dan menarik diri menuju target, menimbulkan Electro DMG. Menekan Normal Attack sesaat setelahnya untuk melancarkan Basic Attack - Repel, menimbulkan Electro DMG, dihitung sebagai Basic Attack DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Ultimate Tactics",
-      "description": "Meluncurkan Thunder Quietus, menimbulkan Electro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Meluncurkan Thunder Quietus, menimbulkan Electro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Myriad Omens' Mandate",
-      "description": "Overshock\nSaat Electric Surge maksimal, Resonance Skill digantikan dengan Resonance Skill Overshock, menimbulkan Electro DMG. Skill ini kebal terhadap interupsi saat dilancarkan dan dapat digunakan di udara.\nJika Resonance Skill Overshock dilancarkan dengan menekan tombol, hapus seluruh Electric Surge untuk memberikan bonus 10% ATK kepada Resonator dalam tim selama 20 detik.\nJika Resonance Skill Overshock dilancarkan dengan menahan tombol, hapus seluruh Electric Surge dan masuk ke status Apex Resonance dengan mengorbankan 10 poin Concerto Energy.\n\nApex Resonance\nSelama berada dalam Apex Resonance, Resonance Skill Thrum of All Sounds terbuka, yang mengonsumsi 6% Thunder Rage per detik:\nSaat berada di tanah, tekan Resonance Skill untuk melancarkan hingga 2 serangan berturut-turut:\n- 3 tahap pertama: Thrum of All Sounds: Spectro, menimbulkan Spectro DMG.\n- 1 tahap berikutnya: Thrum of All Sounds: Havoc, menimbulkan Havoc DMG.\n- 6 tahap terakhir: Thrum of All Sounds: Silencing Blade, menimbulkan Aero DMG.\nSaat berada di tanah, tahan Resonance Skill untuk melancarkan Thrum of All Sounds: Aero, menimbulkan Aero DMG dan melompat ke udara.\nSaat berada di udara, tekan Resonance Skill untuk melakukan hingga 3 tahap Serangan Udara:\n- 2 tahap pertama: Thrum of All Sounds: Havoc Mid-air Attack, menimbulkan Havoc DMG.\n- 1 tahap berikutnya: Thrum of All Sounds: Aero Mid-air Attack, menimbulkan Aero DMG.\n- 1 tahap terakhir: Thrum of All Sounds: Havoc Mid-air Attack lalu Thrum of All Sounds: Aero Plunging Attack, menimbulkan Aero DMG. Tekan Resonance Skill sesaat setelah mendarat untuk melancarkan Thrum of All Sounds: Silencing Blade.\nTahan Resonance Skill di udara untuk melancarkan Thrum of All Sounds: Aero Mid-air Attack.\nJika target berada jauh saat Thrum of All Sounds dilancarkan di tanah, hanya lakukan Thrum of All Sounds: Spectro Hunt, menimbulkan Spectro DMG.\nThrum of All Sounds: Aero Plunging Attack juga dapat dilakukan dengan menahan Resonance Skill di udara.\nSemua skill Thrum of All Sounds memicu Thunder Bane, menimbulkan Electro DMG kepada target dalam jangkauan.\nSelama berada dalam Apex Resonance, tekan Resonance Skill sesaat setelah melancarkan Basic Attack untuk menyambung ke skill Thrum of All Sounds berdasarkan Tahap Basic Attack yang berbeda.\n\nElectric Surge\nRover dapat menampung hingga {12} poin Electric Surge.\nElectric Surge pulih ketika Intro Skill - Thunderous Fury, Normal Attack - Deterrence, Resonance Skill - Thunderclap, atau Basic Attack - Repel menimbulkan damage.\n\nThunder Rage\nRover dapat menampung hingga {13} poin Thunder Rage.\nMemasuki Apex Resonance memulihkan Thunder Rage hingga batas maksimal.\nThunder Rage pulih ketika Thrum of All Sounds menimbulkan damage."
+      "effects": [
+        {
+          "title": "Overshock",
+          "description": "Saat Electric Surge maksimal, Resonance Skill digantikan dengan Resonance Skill Overshock, menimbulkan Electro DMG. Skill ini kebal terhadap interupsi saat dilancarkan dan dapat digunakan di udara.\nJika Resonance Skill Overshock dilancarkan dengan menekan tombol, hapus seluruh Electric Surge untuk memberikan bonus 10% ATK kepada Resonator dalam tim selama 20 detik.\nJika Resonance Skill Overshock dilancarkan dengan menahan tombol, hapus seluruh Electric Surge dan masuk ke status Apex Resonance dengan mengorbankan 10 poin Concerto Energy.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Apex Resonance",
+          "description": "Selama berada dalam Apex Resonance, Resonance Skill Thrum of All Sounds terbuka, yang mengonsumsi 6% Thunder Rage per detik:\nSaat berada di tanah, tekan Resonance Skill untuk melancarkan hingga 2 serangan berturut-turut:\n- 3 tahap pertama: Thrum of All Sounds: Spectro, menimbulkan Spectro DMG.\n- 1 tahap berikutnya: Thrum of All Sounds: Havoc, menimbulkan Havoc DMG.\n- 6 tahap terakhir: Thrum of All Sounds: Silencing Blade, menimbulkan Aero DMG.\nSaat berada di tanah, tahan Resonance Skill untuk melancarkan Thrum of All Sounds: Aero, menimbulkan Aero DMG dan melompat ke udara.\nSaat berada di udara, tekan Resonance Skill untuk melakukan hingga 3 tahap Serangan Udara:\n- 2 tahap pertama: Thrum of All Sounds: Havoc Mid-air Attack, menimbulkan Havoc DMG.\n- 1 tahap berikutnya: Thrum of All Sounds: Aero Mid-air Attack, menimbulkan Aero DMG.\n- 1 tahap terakhir: Thrum of All Sounds: Havoc Mid-air Attack lalu Thrum of All Sounds: Aero Plunging Attack, menimbulkan Aero DMG. Tekan Resonance Skill sesaat setelah mendarat untuk melancarkan Thrum of All Sounds: Silencing Blade.\nTahan Resonance Skill di udara untuk melancarkan Thrum of All Sounds: Aero Mid-air Attack.\nJika target berada jauh saat Thrum of All Sounds dilancarkan di tanah, hanya lakukan Thrum of All Sounds: Spectro Hunt, menimbulkan Spectro DMG.\nThrum of All Sounds: Aero Plunging Attack juga dapat dilakukan dengan menahan Resonance Skill di udara.\nSemua skill Thrum of All Sounds memicu Thunder Bane, menimbulkan Electro DMG kepada target dalam jangkauan.\nSelama berada dalam Apex Resonance, tekan Resonance Skill sesaat setelah melancarkan Basic Attack untuk menyambung ke skill Thrum of All Sounds berdasarkan Tahap Basic Attack yang berbeda.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Electric Surge",
+          "description": "Rover dapat menampung hingga {12} poin Electric Surge.\nElectric Surge pulih ketika Intro Skill - Thunderous Fury, Normal Attack - Deterrence, Resonance Skill - Thunderclap, atau Basic Attack - Repel menimbulkan damage.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Thunder Rage",
+          "description": "Rover dapat menampung hingga {13} poin Thunder Rage.\nMemasuki Apex Resonance memulihkan Thunder Rage hingga batas maksimal.\nThunder Rage pulih ketika Thrum of All Sounds menimbulkan damage.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Decipher",
-        "description": "Resonance Skill Overshock memberikan 10 tumpukan Electro Flare pada target yang terkena damage."
+        "effects": [
+          {
+            "title": "",
+            "description": "Resonance Skill Overshock memberikan 10 tumpukan Electro Flare pada target yang terkena damage.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Regression",
-        "description": "\nSaat Resonance Skill Overshock dilancarkan dengan menahan tombol, mendapatkan bonus 20% Resonance Skill DMG selama 20 detik. Beralih ke Resonator lain mengakhiri efek ini."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Resonance Skill Overshock dilancarkan dengan menahan tombol, mendapatkan bonus 20% Resonance Skill DMG selama 20 detik. Beralih ke Resonator lain mengakhiri efek ini.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break - Sword",
-        "description": "Saat Level Off-Tune target penuh, Resonator dapat melancarkan Tune Break."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Level Off-Tune target penuh, Resonator dapat melancarkan Tune Break.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Thunderous Fury",
-      "description": "Attack target, dealing Electro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Attack target, dealing Electro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Rumbling Thunders",
-      "description": "Resonator yang masuk mendapatkan Electro Core selama 20 detik atau hingga Resonator tersebut diganti. Saat Resonator dengan Electro Core memberikan Negative Statuses, Electro Core mereka dikonsumsi dan mereka mendapatkan amplifikasi 25% All DMG selama 14 detik. Beralih ke Resonator lain mengakhiri efek ini.\nMelancarkan Outro Skill mengakhiri status Apex Resonance dan menghapus seluruh Thunder Rage."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk mendapatkan Electro Core selama 20 detik atau hingga Resonator tersebut diganti. Saat Resonator dengan Electro Core memberikan Negative Statuses, Electro Core mereka dikonsumsi dan mereka mendapatkan amplifikasi 25% All DMG selama 14 detik. Beralih ke Resonator lain mengakhiri efek ini.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan Outro Skill mengakhiri status Apex Resonance dan menghapus seluruh Thunder Rage.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -87,32 +182,68 @@
     {
       "stage": "S1",
       "name": "Celestial Ingenuity",
-      "description": "Saat melancarkan Normal Attack dan Resonance Skill Thrum of All Sounds, mendapatkan peningkatan ketahanan terhadap interupsi selama 0,5 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat melancarkan Normal Attack dan Resonance Skill Thrum of All Sounds, mendapatkan peningkatan ketahanan terhadap interupsi selama 0,5 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Thousandfold Artifice",
-      "description": "Memberikan 5 tumpukan Electro Flare kepada target yang terkena setelah Resonance Liberation Ultimate Tactics menimbulkan damage.\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan 5 tumpukan Electro Flare kepada target yang terkena setelah Resonance Liberation Ultimate Tactics menimbulkan damage.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Alchemy Of Wonders",
-      "description": "Damage Multiplier dari Resonance Skill Overshock meningkat sebesar 20%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage Multiplier dari Resonance Skill Overshock meningkat sebesar 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Earthquaking Rumble",
-      "description": "Damage Multiplier dari Resonance Liberation Ultimate Tactics meningkat sebesar 20%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage Multiplier dari Resonance Liberation Ultimate Tactics meningkat sebesar 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Principle Of Change",
-      "description": "Crit. DMG meningkat sebesar 20% saat berada dalam Apex Resonance."
+      "effects": [
+        {
+          "title": "",
+          "description": "Crit. DMG meningkat sebesar 20% saat berada dalam Apex Resonance.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Mind'S Depths In A Casket",
-      "description": "Damage Multiplier dari Resonance Skill Thrum of All Sounds dan Thunder Bane meningkat sebesar 20%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage Multiplier dari Resonance Skill Thrum of All Sounds dan Thunder Bane meningkat sebesar 20%.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

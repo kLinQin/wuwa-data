@@ -18,7 +18,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Pioneer Association",
@@ -139,37 +140,130 @@
   "skills": {
     "basic": {
       "name": "Cultivation",
-      "description": "Basic Attack\nMenyerang Hingga 5 serangan berturut-turut menggunakan tanaman merambat memberikan  Spectro DMG.\n\nHeavy Attack\nVerina mengonsumsi STA untuk menerjang ke depan, memberikan  Spectro DMG.\n\nMid-air Attack\nVerina mengonsumsi STA untuk menyerang hingga 3 kali berturut-turut di udara, memberikan  Spectro DMG.\n\nMid-air Heavy Attack\nTahan Basic Attack untuk mengonsumsi STA dan melakukan Plunging Attack di udara, memberikan  Spectro DMG.\n\nDodge Counter\nGunakan Basic Attack setelah berhasil menghindar untuk menyerang target, memberikan  Spectro DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Menyerang Hingga 5 serangan berturut-turut menggunakan tanaman merambat memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Verina mengonsumsi STA untuk menerjang ke depan, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Verina mengonsumsi STA untuk menyerang hingga 3 kali berturut-turut di udara, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Heavy Attack",
+          "description": "Tahan Basic Attack untuk mengonsumsi STA dan melakukan Plunging Attack di udara, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah berhasil menghindar untuk menyerang target, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Botany Experiment",
-      "description": "Verina mengumpulkan energi di depannya untuk menumbuhkan tanaman, memberikan  Spectro DMG ke area sekitarnya."
+      "effects": [
+        {
+          "title": "",
+          "description": "Verina mengumpulkan energi di depannya untuk menumbuhkan tanaman, memberikan  Spectro DMG ke area sekitarnya.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Arboreal Flourish",
-      "description": "Verina mempercepat pertumbuhan tanaman di sekitarnya, memberikan  Spectro DMG sekaligus memulihkan HP semua karakter dalam tim yang berada di dekatnya. \nTarget yang terkena serangan akan mendapatkan Photosynthesis Mark.\n\nPhotosynthesis Mark\n\nSaat karakter dalam tim menyerang target yang memiliki Photosynthesis Mark, Verina akan melakukan Coordinated Attack, memberikan  Spectro DMG dan menyembuhkan karakter aktif yang menyerang. \nEfek ini dapat terpicu sekali setiap detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Verina mempercepat pertumbuhan tanaman di sekitarnya, memberikan  Spectro DMG sekaligus memulihkan HP semua karakter dalam tim yang berada di dekatnya.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Target yang terkena serangan akan mendapatkan Photosynthesis Mark.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Photosynthesis Mark",
+          "description": "Saat karakter dalam tim menyerang target yang memiliki Photosynthesis Mark, Verina akan melakukan Coordinated Attack, memberikan  Spectro DMG dan menyembuhkan karakter aktif yang menyerang.\nEfek ini dapat terpicu sekali setiap detik.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Starflower Blooms",
-      "description": "Heavy Attack: Starflower Blooms\nSaat menggunakan Heavy Attack, jika Verina memiliki Photosynthesis Energy, dia akan mengonsumsi 1 stack untuk memulihkan Concerto Energy dan menyembuhkan semua karakter dalam tim yang berada di dekatnya.\nHeavy Attack: Starflower Blooms memberikan  Spectro DMG dan dianggap sebagai Heavy Attack DMG. \n\nMid-air Attack: Starflower Blooms\nSaat menggunakan Mid-air Attack, jika Verina memiliki Photosynthesis Energy, dia akan mengonsumsi 1 stack untuk memulihkan Concerto Energy dan menyembuhkan semua karakter dalam tim yang berada di dekatnya.\nMid-air Attack: Starflower Blooms memberikan  Spectro DMG dan dianggap sebagai Basic Attack DMG.\nVerina bisa menggunakan Mid-air Attack: Starflower Blooms dengan menekan Basic Attack setelah mengeluarkan Heavy Attack: Starflower Blooms.\n\nPhotosynthesis Energy\nVerina dapat menyimpan hingga 4 Photosynthesis Energy.\nMendapatkan 1 stack setiap 5 serangan Basic Attack mengenai target.\nMendapatkan 1 stack setiap kali Resonance Skill Botany Experiment mengenai target.\nMendapatkan 1 stack setiap kali Intro Skill Verdant Growth mengenai target."
+      "effects": [
+        {
+          "title": "Heavy Attack: Starflower Blooms",
+          "description": "Saat menggunakan Heavy Attack, jika Verina memiliki Photosynthesis Energy, dia akan mengonsumsi 1 stack untuk memulihkan Concerto Energy dan menyembuhkan semua karakter dalam tim yang berada di dekatnya.\nHeavy Attack: Starflower Blooms memberikan  Spectro DMG dan dianggap sebagai Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack: Starflower Blooms",
+          "description": "Saat menggunakan Mid-air Attack, jika Verina memiliki Photosynthesis Energy, dia akan mengonsumsi 1 stack untuk memulihkan Concerto Energy dan menyembuhkan semua karakter dalam tim yang berada di dekatnya.\nMid-air Attack: Starflower Blooms memberikan  Spectro DMG dan dianggap sebagai Basic Attack DMG.\nVerina bisa menggunakan Mid-air Attack: Starflower Blooms dengan menekan Basic Attack setelah mengeluarkan Heavy Attack: Starflower Blooms.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Photosynthesis Energy",
+          "description": "Verina dapat menyimpan hingga 4 Photosynthesis Energy.\nMendapatkan 1 stack setiap 5 serangan Basic Attack mengenai target.\nMendapatkan 1 stack setiap kali Resonance Skill Botany Experiment mengenai target.\nMendapatkan 1 stack setiap kali Intro Skill Verdant Growth mengenai target.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Grace Of Life",
-        "description": "Verina melindungi anggota tim dari serangan fatal dan memberikan shield sebesar 120% dari ATK-nya yang bertahan selama 10 detik. Efek ini hanya bisa terpicu sekali setiap 10 menit."
+        "effects": [
+          {
+            "title": "",
+            "description": "Verina melindungi anggota tim dari serangan fatal dan memberikan shield sebesar 120% dari ATK-nya yang bertahan selama 10 detik. Efek ini hanya bisa terpicu sekali setiap 10 menit.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Gift Of Nature",
-        "description": "Saat Verina menggunakan Heavy Attack Starflower Blooms, Mid-air Attack Starflower Blooms, Resonance Liberation Arboreal Flourish, atau Outro Skill Blossom, ATK semua anggota tim meningkat 20% selama 20 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Verina menggunakan Heavy Attack Starflower Blooms, Mid-air Attack Starflower Blooms, Resonance Liberation Arboreal Flourish, atau Outro Skill Blossom, ATK semua anggota tim meningkat 20% selama 20 detik.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Verdant Growth",
-      "description": "Verina menyerang target, memberikan  Spectro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Verina menyerang target, memberikan  Spectro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Blossom",
-      "description": "Menyembuhkan Resonator yang masuk sebesar 19% dari ATK Verina per detik selama 6 detik. \nSemua Resonator dalam tim yang berada di dekatnya mendapatkan DMG Amplification sebesar 15% selama 30 detik)."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyembuhkan Resonator yang masuk sebesar 19% dari ATK Verina per detik selama 6 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Semua Resonator dalam tim yang berada di dekatnya mendapatkan DMG Amplification sebesar 15% selama 30 detik).",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -258,32 +352,68 @@
     {
       "stage": "S1",
       "name": " Moment Of Emergence",
-      "description": "Outro Skill Blossom memberikan efek penyembuhan terus-menerus kepada karakter berikutnya, memulihkan HP sebesar 20% dari ATK Verina setiap 5 detik selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Outro Skill Blossom memberikan efek penyembuhan terus-menerus kepada karakter berikutnya, memulihkan HP sebesar 20% dari ATK Verina setiap 5 detik selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Sprouting Reflections",
-      "description": "Resonance Skill Botany Experiment memberikan tambahan 1 Photosynthetic Energy dan 10 Concerto Energy."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill Botany Experiment memberikan tambahan 1 Photosynthetic Energy dan 10 Concerto Energy.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "The Choice To Flourish",
-      "description": "Efek penyembuhan dari Photosynthesis Mark pada Resonance Liberation meningkat 12%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Efek penyembuhan dari Photosynthesis Mark pada Resonance Liberation meningkat 12%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Blossoming Embrace",
-      "description": "Heavy Attack Starflower Blooms, Mid-Air Attack Starflower Blooms, Resonance Liberation Arboreal Flourish, dan Outro Skill Blossom meningkatkan  Spectro DMG Bonus semua anggota tim sebesar 15% selama 24 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Heavy Attack Starflower Blooms, Mid-Air Attack Starflower Blooms, Resonance Liberation Arboreal Flourish, dan Outro Skill Blossom meningkatkan  Spectro DMG Bonus semua anggota tim sebesar 15% selama 24 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Miraculous Blooms",
-      "description": "Saat Verina menyembuhkan anggota tim dengan HP di bawah 50%, efek penyembuhannya meningkat 20%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Verina menyembuhkan anggota tim dengan HP di bawah 50%, efek penyembuhannya meningkat 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Joyous Harvest",
-      "description": "Heavy Attack Starflower Blooms dan Mid-air Attack Starflower Blooms memberikan 20% lebih banyak DMG. Serangan ini juga akan memicu Coordinated Attack sekali dan menyembuhkan semua karakter di sekitar. DMG dan penyembuhan dari Coordinated Attack ini setara dengan efek dari Photosynthesis Mark pada Resonance Liberation."
+      "effects": [
+        {
+          "title": "",
+          "description": "Heavy Attack Starflower Blooms dan Mid-air Attack Starflower Blooms memberikan 20% lebih banyak DMG. Serangan ini juga akan memicu Coordinated Attack sekali dan menyembuhkan semua karakter di sekitar. DMG dan penyembuhan dari Coordinated Attack ini setara dengan efek dari Photosynthesis Mark pada Resonance Liberation.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

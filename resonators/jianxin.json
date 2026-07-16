@@ -21,7 +21,8 @@
       "text": "update weapon",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "",
@@ -219,41 +220,130 @@
   "skills": {
     "basic": {
       "name": "Fengyiquan",
-      "description": "Basic Attack\nJianxin melakukan hingga 4 serangan berturut-turut, memberikan Aero DMG.\n\nHeavy Attack\nJianxin mengonsumsi STA untuk menyerang target, memberikan Aero DMG.\n\nMid-air Attack\nJianxin mengonsumsi STA untuk terjun dan melepaskan tendangan yang kuat, memberikan Aero DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Jianxin melakukan hingga 4 serangan berturut-turut, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Jianxin mengonsumsi STA untuk menyerang target, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Jianxin mengonsumsi STA untuk terjun dan melepaskan tendangan yang kuat, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Calming Air",
-      "description": "Tahan Resonance Skill untuk memasuki Parry Stance.\n\nChi Counter\nSaat Jianxin diserang dalam Parry Stance, ia tidak menerima damage dan segera melakukan Chi Counter, memberikan Aero DMG.\n\nChi Parry\nLepaskan tombol Resonance Skill selama Parry Stance untuk menginterupsi Parry Stance dan melakukan Chi Parry, memberikan Aero DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Tahan Resonance Skill untuk memasuki Parry Stance.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Chi Counter",
+          "description": "Saat Jianxin diserang dalam Parry Stance, ia tidak menerima damage dan segera melakukan Chi Counter, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Chi Parry",
+          "description": "Lepaskan tombol Resonance Skill selama Parry Stance untuk menginterupsi Parry Stance dan melakukan Chi Parry, memberikan Aero DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Purification Force Field",
-      "description": "Menciptakan wind field yang kuat, secara terus-menerus menarik target di dalam wind field ke titik pusat dan memberikan Aero DMG. Saat wind field menghilang, hal ini akan memicu ledakan untuk memberikan Aero DMG kembali kepada semua target di dalam jangkauan tersebut."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menciptakan wind field yang kuat, secara terus-menerus menarik target di dalam wind field ke titik pusat dan memberikan Aero DMG. Saat wind field menghilang, hal ini akan memicu ledakan untuk memberikan Aero DMG kembali kepada semua target di dalam jangkauan tersebut.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Primordial Chi Spiral",
-      "description": "Heavy Attack: Primordial Chi Spiral\nSaat \"Chi\" mencapai stack maksimal, tahan Basic Attack untuk melancarkan Primordial Chi Spiral dan memulai Zhoutian Progress.\n\nZhoutian Progress\nResistance to interruption Jianxin meningkat, dan damage yang diterima berkurang sebesar 50%:\nJianxin terus-menerus mengonsumsi \"Chi\" dan melancarkan Chi Strike untuk menyerang target di sekitar, memberikan Aero DMG.\nSeiring terakumulasinya Zhoutian Progress, Jianxin mencapai Zhoutian yang berbeda dan mendapatkan efek yang sesuai.\n-Sebelum Minor Zhoutian: Mendapatkan Zhoutian Progress 1 shield. Saat Zhoutian Progress terinterupsi, lancarkan Pushing Punch untuk menyerang target, memberikan Aero DMG.\n-Minor Zhoutian: Mendapatkan Zhoutian Progress 2 shield dan lancarkan Shock untuk menyerang target, memberikan Aero DMG. Saat Zhoutian Progress terinterupsi, lancarkan Yielding Pull untuk menyerang target, memberikan Aero DMG.\n-Major Zhoutian - Inner: Mendapatkan Zhoutian Progress 3 shield dan lancarkan Shock untuk menyerang target, memberikan Aero DMG. Saat Zhoutian Progress terinterupsi, lancarkan Yielding Pull untuk menyerang target, memberikan Aero DMG.\n-Major Zhoutian - Outer: Mendapatkan Zhoutian Progress 3 shield dan lancarkan Shock untuk menyerang target, memberikan Aero DMG.\n-Saat tombol Basic Attack dilepaskan, interupsi Zhoutian Progress dan hilangkan semua \"Chi\";\n-Saat semua \"Chi\" habis dikonsumsi, akhiri Zhoutian Progress.\n\nSaat Zhoutian Progress berakhir, dapatkan kembali shield sesuai dengan Zhoutian Progress yang dicapai;\nSelama shield yang diberikan oleh Heavy Attack: Primordial Chi Spiral bertahan, karakter yang aktif akan dipulihkan (heal) setiap 6 detik.\n\nChi\nJianxin dapat menampung hingga 120 Chi.\nChi didapatkan saat Normal Attack Fengyiquan mengenai target.\nChi didapatkan saat Resonance Skill Calming Air dilancarkan.\nChi didapatkan saat Resonance Skill Chi Counter atau Chi Parry mengenai target.\nChi didapatkan saat Intro Skill Essence of Tao mengenai target."
+      "effects": [
+        {
+          "title": "Heavy Attack: Primordial Chi Spiral",
+          "description": "Saat \"Chi\" mencapai stack maksimal, tahan Basic Attack untuk melancarkan Primordial Chi Spiral dan memulai Zhoutian Progress.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Zhoutian Progress",
+          "description": "Resistance to interruption Jianxin meningkat, dan damage yang diterima berkurang sebesar 50%:\nJianxin terus-menerus mengonsumsi \"Chi\" dan melancarkan Chi Strike untuk menyerang target di sekitar, memberikan Aero DMG.\nSeiring terakumulasinya Zhoutian Progress, Jianxin mencapai Zhoutian yang berbeda dan mendapatkan efek yang sesuai.\n-Sebelum Minor Zhoutian: Mendapatkan Zhoutian Progress 1 shield. Saat Zhoutian Progress terinterupsi, lancarkan Pushing Punch untuk menyerang target, memberikan Aero DMG.\n-Minor Zhoutian: Mendapatkan Zhoutian Progress 2 shield dan lancarkan Shock untuk menyerang target, memberikan Aero DMG. Saat Zhoutian Progress terinterupsi, lancarkan Yielding Pull untuk menyerang target, memberikan Aero DMG.\n-Major Zhoutian - Inner: Mendapatkan Zhoutian Progress 3 shield dan lancarkan Shock untuk menyerang target, memberikan Aero DMG. Saat Zhoutian Progress terinterupsi, lancarkan Yielding Pull untuk menyerang target, memberikan Aero DMG.\n-Major Zhoutian - Outer: Mendapatkan Zhoutian Progress 3 shield dan lancarkan Shock untuk menyerang target, memberikan Aero DMG.\n-Saat tombol Basic Attack dilepaskan, interupsi Zhoutian Progress dan hilangkan semua \"Chi\";\n-Saat semua \"Chi\" habis dikonsumsi, akhiri Zhoutian Progress.\nSaat Zhoutian Progress berakhir, dapatkan kembali shield sesuai dengan Zhoutian Progress yang dicapai;\nSelama shield yang diberikan oleh Heavy Attack: Primordial Chi Spiral bertahan, karakter yang aktif akan dipulihkan (heal) setiap 6 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Chi",
+          "description": "Jianxin dapat menampung hingga 120 Chi.\nChi didapatkan saat Normal Attack Fengyiquan mengenai target.\nChi didapatkan saat Resonance Skill Calming Air dilancarkan.\nChi didapatkan saat Resonance Skill Chi Counter atau Chi Parry mengenai target.\nChi didapatkan saat Intro Skill Essence of Tao mengenai target.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Formless Release",
-        "description": "Damage dari Resonance Liberation Purification Force Field meningkat sebesar 20%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Damage dari Resonance Liberation Purification Force Field meningkat sebesar 20%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Reflection",
-        "description": "Shield yang didapatkan dari Heavy Attack Primordial Chi Spiral meningkat sebesar 20%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Shield yang didapatkan dari Heavy Attack Primordial Chi Spiral meningkat sebesar 20%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Une Break: Gauntlets",
-        "description": "Saat Off-Tune Level target penuh, Resonator dapat melancarkan Tune Break pada target tersebut."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Off-Tune Level target penuh, Resonator dapat melancarkan Tune Break pada target tersebut.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Essence Of Tao",
-      "description": "Menarik target di dalam jangkauan, memberikan Aero DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menarik target di dalam jangkauan, memberikan Aero DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Transcendence",
-      "description": "Resonator yang masuk mendapatkan Resonance Liberation DMG Amplified sebesar 38% selama 14 detik atau hingga mereka diganti keluar dari field."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk mendapatkan Resonance Liberation DMG Amplified sebesar 38% selama 14 detik atau hingga mereka diganti keluar dari field.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -342,32 +432,68 @@
     {
       "stage": "S1",
       "name": "Verdant Branchlet",
-      "description": "Setelah melancarkan Intro Skill Essence of Tao, Jianxin mendapatkan 100% ekstra Chi dari Basic Attacks selama 10 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah melancarkan Intro Skill Essence of Tao, Jianxin mendapatkan 100% ekstra Chi dari Basic Attacks selama 10 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Tao Seeker'S Journey",
-      "description": "Resonance Skill Calming Air dapat digunakan 1 kali lagi."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill Calming Air dapat digunakan 1 kali lagi.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Principles Of Wuwei",
-      "description": "Setelah berada dalam Parry Stance dari Resonance Skill Calming Air selama 2,5 detik, Resonance Skill Chi Counter akan segera tersedia untuk digunakan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah berada dalam Parry Stance dari Resonance Skill Calming Air selama 2,5 detik, Resonance Skill Chi Counter akan segera tersedia untuk digunakan.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Multitide Reflection",
-      "description": "Saat melakukan Forte Circuit Heavy Attack: Primordial Chi Spiral, DMG Resonance Liberation Purification Force Field milik Jianxin meningkat sebesar 80% selama 14 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat melakukan Forte Circuit Heavy Attack: Primordial Chi Spiral, DMG Resonance Liberation Purification Force Field milik Jianxin meningkat sebesar 80% selama 14 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Mirroring Introspection",
-      "description": "Jangkauan dari Resonance Liberation Purification Force Field meningkat sebesar 33%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Jangkauan dari Resonance Liberation Purification Force Field meningkat sebesar 33%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Truth From Within",
-      "description": "Selama Forte Circuit Heavy Attack: Primordial Qi Spiral, jika Jianxin melakukan Pushing Punch, Resonance Skill yang diperkuat yaitu Special Chi Counter dapat digunakan sebanyak 1 kali dalam 5 detik. Special Chi Counter: Memberikan Aero DMG setara dengan 556,67% dari ATK Jianxin, yang dianggap sebagai Heavy Attack DMG. Mendapatkan Zhoutian Progress 4 Shield (Mendapatkan manfaat dari efek bonus Inherent Skill Reflection.)"
+      "effects": [
+        {
+          "title": "",
+          "description": "Selama Forte Circuit Heavy Attack: Primordial Qi Spiral, jika Jianxin melakukan Pushing Punch, Resonance Skill yang diperkuat yaitu Special Chi Counter dapat digunakan sebanyak 1 kali dalam 5 detik. Special Chi Counter: Memberikan Aero DMG setara dengan 556,67% dari ATK Jianxin, yang dianggap sebagai Heavy Attack DMG. Mendapatkan Zhoutian Progress 4 Shield (Mendapatkan manfaat dari efek bonus Inherent Skill Reflection.)",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

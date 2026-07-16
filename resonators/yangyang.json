@@ -19,7 +19,8 @@
       "text": "minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Midnight Rangers",
@@ -160,37 +161,115 @@
   "skills": {
     "basic": {
       "name": "Feather As Blade",
-      "description": "Basic Attack\nYangyang melakukan hingga 4 serangan berturut-turut, memberikan Aero DMG.\n\nHeavy Attack\nYangyang mengonsumsi STA untuk menerjang ke depan, memberikan Aero DMG.\n\nHeavy Attack: Zephyr Song\nGunakan Basic Attack setelah Heavy Attack atau Dodge Counter untuk melancarkan Heavy Attack Zephyr Song, memberikan Aero DMG.\n\nMid-air Attack\nYangyang mengonsumsi STA untuk melakukan Plunging Attack dari udara, memberikan Aero DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk menusuk ke depan, memberikan Aero DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Yangyang melakukan hingga 4 serangan berturut-turut, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Yangyang mengonsumsi STA untuk menerjang ke depan, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack: Zephyr Song",
+          "description": "Gunakan Basic Attack setelah Heavy Attack atau Dodge Counter untuk melancarkan Heavy Attack Zephyr Song, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Yangyang mengonsumsi STA untuk melakukan Plunging Attack dari udara, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah Dodge yang berhasil untuk menusuk ke depan, memberikan Aero DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Zephyr Domain",
-      "description": "Yangyang mengayunkan pedangnya untuk menciptakan pusaran angin yang menarik musuh di sekitar ke arah pusat, memberikan Aero DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Yangyang mengayunkan pedangnya untuk menciptakan pusaran angin yang menarik musuh di sekitar ke arah pusat, memberikan Aero DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Wind Spirals",
-      "description": "Yangyang memanggil sebuah Cyclone dahsyat yang menarik musuh di sekitar, memberikan Aero DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Yangyang memanggil sebuah Cyclone dahsyat yang menarik musuh di sekitar, memberikan Aero DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Echoing Feathers",
-      "description": "Heavy Attack: Stormy Strike\nSaat Yangyang memiliki 3 Melodies, ia dapat melancarkan Stormy Strike setelah Heavy Attack atau Dodge Counter, memberikan Aero DMG.\n\nMid-air Attack: Feather Release\nSaat Yangyang memiliki 3 Melodies, lancarkan Basic Attack di udara untuk mengonsumsi semua Melodies dan melakukan serangan berturut-turut sembari menukik dari udara, memberikan Aero DMG. Saat Yangyang mendarat, ia menyarungkan pedangnya dengan sebuah serangan, memberikan Aero DMG, yang dianggap sebagai Basic Attack DMG.\n\nMelody\nYangyang dapat menampung hingga 3 Melodies.\nYangyang mendapatkan 1 Melody untuk setiap Basic Attack 4 yang mengenai target.\nYangyang mendapatkan 1 Melody untuk setiap Heavy Attack Zephyr Song yang mengenai target.\nYangyang mendapatkan 1 Melody untuk setiap Resonance Skill Zephyr Domain yang mengenai target.\nYangyang mendapatkan 1 Melody saat melancarkan Intro Skill Cerulean Song."
+      "effects": [
+        {
+          "title": "Heavy Attack: Stormy Strike",
+          "description": "Saat Yangyang memiliki 3 Melodies, ia dapat melancarkan Stormy Strike setelah Heavy Attack atau Dodge Counter, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack: Feather Release",
+          "description": "Saat Yangyang memiliki 3 Melodies, lancarkan Basic Attack di udara untuk mengonsumsi semua Melodies dan melakukan serangan berturut-turut sembari menukik dari udara, memberikan Aero DMG. Saat Yangyang mendarat, ia menyarungkan pedangnya dengan sebuah serangan, memberikan Aero DMG, yang dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Melody",
+          "description": "Yangyang dapat menampung hingga 3 Melodies.\nYangyang mendapatkan 1 Melody untuk setiap Basic Attack 4 yang mengenai target.\nYangyang mendapatkan 1 Melody untuk setiap Heavy Attack Zephyr Song yang mengenai target.\nYangyang mendapatkan 1 Melody untuk setiap Resonance Skill Zephyr Domain yang mengenai target.\nYangyang mendapatkan 1 Melody saat melancarkan Intro Skill Cerulean Song.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Compassion",
-        "description": "Yangyang memulihkan 30 STA setelah ia melancarkan Mid-air Attack Feather Release."
+        "effects": [
+          {
+            "title": "",
+            "description": "Yangyang memulihkan 30 STA setelah ia melancarkan Mid-air Attack Feather Release.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Lazuline Mercy",
-        "description": "Aero DMG Bonus Yangyang meningkat sebesar 8% selama 8 detik setelah melancarkan Intro Skill Cerulean Song."
+        "effects": [
+          {
+            "title": "",
+            "description": "Aero DMG Bonus Yangyang meningkat sebesar 8% selama 8 detik setelah melancarkan Intro Skill Cerulean Song.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Cerulean Song",
-      "description": "Yangyang sends the target into the air, dealing Aero DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Yangyang sends the target into the air, dealing Aero DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Whispering Breeze",
-      "description": "Memulihkan 4 Resonance Energy per detik selama 5 detik untuk Resonator yang masuk."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memulihkan 4 Resonance Energy per detik selama 5 detik untuk Resonator yang masuk.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -279,32 +358,68 @@
     {
       "stage": "S1",
       "name": "Sapphire Skies, Soaring Sparrows",
-      "description": "Intro Skill Cerulean Song meningkatkan Aero DMG Bonus Yangyang sebesar tambahan 15% selama 8 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Intro Skill Cerulean Song meningkatkan Aero DMG Bonus Yangyang sebesar tambahan 15% selama 8 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Nesting Twigs, In Beaks They Harrow",
-      "description": "Heavy Attack memulihkan tambahan 10 Resonance Energy untuk Yangyang saat mengenai target, yang dapat dipicu 1 kali setiap 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Heavy Attack memulihkan tambahan 10 Resonance Energy untuk Yangyang saat mengenai target, yang dapat dipicu 1 kali setiap 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Nature Sings In Symphony",
-      "description": "Resonance Skill DMG Bonus meningkat sebesar 40%. Efek penarik Wind Field terhadap target di sekitar diperkuat, dan jangkauan tarikannya diperluas sebesar 33%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill DMG Bonus meningkat sebesar 40%. Efek penarik Wind Field terhadap target di sekitar diperkuat, dan jangkauan tarikannya diperluas sebesar 33%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Close Your Eyes And Listen In",
-      "description": "Damage dari Mid-air Attack Feather Release meningkat sebesar 95%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage dari Mid-air Attack Feather Release meningkat sebesar 95%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Winds Whisper In Harmony",
-      "description": "Damage dari Resonance Liberation Wind Spirals meningkat sebesar 85%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage dari Resonance Liberation Wind Spirals meningkat sebesar 85%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "A Tribute To Life'S Sweet Hymn",
-      "description": "Setelah melancarkan Mid-air Attack Feather Release, ATK dari semua anggota tim meningkat sebesar 20% selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah melancarkan Mid-air Attack Feather Release, ATK dari semua anggota tim meningkat sebesar 20% selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

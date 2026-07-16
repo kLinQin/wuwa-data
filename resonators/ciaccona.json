@@ -17,7 +17,8 @@
     {
       "text": "minimal update",
       "type": "updated",
-      "isNew": false
+      "isNew": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Ragunna",
@@ -180,28 +181,129 @@
   "skills": {
     "basic": {
       "name": "Quadruple Time Steps",
-      "description": "**Basic Attack**\nMelakukan hingga 4 serangan beruntun memberikan  Aero DMG.\nBasic Attack tahap ke-4 memberikan 1 stack Aero Erosion kepada target yang terkena.\n- Jika tiga tahap pertama Basic Attack terpotong oleh dodge, tekan Basic Attack tepat waktu untuk melanjutkan urutan serangan dan melancarkan tahap Basic Attack yang sesuai.\n- Setelah tahap ke-4, Ciaccona akan memulai Solo Concert. Jika Basic Attack tahap ke-4 atau Solo Concert berakhir lebih awal (baik secara sengaja maupun karena terganggu), maka akan dihasilkan Ensemble Sylph.\n\n**Solo Concert**\nSaat Ciaccona atau Ensemble Sylph melakukan Solo Concert, mereka memberikan Bonus  Aero DMG sebesar 24% kepada seluruh Resonator di sekitar dalam tim. Efek ini tidak dapat ditumpuk.\n\n**Ensemble Sylph**\nMaksimal 2 Ensemble Sylph dapat hadir secara bersamaan.\nJika Basic Attack Tahap 4 milik Ciaccona terganggu, Ensemble Sylph yang muncul akan menyelesaikan serangan tersebut dan masuk ke Solo Concert.\nJika Solo Concert milik Ciaccona terganggu, Ensemble Sylph yang muncul akan melanjutkan Solo Concert tersebut.\nDi luar dua kondisi di atas, Ensemble Sylph yang dihasilkan oleh Resonance Skill hanya akan menyelesaikan serangan Ciaccona saat ini tanpa masuk ke Solo Concert.\n\n**Heavy Attack**\nMengonsumsi STA untuk melompat ke udara dan menyerang target, memberikan  Aero DMG.\n\n**Aimed Attack**\nTekan Aim untuk masuk ke Mode Membidik dan menembakkan serangan bermuatan, memberikan  Aero DMG yang dihitung sebagai Heavy Attack DMG.\n\n**Mid-air Attack**\nMengonsumsi STA untuk melakukan hingga 2 serangan berturut-turut, memberikan  Aero DMG.\nTekan Normal Attack setelah Mid-air Attack Stage 2 untuk melancarkan Basic Attack Stage 4.\n\n**Dodge Counter**\nSetelah berhasil menghindar dengan Dodge, tekan Basic Attack untuk langsung menyerang dan memberikan  Aero DMG pada target."
+      "effects": [
+        {
+          "title": "**Basic Attack**",
+          "description": "Melakukan hingga 4 serangan beruntun memberikan  Aero DMG.\nBasic Attack tahap ke-4 memberikan 1 stack Aero Erosion kepada target yang terkena.\n- Jika tiga tahap pertama Basic Attack terpotong oleh dodge, tekan Basic Attack tepat waktu untuk melanjutkan urutan serangan dan melancarkan tahap Basic Attack yang sesuai.\n- Setelah tahap ke-4, Ciaccona akan memulai Solo Concert. Jika Basic Attack tahap ke-4 atau Solo Concert berakhir lebih awal (baik secara sengaja maupun karena terganggu), maka akan dihasilkan Ensemble Sylph.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Solo Concert**",
+          "description": "Saat Ciaccona atau Ensemble Sylph melakukan Solo Concert, mereka memberikan Bonus  Aero DMG sebesar 24% kepada seluruh Resonator di sekitar dalam tim. Efek ini tidak dapat ditumpuk.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Ensemble Sylph**",
+          "description": "Maksimal 2 Ensemble Sylph dapat hadir secara bersamaan.\nJika Basic Attack Tahap 4 milik Ciaccona terganggu, Ensemble Sylph yang muncul akan menyelesaikan serangan tersebut dan masuk ke Solo Concert.\nJika Solo Concert milik Ciaccona terganggu, Ensemble Sylph yang muncul akan melanjutkan Solo Concert tersebut.\nDi luar dua kondisi di atas, Ensemble Sylph yang dihasilkan oleh Resonance Skill hanya akan menyelesaikan serangan Ciaccona saat ini tanpa masuk ke Solo Concert.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Heavy Attack**",
+          "description": "Mengonsumsi STA untuk melompat ke udara dan menyerang target, memberikan  Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Aimed Attack**",
+          "description": "Tekan Aim untuk masuk ke Mode Membidik dan menembakkan serangan bermuatan, memberikan  Aero DMG yang dihitung sebagai Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Mid-air Attack**",
+          "description": "Mengonsumsi STA untuk melakukan hingga 2 serangan berturut-turut, memberikan  Aero DMG.\nTekan Normal Attack setelah Mid-air Attack Stage 2 untuk melancarkan Basic Attack Stage 4.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Dodge Counter**",
+          "description": "Setelah berhasil menghindar dengan Dodge, tekan Basic Attack untuk langsung menyerang dan memberikan  Aero DMG pada target.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Harmonic Allegro",
-      "description": "Bergerak sejauh jarak tertentu dan memberikan  Aero DMG, serta memberikan 1 stack Aero Erosion kepada target yang terkena.\n- Tekan Normal Attack tepat waktu untuk melancarkan Basic Attack Stage 2.\n- Saat Ciaccona membatalkan Basic Attack, Heavy Attack, Mid-air Attack, atau Solo Concert menggunakan Resonance Skill, maka akan menghasilkan satu Ensemble Sylph.\n\nResonance Skill milik Ciaccona dapat digunakan saat berada di udara."
+      "effects": [
+        {
+          "title": "",
+          "description": "Bergerak sejauh jarak tertentu dan memberikan  Aero DMG, serta memberikan 1 stack Aero Erosion kepada target yang terkena.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Tekan Normal Attack tepat waktu untuk melancarkan Basic Attack Stage 2.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Saat Ciaccona membatalkan Basic Attack, Heavy Attack, Mid-air Attack, atau Solo Concert menggunakan Resonance Skill, maka akan menghasilkan satu Ensemble Sylph.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Resonance Skill milik Ciaccona dapat digunakan saat berada di udara.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Singer'S Triple Cadenza",
-      "description": "Ciaccona dan Ensemble Sylph secara bersamaan membawakan Improvised Symphonic Poem, memberikan  Aero DMG satu kali kepada target di sekitarnya dan memasuki kondisi Recital.\n\n**Recital**\nSaat berada dalam Recital, gelombang suara akan secara berkala menyebar di sekitar Ciaccona. Ketika gelombang suara bertumpuk dengan indikator lingkaran, tekan tombol hijau atau kuning untuk menghasilkan Symphonic Poem: Tonic sesuai warna dan memulihkan sejumlah Concerto Energy.\n\nSelama Recital:\n- Beralih ke Resonator lain tidak akan mengakhiri Recital, tetapi secara otomatis menghasilkan Symphonic Poem: Tonic sesuai warna terakhir yang dihasilkan sebelum pergantian. Jika tidak ada input sebelum beralih, Tonic berwarna hijau akan dihasilkan secara default.\n- Ciaccona kebal terhadap interupsi dan menerima 50% lebih sedikit DMG.\n= Keluar dari Recital dengan menekan Resonance Liberation sekali lagi atau mengembalikan Ciaccona ke medan pertempuran.\n- Ensemble Sylph kini dapat langsung memberikan  Aero DMG Bonus dari efek Solo Concert.\n\n**Symphonic Poem: Tonic**\nGreen Tonic: memberikan  Aero DMG kepada target di sekitar dan memberikan 1 stack Aero Erosion kepada target yang terkena.\n\nYellow Tonic: Memberikan  Aero DMG kepada target di sekitar dan memberikan 1 stack Spectro Frazzle kepada target yang terkena."
+      "effects": [
+        {
+          "title": "",
+          "description": "Ciaccona dan Ensemble Sylph secara bersamaan membawakan Improvised Symphonic Poem, memberikan  Aero DMG satu kali kepada target di sekitarnya dan memasuki kondisi Recital.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "**Recital**",
+          "description": "Saat berada dalam Recital, gelombang suara akan secara berkala menyebar di sekitar Ciaccona. Ketika gelombang suara bertumpuk dengan indikator lingkaran, tekan tombol hijau atau kuning untuk menghasilkan Symphonic Poem: Tonic sesuai warna dan memulihkan sejumlah Concerto Energy.\nSelama Recital:\n- Beralih ke Resonator lain tidak akan mengakhiri Recital, tetapi secara otomatis menghasilkan Symphonic Poem: Tonic sesuai warna terakhir yang dihasilkan sebelum pergantian. Jika tidak ada input sebelum beralih, Tonic berwarna hijau akan dihasilkan secara default.\n- Ciaccona kebal terhadap interupsi dan menerima 50% lebih sedikit DMG.\n= Keluar dari Recital dengan menekan Resonance Liberation sekali lagi atau mengembalikan Ciaccona ke medan pertempuran.\n- Ensemble Sylph kini dapat langsung memberikan  Aero DMG Bonus dari efek Solo Concert.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Symphonic Poem: Tonic**",
+          "description": "Green Tonic: memberikan  Aero DMG kepada target di sekitar dan memberikan 1 stack Aero Erosion kepada target yang terkena.\nYellow Tonic: Memberikan  Aero DMG kepada target di sekitar dan memberikan 1 stack Spectro Frazzle kepada target yang terkena.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Symphony Of Wind And Verse",
-      "description": "**Heavy Attack - Quadruple Downbeat**\nSaat memiliki 3 segmen Musical Essence, Heavy Attack akan berubah menjadi Heavy Attack - Quadruple Downbeat.\nMengonsumsi seluruh Musical Essence akan menembakkan Downbeat Notes ke depan, memberikan  Aero DMG, menarik musuh di sekitar, dan memberikan 1 stack Aero Erosion kepada target yang terkena.\nHeavy Attack - Quadruple Downbeat bisa digunakan di udara saat dekat dengan tanah.\n\n**Musical Essence**\nCiaccona dapat menyimpan hingga 3 segmen Musical Essence.\nMenggunakan Basic Attack Stage 4 atau Intro Skill akan memulihkan 1 segmen Musical Essence."
+      "effects": [
+        {
+          "title": "**Heavy Attack - Quadruple Downbeat**",
+          "description": "Saat memiliki 3 segmen Musical Essence, Heavy Attack akan berubah menjadi Heavy Attack - Quadruple Downbeat.\nMengonsumsi seluruh Musical Essence akan menembakkan Downbeat Notes ke depan, memberikan  Aero DMG, menarik musuh di sekitar, dan memberikan 1 stack Aero Erosion kepada target yang terkena.\nHeavy Attack - Quadruple Downbeat bisa digunakan di udara saat dekat dengan tanah.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "**Musical Essence**",
+          "description": "Ciaccona dapat menyimpan hingga 3 segmen Musical Essence.\nMenggunakan Basic Attack Stage 4 atau Intro Skill akan memulihkan 1 segmen Musical Essence.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Interlude Tune",
-        "description": "Mengaktifkan Resonance Liberation: Singer's Triple Cadenza memberikan Shield kepada Ciaccona sebesar 100% dari Max HP-nya selama 4 detik.\nShield ini akan hilang saat Ciaccona diganti keluar dari medan pertempuran"
+        "effects": [
+          {
+            "title": "",
+            "description": "Mengaktifkan Resonance Liberation: Singer's Triple Cadenza memberikan Shield kepada Ciaccona sebesar 100% dari Max HP-nya selama 4 detik.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Shield ini akan hilang saat Ciaccona diganti keluar dari medan pertempuran",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Winds Of Rinascita",
-        "description": "Meningkatkan DMG dari Heavy Attack - Quadruple Downbeat sebesar 30%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Meningkatkan DMG dari Heavy Attack - Quadruple Downbeat sebesar 30%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break: Sword",
@@ -210,11 +312,28 @@
     ],
     "intro": {
       "name": "Roaming With The Wind",
-      "description": "Serang target untuk memberikan  Aero DMG dan mengakibatkan 1 stack Aero Erosion.\nLanjutkan dengan Basic Attack tepat waktu untuk melancarkan Basic Attack Stage 3."
+      "effects": [
+        {
+          "title": "",
+          "description": "Serang target untuk memberikan  Aero DMG dan mengakibatkan 1 stack Aero Erosion.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Lanjutkan dengan Basic Attack tepat waktu untuk melancarkan Basic Attack Stage 3.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Windcalling Tune",
-      "description": "Aero Erosion DMG yang diberikan kepada target di dekat Resonator aktif akan diperkuat sebesar 100% selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Aero Erosion DMG yang diberikan kepada target di dekat Resonator aktif akan diperkuat sebesar 100% selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -377,32 +496,78 @@
     {
       "stage": "S1",
       "name": "Where Wind Sings",
-      "description": "Casting Resonance Skill Harmonic Allegro grants Ciaccona immunity to interruption for 3s. Casting Basic Attack increases Ciaccona's ATK by 35% for 10s."
+      "effects": [
+        {
+          "title": "",
+          "description": "Casting Resonance Skill Harmonic Allegro grants Ciaccona immunity to interruption for 3s. Casting Basic Attack increases Ciaccona's ATK by 35% for 10s.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Song Of The Four Seasons",
-      "description": "Selama Resonance Liberation Singer's Triple Cadenza aktif, seluruh Resonator dalam tim mendapatkan 40% Aero DMG Bonus."
+      "effects": [
+        {
+          "title": "",
+          "description": "Selama Resonance Liberation Singer's Triple Cadenza aktif, seluruh Resonator dalam tim mendapatkan 40% Aero DMG Bonus.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Starlit Improv",
-      "description": "Mengaktifkan Basic Attack Stage 4 akan memberikan tambahan 1 segmen Musical Essence. Resonance Skill Harmonic Allegro mendapatkan 1 charge tambahan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mengaktifkan Basic Attack Stage 4 akan memberikan tambahan 1 segmen Musical Essence. Resonance Skill Harmonic Allegro mendapatkan 1 charge tambahan.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Toccata And Fugue",
-      "description": "Ciaccona mengabaikan 45% DEF musuh saat memberikan DMG dengan Heavy Attack - Quadruple Downbeat.\nCiaccona juga mengabaikan 45% DEF musuh saat memberikan Resonance Liberation DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Ciaccona mengabaikan 45% DEF musuh saat memberikan DMG dengan Heavy Attack - Quadruple Downbeat.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Ciaccona juga mengabaikan 45% DEF musuh saat memberikan Resonance Liberation DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Eternal Idyll To Lasting Summer",
-      "description": "Meningkatkan Resonance Liberation DMG sebesar 40%.\nResonator yang berada di dalam dan sekitar area Resonance Liberation Singer's Triple Cadenza menerima 30% lebih sedikit DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Meningkatkan Resonance Liberation DMG sebesar 40%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Resonator yang berada di dalam dan sekitar area Resonance Liberation Singer's Triple Cadenza menerima 30% lebih sedikit DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Unending Cadence",
-      "description": "Saat dalam mode Solo Concert, Ciaccona atau Ensemble Sylph memberikan Aero DMG sebesar 220% ATK Ciaccona ke target di sekitarnya, dianggap sebagai Resonance Liberation DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat dalam mode Solo Concert, Ciaccona atau Ensemble Sylph memberikan Aero DMG sebesar 220% ATK Ciaccona ke target di sekitarnya, dianggap sebagai Resonance Liberation DMG.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

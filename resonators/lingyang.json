@@ -18,7 +18,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Liondance Troupe",
@@ -168,37 +169,130 @@
   "skills": {
     "basic": {
       "name": "Majestic Fists",
-      "description": "Basic Attack\nLingyang melakukan hingga 5 serangan berturut-turut, memberikan  Glacio DMG.\n\nBasic Attack: Feral Roars\nSetelah menggunakan Resonance Skill Furious Punches, Basic Attack ke-5 digantikan dengan Feral Roars, memberikan  Glacio DMG.\n\nHeavy Attack\nLingyang mengonsumsi STA untuk menyerang target, memberikan  Glacio DMG.\n\nMid-air Attack\nLingyang mengonsumsi STA untuk melakukan Mid-air Plunging Attack, memberikan  Glacio DMG.\n\nDodge Counter\nMenggunakan Basic Attack setelah berhasil melakukan Dodge untuk menyerang target, memberikan  Glacio DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Lingyang melakukan hingga 5 serangan berturut-turut, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack: Feral Roars",
+          "description": "Setelah menggunakan Resonance Skill Furious Punches, Basic Attack ke-5 digantikan dengan Feral Roars, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Lingyang mengonsumsi STA untuk menyerang target, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Lingyang mengonsumsi STA untuk melakukan Mid-air Plunging Attack, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Menggunakan Basic Attack setelah berhasil melakukan Dodge untuk menyerang target, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Ancient Arts",
-      "description": "Ancient Arts\nMenyerang target, memberikan  Glacio DMG.\n\nFurious Punches\nKetika Basic Attack ke-3, ke-4, ke-5, atau Basic Attack Feral Roars mengenai target, Resonance Skill Ancient Arts digantikan dengan Resonance Skill Furious Punches.\n- Setelah menggunakan Basic Attack Feral Roars dan Resonance Skill Furious Punches, siklus Basic Attack akan dimulai dari Basic Attack ke-3.\n- Resonance Skill Lingyang tidak akan mereset siklus Basic Attack."
+      "effects": [
+        {
+          "title": "Ancient Arts",
+          "description": "Menyerang target, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Furious Punches",
+          "description": "Ketika Basic Attack ke-3, ke-4, ke-5, atau Basic Attack Feral Roars mengenai target, Resonance Skill Ancient Arts digantikan dengan Resonance Skill Furious Punches.\n- Setelah menggunakan Basic Attack Feral Roars dan Resonance Skill Furious Punches, siklus Basic Attack akan dimulai dari Basic Attack ke-3.\n- Resonance Skill Lingyang tidak akan mereset siklus Basic Attack.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Strive: Lion'S Vigor",
-      "description": "Menyerang target, memberikan  Glacio DMG, dan memperoleh Lion's Vigor.\n\nLion's Vigor\nLingyang mendapatkan 50%  Glacio DMG Bonus."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan  Glacio DMG, dan memperoleh Lion's Vigor.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Lion's Vigor",
+          "description": "Lingyang mendapatkan 50%  Glacio DMG Bonus.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Unification Of Spirits",
-      "description": "Heavy Attack: Glorious Plunge\nKetika Lion's Spirit penuh, gunakan Heavy Attack untuk melakukan Glorious Plunge, memberikan  Glacio DMG.\n\nMid-air Attack: Tail Strike\nKetika Lion's Spirit tidak penuh, gunakan Basic Attack setelah Heavy Attack untuk melakukan Tail Strike, memberikan  Glacio DMG.\n\nStriding Lion\n- Setelah menggunakan Heavy Attack Glorious Plunge, Lingyang memasuki Striding Lion state.\n- Jika Lion's Spirit penuh saat menggunakan Intro Skill Lion Awakens atau Resonance Liberation Strive: Lion's Vigor, gunakan Basic Attack untuk memasuki Striding Lion state.\n\nDalam Striding Lion state:\n- Dapat menyerang di udara. Jika berada di tanah, gunakan Heavy Attack Glorious Plunge untuk kembali ke udara.\n- Lion's Spirit terus berkurang dan habis dalam 5 detik, setelah itu Striding Lion berakhir.\n- Jika berada dalam Lion's Vigor, konsumsi Lion's Spirit berkurang 50%, memperpanjang Striding Lion hingga 10 detik.\n- Basic Attack digantikan dengan Basic Attack Feral Gyrate, yang dapat melakukan hingga 2 serangan berturut-turut, memberikan  Glacio DMG.\n- Resonance Skill digantikan dengan Mountain Roamer, memberikan  Glacio DMG.\n- Jika Lion's Spirit kurang dari 10, gunakan Basic Attack untuk melakukan Stormy Kicks, memberikan  Glacio DMG. Setelah Stormy Kicks, Mid-air Attack Tail Strike dapat digunakan.\n- Mengonsumsi Lion's Spirit akan memulihkan Concerto Energy.\n\nLion's Spirit\n- Lingyang dapat menyimpan hingga 100 Lion's Spirit.\n- Lion's Spirit dipulihkan saat menggunakan Resonance Skill Furious Punches, Intro Skill Lion Awakens, dan Resonance Liberation Strive: Lion's Vigor."
+      "effects": [
+        {
+          "title": "Heavy Attack: Glorious Plunge",
+          "description": "Ketika Lion's Spirit penuh, gunakan Heavy Attack untuk melakukan Glorious Plunge, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack: Tail Strike",
+          "description": "Ketika Lion's Spirit tidak penuh, gunakan Basic Attack setelah Heavy Attack untuk melakukan Tail Strike, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Striding Lion",
+          "description": "- Setelah menggunakan Heavy Attack Glorious Plunge, Lingyang memasuki Striding Lion state.\n- Jika Lion's Spirit penuh saat menggunakan Intro Skill Lion Awakens atau Resonance Liberation Strive: Lion's Vigor, gunakan Basic Attack untuk memasuki Striding Lion state.\nDalam Striding Lion state:\n- Dapat menyerang di udara. Jika berada di tanah, gunakan Heavy Attack Glorious Plunge untuk kembali ke udara.\n- Lion's Spirit terus berkurang dan habis dalam 5 detik, setelah itu Striding Lion berakhir.\n- Jika berada dalam Lion's Vigor, konsumsi Lion's Spirit berkurang 50%, memperpanjang Striding Lion hingga 10 detik.\n- Basic Attack digantikan dengan Basic Attack Feral Gyrate, yang dapat melakukan hingga 2 serangan berturut-turut, memberikan  Glacio DMG.\n- Resonance Skill digantikan dengan Mountain Roamer, memberikan  Glacio DMG.\n- Jika Lion's Spirit kurang dari 10, gunakan Basic Attack untuk melakukan Stormy Kicks, memberikan  Glacio DMG. Setelah Stormy Kicks, Mid-air Attack Tail Strike dapat digunakan.\n- Mengonsumsi Lion's Spirit akan memulihkan Concerto Energy.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Lion's Spirit",
+          "description": "- Lingyang dapat menyimpan hingga 100 Lion's Spirit.\n- Lion's Spirit dipulihkan saat menggunakan Resonance Skill Furious Punches, Intro Skill Lion Awakens, dan Resonance Liberation Strive: Lion's Vigor.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Lion'S Pride",
-        "description": "DMG dari Intro Skill Lion Awakens meningkat sebesar 50%."
+        "effects": [
+          {
+            "title": "",
+            "description": "DMG dari Intro Skill Lion Awakens meningkat sebesar 50%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Diligent Practice",
-        "description": "Saat berada dalam Forte Circuit Striding Lion state, dalam 3 detik setelah setiap Basic Attack, Resonance Skill Mountain Roamer berikutnya akan memberikan  Glacio DMG tambahan sebesar 150% dari Mountain Roamer DMG (dianggap sebagai Resonance Skill DMG)."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat berada dalam Forte Circuit Striding Lion state, dalam 3 detik setelah setiap Basic Attack, Resonance Skill Mountain Roamer berikutnya akan memberikan  Glacio DMG tambahan sebesar 150% dari Mountain Roamer DMG (dianggap sebagai Resonance Skill DMG).",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Lion Awakens",
-      "description": "Lingyang memasuki medan pertempuran, memberikan  Glacio DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Lingyang memasuki medan pertempuran, memberikan  Glacio DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Frosty Marks",
-      "description": "Lingyang melepaskan gelombang kejut di sekitar target, memberikan  Glacio DMG sebesar 587.94% dari ATK Lingyang kepada musuh dalam jangkauan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Lingyang melepaskan gelombang kejut di sekitar target, memberikan  Glacio DMG sebesar 587.94% dari ATK Lingyang kepada musuh dalam jangkauan.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -287,32 +381,78 @@
     {
       "stage": "S1",
       "name": "Lion Of Light, Blessings Abound",
-      "description": "Selama Resonance Liberation Lion's Vigor, Anti-Interruption Lingyang diperkuat."
+      "effects": [
+        {
+          "title": "",
+          "description": "Selama Resonance Liberation Lion's Vigor, Anti-Interruption Lingyang diperkuat.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Dominant And Fierce, Power Unbound",
-      "description": "Intro Skill Lion Awakens memulihkan tambahan 10 Resonance Energy untuk Lingyang. Dapat dipicu sekali setiap 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Intro Skill Lion Awakens memulihkan tambahan 10 Resonance Energy untuk Lingyang. Dapat dipicu sekali setiap 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Jaw-Dropping Feats, Loud And Wide",
-      "description": "Selama Resonance Liberation Lion's Vigor:\n- Basic Attack DMG Bonus Lingyang meningkat 20%.\n- Resonance Skill DMG Bonus meningkat 10%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Selama Resonance Liberation Lion's Vigor:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Basic Attack DMG Bonus Lingyang meningkat 20%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Resonance Skill DMG Bonus meningkat 10%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Immortals Bow, In Reverence Flawed",
-      "description": "Outro Skill Frosty Marks meningkatkan  Glacio DMG Bonus seluruh anggota tim sebesar 20% selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Outro Skill Frosty Marks meningkatkan  Glacio DMG Bonus seluruh anggota tim sebesar 20% selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Seven Stars Shine, Stepped Upon High",
-      "description": "Resonance Liberation Strive: Lion's Vigor memberikan tambahan  Glacio DMG sebesar 200% dari ATK Lingyang"
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation Strive: Lion's Vigor memberikan tambahan  Glacio DMG sebesar 200% dari ATK Lingyang",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Demons Tremble, Divine Power Nigh",
-      "description": "Dalam Forte Circuit Striding Lion state, selama 3 detik pertama setelah setiap Resonance Skill Mountain Roamer, Basic Attack DMG Bonus untuk Basic Attack berikutnya meningkat sebesar 100%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Dalam Forte Circuit Striding Lion state, selama 3 detik pertama setelah setiap Resonance Skill Mountain Roamer, Basic Attack DMG Bonus untuk Basic Attack berikutnya meningkat sebesar 100%.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

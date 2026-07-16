@@ -17,7 +17,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "City Hall",
@@ -194,37 +195,125 @@
   "skills": {
     "basic": {
       "name": "Slash Of Breaking Dawn",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut, memberikan  Spectro DMG.\n\nHeavy Attack\nMengonsumsi STA untuk melakukan serangan terisi, memberikan  Spectro DMG.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack dari udara, memberikan  Spectro DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk melakukan counterattack, memberikan  Spectro DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan berturut-turut, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk melakukan serangan terisi, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack dari udara, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah Dodge yang berhasil untuk melakukan counterattack, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Trailing Lights Of Eons",
-      "description": "Berlari ke depan dan melakukan serangan berturut-turut yang memberikan  Spectro DMG.\n\nOverflowing Radiance\nSetelah menggunakan Basic Attack 4 atau saat tidak dalam Incarnation, jika Intro Skill Loong's Halo digunakan, Resonance Skill Overflowing Radiance akan tersedia selama 5 detik.\nOverflowing Radiance memberikan  Spectro DMG dan mengaktifkan Incarnation.\nBisa digunakan di udara."
+      "effects": [
+        {
+          "title": "",
+          "description": "Berlari ke depan dan melakukan serangan berturut-turut yang memberikan  Spectro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Overflowing Radiance",
+          "description": "Setelah menggunakan Basic Attack 4 atau saat tidak dalam Incarnation, jika Intro Skill Loong's Halo digunakan, Resonance Skill Overflowing Radiance akan tersedia selama 5 detik.\nOverflowing Radiance memberikan  Spectro DMG dan mengaktifkan Incarnation.\nBisa digunakan di udara.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Purge Of Light",
-      "description": "Mengeluarkan kekuatan pemanggilan untuk memberikan  Spectro DMG.\nBisa digunakan di udara."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mengeluarkan kekuatan pemanggilan untuk memberikan  Spectro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Bisa digunakan di udara.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Luminal Synthesis",
-      "description": "Incarnation\nSaat dalam Incarnation:\n- Basic Attack berubah menjadi Incarnation - Basic Attack, melakukan hingga 4 serangan berturut-turut yang memberikan  Spectro DMG (dihitung sebagai Resonance Skill DMG). Urutan serangan tidak akan di-reset. Bisa digunakan di udara.\n- Resonance Skill berubah menjadi Crescent Divinity, memberikan  Spectro DMG Bisa digunakan di udara.\n- Heavy Attack berubah menjadi Incarnation - Heavy Attack, menyerang musuh di udara dengan STA cost, memberikan  Spectro DMG.\n- Dodge berubah menjadi Incarnation - Dodge, bisa digunakan berkali-kali di udara dengan STA cost.\n- Dodge Counter berubah menjadi Incarnation - Dodge Counter, memberikan  Spectro DMG. Bisa digunakan di udara.\n\nResonance Skill – Illuminous Epiphany\nSetelah Stage 4 dari Incarnation - Basic Attack, Incarnation berakhir, dan Jinhsi mendapatkan Ordination Glow.\nBisa digunakan di udara.\nOrdination Glow:\n- Basic Attack berubah menjadi Incarnation - Heavy Attack, menyerang musuh di udara dengan STA cost, memberikan  Spectro DMG.\n- Resonance Skill berubah menjadi Illuminous Epiphany, menembakkan Solar Flare yang meledak sebagai Stella Glamor setelah sedikit delay, memberikan  Spectro DMG.\nMengonsumsi hingga 50 Incandescence, setiap Incandescence meningkatkan DMG Multiplier Stella Glamor.\nBisa digunakan di udara.\n- Setelah menggunakan Illuminous Epiphany, Jinhsi mendapatkan Unison (1 kali setiap 25 detik).\n\nUnison\nSaat Jinhsi memiliki Unison, mengganti ke Resonator lain akan menghapus Unison Jinhsi untuk mengaktifkan Outro Skill Jinhsi dan Intro Skill Resonator yang masuk.\nUnison akan dikonsumsi terlebih dahulu sebelum Concerto Energy saat Concerto Energy sudah penuh.\n\nIncandescence\nMaksimal 50 Incandescence.\nSaat Jinhsi ada di tim, semua Resonator mendapatkan Eras in Unity, \nEras in Unity memberikan 2 efek independen:\n- Jinhsi mendapatkan 1 Incandescence setiap kali Resonator dalam tim memberikan Attribute DMG.\nEfek ini bisa dipicu maksimal 1 kali setiap 3 detik oleh damage dari Attribute yang sama.\n- Jinhsi mendapatkan 2 Incandescence setiap kali Resonator dalam tim memberikan damage dengan Coordinated Attacks. Efek ini bisa dipicu maksimal 1 kali setiap 3 detik oleh Coordinated Attacks dari Attribute yang sama."
+      "effects": [
+        {
+          "title": "Incarnation",
+          "description": "Saat dalam Incarnation:\n- Basic Attack berubah menjadi Incarnation - Basic Attack, melakukan hingga 4 serangan berturut-turut yang memberikan  Spectro DMG (dihitung sebagai Resonance Skill DMG). Urutan serangan tidak akan di-reset. Bisa digunakan di udara.\n- Resonance Skill berubah menjadi Crescent Divinity, memberikan  Spectro DMG Bisa digunakan di udara.\n- Heavy Attack berubah menjadi Incarnation - Heavy Attack, menyerang musuh di udara dengan STA cost, memberikan  Spectro DMG.\n- Dodge berubah menjadi Incarnation - Dodge, bisa digunakan berkali-kali di udara dengan STA cost.\n- Dodge Counter berubah menjadi Incarnation - Dodge Counter, memberikan  Spectro DMG. Bisa digunakan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill – Illuminous Epiphany",
+          "description": "Setelah Stage 4 dari Incarnation - Basic Attack, Incarnation berakhir, dan Jinhsi mendapatkan Ordination Glow.\nBisa digunakan di udara.\nOrdination Glow:\n- Basic Attack berubah menjadi Incarnation - Heavy Attack, menyerang musuh di udara dengan STA cost, memberikan  Spectro DMG.\n- Resonance Skill berubah menjadi Illuminous Epiphany, menembakkan Solar Flare yang meledak sebagai Stella Glamor setelah sedikit delay, memberikan  Spectro DMG.\nMengonsumsi hingga 50 Incandescence, setiap Incandescence meningkatkan DMG Multiplier Stella Glamor.\nBisa digunakan di udara.\n- Setelah menggunakan Illuminous Epiphany, Jinhsi mendapatkan Unison (1 kali setiap 25 detik).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Unison",
+          "description": "Saat Jinhsi memiliki Unison, mengganti ke Resonator lain akan menghapus Unison Jinhsi untuk mengaktifkan Outro Skill Jinhsi dan Intro Skill Resonator yang masuk.\nUnison akan dikonsumsi terlebih dahulu sebelum Concerto Energy saat Concerto Energy sudah penuh.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Incandescence",
+          "description": "Maksimal 50 Incandescence.\nSaat Jinhsi ada di tim, semua Resonator mendapatkan Eras in Unity,\nEras in Unity memberikan 2 efek independen:\n- Jinhsi mendapatkan 1 Incandescence setiap kali Resonator dalam tim memberikan Attribute DMG.\nEfek ini bisa dipicu maksimal 1 kali setiap 3 detik oleh damage dari Attribute yang sama.\n- Jinhsi mendapatkan 2 Incandescence setiap kali Resonator dalam tim memberikan damage dengan Coordinated Attacks. Efek ini bisa dipicu maksimal 1 kali setiap 3 detik oleh Coordinated Attacks dari Attribute yang sama.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Radiant Surge",
-        "description": "+20%  Spectro DMG Bonus."
+        "effects": [
+          {
+            "title": "",
+            "description": "+20%  Spectro DMG Bonus.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Converged Flash",
-        "description": "DMG Multiplier dari Intro Skill Loong's Halo meningkat 50%."
+        "effects": [
+          {
+            "title": "",
+            "description": "DMG Multiplier dari Intro Skill Loong's Halo meningkat 50%.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Loong'S Halo",
-      "description": "Menyerang musuh, memberikan  Spectro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang musuh, memberikan  Spectro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Temporal Bender",
-      "description": "Menggunakan kekuatan Sentinel, meningkatkan efektivitas Eras in Unity, memungkinkan Incandescence didapat lebih cepat (1 kali setiap 1 detik selama 20 detik)."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan kekuatan Sentinel, meningkatkan efektivitas Eras in Unity, memungkinkan Incandescence didapat lebih cepat (1 kali setiap 1 detik selama 20 detik).",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -416,32 +505,78 @@
     {
       "stage": "S1",
       "name": "Abyssal Ascension",
-      "description": "Saat menggunakan Incarnation - Basic Attack atau Resonance Skill Crescent Divinity, Jinhsi mendapatkan Herald of Revival (maks. 4 stack, durasi 6 detik).\n\nSaat menggunakan Illuminous Epiphany, Herald of Revival dikonsumsi, setiap stack meningkatkan Illuminous Epiphany DMG sebesar 20%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat menggunakan Incarnation - Basic Attack atau Resonance Skill Crescent Divinity, Jinhsi mendapatkan Herald of Revival (maks. 4 stack, durasi 6 detik).",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat menggunakan Illuminous Epiphany, Herald of Revival dikonsumsi, setiap stack meningkatkan Illuminous Epiphany DMG sebesar 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Chronofrost Repose",
-      "description": "Jika Jinhsi keluar dari pertempuran selama 4 detik, dia memulihkan 50 Incandescence (1 kali setiap 4 detik)."
+      "effects": [
+        {
+          "title": "",
+          "description": "Jika Jinhsi keluar dari pertempuran selama 4 detik, dia memulihkan 50 Incandescence (1 kali setiap 4 detik).",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Celestial Incarnate",
-      "description": "Setelah menggunakan Intro Skill Loong's Halo, Jinhsi mendapatkan Immortal's Descendancy (maks. 2 stack, durasi 20 detik).\nSetiap stack meningkatkan ATK sebesar 25%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah menggunakan Intro Skill Loong's Halo, Jinhsi mendapatkan Immortal's Descendancy (maks. 2 stack, durasi 20 detik).",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setiap stack meningkatkan ATK sebesar 25%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Benevolent Grace",
-      "description": "Setelah menggunakan Resonance Liberation Purge of Light atau Resonance Skill Illuminous Epiphany, semua Resonator di sekitar mendapatkan +20% Attribute DMG Bonus selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah menggunakan Resonance Liberation Purge of Light atau Resonance Skill Illuminous Epiphany, semua Resonator di sekitar mendapatkan +20% Attribute DMG Bonus selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Frostfire Illumination",
-      "description": "DMG Multiplier dari Resonance Liberation Purge of Light meningkat 120%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation Purge of Light meningkat 120%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Thawing Triumph",
-      "description": "DMG Multiplier dari Resonance Skill Illuminous Epiphany meningkat 45%, dan tambahan DMG Multiplier dari konsumsi Incandescence meningkat 45%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Skill Illuminous Epiphany meningkat 45%, dan tambahan DMG Multiplier dari konsumsi Incandescence meningkat 45%.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

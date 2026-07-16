@@ -23,7 +23,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Ragunna",
@@ -182,37 +183,145 @@
   "skills": {
     "basic": {
       "name": "Illusion Collapse",
-      "description": "Basic Attack\nMelakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target, memberikan  Havoc DMG.\n\nHeavy Attack - Delusive Dive\nSaat Cantarella dalam kondisi Trance, Heavy Attack berubah menjadi Delusive Dive, memberikan  Havoc DMG kepada target, dan kemudian Cantarella memasuki Mirage.\nSaat berada dalam Mirage, melancarkan Delusive Dive tidak mengaktifkan kembali Mirage.\ndapat dilakukan di dalam air.\n\nMid-air Attack\nKonsumsi STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.\n\nDodge Counter\nGunakan Basic Attack segera setelah berhasil Menghindar untuk menyerang target, memberikan  Havoc DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Delusive Dive",
+          "description": "Saat Cantarella dalam kondisi Trance, Heavy Attack berubah menjadi Delusive Dive, memberikan  Havoc DMG kepada target, dan kemudian Cantarella memasuki Mirage.\nSaat berada dalam Mirage, melancarkan Delusive Dive tidak mengaktifkan kembali Mirage.\ndapat dilakukan di dalam air.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Konsumsi STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack segera setelah berhasil Menghindar untuk menyerang target, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Dance With Shadows",
-      "description": "Graceful Step\nMenyerang target, memberikan  Havoc DMG.\n\nFlickering Reverie\nSaat berada di dalam Mirage, Resonance Skill berubah menjadi Flickering Reverie, yang dianggap sebagai Echo Skill saat dilancarkan. Menyerang target, memberikan  Havoc DMG, dan mengirim mereka ke dalam Hazy Dream.\ndapat dilancarkan di udara.\n\nHazy Dream\nMengurangi kecepatan gerak target selama 6.5 detik. Ketika target menerima damage, Jolt dipicu sekali, menghilangkan Hazy Dream untuk memberikan  Havoc DMG, dianggap sebagai Basic Attack DMG.\nSerangan oleh Resonator lain dalam tim tidak akan memicu Jolt pada target yang dipengaruhi oleh Hazy Dream dan akan menghilangkan Hazy Dream.\nCoordinated Attacks dan damage dari Utility tidak akan memicu Jolt pada target."
+      "effects": [
+        {
+          "title": "Graceful Step",
+          "description": "Menyerang target, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Flickering Reverie",
+          "description": "Saat berada di dalam Mirage, Resonance Skill berubah menjadi Flickering Reverie, yang dianggap sebagai Echo Skill saat dilancarkan. Menyerang target, memberikan  Havoc DMG, dan mengirim mereka ke dalam Hazy Dream.\ndapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Hazy Dream",
+          "description": "Mengurangi kecepatan gerak target selama 6.5 detik. Ketika target menerima damage, Jolt dipicu sekali, menghilangkan Hazy Dream untuk memberikan  Havoc DMG, dianggap sebagai Basic Attack DMG.\nSerangan oleh Resonator lain dalam tim tidak akan memicu Jolt pada target yang dipengaruhi oleh Hazy Dream dan akan menghilangkan Hazy Dream.\nCoordinated Attacks dan damage dari Utility tidak akan memicu Jolt pada target.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Beneath The Sea",
-      "description": "Flowing Suffocation\nSerang target, memberikan  Havoc DMG (dianggap sebagai Basic Attack DMG). Memberikan Diffusion kepada semua Resonator dalam tim.\nMelancarkan skill ini juga dianggap sebagai melancarkan Echo Skill. Ini dapat dilancarkan di udara dekat dengan tanah.\n\nDiffusion\nKetika Resonator di field memberikan damage kepada target, memanggil Dreamweaver untuk melakukan Coordinated Attack, memberikan  Havoc DMG (dianggap sebagai Basic Attack DMG).\n- Dalam waktu 3 detik setelah Resonator memberikan damage, memanggil 1 Dreamweaver per detik.\nEfek ini dapat dipicu sekali per detik.\nDamage yang diberikan oleh Dreamweaver tidak dapat memicu efek ini.\n- Hingga 1 Dreamweaver dapat dipanggil setiap detik, dengan maksimum 21 Dreamweaver secara total.\n- Efek ini berlangsung selama 30 detik atau sampai mencapai jumlah maksimum Dreamweaver."
+      "effects": [
+        {
+          "title": "Flowing Suffocation",
+          "description": "Serang target, memberikan  Havoc DMG (dianggap sebagai Basic Attack DMG). Memberikan Diffusion kepada semua Resonator dalam tim.\nMelancarkan skill ini juga dianggap sebagai melancarkan Echo Skill. Ini dapat dilancarkan di udara dekat dengan tanah.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Diffusion",
+          "description": "Ketika Resonator di field memberikan damage kepada target, memanggil Dreamweaver untuk melakukan Coordinated Attack, memberikan  Havoc DMG (dianggap sebagai Basic Attack DMG).\n- Dalam waktu 3 detik setelah Resonator memberikan damage, memanggil 1 Dreamweaver per detik.\nEfek ini dapat dipicu sekali per detik.\nDamage yang diberikan oleh Dreamweaver tidak dapat memicu efek ini.\n- Hingga 1 Dreamweaver dapat dipanggil setiap detik, dengan maksimum 21 Dreamweaver secara total.\n- Efek ini berlangsung selama 30 detik atau sampai mencapai jumlah maksimum Dreamweaver.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Between Illusion And Reality",
-      "description": "Mirage\n- Basic Attack menjadi Basic Attack Phantom Sting.\nMelakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.\nDapat dilancarkan di udara.\nSaat dilancarkan di udara, Basic Attack Phantom Sting mengonsumsi STA, dan kombonya tidak ter-reset ketika Cantarella berada di udara.\n- Mengenai target dengan Basic Attack Phantom Sting mengonsumsi 1 poin Trance untuk mendapatkan 1 poin Shiver dan menyembuhkan semua Resonator terdekat dalam tim.\n- Tahap ketiga dari Basic Attack Phantom Sting memicu 3 Coordinated Attacks, memberikan  Havoc DMG.\n- Mid-Air Attack menjadi Abysmal Vortex. Gunakan Lompat untuk melakukan Plunging Attack dengan biaya STA, memberikan  Havoc DMG.\n- Dodge-Counter menjadi Dodge Counter Shadowy Sweep. Menyerang target, memberikan  Havoc DMG. Gunakan Basic Attack segera setelah melancarkan skill ini untuk melancarkan Basic Attack Phantom Sting Stage 2.\n- Ketika Mid-air Attack Abysmal Vortex atau Dodge Counter Shadowy Sweep mengenai target, mengonsumsi 1 poin Trance untuk mendapatkan 1 poin Shiver dan menyembuhkan semua Resonator terdekat dalam tim.\n- Mirage berlangsung selama 8 detik.\n- Mirage berakhir ketika Trance habis.\n\nForte Circuit - Perception Drain\nJika Cantarella memiliki 3 poin Shiver saat berada dalam Mirage, Resonance Skill berubah menjadi Perception Drain.\nMengonsumsi semua Shiver untuk menyerang target, memberikan  Havoc DMG yang dianggap sebagai Basic Attack DMG.\nMengirim target ke dalam Hazy Dream dan menyembuhkan semua Resonator dalam tim.\nMelancarkan skill ini juga dianggap sebagai melancarkan Echo Skill.\nDapat dilancarkan di udara.\n\nAbyssal Rebirth\nSetelah melancarkan Intro Skill, Cantarella memasuki Abyssal Rebirth, yang berlangsung selama 25 detik dan dapat diaktifkan sekali setiap 25 detik.\nSelama durasi ini, hingga 6 kali, ketika Resonator dalam tim melancarkan Echo Skill, Cantarella memulihkan 6 poin Concerto Energy. Echo dengan nama yang sama hanya dapat memicu efek ini sekali.\nSaat berada di air, kecepatan berenang Cantarella meningkat dan biaya STA berkurang.\n\nTrance\n- Cantarella dapat menampung hingga 5 poin Trance.\n- Melancarkan Intro Skill memulihkan 1 poin Trance.\n- Mengenai target dengan Basic Attack Stage 3 memulihkan 1 poin Trance.\n- Melancarkan Resonance Skill Graceful Step memulihkan 1 poin Trance.\n- Melancarkan Resonance Liberation Flowing Suffocation memulihkan 3 poin Trance.\n- Saat berada di dalam air, memulihkan 1 poin Trance setiap 5 detik.\n\nShiver\n- Cantarella dapat menampung hingga 3 poin Shiver.\n- Mengenai target dengan Basic Attack Phantom Sting memulihkan 1 poin Shiver.\n- Ketika Mid-air Attack Abysmal Vortex atau Dodge Counter Shadowy Sweep mengenai target, memulihkan 1 poin Shiver."
+      "effects": [
+        {
+          "title": "Mirage",
+          "description": "- Basic Attack menjadi Basic Attack Phantom Sting.\nMelakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.\nDapat dilancarkan di udara.\nSaat dilancarkan di udara, Basic Attack Phantom Sting mengonsumsi STA, dan kombonya tidak ter-reset ketika Cantarella berada di udara.\n- Mengenai target dengan Basic Attack Phantom Sting mengonsumsi 1 poin Trance untuk mendapatkan 1 poin Shiver dan menyembuhkan semua Resonator terdekat dalam tim.\n- Tahap ketiga dari Basic Attack Phantom Sting memicu 3 Coordinated Attacks, memberikan  Havoc DMG.\n- Mid-Air Attack menjadi Abysmal Vortex. Gunakan Lompat untuk melakukan Plunging Attack dengan biaya STA, memberikan  Havoc DMG.\n- Dodge-Counter menjadi Dodge Counter Shadowy Sweep. Menyerang target, memberikan  Havoc DMG. Gunakan Basic Attack segera setelah melancarkan skill ini untuk melancarkan Basic Attack Phantom Sting Stage 2.\n- Ketika Mid-air Attack Abysmal Vortex atau Dodge Counter Shadowy Sweep mengenai target, mengonsumsi 1 poin Trance untuk mendapatkan 1 poin Shiver dan menyembuhkan semua Resonator terdekat dalam tim.\n- Mirage berlangsung selama 8 detik.\n- Mirage berakhir ketika Trance habis.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Forte Circuit - Perception Drain",
+          "description": "Jika Cantarella memiliki 3 poin Shiver saat berada dalam Mirage, Resonance Skill berubah menjadi Perception Drain.\nMengonsumsi semua Shiver untuk menyerang target, memberikan  Havoc DMG yang dianggap sebagai Basic Attack DMG.\nMengirim target ke dalam Hazy Dream dan menyembuhkan semua Resonator dalam tim.\nMelancarkan skill ini juga dianggap sebagai melancarkan Echo Skill.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Abyssal Rebirth",
+          "description": "Setelah melancarkan Intro Skill, Cantarella memasuki Abyssal Rebirth, yang berlangsung selama 25 detik dan dapat diaktifkan sekali setiap 25 detik.\nSelama durasi ini, hingga 6 kali, ketika Resonator dalam tim melancarkan Echo Skill, Cantarella memulihkan 6 poin Concerto Energy. Echo dengan nama yang sama hanya dapat memicu efek ini sekali.\nSaat berada di air, kecepatan berenang Cantarella meningkat dan biaya STA berkurang.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Trance",
+          "description": "- Cantarella dapat menampung hingga 5 poin Trance.\n- Melancarkan Intro Skill memulihkan 1 poin Trance.\n- Mengenai target dengan Basic Attack Stage 3 memulihkan 1 poin Trance.\n- Melancarkan Resonance Skill Graceful Step memulihkan 1 poin Trance.\n- Melancarkan Resonance Liberation Flowing Suffocation memulihkan 3 poin Trance.\n- Saat berada di dalam air, memulihkan 1 poin Trance setiap 5 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Shiver",
+          "description": "- Cantarella dapat menampung hingga 3 poin Shiver.\n- Mengenai target dengan Basic Attack Phantom Sting memulihkan 1 poin Shiver.\n- Ketika Mid-air Attack Abysmal Vortex atau Dodge Counter Shadowy Sweep mengenai target, memulihkan 1 poin Shiver.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "\"Cure\"",
-        "description": "Meningkatkan Healing Bonus sebesar 20%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Meningkatkan Healing Bonus sebesar 20%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "\"Poison\"",
-        "description": "Melancarkan Echo Skill memberikan 6%  Havoc DMG Bonus selama 10 detik, yang dapat ditumpuk hingga 2 kali."
+        "effects": [
+          {
+            "title": "",
+            "description": "Melancarkan Echo Skill memberikan 6%  Havoc DMG Bonus selama 10 detik, yang dapat ditumpuk hingga 2 kali.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Cruise",
-      "description": "Ripple\nMenyerang target, memberikan memberikan  Havoc DMG .\nGunakan Basic Attack segera setelah melancarkan skill ini untuk memulai kombo Basic Attack dari Basic Attack Stage 3.\n\nTidal Surge\nSaat berada dalam Mirage, Intro Skill berubah menjadi Tidal Surge, yang memicu 3 Coordinated Attack saat mengenai target, memberikan  Havoc DMG.\nMelancarkan Tidal Surge mereset kombo dari Basic Attack Phantom Sting."
+      "effects": [
+        {
+          "title": "Ripple",
+          "description": "Menyerang target, memberikan memberikan  Havoc DMG .\nGunakan Basic Attack segera setelah melancarkan skill ini untuk memulai kombo Basic Attack dari Basic Attack Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Tidal Surge",
+          "description": "Saat berada dalam Mirage, Intro Skill berubah menjadi Tidal Surge, yang memicu 3 Coordinated Attack saat mengenai target, memberikan  Havoc DMG.\nMelancarkan Tidal Surge mereset kombo dari Basic Attack Phantom Sting.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "outro": {
       "name": "Gentle Tentacles",
-      "description": "Memperkuat  Havoc DMG yang masuk dari Resonator sebesar 20% dan Resonance Skill DMG sebesar 25% selama 14 detik. Beralih Resonator akan mengakhiri efek ini."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memperkuat  Havoc DMG yang masuk dari Resonator sebesar 20% dan Resonance Skill DMG sebesar 25% selama 14 detik. Beralih Resonator akan mengakhiri efek ini.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -410,32 +519,78 @@
     {
       "stage": "S1",
       "name": "Embrace The Endless Waves",
-      "description": "Melancarkan Resonance Skill memulihkan 1 poin Trance. DMG Multiplier dari Resonance Skill Graceful Step, Resonance Skill Flickering Reverie, dan Forte Circuit Perception Drain meningkat sebesar 50%.\nKebal terhadap gangguan saat melancarkan Perception Drain."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Skill memulihkan 1 poin Trance. DMG Multiplier dari Resonance Skill Graceful Step, Resonance Skill Flickering Reverie, dan Forte Circuit Perception Drain meningkat sebesar 50%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Kebal terhadap gangguan saat melancarkan Perception Drain.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Surrender To The Illusive Reverie",
-      "description": "Resonance Liberation Flowing Suffocation sekarang mengirim target ke dalam Hazy Dream. DMG Multiplier dari Jolt yang dipicu oleh Cantarella meningkat sebesar 245%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation Flowing Suffocation sekarang mengirim target ke dalam Hazy Dream. DMG Multiplier dari Jolt yang dipicu oleh Cantarella meningkat sebesar 245%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Gaze Into The Abyss",
-      "description": "DMG Multiplier dari Resonance Liberation Flowing Suffocation meningkat sebesar 370%. Setelah melancarkan Resonance Liberation Flowing Suffocation, masuk ke dalam Mirage Jika sudah berada dalam Mirage, melancarkan Resonance Liberation Flowing Suffocation tidak akan mengaktifkan kembali keadaan Mirage."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation Flowing Suffocation meningkat sebesar 370%. Setelah melancarkan Resonance Liberation Flowing Suffocation, masuk ke dalam Mirage Jika sudah berada dalam Mirage, melancarkan Resonance Liberation Flowing Suffocation tidak akan mengaktifkan kembali keadaan Mirage.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Behold Your Own Soul",
-      "description": "Saat berada dalam Mirage, Healing Bonus meningkat sebesar 25%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat berada dalam Mirage, Healing Bonus meningkat sebesar 25%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Rest In Your Reflection",
-      "description": "Jumlah maksimum Dreamweaver yang dapat dipanggil oleh Cantarella melalui Resonance Liberation Diffusion ditingkatkan sebanyak 5."
+      "effects": [
+        {
+          "title": "",
+          "description": "Jumlah maksimum Dreamweaver yang dapat dipanggil oleh Cantarella melalui Resonance Liberation Diffusion ditingkatkan sebanyak 5.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Fall, Fall... And Fall Deeper Into The Dream",
-      "description": "Meningkatkan DMG Multiplier dari Basic Attack Phantom Sting sebesar 80%. Melancarkan Resonance Liberation Flowing Suffocation membuat damage Cantarella mengabaikan 30% DEF target selama 10 detik.\n\nSelama 1.2 detik pertama dari Hazy Dream, ketika target menerima satu instansi damage yang tidak mengakibatkan Hazy Dream, Jolt tidak akan dipicu pada target."
+      "effects": [
+        {
+          "title": "",
+          "description": "Meningkatkan DMG Multiplier dari Basic Attack Phantom Sting sebesar 80%. Melancarkan Resonance Liberation Flowing Suffocation membuat damage Cantarella mengabaikan 30% DEF target selama 10 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Selama 1.2 detik pertama dari Hazy Dream, ketika target menerima satu instansi damage yang tidak mengakibatkan Hazy Dream, Jolt tidak akan dipicu pada target.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

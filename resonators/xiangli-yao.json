@@ -17,7 +17,8 @@
       "text": "Minimal update",
       "type": "input",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Huaxu Academy",
@@ -213,37 +214,145 @@
   "skills": {
     "basic": {
       "name": "Probe",
-      "description": "Basic Attack\nMelakukan hingga 5 serangan berturut-turut, memberikan Electro DMG.\n\nHeavy Attack\nMelakukan serangan bermuatan dengan mengonsumsi STA, memberikan Electro DMG.\n\nMid-air Attack\nMelakukan Plunging Attack dari udara dengan mengonsumsi STA, memberikan Electro DMG.\n\nDodge Counter\nMenggunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 5 serangan berturut-turut, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Melakukan serangan bermuatan dengan mengonsumsi STA, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Melakukan Plunging Attack dari udara dengan mengonsumsi STA, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Menggunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Deduction",
-      "description": "menyerang target, dealing Electro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "menyerang target, dealing Electro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Cogitation Model",
-      "description": "Menyerang target, memberikan Electro DMG. Memasuki status Intuition.\nSaat berada dalam Intuition:\n-Mendapatkan 3 Hypercube(s). Setiap kali Resonance Skill Law of Reigns dilancarkan, konsumsi 1 Hypercube(s). Intuition berakhir setelah semua Hypercube dikonsumsi.\n-Basic Attack dan Heavy Attack digantikan dengan Basic Attack Pivot - Impale, yang melakukan hingga 3 serangan berturut-turut, memberikan Electro DMG.\n-Resonance Skill Deduction digantikan dengan Resonance Skill Divergence, yang memberikan Electro DMG.\n-Dodge Counter digantikan dengan Dodge Counter Unfathomed, yang dianggap sebagai Resonance Liberation DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan Electro DMG. Memasuki status Intuition.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat berada dalam Intuition:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "-Mendapatkan 3 Hypercube(s). Setiap kali Resonance Skill Law of Reigns dilancarkan, konsumsi 1 Hypercube(s). Intuition berakhir setelah semua Hypercube dikonsumsi.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "-Basic Attack dan Heavy Attack digantikan dengan Basic Attack Pivot - Impale, yang melakukan hingga 3 serangan berturut-turut, memberikan Electro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "-Resonance Skill Deduction digantikan dengan Resonance Skill Divergence, yang memberikan Electro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "-Dodge Counter digantikan dengan Dodge Counter Unfathomed, yang dianggap sebagai Resonance Liberation DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Forever Seeking",
-      "description": "Resonance Skill - Decipher\nSaat Capacity mencapai 100, Resonance Skill Deduction digantikan oleh Resonance Skill Decipher.\nMengonsumsi 100 Capacity untuk melancarkan Resonance Skill Decipher, memberikan Electro DMG, yang dianggap sebagai Resonance Liberation DMG.\n\nResonance Skill - Law of Reigns\nSaat Performance Capacity mencapai 5 dalam status Intuition, Resonance Skill Divergence digantikan oleh Resonance Skill Law of Reigns.\nMengonsumsi 5 Performance Capacity untuk melancarkan Resonance Skill Law of Reigns, memberikan Electro DMG, yang dianggap sebagai Resonance Liberation DMG.\n\nMid-air Attack - Revamp\nSesaat setelah melancarkan Resonance Skill Decipher atau Resonance Skill Divergence, gunakan Basic Attack untuk melakukan Mid-air Attack Revamp dengan mengonsumsi STA, memberikan Electro DMG, yang dianggap sebagai Resonance Liberation DMG.\n\nCapacity\nXiangli Yao dapat menyimpan hingga 100 Capacity.\nSetiap Normal Attack Probe yang mengenai target memberikan Capacity.\nSetiap Resonance Skill Deduction yang mengenai target memberikan Capacity.\n\n\nPerformance Capacity\nXiangli Yao dapat menyimpan hingga 5 Performance Capacity.\nSaat berada dalam status Intuition yang dipicu oleh Resonance Liberation:\nMendapatkan 1 Performance Capacity saat Tahap 1 dari Basic Attack Pivot - Impale mengenai target.\nMendapatkan 2 Performance Capacity saat Tahap 2 atau 3 dari Basic Attack Pivot - Impale mengenai target.\nMendapatkan 2 Performance Capacity untuk setiap Resonance Skill Divergence yang mengenai target.\nMendapatkan 3 Performance Capacity untuk setiap Mid-air Attack Revamp yang mengenai target.\nMendapatkan 2 Performance Capacity untuk setiap Dodge Counter Unfathomed yang mengenai target."
+      "effects": [
+        {
+          "title": "Resonance Skill - Decipher",
+          "description": "Saat Capacity mencapai 100, Resonance Skill Deduction digantikan oleh Resonance Skill Decipher.\nMengonsumsi 100 Capacity untuk melancarkan Resonance Skill Decipher, memberikan Electro DMG, yang dianggap sebagai Resonance Liberation DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Law of Reigns",
+          "description": "Saat Performance Capacity mencapai 5 dalam status Intuition, Resonance Skill Divergence digantikan oleh Resonance Skill Law of Reigns.\nMengonsumsi 5 Performance Capacity untuk melancarkan Resonance Skill Law of Reigns, memberikan Electro DMG, yang dianggap sebagai Resonance Liberation DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Revamp",
+          "description": "Sesaat setelah melancarkan Resonance Skill Decipher atau Resonance Skill Divergence, gunakan Basic Attack untuk melakukan Mid-air Attack Revamp dengan mengonsumsi STA, memberikan Electro DMG, yang dianggap sebagai Resonance Liberation DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Capacity",
+          "description": "Xiangli Yao dapat menyimpan hingga 100 Capacity.\nSetiap Normal Attack Probe yang mengenai target memberikan Capacity.\nSetiap Resonance Skill Deduction yang mengenai target memberikan Capacity.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Performance Capacity",
+          "description": "Xiangli Yao dapat menyimpan hingga 5 Performance Capacity.\nSaat berada dalam status Intuition yang dipicu oleh Resonance Liberation:\nMendapatkan 1 Performance Capacity saat Tahap 1 dari Basic Attack Pivot - Impale mengenai target.\nMendapatkan 2 Performance Capacity saat Tahap 2 atau 3 dari Basic Attack Pivot - Impale mengenai target.\nMendapatkan 2 Performance Capacity untuk setiap Resonance Skill Divergence yang mengenai target.\nMendapatkan 3 Performance Capacity untuk setiap Mid-air Attack Revamp yang mengenai target.\nMendapatkan 2 Performance Capacity untuk setiap Dodge Counter Unfathomed yang mengenai target.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Knowing",
-        "description": "Mendapatkan 5% Electro DMG Bonus setelah melancarkan Resonance Skill selama 8 detik, dapat ditumpuk hingga 4 kali."
+        "effects": [
+          {
+            "title": "",
+            "description": "Mendapatkan 5% Electro DMG Bonus setelah melancarkan Resonance Skill selama 8 detik, dapat ditumpuk hingga 4 kali.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Focus",
-        "description": "Saat berada dalam status Intuition yang dipicu oleh Resonance Liberation, resistansi Xiangli Yao terhadap gangguan ditingkatkan."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat berada dalam status Intuition yang dipicu oleh Resonance Liberation, resistansi Xiangli Yao terhadap gangguan ditingkatkan.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Principle",
-      "description": "menyerang target, dealing Electro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "menyerang target, dealing Electro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Chain Rule",
-      "description": "Xiangli Yao akan memanggil turun sinar laser pada target pertama yang terkena Basic Attack dari Resonator yang masuk, memberikan Electro DMG sebesar 237,63% dari ATK Xiangli Yao ke suatu area. Efek ini berlangsung selama 8 detik dan dapat dipicu sekali setiap 2 detik, hingga 3 kali."
+      "effects": [
+        {
+          "title": "",
+          "description": "Xiangli Yao akan memanggil turun sinar laser pada target pertama yang terkena Basic Attack dari Resonator yang masuk, memberikan Electro DMG sebesar 237,63% dari ATK Xiangli Yao ke suatu area. Efek ini berlangsung selama 8 detik dan dapat dipicu sekali setiap 2 detik, hingga 3 kali.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -453,32 +562,78 @@
     {
       "stage": "S1",
       "name": "Prodigy Of ProtéGéS",
-      "description": "Resonance Skill Law of Reigns memberikan tambahan 6 Convolution Matrices ke arah musuh, yang masing-masing memberikan Resonance Liberation DMG sebesar 8% dari DMG Multiplier skill tersebut."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill Law of Reigns memberikan tambahan 6 Convolution Matrices ke arah musuh, yang masing-masing memberikan Resonance Liberation DMG sebesar 8% dari DMG Multiplier skill tersebut.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Traces Of Predecessors",
-      "description": "Melancarkan Resonance Skill atau Resonance Liberation Cogitation Model meningkatkan Crit. DMG sebesar 30% selama 8 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Skill atau Resonance Liberation Cogitation Model meningkatkan Crit. DMG sebesar 30% selama 8 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Ruins Of Ancient",
-      "description": "Melancarkan Resonance Liberation Cogitation Model meningkatkan DMG dari gerakan Resonance Skill berikut sebesar 63% selama 24 detik:\nDecipher, Deduction, Divergence, dan Law of Reigns.\nEfek ini dapat dipicu hingga 5 kali."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Liberation Cogitation Model meningkatkan DMG dari gerakan Resonance Skill berikut sebesar 63% selama 24 detik:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Decipher, Deduction, Divergence, dan Law of Reigns.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek ini dapat dipicu hingga 5 kali.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Vessel Of Rebirth",
-      "description": "Melancarkan Resonance Liberation Cogitation Model memberikan 25% DMG Bonus untuk Resonance Liberation semua anggota tim selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Liberation Cogitation Model memberikan 25% DMG Bonus untuk Resonance Liberation semua anggota tim selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "End Of Stars",
-      "description": "DMG Multiplier dari Outro Skill Chain Rule meningkat sebesar 222%. DMG Multiplier dari Resonance Liberation Cogitation Model meningkat sebesar 100%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Outro Skill Chain Rule meningkat sebesar 222%. DMG Multiplier dari Resonance Liberation Cogitation Model meningkat sebesar 100%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Solace Of The Ordinary",
-      "description": "Hypercubes yang didapatkan dari Resonance Liberation Cogitation Model ditingkatkan, meningkatkan DMG Multiplier dari Resonance Skill Law of Reigns sebesar 76%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Hypercubes yang didapatkan dari Resonance Liberation Cogitation Model ditingkatkan, meningkatkan DMG Multiplier dari Resonance Skill Law of Reigns sebesar 76%.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

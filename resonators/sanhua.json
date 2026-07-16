@@ -16,7 +16,8 @@
     {
       "text": "Minimal update",
       "type": "updated",
-      "isNew": false
+      "isNew": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "City Hall",
@@ -151,37 +152,110 @@
   "skills": {
     "basic": {
       "name": "Frigid Light",
-      "description": "Basic Attack\nSanhua melakukan hingga 5 serangan beruntun, memberikan  Glacio DMG.\n\nHeavy Attack\nSanhua mengonsumsi STA untuk melancarkan serangan, memberikan  Glacio DMG.\n\nMid-air Attack\nSanhua mengonsumsi STA untuk melakukan Mid-Air Plunging Attack, memberikan  Glacio DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang sukses untuk menyerang target, memberikan  Glacio DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Sanhua melakukan hingga 5 serangan beruntun, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Sanhua mengonsumsi STA untuk melancarkan serangan, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Sanhua mengonsumsi STA untuk melakukan Mid-Air Plunging Attack, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah Dodge yang sukses untuk menyerang target, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Eternal Frost",
-      "description": "Sanhua mengirimkan air blade untuk menciptakan 1 \"Ice Prism\" di tanah, memberikan   Glacio DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Sanhua mengirimkan air blade untuk menciptakan 1 \"Ice Prism\" di tanah, memberikan   Glacio DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Glacial Gaze",
-      "description": "Sanhua memberikan Glacio DMG dan menciptakan 1 \"Glacier\"."
+      "effects": [
+        {
+          "title": "",
+          "description": "Sanhua memberikan Glacio DMG dan menciptakan 1 \"Glacier\".",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Clarity Of Mind",
-      "description": "Heavy Attack: Detonate\nTahan Basic Attack untuk memunculkan cursor yang bergerak bolak-balik di Forte Gauge. Lepaskan Basic Attack saat cursor berada di area \"Frostbite\" untuk melakukan Heavy Attack Detonate, memberikan  Glacio DMG yang dianggap sebagai Heavy Attack DMG.\n\nIce Burst\nHeavy Attack Detonate milik Sanhua akan meledakkan semua \"Ice Thorns\", \"Ice Prisms\", dan \"Glaciers\" dalam jangkauan serangannya, memberikan  Glacio DMG. Ice Burst dianggap sebagai Resonance Skill DMG.\n\nFrostbite Area\nArea \"Frostbite\" akan semakin luas dengan setiap 1 stack \"Clarity\". \"Clarity\" dapat ditumpuk hingga 2 kali.\n\nSanhua mendapatkan 1 stack \"Clarity\" saat:\n- Melakukan Basic Attack 5.\n- Mengaktifkan Intro Skill Freezing Thorns.\n- Menggunakan Resonance Skill Eternal Frost.\n\nSanhua mendapatkan 2 stack \"Clarity\" saat:\n- Menggunakan Resonance Liberation Glacial Gaze.\n- Saat Heavy Attack Detonate digunakan, semua \"Clarity\" akan dihapus."
+      "effects": [
+        {
+          "title": "Heavy Attack: Detonate",
+          "description": "Tahan Basic Attack untuk memunculkan cursor yang bergerak bolak-balik di Forte Gauge. Lepaskan Basic Attack saat cursor berada di area \"Frostbite\" untuk melakukan Heavy Attack Detonate, memberikan  Glacio DMG yang dianggap sebagai Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Ice Burst",
+          "description": "Heavy Attack Detonate milik Sanhua akan meledakkan semua \"Ice Thorns\", \"Ice Prisms\", dan \"Glaciers\" dalam jangkauan serangannya, memberikan  Glacio DMG. Ice Burst dianggap sebagai Resonance Skill DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Frostbite Area",
+          "description": "Area \"Frostbite\" akan semakin luas dengan setiap 1 stack \"Clarity\". \"Clarity\" dapat ditumpuk hingga 2 kali.\nSanhua mendapatkan 1 stack \"Clarity\" saat:\n- Melakukan Basic Attack 5.\n- Mengaktifkan Intro Skill Freezing Thorns.\n- Menggunakan Resonance Skill Eternal Frost.\nSanhua mendapatkan 2 stack \"Clarity\" saat:\n- Menggunakan Resonance Liberation Glacial Gaze.\n- Saat Heavy Attack Detonate digunakan, semua \"Clarity\" akan dihapus.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Condensation",
-        "description": "Sanhua mengayunkan pedangnya ke bawah dan menciptakan 1 \"Ice Thorn\", memberikan  Glacio DMG."
+        "effects": [
+          {
+            "title": "",
+            "description": "Sanhua mengayunkan pedangnya ke bawah dan menciptakan 1 \"Ice Thorn\", memberikan  Glacio DMG.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Avalanche",
-        "description": "Resonator yang masuk mendapatkan Basic Attack DMG Amplified sebesar 38% selama 14s atau hingga mereka diganti."
+        "effects": [
+          {
+            "title": "",
+            "description": "Resonator yang masuk mendapatkan Basic Attack DMG Amplified sebesar 38% selama 14s atau hingga mereka diganti.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Freezing Thorns",
-      "description": "Damage yang diberikan oleh Resonance Skill Sanhua meningkat 20% selama 8 detik setelah menggunakan Intro Skill."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage yang diberikan oleh Resonance Skill Sanhua meningkat 20% selama 8 detik setelah menggunakan Intro Skill.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Silversnow",
-      "description": "Damage yang diberikan oleh Forte Circuit Ice Burst Sanhua meningkat 20% selama 8 detik setelah melakukan Basic Attack 5."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage yang diberikan oleh Forte Circuit Ice Burst Sanhua meningkat 20% selama 8 detik setelah melakukan Basic Attack 5.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -409,32 +483,83 @@
     {
       "stage": "S1",
       "name": "Solitude'S Embrace",
-      "description": "Basic Attack 5 meningkatkan Crit Rate Sanhua sebesar 15% selama 10 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Basic Attack 5 meningkatkan Crit Rate Sanhua sebesar 15% selama 10 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Snowy Clarity",
-      "description": "Heavy Attack Detonate mengurangi konsumsi STA sebesar 10.\nSaat Sanhua menggunakan Resonance Skill Eternal Frost, resistensi terhadap interupsi meningkat selama 10 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Heavy Attack Detonate mengurangi konsumsi STA sebesar 10.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Sanhua menggunakan Resonance Skill Eternal Frost, resistensi terhadap interupsi meningkat selama 10 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Anomalous Vision",
-      "description": "Damage Sanhua terhadap target dengan HP di bawah 70% meningkat sebesar 35%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage Sanhua terhadap target dengan HP di bawah 70% meningkat sebesar 35%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Blade Mastery",
-      "description": "Resonance Liberation Glacial Gaze memulihkan 10 Resonance Energy.\nDMG dari Heavy Attack Detonate berikutnya dalam 5 detik meningkat sebesar 120%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation Glacial Gaze memulihkan 10 Resonance Energy.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG dari Heavy Attack Detonate berikutnya dalam 5 detik meningkat sebesar 120%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Unraveling Fate",
-      "description": "Crit DMG dari Forte Circuit Ice Burst meningkat 100%.\nIce Creations (Ice Thorn, Ice Prism, dan Glacier) akan meledak secara otomatis tanpa perlu diledakkan secara manual."
+      "effects": [
+        {
+          "title": "",
+          "description": "Crit DMG dari Forte Circuit Ice Burst meningkat 100%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Ice Creations (Ice Thorn, Ice Prism, dan Glacier) akan meledak secara otomatis tanpa perlu diledakkan secara manual.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Daybreak Radiance",
-      "description": "Setelah Ice Prism atau Glacier diledakkan, ATK semua anggota tim meningkat sebesar 10% selama 20 detik, dapat ditumpuk hingga 2 kali."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah Ice Prism atau Glacier diledakkan, ATK semua anggota tim meningkat sebesar 10% selama 20 detik, dapat ditumpuk hingga 2 kali.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

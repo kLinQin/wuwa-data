@@ -18,7 +18,8 @@
     {
       "text": "Minimal update",
       "type": "updated",
-      "isNew": false
+      "isNew": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Chongzhou",
@@ -134,37 +135,135 @@
   "skills": {
     "basic": {
       "name": "Frosty Punches",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut, memberikan  Glacio DMG.\n\nHeavy Attack\n- Saat Frost penuh, tahan tombol Normal Attack untuk mengaktifkan Frostfall.\n- Saat Frost penuh dalam keadaan Fortune Rolling, lepaskan tombol Normal Attack untuk mengaktifkan Frostfall. Jika Youhu tidak dapat mengaktifkan Frostfall saat itu, maka akan melakukan Lucky Draw sebagai gantinya.\n\nYouhu dapat memperoleh Frost dengan cara berikut:\n- Saat Frost tidak penuh, tahan tombol Normal Attack untuk memasuki Fortune Rolling dan memulihkan Frost seiring waktu.\n- Saat Basic Attack mengenai target.\n\nHeavy Attack: Frostfall\nYouhu menerjang ke depan, memberikan  Glacio DMG, dan melakukan Lucky Draw sekali.\n\nMid-air Attack\nMelakukan Plunging Attack dengan menghabiskan STA, memberikan  Glacio DMG.\n\nDodge Counter\nSaat Youhu tidak memiliki Antique, tekan tombol Normal Attack dengan cepat setelah berhasil Dodge untuk menerjang ke depan, memberikan  Glacio DMG, dan melakukan Lucky Draw sekali."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan berturut-turut, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "- Saat Frost penuh, tahan tombol Normal Attack untuk mengaktifkan Frostfall.\n- Saat Frost penuh dalam keadaan Fortune Rolling, lepaskan tombol Normal Attack untuk mengaktifkan Frostfall. Jika Youhu tidak dapat mengaktifkan Frostfall saat itu, maka akan melakukan Lucky Draw sebagai gantinya.\nYouhu dapat memperoleh Frost dengan cara berikut:\n- Saat Frost tidak penuh, tahan tombol Normal Attack untuk memasuki Fortune Rolling dan memulihkan Frost seiring waktu.\n- Saat Basic Attack mengenai target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack: Frostfall",
+          "description": "Youhu menerjang ke depan, memberikan  Glacio DMG, dan melakukan Lucky Draw sekali.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Melakukan Plunging Attack dengan menghabiskan STA, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Saat Youhu tidak memiliki Antique, tekan tombol Normal Attack dengan cepat setelah berhasil Dodge untuk menerjang ke depan, memberikan  Glacio DMG, dan melakukan Lucky Draw sekali.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Scroll Divination",
-      "description": "Youhu menghantam musuh dengan gulungannya, memberikan  Glacio DMG, memulihkan HP semua anggota tim di sekitarnya, dan melakukan Lucky Draw sekali.\n\nLucky Draw\nYouhu memperoleh Antique secara acak setelah menggunakan Lucky Draw.\nSaat memiliki Antique, Basic Attack berikutnya akan mengaktifkan Antique Appraisal yang sesuai.\nHanya satu Antique yang dapat ada dalam satu waktu, dan Antique baru akan menggantikan yang lama.\n\nAntique Appraisal\n- Chime: Menyerang musuh dengan lonceng, memberikan  Glacio DMG. Chime dapat mengurangi Vibration Strength musuh secara efektif.\n- Ruyi: Menghantam musuh dengan tongkat Ruyi, memberikan  Glacio DMG. Ruyi memiliki DMG Multiplier lebih tinggi.\n- Ding: Menerjang musuh dengan Ding, memberikan  Glacio DMG. Ding dapat mematahkan stance musuh lebih efektif.\n- Mask: Melempar topeng ke musuh di depan, memberikan  Glacio DMG. Mask dapat menarik musuh dalam jalurnya."
+      "effects": [
+        {
+          "title": "",
+          "description": "Youhu menghantam musuh dengan gulungannya, memberikan  Glacio DMG, memulihkan HP semua anggota tim di sekitarnya, dan melakukan Lucky Draw sekali.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Lucky Draw",
+          "description": "Youhu memperoleh Antique secara acak setelah menggunakan Lucky Draw.\nSaat memiliki Antique, Basic Attack berikutnya akan mengaktifkan Antique Appraisal yang sesuai.\nHanya satu Antique yang dapat ada dalam satu waktu, dan Antique baru akan menggantikan yang lama.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Antique Appraisal",
+          "description": "- Chime: Menyerang musuh dengan lonceng, memberikan  Glacio DMG. Chime dapat mengurangi Vibration Strength musuh secara efektif.\n- Ruyi: Menghantam musuh dengan tongkat Ruyi, memberikan  Glacio DMG. Ruyi memiliki DMG Multiplier lebih tinggi.\n- Ding: Menerjang musuh dengan Ding, memberikan  Glacio DMG. Ding dapat mematahkan stance musuh lebih efektif.\n- Mask: Melempar topeng ke musuh di depan, memberikan  Glacio DMG. Mask dapat menarik musuh dalam jalurnya.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Fortune'S Favor",
-      "description": "Youhu melemparkan gulungannya ke musuh, menghasilkan ledakan  Glacio DMG di area tersebut.\n\nSaat ledakan terjadi, empat tombol akan muncul. Pilih tombol dalam waktu yang ditentukan untuk memperoleh Antique yang sesuai. Jika tidak memilih, Youhu akan mendapatkan Antique secara acak."
+      "effects": [
+        {
+          "title": "",
+          "description": "Youhu melemparkan gulungannya ke musuh, menghasilkan ledakan  Glacio DMG di area tersebut.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat ledakan terjadi, empat tombol akan muncul. Pilih tombol dalam waktu yang ditentukan untuk memperoleh Antique yang sesuai. Jika tidak memilih, Youhu akan mendapatkan Antique secara acak.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Poetic Essence",
-      "description": "Saat memiliki empat Auspices, tahan tombol Normal Attack untuk mengaktifkan Poetic Essence, memberikan  Glacio DMG (dianggap sebagai Resonance Skill DMG) dan memulihkan HP semua anggota tim di sekitar.\n\nYouhu dapat menyimpan hingga empat Auspices.\nPoetic Essence\nMemberikan  Glacio DMG kepada musuh dalam area dan mendapatkan efek tambahan berdasarkan kombinasi Auspice:\n- Free Verse: (4 Auspices berbeda) → Mengurangi Vibration Strength musuh yang terkena.\n- Antithesis: (2 pasang Auspices) → Meningkatkan DMG Poetic Essence sebesar 70%.\n- Double Pun: (2 pasang Auspices yang sama) → Memulihkan HP semua anggota tim.\n- Triplet: (3 Auspices identik) → Meningkatkan DMG Poetic Essence sebesar 175%.\n- Perfect Rhyme: (4 Auspices identik) → Mengaktifkan efek Free Verse, Double Pun, dan Triplet secara bersamaan.\n\nMenggunakan Poetic Essence akan menghapus semua Auspices.\n\nAuspice\n- Youhu memperoleh Auspice melalui Antique Appraisal. Gunakan Basic Attack saat memiliki Antique untuk mendapatkan Auspice yang sesuai.\n- Youhu memperoleh Antique melalui Resonance Skill Scroll Divination, Intro Skill Scroll of Wonders, Heavy Attack Frostfall, Resonance Liberation Fortune’s Favor, dan Dodge Counter."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat memiliki empat Auspices, tahan tombol Normal Attack untuk mengaktifkan Poetic Essence, memberikan  Glacio DMG (dianggap sebagai Resonance Skill DMG) dan memulihkan HP semua anggota tim di sekitar.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Youhu dapat menyimpan hingga empat Auspices.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Poetic Essence",
+          "description": "Memberikan  Glacio DMG kepada musuh dalam area dan mendapatkan efek tambahan berdasarkan kombinasi Auspice:\n- Free Verse: (4 Auspices berbeda) → Mengurangi Vibration Strength musuh yang terkena.\n- Antithesis: (2 pasang Auspices) → Meningkatkan DMG Poetic Essence sebesar 70%.\n- Double Pun: (2 pasang Auspices yang sama) → Memulihkan HP semua anggota tim.\n- Triplet: (3 Auspices identik) → Meningkatkan DMG Poetic Essence sebesar 175%.\n- Perfect Rhyme: (4 Auspices identik) → Mengaktifkan efek Free Verse, Double Pun, dan Triplet secara bersamaan.\nMenggunakan Poetic Essence akan menghapus semua Auspices.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Auspice",
+          "description": "- Youhu memperoleh Auspice melalui Antique Appraisal. Gunakan Basic Attack saat memiliki Antique untuk mendapatkan Auspice yang sesuai.\n- Youhu memperoleh Antique melalui Resonance Skill Scroll Divination, Intro Skill Scroll of Wonders, Heavy Attack Frostfall, Resonance Liberation Fortune’s Favor, dan Dodge Counter.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Treasured Piece",
-        "description": "Saat Resonance Skill Antique Appraisal digunakan, memulihkan HP semua anggota tim di sekitar berdasarkan 30% dari pemulihan yang diberikan oleh Resonance Skill Scroll Divination."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Resonance Skill Antique Appraisal digunakan, memulihkan HP semua anggota tim di sekitar berdasarkan 30% dari pemulihan yang diberikan oleh Resonance Skill Scroll Divination.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Rare Find",
-        "description": "Meningkatkan  Glacio DMG Bonus sebesar 15% selama 14 detik setelah menggunakan Intro Skill Scroll of Wonders."
+        "effects": [
+          {
+            "title": "",
+            "description": "Meningkatkan  Glacio DMG Bonus sebesar 15% selama 14 detik setelah menggunakan Intro Skill Scroll of Wonders.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Scroll Of Wonders",
-      "description": "Melempar gulungan dan melakukan Lucky Draw sekali."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melempar gulungan dan melakukan Lucky Draw sekali.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Timeless Classics",
-      "description": "Resonator yang masuk memperoleh Amplifikasi DMG Coordinated Attack sebesar 100% selama 28 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk memperoleh Amplifikasi DMG Coordinated Attack sebesar 100% selama 28 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -253,32 +352,73 @@
     {
       "stage": "S1",
       "name": "Waterside Respite",
-      "description": "Youhu memiliki 10% peluang untuk menjadi kebal terhadap damage dan interupsi setelah menggunakan Lucky Draw. Efek ini berlangsung selama 5 detik atau hingga dia diganti keluar."
+      "effects": [
+        {
+          "title": "",
+          "description": "Youhu memiliki 10% peluang untuk menjadi kebal terhadap damage dan interupsi setelah menggunakan Lucky Draw. Efek ini berlangsung selama 5 detik atau hingga dia diganti keluar.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Sunroom Siesta",
-      "description": "Bonus DMG dari Antithesis, Triplet, dan Perfect Rhyme pada Poetic Essence menjadi dua kali lipat."
+      "effects": [
+        {
+          "title": "",
+          "description": "Bonus DMG dari Antithesis, Triplet, dan Perfect Rhyme pada Poetic Essence menjadi dua kali lipat.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Restless Sleep",
-      "description": "ATK Youhu meningkat sebesar 20%."
+      "effects": [
+        {
+          "title": "",
+          "description": "ATK Youhu meningkat sebesar 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Frosted Lullaby",
-      "description": "Setiap kali Resonance Skill Scroll Divination digunakan, terdapat 20% peluang agar skill tidak memasuki Cooldown."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setiap kali Resonance Skill Scroll Divination digunakan, terdapat 20% peluang agar skill tidak memasuki Cooldown.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Dreamland Meander",
-      "description": "Saat Intro Skill Scroll of Wonders digunakan, Crit. Rate Youhu meningkat sebesar 15% selama 14 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Intro Skill Scroll of Wonders digunakan, Crit. Rate Youhu meningkat sebesar 15% selama 14 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Slumber Evermore",
-      "description": "Saat menggunakan Resonance Skill Antique Appraisal, Youhu memperoleh 1 stack Sky Blue, dapat ditumpuk hingga 4 kali dan bertahan selama 7 detik.\nSetiap stack meningkatkan Crit. DMG Youhu sebesar 15%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat menggunakan Resonance Skill Antique Appraisal, Youhu memperoleh 1 stack Sky Blue, dapat ditumpuk hingga 4 kali dan bertahan selama 7 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setiap stack meningkatkan Crit. DMG Youhu sebesar 15%.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

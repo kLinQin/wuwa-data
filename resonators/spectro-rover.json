@@ -19,7 +19,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Black Shores",
@@ -203,37 +204,120 @@
   "skills": {
     "basic": {
       "name": "Vibration Manifestation",
-      "description": "Basic Attack\nRover melakukan hingga 4 serangan beruntun, memberikan  Spectro DMG. \n\nHeavy Attack\nRover mengonsumsi STA untuk menyerang target, memberikan  Spectro DMG.  \n\nHeavy Attack: Resonance\nSetelah Basic Attack 3 atau Heavy Attack, tekan Basic Attack Button pada waktu yang tepat untuk melakukan Heavy Attack: Resonance, memberikan  Spectro DMG. \n\nHeavy Attack: Aftertune\nSetelah Heavy Attack: Resonance atau Dodge Counter mengenai target, tekan Basic Attack Button untuk melakukan Heavy Attack: Aftertune, memberikan  Spectro DMG.\n\nMid-air Attack\nRover mengonsumsi STA untuk melakukan Mid-air Plunging Attack, memberikan  Spectro DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge berhasil untuk menyerang target, memberikan  Spectro DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Rover melakukan hingga 4 serangan beruntun, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Rover mengonsumsi STA untuk menyerang target, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack: Resonance",
+          "description": "Setelah Basic Attack 3 atau Heavy Attack, tekan Basic Attack Button pada waktu yang tepat untuk melakukan Heavy Attack: Resonance, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack: Aftertune",
+          "description": "Setelah Heavy Attack: Resonance atau Dodge Counter mengenai target, tekan Basic Attack Button untuk melakukan Heavy Attack: Aftertune, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Rover mengonsumsi STA untuk melakukan Mid-air Plunging Attack, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah Dodge berhasil untuk menyerang target, memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Resonating Slashes",
-      "description": "Rover melancarkan serangan ke depan, memberikan  Spectro DMG. "
+      "effects": [
+        {
+          "title": "",
+          "description": "Rover melancarkan serangan ke depan, memberikan  Spectro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Echoing Orchestra",
-      "description": "Rover mengumpulkan energi Spectro untuk menyerang area target, meledakkannya setelah jeda singkat, dan memberikan  Spectro DMG. "
+      "effects": [
+        {
+          "title": "",
+          "description": "Rover mengumpulkan energi Spectro untuk menyerang area target, meledakkannya setelah jeda singkat, dan memberikan  Spectro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "World In A Grain Of Sand",
-      "description": "Resonance Skill: Resonating Spin\n\nJika Diminutive Sound lebih dari 50 saat Resonance Skill digunakan, Rover mengonsumsi 50 Diminutive Sound untuk mengaktifkan Resonating Spin, memberikan  Spectro DMG. Serangan ini dihitung sebagai Resonance Skill DMG.\n\nBasic Attack: Resonating Echoes\nSetelah Resonance Skill: Resonating Spin berakhir, Rover akan melakukan Resonating Echoes saat menekan Basic Attack Button, menyerang ke depan dan memberikan  Spectro DMG. Serangan ini dihitung sebagai Resonance Skill DMG.\n\nDiminutive Sound\nRover bisa menyimpan hingga 100 Diminutive Sound.\nRover mendapatkan Diminutive Sound setiap kali Normal Attack: Vibration Manifestation mengenai target.\nRover mendapatkan Diminutive Sound setiap kali Heavy Attack: Aftertune mengenai target.\nRover mendapatkan Diminutive Sound saat menggunakan Intro Skill: Waveshock."
+      "effects": [
+        {
+          "title": "Resonance Skill: Resonating Spin",
+          "description": "Jika Diminutive Sound lebih dari 50 saat Resonance Skill digunakan, Rover mengonsumsi 50 Diminutive Sound untuk mengaktifkan Resonating Spin, memberikan  Spectro DMG. Serangan ini dihitung sebagai Resonance Skill DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack: Resonating Echoes",
+          "description": "Setelah Resonance Skill: Resonating Spin berakhir, Rover akan melakukan Resonating Echoes saat menekan Basic Attack Button, menyerang ke depan dan memberikan  Spectro DMG. Serangan ini dihitung sebagai Resonance Skill DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Diminutive Sound",
+          "description": "Rover bisa menyimpan hingga 100 Diminutive Sound.\nRover mendapatkan Diminutive Sound setiap kali Normal Attack: Vibration Manifestation mengenai target.\nRover mendapatkan Diminutive Sound setiap kali Heavy Attack: Aftertune mengenai target.\nRover mendapatkan Diminutive Sound saat menggunakan Intro Skill: Waveshock.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Reticence",
-        "description": "DMG dari Basic Attack: Resonating Echoes meningkat 60%."
+        "effects": [
+          {
+            "title": "",
+            "description": "DMG dari Basic Attack: Resonating Echoes meningkat 60%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Silent Listener",
-        "description": "Setelah menggunakan Heavy Attack: Resonance, ATK Rover meningkat 15% selama 5 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Setelah menggunakan Heavy Attack: Resonance, ATK Rover meningkat 15% selama 5 detik.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Waveshock",
-      "description": "Rover menyerang target, memberikan  Spectro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Rover menyerang target, memberikan  Spectro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Instant",
-      "description": "Membuat area stasis di sekitar Resonator yang masuk, bertahan selama 3 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Membuat area stasis di sekitar Resonator yang masuk, bertahan selama 3 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -355,32 +439,68 @@
     {
       "stage": "S1",
       "name": "Odyssey Of Beginnings",
-      "description": "Saat menggunakan Resonance Skill: Resonating Slashes atau Resonance Skill: Resonating Spin, Crit Rate Rover meningkat 15% selama 7 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat menggunakan Resonance Skill: Resonating Slashes atau Resonance Skill: Resonating Spin, Crit Rate Rover meningkat 15% selama 7 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Microcosmic Murmurs",
-      "description": "Spectro DMG Bonus Rover meningkat 20%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Spectro DMG Bonus Rover meningkat 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Visages Of Dust",
-      "description": "Energy Regen Rover meningkat 20%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Energy Regen Rover meningkat 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Resonating Lamella",
-      "description": "Saat menggunakan Resonance Liberation: Echoing Resonance, Rover secara terus-menerus memulihkan HP seluruh anggota tim: Setiap detik selama 5 detik, HP yang dipulihkan setara dengan 20% ATK Rover."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat menggunakan Resonance Liberation: Echoing Resonance, Rover secara terus-menerus memulihkan HP seluruh anggota tim: Setiap detik selama 5 detik, HP yang dipulihkan setara dengan 20% ATK Rover.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Temporal Virtuoso",
-      "description": "Resonance Liberation DMG Bonus Rover meningkat 40%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation DMG Bonus Rover meningkat 40%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Echoes Of Wanderlust",
-      "description": "Serangan dari Resonance Skill: Resonating Slashes dan Resonance Skill: Resonating Spin mengurangi Spectro RES target sebesar 10% selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Serangan dari Resonance Skill: Resonating Slashes dan Resonance Skill: Resonating Spin mengurangi Spectro RES target sebesar 10% selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

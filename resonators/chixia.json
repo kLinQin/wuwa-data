@@ -16,7 +16,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Public Security Bureau",
@@ -155,28 +156,129 @@
   "skills": {
     "basic": {
       "name": "POW POW",
-      "description": "Basic Attack\nChixia menembakkan hingga 4 tembakan beruntun, memberikan   Fusion DMG.\n\nHeavy Attack \nChixia memasuki mode Aiming untuk menembakkan serangan yang lebih kuat.\nTembakan yang dilepaskan setelah charge selesai memberikan Fusion DMG.\n\nMid-air Attack\nMenggunakan Stamina untuk melakukan beberapa tembakan ke arah target saat berada di udara, memberikan  Fusion DMG.\n\nDodge Counter\nGunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Chixia menembakkan hingga 4 tembakan beruntun, memberikan   Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Chixia memasuki mode Aiming untuk menembakkan serangan yang lebih kuat.\nTembakan yang dilepaskan setelah charge selesai memberikan Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Menggunakan Stamina untuk melakukan beberapa tembakan ke arah target saat berada di udara, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Whizzing Fight Spirit",
-      "description": "Chixia melepaskan rentetan tembakan, memberikan  Fusion DMG.\nWhizzing Fight Spirit memiliki 2 initial charges."
+      "effects": [
+        {
+          "title": "",
+          "description": "Chixia melepaskan rentetan tembakan, memberikan  Fusion DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Whizzing Fight Spirit memiliki 2 initial charges.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Blazing Flames",
-      "description": "Chixia menembakkan peluru cepat ke musuh di sekitar, memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Chixia menembakkan peluru cepat ke musuh di sekitar, memberikan  Fusion DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Heroic Bullets",
-      "description": "Resonance Skill: DAKA DAKA!\nTahan Resonance Skill: Whizzing Fight Spirit untuk memasuki mode DAKA DAKA!. \nDalam mode ini:\nChixia terus mengonsumsi \"Thermobaric Bullets\" untuk menyerang target, memberikan  Fusion DMG (dihitung sebagai Resonance Skill DMG).\nTekan Basic Attack untuk langsung menggunakan Basic Attack 4, memberikan  Fusion DMG (dihitung sebagai Basic Attack DMG), lalu keluar dari mode DAKA DAKA!.\nJika 30 Thermobaric Bullets telah ditembakkan sebelum Basic Attack diaktifkan, Chixia akan melepaskan Resonance Skill: Boom Boom, lalu keluar dari mode DAKA DAKA!.\nChixia akan otomatis keluar dari mode DAKA DAKA! ketika semua Thermobaric Bullets habis.\n\nResonance Skill: Boom Boom\nMemberikan  Fusion DMG, dihitung sebagai Resonance Skill DMG.\n\nThermobaric Bullets\nChixia dapat menyimpan hingga 60 Thermobaric Bullets.\nInherent Skill: Scorching Magazine meningkatkan batas maksimal Thermobaric Bullets sebanyak 10.\nChixia mendapatkan Thermobaric Bullets saat Basic Attack: POW POW mengenai target.\nChixia mendapatkan Thermobaric Bullets saat menggunakan Intro Skill: Grand Entrance dan Resonance Skill: Whizzing Fight Spirit."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill: DAKA DAKA!",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tahan Resonance Skill: Whizzing Fight Spirit untuk memasuki mode DAKA DAKA!.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dalam mode ini:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Chixia terus mengonsumsi \"Thermobaric Bullets\" untuk menyerang target, memberikan  Fusion DMG (dihitung sebagai Resonance Skill DMG).",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan Basic Attack untuk langsung menggunakan Basic Attack 4, memberikan  Fusion DMG (dihitung sebagai Basic Attack DMG), lalu keluar dari mode DAKA DAKA!.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika 30 Thermobaric Bullets telah ditembakkan sebelum Basic Attack diaktifkan, Chixia akan melepaskan Resonance Skill: Boom Boom, lalu keluar dari mode DAKA DAKA!.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Chixia akan otomatis keluar dari mode DAKA DAKA! ketika semua Thermobaric Bullets habis.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Resonance Skill: Boom Boom",
+          "description": "Memberikan  Fusion DMG, dihitung sebagai Resonance Skill DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Thermobaric Bullets",
+          "description": "Chixia dapat menyimpan hingga 60 Thermobaric Bullets.\nInherent Skill: Scorching Magazine meningkatkan batas maksimal Thermobaric Bullets sebanyak 10.\nChixia mendapatkan Thermobaric Bullets saat Basic Attack: POW POW mengenai target.\nChixia mendapatkan Thermobaric Bullets saat menggunakan Intro Skill: Grand Entrance dan Resonance Skill: Whizzing Fight Spirit.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Scorching Magazine",
-        "description": "Maksimum Thermobaric Bullets bertambah 10 peluru.\nDMG dari Resonance Skill: Boom Boom meningkat 50%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Maksimum Thermobaric Bullets bertambah 10 peluru.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "DMG dari Resonance Skill: Boom Boom meningkat 50%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Numbingly Spicy!",
-        "description": "Setiap Thermobaric Bullets yang mengenai target saat berada dalam DAKA DAKA! meningkatkan ATK sebesar 1% selama 10 detik, dapat ditumpuk hingga 30 kali."
+        "effects": [
+          {
+            "title": "",
+            "description": "Setiap Thermobaric Bullets yang mengenai target saat berada dalam DAKA DAKA! meningkatkan ATK sebesar 1% selama 10 detik, dapat ditumpuk hingga 30 kali.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break: Pistols",
@@ -185,11 +287,23 @@
     ],
     "intro": {
       "name": "Grand Entrance",
-      "description": "Chixia melakukan heroic entrance dan menembakkan rentetan peluru dengan pistol ganda ke arah target, memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Chixia melakukan heroic entrance dan menembakkan rentetan peluru dengan pistol ganda ke arah target, memberikan  Fusion DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Leaping Flames",
-      "description": "Chixia melepaskan gelombang kejut di sekitar target, memberikan  Fusion DMG setara dengan 530% ATK Chixia kepada musuh dalam jangkauan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Chixia melepaskan gelombang kejut di sekitar target, memberikan  Fusion DMG setara dengan 530% ATK Chixia kepada musuh dalam jangkauan.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -278,32 +392,78 @@
     {
       "stage": "S1",
       "name": "No.1 Hero Play Fan",
-      "description": "Serangan dari Resonance Skill: Boom Boom selalu menghasilkan Critical Hit."
+      "effects": [
+        {
+          "title": "",
+          "description": "Serangan dari Resonance Skill: Boom Boom selalu menghasilkan Critical Hit.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Leaping Sparkles",
-      "description": "Selama Resonance Liberation: Blazing Flames, setiap kali 1 musuh dikalahkan, \nChixia memulihkan 5 Resonance Energy, hingga maksimum 20 per penggunaan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Selama Resonance Liberation: Blazing Flames, setiap kali 1 musuh dikalahkan,",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Chixia memulihkan 5 Resonance Energy, hingga maksimum 20 per penggunaan.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Eternal Flames",
-      "description": "Resonance Liberation: Blazing Flames memberikan 40% lebih banyak DMG kepada target dengan HP di bawah 50%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation: Blazing Flames memberikan 40% lebih banyak DMG kepada target dengan HP di bawah 50%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Hero’S Ultimate Move",
-      "description": "Menggunakan Resonance Liberation: Blazing Flames langsung memberikan 60 Thermobaric Bullets dan langsung mereset Cooldown dari Resonance Skill: Whizzing Fight Spirit."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Resonance Liberation: Blazing Flames langsung memberikan 60 Thermobaric Bullets dan langsung mereset Cooldown dari Resonance Skill: Whizzing Fight Spirit.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Triumphant Explosions",
-      "description": "Saat Inherent Skill: Numbingly Spicy! mencapai jumlah stack maksimal, \nATK bertambah 30% tambahan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Inherent Skill: Numbingly Spicy! mencapai jumlah stack maksimal,",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "ATK bertambah 30% tambahan.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Easter Egg Performance",
-      "description": "Resonance Skill: Boom Boom meningkatkan Basic Attack DMG Bonus seluruh anggota tim sebesar 25% selama 15 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill: Boom Boom meningkatkan Basic Attack DMG Bonus seluruh anggota tim sebesar 25% selama 15 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

@@ -19,7 +19,8 @@
       "text": "minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Order of the Deep",
@@ -187,41 +188,270 @@
   "skills": {
     "basic": {
       "name": "Sword To Carve My Forms",
-      "description": "Basic Attack - Cartethyia\nMelakukan hingga 4 serangan berturut-turut, memberikan Aero DMG.\nSetelah Basic Attack - Cartethyia Stage 4, memberikan 1 stack Aero Erosion pada target yang terkena dan panggil Sword of Divinity's Shadow.\nHanya 1 Sword of Divinity's Shadow yang dapat ada di saat yang sama, berlangsung selama 20 detik.\n\nHeavy Attack - Cartethyia\nMengonsumsi STA untuk menyerang target, memberikan Aero DMG dan memanggil Sword of Discord's Shadow. Dapat dilakukan di udara.\nHanya 1 Sword of Discord's Shadow yang dapat ada di saat yang sama, berlangsung selama 20 detik.\nInstance DMG ini dianggap sebagai Basic Attack DMG.\n\nMid-air Attack - Cartethyia\nLepaskan tombol Normal Attack saat berada di udara untuk melakukan Plunging Attack dengan mengonsumsi STA, memberikan Aero DMG, yang juga dianggap sebagai Aero Erosion DMG.\nTekan Normal Attack sesaat setelah Plunging Attack untuk melakukan Basic Attack - Cartethyia Stage 2.\nMelancarkan Mid-air Attack - Cartethyia menarik kembali semua Sword Shadows. Berdasarkan tipe dan jumlah Sword Shadows yang ditarik kembali, lakukan berbagai bentuk Plunging Attack dan dapatkan Heart of Virtue, Mandate of Divinity, serta Power of Discord yang sesuai.\n\nDodge Counter - Cartethyia\nTekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG."
+      "effects": [
+        {
+          "title": "Basic Attack - Cartethyia",
+          "description": "Melakukan hingga 4 serangan berturut-turut, memberikan Aero DMG.\nSetelah Basic Attack - Cartethyia Stage 4, memberikan 1 stack Aero Erosion pada target yang terkena dan panggil Sword of Divinity's Shadow.\nHanya 1 Sword of Divinity's Shadow yang dapat ada di saat yang sama, berlangsung selama 20 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Cartethyia",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan Aero DMG dan memanggil Sword of Discord's Shadow. Dapat dilakukan di udara.\nHanya 1 Sword of Discord's Shadow yang dapat ada di saat yang sama, berlangsung selama 20 detik.\nInstance DMG ini dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Cartethyia",
+          "description": "Lepaskan tombol Normal Attack saat berada di udara untuk melakukan Plunging Attack dengan mengonsumsi STA, memberikan Aero DMG, yang juga dianggap sebagai Aero Erosion DMG.\nTekan Normal Attack sesaat setelah Plunging Attack untuk melakukan Basic Attack - Cartethyia Stage 2.\nMelancarkan Mid-air Attack - Cartethyia menarik kembali semua Sword Shadows. Berdasarkan tipe dan jumlah Sword Shadows yang ditarik kembali, lakukan berbagai bentuk Plunging Attack dan dapatkan Heart of Virtue, Mandate of Divinity, serta Power of Discord yang sesuai.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Cartethyia",
+          "description": "Tekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Sword To Bear Their Names",
-      "description": "Resonance Skill - Cartethyia\nMenyerang target, melontarkan musuh di sekitar ke udara, lalu menghujamkan mereka ke tanah, memberikan Aero DMG dan memberikan 2 stack Aero Erosion pada target yang terkena. Instance DMG ini dianggap sebagai Basic Attack DMG. Dapat dilakukan di udara.\nSetelah Cartethyia - Resonance Skill, panggil Sword of Virtue's Shadow.\nHanya 1 Sword of Virtue's Shadow yang dapat ada di saat yang sama, berlangsung selama 20 detik."
+      "effects": [
+        {
+          "title": "Resonance Skill - Cartethyia",
+          "description": "Menyerang target, melontarkan musuh di sekitar ke udara, lalu menghujamkan mereka ke tanah, memberikan Aero DMG dan memberikan 2 stack Aero Erosion pada target yang terkena. Instance DMG ini dianggap sebagai Basic Attack DMG. Dapat dilakukan di udara.\nSetelah Cartethyia - Resonance Skill, panggil Sword of Virtue's Shadow.\nHanya 1 Sword of Virtue's Shadow yang dapat ada di saat yang sama, berlangsung selama 20 detik.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "A Knight'S Heartfelt Prayers",
-      "description": "Resonance Liberation - A Knight's Heartfelt Prayers\nDengan mengurangi HP hingga 50% dari Max HP, Cartethyia bertransformasi menjadi Fleurdelys, membuka move baru dan memasuki status Manifest selama 12 detik.\nDapat dilakukan di udara.\nMemasuki Manifest menghapus semua Conviction.\nSebagai Fleurdelys, Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, dan Resonance Skill - May Tempest Break the Tides secara instan memicu 1 instance Aero Erosion DMG dan mengurangi stack Aero Erosion pada target yang terkena sebanyak 1.\n- Mengakhiri status ini tidak akan menghapus Resonance Energy.\n- Tidak ada biaya HP saat HP berada di bawah 50%.\n\nSerangan Fleurdelys memulihkan Conviction saat terkena hit. Saat Conviction mencapai 120 poin, tekan Resonance Liberation untuk melancarkan Resonance Liberation - Blade of Howling Squall.\n\nSaat Conviction di bawah 120 poin, tekan Resonance Liberation untuk bertransformasi kembali menjadi Cartethyia. Saat dalam Manifest, melancarkan Resonance Liberation - A Knight's Heartfelt Prayers sebagai Cartethyia tidak mengonsumsi Resonance Energy.\n\nSaat Fleurdelys memiliki Heart of Virtue dalam Manifest:\n- Basic Attack - Fleurdelys Stage 4 akan menghasilkan force field untuk Stagnate target di dalam jangkauan.\n- Resistance to Interruption Fleurdelys meningkat.\nHeart of Virtue dihapus saat Manifest berakhir.\n\nSaat Fleurdelys memiliki Mandate of Divinity dalam Manifest:\nAero Erosion DMG mendapatkan Amplified sebesar 50% dan interval damage berkurang sebesar 50% untuk musuh dalam jarak tertentu dari Fleurdelys.\nMandate of Divinity dihapus saat Manifest berakhir.\n\nSaat Fleurdelys memiliki Power of Discord dalam Manifest:\nSaat melancarkan Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, dan Enhanced Heavy Attack - Fleurdelys atau setelah Resonance Skill - May Tempest Break the Tides memberikan damage, tingkatkan stack Aero Erosion pada semua target terdekat ke jumlah tertinggi di antara target tersebut.\nPower of Discord dihapus saat Manifest berakhir.\n\nFleurdelys akan bertransformasi kembali menjadi Cartethyia selama dialog quest, animasi interaksi lingkungan, atau menggunakan Utilities.\nFleurdelys dapat berjalan di atas air. Melakukan hal tersebut di air yang dalam akan terus mengonsumsi STA. Saat dalam status berjalan, Fleurdelys dapat melangkah keluar dari tempat tinggi dan berjalan di udara dengan terus mengonsumsi STA.\n\nAvatar - Cartethyia\nSebagai Fleurdelys, saat Conviction di bawah 120 poin, tekan Resonance Liberation untuk melakukan Basic Attack - Cartethyia Stage 2 dan bertransformasi kembali menjadi Cartethyia untuk sementara, yang akan menghentikan timer pada Manifest.\nDapat dilancarkan di udara. Melancarkan skill di udara akan melakukan Mid-air Attack - Cartethyia.\n\nAvatar - Fleurdelys\nSaat dalam Manifest, melancarkan Resonance Liberation sebagai Cartethyia akan melakukan Basic Attack - Fleurdelys Stage 2 tanpa mengonsumsi Resonance Energy dan mentransformasikannya kembali menjadi Fleurdelys, yang akan melanjutkan timer pada Manifest.\nDapat dilancarkan di udara. Melancarkan skill ini di udara akan melakukan Mid-air Attack - Fleurdelys Stage 1.\n\nResonance Liberation - Blade of Howling Squall\nSaat Fleurdelys memiliki 120 poin Conviction, Resonance Liberation - A Knight's Heartfelt Prayers digantikan oleh Resonance Liberation - Blade of Howling Squall.\nMelancarkan Resonance Liberation - Blade of Howling Squall menghapus semua Conviction, mengakhiri Manifest, memulihkan 50% dari Max HP, dan kemudian memberikan Aero DMG ke semua target di area dalam garis lurus di depan. Setelah mengenai target, hapus semua stack Aero Erosion pada target tersebut. Setiap stack yang dihapus memberikan Amplified pada DMG yang diterima oleh target sebesar 20%, hingga maksimal 5 stack.\nDapat dilancarkan di udara."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation - A Knight's Heartfelt Prayers",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dengan mengurangi HP hingga 50% dari Max HP, Cartethyia bertransformasi menjadi Fleurdelys, membuka move baru dan memasuki status Manifest selama 12 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat dilakukan di udara.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Memasuki Manifest menghapus semua Conviction.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Sebagai Fleurdelys, Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, dan Resonance Skill - May Tempest Break the Tides secara instan memicu 1 instance Aero Erosion DMG dan mengurangi stack Aero Erosion pada target yang terkena sebanyak 1.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Mengakhiri status ini tidak akan menghapus Resonance Energy.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Tidak ada biaya HP saat HP berada di bawah 50%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Serangan Fleurdelys memulihkan Conviction saat terkena hit. Saat Conviction mencapai 120 poin, tekan Resonance Liberation untuk melancarkan Resonance Liberation - Blade of Howling Squall.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Conviction di bawah 120 poin, tekan Resonance Liberation untuk bertransformasi kembali menjadi Cartethyia. Saat dalam Manifest, melancarkan Resonance Liberation - A Knight's Heartfelt Prayers sebagai Cartethyia tidak mengonsumsi Resonance Energy.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Fleurdelys memiliki Heart of Virtue dalam Manifest:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Basic Attack - Fleurdelys Stage 4 akan menghasilkan force field untuk Stagnate target di dalam jangkauan.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Resistance to Interruption Fleurdelys meningkat.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Heart of Virtue dihapus saat Manifest berakhir.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Fleurdelys memiliki Mandate of Divinity dalam Manifest:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Aero Erosion DMG mendapatkan Amplified sebesar 50% dan interval damage berkurang sebesar 50% untuk musuh dalam jarak tertentu dari Fleurdelys.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Mandate of Divinity dihapus saat Manifest berakhir.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Fleurdelys memiliki Power of Discord dalam Manifest:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat melancarkan Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, dan Enhanced Heavy Attack - Fleurdelys atau setelah Resonance Skill - May Tempest Break the Tides memberikan damage, tingkatkan stack Aero Erosion pada semua target terdekat ke jumlah tertinggi di antara target tersebut.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Power of Discord dihapus saat Manifest berakhir.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Fleurdelys akan bertransformasi kembali menjadi Cartethyia selama dialog quest, animasi interaksi lingkungan, atau menggunakan Utilities.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Fleurdelys dapat berjalan di atas air. Melakukan hal tersebut di air yang dalam akan terus mengonsumsi STA. Saat dalam status berjalan, Fleurdelys dapat melangkah keluar dari tempat tinggi dan berjalan di udara dengan terus mengonsumsi STA.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Avatar - Cartethyia",
+          "description": "Sebagai Fleurdelys, saat Conviction di bawah 120 poin, tekan Resonance Liberation untuk melakukan Basic Attack - Cartethyia Stage 2 dan bertransformasi kembali menjadi Cartethyia untuk sementara, yang akan menghentikan timer pada Manifest.\nDapat dilancarkan di udara. Melancarkan skill di udara akan melakukan Mid-air Attack - Cartethyia.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Avatar - Fleurdelys",
+          "description": "Saat dalam Manifest, melancarkan Resonance Liberation sebagai Cartethyia akan melakukan Basic Attack - Fleurdelys Stage 2 tanpa mengonsumsi Resonance Energy dan mentransformasikannya kembali menjadi Fleurdelys, yang akan melanjutkan timer pada Manifest.\nDapat dilancarkan di udara. Melancarkan skill ini di udara akan melakukan Mid-air Attack - Fleurdelys Stage 1.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Liberation - Blade of Howling Squall",
+          "description": "Saat Fleurdelys memiliki 120 poin Conviction, Resonance Liberation - A Knight's Heartfelt Prayers digantikan oleh Resonance Liberation - Blade of Howling Squall.\nMelancarkan Resonance Liberation - Blade of Howling Squall menghapus semua Conviction, mengakhiri Manifest, memulihkan 50% dari Max HP, dan kemudian memberikan Aero DMG ke semua target di area dalam garis lurus di depan. Setelah mengenai target, hapus semua stack Aero Erosion pada target tersebut. Setiap stack yang dihapus memberikan Amplified pada DMG yang diterima oleh target sebesar 20%, hingga maksimal 5 stack.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Tempest",
-      "description": "Cartethyia membuka move baru saat dia bertransformasi menjadi Fleurdelys:\n\nBasic Attack - Fleurdelys\nBasic Attack - Cartethyia digantikan oleh Basic Attack - Fleurdelys.\nMelakukan hingga 5 serangan berturut-turut, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\n\nMid-air Attack - Fleurdelys\nMid-air Attack - Cartethyia digantikan oleh Mid-air Attack - Fleurdelys.\nMelakukan hingga 3 serangan berturut-turut di udara dengan mengonsumsi STA, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\nSaat berada di udara, tahan Normal Attack untuk melancarkan Mid-air Attack - Fleurdelys Stage 3.\nIkuti dengan Basic Attack sesaat setelahnya untuk melancarkan Basic Attack - Fleurdelys Stage 3.\nSaat berada di udara, melancarkan Resonance Skill - Sword to Answer Waves' Call dan Resonance Skill - May Tempest Break the Tides akan me-reset siklus Mid-air Attack - Fleurdelys.\n\nHeavy Attack - Fleurdelys\nHeavy Attack - Cartethyia digantikan oleh Heavy Attack - Fleurdelys.\nMenerjang ke depan untuk memberikan serangan terfokus, memberikan Aero DMG dan memulihkan Conviction saat terkena hit. Instance DMG ini dianggap sebagai Basic Attack DMG.\n\nEnhanced Heavy Attack - Fleurdelys\nSaat melancarkan Heavy Attack - Fleurdelys, tekan Normal Attack lagi untuk melancarkan Enhanced Heavy Attack - Fleurdelys: mundur ke belakang dan meledakkan area dalam garis lurus di depan, memberikan Aero DMG dan memulihkan Conviction saat terkena hit. Instance DMG ini dianggap sebagai Basic Attack DMG.\nIkuti dengan Basic Attack sesaat setelah melancarkan Enhanced Heavy Attack - Fleurdelys untuk melancarkan Upward Cut - Fleurdelys.\n\nUpward Cut - Fleurdelys\nSaat Fleurdelys berada di tanah, Jump untuk melancarkan skill ini, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\n\nDodge Counter - Fleurdelys\nDodge Counter - Cartethyia digantikan oleh Dodge Counter - Fleurdelys.\nTekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\nIkuti dengan Basic Attack sesaat setelahnya untuk melancarkan Basic Attack - Fleurdelys Stage 4.\n\nResonance Skill - Sword to Answer Waves' Call\nResonance Skill - Cartethyia digantikan oleh Resonance Skill - Sword to Answer Waves' Call.\nMemanggil force field di dekat lokasi target untuk terus menarik target di sekitarnya, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\nDapat dilancarkan di udara.\n\nResonance Skill - May Tempest Break the Tides\nSetelah Resonance Skill - Sword to Answer Waves' Call, tekan Resonance Skill lagi untuk memanggil giant Sword Shadow guna menghantam area di sekitar target, menciptakan force field untuk menarik target di sekitarnya, memberikan Aero DMG pada target di tanah, dan memulihkan Conviction saat terkena hit.\nIkuti dengan Basic Attack sesaat setelahnya untuk melancarkan Basic Attack - Fleurdelys Stage 3.\nResonance Skill memasuki cooldown jika Resonance Skill - May Tempest Break the Tides tidak dilancarkan dalam periode tertentu atau saat berganti ke Resonator lain.\nDapat dilancarkan di udara."
+      "effects": [
+        {
+          "title": "",
+          "description": "Cartethyia membuka move baru saat dia bertransformasi menjadi Fleurdelys:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Basic Attack - Fleurdelys",
+          "description": "Basic Attack - Cartethyia digantikan oleh Basic Attack - Fleurdelys.\nMelakukan hingga 5 serangan berturut-turut, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Fleurdelys",
+          "description": "Mid-air Attack - Cartethyia digantikan oleh Mid-air Attack - Fleurdelys.\nMelakukan hingga 3 serangan berturut-turut di udara dengan mengonsumsi STA, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\nSaat berada di udara, tahan Normal Attack untuk melancarkan Mid-air Attack - Fleurdelys Stage 3.\nIkuti dengan Basic Attack sesaat setelahnya untuk melancarkan Basic Attack - Fleurdelys Stage 3.\nSaat berada di udara, melancarkan Resonance Skill - Sword to Answer Waves' Call dan Resonance Skill - May Tempest Break the Tides akan me-reset siklus Mid-air Attack - Fleurdelys.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Fleurdelys",
+          "description": "Heavy Attack - Cartethyia digantikan oleh Heavy Attack - Fleurdelys.\nMenerjang ke depan untuk memberikan serangan terfokus, memberikan Aero DMG dan memulihkan Conviction saat terkena hit. Instance DMG ini dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Enhanced Heavy Attack - Fleurdelys",
+          "description": "Saat melancarkan Heavy Attack - Fleurdelys, tekan Normal Attack lagi untuk melancarkan Enhanced Heavy Attack - Fleurdelys: mundur ke belakang dan meledakkan area dalam garis lurus di depan, memberikan Aero DMG dan memulihkan Conviction saat terkena hit. Instance DMG ini dianggap sebagai Basic Attack DMG.\nIkuti dengan Basic Attack sesaat setelah melancarkan Enhanced Heavy Attack - Fleurdelys untuk melancarkan Upward Cut - Fleurdelys.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Upward Cut - Fleurdelys",
+          "description": "Saat Fleurdelys berada di tanah, Jump untuk melancarkan skill ini, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Fleurdelys",
+          "description": "Dodge Counter - Cartethyia digantikan oleh Dodge Counter - Fleurdelys.\nTekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\nIkuti dengan Basic Attack sesaat setelahnya untuk melancarkan Basic Attack - Fleurdelys Stage 4.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Sword to Answer Waves' Call",
+          "description": "Resonance Skill - Cartethyia digantikan oleh Resonance Skill - Sword to Answer Waves' Call.\nMemanggil force field di dekat lokasi target untuk terus menarik target di sekitarnya, memberikan Aero DMG dan memulihkan Conviction saat terkena hit.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - May Tempest Break the Tides",
+          "description": "Setelah Resonance Skill - Sword to Answer Waves' Call, tekan Resonance Skill lagi untuk memanggil giant Sword Shadow guna menghantam area di sekitar target, menciptakan force field untuk menarik target di sekitarnya, memberikan Aero DMG pada target di tanah, dan memulihkan Conviction saat terkena hit.\nIkuti dengan Basic Attack sesaat setelahnya untuk melancarkan Basic Attack - Fleurdelys Stage 3.\nResonance Skill memasuki cooldown jika Resonance Skill - May Tempest Break the Tides tidak dilancarkan dalam periode tertentu atau saat berganti ke Resonator lain.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "A Heart'S Truest Wishes",
-        "description": "Healing yang diterima oleh semua Resonator selain Cartethyia/Fleurdelys di dalam tim meningkat sebesar 20% dan Resistance to Interruption mereka ditingkatkan. Jika Rover: Aero ada di dalam tim, Rover: Aero mendapatkan tambahan pemulihan 25 Windstrings saat melancarkan Omega Storm."
+        "effects": [
+          {
+            "title": "",
+            "description": "Healing yang diterima oleh semua Resonator selain Cartethyia/Fleurdelys di dalam tim meningkat sebesar 20% dan Resistance to Interruption mereka ditingkatkan. Jika Rover: Aero ada di dalam tim, Rover: Aero mendapatkan tambahan pemulihan 25 Windstrings saat melancarkan Omega Storm.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Wind'S Indelible Imprint",
-        "description": "Target dengan 1 sampai 3 stack Aero Erosion menerima 30% lebih banyak DMG dari Cartethyia dan Fleurdelys. Target dengan lebih dari 3 stack Aero Erosion secara tambahan menerima 10% lebih banyak DMG dari Cartethyia dan Fleurdelys untuk setiap stack Aero Erosion yang mereka miliki, hingga maksimal 3 stack."
+        "effects": [
+          {
+            "title": "",
+            "description": "Target dengan 1 sampai 3 stack Aero Erosion menerima 30% lebih banyak DMG dari Cartethyia dan Fleurdelys. Target dengan lebih dari 3 stack Aero Erosion secara tambahan menerima 10% lebih banyak DMG dari Cartethyia dan Fleurdelys untuk setiap stack Aero Erosion yang mereka miliki, hingga maksimal 3 stack.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break: Sword",
-        "description": "Saat Off-Tune Level target penuh, Resonator dapat melancarkan Tune Break pada target tersebut."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Off-Tune Level target penuh, Resonator dapat melancarkan Tune Break pada target tersebut.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Sword To Mark Tide'S Trace",
-      "description": "Cartethyia - Sword to Mark Tide's Trace\nMemberikan Aero DMG dan memberikan 2 stack Aero Erosion pada target yang terkena. Memanggil Sword of Discord's Shadow.\nHanya 1 Sword of Discord's Shadow yang dapat ada di saat yang sama, berlangsung selama 20 detik.\nTekan Normal Attack sesaat setelah Cartethyia - Sword to Mark Tide's Trace untuk melakukan Basic Attack - Cartethyia Stage 2.\n\nFleurdelys - Sword to Call for Freedom\nMenerjang ke depan untuk menusuk target, memberikan Aero DMG dan memulihkan Conviction.\nTekan Normal Attack sesaat setelah Fleurdelys - Sword to Call for Freedom untuk melancarkan Basic Attack - Fleurdelys Stage 2."
+      "effects": [
+        {
+          "title": "Cartethyia - Sword to Mark Tide's Trace",
+          "description": "Memberikan Aero DMG dan memberikan 2 stack Aero Erosion pada target yang terkena. Memanggil Sword of Discord's Shadow.\nHanya 1 Sword of Discord's Shadow yang dapat ada di saat yang sama, berlangsung selama 20 detik.\nTekan Normal Attack sesaat setelah Cartethyia - Sword to Mark Tide's Trace untuk melakukan Basic Attack - Cartethyia Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Fleurdelys - Sword to Call for Freedom",
+          "description": "Menerjang ke depan untuk menusuk target, memberikan Aero DMG dan memulihkan Conviction.\nTekan Normal Attack sesaat setelah Fleurdelys - Sword to Call for Freedom untuk melancarkan Basic Attack - Fleurdelys Stage 2.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "outro": {
       "name": "Wind'S Divine Blessing",
-      "description": "Aero DMG yang diberikan oleh Resonator aktif di dalam tim selain Cartethyia/Fleurdelys kepada target dengan Negative Statuses mendapatkan Amplified sebesar 17.5% selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Aero DMG yang diberikan oleh Resonator aktif di dalam tim selain Cartethyia/Fleurdelys kepada target dengan Negative Statuses mendapatkan Amplified sebesar 17.5% selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -413,32 +643,108 @@
     {
       "stage": "S1",
       "name": "Crown Destined By Fate",
-      "description": "Mendapatkan Zeal yang berlangsung selama 10 detik saat serangan Cartethyia atau Fleurdelys secara langsung memberikan damage dan mengalahkan target yang terkena Aero Erosion.\nDalam status Zeal, setelah mengalahkan musuh, gerakan berikutnya yang secara langsung memberikan damage pada target akan meningkatkan stack Aero Erosion pada target tersebut ke jumlah tertinggi di antara target yang dikalahkan. Ini tidak akan melebihi batas max stack Aero Erosion saat ini. Zeal dihapus setelahnya dan memasuki cooldown selama 1 detik.\nSaat Conviction Fleurdelys mencapai 30/60/90/120, Crit. DMG Fleurdelys meningkat sebesar 25% selama 15 detik, hingga 4 stack. Durasi efek ini tidak akan reset saat mendapatkan stack baru. Setelah melancarkan Resonance Liberation - Blade of Howling Squall, peningkatan Crit. DMG tersebut akan dihapus."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mendapatkan Zeal yang berlangsung selama 10 detik saat serangan Cartethyia atau Fleurdelys secara langsung memberikan damage dan mengalahkan target yang terkena Aero Erosion.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dalam status Zeal, setelah mengalahkan musuh, gerakan berikutnya yang secara langsung memberikan damage pada target akan meningkatkan stack Aero Erosion pada target tersebut ke jumlah tertinggi di antara target yang dikalahkan. Ini tidak akan melebihi batas max stack Aero Erosion saat ini. Zeal dihapus setelahnya dan memasuki cooldown selama 1 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Conviction Fleurdelys mencapai 30/60/90/120, Crit. DMG Fleurdelys meningkat sebesar 25% selama 15 detik, hingga 4 stack. Durasi efek ini tidak akan reset saat mendapatkan stack baru. Setelah melancarkan Resonance Liberation - Blade of Howling Squall, peningkatan Crit. DMG tersebut akan dihapus.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Blade Broken By Tempest",
-      "description": "Melancarkan Resonance Liberation - A Knight's Heartfelt Prayers meningkatkan batas max stack Aero Erosion pada target dalam jangkauan tertentu sebanyak 3 stack. Serangan berikutnya yang memberikan damage langsung pada target akan memberikan 3 stack Aero Erosion pada semua target dalam jangkauan tertentu dan segera memicu Aero Erosion DMG pada target yang terkena sebanyak satu kali tanpa mengonsumsi stack Aero Erosion.\nDMG Multipliers dari Basic Attack, Heavy Attack, Dodge Counter, dan Intro Skill Cartethyia meningkat sebesar 50% dan DMG Multiplier dari Mid-air Attack miliknya meningkat sebesar 200%.\nSetelah melancarkan Mid-air Attack - Cartethyia, setiap 1 tipe Sword Shadow yang ditarik kembali akan mengurangi cooldown Resonance Skill - Cartethyia sebesar 1 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Liberation - A Knight's Heartfelt Prayers meningkatkan batas max stack Aero Erosion pada target dalam jangkauan tertentu sebanyak 3 stack. Serangan berikutnya yang memberikan damage langsung pada target akan memberikan 3 stack Aero Erosion pada semua target dalam jangkauan tertentu dan segera memicu Aero Erosion DMG pada target yang terkena sebanyak satu kali tanpa mengonsumsi stack Aero Erosion.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG Multipliers dari Basic Attack, Heavy Attack, Dodge Counter, dan Intro Skill Cartethyia meningkat sebesar 50% dan DMG Multiplier dari Mid-air Attack miliknya meningkat sebesar 200%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah melancarkan Mid-air Attack - Cartethyia, setiap 1 tipe Sword Shadow yang ditarik kembali akan mengurangi cooldown Resonance Skill - Cartethyia sebesar 1 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Prisoner Hanged In The Tower",
-      "description": "Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, Enhanced Heavy Attack - Fleurdelys, dan Resonance Skill - May Tempest Break the Tides sekarang memberikan 2 stack Aero Erosion pada target yang terkena.\nDMG Multiplier dari Resonance Liberation - Blade of Howling Squall meningkat sebesar 100%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, Enhanced Heavy Attack - Fleurdelys, dan Resonance Skill - May Tempest Break the Tides sekarang memberikan 2 stack Aero Erosion pada target yang terkena.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation - Blade of Howling Squall meningkat sebesar 100%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Sacrifice Made For Salvation",
-      "description": "Setelah Resonator di dalam tim memberikan Havoc Bane, Fusion Burst, Spectro Frazzle, Electro Flare, Glacio Chafe, atau Aero Erosion, semua Resonator di dalam tim mendapatkan 20% DMG Bonus untuk semua Attributes selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah Resonator di dalam tim memberikan Havoc Bane, Fusion Burst, Spectro Frazzle, Electro Flare, Glacio Chafe, atau Aero Erosion, semua Resonator di dalam tim mendapatkan 20% DMG Bonus untuk semua Attributes selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Hope Reshaped In Storms",
-      "description": "Saat Cartethyia atau Fleurdelys menerima fatal blow, mereka tidak akan downed oleh instance damage ini, melainkan mendapatkan Shield setara dengan 20% dari Max HP Cartethyia selama 10 detik. Efek ini dapat dipicu sekali setiap 10 menit.\nBiaya HP untuk melancarkan Resonance Liberation - A Knight's Heartfelt Prayers berkurang menjadi 25% dari Max HP."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Cartethyia atau Fleurdelys menerima fatal blow, mereka tidak akan downed oleh instance damage ini, melainkan mendapatkan Shield setara dengan 20% dari Max HP Cartethyia selama 10 detik. Efek ini dapat dipicu sekali setiap 10 menit.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Biaya HP untuk melancarkan Resonance Liberation - A Knight's Heartfelt Prayers berkurang menjadi 25% dari Max HP.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Freedom Found In Storm'S Wake",
-      "description": "Setelah melancarkan Resonance Liberation - Blade of Howling Squall, tingkatkan stack Aero Erosion pada target yang terkena hingga maksimal. Melancarkan Resonance Liberation - Blade of Howling Squall tidak lagi menghapus stack Aero Erosion pada target tersebut.\nDalam kurun waktu 30 detik setelah melancarkan Intro Skill - Sword to Mark Tide's Trace, Intro Skill - Sword to Call for Freedom, Resonance Liberation - A Knight's Heartfelt Prayers, dan Resonance Liberation - Blade of Howling Squall, saat Resonator mana pun di dalam tim memberikan Aero Erosion pada target dengan stack Aero Erosion maksimal, segera pemicu Aero Erosion DMG sebanyak satu kali.\nTarget menerima 40% lebih banyak DMG dari Fleurdelys."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah melancarkan Resonance Liberation - Blade of Howling Squall, tingkatkan stack Aero Erosion pada target yang terkena hingga maksimal. Melancarkan Resonance Liberation - Blade of Howling Squall tidak lagi menghapus stack Aero Erosion pada target tersebut.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dalam kurun waktu 30 detik setelah melancarkan Intro Skill - Sword to Mark Tide's Trace, Intro Skill - Sword to Call for Freedom, Resonance Liberation - A Knight's Heartfelt Prayers, dan Resonance Liberation - Blade of Howling Squall, saat Resonator mana pun di dalam tim memberikan Aero Erosion pada target dengan stack Aero Erosion maksimal, segera pemicu Aero Erosion DMG sebanyak satu kali.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Target menerima 40% lebih banyak DMG dari Fleurdelys.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

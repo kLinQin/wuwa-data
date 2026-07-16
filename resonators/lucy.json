@@ -19,7 +19,8 @@
       "text": "",
       "type": "updated",
       "isNew": true,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "",
@@ -161,41 +162,260 @@
   "skills": {
     "basic": {
       "name": "Locked Thread",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut, menimbulkan Spectro DMG.\nMenahan Normal Attack segera setelah Basic Attack Stage 1 untuk terus menyerang target, menimbulkan Spectro DMG. Menahan skill ini selama durasi tertentu untuk melancarkan Heavy Attack Stage 1.\nMenahan Normal Attack sesaat setelah Basic Attack Stage 3 mendarat untuk melancarkan Heavy Attack Stage 2.\n\nHeavy Attack\nMengonsumsi STA untuk menghajar musuh dengan Monowire, menimbulkan Spectro DMG.\nMenahan Normal Attack setelah Heavy Attack Stage 1 mendarat untuk melancarkan Heavy Attack Stage 2, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan Heavy Attack Stage 1 untuk melancarkan Basic Attack Stage 3.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 2.\n\nDodge Counter\nMenekan Normal Attack sesaat setelah Dodge berhasil untuk menyerang target, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 4.\nMenahan Normal Attack sesaat setelah skill ini mendarat untuk melancarkan Heavy Attack Stage 2.\n\nBasic Attack - Thread Shredding\nSaat berada dalam Algorithm Compaction, Basic Attack Lucy digantikan dengan Basic Attack - Thread Shredding.\nMelakukan hingga 4 serangan berturut-turut, menimbulkan Spectro DMG, dihitung sebagai Heavy Attack DMG.\n\nHeavy Attack - Single Threading\nSaat berada dalam Algorithm Compaction, Heavy Attack Lucy digantikan dengan Heavy Attack - Single Threading.\nMengonsumsi STA untuk menyerang target, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini saat berada di udara untuk melancarkan Mid-air Attack - Algorithm Compaction.\nMenekan Normal Attack sesaat setelah melancarkan skill ini saat berada di tanah untuk melancarkan Basic Attack - Thread Shredding Stage 2.\n\n\nHeavy Attack - Dual Threading\n\nSaat berada dalam Algorithm Compaction dan Root Access mencapai 100 poin, Heavy Attack - Single Threading digantikan dengan Heavy Attack - Dual Threading.\nMengonsumsi STA dan seluruh Root Access untuk menyerang target, menimbulkan Spectro DMG.\nMenekan atau menahan Normal Attack sesaat setelah melancarkan skill ini saat berada di udara untuk melancarkan Heavy Attack - Multi-threading.\nMenekan Normal Attack sesaat setelah melancarkan skill ini saat berada di tanah untuk melancarkan Basic Attack - Thread Shredding Stage 2.\n\n\nHeavy Attack - Multi-threading\n\nMengonsumsi STA untuk menyerang target, menimbulkan Spectro DMG dan memberikan efek Hack - Shifting pada target. SQL dapat dikonsumsi untuk meningkatkan Damage Multiplier serangan ini sebesar 270%.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Thread Shredding Stage 2.\n\n\nMid-air Attack - Algorithm Compaction\n\nSaat berada dalam Algorithm Compaction, Mid-air Attack digantikan dengan Mid-air Attack - Algorithm Compaction.\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Thread Shredding Stage 2.\n\n\nDodge Counter - Algorithm Compaction\n\nSaat berada dalam Algorithm Compaction, Dodge Counter digantikan dengan Dodge Counter - Algorithm Compaction.\nMenekan Normal Attack sesaat setelah Dodge berhasil untuk menyerang target, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Thread Shredding Stage 3."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan berturut-turut, menimbulkan Spectro DMG.\nMenahan Normal Attack segera setelah Basic Attack Stage 1 untuk terus menyerang target, menimbulkan Spectro DMG. Menahan skill ini selama durasi tertentu untuk melancarkan Heavy Attack Stage 1.\nMenahan Normal Attack sesaat setelah Basic Attack Stage 3 mendarat untuk melancarkan Heavy Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk menghajar musuh dengan Monowire, menimbulkan Spectro DMG.\nMenahan Normal Attack setelah Heavy Attack Stage 1 mendarat untuk melancarkan Heavy Attack Stage 2, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan Heavy Attack Stage 1 untuk melancarkan Basic Attack Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Menekan Normal Attack sesaat setelah Dodge berhasil untuk menyerang target, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 4.\nMenahan Normal Attack sesaat setelah skill ini mendarat untuk melancarkan Heavy Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Thread Shredding",
+          "description": "Saat berada dalam Algorithm Compaction, Basic Attack Lucy digantikan dengan Basic Attack - Thread Shredding.\nMelakukan hingga 4 serangan berturut-turut, menimbulkan Spectro DMG, dihitung sebagai Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Single Threading",
+          "description": "Saat berada dalam Algorithm Compaction, Heavy Attack Lucy digantikan dengan Heavy Attack - Single Threading.\nMengonsumsi STA untuk menyerang target, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini saat berada di udara untuk melancarkan Mid-air Attack - Algorithm Compaction.\nMenekan Normal Attack sesaat setelah melancarkan skill ini saat berada di tanah untuk melancarkan Basic Attack - Thread Shredding Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Dual Threading",
+          "description": "Saat berada dalam Algorithm Compaction dan Root Access mencapai 100 poin, Heavy Attack - Single Threading digantikan dengan Heavy Attack - Dual Threading.\nMengonsumsi STA dan seluruh Root Access untuk menyerang target, menimbulkan Spectro DMG.\nMenekan atau menahan Normal Attack sesaat setelah melancarkan skill ini saat berada di udara untuk melancarkan Heavy Attack - Multi-threading.\nMenekan Normal Attack sesaat setelah melancarkan skill ini saat berada di tanah untuk melancarkan Basic Attack - Thread Shredding Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Multi-threading",
+          "description": "Mengonsumsi STA untuk menyerang target, menimbulkan Spectro DMG dan memberikan efek Hack - Shifting pada target. SQL dapat dikonsumsi untuk meningkatkan Damage Multiplier serangan ini sebesar 270%.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Thread Shredding Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Algorithm Compaction",
+          "description": "Saat berada dalam Algorithm Compaction, Mid-air Attack digantikan dengan Mid-air Attack - Algorithm Compaction.\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Thread Shredding Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Algorithm Compaction",
+          "description": "Saat berada dalam Algorithm Compaction, Dodge Counter digantikan dengan Dodge Counter - Algorithm Compaction.\nMenekan Normal Attack sesaat setelah Dodge berhasil untuk menyerang target, menimbulkan Spectro DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Thread Shredding Stage 3.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Protocol Breach",
-      "description": "Resonance Skill - Payload\nMelancarkan Resonance Skill - Payload untuk menerjang ke depan, menimbulkan Spectro DMG dan memberikan efek Hack - Shifting. Saat mengenai target, serangan susulan otomatis terpicu, menimbulkan Spectro DMG dan mengaktifkan Resonance Skill - Pulse Interference. Jika tidak ada target yang terkena saat menerjang, kurangi CD skill sebesar 70%. Jika penerangan terhenti atau tidak berhasil dilancarkan, CD skill tidak berkurang.\nMenekan Normal Attack sesaat setelah serangan susulan untuk melancarkan Basic Attack Stage 2.\nMenahan Normal Attack sesaat setelah serangan susulan mendarat untuk melancarkan Heavy Attack Stage 2.\n\nResonance Skill - Pulse Interference\nMelancarkan Resonance Skill - Pulse Interference untuk menebas target, menimbulkan Spectro DMG dan membuat target Stagnate sejenak, sebelum memberikan Digital Handshake.\nDigital Handshake: Saat Lucy tidak berada dalam Algorithm Compaction dan menjadi Resonator aktif di tim, ia mendapatkan TCP setiap detik. Efek ini hilang ketika TCP mencapai 100 poin atau saat Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive dilancarkan.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 2.\n\nResonance Skill - Deadlock\nSaat TCP mencapai 100 poin atau Lucy berada dalam Algorithm Compaction, Resonance Skill - Payload dan Resonance Skill - Pulse Interference digantikan dengan Resonance Skill - Deadlock.\nMelancarkan Resonance Skill - Deadlock untuk menyerang target, menimbulkan Spectro DMG dan memberikan efek Hack - Shifting, dihitung sebagai Heavy Attack DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Thread Shredding Stage 2.\nMengatur ulang CD Resonance Skill - Deadlock setelah melancarkan Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive."
+      "effects": [
+        {
+          "title": "Resonance Skill - Payload",
+          "description": "Melancarkan Resonance Skill - Payload untuk menerjang ke depan, menimbulkan Spectro DMG dan memberikan efek Hack - Shifting. Saat mengenai target, serangan susulan otomatis terpicu, menimbulkan Spectro DMG dan mengaktifkan Resonance Skill - Pulse Interference. Jika tidak ada target yang terkena saat menerjang, kurangi CD skill sebesar 70%. Jika penerangan terhenti atau tidak berhasil dilancarkan, CD skill tidak berkurang.\nMenekan Normal Attack sesaat setelah serangan susulan untuk melancarkan Basic Attack Stage 2.\nMenahan Normal Attack sesaat setelah serangan susulan mendarat untuk melancarkan Heavy Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Pulse Interference",
+          "description": "Melancarkan Resonance Skill - Pulse Interference untuk menebas target, menimbulkan Spectro DMG dan membuat target Stagnate sejenak, sebelum memberikan Digital Handshake.\nDigital Handshake: Saat Lucy tidak berada dalam Algorithm Compaction dan menjadi Resonator aktif di tim, ia mendapatkan TCP setiap detik. Efek ini hilang ketika TCP mencapai 100 poin atau saat Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive dilancarkan.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Deadlock",
+          "description": "Saat TCP mencapai 100 poin atau Lucy berada dalam Algorithm Compaction, Resonance Skill - Payload dan Resonance Skill - Pulse Interference digantikan dengan Resonance Skill - Deadlock.\nMelancarkan Resonance Skill - Deadlock untuk menyerang target, menimbulkan Spectro DMG dan memberikan efek Hack - Shifting, dihitung sebagai Heavy Attack DMG.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Thread Shredding Stage 2.\nMengatur ulang CD Resonance Skill - Deadlock setelah melancarkan Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Netrunner",
-      "description": "Resonance Liberation - Netrunner\nMelakukan deep dive ke cyberspace dan membuka Protocol Interface selama 10 detik. Saat Protocol Interface aktif, pilih hingga 7 efek Spoofing Program yang berbeda, masing-masing membutuhkan biaya RAM yang berbeda. Lucy memulai dengan 24 poin RAM.\nSaat berada dalam Protocol Interface, Lucy menandai target dalam jangkauan tertentu di pandangannya. Target yang ditandai akan menerima semua efek Spoofing Program yang dipilih setelahnya. Sesuaikan pandangan Lucy untuk menandai lebih banyak target. Jika tidak ada target dalam pandangan, tidak ada Spoofing Program yang dapat diterapkan.\nSaat berada dalam Protocol Interface, ketika durasi berakhir atau saat Normal Attack ditahan, Override terpicu, yang menimbulkan Spectro DMG pada semua target yang ditandai sebelum menutup Protocol Interface, dihitung sebagai Heavy Attack DMG. Ketika RAM habis atau tidak cukup untuk mengaktifkan Spoofing Program apa pun, tekan Normal Attack untuk memicu Override pada semua target yang ditandai.\nDapat dilancarkan di udara dekat tanah.\n\nSpoofing Program: Ping\nMembutuhkan 2 RAM. Memperluas bidang pandang. Lucy menandai dan menimbulkan Spectro DMG pada semua target terdekat dalam jangkauan efektif tanpa harus menyesuaikan pandangan, dihitung sebagai Heavy Attack DMG.\n\nSpoofing Program: Cyberware Malfunction\nMembutuhkan 4 RAM. Target yang ditandai menerima 5% lebih banyak DMG selama 30 detik.\n\nSpoofing Program: Breach Protocol\nMembutuhkan 4 RAM. DEF target yang ditandai berkurang sebesar 5% selama 30 detik.\n\nSpoofing Program: Synapse Burnout\nMembutuhkan 5 RAM. Menimbulkan Spectro DMG pada semua target yang ditandai dalam jangkauan tertentu, dihitung sebagai Heavy Attack DMG.\n\nSpoofing Program: Cripple Movement\nMembutuhkan 6 RAM. Menimbulkan Hack DMG pada semua target yang ditandai dan mengurangi ATK mereka sebesar 5% selama 30 detik.\n\nSpoofing Program: Weapon Glitch\nMembutuhkan 5 RAM. Menyebabkan serangan semua target yang ditandai memiliki kemungkinan berkurang sebesar 100% dalam 30 detik.\n\nSpoofing Program: Cyberpsychosis\nMembutuhkan 6 RAM. Mengubah semua target yang ditandai menjadi unit netral dan mengurangi Vibration Strength mereka. Hanya efektif terhadap musuh kelas Common.\n\nResonance Liberation - Old Net Deep Dive\nSaat berada dalam Algorithm Compaction, setelah Heavy Attack - Multi-threading dilancarkan, Resonance Liberation - Netrunner digantikan dengan Resonance Liberation - Old Net Deep Dive. Lucy mendapatkan semua efek dari Resonance Liberation - Netrunner, dan Damage Multiplier dari Override meningkat secara signifikan.\nSetelah melancarkan Resonance Liberation - Old Net Deep Dive, atau ketika Lucy keluar dari keadaan Algorithm Compaction, Resonance Liberation - Old Net Deep Dive digantikan dengan Resonance Liberation - Netrunner.\nDapat dilancarkan di udara dekat tanah."
+      "effects": [
+        {
+          "title": "Resonance Liberation - Netrunner",
+          "description": "Melakukan deep dive ke cyberspace dan membuka Protocol Interface selama 10 detik. Saat Protocol Interface aktif, pilih hingga 7 efek Spoofing Program yang berbeda, masing-masing membutuhkan biaya RAM yang berbeda. Lucy memulai dengan 24 poin RAM.\nSaat berada dalam Protocol Interface, Lucy menandai target dalam jangkauan tertentu di pandangannya. Target yang ditandai akan menerima semua efek Spoofing Program yang dipilih setelahnya. Sesuaikan pandangan Lucy untuk menandai lebih banyak target. Jika tidak ada target dalam pandangan, tidak ada Spoofing Program yang dapat diterapkan.\nSaat berada dalam Protocol Interface, ketika durasi berakhir atau saat Normal Attack ditahan, Override terpicu, yang menimbulkan Spectro DMG pada semua target yang ditandai sebelum menutup Protocol Interface, dihitung sebagai Heavy Attack DMG. Ketika RAM habis atau tidak cukup untuk mengaktifkan Spoofing Program apa pun, tekan Normal Attack untuk memicu Override pada semua target yang ditandai.\nDapat dilancarkan di udara dekat tanah.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Spoofing Program: Ping",
+          "description": "Membutuhkan 2 RAM. Memperluas bidang pandang. Lucy menandai dan menimbulkan Spectro DMG pada semua target terdekat dalam jangkauan efektif tanpa harus menyesuaikan pandangan, dihitung sebagai Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Spoofing Program: Cyberware Malfunction",
+          "description": "Membutuhkan 4 RAM. Target yang ditandai menerima 5% lebih banyak DMG selama 30 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Spoofing Program: Breach Protocol",
+          "description": "Membutuhkan 4 RAM. DEF target yang ditandai berkurang sebesar 5% selama 30 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Spoofing Program: Synapse Burnout",
+          "description": "Membutuhkan 5 RAM. Menimbulkan Spectro DMG pada semua target yang ditandai dalam jangkauan tertentu, dihitung sebagai Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Spoofing Program: Cripple Movement",
+          "description": "Membutuhkan 6 RAM. Menimbulkan Hack DMG pada semua target yang ditandai dan mengurangi ATK mereka sebesar 5% selama 30 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Spoofing Program: Weapon Glitch",
+          "description": "Membutuhkan 5 RAM. Menyebabkan serangan semua target yang ditandai memiliki kemungkinan berkurang sebesar 100% dalam 30 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Spoofing Program: Cyberpsychosis",
+          "description": "Membutuhkan 6 RAM. Mengubah semua target yang ditandai menjadi unit netral dan mengurangi Vibration Strength mereka. Hanya efektif terhadap musuh kelas Common.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Liberation - Old Net Deep Dive",
+          "description": "Saat berada dalam Algorithm Compaction, setelah Heavy Attack - Multi-threading dilancarkan, Resonance Liberation - Netrunner digantikan dengan Resonance Liberation - Old Net Deep Dive. Lucy mendapatkan semua efek dari Resonance Liberation - Netrunner, dan Damage Multiplier dari Override meningkat secara signifikan.\nSetelah melancarkan Resonance Liberation - Old Net Deep Dive, atau ketika Lucy keluar dari keadaan Algorithm Compaction, Resonance Liberation - Old Net Deep Dive digantikan dengan Resonance Liberation - Netrunner.\nDapat dilancarkan di udara dekat tanah.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Depths Of Blackwall",
-      "description": "Cloud Portal\nSaat tidak berada dalam Algorithm Compaction, Lucy mendapatkan TCP saat mengenai target. Pada 100 poin TCP, Resonance Skill - Payload dan Resonance Skill - Pulse Interference digantikan dengan Resonance Skill - Deadlock.\nMelancarkan Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive menghapus seluruh TCP.\n\nAlgorithm Compaction\nSetelah melancarkan Resonance Skill - Deadlock, Lucy memasuki Algorithm Compaction dan mendapatkan 1 tumpukan SQL. Basic Attack-nya digantikan dengan Basic Attack - Thread Shredding, dan Heavy Attack digantikan dengan Heavy Attack - Single Threading. Bonus Spectro DMG Lucy meningkat sebesar 65% selama 8 detik.\nSaat berada dalam Algorithm Compaction, melancarkan Resonance Skill - Deadlock lagi tidak akan memberikan SQL dan Bonus Spectro DMG secara berulang.\nSaat berada dalam Algorithm Compaction, Lucy mendapatkan Root Access saat mengenai target dengan serangan termasuk Basic Attack - Thread Shredding dan Heavy Attack - Single Threading. Mencapai 100 poin Root Access menggantikan Heavy Attack - Single Threading dengan Heavy Attack - Dual Threading. Tekan atau tahan Normal Attack sesaat setelah melancarkan Heavy Attack - Dual Threading untuk melancarkan Heavy Attack - Multi-threading.\nSaat melancarkan Heavy Attack - Multi-threading, jika Lucy memiliki SQL, tingkatkan Damage Multiplier serangan ini sebesar 270% dan hapus SQL.\nSaat melancarkan Heavy Attack - Multi-threading, jika Lucy tidak memiliki SQL, ia kehilangan 20% HP saat ini. Jika HP Lucy di bawah 1%, tidak ada HP yang dikonsumsi.\nSetelah melancarkan Heavy Attack - Multi-threading, Resonance Liberation - Netrunner digantikan dengan Resonance Liberation - Old Net Deep Dive.\nLucy keluar dari keadaan Algorithm Compaction setelah melancarkan Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive, atau jika Heavy Attack - Multi-threading tidak diikuti oleh salah satu skill berikut: Normal Attack - Locked Thread, Resonance Skill - Protocol Breach, Intro Skill - Outdated Hallucination, dan Tune Break - Data Crash.\n\nHack Response - Data Crash\nLucy menimbulkan Spectro DMG pada target yang terkena Hack - Interfered dan menerapkan Data Crash pada target tersebut, dihitung sebagai Hack DMG.\nData Crash: Setelah target memberikan damage, buat target Stagnate selama 0,5 detik. Data Crash dihapus setelah efek ini terpicu.\n\nTCP\nLucy menyimpan hingga 100 poin TCP.\nLucy mendapatkan TCP saat menimbulkan damage melalui Basic Attack, Heavy Attack, Mid-air Attack, Dodge Counter.\nLucy mendapatkan TCP saat menimbulkan damage melalui Resonance Skill - Payload dan Resonance Skill - Pulse Interference.\nSetelah melancarkan Intro Skill - Outdated Hallucination, melancarkan Resonance Skill - Pulse Interference berikutnya memberikan tambahan 20 poin TCP.\n\nRoot Access\nLucy menyimpan hingga 100 poin Root Access.\nLucy mendapatkan Root Access saat menimbulkan damage melalui Basic Attack - Thread Shredding, Heavy Attack - Single Threading, Mid-air Attack - Algorithm Compaction, dan Dodge Counter - Algorithm Compaction."
+      "effects": [
+        {
+          "title": "Cloud Portal",
+          "description": "Saat tidak berada dalam Algorithm Compaction, Lucy mendapatkan TCP saat mengenai target. Pada 100 poin TCP, Resonance Skill - Payload dan Resonance Skill - Pulse Interference digantikan dengan Resonance Skill - Deadlock.\nMelancarkan Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive menghapus seluruh TCP.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Algorithm Compaction",
+          "description": "Setelah melancarkan Resonance Skill - Deadlock, Lucy memasuki Algorithm Compaction dan mendapatkan 1 tumpukan SQL. Basic Attack-nya digantikan dengan Basic Attack - Thread Shredding, dan Heavy Attack digantikan dengan Heavy Attack - Single Threading. Bonus Spectro DMG Lucy meningkat sebesar 65% selama 8 detik.\nSaat berada dalam Algorithm Compaction, melancarkan Resonance Skill - Deadlock lagi tidak akan memberikan SQL dan Bonus Spectro DMG secara berulang.\nSaat berada dalam Algorithm Compaction, Lucy mendapatkan Root Access saat mengenai target dengan serangan termasuk Basic Attack - Thread Shredding dan Heavy Attack - Single Threading. Mencapai 100 poin Root Access menggantikan Heavy Attack - Single Threading dengan Heavy Attack - Dual Threading. Tekan atau tahan Normal Attack sesaat setelah melancarkan Heavy Attack - Dual Threading untuk melancarkan Heavy Attack - Multi-threading.\nSaat melancarkan Heavy Attack - Multi-threading, jika Lucy memiliki SQL, tingkatkan Damage Multiplier serangan ini sebesar 270% dan hapus SQL.\nSaat melancarkan Heavy Attack - Multi-threading, jika Lucy tidak memiliki SQL, ia kehilangan 20% HP saat ini. Jika HP Lucy di bawah 1%, tidak ada HP yang dikonsumsi.\nSetelah melancarkan Heavy Attack - Multi-threading, Resonance Liberation - Netrunner digantikan dengan Resonance Liberation - Old Net Deep Dive.\nLucy keluar dari keadaan Algorithm Compaction setelah melancarkan Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive, atau jika Heavy Attack - Multi-threading tidak diikuti oleh salah satu skill berikut: Normal Attack - Locked Thread, Resonance Skill - Protocol Breach, Intro Skill - Outdated Hallucination, dan Tune Break - Data Crash.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Hack Response - Data Crash",
+          "description": "Lucy menimbulkan Spectro DMG pada target yang terkena Hack - Interfered dan menerapkan Data Crash pada target tersebut, dihitung sebagai Hack DMG.\nData Crash: Setelah target memberikan damage, buat target Stagnate selama 0,5 detik. Data Crash dihapus setelah efek ini terpicu.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "TCP",
+          "description": "Lucy menyimpan hingga 100 poin TCP.\nLucy mendapatkan TCP saat menimbulkan damage melalui Basic Attack, Heavy Attack, Mid-air Attack, Dodge Counter.\nLucy mendapatkan TCP saat menimbulkan damage melalui Resonance Skill - Payload dan Resonance Skill - Pulse Interference.\nSetelah melancarkan Intro Skill - Outdated Hallucination, melancarkan Resonance Skill - Pulse Interference berikutnya memberikan tambahan 20 poin TCP.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Root Access",
+          "description": "Lucy menyimpan hingga 100 poin Root Access.\nLucy mendapatkan Root Access saat menimbulkan damage melalui Basic Attack - Thread Shredding, Heavy Attack - Single Threading, Mid-air Attack - Algorithm Compaction, dan Dodge Counter - Algorithm Compaction.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Ghost Cyberware",
-        "description": " Saat Lucy menjadi Resonator aktif di tim, jika ia tidak menerima damage selama 8 detik, ia mendapatkan 1 tumpukan Optical Illusion. Maksimal 1 tumpukan secara default.\nOptical Illusion: Saat diserang, kurangi damage instance ini sebesar 100%. Jika Lucy terkena atau terpental dari serangan, ia segera pulih dan memicu Dodge berhasil jika berada di tanah. Setelah efek ini terpicu, hapus 1 tumpukan Optical Illusion. Efek ini dapat terpicu hingga 1 kali setiap 0,5 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Lucy menjadi Resonator aktif di tim, jika ia tidak menerima damage selama 8 detik, ia mendapatkan 1 tumpukan Optical Illusion. Maksimal 1 tumpukan secara default.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Optical Illusion: Saat diserang, kurangi damage instance ini sebesar 100%. Jika Lucy terkena atau terpental dari serangan, ia segera pulih dan memicu Dodge berhasil jika berada di tanah. Setelah efek ini terpicu, hapus 1 tumpukan Optical Illusion. Efek ini dapat terpicu hingga 1 kali setiap 0,5 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Function Cracking",
-        "description": " Saat Resonance Skill - Payload, Resonance Skill - Pulse Interference, atau Resonance Skill - Deadlock memberikan damage pada musuh kelas Overlord atau Calamity, Lucy menerapkan Botnet Mark pada mereka selama 2 menit. Saat Botnet Mark aktif, ketika seorang Resonator di tim mengalahkan target tersebut dengan direct damage, Lucy mendapatkan efek Network Backdoor. Jika Rebecca berada di tim, ia juga mendapatkan efek yang sama.\n\nNetwork Backdoor\nMemberikan 10% All DMG Amplification dan 10% tambahan Hack DMG Multiplier. Efek ini berlangsung selama 2 menit dan dapat menumpuk hingga 2 kali. Pada 2 tumpukan, tambahkan peningkatan All DMG Amplification sebesar 5% dan Hack DMG Multiplier sebesar 5%. Saat Lucy downed, ia tidak dapat lagi mendapatkan Network Backdoor, dan semua efek Network Backdoor yang ada menjadi tidak valid."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Resonance Skill - Payload, Resonance Skill - Pulse Interference, atau Resonance Skill - Deadlock memberikan damage pada musuh kelas Overlord atau Calamity, Lucy menerapkan Botnet Mark pada mereka selama 2 menit. Saat Botnet Mark aktif, ketika seorang Resonator di tim mengalahkan target tersebut dengan direct damage, Lucy mendapatkan efek Network Backdoor. Jika Rebecca berada di tim, ia juga mendapatkan efek yang sama.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "Network Backdoor",
+            "description": "Memberikan 10% All DMG Amplification dan 10% tambahan Hack DMG Multiplier. Efek ini berlangsung selama 2 menit dan dapat menumpuk hingga 2 kali. Pada 2 tumpukan, tambahkan peningkatan All DMG Amplification sebesar 5% dan Hack DMG Multiplier sebesar 5%. Saat Lucy downed, ia tidak dapat lagi mendapatkan Network Backdoor, dan semua efek Network Backdoor yang ada menjadi tidak valid.",
+            "isTitleVisible": true
+          }
+        ]
       },
       {
         "name": "Data Crash",
-        "description": "Saat Off-Tune Level target penuh, Lucy dapat melancarkan Tune Break pada target tersebut.\nMerespons Hack - Interfered: saat Resonator di tim memicu Tune Break pada target dan menyebabkan mereka terkena efek Hack - Interfered, Lucy menerapkan Hack Response - Data Crash pada target tersebut. Setiap target dapat menerima efek ini hingga 1 kali setiap 8 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Off-Tune Level target penuh, Lucy dapat melancarkan Tune Break pada target tersebut.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Merespons Hack - Interfered: saat Resonator di tim memicu Tune Break pada target dan menyebabkan mereka terkena efek Hack - Interfered, Lucy menerapkan Hack Response - Data Crash pada target tersebut. Setiap target dapat menerima efek ini hingga 1 kali setiap 8 detik.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Outdated Hallucination",
-      "description": "Menyerang target, menimbulkan Spectro DMG dan memberikan efek Involuntary Sharing kepada Resonator di tim, memungkinkan mereka melihat target di balik hambatan selama 25 detik. Selain itu, Involuntary Sharing ditingkatkan pada Rebecca, memungkinkannya mengunci target di balik hambatan. Jika turret Rebecca berada di medan pertempuran, efek Overload-nya diaktifkan, meningkatkan damage yang ditimbulkan selama 4 detik.\nJika Lucy tidak berada dalam Algorithm Compaction setelah melancarkan skill ini, tekan Normal Attack dalam waktu tertentu untuk melancarkan Basic Attack Stage 2.\nJika Lucy berada dalam Algorithm Compaction setelah melancarkan skill ini, tekan Normal Attack dalam waktu tertentu untuk melancarkan Basic Attack - Thread Shredding Stage 2.\nSetelah melancarkan skill ini, Resonance Skill - Pulse Interference berikutnya memberikan tambahan 20 poin TCP."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, menimbulkan Spectro DMG dan memberikan efek Involuntary Sharing kepada Resonator di tim, memungkinkan mereka melihat target di balik hambatan selama 25 detik. Selain itu, Involuntary Sharing ditingkatkan pada Rebecca, memungkinkannya mengunci target di balik hambatan. Jika turret Rebecca berada di medan pertempuran, efek Overload-nya diaktifkan, meningkatkan damage yang ditimbulkan selama 4 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Lucy tidak berada dalam Algorithm Compaction setelah melancarkan skill ini, tekan Normal Attack dalam waktu tertentu untuk melancarkan Basic Attack Stage 2.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Lucy berada dalam Algorithm Compaction setelah melancarkan skill ini, tekan Normal Attack dalam waktu tertentu untuk melancarkan Basic Attack - Thread Shredding Stage 2.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah melancarkan skill ini, Resonance Skill - Pulse Interference berikutnya memberikan tambahan 20 poin TCP.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Countermeasure Program",
-      "description": "Resonator yang masuk mendapatkan 25% Basic Attack DMG Amplification selama 14 detik atau hingga mereka diganti keluar.\nMemberikan efek Countermeasure Program kepada semua Resonator di tim selama 25 detik.\nSaat efek aktif, ketika Resonator aktif di tim selain Lucy memberikan efek Hack - Shifting, Resonator tersebut mendapatkan 20% All DMG Amplification.\nSaat efek aktif, ketika Resonator di tim selain Lucy diserang, Lucy memberikan mereka 30% DMG Reduction selama 3 detik dan membuat penyerang mereka Stagnate selama 1 detik. Efek ini hanya dapat terpicu hingga 1 kali saat Countermeasure Program aktif. Mendapatkan Countermeasure Program lagi mengatur ulang muatan efektif.\nKetika All DMG Amplification efektif, beralih ke Resonator lain mengakhiri Countermeasure Program lebih awal."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk mendapatkan 25% Basic Attack DMG Amplification selama 14 detik atau hingga mereka diganti keluar.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Memberikan efek Countermeasure Program kepada semua Resonator di tim selama 25 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat efek aktif, ketika Resonator aktif di tim selain Lucy memberikan efek Hack - Shifting, Resonator tersebut mendapatkan 20% All DMG Amplification.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat efek aktif, ketika Resonator di tim selain Lucy diserang, Lucy memberikan mereka 30% DMG Reduction selama 3 detik dan membuat penyerang mereka Stagnate selama 1 detik. Efek ini hanya dapat terpicu hingga 1 kali saat Countermeasure Program aktif. Mendapatkan Countermeasure Program lagi mengatur ulang muatan efektif.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Ketika All DMG Amplification efektif, beralih ke Resonator lain mengakhiri Countermeasure Program lebih awal.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -411,32 +631,128 @@
     {
       "stage": "S1",
       "name": "The Moon, A Ticket, And A Dream",
-      "description": "Lucy kini kebal terhadap interupsi saat melancarkan Resonance Skill - Payload, Resonance Skill - Pulse Interference, Heavy Attack - Dual Threading, dan Heavy Attack - Multi-threading.\nMelancarkan Intro Skill - Outdated Hallucination meningkatkan ATK sebesar 20% selama 14 detik.\nSaat seorang Resonator di tim mengalahkan target yang terpengaruh oleh Spoofing Program dengan direct damage, Lucy mencatat efek yang terpicu dan mengaktifkan Quick Action yang sesuai pada Resonator tersebut selama 6 detik. Catatan ini kedaluwarsa saat Lucy KO.\nQuick Action: Saat diaktifkan, terapkan efek Spoofing Program yang tercatat pada target dalam jarak tertentu dari Resonator aktif di tim, efektif sekali saja pada setiap target.\nEfek Spoofing Program berikut dapat dicatat: Spoofing Program: Cyberware Malfunction, Spoofing Program: Breach Protocol, Spoofing Program: Cripple Movement, Spoofing Program: Weapon Glitch, dan Spoofing Program: Cyberpsychosis. Saat menerapkan efek Spoofing Program melalui Quick Action, hanya efek status berkelanjutan yang diterapkan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Lucy kini kebal terhadap interupsi saat melancarkan Resonance Skill - Payload, Resonance Skill - Pulse Interference, Heavy Attack - Dual Threading, dan Heavy Attack - Multi-threading.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan Intro Skill - Outdated Hallucination meningkatkan ATK sebesar 20% selama 14 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat seorang Resonator di tim mengalahkan target yang terpengaruh oleh Spoofing Program dengan direct damage, Lucy mencatat efek yang terpicu dan mengaktifkan Quick Action yang sesuai pada Resonator tersebut selama 6 detik. Catatan ini kedaluwarsa saat Lucy KO.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Quick Action: Saat diaktifkan, terapkan efek Spoofing Program yang tercatat pada target dalam jarak tertentu dari Resonator aktif di tim, efektif sekali saja pada setiap target.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek Spoofing Program berikut dapat dicatat: Spoofing Program: Cyberware Malfunction, Spoofing Program: Breach Protocol, Spoofing Program: Cripple Movement, Spoofing Program: Weapon Glitch, dan Spoofing Program: Cyberpsychosis. Saat menerapkan efek Spoofing Program melalui Quick Action, hanya efek status berkelanjutan yang diterapkan.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "The Blackwall, The Past, The Escape",
-      "description": "Saat melancarkan Resonance Liberation - Netrunner dan Resonance Liberation - Old Net Deep Dive, RAM awal Lucy meningkat menjadi 32.\nSetelah melancarkan Resonance Skill - Pulse Interference, timbulkan 1 instance tambahan Spectro DMG sebesar 450% dari ATK Lucy, dihitung sebagai Heavy Attack DMG.\nSaat instance damage ini mengenai target, terapkan semua efek Spoofing Program berikut: Spoofing Program: Cyberware Malfunction, Spoofing Program: Breach Protocol, Spoofing Program: Cripple Movement, Spoofing Program: Weapon Glitch, dan Spoofing Program: Cyberpsychosis. Hanya efek status berkelanjutan yang diterapkan.\nForte Circuit - Depths of Blackwall ditingkatkan: Saat melancarkan Heavy Attack - Multi-threading, jika Lucy memiliki SQL, peningkatan Damage Multiplier naik dari 270% menjadi 560%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat melancarkan Resonance Liberation - Netrunner dan Resonance Liberation - Old Net Deep Dive, RAM awal Lucy meningkat menjadi 32.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah melancarkan Resonance Skill - Pulse Interference, timbulkan 1 instance tambahan Spectro DMG sebesar 450% dari ATK Lucy, dihitung sebagai Heavy Attack DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat instance damage ini mengenai target, terapkan semua efek Spoofing Program berikut: Spoofing Program: Cyberware Malfunction, Spoofing Program: Breach Protocol, Spoofing Program: Cripple Movement, Spoofing Program: Weapon Glitch, dan Spoofing Program: Cyberpsychosis. Hanya efek status berkelanjutan yang diterapkan.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Forte Circuit - Depths of Blackwall ditingkatkan: Saat melancarkan Heavy Attack - Multi-threading, jika Lucy memiliki SQL, peningkatan Damage Multiplier naik dari 270% menjadi 560%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Cyberpunk",
-      "description": "Damage Multiplier dari Override pada Resonance Liberation - Netrunner dan Resonance Liberation - Old Net Deep Dive meningkat sebesar 50%, dan Crit. DMG-nya meningkat sebesar 100%.\nDamage Multiplier dari Spoofing Program: Cripple Movement meningkat sebesar 65%.\nDamage Multiplier dari Hack Response - Data Crash meningkat sebesar 65%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage Multiplier dari Override pada Resonance Liberation - Netrunner dan Resonance Liberation - Old Net Deep Dive meningkat sebesar 50%, dan Crit. DMG-nya meningkat sebesar 100%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Damage Multiplier dari Spoofing Program: Cripple Movement meningkat sebesar 65%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Damage Multiplier dari Hack Response - Data Crash meningkat sebesar 65%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "No Living Legends In Night City",
-      "description": "Saat Resonator di tim memberikan efek Hack - Shifting, Resonator di tim mendapatkan 20% All-Attribute DMG Bonus selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Resonator di tim memberikan efek Hack - Shifting, Resonator di tim mendapatkan 20% All-Attribute DMG Bonus selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "A Broken Path To Hell",
-      "description": "Batas tumpukan Optical Illusion yang diperoleh melalui Inherent Skill - Ghost Cyberware meningkat menjadi 2.\nInherent Skill - Ghost Cyberware kini ditingkatkan: Saat HP Lucy turun di bawah 50%, ia segera mendapatkan 1 tumpukan Optical Illusion saat terkena serangan. Efek ini memiliki Cooldown 180 detik. Saat Optical Illusion terpicu, Lucy mendapatkan Shield sebesar 150% dari ATK selama 10 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Batas tumpukan Optical Illusion yang diperoleh melalui Inherent Skill - Ghost Cyberware meningkat menjadi 2.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Inherent Skill - Ghost Cyberware kini ditingkatkan: Saat HP Lucy turun di bawah 50%, ia segera mendapatkan 1 tumpukan Optical Illusion saat terkena serangan. Efek ini memiliki Cooldown 180 detik. Saat Optical Illusion terpicu, Lucy mendapatkan Shield sebesar 150% dari ATK selama 10 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "I Really Want To Stay At Your House",
-      "description": "Target dengan efek Hack - Shifting atau dalam keadaan Hack - Interfered menerima peningkatan 40% Heavy Attack DMG dari Lucy.\nTarget dengan efek Hack - Shifting atau dalam keadaan Hack - Interfered menerima peningkatan 60% Hack DMG dari Lucy.\nStagnation yang dipicu oleh Hack Response - Data Crash kini berlangsung selama 1,5 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Target dengan efek Hack - Shifting atau dalam keadaan Hack - Interfered menerima peningkatan 40% Heavy Attack DMG dari Lucy.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Target dengan efek Hack - Shifting atau dalam keadaan Hack - Interfered menerima peningkatan 60% Hack DMG dari Lucy.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Stagnation yang dipicu oleh Hack Response - Data Crash kini berlangsung selama 1,5 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

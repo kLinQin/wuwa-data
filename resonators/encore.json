@@ -17,7 +17,8 @@
       "text": "Minimal update.",
       "type": "input",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "",
@@ -202,28 +203,134 @@
   "skills": {
     "basic": {
       "name": "Wooly Attack",
-      "description": "Basic Attack\nEncore melakukan hingga 4 serangan beruntun, memberikan  Fusion DMG.\n\nHeavy Attack \nEncore mengonsumsi Stamina untuk menyerang target, memberikan  Fusion DMG.\n\nMid-air Attack\nEncore mengonsumsi Stamina untuk melakukan Mid-Air Plunging Attack, memberikan  Fusion DMG.\n\nDodge Counter\nGunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Encore melakukan hingga 4 serangan beruntun, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Encore mengonsumsi Stamina untuk menyerang target, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Encore mengonsumsi Stamina untuk melakukan Mid-Air Plunging Attack, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Flaming Woolies",
-      "description": "Encore memanggil Cloudy dan Cosmos untuk menyerang dengan sinar api, \nmemberikan  Fusion DMG.\n\nEnergetic Welcome\nSetelah menggunakan Flaming Woolies, \ntekan Resonance Skill untuk melepaskan Energetic Welcome, memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Encore memanggil Cloudy dan Cosmos untuk menyerang dengan sinar api,",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "memberikan  Fusion DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Energetic Welcome",
+          "description": "Setelah menggunakan Flaming Woolies,\ntekan Resonance Skill untuk melepaskan Energetic Welcome, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Cosmos Rave",
-      "description": "Saat Encore kehilangan kendali, \nCosmos melepaskan diri dan menghancurkan segala sesuatu di sekitarnya.\n\nBasic Attack: Cosmos - Frolicking\nSaat Cosmos Rave aktif, Basic Attack digantikan dengan Cosmos - Frolicking, melakukan hingga 4 serangan beruntun, \nmemberikan  Fusion DMG (dihitung sebagai Basic Attack DMG).\n\nCosmos: Heavy Attack\nSaat Cosmos Rave aktif, Heavy Attack digantikan dengan Cosmos - Heavy Attack, mengonsumsi Stamina untuk menyerang target, \nmemberikan  Fusion DMG (dihitung sebagai Heavy Attack DMG).\n\nResonance Skill: Cosmos - Rampage\nSaat Cosmos Rave aktif, Flaming Woolies digantikan dengan Cosmos - Rampage, memberikan  Fusion DMG (dihitung sebagai Resonance Skill DMG).\n\nCosmos: Dodge Counter\nSaat Cosmos Rave aktif, gunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG (dihitung sebagai Basic Attack DMG)."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Encore kehilangan kendali,",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Cosmos melepaskan diri dan menghancurkan segala sesuatu di sekitarnya.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Basic Attack: Cosmos - Frolicking",
+          "description": "Saat Cosmos Rave aktif, Basic Attack digantikan dengan Cosmos - Frolicking, melakukan hingga 4 serangan beruntun,\nmemberikan  Fusion DMG (dihitung sebagai Basic Attack DMG).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Cosmos: Heavy Attack",
+          "description": "Saat Cosmos Rave aktif, Heavy Attack digantikan dengan Cosmos - Heavy Attack, mengonsumsi Stamina untuk menyerang target,\nmemberikan  Fusion DMG (dihitung sebagai Heavy Attack DMG).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill: Cosmos - Rampage",
+          "description": "Saat Cosmos Rave aktif, Flaming Woolies digantikan dengan Cosmos - Rampage, memberikan  Fusion DMG (dihitung sebagai Resonance Skill DMG).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Cosmos: Dodge Counter",
+          "description": "Saat Cosmos Rave aktif, gunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG (dihitung sebagai Basic Attack DMG).",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Black & White Woolies",
-      "description": "Heavy Attack: Cloudy Frenzy\nSaat Mayhem Encore penuh, setelah menggunakan Heavy Attack, Encore akan mengonsumsi seluruh Mayhem untuk memasuki Mayhem State, \nmengurangi DMG yang diterima sebesar 70%.\nMayhem State tidak akan terputus jika mengganti karakter.\nSetelah Mayhem State berakhir, Encore akan menggunakan Cloudy Frenzy, \nmemberikan  Fusion DMG (dihitung sebagai Resonance Liberation DMG).\n\nHeavy Attack: Cosmos Rupture\nSaat Cosmos Rave aktif, jika Mayhem penuh saat menggunakan Heavy Attack, Encore akan mengonsumsi seluruh Mayhem untuk memasuki 'Cosmos' Mayhem State, \nmengurangi DMG yang diterima sebesar 70%.\n'Cosmos' Mayhem State tidak akan terputus jika mengganti karakter.\nSetelah 'Cosmos' Mayhem State berakhir, Encore akan menggunakan Cosmos Rupture, memberikan  Fusion DMG (dihitung sebagai Resonance Liberation DMG).\n\nMayhem\nEncore dapat menyimpan hingga 100 Mayhem.\nEncore memulihkan Mayhem saat Basic Attack: Wooly Attack mengenai target.\nEncore memulihkan Mayhem saat Resonance Skill: Flaming Woolies mengenai target.\nEncore memulihkan Mayhem saat Resonance Skill: Energetic Welcome mengenai target.\nEncore memulihkan Mayhem saat Intro Skill: Woolies Helpers mengenai target.\nSaat Resonance Liberation: Cosmos Rave aktif, \nEncore memulihkan Mayhem setiap kali serangan mengenai target."
+      "effects": [
+        {
+          "title": "Heavy Attack: Cloudy Frenzy",
+          "description": "Saat Mayhem Encore penuh, setelah menggunakan Heavy Attack, Encore akan mengonsumsi seluruh Mayhem untuk memasuki Mayhem State,\nmengurangi DMG yang diterima sebesar 70%.\nMayhem State tidak akan terputus jika mengganti karakter.\nSetelah Mayhem State berakhir, Encore akan menggunakan Cloudy Frenzy,\nmemberikan  Fusion DMG (dihitung sebagai Resonance Liberation DMG).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack: Cosmos Rupture",
+          "description": "Saat Cosmos Rave aktif, jika Mayhem penuh saat menggunakan Heavy Attack, Encore akan mengonsumsi seluruh Mayhem untuk memasuki 'Cosmos' Mayhem State,\nmengurangi DMG yang diterima sebesar 70%.\n'Cosmos' Mayhem State tidak akan terputus jika mengganti karakter.\nSetelah 'Cosmos' Mayhem State berakhir, Encore akan menggunakan Cosmos Rupture, memberikan  Fusion DMG (dihitung sebagai Resonance Liberation DMG).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mayhem",
+          "description": "Encore dapat menyimpan hingga 100 Mayhem.\nEncore memulihkan Mayhem saat Basic Attack: Wooly Attack mengenai target.\nEncore memulihkan Mayhem saat Resonance Skill: Flaming Woolies mengenai target.\nEncore memulihkan Mayhem saat Resonance Skill: Energetic Welcome mengenai target.\nEncore memulihkan Mayhem saat Intro Skill: Woolies Helpers mengenai target.\nSaat Resonance Liberation: Cosmos Rave aktif,\nEncore memulihkan Mayhem setiap kali serangan mengenai target.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Angry Cosmos",
-        "description": "Saat Resonance Liberation: Cosmos Rave aktif dan HP Encore di atas 70%, \nDMG yang dihasilkan meningkat 10%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Resonance Liberation: Cosmos Rave aktif dan HP Encore di atas 70%,",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "DMG yang dihasilkan meningkat 10%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Woolies Cheer Dance",
-        "description": "Saat menggunakan Resonance Skill: Flaming Woolies atau Resonance Skill: Cosmos - Rampage, \n Fusion DMG Bonus Encore meningkat 10% selama 10 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat menggunakan Resonance Skill: Flaming Woolies atau Resonance Skill: Cosmos - Rampage,",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Fusion DMG Bonus Encore meningkat 10% selama 10 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break: Rectifier",
@@ -232,11 +339,33 @@
     ],
     "intro": {
       "name": "Woolies Helpers",
-      "description": "Encore melompat ke arah musuh bersama Cosmos, memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Encore melompat ke arah musuh bersama Cosmos, memberikan  Fusion DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Thermal Field",
-      "description": "Encore menciptakan Thermal Field dengan radius 3 meter di sekitar target.\nMusuh di dalam Thermal Field akan terbakar secara terus-menerus, \nmenerima  Fusion DMG sebesar 176.76% ATK Encore setiap 1.5 detik selama 6 detik"
+      "effects": [
+        {
+          "title": "",
+          "description": "Encore menciptakan Thermal Field dengan radius 3 meter di sekitar target.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Musuh di dalam Thermal Field akan terbakar secara terus-menerus,",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "menerima  Fusion DMG sebesar 176.76% ATK Encore setiap 1.5 detik selama 6 detik",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -458,32 +587,83 @@
     {
       "stage": "S1",
       "name": "Wooly'S Fairy Tale",
-      "description": "Saat Basic Attack mengenai target, Fusion DMG Bonus Encore meningkat 3%, dapat ditumpuk hingga 4 kali selama 6 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Basic Attack mengenai target, Fusion DMG Bonus Encore meningkat 3%, dapat ditumpuk hingga 4 kali selama 6 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Sheep-Counting Lullaby",
-      "description": "Encore memulihkan tambahan 10 Resonance Energy saat menggunakan Basic Attack: Wooly Strike atau Resonance Skill: Energetic Welcome.\nDapat dipicu setiap 10 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Encore memulihkan tambahan 10 Resonance Energy saat menggunakan Basic Attack: Wooly Strike atau Resonance Skill: Energetic Welcome.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat dipicu setiap 10 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Fog? The Black Shores!",
-      "description": "Multiplier DMG dari Heavy Attack: Cloudy Frenzy dan Heavy Attack: Cosmos Rupture meningkat 40%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Multiplier DMG dari Heavy Attack: Cloudy Frenzy dan Heavy Attack: Cosmos Rupture meningkat 40%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Adventure? Let'S Go",
-      "description": "Heavy Attack: Cosmos Rupture meningkatkan  Fusion DMG  Bonus seluruh anggota tim sebesar 20% selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Heavy Attack: Cosmos Rupture meningkatkan  Fusion DMG  Bonus seluruh anggota tim sebesar 20% selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Hero Takes The Stage!",
-      "description": "Resonance Skill DMG Bonus meningkat 35%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill DMG Bonus meningkat 35%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Woolies Save The World!",
-      "description": "Saat Resonance Liberation: Cosmos Rave aktif, setiap kali Encore memberikan serangan, \nia mendapatkan 1 stack(s) \"Lost Lamb\", \ndi mana setiap stack(s) meningkatkan ATK sebesar 5% selama 10 detik, dapat ditumpuk hingga 5 kali."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Resonance Liberation: Cosmos Rave aktif, setiap kali Encore memberikan serangan,",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "ia mendapatkan 1 stack(s) \"Lost Lamb\",",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "di mana setiap stack(s) meningkatkan ATK sebesar 5% selama 10 detik, dapat ditumpuk hingga 5 kali.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

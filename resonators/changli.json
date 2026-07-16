@@ -19,7 +19,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "City Hall",
@@ -182,28 +183,109 @@
   "skills": {
     "basic": {
       "name": "Blazing Enlightment",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan beruntun, memberikan  Fusion DMG.\nSetelah menggunakan Basic Attack 4, masuk ke True Sight selama 12 detik.\n\nHeavy Attack\nTahan Basic Attack saat berada di tanah untuk melakukan tebasan ke atas dengan mengorbankan Stamina, memberikan  Fusion DMG\nGunakan Basic Attack dalam waktu tertentu untuk mengaktifkan Mid-air Attack 3.\n\nMid-air Attack\nMenggunakan Stamina untuk melakukan hingga 4 serangan beruntun di udara, memberikan  Fusion DMG.\nSetelah menggunakan Mid-air Attack 4, masuk ke True Sight selama 12 detik.\n\nMid-air Heavy Attack\nSesaat setelah menahan Basic Attack di udara atau menggunakan Basic Attack True Sight: Charge, gunakan Basic Attack untuk melakukan serangan jatuh dengan mengorbankan Stamina, memberikan  Fusion DMG.\nGunakan Basic Attack dalam waktu tertentu untuk mengaktifkan Basic Attack 3.\n\nDodge Counter\nGunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan beruntun, memberikan  Fusion DMG.\nSetelah menggunakan Basic Attack 4, masuk ke True Sight selama 12 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Tahan Basic Attack saat berada di tanah untuk melakukan tebasan ke atas dengan mengorbankan Stamina, memberikan  Fusion DMG\nGunakan Basic Attack dalam waktu tertentu untuk mengaktifkan Mid-air Attack 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Menggunakan Stamina untuk melakukan hingga 4 serangan beruntun di udara, memberikan  Fusion DMG.\nSetelah menggunakan Mid-air Attack 4, masuk ke True Sight selama 12 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Heavy Attack",
+          "description": "Sesaat setelah menahan Basic Attack di udara atau menggunakan Basic Attack True Sight: Charge, gunakan Basic Attack untuk melakukan serangan jatuh dengan mengorbankan Stamina, memberikan  Fusion DMG.\nGunakan Basic Attack dalam waktu tertentu untuk mengaktifkan Basic Attack 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Tripartite Flames",
-      "description": "True Sight: Capture\nSaat menggunakan Resonance Skill, Changli melesat ke arah musuh dan memasuki True Sight selama 12 detik. Setelahnya, ia melakukan Plunge ATK yang memberikan  Fusion DMG.\nTrue Sight: Capture memiliki 2 initial charges dan dapat menyimpan hingga 2 Maksimum charges.\ncharges akan bertambah 1 setiap 12 detik.\nDapat digunakan di udara.\n\nBasic Attack: True Sight - Conquest\nSaat berada dalam True Sight,jika Changli menggunakan Ground Basic Attack, ia akan melepaskan True Sight: Conquest, melesat ke arah musuh dan memberikan  Fusion DMG yang dihitung sebagai Resonance Skill DMG. Setelah menggunakannya, True Sight berakhir.\n\nBasic Attack: True Sight - Charge\nSaat berada dalam True Sight, jika Changli melompat atau menggunakan Basic Attack di udara, ia akan melepaskan True Sight: Charge melesat ke arah musuh dan memberikan  Fusion DMG yang dihitung sebagai Resonance Skill DMG. Setelah menggunakannya, True Sight berakhir."
+      "effects": [
+        {
+          "title": "True Sight: Capture",
+          "description": "Saat menggunakan Resonance Skill, Changli melesat ke arah musuh dan memasuki True Sight selama 12 detik. Setelahnya, ia melakukan Plunge ATK yang memberikan  Fusion DMG.\nTrue Sight: Capture memiliki 2 initial charges dan dapat menyimpan hingga 2 Maksimum charges.\ncharges akan bertambah 1 setiap 12 detik.\nDapat digunakan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack: True Sight - Conquest",
+          "description": "Saat berada dalam True Sight,jika Changli menggunakan Ground Basic Attack, ia akan melepaskan True Sight: Conquest, melesat ke arah musuh dan memberikan  Fusion DMG yang dihitung sebagai Resonance Skill DMG. Setelah menggunakannya, True Sight berakhir.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack: True Sight - Charge",
+          "description": "Saat berada dalam True Sight, jika Changli melompat atau menggunakan Basic Attack di udara, ia akan melepaskan True Sight: Charge melesat ke arah musuh dan memberikan  Fusion DMG yang dihitung sebagai Resonance Skill DMG. Setelah menggunakannya, True Sight berakhir.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Radiance Of Fealty",
-      "description": "Memberikan  Fusion DMG ke target di sekitar, mendapatkan 4 stacks Enflamement, dan memasuki Fiery Feather.\nDapat digunakan di udara.\n\nFiery Feather\nSaat Changli menggunakan Heavy Attack: Flaming Sacrifice dalam 10 detik, ATK meningkat 25%, lalu Fiery Feather berakhir."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan  Fusion DMG ke target di sekitar, mendapatkan 4 stacks Enflamement, dan memasuki Fiery Feather.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat digunakan di udara.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Fiery Feather",
+          "description": "Saat Changli menggunakan Heavy Attack: Flaming Sacrifice dalam 10 detik, ATK meningkat 25%, lalu Fiery Feather berakhir.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Flaming Sacrifice",
-      "description": "Heavy Attack: Flaming Sacrifice\nSaat menggunakan Heavy Attack, jika Changli memiliki 4 stack(s) Enflamement, ia akan menghabiskan semua stack(s) tersebut untuk melepaskan Flaming Sacrifice, memberikan  Fusion DMG yang dihitung sebagai Resonance Skill DMG.\nSaat menggunakan Flaming Sacrifice, Changli menerima 40% lebih sedikit DMG.\n\nEnflamement\n\nChangli dapat menyimpan hingga 4 stack(s) Enflamement.\n\nMendapatkan 1 stack(s) Enflamementsetiap kali Basic Attack: True Sight: Conquest mengenai target.\n\nMendapatkan 1 stack(s) Enflamement setiap kali Basic Attack: True Sight: Charge mengenai target.\n\nMendapatkan 4 tstack(s) Enflamement setiap kali menggunakan Resonance Liberation: Radiance of Fealty."
+      "effects": [
+        {
+          "title": "Heavy Attack: Flaming Sacrifice",
+          "description": "Saat menggunakan Heavy Attack, jika Changli memiliki 4 stack(s) Enflamement, ia akan menghabiskan semua stack(s) tersebut untuk melepaskan Flaming Sacrifice, memberikan  Fusion DMG yang dihitung sebagai Resonance Skill DMG.\nSaat menggunakan Flaming Sacrifice, Changli menerima 40% lebih sedikit DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Enflamement",
+          "description": "Changli dapat menyimpan hingga 4 stack(s) Enflamement.\nMendapatkan 1 stack(s) Enflamementsetiap kali Basic Attack: True Sight: Conquest mengenai target.\nMendapatkan 1 stack(s) Enflamement setiap kali Basic Attack: True Sight: Charge mengenai target.\nMendapatkan 4 tstack(s) Enflamement setiap kali menggunakan Resonance Liberation: Radiance of Fealty.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Secret Strategist",
-        "description": "Saat Changli menggunakan Basic Attack: True Sight: Conquest atau Basic Attack: True Sight: Charge, untuk setiap stack(s) Enflamement,  Fusion DMG Bonus meningkat 5%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Changli menggunakan Basic Attack: True Sight: Conquest atau Basic Attack: True Sight: Charge, untuk setiap stack(s) Enflamement,  Fusion DMG Bonus meningkat 5%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Sweeping Force",
-        "description": "Menggunakan Heavy Attack: Flaming Sacrifice atau Resonance Liberation: Radiance of Fealty memberikan 20%  Fusion DMG Bonus dan mengabaikan 15% DEF musuh saat memberikan serangan."
+        "effects": [
+          {
+            "title": "",
+            "description": "Menggunakan Heavy Attack: Flaming Sacrifice atau Resonance Liberation: Radiance of Fealty memberikan 20%  Fusion DMG Bonus dan mengabaikan 15% DEF musuh saat memberikan serangan.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break: Sword",
@@ -212,11 +294,23 @@
     ],
     "intro": {
       "name": "Obedience Of Rules",
-      "description": "Changli muncul di udara, menyerang target, lalu memasuki True Sight selama 12 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Changli muncul di udara, menyerang target, lalu memasuki True Sight selama 12 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Strategy Of Duality",
-      "description": "Resonator yang masuk akan mendapatkan 20%  Fusion DMG Amplification dan 25% Resonance Liberation DMG Amplification selama 10 detik atau hingga mereka diganti."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk akan mendapatkan 20%  Fusion DMG Amplification dan 25% Resonance Liberation DMG Amplification selama 10 detik atau hingga mereka diganti.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -408,32 +502,68 @@
     {
       "stage": "S1",
       "name": "Hidden Thoughts",
-      "description": "Resonance Skill: Tripartite Flames dan Heavy Attack: Flaming Sacrifice meningkatkan DMG yang dihasilkan oleh Changli sebesar 10% serta meningkatkan ketahanan terhadap gangguan saat menyerang."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill: Tripartite Flames dan Heavy Attack: Flaming Sacrifice meningkatkan DMG yang dihasilkan oleh Changli sebesar 10% serta meningkatkan ketahanan terhadap gangguan saat menyerang.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Pursuit Of Desires",
-      "description": "Setiap Enflamement meningkatkan Crit. Rate Changli sebesar 25% selama 8 detik.\n\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "Setiap Enflamement meningkatkan Crit. Rate Changli sebesar 25% selama 8 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Learned Secrets",
-      "description": "Resonance Liberation: Radiance of Fealty mendapatkan peningkatan DMG sebesar 80%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation: Radiance of Fealty mendapatkan peningkatan DMG sebesar 80%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Polished Words",
-      "description": "Setelah menggunakan Intro Skill, ATK seluruh anggota tim meningkat 20% selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah menggunakan Intro Skill, ATK seluruh anggota tim meningkat 20% selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Sacrificed Gains",
-      "description": "Multiplier dari Heavy Attack: Flaming Sacrifice meningkat 50%, dan DMG yang dihasilkan juga meningkat 50%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Multiplier dari Heavy Attack: Flaming Sacrifice meningkat 50%, dan DMG yang dihasilkan juga meningkat 50%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Realized Plans",
-      "description": "Resonance Skill: Tripartite Flames, Heavy Attack: Flaming Sacrifice dan Resonance Liberation: Radiance of Fealty mengabaikan tambahan 40% dari DEF musuh saat memberikan serangan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill: Tripartite Flames, Heavy Attack: Flaming Sacrifice dan Resonance Liberation: Radiance of Fealty mengabaikan tambahan 40% dari DEF musuh saat memberikan serangan.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

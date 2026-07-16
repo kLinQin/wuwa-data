@@ -19,7 +19,8 @@
       "text": "input data character baru",
       "type": "updated",
       "isNew": true,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Startorch Academy",
@@ -162,41 +163,215 @@
   "skills": {
     "basic": {
       "name": "Such Is Light",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut, memberikan Spectro DMG.\nMelemparkan bilah berputar pada Tahap 3, yang menghilang saat Luuk Herssen melancarkan skill lain yang dapat memberikan damage atau meninggalkan medan tempur.\n\nHeavy Attack\nMengonsumsi STA untuk melompat ke udara, memberikan Spectro DMG.\n\nMid-air Attack\nMelakukan hingga 4 serangan berturut-turut di udara, memberikan Spectro DMG. Tahap 4 adalah Plunging Attack dengan mengonsumsi STA.\nTekan Normal Attack atau Jump untuk melakukan Basic Attack Tahap 2 dan 3 di udara.\nLuuk Herssen menyerang dengan Scythe: Dissection saat input berupa Normal Attack.\nLuuk Herssen menyerang dengan Scythe: Resection saat input berupa Jump. Ia juga memberikan Tune Strain - Shifting pada target yang terkena serangan selama 25 detik dan mengurangi DMG yang diterima sebesar 15% selama 1 detik.\nSebagai Resonator aktif, saat berada di udara, siklus skill ini tidak akan direset.\nSaat berada di udara, tahan Normal Attack untuk melakukan Plunging Attack dengan mengonsumsi STA.\n\nDodge Counter\nTekan Normal Attack tepat setelah Dodge yang berhasil di darat untuk memberikan Spectro DMG. Tekan Normal Attack tepat setelah melancarkan skill ini untuk melancarkan Basic Attack Tahap 3.\nTekan Normal Attack tepat setelah Dodge yang berhasil di udara untuk berpindah cepat ke arah target, memberikan Spectro DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan berturut-turut, memberikan Spectro DMG.\nMelemparkan bilah berputar pada Tahap 3, yang menghilang saat Luuk Herssen melancarkan skill lain yang dapat memberikan damage atau meninggalkan medan tempur.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk melompat ke udara, memberikan Spectro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Melakukan hingga 4 serangan berturut-turut di udara, memberikan Spectro DMG. Tahap 4 adalah Plunging Attack dengan mengonsumsi STA.\nTekan Normal Attack atau Jump untuk melakukan Basic Attack Tahap 2 dan 3 di udara.\nLuuk Herssen menyerang dengan Scythe: Dissection saat input berupa Normal Attack.\nLuuk Herssen menyerang dengan Scythe: Resection saat input berupa Jump. Ia juga memberikan Tune Strain - Shifting pada target yang terkena serangan selama 25 detik dan mengurangi DMG yang diterima sebesar 15% selama 1 detik.\nSebagai Resonator aktif, saat berada di udara, siklus skill ini tidak akan direset.\nSaat berada di udara, tahan Normal Attack untuk melakukan Plunging Attack dengan mengonsumsi STA.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Normal Attack tepat setelah Dodge yang berhasil di darat untuk memberikan Spectro DMG. Tekan Normal Attack tepat setelah melancarkan skill ini untuk melancarkan Basic Attack Tahap 3.\nTekan Normal Attack tepat setelah Dodge yang berhasil di udara untuk berpindah cepat ke arah target, memberikan Spectro DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Reunion Of All The Fallen",
-      "description": "Golden Reflux\nBerpindah cepat ke arah target dan memberikan Spectro DMG. Memberikan Tune Strain - Shifting pada target yang terkena serangan selama 25 detik.\nGolden Reflux memiliki 2 cas.\nDapat dilancarkan di udara.\n\nAureole of Execution\nMelancarkan Basic Attack Tahap 4 atau Mid-air Attack Tahap 3 menggantikan Resonance Skill dengan Aureole of Execution, yang memberikan Basic Attack DMG dan memberikan Tune Strain - Shifting pada target yang terkena serangan selama 25 detik.\nAureole of Execution memiliki 3 wujud, termasuk Aureole of Execution: Ring, Aureole of Execution: Breach, dan Aureole of Execution: Glare.\nMelancarkan wujud apa pun dari Aureole of Execution memberikan 1 stack Endnotes on the Endgame dan mengubah Aureole of Execution ke wujud berikutnya secara berurutan.\nBeralih ke Resonator lain me-reset siklus Aureole of Execution dan Resonance Skill dikembalikan ke Golden Reflux.\nDapat dilancarkan di udara.\n\nAureole of Execution: Ring\nMemberikan Spectro DMG, dan reset siklus Mid-air Attack ke Tahap 1.\nNormal Attack berikutnya memicu Basic Attack - Golden Impale.\nBasic Attack - Golden Impale tidak lagi tersedia jika Dodge Counter dilancarkan di udara atau Luuk Herssen diganti selama durasi tersebut.\n\nAureole of Execution: Breach\nBerputar dan menerjang ke depan, memberikan Spectro DMG kepada musuh di sepanjang jalur dan reset siklus Mid-air Attack ke Tahap 1. Kemudian, melemparkan Ichor Blade.\nNormal Attack berikutnya memicu Basic Attack - Golden Impale.\nBasic Attack - Golden Impale tidak lagi tersedia jika Dodge Counter dilancarkan di udara atau Luuk Herssen diganti selama durasi tersebut.\n\nAureole of Execution: Glare\nMelemparkan Solid-State Ichor, memberikan Spectro DMG dan membentuk Ichor Deposit di darat.\n\nBasic Attack - Golden Impale\nBerpindah cepat ke arah target dan memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.\n\nIchor Deposit\nIchor Deposit meledak secara otomatis setelah 5 detik, memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.\n\nEndnotes on the Endgame\nMeningkatkan DMG Multiplier dari Resonance Liberation Rewritten in Winter's Margins sebesar 25%, dapat menumpuk hingga 3 kali. Melancarkan Rewritten in Winter's Margins atau beralih ke Resonator lain menghapus semua stack."
+      "effects": [
+        {
+          "title": "Golden Reflux",
+          "description": "Berpindah cepat ke arah target dan memberikan Spectro DMG. Memberikan Tune Strain - Shifting pada target yang terkena serangan selama 25 detik.\nGolden Reflux memiliki 2 cas.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Aureole of Execution",
+          "description": "Melancarkan Basic Attack Tahap 4 atau Mid-air Attack Tahap 3 menggantikan Resonance Skill dengan Aureole of Execution, yang memberikan Basic Attack DMG dan memberikan Tune Strain - Shifting pada target yang terkena serangan selama 25 detik.\nAureole of Execution memiliki 3 wujud, termasuk Aureole of Execution: Ring, Aureole of Execution: Breach, dan Aureole of Execution: Glare.\nMelancarkan wujud apa pun dari Aureole of Execution memberikan 1 stack Endnotes on the Endgame dan mengubah Aureole of Execution ke wujud berikutnya secara berurutan.\nBeralih ke Resonator lain me-reset siklus Aureole of Execution dan Resonance Skill dikembalikan ke Golden Reflux.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Aureole of Execution: Ring",
+          "description": "Memberikan Spectro DMG, dan reset siklus Mid-air Attack ke Tahap 1.\nNormal Attack berikutnya memicu Basic Attack - Golden Impale.\nBasic Attack - Golden Impale tidak lagi tersedia jika Dodge Counter dilancarkan di udara atau Luuk Herssen diganti selama durasi tersebut.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Aureole of Execution: Breach",
+          "description": "Berputar dan menerjang ke depan, memberikan Spectro DMG kepada musuh di sepanjang jalur dan reset siklus Mid-air Attack ke Tahap 1. Kemudian, melemparkan Ichor Blade.\nNormal Attack berikutnya memicu Basic Attack - Golden Impale.\nBasic Attack - Golden Impale tidak lagi tersedia jika Dodge Counter dilancarkan di udara atau Luuk Herssen diganti selama durasi tersebut.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Aureole of Execution: Glare",
+          "description": "Melemparkan Solid-State Ichor, memberikan Spectro DMG dan membentuk Ichor Deposit di darat.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Golden Impale",
+          "description": "Berpindah cepat ke arah target dan memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Ichor Deposit",
+          "description": "Ichor Deposit meledak secara otomatis setelah 5 detik, memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Endnotes on the Endgame",
+          "description": "Meningkatkan DMG Multiplier dari Resonance Liberation Rewritten in Winter's Margins sebesar 25%, dapat menumpuk hingga 3 kali. Melancarkan Rewritten in Winter's Margins atau beralih ke Resonator lain menghapus semua stack.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Rewritten In Winter'S Margins",
-      "description": "Memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.\nDapat dilancarkan di udara.\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan Spectro DMG, dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat dilancarkan di udara.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Spark From The Frost",
-      "description": "Mid-air Attack - Gavel of Earthshaker\nSaat Solid-State Ichor dari Resonance Skill Aureole of Execution: Glare dilemparkan, tekan Normal Attack di udara untuk melancarkan Mid-air Attack - Gavel of Earthshaker.\nMenghantam turun dari udara untuk meledakkan Ichor Deposit, memberikan Spectro DMG (dianggap sebagai Basic Attack DMG) dan memulihkan semua STA.\nMid-air Attack - Gavel of Earthshaker tidak lagi tersedia saat Resonance Liberation Rewritten in Winter's Margins dilancarkan atau Luuk Herssen meninggalkan medan tempur.\n\nAureate Judge\nDengan Ichor Flow penuh, masuki status Aureate Judge. Dalam status ini, Luuk Herssen mendapatkan efek berikut:\n- Ichor Flow tidak pulih. DMG Multiplier dari semua wujud Resonance Skill Aureole of Execution meningkat sebesar 110%.\n- Melancarkan Aureole of Execution: Glare meningkatkan DMG Multiplier dari Mid-air Attack - Gavel of Earthshaker berikutnya dan damage Ichor Deposit sebesar 110%.\n- 100 poin Ichor Flow dikonsumsi setiap kali Resonance Skill Aureole of Execution dilancarkan.\n- Aureate Judge berakhir saat Ichor Flow habis.\n\nGolden Rule\nSaat Luuk Herssen berada di dalam tim, semua Resonator lain dalam tim mendapatkan Golden Rule. Saat Resonator dengan Golden Rule melancarkan Outro Skill dan Resonator yang masuk adalah Luuk Herssen, hapus semua Golden Rule pada Resonator di dalam tim dan berikan Luuk Herssen 200 poin Ichor Flow serta 12 poin Concerto Energy. Resonator dalam tim mendapatkan Golden Rule kembali setelah 24 detik. Efek ini tidak berlaku dalam Co-op Mode.\n\nDawnlit Keep\nLuuk Herssen mendapatkan 1 stack Dawnlit Keep saat ia berada di luar pertempuran selama lebih dari 4 detik atau melancarkan Intro Skill Before Injection of Dawn.\nDawnlit Keep dibatasi hingga 1 stack. Saat menerima damage dari musuh, konsumsi 1 stack Dawnlit Keep untuk mengurangi damage yang diterima sebesar 60% dan dapatkan kekebalan terhadap gangguan (interruption) selama 1 detik. Efek ini dapat dipicu sekali per detik.\n\nRadiant Reave\nSaat Luuk Herssen melakukan Dodge di udara, ia tetap melayang di udara sejenak dan melemparkan Ichor Blade.\nLuuk Herssen mengonsumsi STA secara terus-menerus saat melayang di udara.\nJika Luuk Herssen terlempar ke udara, tekan Dodge sebelum mendarat untuk memicu efek ini, hingga 3 kali. Saat ia berada di darat atau diganti selama lebih dari 3 detik, jumlah pemicu akan di-reset.\n\nIchor Blade\nMemberikan Spectro DMG tetap, dianggap sebagai Basic Attack DMG yang tidak dipengaruhi oleh DMG Bonus apa pun.\nHanya satu Ichor Blade yang dapat ada dalam satu waktu. Ini tidak dapat memicu Counterattack.\nIchor Blade tidak dapat diluncurkan tanpa target di sekitar.\nIchor Blade menghilang saat Luuk Herssen melancarkan skill lain yang memberikan damage atau meninggalkan medan tempur.\n\nIchor Flow\nLuuk Herssen menampung hingga 300 poin Ichor Flow.\nNormal Attack, Resonance Skill Golden Reflux, Resonance Skill Aureole of Execution, Basic Attack - Golden Impale, dan Mid-air Attack - Gavel of Earthshaker memulihkan Ichor Flow saat mengenai target.\nMelancarkan Intro Skill Before Injection of Dawn memulihkan 100 poin Ichor Flow."
+      "effects": [
+        {
+          "title": "Mid-air Attack - Gavel of Earthshaker",
+          "description": "Saat Solid-State Ichor dari Resonance Skill Aureole of Execution: Glare dilemparkan, tekan Normal Attack di udara untuk melancarkan Mid-air Attack - Gavel of Earthshaker.\nMenghantam turun dari udara untuk meledakkan Ichor Deposit, memberikan Spectro DMG (dianggap sebagai Basic Attack DMG) dan memulihkan semua STA.\nMid-air Attack - Gavel of Earthshaker tidak lagi tersedia saat Resonance Liberation Rewritten in Winter's Margins dilancarkan atau Luuk Herssen meninggalkan medan tempur.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Aureate Judge",
+          "description": "Dengan Ichor Flow penuh, masuki status Aureate Judge. Dalam status ini, Luuk Herssen mendapatkan efek berikut:\n- Ichor Flow tidak pulih. DMG Multiplier dari semua wujud Resonance Skill Aureole of Execution meningkat sebesar 110%.\n- Melancarkan Aureole of Execution: Glare meningkatkan DMG Multiplier dari Mid-air Attack - Gavel of Earthshaker berikutnya dan damage Ichor Deposit sebesar 110%.\n- 100 poin Ichor Flow dikonsumsi setiap kali Resonance Skill Aureole of Execution dilancarkan.\n- Aureate Judge berakhir saat Ichor Flow habis.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Golden Rule",
+          "description": "Saat Luuk Herssen berada di dalam tim, semua Resonator lain dalam tim mendapatkan Golden Rule. Saat Resonator dengan Golden Rule melancarkan Outro Skill dan Resonator yang masuk adalah Luuk Herssen, hapus semua Golden Rule pada Resonator di dalam tim dan berikan Luuk Herssen 200 poin Ichor Flow serta 12 poin Concerto Energy. Resonator dalam tim mendapatkan Golden Rule kembali setelah 24 detik. Efek ini tidak berlaku dalam Co-op Mode.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dawnlit Keep",
+          "description": "Luuk Herssen mendapatkan 1 stack Dawnlit Keep saat ia berada di luar pertempuran selama lebih dari 4 detik atau melancarkan Intro Skill Before Injection of Dawn.\nDawnlit Keep dibatasi hingga 1 stack. Saat menerima damage dari musuh, konsumsi 1 stack Dawnlit Keep untuk mengurangi damage yang diterima sebesar 60% dan dapatkan kekebalan terhadap gangguan (interruption) selama 1 detik. Efek ini dapat dipicu sekali per detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Radiant Reave",
+          "description": "Saat Luuk Herssen melakukan Dodge di udara, ia tetap melayang di udara sejenak dan melemparkan Ichor Blade.\nLuuk Herssen mengonsumsi STA secara terus-menerus saat melayang di udara.\nJika Luuk Herssen terlempar ke udara, tekan Dodge sebelum mendarat untuk memicu efek ini, hingga 3 kali. Saat ia berada di darat atau diganti selama lebih dari 3 detik, jumlah pemicu akan di-reset.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Ichor Blade",
+          "description": "Memberikan Spectro DMG tetap, dianggap sebagai Basic Attack DMG yang tidak dipengaruhi oleh DMG Bonus apa pun.\nHanya satu Ichor Blade yang dapat ada dalam satu waktu. Ini tidak dapat memicu Counterattack.\nIchor Blade tidak dapat diluncurkan tanpa target di sekitar.\nIchor Blade menghilang saat Luuk Herssen melancarkan skill lain yang memberikan damage atau meninggalkan medan tempur.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Ichor Flow",
+          "description": "Luuk Herssen menampung hingga 300 poin Ichor Flow.\nNormal Attack, Resonance Skill Golden Reflux, Resonance Skill Aureole of Execution, Basic Attack - Golden Impale, dan Mid-air Attack - Gavel of Earthshaker memulihkan Ichor Flow saat mengenai target.\nMelancarkan Intro Skill Before Injection of Dawn memulihkan 100 poin Ichor Flow.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Pulses Under The Snow",
-        "description": "Saat Resonator dalam tim memberikan damage langsung dan mengalahkan target, jika target tersebut terkena pengaruh Tune Strain - Interfered:\n- Jika Luuk Herssen tidak memiliki Perpetuating Daytime, dapatkan stack Perpetuating Daytime sejumlah stack Tune Strain - Interfered.\n- Jika Luuk Herssen sudah memiliki Perpetuating Daytime, dan stack Tune Strain - Interfered target melebihi stack Perpetuating Daytime saat ini, tingkatkan stack Perpetuating Daytime agar sesuai dengan stack Tune Strain - Interfered target.\n\n\nPerpetuating Daytime\n- Saat Resonator dalam tim melancarkan Tune Break, jika target terkena pengaruh Tune Strain - Shifting, Luuk Herssen kehilangan semua stack Perpetuating Daytime, lalu berikan stack Tune Strain - Interfered yang setara pada target, hingga batas maksimal stack Tune Strain - Interfered target saat ini. Cooldown: 1 detik.\nLuuk Herssen kehilangan semua stack Perpetuating Daytime dan tidak akan bisa mendapatkan stack baru saat terkapar (knocked out).\n- Perpetuating Daytime menumpuk hingga 2 kali."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Resonator dalam tim memberikan damage langsung dan mengalahkan target, jika target tersebut terkena pengaruh Tune Strain - Interfered:",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Jika Luuk Herssen tidak memiliki Perpetuating Daytime, dapatkan stack Perpetuating Daytime sejumlah stack Tune Strain - Interfered.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Jika Luuk Herssen sudah memiliki Perpetuating Daytime, dan stack Tune Strain - Interfered target melebihi stack Perpetuating Daytime saat ini, tingkatkan stack Perpetuating Daytime agar sesuai dengan stack Tune Strain - Interfered target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "Perpetuating Daytime",
+            "description": "- Saat Resonator dalam tim melancarkan Tune Break, jika target terkena pengaruh Tune Strain - Shifting, Luuk Herssen kehilangan semua stack Perpetuating Daytime, lalu berikan stack Tune Strain - Interfered yang setara pada target, hingga batas maksimal stack Tune Strain - Interfered target saat ini. Cooldown: 1 detik.\nLuuk Herssen kehilangan semua stack Perpetuating Daytime dan tidak akan bisa mendapatkan stack baru saat terkapar (knocked out).\n- Perpetuating Daytime menumpuk hingga 2 kali.",
+            "isTitleVisible": true
+          }
+        ]
       },
       {
         "name": "Uncaused Diagnosis",
-        "description": "Saat skill Luuk Herssen memberikan damage langsung pada target yang terkena pengaruh Tune Strain - Interfered, setiap 10 poin Tune Break Boost yang ia miliki akan melakukan Amplify pada instansi damage ini sebesar 5%, hingga maksimal 30%.\nSetelah Resonator terdekat dalam tim memberikan Tune Strain - Shifting pada musuh atau memberikan Tune Break DMG, ATK Luuk Herssen meningkat sebesar 25% selama 20 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat skill Luuk Herssen memberikan damage langsung pada target yang terkena pengaruh Tune Strain - Interfered, setiap 10 poin Tune Break Boost yang ia miliki akan melakukan Amplify pada instansi damage ini sebesar 5%, hingga maksimal 30%.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Setelah Resonator terdekat dalam tim memberikan Tune Strain - Shifting pada musuh atau memberikan Tune Break DMG, ATK Luuk Herssen meningkat sebesar 25% selama 20 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break - Silent Debate Of Light",
-        "description": "Luuk Herssen dapat memberikan Tune Strain - Shifting pada target.\nLuuk Herssen dapat menanggapi Tune Strain - Interfered.\nSaat menanggapi Tune Strain - Interfered: Untuk setiap stack Tune Strain - Interfered pada target, setiap poin Tune Break Boost Luuk Herssen meningkatkan total DMG miliknya terhadap target sebesar 0.12%. Selama Luuk Herssen berada di dalam tim, batas stack maksimal Tune Strain - Interfered pada target meningkat sebanyak 1.\nSaat Off-Tune Level target penuh, Luuk Herssen dapat melancarkan Tune Break pada target."
+        "effects": [
+          {
+            "title": "",
+            "description": "Luuk Herssen dapat memberikan Tune Strain - Shifting pada target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Luuk Herssen dapat menanggapi Tune Strain - Interfered.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat menanggapi Tune Strain - Interfered: Untuk setiap stack Tune Strain - Interfered pada target, setiap poin Tune Break Boost Luuk Herssen meningkatkan total DMG miliknya terhadap target sebesar 0.12%. Selama Luuk Herssen berada di dalam tim, batas stack maksimal Tune Strain - Interfered pada target meningkat sebanyak 1.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat Off-Tune Level target penuh, Luuk Herssen dapat melancarkan Tune Break pada target.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Before Injection Of Dawn",
-      "description": "intro\nMemberikan Spectro DMG. Melemparkan Ichor Blade dan memberikan Tune Strain - Shifting pada target.\nTekan Normal Attack setelah skill ini untuk melancarkan Mid-air Attack Tahap 2 - Scythe: Dissection atau Jump untuk melancarkan Mid-air Attack Tahap 2 - Scythe: Resection.\n"
+      "effects": [
+        {
+          "title": "intro",
+          "description": "Memberikan Spectro DMG. Melemparkan Ichor Blade dan memberikan Tune Strain - Shifting pada target.\nTekan Normal Attack setelah skill ini untuk melancarkan Mid-air Attack Tahap 2 - Scythe: Dissection atau Jump untuk melancarkan Mid-air Attack Tahap 2 - Scythe: Resection.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "outro": {
       "name": "Bow To The Last Light",
-      "description": "Memberikan Spectro DMG sebesar 500% dari ATK Luuk Herssen."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan Spectro DMG sebesar 500% dari ATK Luuk Herssen.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -388,32 +563,113 @@
     {
       "stage": "S1",
       "name": "Gold Kindled In Ash",
-      "description": "Luuk Herssen mendapatkan 150% Mid-air Attack DMG Bonus.\nBatas stack maksimal Dawnlit Keep meningkat sebanyak 1.\nSaat dalam status Aureate Judge, melancarkan Resonance Skill Aureole of Execution memberikan 1 stack Dawnlit Keep.\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "Luuk Herssen mendapatkan 150% Mid-air Attack DMG Bonus.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Batas stack maksimal Dawnlit Keep meningkat sebanyak 1.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat dalam status Aureate Judge, melancarkan Resonance Skill Aureole of Execution memberikan 1 stack Dawnlit Keep.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Avalanche Roaring In Eyes",
-      "description": "DMG Multiplier dari Resonance Liberation Rewritten in Winter's Margins meningkat sebesar 60%. Efek peningkatan DMG Multiplier ini dapat menumpuk dengan efek dari Endnotes on the Endgame.\nInherent Skill Uncaused Diagnosis diperkuat:\nSaat Luuk Herssen memberikan damage pada target yang terkena pengaruh Tune Strain - Interfered, setiap 10 poin Tune Break Boost yang ia miliki sekarang melakukan Amplify pada instansi damage ini sebesar 10%. Efek ini sekarang meningkatkan DMG Amplification hingga 60%, alih-alih 30%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation Rewritten in Winter's Margins meningkat sebesar 60%. Efek peningkatan DMG Multiplier ini dapat menumpuk dengan efek dari Endnotes on the Endgame.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Inherent Skill Uncaused Diagnosis diperkuat:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Luuk Herssen memberikan damage pada target yang terkena pengaruh Tune Strain - Interfered, setiap 10 poin Tune Break Boost yang ia miliki sekarang melakukan Amplify pada instansi damage ini sebesar 10%. Efek ini sekarang meningkatkan DMG Amplification hingga 60%, alih-alih 30%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Spine Tempered By Golden Rain",
-      "description": "DMG Multiplier dari semua wujud Resonance Skill Aureole of Execution meningkat sebesar 136% dalam status Aureate Judge. Melancarkan Aureole of Execution: Glare meningkatkan DMG Multiplier dari Mid-air Attack - Gavel of Earthshaker berikutnya dan Ichor Deposit sebesar 136%.\nInherent Skill Pulses Under the Snow diperkuat:\nPerpetuating Daytime sekarang menumpuk hingga 4 kali."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari semua wujud Resonance Skill Aureole of Execution meningkat sebesar 136% dalam status Aureate Judge. Melancarkan Aureole of Execution: Glare meningkatkan DMG Multiplier dari Mid-air Attack - Gavel of Earthshaker berikutnya dan Ichor Deposit sebesar 136%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Inherent Skill Pulses Under the Snow diperkuat:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Perpetuating Daytime sekarang menumpuk hingga 4 kali.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Pulse Thrumming Under Rime",
-      "description": "Setelah Resonator dalam tim memberikan Tune Break DMG, semua Resonator dalam tim memberikan 20% DMG lebih banyak selama 20 detik. Efek ini tidak dapat menumpuk."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah Resonator dalam tim memberikan Tune Break DMG, semua Resonator dalam tim memberikan 20% DMG lebih banyak selama 20 detik. Efek ini tidak dapat menumpuk.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Through The Stillness Of Snowstorm",
-      "description": "Intro Skill Before Injection of Dawn dan Outro Skill Bow to the Last Light mendapatkan 80% DMG Bonus.\nResonance Skill Golden Reflux memiliki DMG Multiplier yang meningkat sebesar 50% dan Cooldown berkurang selama 2 detik, serta mendapatkan 1 cas tambahan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Intro Skill Before Injection of Dawn dan Outro Skill Bow to the Last Light mendapatkan 80% DMG Bonus.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Resonance Skill Golden Reflux memiliki DMG Multiplier yang meningkat sebesar 50% dan Cooldown berkurang selama 2 detik, serta mendapatkan 1 cas tambahan.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Dawn Unfurling Over Frostlands",
-      "description": "Saat Resonator terdekat dalam tim memberikan Tune Break DMG, semua wujud Resonance Skill Aureole of Execution, Ichor Deposit, dan Mid-air Attack - Gavel of Earthshaker memberikan 30% DMG lebih banyak kepada target selama 25 detik.\nSetiap stack Endnotes on the Endgame secara tambahan memberikan Resonance Liberation Rewritten in Winter's Margins 40% DMG Bonus, hingga maksimal 120%.\nSaat Luuk Herssen memberikan damage pada target yang terkena pengaruh Tune Strain - Interfered, jumlah stack Tune Strain - Interfered pada target meningkat sebanyak 2. Efek ini mengabaikan batas stack maksimal."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Resonator terdekat dalam tim memberikan Tune Break DMG, semua wujud Resonance Skill Aureole of Execution, Ichor Deposit, dan Mid-air Attack - Gavel of Earthshaker memberikan 30% DMG lebih banyak kepada target selama 25 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setiap stack Endnotes on the Endgame secara tambahan memberikan Resonance Liberation Rewritten in Winter's Margins 40% DMG Bonus, hingga maksimal 120%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Luuk Herssen memberikan damage pada target yang terkena pengaruh Tune Strain - Interfered, jumlah stack Tune Strain - Interfered pada target meningkat sebanyak 2. Efek ini mengabaikan batas stack maksimal.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

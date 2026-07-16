@@ -21,7 +21,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Troupe of Fools",
@@ -187,37 +188,140 @@
   "skills": {
     "basic": {
       "name": "Pero, Easy",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut, memberikan  Havoc DMG.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang, memberikan  Havoc DMG.\nJika mengenai target dengan setidaknya 100 Imagination, Roccia melompat ke udara dan mengaktifkan Beyond Imagination Mode.\nSemakin lama tombol Basic Attack ditekan, semakin banyak Imagination yang didapat Roccia.\nDalam mode ini, Roccia dapat terus mengisi serangan meskipun STA habis.\nHeavy Attack akan otomatis dilepaskan saat tombol Basic Attack dilepas atau saat Imagination mencapai batas maksimal.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang sukses untuk menyerang target, memberikan  Havoc DMG"
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan berturut-turut, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk menyerang, memberikan  Havoc DMG.\nJika mengenai target dengan setidaknya 100 Imagination, Roccia melompat ke udara dan mengaktifkan Beyond Imagination Mode.\nSemakin lama tombol Basic Attack ditekan, semakin banyak Imagination yang didapat Roccia.\nDalam mode ini, Roccia dapat terus mengisi serangan meskipun STA habis.\nHeavy Attack akan otomatis dilepaskan saat tombol Basic Attack dilepas atau saat Imagination mencapai batas maksimal.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah Dodge yang sukses untuk menyerang target, memberikan  Havoc DMG",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Acrobatic Trick",
-      "description": "Roccia memproyeksikan kreativitasnya ke dunia nyata, menarik musuh di sekitarnya dan memberikan  Havoc DMG.\nRoccia lalu melompat ke udara dan mengaktifkan Beyond Imagination Mode."
+      "effects": [
+        {
+          "title": "",
+          "description": "Roccia memproyeksikan kreativitasnya ke dunia nyata, menarik musuh di sekitarnya dan memberikan  Havoc DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Roccia lalu melompat ke udara dan mengaktifkan Beyond Imagination Mode.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Commedia Improvviso!",
-      "description": "Roccia memulai Commedia Improvviso!, memberikan  Havoc DMG, dianggap sebagai Heavy Attack DMG.\nUntuk setiap 0.1% Crit. Rate di atas 50%, skill ini meningkatkan ATK semua Resonator di tim sebesar 1 poin selama 30 detik, hingga maksimal 200 po"
+      "effects": [
+        {
+          "title": "",
+          "description": "Roccia memulai Commedia Improvviso!, memberikan  Havoc DMG, dianggap sebagai Heavy Attack DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Untuk setiap 0.1% Crit. Rate di atas 50%, skill ini meningkatkan ATK semua Resonator di tim sebesar 1 poin selama 30 detik, hingga maksimal 200 po",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "A Prop Master Prepares",
-      "description": "Beyond Imagination Mode\nSaat dalam Beyond Imagination Mode dengan setidaknya 100 Imagination, tekan Basic Attack untuk mengonsumsi 100 Imagination dan menggunakan Basic Attack - Real Fantasy.\nBeyond Imagination Mode berakhir jika Roccia tidak lagi di udara atau diganti keluar dari field.\n\nBasic Attack - Real Fantasy\nMelakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG, dianggap sebagai Heavy Attack DMG.\nJika Roccia mendarat setelah Stage 1 atau Stage 2 dengan lebih dari 100 Imagination, dia akan melompat ke udara dan mengaktifkan Beyond Imagination Mode lagi.\n\nImagination\nRoccia dapat menampung hingga 300 Imagination.\n- Menggunakan Normal Attack mengembalikan Imagination.\n- Menahan Normal Attack mengisi daya serangan berikutnya sekaligus mengembalikan Imagination.\n- Menggunakan Resonance Skill - Acrobatic Trick mengembalikan 100 Imagination.\n- Menggunakan Intro Skill - Pero, Help mengembalikan 100 Imagination."
+      "effects": [
+        {
+          "title": "Beyond Imagination Mode",
+          "description": "Saat dalam Beyond Imagination Mode dengan setidaknya 100 Imagination, tekan Basic Attack untuk mengonsumsi 100 Imagination dan menggunakan Basic Attack - Real Fantasy.\nBeyond Imagination Mode berakhir jika Roccia tidak lagi di udara atau diganti keluar dari field.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Real Fantasy",
+          "description": "Melakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG, dianggap sebagai Heavy Attack DMG.\nJika Roccia mendarat setelah Stage 1 atau Stage 2 dengan lebih dari 100 Imagination, dia akan melompat ke udara dan mengaktifkan Beyond Imagination Mode lagi.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Imagination",
+          "description": "Roccia dapat menampung hingga 300 Imagination.\n- Menggunakan Normal Attack mengembalikan Imagination.\n- Menahan Normal Attack mengisi daya serangan berikutnya sekaligus mengembalikan Imagination.\n- Menggunakan Resonance Skill - Acrobatic Trick mengembalikan 100 Imagination.\n- Menggunakan Intro Skill - Pero, Help mengembalikan 100 Imagination.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Immersive Performance",
-        "description": "Menggunakan Resonance Skill atau Heavy Attack meningkatkan ATK Roccia sebesar 20% selama 12 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Menggunakan Resonance Skill atau Heavy Attack meningkatkan ATK Roccia sebesar 20% selama 12 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Super Attractive Magic Box",
-        "description": "Super Attractive Magic Box\nSetelah Outro Skill digunakan, kemampuan Utility Resonator berikutnya diganti dengan Magic Box.\n\nMagic Box\nSaat digunakan, menarik musuh di sekitarnya ke dalam Magic Box, memberikan 100 poin  Havoc DMG.\nSkill ini dianggap sebagai Echo Skill yang memberikan Utility DMG.\nMagic Box bertahan selama 14 detik atau hingga Resonator diganti keluar."
+        "effects": [
+          {
+            "title": "Super Attractive Magic Box",
+            "description": "Setelah Outro Skill digunakan, kemampuan Utility Resonator berikutnya diganti dengan Magic Box.",
+            "isTitleVisible": true
+          },
+          {
+            "title": "Magic Box",
+            "description": "Saat digunakan, menarik musuh di sekitarnya ke dalam Magic Box, memberikan 100 poin  Havoc DMG.\nSkill ini dianggap sebagai Echo Skill yang memberikan Utility DMG.\nMagic Box bertahan selama 14 detik atau hingga Resonator diganti keluar.",
+            "isTitleVisible": true
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Pero, Help",
-      "description": "Menyerang target, memberikan  Havoc DMG.\nGunakan Basic Attack setelah skill ini untuk langsung menggunakan Basic Attack Stage 4."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan  Havoc DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Gunakan Basic Attack setelah skill ini untuk langsung menggunakan Basic Attack Stage 4.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Applause, Please!",
-      "description": "Resonator yang masuk mendapatkan efek:\n- Havoc DMG meningkat 20%\n- Basic Attack DMG meningkat 25%\nEfek berlangsung 14 detik atau hingga Resonator diganti keluar."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk mendapatkan efek:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "- Havoc DMG meningkat 20%",
+          "description": "",
+          "isTitleVisible": true
+        },
+        {
+          "title": "- Basic Attack DMG meningkat 25%",
+          "description": "Efek berlangsung 14 detik atau hingga Resonator diganti keluar.",
+          "isTitleVisible": true
+        }
+      ]
     }
   },
   "materials": {
@@ -389,32 +493,113 @@
     {
       "stage": "S1",
       "name": "When Shadows Engulf The Hull",
-      "description": "Menggunakan Resonance Skill - Acrobatic Trick memberikan 100 tambahan Imagination dan 10 Concerto Energy.\nBasic Attack - Real Fantasy menjadi kebal terhadap interupsi."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Resonance Skill - Acrobatic Trick memberikan 100 tambahan Imagination dan 10 Concerto Energy.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Basic Attack - Real Fantasy menjadi kebal terhadap interupsi.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "When The Luceanite Gleams",
-      "description": "Menggunakan Basic Attack - Real Fantasy memberikan  Havoc DMG Bonus 10% kepada seluruh Resonator dalam tim selama 30 detik, dapat menumpuk hingga 3 kali.\nSaat mencapai stack maksimum, tim mendapatkan 10% tambahan  Havoc DMG Bonus selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Basic Attack - Real Fantasy memberikan  Havoc DMG Bonus 10% kepada seluruh Resonator dalam tim selama 30 detik, dapat menumpuk hingga 3 kali.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat mencapai stack maksimum, tim mendapatkan 10% tambahan  Havoc DMG Bonus selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "When The Heart Sees And Hands Feel",
-      "description": "Menggunakan Intro Skill - Pero, Help meningkatkan Crit. Rate Roccia sebesar 10% dan Crit. DMG sebesar 30% selama 15 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Intro Skill - Pero, Help meningkatkan Crit. Rate Roccia sebesar 10% dan Crit. DMG sebesar 30% selama 15 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "When Wonders Gather In The Box",
-      "description": "Menggunakan Resonance Skill - Acrobatic Trick meningkatkan Basic Attack - Real Fantasy DMG Multiplier sebesar 60% selama 12 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Resonance Skill - Acrobatic Trick meningkatkan Basic Attack - Real Fantasy DMG Multiplier sebesar 60% selama 12 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "When Dreams Are Reborn On Stage",
-      "description": "Resonance Liberation - Commedia Improvviso! mendapatkan 20% tambahan DMG Multiplier.\nHeavy Attack mendapatkan tambahan 80% DMG Multiplier."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation - Commedia Improvviso! mendapatkan 20% tambahan DMG Multiplier.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Heavy Attack mendapatkan tambahan 80% DMG Multiplier.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "When The Golden Wings Fly",
-      "description": "Menggunakan Resonance Liberation - Commedia Improvviso! memberikan efek berikut selama 12 detik:\n- Basic Attack - Real Fantasy mengabaikan 60% DEF musuh.\n\nSetelah melakukan Basic Attack - Real Fantasy Stage 3, Roccia melompat ke udara dan mengaktifkan Beyond Imagination Mode. Dalam mode ini:\n- Basic Attack berubah menjadi Basic Attack - Reality Recreation, memberikan DMG setara 100% dari Basic Attack - Real Fantasy Stage 3, dianggap sebagai Heavy Attack DMG.\n- Roccia kebal terhadap interupsi saat menggunakan Basic Attack - Reality Recreation.\n- Setelah Basic Attack - Reality Recreation selesai, Roccia melompat ke udara lagi, mengaktifkan kembali Beyond Imagination Mode.\n- Basic Attack - Reality Recreation hanya tersedia dalam Beyond Imagination Mode."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Resonance Liberation - Commedia Improvviso! memberikan efek berikut selama 12 detik:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Basic Attack - Real Fantasy mengabaikan 60% DEF musuh.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah melakukan Basic Attack - Real Fantasy Stage 3, Roccia melompat ke udara dan mengaktifkan Beyond Imagination Mode. Dalam mode ini:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Basic Attack berubah menjadi Basic Attack - Reality Recreation, memberikan DMG setara 100% dari Basic Attack - Real Fantasy Stage 3, dianggap sebagai Heavy Attack DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Roccia kebal terhadap interupsi saat menggunakan Basic Attack - Reality Recreation.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Setelah Basic Attack - Reality Recreation selesai, Roccia melompat ke udara lagi, mengaktifkan kembali Beyond Imagination Mode.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Basic Attack - Reality Recreation hanya tersedia dalam Beyond Imagination Mode.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

@@ -18,7 +18,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Mengzhou",
@@ -139,37 +140,140 @@
   "skills": {
     "basic": {
       "name": "Hexagram Calls, Lightning Falls",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan beruntun, memberikan Electro DMG.\n\nHeavy Attack - Mountain Over Thunder\nTahan Normal Attack untuk mengonsumsi Trigram - Mountain dan Trigram - Thunder yang tersorot dari kiri ke kanan dan melancarkan Heavy Attack - Mountain Over Thunder, memberikan Electro DMG.\n\nHeavy Attack - Thunder Over Mountain\nTahan Normal Attack untuk mengonsumsi Trigram - Thunder dan Trigram - Mountain yang tersorot dari kiri ke kanan dan melancarkan Heavy Attack - Thunder Over Mountain, memberikan sejumlah kecil Electro DMG dan secara tambahan mengurangi Vibration Strength target.\n\nHeavy Attack - Twin Mountains\nTahan Normal Attack untuk mengonsumsi 2 Trigram - Mountain yang tersorot dari kiri ke kanan dan melancarkan Heavy Attack - Twin Mountains, memulihkan semua Resonator di sekitar dalam tim.\n\nHeavy Attack - Twin Thunders\nTahan Normal Attack untuk mengonsumsi 2 Trigram - Thunder yang tersorot dari kiri ke kanan dan melancarkan Heavy Attack - Twin Thunders, memulihkan semua Resonator di sekitar dalam tim sekali per detik selama 8 detik.\n\nHeavy Attack - Ghost Gate Omen\nSaat menahan Normal Attack dengan kurang dari 2 Trigram, Buling gagal melakukan ramalan, menjadi tidak bisa bergerak untuk sementara serta kehilangan semua Trigram dan 20% dari HP miliknya saat ini. Efek ini tidak akan mengonsumsi HP jika HP Buling saat ini di bawah 1%.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Mid-air Attack, memberikan Electro DMG.\n\nDodge Counter\nTekan Normal Attack segera setelah Dodge yang berhasil untuk melakukan Basic Attack Stage 3, memberikan Electro DMG.\n- Setelah melakukan Dodge Counter, tekan Normal Attack untuk melakukan Basic Attack Stage 4.\n\nTrigram\nBuling dapat menampung hingga 4 Trigram. Saat Trigram mencapai jumlah maksimal, mendapatkan Trigram baru akan menggeser semua Trigram 1 slot ke kiri, dan Trigram paling kiri yang asli akan dihapus.\n- Trigram - Mountain didapatkan saat Basic Attack Stage 2 memberikan damage.\n- Trigram - Thunder didapatkan saat Basic Attack Stage 4 atau Mid-air Attack memberikan damage.\n- Trigram - Thunder didapatkan saat melancarkan Resonance Skill - In Shadow Thunder Stirs."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan beruntun, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Mountain Over Thunder",
+          "description": "Tahan Normal Attack untuk mengonsumsi Trigram - Mountain dan Trigram - Thunder yang tersorot dari kiri ke kanan dan melancarkan Heavy Attack - Mountain Over Thunder, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Thunder Over Mountain",
+          "description": "Tahan Normal Attack untuk mengonsumsi Trigram - Thunder dan Trigram - Mountain yang tersorot dari kiri ke kanan dan melancarkan Heavy Attack - Thunder Over Mountain, memberikan sejumlah kecil Electro DMG dan secara tambahan mengurangi Vibration Strength target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Twin Mountains",
+          "description": "Tahan Normal Attack untuk mengonsumsi 2 Trigram - Mountain yang tersorot dari kiri ke kanan dan melancarkan Heavy Attack - Twin Mountains, memulihkan semua Resonator di sekitar dalam tim.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Twin Thunders",
+          "description": "Tahan Normal Attack untuk mengonsumsi 2 Trigram - Thunder yang tersorot dari kiri ke kanan dan melancarkan Heavy Attack - Twin Thunders, memulihkan semua Resonator di sekitar dalam tim sekali per detik selama 8 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Ghost Gate Omen",
+          "description": "Saat menahan Normal Attack dengan kurang dari 2 Trigram, Buling gagal melakukan ramalan, menjadi tidak bisa bergerak untuk sementara serta kehilangan semua Trigram dan 20% dari HP miliknya saat ini. Efek ini tidak akan mengonsumsi HP jika HP Buling saat ini di bawah 1%.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Mid-air Attack, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Normal Attack segera setelah Dodge yang berhasil untuk melakukan Basic Attack Stage 3, memberikan Electro DMG.\n- Setelah melakukan Dodge Counter, tekan Normal Attack untuk melakukan Basic Attack Stage 4.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Trigram",
+          "description": "Buling dapat menampung hingga 4 Trigram. Saat Trigram mencapai jumlah maksimal, mendapatkan Trigram baru akan menggeser semua Trigram 1 slot ke kiri, dan Trigram paling kiri yang asli akan dihapus.\n- Trigram - Mountain didapatkan saat Basic Attack Stage 2 memberikan damage.\n- Trigram - Thunder didapatkan saat Basic Attack Stage 4 atau Mid-air Attack memberikan damage.\n- Trigram - Thunder didapatkan saat melancarkan Resonance Skill - In Shadow Thunder Stirs.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "In Shadow Thunder Stirs",
-      "description": "Menyerang target, memberikan Electro DMG dan terus-menerus menarik target di sekitar.\n- Segera setelah melancarkan Resonance Skill, tekan Normal Attack untuk melakukan Basic Attack Stage 4."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan Electro DMG dan terus-menerus menarik target di sekitar.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Segera setelah melancarkan Resonance Skill, tekan Normal Attack untuk melakukan Basic Attack Stage 4.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Flashing Thunder Spell",
-      "description": "Menyerang target, dealing Electro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, dealing Electro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Thunder Begets Life",
-      "description": "Yin-Yang Balance\nSaat Buling mendapatkan Minor Yin dan Minor Yang, ia memasuki status Yin-Yang Balance, mengganti Resonance Liberation - Flashing Thunder Spell miliknya menjadi Resonance Liberation - Flashing Thunder Spell: Harmony.\n\n\nFlashing Thunder Spell - Harmony\nMenyerang target, memberikan Electro DMG dan menghasilkan Five Thunders Spell Array pada area target. Array tersebut memberikan Electro DMG dan memberikan 2 stack Electro Flare pada semua target di dalamnya setiap 2 detik, bertahan selama 24 detik. Saat Five Thunders Spell Array aktif, semua Resonator dalam tim memasuki status Thunder Spell - Primordial Qi.\n- Selama berada dalam status Thunder Spell - Primordial Qi, saat ada Resonator dalam tim melancarkan Intro Skill, Thunder Spell - Primordial Qi berubah menjadi Thunder Spell - Yin and Yang.\n- Thunder Spell - Yin and Yang memberikan 10% Resonance Skill DMG Bonus kepada semua Resonator aktif dalam tim. Saat ada Resonator dalam tim melancarkan Intro Skill selama status ini, Thunder Spell - Yin and Yang berubah menjadi Thunder Spell - Heaven, Earth, Mind.\n- Thunder Spell - Heaven, Earth, Mind memberikan 25% Resonance Skill DMG Bonus kepada semua Resonator aktif dalam tim.\n\n\nMinor Yang and Minor Yin\n- Minor Yang didapatkan setelah melancarkan Heavy Attack - Mountain Over Thunder atau Heavy Attack - Thunder Over Mountain.\n- Minor Yin didapatkan setelah melancarkan Heavy Attack - Twin Mountains atau Heavy Attack - Twin Thunders."
+      "effects": [
+        {
+          "title": "Yin-Yang Balance",
+          "description": "Saat Buling mendapatkan Minor Yin dan Minor Yang, ia memasuki status Yin-Yang Balance, mengganti Resonance Liberation - Flashing Thunder Spell miliknya menjadi Resonance Liberation - Flashing Thunder Spell: Harmony.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Flashing Thunder Spell - Harmony",
+          "description": "Menyerang target, memberikan Electro DMG dan menghasilkan Five Thunders Spell Array pada area target. Array tersebut memberikan Electro DMG dan memberikan 2 stack Electro Flare pada semua target di dalamnya setiap 2 detik, bertahan selama 24 detik. Saat Five Thunders Spell Array aktif, semua Resonator dalam tim memasuki status Thunder Spell - Primordial Qi.\n- Selama berada dalam status Thunder Spell - Primordial Qi, saat ada Resonator dalam tim melancarkan Intro Skill, Thunder Spell - Primordial Qi berubah menjadi Thunder Spell - Yin and Yang.\n- Thunder Spell - Yin and Yang memberikan 10% Resonance Skill DMG Bonus kepada semua Resonator aktif dalam tim. Saat ada Resonator dalam tim melancarkan Intro Skill selama status ini, Thunder Spell - Yin and Yang berubah menjadi Thunder Spell - Heaven, Earth, Mind.\n- Thunder Spell - Heaven, Earth, Mind memberikan 25% Resonance Skill DMG Bonus kepada semua Resonator aktif dalam tim.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Minor Yang and Minor Yin",
+          "description": "- Minor Yang didapatkan setelah melancarkan Heavy Attack - Mountain Over Thunder atau Heavy Attack - Thunder Over Mountain.\n- Minor Yin didapatkan setelah melancarkan Heavy Attack - Twin Mountains atau Heavy Attack - Twin Thunders.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Time Arrives, Evil Declines",
-        "description": "Buling mendapatkan 25% Healing Bonus saat memulihkan HP untuk Resonator dengan HP kurang dari 50%.\n"
+        "effects": [
+          {
+            "title": "",
+            "description": "Buling mendapatkan 25% Healing Bonus saat memulihkan HP untuk Resonator dengan HP kurang dari 50%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Earthly Immortal Is Here!",
-        "description": "Target yang terkena damage dari Intro Skill - Summon and Smite mendapatkan 4 stack Electro Flare. Efek ini dipicu sekali setiap 10 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Target yang terkena damage dari Intro Skill - Summon and Smite mendapatkan 4 stack Electro Flare. Efek ini dipicu sekali setiap 10 detik.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Summon And Smite",
-      "description": "Menyerang target, memberikan Electro DMG dan memulihkan semua Resonator di sekitar dalam tim."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan Electro DMG dan memulihkan semua Resonator di sekitar dalam tim.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Outro Skill",
-      "description": "Memulihkan Resonator yang aktif dalam tim sebesar 18% dari ATK Buling per detik selama 16 detik. Semua Resonator di sekitar dalam tim mendapatkan DMG Amplified sebesar 15% selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memulihkan Resonator yang aktif dalam tim sebesar 18% dari ATK Buling per detik selama 16 detik. Semua Resonator di sekitar dalam tim mendapatkan DMG Amplified sebesar 15% selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -309,32 +413,68 @@
     {
       "stage": "S1",
       "name": "Exorcist Gadgets, Lend Me Your Power",
-      "description": "Crit. Rate dari Resonance Liberation - Flashing Thunder Spell: Harmony meningkat sebesar 20% saat memberikan damage."
+      "effects": [
+        {
+          "title": "",
+          "description": "Crit. Rate dari Resonance Liberation - Flashing Thunder Spell: Harmony meningkat sebesar 20% saat memberikan damage.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Talisman Burns, Spirits Turn",
-      "description": "Buling memulihkan 25 poin Resonance Energy saat ia memasuki status Yin-Yang Balance. Efek ini dipicu sekali setiap 24 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Buling memulihkan 25 poin Resonance Energy saat ia memasuki status Yin-Yang Balance. Efek ini dipicu sekali setiap 24 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Summoner Of Spirits, Seeker Of Fate",
-      "description": "Selama Five Thunders Spell Array bertahan, setiap kali HP Resonator dalam tim turun di bawah 50%, segera pulihkan HP mereka sebesar 350+150% dari ATK Buling. Efek ini dapat dipicu sekali setiap 24 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Selama Five Thunders Spell Array bertahan, setiap kali HP Resonator dalam tim turun di bawah 50%, segera pulihkan HP mereka sebesar 350+150% dari ATK Buling. Efek ini dapat dipicu sekali setiap 24 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Wanderer Of Solaris, Blessed By Fortune",
-      "description": "Buling mendapatkan 20% Healing Bonus."
+      "effects": [
+        {
+          "title": "",
+          "description": "Buling mendapatkan 20% Healing Bonus.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Forum Ban? New Account!",
-      "description": "Five Thunders Spell Array secara instan memberikan tambahan 6 stack Electro Flare pada semua target di dalam jangkauannya saat dihasilkan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Five Thunders Spell Array secara instan memberikan tambahan 6 stack Electro Flare pada semua target di dalam jangkauannya saat dihasilkan.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "\"Almighty Forum Lord Of Thunder Spell\"",
-      "description": "Status Thunder Spell - Heaven, Earth, Mind sekarang memberikan 50% Resonance Skill DMG Bonus kepada Resonator yang aktif dalam tim. "
+      "effects": [
+        {
+          "title": "",
+          "description": "Status Thunder Spell - Heaven, Earth, Mind sekarang memberikan 50% Resonance Skill DMG Bonus kepada Resonator yang aktif dalam tim.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

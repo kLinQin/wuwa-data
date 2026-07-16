@@ -23,7 +23,8 @@
       "text": "update ",
       "type": "updated",
       "isNew": true,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Startorch Academy",
@@ -188,41 +189,255 @@
   "skills": {
     "basic": {
       "name": "Dreamweaver'S Banquet",
-      "description": "Basic Attack - Stagecraft Form\nMelancarkan hingga 4 serangan berturut-turut, memberikan Fusion DMG.\n\nBasic Attack - Breakdown Form\nMelancarkan hingga 4 serangan berturut-turut, memberikan Fusion DMG.\n\nHeavy Attack - Stagecraft Form\nMengonsumsi STA untuk menyerang target, memberikan Fusion DMG.\n\nHeavy Attack - Breakdown Form\nMengonsumsi STA untuk menarik target di sekitar, memberikan Fusion DMG.\n\nMid-air Attack - Stagecraft Form\nMengonsumsi STA untuk melancarkan Mid-air Plunging Attack, memberikan Fusion DMG.\n\nMid-air Attack - Breakdown Form\nMengonsumsi STA untuk melancarkan 4 serangan berturut-turut di udara, memberikan Fusion DMG.\n\nMid-air Heavy Attack - Breakdown Form\nTahan Normal Attack di udara untuk melancarkan Mid-air Plunging Attack dengan mengonsumsi STA, memberikan Fusion DMG.\n\nDodge Counter - Stagecraft Form\nTekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Fusion DMG.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Stagecraft Form Stage 4.\n\nDodge Counter - Breakdown Form\nTekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Fusion DMG.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Breakdown Form Stage 4.\nDapat dilancarkan di udara."
+      "effects": [
+        {
+          "title": "Basic Attack - Stagecraft Form",
+          "description": "Melancarkan hingga 4 serangan berturut-turut, memberikan Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Breakdown Form",
+          "description": "Melancarkan hingga 4 serangan berturut-turut, memberikan Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Stagecraft Form",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Breakdown Form",
+          "description": "Mengonsumsi STA untuk menarik target di sekitar, memberikan Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Stagecraft Form",
+          "description": "Mengonsumsi STA untuk melancarkan Mid-air Plunging Attack, memberikan Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Breakdown Form",
+          "description": "Mengonsumsi STA untuk melancarkan 4 serangan berturut-turut di udara, memberikan Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Heavy Attack - Breakdown Form",
+          "description": "Tahan Normal Attack di udara untuk melancarkan Mid-air Plunging Attack dengan mengonsumsi STA, memberikan Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Stagecraft Form",
+          "description": "Tekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Fusion DMG.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Stagecraft Form Stage 4.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Breakdown Form",
+          "description": "Tekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Fusion DMG.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Breakdown Form Stage 4.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Bubbles And Baits",
-      "description": "Phantom Bubble - Stagecraft Form\nMenarik target di sekitar, memberikan Fusion DMG.\n\nBeckon - Breakdown Form\nMenarik target di sekitar, memberikan Fusion DMG.\nSkill ini berbagi cooldown dengan Banish - Breakdown Form.\nDapat dilancarkan di udara.\n\nBanish - Breakdown Form\nSaat memegang Dark Core, ganti Beckon - Breakdown Form dengan Banish - Breakdown Form.\nMelancarkan Banish - Breakdown Form Stage 1 untuk menarik target di sekitar, memberikan Fusion DMG. Tekan Normal attack atau Resonance Skill sesaat setelahnya untuk melancarkan Banish - Breakdown Form Stage 2.\nBanish - Breakdown Form Stage 2 mengonsumsi semua Dark Core, memberikan Fusion DMG. Untuk setiap Dark Core yang dikonsumsi, DMG Multiplier dari serangan ini meningkat sebesar 150%.\nSkill ini memberikan Resonance Liberation DMG.\nSkill ini berbagi cooldown dengan Beckon - Breakdown Form.\nDapat dilancarkan di udara."
+      "effects": [
+        {
+          "title": "Phantom Bubble - Stagecraft Form",
+          "description": "Menarik target di sekitar, memberikan Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Beckon - Breakdown Form",
+          "description": "Menarik target di sekitar, memberikan Fusion DMG.\nSkill ini berbagi cooldown dengan Banish - Breakdown Form.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Banish - Breakdown Form",
+          "description": "Saat memegang Dark Core, ganti Beckon - Breakdown Form dengan Banish - Breakdown Form.\nMelancarkan Banish - Breakdown Form Stage 1 untuk menarik target di sekitar, memberikan Fusion DMG. Tekan Normal attack atau Resonance Skill sesaat setelahnya untuk melancarkan Banish - Breakdown Form Stage 2.\nBanish - Breakdown Form Stage 2 mengonsumsi semua Dark Core, memberikan Fusion DMG. Untuk setiap Dark Core yang dikonsumsi, DMG Multiplier dari serangan ini meningkat sebesar 150%.\nSkill ini memberikan Resonance Liberation DMG.\nSkill ini berbagi cooldown dengan Beckon - Breakdown Form.\nDapat dilancarkan di udara.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Final Act",
-      "description": "Final Act - Stagecraft Form\nMemberikan Fusion DMG.\nSetelah melancarkan skill ini, dapatkan Entropy Shift: Breakdown Form yang berlangsung selama 12 detik, dan beralih ke Breakdown Form.\n\nFinal Act - Breakdown Form\nSaat Conformal Charge penuh, konsumsi semua Conformal Charge dan Void Particle untuk melancarkan skill ini.\nMemberikan Fusion DMG.\nSetelah melancarkan skill ini, dapatkan Entropy Shift: Stagecraft Form yang berlangsung selama 30 detik, lalu beralih ke Stagecraft Form.\nDapat dilancarkan di udara.\n\nEntropy Shift: Stagecraft Form\nMeningkatkan ATK sebesar 30%.\nMendapatkan efek ini menghapus efek Entropy Shift: Stagecraft Form yang ada sebelumnya.\n\nEntropy Shift: Breakdown Form\nMemberikan 1 poin Void Particle per detik.\nMendapatkan efek ini menghapus efek Entropy Shift: Breakdown Form yang ada sebelumnya."
+      "effects": [
+        {
+          "title": "",
+          "description": "Final Act - Stagecraft Form",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Memberikan Fusion DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah melancarkan skill ini, dapatkan Entropy Shift: Breakdown Form yang berlangsung selama 12 detik, dan beralih ke Breakdown Form.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Final Act - Breakdown Form",
+          "description": "Saat Conformal Charge penuh, konsumsi semua Conformal Charge dan Void Particle untuk melancarkan skill ini.\nMemberikan Fusion DMG.\nSetelah melancarkan skill ini, dapatkan Entropy Shift: Stagecraft Form yang berlangsung selama 30 detik, lalu beralih ke Stagecraft Form.\nDapat dilancarkan di udara.\nEntropy Shift: Stagecraft Form\nMeningkatkan ATK sebesar 30%.\nMendapatkan efek ini menghapus efek Entropy Shift: Stagecraft Form yang ada sebelumnya.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Entropy Shift: Breakdown Form",
+          "description": "Memberikan 1 poin Void Particle per detik.\nMendapatkan efek ini menghapus efek Entropy Shift: Breakdown Form yang ada sebelumnya.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "\"Flawless\"",
-      "description": "Erosion Field\nSetelah melancarkan Resonance Liberation Final Act - Breakdown Form, munculkan Erosion Field yang berlangsung selama 30 detik. Hanya satu Erosion Field yang dihasilkan oleh Resonator Anda sendiri yang dapat ada dalam satu waktu.\nErosion Field menarik target di sekitar setiap 4 detik sekali, memberikan Fusion DMG yang dianggap sebagai Resonance Liberation DMG.\n\nVoid Particle\nSaat berada dalam Breakdown Form sambil memegang Void Particle, melancarkan Normal Attack mengonsumsi Void Particle dan memberikan efek berikut:\n- Damage skill dianggap sebagai Resonance Liberation DMG dan DMG Multiplier meningkat sebesar 50%.\n- Pemulihan Conformal Charge menjadi 100% lebih cepat.\n\nResonance Mode - Fusion Burst\nSaat berada dalam Resonance Mode - Fusion Burst, Denia mendapatkan efek berikut:\n- Setiap kali skill berikut memberikan damage, berikan 2 tumpukan Fusion Burst pada target. Skill yang sama hanya dapat memicu efek ini sekali setiap 2 detik terhadap target yang sama.\nIntro Skill It's Been A While!, Intro Skill Knock Knock, Resonance Liberation Final Act - Stagecraft Form, Resonance Liberation Final Act - Breakdown Form, dan Erosion Field.\n- Setiap kali skill berikut memberikan damage, berikan Fusion Burst pada target. Skill yang sama hanya dapat memicu efek ini sekali setiap 2 detik terhadap target yang sama.\nBasic Attack - Stagecraft Form Stage 3, Basic Attack - Stagecraft Form Stage 4, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3, dan Mid-air Attack - Breakdown Form Stage 4.\n- Saat Denia berada dalam tim, jika musuh kalah oleh Fusion Burst DMG, hal tersebut dihitung sebagai kontribusi dari Resonator aktif terdekat.\n\nResonance Mode - Tune Strain\nSaat berada dalam Resonance Mode - Tune Strain, Denia mendapatkan efek berikut:\n- Setiap kali skill berikut memberikan damage, berikan Tune Strain - Shifting pada target dan atur ulang durasi Tune Strain - Interfered pada target. Skill yang sama hanya dapat memicu efek ini sekali setiap 2 detik terhadap target yang sama.\nIntro Skill It's Been A While!, Intro Skill Knock Knock, Resonance Liberation Final Act - Stagecraft Form, Resonance Liberation Final Act - Breakdown Form, Erosion Field, Basic Attack - Stagecraft Form Stage 3, Basic Attack - Stagecraft Form Stage 4, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3 dan Mid-air Attack - Breakdown Form Stage 4.\n- Saat Resonator dalam tim memberikan Tune Strain - Shifting pada target, Off-Tune Level target tersebut meningkat sebesar 50% dari batas maksimal. Efek ini hanya dapat dipicu pada target yang sama sekali setiap 300 detik.\n\nDark Core\n- Denia dapat memegang hingga 3 Dark Core.\n- Saat berada dalam status Entropy Shift, Denia mendapatkan 1 Dark Core setiap 12 detik.\nDenia mendapatkan 1 Dark Core saat melancarkan Intro Skill It's Been A While! dan Intro Skill Knock Knock.\n\nVoid Particle\n- Denia dapat memegang hingga 100 poin Void Particle.\n- Saat berada dalam Stagecraft Form, memberikan damage melalui Normal Attack memberikan Void Particle.\n- Melancarkan Intro Skill It's Been A While!, Intro Skill Knock Knock atau Resonance Skill Phantom Bubble - Stagecraft Form memberikan 25 poin Void Particle.\n\nConformal Charge\n- Denia dapat memegang hingga 1 poin Conformal Charge.\n- Saat berada dalam Breakdown Form, memberikan damage melalui Normal Attack atau Resonance Skill Beckon - Breakdown Form memberikan Conformal Charge.\n- Melancarkan Resonance Skill Banish - Breakdown Form Stage 2 memberikan 40 poin Conformal Charge."
+      "effects": [
+        {
+          "title": "Erosion Field",
+          "description": "Setelah melancarkan Resonance Liberation Final Act - Breakdown Form, munculkan Erosion Field yang berlangsung selama 30 detik. Hanya satu Erosion Field yang dihasilkan oleh Resonator Anda sendiri yang dapat ada dalam satu waktu.\nErosion Field menarik target di sekitar setiap 4 detik sekali, memberikan Fusion DMG yang dianggap sebagai Resonance Liberation DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Void Particle",
+          "description": "Saat berada dalam Breakdown Form sambil memegang Void Particle, melancarkan Normal Attack mengonsumsi Void Particle dan memberikan efek berikut:\n- Damage skill dianggap sebagai Resonance Liberation DMG dan DMG Multiplier meningkat sebesar 50%.\n- Pemulihan Conformal Charge menjadi 100% lebih cepat.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Mode - Fusion Burst",
+          "description": "Saat berada dalam Resonance Mode - Fusion Burst, Denia mendapatkan efek berikut:\n- Setiap kali skill berikut memberikan damage, berikan 2 tumpukan Fusion Burst pada target. Skill yang sama hanya dapat memicu efek ini sekali setiap 2 detik terhadap target yang sama.\nIntro Skill It's Been A While!, Intro Skill Knock Knock, Resonance Liberation Final Act - Stagecraft Form, Resonance Liberation Final Act - Breakdown Form, dan Erosion Field.\n- Setiap kali skill berikut memberikan damage, berikan Fusion Burst pada target. Skill yang sama hanya dapat memicu efek ini sekali setiap 2 detik terhadap target yang sama.\nBasic Attack - Stagecraft Form Stage 3, Basic Attack - Stagecraft Form Stage 4, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3, dan Mid-air Attack - Breakdown Form Stage 4.\n- Saat Denia berada dalam tim, jika musuh kalah oleh Fusion Burst DMG, hal tersebut dihitung sebagai kontribusi dari Resonator aktif terdekat.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Mode - Tune Strain",
+          "description": "Saat berada dalam Resonance Mode - Tune Strain, Denia mendapatkan efek berikut:\n- Setiap kali skill berikut memberikan damage, berikan Tune Strain - Shifting pada target dan atur ulang durasi Tune Strain - Interfered pada target. Skill yang sama hanya dapat memicu efek ini sekali setiap 2 detik terhadap target yang sama.\nIntro Skill It's Been A While!, Intro Skill Knock Knock, Resonance Liberation Final Act - Stagecraft Form, Resonance Liberation Final Act - Breakdown Form, Erosion Field, Basic Attack - Stagecraft Form Stage 3, Basic Attack - Stagecraft Form Stage 4, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3 dan Mid-air Attack - Breakdown Form Stage 4.\n- Saat Resonator dalam tim memberikan Tune Strain - Shifting pada target, Off-Tune Level target tersebut meningkat sebesar 50% dari batas maksimal. Efek ini hanya dapat dipicu pada target yang sama sekali setiap 300 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dark Core",
+          "description": "- Denia dapat memegang hingga 3 Dark Core.\n- Saat berada dalam status Entropy Shift, Denia mendapatkan 1 Dark Core setiap 12 detik.\nDenia mendapatkan 1 Dark Core saat melancarkan Intro Skill It's Been A While! dan Intro Skill Knock Knock.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Void Particle",
+          "description": "- Denia dapat memegang hingga 100 poin Void Particle.\n- Saat berada dalam Stagecraft Form, memberikan damage melalui Normal Attack memberikan Void Particle.\n- Melancarkan Intro Skill It's Been A While!, Intro Skill Knock Knock atau Resonance Skill Phantom Bubble - Stagecraft Form memberikan 25 poin Void Particle.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Conformal Charge",
+          "description": "- Denia dapat memegang hingga 1 poin Conformal Charge.\n- Saat berada dalam Breakdown Form, memberikan damage melalui Normal Attack atau Resonance Skill Beckon - Breakdown Form memberikan Conformal Charge.\n- Melancarkan Resonance Skill Banish - Breakdown Form Stage 2 memberikan 40 poin Conformal Charge.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Vestiges Of Falsehood",
-        "description": "Saat Denia memasuki pertempuran dalam Stagecraft Form: pulihkan Dark Core menjadi 2 jika ia memiliki kurang dari 2; pulihkan Void Particle menjadi 20 poin jika ia memiliki kurang dari 20. Efek ini dapat dipicu sekali setiap 12 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Denia memasuki pertempuran dalam Stagecraft Form: pulihkan Dark Core menjadi 2 jika ia memiliki kurang dari 2; pulihkan Void Particle menjadi 20 poin jika ia memiliki kurang dari 20. Efek ini dapat dipicu sekali setiap 12 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Etched Colors",
-        "description": "Saat berada dalam status Entropy Shift, Denia mendapatkan efek berikut berdasarkan Resonance Mode saat ini:\n\n- Resonance Mode - Fusion Burst: Semua Resonator dalam tim mendapatkan 30% Fusion DMG Bonus.\n\n- Resonance Mode - Tune Strain: Semua Resonator dalam tim mendapatkan 10 Break Boost. Saat Off-Tune Buildup Rate salah satu Resonator dalam tim melebihi 100%, setiap kelebihan 10% akan meningkatkan Tune Break Boost Resonator tersebut sebesar 8, hingga 40 poin."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat berada dalam status Entropy Shift, Denia mendapatkan efek berikut berdasarkan Resonance Mode saat ini:",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Resonance Mode - Fusion Burst: Semua Resonator dalam tim mendapatkan 30% Fusion DMG Bonus.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Resonance Mode - Tune Strain: Semua Resonator dalam tim mendapatkan 10 Break Boost. Saat Off-Tune Buildup Rate salah satu Resonator dalam tim melebihi 100%, setiap kelebihan 10% akan meningkatkan Tune Break Boost Resonator tersebut sebesar 8, hingga 40 poin.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break - Shattered Hours",
-        "description": "Saat Off-Tune Level target penuh, Denia dapat melancarkan Tune Break pada target.\n\nSaat berada dalam Resonance Mode - Tune Strain, Denia mendapatkan efek berikut:\n- Denia dapat memberikan status Tune Strain - Shifting pada target.\n- Denia dapat merespons Tune Strain - Interfered.\nSaat merespons Tune Strain - Interfered: Untuk setiap tumpukan Tune Strain - Interfered pada target, setiap poin dari Tune Break Boost Denia meningkatkan total DMG miliknya terhadap target sebesar 0.12%. Selama Denia berada dalam tim, batas maksimal tumpukan Tune Strain - Interfered pada target meningkat sebanyak 1."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Off-Tune Level target penuh, Denia dapat melancarkan Tune Break pada target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat berada dalam Resonance Mode - Tune Strain, Denia mendapatkan efek berikut:",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Denia dapat memberikan status Tune Strain - Shifting pada target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Denia dapat merespons Tune Strain - Interfered.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat merespons Tune Strain - Interfered: Untuk setiap tumpukan Tune Strain - Interfered pada target, setiap poin dari Tune Break Boost Denia meningkatkan total DMG miliknya terhadap target sebesar 0.12%. Selama Denia berada dalam tim, batas maksimal tumpukan Tune Strain - Interfered pada target meningkat sebanyak 1.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Formal Greetings",
-      "description": "It's Been A While!\nTersedia dalam Stagecraft Form, memberikan Fusion DMG.\nTekan Normal Attack setelah melancarkan skill ini untuk melancarkan Basic Attack - Stagecraft Form Stage 4.\n\nKnock Knock\nTersedia dalam Breakdown Form, memberikan Fusion DMG.\nMelancarkan skill ini memberikan Entropy Shift: Breakdown Form selama 12 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "It's Been A While!",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tersedia dalam Stagecraft Form, memberikan Fusion DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan Normal Attack setelah melancarkan skill ini untuk melancarkan Basic Attack - Stagecraft Form Stage 4.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Knock Knock",
+          "description": "Tersedia dalam Breakdown Form, memberikan Fusion DMG.\nMelancarkan skill ini memberikan Entropy Shift: Breakdown Form selama 12 detik.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "outro": {
       "name": "Unfinished Lies",
-      "description": "Saat berada dalam Resonance Mode - Fusion Burst, Fusion Burst DMG terhadap target di dekat Resonator aktif dalam tim mendapatkan Amplify sebesar 60% selama 30 detik.\n\nSaat berada dalam Resonance Mode - Tune Strain, Resonator berikutnya mendapatkan All DMG Amplified sebesar 15% selama 16 detik.\nJika Resonator di bawah efek ini memberikan Tune Strain - Shifting, mereka akan mendapatkan 40% DMG Amplification sebagai gantinya.\nEfek ini berakhir lebih awal saat Resonator tersebut diganti keluar."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat berada dalam Resonance Mode - Fusion Burst, Fusion Burst DMG terhadap target di dekat Resonator aktif dalam tim mendapatkan Amplify sebesar 60% selama 30 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat berada dalam Resonance Mode - Tune Strain, Resonator berikutnya mendapatkan All DMG Amplified sebesar 15% selama 16 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Resonator di bawah efek ini memberikan Tune Strain - Shifting, mereka akan mendapatkan 40% DMG Amplification sebagai gantinya.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek ini berakhir lebih awal saat Resonator tersebut diganti keluar.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -414,32 +629,133 @@
     {
       "stage": "S1",
       "name": "The Sky Holds Nothing",
-      "description": "Crit. DMG meningkat sebesar 30%.\n\nSaat melancarkan Resonance Skill Phantom Bubble - Stagecraft Form, atau Resonance Skill Banish - Breakdown Form, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3, dan Mid-air Attack - Breakdown Form Stage 4, Denia menjadi kebal terhadap interupsi.\n\nSaat Denia memasuki pertempuran dalam Stagecraft Form, ia mendapatkan efek tersebut selama 30 detik.\nSaat Denia memasuki pertempuran dalam Breakdown Form, ia mendapatkan efek tersebut selama 12 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Crit. DMG meningkat sebesar 30%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat melancarkan Resonance Skill Phantom Bubble - Stagecraft Form, atau Resonance Skill Banish - Breakdown Form, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3, dan Mid-air Attack - Breakdown Form Stage 4, Denia menjadi kebal terhadap interupsi.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Denia memasuki pertempuran dalam Stagecraft Form, ia mendapatkan efek tersebut selama 30 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Denia memasuki pertempuran dalam Breakdown Form, ia mendapatkan efek tersebut selama 12 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "He Solace Yet It Brings",
-      "description": "Saat Denia berada dalam Resonance Mode - Fusion Burst, setelah Resonator dalam tim memberikan Fusion Burst pada target, Fusion DMG Bonus mereka meningkat sebesar 50% selama 15 detik. Saat Fusion Burst dipicu pada musuh di dekat Resonator aktif dalam tim, Denia mendapatkan 1 tumpukan Degenerate Voidmatter selama 15 detik, hingga 10 tumpukan. Setiap tumpukan Degenerate Voidmatter membuat Denia mengabaikan 1% Fusion RES target.\n\nSaat Denia berada dalam Resonance Mode - Tune Strain, efek Forte Circuit miliknya ditingkatkan: Setelah Resonator dalam tim memberikan Tune Strain - Shifting pada target, Tune Break Boost mereka meningkat sebesar 20 selama 15 detik, dan Off-Tune Level target meningkat sebesar 100% dari batas maksimal. Efek ini hanya dapat dipicu sekali setiap 300 detik pada target yang sama.\n\nDMG Multiplier dari Resonance Skill Banish - Breakdown Form meningkat sebesar 40%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Denia berada dalam Resonance Mode - Fusion Burst, setelah Resonator dalam tim memberikan Fusion Burst pada target, Fusion DMG Bonus mereka meningkat sebesar 50% selama 15 detik. Saat Fusion Burst dipicu pada musuh di dekat Resonator aktif dalam tim, Denia mendapatkan 1 tumpukan Degenerate Voidmatter selama 15 detik, hingga 10 tumpukan. Setiap tumpukan Degenerate Voidmatter membuat Denia mengabaikan 1% Fusion RES target.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Denia berada dalam Resonance Mode - Tune Strain, efek Forte Circuit miliknya ditingkatkan: Setelah Resonator dalam tim memberikan Tune Strain - Shifting pada target, Tune Break Boost mereka meningkat sebesar 20 selama 15 detik, dan Off-Tune Level target meningkat sebesar 100% dari batas maksimal. Efek ini hanya dapat dipicu sekali setiap 300 detik pada target yang sama.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Skill Banish - Breakdown Form meningkat sebesar 40%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Through Dark And Wind, The Erlking Follows",
-      "description": "DMG Multiplier dari Resonance Liberation Final Act - Breakdown Form meningkat sebesar 80%.\n\nDenia kini dapat memegang hingga 5 Dark Core dan interval tersingkat untuk mendapatkan Dark Core berkurang menjadi 6 detik.\nEfek Entropy Shift: Stagecraft Form ditingkatkan: Dapatkan 4 poin Void Particle per detik.\nEfek Entropy Shift: Breakdown Form ditingkatkan: Melancarkan Resonance Liberation Final Act - Breakdown Form tambahan memulihkan 30 poin Concerto Energy.\n\nInherent Skill Denia Vestiges of Falsehood ditingkatkan:\nSaat memasuki pertempuran, Dark Core dan Void Particle dipulihkan hingga maksimal. Efek ini dapat dipicu sekali setiap 12 detik.\n\nSaat jumlah Dark Core mencapai batas maksimal, melancarkan Basic Attack - Stagecraft Form Stage 4 atau Resonance Skill Phantom Bubble - Stagecraft Form mengonsumsi semua Dark Core dan meningkatkan DMG Multiplier dari skill ini sebesar 1200%. Damage yang diberikan dianggap sebagai Resonance Liberation DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation Final Act - Breakdown Form meningkat sebesar 80%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Denia kini dapat memegang hingga 5 Dark Core dan interval tersingkat untuk mendapatkan Dark Core berkurang menjadi 6 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek Entropy Shift: Stagecraft Form ditingkatkan: Dapatkan 4 poin Void Particle per detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek Entropy Shift: Breakdown Form ditingkatkan: Melancarkan Resonance Liberation Final Act - Breakdown Form tambahan memulihkan 30 poin Concerto Energy.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Inherent Skill Denia Vestiges of Falsehood ditingkatkan:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat memasuki pertempuran, Dark Core dan Void Particle dipulihkan hingga maksimal. Efek ini dapat dipicu sekali setiap 12 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat jumlah Dark Core mencapai batas maksimal, melancarkan Basic Attack - Stagecraft Form Stage 4 atau Resonance Skill Phantom Bubble - Stagecraft Form mengonsumsi semua Dark Core dan meningkatkan DMG Multiplier dari skill ini sebesar 1200%. Damage yang diberikan dianggap sebagai Resonance Liberation DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "From The Far Beyond, To The Far Beyond",
-      "description": "Interval serangan dari Erosion Field berkurang menjadi 3 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Interval serangan dari Erosion Field berkurang menjadi 3 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "If Lies Patch Up A Heart",
-      "description": "DMG dari Resonance Liberation Final Act - Stagecraft Form meningkat sebesar 100%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG dari Resonance Liberation Final Act - Stagecraft Form meningkat sebesar 100%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "May You Find Your Sun In The Silence",
-      "description": "Saat berada dalam status Entropy Shift, dapatkan peningkatan ATK sebesar 60% dan 60% Fusion DMG Bonus.\n\nSaat Denia berada dalam Resonance Mode - Fusion Burst, setelah Erosion Field memberikan damage, picu Fusion Burst pada target berdasarkan batas maksimalnya. Fusion Burst DMG yang dipicu mendapatkan peningkatan DMG Multiplier sebesar 200% terhadap target utama dan tidak menghapus tumpukan Fusion Burst pada target yang terkena. Efek ini dapat dipicu pada target yang sama hingga 1 kali. Saat target terkena damage dari Resonance Liberation Final Act: Breakdown Form, jumlah pemicu efek ini diatur ulang. Jumlah pemicu dapat diatur ulang untuk target yang sama sekali setiap 2 detik.\n\nSaat Denia berada dalam Resonance Mode - Tune Strain, saat Resonator dalam tim memberikan Tune Break DMG pada musuh berstatus Mistuned dalam kondisi Tune Strain - Shifting, mereka tambahan memberikan 1 tumpukan Tune Strain - Interfered pada target. Efek ini hanya dapat dipicu pada target yang sama setiap 3 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat berada dalam status Entropy Shift, dapatkan peningkatan ATK sebesar 60% dan 60% Fusion DMG Bonus.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Denia berada dalam Resonance Mode - Fusion Burst, setelah Erosion Field memberikan damage, picu Fusion Burst pada target berdasarkan batas maksimalnya. Fusion Burst DMG yang dipicu mendapatkan peningkatan DMG Multiplier sebesar 200% terhadap target utama dan tidak menghapus tumpukan Fusion Burst pada target yang terkena. Efek ini dapat dipicu pada target yang sama hingga 1 kali. Saat target terkena damage dari Resonance Liberation Final Act: Breakdown Form, jumlah pemicu efek ini diatur ulang. Jumlah pemicu dapat diatur ulang untuk target yang sama sekali setiap 2 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Denia berada dalam Resonance Mode - Tune Strain, saat Resonator dalam tim memberikan Tune Break DMG pada musuh berstatus Mistuned dalam kondisi Tune Strain - Shifting, mereka tambahan memberikan 1 tumpukan Tune Strain - Interfered pada target. Efek ini hanya dapat dipicu pada target yang sama setiap 3 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

@@ -20,7 +20,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Huaxu Academy",
@@ -199,28 +200,104 @@
   "skills": {
     "basic": {
       "name": "Impromptu Show",
-      "description": "Basic Attack\nMortefi menggunakan sepasang pistol dan api untuk melakukan hingga 4 tembakan beruntun, memberikan  Fusion DMG.\n\nHeavy Attack\nMortefi memasuki mode Aiming untuk menembakkan serangan yang lebih kuat.\nTembakan yang dilepaskan setelah charge selesai memberikan  Fusion DMG.\n\nMid-air Attack\nMenggunakan Stamina untuk melakukan beberapa tembakan ke arah target saat berada di udara, memberikan  Fusion DMG.\n\nDodge Counter\nGunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Mortefi menggunakan sepasang pistol dan api untuk melakukan hingga 4 tembakan beruntun, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mortefi memasuki mode Aiming untuk menembakkan serangan yang lebih kuat.\nTembakan yang dilepaskan setelah charge selesai memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Menggunakan Stamina untuk melakukan beberapa tembakan ke arah target saat berada di udara, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Passionate Variation",
-      "description": "Menembakkan kilatan api ke depan, memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menembakkan kilatan api ke depan, memberikan  Fusion DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Violent Finale",
-      "description": "Memberikan  Fusion DMG dan menerapkan efek Burning Rhapsody kepada semua anggota tim.\nBurning Rhapsody\nSaat Basic Attack karakter aktif mengenai target, Mortefi akan melakukan Coordinated Attack, menembakkan 1 Marcato.\nSaat Heavy Attack karakter aktif mengenai target, Mortefi akan melakukan Coordinated Attack, menembakkan 2 Marcato.\nMortefi dapat melakukan 1 Coordinated Attack setiap 0.35 detik.\n\nMarcato\nMenyerang target, memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan  Fusion DMG dan menerapkan efek Burning Rhapsody kepada semua anggota tim.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Burning Rhapsody",
+          "description": "Saat Basic Attack karakter aktif mengenai target, Mortefi akan melakukan Coordinated Attack, menembakkan 1 Marcato.\nSaat Heavy Attack karakter aktif mengenai target, Mortefi akan melakukan Coordinated Attack, menembakkan 2 Marcato.\nMortefi dapat melakukan 1 Coordinated Attack setiap 0.35 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Marcato",
+          "description": "Menyerang target, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Fury Fugue",
-      "description": "Resonance Skill: Fury Fugue\nSaat Annoyance Mortefi mencapai 100, Resonance Skill akan berubah menjadi Fury Fugue.\nSaat menggunakan Fury Fugue, Mortefi mengonsumsi seluruh Annoyance untuk menembakkan kilatan api berkecepatan tinggi, memberikan  Fusion DMG yang dihitung sebagai Resonance Skill DMG.\n\nAnnoyance\nMortefi dapat menyimpan hingga 100 Annoyance dan dapat memulihkannya melalui cara berikut:\nSaat Normal Attack: Impromptu Show mengenai target.\nSaat Intro Skill: Dissonance mengenai target.\nSaat Resonance Skill: Passionate Variation mengenai target.\nDalam 5 detik setelah menggunakan Passionate Variation, \nsetiap Normal Attack: Impromptu Show yang mengenai target akan memulihkan Annoyance tambahan."
+      "effects": [
+        {
+          "title": "Resonance Skill: Fury Fugue",
+          "description": "Saat Annoyance Mortefi mencapai 100, Resonance Skill akan berubah menjadi Fury Fugue.\nSaat menggunakan Fury Fugue, Mortefi mengonsumsi seluruh Annoyance untuk menembakkan kilatan api berkecepatan tinggi, memberikan  Fusion DMG yang dihitung sebagai Resonance Skill DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Annoyance",
+          "description": "Mortefi dapat menyimpan hingga 100 Annoyance dan dapat memulihkannya melalui cara berikut:\nSaat Normal Attack: Impromptu Show mengenai target.\nSaat Intro Skill: Dissonance mengenai target.\nSaat Resonance Skill: Passionate Variation mengenai target.\nDalam 5 detik setelah menggunakan Passionate Variation,\nsetiap Normal Attack: Impromptu Show yang mengenai target akan memulihkan Annoyance tambahan.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Harmonic Control",
-        "description": "Setelah menggunakan Resonance Skill: Passionate Variation, DMG dari Resonance Skill: Fury Fugue meningkat 25% selama 8 detik"
+        "effects": [
+          {
+            "title": "",
+            "description": "Setelah menggunakan Resonance Skill: Passionate Variation, DMG dari Resonance Skill: Fury Fugue meningkat 25% selama 8 detik",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Rhythmic Vibrato",
-        "description": "Saat dalam efek Burning Rhapsody, setiap serangan Marcato dari Resonance Liberation akan meningkatkan DMG dari Marcato berikutnya sebesar 1.5%.\nEfek ini dapat dipicu setiap 0.35 detik, hingga 50 stack(s).\nEfek ini akan dihapus setelah Burning Rhapsody berakhir."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat dalam efek Burning Rhapsody, setiap serangan Marcato dari Resonance Liberation akan meningkatkan DMG dari Marcato berikutnya sebesar 1.5%.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Efek ini dapat dipicu setiap 0.35 detik, hingga 50 stack(s).",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Efek ini akan dihapus setelah Burning Rhapsody berakhir.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break: Pistols",
@@ -229,11 +306,23 @@
     ],
     "intro": {
       "name": "Dissonance",
-      "description": "Mortefi menyerang target, memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mortefi menyerang target, memberikan  Fusion DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Rage Transposition",
-      "description": "Resonator yang masuk mendapatkan 38% Heavy Attack DMG Amplification selama 14 detik atau hingga mereka diganti."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk mendapatkan 38% Heavy Attack DMG Amplification selama 14 detik atau hingga mereka diganti.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -443,32 +532,83 @@
     {
       "stage": "S1",
       "name": "Solitary Etude",
-      "description": "Saat berada dalam Burning Rhapsody, Mortefi akan melakukan Coordinated Attack saat Resonator di medan pertempuran menggunakan Resonance Skill, \nmenembakkan 2 Marcato yang memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat berada dalam Burning Rhapsody, Mortefi akan melakukan Coordinated Attack saat Resonator di medan pertempuran menggunakan Resonance Skill,",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "menembakkan 2 Marcato yang memberikan  Fusion DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Hypocritical Hymn",
-      "description": "Setelah menggunakan Echo Skill, Mortefi memulihkan tambahan 10 Resonance Energy.\nDapat dipicu setiap 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah menggunakan Echo Skill, Mortefi memulihkan tambahan 10 Resonance Energy.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat dipicu setiap 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Flaming Recitativo",
-      "description": "Saat berada dalam Burning Rhapsody, Crit. DMG dari Marcato meningkat 30%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat berada dalam Burning Rhapsody, Crit. DMG dari Marcato meningkat 30%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Cathartic Waltz",
-      "description": "Durasi Burning Rhapsody diperpanjang 7 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Durasi Burning Rhapsody diperpanjang 7 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Funerary Quartet",
-      "description": "Saat Resonance Skill: Passionate Variation atau Resonance Skill: Fury Fugue mengenai target, akan memicu Coordinated Attack yang menembakkan 4 Marcato, memberikan  Fusion DMG.\nDMG dari Marcato yang ditembakkan dengan cara ini dikurangi 50%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Resonance Skill: Passionate Variation atau Resonance Skill: Fury Fugue mengenai target, akan memicu Coordinated Attack yang menembakkan 4 Marcato, memberikan  Fusion DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG dari Marcato yang ditembakkan dengan cara ini dikurangi 50%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Apoplectic Instrumental",
-      "description": "Saat Resonance Liberation: Violent Finale digunakan, ATK semua anggota tim meningkat 20% selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Resonance Liberation: Violent Finale digunakan, ATK semua anggota tim meningkat 20% selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

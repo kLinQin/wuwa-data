@@ -19,7 +19,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Midnight Rangers",
@@ -190,37 +191,140 @@
   "skills": {
     "basic": {
       "name": "Execution",
-      "description": "Basic Attack\nDanjin melakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.\n\nHeavy Attack\nDanjin mengonsumsi STA untuk melancarkan serangan bertubi-tubi, memberikan  Havoc DMG.\n\nMid-air Attack\nDanjin melakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.\n\nDodge Counter\nSetelah Dodge Counter yang sukses, Danjin dapat menggunakan Resonance Skill: Crimson Fragment untuk melancarkan Resonance Skill: Crimson Erosion."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Danjin melakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Danjin mengonsumsi STA untuk melancarkan serangan bertubi-tubi, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Danjin melakukan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Setelah Dodge Counter yang sukses, Danjin dapat menggunakan Resonance Skill: Crimson Fragment untuk melancarkan Resonance Skill: Crimson Erosion.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Crimson Fragment",
-      "description": "Setiap kali Crimson Fragment digunakan, mengonsumsi 3% HP maksimum Danjin.\nJika HP Danjin kurang dari 1%, skill ini tidak lagi mengonsumsi HP.\n\nCarmine Gleam\nDanjin menyerang target, memberikan  Havoc DMG.\n\nCrimson Erosion\nSetelah Basic Attack 2, Dodge Counter, atau Intro Skill: Vindication, gunakan Resonance Skill untuk melakukan hingga 2 serangan berturut-turut, memberikan  Havoc DMG.\nJika Crimson Erosion 2 mengenai target, akan menerapkan efek Incinerating Will.\n\nIncinerating Will\nDanjin memberikan 20% lebih banyak DMG ke target yang memiliki efek Incinerating Will.\n\nSanguine Pulse\nGunakan Resonance Skill setelah Basic Attack 3 untuk melancarkan hingga 3 serangan berturut-turut, memberikan  Havoc DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setiap kali Crimson Fragment digunakan, mengonsumsi 3% HP maksimum Danjin.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika HP Danjin kurang dari 1%, skill ini tidak lagi mengonsumsi HP.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Carmine Gleam",
+          "description": "Danjin menyerang target, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Crimson Erosion",
+          "description": "Setelah Basic Attack 2, Dodge Counter, atau Intro Skill: Vindication, gunakan Resonance Skill untuk melakukan hingga 2 serangan berturut-turut, memberikan  Havoc DMG.\nJika Crimson Erosion 2 mengenai target, akan menerapkan efek Incinerating Will.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Incinerating Will",
+          "description": "Danjin memberikan 20% lebih banyak DMG ke target yang memiliki efek Incinerating Will.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sanguine Pulse",
+          "description": "Gunakan Resonance Skill setelah Basic Attack 3 untuk melancarkan hingga 3 serangan berturut-turut, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Crimson Bloom",
-      "description": "Danjin meluapkan amarahnya dengan mengayunkan dual blade secara cepat, melakukan serangkaian serangan bertubi-tubi dan diakhiri dengan Scarlet Burst, memberikan  Havoc DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Danjin meluapkan amarahnya dengan mengayunkan dual blade secara cepat, melakukan serangkaian serangan bertubi-tubi dan diakhiri dengan Scarlet Burst, memberikan  Havoc DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Serene Vigil",
-      "description": "Heavy Attack: Chaoscleave\nSetelah mengumpulkan 60 Ruby Blossom, tahan Basic Attack untuk mengonsumsi semua Ruby Blossom dan melancarkan Chaoscleave, memberikan  Havoc DMG (dihitung sebagai Heavy Attack DMG) serta memulihkan HP Danjin.\nJika Ruby Blossom mencapai lebih dari 120, maka 120 Ruby Blossom dikonsumsi untuk meningkatkan DMG Multiplier dari Chaoscleave dan Scatterbloom yang digunakan kali ini.\n\nHeavy Attack: Scatterbloom\nGunakan Basic Attack setelah Heavy Attack: Chaoscleave untuk melancarkan Scatterbloom, menyerang target dan memberikan  Havoc DMG (dihitung sebagai Heavy Attack DMG).\n\nRuby Blossom\nDanjin bisa menyimpan hingga 120 Ruby Blossom.\nDanjin mendapatkan Ruby Blossom setiap kali menggunakan Resonance Skill: Crimson Fragment."
+      "effects": [
+        {
+          "title": "Heavy Attack: Chaoscleave",
+          "description": "Setelah mengumpulkan 60 Ruby Blossom, tahan Basic Attack untuk mengonsumsi semua Ruby Blossom dan melancarkan Chaoscleave, memberikan  Havoc DMG (dihitung sebagai Heavy Attack DMG) serta memulihkan HP Danjin.\nJika Ruby Blossom mencapai lebih dari 120, maka 120 Ruby Blossom dikonsumsi untuk meningkatkan DMG Multiplier dari Chaoscleave dan Scatterbloom yang digunakan kali ini.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack: Scatterbloom",
+          "description": "Gunakan Basic Attack setelah Heavy Attack: Chaoscleave untuk melancarkan Scatterbloom, menyerang target dan memberikan  Havoc DMG (dihitung sebagai Heavy Attack DMG).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Ruby Blossom",
+          "description": "Danjin bisa menyimpan hingga 120 Ruby Blossom.\nDanjin mendapatkan Ruby Blossom setiap kali menggunakan Resonance Skill: Crimson Fragment.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Crimson Light",
-        "description": "\nDMG dari Resonance Skill: Crimson Erosion yang dipicu oleh Dodge Counter: Ruby Shades meningkat 20%.\n\nCost HP berkurang dan jumlah Ruby Blossom yang diperoleh menjadi dua kali lipat."
+        "effects": [
+          {
+            "title": "",
+            "description": "DMG dari Resonance Skill: Crimson Erosion yang dipicu oleh Dodge Counter: Ruby Shades meningkat 20%.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Cost HP berkurang dan jumlah Ruby Blossom yang diperoleh menjadi dua kali lipat.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Overflow",
-        "description": "Setelah menggunakan Resonance Skill: Sanguine Pulse, DMG dari Heavy Attack Danjin meningkat sebesar 30% selama 5 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Setelah menggunakan Resonance Skill: Sanguine Pulse, DMG dari Heavy Attack Danjin meningkat sebesar 30% selama 5 detik.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Vindication",
-      "description": "Dengan tekad yang tak tergoyahkan, Danjin melancarkan serangan, memberikan  Havoc DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Dengan tekad yang tak tergoyahkan, Danjin melancarkan serangan, memberikan  Havoc DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Duality",
-      "description": "Resonator yang masuk mendapatkan 23%  Havoc DMG Amplification selama 14 detik atau hingga mereka digantikan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk mendapatkan 23%  Havoc DMG Amplification selama 14 detik atau hingga mereka digantikan.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -448,32 +552,78 @@
     {
       "stage": "S1",
       "name": "Crimson Heart Of Justice",
-      "description": "Saat Danjin menyerang target yang terkena Incinerating Will dari Resonance Skill, ATK meningkat 5% selama 6 detik, dapat ditumpuk hingga 6 kali.\nDanjin akan kehilangan 1 stack setiap kali menerima damage."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Danjin menyerang target yang terkena Incinerating Will dari Resonance Skill, ATK meningkat 5% selama 6 detik, dapat ditumpuk hingga 6 kali.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Danjin akan kehilangan 1 stack setiap kali menerima damage.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Dusted Mirror",
-      "description": "Saat Danjin menyerang target yang terkena Incinerating Will dari Resonance Skill, DMG yang diberikan meningkat 20%"
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Danjin menyerang target yang terkena Incinerating Will dari Resonance Skill, DMG yang diberikan meningkat 20%",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Fleeting Blossom",
-      "description": "Bonus DMG dari Resonance Liberation meningkat sebesar 30%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Bonus DMG dari Resonance Liberation meningkat sebesar 30%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Solitary Carnation",
-      "description": "Jika Danjin memiliki lebih dari 60 Ruby Blossom, Crit Rate meningkat 15%.\nEfek ini bertahan hingga akhir Heavy Attack: Scatterbloom, bahkan setelah semua Ruby Blossom dikonsumsi saat menggunakan Heavy Attack: Chaoscleave."
+      "effects": [
+        {
+          "title": "",
+          "description": "Jika Danjin memiliki lebih dari 60 Ruby Blossom, Crit Rate meningkat 15%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek ini bertahan hingga akhir Heavy Attack: Scatterbloom, bahkan setelah semua Ruby Blossom dikonsumsi saat menggunakan Heavy Attack: Chaoscleave.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Reigning Blade",
-      "description": "Havoc DMG Bonus meningkat 15%, dan meningkat lagi 15% jika HP Danjin kurang dari 60%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Havoc DMG Bonus meningkat 15%, dan meningkat lagi 15% jika HP Danjin kurang dari 60%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Bloodied Jade",
-      "description": "Heavy Attack: Chaoscleave meningkatkan ATK seluruh anggota tim sebesar 20% selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Heavy Attack: Chaoscleave meningkatkan ATK seluruh anggota tim sebesar 20% selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

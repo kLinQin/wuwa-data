@@ -20,7 +20,8 @@
       "text": "",
       "type": "updated",
       "isNew": true,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "",
@@ -216,37 +217,245 @@
   "skills": {
     "basic": {
       "name": "Snapshot",
-      "description": "Basic Attack\nMelancarkan hingga 3 serangan berturut-turut, memberikan Glacio DMG.\nSaat melancarkan Basic Attack Tahap 3, tahan Normal Attack untuk menyebarkan Focus Ring. Sebuah kursor akan bergerak di sekitar Focus Ring.\n- Melepaskan tombol Normal Attack saat kursor berada di luar Perfect Focus akan memicu Basic Attack Tahap 3 - Unremarkable, memberikan Glacio DMG dan memulihkan Trace.\n- Melepaskan tombol Normal Attack saat kursor berada di dalam Perfect Focus akan memicu Basic Attack Tahap 3 - Commendable, memberikan Glacio DMG yang lebih besar dan memulihkan tambahan Trace.\nMenekan Normal Attack sesaat setelah melancarkan Basic Attack Tahap 2 akan memicu Basic Attack Tahap 3 - Unremarkable alih-alih menyebarkan Focus Ring.\nSaat Focus Ring disebarkan, zona Perfect Focus akan terus memenuhi cincin tersebut. Setelah Focus Ring terisi penuh, cincin akan otomatis runtuh dan memicu Basic Attack Tahap 3 - Commendable.\nTahan Normal Attack untuk melancarkan Basic Attack Tahap 1, 2, dan 3 secara berurutan, serta menyebarkan Focus Ring selama Basic Attack Tahap 3.\n\nMid-air Attack\nMengonsumsi STA untuk melancarkan Plunging Attack, memberikan Glacio DMG. Tekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Tahap 2.\n\nDodge Counter\nTekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG. Sesaat setelah melakukan serangan ini, tekan Normal Attack untuk melancarkan Basic Attack Tahap 3."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melancarkan hingga 3 serangan berturut-turut, memberikan Glacio DMG.\nSaat melancarkan Basic Attack Tahap 3, tahan Normal Attack untuk menyebarkan Focus Ring. Sebuah kursor akan bergerak di sekitar Focus Ring.\n- Melepaskan tombol Normal Attack saat kursor berada di luar Perfect Focus akan memicu Basic Attack Tahap 3 - Unremarkable, memberikan Glacio DMG dan memulihkan Trace.\n- Melepaskan tombol Normal Attack saat kursor berada di dalam Perfect Focus akan memicu Basic Attack Tahap 3 - Commendable, memberikan Glacio DMG yang lebih besar dan memulihkan tambahan Trace.\nMenekan Normal Attack sesaat setelah melancarkan Basic Attack Tahap 2 akan memicu Basic Attack Tahap 3 - Unremarkable alih-alih menyebarkan Focus Ring.\nSaat Focus Ring disebarkan, zona Perfect Focus akan terus memenuhi cincin tersebut. Setelah Focus Ring terisi penuh, cincin akan otomatis runtuh dan memicu Basic Attack Tahap 3 - Commendable.\nTahan Normal Attack untuk melancarkan Basic Attack Tahap 1, 2, dan 3 secara berurutan, serta menyebarkan Focus Ring selama Basic Attack Tahap 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melancarkan Plunging Attack, memberikan Glacio DMG. Tekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Tahap 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG. Sesaat setelah melakukan serangan ini, tekan Normal Attack untuk melancarkan Basic Attack Tahap 3.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Phantom Frame",
-      "description": "Pull in nearby targets, dealing Glacio DMG.\nMenarik target di sekitar, memberikan Glacio DMG.\nSaat melancarkan skill ini, tahan Resonance Skill untuk menyebarkan Focus Ring. Sebuah kursor akan bergerak di sekitar Focus Ring.\n- Melepaskan tombol Resonance Skill saat kursor berada di luar Perfect Focus akan memicu Compensate, memberikan Glacio DMG dan memulihkan Trace.\n- Melepaskan tombol Resonance Skill saat kursor berada di dalam Perfect Focus akan memicu Spotlight, memberikan Glacio DMG yang lebih besar dan memulihkan tambahan Trace.\nJika Lucilla melancarkan skill ini di dalam field tanpa menahan Resonance Skill, ia akan langsung melancarkan Compensate alih-alih menyebarkan Focus Ring.\n\nCompensate\nMenyerang target, memberikan Glacio DMG dan mengurangi Cooldown dari Resonance Skill Lucilla sebesar 8 detik.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Tahap 2.\n\nSpotlight\nMenyerang target, memberikan Glacio DMG.\nSaat melancarkan Spotlight, Lucilla sebagai tambahan memulihkan 20 poin Concerto Energy, dan memberikan 1 stack(s) ekstra Glacio Chafe ke target jika ia berada dalam Resonance Mode - Glacio Chafe.\nSpotlight kebal terhadap interupsi. Beralih ke Resonator lain saat melancarkan Spotlight akan mengakhiri skill lebih awal.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Tahap 2."
+      "effects": [
+        {
+          "title": "",
+          "description": "Pull in nearby targets, dealing Glacio DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Menarik target di sekitar, memberikan Glacio DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat melancarkan skill ini, tahan Resonance Skill untuk menyebarkan Focus Ring. Sebuah kursor akan bergerak di sekitar Focus Ring.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Melepaskan tombol Resonance Skill saat kursor berada di luar Perfect Focus akan memicu Compensate, memberikan Glacio DMG dan memulihkan Trace.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Melepaskan tombol Resonance Skill saat kursor berada di dalam Perfect Focus akan memicu Spotlight, memberikan Glacio DMG yang lebih besar dan memulihkan tambahan Trace.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Lucilla melancarkan skill ini di dalam field tanpa menahan Resonance Skill, ia akan langsung melancarkan Compensate alih-alih menyebarkan Focus Ring.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Compensate",
+          "description": "Menyerang target, memberikan Glacio DMG dan mengurangi Cooldown dari Resonance Skill Lucilla sebesar 8 detik.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Tahap 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Spotlight",
+          "description": "Menyerang target, memberikan Glacio DMG.\nSaat melancarkan Spotlight, Lucilla sebagai tambahan memulihkan 20 poin Concerto Energy, dan memberikan 1 stack(s) ekstra Glacio Chafe ke target jika ia berada dalam Resonance Mode - Glacio Chafe.\nSpotlight kebal terhadap interupsi. Beralih ke Resonator lain saat melancarkan Spotlight akan mengakhiri skill lebih awal.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack Tahap 2.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Clear As Day",
-      "description": "Lucilla's holds up to 0 Resonance Energy. Clear As Day consumes no Resonance Energy.\nClear As Day unlocks when Lucilla holds all 3 Photos.\n\nClear As Day\nMemberikan Glacio DMG dan memasuki Reminiscence:\n- Saat berada dalam Resonance Mode - Glacio Chafe, damage yang diberikan dianggap sebagai Basic Attack DMG. Melancarkan skill ini memberikan Lucilla 30% Basic Attack DMG Bonus selama 10 detik.\n- Saat berada dalam Resonance Mode - Echo, damage yang diberikan dianggap sebagai Echo Skill DMG. Melancarkan skill ini memberikan Lucilla 30% Echo Skill DMG Bonus selama 10 detik.\nSaat berada dalam Reminiscence, resistansi Lucilla terhadap interupsi meningkat, serta ia tidak dapat melancarkan Resonance Skill dan Resonance Liberation. Basic Attack, Dodge Counter, Mid-air Attack, dan Intro Skill - Clip It miliknya masing-masing digantikan dengan Basic Attack - Tracing Forms, Dodge Counter - Reminiscence, Mid-air Attack - Reminiscence, dan Intro Skill - Clip It: Hard Cut.\nDapat dilakukan di udara dekat dengan tanah.\n\nBasic Attack - Tracing Forms\nMelancarkan hingga 3 serangan berturut-turut, memberikan Glacio DMG, dianggap sebagai Basic Attack DMG.\nTahan Normal Attack untuk melancarkan Basic Attack - Tracing Forms Tahap 1, 2, & 3 secara berurutan.\nSaat melancarkan Basic Attack - Tracing Forms Tahap 3, tekan berturut-turut atau tahan Normal Attack untuk terus-menerus menyerang target.\nSaat melancarkan Basic Attack - Tracing Forms Tahap 3, lepaskan tombol Normal Attack atau selesaikan seluruh Basic Attack - Tracing Forms Tahap 3 untuk otomatis melancarkan Letting It Go.\n\nLetting It Go\nMemberikan Glacio DMG kepada target dalam jangkauan. Saat berada dalam Resonance Mode - Glacio Chafe/Resonance Mode - Echo, damage yang diberikan dianggap sebagai Basic Attack DMG/Echo Skill DMG.\nLucilla kebal terhadap interupsi dan damage selama Letting It Go, serta pergantian Resonator dinonaktifkan saat melancarkan skill ini.\nSaat melancarkan Letting It Go, Lucilla sebagai tambahan memulihkan 20 poin Concerto Energy.\nMelancarkan Letting It Go mengakhiri Reminiscence.\n\nMid-air Attack - Reminiscence\nMengonsumsi STA untuk melancarkan Plunging Attack, memberikan Glacio DMG, dianggap sebagai Basic Attack DMG.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Tracing Forms Tahap 2.\n\nDodge Counter - Reminiscence\nTekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG, dianggap sebagai Basic Attack DMG.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Tracing Forms Tahap 3."
+      "effects": [
+        {
+          "title": "",
+          "description": "Lucilla's holds up to 0 Resonance Energy. Clear As Day consumes no Resonance Energy.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Clear As Day unlocks when Lucilla holds all 3 Photos.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Clear As Day",
+          "description": "Memberikan Glacio DMG dan memasuki Reminiscence:\n- Saat berada dalam Resonance Mode - Glacio Chafe, damage yang diberikan dianggap sebagai Basic Attack DMG. Melancarkan skill ini memberikan Lucilla 30% Basic Attack DMG Bonus selama 10 detik.\n- Saat berada dalam Resonance Mode - Echo, damage yang diberikan dianggap sebagai Echo Skill DMG. Melancarkan skill ini memberikan Lucilla 30% Echo Skill DMG Bonus selama 10 detik.\nSaat berada dalam Reminiscence, resistansi Lucilla terhadap interupsi meningkat, serta ia tidak dapat melancarkan Resonance Skill dan Resonance Liberation. Basic Attack, Dodge Counter, Mid-air Attack, dan Intro Skill - Clip It miliknya masing-masing digantikan dengan Basic Attack - Tracing Forms, Dodge Counter - Reminiscence, Mid-air Attack - Reminiscence, dan Intro Skill - Clip It: Hard Cut.\nDapat dilakukan di udara dekat dengan tanah.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Tracing Forms",
+          "description": "Melancarkan hingga 3 serangan berturut-turut, memberikan Glacio DMG, dianggap sebagai Basic Attack DMG.\nTahan Normal Attack untuk melancarkan Basic Attack - Tracing Forms Tahap 1, 2, & 3 secara berurutan.\nSaat melancarkan Basic Attack - Tracing Forms Tahap 3, tekan berturut-turut atau tahan Normal Attack untuk terus-menerus menyerang target.\nSaat melancarkan Basic Attack - Tracing Forms Tahap 3, lepaskan tombol Normal Attack atau selesaikan seluruh Basic Attack - Tracing Forms Tahap 3 untuk otomatis melancarkan Letting It Go.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Letting It Go",
+          "description": "Memberikan Glacio DMG kepada target dalam jangkauan. Saat berada dalam Resonance Mode - Glacio Chafe/Resonance Mode - Echo, damage yang diberikan dianggap sebagai Basic Attack DMG/Echo Skill DMG.\nLucilla kebal terhadap interupsi dan damage selama Letting It Go, serta pergantian Resonator dinonaktifkan saat melancarkan skill ini.\nSaat melancarkan Letting It Go, Lucilla sebagai tambahan memulihkan 20 poin Concerto Energy.\nMelancarkan Letting It Go mengakhiri Reminiscence.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Reminiscence",
+          "description": "Mengonsumsi STA untuk melancarkan Plunging Attack, memberikan Glacio DMG, dianggap sebagai Basic Attack DMG.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Tracing Forms Tahap 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Reminiscence",
+          "description": "Tekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG, dianggap sebagai Basic Attack DMG.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Tracing Forms Tahap 3.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Memory Palace",
-      "description": "Déjà Vu\nSaat melancarkan Resonance Liberation - Clear As Day, Lucilla memberikan peningkatan berikut berdasarkan Resonance Mode miliknya:\n- Saat berada dalam Resonance Mode - Glacio Chafe, mendapatkan 4 stack(s) Film Roll selama 30 detik, dapat ditumpuk hingga 4 kali. Semua stack(s) akan dihapus saat durasi berakhir.\n- Saat berada dalam Resonance Mode - Echo, mendapatkan 1 stack(s) Zoom selama 30 detik. Maksimal 1 stack(s), yang akan dihapus saat durasi berakhir.\nEfek di atas akan berakhir lebih awal saat Lucilla mengganti Resonance Mode.\n\nFilm Roll\nSaat Resonator aktif dalam tim selain Lucilla memberikan Glacio Chafe ke target, Lucilla mengonsumsi 1 stack(s) Film Roll untuk memberikan Glacio Chafe sebanyak 2 kali pada target di sekitar. Efek ini dapat dipicu sekali setiap 0.5 detik.\n\nZoom\nSetiap stack(s) Zoom meningkatkan Crit. DMG dari Echo Skill milik Resonator aktif sebesar 10%.\n\nOblivion\nSelama Basic Attack - Tracing Forms Tahap 3, Lucilla mengonsumsi 1 Photo secara berkala untuk melancarkan Oblivion, memberikan 1 bagian Glacio DMG:\n- Saat berada dalam Resonance Mode - Glacio Chafe, bagian DMG ini dianggap sebagai Basic Attack DMG. Skill ini memberikan 1 stack(s) Glacio Chafe pada target.\n- Saat berada dalam Resonance Mode - Echo, bagian DMG ini dianggap sebagai Echo Skill DMG. Setiap peluncuran Oblivion dianggap sebagai melancarkan Echo Skill yang berbeda.\n\nQuick Glance\nTekan Aim untuk memasuki mode kamera. Selama mode ini, Reverberations, item koleksi lingkungan, dan item koleksi khusus dalam jangkauan tertentu dari bidikan Lucilla akan ditandai. Tekan tombol rana untuk mengabadikan momen, dan item yang ditandai akan dikumpulkan.\n\nTrace\nLucilla dapat menampung hingga 150 poin Trace.\nMemulihkan 100 poin Trace saat melancarkan Intro Skill - Clip It.\nMemulihkan 50 poin Trace saat melancarkan Resonance Skill - Spotlight.\nMemulihkan 50 poin Trace saat melancarkan Basic Attack Tahap 3 - Commendable.\nMemulihkan 25 poin Trace saat melancarkan Resonance Skill - Compensate atau Basic Attack Tahap 3 - Unremarkable.\n\nPhotos\nLucilla dapat menampung hingga 3 Photos.\nSetiap 50 poin Trace yang dipulihkan akan menghasilkan 1 Photo."
+      "effects": [
+        {
+          "title": "Déjà Vu",
+          "description": "Saat melancarkan Resonance Liberation - Clear As Day, Lucilla memberikan peningkatan berikut berdasarkan Resonance Mode miliknya:\n- Saat berada dalam Resonance Mode - Glacio Chafe, mendapatkan 4 stack(s) Film Roll selama 30 detik, dapat ditumpuk hingga 4 kali. Semua stack(s) akan dihapus saat durasi berakhir.\n- Saat berada dalam Resonance Mode - Echo, mendapatkan 1 stack(s) Zoom selama 30 detik. Maksimal 1 stack(s), yang akan dihapus saat durasi berakhir.\nEfek di atas akan berakhir lebih awal saat Lucilla mengganti Resonance Mode.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Film Roll",
+          "description": "Saat Resonator aktif dalam tim selain Lucilla memberikan Glacio Chafe ke target, Lucilla mengonsumsi 1 stack(s) Film Roll untuk memberikan Glacio Chafe sebanyak 2 kali pada target di sekitar. Efek ini dapat dipicu sekali setiap 0.5 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Zoom",
+          "description": "Setiap stack(s) Zoom meningkatkan Crit. DMG dari Echo Skill milik Resonator aktif sebesar 10%.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Oblivion",
+          "description": "Selama Basic Attack - Tracing Forms Tahap 3, Lucilla mengonsumsi 1 Photo secara berkala untuk melancarkan Oblivion, memberikan 1 bagian Glacio DMG:\n- Saat berada dalam Resonance Mode - Glacio Chafe, bagian DMG ini dianggap sebagai Basic Attack DMG. Skill ini memberikan 1 stack(s) Glacio Chafe pada target.\n- Saat berada dalam Resonance Mode - Echo, bagian DMG ini dianggap sebagai Echo Skill DMG. Setiap peluncuran Oblivion dianggap sebagai melancarkan Echo Skill yang berbeda.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Quick Glance",
+          "description": "Tekan Aim untuk memasuki mode kamera. Selama mode ini, Reverberations, item koleksi lingkungan, dan item koleksi khusus dalam jangkauan tertentu dari bidikan Lucilla akan ditandai. Tekan tombol rana untuk mengabadikan momen, dan item yang ditandai akan dikumpulkan.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Trace",
+          "description": "Lucilla dapat menampung hingga 150 poin Trace.\nMemulihkan 100 poin Trace saat melancarkan Intro Skill - Clip It.\nMemulihkan 50 poin Trace saat melancarkan Resonance Skill - Spotlight.\nMemulihkan 50 poin Trace saat melancarkan Basic Attack Tahap 3 - Commendable.\nMemulihkan 25 poin Trace saat melancarkan Resonance Skill - Compensate atau Basic Attack Tahap 3 - Unremarkable.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Photos",
+          "description": "Lucilla dapat menampung hingga 3 Photos.\nSetiap 50 poin Trace yang dipulihkan akan menghasilkan 1 Photo.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Slow Motion",
-        "description": "Saat Focus Ring disebarkan, Lucilla memperlambat target yang berada dalam tembakannya.\nSaat melancarkan Resonance Skill - Spotlight, Lucilla memberikan peningkatan berikut berdasarkan Resonance Mode miliknya:\n- Saat berada dalam Resonance Mode - Glacio Chafe, Glacio RES dari target dalam jangkauan tertentu di sekitar Resonator yang aktif berkurang sebesar 8% selama 30 detik. Jika musuh kalah oleh Glacio Chafe DMG selama waktu ini, hal itu dianggap disebabkan oleh Resonator aktif terdekat.\n- Saat berada dalam Resonance Mode - Echo, Resonator dalam tim mendapatkan 25% Echo Skill DMG Bonus selama 30 detik.\nPeningkatan ini akan berakhir saat Lucilla mengganti Resonance Mode."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Focus Ring disebarkan, Lucilla memperlambat target yang berada dalam tembakannya.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat melancarkan Resonance Skill - Spotlight, Lucilla memberikan peningkatan berikut berdasarkan Resonance Mode miliknya:",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Saat berada dalam Resonance Mode - Glacio Chafe, Glacio RES dari target dalam jangkauan tertentu di sekitar Resonator yang aktif berkurang sebesar 8% selama 30 detik. Jika musuh kalah oleh Glacio Chafe DMG selama waktu ini, hal itu dianggap disebabkan oleh Resonator aktif terdekat.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Saat berada dalam Resonance Mode - Echo, Resonator dalam tim mendapatkan 25% Echo Skill DMG Bonus selama 30 detik.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Peningkatan ini akan berakhir saat Lucilla mengganti Resonance Mode.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Remembrance",
-        "description": "Film Roll kini dapat ditumpuk hingga 10 stack(s), dan Zoom hingga 4 stack(s).\nSetiap kali Lucilla mengonsumsi Photo saat berada dalam Resonance Mode - Glacio Chafe/Resonance Mode - Echo, ia mendapatkan 2 stack(s) Film Roll/1 stack(s) Zoom."
+        "effects": [
+          {
+            "title": "",
+            "description": "Film Roll kini dapat ditumpuk hingga 10 stack(s), dan Zoom hingga 4 stack(s).",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Setiap kali Lucilla mengonsumsi Photo saat berada dalam Resonance Mode - Glacio Chafe/Resonance Mode - Echo, ia mendapatkan 2 stack(s) Film Roll/1 stack(s) Zoom.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Clip It",
-      "description": "Clip It\nMenyerang target, memberikan Glacio DMG dan memberikan 1 stack(s) Glacio Chafe.\n\nClip It: Hard Cut\nSaat berada dalam Reminiscence, Intro Skill digantikan dengan Clip It: Hard Cut.\nMenyerang target, memberikan Glacio DMG dan memberikan 1 stack(s) Glacio Chafe.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Tracing Forms Tahap 3."
+      "effects": [
+        {
+          "title": "Clip It",
+          "description": "Menyerang target, memberikan Glacio DMG dan memberikan 1 stack(s) Glacio Chafe.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Clip It: Hard Cut",
+          "description": "Saat berada dalam Reminiscence, Intro Skill digantikan dengan Clip It: Hard Cut.\nMenyerang target, memberikan Glacio DMG dan memberikan 1 stack(s) Glacio Chafe.\nTekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Tracing Forms Tahap 3.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "outro": {
       "name": "Montage",
-      "description": "When in Resonance Mode - Glacio Chafe, Glacio Chafe DMG against targets within a certain range around the active Resonator is Amplified by 60% for 30s.\nSaat berada dalam Resonance Mode - Glacio Chafe, Glacio Chafe DMG terhadap target dalam jangkauan tertentu di sekitar Resonator yang aktif ditingkatkan sebesar 60% selama 30 detik.\nEfek ini berakhir saat Lucilla mengganti Resonance Mode.\n\nWhen in Resonance Mode - Echo, grant 50% Echo Skill DMG Amplification to the incoming Resonator for 14s.\nSaat berada dalam Resonance Mode - Echo, berikan 50% Echo Skill DMG Amplification kepada Resonator yang masuk selama 14 detik.\nEfek ini berakhir saat Resonator yang masuk meninggalkan field atau saat Lucilla mengganti Resonance Mode."
+      "effects": [
+        {
+          "title": "",
+          "description": "When in Resonance Mode - Glacio Chafe, Glacio Chafe DMG against targets within a certain range around the active Resonator is Amplified by 60% for 30s.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat berada dalam Resonance Mode - Glacio Chafe, Glacio Chafe DMG terhadap target dalam jangkauan tertentu di sekitar Resonator yang aktif ditingkatkan sebesar 60% selama 30 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek ini berakhir saat Lucilla mengganti Resonance Mode.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "When in Resonance Mode - Echo, grant 50% Echo Skill DMG Amplification to the incoming Resonator for 14s.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat berada dalam Resonance Mode - Echo, berikan 50% Echo Skill DMG Amplification kepada Resonator yang masuk selama 14 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek ini berakhir saat Resonator yang masuk meninggalkan field atau saat Lucilla mengganti Resonance Mode.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -444,32 +653,108 @@
     {
       "stage": "S1",
       "name": "Distant Noon",
-      "description": " Saat melancarkan Resonance Skill - Phantom Frame untuk menyebarkan Focus Ring, pertama kali mendaratkan kursor di dalam Perfect Focus akan segera memperluas Perfect Focus hingga memenuhi seluruh Focus Ring.\nCrit. Rate Lucilla meningkat sebesar 20% selama 10 detik ketika Resonance Skill - Spotlight dilancarkan.\nLucilla kebal terhadap interupsi saat melancarkan Resonance Skill - Phantom Frame dan Basic Attack - Tracing Forms Tahap 3.\n\n\n\n\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat melancarkan Resonance Skill - Phantom Frame untuk menyebarkan Focus Ring, pertama kali mendaratkan kursor di dalam Perfect Focus akan segera memperluas Perfect Focus hingga memenuhi seluruh Focus Ring.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Crit. Rate Lucilla meningkat sebesar 20% selama 10 detik ketika Resonance Skill - Spotlight dilancarkan.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Lucilla kebal terhadap interupsi saat melancarkan Resonance Skill - Phantom Frame dan Basic Attack - Tracing Forms Tahap 3.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Slumbering Moonlight",
-      "description": " Saat melancarkan Resonance Liberation - Clear As Day, Lucilla memberikan peningkatan berikut berdasarkan Resonance Mode miliknya:\n- Saat berada dalam Resonance Mode - Glacio Chafe, Glacio Chafe DMG terhadap target dalam jangkauan tertentu di sekitar Resonator yang aktif ditingkatkan sebesar 80%.\n- Saat berada dalam Resonance Mode - Echo, berikan 40% Echo Skill DMG Amplification kepada Resonator di dalam tim.\nPeningkatan ini berlangsung selama Reminiscence aktif dan tetap efektif selama 30 detik setelah Reminiscence berakhir.\nEfek ini berakhir saat Lucilla mengganti Resonance Mode."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat melancarkan Resonance Liberation - Clear As Day, Lucilla memberikan peningkatan berikut berdasarkan Resonance Mode miliknya:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Saat berada dalam Resonance Mode - Glacio Chafe, Glacio Chafe DMG terhadap target dalam jangkauan tertentu di sekitar Resonator yang aktif ditingkatkan sebesar 80%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Saat berada dalam Resonance Mode - Echo, berikan 40% Echo Skill DMG Amplification kepada Resonator di dalam tim.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Peningkatan ini berlangsung selama Reminiscence aktif dan tetap efektif selama 30 detik setelah Reminiscence berakhir.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek ini berakhir saat Lucilla mengganti Resonance Mode.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Days Fade Unheard",
-      "description": "DMG Multiplier dari Letting It Go meningkat sebesar 100%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Letting It Go meningkat sebesar 100%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "The Past Fades Into Silence ",
-      "description": "Oblivion menarik target di sekitar saat mengenai hit. Saat melancarkan Oblivion, ATK Lucilla meningkat sebesar 10% selama 6 detik, dapat ditumpuk hingga 3 kali. Semua stack(s) akan dihapus saat durasi berakhir.\nSaat melancarkan Basic Attack - Tracing Forms Tahap 3, Lucilla menerima damage 30% lebih sedikit."
+      "effects": [
+        {
+          "title": "",
+          "description": "Oblivion menarik target di sekitar saat mengenai hit. Saat melancarkan Oblivion, ATK Lucilla meningkat sebesar 10% selama 6 detik, dapat ditumpuk hingga 3 kali. Semua stack(s) akan dihapus saat durasi berakhir.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat melancarkan Basic Attack - Tracing Forms Tahap 3, Lucilla menerima damage 30% lebih sedikit.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Time Is Like A Stream",
-      "description": "DMG Multiplier dari Oblivion meningkat sebesar 50%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Oblivion meningkat sebesar 50%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Gazing In The Mist Of Time",
-      "description": "Saat berada dalam Reminiscence, setiap kali Lucilla mengonsumsi Photo, ia mendapatkan 1 stack(s) Remembrance, dapat ditumpuk hingga 3 kali. Setiap stack(s) Remembrance meningkatkan damage Letting It Go yang diberikan kepada target sebesar 200%, hingga 600%. Melancarkan Letting It Go menghapus semua stack(s) Remembrance.\nLucilla mendapatkan Longing jika ia mengalahkan target saat berada dalam Reminiscence: Setelah mengakhiri Reminiscence saat tidak dalam pertempuran, konsumsi Longing untuk memulihkan 150 poin Trace."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat berada dalam Reminiscence, setiap kali Lucilla mengonsumsi Photo, ia mendapatkan 1 stack(s) Remembrance, dapat ditumpuk hingga 3 kali. Setiap stack(s) Remembrance meningkatkan damage Letting It Go yang diberikan kepada target sebesar 200%, hingga 600%. Melancarkan Letting It Go menghapus semua stack(s) Remembrance.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Lucilla mendapatkan Longing jika ia mengalahkan target saat berada dalam Reminiscence: Setelah mengakhiri Reminiscence saat tidak dalam pertempuran, konsumsi Longing untuk memulihkan 150 poin Trace.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

@@ -18,7 +18,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Black Shores",
@@ -172,37 +173,170 @@
   "skills": {
     "basic": {
       "name": "Origin Calculus",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut yang memberikan  Spectro DMG. Setiap hit akan menghasilkan 1 Collapsed Core.\n\nHeavy Attack\nTahan tombol Normal Attack untuk masuk ke Unbound Form, yang terus mengonsumsi STA. Saat berada dalam mode ini, Shorekeeper akan:\n- Menghasilkan 1 segmen Deductive Data setiap detik.\n- Secara otomatis mengumpulkan collectible dari tanaman di sekitar. Ketika STA habis atau jika melakukan aksi seperti Basic Attack, Unbound Form akan berakhir dan memberikan  Spectro DMG ke target. Setiap segmen Deductive Data yang terkumpul akan berubah menjadi Empirical Data dan menghasilkan Collapsed Core.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack. Setiap hit menghasilkan 1 Collapsed Core. \nTekan tombol Normal Attack dengan cepat setelah Plunging Attack untuk langsung melakukan Basic Attack Stage 2.\nDodge Counter\ntekan tombol Normal Attack setelah berhasil melakukan Dodge untuk menyerang target dan memberikan  Spectro DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan berturut-turut yang memberikan  Spectro DMG. Setiap hit akan menghasilkan 1 Collapsed Core.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Tahan tombol Normal Attack untuk masuk ke Unbound Form, yang terus mengonsumsi STA. Saat berada dalam mode ini, Shorekeeper akan:\n- Menghasilkan 1 segmen Deductive Data setiap detik.\n- Secara otomatis mengumpulkan collectible dari tanaman di sekitar. Ketika STA habis atau jika melakukan aksi seperti Basic Attack, Unbound Form akan berakhir dan memberikan  Spectro DMG ke target. Setiap segmen Deductive Data yang terkumpul akan berubah menjadi Empirical Data dan menghasilkan Collapsed Core.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack. Setiap hit menghasilkan 1 Collapsed Core.\nTekan tombol Normal Attack dengan cepat setelah Plunging Attack untuk langsung melakukan Basic Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "tekan tombol Normal Attack setelah berhasil melakukan Dodge untuk menyerang target dan memberikan  Spectro DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Chaos Theory",
-      "description": "Memulihkan HP semua anggota party di sekitar dan memanggil 5 Dim Star Butterflies yang secara otomatis melacak serta menyerang target, memberikan  Spectro DMG. \nJika langsung melanjutkan dengan Basic Attack, siklus Basic Attack akan dimulai dari Stage 2.\nDapat digunakan saat di udara."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memulihkan HP semua anggota party di sekitar dan memanggil 5 Dim Star Butterflies yang secara otomatis melacak serta menyerang target, memberikan  Spectro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika langsung melanjutkan dengan Basic Attack, siklus Basic Attack akan dimulai dari Stage 2.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat digunakan saat di udara.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "End Loop",
-      "description": "Outer Stellarealm\nMenciptakan Outer Stellarealm yang secara terus-menerus memulihkan HP semua anggota party di dalam area efeknya. \nEfek ini bisa dipicu setiap 3 detik sekali.\n\nInner Stellarealm\nSaat anggota party menggunakan Intro Skill di dalam Outer Stellarealm, area tersebut berevolusi menjadi Inner Stellarealm.\n- Dalam area Inner Stellarealm, setiap 0.2% Shorekeeper's Energy Regen akan memberikan 0.01% peningkatan Crit Rate ke seluruh anggota party, hingga maksimal 12.5%.\n- Inner Stellarealm mewarisi semua efek dari Outer Stellarealm.\n\nSupernal Stellarealm\nSaat anggota party menggunakan Intro Skill di dalam Inner Stellarealm, area tersebut berevolusi menjadi Supernal Stellarealm.\n- Dalam area Supernal Stellarealm, setiap 0.1% Shorekeeper's Energy Regen akan memberikan 0.01% peningkatan Crit DMG ke seluruh anggota party, hingga maksimal 25%.\n- Supernal Stellarealm mewarisi semua efek dari Inner Stellarealm"
+      "effects": [
+        {
+          "title": "Outer Stellarealm",
+          "description": "Menciptakan Outer Stellarealm yang secara terus-menerus memulihkan HP semua anggota party di dalam area efeknya.\nEfek ini bisa dipicu setiap 3 detik sekali.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Inner Stellarealm",
+          "description": "Saat anggota party menggunakan Intro Skill di dalam Outer Stellarealm, area tersebut berevolusi menjadi Inner Stellarealm.\n- Dalam area Inner Stellarealm, setiap 0.2% Shorekeeper's Energy Regen akan memberikan 0.01% peningkatan Crit Rate ke seluruh anggota party, hingga maksimal 12.5%.\n- Inner Stellarealm mewarisi semua efek dari Outer Stellarealm.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Supernal Stellarealm",
+          "description": "Saat anggota party menggunakan Intro Skill di dalam Inner Stellarealm, area tersebut berevolusi menjadi Supernal Stellarealm.\n- Dalam area Supernal Stellarealm, setiap 0.1% Shorekeeper's Energy Regen akan memberikan 0.01% peningkatan Crit DMG ke seluruh anggota party, hingga maksimal 25%.\n- Supernal Stellarealm mewarisi semua efek dari Inner Stellarealm",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Astral Chord",
-      "description": "Flare Star Butterfly\nMenyerang target dengan Normal Attack akan menghasilkan Collapsed Core, yang setelah 6 detik akan berubah menjadi Flare Star Butterfly. \nFlare Star Butterflies secara otomatis melacak dan menyerang target, memberikan  Spectro DMG. Jika sudah ada 5 Collapsed Cores, hit Basic Attack berikutnya akan langsung mengubah satu Collapsed Core menjadi Flare Star Butterfly.\n\nIllation\nSaat Shorekeeper memiliki 5 segmen Empirical Data, menggunakan Heavy Attack akan mengonsumsi semua segmen tersebut untuk menarik target di sekitar dan memberikan  Spectro DMG. Semua Collapsed Cores yang ada juga akan langsung berubah menjadi Flare Star Butterflies.\n\nTransmutation\nSaat Shorekeeper memiliki 5 segmen Empirical Data, menggunakan Mid-air Attack akan mengonsumsi semua segmen tersebut untuk memberikan  Spectro DMG. \nSemua Collapsed Cores yang ada juga akan langsung berubah menjadi Flare Star Butterflies. Tekan tombol Normal Attack dengan cepat setelahnya untuk langsung melakukan Basic Attack Stage 2.\n\nEmpirical Data\nShorekeeper dapat menyimpan hingga 5 segmen Empirical Data.\n- Mendapatkan 1 segmen saat Basic Attack Stage 1, 2, atau 4 mengenai target.\n- Mendapatkan 2 segmen saat Basic Attack Stage 3 mengenai target.\n- Mendapatkan 1 segmen saat Mid-air Attack mengenai target.\n- Mendapatkan 1 segmen saat Dodge Counter mengenai target."
+      "effects": [
+        {
+          "title": "Flare Star Butterfly",
+          "description": "Menyerang target dengan Normal Attack akan menghasilkan Collapsed Core, yang setelah 6 detik akan berubah menjadi Flare Star Butterfly.\nFlare Star Butterflies secara otomatis melacak dan menyerang target, memberikan  Spectro DMG. Jika sudah ada 5 Collapsed Cores, hit Basic Attack berikutnya akan langsung mengubah satu Collapsed Core menjadi Flare Star Butterfly.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Illation",
+          "description": "Saat Shorekeeper memiliki 5 segmen Empirical Data, menggunakan Heavy Attack akan mengonsumsi semua segmen tersebut untuk menarik target di sekitar dan memberikan  Spectro DMG. Semua Collapsed Cores yang ada juga akan langsung berubah menjadi Flare Star Butterflies.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Transmutation",
+          "description": "Saat Shorekeeper memiliki 5 segmen Empirical Data, menggunakan Mid-air Attack akan mengonsumsi semua segmen tersebut untuk memberikan  Spectro DMG.\nSemua Collapsed Cores yang ada juga akan langsung berubah menjadi Flare Star Butterflies. Tekan tombol Normal Attack dengan cepat setelahnya untuk langsung melakukan Basic Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Empirical Data",
+          "description": "Shorekeeper dapat menyimpan hingga 5 segmen Empirical Data.\n- Mendapatkan 1 segmen saat Basic Attack Stage 1, 2, atau 4 mengenai target.\n- Mendapatkan 2 segmen saat Basic Attack Stage 3 mengenai target.\n- Mendapatkan 1 segmen saat Mid-air Attack mengenai target.\n- Mendapatkan 1 segmen saat Dodge Counter mengenai target.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Life Entwined",
-        "description": "Saat Resonator lain selain Shorekeeper menerima serangan fatal, mereka tidak akan langsung KO tetapi malah dipulihkan sebesar 50% HP dari total HP Shorekeeper, sementara Shorekeeper kehilangan jumlah HP yang sama. \nHP Shorekeeper tidak akan turun di bawah 1 karena efek ini.\nEfek ini bisa diaktifkan sekali setiap 10 menit."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Resonator lain selain Shorekeeper menerima serangan fatal, mereka tidak akan langsung KO tetapi malah dipulihkan sebesar 50% HP dari total HP Shorekeeper, sementara Shorekeeper kehilangan jumlah HP yang sama.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "HP Shorekeeper tidak akan turun di bawah 1 karena efek ini.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Efek ini bisa diaktifkan sekali setiap 10 menit.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Self Gravitation",
-        "description": "Saat Resonator di medan pertempuran berada dalam jangkauan Stellarealm, Energy Regen Shorekeeper meningkat 10%. \nJika Rover ada dalam tim, Energy Regen Rover juga meningkat 10%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Resonator di medan pertempuran berada dalam jangkauan Stellarealm, Energy Regen Shorekeeper meningkat 10%.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Jika Rover ada dalam tim, Energy Regen Rover juga meningkat 10%.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Proof Of Existence",
-      "description": "Enlightenment\nShorekeeper muncul untuk memulihkan HP semua anggota party di sekitar dan memanggil 5 Dim Star Butterflies yang otomatis melacak serta menyerang target, memberikan  Spectro DMG. \nSerangan ini dihitung sebagai Resonance Skill DMG.\n\nDiscernment\nSaat Supernal Stellarealm terbentuk, Intro Skill pertama Shorekeeper selama durasi ini akan digantikan dengan Intro Skill Discernment. Mengaktifkan Discernment akan mengakhiri Stellarealm yang sedang aktif, memulihkan HP semua anggota party di sekitar, dan memberikan  Spectro DMG ke target. \nSerangan ini dijamin Critical Hit dan dihitung sebagai Resonance Liberation DMG.\nIntro Skill Discernment hanya bisa diaktifkan sekali setiap kali Supernal Stellarealm terbentuk."
+      "effects": [
+        {
+          "title": "Enlightenment",
+          "description": "Shorekeeper muncul untuk memulihkan HP semua anggota party di sekitar dan memanggil 5 Dim Star Butterflies yang otomatis melacak serta menyerang target, memberikan  Spectro DMG.\nSerangan ini dihitung sebagai Resonance Skill DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Discernment",
+          "description": "Saat Supernal Stellarealm terbentuk, Intro Skill pertama Shorekeeper selama durasi ini akan digantikan dengan Intro Skill Discernment. Mengaktifkan Discernment akan mengakhiri Stellarealm yang sedang aktif, memulihkan HP semua anggota party di sekitar, dan memberikan  Spectro DMG ke target.\nSerangan ini dijamin Critical Hit dan dihitung sebagai Resonance Liberation DMG.\nIntro Skill Discernment hanya bisa diaktifkan sekali setiap kali Supernal Stellarealm terbentuk.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "outro": {
       "name": "Binary Butterfly",
-      "description": "Shorekeeper memanggil 1 Flare Star Butterfly dan 1 Dim Star Butterfly yang mengitari Resonator di medan pertempuran selama maksimal 30 detik, memberikan efek berikut:\n- Jika Resonator terkena serangan atau terpental, menekan tombol Dodge akan langsung membatalkan gangguan tersebut, memicu Dodge yang berhasil. \nJika Resonator sedang melayang dan dekat dengan tanah, mereka bisa langsung mendarat dengan posisi berdiri. Efek ini bisa digunakan hingga 5 kali.\n- Semua anggota party di sekitar mendapatkan 15% peningkatan DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Shorekeeper memanggil 1 Flare Star Butterfly dan 1 Dim Star Butterfly yang mengitari Resonator di medan pertempuran selama maksimal 30 detik, memberikan efek berikut:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Jika Resonator terkena serangan atau terpental, menekan tombol Dodge akan langsung membatalkan gangguan tersebut, memicu Dodge yang berhasil.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Resonator sedang melayang dan dekat dengan tanah, mereka bisa langsung mendarat dengan posisi berdiri. Efek ini bisa digunakan hingga 5 kali.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Semua anggota party di sekitar mendapatkan 15% peningkatan DMG.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -291,32 +425,83 @@
     {
       "stage": "S1",
       "name": "Unspoken Conjecture",
-      "description": "Stellarealms yang dihasilkan oleh Resonance Liberation: End Loop mendapatkan peningkatan berikut:\n- Jangkauan efek pemulihan dan buff diperluas 150%.\n- Durasi diperpanjang 10 detik.\n- Menggunakan Intro Skill: Discernment tidak lagi mengakhiri Stellarealm yang sedang aktif."
+      "effects": [
+        {
+          "title": "",
+          "description": "Stellarealms yang dihasilkan oleh Resonance Liberation: End Loop mendapatkan peningkatan berikut:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Jangkauan efek pemulihan dan buff diperluas 150%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Durasi diperpanjang 10 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Menggunakan Intro Skill: Discernment tidak lagi mengakhiri Stellarealm yang sedang aktif.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Night'S Gift And Refusal",
-      "description": "Outer Stellarealm sekarang meningkatkan ATK semua anggota party di sekitar sebesar 40%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Outer Stellarealm sekarang meningkatkan ATK semua anggota party di sekitar sebesar 40%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Infinity Awaits Me",
-      "description": "Menggunakan Resonance Liberation: End Loop memberikan 20 Concerto Energy ke Shorekeeper. Efek ini bisa dipicu sekali setiap 25 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Resonance Liberation: End Loop memberikan 20 Concerto Energy ke Shorekeeper. Efek ini bisa dipicu sekali setiap 25 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": " Overflowing Quietude",
-      "description": "Mendapatkan tambahan 70% Healing Bonus saat menggunakan Resonance Skill: Chaos Theory."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mendapatkan tambahan 70% Healing Bonus saat menggunakan Resonance Skill: Chaos Theory.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Echoes In Silence",
-      "description": "Memperluas jangkauan efek tarik dari Basic Attack Stage 3 sebesar 50% dan dari Illation sebesar 30%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memperluas jangkauan efek tarik dari Basic Attack Stage 3 sebesar 50% dan dari Illation sebesar 30%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "To The New World",
-      "description": "Meningkatkan DMG Multiplier dari Intro Skill: Discernment sebesar 42%. Menggunakan Intro Skill: Discernment meningkatkan Crit DMG Shorekeeper sebesar 500%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Meningkatkan DMG Multiplier dari Intro Skill: Discernment sebesar 42%. Menggunakan Intro Skill: Discernment meningkatkan Crit DMG Shorekeeper sebesar 500%.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

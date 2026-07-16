@@ -18,7 +18,8 @@
       "text": "Updated Aalto DPS",
       "type": "input",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Black Shores",
@@ -175,37 +176,115 @@
   "skills": {
     "basic": {
       "name": "Half Truths",
-      "description": "Basic Attack\nAalto melepaskan hingga 5 tembakan berturut-turut, memberikan Aero DMG. Basic Attack ke-4 akan menyebarkan Mist ke depan, yang berlangsung selama 1.5 detik.\n\nHeavy Attack\nAalto memasuki mode membidik untuk tembakan yang lebih kuat.\nTembakan bidikan yang dilepaskan setelah pengisian daya selesai memberikan Aero DMG.\n\nMid-air Attack\nAalto mengonsumsi STA untuk melakukan tembakan berturut-turut ke target di udara, memberikan Aero DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG. "
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Aalto melepaskan hingga 5 tembakan berturut-turut, memberikan Aero DMG. Basic Attack ke-4 akan menyebarkan Mist ke depan, yang berlangsung selama 1.5 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Aalto memasuki mode membidik untuk tembakan yang lebih kuat.\nTembakan bidikan yang dilepaskan setelah pengisian daya selesai memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Aalto mengonsumsi STA untuk melakukan tembakan berturut-turut ke target di udara, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Shift Trick",
-      "description": "Mist Avatar\nMelepaskan Mist dan 1 \"Mist Avatar(s)\" untuk mengejek (taunt) target di sekitar. Avatar tersebut mewarisi sebagian dari HP Aalto dan menghasilkan 6 Mist Bullets di sekitar mereka, memberikan Aero DMG.\n\nMist Bullets\nMemberikan Aero DMG, dianggap sebagai Resonance Skill DMG."
+      "effects": [
+        {
+          "title": "Mist Avatar",
+          "description": "Melepaskan Mist dan 1 \"Mist Avatar(s)\" untuk mengejek (taunt) target di sekitar. Avatar tersebut mewarisi sebagian dari HP Aalto dan menghasilkan 6 Mist Bullets di sekitar mereka, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mist Bullets",
+          "description": "Memberikan Aero DMG, dianggap sebagai Resonance Skill DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Flower In The Mist",
-      "description": "Membangkitkan Gate of Quandary di depan, memberikan Aero DMG. Saat peluru melewati Gate of Quandary, peluru tersebut akan memberikan DMG yang meningkat. Gate of Quandary berlangsung selama 10 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Membangkitkan Gate of Quandary di depan, memberikan Aero DMG. Saat peluru melewati Gate of Quandary, peluru tersebut akan memberikan DMG yang meningkat. Gate of Quandary berlangsung selama 10 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Misty Cover",
-      "description": "Saat Aalto melewati \"Mist\" atau \"Gate of Quandary\", dia memasuki Mistcloak Dash.\n\nMistcloak Dash\n-Kecepatan gerak meningkat;\n-Selama periode ini, \"Mist Drops\" dikonsumsi secara terus-menerus, dan untuk setiap 1 \"Mist Drop\" yang dikonsumsi, 1 Mist Bullet(s) akan dihasilkan.\n\nMist Drops\nAalto dapat menampung hingga 6 \"Mist Drops\".\nSaat Basic Attack atau Mid-air Attack melewati \"Mist\" dan mengenai target, 1 \"Mist Drop\" akan dipulihkan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Aalto melewati \"Mist\" atau \"Gate of Quandary\", dia memasuki Mistcloak Dash.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Mistcloak Dash",
+          "description": "-Kecepatan gerak meningkat;\n-Selama periode ini, \"Mist Drops\" dikonsumsi secara terus-menerus, dan untuk setiap 1 \"Mist Drop\" yang dikonsumsi, 1 Mist Bullet(s) akan dihasilkan.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mist Drops",
+          "description": "Aalto dapat menampung hingga 6 \"Mist Drops\".\nSaat Basic Attack atau Mid-air Attack melewati \"Mist\" dan mengenai target, 1 \"Mist Drop\" akan dipulihkan.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Perfect Performance",
-        "description": "Heavy Attack Aalto akan selalu memberikan serangan kritikal (crit hit), dipicu sekali setiap 30 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Heavy Attack Aalto akan selalu memberikan serangan kritikal (crit hit), dipicu sekali setiap 30 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Mid-Game Break",
-        "description": "Aalto akan terus memulihkan STA saat dia berada dalam status Forte Circuit Mistcloak Dash."
+        "effects": [
+          {
+            "title": "",
+            "description": "Aalto akan terus memulihkan STA saat dia berada dalam status Forte Circuit Mistcloak Dash.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Feint Shot",
-      "description": "Aalto muncul tiba-tiba untuk melakukan penembakan beruntun yang cepat, memberikan Aero DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Aalto muncul tiba-tiba untuk melakukan penembakan beruntun yang cepat, memberikan Aero DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Dissolving Mist",
-      "description": "Resonator berikutnya mendapatkan Aero DMG Amplified sebesar 23% selama 14 detik atau sampai mereka diganti."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator berikutnya mendapatkan Aero DMG Amplified sebesar 23% selama 14 detik atau sampai mereka diganti.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -415,32 +494,68 @@
     {
       "stage": "S1",
       "name": "Trickster'S Opening Show",
-      "description": "Cooldown Resonance Skill Shift Trick berkurang 4 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Cooldown Resonance Skill Shift Trick berkurang 4 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Mistweaver'S Debut",
-      "description": "\"Mist Avatar\" mewarisi 100% lebih banyak HP dari Aalto. Saat Aalto menyerang target yang diejek (taunted) oleh \"Mist Avatar(s)\", ATK miliknya meningkat sebesar 15%."
+      "effects": [
+        {
+          "title": "",
+          "description": "\"Mist Avatar\" mewarisi 100% lebih banyak HP dari Aalto. Saat Aalto menyerang target yang diejek (taunted) oleh \"Mist Avatar(s)\", ATK miliknya meningkat sebesar 15%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Hazey Transition",
-      "description": "Saat Basic Attack atau Mid-air Attack Aalto melewati Mist, 2 peluru tambahan akan dihasilkan, memberikan 50% dari DMG Basic Attack atau Mid-air Attack."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Basic Attack atau Mid-air Attack Aalto melewati Mist, 2 peluru tambahan akan dihasilkan, memberikan 50% dari DMG Basic Attack atau Mid-air Attack.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Blake Bloom For Finale",
-      "description": "Damage dari Resonance Skill Mist Bullets meningkat sebesar 30%; Aalto menerima 30% lebih sedikit damage dalam status Forte Circuit Mistcloak Dash."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage dari Resonance Skill Mist Bullets meningkat sebesar 30%; Aalto menerima 30% lebih sedikit damage dalam status Forte Circuit Mistcloak Dash.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Applause Of The Lost",
-      "description": "Dalam status Forte Circuit Mistcloak Dash, Aero DMG Bonus Aalto meningkat sebesar 25% selama 6 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Dalam status Forte Circuit Mistcloak Dash, Aero DMG Bonus Aalto meningkat sebesar 25% selama 6 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Broker'S Secrets",
-      "description": "Resonance Liberation Flower in the Mist sekarang secara tambahan meningkatkan Crit. Rate sebesar 8%. Saat Heavy Attack Aalto melewati Gate of Quandary, damage yang diberikan meningkat secara tambahan sebesar 50%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation Flower in the Mist sekarang secara tambahan meningkatkan Crit. Rate sebesar 8%. Saat Heavy Attack Aalto melewati Gate of Quandary, damage yang diberikan meningkat secara tambahan sebesar 50%.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

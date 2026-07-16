@@ -17,7 +17,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Septimont",
@@ -192,28 +193,154 @@
   "skills": {
     "basic": {
       "name": "Slayer'S Trigger",
-      "description": " Basic Attack\nMelancarkan hingga 4 serangan beruntun, menghasilkan  Fusion DMG. \nDMG Basic Attack Stage 1 hingga 3 dihitung sebagai Heavy Attack DMG, dan Basic Attack Stage 4 dihitung sebagai Echo Skill DMG.\nTekan Normal Attack tepat setelah menyelesaikan Basic Attack Stage 4 untuk melanjutkan ke Basic Attack Stage 2.\n\nHeavy Attack - Volley of Death\nMengonsumsi STA untuk menyerang target dan melakukan hingga 3 attack beruntun, menghasilkan  Fusion DMG. DMG Stage 3 dihitung sebagai Echo Skill DMG.\nTekan Normal Attack tepat setelah menggunakan Heavy Attack - Volley of Death Stage 1 untuk melanjutkan ke Basic Attack Stage 2. \nTekan Normal Attack tepat setelah menggunakan Heavy Attack - Volley of Death Stage 2 atau 3 untuk melanjutkan ke Basic Attack Stage 3.\n\nMid-air Attack - Ashfall Barrage\nSaat berada di mid-air, tekan Normal Attack untuk mengonsumsi STA dan melakukan Plunging Attack, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG.\nSaat berada di mid-air, tahan Normal Attack untuk terus mengonsumsi STA dan melancarkan rangkaian tembakan ke musuh di bawahnya, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG. Jika Galbrena tidak mendarat saat terinterupsi selama barrage, ia tidak dapat langsung menggunakan skill ini kembali. Lepaskan Normal Attack selama barrage untuk melakukan Plunging Attack.\nTekan Normal Attack tepat setelah menggunakan Plunging Attack untuk melanjutkan ke Basic Attack Stage 3.\n\nDodge Counter - Blood for Blood\nTekan Normal Attack tepat setelah berhasil melakukan Dodge untuk menyerang target, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG.\nTekan Normal Attack tepat setelah menggunakan skill ini untuk melanjutkan ke Basic Attack Stage 4."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melancarkan hingga 4 serangan beruntun, menghasilkan  Fusion DMG.\nDMG Basic Attack Stage 1 hingga 3 dihitung sebagai Heavy Attack DMG, dan Basic Attack Stage 4 dihitung sebagai Echo Skill DMG.\nTekan Normal Attack tepat setelah menyelesaikan Basic Attack Stage 4 untuk melanjutkan ke Basic Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Volley of Death",
+          "description": "Mengonsumsi STA untuk menyerang target dan melakukan hingga 3 attack beruntun, menghasilkan  Fusion DMG. DMG Stage 3 dihitung sebagai Echo Skill DMG.\nTekan Normal Attack tepat setelah menggunakan Heavy Attack - Volley of Death Stage 1 untuk melanjutkan ke Basic Attack Stage 2.\nTekan Normal Attack tepat setelah menggunakan Heavy Attack - Volley of Death Stage 2 atau 3 untuk melanjutkan ke Basic Attack Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Ashfall Barrage",
+          "description": "Saat berada di mid-air, tekan Normal Attack untuk mengonsumsi STA dan melakukan Plunging Attack, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG.\nSaat berada di mid-air, tahan Normal Attack untuk terus mengonsumsi STA dan melancarkan rangkaian tembakan ke musuh di bawahnya, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG. Jika Galbrena tidak mendarat saat terinterupsi selama barrage, ia tidak dapat langsung menggunakan skill ini kembali. Lepaskan Normal Attack selama barrage untuk melakukan Plunging Attack.\nTekan Normal Attack tepat setelah menggunakan Plunging Attack untuk melanjutkan ke Basic Attack Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Blood for Blood",
+          "description": "Tekan Normal Attack tepat setelah berhasil melakukan Dodge untuk menyerang target, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG.\nTekan Normal Attack tepat setelah menggunakan skill ini untuk melanjutkan ke Basic Attack Stage 4.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Resonance Skill",
-      "description": " Resonance Skill - Encroach\nMeluncur ke depan dan melompat ke udara. Melakukan salto ke belakang saat mengenai target, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG.\n\nResonance Skill - Ascent of Malice\nSaat Sinflame mencapai 100 poin, Resonance Skill diganti dengan Resonance Skill - Ascent of Malice.\nMelancarkan serangan ke musuh menggunakan sayapnya, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG. Saat menggunakan skill ini:\n- Galbrena memasuki Demon Hypostasis.\n- Sinflame dikonversi menjadi jumlah setara Purging Flame.\n- Dapat dilanjutkan dengan Basic Attack - Seraphic Execution Stage 2.\n"
+      "effects": [
+        {
+          "title": "Resonance Skill - Encroach",
+          "description": "Meluncur ke depan dan melompat ke udara. Melakukan salto ke belakang saat mengenai target, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Ascent of Malice",
+          "description": "Saat Sinflame mencapai 100 poin, Resonance Skill diganti dengan Resonance Skill - Ascent of Malice.\nMelancarkan serangan ke musuh menggunakan sayapnya, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG. Saat menggunakan skill ini:\n- Galbrena memasuki Demon Hypostasis.\n- Sinflame dikonversi menjadi jumlah setara Purging Flame.\n- Dapat dilanjutkan dengan Basic Attack - Seraphic Execution Stage 2.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Hellfire Absolution",
-      "description": "Menyerang target dan menghasilkan  Fusion DMG, dihitung sebagai Echo Skill DMG. \nSaat berada dalam Demon Hypostasis, mendapat peningkatan 85% DMG Multiplier untuk Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, dan Dodge Counter - Purgatory Scourge selama 14 detik.\nTekan Normal Attack setelah menggunakan Resonance Liberation untuk melanjutkan ke Basic Attack Stage 2. Jika berada dalam Demon Hypostasis, lanjutkan ke Basic Attack - Seraphic Execution Stage 2.\nBisa diaktifkan saat mid-air."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target dan menghasilkan  Fusion DMG, dihitung sebagai Echo Skill DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat berada dalam Demon Hypostasis, mendapat peningkatan 85% DMG Multiplier untuk Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, dan Dodge Counter - Purgatory Scourge selama 14 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan Normal Attack setelah menggunakan Resonance Liberation untuk melanjutkan ke Basic Attack Stage 2. Jika berada dalam Demon Hypostasis, lanjutkan ke Basic Attack - Seraphic Execution Stage 2.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Bisa diaktifkan saat mid-air.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Beyond Threshold",
-      "description": "  Threshold State\nSecara default, Galbrena berada dalam Threshold State. Dalam kondisi ini, ia mengakumulasi Afterflame dan Sinflame.\n\nDemon Hypostasis\nKetika berada dalam keadaan Demon Hypostasis, Basic Attack, Heavy Attack - Volley of Death, Mid-air Attack - Ashfall Barrage, Dodge Counter - Blood for Blood, dan Resonance Skill - Encroach digantikan oleh Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, Dodge Counter - Purgatory Scourge, dan Resonance Skill - Ravage, yang akan mengonsumsi Purging Flame setiap kali mengenai musuh.\n\nSelama berada dalam Demon Hypostasis, setiap poin Afterflame meningkatkan DMG dari Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, Resonance Skill - Ravage, dan Dodge Counter - Purgatory Scourge sebesar 1,5%, hingga maksimal 60%. Efek ini dihilangkan saat keluar dari Demon Hypostasis.\n\nDemon Hypostasis berakhir secara otomatis ketika Purging Flame habis atau setelah Galbrena bertahan lebih dari 50 detik dalam bentuk ini.\n\nBasic Attack - Seraphic Execution\nMelancarkan hingga 5 serangan beruntun yang menghasilkan  Fusion DMG. Mengonsumsi Purging Flame setiap kali mengenai musuh. Serangan Tahap 1 hingga 3 dihitung sebagai Heavy Attack DMG, sedangkan Tahap 4 dan 5 dihitung sebagai Echo Skill DMG.\nSetelah menyelesaikan Basic Attack - Seraphic Execution Tahap 5, tekan Normal Attack untuk langsung melanjutkan ke Tahap 3.\n\nHeavy Attack - Flamewing Verdict\nMengonsumsi STA untuk menyerang target dan melakukan hingga 3 serangan beruntun, menghasilkan  Fusion DMG. Mengonsumsi Purging Flame saat mengenai musuh. DMG Tahap 3 dihitung sebagai Echo Skill DMG.\n\nTekan Normal Attack setelah menggunakan Heavy Attack - Flamewing Verdict Tahap 1 untuk melanjutkan ke Basic Attack - Seraphic Execution Tahap 2.\n\nTekan Normal Attack setelah menggunakan Heavy Attack - Flamewing Verdict Tahap 2 & 3 untuk melanjutkan ke Basic Attack - Seraphic Execution Tahap 3.\n\nMid-air Attack - Hellsent Barrage\nSaat berada di mid-air, tekan Normal Attack untuk mengonsumsi STA dan melakukan serangan udara, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG. Mengonsumsi Purging Flame saat mengenai musuh.\n\nSaat berada di mid-air, tahan Normal Attack untuk terus mengonsumsi STA dan melancarkan rangkaian tembakan ke musuh, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG. Mengonsumsi Purging Flame saat mengenai musuh. Jika Galbrena tidak mendarat saat terinterupsi selama barrage, ia tidak dapat langsung menggunakan skill ini kembali. \nLepaskan Normal Attack selama barrage untuk melancarkan Plunging Attack.\n\nTekan Normal Attack setelah Plunging Attack untuk melanjutkan ke Basic Attack - Seraphic Execution Stage 3.\n\nDodge Counter - Purgatory Scourge\nTekan Normal Attack tepat setelah berhasil melakukan Dodge untuk menyerang target, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG.\nTekan Normal Attack tepat setelah menggunakan skill ini untuk melanjutkan ke Basic Attack - Seraphic Execution Stage 4.\n\nResonance Skill - Ravage\nMeluncur ke depan dan melompat ke udara. Melakukan salto ke belakang saat mengenai target, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG. Mengonsumsi Purging Flame saat mengenai musuh. \nResonance Skill - Ravage dan Resonance Skill - Encroach berbagi cooldown.\n\nHellstride\nTekan Dodge di darat saat sedang menggunakan skill Galbrena untuk mengaktifkan Hellstride, yang menghasilkan sejumlah tetap  Fusion DMG, dihitung sebagai Basic Attack DMG dan tidak terpengaruh oleh efek buff DMG apa pun. Hellstride dapat mencatatkan Dodge yang berhasil. Hellstride tidak dapat digunakan secara beruntun.\nMenggunakan skill ini tidak akan mereset attack cycles dalam jangka waktu singkat.\n\nBurning Drive\nMenggunakan Intro Skill, Hellstride, Basic Attack - Seraphic Execution Stage 4, Resonance Skill - Encroach, Resonance Skill - Ascent of Malice, atau Resonance Skill - Ravage meningkatkan ketahanan Galbrena terhadap interupsi serta ATK-nya sebesar 20% selama 4 detik.\n\nAfterflame\nGalbrena bisa menyimpan maksimal 40 poin Afterflame\nSelama berada dalam Threshold State, Galbrena memulihkan 8 poin Afterflame setiap kali Resonator di sekitar tim menggunakan Echo Skill. Echo dengan nama yang sama hanya bisa memicu efek ini satu kali. Efek ini direset jika Galbrena keluar dari Demon Hypostasis.\nSeluruh Afterflame dihilangkan saat keluar dari Demon Hypostasis.\n\nSinflame\nGalbrena bisa menyimpan maksimal 100 poin Sinflame\nSelama berada dalam Threshold State, mengenai musuh dengan Basic Attack, Heavy Attack - Volley of Death, Mid-air Attack - Ashfall Barrage, Resonance Skill - Encroach, dan Intro Skill - Hellflare Overload akan memulihkan Sinflame."
+      "effects": [
+        {
+          "title": "Threshold State",
+          "description": "Secara default, Galbrena berada dalam Threshold State. Dalam kondisi ini, ia mengakumulasi Afterflame dan Sinflame.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Demon Hypostasis",
+          "description": "Ketika berada dalam keadaan Demon Hypostasis, Basic Attack, Heavy Attack - Volley of Death, Mid-air Attack - Ashfall Barrage, Dodge Counter - Blood for Blood, dan Resonance Skill - Encroach digantikan oleh Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, Dodge Counter - Purgatory Scourge, dan Resonance Skill - Ravage, yang akan mengonsumsi Purging Flame setiap kali mengenai musuh.\nSelama berada dalam Demon Hypostasis, setiap poin Afterflame meningkatkan DMG dari Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, Resonance Skill - Ravage, dan Dodge Counter - Purgatory Scourge sebesar 1,5%, hingga maksimal 60%. Efek ini dihilangkan saat keluar dari Demon Hypostasis.\nDemon Hypostasis berakhir secara otomatis ketika Purging Flame habis atau setelah Galbrena bertahan lebih dari 50 detik dalam bentuk ini.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Seraphic Execution",
+          "description": "Melancarkan hingga 5 serangan beruntun yang menghasilkan  Fusion DMG. Mengonsumsi Purging Flame setiap kali mengenai musuh. Serangan Tahap 1 hingga 3 dihitung sebagai Heavy Attack DMG, sedangkan Tahap 4 dan 5 dihitung sebagai Echo Skill DMG.\nSetelah menyelesaikan Basic Attack - Seraphic Execution Tahap 5, tekan Normal Attack untuk langsung melanjutkan ke Tahap 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Flamewing Verdict",
+          "description": "Mengonsumsi STA untuk menyerang target dan melakukan hingga 3 serangan beruntun, menghasilkan  Fusion DMG. Mengonsumsi Purging Flame saat mengenai musuh. DMG Tahap 3 dihitung sebagai Echo Skill DMG.\nTekan Normal Attack setelah menggunakan Heavy Attack - Flamewing Verdict Tahap 1 untuk melanjutkan ke Basic Attack - Seraphic Execution Tahap 2.\nTekan Normal Attack setelah menggunakan Heavy Attack - Flamewing Verdict Tahap 2 & 3 untuk melanjutkan ke Basic Attack - Seraphic Execution Tahap 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Hellsent Barrage",
+          "description": "Saat berada di mid-air, tekan Normal Attack untuk mengonsumsi STA dan melakukan serangan udara, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG. Mengonsumsi Purging Flame saat mengenai musuh.\nSaat berada di mid-air, tahan Normal Attack untuk terus mengonsumsi STA dan melancarkan rangkaian tembakan ke musuh, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG. Mengonsumsi Purging Flame saat mengenai musuh. Jika Galbrena tidak mendarat saat terinterupsi selama barrage, ia tidak dapat langsung menggunakan skill ini kembali.\nLepaskan Normal Attack selama barrage untuk melancarkan Plunging Attack.\nTekan Normal Attack setelah Plunging Attack untuk melanjutkan ke Basic Attack - Seraphic Execution Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Purgatory Scourge",
+          "description": "Tekan Normal Attack tepat setelah berhasil melakukan Dodge untuk menyerang target, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG.\nTekan Normal Attack tepat setelah menggunakan skill ini untuk melanjutkan ke Basic Attack - Seraphic Execution Stage 4.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Ravage",
+          "description": "Meluncur ke depan dan melompat ke udara. Melakukan salto ke belakang saat mengenai target, menghasilkan  Fusion DMG yang dihitung sebagai Heavy Attack DMG. Mengonsumsi Purging Flame saat mengenai musuh.\nResonance Skill - Ravage dan Resonance Skill - Encroach berbagi cooldown.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Hellstride",
+          "description": "Tekan Dodge di darat saat sedang menggunakan skill Galbrena untuk mengaktifkan Hellstride, yang menghasilkan sejumlah tetap  Fusion DMG, dihitung sebagai Basic Attack DMG dan tidak terpengaruh oleh efek buff DMG apa pun. Hellstride dapat mencatatkan Dodge yang berhasil. Hellstride tidak dapat digunakan secara beruntun.\nMenggunakan skill ini tidak akan mereset attack cycles dalam jangka waktu singkat.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Burning Drive",
+          "description": "Menggunakan Intro Skill, Hellstride, Basic Attack - Seraphic Execution Stage 4, Resonance Skill - Encroach, Resonance Skill - Ascent of Malice, atau Resonance Skill - Ravage meningkatkan ketahanan Galbrena terhadap interupsi serta ATK-nya sebesar 20% selama 4 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Afterflame",
+          "description": "Galbrena bisa menyimpan maksimal 40 poin Afterflame\nSelama berada dalam Threshold State, Galbrena memulihkan 8 poin Afterflame setiap kali Resonator di sekitar tim menggunakan Echo Skill. Echo dengan nama yang sama hanya bisa memicu efek ini satu kali. Efek ini direset jika Galbrena keluar dari Demon Hypostasis.\nSeluruh Afterflame dihilangkan saat keluar dari Demon Hypostasis.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sinflame",
+          "description": "Galbrena bisa menyimpan maksimal 100 poin Sinflame\nSelama berada dalam Threshold State, mengenai musuh dengan Basic Attack, Heavy Attack - Volley of Death, Mid-air Attack - Ashfall Barrage, Resonance Skill - Encroach, dan Intro Skill - Hellflare Overload akan memulihkan Sinflame.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Oathbound Hunt",
-        "description": "Satu stack Fated End dikenakan pada target saat skill berikut mengenai: Intro Skill, Basic Attack, Basic Attack - Seraphic Execution, Dodge Counter, Heavy Attack - Volley of Death, Heavy Attack - Flamewing Verdict, Mid-air Attack, Hellstride, Resonance Skill - Encroach, Resonance Skill - Ascent of Malice, Resonance Skill - Ravage, dan Resonance Liberation, maksimal hingga 4 stack. Setiap stack meningkatkan DMG langsung dari Normal Attack, Resonance Skill, Forte Circuit, Resonance Liberation, Intro Skill, dan Outro Skill Galbrena sebesar 5% selama 5,5 detik. Efek ini hanya bisa dipicu satu kali per jenis skill terhadap target yang sama dalam jeda 5 detik.\nResonance Skill - Encroach dan Resonance Skill - Ravage dianggap sebagai jenis skill yang sama."
+        "effects": [
+          {
+            "title": "",
+            "description": "Satu stack Fated End dikenakan pada target saat skill berikut mengenai: Intro Skill, Basic Attack, Basic Attack - Seraphic Execution, Dodge Counter, Heavy Attack - Volley of Death, Heavy Attack - Flamewing Verdict, Mid-air Attack, Hellstride, Resonance Skill - Encroach, Resonance Skill - Ascent of Malice, Resonance Skill - Ravage, dan Resonance Liberation, maksimal hingga 4 stack. Setiap stack meningkatkan DMG langsung dari Normal Attack, Resonance Skill, Forte Circuit, Resonance Liberation, Intro Skill, dan Outro Skill Galbrena sebesar 5% selama 5,5 detik. Efek ini hanya bisa dipicu satu kali per jenis skill terhadap target yang sama dalam jeda 5 detik.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Resonance Skill - Encroach dan Resonance Skill - Ravage dianggap sebagai jenis skill yang sama.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Sin Feaster",
-        "description": "Menggunakan Basic Attack Stage 4, Basic Attack - Seraphic Execution Stage 5, Heavy Attack - Volley of Death Stage 3, dan Heavy Attack - Flamewing Verdict Stage 3 memulihkan 10 poin STA."
+        "effects": [
+          {
+            "title": "",
+            "description": "Menggunakan Basic Attack Stage 4, Basic Attack - Seraphic Execution Stage 5, Heavy Attack - Volley of Death Stage 3, dan Heavy Attack - Flamewing Verdict Stage 3 memulihkan 10 poin STA.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break: Pistols",
@@ -222,11 +349,38 @@
     ],
     "intro": {
       "name": "Hellflare Overload",
-      "description": "Menyerang target dan menghasilkan  Fusion DMG.\nTahan Normal Attack setelah menggunakan skill ini untuk melanjutkan ke Heavy Attack - Volley of Death Stage 2. \nJika berada dalam Demon Hypostasis, lanjutkan ke Heavy Attack - Flamewing Verdict Stage 2.\nTekan Normal Attack tepat setelah menggunakan skill ini untuk melakukan Basic Attack Stage 2, yang diganti dengan Basic Attack - Seraphic Execution Stage 2 jika Galbrena berada dalam Demon Hypostasis."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target dan menghasilkan  Fusion DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tahan Normal Attack setelah menggunakan skill ini untuk melanjutkan ke Heavy Attack - Volley of Death Stage 2.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika berada dalam Demon Hypostasis, lanjutkan ke Heavy Attack - Flamewing Verdict Stage 2.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan Normal Attack tepat setelah menggunakan skill ini untuk melakukan Basic Attack Stage 2, yang diganti dengan Basic Attack - Seraphic Execution Stage 2 jika Galbrena berada dalam Demon Hypostasis.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Ashen Pursuit",
-      "description": "Menyerang target, menghasilkan  Fusion DMG sebesar 79,5% × 3 + 556,5% dari ATK Galbrena."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, menghasilkan  Fusion DMG sebesar 79,5% × 3 + 556,5% dari ATK Galbrena.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -412,32 +566,88 @@
     {
       "stage": "S1",
       "name": "Heart Of Defiance Ever Ablaze",
-      "description": "Saat menggunakan Resonance Skill - Ascent of Malice, setiap poin Afterflame memberikan tambahan 2% Crit. DMG untuk Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, Resonance Skill - Ravage, dan Dodge Counter - Purgatory Scourge, maksimal hingga 80%. Efek ini dihilangkan saat keluar dari Demon Hypostasis.\nSelama berada dalam Demon Hypostasis, Basic Attack - Seraphic Execution Stage 5, Heavy Attack - Flamewing Verdict Stage 3, dan Mid-air Attack - Hellsent Barrage kebal terhadap interupsi."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat menggunakan Resonance Skill - Ascent of Malice, setiap poin Afterflame memberikan tambahan 2% Crit. DMG untuk Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, Resonance Skill - Ravage, dan Dodge Counter - Purgatory Scourge, maksimal hingga 80%. Efek ini dihilangkan saat keluar dari Demon Hypostasis.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Selama berada dalam Demon Hypostasis, Basic Attack - Seraphic Execution Stage 5, Heavy Attack - Flamewing Verdict Stage 3, dan Mid-air Attack - Hellsent Barrage kebal terhadap interupsi.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Hellbound Dive Of Fire And Abyss",
-      "description": "Burning Drive memberikan 350% peningkatan tambahan pada Bonus ATK."
+      "effects": [
+        {
+          "title": "",
+          "description": "Burning Drive memberikan 350% peningkatan tambahan pada Bonus ATK.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Hunter’S Blood Oath Rekindled",
-      "description": "Resonance Liberation DMG Multiplier meningkat sebesar 130%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation DMG Multiplier meningkat sebesar 130%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Carry Forth This Fading Spark",
-      "description": "Ketika Resonator dalam tim menggunakan Echo Skill, seluruh Resonator di tim mendapatkan 20% Bonus DMG untuk semua Atribut selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Ketika Resonator dalam tim menggunakan Echo Skill, seluruh Resonator di tim mendapatkan 20% Bonus DMG untuk semua Atribut selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Though Light Fades, Torment Consumes",
-      "description": "DMG Multiplier dari Resonance Skill - Encroach, Resonance Skill - Ascent of Malice, dan Resonance Skill - Ravage meningkat sebesar 150%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Skill - Encroach, Resonance Skill - Ascent of Malice, dan Resonance Skill - Ravage meningkat sebesar 150%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "I Remain Who I Am, Eternal My Flame",
-      "description": "Demon Hypostasis berubah menjadi Eternal Hypostasis, yang mempertahankan seluruh efek dari Demon Hypostasis.\nSelain itu, selama berada dalam Eternal Hypostasis, DMG Multiplier dari Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, dan Dodge Counter - Purgatory Scourge meningkat tambahan sebesar 60%.\n\nSaat menggunakan Resonance Skill - Ascent of Malice, untuk setiap 1 poin Afterflame yang dikonsumsi, Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, Resonance Skill - Ravage, dan Dodge Counter - Purgatory Scourge milik Galbrena mendapatkan Amplifikasi Fusion DMG sebesar 0,875%, maksimal hingga 35%. \nEfek ini dihilangkan saat keluar dari Eternal Hypostasis."
+      "effects": [
+        {
+          "title": "",
+          "description": "Demon Hypostasis berubah menjadi Eternal Hypostasis, yang mempertahankan seluruh efek dari Demon Hypostasis.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Selain itu, selama berada dalam Eternal Hypostasis, DMG Multiplier dari Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, dan Dodge Counter - Purgatory Scourge meningkat tambahan sebesar 60%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat menggunakan Resonance Skill - Ascent of Malice, untuk setiap 1 poin Afterflame yang dikonsumsi, Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, Resonance Skill - Ravage, dan Dodge Counter - Purgatory Scourge milik Galbrena mendapatkan Amplifikasi Fusion DMG sebesar 0,875%, maksimal hingga 35%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek ini dihilangkan saat keluar dari Eternal Hypostasis.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

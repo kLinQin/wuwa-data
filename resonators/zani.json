@@ -18,7 +18,8 @@
     {
       "text": "Minimal update",
       "type": "input",
-      "isNew": false
+      "isNew": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Montelli Family",
@@ -166,37 +167,145 @@
   "skills": {
     "basic": {
       "name": "Routine Negotiation",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut untuk  Spectro DMG.\nSetelah melakukan Basic Attack Stage 3, dapat menekan Normal Attack pada waktu yang tepat untuk melakukan Basic Attack Breakthrough, lalu melanjutkan ke Basic Attack Stage 4 dengan menekan Normal Attack lagi.\nSetelah Basic Attack Stage 3, Basic Attack Stage 4 juga dapat diaktifkan dengan melakukan dodging (menghindar), lalu menekan Normal Attack dalam waktu tertentu setelah Basic Attack Stage 3.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target, memberikan  Spectro DMG.\nMenekan Normal Attack dalam waktu tertentu dapat melakukan Basic Attack Stage 3.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan plunging attack, memberikan  Spectro DMG.\nMenekan Normal Attack dalam waktu tertentu dapat melakukan Basic Attack Stage 3.\n\nDodge Counter\nMenekan Normal Attack dalam waktu tertentu setelah berhasil melakukan dodge (menghindar) untuk menyerang target, memberikan  Spectro DMG.\nSetelah itu, menekan Normal Attack pada waktu yang tepat akan mengaktifkan Basic Attack Breakthrough.\nJika Dodge Counter tidak dilanjutkan dengan Basic Attack Stage 4, dapat menekan Normal Attack di darat dalam waktu tertentu untuk mengaktifkan Basic Attack Stage 4."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan berturut-turut untuk  Spectro DMG.\nSetelah melakukan Basic Attack Stage 3, dapat menekan Normal Attack pada waktu yang tepat untuk melakukan Basic Attack Breakthrough, lalu melanjutkan ke Basic Attack Stage 4 dengan menekan Normal Attack lagi.\nSetelah Basic Attack Stage 3, Basic Attack Stage 4 juga dapat diaktifkan dengan melakukan dodging (menghindar), lalu menekan Normal Attack dalam waktu tertentu setelah Basic Attack Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan  Spectro DMG.\nMenekan Normal Attack dalam waktu tertentu dapat melakukan Basic Attack Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan plunging attack, memberikan  Spectro DMG.\nMenekan Normal Attack dalam waktu tertentu dapat melakukan Basic Attack Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Menekan Normal Attack dalam waktu tertentu setelah berhasil melakukan dodge (menghindar) untuk menyerang target, memberikan  Spectro DMG.\nSetelah itu, menekan Normal Attack pada waktu yang tepat akan mengaktifkan Basic Attack Breakthrough.\nJika Dodge Counter tidak dilanjutkan dengan Basic Attack Stage 4, dapat menekan Normal Attack di darat dalam waktu tertentu untuk mengaktifkan Basic Attack Stage 4.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Restless Watch",
-      "description": "Standard Defense Protocol\nMenyerang target untuk memberikan  Spectro DMG dan memasuki posisi bertahan (block stance).\nStatus ini akan berakhir lebih cepat jika Zani diganti keluar dari medan pertempuran.\nMenekan Normal Attack dalam waktu tertentu dapat melakukan Basic Attack Stage 3, memulihkan 10 poin Redundant Energy dan menyebabkan efek Stagnate pada target saat terkena serangan.\nSaat menerima serangan dari musuh dalam posisi bertahan, serangan tersebut akan mengurangi 100% DMG yang diterima dan memberikan efek Stagnate ke target di sekitar, lalu mengaktifkan Resonance Skill Pinpoint Strike, memberikan memberikan  Spectro DMG serta mengurangi Vibration Strength mereka sebesar 5%.\nDMG yang diterima oleh Zani juga dikurangi sebesar 30% selama 2 detik setelahnya.\n\nCrisis Response Protocol\nSaat Zani tidak berada dalam Inferno Mode dan memiliki Redundant Energy penuh, Resonance Skill miliknya akan digantikan menjadi Resonance Skill Crisis Response Protocol.\nMenahan tombol Resonance Skill akan membuat Zani memasuki Ready Stance. Selama berada di Ready Stance, Zani kebal terhadap interupsi. Status ini akan berakhir lebih cepat jika Zani diganti keluar dari medan pertempuran.\nSetelah melepaskan tombol Resonance Skill atau saat durasi stance berakhir, semua Redundant Energy akan dikonsumsi untuk mengaktifkan Targeted Action, memberikan  Spectro DMG.\nJika terkena serangan musuh saat berada di Ready Stance, serangan tersebut akan mengurangi 100% DMG yang diterima dan semua Redundant Energy akan dikonsumsi untuk mengaktifkan Forcible Riposte, memberikan  Spectro DMG, menyebabkan efek Stagnate pada target, serta mengurangi Vibration Strength mereka sebesar 5%.\nDMG yang diterima oleh Zani juga dikurangi sebesar 30% selama 2 detik setelahnya.\nMengaktifkan Targeted Action atau Forcible Riposte akan memberikan satu stack Heliacal Ember kepada target saat terkena serangan dan memulihkan Blaze sebelum masuk ke mode Sunburst.\n\nSunburst\n Spectro Frazzle DMG yang diberikan oleh Zani kepada target akan diperkuat sebesar 20%. \n\n"
+      "effects": [
+        {
+          "title": "Standard Defense Protocol",
+          "description": "Menyerang target untuk memberikan  Spectro DMG dan memasuki posisi bertahan (block stance).\nStatus ini akan berakhir lebih cepat jika Zani diganti keluar dari medan pertempuran.\nMenekan Normal Attack dalam waktu tertentu dapat melakukan Basic Attack Stage 3, memulihkan 10 poin Redundant Energy dan menyebabkan efek Stagnate pada target saat terkena serangan.\nSaat menerima serangan dari musuh dalam posisi bertahan, serangan tersebut akan mengurangi 100% DMG yang diterima dan memberikan efek Stagnate ke target di sekitar, lalu mengaktifkan Resonance Skill Pinpoint Strike, memberikan memberikan  Spectro DMG serta mengurangi Vibration Strength mereka sebesar 5%.\nDMG yang diterima oleh Zani juga dikurangi sebesar 30% selama 2 detik setelahnya.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Crisis Response Protocol",
+          "description": "Saat Zani tidak berada dalam Inferno Mode dan memiliki Redundant Energy penuh, Resonance Skill miliknya akan digantikan menjadi Resonance Skill Crisis Response Protocol.\nMenahan tombol Resonance Skill akan membuat Zani memasuki Ready Stance. Selama berada di Ready Stance, Zani kebal terhadap interupsi. Status ini akan berakhir lebih cepat jika Zani diganti keluar dari medan pertempuran.\nSetelah melepaskan tombol Resonance Skill atau saat durasi stance berakhir, semua Redundant Energy akan dikonsumsi untuk mengaktifkan Targeted Action, memberikan  Spectro DMG.\nJika terkena serangan musuh saat berada di Ready Stance, serangan tersebut akan mengurangi 100% DMG yang diterima dan semua Redundant Energy akan dikonsumsi untuk mengaktifkan Forcible Riposte, memberikan  Spectro DMG, menyebabkan efek Stagnate pada target, serta mengurangi Vibration Strength mereka sebesar 5%.\nDMG yang diterima oleh Zani juga dikurangi sebesar 30% selama 2 detik setelahnya.\nMengaktifkan Targeted Action atau Forcible Riposte akan memberikan satu stack Heliacal Ember kepada target saat terkena serangan dan memulihkan Blaze sebelum masuk ke mode Sunburst.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sunburst",
+          "description": "Spectro Frazzle DMG yang diberikan oleh Zani kepada target akan diperkuat sebesar 20%.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Between Dawn And Dusk",
-      "description": "Rekindle\nMemberikan  Spectro DMG dan memasuki Inferno Mode, meningkatkan Max Blaze dari 100 menjadi 150 serta memberikan 50 Blaze.\nSaat berada dalam Inferno Mode, DMG Multiplier dari Basic Attack akan meningkat.\n\nThe Last Stand\nSaat berada dalam Inferno Mode, Resonance Liberation The Last Stand akan tersedia ketika Blaze berada di bawah 30 atau setelah 8 detik dalam Inferno Mode.\nMengaktifkan Resonance Liberation The Last Stand akan memberikan Memberikan  Spectro DMG dan mengakhiri Inferno Mode."
+      "effects": [
+        {
+          "title": "Rekindle",
+          "description": "Memberikan  Spectro DMG dan memasuki Inferno Mode, meningkatkan Max Blaze dari 100 menjadi 150 serta memberikan 50 Blaze.\nSaat berada dalam Inferno Mode, DMG Multiplier dari Basic Attack akan meningkat.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "The Last Stand",
+          "description": "Saat berada dalam Inferno Mode, Resonance Liberation The Last Stand akan tersedia ketika Blaze berada di bawah 30 atau setelah 8 detik dalam Inferno Mode.\nMengaktifkan Resonance Liberation The Last Stand akan memberikan Memberikan  Spectro DMG dan mengakhiri Inferno Mode.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "There Will Be A Light",
-      "description": "Heliacal Ember\nSaat Zani berada di dalam tim dan Resonator terdekat memberikan  Spectro Frazzle kepada target, semua stack  Spectro Frazzle akan langsung dikonsumsi dan DMG yang sesuai akan terpicu, lalu  Spectro Frazzle tersebut akan dikonversi menjadi jumlah Heliacal Embers yang sama.\nSetiap kali konversi terjadi, Zani akan mendapatkan Blaze berdasarkan jumlah stack Heliacal Embers yang diberikan.\nHeliacal Ember memiliki batas maksimum 60 stack, dengan setiap stack bertahan selama 6 detik.\nStack Heliacal Embers juga dihitung sebagai stack  Spectro Frazzle untuk efek Eternal Radiance Sonata.\n\nScorching Light\nSaat Zani berada dalam Inferno Mode, Heavy Slash - Daybreak, Heavy Slash - Dawning, Heavy Slash - Nightfall, dan Heavy Slash - Lightsmash akan tersedia, yang Memberikan  Spectro DMG dan dianggap sebagai Heavy Attack DMG sekaligus  Spectro Frazzle DMG.\nSaat Blaze lebih dari 30, Resonance Skill Standard Defense Protocol akan digantikan menjadi Resonance Skill Scorching Light.\nMenahan tombol Resonance Skill akan membuat Zani memasuki Ready Stance, di mana Zani kebal terhadap interupsi. Status ini akan berakhir lebih cepat jika Zani diganti keluar dari medan pertempuran.\nMelepaskan tombol Resonance Skill akan mengonsumsi Blaze untuk melakukan Heavy Slash - Daybreak.\nJika terkena serangan dalam waktu tertentu setelah memasuki Ready Stance, serangan tersebut akan mengurangi 100% DMG yang diterima dan menyebabkan efek Stagnate pada target di sekitar, lalu mengaktifkan Heavy Slash - Lightsmash, mengonsumsi Blaze serta mengurangi Vibration Strength mereka sebesar 10%.\nDMG yang diterima dalam 2 detik berikutnya juga akan dikurangi sebesar 30%.\nSetelah mengaktifkan Heavy Slash - Lightsmash, Basic Attack akan digantikan dengan Heavy Slash - Nightfall, yang mengonsumsi hingga 40 Blaze saat mengenai target, dengan setiap Blaze meningkatkan DMG Multiplier dari Heavy Slash - Nightfall.\nSaat Ready Stance berakhir, Heavy Slash - Nightfall akan langsung diaktifkan.\nSaat Blaze lebih dari 30, Basic Attack akan digantikan dengan Heavy Slash - Daybreak. Setelah memasuki Inferno Mode, mengaktifkan Basic Attack akan langsung menggantikan Basic Attack saat ini dengan Resonance Skill Scorching Light.\nMenahan Basic Attack akan membuat Zani memasuki Ready Stance.\nSetelah melakukan Heavy Slash - Daybreak, Basic Attack akan digantikan dengan Heavy Slash - Dawning jika Zani memiliki lebih dari 30 Blaze.\nHeavy Slash - Dawning akan mengonsumsi Blaze.\nSetelah melakukan Heavy Slash - Dawning, Basic Attack akan digantikan dengan Heavy Slash - Nightfall.\nJika Basic Attack tidak digantikan dengan Heavy Slash - Nightfall setelah berhasil melakukan dodge (menghindar), dapat menekan Normal Attack dalam waktu tertentu untuk melakukan Heavy Slash - Lightsmash dengan biaya Blaze.\n\nRedundant Energy\nZani dapat menyimpan hingga 100 Redundant Energy.\nRedundant Energy diperoleh saat Normal Attack mengenai target.\nRedundant Energy diperoleh saat Intro Skill Immediate Execution mengenai target.\nRedundant Energy diperoleh saat mengaktifkan Resonance Skill Standard Defense Protocol.\nRedundant Energy diperoleh saat mengaktifkan Pinpoint Strike.\nRedundant Energy tidak dapat diperoleh saat berada dalam Inferno Mode.\n\nBlaze\nBlaze dibatasi hingga 100 saat tidak berada dalam Inferno Mode.\nBlaze dibatasi hingga 150 saat berada dalam Inferno Mode.\nMengaktifkan Targeted Action atau Forcible Riposte akan memberikan 10 Blaze .\nSetiap stack Heliacal Ember yang dikonversi dari  Spectro Frazzle akan memberikan 5 Blaze .\nMengaktifkan Resonance Liberation Rekindle akan memberikan 50 Blaze ."
+      "effects": [
+        {
+          "title": "Heliacal Ember",
+          "description": "Saat Zani berada di dalam tim dan Resonator terdekat memberikan  Spectro Frazzle kepada target, semua stack  Spectro Frazzle akan langsung dikonsumsi dan DMG yang sesuai akan terpicu, lalu  Spectro Frazzle tersebut akan dikonversi menjadi jumlah Heliacal Embers yang sama.\nSetiap kali konversi terjadi, Zani akan mendapatkan Blaze berdasarkan jumlah stack Heliacal Embers yang diberikan.\nHeliacal Ember memiliki batas maksimum 60 stack, dengan setiap stack bertahan selama 6 detik.\nStack Heliacal Embers juga dihitung sebagai stack  Spectro Frazzle untuk efek Eternal Radiance Sonata.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Scorching Light",
+          "description": "Saat Zani berada dalam Inferno Mode, Heavy Slash - Daybreak, Heavy Slash - Dawning, Heavy Slash - Nightfall, dan Heavy Slash - Lightsmash akan tersedia, yang Memberikan  Spectro DMG dan dianggap sebagai Heavy Attack DMG sekaligus  Spectro Frazzle DMG.\nSaat Blaze lebih dari 30, Resonance Skill Standard Defense Protocol akan digantikan menjadi Resonance Skill Scorching Light.\nMenahan tombol Resonance Skill akan membuat Zani memasuki Ready Stance, di mana Zani kebal terhadap interupsi. Status ini akan berakhir lebih cepat jika Zani diganti keluar dari medan pertempuran.\nMelepaskan tombol Resonance Skill akan mengonsumsi Blaze untuk melakukan Heavy Slash - Daybreak.\nJika terkena serangan dalam waktu tertentu setelah memasuki Ready Stance, serangan tersebut akan mengurangi 100% DMG yang diterima dan menyebabkan efek Stagnate pada target di sekitar, lalu mengaktifkan Heavy Slash - Lightsmash, mengonsumsi Blaze serta mengurangi Vibration Strength mereka sebesar 10%.\nDMG yang diterima dalam 2 detik berikutnya juga akan dikurangi sebesar 30%.\nSetelah mengaktifkan Heavy Slash - Lightsmash, Basic Attack akan digantikan dengan Heavy Slash - Nightfall, yang mengonsumsi hingga 40 Blaze saat mengenai target, dengan setiap Blaze meningkatkan DMG Multiplier dari Heavy Slash - Nightfall.\nSaat Ready Stance berakhir, Heavy Slash - Nightfall akan langsung diaktifkan.\nSaat Blaze lebih dari 30, Basic Attack akan digantikan dengan Heavy Slash - Daybreak. Setelah memasuki Inferno Mode, mengaktifkan Basic Attack akan langsung menggantikan Basic Attack saat ini dengan Resonance Skill Scorching Light.\nMenahan Basic Attack akan membuat Zani memasuki Ready Stance.\nSetelah melakukan Heavy Slash - Daybreak, Basic Attack akan digantikan dengan Heavy Slash - Dawning jika Zani memiliki lebih dari 30 Blaze.\nHeavy Slash - Dawning akan mengonsumsi Blaze.\nSetelah melakukan Heavy Slash - Dawning, Basic Attack akan digantikan dengan Heavy Slash - Nightfall.\nJika Basic Attack tidak digantikan dengan Heavy Slash - Nightfall setelah berhasil melakukan dodge (menghindar), dapat menekan Normal Attack dalam waktu tertentu untuk melakukan Heavy Slash - Lightsmash dengan biaya Blaze.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Redundant Energy",
+          "description": "Zani dapat menyimpan hingga 100 Redundant Energy.\nRedundant Energy diperoleh saat Normal Attack mengenai target.\nRedundant Energy diperoleh saat Intro Skill Immediate Execution mengenai target.\nRedundant Energy diperoleh saat mengaktifkan Resonance Skill Standard Defense Protocol.\nRedundant Energy diperoleh saat mengaktifkan Pinpoint Strike.\nRedundant Energy tidak dapat diperoleh saat berada dalam Inferno Mode.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Blaze",
+          "description": "Blaze dibatasi hingga 100 saat tidak berada dalam Inferno Mode.\nBlaze dibatasi hingga 150 saat berada dalam Inferno Mode.\nMengaktifkan Targeted Action atau Forcible Riposte akan memberikan 10 Blaze .\nSetiap stack Heliacal Ember yang dikonversi dari  Spectro Frazzle akan memberikan 5 Blaze .\nMengaktifkan Resonance Liberation Rekindle akan memberikan 50 Blaze .",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Quick Response",
-        "description": "Mengaktifkan Intro Skill Immediate Execution memberikan 12%  Spectro DMG Bonus selama 14 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Mengaktifkan Intro Skill Immediate Execution memberikan 12%  Spectro DMG Bonus selama 14 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Fear No Pain",
-        "description": "Saat berada dalam Ready Stance, semua DMG yang diterima dikurangi sebesar 40%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat berada dalam Ready Stance, semua DMG yang diterima dikurangi sebesar 40%.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Immediate Execution",
-      "description": "Menyerang musuh, memberikan  Spectro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang musuh, memberikan  Spectro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Beacon For The Future",
-      "description": "Menyerang target, memberikan  Spectro DMG sebesar 150% dari ATK milik Zani dan menghapus semua stack Heliacal Ember yang diberikan kepada target.\nSetiap stack akan meningkatkan DMG yang diberikan sebesar 10%.\nDMG ini dianggap sebagai  Spectro Frazzle.\n Spectro DMG yang diberikan oleh Resonator lain di dalam tim kepada target yang ditandai oleh Heliacal Ember akan diperkuat sebesar 20% selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan  Spectro DMG sebesar 150% dari ATK milik Zani dan menghapus semua stack Heliacal Ember yang diberikan kepada target.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setiap stack akan meningkatkan DMG yang diberikan sebesar 10%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG ini dianggap sebagai  Spectro Frazzle.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Spectro DMG yang diberikan oleh Resonator lain di dalam tim kepada target yang ditandai oleh Heliacal Ember akan diperkuat sebesar 20% selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -400,32 +509,93 @@
     {
       "stage": "S1",
       "name": "When The Alarm Clock Rings",
-      "description": "Mengaktifkan Targeted Action atau Forcible Riposte akan memberikan 50%  Spectro DMG Bonus selama 14 detik.\nKebal terhadap interupsi saat mengaktifkan Resonance Skill Heavy Slash - Nightfall."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mengaktifkan Targeted Action atau Forcible Riposte akan memberikan 50%  Spectro DMG Bonus selama 14 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Kebal terhadap interupsi saat mengaktifkan Resonance Skill Heavy Slash - Nightfall.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Stale Bread With Energy Drink",
-      "description": "Crit. Rate meningkat sebesar 20%.\nDMG Multiplier dari Targeted Action dan Forcible Riposte meningkat sebesar 80%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Crit. Rate meningkat sebesar 20%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Targeted Action dan Forcible Riposte meningkat sebesar 80%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Each Day A New Commute",
-      "description": "Saat berada dalam Inferno Mode, setiap 1 Blaze yang dikonsumsi akan meningkatkan DMG Multiplier dari Resonance Liberation The Last Stand sebesar 8%, dengan batas maksimum 1200%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat berada dalam Inferno Mode, setiap 1 Blaze yang dikonsumsi akan meningkatkan DMG Multiplier dari Resonance Liberation The Last Stand sebesar 8%, dengan batas maksimum 1200%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "More Efficiency, Less Drama",
-      "description": "Saat Intro Skill Immediate Execution diaktifkan, ATK semua Resonator di dalam tim akan meningkat sebesar 20% selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Intro Skill Immediate Execution diaktifkan, ATK semua Resonator di dalam tim akan meningkat sebesar 20% selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Delivered In Full On Time",
-      "description": "DMG Multiplier dari Resonance Liberation Rekindle meningkat sebesar 120%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation Rekindle meningkat sebesar 120%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "First Things First? Clock Out!",
-      "description": "DMG Multiplier dari Heavy Slash - Daybreak, Heavy Slash - Dawning, Heavy Slash - Nightfall, dan Heavy Slash - Lightsmash meningkat sebesar 40%.\nMendapatkan efek berikut saat berada dalam Inferno Mode:\n- Saat Blaze berada di bawah 70, akan langsung memulihkan 70 Blaze. Efek ini hanya terpicu satu kali selama berada dalam Inferno Mode.\n- Dalam 8 detik setelah memasuki Inferno Mode, Zani akan tetap berdiri dengan setidaknya 1 HP jika terkena serangan fatal."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Heavy Slash - Daybreak, Heavy Slash - Dawning, Heavy Slash - Nightfall, dan Heavy Slash - Lightsmash meningkat sebesar 40%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Mendapatkan efek berikut saat berada dalam Inferno Mode:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Saat Blaze berada di bawah 70, akan langsung memulihkan 70 Blaze. Efek ini hanya terpicu satu kali selama berada dalam Inferno Mode.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Dalam 8 detik setelah memasuki Inferno Mode, Zani akan tetap berdiri dengan setidaknya 1 HP jika terkena serangan fatal.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

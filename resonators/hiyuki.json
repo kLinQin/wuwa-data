@@ -18,7 +18,8 @@
       "text": "Minimal update",
       "type": "input",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Startorch Academy",
@@ -181,15 +182,108 @@
   "skills": {
     "basic": {
       "name": "Flaming Sakura Blade Art",
-      "description": "Basic Attack - Present Self\nMenekan Normal Attack secara berturut-turut atau menahan tombol untuk melancarkan hingga 3 serangan berturut-turut, memberikan Glacio DMG.\nBasic Attack - Present Self Stage 3 memberikan 1 tumpukan Glacio Chafe saat mengenai target.\n\nHeavy Attack - Frost Splinter: Present Self\nSaat Dedication mencapai 300 poin, Heavy Attack - Frost Splinter: Present Self menjadi tersedia.\nMenahan Normal Attack untuk menembakkan 3 anak panah satu per satu dengan mengonsumsi STA, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Hiyuki menjadi kebal terhadap interupsi selama durasi tersebut.\nSaat anak panah terakhir ditembakkan, 300 poin Dedication akan dikonsumsi dan Foreclaiming: Inward Vision menjadi tersedia. Anak panah tersebut memberikan 1 tumpukan Glacio Chafe saat mengenai target.\n\nMid-air Attack - Present Self\nMengonsumsi STA untuk melancarkan Plunging Attack dari udara, memberikan Glacio DMG.\n\nDodge Counter - Present Self\nMenekan Normal Attack dalam periode tertentu setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG.\nMenekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Present Self Stage 3.\n\nBasic Attack - Foreclaimed Self\nSaat berada dalam Foreclaimed Self, Basic Attack - Present Self digantikan oleh Basic Attack - Foreclaimed Self.\nMelancarkan hingga 5 serangan berturut-turut, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nBasic Attack - Foreclaimed Self Stage 3, 4, dan 5 masing-masing memberikan 1 tumpukan Glacio Chafe saat mengenai target.\n\nHeavy Attack - Foreclaimed Self\nDalam status Foreclaimed Self, tahan Normal Attack untuk memasuki Hold Breath, yang mengonsumsi STA secara terus-menerus. Saat Normal Attack dilepaskan atau STA habis, Hiyuki meninggalkan status Hold Breath dan menusuk ke depan, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Tekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 2.\nJika Hiyuki diserang oleh musuh dalam periode tertentu saat melakukan tusukan, netralkan instansi damage tersebut, berikan efek Stagnate pada target di sekitar, dan menjadi kebal terhadap interupsi untuk periode tertentu setelahnya sambil mengurangi semua damage yang masuk sebesar 100%. Tekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk menyambung ke Basic Attack - Foreclaimed Self Stage 4 sebagai gantinya.\n\nHeavy Attack - Bitterfrost: Foreclaimed Self\nSaat Whiteout Bitterfrost penuh, Heavy Attack - Foreclaimed Self digantikan dengan Heavy Attack - Bitterfrost: Foreclaimed Self.\nMenahan Normal Attack dan mengonsumsi STA serta 3 tumpukan Whiteout Bitterfrost untuk mendapatkan 1 poin Snowforged Blade, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nHeavy Attack - Bitterfrost: Foreclaimed Self memberikan 1 tumpukan Glacio Chafe saat mengenai target.\nJika Hiyuki berada di udara saat melancarkan skill ini, ia akan mendarat di tanah terlebih dahulu.\n\n\nMid-air Attack - Foreclaimed Self\nSaat berada dalam Foreclaimed Self, Mid-air Attack - Present Self digantikan oleh Mid-air Attack - Foreclaimed Self.\nMengonsumsi STA untuk melancarkan hingga 3 serangan berturut-turut di udara, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Stage 3 merupakan Plunging Attack.\nMid-air Attack - Foreclaimed Self Stage 2 & 3 memberikan 1 tumpukan Glacio Chafe saat mengenai target.\nKombo Mid-air Attack - Foreclaimed Self tidak akan diatur ulang dengan melancarkan skill selain Basic Attack - Iai dalam periode singkat.\nMenahan Normal Attack saat berada di udara untuk melancarkan Plunging Attack dengan mengonsumsi STA.\n\n\nDodge Counter - Foreclaimed Self\nSaat berada dalam Foreclaimed Self, Dodge Counter - Present Self digantikan oleh Dodge Counter - Foreclaimed Self.\nMenekan Normal Attack dalam periode tertentu setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nMenekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 3."
+      "effects": [
+        {
+          "title": "Basic Attack - Present Self",
+          "description": "Menekan Normal Attack secara berturut-turut atau menahan tombol untuk melancarkan hingga 3 serangan berturut-turut, memberikan Glacio DMG.\nBasic Attack - Present Self Stage 3 memberikan 1 tumpukan Glacio Chafe saat mengenai target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Frost Splinter: Present Self",
+          "description": "Saat Dedication mencapai 300 poin, Heavy Attack - Frost Splinter: Present Self menjadi tersedia.\nMenahan Normal Attack untuk menembakkan 3 anak panah satu per satu dengan mengonsumsi STA, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Hiyuki menjadi kebal terhadap interupsi selama durasi tersebut.\nSaat anak panah terakhir ditembakkan, 300 poin Dedication akan dikonsumsi dan Foreclaiming: Inward Vision menjadi tersedia. Anak panah tersebut memberikan 1 tumpukan Glacio Chafe saat mengenai target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Present Self",
+          "description": "Mengonsumsi STA untuk melancarkan Plunging Attack dari udara, memberikan Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Present Self",
+          "description": "Menekan Normal Attack dalam periode tertentu setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG.\nMenekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Present Self Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Foreclaimed Self",
+          "description": "Saat berada dalam Foreclaimed Self, Basic Attack - Present Self digantikan oleh Basic Attack - Foreclaimed Self.\nMelancarkan hingga 5 serangan berturut-turut, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nBasic Attack - Foreclaimed Self Stage 3, 4, dan 5 masing-masing memberikan 1 tumpukan Glacio Chafe saat mengenai target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Foreclaimed Self",
+          "description": "Dalam status Foreclaimed Self, tahan Normal Attack untuk memasuki Hold Breath, yang mengonsumsi STA secara terus-menerus. Saat Normal Attack dilepaskan atau STA habis, Hiyuki meninggalkan status Hold Breath dan menusuk ke depan, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Tekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 2.\nJika Hiyuki diserang oleh musuh dalam periode tertentu saat melakukan tusukan, netralkan instansi damage tersebut, berikan efek Stagnate pada target di sekitar, dan menjadi kebal terhadap interupsi untuk periode tertentu setelahnya sambil mengurangi semua damage yang masuk sebesar 100%. Tekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk menyambung ke Basic Attack - Foreclaimed Self Stage 4 sebagai gantinya.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Bitterfrost: Foreclaimed Self",
+          "description": "Saat Whiteout Bitterfrost penuh, Heavy Attack - Foreclaimed Self digantikan dengan Heavy Attack - Bitterfrost: Foreclaimed Self.\nMenahan Normal Attack dan mengonsumsi STA serta 3 tumpukan Whiteout Bitterfrost untuk mendapatkan 1 poin Snowforged Blade, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nHeavy Attack - Bitterfrost: Foreclaimed Self memberikan 1 tumpukan Glacio Chafe saat mengenai target.\nJika Hiyuki berada di udara saat melancarkan skill ini, ia akan mendarat di tanah terlebih dahulu.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Foreclaimed Self",
+          "description": "Saat berada dalam Foreclaimed Self, Mid-air Attack - Present Self digantikan oleh Mid-air Attack - Foreclaimed Self.\nMengonsumsi STA untuk melancarkan hingga 3 serangan berturut-turut di udara, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Stage 3 merupakan Plunging Attack.\nMid-air Attack - Foreclaimed Self Stage 2 & 3 memberikan 1 tumpukan Glacio Chafe saat mengenai target.\nKombo Mid-air Attack - Foreclaimed Self tidak akan diatur ulang dengan melancarkan skill selain Basic Attack - Iai dalam periode singkat.\nMenahan Normal Attack saat berada di udara untuk melancarkan Plunging Attack dengan mengonsumsi STA.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Foreclaimed Self",
+          "description": "Saat berada dalam Foreclaimed Self, Dodge Counter - Present Self digantikan oleh Dodge Counter - Foreclaimed Self.\nMenekan Normal Attack dalam periode tertentu setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nMenekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 3.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Resonance Skill - Present Self",
-      "description": "Memberikan Glacio DMG.\nMelancarkan skill ini memperkuat Basic Attack - Present Self Stage 3 berikutnya, yang kini memulihkan 100 poin Dedication saat dilancarkan. Beralih ke Resonator lain akan mengakhiri efek ini.\nMenekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Present Self Stage 3.\nJika Dedication berada di bawah 300 poin, tahan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Present Self Stage 3.\n\nSaat berada dalam Foreclaimed Self, Resonance Skill - Present Self digantikan oleh Frostblight: Jade Cleave dan Frostblight: Petalfall:\n\nFrostblight: Jade Cleave\nSaat berada di tanah, tekan Resonance Skill untuk menarik target di sekitar dan memberikan Glacio DMG, menghapus status Frostbind pada target tersebut.\nSkill ini berbagi Cooldown dengan Frostblight: Petalfall.\n\nFrostblight: Petalfall\nSaat berada di udara, tekan Resonance Skill untuk menarik target di sekitar dan memberikan Glacio DMG, menghapus status Frostbind pada target tersebut.\nSkill ini berbagi Cooldown dengan Frostblight: Jade Cleave."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan Glacio DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan skill ini memperkuat Basic Attack - Present Self Stage 3 berikutnya, yang kini memulihkan 100 poin Dedication saat dilancarkan. Beralih ke Resonator lain akan mengakhiri efek ini.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Menekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Present Self Stage 3.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Dedication berada di bawah 300 poin, tahan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Present Self Stage 3.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat berada dalam Foreclaimed Self, Resonance Skill - Present Self digantikan oleh Frostblight: Jade Cleave dan Frostblight: Petalfall:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Frostblight: Jade Cleave",
+          "description": "Saat berada di tanah, tekan Resonance Skill untuk menarik target di sekitar dan memberikan Glacio DMG, menghapus status Frostbind pada target tersebut.\nSkill ini berbagi Cooldown dengan Frostblight: Petalfall.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Frostblight: Petalfall",
+          "description": "Saat berada di udara, tekan Resonance Skill untuk menarik target di sekitar dan memberikan Glacio DMG, menghapus status Frostbind pada target tersebut.\nSkill ini berbagi Cooldown dengan Frostblight: Jade Cleave.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Foreclaiming",
-      "description": "Foreclaiming: Inward Vision\nHeavy Attack - Foreclaiming: Inward Vision menjadi tersedia setelah melancarkan Frost Splinter: Present Self.\nSaat berada dalam Present Self, tekan Resonance Liberation untuk melancarkan skill ini, memberikan Glacio DMG. Setelah melancarkan skill ini, dapatkan 3 poin Frostharden Iai, hapus 300 poin Dedication dan Frostheart. Kemudian, masuk ke status Foreclaimed Self dan pulihkan 50 poin Frostheart.\nForeclaiming: Inward Vision memberikan 4 tumpukan Glacio Chafe saat mengenai target.\nMelancarkan Foreclaiming: Inward Vision tidak mengonsumsi Resonance Energy, dan memulihkan 50 poin Frostheart.\n\nForeclaiming: Blade Liberation\nSaat berada dalam Foreclaimed Self, Foreclaiming: Blade Liberation dapat dilancarkan melalui cara-cara berikut:\n- Menekan Resonance Liberation dan lepaskan untuk melancarkan Foreclaiming: Blade Liberation. Jika Hiyuki memiliki 3 poin Snowforged Blade, konsumsi semua Snowforged Blade. Jika tidak, peluncuran ini tidak mengonsumsi Snowforged Blade.\n- Menahan Resonance Liberation untuk memasuki status pengisian daya (charging). Selama status ini, konsumsi 1 poin Snowforged Blade secara berkala. Lepaskan Resonance Liberation untuk melancarkan Foreclaiming: Blade Liberation. Jika tidak ada Snowforged Blade yang dikonsumsi saat Resonance Liberation dilepaskan, Hiyuki akan terus mengisi daya serangan dan melancarkan skill secara otomatis setelah waktu tertentu. Foreclaiming: Blade Liberation juga akan dilancarkan secara otomatis saat Snowforged Blade habis.\nHiyuki memberikan Glacio DMG. Setiap poin Snowforged Blade yang dikonsumsi meningkatkan DMG Multiplier dari serangan ini.\nMelancarkan skill ini mengonsumsi 300 poin Dedication dan Frostheart, serta mengakhiri status Foreclaimed Self."
+      "effects": [
+        {
+          "title": "Foreclaiming: Inward Vision",
+          "description": "Heavy Attack - Foreclaiming: Inward Vision menjadi tersedia setelah melancarkan Frost Splinter: Present Self.\nSaat berada dalam Present Self, tekan Resonance Liberation untuk melancarkan skill ini, memberikan Glacio DMG. Setelah melancarkan skill ini, dapatkan 3 poin Frostharden Iai, hapus 300 poin Dedication dan Frostheart. Kemudian, masuk ke status Foreclaimed Self dan pulihkan 50 poin Frostheart.\nForeclaiming: Inward Vision memberikan 4 tumpukan Glacio Chafe saat mengenai target.\nMelancarkan Foreclaiming: Inward Vision tidak mengonsumsi Resonance Energy, dan memulihkan 50 poin Frostheart.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Foreclaiming: Blade Liberation",
+          "description": "Saat berada dalam Foreclaimed Self, Foreclaiming: Blade Liberation dapat dilancarkan melalui cara-cara berikut:\n- Menekan Resonance Liberation dan lepaskan untuk melancarkan Foreclaiming: Blade Liberation. Jika Hiyuki memiliki 3 poin Snowforged Blade, konsumsi semua Snowforged Blade. Jika tidak, peluncuran ini tidak mengonsumsi Snowforged Blade.\n- Menahan Resonance Liberation untuk memasuki status pengisian daya (charging). Selama status ini, konsumsi 1 poin Snowforged Blade secara berkala. Lepaskan Resonance Liberation untuk melancarkan Foreclaiming: Blade Liberation. Jika tidak ada Snowforged Blade yang dikonsumsi saat Resonance Liberation dilepaskan, Hiyuki akan terus mengisi daya serangan dan melancarkan skill secara otomatis setelah waktu tertentu. Foreclaiming: Blade Liberation juga akan dilancarkan secara otomatis saat Snowforged Blade habis.\nHiyuki memberikan Glacio DMG. Setiap poin Snowforged Blade yang dikonsumsi meningkatkan DMG Multiplier dari serangan ini.\nMelancarkan skill ini mengonsumsi 300 poin Dedication dan Frostheart, serta mengakhiri status Foreclaimed Self.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "",
@@ -198,24 +292,99 @@
     "inherent": [
       {
         "name": "Fine Snow",
-        "description": "Saat Resonator dalam tim memberikan Glacio Chafe atau Havoc Bane, Hiyuki mendapatkan 1 tumpukan Snow Rust. Snow Rust dapat ditumpuk hingga 3 kali. Setiap Resonator hanya dapat memicu efek ini satu kali melalui cara tersebut.\nBerdasarkan jumlah tumpukan Snow Rust Hiyuki saat ini, bonus berikut akan terbuka:\n1 tumpukan Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, Glacio Bite DMG mendapatkan Amplify sebesar 30% terhadap target dalam jarak tertentu. Crit. DMG Hiyuki meningkat sebesar 40%.\n2 tumpukan Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali ia memberikan Glacio Chafe, ia tambahan memberikan 102% Glacio Bite DMG sebanyak satu kali.\n3 tumpukan Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, Glacio Bite DMG tambahan mendapatkan Amplify sebesar 30% terhadap target dalam jarak tertentu.\nEfek ini diatur ulang saat Resonator baru ditambahkan ke dalam tim.\n"
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Resonator dalam tim memberikan Glacio Chafe atau Havoc Bane, Hiyuki mendapatkan 1 tumpukan Snow Rust. Snow Rust dapat ditumpuk hingga 3 kali. Setiap Resonator hanya dapat memicu efek ini satu kali melalui cara tersebut.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Berdasarkan jumlah tumpukan Snow Rust Hiyuki saat ini, bonus berikut akan terbuka:",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "1 tumpukan Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, Glacio Bite DMG mendapatkan Amplify sebesar 30% terhadap target dalam jarak tertentu. Crit. DMG Hiyuki meningkat sebesar 40%.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "2 tumpukan Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali ia memberikan Glacio Chafe, ia tambahan memberikan 102% Glacio Bite DMG sebanyak satu kali.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "3 tumpukan Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, Glacio Bite DMG tambahan mendapatkan Amplify sebesar 30% terhadap target dalam jarak tertentu.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Efek ini diatur ulang saat Resonator baru ditambahkan ke dalam tim.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Ephemeral Realm",
-        "description": "Setelah Hiyuki meninggalkan status pertempuran atau pulih setelah pingsan, saat ia berada di luar pertempuran selama 4 detik dengan kondisi memiliki kurang dari 1 poin Snowforged Blade, pulihkan 1 poin tersebut."
+        "effects": [
+          {
+            "title": "",
+            "description": "Setelah Hiyuki meninggalkan status pertempuran atau pulih setelah pingsan, saat ia berada di luar pertempuran selama 4 detik dengan kondisi memiliki kurang dari 1 poin Snowforged Blade, pulihkan 1 poin tersebut.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break",
-        "description": "Saat Off-Tune Level target penuh, Hiyuki dapat melancarkan Tune Break pada target.\n\nSaat berada dalam Present Self, tekan atau tahan Normal Attack sesaat setelah melancarkan Tune Break untuk melancarkan Basic Attack - Present Self Stage 3.\nSaat berada dalam Foreclaimed Self, tekan Normal Attack sesaat setelah melancarkan Tune Break untuk melancarkan Basic Attack - Foreclaimed Self Stage 3."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Off-Tune Level target penuh, Hiyuki dapat melancarkan Tune Break pada target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat berada dalam Present Self, tekan atau tahan Normal Attack sesaat setelah melancarkan Tune Break untuk melancarkan Basic Attack - Present Self Stage 3.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat berada dalam Foreclaimed Self, tekan Normal Attack sesaat setelah melancarkan Tune Break untuk melancarkan Basic Attack - Foreclaimed Self Stage 3.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Frostedge",
-      "description": "Memberikan Glacio DMG, dianggap sebagai Resonance Liberation DMG, dan memberikan 1 tumpukan Glacio Chafe saat mengenai target.\nDalam status Present Self, melancarkan skill ini memulihkan 200 poin Dedication. Tekan atau tahan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 3.\nDalam status Foreclaimed Self, tekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 2."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan Glacio DMG, dianggap sebagai Resonance Liberation DMG, dan memberikan 1 tumpukan Glacio Chafe saat mengenai target.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dalam status Present Self, melancarkan skill ini memulihkan 200 poin Dedication. Tekan atau tahan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 3.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dalam status Foreclaimed Self, tekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 2.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Snowlight Blessing",
-      "description": "Glacio DMG yang diberikan oleh Resonator di sekitar selain Hiyuki dalam tim mendapatkan Amplify sebesar 20% terhadap target yang terkena efek Glacio Chafe selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Glacio DMG yang diberikan oleh Resonator di sekitar selain Hiyuki dalam tim mendapatkan Amplify sebesar 20% terhadap target yang terkena efek Glacio Chafe selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -407,32 +576,143 @@
     {
       "stage": "S1",
       "name": "Springless",
-      "description": "DMG Multiplier dari Basic Attack - Foreclaimed Self, Heavy Attack - Foreclaimed Self, Mid-air Attack - Foreclaimed Self, Mid-air Plunging Attack - Foreclaimed Self, dan Dodge Counter - Foreclaimed Self meningkat sebesar 120%.\nBasic Attack - Foreclaimed Self Stage 3 kini memiliki jangkauan yang lebih luas dan menarik musuh dalam jangkauan ke arah pusat. Hiyuki menjadi kebal terhadap interupsi saat melancarkan Basic Attack - Foreclaimed Self Stage 4 & 5.\nMelancarkan Foreclaiming: Inward Vision memperkuat Basic Attack - Foreclaimed Self Stage 1 & 2 berikutnya, yang kini memberikan 1 tumpukan Glacio Chafe saat mengenai target."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Basic Attack - Foreclaimed Self, Heavy Attack - Foreclaimed Self, Mid-air Attack - Foreclaimed Self, Mid-air Plunging Attack - Foreclaimed Self, dan Dodge Counter - Foreclaimed Self meningkat sebesar 120%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Basic Attack - Foreclaimed Self Stage 3 kini memiliki jangkauan yang lebih luas dan menarik musuh dalam jangkauan ke arah pusat. Hiyuki menjadi kebal terhadap interupsi saat melancarkan Basic Attack - Foreclaimed Self Stage 4 & 5.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan Foreclaiming: Inward Vision memperkuat Basic Attack - Foreclaimed Self Stage 1 & 2 berikutnya, yang kini memberikan 1 tumpukan Glacio Chafe saat mengenai target.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "To Burn Cold In Silence",
-      "description": "DMG Multiplier dari Basic Attack - Iai meningkat sebesar 125%.\nEfek Inherent Skill Ephemeral Realm berubah menjadi berikut:\nSetelah Hiyuki meninggalkan status pertempuran atau pulih setelah pingsan, setelah berada di luar pertempuran selama 4 detik, pulihkan 3 poin Snowforged Blade.\n\nSetelah Hiyuki meninggalkan status pertempuran atau pulih setelah pingsan, setelah berada di luar pertempuran selama 4 detik, efek berikut akan dipicu satu kali:\n- Memulihkan 3 poin Frostharden Iai.\n- Mengatur ulang Cooldown dari 2 pengisian Frostblight: Jade Cleave.\n- Memulihkan tambahan 50 poin Frostheart untuk 2 peluncuran Frostblight: Jade Cleave atau Frostblight: Petalfall berikutnya."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Basic Attack - Iai meningkat sebesar 125%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek Inherent Skill Ephemeral Realm berubah menjadi berikut:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah Hiyuki meninggalkan status pertempuran atau pulih setelah pingsan, setelah berada di luar pertempuran selama 4 detik, pulihkan 3 poin Snowforged Blade.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah Hiyuki meninggalkan status pertempuran atau pulih setelah pingsan, setelah berada di luar pertempuran selama 4 detik, efek berikut akan dipicu satu kali:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Memulihkan 3 poin Frostharden Iai.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Mengatur ulang Cooldown dari 2 pengisian Frostblight: Jade Cleave.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Memulihkan tambahan 50 poin Frostheart untuk 2 peluncuran Frostblight: Jade Cleave atau Frostblight: Petalfall berikutnya.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "No Self, No Bound",
-      "description": "Inherent Skill Fine Snow mendapatkan efek berikut:\nSetiap 2 detik setelah seorang Resonator bergabung ke dalam tim atau Hiyuki dibangkitkan, Hiyuki mendapatkan 1 tumpukan Snow Rust. Hiyuki dapat memperoleh hingga 1 tumpukan Snow Rust melalui cara ini.\n\nDMG Multiplier dari Heavy Attack - Frost Splinter: Present Self dan Heavy Attack - Bitterfrost: Foreclaimed Self meningkat sebesar 160%.\nPada 2 tumpukan Snow Rust, saat Hiyuki menjadi Resonator aktif dalam tim, DMG Multiplier dari Glacio Bite DMG tambahan yang diberikan setiap kali ia memberikan Glacio Chafe meningkat sebesar 488%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Inherent Skill Fine Snow mendapatkan efek berikut:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setiap 2 detik setelah seorang Resonator bergabung ke dalam tim atau Hiyuki dibangkitkan, Hiyuki mendapatkan 1 tumpukan Snow Rust. Hiyuki dapat memperoleh hingga 1 tumpukan Snow Rust melalui cara ini.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Heavy Attack - Frost Splinter: Present Self dan Heavy Attack - Bitterfrost: Foreclaimed Self meningkat sebesar 160%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Pada 2 tumpukan Snow Rust, saat Hiyuki menjadi Resonator aktif dalam tim, DMG Multiplier dari Glacio Bite DMG tambahan yang diberikan setiap kali ia memberikan Glacio Chafe meningkat sebesar 488%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Like Reeds On Tides",
-      "description": "Melancarkan Resonance Skill: Present Self, Frostblight: Jade Cleave, atau Frostblight: Petalfall meningkatkan damage yang diberikan oleh semua Resonator di sekitar dalam tim sebesar 20% selama 30 detik.\nMemulihkan 18% dari Max HP saat melancarkan Frostblight: Jade Cleave atau Frostblight: Petalfall."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Skill: Present Self, Frostblight: Jade Cleave, atau Frostblight: Petalfall meningkatkan damage yang diberikan oleh semua Resonator di sekitar dalam tim sebesar 20% selama 30 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Memulihkan 18% dari Max HP saat melancarkan Frostblight: Jade Cleave atau Frostblight: Petalfall.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Vessel Of Thousand Wishes",
-      "description": "DMG Multiplier dari Resonance Skill - Present Self, Frostblight: Jade Cleave, dan Frostblight: Petalfall meningkat sebesar 80%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Skill - Present Self, Frostblight: Jade Cleave, dan Frostblight: Petalfall meningkat sebesar 80%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Into A Night Without End",
-      "description": "Crit. DMG dari Foreclaiming: Inward Vision dan Foreclaiming: Blade Liberation meningkat sebesar 500%.\n\nPada 2 tumpukan Snow Rust, efek \"Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali ia memberikan Glacio Chafe, ia tambahan memberikan satu instansi Glacio Bite DMG dengan DMG Multiplier tetap\" berubah menjadi \"Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali seorang Resonator dalam tim memberikan Glacio Chafe, ia tambahan memberikan satu instansi Glacio Bite DMG dengan DMG Multiplier tetap.\"\nPada 2 tumpukan Snow Rust, Crit. DMG Hiyuki meningkat sebesar 40%.\nPada 3 tumpukan Snow Rust, total Glacio Bite DMG yang diterima oleh target dalam jangkauan tertentu dari Resonator aktif dalam tim meningkat sebesar 25%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Crit. DMG dari Foreclaiming: Inward Vision dan Foreclaiming: Blade Liberation meningkat sebesar 500%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Pada 2 tumpukan Snow Rust, efek \"Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali ia memberikan Glacio Chafe, ia tambahan memberikan satu instansi Glacio Bite DMG dengan DMG Multiplier tetap\" berubah menjadi \"Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali seorang Resonator dalam tim memberikan Glacio Chafe, ia tambahan memberikan satu instansi Glacio Bite DMG dengan DMG Multiplier tetap.\"",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Pada 2 tumpukan Snow Rust, Crit. DMG Hiyuki meningkat sebesar 40%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Pada 3 tumpukan Snow Rust, total Glacio Bite DMG yang diterima oleh target dalam jangkauan tertentu dari Resonator aktif dalam tim meningkat sebesar 25%.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

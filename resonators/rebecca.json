@@ -19,7 +19,8 @@
       "text": "NEW CHARACTER",
       "type": "updated",
       "isNew": true,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "",
@@ -181,41 +182,285 @@
   "skills": {
     "basic": {
       "name": "Mix-'N'-Match",
-      "description": "Basic Attack - Huntress\nMelancarkan hingga 3 serangan berturut-turut, memberikan Electro DMG.\n\nHeavy Attack - Huntress\nTahan Normal Attack untuk terus menembak musuh dengan mengonsumsi STA, memberikan Electro DMG, dianggap sebagai Basic Attack DMG.\n- Tahan lalu lepaskan Normal Attack saat Rebecca tidak melancarkan Tactical Dodge - Huntress untuk melancarkan Heavy Attack - Eat Lead!: Huntress\n\nHeavy Attack - Eat Lead!: Huntress\nMemberikan Electro DMG.\n\nComin' in Hot! - Huntress\nMelompat salto di udara dan mendarat.\nTerus tahan Normal Attack setelah melancarkan skill ini untuk melanjutkan dengan Heavy Attack - Huntress tanpa mengonsumsi STA.\n\nMid-air Plunging Attack - Huntress\nMengonsumsi STA untuk melancarkan Plunging Attack, memberikan Electro DMG.\n\nDodge Counter - Huntress\nTekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Electro DMG.\n\nTactical Dodge - Huntress\nTekan Dodge untuk menyerang target sambil menghindar, memberikan Electro DMG.\nDapat dilancarkan selama tindakan berikut (saat berada di darat):\n- Melakukan Basic Attack - Huntress.\n- Melakukan Heavy Attack - Huntress.\n- Melakukan Heavy Attack - Eat Lead!: Huntress\n- Melancarkan Comin' in Hot! - Huntress.\n- Melancarkan Tactical Dodge - Huntress.\n- Melancarkan Resonance Skill.\n- Melancarkan Intro Skill.\nTambahan Electro DMG diberikan setelah berhasil melakukan Dodge selama Tactical Dodge - Huntress.\nTerus tahan Normal Attack setelah melancarkan skill ini untuk melanjutkan dengan Heavy Attack - Huntress tanpa mengonsumsi STA.\n\nBasic Attack - Guts\nMelancarkan hingga 3 serangan berturut-turut, memberikan Electro DMG.\nMelancarkan Tactical Dodge - Guts tidak mengatur ulang siklus serangan Basic Attack - Huntress dalam waktu tertentu.\n\nHeavy Attack - Guts\nMengonsumsi STA dan menyerang target, memberikan Electro DMG.\n\nMid-air Plunging Attack - Guts\nMengonsumsi STA untuk melancarkan Plunging Attack, memberikan Electro DMG.\n\nDodge Counter - Guts\nTekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Electro DMG.\n\nTactical Dodge - Guts\nTekan Dodge dan menyerang target sambil menghindar, memberikan Electro DMG.\nDapat dilancarkan selama tindakan berikut (saat berada di darat):\n- Melakukan Basic Attack - Guts.\n- Melancarkan Tactical Dodge - Guts.\n- Melancarkan Resonance Skill.\n- Melancarkan Intro Skill.\nTambahan Electro DMG diberikan setelah berhasil melakukan Dodge selama Tactical Dodge - Guts."
+      "effects": [
+        {
+          "title": "Basic Attack - Huntress",
+          "description": "Melancarkan hingga 3 serangan berturut-turut, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Huntress",
+          "description": "Tahan Normal Attack untuk terus menembak musuh dengan mengonsumsi STA, memberikan Electro DMG, dianggap sebagai Basic Attack DMG.\n- Tahan lalu lepaskan Normal Attack saat Rebecca tidak melancarkan Tactical Dodge - Huntress untuk melancarkan Heavy Attack - Eat Lead!: Huntress\nHeavy Attack - Eat Lead!: Huntress\nMemberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Comin' in Hot! - Huntress",
+          "description": "Melompat salto di udara dan mendarat.\nTerus tahan Normal Attack setelah melancarkan skill ini untuk melanjutkan dengan Heavy Attack - Huntress tanpa mengonsumsi STA.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Plunging Attack - Huntress",
+          "description": "Mengonsumsi STA untuk melancarkan Plunging Attack, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Huntress",
+          "description": "Tekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Tactical Dodge - Huntress",
+          "description": "Tekan Dodge untuk menyerang target sambil menghindar, memberikan Electro DMG.\nDapat dilancarkan selama tindakan berikut (saat berada di darat):\n- Melakukan Basic Attack - Huntress.\n- Melakukan Heavy Attack - Huntress.\n- Melakukan Heavy Attack - Eat Lead!: Huntress\n- Melancarkan Comin' in Hot! - Huntress.\n- Melancarkan Tactical Dodge - Huntress.\n- Melancarkan Resonance Skill.\n- Melancarkan Intro Skill.\nTambahan Electro DMG diberikan setelah berhasil melakukan Dodge selama Tactical Dodge - Huntress.\nTerus tahan Normal Attack setelah melancarkan skill ini untuk melanjutkan dengan Heavy Attack - Huntress tanpa mengonsumsi STA.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Guts",
+          "description": "Melancarkan hingga 3 serangan berturut-turut, memberikan Electro DMG.\nMelancarkan Tactical Dodge - Guts tidak mengatur ulang siklus serangan Basic Attack - Huntress dalam waktu tertentu.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Guts",
+          "description": "Mengonsumsi STA dan menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Plunging Attack - Guts",
+          "description": "Mengonsumsi STA untuk melancarkan Plunging Attack, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Guts",
+          "description": "Tekan Normal Attack sesaat setelah berhasil melakukan Dodge untuk menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Tactical Dodge - Guts",
+          "description": "Tekan Dodge dan menyerang target sambil menghindar, memberikan Electro DMG.\nDapat dilancarkan selama tindakan berikut (saat berada di darat):\n- Melakukan Basic Attack - Guts.\n- Melancarkan Tactical Dodge - Guts.\n- Melancarkan Resonance Skill.\n- Melancarkan Intro Skill.\nTambahan Electro DMG diberikan setelah berhasil melakukan Dodge selama Tactical Dodge - Guts.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Tactical Tweaks",
-      "description": "Resonance Skill - It's Big Boomin' Time!\nTekan Resonance Skill saat berada dalam mode Huntress untuk memperkecil jarak dan menyemburkan peluru ke arah musuh, lalu beralih ke mode Guts untuk meledakkan target, memberikan Electro DMG.\n\nResonance Skill - Come 'n' Get Me!\nTekan Resonance Skill saat berada dalam mode Guts untuk menyemburkan peluru ke arah musuh, lalu gunakan rekoil dari tembakan ke tanah untuk memperkecil jarak dan beralih ke mode Huntress untuk melanjutkan rentetan serangan, memberikan Electro DMG.\nTekan atau tahan Normal Attack saat dekat dengan tanah sesaat setelah melancarkan skill ini untuk melanjutkan dengan Comin' in Hot! - Huntress."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill - It's Big Boomin' Time!",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan Resonance Skill saat berada dalam mode Huntress untuk memperkecil jarak dan menyemburkan peluru ke arah musuh, lalu beralih ke mode Guts untuk meledakkan target, memberikan Electro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Resonance Skill - Come 'n' Get Me!",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan Resonance Skill saat berada dalam mode Guts untuk menyemburkan peluru ke arah musuh, lalu gunakan rekoil dari tembakan ke tanah untuk memperkecil jarak dan beralih ke mode Huntress untuk melanjutkan rentetan serangan, memberikan Electro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan atau tahan Normal Attack saat dekat dengan tanah sesaat setelah melancarkan skill ini untuk melanjutkan dengan Comin' in Hot! - Huntress.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Party 'Til Dawn!",
-      "description": "Beralih ke mode Mk. 31 HMG menciptakan medan Stagnation selama 9.5 detik, yang mana di dalamnya:\nRebecca menembakkan Mk. 31 HMG secara otomatis, memberikan Electro DMG, dianggap sebagai Basic Attack DMG, sembari mengumpulkan Overload. Tekan atau tahan Normal Attack atau tekan Resonance Liberation secara berkala setelah Rebecca mulai menembak untuk memperkuat daya tembak Mk. 31 HMG miliknya dan mengumpulkan Overload dengan lebih cepat. Efek ini dapat dipicu hingga 2 kali.\n- Senapan mesin hanya akan melakukan auto-lock pada musuh terdekat dari crosshair dalam bidikan aim down sight.\n- Rebecca tidak dapat bergerak saat menembakkan Mk. 31 HMG dan mendapatkan 50% DMG Reduction serta Immunity to Interrruption.\n\nOverload\nRebecca dapat menampung hingga 90 poin Overload.\nMengenai target dengan daya tembak standar Mk. 31 HMG memberikan 2 poin.\nMengenai target dengan daya tembak yang diperkuat Mk. 31 HMG memberikan 4 poin.\nMengenai target dengan daya tembak yang diperkuat dua kali Mk. 31 HMG memberikan 6 poin.\n\nBOOM! Fireworks!\nSetelah mode Mk. 31 HMG berakhir atau saat Overload penuh, BOOM! Fireworks! otomatis dilancarkan, memberikan Electro DMG. Melancarkan BOOM! Fireworks! mengakhiri Mk. 31 HMG.\n- Tahan Resonance Liberation saat berada dalam mode Mk. 31 HMG untuk segera melancarkan BOOM! Fireworks!.\n- Meninggalkan mode Mk. 31 HMG menghapus semua Overload."
+      "effects": [
+        {
+          "title": "",
+          "description": "Beralih ke mode Mk. 31 HMG menciptakan medan Stagnation selama 9.5 detik, yang mana di dalamnya:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Rebecca menembakkan Mk. 31 HMG secara otomatis, memberikan Electro DMG, dianggap sebagai Basic Attack DMG, sembari mengumpulkan Overload. Tekan atau tahan Normal Attack atau tekan Resonance Liberation secara berkala setelah Rebecca mulai menembak untuk memperkuat daya tembak Mk. 31 HMG miliknya dan mengumpulkan Overload dengan lebih cepat. Efek ini dapat dipicu hingga 2 kali.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Senapan mesin hanya akan melakukan auto-lock pada musuh terdekat dari crosshair dalam bidikan aim down sight.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Rebecca tidak dapat bergerak saat menembakkan Mk. 31 HMG dan mendapatkan 50% DMG Reduction serta Immunity to Interrruption.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Overload",
+          "description": "Rebecca dapat menampung hingga 90 poin Overload.\nMengenai target dengan daya tembak standar Mk. 31 HMG memberikan 2 poin.\nMengenai target dengan daya tembak yang diperkuat Mk. 31 HMG memberikan 4 poin.\nMengenai target dengan daya tembak yang diperkuat dua kali Mk. 31 HMG memberikan 6 poin.\nBOOM! Fireworks!\nSetelah mode Mk. 31 HMG berakhir atau saat Overload penuh, BOOM! Fireworks! otomatis dilancarkan, memberikan Electro DMG. Melancarkan BOOM! Fireworks! mengakhiri Mk. 31 HMG.\n- Tahan Resonance Liberation saat berada dalam mode Mk. 31 HMG untuk segera melancarkan BOOM! Fireworks!.\n- Meninggalkan mode Mk. 31 HMG menghapus semua Overload.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Gloves Are Comin' Off!",
-      "description": "Switch Gears!\nSetelah melancarkan Resonance Skill atau Intro Skill, Rebecca dapat dengan bebas beralih antara mode Huntress dan Guts.\n- Mode Huntress meningkatkan Crit. DMG Rebecca sebesar 30%.\n- Mode Guts memungkinkan Rebecca mengabaikan 15% DEF target.\nSecara default, Rebecca memulai pertempuran dalam mode Huntress.\n\nHack - Shifting\nRebecca memberikan Hack - Shifting setelah menghasilkan damage pada target melalui skill berikut. Skill yang sama dapat memicu efek ini sekali setiap 3 detik:\nIntro Skill - Yo, It's Big Boomin' Time!, Intro Skill - Hey, Leadhead, Come 'n' Get Me!, Heavy Attack - Rat-tat-tat!: Huntress, Heavy Attack - Bang-bang-bang!: Guts, dan Resonance Liberation - BOOM! Fireworks!.\n\nHack Response - Meltdown\nMemberikan Electro DMG kepada semua target yang terkena dampak Hack - Interfered dalam jangkauan, dianggap sebagai Hack DMG.\n\nHeavy Attack - Rat-tat-tat!: Huntress\nPada 120 poin Fervor, Heavy Attack - Huntress digantikan dengan Heavy Attack - Rat-tat-tat!: Huntress. Tahan Normal Attack untuk melancarkan Heavy Attack - Rat-tat-tat!: Huntress, yang mengonsumsi semua Fervor untuk menarik target di sekitar dan memberikan Electro DMG, dianggap sebagai Basic Attack DMG.\nSelama Heavy Attack - Huntress, jika Fervor berada pada 120 poin dan Rebecca tidak sedang melakukan tindakan Tactical Dodge - Huntress, lepaskan Normal Attack untuk melancarkan Heavy Attack - Rat-tat-tat!: Huntress.\n\nHeavy Attack - Bang-bang-bang!: Guts\nPada 120 poin Fervor, Heavy Attack - Guts digantikan dengan Heavy Attack - Bang-bang-bang!: Guts. Tahan Normal Attack untuk melancarkan Heavy Attack - Bang-bang-bang!: Guts, yang mengonsumsi semua Fervor untuk menarik target di sekitar dan memberikan Electro DMG, dianggap sebagai Basic Attack DMG.\n\nFervor\nRebecca dapat menampung hingga 120 poin Fervor.\nNormal Attack memulihkan Fervor setelah menghasilkan damage pada target.\nResonance Skill memulihkan Fervor setelah menghasilkan damage pada target.\nSaat A Girl Gets What She Wants! didapatkan dengan melancarkan Intro Skill - Yo, It's Big Boomin' Time! atau Intro Skill - Hey, Leadhead, Come 'n' Get Me!, Rebecca memulihkan 50 poin Fervor.\n\nHot Hand\nRebecca dapat menampung hingga 120 poin Hot Hand.\nBeregenerasi seiring berjalannya waktu dengan laju 10 poin per detik.\nMelancarkan Heavy Attack - Rat-tat-tat!: Huntress atau Heavy Attack - Bang-bang-bang!: Guts memulihkan 40 poin.\n\nA Girl Gets What She Wants!\nPada 120 poin Hot Hand, melancarkan Intro Skill - Yo, It's Big Boomin' Time!, Intro Skill - Hey, Leadhead, Come 'n' Get Me!, Resonance Skill - It's Big Boomin' Time!, atau Resonance Skill - Come 'n' Get Me! memberikan efek berikut selama 12 detik:\nRebecca secara bersamaan mendapatkan Stat Bonus dari kedua mode Huntress dan Guts, terlepas dari mode apa yang sedang ia gunakan saat ini.\nHot Hand tidak dapat dipulihkan selama periode ini dan berkurang sebesar 10 poin per detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Switch Gears!",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah melancarkan Resonance Skill atau Intro Skill, Rebecca dapat dengan bebas beralih antara mode Huntress dan Guts.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Mode Huntress meningkatkan Crit. DMG Rebecca sebesar 30%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Mode Guts memungkinkan Rebecca mengabaikan 15% DEF target.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Secara default, Rebecca memulai pertempuran dalam mode Huntress.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Hack - Shifting",
+          "description": "Rebecca memberikan Hack - Shifting setelah menghasilkan damage pada target melalui skill berikut. Skill yang sama dapat memicu efek ini sekali setiap 3 detik:\nIntro Skill - Yo, It's Big Boomin' Time!, Intro Skill - Hey, Leadhead, Come 'n' Get Me!, Heavy Attack - Rat-tat-tat!: Huntress, Heavy Attack - Bang-bang-bang!: Guts, dan Resonance Liberation - BOOM! Fireworks!.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Hack Response - Meltdown",
+          "description": "Memberikan Electro DMG kepada semua target yang terkena dampak Hack - Interfered dalam jangkauan, dianggap sebagai Hack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Rat-tat-tat!: Huntress",
+          "description": "Pada 120 poin Fervor, Heavy Attack - Huntress digantikan dengan Heavy Attack - Rat-tat-tat!: Huntress. Tahan Normal Attack untuk melancarkan Heavy Attack - Rat-tat-tat!: Huntress, yang mengonsumsi semua Fervor untuk menarik target di sekitar dan memberikan Electro DMG, dianggap sebagai Basic Attack DMG.\nSelama Heavy Attack - Huntress, jika Fervor berada pada 120 poin dan Rebecca tidak sedang melakukan tindakan Tactical Dodge - Huntress, lepaskan Normal Attack untuk melancarkan Heavy Attack - Rat-tat-tat!: Huntress.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Bang-bang-bang!: Guts",
+          "description": "Pada 120 poin Fervor, Heavy Attack - Guts digantikan dengan Heavy Attack - Bang-bang-bang!: Guts. Tahan Normal Attack untuk melancarkan Heavy Attack - Bang-bang-bang!: Guts, yang mengonsumsi semua Fervor untuk menarik target di sekitar dan memberikan Electro DMG, dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Fervor",
+          "description": "Rebecca dapat menampung hingga 120 poin Fervor.\nNormal Attack memulihkan Fervor setelah menghasilkan damage pada target.\nResonance Skill memulihkan Fervor setelah menghasilkan damage pada target.\nSaat A Girl Gets What She Wants! didapatkan dengan melancarkan Intro Skill - Yo, It's Big Boomin' Time! atau Intro Skill - Hey, Leadhead, Come 'n' Get Me!, Rebecca memulihkan 50 poin Fervor.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Hot Hand",
+          "description": "Rebecca dapat menampung hingga 120 poin Hot Hand.\nBeregenerasi seiring berjalannya waktu dengan laju 10 poin per detik.\nMelancarkan Heavy Attack - Rat-tat-tat!: Huntress atau Heavy Attack - Bang-bang-bang!: Guts memulihkan 40 poin.\nA Girl Gets What She Wants!\nPada 120 poin Hot Hand, melancarkan Intro Skill - Yo, It's Big Boomin' Time!, Intro Skill - Hey, Leadhead, Come 'n' Get Me!, Resonance Skill - It's Big Boomin' Time!, atau Resonance Skill - Come 'n' Get Me! memberikan efek berikut selama 12 detik:\nRebecca secara bersamaan mendapatkan Stat Bonus dari kedua mode Huntress dan Guts, terlepas dari mode apa yang sedang ia gunakan saat ini.\nHot Hand tidak dapat dipulihkan selama periode ini dan berkurang sebesar 10 poin per detik.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Tag, You'Re It!",
-        "description": "ATK meningkat sebesar 10% selama 12 detik saat A Girl Gets What She Wants! dipicu, atau saat Heavy Attack - Rat-tat-tat!: Huntress atau Heavy Attack - Bang-bang-bang!: Guts dilancarkan, dapat ditumpuk hingga 2 kali.\nSaat seorang Resonator dalam tim memberikan Hack - Shifting, Tune Break Boost mereka meningkat sebesar 30 selama 30 detik.\n"
+        "effects": [
+          {
+            "title": "",
+            "description": "ATK meningkat sebesar 10% selama 12 detik saat A Girl Gets What She Wants! dipicu, atau saat Heavy Attack - Rat-tat-tat!: Huntress atau Heavy Attack - Bang-bang-bang!: Guts dilancarkan, dapat ditumpuk hingga 2 kali.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat seorang Resonator dalam tim memberikan Hack - Shifting, Tune Break Boost mereka meningkat sebesar 30 selama 30 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Left An Opening!",
-        "description": "Heavy Attack - Rat-tat-tat!: Huntress dan Heavy Attack - Bang-bang-bang!: Guts mendapatkan peningkatan resistansi terhadap interupsi.\nSaat Rebecca melancarkan Resonance Liberation - Party 'til Dawn!, ATK dari semua Resonator di sekitar dalam tim meningkat sebesar 20% selama 30 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Heavy Attack - Rat-tat-tat!: Huntress dan Heavy Attack - Bang-bang-bang!: Guts mendapatkan peningkatan resistansi terhadap interupsi.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat Rebecca melancarkan Resonance Liberation - Party 'til Dawn!, ATK dari semua Resonator di sekitar dalam tim meningkat sebesar 20% selama 30 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Hack - Meltdown",
-        "description": "Saat Off-Tune Level target penuh, Rebecca dapat melancarkan Tune Break pada target.\n\nRebecca dapat memberikan Hack - Shifting dan merespons Hack - Interfered pada target.\nMerespons Hack - Interfered: Saat salah satu Resonator dalam tim memberikan Tune Break DMG dan memberikan Hack - Interfered, Rebecca memicu Hack - Meltdown pada target. Setiap target dapat menerima damage dari skill ini hingga sekali setiap 8 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Off-Tune Level target penuh, Rebecca dapat melancarkan Tune Break pada target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Rebecca dapat memberikan Hack - Shifting dan merespons Hack - Interfered pada target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Merespons Hack - Interfered: Saat salah satu Resonator dalam tim memberikan Tune Break DMG dan memberikan Hack - Interfered, Rebecca memicu Hack - Meltdown pada target. Setiap target dapat menerima damage dari skill ini hingga sekali setiap 8 detik.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "My Turn!",
-      "description": "Yo, It's Big Boomin' Time!\nSaat berada dalam mode Huntress, setelah melancarkan Intro Skill, Rebecca mendekati musuh dan menyemburkan peluru dengan Huntress, lalu beralih ke mode Guts untuk meledakkan target, memberikan Electro DMG.\n\nHey, Leadhead, Come 'n' Get Me!\nSaat berada dalam mode Guts, setelah melancarkan Intro Skill, Rebecca mendekati musuh menggunakan rekoil Guts dari tembakan ke tanah dan beralih ke mode Huntress untuk menyemburkan peluru ke arah musuh, memberikan Electro DMG.\nTekan atau tahan Normal Attack saat dekat dengan tanah sesaat setelah melancarkan skill ini untuk melanjutkan dengan Comin' in Hot! - Huntress."
+      "effects": [
+        {
+          "title": "",
+          "description": "Yo, It's Big Boomin' Time!",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat berada dalam mode Huntress, setelah melancarkan Intro Skill, Rebecca mendekati musuh dan menyemburkan peluru dengan Huntress, lalu beralih ke mode Guts untuk meledakkan target, memberikan Electro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Hey, Leadhead, Come 'n' Get Me!",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat berada dalam mode Guts, setelah melancarkan Intro Skill, Rebecca mendekati musuh menggunakan rekoil Guts dari tembakan ke tanah dan beralih ke mode Huntress untuk menyemburkan peluru ke arah musuh, memberikan Electro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan atau tahan Normal Attack saat dekat dengan tanah sesaat setelah melancarkan skill ini untuk melanjutkan dengan Comin' in Hot! - Huntress.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Preem Choom",
-      "description": "Memanggil sebuah turret yang terus-menerus menyerang musuh selama 14 detik, memberikan 2.5% Electro DMG pada setiap hit.\nResonator yang masuk mendapatkan Edgerunner Bonds, memberikan 15% All DMG Amplification selama 14 detik. Resonator dengan Edgerunner Bonds mendapatkan 1 tumpukan Overlimit setiap 0.2 detik, yang mana setiap tumpukan memberikan 0.5% Heavy Attack DMG Amplification, hingga 35% (Lucy secara otomatis menerima tumpukan maksimal saat Edgerunner Bonds miliknya aktif). Beralih ke Resonator lain akan mengakhiri Edgerunner Bonds dan Overlimit lebih awal.\nLucy dapat memperkuat turret, meningkatkan DMG Multiplier miliknya sebesar 250%, tetapi durasi di dalam field akan berkurang menjadi 4 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memanggil sebuah turret yang terus-menerus menyerang musuh selama 14 detik, memberikan 2.5% Electro DMG pada setiap hit.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Resonator yang masuk mendapatkan Edgerunner Bonds, memberikan 15% All DMG Amplification selama 14 detik. Resonator dengan Edgerunner Bonds mendapatkan 1 tumpukan Overlimit setiap 0.2 detik, yang mana setiap tumpukan memberikan 0.5% Heavy Attack DMG Amplification, hingga 35% (Lucy secara otomatis menerima tumpukan maksimal saat Edgerunner Bonds miliknya aktif). Beralih ke Resonator lain akan mengakhiri Edgerunner Bonds dan Overlimit lebih awal.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Lucy dapat memperkuat turret, meningkatkan DMG Multiplier miliknya sebesar 250%, tetapi durasi di dalam field akan berkurang menjadi 4 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {

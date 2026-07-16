@@ -18,7 +18,8 @@
     {
       "text": "Minimal update",
       "type": "input",
-      "isNew": false
+      "isNew": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "House Silva",
@@ -182,37 +183,230 @@
   "skills": {
     "basic": {
       "name": "Flaming Star",
-      "description": "Basic Attack\nMelancarkan hingga 4 serangan berturut-turut, memberikan  Fusion DMG.\n- Setelah Basic Attack Stage 3, Tekan Normal Attack pada waktu yang tepat untuk melancarkan Mid-air Attack Stage 1.\n- Setelah Dodge Counter, Basic Attack Starfall, Resonance Skill Shewolf's Hunt, atau Resonance Skill Feral Fang, Tekan Normal Attack tepat waktu untuk melancarkan Basic Attack Stage 2.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target, memberikan  Fusion DMG.\n\nHeavy Attack - Wolf's Gnawing\nSaat Wolflame mencapai 50 poin, Heavy Attack akan digantikan oleh Wolf's Gnawing, yang mengonsumsi STA untuk menyerang target dan memberikan  Fusion DMG.\n- Serangan ini tidak memulihkan Wolflame. Mengonsumsi 50 poin Wolflame untuk melakukan serangan ini akan memberikan 1 poin Wolfaith.\n\nHeavy Attack - Wolf's Claw\nSaat Wolflame mencapai 50 poin dan Wolfaith mencapai 1 poin, Heavy Attack akan digantikan oleh Wolf's Claw, yang mengonsumsi STA untuk menyerang target dan memberikan memberikan  Fusion DMG.\n- Jika Wolflame mencapai 50 poin dan Wolfaith mencapai 1 poin setelah melakukan Mid-air Attack - Firestrike atau Heavy Attack - Wolf's Gnawing, Tekan Normal Attack dengan tepat waktu untuk melakukan Heavy Attack - Wolf's Claw.\n- Serangan ini tidak memulihkan Wolflame. Mengonsumsi 50 poin Wolflame untuk melakukan serangan ini akan memberikan 1 poin Wolfaith.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan hingga 3 serangan di udara, memberikan  Fusion DMG.\nSiklus Mid-air Attack tidak akan di-reset.\n\nMid-air Attack - Firestrike\nSaat Wolflame mencapai 50 poin, Mid-air Attack Stage 3 akan digantikan oleh Mid-air Attack - Firestrike, yang mengonsumsi STA untuk menyerang target dan memberikan  Fusion DMG (dianggap sebagai Heavy Attack DMG).\n- Serangan ini tidak memulihkan Wolflame. Mengonsumsi 50 poin Wolflame untuk melakukan serangan ini akan memberikan 1 poin Wolfaith.\n\nPlunging Attack\nTahan Normal Attack saat berada di udara untuk melakukan Plunging Attack dengan mengonsumsi STA, memberikan  Fusion DMG. Setelah melakukan serangan ini, Tekan Normal Attack dengan tepat waktu untuk melakukan Basic Attack Starfall.\n- Jika melakukan Dodge saat melancarkan Mid-air Attack Stage 3 atau Mid-air Attack - Firestrike, Tekan Normal Attack tepat waktu untuk melakukan Plunging Attack, mengonsumsi STA.\n\nDodge Counter\nTekan Normal Attack setelah berhasil melakukan Dodge untuk menyerang target dan memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melancarkan hingga 4 serangan berturut-turut, memberikan  Fusion DMG.\n- Setelah Basic Attack Stage 3, Tekan Normal Attack pada waktu yang tepat untuk melancarkan Mid-air Attack Stage 1.\n- Setelah Dodge Counter, Basic Attack Starfall, Resonance Skill Shewolf's Hunt, atau Resonance Skill Feral Fang, Tekan Normal Attack tepat waktu untuk melancarkan Basic Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Wolf's Gnawing",
+          "description": "Saat Wolflame mencapai 50 poin, Heavy Attack akan digantikan oleh Wolf's Gnawing, yang mengonsumsi STA untuk menyerang target dan memberikan  Fusion DMG.\n- Serangan ini tidak memulihkan Wolflame. Mengonsumsi 50 poin Wolflame untuk melakukan serangan ini akan memberikan 1 poin Wolfaith.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Wolf's Claw",
+          "description": "Saat Wolflame mencapai 50 poin dan Wolfaith mencapai 1 poin, Heavy Attack akan digantikan oleh Wolf's Claw, yang mengonsumsi STA untuk menyerang target dan memberikan memberikan  Fusion DMG.\n- Jika Wolflame mencapai 50 poin dan Wolfaith mencapai 1 poin setelah melakukan Mid-air Attack - Firestrike atau Heavy Attack - Wolf's Gnawing, Tekan Normal Attack dengan tepat waktu untuk melakukan Heavy Attack - Wolf's Claw.\n- Serangan ini tidak memulihkan Wolflame. Mengonsumsi 50 poin Wolflame untuk melakukan serangan ini akan memberikan 1 poin Wolfaith.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan hingga 3 serangan di udara, memberikan  Fusion DMG.\nSiklus Mid-air Attack tidak akan di-reset.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Firestrike",
+          "description": "Saat Wolflame mencapai 50 poin, Mid-air Attack Stage 3 akan digantikan oleh Mid-air Attack - Firestrike, yang mengonsumsi STA untuk menyerang target dan memberikan  Fusion DMG (dianggap sebagai Heavy Attack DMG).\n- Serangan ini tidak memulihkan Wolflame. Mengonsumsi 50 poin Wolflame untuk melakukan serangan ini akan memberikan 1 poin Wolfaith.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Plunging Attack",
+          "description": "Tahan Normal Attack saat berada di udara untuk melakukan Plunging Attack dengan mengonsumsi STA, memberikan  Fusion DMG. Setelah melakukan serangan ini, Tekan Normal Attack dengan tepat waktu untuk melakukan Basic Attack Starfall.\n- Jika melakukan Dodge saat melancarkan Mid-air Attack Stage 3 atau Mid-air Attack - Firestrike, Tekan Normal Attack tepat waktu untuk melakukan Plunging Attack, mengonsumsi STA.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Normal Attack setelah berhasil melakukan Dodge untuk menyerang target dan memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Shewolf'S Hunt",
-      "description": "Lupa melemparkan Wildfire Banner ke arah target, memberikan  Fusion DMG dan memulihkan 15 poin Wolflame. Menandai target selama 8 detik. Setelah menggunakan Resonance Skill - Shewolf's Hunt, Lupa dapat melancarkan Feral Fang dalam jangka waktu tertentu.\nDapat dilakukan di udara dekat dengan tanah.\n- Tahan Resonance Skill untuk melompat ke udara, lalu Tekan Normal Attack dengan tepat waktu untuk melancarkan Mid-air Attack Stage 1.\n\nResonance Skill - Feral Fang\nLupa mengunci target, memberikan  Fusion DMG dan memulihkan 15 poin Wolflame. DMG Multiplier terhadap target yang ditandai meningkat sebesar 50%. Resonance Skill - Feral Fang akan masuk cooldown jika tidak digunakan tepat waktu atau saat Lupa diganti.\nDapat dilakukan di udara dekat dengan tanah."
+      "effects": [
+        {
+          "title": "",
+          "description": "Lupa melemparkan Wildfire Banner ke arah target, memberikan  Fusion DMG dan memulihkan 15 poin Wolflame. Menandai target selama 8 detik. Setelah menggunakan Resonance Skill - Shewolf's Hunt, Lupa dapat melancarkan Feral Fang dalam jangka waktu tertentu.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat dilakukan di udara dekat dengan tanah.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Tahan Resonance Skill untuk melompat ke udara, lalu Tekan Normal Attack dengan tepat waktu untuk melancarkan Mid-air Attack Stage 1.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Resonance Skill - Feral Fang",
+          "description": "Lupa mengunci target, memberikan  Fusion DMG dan memulihkan 15 poin Wolflame. DMG Multiplier terhadap target yang ditandai meningkat sebesar 50%. Resonance Skill - Feral Fang akan masuk cooldown jika tidak digunakan tepat waktu atau saat Lupa diganti.\nDapat dilakukan di udara dekat dengan tanah.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Fire-Kissed Glory",
-      "description": "Menyerang target dan memberikan  Fusion DMG. Menggunakan serangan ini akan mengonsumsi semua Wolfaith dan memulihkan 100 poin Wolflame. Gunakan Basic Attack atau Resonance Skill tepat waktu untuk melancarkan Resonance Skill - Foebreaker.\nDapat dilakukan di udara dekat dengan tanah.\nMenggunakan skill ini akan memperkuat semua Resonator dalam tim. Selama 35 detik:\n- Semua Resonator dalam tim mendapatkan efek Pack Hunt.\n- Jika Resonator aktif terkena serangan atau terlempar ke udara, mereka akan langsung pulih dan dianggap telah berhasil menghindar saat berada di tanah. Efek ini dapat dipicu hingga 3 kali.\n\nPack Hunt\nResonator yang memiliki efek Pack Hunt mendapatkan peningkatan ATK sebesar 6% dan memberikan  Fusion DMG Bonus sebesar 10% saat menyerang target Overlord Class atau Calamity Class (keduanya tidak dapat ditumpuk). Jika terdapat 3 Resonator bertipe Fusion dalam tim, Fusion DMG Bonus terhadap target Overlord Class atau Calamity Class akan bertambah lagi sebesar 10%.\nSaat Resonator aktif melancarkan Intro Skill, Pack Hunt akan ditingkatkan, memberikan tambahan 6% ATK ke semua Resonator dalam tim, hingga maksimum 18%.\nJika Pack Hunt milik Lupa mencapai batas maksimum selama durasinya, dia akan memasuki status Wild Hunt, dan Intro Skill - Nowhere to Run! akan tersedia.\nWild Hunt hanya dapat dipicu satu kali untuk setiap Pack Hunt.\n\nResonance Skill - Foebreaker\nMengonsumsi semua Wolflame untuk melancarkan Foebreaker, memberikan  Fusion DMG dan memasuki status Burning Matchpoint.\n\nBurning Matchpoint\nNormal Attack memulihkan Wolflame sebanyak 500% lebih banyak saat mengenai target.\nTidak dapat menggunakan Resonance Skill - Shewolf's Hunt dan Resonance Skill - Feral Fang saat berada dalam status ini."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target dan memberikan  Fusion DMG. Menggunakan serangan ini akan mengonsumsi semua Wolfaith dan memulihkan 100 poin Wolflame. Gunakan Basic Attack atau Resonance Skill tepat waktu untuk melancarkan Resonance Skill - Foebreaker.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat dilakukan di udara dekat dengan tanah.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Menggunakan skill ini akan memperkuat semua Resonator dalam tim. Selama 35 detik:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Semua Resonator dalam tim mendapatkan efek Pack Hunt.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Jika Resonator aktif terkena serangan atau terlempar ke udara, mereka akan langsung pulih dan dianggap telah berhasil menghindar saat berada di tanah. Efek ini dapat dipicu hingga 3 kali.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Pack Hunt",
+          "description": "Resonator yang memiliki efek Pack Hunt mendapatkan peningkatan ATK sebesar 6% dan memberikan  Fusion DMG Bonus sebesar 10% saat menyerang target Overlord Class atau Calamity Class (keduanya tidak dapat ditumpuk). Jika terdapat 3 Resonator bertipe Fusion dalam tim, Fusion DMG Bonus terhadap target Overlord Class atau Calamity Class akan bertambah lagi sebesar 10%.\nSaat Resonator aktif melancarkan Intro Skill, Pack Hunt akan ditingkatkan, memberikan tambahan 6% ATK ke semua Resonator dalam tim, hingga maksimum 18%.\nJika Pack Hunt milik Lupa mencapai batas maksimum selama durasinya, dia akan memasuki status Wild Hunt, dan Intro Skill - Nowhere to Run! akan tersedia.\nWild Hunt hanya dapat dipicu satu kali untuk setiap Pack Hunt.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Foebreaker",
+          "description": "Mengonsumsi semua Wolflame untuk melancarkan Foebreaker, memberikan  Fusion DMG dan memasuki status Burning Matchpoint.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Burning Matchpoint",
+          "description": "Normal Attack memulihkan Wolflame sebanyak 500% lebih banyak saat mengenai target.\nTidak dapat menggunakan Resonance Skill - Shewolf's Hunt dan Resonance Skill - Feral Fang saat berada dalam status ini.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Ignis Lupa",
-      "description": "ATK Lupa meningkat sebesar 12% selama 8 detik saat melakukan salah satu dari aksi berikut:\n- Melancarkan Resonance Skill - Feral Fang\n- Melancarkan Heavy Attack - Wolf's Gnawing, Wolf's Claw, atau Mid-air Attack - Firestrike\n- Melancarkan Resonance Liberation - Fire-Kissed Glory\n- Melancarkan Dance With the Wolf dan Dance With the Wolf: Climax\n\nResonance Skill - Dance With the Wolf\nSaat Wolfaith mencapai 2 poin, Resonance Skill akan digantikan oleh Dance With the Wolf. Menggunakan Dance With the Wolf akan mengonsumsi semua Wolfaith, memberikan  Fusion DMG  (dianggap sebagai Resonance Liberation DMG).\nDapat dilakukan di udara dekat dengan tanah.\n\nResonance Skill - Dance With the Wolf: Climax\nSaat Wolfaith mencapai 2 poin dalam status Burning Matchpoint, Resonance Skill akan digantikan oleh Dance With the Wolf: Climax. Menggunakan Dance With the Wolf: Climax akan mengonsumsi semua Wolfaith, memberikan  Fusion DMG (dianggap sebagai Resonance Liberation DMG).\nStatus Burning Matchpoint akan hilang setelah skill ini berakhir.\nDapat dilakukan di udara dekat dengan tanah.\n\nResonance Skill - Set the Arena Ablaze\nDalam 8 detik setelah melancarkan Dance With the Wolf atau Dance With the Wolf: Climax, Lupa akan tetap berada di medan pertempuran setelah diganti, dan akan membantu Resonator aktif saat mereka menggunakan Resonance Liberation, dengan memberikan  Fusion DMG (dianggap sebagai Resonance Skill DMG).\nEfek ini hanya dapat dipicu satu kali selama durasinya.\n\nWolflame\nLupa dapat menyimpan hingga 100 poin Wolflame.\n- Wolflame dipulihkan saat Normal Attack mengenai target.\n- Wolflame dipulihkan saat melancarkan Resonance Skill.\n- Wolflame dipulihkan saat melancarkan Resonance Liberation.\n\nWolfaith\nLupa dapat menyimpan hingga 2 poin Wolfaith.\nWolfaith bertahan selama 10 detik, dan durasinya akan di-reset saat Wolfaith dipulihkan.\nSaat durasinya berakhir, setiap 1 poin Wolfaith yang tersisa akan dikonversi menjadi 50 poin Wolflame.\n- 1 poin Wolfaith dipulihkan saat melancarkan Heavy Attack - Wolf's Gnawing, Wolf's Claw, atau Mid-air Attack - Firestrike.\n\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "ATK Lupa meningkat sebesar 12% selama 8 detik saat melakukan salah satu dari aksi berikut:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "- Melancarkan Resonance Skill - Feral Fang",
+          "description": "- Melancarkan Heavy Attack - Wolf's Gnawing, Wolf's Claw, atau Mid-air Attack - Firestrike\n- Melancarkan Resonance Liberation - Fire-Kissed Glory\n- Melancarkan Dance With the Wolf dan Dance With the Wolf: Climax",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Dance With the Wolf",
+          "description": "Saat Wolfaith mencapai 2 poin, Resonance Skill akan digantikan oleh Dance With the Wolf. Menggunakan Dance With the Wolf akan mengonsumsi semua Wolfaith, memberikan  Fusion DMG  (dianggap sebagai Resonance Liberation DMG).\nDapat dilakukan di udara dekat dengan tanah.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Dance With the Wolf: Climax",
+          "description": "Saat Wolfaith mencapai 2 poin dalam status Burning Matchpoint, Resonance Skill akan digantikan oleh Dance With the Wolf: Climax. Menggunakan Dance With the Wolf: Climax akan mengonsumsi semua Wolfaith, memberikan  Fusion DMG (dianggap sebagai Resonance Liberation DMG).\nStatus Burning Matchpoint akan hilang setelah skill ini berakhir.\nDapat dilakukan di udara dekat dengan tanah.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Set the Arena Ablaze",
+          "description": "Dalam 8 detik setelah melancarkan Dance With the Wolf atau Dance With the Wolf: Climax, Lupa akan tetap berada di medan pertempuran setelah diganti, dan akan membantu Resonator aktif saat mereka menggunakan Resonance Liberation, dengan memberikan  Fusion DMG (dianggap sebagai Resonance Skill DMG).\nEfek ini hanya dapat dipicu satu kali selama durasinya.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Wolflame",
+          "description": "Lupa dapat menyimpan hingga 100 poin Wolflame.\n- Wolflame dipulihkan saat Normal Attack mengenai target.\n- Wolflame dipulihkan saat melancarkan Resonance Skill.\n- Wolflame dipulihkan saat melancarkan Resonance Liberation.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Wolfaith",
+          "description": "Lupa dapat menyimpan hingga 2 poin Wolfaith.\nWolfaith bertahan selama 10 detik, dan durasinya akan di-reset saat Wolfaith dipulihkan.\nSaat durasinya berakhir, setiap 1 poin Wolfaith yang tersisa akan dikonversi menjadi 50 poin Wolflame.\n- 1 poin Wolfaith dipulihkan saat melancarkan Heavy Attack - Wolf's Gnawing, Wolf's Claw, atau Mid-air Attack - Firestrike.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Remember My Name",
-        "description": "Setelah berlari selama 2,5 detik, Lupa memasuki status Sprint. Basic Attack berikutnya akan digantikan oleh Basic Attack - Starfall.\nMendapatkan peningkatan ketahanan terhadap gangguan saat melancarkan Heavy Attack - Wolf's Gnawing, Wolf's Claw, dan Mid-air Attack - Firestrike."
+        "effects": [
+          {
+            "title": "",
+            "description": "Setelah berlari selama 2,5 detik, Lupa memasuki status Sprint. Basic Attack berikutnya akan digantikan oleh Basic Attack - Starfall.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Mendapatkan peningkatan ketahanan terhadap gangguan saat melancarkan Heavy Attack - Wolf's Gnawing, Wolf's Claw, dan Mid-air Attack - Firestrike.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Applause Of Victory",
-        "description": "Mengalahkan target yang ditandai akan me-reset cooldown dari Resonance Skill - Shewolf's Hunt.\n\nResonance Liberation - Glory\nMelancarkan Resonance Liberation - Fire-Kissed Glory akan memberikan efek Glory. Selama 35 detik:\nSerangan semua Resonator dalam tim akan mengabaikan 3% Fusion RES dari target. Untuk setiap Fusion Resonator dalam tim selain Lupa, efek ini meningkat sebesar 3%, hingga maksimum 9%.\nJika terdapat 3 Fusion Resonator dalam tim, serangan Resonator juga akan mengabaikan tambahan 6% Fusion RES."
+        "effects": [
+          {
+            "title": "",
+            "description": "Mengalahkan target yang ditandai akan me-reset cooldown dari Resonance Skill - Shewolf's Hunt.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "Resonance Liberation - Glory",
+            "description": "Melancarkan Resonance Liberation - Fire-Kissed Glory akan memberikan efek Glory. Selama 35 detik:\nSerangan semua Resonator dalam tim akan mengabaikan 3% Fusion RES dari target. Untuk setiap Fusion Resonator dalam tim selain Lupa, efek ini meningkat sebesar 3%, hingga maksimum 9%.\nJika terdapat 3 Fusion Resonator dalam tim, serangan Resonator juga akan mengabaikan tambahan 6% Fusion RES.",
+            "isTitleVisible": true
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Try Focusing, Eh?",
-      "description": "Menyerang target dan memberikan  Fusion DMG.\nTekan Normal Attack setelah melancarkan Intro Skill - Try Focusing, Eh? untuk melancarkan Mid-air Attack Stage 3.\n\nNowhere to Run!\nSaat Lupa memasuki status Wild Hunt, Intro Skill berikutnya akan digantikan oleh Nowhere to Run!.\nMelancarkan Nowhere to Run! akan menghapus efek Pack Hunt dan Glory dari semua Resonator dalam tim, serta memberikan  Fusion DMG (dianggap sebagai Resonance Liberation DMG)."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target dan memberikan  Fusion DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Tekan Normal Attack setelah melancarkan Intro Skill - Try Focusing, Eh? untuk melancarkan Mid-air Attack Stage 3.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Nowhere to Run!",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Lupa memasuki status Wild Hunt, Intro Skill berikutnya akan digantikan oleh Nowhere to Run!.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan Nowhere to Run! akan menghapus efek Pack Hunt dan Glory dari semua Resonator dalam tim, serta memberikan  Fusion DMG (dianggap sebagai Resonance Liberation DMG).",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Stand By Me, Warrior",
-      "description": "Resonator yang masuk akan mendapatkan peningkatan memberikan  Fusion DMG sebesar 20% dan peningkatan Basic Attack DMG sebesar 25% selama 14 detik atau hingga Resonator tersebut diganti."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk akan mendapatkan peningkatan memberikan  Fusion DMG sebesar 20% dan peningkatan Basic Attack DMG sebesar 25% selama 14 detik atau hingga Resonator tersebut diganti.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -410,32 +604,103 @@
     {
       "stage": "S1",
       "name": "Behold The Nameless One",
-      "description": "Melancarkan Resonance Skill - Fire-Kissed Glory akan memulihkan 10 poin Concerto Energy untuk Lupa dan meningkatkan Crit Rate milik Lupa sebesar 20% selama 10 detik.\nMendapatkan kekebalan terhadap gangguan saat melancarkan Dance With the Wolf: Climax."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Skill - Fire-Kissed Glory akan memulihkan 10 poin Concerto Energy untuk Lupa dan meningkatkan Crit Rate milik Lupa sebesar 20% selama 10 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Mendapatkan kekebalan terhadap gangguan saat melancarkan Dance With the Wolf: Climax.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Every Ground, Her Hunting Field",
-      "description": "Melancarkan Fire-Kissed Glory, Heavy Attack - Wolf's Gnawing, Wolf's Claw, atau Mid-air Attack - Firestrike akan memberikan 20% Fusion DMG Bonus kepada semua Resonator dalam tim selama 30 detik, dan dapat ditumpuk hingga 2 kali."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Fire-Kissed Glory, Heavy Attack - Wolf's Gnawing, Wolf's Claw, atau Mid-air Attack - Firestrike akan memberikan 20% Fusion DMG Bonus kepada semua Resonator dalam tim selama 30 detik, dan dapat ditumpuk hingga 2 kali.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Wolflame Howls In Her Wake",
-      "description": "DMG Multiplier dari Intro Skill - Nowhere to Run! meningkat sebesar 100%.\n- Efek Pack Hunt dari Resonance Liberation sekarang tidak lagi memerlukan 3 Fusion Resonator.\n- Efek Glory dari Resonance Liberation diubah menjadi:\nMelancarkan Resonance Liberation - Fire-Kissed Glory kini juga memberikan Glory: Resonator dalam tim akan mengabaikan 15% Fusion RES dari target selama 35 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Intro Skill - Nowhere to Run! meningkat sebesar 100%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Efek Pack Hunt dari Resonance Liberation sekarang tidak lagi memerlukan 3 Fusion Resonator.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Efek Glory dari Resonance Liberation diubah menjadi:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Liberation - Fire-Kissed Glory kini juga memberikan Glory: Resonator dalam tim akan mengabaikan 15% Fusion RES dari target selama 35 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "High And Aflame Is Her Banner",
-      "description": "DMG Multiplier dari Dance With the Wolf: Climax meningkat sebesar 125%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Dance With the Wolf: Climax meningkat sebesar 125%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Embrace The Thunderous Triumph",
-      "description": "Melancarkan Intro Skill - Try Focusing, Eh? atau Nowhere to Run! akan memberikan 15% Resonance Liberation DMG Bonus selama 10 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Intro Skill - Try Focusing, Eh? atau Nowhere to Run! akan memberikan 15% Resonance Liberation DMG Bonus selama 10 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "To The Brightest Flaming Star",
-      "description": "- Damage dari Forte Circuit - Dance With the Wolf: Climax, Resonance Liberation - Fire-Kissed Glory, dan Intro Skill - Nowhere to Run! akan mengabaikan 30% DEF dari target.\n- Resonance Skill - Feral Fang akan memulihkan 100 poin Wolflame saat mengenai target, dapat dipicu setiap 20 detik.\n- Forte Circuit - Dance With the Wolf digantikan oleh Dance With the Wolf: Climax. Dance With the Wolf: Climax kini dapat dilakukan meskipun Lupa tidak berada dalam status Burning Matchpoint.\n- Melancarkan Intro Skill - Nowhere to Run! tidak lagi mengakhiri efek Pack Hunt dan Glory."
+      "effects": [
+        {
+          "title": "",
+          "description": "- Damage dari Forte Circuit - Dance With the Wolf: Climax, Resonance Liberation - Fire-Kissed Glory, dan Intro Skill - Nowhere to Run! akan mengabaikan 30% DEF dari target.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Resonance Skill - Feral Fang akan memulihkan 100 poin Wolflame saat mengenai target, dapat dipicu setiap 20 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Forte Circuit - Dance With the Wolf digantikan oleh Dance With the Wolf: Climax. Dance With the Wolf: Climax kini dapat dilakukan meskipun Lupa tidak berada dalam status Burning Matchpoint.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Melancarkan Intro Skill - Nowhere to Run! tidak lagi mengakhiri efek Pack Hunt dan Glory.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

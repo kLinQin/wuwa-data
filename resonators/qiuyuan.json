@@ -19,7 +19,8 @@
       "text": "minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Chongzhou",
@@ -194,37 +195,155 @@
   "skills": {
     "basic": {
       "name": "Inkwash",
-      "description": "Basic Attack\nMelakukan hingga 3 serangan berturut-turut, memberikan Aero DMG.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target, memberikan Aero DMG. Tekan Normal Attack dalam periode waktu tertentu setelah melancarkan skill ini untuk melakukan Basic Attack Thus Spoke the Blade: Inkwash Stage 4.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan Aero DMG.\n\nDodge Counter\nTekan Normal Attack tepat setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG, yang dianggap sebagai Heavy Attack.\nBeberapa saat setelah Basic Attack atau Heavy Attack, Qiuyuan menjadi kebal terhadap instansi DMG berikutnya yang ia terima dan melancarkan Dodge Counter saat diserang, memberikan Aero DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 3 serangan berturut-turut, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan Aero DMG. Tekan Normal Attack dalam periode waktu tertentu setelah melancarkan skill ini untuk melakukan Basic Attack Thus Spoke the Blade: Inkwash Stage 4.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Normal Attack tepat setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG, yang dianggap sebagai Heavy Attack.\nBeberapa saat setelah Basic Attack atau Heavy Attack, Qiuyuan menjadi kebal terhadap instansi DMG berikutnya yang ia terima dan melancarkan Dodge Counter saat diserang, memberikan Aero DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Through The Groves",
-      "description": "Tekan Resonance Skill untuk melesat ke depan dalam jarak tertentu, memberikan Aero DMG, yang dianggap sebagai Echo Skill DMG. Jika Resonance Skill dilancarkan saat diserang oleh target musuh, Qiuyuan menjadi kebal terhadap instansi DMG ini dan memberikan efek stagnate pada musuh di sekitar, serta mendapatkan kekebalan terhadap gangguan (interruption) selama Resonance Skill ini berlangsung.\nBeralih ke Resonator lain akan menghapus efek Stagnation dari musuh.\n\nUndaunted Wayfarer\nTahan Resonance Skill untuk melesat ke depan dalam jarak tertentu dengan mengonsumsi STA, memberikan Aero DMG kepada target, yang dianggap sebagai Echo Skill DMG.\nJika tidak ada target di sekitar, Qiuyuan akan melompat dan melesat di udara dengan terus-menerus mengonsumsi STA hingga habis. Lepaskan Resonance Skill untuk segera mengakhiri lesatan dan mendarat. Jika terdapat target di sekitar saat Qiuyuan mendarat, berikan Aero DMG kepada target di sekitar, yang dianggap sebagai Echo Skill DMG. Skill ini dapat dilancarkan di udara."
+      "effects": [
+        {
+          "title": "",
+          "description": "Tekan Resonance Skill untuk melesat ke depan dalam jarak tertentu, memberikan Aero DMG, yang dianggap sebagai Echo Skill DMG. Jika Resonance Skill dilancarkan saat diserang oleh target musuh, Qiuyuan menjadi kebal terhadap instansi DMG ini dan memberikan efek stagnate pada musuh di sekitar, serta mendapatkan kekebalan terhadap gangguan (interruption) selama Resonance Skill ini berlangsung.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Beralih ke Resonator lain akan menghapus efek Stagnation dari musuh.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Undaunted Wayfarer",
+          "description": "Tahan Resonance Skill untuk melesat ke depan dalam jarak tertentu dengan mengonsumsi STA, memberikan Aero DMG kepada target, yang dianggap sebagai Echo Skill DMG.\nJika tidak ada target di sekitar, Qiuyuan akan melompat dan melesat di udara dengan terus-menerus mengonsumsi STA hingga habis. Lepaskan Resonance Skill untuk segera mengakhiri lesatan dan mendarat. Jika terdapat target di sekitar saat Qiuyuan mendarat, berikan Aero DMG kepada target di sekitar, yang dianggap sebagai Echo Skill DMG. Skill ini dapat dilancarkan di udara.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Sundering Strike",
-      "description": "Memberikan Aero DMG kepada target dalam jangkauan, yang dianggap sebagai Echo Skill DMG.\nUntuk setiap 1% Crit. Rate Qiuyuan di atas 50%, skill ini meningkatkan Crit. DMG dari semua Resonator aktif di sekitar dalam tim sebesar 2% selama 30 detik, hingga maksimal 30%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan Aero DMG kepada target dalam jangkauan, yang dianggap sebagai Echo Skill DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Untuk setiap 1% Crit. Rate Qiuyuan di atas 50%, skill ini meningkatkan Crit. DMG dari semua Resonator aktif di sekitar dalam tim sebesar 2% selama 30 detik, hingga maksimal 30%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Verdant Edge",
-      "description": "Basic Attack - Thus Spoke the Blade: Inkwash\nSaat Qiuyuan mencapai 200 poin Swordster's Soliloquy, Basic Attack miliknya digantikan dengan Basic Attack Thus Spoke the Blade: Inkwash, yang merangkai hingga 4 serangan berturut-turut, memberikan Aero DMG, yang dianggap sebagai Heavy Attack DMG.\n\nBamboo's Shade\nSaat Qiuyuan mencapai 400 poin Swordster's Soliloquy, ia mendapatkan efek Bamboo's Shade, memberikan semua Resonator aktif di dalam tim peningkatan 30% Echo Skill DMG Bonus selama 30 detik.\n\nInksplash of Mind\nSaat Swordster's Soliloquy penuh, Qiuyuan memasuki status Inksplash of Mind selama 8 detik, di mana Heavy Attack digantikan dengan Heavy Attack Thus Spoke the Blade: To Save.\nDalam status ini, tahan Normal Attack untuk mengonsumsi Swordster's Soliloquy guna melancarkan Heavy Attack Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, dan Thus Spoke the Blade: To Sacrifice secara berurutan, memberikan Aero DMG, yang dianggap sebagai Heavy Attack DMG.\n- Melancarkan Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, atau Thus Spoke the Blade: To Sacrifice dianggap sebagai melancarkan Echo Skill.\n- Inksplash of Mind berakhir ketika Swordster's Soliloquy telah habis digunakan.\n\nSwordster's Soliloquy\nQiuyuan dapat menampung hingga 600 poin Swordster's Soliloquy.\n- 100 poin Swordster's Soliloquy didapatkan saat melakukan Basic Attack Tahap 3.\n- 100 poin Swordster's Soliloquy didapatkan saat melakukan setiap tahap dari Basic Attack Thus Spoke the Blade: Inkwash.\n- 100 poin Swordster's Soliloquy didapatkan saat melakukan Dodge Counter.\n- 400 poin Swordster's Soliloquy didapatkan saat melakukan Intro Skill.\n- Swordster's Soliloquy tidak dapat diperoleh selama dalam status Inksplash of Mind.\n- Swordster's Soliloquy akan dihapus saat status Inksplash of Mind berakhir."
+      "effects": [
+        {
+          "title": "Basic Attack - Thus Spoke the Blade: Inkwash",
+          "description": "Saat Qiuyuan mencapai 200 poin Swordster's Soliloquy, Basic Attack miliknya digantikan dengan Basic Attack Thus Spoke the Blade: Inkwash, yang merangkai hingga 4 serangan berturut-turut, memberikan Aero DMG, yang dianggap sebagai Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Bamboo's Shade",
+          "description": "Saat Qiuyuan mencapai 400 poin Swordster's Soliloquy, ia mendapatkan efek Bamboo's Shade, memberikan semua Resonator aktif di dalam tim peningkatan 30% Echo Skill DMG Bonus selama 30 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Inksplash of Mind",
+          "description": "Saat Swordster's Soliloquy penuh, Qiuyuan memasuki status Inksplash of Mind selama 8 detik, di mana Heavy Attack digantikan dengan Heavy Attack Thus Spoke the Blade: To Save.\nDalam status ini, tahan Normal Attack untuk mengonsumsi Swordster's Soliloquy guna melancarkan Heavy Attack Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, dan Thus Spoke the Blade: To Sacrifice secara berurutan, memberikan Aero DMG, yang dianggap sebagai Heavy Attack DMG.\n- Melancarkan Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, atau Thus Spoke the Blade: To Sacrifice dianggap sebagai melancarkan Echo Skill.\n- Inksplash of Mind berakhir ketika Swordster's Soliloquy telah habis digunakan.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Swordster's Soliloquy",
+          "description": "Qiuyuan dapat menampung hingga 600 poin Swordster's Soliloquy.\n- 100 poin Swordster's Soliloquy didapatkan saat melakukan Basic Attack Tahap 3.\n- 100 poin Swordster's Soliloquy didapatkan saat melakukan setiap tahap dari Basic Attack Thus Spoke the Blade: Inkwash.\n- 100 poin Swordster's Soliloquy didapatkan saat melakukan Dodge Counter.\n- 400 poin Swordster's Soliloquy didapatkan saat melakukan Intro Skill.\n- Swordster's Soliloquy tidak dapat diperoleh selama dalam status Inksplash of Mind.\n- Swordster's Soliloquy akan dihapus saat status Inksplash of Mind berakhir.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Quietude Within",
-        "description": "Qiuyuan mendapatkan Quietude Within selama 10 detik setelah memasuki status Inksplash of Mind. Efek ini dapat dipicu sekali setiap 22 detik.\nHeavy Attack Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, dan Thus Spoke the Blade: To Sacrifice memberikan 50% DMG lebih besar. Thus Spoke the Blade: To Sacrifice juga memulihkan 30 poin Concerto Energy saat mengenai target.\n- Efek ini berakhir lebih awal jika Qiuyuan ditarik keluar dari medan tempur."
+        "effects": [
+          {
+            "title": "",
+            "description": "Qiuyuan mendapatkan Quietude Within selama 10 detik setelah memasuki status Inksplash of Mind. Efek ini dapat dipicu sekali setiap 22 detik.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Heavy Attack Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, dan Thus Spoke the Blade: To Sacrifice memberikan 50% DMG lebih besar. Thus Spoke the Blade: To Sacrifice juga memulihkan 30 poin Concerto Energy saat mengenai target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Efek ini berakhir lebih awal jika Qiuyuan ditarik keluar dari medan tempur.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Drink Away Woes Age-Old",
-        "description": "Saat melancarkan Echo Skill, tabung bambu Qiuyuan menyerap energi yang meluap dan menyeduhnya menjadi Flowing Panacea.\nSaat Swordster's Soliloquy didapatkan berikutnya, Flowing Panacea akan dikonsumsi untuk mendapatkan peningkatan 10% ATK selama 20 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat melancarkan Echo Skill, tabung bambu Qiuyuan menyerap energi yang meluap dan menyeduhnya menjadi Flowing Panacea.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat Swordster's Soliloquy didapatkan berikutnya, Flowing Panacea akan dikonsumsi untuk mendapatkan peningkatan 10% ATK selama 20 detik.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Attack The Must-Defend",
-      "description": "Menyerang target, memberikan Aero DMG, yang dianggap sebagai Heavy Attack DMG.\nDalam periode waktu tertentu setelah melancarkan skill ini, tekan Normal Attack untuk melakukan Basic Attack Thus Spoke the Blade: Inkwash Tahap 3."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan Aero DMG, yang dianggap sebagai Heavy Attack DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dalam periode waktu tertentu setelah melancarkan skill ini, tekan Normal Attack untuk melakukan Basic Attack Thus Spoke the Blade: Inkwash Tahap 3.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Strike Before Ready",
-      "description": "Menyerang target, memberikan Aero DMG sebesar 100% dari ATK Qiuyuan, dianggap sebagai Echo Skill DMG.\nMemberikan 50% Echo Skill DMG Amplification kepada Resonator berikutnya, berlangsung selama 14 detik atau sampai Resonator tersebut diganti keluar."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan Aero DMG sebesar 100% dari ATK Qiuyuan, dianggap sebagai Echo Skill DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Memberikan 50% Echo Skill DMG Amplification kepada Resonator berikutnya, berlangsung selama 14 detik atau sampai Resonator tersebut diganti keluar.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -392,32 +511,103 @@
     {
       "stage": "S1",
       "name": "Sword Sheathed, Mind Unclouded",
-      "description": "Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, dan Thus Spoke the Blade: To Sacrifice tidak lagi dapat diinterupsi.\nQiuyuan mendapatkan peningkatan 20% Crit. Rate."
+      "effects": [
+        {
+          "title": "",
+          "description": "Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, dan Thus Spoke the Blade: To Sacrifice tidak lagi dapat diinterupsi.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Qiuyuan mendapatkan peningkatan 20% Crit. Rate.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "O Blade, I, Who Teach No More",
-      "description": "Bamboo's Shade sekarang memberikan tambahan 30% Echo Skill DMG Amplification kepada semua Resonator di sekitar dalam tim."
+      "effects": [
+        {
+          "title": "",
+          "description": "Bamboo's Shade sekarang memberikan tambahan 30% Echo Skill DMG Amplification kepada semua Resonator di sekitar dalam tim.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "O Blade, I, Who Save No More",
-      "description": "DMG Multiplier dari Resonance Liberation Sundering Strike meningkat sebesar 500%.\nJika Concerto Energy penuh saat tidak dalam status Inksplash of Mind, Resonance Skill Qiuyuan digantikan dengan Resonance Skill Straw Cape in Drizzly Rain, tersedia sekali setiap 20 detik.\nSetelah melancarkan Straw Cape in Drizzly Rain, efek Quietude Within segera berakhir dan 60 Concerto Energy dikonsumsi untuk memberikan Aero DMG setara dengan 500% dari ATK Qiuyuan, yang dianggap sebagai Echo Skill DMG, serta memulihkan 400 poin Swordster's Soliloquy. Basic Attack berikutnya digantikan dengan Thus Spoke the Blade: Inkwash Tahap 3.\nSetelah melancarkan Straw Cape in Drizzly Rain, Qiuyuan tidak dapat memperoleh efek Quietude Within saat berikutnya ia memasuki Inksplash of Mind. Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, dan Thus Spoke the Blade: To Sacrifice mendapatkan peningkatan 600% DMG Multiplier dan tambahan pemulihan 30 poin Concerto Energy saat mengenai target.\nSaat tidak dalam Co-op mode, setelah melancarkan Straw Cape in Drizzly Rain, Outro Skill berikutnya digantikan dengan Outro Skill Sheath Fallen, New Shoots Revealed, yang memberikan Aero DMG setara dengan 500% dari ATK Qiuyuan, yang dianggap sebagai Echo Skill DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation Sundering Strike meningkat sebesar 500%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Concerto Energy penuh saat tidak dalam status Inksplash of Mind, Resonance Skill Qiuyuan digantikan dengan Resonance Skill Straw Cape in Drizzly Rain, tersedia sekali setiap 20 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah melancarkan Straw Cape in Drizzly Rain, efek Quietude Within segera berakhir dan 60 Concerto Energy dikonsumsi untuk memberikan Aero DMG setara dengan 500% dari ATK Qiuyuan, yang dianggap sebagai Echo Skill DMG, serta memulihkan 400 poin Swordster's Soliloquy. Basic Attack berikutnya digantikan dengan Thus Spoke the Blade: Inkwash Tahap 3.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah melancarkan Straw Cape in Drizzly Rain, Qiuyuan tidak dapat memperoleh efek Quietude Within saat berikutnya ia memasuki Inksplash of Mind. Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, dan Thus Spoke the Blade: To Sacrifice mendapatkan peningkatan 600% DMG Multiplier dan tambahan pemulihan 30 poin Concerto Energy saat mengenai target.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat tidak dalam Co-op mode, setelah melancarkan Straw Cape in Drizzly Rain, Outro Skill berikutnya digantikan dengan Outro Skill Sheath Fallen, New Shoots Revealed, yang memberikan Aero DMG setara dengan 500% dari ATK Qiuyuan, yang dianggap sebagai Echo Skill DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "O Blade, I, Who Sacrifice No More",
-      "description": "ATK meningkat sebesar 20%.\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "ATK meningkat sebesar 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "O Blade, I, Who Await To Be Wielded",
-      "description": "Qiuyuan sekarang mengabaikan 15% DEF target saat memberikan damage."
+      "effects": [
+        {
+          "title": "",
+          "description": "Qiuyuan sekarang mengabaikan 15% DEF target saat memberikan damage.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Thus I Heard, Thus I Saw, Thus I Spoke",
-      "description": "Melancarkan Heavy Attack Thus Spoke the Blade: To Sacrifice memberikan efek stagnate pada target di sekitar selama 5 detik atau sampai target menerima damage atau sampai Qiuyuan ditarik keluar dari medan tempur. Efek ini tidak tersedia dalam Co-op Mode.\nSaat Qiuyuan menjadi Resonator aktif di dalam tim, setelah keluar dari status Inksplash of Mind, ia memberikan Aero DMG setara dengan 600% dari ATK miliknya kepada semua target dalam jangkauan, yang dianggap sebagai Echo Skill DMG.\nMelancarkan Resonance Skill Straw Cape in Drizzly Rain meningkatkan Crit. DMG Qiuyuan sebesar 100% selama 6 detik. Beralih ke Resonator lain akan mengakhiri efek ini lebih awal."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Heavy Attack Thus Spoke the Blade: To Sacrifice memberikan efek stagnate pada target di sekitar selama 5 detik atau sampai target menerima damage atau sampai Qiuyuan ditarik keluar dari medan tempur. Efek ini tidak tersedia dalam Co-op Mode.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Qiuyuan menjadi Resonator aktif di dalam tim, setelah keluar dari status Inksplash of Mind, ia memberikan Aero DMG setara dengan 600% dari ATK miliknya kepada semua target dalam jangkauan, yang dianggap sebagai Echo Skill DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Skill Straw Cape in Drizzly Rain meningkatkan Crit. DMG Qiuyuan sebesar 100% selama 6 detik. Beralih ke Resonator lain akan mengakhiri efek ini lebih awal.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

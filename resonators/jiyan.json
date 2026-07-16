@@ -19,7 +19,8 @@
       "text": "menambah Opsi NM Kelpie di slot echo",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Midnight Rangers",
@@ -180,37 +181,150 @@
   "skills": {
     "basic": {
       "name": "Lone Lance",
-      "description": "Basic Attack\nMelakukan hingga 5 serangan berturut-turut, memberikan Aero DMG.\n\nHeavy Attack\nMengonsumsi Stamina untuk menusuk ke depan, memberikan Aero DMG.\n\nHeavy Attack: Windborne Strike\nTahan Basic Attack selama Heavy Attack untuk melancarkan Windborne Strike setelah Heavy Attack berakhir, memberikan Aero DMG.\n\nHeavy Attack: Abyssal Slash\nLepaskan Basic Attack selama Heavy Attack untuk melancarkan Abyssal Slash setelah Heavy Attack berakhir, memberikan Aero DMG.\n\nMid-Air Attack\nMengonsumsi Stamina untuk melakukan Plunging Attack saat berada di udara, memberikan Aero DMG.\nSetelah melakukan Plunging Attack, gunakan Basic Attack untuk melakukan serangan lanjutan (follow-up attack), memberikan Aero DMG.\n\nMid-Air Attack: Banner of Triumph\nSetelah melancarkan Heavy Attack Windborne Strike atau Resonance Skill Windqueller di udara, Jiyan dapat melakukan mid-air attack, memberikan Aero DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 5 serangan berturut-turut, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi Stamina untuk menusuk ke depan, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack: Windborne Strike",
+          "description": "Tahan Basic Attack selama Heavy Attack untuk melancarkan Windborne Strike setelah Heavy Attack berakhir, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack: Abyssal Slash",
+          "description": "Lepaskan Basic Attack selama Heavy Attack untuk melancarkan Abyssal Slash setelah Heavy Attack berakhir, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-Air Attack",
+          "description": "Mengonsumsi Stamina untuk melakukan Plunging Attack saat berada di udara, memberikan Aero DMG.\nSetelah melakukan Plunging Attack, gunakan Basic Attack untuk melakukan serangan lanjutan (follow-up attack), memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-Air Attack: Banner of Triumph",
+          "description": "Setelah melancarkan Heavy Attack Windborne Strike atau Resonance Skill Windqueller di udara, Jiyan dapat melakukan mid-air attack, memberikan Aero DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Aero DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Windqueller",
-      "description": "Melesat ke depan dalam jarak tertentu, memberikan Aero DMG.\n\nDapat dilancarkan di udara."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melesat ke depan dalam jarak tertentu, memberikan Aero DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat dilancarkan di udara.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Emerald Storm - Prelude",
-      "description": "Setelah melepaskan Emerald Storm: Prelude, Jiyan memasuki Qingloong Mode.\n\nQingloong Mode\nJiyan mendapatkan peningkatan Anti-interruption;\nBasic Attack, Heavy Attack, dan Dodge Counter digantikan dengan Heavy Attack Lance of Qingloong.\n\nHeavy Attack: Lance of Qingloong\nMelakukan hingga 3 serangan beruntun, memberikan Aero DMG, yang dianggap sebagai Heavy Attack damage."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah melepaskan Emerald Storm: Prelude, Jiyan memasuki Qingloong Mode.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Qingloong Mode",
+          "description": "Jiyan mendapatkan peningkatan Anti-interruption;\nBasic Attack, Heavy Attack, dan Dodge Counter digantikan dengan Heavy Attack Lance of Qingloong.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack: Lance of Qingloong",
+          "description": "Melakukan hingga 3 serangan beruntun, memberikan Aero DMG, yang dianggap sebagai Heavy Attack damage.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Qingloong At War",
-      "description": "Saat melancarkan Resonance Skill Windqueller, jika Jiyan memiliki 30 atau lebih \"Resolve\", ia mengonsumsi 30 \"Resolve\" untuk meningkatkan DMG dari Resonance Skill Windqueller ini sebesar 20%.\nSaat Jiyan berada dalam Qingloong Mode, DMG dari Resonance Skill Windqueller meningkat sebesar 20% dan tidak lagi mengonsumsi \"Resolve\".\n\nResonance Liberation: Emerald Storm - Finale\nSaat melancarkan Resonance Liberation Emerald Storm - Prelude, jika Jiyan memiliki 30 \"Resolve\" atau lebih, ia akan mengonsumsi 30 \"Resolve\" untuk melancarkan Emerald Storm - Finale, memberikan Aero DMG, yang dianggap sebagai Heavy Attack DMG.\nEmerald Storm: Finale dapat dilancarkan di udara pada ketinggian rendah.\n\nResolve\nJiyan dapat menampung hingga 60 Resolve.\nJiyan mendapatkan \"Resolve\" saat Normal Attack Lone Lance mengenai target.\nJiyan mendapatkan \"Resolve\" saat Intro Skill Tactical Strike mengenai target.\n\"Resolve\" akan berkurang secara bertahap jika Jiyan tidak mengenai target dalam waktu 15 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat melancarkan Resonance Skill Windqueller, jika Jiyan memiliki 30 atau lebih \"Resolve\", ia mengonsumsi 30 \"Resolve\" untuk meningkatkan DMG dari Resonance Skill Windqueller ini sebesar 20%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Jiyan berada dalam Qingloong Mode, DMG dari Resonance Skill Windqueller meningkat sebesar 20% dan tidak lagi mengonsumsi \"Resolve\".",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Resonance Liberation: Emerald Storm - Finale",
+          "description": "Saat melancarkan Resonance Liberation Emerald Storm - Prelude, jika Jiyan memiliki 30 \"Resolve\" atau lebih, ia akan mengonsumsi 30 \"Resolve\" untuk melancarkan Emerald Storm - Finale, memberikan Aero DMG, yang dianggap sebagai Heavy Attack DMG.\nEmerald Storm: Finale dapat dilancarkan di udara pada ketinggian rendah.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resolve",
+          "description": "Jiyan dapat menampung hingga 60 Resolve.\nJiyan mendapatkan \"Resolve\" saat Normal Attack Lone Lance mengenai target.\nJiyan mendapatkan \"Resolve\" saat Intro Skill Tactical Strike mengenai target.\n\"Resolve\" akan berkurang secara bertahap jika Jiyan tidak mengenai target dalam waktu 15 detik.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Heavenly Balance",
-        "description": "Setelah melancarkan Intro Skill Tactical Strike, ATK Jiyan meningkat sebesar 10% selama 15 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Setelah melancarkan Intro Skill Tactical Strike, ATK Jiyan meningkat sebesar 10% selama 15 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tempest Taming",
-        "description": "Saat serangan Jiyan mengenai target, Crit. DMG Jiyan meningkat sebesar 12% selama 8 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat serangan Jiyan mengenai target, Crit. DMG Jiyan meningkat sebesar 12% selama 8 detik.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Tactical Strike",
-      "description": "Jiyan menusuk target di udara, memberikan Aero DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Jiyan menusuk target di udara, memberikan Aero DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Discipline",
-      "description": "hati hati kalimat panjang \nistilah game jngn di translate\nkirim tl ke dalam codeblock\n\njangan ada yang di potong di hilangkan di rubah hanya translate danmake sure bahasa mengalir natural untuk keperluan web"
+      "effects": [
+        {
+          "title": "hati hati kalimat panjang",
+          "description": "istilah game jngn di translate",
+          "isTitleVisible": true
+        },
+        {
+          "title": "kirim tl ke dalam codeblock",
+          "description": "jangan ada yang di potong di hilangkan di rubah hanya translate danmake sure bahasa mengalir natural untuk keperluan web",
+          "isTitleVisible": true
+        }
+      ]
     }
   },
   "materials": {
@@ -338,32 +452,83 @@
     {
       "stage": "S1",
       "name": "Benevolence",
-      "description": "Resonance Skill Windqueller dapat digunakan 1 kali lagi.\nSaat melancarkan Resonance Skill Windqueller, biaya Resolve berkurang sebanyak 15.\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill Windqueller dapat digunakan 1 kali lagi.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat melancarkan Resonance Skill Windqueller, biaya Resolve berkurang sebanyak 15.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Versatility",
-      "description": "Setelah melancarkan Intro Skill Tactical Strike, Jiyan mendapatkan 30 Resolve dan ATK miliknya meningkat sebesar 28% selama 15 detik. Efek ini dapat dipicu sekali setiap 15 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah melancarkan Intro Skill Tactical Strike, Jiyan mendapatkan 30 Resolve dan ATK miliknya meningkat sebesar 28% selama 15 detik. Efek ini dapat dipicu sekali setiap 15 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Spectation",
-      "description": "Saat melancarkan Resonance Skill Windqueller, Resonance Liberation Emerald Storm: Prelude, Resonance Skill Emerald Storm: Finale, atau Intro Skill Tactical Strike, Crit. Rate Jiyan meningkat sebesar 16% dan Crit. DMG meningkat sebesar 32% selama 8 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat melancarkan Resonance Skill Windqueller, Resonance Liberation Emerald Storm: Prelude, Resonance Skill Emerald Storm: Finale, atau Intro Skill Tactical Strike, Crit. Rate Jiyan meningkat sebesar 16% dan Crit. DMG meningkat sebesar 32% selama 8 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Prudence",
-      "description": "Saat melancarkan Resonance Liberation Emerald Storm: Prelude atau Resonance Liberation Emerald Storm: Finale, Heavy Attack DMG Bonus untuk semua anggota tim meningkat sebesar 25% selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat melancarkan Resonance Liberation Emerald Storm: Prelude atau Resonance Liberation Emerald Storm: Finale, Heavy Attack DMG Bonus untuk semua anggota tim meningkat sebesar 25% selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Resolution",
-      "description": "Outro Skill Discipline mendapatkan tambahan DMG Multiplier sebesar 120%.\nSaat serangan Jiyan mengenai target, ATK miliknya meningkat sebesar 3% selama 8 detik, dapat ditumpuk hingga 15 kali; efek ini segera mencapai stack maksimal setelah ia melancarkan Intro Skill Tactical Strike."
+      "effects": [
+        {
+          "title": "",
+          "description": "Outro Skill Discipline mendapatkan tambahan DMG Multiplier sebesar 120%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat serangan Jiyan mengenai target, ATK miliknya meningkat sebesar 3% selama 8 detik, dapat ditumpuk hingga 15 kali; efek ini segera mencapai stack maksimal setelah ia melancarkan Intro Skill Tactical Strike.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Fortitude",
-      "description": "Setiap kali Heavy Attack, Intro Skill Tactical Strike, atau Resonance Skill Windqueller digunakan, Jiyan mendapatkan 1 tumpuk \"Momentum\", dapat ditumpuk hingga 2 kali.\nResonance Liberation Emerald Storm: Finale akan mengonsumsi semua \"Momentum\", dan setiap stack yang dikonsumsi meningkatkan DMG multiplier dari Resonance Liberation Emerald Storm: Finale sebesar 120%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setiap kali Heavy Attack, Intro Skill Tactical Strike, atau Resonance Skill Windqueller digunakan, Jiyan mendapatkan 1 tumpuk \"Momentum\", dapat ditumpuk hingga 2 kali.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Resonance Liberation Emerald Storm: Finale akan mengonsumsi semua \"Momentum\", dan setiap stack yang dikonsumsi meningkatkan DMG multiplier dari Resonance Liberation Emerald Storm: Finale sebesar 120%.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

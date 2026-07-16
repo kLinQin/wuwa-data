@@ -16,7 +16,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Black Shores",
@@ -170,37 +171,110 @@
   "skills": {
     "basic": {
       "name": "Tuneslayer",
-      "description": "Basic Attack\nRover-Havoc melakukan hingga 5 serangan berturut-turut, memberikan  Havoc DMG.\n\nHeavy Attack\nRover-Havoc mengonsumsi STA untuk menyerang, memberikan  Havoc DMG.\nGunakan Basic Attack setelah Heavy Attack untuk mengeluarkan Basic Attack 4.\n\nMid-air Attack\nRover-Havoc mengonsumsi STA untuk melakukan Mid-Air Plunging Attack, memberikan  Havoc DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang sukses untuk menyerang, memberikan  Havoc DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Rover-Havoc melakukan hingga 5 serangan berturut-turut, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Rover-Havoc mengonsumsi STA untuk menyerang, memberikan  Havoc DMG.\nGunakan Basic Attack setelah Heavy Attack untuk mengeluarkan Basic Attack 4.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Rover-Havoc mengonsumsi STA untuk melakukan Mid-Air Plunging Attack, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah Dodge yang sukses untuk menyerang, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Wingblade",
-      "description": "Mengubah suara/Sound menjadi bulu tajam, memberikan Havoc DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mengubah suara/Sound menjadi bulu tajam, memberikan Havoc DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Deadening Abyss",
-      "description": "Rover mengumpulkan suara resonansi untuk menyerang target,  Havoc DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Rover mengumpulkan suara resonansi untuk menyerang target,  Havoc DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Umbra Eclipse",
-      "description": "Devastation\nSaat \"Umbra\" penuh, tahan Basic Attack untuk mengeluarkan Devastation, menyerang target dan memberikan  Havoc DMG (dianggap sebagai Heavy Attack DMG).\n\nDark Surge\nSetelah menggunakan Devastation, Rover memasuki Dark Surge Mode. Dalam mode ini:\n- Basic Attack digantikan dengan Enhanced Basic Attack, melakukan 5 serangan berturut-turut, memberikan  Havoc DMG.\n- Heavy Attack digantikan dengan Enhanced Heavy Attack.\n- Gunakan Basic Attack setelah Enhanced Heavy Attack untuk mengeluarkan Heavy Attack Thwackblade, memberikan  Havoc DMG (dianggap sebagai Heavy Attack DMG).\n- Gunakan Basic Attack setelah Heavy Attack Thwackblade untuk mengeluarkan Enhanced Basic Attack 3, memberikan  Havoc DMG.\n- Resonance Skill Wingblade digantikan dengan Resonance Skill Lifetaker, mengubah suara menjadi bilah tajam untuk menyerang target, memberikan  Havoc DMG.\n\nUmbra\nRover dapat menyimpan hingga 100 Umbra.\nNormal Attack - Tuneslayer memulihkan Umbra saat mengenai target.\nResonance Skill - Wingblade memulihkan Umbra saat digunakan.\nResonance Skill - Lifetaker memulihkan Umbra saat digunakan.\nIntro Skill - Instant of Annihilation memulihkan Umbra saat digunakan."
+      "effects": [
+        {
+          "title": "Devastation",
+          "description": "Saat \"Umbra\" penuh, tahan Basic Attack untuk mengeluarkan Devastation, menyerang target dan memberikan  Havoc DMG (dianggap sebagai Heavy Attack DMG).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dark Surge",
+          "description": "Setelah menggunakan Devastation, Rover memasuki Dark Surge Mode. Dalam mode ini:\n- Basic Attack digantikan dengan Enhanced Basic Attack, melakukan 5 serangan berturut-turut, memberikan  Havoc DMG.\n- Heavy Attack digantikan dengan Enhanced Heavy Attack.\n- Gunakan Basic Attack setelah Enhanced Heavy Attack untuk mengeluarkan Heavy Attack Thwackblade, memberikan  Havoc DMG (dianggap sebagai Heavy Attack DMG).\n- Gunakan Basic Attack setelah Heavy Attack Thwackblade untuk mengeluarkan Enhanced Basic Attack 3, memberikan  Havoc DMG.\n- Resonance Skill Wingblade digantikan dengan Resonance Skill Lifetaker, mengubah suara menjadi bilah tajam untuk menyerang target, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Umbra",
+          "description": "Rover dapat menyimpan hingga 100 Umbra.\nNormal Attack - Tuneslayer memulihkan Umbra saat mengenai target.\nResonance Skill - Wingblade memulihkan Umbra saat digunakan.\nResonance Skill - Lifetaker memulihkan Umbra saat digunakan.\nIntro Skill - Instant of Annihilation memulihkan Umbra saat digunakan.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Metamorph",
-        "description": "Saat berada dalam Dark Surge Mode, mendapatkan 20%  Havoc DMG Bonus."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat berada dalam Dark Surge Mode, mendapatkan 20%  Havoc DMG Bonus.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Bleak Crescendo",
-        "description": "Saat dalam Dark Surge Mode, Basic Attack memulihkan 1 Resonance Energy tambahan saat mengenai target (dapat dipicu sekali per detik)."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat dalam Dark Surge Mode, Basic Attack memulihkan 1 Resonance Energy tambahan saat mengenai target (dapat dipicu sekali per detik).",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Instant Of Annihilation",
-      "description": "Menyerang target, memberikan Havoc  DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan Havoc  DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Soundweaver",
-      "description": "Rover memanggil Havoc Field, memberikan  Havoc DMG sebesar 143.3% ATK Rover ke semua target dalam area setiap 2 detik selama 6 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Rover memanggil Havoc Field, memberikan  Havoc DMG sebesar 143.3% ATK Rover ke semua target dalam area setiap 2 detik selama 6 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -384,32 +458,68 @@
     {
       "stage": "S1",
       "name": "Cryptic Insight",
-      "description": "Resonance Skill DMG Bonus meningkat 30%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill DMG Bonus meningkat 30%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Waning Crescent",
-      "description": "Cooldown Resonance Skill di-reset saat Rover memasuki Dark Surge Mode dengan menggunakan Heavy Attack - Devastation."
+      "effects": [
+        {
+          "title": "",
+          "description": "Cooldown Resonance Skill di-reset saat Rover memasuki Dark Surge Mode dengan menggunakan Heavy Attack - Devastation.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Surging Resonance",
-      "description": "Saat dalam Dark Surge Mode, Basic Attack 5 memulihkan HP sebesar 10% dari total HP yang hilang saat mengenai target."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat dalam Dark Surge Mode, Basic Attack 5 memulihkan HP sebesar 10% dari total HP yang hilang saat mengenai target.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Annihilated Silence",
-      "description": "Heavy Attack - Devastation dan Resonance Liberation - Deadening Abyss mengurangi Havoc RES musuh sebesar 10% selama 20 detik saat mengenai target."
+      "effects": [
+        {
+          "title": "",
+          "description": "Heavy Attack - Devastation dan Resonance Liberation - Deadening Abyss mengurangi Havoc RES musuh sebesar 10% selama 20 detik saat mengenai target.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Aeon Symphony",
-      "description": "Saat dalam Dark Surge Mode, Basic Attack 5 memberikan  Havoc DMG tambahan sebesar 50% dari Basic Attack 5 DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat dalam Dark Surge Mode, Basic Attack 5 memberikan  Havoc DMG tambahan sebesar 50% dari Basic Attack 5 DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Ebbing Undercurrent",
-      "description": "Saat dalam Dark Surge Mode, Crit. Rate Rover meningkat sebesar 25%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat dalam Dark Surge Mode, Crit. Rate Rover meningkat sebesar 25%.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

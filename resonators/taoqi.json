@@ -18,7 +18,8 @@
     {
       "text": "Minimal update",
       "type": "updated",
-      "isNew": false
+      "isNew": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Ministry of Development",
@@ -131,37 +132,130 @@
   "skills": {
     "basic": {
       "name": "Concealed Edge",
-      "description": "Basic Attack\nMelancarkan hingga 4 serangan beruntun, memberikan  Havoc DMG.\n\nHeavy Attack\nMengonsumsi Stamina untuk memberikan  Havoc DMG\nTahan Basic Attack untuk masuk ke mode Rocksteady Defense.\n\nRocksteady Defense\n- Damage yang diterima Taoqi berkurang 35%.\n- Saat Taoqi diserang dalam mode Rocksteady Defense, dia akan mengaktifkan Strategic Parry.\n- Strategic Parry akan otomatis aktif setelah Rocksteady Defense bertahan selama 3 detik.\n- Jika Taoqi diserang saat menggunakan Resonance Skill Fortified Defense, Strategic Parry juga akan otomatis aktif. \n\nStrategic Parry\nMenyerang target, memberikan  Havoc DMG.\n\nMid-Air Attack\nMengonsumsi Stamina untuk melakukan Plunging Attack saat di udara, memberikan  Havoc DMG.\n\nDodge Counter\nGunakan Basic Attack setelah sukses menghindar untuk menyerang target, memberikan  Havoc DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melancarkan hingga 4 serangan beruntun, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mengonsumsi Stamina untuk memberikan  Havoc DMG",
+          "description": "Tahan Basic Attack untuk masuk ke mode Rocksteady Defense.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Rocksteady Defense",
+          "description": "- Damage yang diterima Taoqi berkurang 35%.\n- Saat Taoqi diserang dalam mode Rocksteady Defense, dia akan mengaktifkan Strategic Parry.\n- Strategic Parry akan otomatis aktif setelah Rocksteady Defense bertahan selama 3 detik.\n- Jika Taoqi diserang saat menggunakan Resonance Skill Fortified Defense, Strategic Parry juga akan otomatis aktif.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Strategic Parry",
+          "description": "Menyerang target, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-Air Attack",
+          "description": "Mengonsumsi Stamina untuk melakukan Plunging Attack saat di udara, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah sukses menghindar untuk menyerang target, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Fortified Defense",
-      "description": "Taoqi memberikan  Havoc DMG ke musuh di sekitarnya, menghasilkan 3 Rocksteady Shield, dan memulihkan HP-nya.\nJika diserang saat menggunakan Fortified Defense, Strategic Parry akan otomatis aktif.\n\nRocksteady Shield\nSaat karakter aktif dalam tim diserang, 1 Rocksteady Shield akan dikonsumsi untuk mengurangi damage yang diterima."
+      "effects": [
+        {
+          "title": "",
+          "description": "Taoqi memberikan  Havoc DMG ke musuh di sekitarnya, menghasilkan 3 Rocksteady Shield, dan memulihkan HP-nya.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika diserang saat menggunakan Fortified Defense, Strategic Parry akan otomatis aktif.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Rocksteady Shield",
+          "description": "Saat karakter aktif dalam tim diserang, 1 Rocksteady Shield akan dikonsumsi untuk mengurangi damage yang diterima.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Unmovable",
-      "description": "Menyerang target berdasarkan DEF Taoqi, memberikan  Havoc DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target berdasarkan DEF Taoqi, memberikan  Havoc DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Power Shift",
-      "description": "Timed Counters\nSaat memiliki Resolving Caliber, gunakan Basic Attack setelah Heavy Attack Strategic Parry atau Intro Skill Defense Formation untuk mengaktifkan Timed Counters, melakukan hingga 3 serangan beruntun yang dianggap sebagai Basic Attack DMG.\nTimed Counters mengonsumsi 1 Resolving Caliber saat mengenai musuh untuk memberikan shield.\nSetelah menggunakan Intro Skill Defense Formation, gunakan Basic Attack untuk langsung mengaktifkan Timed Counters.\n\nResolving Caliber\nTaoqi dapat menampung hingga 3 Resolving Caliber.\nBasic Attack ke-4 akan mengonsumsi semua Rocksteady Shield dan mengubahnya menjadi Resolving Caliber dalam jumlah yang sama.\nSaat Rocksteady Shield masih ada, jika karakter aktif diserang, 1 Rocksteady Shield akan dikonsumsi untuk memulihkan Resolving Caliber.\nSetelah Rocksteady Shield habis, semua yang tersisa akan dikonversi menjadi Resolving Caliber dalam jumlah yang sama."
+      "effects": [
+        {
+          "title": "Timed Counters",
+          "description": "Saat memiliki Resolving Caliber, gunakan Basic Attack setelah Heavy Attack Strategic Parry atau Intro Skill Defense Formation untuk mengaktifkan Timed Counters, melakukan hingga 3 serangan beruntun yang dianggap sebagai Basic Attack DMG.\nTimed Counters mengonsumsi 1 Resolving Caliber saat mengenai musuh untuk memberikan shield.\nSetelah menggunakan Intro Skill Defense Formation, gunakan Basic Attack untuk langsung mengaktifkan Timed Counters.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resolving Caliber",
+          "description": "Taoqi dapat menampung hingga 3 Resolving Caliber.\nBasic Attack ke-4 akan mengonsumsi semua Rocksteady Shield dan mengubahnya menjadi Resolving Caliber dalam jumlah yang sama.\nSaat Rocksteady Shield masih ada, jika karakter aktif diserang, 1 Rocksteady Shield akan dikonsumsi untuk memulihkan Resolving Caliber.\nSetelah Rocksteady Shield habis, semua yang tersisa akan dikonversi menjadi Resolving Caliber dalam jumlah yang sama.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Steadfast Protection",
-        "description": "Saat Rocksteady Shield dari Resonance Skill masih aktif, DEF karakter meningkat 15%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Rocksteady Shield dari Resonance Skill masih aktif, DEF karakter meningkat 15%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Unyielding",
-        "description": "Setelah Heavy Attack Strategic Parry berhasil diaktifkan, memulihkan 25 Stamina."
+        "effects": [
+          {
+            "title": "",
+            "description": "Setelah Heavy Attack Strategic Parry berhasil diaktifkan, memulihkan 25 Stamina.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Defense Formation",
-      "description": "Menyerang target, memberikan  Havoc DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan  Havoc DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Iron Will",
-      "description": "Karakter Resonator yang masuk akan mendapatkan peningkatan Resonance Skill DMG sebesar 38% selama 14 detik atau sampai mereka diganti."
+      "effects": [
+        {
+          "title": "",
+          "description": "Karakter Resonator yang masuk akan mendapatkan peningkatan Resonance Skill DMG sebesar 38% selama 14 detik atau sampai mereka diganti.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -250,32 +344,68 @@
     {
       "stage": "S1",
       "name": "Essense Of Tranquility",
-      "description": "Shield dari Forte Circuit Power Shift meningkat 40%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Shield dari Forte Circuit Power Shift meningkat 40%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Silent Strength",
-      "description": "Crit Rate dan Crit DMG dari Resonance Liberation Unmovable meningkat masing-masing 20%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Crit Rate dan Crit DMG dari Resonance Liberation Unmovable meningkat masing-masing 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Keen-Eyed Observer",
-      "description": "Durasi Rocksteady Shield dari Resonance Skill diperpanjang hingga 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Durasi Rocksteady Shield dari Resonance Skill diperpanjang hingga 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Heavylifting Duty",
-      "description": "Saat Heavy Attack Strategic Parry berhasil diaktifkan, Taoqi memulihkan 25% HP dan meningkatkan DEF sebesar 50% selama 5 detik. Dapat diaktifkan setiap 15 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Heavy Attack Strategic Parry berhasil diaktifkan, Taoqi memulihkan 25% HP dan meningkatkan DEF sebesar 50% selama 5 detik. Dapat diaktifkan setiap 15 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Benevolent Guardian",
-      "description": "Damage Forte Circuit Power Shift meningkat 50%. Saat Forte Circuit Power Shift mengenai target, memulihkan 20 Resonance Energy."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage Forte Circuit Power Shift meningkat 50%. Saat Forte Circuit Power Shift mengenai target, memulihkan 20 Resonance Energy.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Defender Of Peace",
-      "description": "Damage Basic Attack dan Heavy Attack Taoqi meningkat 40% selama Shield dari Rocksteady Shield masih aktif."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage Basic Attack dan Heavy Attack Taoqi meningkat 40% selama Shield dari Rocksteady Shield masih aktif.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

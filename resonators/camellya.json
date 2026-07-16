@@ -17,7 +17,8 @@
     {
       "text": "Minimal update",
       "type": "updated",
-      "isNew": false
+      "isNew": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Black Shores",
@@ -138,37 +139,150 @@
   "skills": {
     "basic": {
       "name": "Burgeoning",
-      "description": "Basic Attack\nMelakukan hingga 5 serangan berturut-turut, memberikan  Havoc DMG.\nSetelah melakukan Basic Attack Stage 3 atau Heavy Attack: Pruning, tahan tombol Normal Attack untuk terus menyerang target, memberikan  Havoc DMG.\nBasic Attack Stage 4 akan otomatis diikuti oleh Basic Attack Stage 5.\n\nHeavy Attack – Pruning\nMengonsumsi STA untuk menyerang target, memberikan Havoc DMG.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.\n\nDodge Counter\nGunakan Basic Attack segera setelah Dodge berhasil untuk menyerang target, memberikan  Havoc DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 5 serangan berturut-turut, memberikan  Havoc DMG.\nSetelah melakukan Basic Attack Stage 3 atau Heavy Attack: Pruning, tahan tombol Normal Attack untuk terus menyerang target, memberikan  Havoc DMG.\nBasic Attack Stage 4 akan otomatis diikuti oleh Basic Attack Stage 5.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack – Pruning",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack segera setelah Dodge berhasil untuk menyerang target, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Valse Of Bloom And Blight",
-      "description": "Crimson Blossom\nMenyerang target, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG), lalu masuk ke Blossom Mode.\nSerangan ini bisa dilakukan di udara.\n\nBlossom Mode\n- Tidak dapat bergerak saat tergantung di tanaman merambat.\n- Basic Attack dan Heavy Attack: Pruning digantikan oleh Basic Attack: Vining Waltz, yang menghubungkan 4 serangan berturut-turut, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG).\n- Saat melakukan Vining Waltz Stage 3, tahan Normal Attack Button untuk menggunakan Blazing Waltz, yang memberikan  Havoc DMG, sebelum otomatis melanjutkan ke Vining Waltz Stage 4.\n- Dodge Counter digantikan oleh Dodge Counter: Atonement. Tekan Normal Attack Button setelah Dodge berhasil untuk menyerang target, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG).\n- Resonance Skill digantikan oleh Resonance Skill: Floral Ravage, yang memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG).\n- Resonance Skill: Floral Ravage dapat digunakan di udara.\n- Blossom Mode berakhir setelah menggunakan Resonance Skill: Floral Ravage atau Levitator.\n- Tombol Jump digantikan oleh Basic Attack: Vining Ronde, yang menyerang target dengan biaya STA, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG), dan mengakhiri Blossom Mode.\n- Menggunakan Basic Attack: Vining Waltz dan Basic Attack: Blazing Waltz di udara mengonsumsi STA.\n- Menggunakan Resonance Skill: Floral Ravage tidak memulihkan STA.\n- STA akan terus terkuras untuk tetap tergantung di tanaman merambat."
+      "effects": [
+        {
+          "title": "Crimson Blossom",
+          "description": "Menyerang target, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG), lalu masuk ke Blossom Mode.\nSerangan ini bisa dilakukan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Blossom Mode",
+          "description": "- Tidak dapat bergerak saat tergantung di tanaman merambat.\n- Basic Attack dan Heavy Attack: Pruning digantikan oleh Basic Attack: Vining Waltz, yang menghubungkan 4 serangan berturut-turut, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG).\n- Saat melakukan Vining Waltz Stage 3, tahan Normal Attack Button untuk menggunakan Blazing Waltz, yang memberikan  Havoc DMG, sebelum otomatis melanjutkan ke Vining Waltz Stage 4.\n- Dodge Counter digantikan oleh Dodge Counter: Atonement. Tekan Normal Attack Button setelah Dodge berhasil untuk menyerang target, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG).\n- Resonance Skill digantikan oleh Resonance Skill: Floral Ravage, yang memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG).\n- Resonance Skill: Floral Ravage dapat digunakan di udara.\n- Blossom Mode berakhir setelah menggunakan Resonance Skill: Floral Ravage atau Levitator.\n- Tombol Jump digantikan oleh Basic Attack: Vining Ronde, yang menyerang target dengan biaya STA, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG), dan mengakhiri Blossom Mode.\n- Menggunakan Basic Attack: Vining Waltz dan Basic Attack: Blazing Waltz di udara mengonsumsi STA.\n- Menggunakan Resonance Skill: Floral Ravage tidak memulihkan STA.\n- STA akan terus terkuras untuk tetap tergantung di tanaman merambat.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Fervor Efflorescent",
-      "description": "Menyerang target, memberikan  Havoc DMG.\nDapat digunakan di udara."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan  Havoc DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat digunakan di udara.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Vegetative Universe",
-      "description": "Menyerang target dengan Normal Attack, Basic Attack: Vining Waltz, Basic Attack: Blazing Waltz, Basic Attack: Vining Ronde, Dodge Counter: Atonement, Resonance Skill: Crimson Blossom, dan Resonance Skill: Floral Ravage akan mengonsumsi Crimson Pistils.\nEnergy Regen Multiplier dari serangan ini meningkat 150%.\nMengonsumsi 10 Crimson Pistils akan memulihkan 4 Concerto Energy dan mendapatkan 1 Crimson Bud (bertahan 15 detik, dapat ditumpuk hingga 10 kali).\n\nForte Circuit: Ephemeral\nKetika Concerto Energy penuh dan Ephemeral tidak dalam cooldown, Resonance Skill akan digantikan oleh Ephemeral.\nMenggunakan Ephemeral mengonsumsi 70 Concerto Energy, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG), lalu Camellya memasuki Budding Mode.\nEphemeral dapat digunakan di udara.\n\nBudding Mode\n- Sweet Dream : Meningkatkan DMG Multiplier dari Normal Attack, Basic Attack: Vining Waltz, Basic Attack: Blazing Waltz, Basic Attack: Vining Ronde, Dodge Counter: Atonement, Resonance Skill: Crimson Blossom, dan Resonance Skill: Floral Ravage sebesar 50%.\n- Menggunakan Ephemeral mengonsumsi semua Crimson Buds. Setiap Crimson Bud yang dikonsumsi meningkatkan DMG Multiplier Sweet Dream sebesar 5%, hingga maksimum 50%.\n- Dalam Budding Mode, Camellya tidak bisa mendapatkan Crimson Buds.\n- Dalam Budding Mode,, Energy Regen Multiplier dari semua serangan yang disebutkan di atas menjadi 0%.\n- Budding Mode, berakhir jika Camellya keluar dari medan pertempuran.\n- Budding Mode, berakhir jika semua  Crimson Pistils habis.\n\nCrimson Pistil\nCamellya dapat menyimpan hingga 100  Crimson Pistils.\n- Menggunakan Intro Skill: Everblooming memulihkan 100 Crimson Pistils.\n- Mengaktifkan Forte Circuit: Ephemeral memulihkan 100 Crimson Pistils."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target dengan Normal Attack, Basic Attack: Vining Waltz, Basic Attack: Blazing Waltz, Basic Attack: Vining Ronde, Dodge Counter: Atonement, Resonance Skill: Crimson Blossom, dan Resonance Skill: Floral Ravage akan mengonsumsi Crimson Pistils.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Energy Regen Multiplier dari serangan ini meningkat 150%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Mengonsumsi 10 Crimson Pistils akan memulihkan 4 Concerto Energy dan mendapatkan 1 Crimson Bud (bertahan 15 detik, dapat ditumpuk hingga 10 kali).",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Forte Circuit: Ephemeral",
+          "description": "Ketika Concerto Energy penuh dan Ephemeral tidak dalam cooldown, Resonance Skill akan digantikan oleh Ephemeral.\nMenggunakan Ephemeral mengonsumsi 70 Concerto Energy, memberikan  Havoc DMG (dihitung sebagai Basic Attack DMG), lalu Camellya memasuki Budding Mode.\nEphemeral dapat digunakan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Budding Mode",
+          "description": "- Sweet Dream : Meningkatkan DMG Multiplier dari Normal Attack, Basic Attack: Vining Waltz, Basic Attack: Blazing Waltz, Basic Attack: Vining Ronde, Dodge Counter: Atonement, Resonance Skill: Crimson Blossom, dan Resonance Skill: Floral Ravage sebesar 50%.\n- Menggunakan Ephemeral mengonsumsi semua Crimson Buds. Setiap Crimson Bud yang dikonsumsi meningkatkan DMG Multiplier Sweet Dream sebesar 5%, hingga maksimum 50%.\n- Dalam Budding Mode, Camellya tidak bisa mendapatkan Crimson Buds.\n- Dalam Budding Mode,, Energy Regen Multiplier dari semua serangan yang disebutkan di atas menjadi 0%.\n- Budding Mode, berakhir jika Camellya keluar dari medan pertempuran.\n- Budding Mode, berakhir jika semua  Crimson Pistils habis.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Crimson Pistil",
+          "description": "Camellya dapat menyimpan hingga 100  Crimson Pistils.\n- Menggunakan Intro Skill: Everblooming memulihkan 100 Crimson Pistils.\n- Mengaktifkan Forte Circuit: Ephemeral memulihkan 100 Crimson Pistils.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Seedbed",
-        "description": "Meningkatkan  Havoc DMG Bonus sebesar 15%.\nHeavy Attack: Pruning kini dihitung sebagai Basic Attack DMG"
+        "effects": [
+          {
+            "title": "",
+            "description": "Meningkatkan  Havoc DMG Bonus sebesar 15%.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Heavy Attack: Pruning kini dihitung sebagai Basic Attack DMG",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Epiphyte",
-        "description": "Meningkatkan Basic DMG Bonus sebesar 15%.\nMeningkatkan ketahanan terhadap interupsi saat menggunakan Basic Attack, Basic Attack: Vining Waltz, dan Basic Attack: Blazing Waltz."
+        "effects": [
+          {
+            "title": "",
+            "description": "Meningkatkan Basic DMG Bonus sebesar 15%.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Meningkatkan ketahanan terhadap interupsi saat menggunakan Basic Attack, Basic Attack: Vining Waltz, dan Basic Attack: Blazing Waltz.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Everblooming",
-      "description": "menyerang target, memberikan  Havoc DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "menyerang target, memberikan  Havoc DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Twining",
-      "description": "Menyerang target, memberikan  Havoc DMG sebesar 329.24% dari ATK Camellya.\nSetelah mengaktifkan Forte Circuit: Ephemeral, Outro Skill: Twining akan memberikan tambahan  Havoc DMG sebesar 459.02% dari ATK Camellya."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan  Havoc DMG sebesar 329.24% dari ATK Camellya.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah mengaktifkan Forte Circuit: Ephemeral, Outro Skill: Twining akan memberikan tambahan  Havoc DMG sebesar 459.02% dari ATK Camellya.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -372,32 +486,88 @@
     {
       "stage": "S1",
       "name": "Somewhere No One Travelled",
-      "description": "Menggunakan Intro Skill: Everblooming meningkatkan Crit. DMG Camellya sebesar 28% selama 18 detik. Efek ini bisa dipicu sekali setiap 25 detik.\nKebal terhadap interupsi saat menggunakan Ephemeral."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Intro Skill: Everblooming meningkatkan Crit. DMG Camellya sebesar 28% selama 18 detik. Efek ini bisa dipicu sekali setiap 25 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Kebal terhadap interupsi saat menggunakan Ephemeral.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Calling Upon The Silent Rose",
-      "description": "DMG Multiplier dari Resonance Skill: Ephemeral meningkat sebesar 120%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Skill: Ephemeral meningkat sebesar 120%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "A Bud Adorned By Thorns",
-      "description": "DMG Multiplier dari Resonance Liberation: Fervor Efflorescent meningkat sebesar 50%.\nSaat dalam Budding Mode, ATK Camellya meningkat sebesar 58%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation: Fervor Efflorescent meningkat sebesar 50%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat dalam Budding Mode, ATK Camellya meningkat sebesar 58%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Roots Set Deep In Eternity",
-      "description": "Menggunakan Everblooming memberikan seluruh anggota tim 25% Basic Attack DMG Bonus selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menggunakan Everblooming memberikan seluruh anggota tim 25% Basic Attack DMG Bonus selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Infinity Held In Your Palm",
-      "description": "DMG Multiplier dari Intro Skill: Everblooming meningkat sebesar 303%.\nDMG Multiplier dari Outro Skill: Twining meningkat sebesar 68%"
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Intro Skill: Everblooming meningkat sebesar 303%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Outro Skill: Twining meningkat sebesar 68%",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Bloom For You Thousand Times Over",
-      "description": "DMG Multiplier dari Forte Circuit: Sweet Dream meningkat tambahan sebesar 150%.\n\nForte Circuit: Perennial\nDalam 15 detik setelah menggunakan Ephemeral, jika Concerto Energy penuh dan Perennial tidak dalam cooldown, Resonance Skill akan digantikan oleh Perennial.\nMenggunakan Perennial mengonsumsi 50 Concerto Energy dan memulihkan 50 Crimson Pistils, memberikan  Havoc DMG setara dengan 100% dari DMG Ephemeral (dihitung sebagai Basic Attack DMG).\nSkill ini dapat digunakan sekali setiap 25 detik.\nCamellya memasuki Budding Mode setelah menggunakan Perennial dan menghapus semua Crimson Buds.\nBonus DMG Multiplier yang diberikan oleh Forte Circuit: Sweet Dream meningkat menjadi 250%.\nKebal terhadap interupsi saat menggunakan Perennial."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Forte Circuit: Sweet Dream meningkat tambahan sebesar 150%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Forte Circuit: Perennial",
+          "description": "Dalam 15 detik setelah menggunakan Ephemeral, jika Concerto Energy penuh dan Perennial tidak dalam cooldown, Resonance Skill akan digantikan oleh Perennial.\nMenggunakan Perennial mengonsumsi 50 Concerto Energy dan memulihkan 50 Crimson Pistils, memberikan  Havoc DMG setara dengan 100% dari DMG Ephemeral (dihitung sebagai Basic Attack DMG).\nSkill ini dapat digunakan sekali setiap 25 detik.\nCamellya memasuki Budding Mode setelah menggunakan Perennial dan menghapus semua Crimson Buds.\nBonus DMG Multiplier yang diberikan oleh Forte Circuit: Sweet Dream meningkat menjadi 250%.\nKebal terhadap interupsi saat menggunakan Perennial.",
+          "isTitleVisible": true
+        }
+      ]
     }
   ],
   "lore": {

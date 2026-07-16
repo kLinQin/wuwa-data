@@ -19,7 +19,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "",
@@ -177,37 +178,185 @@
   "skills": {
     "basic": {
       "name": "Movement Of Life And Death",
-      "description": "Basic Attack\nMelancarkan hingga 3 serangan beruntun, memberikan  Havoc DMG.\nSaat melakukan Basic Attack Tahap 3, akan memasuki status Reincarnate.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target dan memberikan  Havoc DMG.\nGunakan Normal Attack segera setelah skill ini untuk melancarkan Basic Attack Stage 2.\n\nScarlet Coda\nPhrolova memasuki status Compose setiap 25 detik.\nSaat ketiga kondisi berikut terpenuhi, Heavy Attack akan digantikan dengan Scarlet Coda:\n- Memiliki 6 Volatile Notes.\n- Berada dalam status Compose.\n- Tidak berada dalam status Resolving Chord.\n\nScarlet Coda: Mengonsumsi STA untuk memberikan  Havoc DMG, menyebabkan efek Stagnate dan menarik musuh di sekitar. Serangan ini dianggap sebagai Resonance Skill DMG.\nSetiap stack Aftersound akan meningkatkan DMG Multiplier dari serangan ini.\nMengaktifkan skill ini dihitung sebagai cast Echo Skill.\nMengaktifkan skill ini akan membuat status Compose memasuki cooldown dan mengaktifkan status Resolving Chord.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.\n\nDodge Counter\nTekan Normal Attack setelah berhasil menghindar untuk menyerang target, memberikan  Havoc DMG.\nTekan Normal Attack segera setelah menggunakan skill ini untuk melancarkan Basic Attack Stage 3."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melancarkan hingga 3 serangan beruntun, memberikan  Havoc DMG.\nSaat melakukan Basic Attack Tahap 3, akan memasuki status Reincarnate.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk menyerang target dan memberikan  Havoc DMG.\nGunakan Normal Attack segera setelah skill ini untuk melancarkan Basic Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Scarlet Coda",
+          "description": "Phrolova memasuki status Compose setiap 25 detik.\nSaat ketiga kondisi berikut terpenuhi, Heavy Attack akan digantikan dengan Scarlet Coda:\n- Memiliki 6 Volatile Notes.\n- Berada dalam status Compose.\n- Tidak berada dalam status Resolving Chord.\nScarlet Coda: Mengonsumsi STA untuk memberikan  Havoc DMG, menyebabkan efek Stagnate dan menarik musuh di sekitar. Serangan ini dianggap sebagai Resonance Skill DMG.\nSetiap stack Aftersound akan meningkatkan DMG Multiplier dari serangan ini.\nMengaktifkan skill ini dihitung sebagai cast Echo Skill.\nMengaktifkan skill ini akan membuat status Compose memasuki cooldown dan mengaktifkan status Resolving Chord.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Normal Attack setelah berhasil menghindar untuk menyerang target, memberikan  Havoc DMG.\nTekan Normal Attack segera setelah menggunakan skill ini untuk melancarkan Basic Attack Stage 3.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Whispers In A Fleeting Dream",
-      "description": "Menyerang target dan memberikan  Havoc DMG.\nMengaktifkan skill ini membuat Phrolova memasuki Reincarnate."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target dan memberikan  Havoc DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Mengaktifkan skill ini membuat Phrolova memasuki Reincarnate.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": " Waltz Of Forsaken Depths",
-      "description": "Waltz of Forsaken Depths\nResonance Energy Phrolova maksimal adalah 0. Waltz of Forsaken Depths tidak mengonsumsi Resonance Energy.\nSaat berada dalam status Resolving Chord, skill Waltz of Forsaken Depths dapat digunakan.\nMengaktifkan skill ini akan mengakhiri status Resolving Chord, dan Phrolova akan memasuki status Maestro selama 24 detik.\n\nMaestro\nMeningkatkan ATK sebesar 120%.\nPhrolova akan melayang di udara dan memerintahkan Hecate untuk bertarung. Hecate akan mewarisi semua status dan statistik milik Phrolova, dan seluruh serangan dari Hecate dihitung sebagai serangan dari Phrolova. Serangan Hecate tidak akan menghilangkan status Hazy Dream dari musuh.\nSelama durasi ini, Phrolova akan memainkan Volatile Notes secara bergiliran, masing-masing bertahan selama 4 detik.\n\nJika Phrolova adalah Resonator aktif di field, ia dapat memberi perintah berikut kepada Hecate. Seluruh damage yang diterima Hecate dalam status ini juga akan diterima oleh Phrolova:\n- Isyarat - Basic Attack: tekan Normal Attack untuk memerintahkan Hecate menggunakan Basic Attack – Hecate.\nJika Phrolova adalah Resonator aktif, setiap 2 kali Hecate menggunakan Basic Attack – Hecate, serangan berikutnya akan diganti dengan Enhanced Attack – Hecate.\n- Isyarat - Dodge: tekan Dodge untuk memerintahkan Hecate menghindar. Hecate tidak akan menerima damage jika berhasil menghindar.\n- Isyarat - Reset: tekan Jump untuk mengatur ulang posisi Hecate.\n- Isyarat - Curtain Call: tekan Resonance Liberation untuk memerintahkan Hecate menggunakan Curtain Call dan mengakhiri status Maestro.\n\nJika Phrolova bukan Resonator aktif, Hecate tidak menerima damage dan akan secara otomatis menyerang musuh menggunakan Basic Attack – Hecate. Saat Resonator dalam tim menggunakan Echo Skill, Hecate akan menggunakan Enhanced Attack – Hecate. Efek ini dapat terpicu hingga 10 kali selama status Maestro aktif. Echo dengan nama yang sama hanya dapat memicu efek ini 1 kali.\n\nBeralih kembali ke Phrolova akan mengakhiri status Maestro .\nMengakhiri status Maestro juga akan menghapus semua Volatile Notes.\n\nBasic Attack - Hecate\nMelancarkan hingga 2 serangan beruntun, memberikan  Havoc DMG (dianggap sebagai Echo Skill DMG).\n\nEnhanced Attack - Hecate: Strings\nSaat Phrolova memainkan Volatile Note - Strings, Hecate akan melancarkan Enhanced Attack – Hecate: Strings saat menggunakan Enhanced Attack – Hecate, memberikan  Havoc DMG dan menyebabkan Stagnate pada target (dianggap sebagai Echo Skill DMG).\n\nEnhanced Attack - Hecate: Winds\nSaat Phrolova memainkan Volatile Note - Winds, Hecate akan melancarkan Enhanced Attack - Hecate: Winds saat menggunakan Enhanced Attack – Hecate, memberikan  Havoc DMG dan menarik target ke arah tengah (dianggap sebagai Echo Skill DMG).\n\nEnhanced Attack - Hecate: Cadenza\nSaat Phrolova memainkan Volatile Note - Cadenza, Hecate akan melancarkan Enhanced Attack - Hecate: Cadenza saat menggunakan Enhanced Attack – Hecate, memberikan  Havoc DMG, menyebabkan Stagnate, dan menarik target ke arah tengah (dianggap sebagai Echo Skill DMG).\n\nCurtain Call\nCurtain Call dapat digunakan melalui lima cara berikut, memberikan  Havoc DMG dan menyebabkan Stagnate pada target:\n- Saat Phrolova adalah Resonator aktif di medan, akhiri Maestro state.\n- Saat berada dalam Maestro state, beralih ke Phrolova tanpa memicu Intro Skill.\n- Saat Maestro state berakhir dan Phrolova bukan Resonator aktif, lalu beralih ke Phrolova tanpa memicu Intro Skill.\n- Saat berada dalam Maestro state, tekan Resonance Liberation.\n- Saat berada dalam Resolving Chord state, tahan Resonance Liberation.\n\nSaat dalam Resolving Chord state, menggunakan Curtain Call akan menghapus semua Volatile Notes dan mengakhiri Resolving Chord state."
+      "effects": [
+        {
+          "title": "Waltz of Forsaken Depths",
+          "description": "Resonance Energy Phrolova maksimal adalah 0. Waltz of Forsaken Depths tidak mengonsumsi Resonance Energy.\nSaat berada dalam status Resolving Chord, skill Waltz of Forsaken Depths dapat digunakan.\nMengaktifkan skill ini akan mengakhiri status Resolving Chord, dan Phrolova akan memasuki status Maestro selama 24 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Maestro",
+          "description": "Meningkatkan ATK sebesar 120%.\nPhrolova akan melayang di udara dan memerintahkan Hecate untuk bertarung. Hecate akan mewarisi semua status dan statistik milik Phrolova, dan seluruh serangan dari Hecate dihitung sebagai serangan dari Phrolova. Serangan Hecate tidak akan menghilangkan status Hazy Dream dari musuh.\nSelama durasi ini, Phrolova akan memainkan Volatile Notes secara bergiliran, masing-masing bertahan selama 4 detik.\nJika Phrolova adalah Resonator aktif di field, ia dapat memberi perintah berikut kepada Hecate. Seluruh damage yang diterima Hecate dalam status ini juga akan diterima oleh Phrolova:\n- Isyarat - Basic Attack: tekan Normal Attack untuk memerintahkan Hecate menggunakan Basic Attack – Hecate.\nJika Phrolova adalah Resonator aktif, setiap 2 kali Hecate menggunakan Basic Attack – Hecate, serangan berikutnya akan diganti dengan Enhanced Attack – Hecate.\n- Isyarat - Dodge: tekan Dodge untuk memerintahkan Hecate menghindar. Hecate tidak akan menerima damage jika berhasil menghindar.\n- Isyarat - Reset: tekan Jump untuk mengatur ulang posisi Hecate.\n- Isyarat - Curtain Call: tekan Resonance Liberation untuk memerintahkan Hecate menggunakan Curtain Call dan mengakhiri status Maestro.\nJika Phrolova bukan Resonator aktif, Hecate tidak menerima damage dan akan secara otomatis menyerang musuh menggunakan Basic Attack – Hecate. Saat Resonator dalam tim menggunakan Echo Skill, Hecate akan menggunakan Enhanced Attack – Hecate. Efek ini dapat terpicu hingga 10 kali selama status Maestro aktif. Echo dengan nama yang sama hanya dapat memicu efek ini 1 kali.\nBeralih kembali ke Phrolova akan mengakhiri status Maestro .\nMengakhiri status Maestro juga akan menghapus semua Volatile Notes.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Hecate",
+          "description": "Melancarkan hingga 2 serangan beruntun, memberikan  Havoc DMG (dianggap sebagai Echo Skill DMG).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Enhanced Attack - Hecate: Strings",
+          "description": "Saat Phrolova memainkan Volatile Note - Strings, Hecate akan melancarkan Enhanced Attack – Hecate: Strings saat menggunakan Enhanced Attack – Hecate, memberikan  Havoc DMG dan menyebabkan Stagnate pada target (dianggap sebagai Echo Skill DMG).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Enhanced Attack - Hecate: Winds",
+          "description": "Saat Phrolova memainkan Volatile Note - Winds, Hecate akan melancarkan Enhanced Attack - Hecate: Winds saat menggunakan Enhanced Attack – Hecate, memberikan  Havoc DMG dan menarik target ke arah tengah (dianggap sebagai Echo Skill DMG).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Enhanced Attack - Hecate: Cadenza",
+          "description": "Saat Phrolova memainkan Volatile Note - Cadenza, Hecate akan melancarkan Enhanced Attack - Hecate: Cadenza saat menggunakan Enhanced Attack – Hecate, memberikan  Havoc DMG, menyebabkan Stagnate, dan menarik target ke arah tengah (dianggap sebagai Echo Skill DMG).",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Curtain Call",
+          "description": "Curtain Call dapat digunakan melalui lima cara berikut, memberikan  Havoc DMG dan menyebabkan Stagnate pada target:\n- Saat Phrolova adalah Resonator aktif di medan, akhiri Maestro state.\n- Saat berada dalam Maestro state, beralih ke Phrolova tanpa memicu Intro Skill.\n- Saat Maestro state berakhir dan Phrolova bukan Resonator aktif, lalu beralih ke Phrolova tanpa memicu Intro Skill.\n- Saat berada dalam Maestro state, tekan Resonance Liberation.\n- Saat berada dalam Resolving Chord state, tahan Resonance Liberation.\nSaat dalam Resolving Chord state, menggunakan Curtain Call akan menghapus semua Volatile Notes dan mengakhiri Resolving Chord state.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Rhapsody Of A New World",
-      "description": "Basic Attack - Movement of Fate and Finality\nSaat berada dalam status Reincarnate, Tekan Normal Attack di darat untuk melancarkan Movement of Fate and Finality, yang menyebabkan Stagnate pada target, memberikan  Havoc DMG (dianggap sebagai Resonance Skill DMG), dan mengakhiri status Reincarnate setelahnya.\n\nResonance Skill - Murmurs in a Haunting Dream\nSaat berada dalam status Reincarnate, tekan Resonance Skill di darat untuk melancarkan Murmurs in a Haunting Dream, memberikan  Havoc DMG (dianggap sebagai Resonance Skill DMG), dan mengakhiri status Reincarnate setelahnya.\n\nAftersound\nPhrolova dapat menampung hingga 24 stack Aftersound.\nSaat Phrolova bukan Resonator aktif, melancarkan Enhanced Attack – Hecate: Strings, Enhanced Attack - Hecate: Winds, atau Enhanced Attack - Hecate: Cadenza akan memberikan 1 stack Aftersound.\nSaat Phrolova berada di luar pertarungan, seluruh stack Aftersound akan dihapus setiap 30 detik.\n\nVolatile Note\nPhrolova dapat menampung hingga 6 Volatile Notes.\nSaat jumlahnya mencapai batas maksimum, mendapatkan Volatile Notes baru akan menggeser semua Volatile Notes satu slot ke kiri, dan Volatile Note - Strings atau Volatile Note - Winds paling kiri akan dihapus.\n\nMengenai target dengan Basic Attack Stage 3 atau Movement of Fate and Finality memberikan 1 Volatile Note - Strings.\nMengenai target dengan Resonance Skill Whispers in a Fleeting Dream atau Resonance Skill Murmurs in a Haunting Dream memberikan 1 Volatile Note - Winds.\nSaat Inherent Skill - Accidental diaktifkan, melancarkan Suite of Quietus, Suite of Immortality, atau Echo Skill akan memberikan 1 Volatile Note - Cadenza.\n\nPhrolova tidak dapat memperoleh Volatile Notes selama berada dalam kondisi Resolving Chord."
+      "effects": [
+        {
+          "title": "Basic Attack - Movement of Fate and Finality",
+          "description": "Saat berada dalam status Reincarnate, Tekan Normal Attack di darat untuk melancarkan Movement of Fate and Finality, yang menyebabkan Stagnate pada target, memberikan  Havoc DMG (dianggap sebagai Resonance Skill DMG), dan mengakhiri status Reincarnate setelahnya.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Murmurs in a Haunting Dream",
+          "description": "Saat berada dalam status Reincarnate, tekan Resonance Skill di darat untuk melancarkan Murmurs in a Haunting Dream, memberikan  Havoc DMG (dianggap sebagai Resonance Skill DMG), dan mengakhiri status Reincarnate setelahnya.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Aftersound",
+          "description": "Phrolova dapat menampung hingga 24 stack Aftersound.\nSaat Phrolova bukan Resonator aktif, melancarkan Enhanced Attack – Hecate: Strings, Enhanced Attack - Hecate: Winds, atau Enhanced Attack - Hecate: Cadenza akan memberikan 1 stack Aftersound.\nSaat Phrolova berada di luar pertarungan, seluruh stack Aftersound akan dihapus setiap 30 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Volatile Note",
+          "description": "Phrolova dapat menampung hingga 6 Volatile Notes.\nSaat jumlahnya mencapai batas maksimum, mendapatkan Volatile Notes baru akan menggeser semua Volatile Notes satu slot ke kiri, dan Volatile Note - Strings atau Volatile Note - Winds paling kiri akan dihapus.\nMengenai target dengan Basic Attack Stage 3 atau Movement of Fate and Finality memberikan 1 Volatile Note - Strings.\nMengenai target dengan Resonance Skill Whispers in a Fleeting Dream atau Resonance Skill Murmurs in a Haunting Dream memberikan 1 Volatile Note - Winds.\nSaat Inherent Skill - Accidental diaktifkan, melancarkan Suite of Quietus, Suite of Immortality, atau Echo Skill akan memberikan 1 Volatile Note - Cadenza.\nPhrolova tidak dapat memperoleh Volatile Notes selama berada dalam kondisi Resolving Chord.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Accidental",
-        "description": "Menggunakan Echo Skill memberikan peningkatan ketahanan terhadap interruption dan mengurangi damage yang diterima sebesar 30% selama 15 detik.\nSetelah menggunakan Suite of Quietus, Suite of Immortality dan Echo Skill, Volatile Notes berikutnya akan menjadi Volatile Note - Cadenza."
+        "effects": [
+          {
+            "title": "",
+            "description": "Menggunakan Echo Skill memberikan peningkatan ketahanan terhadap interruption dan mengurangi damage yang diterima sebesar 30% selama 15 detik.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Setelah menggunakan Suite of Quietus, Suite of Immortality dan Echo Skill, Volatile Notes berikutnya akan menjadi Volatile Note - Cadenza.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Octet",
-        "description": "Memperoleh 10 stack Aftersound saat memasuki pertempuran. Efek ini tidak dapat dipicu kembali dalam waktu 4 detik setelah keluar dari status bertarung.\nUntuk setiap 1 stack Aftersound, Crit. DMG meningkat sebesar 2,5%.\nSaat Aftersound mencapai jumlah maksimum, setiap stack tambahan akan meningkatkan Crit. DMG Phrolova sebesar 1%, hingga maksimum 100%.\nPeningkatan Crit. DMG ini akan hilang ketika semua stack Aftersound dihapus."
+        "effects": [
+          {
+            "title": "",
+            "description": "Memperoleh 10 stack Aftersound saat memasuki pertempuran. Efek ini tidak dapat dipicu kembali dalam waktu 4 detik setelah keluar dari status bertarung.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Untuk setiap 1 stack Aftersound, Crit. DMG meningkat sebesar 2,5%.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat Aftersound mencapai jumlah maksimum, setiap stack tambahan akan meningkatkan Crit. DMG Phrolova sebesar 1%, hingga maksimum 100%.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Peningkatan Crit. DMG ini akan hilang ketika semua stack Aftersound dihapus.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Suite Of Quietus",
-      "description": "Suite of Quietus\nMenyerang target dan memberikan  Havoc DMG.\nTekan Normal Attack sesaat setelah skill ini digunakan untuk melancarkan Basic Attack Stage 3.\n\nSuite of Immortality\nSaat berada dalam status Maestro, Suite of Quietus berikutnya akan digantikan oleh Suite of Immortality. Penggantian ini akan dibatalkan jika Curtain Call digunakan selama status tersebut aktif. Suite of Immortality memberikan  Havoc DMG (dianggap sebagai Resonance Skill DMG) dan menyebabkan Stagnate pada target.\nTekan Normal Attack sesaat setelah skill ini digunakan untuk melancarkan Basic Attack Stage 3."
+      "effects": [
+        {
+          "title": "Suite of Quietus",
+          "description": "Menyerang target dan memberikan  Havoc DMG.\nTekan Normal Attack sesaat setelah skill ini digunakan untuk melancarkan Basic Attack Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Suite of Immortality",
+          "description": "Saat berada dalam status Maestro, Suite of Quietus berikutnya akan digantikan oleh Suite of Immortality. Penggantian ini akan dibatalkan jika Curtain Call digunakan selama status tersebut aktif. Suite of Immortality memberikan  Havoc DMG (dianggap sebagai Resonance Skill DMG) dan menyebabkan Stagnate pada target.\nTekan Normal Attack sesaat setelah skill ini digunakan untuk melancarkan Basic Attack Stage 3.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "outro": {
       "name": "Unfinished Piece",
-      "description": "Resonator yang masuk ke field memperoleh 20%  Havoc DMG Amplification dan 25% Heavy Attack DMG Amplification selama 14 detik atau hingga diganti.\n\nJika Phrolova berada dalam kondisi Maestro saat melancarkan skill ini, Hecate juga akan melancarkan Enhanced Attack – Hecate sebanyak 2 kali ketika Phrolova keluar dari medan tempur selama durasi Maestro yang sama."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk ke field memperoleh 20%  Havoc DMG Amplification dan 25% Heavy Attack DMG Amplification selama 14 detik atau hingga diganti.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Phrolova berada dalam kondisi Maestro saat melancarkan skill ini, Hecate juga akan melancarkan Enhanced Attack – Hecate sebanyak 2 kali ketika Phrolova keluar dari medan tempur selama durasi Maestro yang sama.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -399,32 +548,113 @@
     {
       "stage": "S1",
       "name": "A Key To Netherworld'S Secrets",
-      "description": "DMG Multiplier untuk Movement of Fate and Finality meningkat sebesar 80%.\nDMG Multiplier untuk Murmurs in a Haunting Dream juga meningkat sebesar 80%.\n\nJika Phrolova memiliki kurang dari 2 Volatile Notes saat tidak berada dalam kondisi Maestro dan berada di luar pertarungan selama 4 detik, ia akan memperoleh Volatile Note - Cadenza hingga jumlah Volatile Notes-nya mencapai setidaknya 2."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier untuk Movement of Fate and Finality meningkat sebesar 80%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG Multiplier untuk Murmurs in a Haunting Dream juga meningkat sebesar 80%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Phrolova memiliki kurang dari 2 Volatile Notes saat tidak berada dalam kondisi Maestro dan berada di luar pertarungan selama 4 detik, ia akan memperoleh Volatile Note - Cadenza hingga jumlah Volatile Notes-nya mencapai setidaknya 2.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "A Rope Tied To A Life Beyond",
-      "description": "DMG Multiplier untuk Scarlet Coda meningkat sebesar 75%.\nAftersound kini juga meningkatkan DMG Multiplier dari Scarlet Coda sebesar 75%.\n\nMengaktifkan Scarlet Coda memberikan 14 stack Aftersound."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier untuk Scarlet Coda meningkat sebesar 75%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Aftersound kini juga meningkatkan DMG Multiplier dari Scarlet Coda sebesar 75%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Mengaktifkan Scarlet Coda memberikan 14 stack Aftersound.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "A Dagger To Cut Clean Obsessions",
-      "description": "Echo Skill DMG diperkuat sebesar 80%.\nMengaktifkan Scarlet Coda akan mengubah semua Volatile Notes menjadi Volatile Note - Cadenza secara berurutan.\n\nTarget yang terkena Enhanced Attack - Hecate: Cadenza akan mengalami pengurangan ATK sebesar 20% selama 15 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Echo Skill DMG diperkuat sebesar 80%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Mengaktifkan Scarlet Coda akan mengubah semua Volatile Notes menjadi Volatile Note - Cadenza secara berurutan.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Target yang terkena Enhanced Attack - Hecate: Cadenza akan mengalami pengurangan ATK sebesar 20% selama 15 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "A Torch Illuminating The Path",
-      "description": "Mengaktifkan Echo Skill memberikan Attribute DMG Bonus sebesar 20% kepada semua Resonator dalam tim selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mengaktifkan Echo Skill memberikan Attribute DMG Bonus sebesar 20% kepada semua Resonator dalam tim selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "A Forked Road In Fate'S Heartland",
-      "description": "Saat memasuki status Maestro, menciptakan sebuah field yang menyebabkan Stagnation pada musuh di sekitarnya selama 4 detik. Efek Stagnation akan berakhir lebih awal jika keluar dari status Maestro atau berpindah ke Resonator lain.\nSelama berada dalam status Maestro, damage yang diterima berkurang sebesar 30%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat memasuki status Maestro, menciptakan sebuah field yang menyebabkan Stagnation pada musuh di sekitarnya selama 4 detik. Efek Stagnation akan berakhir lebih awal jika keluar dari status Maestro atau berpindah ke Resonator lain.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Selama berada dalam status Maestro, damage yang diterima berkurang sebesar 30%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "A Night To Depart From Eternal Rest",
-      "description": "Multiplier Enhanced Attack – Hecate meningkat sebesar 24%.\n\nSaat menggunakan Movement of Fate and Finality atau Murmurs in a Haunting Dream, perintahkan Hecate untuk mengeluarkan 1 Apparition of Beyond - Hecate, memberikan  Havoc DMG setara 216,42% dari ATK Phrolova (dianggap sebagai Echo Skill DMG) dan memberikan 8 stack Aftersound saat mengenai musuh.\n\nJika Phrolova bukan Resonator aktif selama dalam status Maestro, target menerima 40% lebih banyak DMG dari serangan Hecate dan Phrolova. Jika Phrolova adalah Resonator aktif dalam status Maestro, memperoleh 60%  Havoc DMG Bonus."
+      "effects": [
+        {
+          "title": "",
+          "description": "Multiplier Enhanced Attack – Hecate meningkat sebesar 24%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat menggunakan Movement of Fate and Finality atau Murmurs in a Haunting Dream, perintahkan Hecate untuk mengeluarkan 1 Apparition of Beyond - Hecate, memberikan  Havoc DMG setara 216,42% dari ATK Phrolova (dianggap sebagai Echo Skill DMG) dan memberikan 8 stack Aftersound saat mengenai musuh.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Phrolova bukan Resonator aktif selama dalam status Maestro, target menerima 40% lebih banyak DMG dari serangan Hecate dan Phrolova. Jika Phrolova adalah Resonator aktif dalam status Maestro, memperoleh 60%  Havoc DMG Bonus.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

@@ -17,7 +17,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Jinzhou",
@@ -180,37 +181,140 @@
   "skills": {
     "basic": {
       "name": "Gnawing Fangs",
-      "description": "Basic Attack\nCalcharo melakukan hingga 4 serangan beruntun, memberikan Electro DMG.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target, memberikan Electro DMG.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Mid-Air Plunging Attack, memberikan Electro DMG.\n\nDodge Counter\nMenggunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Calcharo melakukan hingga 4 serangan beruntun, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Mid-Air Plunging Attack, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Menggunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Extermination Order",
-      "description": "Calcharo melakukan hingga 3 serangan beruntun, memberikan Electro DMG.\nJika Calcharo ditarik dari field, atau jika Resonance Skill Extermination Order tidak diaktifkan kembali dalam beberapa waktu, skill ini akan memasuki Cooldown.\nResonance Skill Extermination Order tidak menghentikan siklus Basic Attack Calcharo."
+      "effects": [
+        {
+          "title": "",
+          "description": "Calcharo melakukan hingga 3 serangan beruntun, memberikan Electro DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Calcharo ditarik dari field, atau jika Resonance Skill Extermination Order tidak diaktifkan kembali dalam beberapa waktu, skill ini akan memasuki Cooldown.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Resonance Skill Extermination Order tidak menghentikan siklus Basic Attack Calcharo.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Phantom Etching",
-      "description": "Calcharo menyerang target, memberikan Electro DMG dan memasuki status Deathblade Gear. Setelah status Deathblade Gear berakhir, Intro Skill Calcharo berikutnya digantikan dengan Intro Skill \"Necessary Means\", yang memberikan Electro DMG, yang dianggap sebagai Intro Skill DMG.\n\nDeathblade Gear\n- Basic Attack digantikan dengan Basic Attack Hounds Roar.\n- Heavy Attack memberikan DMG yang meningkat, dianggap sebagai Resonance Liberation DMG.\n- Dodge Counter memberikan DMG yang meningkat, dianggap sebagai Resonance Liberation DMG.\n\nBasic Attack: Hounds Roar\nCalcharo melakukan hingga 5 serangan beruntun, memberikan Electro DMG, yang dianggap sebagai Basic Attack DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Calcharo menyerang target, memberikan Electro DMG dan memasuki status Deathblade Gear. Setelah status Deathblade Gear berakhir, Intro Skill Calcharo berikutnya digantikan dengan Intro Skill \"Necessary Means\", yang memberikan Electro DMG, yang dianggap sebagai Intro Skill DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Deathblade Gear",
+          "description": "- Basic Attack digantikan dengan Basic Attack Hounds Roar.\n- Heavy Attack memberikan DMG yang meningkat, dianggap sebagai Resonance Liberation DMG.\n- Dodge Counter memberikan DMG yang meningkat, dianggap sebagai Resonance Liberation DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack: Hounds Roar",
+          "description": "Calcharo melakukan hingga 5 serangan beruntun, memberikan Electro DMG, yang dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Hunting Mission",
-      "description": "Heavy Attack: \"Mercy\"\nSaat Calcharo memiliki 3 \"Cruelty\", Heavy Attack miliknya digantikan dengan Heavy Attack \"Mercy.\"\nSaat melancarkan Heavy Attack \"Mercy\", Calcharo mengonsumsi 3 \"Cruelty\" untuk memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG, serta memulihkan Resonance Energy dan Concerto Energy.\n\n\"Cruelty\"\nCalcharo dapat menyimpan hingga 3 \"Cruelty.\"\nDalam status Resonance Liberation Deathblade Gear, \"Cruelty\" tidak dapat diperoleh.\nSaat Resonance Skill Extermination Order mengenai target, dapatkan 1 \"Cruelty.\"\n\nHeavy Attack: \"Death Messenger\"\nSaat Calcharo memiliki 5 \"Killing Intent\", Basic Attack miliknya digantikan dengan Heavy Attack \"Death Messenger.\"\nSaat melancarkan Heavy Attack \"Death Messenger,\" Calcharo mengonsumsi 5 \"Killing Intent\" untuk memberikan Electro DMG, yang dianggap sebagai Resonance Liberation DMG, serta memulihkan Resonance Energy dan Concerto Energy.\n\n\"Killing Intent\"\nDalam status Resonance Liberation Deathblade Gear, Forte Gauge Calcharo digantikan dengan \"Killing Intent\", yang dapat ditumpuk hingga 5.\nSaat Basic Attack Hounds Roar mengenai target, Calcharo mendapatkan 1 \"Killing Intent.\""
+      "effects": [
+        {
+          "title": "Heavy Attack: \"Mercy\"",
+          "description": "Saat Calcharo memiliki 3 \"Cruelty\", Heavy Attack miliknya digantikan dengan Heavy Attack \"Mercy.\"\nSaat melancarkan Heavy Attack \"Mercy\", Calcharo mengonsumsi 3 \"Cruelty\" untuk memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG, serta memulihkan Resonance Energy dan Concerto Energy.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "\"Cruelty\"",
+          "description": "",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Calcharo dapat menyimpan hingga 3 \"Cruelty.\"",
+          "description": "Dalam status Resonance Liberation Deathblade Gear, \"Cruelty\" tidak dapat diperoleh.\nSaat Resonance Skill Extermination Order mengenai target, dapatkan 1 \"Cruelty.\"",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack: \"Death Messenger\"",
+          "description": "Saat Calcharo memiliki 5 \"Killing Intent\", Basic Attack miliknya digantikan dengan Heavy Attack \"Death Messenger.\"\nSaat melancarkan Heavy Attack \"Death Messenger,\" Calcharo mengonsumsi 5 \"Killing Intent\" untuk memberikan Electro DMG, yang dianggap sebagai Resonance Liberation DMG, serta memulihkan Resonance Energy dan Concerto Energy.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "\"Killing Intent\"",
+          "description": "Dalam status Resonance Liberation Deathblade Gear, Forte Gauge Calcharo digantikan dengan \"Killing Intent\", yang dapat ditumpuk hingga 5.\nSaat Basic Attack Hounds Roar mengenai target, Calcharo mendapatkan 1 \"Killing Intent.\"",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Bloodshed Awaken",
-        "description": "Melancarkan Heavy Attack Mercy memberikan Calcharo 10% Resonance Liberation DMG Bonus selama 15 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Melancarkan Heavy Attack Mercy memberikan Calcharo 10% Resonance Liberation DMG Bonus selama 15 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Revenant Rush",
-        "description": "Saat Heavy Attack \"Death Messenger\" mengenai target, damage yang diterima oleh Calcharo berkurang sebesar 15% selama 5 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Heavy Attack \"Death Messenger\" mengenai target, damage yang diterima oleh Calcharo berkurang sebesar 15% selama 5 detik.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Wanted Outlaw",
-      "description": "Menyerang target, memberikan Electro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Shadowy Raid",
-      "description": "Calcharo memanggil Phantom untuk mendukung Resonator yang aktif, menyapu target di depan dengan sebuah tebasan. Serangan Phantom memberikan Electro DMG sebesar 195.98%+391.96% dari ATK Calcharo."
+      "effects": [
+        {
+          "title": "",
+          "description": "Calcharo memanggil Phantom untuk mendukung Resonator yang aktif, menyapu target di depan dengan sebuah tebasan. Serangan Phantom memberikan Electro DMG sebesar 195.98%+391.96% dari ATK Calcharo.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -338,32 +442,68 @@
     {
       "stage": "S1",
       "name": "Covert Negotiation",
-      "description": "Saat Resonance Skill Extermination Order mengenai target, ia memulihkan tambahan 10 Resonance Energy. Efek ini dapat dipicu sekali setiap 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Resonance Skill Extermination Order mengenai target, ia memulihkan tambahan 10 Resonance Energy. Efek ini dapat dipicu sekali setiap 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Zero-Sum Game",
-      "description": "Setelah Calcharo melancarkan Intro Skill Wanted Criminal atau Intro Skill \"Necessary Means\", Resonance Skill DMG Bonus miliknya meningkat sebesar 30% selama 15 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah Calcharo melancarkan Intro Skill Wanted Criminal atau Intro Skill \"Necessary Means\", Resonance Skill DMG Bonus miliknya meningkat sebesar 30% selama 15 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Iron Fist Diplomacy",
-      "description": "Selama status Resonance Liberation Deathblade Gear, Electro DMG Bonus Calcharo meningkat sebesar 25%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Selama status Resonance Liberation Deathblade Gear, Electro DMG Bonus Calcharo meningkat sebesar 25%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Dark Alliance",
-      "description": "Setelah melancarkan Outro Skill Shadowy Raid, Electro DMG Bonus dari semua anggota tim meningkat sebesar 20% selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah melancarkan Outro Skill Shadowy Raid, Electro DMG Bonus dari semua anggota tim meningkat sebesar 20% selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Unconventional Compact",
-      "description": "Intro Skill Wanted Criminal dan Intro Skill \"Necessary Means\" memberikan 50% DMG lebih banyak."
+      "effects": [
+        {
+          "title": "",
+          "description": "Intro Skill Wanted Criminal dan Intro Skill \"Necessary Means\" memberikan 50% DMG lebih banyak.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "The Ultimatum",
-      "description": "Saat melancarkan Resonance Liberation \"Death Messenger\", Calcharo akan memanggil 2 Phantoms untuk melakukan Coordinated Attacks. Setiap Phantom memberikan Electro DMG sebesar 100.00% dari ATK Calcharo, yang dianggap sebagai Resonance Liberation DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat melancarkan Resonance Liberation \"Death Messenger\", Calcharo akan memanggil 2 Phantoms untuk melakukan Coordinated Attacks. Setiap Phantom memberikan Electro DMG sebesar 100.00% dari ATK Calcharo, yang dianggap sebagai Resonance Liberation DMG.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

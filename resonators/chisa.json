@@ -17,7 +17,8 @@
     {
       "text": "Minimal update",
       "type": "updated",
-      "isNew": false
+      "isNew": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Black Shores",
@@ -196,37 +197,200 @@
   "skills": {
     "basic": {
       "name": "Reign Of Silence",
-      "description": "Basic Attack\nMelakukan hingga 2 serangan beruntun, memberikan  Havoc DMG. \nTekan Normal Attack segera setelah melancarkan Basic Attack Stage 2 untuk melancarkan Rending Lunge.\n\nRending Lunge\nMemberikan  Havoc DMG. \nTekan Normal Attack segera setelah melancarkan Rending Lunge di darat untuk melancarkan Death Snip. Gunakan Normal Attack segera setelah melancarkan Rending Lunge di udara untuk melancarkan Hanging Finality.\n\nDeath Snip\nBuka gunting, memberikan  Havoc DMG. \nSetelah beberapa saat, gunting menjepit, memberikan  Havoc DMG dan memulihkan HP untuk semua Resonators tim terdekat. Gunakan Normal Attack selama Death Snip untuk memberikan Havoc DMG tambahan. Gunakan Normal Attack lagi untuk segera menjepit target. Skill DMG ini dianggap sebagai Resonance Liberation DMG. Tekan Normal Attack segera setelah melancarkan Death Snip untuk melancarkan Thread Withdrawn.\n\nThread Withdrawn\nMemberikan  Havoc DMG. \nDapat memicu successful Dodge dalam periode waktu tertentu setelah dilancarkan.\n\nHeavy Attack\nLompat ke udara dan menggunakan STA untuk menyerang target, memberikan  Havoc DMG. \nSkill Heavy Attack ini tidak dapat dilancarkan saat berada dalam Chainsaw Mode. Lakukan tindakan berikut dalam periode waktu tertentu setelah melancarkan Heavy Attack untuk melancarkan Hanging Finality:\n- Tekan Normal Attack;\n- Lancarkan Lifethread - Glide dan Tekan Normal Attack sebelum mendarat. \nTahan Normal Attack sebelum mendarat setelah melancarkan Heavy Attack untuk melancarkan Heavy Attack - Severed Facet.\n\nMid-air Attack\nMenggunakan STA untuk melakukan Plunging Attack, memberikan  Havoc DMG. \nSaat tidak dalam Chainsaw Mode, Tekan Normal Attack dalam periode waktu tertentu setelah melancarkan Mid-air Attack untuk melancarkan Basic Attack Stage 2.\n\nHeavy Attack - Severed Facet\nMemberikan  Havoc DMG. \nGunakan Normal Attack dalam periode waktu tertentu setelah melancarkan Heavy Attack - Severed Facet untuk melancarkan Hanging Finality. Jika terinterupsi, Heavy Attack - Severed Facet dapat dilancarkan kembali dengan menahan Normal Attack sebelum mendarat. Efek ini hanya dapat dipicu satu kali sebelum mendarat.\n\nHanging Finality\nMenggunakan STA untuk melakukan Plunging Attack, memberikan  Havoc DMG. \nTekan Normal Attack segera setelah melancarkan Hanging Finality di darat untuk melancarkan Death Snip.\n\nDodge Counter\nTekan Normal Attack tepat setelah successful Dodge untuk menyerang target, memberikan  Havoc DMG. \nTekan Normal Attack segera setelah melancarkan Dodge Counter untuk melancarkan Rending Lunge.\n\nDodge Counter - Eye of Unraveling: Retraction\nTahan Dodge setelah successful Dodge di darat untuk melancarkan Dodge Counter - Eye of Unraveling: Retraction. Aksi ini menyerang dan Stagnate target, memberikan  Havoc DMG.\n- Saat tidak dalam Chainsaw Mode, setelah melancarkan skill ini, Tekan Normal Attack di darat atau Gunakan Normal Attack di udara untuk melancarkan Rending Lunge. Efek ini hilang saat Chisa memasuki Chainsaw Mode.\n- Saat dalam Chainsaw Mode, Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Sawring - Blitz Stage 3."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 2 serangan beruntun, memberikan  Havoc DMG.\nTekan Normal Attack segera setelah melancarkan Basic Attack Stage 2 untuk melancarkan Rending Lunge.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Rending Lunge",
+          "description": "Memberikan  Havoc DMG.\nTekan Normal Attack segera setelah melancarkan Rending Lunge di darat untuk melancarkan Death Snip. Gunakan Normal Attack segera setelah melancarkan Rending Lunge di udara untuk melancarkan Hanging Finality.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Death Snip",
+          "description": "Buka gunting, memberikan  Havoc DMG.\nSetelah beberapa saat, gunting menjepit, memberikan  Havoc DMG dan memulihkan HP untuk semua Resonators tim terdekat. Gunakan Normal Attack selama Death Snip untuk memberikan Havoc DMG tambahan. Gunakan Normal Attack lagi untuk segera menjepit target. Skill DMG ini dianggap sebagai Resonance Liberation DMG. Tekan Normal Attack segera setelah melancarkan Death Snip untuk melancarkan Thread Withdrawn.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Thread Withdrawn",
+          "description": "Memberikan  Havoc DMG.\nDapat memicu successful Dodge dalam periode waktu tertentu setelah dilancarkan.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Lompat ke udara dan menggunakan STA untuk menyerang target, memberikan  Havoc DMG.\nSkill Heavy Attack ini tidak dapat dilancarkan saat berada dalam Chainsaw Mode. Lakukan tindakan berikut dalam periode waktu tertentu setelah melancarkan Heavy Attack untuk melancarkan Hanging Finality:\n- Tekan Normal Attack;\n- Lancarkan Lifethread - Glide dan Tekan Normal Attack sebelum mendarat.\nTahan Normal Attack sebelum mendarat setelah melancarkan Heavy Attack untuk melancarkan Heavy Attack - Severed Facet.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Menggunakan STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.\nSaat tidak dalam Chainsaw Mode, Tekan Normal Attack dalam periode waktu tertentu setelah melancarkan Mid-air Attack untuk melancarkan Basic Attack Stage 2.\nHeavy Attack - Severed Facet\nMemberikan  Havoc DMG.\nGunakan Normal Attack dalam periode waktu tertentu setelah melancarkan Heavy Attack - Severed Facet untuk melancarkan Hanging Finality. Jika terinterupsi, Heavy Attack - Severed Facet dapat dilancarkan kembali dengan menahan Normal Attack sebelum mendarat. Efek ini hanya dapat dipicu satu kali sebelum mendarat.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Hanging Finality",
+          "description": "Menggunakan STA untuk melakukan Plunging Attack, memberikan  Havoc DMG.\nTekan Normal Attack segera setelah melancarkan Hanging Finality di darat untuk melancarkan Death Snip.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Normal Attack tepat setelah successful Dodge untuk menyerang target, memberikan  Havoc DMG.\nTekan Normal Attack segera setelah melancarkan Dodge Counter untuk melancarkan Rending Lunge.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Eye of Unraveling: Retraction",
+          "description": "Tahan Dodge setelah successful Dodge di darat untuk melancarkan Dodge Counter - Eye of Unraveling: Retraction. Aksi ini menyerang dan Stagnate target, memberikan  Havoc DMG.\n- Saat tidak dalam Chainsaw Mode, setelah melancarkan skill ini, Tekan Normal Attack di darat atau Gunakan Normal Attack di udara untuk melancarkan Rending Lunge. Efek ini hilang saat Chisa memasuki Chainsaw Mode.\n- Saat dalam Chainsaw Mode, Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Sawring - Blitz Stage 3.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Fractured Composition",
-      "description": "Eye of Unraveling\nStagnate target dan memberikan  Havoc DMG.\n- Saat tidak dalam Chainsaw Mode, setelah melancarkan skill ini, Tekan Normal Attack di darat atau Gunakan Normal Attack di udara untuk melancarkan Rending Lunge. Efek ini hilang saat Chisa memasuki Chainsaw Mode.\n- Saat dalam Chainsaw Mode dan berada di darat, Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Sawring - Blitz Stage 2. Skill ini dapat dilancarkan di udara.\n\nSerrated Loop\nSaat berada di darat dan Ring of Chainsaw penuh, Resonance Skill diganti dengan Serrated Loop. Stagnate target, memberikan  Havoc DMG dan menarik target terdekat. Melancarkan skill ini membuat Chisa memasuki Chainsaw Mode dan mengganti Resonance Skill dengan Eye of Unraveling. Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Sawring - Blitz Stage 2. \nTahan Resonance Skill saat melancarkan skill ini untuk terus menyerang dan menarik target terdekat. Lepaskan tombol Resonance Skill selama durasi atau tahan terus selama periode waktu tertentu untuk melancarkan Sawring - Blitz Stage 1."
+      "effects": [
+        {
+          "title": "Eye of Unraveling",
+          "description": "Stagnate target dan memberikan  Havoc DMG.\n- Saat tidak dalam Chainsaw Mode, setelah melancarkan skill ini, Tekan Normal Attack di darat atau Gunakan Normal Attack di udara untuk melancarkan Rending Lunge. Efek ini hilang saat Chisa memasuki Chainsaw Mode.\n- Saat dalam Chainsaw Mode dan berada di darat, Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Sawring - Blitz Stage 2. Skill ini dapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Serrated Loop",
+          "description": "Saat berada di darat dan Ring of Chainsaw penuh, Resonance Skill diganti dengan Serrated Loop. Stagnate target, memberikan  Havoc DMG dan menarik target terdekat. Melancarkan skill ini membuat Chisa memasuki Chainsaw Mode dan mengganti Resonance Skill dengan Eye of Unraveling. Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Sawring - Blitz Stage 2.\nTahan Resonance Skill saat melancarkan skill ini untuk terus menyerang dan menarik target terdekat. Lepaskan tombol Resonance Skill selama durasi atau tahan terus selama periode waktu tertentu untuk melancarkan Sawring - Blitz Stage 1.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Moment Of Nihility",
-      "description": "Memberikan  Havoc DMG dan memulihkan HP untuk semua Resonators tim terdekat. Melancarkan skill ini membuat Chisa memasuki Woven Myriad - Convergence selama 15 detik. Saat tidak dalam Chainsaw Mode, Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 2. Skill ini dapat dilancarkan di udara dekat daratan.\n\nWoven Myriad - Convergence\nDMG Multiplier dari Sawring - Blitz, Chainsaw Mode - Dodge Counter, dan Sawring - Eradication meningkat sebesar 120%. Bonus DMG Multiplier untuk Sawring - Eradication yang diberikan oleh Sawring - Blitz dan Chainsaw Mode - Dodge Counter saat Ring of Chainsaw digunakan akan meningkat tambahan sebesar 120%. Melancarkan Sawring - Eradication mengakhiri Woven Myriad - Convergence."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan  Havoc DMG dan memulihkan HP untuk semua Resonators tim terdekat. Melancarkan skill ini membuat Chisa memasuki Woven Myriad - Convergence selama 15 detik. Saat tidak dalam Chainsaw Mode, Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 2. Skill ini dapat dilancarkan di udara dekat daratan.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Woven Myriad - Convergence",
+          "description": "DMG Multiplier dari Sawring - Blitz, Chainsaw Mode - Dodge Counter, dan Sawring - Eradication meningkat sebesar 120%. Bonus DMG Multiplier untuk Sawring - Eradication yang diberikan oleh Sawring - Blitz dan Chainsaw Mode - Dodge Counter saat Ring of Chainsaw digunakan akan meningkat tambahan sebesar 120%. Melancarkan Sawring - Eradication mengakhiri Woven Myriad - Convergence.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Sight Of Unraveling - Oblivion",
-      "description": "Unseen Snare\nChisa memberikan Unseen Snare pada target selama 30 detik melalui 4 cara berikut:\n- Mengenai target dengan Resonance Skill.\n- Mengenai target dalam periode waktu tertentu setelah melancarkan Serrated Loop.\n- Mengenai target dengan Dodge Counter - Eye of Unraveling: Retraction.\n- Melakukan Locking pada target. Ketika target yang ditandai Unseen Snare menerima direct damage dari Resonators, Chisa memberikan 1 stack Havoc Bane pada mereka. Efek ini dapat dipicu hingga sekali setiap 2 detik.\n\nThread of Bane\nKetika memberikan damage kepada target yang terkena Unseen Snare, mengabaikan 18% dari DEF mereka.\n\nChainsaw Mode\nSaat berada dalam Chainsaw Mode, Chisa unlock skill Sawring - Blitz, Sawring - Eradication, Chainsaw Mode - Dodge Counter. Sawring - Blitz dan Chainsaw Mode - Dodge Counter menggunakan Ring of Chainsaw saat mengenai target.\n\nSawring - Blitz\nSawring - Blitz merangkai hingga 3 serangan beruntun, memberikan  Havoc DMG. \n- Tekan Normal Attack untuk memulai kombo dari Sawring - Blitz Stage 1. \n- Tahan Normal Attack untuk memulai dari Sawring - Blitz Stage 2. Tahan Normal Attack saat melancarkan Sawring - Blitz Stage 2 untuk terus menyerang target. Sawring - Blitz Stage 2 secara otomatis dilanjutkan dengan Sawring - Blitz Stage 3. Saat melancarkan Sawring - Blitz Stage 2, Lepaskan tombol Normal Attack atau Dodge tanpa input arah untuk secara otomatis melancarkan Sawring - Blitz Stage 2: Discordance, memberikan  Havoc DMG. \nSegera setelah melancarkan Sawring - Blitz Stage 2: Discordance, successful Dodge dapat dipicu. Tekan Normal Attack segera setelah melancarkan Sawring - Blitz Stage 2: Discordance untuk melancarkan Sawring - Blitz Stage 3. Saat melancarkan Sawring - Blitz Stage 3, Tahan Normal Attack untuk terus menyerang target. \nSawring - Blitz Stage 3 secara otomatis dilanjutkan dengan Sawring - Eradication. \nLepaskan Normal Attack selama Sawring - Blitz Stage 3 untuk secara otomatis melancarkan Sawring - Blitz Stage 3: Falltone, memberikan  Havoc DMG. \nSawring - Blitz DMG dianggap sebagai Resonance Liberation DMG.\n\nChainsaw Mode - Dodge Counter\nSaat dalam Chainsaw Mode, Tekan Normal Attack setelah successful Dodge untuk melancarkan Chainsaw Mode - Dodge Counter, memberikan  Havoc DMG. \nTekan Normal Attack setelah Chainsaw Mode - Dodge Counter untuk melancarkan Sawring - Blitz Stage 3. Tahan Normal Attack saat melancarkan Chainsaw Mode - Dodge Counter untuk mempertahankan serangan. Ketika Chainsaw Mode - Dodge Counter berakhir, Sawring - Blitz Stage 3 dilancarkan secara otomatis. \nLepaskan tombol Normal Attack atau Dodge tanpa input arah saat melancarkan Chainsaw Mode - Dodge Counter untuk secara otomatis melancarkan Sawring - Blitz Stage 2: Discordance. Chainsaw Mode - Dodge Counter memberikan Resonance Liberation DMG.\n\nSawring - Eradication\nSaat dalam Chainsaw Mode, Chisa melancarkan Sawring - Eradication melalui 2 cara berikut:\n- Tekan Normal Attack setelah melancarkan Sawring - Blitz Stage 3: Falltone.\n- Tekan Normal Attack setelah menggunakan semua Ring of Chainsaw dengan Sawring - Blitz atau Chainsaw Mode - Dodge Counter. \n- Menyerang target dengan Sawring - Eradication memberikan  Havoc DMG dan memberikan Shield kepada semua Resonators tim terdekat selama 30 detik. Skill DMG ini dianggap sebagai Resonance Liberation DMG. Setiap 1 poin Ring of Chainsaw yang digunakan oleh Sawring - Blitz dan Chainsaw Mode - Dodge Counter akan meningkatkan DMG Multiplier dari Sawring - Eradication berikutnya. \n- Maksimal 100 poin akan dihitung untuk efek ini. Melancarkan skill ini menggunakan semua Ring of Chainsaw dan mengakhiri Chainsaw Mode\n\nChainsaw Fever\nSaat dalam Chainsaw Mode, Lifethread - Jetstream diganti dengan Chainsaw Fever. \nChainsaw Fever berada pada 100% secara default. Ketika Chisa tidak memberikan damage selama periode waktu tertentu, Chainsaw Fever akan berkurang dengan cepat. \nBegitu mencapai 0, Chisa memasuki Burnout State dan keluar dari Chainsaw Mode. Saat dalam Chainsaw Mode, Chisa mengatur ulang Chainsaw Fever saat memberikan damage atau saat melancarkan Resonance Liberation Moment of Nihility, Intro Skill Reverberance - Return dan Sawring - Blitz Stage 3: Falltone. \nSaat dalam Burnout State, Ring of Chainsaw akan berkurang dengan cepat. Begitu mencapai 0, Chisa keluar dari Burnout State. Saat dalam Burnout State, Chisa keluar dari status ini setelah memberikan damage, atau melancarkan Resonance Liberation Moment of Nihility dan Intro Skill Reverberance - Return.\n\nLifethread - Glide\nKetika Chisa tidak dalam Chainsaw Mode dan memiliki lebih dari 10 poin Lifethread - Jetstream, dia dapat menggunakan 50 poin Lifethread - Jetstream untuk melancarkan Lifethread - Glide melalui 5 cara berikut:\n- Tekan Dodge di udara sebelum mendarat setelah melancarkan Heavy Attack.\n- Saat di udara, Tekan Dodge sebelum mendarat setelah melancarkan Resonance Skill Eye of Unraveling atau Rending Lunge.\n- Dodge maju segera setelah melancarkan Thread Withdrawn.\n- Tekan Dodge sebelum mendarat ketika diluncurkan ke udara.\n- Tekan Dodge sebelum mendarat setelah melancarkan Lifethread - Glide. \nMelancarkan skill ini dapat menarik musuh terdekat yang ditandai Unseen Snare. \nSelama skill, Tahan Dodge untuk meluncur dengan jarak pendek menggunakan senjata. Successful Dodge dapat dipicu dalam periode waktu tertentu setelah melancarkan skill ini.\n\nRing of Chainsaw\nChisa dapat menyimpan hingga 100 poin Ring of Chainsaw. \nMengenai target dengan Normal Attack dan Resonance Skill Eye of Unraveling memberikan RRing of Chainsaw. \nMelancarkan Resonance Liberation Moment of Nihility memberikan 40 poin Ring of Chainsaw.\nMelancarkan Intro Skill Reverberance - Return memberikan 20 poin Ring of Chainsaw.\n\nLifethread - Jetstream\nChisa dapat menyimpan hingga 100 poin Lifethread - Jetstream. \nChisa terus mendapatkan Lifethread - Jetstream seiring berjalannya waktu. \nChisa mendapatkan 100 poin Lifethread - Jetstream setelah mengalahkan target. \nKeluar dari Chainsaw Mode mengatur ulang Lifethread - Jetstream hingga batas maksimal. \nChisa tidak dapat memperoleh Lifethread - Jetstream secara pasif untuk periode waktu singkat setelah melancarkan Lifethread - Glide."
+      "effects": [
+        {
+          "title": "Unseen Snare",
+          "description": "Chisa memberikan Unseen Snare pada target selama 30 detik melalui 4 cara berikut:\n- Mengenai target dengan Resonance Skill.\n- Mengenai target dalam periode waktu tertentu setelah melancarkan Serrated Loop.\n- Mengenai target dengan Dodge Counter - Eye of Unraveling: Retraction.\n- Melakukan Locking pada target. Ketika target yang ditandai Unseen Snare menerima direct damage dari Resonators, Chisa memberikan 1 stack Havoc Bane pada mereka. Efek ini dapat dipicu hingga sekali setiap 2 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Thread of Bane",
+          "description": "Ketika memberikan damage kepada target yang terkena Unseen Snare, mengabaikan 18% dari DEF mereka.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Chainsaw Mode",
+          "description": "Saat berada dalam Chainsaw Mode, Chisa unlock skill Sawring - Blitz, Sawring - Eradication, Chainsaw Mode - Dodge Counter. Sawring - Blitz dan Chainsaw Mode - Dodge Counter menggunakan Ring of Chainsaw saat mengenai target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sawring - Blitz",
+          "description": "Sawring - Blitz merangkai hingga 3 serangan beruntun, memberikan  Havoc DMG.\n- Tekan Normal Attack untuk memulai kombo dari Sawring - Blitz Stage 1.\n- Tahan Normal Attack untuk memulai dari Sawring - Blitz Stage 2. Tahan Normal Attack saat melancarkan Sawring - Blitz Stage 2 untuk terus menyerang target. Sawring - Blitz Stage 2 secara otomatis dilanjutkan dengan Sawring - Blitz Stage 3. Saat melancarkan Sawring - Blitz Stage 2, Lepaskan tombol Normal Attack atau Dodge tanpa input arah untuk secara otomatis melancarkan Sawring - Blitz Stage 2: Discordance, memberikan  Havoc DMG.\nSegera setelah melancarkan Sawring - Blitz Stage 2: Discordance, successful Dodge dapat dipicu. Tekan Normal Attack segera setelah melancarkan Sawring - Blitz Stage 2: Discordance untuk melancarkan Sawring - Blitz Stage 3. Saat melancarkan Sawring - Blitz Stage 3, Tahan Normal Attack untuk terus menyerang target.\nSawring - Blitz Stage 3 secara otomatis dilanjutkan dengan Sawring - Eradication.\nLepaskan Normal Attack selama Sawring - Blitz Stage 3 untuk secara otomatis melancarkan Sawring - Blitz Stage 3: Falltone, memberikan  Havoc DMG.\nSawring - Blitz DMG dianggap sebagai Resonance Liberation DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Chainsaw Mode - Dodge Counter",
+          "description": "Saat dalam Chainsaw Mode, Tekan Normal Attack setelah successful Dodge untuk melancarkan Chainsaw Mode - Dodge Counter, memberikan  Havoc DMG.\nTekan Normal Attack setelah Chainsaw Mode - Dodge Counter untuk melancarkan Sawring - Blitz Stage 3. Tahan Normal Attack saat melancarkan Chainsaw Mode - Dodge Counter untuk mempertahankan serangan. Ketika Chainsaw Mode - Dodge Counter berakhir, Sawring - Blitz Stage 3 dilancarkan secara otomatis.\nLepaskan tombol Normal Attack atau Dodge tanpa input arah saat melancarkan Chainsaw Mode - Dodge Counter untuk secara otomatis melancarkan Sawring - Blitz Stage 2: Discordance. Chainsaw Mode - Dodge Counter memberikan Resonance Liberation DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sawring - Eradication",
+          "description": "Saat dalam Chainsaw Mode, Chisa melancarkan Sawring - Eradication melalui 2 cara berikut:\n- Tekan Normal Attack setelah melancarkan Sawring - Blitz Stage 3: Falltone.\n- Tekan Normal Attack setelah menggunakan semua Ring of Chainsaw dengan Sawring - Blitz atau Chainsaw Mode - Dodge Counter.\n- Menyerang target dengan Sawring - Eradication memberikan  Havoc DMG dan memberikan Shield kepada semua Resonators tim terdekat selama 30 detik. Skill DMG ini dianggap sebagai Resonance Liberation DMG. Setiap 1 poin Ring of Chainsaw yang digunakan oleh Sawring - Blitz dan Chainsaw Mode - Dodge Counter akan meningkatkan DMG Multiplier dari Sawring - Eradication berikutnya.\n- Maksimal 100 poin akan dihitung untuk efek ini. Melancarkan skill ini menggunakan semua Ring of Chainsaw dan mengakhiri Chainsaw Mode",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Chainsaw Fever",
+          "description": "Saat dalam Chainsaw Mode, Lifethread - Jetstream diganti dengan Chainsaw Fever.\nChainsaw Fever berada pada 100% secara default. Ketika Chisa tidak memberikan damage selama periode waktu tertentu, Chainsaw Fever akan berkurang dengan cepat.\nBegitu mencapai 0, Chisa memasuki Burnout State dan keluar dari Chainsaw Mode. Saat dalam Chainsaw Mode, Chisa mengatur ulang Chainsaw Fever saat memberikan damage atau saat melancarkan Resonance Liberation Moment of Nihility, Intro Skill Reverberance - Return dan Sawring - Blitz Stage 3: Falltone.\nSaat dalam Burnout State, Ring of Chainsaw akan berkurang dengan cepat. Begitu mencapai 0, Chisa keluar dari Burnout State. Saat dalam Burnout State, Chisa keluar dari status ini setelah memberikan damage, atau melancarkan Resonance Liberation Moment of Nihility dan Intro Skill Reverberance - Return.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Lifethread - Glide",
+          "description": "Ketika Chisa tidak dalam Chainsaw Mode dan memiliki lebih dari 10 poin Lifethread - Jetstream, dia dapat menggunakan 50 poin Lifethread - Jetstream untuk melancarkan Lifethread - Glide melalui 5 cara berikut:\n- Tekan Dodge di udara sebelum mendarat setelah melancarkan Heavy Attack.\n- Saat di udara, Tekan Dodge sebelum mendarat setelah melancarkan Resonance Skill Eye of Unraveling atau Rending Lunge.\n- Dodge maju segera setelah melancarkan Thread Withdrawn.\n- Tekan Dodge sebelum mendarat ketika diluncurkan ke udara.\n- Tekan Dodge sebelum mendarat setelah melancarkan Lifethread - Glide.\nMelancarkan skill ini dapat menarik musuh terdekat yang ditandai Unseen Snare.\nSelama skill, Tahan Dodge untuk meluncur dengan jarak pendek menggunakan senjata. Successful Dodge dapat dipicu dalam periode waktu tertentu setelah melancarkan skill ini.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Ring of Chainsaw",
+          "description": "Chisa dapat menyimpan hingga 100 poin Ring of Chainsaw.\nMengenai target dengan Normal Attack dan Resonance Skill Eye of Unraveling memberikan RRing of Chainsaw.\nMelancarkan Resonance Liberation Moment of Nihility memberikan 40 poin Ring of Chainsaw.\nMelancarkan Intro Skill Reverberance - Return memberikan 20 poin Ring of Chainsaw.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Lifethread - Jetstream",
+          "description": "Chisa dapat menyimpan hingga 100 poin Lifethread - Jetstream.\nChisa terus mendapatkan Lifethread - Jetstream seiring berjalannya waktu.\nChisa mendapatkan 100 poin Lifethread - Jetstream setelah mengalahkan target.\nKeluar dari Chainsaw Mode mengatur ulang Lifethread - Jetstream hingga batas maksimal.\nChisa tidak dapat memperoleh Lifethread - Jetstream secara pasif untuk periode waktu singkat setelah melancarkan Lifethread - Glide.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Inescapable Fate",
-        "description": "Ketika Resonator dalam tim mengalahkan target yang ditandai Unseen Snare, Cooldown Resonance Skill Eye of Unraveling milik Chisa diatur ulang (reset), dapat dipicu hingga sekali setiap 3 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Ketika Resonator dalam tim mengalahkan target yang ditandai Unseen Snare, Cooldown Resonance Skill Eye of Unraveling milik Chisa diatur ulang (reset), dapat dipicu hingga sekali setiap 3 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "All Ends Here",
-        "description": "Melancarkan Intro Skill Reverberance - Return atau Resonance Liberation Moment of Nihility memberikan 20%  Havoc DMG Bonus dan 20% Healing Bonus selama 12 detik. Ketika Resonators dalam tim yang memiliki Thread of Bane mengalahkan target yang ditandai Unseen Snare, Chisa mendapatkan Sight of Unraveling, yang berlangsung selama 3 detik. Saat dalam Sight of Unraveling, Chisa memberikan Unseen Snare yang berlangsung selama 30 detik pada target yang menerima damage dari Resonators tim yang memiliki Thread of Bane."
+        "effects": [
+          {
+            "title": "",
+            "description": "Melancarkan Intro Skill Reverberance - Return atau Resonance Liberation Moment of Nihility memberikan 20%  Havoc DMG Bonus dan 20% Healing Bonus selama 12 detik. Ketika Resonators dalam tim yang memiliki Thread of Bane mengalahkan target yang ditandai Unseen Snare, Chisa mendapatkan Sight of Unraveling, yang berlangsung selama 3 detik. Saat dalam Sight of Unraveling, Chisa memberikan Unseen Snare yang berlangsung selama 30 detik pada target yang menerima damage dari Resonators tim yang memiliki Thread of Bane.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Reverberance - Return",
-      "description": "Menyerrang target, memberikan  Havoc DMG. \nSaat tidak dalam Chainsaw Mode, Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 2. \nSaat dalam Chainsaw Mode, Gunakan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Sawring - Blitz Stage 2."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerrang target, memberikan  Havoc DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat tidak dalam Chainsaw Mode, Tekan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Basic Attack Stage 2.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat dalam Chainsaw Mode, Gunakan Normal Attack segera setelah melancarkan skill ini untuk melancarkan Sawring - Blitz Stage 2.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Unraveling - Law Zero",
-      "description": "Memberikan Resonant Thread of Closure kepada semua Resonators tim terdekat selama 20 detik. Saat dalam Resonant Thread of Closure:\n- Ketika serangan mengenai target, tingkatkan maksimum stack Negative Status dan Electro Rage yang dapat diterima target sebanyak 3 selama 15 detik. Tidak dapat ditumpuk (Unstackable).\n- Memberikan Negative Status atau memberikan Negative Status DMG memberikan Thread of Bane selama 15 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan Resonant Thread of Closure kepada semua Resonators tim terdekat selama 20 detik. Saat dalam Resonant Thread of Closure:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Ketika serangan mengenai target, tingkatkan maksimum stack Negative Status dan Electro Rage yang dapat diterima target sebanyak 3 selama 15 detik. Tidak dapat ditumpuk (Unstackable).",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Memberikan Negative Status atau memberikan Negative Status DMG memberikan Thread of Bane selama 15 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -412,32 +576,143 @@
     {
       "stage": "S1",
       "name": "Wandering Through The Desolate Corridors",
-      "description": "Chisa kebal terhadap interupsi selama Sawring - Blitz, Sawring - Eradication, dan Chainsaw Mode - Dodge Counter.\nMemberikan Unseen Snare, menambahkan efek tambahan berikut:\n- ATK Chisa meningkat sebesar 30% selama 15 detik.\n- Memberikan 61803 poin  Havoc DMG tetap. HP target hanya dapat berkurang maksimal hingga 61.80% dan setiap target hanya dapat menerima damage ini satu kali. Damage ini dianggap sebagai Basic Attack DMG yang tidak membawa efek apa pun dari bonus damage. "
+      "effects": [
+        {
+          "title": "",
+          "description": "Chisa kebal terhadap interupsi selama Sawring - Blitz, Sawring - Eradication, dan Chainsaw Mode - Dodge Counter.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Memberikan Unseen Snare, menambahkan efek tambahan berikut:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- ATK Chisa meningkat sebesar 30% selama 15 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Memberikan 61803 poin  Havoc DMG tetap. HP target hanya dapat berkurang maksimal hingga 61.80% dan setiap target hanya dapat menerima damage ini satu kali. Damage ini dianggap sebagai Basic Attack DMG yang tidak membawa efek apa pun dari bonus damage.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Into The Web Of Endless Bonds",
-      "description": "Mengabaikan 10% Havoc RES target saat memberikan damage. \nResonators tim terdekat yang memiliki Thread of Bane mendapatkan 50% All-Attribute DMG Bonus."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mengabaikan 10% Havoc RES target saat memberikan damage.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Resonators tim terdekat yang memiliki Thread of Bane mendapatkan 50% All-Attribute DMG Bonus.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Across The Confusion Of The Long Night",
-      "description": "DMG Multiplier dari Sawring - Blitz, Chainsaw Mode - Dodge Counter dan Sawring - Eradication meningkat sebesar 120%. \nEfek ini dapat ditumpuk secara bersamaan dengan efek dari Woven Myriad - Convergence. \nBonus DMG Multiplier untuk Sawring - Eradication yang diberikan oleh Sawring - Blitz dan Chainsaw Mode - Dodge Counter saat Ring of Chainsaw digunakan ditingkatkan sebesar 120%. \nEfek ini dapat ditumpuk secara bersamaan dengan efek dari Woven Myriad - Convergence. \nVibration Strength Reduction Rate dari Sawring - Blitz, Chainsaw Mode - Dodge Counter dan Sawring - Eradication ditingkatkan sebesar 50%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Sawring - Blitz, Chainsaw Mode - Dodge Counter dan Sawring - Eradication meningkat sebesar 120%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek ini dapat ditumpuk secara bersamaan dengan efek dari Woven Myriad - Convergence.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Bonus DMG Multiplier untuk Sawring - Eradication yang diberikan oleh Sawring - Blitz dan Chainsaw Mode - Dodge Counter saat Ring of Chainsaw digunakan ditingkatkan sebesar 120%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek ini dapat ditumpuk secara bersamaan dengan efek dari Woven Myriad - Convergence.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Vibration Strength Reduction Rate dari Sawring - Blitz, Chainsaw Mode - Dodge Counter dan Sawring - Eradication ditingkatkan sebesar 50%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Severing The Endless Cycle Of Tragic Fate",
-      "description": "Efek dari Unseen Snare menjadi: \nKetika target yang ditandai Unseen Snare menerima direct damage dari Resonators, Chisa memberikan 1 stack Havoc Bane pada mereka. \nEfek ini dipicu hingga sekali setiap 1 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Efek dari Unseen Snare menjadi:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Ketika target yang ditandai Unseen Snare menerima direct damage dari Resonators, Chisa memberikan 1 stack Havoc Bane pada mereka.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek ini dipicu hingga sekali setiap 1 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Thousands Of Lights To Guide The Way Home",
-      "description": "Resonance Liberation Moment of Nihility mendapatkan 100% DMG Bonus. \nLifethread - Glide membutuhkan 50% lebih sedikit Lifethread - Jetstream."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation Moment of Nihility mendapatkan 100% DMG Bonus.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Lifethread - Glide membutuhkan 50% lebih sedikit Lifethread - Jetstream.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Thus, Hope Is Rekindled With The Rising Dawn",
-      "description": "Ketika Chisa menerima pukulan fatal selama Sawring - Blitz, Sawring - Eradication, dan Chainsaw Mode - Dodge Counter, dia akan tetap berdiri dengan setidaknya 1 HP.\n- Unseen Snare menjadi Unseen Snare - Finality, yang memiliki efek berikut:\n- Unseen Snare - Finality memiliki semua efek dari Unseen Snare.\n- Target yang terkena Unseen Snare - Finality menerima 30% Amplified DMG dari Negative Statuses.\n- Target yang terkena Unseen Snare - Finality menerima 40% peningkatan DMG dari Chisa."
+      "effects": [
+        {
+          "title": "",
+          "description": "Ketika Chisa menerima pukulan fatal selama Sawring - Blitz, Sawring - Eradication, dan Chainsaw Mode - Dodge Counter, dia akan tetap berdiri dengan setidaknya 1 HP.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Unseen Snare menjadi Unseen Snare - Finality, yang memiliki efek berikut:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Unseen Snare - Finality memiliki semua efek dari Unseen Snare.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Target yang terkena Unseen Snare - Finality menerima 30% Amplified DMG dari Negative Statuses.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Target yang terkena Unseen Snare - Finality menerima 40% peningkatan DMG dari Chisa.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

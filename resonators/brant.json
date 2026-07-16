@@ -19,7 +19,8 @@
       "text": "Minimal update",
       "type": "input",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Troupe of Fools",
@@ -173,28 +174,134 @@
   "skills": {
     "basic": {
       "name": "Captain'S Rhapsody",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan beruntun, memberikan  Fusion DMG.\n\nHeavy Attack\nMenggunakan Stamina untuk menyerang target, memberikan  Fusion DMG.\n\nHeavy Attack - Rhapsodic Riff\nMenggunakan Stamina untuk menyerang target, memberikan  Fusion DMG.\nSetelah menggunakan Basic Attack Stage 2 atau Stage 4, tahan Normal Attack untuk melakukan Heavy Attack - Rhapsodic Riff.\nSetelah menggunakan Mid-air Attack Stage 4, tekan Normal Attack untuk melakukan Heavy Attack - Rhapsodic Riff.\n\nMid-air Attack\nMelakukan hingga 4 serangan beruntun, memberikan  Fusion DMG.\nTekan Normal Attack setelah Mid-air Attack Stage 1 atau Stage 2 untuk berayun ke arah target menggunakan Grapple. \nJika Brant mencapai target saat berayun, ia akan menyerang.\nJika dilepaskan saat animasi serangan, Brant akan melakukan salto ke belakang setelah serangan mengenai target.\n\nJika Normal Attack ditahan, Brant akan menyerang target terus-menerus dan melakukan salto ke belakang setelah serangan terakhir.\n\nBrant akan otomatis melakukan salto ke belakang setelah Mid-air Attack Stage 3.\nTekan Normal Attack setelah setiap salto untuk melanjutkan ke tahap berikutnya dari Mid-air Attack.\nSalto akan mereset jumlah percobaan Mid-air Dodge.\n\nJika Brant gagal mencapai target dengan Grapple swing pada Mid-air Attack Stage 1, \nia akan melakukan tebasan ke depan, memberikan  Fusion DMG.\n\nJika Brant berhasil mencapai target dengan Grapple swing pada Mid-air Attack Stage 1 atau Stage 2, tetapi serangannya tidak mengenai target, \nia akan jatuh setelah jeda singkat di udara.\n\nDodge Counter\nTekan Normal Attack segera setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan beruntun, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Menggunakan Stamina untuk menyerang target, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Rhapsodic Riff",
+          "description": "Menggunakan Stamina untuk menyerang target, memberikan  Fusion DMG.\nSetelah menggunakan Basic Attack Stage 2 atau Stage 4, tahan Normal Attack untuk melakukan Heavy Attack - Rhapsodic Riff.\nSetelah menggunakan Mid-air Attack Stage 4, tekan Normal Attack untuk melakukan Heavy Attack - Rhapsodic Riff.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Melakukan hingga 4 serangan beruntun, memberikan  Fusion DMG.\nTekan Normal Attack setelah Mid-air Attack Stage 1 atau Stage 2 untuk berayun ke arah target menggunakan Grapple.\nJika Brant mencapai target saat berayun, ia akan menyerang.\nJika dilepaskan saat animasi serangan, Brant akan melakukan salto ke belakang setelah serangan mengenai target.\nJika Normal Attack ditahan, Brant akan menyerang target terus-menerus dan melakukan salto ke belakang setelah serangan terakhir.\nBrant akan otomatis melakukan salto ke belakang setelah Mid-air Attack Stage 3.\nTekan Normal Attack setelah setiap salto untuk melanjutkan ke tahap berikutnya dari Mid-air Attack.\nSalto akan mereset jumlah percobaan Mid-air Dodge.\nJika Brant gagal mencapai target dengan Grapple swing pada Mid-air Attack Stage 1,\nia akan melakukan tebasan ke depan, memberikan  Fusion DMG.\nJika Brant berhasil mencapai target dengan Grapple swing pada Mid-air Attack Stage 1 atau Stage 2, tetapi serangannya tidak mengenai target,\nia akan jatuh setelah jeda singkat di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Normal Attack segera setelah berhasil menghindar (Dodge) untuk menyerang target, memberikan  Fusion DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Anchors Aweigh!",
-      "description": "Brant meluncur ke udara dan menyerang semua target di area sekitar, \nmemberikan  Fusion DMG.\nSaat berada di udara, jika Bravo belum penuh, \nResonance Skill: Anchors Aweigh! akan digantikan dengan Plunging Attack.\n\nPlunging Attack\nMenyerang target dengan serangan jatuh, mengorbankan Stamina, \ndan memberikan  Fusion DMG yang dihitung sebagai Basic Attack DMG.\n\nJika Brant gagal mencapai target dengan Grapple swing pada Mid-air Attack Stage 1, \nia akan melakukan tebasan ke depan. \nSetelahnya, tekan Normal Attack untuk melakukan Plunging Attack.\n\nJika Brant mencapai target dengan Grapple swing pada Mid-air Attack Stage 1 atau Stage 2 tetapi serangannya tidak mengenai target, \ntekan Normal Attack saat dalam jeda di udara untuk melakukan Plunging Attack."
+      "effects": [
+        {
+          "title": "",
+          "description": "Brant meluncur ke udara dan menyerang semua target di area sekitar,",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "memberikan  Fusion DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat berada di udara, jika Bravo belum penuh,",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Resonance Skill: Anchors Aweigh! akan digantikan dengan Plunging Attack.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Plunging Attack",
+          "description": "Menyerang target dengan serangan jatuh, mengorbankan Stamina,\ndan memberikan  Fusion DMG yang dihitung sebagai Basic Attack DMG.\nJika Brant gagal mencapai target dengan Grapple swing pada Mid-air Attack Stage 1,\nia akan melakukan tebasan ke depan.\nSetelahnya, tekan Normal Attack untuk melakukan Plunging Attack.\nJika Brant mencapai target dengan Grapple swing pada Mid-air Attack Stage 1 atau Stage 2 tetapi serangannya tidak mengenai target,\ntekan Normal Attack saat dalam jeda di udara untuk melakukan Plunging Attack.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "To The Horizon",
-      "description": "Memberikan  Fusion DMG kepada target dalam jangkauan dan menyembuhkan semua Resonator di sekitar sebelum memasuki status Aflame.\nDapat digunakan di udara.\n\nAflame\nEfisiensi pengisian Bravo meningkat 100% ketika Normal Attack atau Resonance Skill: Anchors Aweigh! mengenai target.\nForte Circuit: Theatrical Moment akan digantikan oleh \"My\" Moment.\n\n\"My\" Moment\nBrant mendapatkan tambahan ATK berdasarkan Energy Regen:\nSetiap 1% Energy Regen di atas 150% memberikan tambahan 20 poin ATK, hingga maksimum 2.600."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memberikan  Fusion DMG kepada target dalam jangkauan dan menyembuhkan semua Resonator di sekitar sebelum memasuki status Aflame.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat digunakan di udara.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Aflame",
+          "description": "Efisiensi pengisian Bravo meningkat 100% ketika Normal Attack atau Resonance Skill: Anchors Aweigh! mengenai target.\nForte Circuit: Theatrical Moment akan digantikan oleh \"My\" Moment.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "\"My\" Moment",
+          "description": "Brant mendapatkan tambahan ATK berdasarkan Energy Regen:\nSetiap 1% Energy Regen di atas 150% memberikan tambahan 20 poin ATK, hingga maksimum 2.600.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Ocean Odyssey",
-      "description": "Theatrical Moment\nBrant mendapatkan tambahan ATK berdasarkan Energy Regen:\nSetiap 1% Energy Regen di atas 150% memberikan tambahan 12 poin ATK, hingga maksimum 1.560.\n\nWaves of Acclaims\nMenyembuhkan semua Resonator di sekitar setiap kali Bravo mencapai 25, 50, 75, dan 100.\n\nReturned from Ashes\nSaat Bravo penuh, Resonance Skill: Anchors Aweigh! akan digantikan dengan Returned from Ashes.\nMengonsumsi seluruh Bravo untuk melepaskan Returned from Ashes, memberikan  Fusion DMG yang dihitung sebagai Basic Attack DMG serta menghasilkan shield.\nMenggunakan skill ini saat dalam Aflame akan mengakhiri status tersebut setelah Returned from Ashes selesai.\n\nBravo\nBrant dapat menyimpan hingga 100 Bravo.\nMendapatkan Bravo ketika Normal Attack mengenai target.\nMendapatkan Bravo ketika Intro Skill mengenai target.\nMendapatkan Bravo ketika Resonance Skill mengenai target."
+      "effects": [
+        {
+          "title": "Theatrical Moment",
+          "description": "Brant mendapatkan tambahan ATK berdasarkan Energy Regen:\nSetiap 1% Energy Regen di atas 150% memberikan tambahan 12 poin ATK, hingga maksimum 1.560.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Waves of Acclaims",
+          "description": "Menyembuhkan semua Resonator di sekitar setiap kali Bravo mencapai 25, 50, 75, dan 100.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Returned from Ashes",
+          "description": "Saat Bravo penuh, Resonance Skill: Anchors Aweigh! akan digantikan dengan Returned from Ashes.\nMengonsumsi seluruh Bravo untuk melepaskan Returned from Ashes, memberikan  Fusion DMG yang dihitung sebagai Basic Attack DMG serta menghasilkan shield.\nMenggunakan skill ini saat dalam Aflame akan mengakhiri status tersebut setelah Returned from Ashes selesai.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Bravo",
+          "description": "Brant dapat menyimpan hingga 100 Bravo.\nMendapatkan Bravo ketika Normal Attack mengenai target.\nMendapatkan Bravo ketika Intro Skill mengenai target.\nMendapatkan Bravo ketika Resonance Skill mengenai target.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Voyager'S Blaze",
-        "description": "Penyembuhan dari Waves of Acclaims meningkat 20%."
+        "effects": [
+          {
+            "title": "",
+            "description": "Penyembuhan dari Waves of Acclaims meningkat 20%.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Trial By Fire And Tide",
-        "description": "Brant mendapatkan ketahanan terhadap gangguan selama Mid-air Attack dan tambahan 15%  Fusion DMG Bonus."
+        "effects": [
+          {
+            "title": "",
+            "description": "Brant mendapatkan ketahanan terhadap gangguan selama Mid-air Attack dan tambahan 15%  Fusion DMG Bonus.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break: Sword",
@@ -203,11 +310,28 @@
     ],
     "intro": {
       "name": "Applaud For Me!",
-      "description": "Brant menyerang target, memberikan  Fusion DMG, dan mendapatkan efek Interlude Applause.\n\nInterlude Applause\nMid-air Attack berikutnya langsung dimulai dari Stage 2.\nEfek ini berakhir jika Brant mendarat lebih awal atau diganti dengan Resonator lain."
+      "effects": [
+        {
+          "title": "",
+          "description": "Brant menyerang target, memberikan  Fusion DMG, dan mendapatkan efek Interlude Applause.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Interlude Applause",
+          "description": "Mid-air Attack berikutnya langsung dimulai dari Stage 2.\nEfek ini berakhir jika Brant mendarat lebih awal atau diganti dengan Resonator lain.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "outro": {
       "name": "The Course Is Set!",
-      "description": "Resonator yang masuk akan mendapatkan peningkatan 20%  Fusion DMG dan 25% Resonance Skill DMG selama 14 detik atau hingga mereka diganti."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk akan mendapatkan peningkatan 20%  Fusion DMG dan 25% Resonance Skill DMG selama 14 detik atau hingga mereka diganti.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -431,32 +555,118 @@
     {
       "stage": "S1",
       "name": "By Currents And Winds",
-      "description": "Returned from Ashes untuk sementara membuat target di sekitar mengalami stagnasi saat skill digunakan. \nEfek stagnasi ini akan hilang jika Brant keluar dari medan pertempuran.\nSetelah menggunakan Intro Skill: Applaud for Me! atau setelah setiap flip dari Mid-air Attack, DMG yang dihasilkan oleh Brant meningkat 20% selama 5 detik, dapat ditumpuk hingga 3 kali."
+      "effects": [
+        {
+          "title": "",
+          "description": "Returned from Ashes untuk sementara membuat target di sekitar mengalami stagnasi saat skill digunakan.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek stagnasi ini akan hilang jika Brant keluar dari medan pertempuran.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah menggunakan Intro Skill: Applaud for Me! atau setelah setiap flip dari Mid-air Attack, DMG yang dihasilkan oleh Brant meningkat 20% selama 5 detik, dapat ditumpuk hingga 3 kali.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "For Smiles And Cheers",
-      "description": "Crit. Rate Brant meningkat 30% saat menggunakan Mid-air Attack dan Returned from Ashes.\nOutro Skill: The Course is Set! mendapatkan peningkatan baru. \nDalam 20 detik setelah Outro Skill digunakan:\n\nKetika Resonance Skill yang digunakan oleh Resonator yang masuk (atau Resonator di sekitar yang mengaktifkan Outro Skill Brant) mengenai target, Brant akan melepaskan ledakan tambahan, \nmemberikan  Fusion DMG sebesar 440% ATK miliknya (dihitung sebagai Basic Attack DMG). Dapat terjadi 1 kali per detik, dengan maksimal 2 ledakan.\nEfek ini tetap aktif meskipun Brant keluar dari medan pertempuran."
+      "effects": [
+        {
+          "title": "",
+          "description": "Crit. Rate Brant meningkat 30% saat menggunakan Mid-air Attack dan Returned from Ashes.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Outro Skill: The Course is Set! mendapatkan peningkatan baru.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dalam 20 detik setelah Outro Skill digunakan:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Ketika Resonance Skill yang digunakan oleh Resonator yang masuk (atau Resonator di sekitar yang mengaktifkan Outro Skill Brant) mengenai target, Brant akan melepaskan ledakan tambahan,",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "memberikan  Fusion DMG sebesar 440% ATK miliknya (dihitung sebagai Basic Attack DMG). Dapat terjadi 1 kali per detik, dengan maksimal 2 ledakan.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek ini tetap aktif meskipun Brant keluar dari medan pertempuran.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Through Storms I Sail",
-      "description": "Multiplier dari DMG yang dihasilkan oleh Returned from Ashes meningkat 42%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Multiplier dari DMG yang dihasilkan oleh Returned from Ashes meningkat 42%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "To Freedom I Sing",
-      "description": "Shield yang diperoleh dari Returned from Ashes meningkat 20%.\nMenggunakan Returned from Ashes akan memulihkan HP semua Resonator di sekitar sebesar 6,60 HP untuk setiap 1% Energy Regen yang dimiliki Brant."
+      "effects": [
+        {
+          "title": "",
+          "description": "Shield yang diperoleh dari Returned from Ashes meningkat 20%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Menggunakan Returned from Ashes akan memulihkan HP semua Resonator di sekitar sebesar 6,60 HP untuk setiap 1% Energy Regen yang dimiliki Brant.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "All The World'S An Actor'S Stage",
-      "description": "Saat memberikan Basic Attack DMG kepada target, Basic Attack DMG Bonus Brant meningkat 15% selama 10 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat memberikan Basic Attack DMG kepada target, Basic Attack DMG Bonus Brant meningkat 15% selama 10 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "All The World'S A Captain'S Carnevale",
-      "description": "Multiplier dari Mid-air Attack meningkat 30%.\nMenggunakan Returned from Ashes akan memicu ledakan kedua, \nmemberikan Fusion DMG (dihitung sebagai Basic Attack DMG) sebesar 30% dari total DMG yang dihasilkan oleh Returned from Ashes."
+      "effects": [
+        {
+          "title": "",
+          "description": "Multiplier dari Mid-air Attack meningkat 30%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Menggunakan Returned from Ashes akan memicu ledakan kedua,",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "memberikan Fusion DMG (dihitung sebagai Basic Attack DMG) sebesar 30% dari total DMG yang dihasilkan oleh Returned from Ashes.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

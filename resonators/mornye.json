@@ -20,7 +20,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": true,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "",
@@ -184,41 +185,245 @@
   "skills": {
     "basic": {
       "name": "Ground State Calibration",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan berturut-turut, memberikan Fusion DMG.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target, memberikan Fusion DMG.\n\nBasic Attack - Wide Field Observation Mode\nSaat berada dalam Wide Field Observation Mode, Basic Attack digantikan dengan Basic Attack - Wide Field Observation Mode.\nMelakukan hingga 3 serangan berturut-turut, memberikan Fusion DMG.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Mid-air Plunging Attack, memberikan Fusion DMG. Tekan Normal Attack dalam waktu tertentu setelahnya untuk melancarkan Basic Attack Tahap 3.\n\nDodge Counter\nTekan Normal Attack tepat setelah Dodge yang berhasil untuk menyerang target, memberikan Fusion DMG.\nTekan Normal Attack sesaat setelah melakukan serangan ini untuk melakukan Basic Attack Tahap 2.\n\nDodge Counter - Wide Field Observation Mode\nSaat berada dalam Wide Field Observation Mode, Dodge Counter digantikan dengan Dodge Counter - Wide Field Observation Mode.\nTekan Normal Attack tepat setelah Dodge yang berhasil untuk menyerang balik dan memberikan Fusion DMG.\nDalam waktu tertentu setelahnya, tekan Normal Attack untuk melancarkan Basic Attack - Wide Field Observation Mode Tahap 3."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan berturut-turut, memberikan Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Wide Field Observation Mode",
+          "description": "Saat berada dalam Wide Field Observation Mode, Basic Attack digantikan dengan Basic Attack - Wide Field Observation Mode.\nMelakukan hingga 3 serangan berturut-turut, memberikan Fusion DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Mid-air Plunging Attack, memberikan Fusion DMG. Tekan Normal Attack dalam waktu tertentu setelahnya untuk melancarkan Basic Attack Tahap 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Normal Attack tepat setelah Dodge yang berhasil untuk menyerang target, memberikan Fusion DMG.\nTekan Normal Attack sesaat setelah melakukan serangan ini untuk melakukan Basic Attack Tahap 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Wide Field Observation Mode",
+          "description": "Saat berada dalam Wide Field Observation Mode, Dodge Counter digantikan dengan Dodge Counter - Wide Field Observation Mode.\nTekan Normal Attack tepat setelah Dodge yang berhasil untuk menyerang balik dan memberikan Fusion DMG.\nDalam waktu tertentu setelahnya, tekan Normal Attack untuk melancarkan Basic Attack - Wide Field Observation Mode Tahap 3.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Resolution",
-      "description": "Expectation Error\nMemulihkan semua Resonator terdekat dalam tim dan memasuki status Parry, yang mana damage yang diterima berkurang sebesar 100% untuk sementara waktu. Beralih ke Resonator lain segera mengakhiri status ini.\nJika diserang saat berada dalam status Parry, keluar dari status tersebut dan melancarkan Resonance Skill - Optimal Solution.\nJika tidak diserang saat berada dalam status Parry, tekan Normal Attack untuk keluar dari status tersebut dan melancarkan Basic Attack Tahap 2.\n\nOptimal Solution\nMenghentikan target di sekitar dan memberikan Fusion DMG, mengurangi cooldown Resonance Skill - Expectation Error sebesar 2 detik.\nBeralih ke Resonator lain mengakhiri efek Stagnation lebih awal.\n\nDistributed Array\nSaat berada dalam Wide Field Observation Mode, Resonance Skill digantikan dengan Resonance Skill - Distributed Array.\nMemulihkan semua Resonator terdekat dalam tim dan memanggil Hover Cannons untuk menyerang target, memberikan Fusion DMG."
+      "effects": [
+        {
+          "title": "Expectation Error",
+          "description": "Memulihkan semua Resonator terdekat dalam tim dan memasuki status Parry, yang mana damage yang diterima berkurang sebesar 100% untuk sementara waktu. Beralih ke Resonator lain segera mengakhiri status ini.\nJika diserang saat berada dalam status Parry, keluar dari status tersebut dan melancarkan Resonance Skill - Optimal Solution.\nJika tidak diserang saat berada dalam status Parry, tekan Normal Attack untuk keluar dari status tersebut dan melancarkan Basic Attack Tahap 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Optimal Solution",
+          "description": "Menghentikan target di sekitar dan memberikan Fusion DMG, mengurangi cooldown Resonance Skill - Expectation Error sebesar 2 detik.\nBeralih ke Resonator lain mengakhiri efek Stagnation lebih awal.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Distributed Array",
+          "description": "Saat berada dalam Wide Field Observation Mode, Resonance Skill digantikan dengan Resonance Skill - Distributed Array.\nMemulihkan semua Resonator terdekat dalam tim dan memanggil Hover Cannons untuk menyerang target, memberikan Fusion DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Critical Protocol",
-      "description": "Menyerang target dalam jangkauan efektif, memberikan Fusion DMG.\nUntuk setiap 1% Energy Regen Mornye yang melebihi 100%, skill ini mendapatkan tambahan 0,5% Crit. Rate (hingga 80%) dan 1% Crit. DMG (hingga 160%).\nSaat melancarkan skill ini, jika Syntony Field ada, hapus field tersebut dan hasilkan High Syntony Field.\nDapat dilakukan di udara.\n\nHigh Syntony Field\n- High Syntony Field berlangsung selama 25 detik.\n- Meningkatkan DEF semua Resonator terdekat dalam tim di dalam High Syntony Field sebesar 20%.\n- Mewarisi peningkatan resistance to interruption dan Off-Tune Buildup Rate dari Syntony Field.\n- Mewarisi efek pemulihan Syntony Field dan meningkatkan Healing Multiplier sebesar 40%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target dalam jangkauan efektif, memberikan Fusion DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Untuk setiap 1% Energy Regen Mornye yang melebihi 100%, skill ini mendapatkan tambahan 0,5% Crit. Rate (hingga 80%) dan 1% Crit. DMG (hingga 160%).",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat melancarkan skill ini, jika Syntony Field ada, hapus field tersebut dan hasilkan High Syntony Field.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat dilakukan di udara.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "High Syntony Field",
+          "description": "- High Syntony Field berlangsung selama 25 detik.\n- Meningkatkan DEF semua Resonator terdekat dalam tim di dalam High Syntony Field sebesar 20%.\n- Mewarisi peningkatan resistance to interruption dan Off-Tune Buildup Rate dari Syntony Field.\n- Mewarisi efek pemulihan Syntony Field dan meningkatkan Healing Multiplier sebesar 40%.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Mass-Energy Equivalence",
-      "description": "Baseline Mode\nSaat berada dalam Baseline Mode default miliknya, Mornye mendapatkan Rest Mass Energy.\n\nHeavy Attack - Geopotential Shift\nSaat Rest Mass Energy mencapai 100 poin, Heavy Attack digantikan dengan Heavy Attack - Geopotential Shift.\nMelancarkan Heavy Attack - Geopotential Shift untuk memberikan Fusion DMG, yang dianggap sebagai Heavy Attack DMG. Setelah itu, Mornye melompat ke udara, mengonsumsi semua Rest Mass Energy dan memasuki Wide Field Observation Mode.\n\nWide Field Observation Mode\nWide Field Observation Mode berlangsung selama 30 detik.\n- Setelah memasuki Wide Field Observation Mode, Mornye menghasilkan Syntony Field.\n- Saat berada dalam Wide Field Observation Mode, Mornye mendapatkan Relative Momentum.\n- Jika Relative Momentum berada di bawah 100 saat menahan Normal Attack, lakukan Basic Attack - Wide Field Observation Mode Tahap 1 hingga 3 secara berurutan. Jika Relative Momentum mencapai 100 selama waktu tersebut, lancarkan Heavy Attack - Inversion sebagai gantinya.\n- Saat bergerak, Mornye terus-menerus mengonsumsi STA. STA tidak dapat dipulihkan saat berada dalam Wide Field Observation Mode.\n- Saat melakukan Dodge dengan input arah, Mornye mulai terbang dengan cepat, yang berlangsung hingga 10 detik atau hingga STA habis atau hingga Wide Field Observation Mode berakhir.\n- Saat Mornye terkena pukulan atau terlempar ke udara, tekan Dodge untuk segera pulih dari serangan tersebut, yang dianggap sebagai Dodge yang berhasil. Efek ini dapat dipicu hingga 3 kali, yang akan diatur ulang saat Wide Field Observation Mode berakhir.\n- Tekan Lompat dan Mornye akan turun perlahan. Sebelum ia mendarat, Basic Attack - Wide Field Observation Mode, Resonance Skill - Distributed Array, dan Heavy Attack - Inversion tidak tersedia. Jika Lompat ditekan saat Mornye kehabisan STA, ia akan keluar dari Wide Field Observation Mode. Ia juga akan meninggalkan Wide Field Observation Mode saat melakukan Dodge, Lompat, atau melakukan Mid-air Attacks.\nSelain itu, melakukan interaksi lingkungan, menggunakan Utilities, atau beralih ke Resonator lain mengakhiri Wide Field Observation Mode. Status ini juga berakhir saat Mornye tidak lagi berada di udara.\n\nSyntony Field\n- Syntony Field berlangsung selama 25 detik.\n- Saat Syntony Field dihasilkan, berikan Fusion DMG, yang dianggap sebagai Resonance Liberation DMG.\n- Memulihkan HP secara terus-menerus untuk Resonator aktif terdekat dalam tim di dalam Syntony Field, yang dipicu sekali setiap 3 detik.\n- Meningkatkan Off-Tune Buildup Rate dari semua Resonator terdekat dalam tim di dalam Syntony Field sebesar 50%.\n- Meningkatkan resistance to interruption dari Resonator aktif terdekat dalam tim di dalam Syntony Field.\n\nHeavy Attack - Inversion\n- Saat Relative Momentum mencapai 100 poin, Heavy Attack digantikan dengan Heavy Attack - Inversion.\n- Mengonsumsi semua Relative Momentum untuk melancarkan Heavy Attack - Inversion, memberikan Fusion DMG, yang dianggap sebagai Heavy Attack DMG.\n- Heavy Attack - Inversion memberikan Observation Marker kepada target saat terkena serangan selama 30 detik.\n\nObservation Marker\nSaat seorang Resonator dalam tim memberikan Tune Break DMG kepada target yang terkena Observation Marker, Mornye memberikan Interfered Marker pada target tersebut selama 8 detik.\n\nInterfered Marker\nTarget yang terkena efek Tune Rupture - Interfered atau Tune Strain - Interfered menerima peningkatan DMG dari semua Resonator terdekat dalam tim. Untuk setiap 1% Energy Regen Mornye yang melebihi 100%, DMG mereka meningkat sebesar 0,25%, hingga 40%.\n\nVisual Field\nSaat seorang Resonator dalam tim mengalahkan target yang terkena Observation Marker atau Interfered Marker, Mornye mendapatkan Visual Field selama 3 detik. Saat berada dalam status ini, Mornye memberikan Observation Marker pada target yang terkena serangan setiap kali Resonator mana pun dalam tim memberikan damage.\n\nTune Rupture Response - Particle Jet\nMornye memberikan satu instansi Fusion DMG kepada target dalam status Tune Rupture - Interfered di dalam jangkauan, yang dianggap sebagai Tune Rupture DMG.\n\nRest Mass Energy\nMornye dapat menampung hingga 100 poin Rest Mass Energy.\nSaat berada dalam Baseline Mode, ia mendapatkan Rest Mass Energy saat melakukan Basic Attack, Heavy Attack, Dodge Counter, atau saat Resonance Skill - Optimal Solution mengenai target.\n\nRelative Momentum\nMornye dapat menampung hingga 100 poin Relative Momentum.\nSaat berada dalam Wide Field Observation Mode, ia mendapatkan Relative Momentum saat Basic Attack - Wide Field Observation Mode, Dodge Counter - Wide Field Observation Mode, atau Resonance Skill - Distributed Array mengenai target.\nMornye tidak dapat mendapatkan Relative Momentum selama Heavy Attack - Inversion."
+      "effects": [
+        {
+          "title": "Baseline Mode",
+          "description": "Saat berada dalam Baseline Mode default miliknya, Mornye mendapatkan Rest Mass Energy.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Geopotential Shift",
+          "description": "Saat Rest Mass Energy mencapai 100 poin, Heavy Attack digantikan dengan Heavy Attack - Geopotential Shift.\nMelancarkan Heavy Attack - Geopotential Shift untuk memberikan Fusion DMG, yang dianggap sebagai Heavy Attack DMG. Setelah itu, Mornye melompat ke udara, mengonsumsi semua Rest Mass Energy dan memasuki Wide Field Observation Mode.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Wide Field Observation Mode",
+          "description": "Wide Field Observation Mode berlangsung selama 30 detik.\n- Setelah memasuki Wide Field Observation Mode, Mornye menghasilkan Syntony Field.\n- Saat berada dalam Wide Field Observation Mode, Mornye mendapatkan Relative Momentum.\n- Jika Relative Momentum berada di bawah 100 saat menahan Normal Attack, lakukan Basic Attack - Wide Field Observation Mode Tahap 1 hingga 3 secara berurutan. Jika Relative Momentum mencapai 100 selama waktu tersebut, lancarkan Heavy Attack - Inversion sebagai gantinya.\n- Saat bergerak, Mornye terus-menerus mengonsumsi STA. STA tidak dapat dipulihkan saat berada dalam Wide Field Observation Mode.\n- Saat melakukan Dodge dengan input arah, Mornye mulai terbang dengan cepat, yang berlangsung hingga 10 detik atau hingga STA habis atau hingga Wide Field Observation Mode berakhir.\n- Saat Mornye terkena pukulan atau terlempar ke udara, tekan Dodge untuk segera pulih dari serangan tersebut, yang dianggap sebagai Dodge yang berhasil. Efek ini dapat dipicu hingga 3 kali, yang akan diatur ulang saat Wide Field Observation Mode berakhir.\n- Tekan Lompat dan Mornye akan turun perlahan. Sebelum ia mendarat, Basic Attack - Wide Field Observation Mode, Resonance Skill - Distributed Array, dan Heavy Attack - Inversion tidak tersedia. Jika Lompat ditekan saat Mornye kehabisan STA, ia akan keluar dari Wide Field Observation Mode. Ia juga akan meninggalkan Wide Field Observation Mode saat melakukan Dodge, Lompat, atau melakukan Mid-air Attacks.\nSelain itu, melakukan interaksi lingkungan, menggunakan Utilities, atau beralih ke Resonator lain mengakhiri Wide Field Observation Mode. Status ini juga berakhir saat Mornye tidak lagi berada di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Syntony Field",
+          "description": "- Syntony Field berlangsung selama 25 detik.\n- Saat Syntony Field dihasilkan, berikan Fusion DMG, yang dianggap sebagai Resonance Liberation DMG.\n- Memulihkan HP secara terus-menerus untuk Resonator aktif terdekat dalam tim di dalam Syntony Field, yang dipicu sekali setiap 3 detik.\n- Meningkatkan Off-Tune Buildup Rate dari semua Resonator terdekat dalam tim di dalam Syntony Field sebesar 50%.\n- Meningkatkan resistance to interruption dari Resonator aktif terdekat dalam tim di dalam Syntony Field.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Inversion",
+          "description": "- Saat Relative Momentum mencapai 100 poin, Heavy Attack digantikan dengan Heavy Attack - Inversion.\n- Mengonsumsi semua Relative Momentum untuk melancarkan Heavy Attack - Inversion, memberikan Fusion DMG, yang dianggap sebagai Heavy Attack DMG.\n- Heavy Attack - Inversion memberikan Observation Marker kepada target saat terkena serangan selama 30 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Observation Marker",
+          "description": "Saat seorang Resonator dalam tim memberikan Tune Break DMG kepada target yang terkena Observation Marker, Mornye memberikan Interfered Marker pada target tersebut selama 8 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Interfered Marker",
+          "description": "Target yang terkena efek Tune Rupture - Interfered atau Tune Strain - Interfered menerima peningkatan DMG dari semua Resonator terdekat dalam tim. Untuk setiap 1% Energy Regen Mornye yang melebihi 100%, DMG mereka meningkat sebesar 0,25%, hingga 40%.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Visual Field",
+          "description": "Saat seorang Resonator dalam tim mengalahkan target yang terkena Observation Marker atau Interfered Marker, Mornye mendapatkan Visual Field selama 3 detik. Saat berada dalam status ini, Mornye memberikan Observation Marker pada target yang terkena serangan setiap kali Resonator mana pun dalam tim memberikan damage.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Tune Rupture Response - Particle Jet",
+          "description": "Mornye memberikan satu instansi Fusion DMG kepada target dalam status Tune Rupture - Interfered di dalam jangkauan, yang dianggap sebagai Tune Rupture DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Rest Mass Energy",
+          "description": "Mornye dapat menampung hingga 100 poin Rest Mass Energy.\nSaat berada dalam Baseline Mode, ia mendapatkan Rest Mass Energy saat melakukan Basic Attack, Heavy Attack, Dodge Counter, atau saat Resonance Skill - Optimal Solution mengenai target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Relative Momentum",
+          "description": "Mornye dapat menampung hingga 100 poin Relative Momentum.\nSaat berada dalam Wide Field Observation Mode, ia mendapatkan Relative Momentum saat Basic Attack - Wide Field Observation Mode, Dodge Counter - Wide Field Observation Mode, atau Resonance Skill - Distributed Array mengenai target.\nMornye tidak dapat mendapatkan Relative Momentum selama Heavy Attack - Inversion.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Blueprint",
-        "description": "Energy Regen Mornye meningkat sebesar 10%.\nMelancarkan Intro Skill - Convergence memulihkan 20 poin Concerto Energy, dipicu sekali setiap 20 detik.\nMelancarkan Basic Attack - Wide Field Observation Mode Tahap 3 memulihkan 20 poin Concerto Energy, dipicu sekali setiap 20 detik.\n"
+        "effects": [
+          {
+            "title": "",
+            "description": "Energy Regen Mornye meningkat sebesar 10%.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Melancarkan Intro Skill - Convergence memulihkan 20 poin Concerto Energy, dipicu sekali setiap 20 detik.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Melancarkan Basic Attack - Wide Field Observation Mode Tahap 3 memulihkan 20 poin Concerto Energy, dipicu sekali setiap 20 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Boundedness",
-        "description": "Melancarkan Resonance Skill - Expectation Error atau Resonance Skill - Distributed Array memberikan Proof of Boundedness kepada semua Resonator dalam tim:\n- Proof of Boundedness berlangsung selama 60 detik dan dapat diperoleh sekali setiap 5 menit.\n- Saat Resonator aktif menerima DMG lebih besar dari 30% Max HP mereka, mereka justru menerima DMG yang setara dengan 30% Max HP mereka. Efek ini dapat dipicu hingga 3 kali. Proof of Boundedness dihapus setelah memicunya sebanyak 3 kali.\n- Saat Resonator aktif menerima serangan fatal, mereka tidak tumbang oleh instansi damage ini. Efek ini dapat dipicu hingga 1 kali. Proof of Boundedness dihapus setelah memicunya sebanyak 1 kali.\n- Saat Proof of Boundedness dihapus, Resonator aktif memulihkan HP setara dengan 150% dari DEF Mornye."
+        "effects": [
+          {
+            "title": "",
+            "description": "Melancarkan Resonance Skill - Expectation Error atau Resonance Skill - Distributed Array memberikan Proof of Boundedness kepada semua Resonator dalam tim:",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Proof of Boundedness berlangsung selama 60 detik dan dapat diperoleh sekali setiap 5 menit.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Saat Resonator aktif menerima DMG lebih besar dari 30% Max HP mereka, mereka justru menerima DMG yang setara dengan 30% Max HP mereka. Efek ini dapat dipicu hingga 3 kali. Proof of Boundedness dihapus setelah memicunya sebanyak 3 kali.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Saat Resonator aktif menerima serangan fatal, mereka tidak tumbang oleh instansi damage ini. Efek ini dapat dipicu hingga 1 kali. Proof of Boundedness dihapus setelah memicunya sebanyak 1 kali.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Saat Proof of Boundedness dihapus, Resonator aktif memulihkan HP setara dengan 150% dari DEF Mornye.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break - Decoupling",
-        "description": "Mornye dapat menanggapi Tune Rupture - Interfered dan Tune Strain - Interfered.\n- Menanggapi Tune Rupture - Interfered: Saat Resonator mana pun dalam tim memberikan Tune Break DMG dan memberikan status Tune Rupture - Interfered, Mornye melancarkan Tune Rupture Response - Particle Jet. Setiap target dapat menerima damage dari skill ini hingga satu kali setiap 8 detik.\n- Menanggapi Tune Strain - Interfered: Setiap stack Tune Strain - Interfered pada target meningkatkan total DMG Mornye terhadap mereka. Setiap poin Tune Break Boost Mornye meningkatkan total DMG sebesar 0,12%. Saat Mornye berada dalam tim, batas stack maksimal Tune Strain - Interfered pada target meningkat sebanyak 1.\nMornye dapat melakukan Tune Break terhadap target dengan Off-Tune Level yang penuh."
+        "effects": [
+          {
+            "title": "",
+            "description": "Mornye dapat menanggapi Tune Rupture - Interfered dan Tune Strain - Interfered.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Menanggapi Tune Rupture - Interfered: Saat Resonator mana pun dalam tim memberikan Tune Break DMG dan memberikan status Tune Rupture - Interfered, Mornye melancarkan Tune Rupture Response - Particle Jet. Setiap target dapat menerima damage dari skill ini hingga satu kali setiap 8 detik.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Menanggapi Tune Strain - Interfered: Setiap stack Tune Strain - Interfered pada target meningkatkan total DMG Mornye terhadap mereka. Setiap poin Tune Break Boost Mornye meningkatkan total DMG sebesar 0,12%. Saat Mornye berada dalam tim, batas stack maksimal Tune Strain - Interfered pada target meningkat sebanyak 1.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Mornye dapat melakukan Tune Break terhadap target dengan Off-Tune Level yang penuh.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Convergence",
-      "description": "Menyerang target untuk memberikan Fusion DMG, lalu melompat ke udara, menghapus semua Rest Mass Energy dan memasuki Wide Field Observation Mode."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target untuk memberikan Fusion DMG, lalu melompat ke udara, menghapus semua Rest Mass Energy dan memasuki Wide Field Observation Mode.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Recursion",
-      "description": "Resonator dalam tim mendapatkan 25% All DMG Amplification selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator dalam tim mendapatkan 25% All DMG Amplification selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -358,32 +563,83 @@
     {
       "stage": "S1",
       "name": " The Silent Observer",
-      "description": "Basic Attack – Wide Field Observation Mode menjadi kebal terhadap gangguan.\nDurasi Interfered Marker diperpanjang sebesar 150%. Interfered Marker kini memberikan peningkatan DMG bahkan ketika target tidak terpengaruh oleh Tune Rupture - Interfered atau Tune Strain - Interfered. Saat Mornye memberikan Observation Marker pada target, ia juga memberikan Interfered Marker.\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "Basic Attack – Wide Field Observation Mode menjadi kebal terhadap gangguan.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Durasi Interfered Marker diperpanjang sebesar 150%. Interfered Marker kini memberikan peningkatan DMG bahkan ketika target tidak terpengaruh oleh Tune Rupture - Interfered atau Tune Strain - Interfered. Saat Mornye memberikan Observation Marker pada target, ia juga memberikan Interfered Marker.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Morning Star Of Entropy",
-      "description": "Semua Resonator terdekat dalam tim mendapatkan peningkatan Crit. DMG melawan target dengan Interfered Marker: Setiap 1% Energy Regen Mornye di atas 100% memberikan peningkatan 0,2% Crit. DMG, hingga 32%.\nSyntony Field dan High Syntony Field lebih lanjut meningkatkan Off-Tune Buildup Rate dari semua Resonator terdekat dalam tim sebesar 20%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Semua Resonator terdekat dalam tim mendapatkan peningkatan Crit. DMG melawan target dengan Interfered Marker: Setiap 1% Energy Regen Mornye di atas 100% memberikan peningkatan 0,2% Crit. DMG, hingga 32%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Syntony Field dan High Syntony Field lebih lanjut meningkatkan Off-Tune Buildup Rate dari semua Resonator terdekat dalam tim sebesar 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Blueprint Of Recursion",
-      "description": "Melancarkan Resonance Skill - Distributed Array memberikan tambahan pemulihan 25 poin Concerto Energy dan 100 Relative Momentum, dipicu sekali setiap 25 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Skill - Distributed Array memberikan tambahan pemulihan 25 poin Concerto Energy dan 100 Relative Momentum, dipicu sekali setiap 25 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Latent Variables Of The Cosmos",
-      "description": "Pemulihan dari High Syntony Field meningkat sebesar 30%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Pemulihan dari High Syntony Field meningkat sebesar 30%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Time Dilation Effect",
-      "description": "DMG Multiplier dari Resonance Liberation - Critical Protocol meningkat sebesar 40%.\nDMG Multiplier dari Tune Rupture Response - Particle Jet meningkat sebesar 160%."
+      "effects": [
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Resonance Liberation - Critical Protocol meningkat sebesar 40%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Tune Rupture Response - Particle Jet meningkat sebesar 160%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "To The Far Shores Of The Stars",
-      "description": "Resonance Liberation - Critical Protocol memberikan 400% DMG lebih banyak. Jika Mornye belum terlibat dalam pertempuran selama lebih dari 4 detik, ia memulihkan Resonance Energy setara dengan 10% dari Max Resonance Energy miliknya setiap 0,2 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation - Critical Protocol memberikan 400% DMG lebih banyak. Jika Mornye belum terlibat dalam pertempuran selama lebih dari 4 detik, ia memulihkan Resonance Energy setara dengan 10% dari Max Resonance Energy miliknya setiap 0,2 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

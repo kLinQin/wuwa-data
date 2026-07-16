@@ -18,7 +18,8 @@
       "text": "9 July 2026\n- finishing\n- sisa material dan chart\n\n5 July 2026\n- minimal input\n- icon echo masih pakai stay tuned\n- icon sequence belum di rubah\n- materials\n- lore page",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "",
@@ -143,41 +144,270 @@
   "skills": {
     "basic": {
       "name": "Unraveled Spring",
-      "description": "Basic Attack - Zephyr Stance\nMenekan berulang kali atau menahan Normal Attack untuk melakukan hingga 4 serangan berturut-turut, menimbulkan Glacio DMG dan memulihkan Cloud Breath saat mengenai target.\n\nMid-air Attack - Zephyr Stance\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Glacio DMG.\n\nDodge Counter - Zephyr Stance\nMenekan Normal Attack sesaat setelah Dodge berhasil untuk menyerang target, menimbulkan Glacio DMG dan memulihkan Cloud Breath saat mengenai target.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melakukan Basic Attack - Zephyr Stance Stage 4."
+      "effects": [
+        {
+          "title": "Basic Attack - Zephyr Stance",
+          "description": "Menekan berulang kali atau menahan Normal Attack untuk melakukan hingga 4 serangan berturut-turut, menimbulkan Glacio DMG dan memulihkan Cloud Breath saat mengenai target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Zephyr Stance",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Zephyr Stance",
+          "description": "Menekan Normal Attack sesaat setelah Dodge berhasil untuk menyerang target, menimbulkan Glacio DMG dan memulihkan Cloud Breath saat mengenai target.\nMenekan Normal Attack sesaat setelah melancarkan skill ini untuk melakukan Basic Attack - Zephyr Stance Stage 4.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Vernal Screen",
-      "description": "Resonance Skill - Zephyr Stance\nSaat berada dalam Zephyr Stance dan Cloud Breath belum penuh, tekan Resonance Skill agar Suisui menusuk ke depan, menimbulkan Glacio DMG. Jika Suisui adalah Resonator aktif saat melancarkan skill ini, pulihkan Cloud Breath.\nDapat dilancarkan di udara dekat tanah.\nSkill ini berbagi Cooldown dengan Resonance Skill - Drizzle Stance.\n\nAwakening Spring\nSaat berada dalam Zephyr Stance dan Cloud Breath penuh, Resonance Skill - Zephyr Stance digantikan dengan Awakening Spring. Melancarkan skill ini mengonsumsi seluruh Cloud Breath, menarik target di sekitar, dan mengirimkan Suisui ke Drizzle Stance, menimbulkan Glacio DMG serta memberikan 1 kali efek Glacio Chafe pada target saat mengenai.\n\nEnrichment\nMelancarkan Awakening Spring atau Intro Skill - Tinkling Jade memberikan 1 tumpukan Enrichment kepada semua Resonator terdekat dalam tim. Efek ini dapat terpicu sekali setiap 25 detik. Resonator yang masuk menerima healing dari Suisui dengan mengorbankan Enrichment.\n\nResonance Skill - Drizzle Stance\nSaat berada dalam Drizzle Stance, Resonance Skill - Zephyr Stance digantikan dengan Resonance Skill - Drizzle Stance.\nTekan Resonance Skill agar Suisui menusuk ke depan, menimbulkan Glacio DMG. Jika Suisui adalah Resonator aktif saat melancarkan skill ini, pulihkan Floral Epistle.\nDapat dilancarkan di udara dekat tanah.\nSkill ini berbagi Cooldown dengan Resonance Skill - Zephyr Stance."
+      "effects": [
+        {
+          "title": "Resonance Skill - Zephyr Stance",
+          "description": "Saat berada dalam Zephyr Stance dan Cloud Breath belum penuh, tekan Resonance Skill agar Suisui menusuk ke depan, menimbulkan Glacio DMG. Jika Suisui adalah Resonator aktif saat melancarkan skill ini, pulihkan Cloud Breath.\nDapat dilancarkan di udara dekat tanah.\nSkill ini berbagi Cooldown dengan Resonance Skill - Drizzle Stance.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Awakening Spring",
+          "description": "Saat berada dalam Zephyr Stance dan Cloud Breath penuh, Resonance Skill - Zephyr Stance digantikan dengan Awakening Spring. Melancarkan skill ini mengonsumsi seluruh Cloud Breath, menarik target di sekitar, dan mengirimkan Suisui ke Drizzle Stance, menimbulkan Glacio DMG serta memberikan 1 kali efek Glacio Chafe pada target saat mengenai.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Enrichment",
+          "description": "Melancarkan Awakening Spring atau Intro Skill - Tinkling Jade memberikan 1 tumpukan Enrichment kepada semua Resonator terdekat dalam tim. Efek ini dapat terpicu sekali setiap 25 detik. Resonator yang masuk menerima healing dari Suisui dengan mengorbankan Enrichment.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Drizzle Stance",
+          "description": "Saat berada dalam Drizzle Stance, Resonance Skill - Zephyr Stance digantikan dengan Resonance Skill - Drizzle Stance.\nTekan Resonance Skill agar Suisui menusuk ke depan, menimbulkan Glacio DMG. Jika Suisui adalah Resonator aktif saat melancarkan skill ini, pulihkan Floral Epistle.\nDapat dilancarkan di udara dekat tanah.\nSkill ini berbagi Cooldown dengan Resonance Skill - Zephyr Stance.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Song Of Thoroughfare",
-      "description": "Melancarkan skill ini menempatkan Ceaseless Landscape yang bertahan selama 30 detik. Saat Ceaseless Landscape aktif, Suisui memasuki status Roaming Transcendent ketika melancarkan Outro Skill - Rippling Waters.\nCeaseless Landscape memberikan peningkatan berikut kepada semua Resonator terdekat dalam tim:\n- Memberikan efek Spectro Frazzle, Fusion Burst, Glacio Chafe, dan Aero Erosion kepada target, atau menimbulkan DMG dari Negative Status yang sesuai, meningkatkan batas maksimal tumpukan Negative Status yang dapat diterima target sebanyak 3 selama 15 detik. Efek ini tidak bertumpuk.\n- Memberikan efek Electro Flare kepada target atau menimbulkan DMG dari Negative Status yang sesuai, meningkatkan batas maksimal tumpukan Electro Flare dan Electro Rage yang dapat diterima target sebanyak 3 selama 15 detik. Efek ini tidak bertumpuk.\n- Mengonsumsi tumpukan Havoc Bane pada target setelah skill mendarat memungkinkan DMG Havoc dari Resonator mengabaikan 6% DEF dan 12% RES Havoc target selama 30 detik. Efek ini tidak bertumpuk.\nDapat dilancarkan di udara dekat tanah."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan skill ini menempatkan Ceaseless Landscape yang bertahan selama 30 detik. Saat Ceaseless Landscape aktif, Suisui memasuki status Roaming Transcendent ketika melancarkan Outro Skill - Rippling Waters.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Ceaseless Landscape memberikan peningkatan berikut kepada semua Resonator terdekat dalam tim:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Memberikan efek Spectro Frazzle, Fusion Burst, Glacio Chafe, dan Aero Erosion kepada target, atau menimbulkan DMG dari Negative Status yang sesuai, meningkatkan batas maksimal tumpukan Negative Status yang dapat diterima target sebanyak 3 selama 15 detik. Efek ini tidak bertumpuk.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Memberikan efek Electro Flare kepada target atau menimbulkan DMG dari Negative Status yang sesuai, meningkatkan batas maksimal tumpukan Electro Flare dan Electro Rage yang dapat diterima target sebanyak 3 selama 15 detik. Efek ini tidak bertumpuk.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Mengonsumsi tumpukan Havoc Bane pada target setelah skill mendarat memungkinkan DMG Havoc dari Resonator mengabaikan 6% DEF dan 12% RES Havoc target selama 30 detik. Efek ini tidak bertumpuk.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dapat dilancarkan di udara dekat tanah.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Lambent Gold",
-      "description": "Zephyr Stance\nSuisui berada dalam Zephyr Stance secara default. Saat berada dalam Zephyr Stance, Suisui dapat memperoleh Cloud Breath melalui skill tertentu.\n\nDrizzle Stance\nMemasuki Drizzle Stance menghapus seluruh Floral Epistle.\nSelama Drizzle Stance:\n- Suisui membuka gerakan tempur baru dan memulihkan Floral Epistle melalui skill tertentu.\n- Suisui mendapatkan ketahanan terhadap interupsi yang meningkat.\n- Tekan Normal Attack dalam waktu tertentu setelah memicu Dodge berhasil melalui skill Dodge untuk melancarkan Basic Attack - Drizzle Stance Stage 1.\nSetelah memasuki Drizzle Stance selama 15 detik, Suisui mengakhiri Drizzle Stance dan menghapus seluruh Floral Epistle saat keluar dari status tersebut.\n\nDodge - Parting Mist\nSaat melakukan serangan di tanah, tekan Dodge untuk melancarkan Dodge - Parting Mist dengan mengorbankan STA.\nSaat berada dalam Zephyr Stance, memicu Dodge berhasil saat melancarkan Dodge - Parting Mist memulihkan Cloud Breath. Tekan Normal Attack sesaat setelah memicu Dodge untuk melancarkan Dodge Counter - Zephyr Stance.\n- Saat berada dalam Drizzle Stance, memicu Dodge berhasil saat melancarkan Dodge - Parting Mist memulihkan Floral Epistle, dan tidak mereset siklus Basic Attack - Drizzle Stance dalam periode tertentu.\n\nBasic Attack - Drizzle Stance\nSaat berada dalam Drizzle Stance, Basic Attack - Zephyr Stance digantikan dengan Basic Attack - Drizzle Stance.\nTekan Normal Attack berulang kali untuk melakukan hingga 4 serangan berturut-turut, menimbulkan Glacio DMG dan memulihkan Floral Epistle saat mengenai target.\nSaat melancarkan Basic Attack - Drizzle Stance Stage 3, terus menarik target di sekitar.\nBasic Attack - Drizzle Stance Stage 4 memberikan 1 kali efek Glacio Chafe pada target saat mengenai.\n\nHeavy Attack - Drizzle Stance\nMengonsumsi STA untuk menyerang target, menimbulkan Glacio DMG, dan memulihkan Floral Epistle saat mengenai target.\n\nIlluminating Dew\nSaat berada dalam Drizzle Stance, tahan Normal Attack setelah melancarkan Heavy Attack - Drizzle Stance untuk melancarkan skill ini.\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Glacio DMG.\n\nSwallow's Cut\nSaat berada dalam Drizzle Stance, lancarkan skill ini dengan salah satu cara berikut:\n- Lepaskan tombol Normal Attack saat melancarkan Heavy Attack - Drizzle Stance.\n- Tekan Normal Attack saat Suisui berada di udara.\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Glacio DMG.\n\nCloud Breath\nMaksimal 120 poin.\nSaat berada dalam Zephyr Stance:\n- Basic Attack - Zephyr Stance dan Dodge Counter - Zephyr Stance memulihkan Cloud Breath saat mengenai target.\n- Melancarkan Resonance Skill - Zephyr Stance memulihkan 40 poin Cloud Breath saat Suisui menjadi Resonator aktif dalam tim.\n- Memicu Dodge berhasil saat melancarkan Dodge - Parting Mist memulihkan 35 poin Cloud Breath.\n\nFloral Epistle\nMaksimal 600 poin.\nSaat berada dalam Drizzle Stance:\n- Basic Attack - Drizzle Stance dan Heavy Attack - Drizzle Stance memulihkan Floral Epistle saat mengenai target.\n- Melancarkan Resonance Skill - Drizzle Stance memulihkan 100 poin Floral Epistle saat Suisui menjadi Resonator aktif dalam tim.\n- Memicu Dodge berhasil saat melancarkan Dodge - Parting Mist memulihkan 102 poin Floral Epistle."
+      "effects": [
+        {
+          "title": "Zephyr Stance",
+          "description": "Suisui berada dalam Zephyr Stance secara default. Saat berada dalam Zephyr Stance, Suisui dapat memperoleh Cloud Breath melalui skill tertentu.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Drizzle Stance",
+          "description": "Memasuki Drizzle Stance menghapus seluruh Floral Epistle.\nSelama Drizzle Stance:\n- Suisui membuka gerakan tempur baru dan memulihkan Floral Epistle melalui skill tertentu.\n- Suisui mendapatkan ketahanan terhadap interupsi yang meningkat.\n- Tekan Normal Attack dalam waktu tertentu setelah memicu Dodge berhasil melalui skill Dodge untuk melancarkan Basic Attack - Drizzle Stance Stage 1.\nSetelah memasuki Drizzle Stance selama 15 detik, Suisui mengakhiri Drizzle Stance dan menghapus seluruh Floral Epistle saat keluar dari status tersebut.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge - Parting Mist",
+          "description": "Saat melakukan serangan di tanah, tekan Dodge untuk melancarkan Dodge - Parting Mist dengan mengorbankan STA.\nSaat berada dalam Zephyr Stance, memicu Dodge berhasil saat melancarkan Dodge - Parting Mist memulihkan Cloud Breath. Tekan Normal Attack sesaat setelah memicu Dodge untuk melancarkan Dodge Counter - Zephyr Stance.\n- Saat berada dalam Drizzle Stance, memicu Dodge berhasil saat melancarkan Dodge - Parting Mist memulihkan Floral Epistle, dan tidak mereset siklus Basic Attack - Drizzle Stance dalam periode tertentu.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Drizzle Stance",
+          "description": "Saat berada dalam Drizzle Stance, Basic Attack - Zephyr Stance digantikan dengan Basic Attack - Drizzle Stance.\nTekan Normal Attack berulang kali untuk melakukan hingga 4 serangan berturut-turut, menimbulkan Glacio DMG dan memulihkan Floral Epistle saat mengenai target.\nSaat melancarkan Basic Attack - Drizzle Stance Stage 3, terus menarik target di sekitar.\nBasic Attack - Drizzle Stance Stage 4 memberikan 1 kali efek Glacio Chafe pada target saat mengenai.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Drizzle Stance",
+          "description": "Mengonsumsi STA untuk menyerang target, menimbulkan Glacio DMG, dan memulihkan Floral Epistle saat mengenai target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Illuminating Dew",
+          "description": "Saat berada dalam Drizzle Stance, tahan Normal Attack setelah melancarkan Heavy Attack - Drizzle Stance untuk melancarkan skill ini.\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Swallow's Cut",
+          "description": "Saat berada dalam Drizzle Stance, lancarkan skill ini dengan salah satu cara berikut:\n- Lepaskan tombol Normal Attack saat melancarkan Heavy Attack - Drizzle Stance.\n- Tekan Normal Attack saat Suisui berada di udara.\nMengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Cloud Breath",
+          "description": "Maksimal 120 poin.\nSaat berada dalam Zephyr Stance:\n- Basic Attack - Zephyr Stance dan Dodge Counter - Zephyr Stance memulihkan Cloud Breath saat mengenai target.\n- Melancarkan Resonance Skill - Zephyr Stance memulihkan 40 poin Cloud Breath saat Suisui menjadi Resonator aktif dalam tim.\n- Memicu Dodge berhasil saat melancarkan Dodge - Parting Mist memulihkan 35 poin Cloud Breath.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Floral Epistle",
+          "description": "Maksimal 600 poin.\nSaat berada dalam Drizzle Stance:\n- Basic Attack - Drizzle Stance dan Heavy Attack - Drizzle Stance memulihkan Floral Epistle saat mengenai target.\n- Melancarkan Resonance Skill - Drizzle Stance memulihkan 100 poin Floral Epistle saat Suisui menjadi Resonator aktif dalam tim.\n- Memicu Dodge berhasil saat melancarkan Dodge - Parting Mist memulihkan 102 poin Floral Epistle.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Sky Over Water",
-        "description": "Mengonsumsi Enrichment memberikan 10 tumpukan Spring's Birth kepada Resonator, maksimal 10 tumpukan. Saat Resonator dengan Spring's Birth tidak memiliki HP penuh, pulihkan HP mereka sebesar 62 + 0,34% dari Max HP Suisui dengan mengorbankan 1 tumpukan Spring's Birth setiap 2 detik.\n\nSaat Resonance Skill - Awakening Spring dan Intro Skill - Tinkling Jade mengenai target, keduanya juga memulihkan 18 poin Concerto Energy dan 13 poin Resonance Energy, serta meningkatkan Crit. Rate serangan sebesar 80% dan Glacio DMG sebesar 240%. Efek ini dapat terpicu maksimal sekali setiap 25 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Mengonsumsi Enrichment memberikan 10 tumpukan Spring's Birth kepada Resonator, maksimal 10 tumpukan. Saat Resonator dengan Spring's Birth tidak memiliki HP penuh, pulihkan HP mereka sebesar 62 + 0,34% dari Max HP Suisui dengan mengorbankan 1 tumpukan Spring's Birth setiap 2 detik.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat Resonance Skill - Awakening Spring dan Intro Skill - Tinkling Jade mengenai target, keduanya juga memulihkan 18 poin Concerto Energy dan 13 poin Resonance Energy, serta meningkatkan Crit. Rate serangan sebesar 80% dan Glacio DMG sebesar 240%. Efek ini dapat terpicu maksimal sekali setiap 25 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Glimmering Gold",
-        "description": "Saat Resonator selain Suisui menerima serangan fatal, mereka tidak akan pingsan melainkan memulihkan 50% dari HP Suisui saat ini, sementara Suisui sendiri kehilangan jumlah HP yang sama. HP Suisui tidak akan turun di bawah 1 karena efek ini. Efek ini dapat terpicu sekali setiap 10 menit."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Resonator selain Suisui menerima serangan fatal, mereka tidak akan pingsan melainkan memulihkan 50% dari HP Suisui saat ini, sementara Suisui sendiri kehilangan jumlah HP yang sama. HP Suisui tidak akan turun di bawah 1 karena efek ini. Efek ini dapat terpicu sekali setiap 10 menit.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Tune Break: Rectifier",
-        "description": "Saat Level Off-Tune target penuh, Resonator dapat melancarkan Tune Break pada target tersebut."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Level Off-Tune target penuh, Resonator dapat melancarkan Tune Break pada target tersebut.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Tinkling Jade",
-      "description": "Menyerang target, menimbulkan Glacio DMG, dan memberikan 1 kali efek Glacio Chafe pada target.\nSaat melancarkan skill ini, mengonsumsi seluruh Cloud Breath untuk menarik target di sekitar dan memasuki Drizzle Stance."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, menimbulkan Glacio DMG, dan memberikan 1 kali efek Glacio Chafe pada target.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat melancarkan skill ini, mengonsumsi seluruh Cloud Breath untuk menarik target di sekitar dan memasuki Drizzle Stance.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Rippling Waters",
-      "description": "Resonator dalam tim mendapatkan amplifikasi 25% All DMG selama 30 detik.\n\nSuisui memasuki Roaming Transcendent saat Ceaseless Landscape aktif.\nSuisui keluar dari Drizzle Stance dan mengonsumsi seluruh Floral Epistle serta membuka efek berikut berdasarkan jumlah Floral Epistle yang dikonsumsi:\n\n0 Floral Epistle dikonsumsi:\n- Semua Resonator terdekat dalam tim mendapatkan Reflecting Shadows selama 6 detik. Resonator dengan Reflecting Shadows memiliki ketahanan terhadap interupsi yang meningkat.\n\nMinimal 200 Floral Epistle dikonsumsi:\n- Jika Ceaseless Landscape aktif, Suisui dapat melakukan Plume Step untuk pertama kalinya pada detik ke-6 dari Transcendent Dance saat berada dalam Roaming Transcendent.\n\nMinimal 400 Floral Epistle dikonsumsi:\n- Selama status Roaming Transcendent ini, Resonator aktif di dalam Ceaseless Landscape menimbulkan lebih banyak DMG jika mereka memiliki Reflecting Shadows. Untuk setiap 1% Energy Regen Suisui di atas 200%, DMG yang ditimbulkan Resonator meningkat sebesar 0,2%, hingga maksimal 12%.\n- Jika Ceaseless Landscape aktif, Suisui dapat melakukan Plume Step kedua pada detik ke-12 dari Transcendent Dance saat berada dalam Roaming Transcendent.\n\nMinimal 600 Floral Epistle dikonsumsi:\n- Saat Suisui melakukan Plume Step pertama, semua Resonator aktif terdekat dalam tim di dalam Ceaseless Landscape mendapatkan efek berikut selama 24 detik:\nMelancarkan Outro Skill memberikan Undulating Mist kepada Resonator yang masuk. Saat Resonator dengan Undulating Mist mengonsumsi tumpukan Negative Status atau Electro Rage pada target, mereka mendapatkan peningkatan ATK: Untuk setiap 0,12% Energy Regen Suisui di atas 200%, ATK Resonator meningkat sebesar 0,1% selama 6 detik, hingga maksimal 50%. Undulating Mist bertahan selama 14 detik atau hingga Resonator diganti keluar dari medan pertempuran. Saat Undulating Mist hilang, efek peningkatan ATK juga dihapus.\n- Jika Ceaseless Landscape aktif, Suisui dapat melakukan Plume Step ketiga pada detik ke-18 dari Transcendent Dance saat berada dalam Roaming Transcendent.\n\nRoaming Transcendent\nBertahan selama {10} detik.\nSelama Roaming Transcendent, Suisui akan menyatu dengan Ceaseless Landscape dan memulai Transcendent Dance, di mana ia akan melakukan Plume Step secara berkala berdasarkan jumlah Floral Epistle yang dikonsumsi saat Outro Skill - Rippling Waters dilancarkan.\nSaat Suisui menjadi Resonator aktif dalam tim, ia menghentikan Transcendent Dance.\nSaat Ceaseless Landscape tidak aktif, ia akan keluar dari status Roaming Transcendent.\n\nPlume Step\nMelakukan Plume Step memberikan Reflecting Shadows kepada semua Resonator terdekat dalam tim selama 6 detik, memberikan 1 tumpukan Glacio Chafe pada semua musuh di dalam Ceaseless Landscape, dan menyembuhkan Resonator aktif terdekat dalam tim di dalam Ceaseless Landscape."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator dalam tim mendapatkan amplifikasi 25% All DMG selama 30 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Suisui memasuki Roaming Transcendent saat Ceaseless Landscape aktif.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Suisui keluar dari Drizzle Stance dan mengonsumsi seluruh Floral Epistle serta membuka efek berikut berdasarkan jumlah Floral Epistle yang dikonsumsi:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "0 Floral Epistle dikonsumsi:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Semua Resonator terdekat dalam tim mendapatkan Reflecting Shadows selama 6 detik. Resonator dengan Reflecting Shadows memiliki ketahanan terhadap interupsi yang meningkat.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Minimal 200 Floral Epistle dikonsumsi:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Jika Ceaseless Landscape aktif, Suisui dapat melakukan Plume Step untuk pertama kalinya pada detik ke-6 dari Transcendent Dance saat berada dalam Roaming Transcendent.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Minimal 400 Floral Epistle dikonsumsi:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Selama status Roaming Transcendent ini, Resonator aktif di dalam Ceaseless Landscape menimbulkan lebih banyak DMG jika mereka memiliki Reflecting Shadows. Untuk setiap 1% Energy Regen Suisui di atas 200%, DMG yang ditimbulkan Resonator meningkat sebesar 0,2%, hingga maksimal 12%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Jika Ceaseless Landscape aktif, Suisui dapat melakukan Plume Step kedua pada detik ke-12 dari Transcendent Dance saat berada dalam Roaming Transcendent.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Minimal 600 Floral Epistle dikonsumsi:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Saat Suisui melakukan Plume Step pertama, semua Resonator aktif terdekat dalam tim di dalam Ceaseless Landscape mendapatkan efek berikut selama 24 detik:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan Outro Skill memberikan Undulating Mist kepada Resonator yang masuk. Saat Resonator dengan Undulating Mist mengonsumsi tumpukan Negative Status atau Electro Rage pada target, mereka mendapatkan peningkatan ATK: Untuk setiap 0,12% Energy Regen Suisui di atas 200%, ATK Resonator meningkat sebesar 0,1% selama 6 detik, hingga maksimal 50%. Undulating Mist bertahan selama 14 detik atau hingga Resonator diganti keluar dari medan pertempuran. Saat Undulating Mist hilang, efek peningkatan ATK juga dihapus.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Jika Ceaseless Landscape aktif, Suisui dapat melakukan Plume Step ketiga pada detik ke-18 dari Transcendent Dance saat berada dalam Roaming Transcendent.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Roaming Transcendent",
+          "description": "Bertahan selama {10} detik.\nSelama Roaming Transcendent, Suisui akan menyatu dengan Ceaseless Landscape dan memulai Transcendent Dance, di mana ia akan melakukan Plume Step secara berkala berdasarkan jumlah Floral Epistle yang dikonsumsi saat Outro Skill - Rippling Waters dilancarkan.\nSaat Suisui menjadi Resonator aktif dalam tim, ia menghentikan Transcendent Dance.\nSaat Ceaseless Landscape tidak aktif, ia akan keluar dari status Roaming Transcendent.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Plume Step",
+          "description": "Melakukan Plume Step memberikan Reflecting Shadows kepada semua Resonator terdekat dalam tim selama 6 detik, memberikan 1 tumpukan Glacio Chafe pada semua musuh di dalam Ceaseless Landscape, dan menyembuhkan Resonator aktif terdekat dalam tim di dalam Ceaseless Landscape.",
+          "isTitleVisible": true
+        }
+      ]
     }
   },
   "materials": {
@@ -191,32 +421,98 @@
     {
       "stage": "S1",
       "name": "Mountains Washed Into Paintings",
-      "description": "Resonator dengan Undulating Mist juga mendapatkan peningkatan ATK setelah memberikan Negative Status atau menimbulkan DMG dari Negative Status.\nDurasi Reflecting Shadows yang diperoleh melalui Plume Step ketiga diperpanjang sebesar 100%.\nBasic Attack - Drizzle Stance, Heavy Attack - Drizzle Stance, dan Enhanced Plunging Attack - Enhanced State kebal terhadap interupsi."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator dengan Undulating Mist juga mendapatkan peningkatan ATK setelah memberikan Negative Status atau menimbulkan DMG dari Negative Status.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Durasi Reflecting Shadows yang diperoleh melalui Plume Step ketiga diperpanjang sebesar 100%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Basic Attack - Drizzle Stance, Heavy Attack - Drizzle Stance, dan Enhanced Plunging Attack - Enhanced State kebal terhadap interupsi.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Clouds Pour Like Molten Gold",
-      "description": "Semua Resonator terdekat dalam tim di dalam Ceaseless Landscape mendapatkan peningkatan Crit. DMG sebesar 50% selama 30 detik setelah melakukan tindakan berikut:\n- Memberikan efek Spectro Frazzle, Fusion Burst, Glacio Chafe, Aero Erosion, dan Electro Flare, atau menimbulkan DMG dari Negative Status yang sesuai.\n- Mengonsumsi tumpukan Havoc Bane pada target.\nSaat Resonator aktif tidak berada di dalam Ceaseless Landscape, efek bonus Crit. DMG ini dinonaktifkan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Semua Resonator terdekat dalam tim di dalam Ceaseless Landscape mendapatkan peningkatan Crit. DMG sebesar 50% selama 30 detik setelah melakukan tindakan berikut:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Memberikan efek Spectro Frazzle, Fusion Burst, Glacio Chafe, Aero Erosion, dan Electro Flare, atau menimbulkan DMG dari Negative Status yang sesuai.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Mengonsumsi tumpukan Havoc Bane pada target.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat Resonator aktif tidak berada di dalam Ceaseless Landscape, efek bonus Crit. DMG ini dinonaktifkan.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Sparse Curtains Invite Evening Glow",
-      "description": "Menekan Normal Attack sesaat setelah melancarkan Resonance Skill - Drizzle Stance untuk melancarkan Basic Attack - Drizzle Stance Stage 4.\n\nMelancarkan Resonance Skill - Drizzle Stance memberikan status Kingfisher. Beralih ke Resonator lain mengakhiri efek ini. Melancarkan Basic Attack - Drizzle Stance Stage 4 mengonsumsi Kingfisher untuk memulihkan 20 poin Concerto Energy dan 350 poin Floral Epistle. Kingfisher dapat dikonsumsi maksimal sekali setiap 25 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menekan Normal Attack sesaat setelah melancarkan Resonance Skill - Drizzle Stance untuk melancarkan Basic Attack - Drizzle Stance Stage 4.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan Resonance Skill - Drizzle Stance memberikan status Kingfisher. Beralih ke Resonator lain mengakhiri efek ini. Melancarkan Basic Attack - Drizzle Stance Stage 4 mengonsumsi Kingfisher untuk memulihkan 20 poin Concerto Energy dan 350 poin Floral Epistle. Kingfisher dapat dikonsumsi maksimal sekali setiap 25 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Autumn Mountains In Choir Sing",
-      "description": "Healing yang diberikan oleh Enrichment dan Spring's Birth meningkat sebesar 50%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Healing yang diberikan oleh Enrichment dan Spring's Birth meningkat sebesar 50%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "I Long To Ride The Eastern Wind",
-      "description": "Damage Multiplier dari Basic Attack - Drizzle Stance dan Heavy Attack - Drizzle Stance meningkat sebesar 100%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage Multiplier dari Basic Attack - Drizzle Stance dan Heavy Attack - Drizzle Stance meningkat sebesar 100%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Staying True To This Splendid Realm",
-      "description": "Crit. DMG dari Intro Skill - Tinkling Jade dan Resonance Skill - Awakening Spring meningkat sebesar 500%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Crit. DMG dari Intro Skill - Tinkling Jade dan Resonance Skill - Awakening Spring meningkat sebesar 500%.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

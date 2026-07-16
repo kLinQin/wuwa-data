@@ -17,7 +17,8 @@
     {
       "text": "Minimal update",
       "type": "updated",
-      "isNew": false
+      "isNew": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Huaxu Academy",
@@ -115,37 +116,115 @@
   "skills": {
     "basic": {
       "name": "Destined Promise",
-      "description": "Basic Attack\nBaizhi memerintahkan You'tan untuk melakukan hingga 4 serangan beruntun, memberikan  Glacio DMG.\n\nHeavy Attack\nBaizhi terus mengonsumsi STA untuk memerintahkan You'tan menyerang musuh, memberikan  Glacio DMG. Selama Heavy Attack, Baizhi dapat mengarahkan You'tan untuk bergerak.\n\nMid-air Attack\nBaizhi mengonsumsi STA dan memanggil You’tan di udara untuk melakukan Plunging Attack, memberikan  Glacio DMG.\n\nDodge Counter\nGunakan Basic Attack setelah berhasil dodge untuk menyerang target, memberikan  Glacio DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Baizhi memerintahkan You'tan untuk melakukan hingga 4 serangan beruntun, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Baizhi terus mengonsumsi STA untuk memerintahkan You'tan menyerang musuh, memberikan  Glacio DMG. Selama Heavy Attack, Baizhi dapat mengarahkan You'tan untuk bergerak.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Baizhi mengonsumsi STA dan memanggil You’tan di udara untuk melakukan Plunging Attack, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah berhasil dodge untuk menyerang target, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Emergency Plan",
-      "description": "Baizhi memanggil You'tan untuk menyerang target, memberikan  Glacio DMG sambil langsung menyembuhkan semua karakter di tim terdekat."
+      "effects": [
+        {
+          "title": "",
+          "description": "Baizhi memanggil You'tan untuk menyerang target, memberikan  Glacio DMG sambil langsung menyembuhkan semua karakter di tim terdekat.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Momentary Union",
-      "description": "Baizhi memanggil You'tan untuk menyembuhkan semua karakter di tim terdekat, menghasilkan 4 stack Remnant Entities.\n\nRemnant Entities\nRemnant Entities mengikuti anggota tim yang sedang aktif. 1 stack Remnant Entities akan otomatis dikonsumsi setiap 2.5 detik untuk melakukan Coordinated Attack, memberikan  Glacio DMG saat mengenai musuh sambil menyembuhkan semua karakter di tim jika karakter aktif berada dalam jangkauan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Baizhi memanggil You'tan untuk menyembuhkan semua karakter di tim terdekat, menghasilkan 4 stack Remnant Entities.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Remnant Entities",
+          "description": "Remnant Entities mengikuti anggota tim yang sedang aktif. 1 stack Remnant Entities akan otomatis dikonsumsi setiap 2.5 detik untuk melakukan Coordinated Attack, memberikan  Glacio DMG saat mengenai musuh sambil menyembuhkan semua karakter di tim jika karakter aktif berada dalam jangkauan.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Cycle Of Life",
-      "description": "You'tan\nMakhluk Remnant yang merespons pikiran dan keinginan Baizhi serta berbagi semua stat miliknya. You'tan akan kembali ke Baizhi ketika Baizhi melakukan Dodge.\n\nConcentration\nBaizhi mengonsumsi semua Concentration saat menggunakan Heavy Attack atau Resonance Skill Emergency Plan untuk terus menyembuhkan semua Resonator di tim terdekat. Setiap 1 Concentration yang dikonsumsi memberikan 1 kali pemulihan. Pemulihan terjadi setiap 2 detik.\n- Saat Baizhi mengonsumsi Concentration untuk menggunakan Heavy Attack, Baizhi juga memulihkan Concerto Energy dan Resonance Energy.\n- Saat Baizhi mengonsumsi Concentration untuk menggunakan Resonance Skill Emergency Plan, Baizhi juga memulihkan Concerto Energy.\n\nForte Gauge: Concentration\n- Baizhi dapat menampung hingga 4 Concentration.\n- Baizhi mendapatkan 1 Concentration setiap kali Basic Attack mengenai target."
+      "effects": [
+        {
+          "title": "You'tan",
+          "description": "Makhluk Remnant yang merespons pikiran dan keinginan Baizhi serta berbagi semua stat miliknya. You'tan akan kembali ke Baizhi ketika Baizhi melakukan Dodge.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Concentration",
+          "description": "Baizhi mengonsumsi semua Concentration saat menggunakan Heavy Attack atau Resonance Skill Emergency Plan untuk terus menyembuhkan semua Resonator di tim terdekat. Setiap 1 Concentration yang dikonsumsi memberikan 1 kali pemulihan. Pemulihan terjadi setiap 2 detik.\n- Saat Baizhi mengonsumsi Concentration untuk menggunakan Heavy Attack, Baizhi juga memulihkan Concerto Energy dan Resonance Energy.\n- Saat Baizhi mengonsumsi Concentration untuk menggunakan Resonance Skill Emergency Plan, Baizhi juga memulihkan Concerto Energy.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Forte Gauge: Concentration",
+          "description": "- Baizhi dapat menampung hingga 4 Concentration.\n- Baizhi mendapatkan 1 Concentration setiap kali Basic Attack mengenai target.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Harmonic Range",
-        "description": "Saat Baizhi menggunakan Resonance Skill Emergency Plan, You'tan menciptakan Euphonia Field yang bertahan selama 15 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Baizhi menggunakan Resonance Skill Emergency Plan, You'tan menciptakan Euphonia Field yang bertahan selama 15 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Harmonic Range",
-        "description": "Saat mengenai target, Heavy Attack Baizhi menyembuhkan karakter dengan HP terendah di tim terdekat sebesar 0.25% dari Max HP Baizhi."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat mengenai target, Heavy Attack Baizhi menyembuhkan karakter dengan HP terendah di tim terdekat sebesar 0.25% dari Max HP Baizhi.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Overflowing Frost",
-      "description": "Baizhi memanggil You'tan untuk melakukan Plunging Attack, memberikan  Glacio DMG sambil menyembuhkan semua karakter di tim terdekat."
+      "effects": [
+        {
+          "title": "",
+          "description": "Baizhi memanggil You'tan untuk melakukan Plunging Attack, memberikan  Glacio DMG sambil menyembuhkan semua karakter di tim terdekat.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Rejuvinating Flow",
-      "description": "Menyembuhkan Resonator yang masuk sebesar 1.54% dari Max HP Baizhi setiap 3 detik selama 30 detik. Resonator yang disembuhkan mendapatkan DMG Amplification sebesar 15% selama 6 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyembuhkan Resonator yang masuk sebesar 1.54% dari Max HP Baizhi setiap 3 detik selama 30 detik. Resonator yang disembuhkan mendapatkan DMG Amplification sebesar 15% selama 6 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -234,32 +313,83 @@
     {
       "stage": "S1",
       "name": "Complex Simplicity",
-      "description": "Resonance Skill Emergency Plan memulihkan 2.5 Resonance Energy untuk setiap 1 \"Concentration\" yang dikonsumsi."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill Emergency Plan memulihkan 2.5 Resonance Energy untuk setiap 1 \"Concentration\" yang dikonsumsi.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Silent Tundra",
-      "description": "Jika Baizhi memiliki 4 \"Concentration\", Resonance Skill Emergency Plan meningkatkan  Glacio DMG Bonus sebesar 15% dan Healing Bonus sebesar 15% selama 12 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Jika Baizhi memiliki 4 \"Concentration\", Resonance Skill Emergency Plan meningkatkan  Glacio DMG Bonus sebesar 15% dan Healing Bonus sebesar 15% selama 12 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Veritas Lux Mea",
-      "description": "Intro Skill Overflowing Frost meningkatkan Max HP Baizhi sebesar 12% selama 10 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Intro Skill Overflowing Frost meningkatkan Max HP Baizhi sebesar 12% selama 10 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Eternal Verity",
-      "description": "Saat Resonance Liberation Momentary Union digunakan, Resonance Liberation Remnant Entities mendapatkan efek tambahan:\n- Dapat dilakukan 2 kali lebih banyak.\n- Healing Multiplier meningkat 20%.\n- Remnant Entities memberikan   Glacio DMG tambahan setara dengan 1.20% dari Max HP Baizhi."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Resonance Liberation Momentary Union digunakan, Resonance Liberation Remnant Entities mendapatkan efek tambahan:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Dapat dilakukan 2 kali lebih banyak.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Healing Multiplier meningkat 20%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Remnant Entities memberikan   Glacio DMG tambahan setara dengan 1.20% dari Max HP Baizhi.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "A Wish Answered",
-      "description": "Jika anggota tim tereliminasi saat Baizhi masih hidup, mereka langsung dihidupkan kembali dan dipulihkan hingga 100% Max HP. Efek ini dapat dipicu sekali setiap 10 menit."
+      "effects": [
+        {
+          "title": "",
+          "description": "Jika anggota tim tereliminasi saat Baizhi masih hidup, mereka langsung dihidupkan kembali dan dipulihkan hingga 100% Max HP. Efek ini dapat dipicu sekali setiap 10 menit.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Seeker'S Devotion",
-      "description": "Saat Euphonia diambil, meningkatkan  Glacio DMG Bonus seluruh karakter di sekitar sebesar 12% selama 20 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Euphonia diambil, meningkatkan  Glacio DMG Bonus seluruh karakter di sekitar sebesar 12% selama 20 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

@@ -21,7 +21,8 @@
     {
       "text": "Minimal update",
       "type": "updated",
-      "isNew": false
+      "isNew": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Jinzhou",
@@ -172,37 +173,135 @@
   "skills": {
     "basic": {
       "name": "Dimming Brush",
-      "description": "Basic Attack\nMelakukan hingga 3 serangan berturut-turut, memberikan  Glacio DMG.\n\nHeavy Attack\nMengonsumsi STA untuk menyerang target, memberikan  Glacio DMG.\n(Heavy Attack tidak mereset siklus Basic Attack.)\n\nMid-air Attack\nMengonsumsi STA untuk melakukan hingga 2 serangan berturut-turut di udara, memberikan  Glacio DMG.\n\nDodge Counter\nGunakan Basic Attack setelah berhasil menghindar untuk menyerang target, memberikan  Glacio DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 3 serangan berturut-turut, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan  Glacio DMG.\n(Heavy Attack tidak mereset siklus Basic Attack.)",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan hingga 2 serangan berturut-turut di udara, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah berhasil menghindar untuk menyerang target, memberikan  Glacio DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Manifestation",
-      "description": "Menyerang target, memberikan  Glacio DMG. Jika Afflatus tidak kurang dari 60, konsumsi 60 Afflatus untuk memanggil Phantasmic Imprint - Left dan Phantasmic Imprint - Right.\n- Tekan tombol di darat untuk memanggil Phantasmic Imprints di darat.\n- Tahan tombol di darat atau tekan tombol di udara untuk memanggil Phantasmic Imprints di udara."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan  Glacio DMG. Jika Afflatus tidak kurang dari 60, konsumsi 60 Afflatus untuk memanggil Phantasmic Imprint - Left dan Phantasmic Imprint - Right.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Tekan tombol di darat untuk memanggil Phantasmic Imprints di darat.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Tahan tombol di darat atau tekan tombol di udara untuk memanggil Phantasmic Imprints di udara.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Living Canvas",
-      "description": "Memanggil Inklit Spirits untuk membantu dalam pertempuran. Dapat digunakan saat di udara.\n\nInklit Spirit\nKetika Resonator aktif memberikan DMG, akan muncul Inklit Spirit untuk melakukan Coordinated Attack, memberikan  Glacio DMG yang dianggap sebagai Basic Attack DMG.\n- Selama 3 detik setelah memberikan DMG, 1 Inklit Spirit akan dipanggil setiap detik. Efek ini dapat dipicu sekali per detik.\n- DMG yang diberikan oleh Inklit Spirit tidak akan memicu pemanggilan tambahan.\n- Maksimal 1 Inklit Spirit dapat dipanggil setiap detik, dengan total 21 Inklit Spirits.\n- Efek ini berlangsung selama 30 detik atau hingga jumlah maksimum Inklit Spirits tercapai."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memanggil Inklit Spirits untuk membantu dalam pertempuran. Dapat digunakan saat di udara.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Inklit Spirit",
+          "description": "Ketika Resonator aktif memberikan DMG, akan muncul Inklit Spirit untuk melakukan Coordinated Attack, memberikan  Glacio DMG yang dianggap sebagai Basic Attack DMG.\n- Selama 3 detik setelah memberikan DMG, 1 Inklit Spirit akan dipanggil setiap detik. Efek ini dapat dipicu sekali per detik.\n- DMG yang diberikan oleh Inklit Spirit tidak akan memicu pemanggilan tambahan.\n- Maksimal 1 Inklit Spirit dapat dipanggil setiap detik, dengan total 21 Inklit Spirits.\n- Efek ini berlangsung selama 30 detik atau hingga jumlah maksimum Inklit Spirits tercapai.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Ink And Wash",
-      "description": "Phantasmic Imprint\nZhezhi dapat memanggil Phantasmic Imprints dengan mengonsumsi Afflatus saat menggunakan Resonance Skill Manifestation atau Heavy Attack Conjuration.\n- Maksimal 1 dari setiap jenis Phantasmic Imprint (Left, Middle, Right) dapat ada secara bersamaan, masing-masing bertahan selama 15 detik.\n\nHeavy Attack - Conjuration\nMengonsumsi STA untuk menyerang dengan 5 cara berbeda, memberikan  Glacio DMG:\n- Tahan tombol Normal Attack setelah Basic Attack tahap 3.\n- Tekan tombol Normal Attack setelah menggunakan Resonance Skill Manifestation.\n- Tahan tombol Normal Attack setelah menggunakan Resonance Skill Stroke of Genius atau Resonance Skill Creation's Zenith.\n- Tahan tombol Normal Attack saat di udara.\n- Tahan tombol Normal Attack setelah Dodge yang berhasil.\n- Jika Zhezhi memiliki minimal 30 Afflatus, konsumsi 30 Afflatus untuk memanggil Phantasmic Imprint - Middle.\n\nResonance Skill - Stroke of Genius\nJika Phantasmic Imprint berada di dekatnya, Resonance Skill digantikan oleh Stroke of Genius, yang bisa digunakan saat di udara.\nSaat digunakan, Zhezhi akan:\n- Berpindah ke lokasi Phantasmic Imprint, menghilangkannya, dan memanggil Ivory Herald untuk menyerang target, memberikan  Glacio DMG yang dianggap sebagai Basic Attack DMG.\n- Meregenerasi percobaan Dodge di udara jika Phantasmic Imprint berada di udara.\n- Mendapatkan 1 stack Painter’s Delight, bertahan 8 detik, dapat ditumpuk hingga 2 kali.\n\nResonance Skill - Creation's Zenith\nJika Phantasmic Imprint berada di dekatnya dan Painter's Delight mencapai 2 stack, Stroke of Genius digantikan oleh Creation’s Zenith, yang bisa digunakan saat di udara.\nSaat digunakan, Zhezhi akan:\n- Kehilangan semua stack Painter’s Delight.\n- Berpindah ke lokasi Phantasmic Imprint, menghilangkannya, dan memanggil Ivory Herald untuk menyerang target, memberikan  Glacio DMG yang lebih besar, serta meningkatkan Basic Attack DMG Bonus sebesar 18% selama 27 detik.\n- Meregenerasi percobaan Dodge di udara jika Phantasmic Imprint berada di udara.\n\nAfflatus\n- Zhezhi dapat menyimpan hingga 90 Afflatus.\n- Normal Attack memberikan Afflatus saat mengenai target.\n- Menggunakan Intro Skill juga memberikan Afflatus."
+      "effects": [
+        {
+          "title": "Phantasmic Imprint",
+          "description": "Zhezhi dapat memanggil Phantasmic Imprints dengan mengonsumsi Afflatus saat menggunakan Resonance Skill Manifestation atau Heavy Attack Conjuration.\n- Maksimal 1 dari setiap jenis Phantasmic Imprint (Left, Middle, Right) dapat ada secara bersamaan, masing-masing bertahan selama 15 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Conjuration",
+          "description": "Mengonsumsi STA untuk menyerang dengan 5 cara berbeda, memberikan  Glacio DMG:\n- Tahan tombol Normal Attack setelah Basic Attack tahap 3.\n- Tekan tombol Normal Attack setelah menggunakan Resonance Skill Manifestation.\n- Tahan tombol Normal Attack setelah menggunakan Resonance Skill Stroke of Genius atau Resonance Skill Creation's Zenith.\n- Tahan tombol Normal Attack saat di udara.\n- Tahan tombol Normal Attack setelah Dodge yang berhasil.\n- Jika Zhezhi memiliki minimal 30 Afflatus, konsumsi 30 Afflatus untuk memanggil Phantasmic Imprint - Middle.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Stroke of Genius",
+          "description": "Jika Phantasmic Imprint berada di dekatnya, Resonance Skill digantikan oleh Stroke of Genius, yang bisa digunakan saat di udara.\nSaat digunakan, Zhezhi akan:\n- Berpindah ke lokasi Phantasmic Imprint, menghilangkannya, dan memanggil Ivory Herald untuk menyerang target, memberikan  Glacio DMG yang dianggap sebagai Basic Attack DMG.\n- Meregenerasi percobaan Dodge di udara jika Phantasmic Imprint berada di udara.\n- Mendapatkan 1 stack Painter’s Delight, bertahan 8 detik, dapat ditumpuk hingga 2 kali.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Creation's Zenith",
+          "description": "Jika Phantasmic Imprint berada di dekatnya dan Painter's Delight mencapai 2 stack, Stroke of Genius digantikan oleh Creation’s Zenith, yang bisa digunakan saat di udara.\nSaat digunakan, Zhezhi akan:\n- Kehilangan semua stack Painter’s Delight.\n- Berpindah ke lokasi Phantasmic Imprint, menghilangkannya, dan memanggil Ivory Herald untuk menyerang target, memberikan  Glacio DMG yang lebih besar, serta meningkatkan Basic Attack DMG Bonus sebesar 18% selama 27 detik.\n- Meregenerasi percobaan Dodge di udara jika Phantasmic Imprint berada di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Afflatus",
+          "description": "- Zhezhi dapat menyimpan hingga 90 Afflatus.\n- Normal Attack memberikan Afflatus saat mengenai target.\n- Menggunakan Intro Skill juga memberikan Afflatus.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Calligrapher'S Touch",
-        "description": "Saat menggunakan Resonance Skill Stroke of Genius atau Resonance Skill Creation’s Zenith, ATK meningkat sebesar 6% selama 27 detik, dapat ditumpuk hingga 3 kali."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat menggunakan Resonance Skill Stroke of Genius atau Resonance Skill Creation’s Zenith, ATK meningkat sebesar 6% selama 27 detik, dapat ditumpuk hingga 3 kali.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Flourish",
-        "description": "Setelah Outro Skill digunakan, memulihkan 15 Resonance Energy untuk Resonator yang masuk."
+        "effects": [
+          {
+            "title": "",
+            "description": "Setelah Outro Skill digunakan, memulihkan 15 Resonance Energy untuk Resonator yang masuk.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Radiant Ruin",
-      "description": "Menyerang target, memberikan  Glacio DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan  Glacio DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Carve And Draw",
-      "description": "Resonator yang masuk mendapatkan Amplifikasi  Glacio DMG sebesar 20% dan Amplifikasi Resonance Skill DMG sebesar 25% selama 14 detik atau hingga mereka diganti."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk mendapatkan Amplifikasi  Glacio DMG sebesar 20% dan Amplifikasi Resonance Skill DMG sebesar 25% selama 14 detik atau hingga mereka diganti.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -400,32 +499,73 @@
     {
       "stage": "S1",
       "name": "Brushwork'S Finish",
-      "description": "Mengaktifkan Resonance Skill Creation's Zenith memulihkan 15 Resonance Energy dan meningkatkan Crit. Rate sebesar 10% selama 27 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mengaktifkan Resonance Skill Creation's Zenith memulihkan 15 Resonance Energy dan meningkatkan Crit. Rate sebesar 10% selama 27 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Vivid Strokes",
-      "description": "Jumlah maksimum Inklit Spirits yang dapat dipanggil oleh Resonance Liberation Living Canvas bertambah 6."
+      "effects": [
+        {
+          "title": "",
+          "description": "Jumlah maksimum Inklit Spirits yang dapat dipanggil oleh Resonance Liberation Living Canvas bertambah 6.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Reflection'S Grace",
-      "description": "Mengaktifkan Resonance Skill Manifestation, Resonance Skill Stroke of Genius, atau Resonance Skill Creation's Zenith meningkatkan ATK sebesar 15% selama 27 detik, dapat ditumpuk hingga 3 kali."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mengaktifkan Resonance Skill Manifestation, Resonance Skill Stroke of Genius, atau Resonance Skill Creation's Zenith meningkatkan ATK sebesar 15% selama 27 detik, dapat ditumpuk hingga 3 kali.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Hue'S Spectrum",
-      "description": "Mengaktifkan Resonance Liberation Living Canvas meningkatkan ATK seluruh Resonator dalam tim sebesar 20% selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mengaktifkan Resonance Liberation Living Canvas meningkatkan ATK seluruh Resonator dalam tim sebesar 20% selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Composition'S Clue",
-      "description": "Setiap 3 Inklit Spirits yang dipanggil oleh Resonance Liberation Living Canvas, 1 Inklit Spirit tambahan dipanggil untuk melakukan Coordinated Attack, memberikan DMG sebesar 140% dari DMG Inklit Spirit, dianggap sebagai Basic Attack DMG.\n(DMG ini tidak akan memanggil Inklit Spirit tambahan.)"
+      "effects": [
+        {
+          "title": "",
+          "description": "Setiap 3 Inklit Spirits yang dipanggil oleh Resonance Liberation Living Canvas, 1 Inklit Spirit tambahan dipanggil untuk melakukan Coordinated Attack, memberikan DMG sebesar 140% dari DMG Inklit Spirit, dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "(DMG ini tidak akan memanggil Inklit Spirit tambahan.)",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Infinite Legacy",
-      "description": "Mengaktifkan Resonance Skill Stroke of Genius atau Resonance Skill Creation's Zenith akan memanggil 1 Ivory Herald tambahan, yang memberikan DMG sebesar 120% dari DMG Resonance Skill Stroke of Genius, dianggap sebagai Basic Attack DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Mengaktifkan Resonance Skill Stroke of Genius atau Resonance Skill Creation's Zenith akan memanggil 1 Ivory Herald tambahan, yang memberikan DMG sebesar 120% dari DMG Resonance Skill Stroke of Genius, dianggap sebagai Basic Attack DMG.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

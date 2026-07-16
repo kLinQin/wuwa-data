@@ -18,7 +18,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Ephor's Palace",
@@ -194,37 +195,200 @@
   "skills": {
     "basic": {
       "name": "Hunter'S Path",
-      "description": "Basic Attack\nMelakukan hingga 4 serangan beruntun, memberikan Electro DMG.\n\nHeavy Attack - Steelclash\nMengonsumsi STA untuk menyerang target, memberikan Electro DMG. Tekan Normal Attack segera setelah melakukan Heavy Attack untuk melancarkan Basic Attack Stage 2.\n\nMid-air Attack\nMengonsumsi STA untuk melakukan Plunging Attack dari udara, memberikan Electro DMG.\n\nDodge Counter\nTekan Normal Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG.\n\nMid-air Dodge Counter\nTekan Normal Attack setelah Mid-air Dodge yang berhasil untuk melakukan Plunging Attack dengan mengonsumsi STA, memberikan Electro DMG.\n\nHeavy Attack - Thunderoar: Backstep\nSaat Prowess penuh, Heavy Attack - Steelclash digantikan dengan Heavy Attack - Thunderoar: Backstep, memberikan Electro DMG dan mengonsumsi seluruh Prowess.\n- Selama aksi berlangsung, lepas atau tekan Normal Attack lagi dalam periode tertentu untuk melancarkan Heavy Attack - Thunderoar: Spinslash.\n- Heavy Attack - Thunderoar: Spinslash tersedia jika Augusta tetap berada di darat selama periode tertentu setelah skill ini terhenti.\n\nHeavy Attack - Thunderoar: Spinslash\nAugusta berputar dan menyerang dengan Broadblade miliknya, memberikan Electro DMG.\n\nHeavy Attack - Thunderoar: Uppercut\nTekan Jump saat Prowess penuh untuk melancarkan Heavy Attack - Thunderoar: Uppercut, memberikan Electro DMG dan mengonsumsi seluruh Prowess.\nJika Prowess penuh saat melancarkan Resonance Skill - Warrior's Blade, tekan Resonance Skill atau Jump untuk melancarkan Heavy Attack - Thunderoar: Uppercut, memberikan Electro DMG dan mengonsumsi seluruh Prowess.\nJika Prowess penuh saat melancarkan Heavy Attack - Steelclash atau Dodge Counter — Heavy Attack: Steelclash, lepas Normal Attack setelah periode tertentu atau tekan Normal Attack atau Jump lagi untuk melancarkan Heavy Attack - Thunderoar: Uppercut, memberikan Electro DMG dan mengonsumsi seluruh Prowess.\n\nDodge Counter - Heavy Attack: Steelclash\nSaat Prowess penuh, Dodge Counter digantikan dengan Dodge Counter - Heavy Attack: Steelclash, memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG.\n\nDodge Counter - Thunderoar: Backstep\nSaat Ascendancy penuh, tekan Normal Attack setelah Dodge yang berhasil di darat untuk melancarkan Dodge Counter - Thunderoar: Backstep sebagai pengganti Dodge Counter dan Dodge Counter - Heavy Attack: Steelclash, memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG.\n- Lepas atau tekan Normal Attack lagi dalam periode tertentu selama aksi untuk melancarkan Heavy Attack - Thunderoar: Spinslash.\n- Heavy Attack - Thunderoar: Spinslash tersedia jika Augusta tetap berada di darat selama periode tertentu setelah skill ini terhenti.\n\nProwess\nAugusta dapat menampung hingga 100 poin Prowess.\n- Prowess didapatkan saat Basic Attack, Heavy Attack - Steelclash, Mid-air Attack, Mid-air Dodge Counter, Resonance Skill - Warrior's Blade, Dodge Counter, atau Dodge Counter - Heavy Attack: Steelclash memberikan damage.\n- Prowess dipulihkan sepenuhnya saat melancarkan Intro Skill - Stride of Goldenflare."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Melakukan hingga 4 serangan beruntun, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Steelclash",
+          "description": "Mengonsumsi STA untuk menyerang target, memberikan Electro DMG. Tekan Normal Attack segera setelah melakukan Heavy Attack untuk melancarkan Basic Attack Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack dari udara, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Tekan Normal Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Dodge Counter",
+          "description": "Tekan Normal Attack setelah Mid-air Dodge yang berhasil untuk melakukan Plunging Attack dengan mengonsumsi STA, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Thunderoar: Backstep",
+          "description": "Saat Prowess penuh, Heavy Attack - Steelclash digantikan dengan Heavy Attack - Thunderoar: Backstep, memberikan Electro DMG dan mengonsumsi seluruh Prowess.\n- Selama aksi berlangsung, lepas atau tekan Normal Attack lagi dalam periode tertentu untuk melancarkan Heavy Attack - Thunderoar: Spinslash.\n- Heavy Attack - Thunderoar: Spinslash tersedia jika Augusta tetap berada di darat selama periode tertentu setelah skill ini terhenti.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Thunderoar: Spinslash",
+          "description": "Augusta berputar dan menyerang dengan Broadblade miliknya, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Thunderoar: Uppercut",
+          "description": "Tekan Jump saat Prowess penuh untuk melancarkan Heavy Attack - Thunderoar: Uppercut, memberikan Electro DMG dan mengonsumsi seluruh Prowess.\nJika Prowess penuh saat melancarkan Resonance Skill - Warrior's Blade, tekan Resonance Skill atau Jump untuk melancarkan Heavy Attack - Thunderoar: Uppercut, memberikan Electro DMG dan mengonsumsi seluruh Prowess.\nJika Prowess penuh saat melancarkan Heavy Attack - Steelclash atau Dodge Counter — Heavy Attack: Steelclash, lepas Normal Attack setelah periode tertentu atau tekan Normal Attack atau Jump lagi untuk melancarkan Heavy Attack - Thunderoar: Uppercut, memberikan Electro DMG dan mengonsumsi seluruh Prowess.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Heavy Attack: Steelclash",
+          "description": "Saat Prowess penuh, Dodge Counter digantikan dengan Dodge Counter - Heavy Attack: Steelclash, memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Thunderoar: Backstep",
+          "description": "Saat Ascendancy penuh, tekan Normal Attack setelah Dodge yang berhasil di darat untuk melancarkan Dodge Counter - Thunderoar: Backstep sebagai pengganti Dodge Counter dan Dodge Counter - Heavy Attack: Steelclash, memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG.\n- Lepas atau tekan Normal Attack lagi dalam periode tertentu selama aksi untuk melancarkan Heavy Attack - Thunderoar: Spinslash.\n- Heavy Attack - Thunderoar: Spinslash tersedia jika Augusta tetap berada di darat selama periode tertentu setelah skill ini terhenti.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Prowess",
+          "description": "Augusta dapat menampung hingga 100 poin Prowess.\n- Prowess didapatkan saat Basic Attack, Heavy Attack - Steelclash, Mid-air Attack, Mid-air Dodge Counter, Resonance Skill - Warrior's Blade, Dodge Counter, atau Dodge Counter - Heavy Attack: Steelclash memberikan damage.\n- Prowess dipulihkan sepenuhnya saat melancarkan Intro Skill - Stride of Goldenflare.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Warrior'S Blade",
-      "description": "Augusta melompat dan menghantamkan Broadblade miliknya ke bawah, memberikan Electro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Augusta melompat dan menghantamkan Broadblade miliknya ke bawah, memberikan Electro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "liberation": {
       "name": "Sunward Conquest",
-      "description": "Resonance Liberation - Sword of Eternal Oath\nTekan dan lepas Resonance Liberation untuk melancarkan skill ini. Augusta akan menyapukan Broadblade miliknya ke depan, memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG.\n\nResonance Liberation - Sublime is the Sun\nSaat Majesty mencapai 2 stack, tahan Resonance Liberation untuk melancarkan Resonance Liberation - Sublime is the Sun. Melancarkan Resonance Liberation - Sublime is the Sun tidak memerlukan Resonance Energy melainkan mengonsumsi 2 stack Majesty.\n- Saat melancarkan Resonance Liberation - Sublime is the Sun, Augusta menghasilkan Ruler's Realm dan memasuki status Sworn Allegiance selama 7 detik. Dalam durasi ini, waktu dihentikan sementara, dan Resonator switching dinonaktifkan. Hanya Sublime is the Sun - Sunborne, Sublime is the Sun - Everbright Protector, dan Dodge yang dapat dilakukan dalam status Sworn Allegiance. Mid-air Attack tersedia saat berada di udara.\n- Dalam status Sworn Allegiance, tekan atau tahan Normal Attack untuk melancarkan Sublime is the Sun - Sunborne. Augusta dapat berjalan di atas air tanpa mengonsumsi STA dalam status ini.\n- Melakukan interaksi lingkungan, gameplay, atau interaksi lainnya akan mengakhiri Sworn Allegiance tanpa memicu Sublime is the Sun - Everbright Protector.\n\nSublime is the Sun - Sunborne\nMemberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG. Setelah melancarkan Sublime is the Sun - Sunborne sebanyak 9 kali, tekan Normal Attack atau Resonance Liberation untuk melakukan Sublime is the Sun - Everbright Protector.\n\nSublime is the Sun - Everbright Protector\nMemberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG. Melancarkan Sublime is the Sun - Everbright Protector mengakhiri status Sworn Allegiance dan mengonsumsi semua stack Crown of Wills kemudian. Semua Resonator lain dalam tim akan dipaksa meninggalkan medan tempur.\n- Saat Sworn Allegiance berakhir, Sublime is the Sun - Everbright Protector akan dilancarkan secara otomatis.\n- Selama Sworn Allegiance, tahan Resonance Liberation untuk melancarkan Sublime is the Sun - Everbright Protector lebih awal.\n\nRuler's Realm\n- Ruler's Realm bertahan selama 30 detik.\n- Saat Resonator dalam tim melancarkan Intro Skill di dalam Ruler's Realm, mereka mendapatkan shield setara dengan 650 + 5% dari Max HP Augusta selama 10 detik. Efek ini tidak dapat ditumpuk. Shield ini tidak akan diteruskan ke Resonator yang masuk.\n\nMajesty\nAugusta dapat menampung hingga 2 stack Majesty.\n- 1 stack Majesty didapatkan saat melancarkan Resonance Skill - Undying Sunlight: Plunge.\n- 1 stack Majesty didapatkan saat Resonator lain dalam tim melancarkan Outro Skill di bawah efek Outro Skill - Battlesong of the Unyielding milik Augusta."
+      "effects": [
+        {
+          "title": "Resonance Liberation - Sword of Eternal Oath",
+          "description": "Tekan dan lepas Resonance Liberation untuk melancarkan skill ini. Augusta akan menyapukan Broadblade miliknya ke depan, memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Liberation - Sublime is the Sun",
+          "description": "Saat Majesty mencapai 2 stack, tahan Resonance Liberation untuk melancarkan Resonance Liberation - Sublime is the Sun. Melancarkan Resonance Liberation - Sublime is the Sun tidak memerlukan Resonance Energy melainkan mengonsumsi 2 stack Majesty.\n- Saat melancarkan Resonance Liberation - Sublime is the Sun, Augusta menghasilkan Ruler's Realm dan memasuki status Sworn Allegiance selama 7 detik. Dalam durasi ini, waktu dihentikan sementara, dan Resonator switching dinonaktifkan. Hanya Sublime is the Sun - Sunborne, Sublime is the Sun - Everbright Protector, dan Dodge yang dapat dilakukan dalam status Sworn Allegiance. Mid-air Attack tersedia saat berada di udara.\n- Dalam status Sworn Allegiance, tekan atau tahan Normal Attack untuk melancarkan Sublime is the Sun - Sunborne. Augusta dapat berjalan di atas air tanpa mengonsumsi STA dalam status ini.\n- Melakukan interaksi lingkungan, gameplay, atau interaksi lainnya akan mengakhiri Sworn Allegiance tanpa memicu Sublime is the Sun - Everbright Protector.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sublime is the Sun - Sunborne",
+          "description": "Memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG. Setelah melancarkan Sublime is the Sun - Sunborne sebanyak 9 kali, tekan Normal Attack atau Resonance Liberation untuk melakukan Sublime is the Sun - Everbright Protector.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sublime is the Sun - Everbright Protector",
+          "description": "Memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG. Melancarkan Sublime is the Sun - Everbright Protector mengakhiri status Sworn Allegiance dan mengonsumsi semua stack Crown of Wills kemudian. Semua Resonator lain dalam tim akan dipaksa meninggalkan medan tempur.\n- Saat Sworn Allegiance berakhir, Sublime is the Sun - Everbright Protector akan dilancarkan secara otomatis.\n- Selama Sworn Allegiance, tahan Resonance Liberation untuk melancarkan Sublime is the Sun - Everbright Protector lebih awal.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Ruler's Realm",
+          "description": "- Ruler's Realm bertahan selama 30 detik.\n- Saat Resonator dalam tim melancarkan Intro Skill di dalam Ruler's Realm, mereka mendapatkan shield setara dengan 650 + 5% dari Max HP Augusta selama 10 detik. Efek ini tidak dapat ditumpuk. Shield ini tidak akan diteruskan ke Resonator yang masuk.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Majesty",
+          "description": "Augusta dapat menampung hingga 2 stack Majesty.\n- 1 stack Majesty didapatkan saat melancarkan Resonance Skill - Undying Sunlight: Plunge.\n- 1 stack Majesty didapatkan saat Resonator lain dalam tim melancarkan Outro Skill di bawah efek Outro Skill - Battlesong of the Unyielding milik Augusta.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "forte": {
       "name": "Call Me By The Sun",
-      "description": "Resonance Skill - Undying Sunlight: Strike\nSaat Ascendancy penuh, Resonance Skill - Warrior's Blade digantikan dengan Resonance Skill - Undying Sunlight: Strike, memberikan Electro DMG.\n- Tekan Normal Attack atau Resonance Skill selama aksi berlangsung untuk melancarkan Resonance Skill - Undying Sunlight: Leap.\n- Resonance Skill - Undying Sunlight: Strike dapat dilancarkan kembali sesaat setelah terhenti.\n- Resonance Skill - Undying Sunlight: Leap dapat dilancarkan kembali beberapa saat setelah terhenti.\n- Dapat dilancarkan di udara.\n\nResonance Skill - Undying Sunlight: Leap\nMemberikan Electro DMG.\n- Tekan Normal Attack atau Resonance Skill selama aksi berlangsung untuk melancarkan Resonance Skill - Undying Sunlight: Plunge.\n- Resonance Skill - Undying Sunlight: Leap dapat dilancarkan kembali sesaat setelah terhenti.\n- Resonance Skill - Undying Sunlight: Plunge dapat dilancarkan kembali beberapa saat setelah terhenti.\n- Hanya dapat dilancarkan di udara.\n\nResonance Skill - Undying Sunlight: Plunge\nMengonsumsi seluruh Ascendancy untuk melancarkan skill ini, memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG.\n- Melancarkan skill ini memberikan 1 stack Majesty.\n- Hanya dapat dilancarkan di udara.\n\nDodge Counter - Undying Sunlight: Strike\nSaat Ascendancy penuh, tekan Resonance Skill setelah Dodge di darat yang berhasil atau tekan Normal Attack atau Resonance Skill setelah Mid-air Dodge yang berhasil untuk melancarkan Dodge Counter - Undying Sunlight: Strike, memberikan Electro DMG, yang dianggap sebagai Resonance Skill DMG.\n- Tekan Normal Attack atau Resonance Skill selama aksi berlangsung untuk melancarkan Resonance Skill - Undying Sunlight: Leap.\n- Resonance Skill - Undying Sunlight: Leap dapat dilancarkan kembali beberapa saat setelah terhenti.\n\nAscendancy\nAugusta dapat menampung hingga 100 poin Ascendancy.\n- Ascendancy didapatkan saat Normal Attack memberikan damage.\n- Melancarkan Intro Skill - Stride of Goldenflare memulihkan 20% Ascendancy.\n- Melancarkan Resonance Skill - Warrior's Blade memulihkan 10% Ascendancy.\n- Melancarkan Resonance Liberation - Sword of Eternal Oath memulihkan 40% Ascendancy."
+      "effects": [
+        {
+          "title": "Resonance Skill - Undying Sunlight: Strike",
+          "description": "Saat Ascendancy penuh, Resonance Skill - Warrior's Blade digantikan dengan Resonance Skill - Undying Sunlight: Strike, memberikan Electro DMG.\n- Tekan Normal Attack atau Resonance Skill selama aksi berlangsung untuk melancarkan Resonance Skill - Undying Sunlight: Leap.\n- Resonance Skill - Undying Sunlight: Strike dapat dilancarkan kembali sesaat setelah terhenti.\n- Resonance Skill - Undying Sunlight: Leap dapat dilancarkan kembali beberapa saat setelah terhenti.\n- Dapat dilancarkan di udara.\nResonance Skill - Undying Sunlight: Leap\nMemberikan Electro DMG.\n- Tekan Normal Attack atau Resonance Skill selama aksi berlangsung untuk melancarkan Resonance Skill - Undying Sunlight: Plunge.\n- Resonance Skill - Undying Sunlight: Leap dapat dilancarkan kembali sesaat setelah terhenti.\n- Resonance Skill - Undying Sunlight: Plunge dapat dilancarkan kembali beberapa saat setelah terhenti.\n- Hanya dapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Undying Sunlight: Plunge",
+          "description": "Mengonsumsi seluruh Ascendancy untuk melancarkan skill ini, memberikan Electro DMG, yang dianggap sebagai Heavy Attack DMG.\n- Melancarkan skill ini memberikan 1 stack Majesty.\n- Hanya dapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Undying Sunlight: Strike",
+          "description": "Saat Ascendancy penuh, tekan Resonance Skill setelah Dodge di darat yang berhasil atau tekan Normal Attack atau Resonance Skill setelah Mid-air Dodge yang berhasil untuk melancarkan Dodge Counter - Undying Sunlight: Strike, memberikan Electro DMG, yang dianggap sebagai Resonance Skill DMG.\n- Tekan Normal Attack atau Resonance Skill selama aksi berlangsung untuk melancarkan Resonance Skill - Undying Sunlight: Leap.\n- Resonance Skill - Undying Sunlight: Leap dapat dilancarkan kembali beberapa saat setelah terhenti.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Ascendancy",
+          "description": "Augusta dapat menampung hingga 100 poin Ascendancy.\n- Ascendancy didapatkan saat Normal Attack memberikan damage.\n- Melancarkan Intro Skill - Stride of Goldenflare memulihkan 20% Ascendancy.\n- Melancarkan Resonance Skill - Warrior's Blade memulihkan 10% Ascendancy.\n- Melancarkan Resonance Liberation - Sword of Eternal Oath memulihkan 40% Ascendancy.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Glory'S Favor",
-        "description": "Saat Augusta memberikan damage, ia mendapatkan shield setara dengan 350 + 2.5% dari Max HP miliknya selama 5 detik, dipicu sekali setiap 0.5 detik. Efek ini tidak dapat ditumpuk. Shield ini tidak akan diteruskan ke Resonator yang masuk."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Augusta memberikan damage, ia mendapatkan shield setara dengan 350 + 2.5% dari Max HP miliknya selama 5 detik, dipicu sekali setiap 0.5 detik. Efek ini tidak dapat ditumpuk. Shield ini tidak akan diteruskan ke Resonator yang masuk.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Blazing Valor",
-        "description": "Saat Augusta berada di luar pertempuran selama lebih dari 4 detik, ia mendapatkan efek berikut yang dapat dipicu sekali setiap 4 detik:\n- Jika Majesty kurang dari 1 stack, memulihkan 1 stack.\n- Memulihkan Crown of Wills sepenuhnya."
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Augusta berada di luar pertempuran selama lebih dari 4 detik, ia mendapatkan efek berikut yang dapat dipicu sekali setiap 4 detik:",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Jika Majesty kurang dari 1 stack, memulihkan 1 stack.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "- Memulihkan Crown of Wills sepenuhnya.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Stride Of Goldenflare",
-      "description": "Deal electro DMG"
+      "effects": [
+        {
+          "title": "",
+          "description": "Deal electro DMG",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Battlesong Of The Unyielding",
-      "description": "Resonator berikutnya yang masuk ke medan tempur mendapatkan efek berikut selama 14 detik, yang akan segera berakhir jika mereka digantikan:\n- Mendapatkan 15% DMG Amplification untuk semua Attributes.\n- Melancarkan Outro Skill memberikan 1 stack Majesty dan 1 stack Crown of Wills kepada Augusta.\n\nCrown of Wills\nSetiap stack memberikan 15% Electro DMG Bonus, hingga 1 stack. Saat Resonance Liberation - Sublime is the Sun: Everbright Protector berakhir, semua stack Crown of Wills akan dihapus."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator berikutnya yang masuk ke medan tempur mendapatkan efek berikut selama 14 detik, yang akan segera berakhir jika mereka digantikan:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Mendapatkan 15% DMG Amplification untuk semua Attributes.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Melancarkan Outro Skill memberikan 1 stack Majesty dan 1 stack Crown of Wills kepada Augusta.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Crown of Wills",
+          "description": "Setiap stack memberikan 15% Electro DMG Bonus, hingga 1 stack. Saat Resonance Liberation - Sublime is the Sun: Everbright Protector berakhir, semua stack Crown of Wills akan dihapus.",
+          "isTitleVisible": true
+        }
+      ]
     }
   },
   "materials": {
@@ -422,32 +586,118 @@
     {
       "stage": "S1",
       "name": "Stained In Scorched Earth",
-      "description": "- Setiap stack Crown of Wills secara tambahan meningkatkan Crit. DMG Augusta sebesar 15%.\n- stack maksimum Crown of Wills ditingkatkan menjadi 2.\n- Melancarkan Intro Skill - Stride of Goldenflare sekarang memberikan 1 stack Crown of Wills.\n- Resonance Skill - Undying Sunlight: Strike, Resonance Skill - Undying Sunlight: Leap, dan Resonance Skill - Undying Sunlight: Plunge sekarang kebal terhadap gangguan (immune to interruption)."
+      "effects": [
+        {
+          "title": "",
+          "description": "- Setiap stack Crown of Wills secara tambahan meningkatkan Crit. DMG Augusta sebesar 15%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- stack maksimum Crown of Wills ditingkatkan menjadi 2.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Melancarkan Intro Skill - Stride of Goldenflare sekarang memberikan 1 stack Crown of Wills.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Resonance Skill - Undying Sunlight: Strike, Resonance Skill - Undying Sunlight: Leap, dan Resonance Skill - Undying Sunlight: Plunge sekarang kebal terhadap gangguan (immune to interruption).",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Cleansed In Crimson War",
-      "description": "Crown of Wills memberikan efek tambahan: Setiap stack meningkatkan Crit. Rate Augusta sebesar 20%.\n- Untuk setiap 1% Crit. Rate di atas 100%, Augusta mendapatkan peningkatan 2% Crit. DMG, hingga maksimal 100%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Crown of Wills memberikan efek tambahan: Setiap stack meningkatkan Crit. Rate Augusta sebesar 20%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Untuk setiap 1% Crit. Rate di atas 100%, Augusta mendapatkan peningkatan 2% Crit. DMG, hingga maksimal 100%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Forged In Rot And Ruin",
-      "description": "Skill berikut memiliki DMG Multiplier yang ditingkatkan sebesar 25%:\n- Heavy Attack - Thunderoar: Backstep, Dodge Counter - Thunderoar: Backstep, Heavy Attack - Thunderoar: Spinslash, Heavy Attack - Thunderoar: Uppercut.\n- Resonance Skill - Undying Sunlight: Plunge.\n- Resonance Liberation - Sublime is the Sun: Sunborne, Resonance Liberation - Sublime is the Sun: Everbright Protector."
+      "effects": [
+        {
+          "title": "",
+          "description": "Skill berikut memiliki DMG Multiplier yang ditingkatkan sebesar 25%:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Heavy Attack - Thunderoar: Backstep, Dodge Counter - Thunderoar: Backstep, Heavy Attack - Thunderoar: Spinslash, Heavy Attack - Thunderoar: Uppercut.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Resonance Skill - Undying Sunlight: Plunge.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Resonance Liberation - Sublime is the Sun: Sunborne, Resonance Liberation - Sublime is the Sun: Everbright Protector.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Ascent In Sun And Glory",
-      "description": "Melancarkan Intro Skill - Stride of Goldenflare meningkatkan ATK seluruh Resonator dalam tim sebesar 20% selama 30 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Intro Skill - Stride of Goldenflare meningkatkan ATK seluruh Resonator dalam tim sebesar 20% selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Unshaken In Wrathful Tides",
-      "description": "Shield yang diberikan oleh Inherent Skill - Glory's Favor ditingkatkan sebesar 50%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Shield yang diberikan oleh Inherent Skill - Glory's Favor ditingkatkan sebesar 50%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Engraved In Radiant Light",
-      "description": "- Augusta kini dapat menampung hingga 4 stack Crown of Wills.\n- Untuk setiap 1% Crit. Rate di atas 150%, Augusta mendapatkan peningkatan 2% Crit. DMG, hingga maksimal 50%.\n- Saat Augusta melancarkan Heavy Attack - Thunderoar: Spinslash atau Heavy Attack - Thunderoar: Uppercut, ia mendapatkan 2 stack Crown of Wills. Augusta hanya dapat memperoleh 2 stack Crown of Wills setiap 1 detik melalui Engraved in Radiant Light.\n- Saat melancarkan Heavy Attack - Thunderoar: Spinslash atau Heavy Attack - Thunderoar: Uppercut, Thunder Rage terpicu di lokasi tersebut, memberikan dua instansi Electro DMG, dengan setiap instansi setara dengan 100% dari ATK Augusta, yang dianggap sebagai Heavy Attack DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "- Augusta kini dapat menampung hingga 4 stack Crown of Wills.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Untuk setiap 1% Crit. Rate di atas 150%, Augusta mendapatkan peningkatan 2% Crit. DMG, hingga maksimal 50%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Saat Augusta melancarkan Heavy Attack - Thunderoar: Spinslash atau Heavy Attack - Thunderoar: Uppercut, ia mendapatkan 2 stack Crown of Wills. Augusta hanya dapat memperoleh 2 stack Crown of Wills setiap 1 detik melalui Engraved in Radiant Light.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Saat melancarkan Heavy Attack - Thunderoar: Spinslash atau Heavy Attack - Thunderoar: Uppercut, Thunder Rage terpicu di lokasi tersebut, memberikan dua instansi Electro DMG, dengan setiap instansi setara dengan 100% dari ATK Augusta, yang dianggap sebagai Heavy Attack DMG.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

@@ -20,7 +20,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Yuanwu Boxing Gym",
@@ -140,37 +141,120 @@
   "skills": {
     "basic": {
       "name": "Leihuangquan",
-      "description": "Basic Attack\nYuanwu melakukan hingga 5 serangan berturut-turut, memberikan Electro DMG.\n\nHeavy Attack\nYuanwu mengonsumsi STA untuk menyerang target, memberikan Electro DMG.\n\nMid-air Attack\nYuanwu mengonsumsi STA untuk melancarkan Mid-air Plunging Attack, memberikan Electro DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG.\nSkill Level"
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Yuanwu melakukan hingga 5 serangan berturut-turut, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Yuanwu mengonsumsi STA untuk menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Yuanwu mengonsumsi STA untuk melancarkan Mid-air Plunging Attack, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG.\nSkill Level",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Leihuang Master",
-      "description": "Thunder Wedge\nYuanwu memanggil Thunder Wedge, memberikan Electro DMG, dan membentuk Thunder Field yang berpusat pada Thunder Wedge. Thunder Wedge bertahan selama 12 detik.\nForte Circuit Rumbling Spark dan Resonance Liberation Blazing Might akan segera meledakkan Resonance Skill Thunder Wedge yang ada di field, memberikan Electro DMG, yang dianggap sebagai Resonance Skill DMG.\n\nThunder Field\nKarakter aktif mendapatkan efek di bawah ini saat berada di dalam Thunder Field: sebuah Coordinated Attack dari Resonance Skill Thunder Wedge dipicu saat serangan mengenai target, memberikan Electro DMG. Efek ini dapat dipicu sekali setiap 1,2 detik. Efek bertahan selama 1,5 detik."
+      "effects": [
+        {
+          "title": "Thunder Wedge",
+          "description": "Yuanwu memanggil Thunder Wedge, memberikan Electro DMG, dan membentuk Thunder Field yang berpusat pada Thunder Wedge. Thunder Wedge bertahan selama 12 detik.\nForte Circuit Rumbling Spark dan Resonance Liberation Blazing Might akan segera meledakkan Resonance Skill Thunder Wedge yang ada di field, memberikan Electro DMG, yang dianggap sebagai Resonance Skill DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Thunder Field",
+          "description": "Karakter aktif mendapatkan efek di bawah ini saat berada di dalam Thunder Field: sebuah Coordinated Attack dari Resonance Skill Thunder Wedge dipicu saat serangan mengenai target, memberikan Electro DMG. Efek ini dapat dipicu sekali setiap 1,2 detik. Efek bertahan selama 1,5 detik.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Blazing Might",
-      "description": "Membangkitkan kekuatan guntur dan memberikan status Forte Circuit Lightning Infused kepada semua karakter dalam tim terdekat selama 10 detik, lalu melancarkan pukulan kuat yang memberikan Electro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Membangkitkan kekuatan guntur dan memberikan status Forte Circuit Lightning Infused kepada semua karakter dalam tim terdekat selama 10 detik, lalu melancarkan pukulan kuat yang memberikan Electro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Unassuming Blade",
-      "description": "Rumbling Spark\nSaat \"Readiness\" penuh, tahan Resonance Skill untuk mengonsumsi semua \"Readiness\" dan melancarkan Rumbling Spark, memberikan Electro DMG dan memasuki status Lightning Infused.\n\nThunder Uprising\nSaat \"Readiness\" penuh, Resonance Skill Thunder Wedge akan digantikan dengan Thunder Uprising, memberikan Electro DMG.\n\nLightning Infused\nKarakter dalam status Lightning Infused memiliki peningkatan ketahanan terhadap gangguan yang signifikan.\nSaat Yuanwu berada dalam status ini:\n-Basic Attacks: Mengenai target dalam jangkauan yang lebih luas, kurangi Vibration Strength musuh dengan efisiensi yang ditingkatkan.\n-Heavy Attacks: Memiliki kecepatan serangan yang meningkat, kurangi Vibration Strength musuh dengan efisiensi yang ditingkatkan.\n-Dodge Counters: Memiliki kecepatan serangan yang meningkat, kurangi Vibration Strength musuh dengan efisiensi yang ditingkatkan.\n-Gunakan Basic Attack dalam waktu 3 detik setelah melancarkan Heavy Attack atau Counterattack yang berhasil untuk melancarkan Thunderweaver, memberikan Electro DMG, yang dianggap sebagai Basic Attack DMG.\n-Tidak memulihkan \"Readiness\".\n\nReadiness\nYuanwu dapat menampung hingga 100 \"Readiness\".\nSaat Resonance Skill Thunder Wedge berada di field, Yuanwu mendapatkan 6 \"Readiness\" setiap detik, bahkan ketika ia bukan merupakan karakter aktif;\nSaat Resonance Skill Thunder Wedge mengenai target dengan Coordinated Attack, Yuanwu mendapatkan 5 \"Readiness\"."
+      "effects": [
+        {
+          "title": "Rumbling Spark",
+          "description": "Saat \"Readiness\" penuh, tahan Resonance Skill untuk mengonsumsi semua \"Readiness\" dan melancarkan Rumbling Spark, memberikan Electro DMG dan memasuki status Lightning Infused.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Thunder Uprising",
+          "description": "Saat \"Readiness\" penuh, Resonance Skill Thunder Wedge akan digantikan dengan Thunder Uprising, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Lightning Infused",
+          "description": "Karakter dalam status Lightning Infused memiliki peningkatan ketahanan terhadap gangguan yang signifikan.\nSaat Yuanwu berada dalam status ini:\n-Basic Attacks: Mengenai target dalam jangkauan yang lebih luas, kurangi Vibration Strength musuh dengan efisiensi yang ditingkatkan.\n-Heavy Attacks: Memiliki kecepatan serangan yang meningkat, kurangi Vibration Strength musuh dengan efisiensi yang ditingkatkan.\n-Dodge Counters: Memiliki kecepatan serangan yang meningkat, kurangi Vibration Strength musuh dengan efisiensi yang ditingkatkan.\n-Gunakan Basic Attack dalam waktu 3 detik setelah melancarkan Heavy Attack atau Counterattack yang berhasil untuk melancarkan Thunderweaver, memberikan Electro DMG, yang dianggap sebagai Basic Attack DMG.\n-Tidak memulihkan \"Readiness\".",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Readiness",
+          "description": "Yuanwu dapat menampung hingga 100 \"Readiness\".\nSaat Resonance Skill Thunder Wedge berada di field, Yuanwu mendapatkan 6 \"Readiness\" setiap detik, bahkan ketika ia bukan merupakan karakter aktif;\nSaat Resonance Skill Thunder Wedge mengenai target dengan Coordinated Attack, Yuanwu mendapatkan 5 \"Readiness\".",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Thunderous Determination",
-        "description": "Multiplier DMG dari Resonance Skill Thunder Uprising meningkat sebesar 40%, dan efisiensi pengurangan Vibration Strength musuh miliknya ditingkatkan."
+        "effects": [
+          {
+            "title": "",
+            "description": "Multiplier DMG dari Resonance Skill Thunder Uprising meningkat sebesar 40%, dan efisiensi pengurangan Vibration Strength musuh miliknya ditingkatkan.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Reserved Confidence",
-        "description": "Jangkauan dari Resonance Skill Thunder Field dan Thunder Uprising diperluas secara signifikan. Saat berganti keluar field selama pertempuran, jika \"Readiness\" tidak penuh, Yuanwu akan secara otomatis meninggalkan 1 Resonance Skill Thunder Wedge di tempat."
+        "effects": [
+          {
+            "title": "",
+            "description": "Jangkauan dari Resonance Skill Thunder Field dan Thunder Uprising diperluas secara signifikan. Saat berganti keluar field selama pertempuran, jika \"Readiness\" tidak penuh, Yuanwu akan secara otomatis meninggalkan 1 Resonance Skill Thunder Wedge di tempat.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Thunder Bombardment",
-      "description": "Menyerang target, memberikan Electro DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Lightning Manipulation",
-      "description": "Yuanwu melepaskan sambaran petir di area yang berpusat di sekitar target skill, sangat mengurangi Vibration Strength musuh saat terkena benturan."
+      "effects": [
+        {
+          "title": "",
+          "description": "Yuanwu melepaskan sambaran petir di area yang berpusat di sekitar target skill, sangat mengurangi Vibration Strength musuh saat terkena benturan.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -259,32 +343,68 @@
     {
       "stage": "S1",
       "name": "Steaming Cup Of Justice",
-      "description": "Saat Yuanwu berada dalam status Lightning Infused dari Forte Circuit, Basic Attack Speed miliknya meningkat sebesar 20%, dan Heavy Attack Speed miliknya meningkat sebesar 20%. "
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Yuanwu berada dalam status Lightning Infused dari Forte Circuit, Basic Attack Speed miliknya meningkat sebesar 20%, dan Heavy Attack Speed miliknya meningkat sebesar 20%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Fierce Heart, Serene Mind",
-      "description": "Intro Skill Thunder Bombardment memulihkan tambahan 15 Resonance Energy untuk Yuanwu."
+      "effects": [
+        {
+          "title": "",
+          "description": "Intro Skill Thunder Bombardment memulihkan tambahan 15 Resonance Energy untuk Yuanwu.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Upholder Of Integrity",
-      "description": "Saat Coordinated Attacks dari Resonance Skill Thunder Wedge mengenai target, damage tersebut meningkat tambahan sebesar 20% dari DEF Yuanwu.\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Coordinated Attacks dari Resonance Skill Thunder Wedge mengenai target, damage tersebut meningkat tambahan sebesar 20% dari DEF Yuanwu.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Retributive Knuckles",
-      "description": "Saat melancarkan Resonance Liberation Blazing Might, karakter yang berada di field akan mendapatkan Shield setara dengan 200% dari DEF Yuanwu selama 10 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat melancarkan Resonance Liberation Blazing Might, karakter yang berada di field akan mendapatkan Shield setara dengan 200% dari DEF Yuanwu selama 10 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Neighborhood Protector",
-      "description": "Saat Resonance Skill Thunder Wedge berada di field, Resonance Liberation DMG Bonus milik Yuanwu meningkat sebesar 50%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Resonance Skill Thunder Wedge berada di field, Resonance Liberation DMG Bonus milik Yuanwu meningkat sebesar 50%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Defender Of All Realms",
-      "description": "Semua anggota tim terdekat di dalam jangkauan Resonance Skill Thunder Wedge akan mendapatkan peningkatan DEF sebesar 32%, bertahan selama 3 detik.      "
+      "effects": [
+        {
+          "title": "",
+          "description": "Semua anggota tim terdekat di dalam jangkauan Resonance Skill Thunder Wedge akan mendapatkan peningkatan DEF sebesar 32%, bertahan selama 3 detik.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {

@@ -21,7 +21,8 @@
       "text": "Minimal update",
       "type": "updated",
       "isNew": false,
-      "leaks": false
+      "leaks": false,
+      "time": "2026-07-16"
     }
   ],
   "faction": "Public Security Bureau",
@@ -183,37 +184,130 @@
   "skills": {
     "basic": {
       "name": "Zapstring'S Dance",
-      "description": "Basic Attack\nYinlin mengendalikan boneka \"Zapstring\" untuk melakukan hingga 4 serangan, memberikan Electro DMG.\n\nHeavy Attack\nYinlin mengonsumsi STA untuk mengendalikan \"Zapstring\", memberikan Electro DMG.\n\nMid-air Attack\nYinlin mengonsumsi STA untuk mengendalikan \"Zapstring\" guna melakukan Mid-air Plunging Attack, memberikan Electro DMG.\n\nDodge Counter\nGunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG."
+      "effects": [
+        {
+          "title": "Basic Attack",
+          "description": "Yinlin mengendalikan boneka \"Zapstring\" untuk melakukan hingga 4 serangan, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack",
+          "description": "Yinlin mengonsumsi STA untuk mengendalikan \"Zapstring\", memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Yinlin mengonsumsi STA untuk mengendalikan \"Zapstring\" guna melakukan Mid-air Plunging Attack, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter",
+          "description": "Gunakan Basic Attack setelah Dodge yang berhasil untuk menyerang target, memberikan Electro DMG.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "skill": {
       "name": "Magnetic Roar",
-      "description": "Magnetic Roar\nBoneka \"Zapstring\" memberikan Electro DMG ke target, dan membuat Yinlin masuk ke dalam Resonance Skill Execution Mode.\n\nExecution Mode\nBasic Attack dan Dodge Counter akan memicu 1 Electromagnetic Blast saat mengenai target.\nSetiap tahap Basic Attack atau Dodge Counter hanya dapat memicu 1 Electromagnetic Blast, hingga 4 kali.\n\nElectromagnetic Blast\nMenyerang semua target yang ditandai dengan Forte Circuit Sinner's Mark, memberikan Electro DMG.\n\nLightning Execution\nGunakan Resonance Skill setelah melancarkan Resonance Skill Magnetic Roar untuk melancarkan Lightning Execution guna menyerang target, memberikan Electro DMG.\nJika Resonance Skill Lightning Execution tidak diaktifkan dalam beberapa waktu atau Karakter ini diganti, Skill ini akan masuk ke dalam Cooldown."
+      "effects": [
+        {
+          "title": "Magnetic Roar",
+          "description": "Boneka \"Zapstring\" memberikan Electro DMG ke target, dan membuat Yinlin masuk ke dalam Resonance Skill Execution Mode.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Execution Mode",
+          "description": "Basic Attack dan Dodge Counter akan memicu 1 Electromagnetic Blast saat mengenai target.\nSetiap tahap Basic Attack atau Dodge Counter hanya dapat memicu 1 Electromagnetic Blast, hingga 4 kali.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Electromagnetic Blast",
+          "description": "Menyerang semua target yang ditandai dengan Forte Circuit Sinner's Mark, memberikan Electro DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Lightning Execution",
+          "description": "Gunakan Resonance Skill setelah melancarkan Resonance Skill Magnetic Roar untuk melancarkan Lightning Execution guna menyerang target, memberikan Electro DMG.\nJika Resonance Skill Lightning Execution tidak diaktifkan dalam beberapa waktu atau Karakter ini diganti, Skill ini akan masuk ke dalam Cooldown.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "liberation": {
       "name": "Thundering Wrath",
-      "description": "Memerintahkan \"Zapstring\" untuk memanggil guntur agar jatuh pada area yang luas, memberikan Electro DMG.\n"
+      "effects": [
+        {
+          "title": "",
+          "description": "Memerintahkan \"Zapstring\" untuk memanggil guntur agar jatuh pada area yang luas, memberikan Electro DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "forte": {
       "name": "Chameleon Cipher",
-      "description": "Chameleon Cipher\nSaat Judgment Points Yinlin penuh, Heavy Attack miliknya diganti dengan Chameleon Cipher, yang mengonsumsi semua Judgment Points untuk menyerang target, memberikan Electro DMG. Saat mengenai target yang ditandai dengan Sinner's Mark, Sinner's Mark diganti dengan Punishment Mark, bertahan selama 18 detik. Chameleon Cipher memberikan Heavy Attack DMG.\n\nSinner's Mark\nBasic Attack Zapstring's Dance, Resonance Liberation Thundering Wrath, dan Intro Skill Roaring Storm memberikan Sinner's Mark pada target saat terkena serangan.\nSinner's Mark akan dihapus saat Yinlin diganti keluar.\n\nPunishment Mark\nSaat target yang ditandai dengan Punishment Mark menerima damage, Judgement Strike akan jatuh, memicu Coordinated Attacks ke semua target yang ditandai dengan Punishment Mark, memberikan Electro DMG. Efek ini dapat dipicu hingga 1 kali per detik. Judgement Strike memberikan Resonance Skill DMG.\n\nJudgment Points\nYinlin dapat menampung hingga 100 Judgement Points. Yinlin mendapatkan Judgement Points melalui cara-cara berikut:\nSaat melancarkan Intro Skill Raging Storm;\nSaat Basic Attack Zapstring's Dance mengenai target;\nSaat melancarkan Resonance Skill Magnetic Roar;\nSaat Resonance Skill Electromagnetic Blast mengenai target;\nSaat melancarkan Resonance Skill Lightning Execution."
+      "effects": [
+        {
+          "title": "Chameleon Cipher",
+          "description": "Saat Judgment Points Yinlin penuh, Heavy Attack miliknya diganti dengan Chameleon Cipher, yang mengonsumsi semua Judgment Points untuk menyerang target, memberikan Electro DMG. Saat mengenai target yang ditandai dengan Sinner's Mark, Sinner's Mark diganti dengan Punishment Mark, bertahan selama 18 detik. Chameleon Cipher memberikan Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sinner's Mark",
+          "description": "Basic Attack Zapstring's Dance, Resonance Liberation Thundering Wrath, dan Intro Skill Roaring Storm memberikan Sinner's Mark pada target saat terkena serangan.\nSinner's Mark akan dihapus saat Yinlin diganti keluar.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Punishment Mark",
+          "description": "Saat target yang ditandai dengan Punishment Mark menerima damage, Judgement Strike akan jatuh, memicu Coordinated Attacks ke semua target yang ditandai dengan Punishment Mark, memberikan Electro DMG. Efek ini dapat dipicu hingga 1 kali per detik. Judgement Strike memberikan Resonance Skill DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Judgment Points",
+          "description": "Yinlin dapat menampung hingga 100 Judgement Points. Yinlin mendapatkan Judgement Points melalui cara-cara berikut:\nSaat melancarkan Intro Skill Raging Storm;\nSaat Basic Attack Zapstring's Dance mengenai target;\nSaat melancarkan Resonance Skill Magnetic Roar;\nSaat Resonance Skill Electromagnetic Blast mengenai target;\nSaat melancarkan Resonance Skill Lightning Execution.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {
         "name": "Pain Immersion",
-        "description": "Setelah menggunakan Resonance Skill Magnetic Roar, Crit. Rate Yinlin meningkat sebesar 15% selama 5 detik."
+        "effects": [
+          {
+            "title": "",
+            "description": "Setelah menggunakan Resonance Skill Magnetic Roar, Crit. Rate Yinlin meningkat sebesar 15% selama 5 detik.",
+            "isTitleVisible": false
+          }
+        ]
       },
       {
         "name": "Deadly Focus",
-        "description": "Damage dari Resonance Skill Lightning Execution meningkat sebesar 10% saat mengenai target yang ditandai dengan Sinner's Mark, dan ATK Yinlin meningkat sebesar 10% selama 4 detik saat efek ini dipicu."
+        "effects": [
+          {
+            "title": "",
+            "description": "Damage dari Resonance Skill Lightning Execution meningkat sebesar 10% saat mengenai target yang ditandai dengan Sinner's Mark, dan ATK Yinlin meningkat sebesar 10% selama 4 detik saat efek ini dipicu.",
+            "isTitleVisible": false
+          }
+        ]
       }
     ],
     "intro": {
       "name": "Raging Storm",
-      "description": "Memerintahkan boneka \"Zapstring\" untuk menyerang, memberikan Electro DMG dalam area yang luas."
+      "effects": [
+        {
+          "title": "",
+          "description": "Memerintahkan boneka \"Zapstring\" untuk menyerang, memberikan Electro DMG dalam area yang luas.",
+          "isTitleVisible": false
+        }
+      ]
     },
     "outro": {
       "name": "Strategist",
-      "description": "Resonator yang masuk mendapatkan Electro DMG Amplified sebesar 20% dan Resonance Liberation DMG Amplified sebesar 25% selama 14 detik atau sampai mereka diganti keluar."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonator yang masuk mendapatkan Electro DMG Amplified sebesar 20% dan Resonance Liberation DMG Amplified sebesar 25% selama 14 detik atau sampai mereka diganti keluar.",
+          "isTitleVisible": false
+        }
+      ]
     }
   },
   "materials": {
@@ -417,32 +511,68 @@
     {
       "stage": "S1",
       "name": "Morality'S Crossroad",
-      "description": "Resonance Skill Magnetic Roar dan Lightning Execution memberikan 70% lebih banyak DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill Magnetic Roar dan Lightning Execution memberikan 70% lebih banyak DMG.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S2",
       "name": "Ensnarled By Rapport",
-      "description": "Resonance Skill Electromagnetic Blast memulihkan tambahan 5 Judgement Point(s) dan 5 Resonance Energy saat mengenai target."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Skill Electromagnetic Blast memulihkan tambahan 5 Judgement Point(s) dan 5 Resonance Energy saat mengenai target.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S3",
       "name": "Unyielding Verdict",
-      "description": "Multiplier DMG dari Forte Circuit Judgment Strike meningkat sebesar 55%."
+      "effects": [
+        {
+          "title": "",
+          "description": "Multiplier DMG dari Forte Circuit Judgment Strike meningkat sebesar 55%.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S4",
       "name": "Steadfast Conviction",
-      "description": "Saat Forte Circuit Judgment Strike mengenai target, ATK dari semua anggota tim meningkat sebesar 20% selama 12 detik."
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Forte Circuit Judgment Strike mengenai target, ATK dari semua anggota tim meningkat sebesar 20% selama 12 detik.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S5",
       "name": "Resounding Will",
-      "description": "Resonance Liberation Thundering Wrath memberikan 100% ekstra DMG kepada target yang memiliki Sinner's Mark atau Punishment Mark dari Forte Circuit."
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation Thundering Wrath memberikan 100% ekstra DMG kepada target yang memiliki Sinner's Mark atau Punishment Mark dari Forte Circuit.",
+          "isTitleVisible": false
+        }
+      ]
     },
     {
       "stage": "S6",
       "name": "Pursuit Of Justice",
-      "description": "Dalam 30 detik pertama setelah melancarkan Resonance Liberation Thundering Wrath, saat Basic Attack Yinlin mengenai target, Furious Thunder akan dipicu, memberikan Electro DMG sebesar 419,59% dari ATK Yinlin. Setiap pukulan Basic Attack dapat memicu Furious Thunder sebanyak 1 kali, hingga 4 kali. Efek ini dianggap sebagai Resonance Skill DMG."
+      "effects": [
+        {
+          "title": "",
+          "description": "Dalam 30 detik pertama setelah melancarkan Resonance Liberation Thundering Wrath, saat Basic Attack Yinlin mengenai target, Furious Thunder akan dipicu, memberikan Electro DMG sebesar 419,59% dari ATK Yinlin. Setiap pukulan Basic Attack dapat memicu Furious Thunder sebanyak 1 kali, hingga 4 kali. Efek ini dianggap sebagai Resonance Skill DMG.",
+          "isTitleVisible": false
+        }
+      ]
     }
   ],
   "lore": {
