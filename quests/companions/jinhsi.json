@@ -1,0 +1,37 @@
+{
+  "name": "Solitary Path: Jinhsi",
+  "lastUpdated": "2026-03-01",
+  "description": "Mendampingi Magistrate Jinhsi dalam perjalanan pribadi untuk memahami beban tanggung jawab yang diberikan oleh Sentinel Jué.",
+  "chapter": "side_story",
+  "stories": [
+    {
+      "title": "A Moment of Peace",
+      "blocks": [
+        {
+          "type": "text",
+          "value": "Di atas paviliun Jinzhou, Jinhsi memandang kota yang ia pimpin. Di balik ketenangannya, ada keraguan tentang masa depan yang telah diramalkan."
+        },
+        {
+          "type": "image",
+          "value": "/assets/lore/jinhsi_pavilion.webp"
+        }
+      ]
+    },
+    {
+      "title": "Whispers of the Sentinel",
+      "blocks": [
+        {
+          "type": "text",
+          "value": "Resonansi Jinhsi mulai tidak stabil saat ia mendekati area terlarang. Suara Jué bergema di benaknya, memberikan peringatan tentang pengorbanan yang mungkin diperlukan."
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "name": "Magistrate's Burden",
+      "description": "Koneksi spiritual antara pemimpin Jinzhou dengan Sentinel yang memberikan kekuatan sekaligus beban mental yang besar.",
+      "image": "/assets/glossary/magistrate_seal.webp"
+    }
+  ]
+}
