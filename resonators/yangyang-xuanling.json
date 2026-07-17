@@ -20,27 +20,34 @@
       "type": "input",
       "isNew": true,
       "leaks": false,
-      "time": "2026-07-17"
+      "time": "2026-07-06"
     },
     {
-      "text": "- 9 July 2026\n- finishing\n- sisa material\n\n5 July 2026\n- minimal input\n- icon echo masih pakai stay tuned\n- icon sequence belum di rubah\n- materials\n- lore page",
+      "text": "- finishing\n- sisa material\n",
       "type": "updated",
       "isNew": true,
       "leaks": false,
-      "time": "2026-07-16"
+      "time": "2026-07-09"
+    },
+    {
+      "time": "2026-07-10",
+      "text": "- minimal input\n- icon echo masih pakai stay tuned\n- icon sequence belum di rubah\n- materials\n- lore page"
+    },
+    {
+      "time": "2026-07-17",
+      "text": "- update rotasi dan team note\n- "
     }
   ],
-  "faction": "",
-  "affiliation": "",
+  "faction": "Xuanfang Hold",
+  "affiliation": "Ministry of War",
   "class": "Natural",
   "image": "/characters/yangyang-xuanling.webp",
   "imageBanner": "/banners/yangyang-xuanling-banner.jpeg",
   "recommendedStats": {
-    "Crit Rate": "68.80%",
-    "Crit Damage": "257.00%",
-    "Total ATK (ELE/ELE)": "1929.267",
-    "HA DMG%": "7.90%",
-    "ER": "122.00%"
+    "ATK": "2000+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "65% : 225%"
   },
   "build": {
     "bestEcho": [],
@@ -90,7 +97,41 @@
         "percentage": "100.00%"
       }
     ],
-    "rotations": [],
+    "rotations": [
+      {
+        "title": "Standar 1F1A",
+        "steps": [
+          "Intro",
+          "BA1234",
+          "[F]Skill",
+          "[F]HA",
+          "[F]MA",
+          "[F]BA123",
+          "Ult (Cancel [F]B3)",
+          "[F]Skill",
+          "[F]HA",
+          "Outro"
+        ]
+      },
+      {
+        "title": "Alternatif  2F",
+        "steps": [
+          "Intro",
+          "B1234",
+          "[F]Skill",
+          "[F]HA",
+          "[F]MA",
+          "[F]BA123",
+          "Ult (Cancel [F]B3)",
+          "[F]Skill",
+          "BA ⇒ Skill (Switch Stance)",
+          "[F]HA",
+          "[F]MA",
+          "[F]BA123",
+          "Outro"
+        ]
+      }
+    ],
     "talentPriority": {
       "priority": [
         "Forte Circuit",
@@ -153,11 +194,12 @@
         "note": ""
       }
     ],
-    "teamNote": ""
+    "teamNote": "- Meskipun Rebecca merupakan Best in Slot miliknya, kamu juga dapat menggunakan Phrolova atau buffer Heavy Attack lainnya seperti luno atau Mortefi.\n- Walaupun Yangyang: Xuanling tidak dapat memanfaatkan buff utama Lynae (Res. Liberation Amplify), ia tetap mendapatkan keuntungan dari buff umum miliknya.\n- Chisa merupakan support yang ideal berkat cara dirinya berinteraksi dengan Negative Status. Selain dapat memberikan Havoc Bane, ia juga dapat meningkatkan batas maksimal tumpukan sebesar 3. Hal ini memenuhi syarat Damage Amplify untuk Inherent Skill milik Yangyang: Xuanling: Unbroken Vow."
   },
   "skills": {
     "basic": {
       "name": "Succor And Smite",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack - Azure Sword Stance",
@@ -193,6 +235,7 @@
     },
     "skill": {
       "name": "Feather'S Edge",
+      "description": "",
       "effects": [
         {
           "title": "Sword Stance Switch",
@@ -213,6 +256,7 @@
     },
     "liberation": {
       "name": "Hush Of A Thousand Voices",
+      "description": "",
       "effects": [
         {
           "title": "Hush of a Thousand Voices",
@@ -223,6 +267,7 @@
     },
     "forte": {
       "name": "The Way Of Ten Thousand Voices",
+      "description": "",
       "effects": [
         {
           "title": "Resonance Skill - Sword Stance Flow: Azure",
@@ -340,6 +385,7 @@
     ],
     "intro": {
       "name": "Skybound Feather",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -355,6 +401,7 @@
     },
     "outro": {
       "name": "As The Wind Wills",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -674,7 +721,11 @@
       },
       {
         "title": "Affiliation",
-        "description": "Ministry of War"
+        "description": "Ministry of War (on profile)\nXuanfang Hold\nXuan Triad\nMidnight Rangers (formerly)"
+      },
+      {
+        "title": "ADDITONAL TITLES",
+        "description": "Votary of the Voice"
       }
     ],
     "report": {

@@ -23,7 +23,7 @@
       "time": "2026-07-17"
     },
     {
-      "text": "- NEW CHARACTER",
+      "text": "minus\n- lore\n- sequence",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -137,7 +137,7 @@
     },
     "teams": [
       {
-        "name": "HACK PREMIUM",
+        "name": "Hack Premium",
         "members": [
           [
             "Rebecca"
@@ -169,7 +169,7 @@
         "note": "Rebecca memberikan Augusta hingga 35% Heavy DMG Amplify setelah melancarkan Outro Skill miliknya beserta dengan buff tambahan seperti peningkatan 20% ATK saat melancarkan Resonance Liberation [Party 'Til Dawn!]."
       },
       {
-        "name": "HACK F2P",
+        "name": "Hack F2P",
         "members": [
           [
             "Rebecca"
@@ -189,6 +189,7 @@
   "skills": {
     "basic": {
       "name": "Mix-'N'-Match",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack - Huntress",
@@ -249,6 +250,7 @@
     },
     "skill": {
       "name": "Tactical Tweaks",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -279,6 +281,7 @@
     },
     "liberation": {
       "name": "Party 'Til Dawn!",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -309,6 +312,7 @@
     },
     "forte": {
       "name": "Gloves Are Comin' Off!",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -421,6 +425,7 @@
     ],
     "intro": {
       "name": "My Turn!",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -451,6 +456,7 @@
     },
     "outro": {
       "name": "Preem Choom",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -682,6 +688,7 @@
   "sequences": [],
   "lore": {
     "description": "",
+    "manualEntries": [],
     "report": {
       "resonancePower": "",
       "resonanceEvaluation": "",

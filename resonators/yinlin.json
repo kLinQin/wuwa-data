@@ -191,6 +191,7 @@
   "skills": {
     "basic": {
       "name": "Zapstring'S Dance",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -216,6 +217,7 @@
     },
     "skill": {
       "name": "Magnetic Roar",
+      "description": "",
       "effects": [
         {
           "title": "Magnetic Roar",
@@ -241,6 +243,7 @@
     },
     "liberation": {
       "name": "Thundering Wrath",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -251,6 +254,7 @@
     },
     "forte": {
       "name": "Chameleon Cipher",
+      "description": "",
       "effects": [
         {
           "title": "Chameleon Cipher",
@@ -298,6 +302,7 @@
     ],
     "intro": {
       "name": "Raging Storm",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -308,6 +313,7 @@
     },
     "outro": {
       "name": "Strategist",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -592,6 +598,10 @@
       {
         "title": "BIRTHPLACE",
         "description": "Huanglong"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Jinzhou (on profile)\nPublic Security Bureau (formerly)\nSéance Society (formerly)"
       }
     ],
     "report": {

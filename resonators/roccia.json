@@ -195,6 +195,7 @@
   "skills": {
     "basic": {
       "name": "Pero, Easy",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -220,6 +221,7 @@
     },
     "skill": {
       "name": "Acrobatic Trick",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -235,6 +237,7 @@
     },
     "liberation": {
       "name": "Commedia Improvviso!",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -250,6 +253,7 @@
     },
     "forte": {
       "name": "A Prop Master Prepares",
+      "description": "",
       "effects": [
         {
           "title": "Beyond Imagination Mode",
@@ -297,6 +301,7 @@
     ],
     "intro": {
       "name": "Pero, Help",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -312,6 +317,7 @@
     },
     "outro": {
       "name": "Applause, Please!",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -619,6 +625,10 @@
       {
         "title": "BIRTHDATE",
         "description": "31 Januari"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Troupe of Fools (on profile)\nRagunna"
       }
     ],
     "report": {

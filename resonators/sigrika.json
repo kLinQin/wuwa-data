@@ -22,7 +22,7 @@
       "time": "2026-07-17"
     },
     {
-      "text": "- New Character",
+      "text": "- add lucilla sub dps",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -133,7 +133,8 @@
             "Sigrika"
           ],
           [
-            "Qiuyuan"
+            "Qiuyuan",
+            "Lucilla"
           ],
           [
             "Shorekeeper",
@@ -142,7 +143,7 @@
             "Ciaccona"
           ]
         ],
-        "note": "Qiuyuan memberikan Sigrika 50% Echo Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill miliknya dan 4 penggunaan Echo Skill.\nSelain itu, Sigrika juga mendapatkan 24% Aero DMG Bonus dari Ciaccona's Ensemble Sylphs, kemudian 15% Aero DMG dari set Gusts of Welkin."
+        "note": ""
       },
       {
         "name": "Tune Break",
@@ -175,11 +176,12 @@
         "note": ""
       }
     ],
-    "teamNote": "Sebagai alternatif, jika kalian membutuhkan sustain, kalian dapat menggunakan Shorekeeper atau Mornye sebagai pengganti Ciaccona."
+    "teamNote": "- Lucilla dan Qiuyuan memberikan Sigrika 50% Echo Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill miliknya dan 4 penggunaan Echo Skill.\n- Selain itu, Sigrika juga mendapatkan 24% Aero DMG Bonus dari Ciaccona's Ensemble Sylphs, kemudian 15% Aero DMG dari set Gusts of Welkin.\n- Sebagai alternatif, jika kalian membutuhkan sustain, kalian dapat menggunakan Shorekeeper atau Mornye sebagai pengganti Ciaccona."
   },
   "skills": {
     "basic": {
       "name": "One, Two, Three",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -220,6 +222,7 @@
     },
     "skill": {
       "name": "Royan Close Quarters Combat",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -260,6 +263,7 @@
     },
     "liberation": {
       "name": "Where Trust Leads Me!",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -275,7 +279,8 @@
     },
     "forte": {
       "name": "",
-      "description": ""
+      "description": "",
+      "effects": []
     },
     "inherent": [
       {
@@ -331,6 +336,7 @@
     ],
     "intro": {
       "name": "Solsworn Etymology",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -346,6 +352,7 @@
     },
     "outro": {
       "name": "In This Very Moment",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -618,6 +625,7 @@
   ],
   "lore": {
     "description": "Sigrika, seorang murid dari Startorch Academy dan seorang Resonator dari Royan Runes.\nBertekad untuk memenuhi ekspektasi orang lain dan menjadi Solsworn sejati, ia mendedikasikan diri sepenuhnya pada setiap tantangan.\n\n",
+    "manualEntries": [],
     "report": {
       "resonancePower": "True Name Manifestation",
       "resonanceEvaluation": "[Diarsipkan oleh Spacetrek Collective: Startorch Academy Student Records]\n[Forte Examination Report: RA2326-G]\nNama Murid: Sigrika\nSynchronist Qualification: Negatif\nForte Overview: Tes menunjukkan Rabelle's Curve dengan pola gelombang periodik yang jelas. Oleh karena itu, murid diklasifikasikan sebagai Congenital Resonator. Tacet Mark miliknya terletak di punggungnya.\n\nMenurut berkas pribadi pra-penerimaan dan keterangan murid sendiri, murid menunjukkan bakat luar biasa dalam menguraikan frekuensi rune dan mengubah itu menjadi kekuatan yang dapat digunakan. Namun, ia melaporkan bahwa kemampuan ini tetap tidak stabil dan sangat bergantung pada kondisi mental serta kedalaman pengetahuannya mengenai rune tertentu.\n\n\"Dalam bidang penguraian rune, Sigrika menunjukkan bakat langka, bakat yang dapat menimbulkan risiko signifikan bagi dirinya sendiri jika tidak ditangani dengan hati-hati.\"",

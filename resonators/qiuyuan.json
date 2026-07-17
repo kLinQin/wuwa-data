@@ -1,3 +1,4 @@
+
 {
   "name": "Qiuyuan",
   "element": "Aero",
@@ -23,7 +24,7 @@
       "time": "2026-07-17"
     },
     {
-      "text": "- minimal update",
+      "text": "- add sigrika DPS",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -51,7 +52,7 @@
       "note": "1. Qiuyuan setidaknya membutuhkan 65% Crit. Rate untuk memanfaatkan buff Res. Liberation miliknya secara maksimal.\n2. [NM: Feilian Beringal] dan [R: Fenrico] bisa saling menggantikan untuk slot main echo karena memberikan buff yang sama. Moonlit Clouds mungkin lebih disarankan untuk Galbrena, terutama jika set tersebut sudah jadi. Sementara itu, penggunaan Law of Harmony akan sangat menguntungkan jika dipasangkan dengan Phrolova.",
       "sets": [
         {
-          "label": "Sub DPS Echo Buff",
+          "label": "Echo Buff",
           "echoSlug": "reminiscence-fenrico",
           "echoSlugSecondary": "nightmare-beringal",
           "stats": [
@@ -78,7 +79,7 @@
           ]
         },
         {
-          "label": "SUb DPS General",
+          "label": "SUb DPS",
           "echoSlug": "impermanence-heron",
           "echoSlugSecondary": "",
           "stats": [
@@ -150,10 +151,11 @@
     },
     "teams": [
       {
-        "name": "Galbrena Hypercarry",
+        "name": "Echo HC",
         "members": [
           [
-            "Galbrena"
+            "Galbrena",
+            "Sigrika"
           ],
           [
             "Qiuyuan"
@@ -166,7 +168,7 @@
         "note": "Qiuyuan memberikan 50% Echo Skill DMG Amplify selama 14 detik kepada Galbrena setelah mengaktifkan Outro Skill."
       },
       {
-        "name": "Phrolova Hypercarry",
+        "name": "Phrolova HC",
         "members": [
           [
             "Phrolova"
@@ -202,6 +204,7 @@
   "skills": {
     "basic": {
       "name": "Inkwash",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -227,6 +230,7 @@
     },
     "skill": {
       "name": "Through The Groves",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -247,6 +251,7 @@
     },
     "liberation": {
       "name": "Sundering Strike",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -262,6 +267,7 @@
     },
     "forte": {
       "name": "Verdant Edge",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack - Thus Spoke the Blade: Inkwash",
@@ -324,6 +330,7 @@
     ],
     "intro": {
       "name": "Attack The Must-Defend",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -339,6 +346,7 @@
     },
     "outro": {
       "name": "Strike Before Ready",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -623,6 +631,14 @@
       {
         "title": "BIRTHPLACE",
         "description": "Huanglong"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Mingting (on profile)\nChongzhou\nInternal Security Agency (formerly)"
+      },
+      {
+        "title": "FAMILY",
+        "description": "Sanhua (distant relative)"
       }
     ],
     "report": {

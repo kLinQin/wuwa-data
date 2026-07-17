@@ -134,7 +134,7 @@
     },
     "teams": [
       {
-        "name": "",
+        "name": "Sub DPS",
         "note": "",
         "members": [
           [
@@ -159,6 +159,7 @@
   "skills": {
     "basic": {
       "name": "Frigid Light",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -184,6 +185,7 @@
     },
     "skill": {
       "name": "Eternal Frost",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -194,6 +196,7 @@
     },
     "liberation": {
       "name": "Glacial Gaze",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -204,6 +207,7 @@
     },
     "forte": {
       "name": "Clarity Of Mind",
+      "description": "",
       "effects": [
         {
           "title": "Heavy Attack: Detonate",
@@ -246,6 +250,7 @@
     ],
     "intro": {
       "name": "Freezing Thorns",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -256,6 +261,7 @@
     },
     "outro": {
       "name": "Silversnow",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -579,6 +585,10 @@
       {
         "title": "BIRTHDATE",
         "description": "20 Januari"
+      },
+      {
+        "title": "FAMILLY",
+        "description": "Qiuyuan (distant relative)"
       }
     ],
     "report": {
