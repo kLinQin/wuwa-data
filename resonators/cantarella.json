@@ -297,7 +297,7 @@
         "effects": [
           {
             "title": "",
-            "description": "Melancarkan Echo Skill memberikan 6%  Havoc DMG Bonus selama 10 detik, yang dapat ditumpuk hingga 2 kali.",
+            "description": "Melancarkan Echo Skill memberikan 6%  Havoc DMG Bonus selama 10 detik, yang dapat di stack(s) hingga 2 kali.",
             "isTitleVisible": false
           }
         ]

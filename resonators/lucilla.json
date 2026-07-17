@@ -219,7 +219,7 @@
         "note": "- Lucilla sebagai opsi alternatif menggantikan Qiuyuan untuk Sigrika, Galbrena, dan Phrolova, memberikan 50% Echo Skill Amplify setelah melancarkan Outro Skill dan 4 kali penggunaan Echo Skill\n\n- Saat dipasangkan dengan Phrolova, kamu dapat menggunakan Dream of the Lost & 2-pc Reels untuk melengkapi Voidwing Moth di slot utama. Selain itu, Moonlit Clouds juga merupakan opsi yang layak."
       }
     ],
-    "teamNote": "1. Dalam mode Glacio Chafe, Lucilla memberikan buff berikut untuk rekan satu timnya:\n- Pengurangan 8% Glacio RES\n- 37% Glacio DMG Bonus dari bonus set Wishes of Quiet Snowfall (12% dari Glammoth)\n- 60% Glacio Chafe DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n\n2. Dalam mode Echo, Lucilla memberikan buff berikut untuk rekan satu timnya:\n- 25% Echo Skill DMG Bonus selama 30 detik\n- 40% Crit. DMG pada 4 tumpukan [Zoom], yang hanya berlaku untuk Resonator yang sedang aktif\n- 50% Echo Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill.\n\nDengan Freeze Frame (Signature Lucilla): +24% ATK selama 30 detik saat memberikan Glacio Chafe."
+    "teamNote": "1. Dalam mode Glacio Chafe, Lucilla memberikan buff berikut untuk rekan satu timnya:\n- Pengurangan 8% Glacio RES\n- 37% Glacio DMG Bonus dari bonus set Wishes of Quiet Snowfall (12% dari Glammoth)\n- 60% Glacio Chafe DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n\n2. Dalam mode Echo, Lucilla memberikan buff berikut untuk rekan satu timnya:\n- 25% Echo Skill DMG Bonus selama 30 detik\n- 40% Crit. DMG pada 4 stack(s) [Zoom], yang hanya berlaku untuk Resonator yang sedang aktif\n- 50% Echo Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill.\n\nDengan Freeze Frame (Signature Lucilla): +24% ATK selama 30 detik saat memberikan Glacio Chafe."
   },
   "skills": {
     "basic": {
@@ -336,7 +336,7 @@
       "effects": [
         {
           "title": "Déjà Vu",
-          "description": "Saat melancarkan Resonance Liberation - Clear As Day, Lucilla memberikan peningkatan berikut berdasarkan Resonance Mode miliknya:\n- Saat berada dalam Resonance Mode - Glacio Chafe, mendapatkan 4 stack(s) Film Roll selama 30 detik, dapat ditumpuk hingga 4 kali. Semua stack(s) akan dihapus saat durasi berakhir.\n- Saat berada dalam Resonance Mode - Echo, mendapatkan 1 stack(s) Zoom selama 30 detik. Maksimal 1 stack(s), yang akan dihapus saat durasi berakhir.\nEfek di atas akan berakhir lebih awal saat Lucilla mengganti Resonance Mode.",
+          "description": "Saat melancarkan Resonance Liberation - Clear As Day, Lucilla memberikan peningkatan berikut berdasarkan Resonance Mode miliknya:\n- Saat berada dalam Resonance Mode - Glacio Chafe, mendapatkan 4 stack(s) Film Roll selama 30 detik, dapat di stack(s) hingga 4 kali. Semua stack(s) akan dihapus saat durasi berakhir.\n- Saat berada dalam Resonance Mode - Echo, mendapatkan 1 stack(s) Zoom selama 30 detik. Maksimal 1 stack(s), yang akan dihapus saat durasi berakhir.\nEfek di atas akan berakhir lebih awal saat Lucilla mengganti Resonance Mode.",
           "isTitleVisible": true
         },
         {
@@ -407,7 +407,7 @@
         "effects": [
           {
             "title": "",
-            "description": "Film Roll kini dapat ditumpuk hingga 10 stack(s), dan Zoom hingga 4 stack(s).",
+            "description": "Film Roll kini dapat di stack(s) hingga 10 stack(s), dan Zoom hingga 4 stack(s).",
             "isTitleVisible": false
           },
           {
@@ -732,7 +732,7 @@
       "effects": [
         {
           "title": "",
-          "description": "Oblivion menarik target di sekitar saat mengenai hit. Saat melancarkan Oblivion, ATK Lucilla meningkat sebesar 10% selama 6 detik, dapat ditumpuk hingga 3 kali. Semua stack(s) akan dihapus saat durasi berakhir.",
+          "description": "Oblivion menarik target di sekitar saat mengenai hit. Saat melancarkan Oblivion, ATK Lucilla meningkat sebesar 10% selama 6 detik, dapat di stack(s) hingga 3 kali. Semua stack(s) akan dihapus saat durasi berakhir.",
           "isTitleVisible": false
         },
         {
@@ -759,7 +759,7 @@
       "effects": [
         {
           "title": "",
-          "description": "Saat berada dalam Reminiscence, setiap kali Lucilla mengonsumsi Photo, ia mendapatkan 1 stack(s) Remembrance, dapat ditumpuk hingga 3 kali. Setiap stack(s) Remembrance meningkatkan damage Letting It Go yang diberikan kepada target sebesar 200%, hingga 600%. Melancarkan Letting It Go menghapus semua stack(s) Remembrance.",
+          "description": "Saat berada dalam Reminiscence, setiap kali Lucilla mengonsumsi Photo, ia mendapatkan 1 stack(s) Remembrance, dapat di stack(s) hingga 3 kali. Setiap stack(s) Remembrance meningkatkan damage Letting It Go yang diberikan kepada target sebesar 200%, hingga 600%. Melancarkan Letting It Go menghapus semua stack(s) Remembrance.",
           "isTitleVisible": false
         },
         {

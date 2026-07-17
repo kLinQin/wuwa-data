@@ -307,7 +307,7 @@
         },
         {
           "title": "",
-          "description": "- Saat mengenai target, meningkatkan stack(s) maksimum  Aero Erosion yang dapat diterima target sebanyak 3 selama 10 detik. Efek ini tidak dapat ditumpuk.",
+          "description": "- Saat mengenai target, meningkatkan stack(s) maksimum  Aero Erosion yang dapat diterima target sebanyak 3 selama 10 detik. Efek ini tidak dapat di stack(s).",
           "isTitleVisible": false
         }
       ]

@@ -197,7 +197,7 @@
         },
         {
           "title": "**Solo Concert**",
-          "description": "Saat Ciaccona atau Ensemble Sylph melakukan Solo Concert, mereka memberikan Bonus  Aero DMG sebesar 24% kepada seluruh Resonator di sekitar dalam tim. Efek ini tidak dapat ditumpuk.",
+          "description": "Saat Ciaccona atau Ensemble Sylph melakukan Solo Concert, mereka memberikan Bonus  Aero DMG sebesar 24% kepada seluruh Resonator di sekitar dalam tim. Efek ini tidak dapat di stack(s).",
           "isTitleVisible": true
         },
         {

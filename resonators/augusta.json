@@ -147,7 +147,7 @@
     "teams": [
       {
         "name": "Hypercarry",
-        "note": "Iuno memberikan Augusta 50% Heavy DMG Amplify setelah melancarkan Outro Skill miliknya.\nSelain itu, Augusta mendapatkan manfaat dari Blessing of the Wan Light milik Iuno di mana ia mendapatkan 4% All-DMG Amplify selama 10 detik, dapat ditumpuk hingga 10 kali.",
+        "note": "Iuno memberikan Augusta 50% Heavy DMG Amplify setelah melancarkan Outro Skill miliknya.\nSelain itu, Augusta mendapatkan manfaat dari Blessing of the Wan Light milik Iuno di mana ia mendapatkan 4% All-DMG Amplify selama 10 detik, dapat di stack(s) hingga 10 kali.",
         "members": [
           [
             "Augusta"
@@ -296,7 +296,7 @@
         },
         {
           "title": "Ruler's Realm",
-          "description": "- Ruler's Realm bertahan selama 30 detik.\n- Saat Resonator dalam tim melancarkan Intro Skill di dalam Ruler's Realm, mereka mendapatkan shield setara dengan 650 + 5% dari Max HP Augusta selama 10 detik. Efek ini tidak dapat ditumpuk. Shield ini tidak akan diteruskan ke Resonator yang masuk.",
+          "description": "- Ruler's Realm bertahan selama 30 detik.\n- Saat Resonator dalam tim melancarkan Intro Skill di dalam Ruler's Realm, mereka mendapatkan shield setara dengan 650 + 5% dari Max HP Augusta selama 10 detik. Efek ini tidak dapat di stack(s). Shield ini tidak akan diteruskan ke Resonator yang masuk.",
           "isTitleVisible": true
         },
         {
@@ -338,7 +338,7 @@
         "effects": [
           {
             "title": "",
-            "description": "Saat Augusta memberikan damage, ia mendapatkan shield setara dengan 350 + 2.5% dari Max HP miliknya selama 5 detik, dipicu sekali setiap 0.5 detik. Efek ini tidak dapat ditumpuk. Shield ini tidak akan diteruskan ke Resonator yang masuk.",
+            "description": "Saat Augusta memberikan damage, ia mendapatkan shield setara dengan 350 + 2.5% dari Max HP miliknya selama 5 detik, dipicu sekali setiap 0.5 detik. Efek ini tidak dapat di stack(s). Shield ini tidak akan diteruskan ke Resonator yang masuk.",
             "isTitleVisible": false
           }
         ]

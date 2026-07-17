@@ -603,7 +603,7 @@
       "effects": [
         {
           "title": "",
-          "description": "Saat Basic Attack mengenai target, Fusion DMG Bonus Encore meningkat 3%, dapat ditumpuk hingga 4 kali selama 6 detik.",
+          "description": "Saat Basic Attack mengenai target, Fusion DMG Bonus Encore meningkat 3%, dapat di stack(s) hingga 4 kali selama 6 detik.",
           "isTitleVisible": false
         }
       ]
@@ -673,7 +673,7 @@
         },
         {
           "title": "",
-          "description": "di mana setiap stack(s) meningkatkan ATK sebesar 5% selama 10 detik, dapat ditumpuk hingga 5 kali.",
+          "description": "di mana setiap stack(s) meningkatkan ATK sebesar 5% selama 10 detik, dapat di stack(s) hingga 5 kali.",
           "isTitleVisible": false
         }
       ]

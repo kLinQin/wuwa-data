@@ -62,7 +62,7 @@
         }
       ],
       "substats": [],
-      "note": "1. Cost 3 ER lebih baik sampai kalian dapat 4 substat ER.\n2. Cost 3 ER adalah pilihan yang sangat bagus karena bagaimanapun kalian membutuhkan 120% ER, dan ini membuatmu tidak bergantung pada keberuntungan substat.\n3. Jika kamu ingin mengoptimalkan potensi maksimal Sigrika (terutama jika mencapai >35% ER), di sarankan menggunakan Cost 3 Aero/Attack atau Atk/Atk.\n4. Mencapai 150% ER TIDAK bersifat wajib! ER tersebut ada agar dia mendapatkan lebih banyak scaling dari echo. (Contoh: Heavy DMG% untuk Augusta).\nSimpan satu echo Cost 3 untuk di-roll terakhir.\n"
+      "note": "1. Cost 3 ER lebih baik sampai kamu dapat 4 substat ER.\n2. Cost 3 ER adalah pilihan yang sangat bagus karena bagaimanapun kamu membutuhkan 120% ER, dan ini membuatmu tidak bergantung pada keberuntungan substat.\n3. Jika kamu ingin mengoptimalkan potensi maksimal Sigrika (terutama jika mencapai >35% ER), di sarankan menggunakan Cost 3 Aero/Attack atau Atk/Atk.\n4. Mencapai 150% ER TIDAK bersifat wajib! ER tersebut ada agar dia mendapatkan lebih banyak scaling dari echo. (Contoh: Heavy DMG% untuk Augusta).\nSimpan satu echo Cost 3 untuk di-roll terakhir.\n"
     },
     "weaponNote": "",
     "weaponOptions": [
@@ -176,7 +176,7 @@
         "note": ""
       }
     ],
-    "teamNote": "- Lucilla dan Qiuyuan memberikan Sigrika 50% Echo Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill miliknya dan 4 penggunaan Echo Skill.\n- Selain itu, Sigrika juga mendapatkan 24% Aero DMG Bonus dari Ciaccona's Ensemble Sylphs, kemudian 15% Aero DMG dari set Gusts of Welkin.\n- Sebagai alternatif, jika kalian membutuhkan sustain, kalian dapat menggunakan Shorekeeper atau Mornye sebagai pengganti Ciaccona."
+    "teamNote": "- Lucilla dan Qiuyuan memberikan Sigrika 50% Echo Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill miliknya dan 4 penggunaan Echo Skill.\n- Selain itu, Sigrika juga mendapatkan 24% Aero DMG Bonus dari Ciaccona's Ensemble Sylphs, kemudian 15% Aero DMG dari set Gusts of Welkin.\n- Sebagai alternatif, jika kamu membutuhkan sustain, kamu dapat menggunakan Shorekeeper atau Mornye sebagai pengganti Ciaccona."
   },
   "skills": {
     "basic": {
@@ -303,7 +303,7 @@
         "effects": [
           {
             "title": "",
-            "description": "Saat Resonator terdekat mana pun dalam tim melancarkan Echo Skill, Sigrika mendapatkan satu tumpukan Blessing of Runes, hingga 6 tumpukan. Echo dengan nama yang sama hanya dapat memicu efek ini satu kali.",
+            "description": "Saat Resonator terdekat mana pun dalam tim melancarkan Echo Skill, Sigrika mendapatkan satu stack(s) Blessing of Runes, hingga 6 stack(s). Echo dengan nama yang sama hanya dapat memicu efek ini satu kali.",
             "isTitleVisible": false
           },
           {
@@ -313,7 +313,7 @@
           },
           {
             "title": "Blessing of Runes",
-            "description": "Setiap tumpukan Blessing of Runes memberikan Resonator yang aktif dalam tim 3% Aero DMG Bonus dan 3% Echo Skill DMG Bonus.\nSaat Blessing of Runes mencapai 6 tumpukan, Sigrika mendapatkan tambahan peningkatan 30% Aero DMG Bonus dan Echo Skill DMG Bonus.\nUntuk setiap 1% Energy Regen Sigrika di atas 125%, Sigrika mendapatkan 2% Echo Skill DMG Bonus hingga maksimal 50%.",
+            "description": "Setiap stack(s) Blessing of Runes memberikan Resonator yang aktif dalam tim 3% Aero DMG Bonus dan 3% Echo Skill DMG Bonus.\nSaat Blessing of Runes mencapai 6 stack(s), Sigrika mendapatkan tambahan peningkatan 30% Aero DMG Bonus dan Echo Skill DMG Bonus.\nUntuk setiap 1% Energy Regen Sigrika di atas 125%, Sigrika mendapatkan 2% Echo Skill DMG Bonus hingga maksimal 50%.",
             "isTitleVisible": true
           }
         ]
@@ -356,12 +356,12 @@
       "effects": [
         {
           "title": "",
-          "description": "Menyerang target, memberikan Aero DMG sebesar 795% dari ATK Sigrika. Mendapatkan 2 tumpukan Encapsulated selama 30 detik.",
+          "description": "Menyerang target, memberikan Aero DMG sebesar 795% dari ATK Sigrika. Mendapatkan 2 stack(s) Encapsulated selama 30 detik.",
           "isTitleVisible": false
         },
         {
           "title": "Encapsulated",
-          "description": "Saat Resonator terdekat mana pun dalam tim melancarkan Echo Skill, berikan status Stagnate pada target dan konsumsi 1 tumpukan Encapsulated. Encapsulated dapat ditumpuk hingga 2 kali.",
+          "description": "Saat Resonator terdekat mana pun dalam tim melancarkan Echo Skill, berikan status Stagnate pada target dan konsumsi 1 stack(s) Encapsulated. Encapsulated dapat di stack(s) hingga 2 kali.",
           "isTitleVisible": true
         }
       ]
@@ -537,7 +537,7 @@
         },
         {
           "title": "",
-          "description": "Encapsulated kini dapat ditumpuk hingga 3 kali. Setelah melancarkan Outro Skill In This Very Moment, Sigrika mendapatkan 1 tumpukan tambahan.",
+          "description": "Encapsulated kini dapat di stack(s) hingga 3 kali. Setelah melancarkan Outro Skill In This Very Moment, Sigrika mendapatkan 1 stack(s) tambahan.",
           "isTitleVisible": false
         }
       ]
@@ -564,12 +564,12 @@
       "effects": [
         {
           "title": "",
-          "description": "Innate Gift? kini dapat ditumpuk hingga 4 kali dan tidak lagi terhapus setelah Sigrika melancarkan Forte Circuit - Learn My True Name atau diganti keluar dari medan tempur.",
+          "description": "Innate Gift? kini dapat di stack(s) hingga 4 kali dan tidak lagi terhapus setelah Sigrika melancarkan Forte Circuit - Learn My True Name atau diganti keluar dari medan tempur.",
           "isTitleVisible": false
         },
         {
           "title": "",
-          "description": "Semua tumpukan Innate Gift? terhapus setiap 30 detik saat Sigrika tetap berada di luar pertempuran.",
+          "description": "Semua stack(s) Innate Gift? terhapus setiap 30 detik saat Sigrika tetap berada di luar pertempuran.",
           "isTitleVisible": false
         }
       ]
@@ -612,12 +612,12 @@
         },
         {
           "title": "",
-          "description": "- Setiap tumpukan memberikan Runic Outburst, Runic Chain Whip, Runic Soliskin, dan Forte Circuit - Learn My True Name 15% DMG Amplification, hingga 60%.",
+          "description": "- Setiap stack(s) memberikan Runic Outburst, Runic Chain Whip, Runic Soliskin, dan Forte Circuit - Learn My True Name 15% DMG Amplification, hingga 60%.",
           "isTitleVisible": false
         },
         {
           "title": "",
-          "description": "- Setiap tumpukan menyebabkan Runic Outburst, Runic Chain Whip, Runic Soliskin, dan Forte Circuit - Learn My True Name mengabaikan 7.5% DEF target saat memberikan damage, hingga 30%.",
+          "description": "- Setiap stack(s) menyebabkan Runic Outburst, Runic Chain Whip, Runic Soliskin, dan Forte Circuit - Learn My True Name mengabaikan 7.5% DEF target saat memberikan damage, hingga 30%.",
           "isTitleVisible": false
         }
       ]

@@ -374,7 +374,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Saat Resonance Liberation dilancarkan, memberikan 3/3/3/3/3 tumpukan Iron Armor. Setiap tumpukan meningkatkan ATK dan DEF sebesar 3%/3.5%/4%/4.5%/5%, dapat ditumpuk hingga 3/3/3/3/3 kali. Saat Resonator menerima damage, mengurangi jumlah tumpukan sebanyak 1/1/1/1/1.",
+      "description": "Saat Resonance Liberation dilancarkan, memberikan 3/3/3/3/3 stack(s) Iron Armor. Setiap stack(s) meningkatkan ATK dan DEF sebesar 3%/3.5%/4%/4.5%/5%, dapat di stack(s) hingga 3/3/3/3/3 kali. Saat Resonator menerima damage, mengurangi jumlah stack(s) sebanyak 1/1/1/1/1.",
       "refinements": []
     },
     "lore": ""
@@ -421,7 +421,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat ditumpuk hingga 4/4/4/4/4 kali.",
+      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat di stack(s) hingga 4/4/4/4/4 kali.",
       "refinements": []
     },
     "lore": ""
@@ -515,7 +515,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill atau Resonance Liberation meningkatkan Resonance Liberation DMG sebesar 20%/25%/30%/35%/40% selama 15/15/15/15/15 detik. Mendapatkan Shield memungkinkan Resonance Liberation DMG untuk mengabaikan 7.2%/8.4%/9.6%/10.8%/12.0% DEF target selama 7/7/7/7/7 detik, dapat ditumpuk hingga 5/5/5/5/5 kali. Efek ini dipicu sekali setiap 0.5/0.5/0.5/0.5/0.5 detik. Saat melancarkan Intro Skill, efek ini langsung mencapai tumpukan maksimum selama 3/3/3/3/3 detik.",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill atau Resonance Liberation meningkatkan Resonance Liberation DMG sebesar 20%/25%/30%/35%/40% selama 15/15/15/15/15 detik. Mendapatkan Shield memungkinkan Resonance Liberation DMG untuk mengabaikan 7.2%/8.4%/9.6%/10.8%/12.0% DEF target selama 7/7/7/7/7 detik, dapat di stack(s) hingga 5/5/5/5/5 kali. Efek ini dipicu sekali setiap 0.5/0.5/0.5/0.5/0.5 detik. Saat melancarkan Intro Skill, efek ini langsung mencapai stack(s) maksimum selama 3/3/3/3/3 detik.",
       "refinements": []
     },
     "lore": ""
@@ -562,7 +562,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Memberikan damage kepada target dalam status Tune Strain - Interfered memberikan 6%/6.7%/7.5%/8.2%/9% Basic Attack DMG Bonus selama 3/3/3/3/3 detik, dapat ditumpuk hingga 4/4/4/4/4 kali. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 0.5/0.5/0.5/0.5/0.5 detik. Memicu ulang efek ini akan mengatur ulang durasinya.",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Memberikan damage kepada target dalam status Tune Strain - Interfered memberikan 6%/6.7%/7.5%/8.2%/9% Basic Attack DMG Bonus selama 3/3/3/3/3 detik, dapat di stack(s) hingga 4/4/4/4/4 kali. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 0.5/0.5/0.5/0.5/0.5 detik. Memicu ulang efek ini akan mengatur ulang durasinya.",
       "refinements": []
     },
     "lore": ""

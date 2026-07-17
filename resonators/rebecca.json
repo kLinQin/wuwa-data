@@ -184,7 +184,7 @@
         "note": ""
       }
     ],
-    "teamNote": "Rebecca memberikan buff berikut untuk rekan satu timnya:\n- +20% ATK selama 30 detik saat melancarkan Resonance Liberation [Party 'Til Dawn!]\n- 30 Tune Break Boost untuk Lucy\n- 15% All-DMG Amplify selama 14 detik setelah melancarkan Outro Skill, di mana Resonator yang masuk kemudian bisa mendapatkan hingga 35% Heavy Attack DMG Amplify pada tumpukan penuh. Efek ini otomatis jika Resonator tersebut adalah Lucy\n- Memanggil sebuah turret yang terus-menerus menyerang selama 14 detik, yang dapat diperkuat lebih lanjut oleh Lucy, meningkatkan DMG multiplier miliknya sebesar 250%\n- Dengan Skull Trasher (Signature Rebecca): +24% ATK selama 30 detik saat memberikan Hack - Shifting."
+    "teamNote": "Rebecca memberikan buff berikut untuk rekan satu timnya:\n- +20% ATK selama 30 detik saat melancarkan Resonance Liberation [Party 'Til Dawn!]\n- 30 Tune Break Boost untuk Lucy\n- 15% All-DMG Amplify selama 14 detik setelah melancarkan Outro Skill, di mana Resonator yang masuk kemudian bisa mendapatkan hingga 35% Heavy Attack DMG Amplify pada stack(s) penuh. Efek ini otomatis jika Resonator tersebut adalah Lucy\n- Memanggil sebuah turret yang terus-menerus menyerang selama 14 detik, yang dapat diperkuat lebih lanjut oleh Lucy, meningkatkan DMG multiplier miliknya sebesar 250%\n- Dengan Skull Trasher (Signature Rebecca): +24% ATK selama 30 detik saat memberikan Hack - Shifting."
   },
   "skills": {
     "basic": {
@@ -377,7 +377,7 @@
         "effects": [
           {
             "title": "",
-            "description": "ATK meningkat sebesar 10% selama 12 detik saat A Girl Gets What She Wants! dipicu, atau saat Heavy Attack - Rat-tat-tat!: Huntress atau Heavy Attack - Bang-bang-bang!: Guts dilancarkan, dapat ditumpuk hingga 2 kali.",
+            "description": "ATK meningkat sebesar 10% selama 12 detik saat A Girl Gets What She Wants! dipicu, atau saat Heavy Attack - Rat-tat-tat!: Huntress atau Heavy Attack - Bang-bang-bang!: Guts dilancarkan, dapat di stack(s) hingga 2 kali.",
             "isTitleVisible": false
           },
           {
@@ -465,7 +465,7 @@
         },
         {
           "title": "",
-          "description": "Resonator yang masuk mendapatkan Edgerunner Bonds, memberikan 15% All DMG Amplification selama 14 detik. Resonator dengan Edgerunner Bonds mendapatkan 1 tumpukan Overlimit setiap 0.2 detik, yang mana setiap tumpukan memberikan 0.5% Heavy Attack DMG Amplification, hingga 35% (Lucy secara otomatis menerima tumpukan maksimal saat Edgerunner Bonds miliknya aktif). Beralih ke Resonator lain akan mengakhiri Edgerunner Bonds dan Overlimit lebih awal.",
+          "description": "Resonator yang masuk mendapatkan Edgerunner Bonds, memberikan 15% All DMG Amplification selama 14 detik. Resonator dengan Edgerunner Bonds mendapatkan 1 stack(s) Overlimit setiap 0.2 detik, yang mana setiap stack(s) memberikan 0.5% Heavy Attack DMG Amplification, hingga 35% (Lucy secara otomatis menerima stack(s) maksimal saat Edgerunner Bonds miliknya aktif). Beralih ke Resonator lain akan mengakhiri Edgerunner Bonds dan Overlimit lebih awal.",
           "isTitleVisible": false
         },
         {

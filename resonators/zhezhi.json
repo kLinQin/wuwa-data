@@ -253,7 +253,7 @@
         },
         {
           "title": "Resonance Skill - Stroke of Genius",
-          "description": "Jika Phantasmic Imprint berada di dekatnya, Resonance Skill digantikan oleh Stroke of Genius, yang bisa digunakan saat di udara.\nSaat digunakan, Zhezhi akan:\n- Berpindah ke lokasi Phantasmic Imprint, menghilangkannya, dan memanggil Ivory Herald untuk menyerang target, memberikan  Glacio DMG yang dianggap sebagai Basic Attack DMG.\n- Meregenerasi percobaan Dodge di udara jika Phantasmic Imprint berada di udara.\n- Mendapatkan 1 stack Painter’s Delight, bertahan 8 detik, dapat ditumpuk hingga 2 kali.",
+          "description": "Jika Phantasmic Imprint berada di dekatnya, Resonance Skill digantikan oleh Stroke of Genius, yang bisa digunakan saat di udara.\nSaat digunakan, Zhezhi akan:\n- Berpindah ke lokasi Phantasmic Imprint, menghilangkannya, dan memanggil Ivory Herald untuk menyerang target, memberikan  Glacio DMG yang dianggap sebagai Basic Attack DMG.\n- Meregenerasi percobaan Dodge di udara jika Phantasmic Imprint berada di udara.\n- Mendapatkan 1 stack Painter’s Delight, bertahan 8 detik, dapat di stack(s) hingga 2 kali.",
           "isTitleVisible": true
         },
         {
@@ -274,7 +274,7 @@
         "effects": [
           {
             "title": "",
-            "description": "Saat menggunakan Resonance Skill Stroke of Genius atau Resonance Skill Creation’s Zenith, ATK meningkat sebesar 6% selama 27 detik, dapat ditumpuk hingga 3 kali.",
+            "description": "Saat menggunakan Resonance Skill Stroke of Genius atau Resonance Skill Creation’s Zenith, ATK meningkat sebesar 6% selama 27 detik, dapat di stack(s) hingga 3 kali.",
             "isTitleVisible": false
           }
         ]
@@ -531,7 +531,7 @@
       "effects": [
         {
           "title": "",
-          "description": "Mengaktifkan Resonance Skill Manifestation, Resonance Skill Stroke of Genius, atau Resonance Skill Creation's Zenith meningkatkan ATK sebesar 15% selama 27 detik, dapat ditumpuk hingga 3 kali.",
+          "description": "Mengaktifkan Resonance Skill Manifestation, Resonance Skill Stroke of Genius, atau Resonance Skill Creation's Zenith meningkatkan ATK sebesar 15% selama 27 detik, dapat di stack(s) hingga 3 kali.",
           "isTitleVisible": false
         }
       ]

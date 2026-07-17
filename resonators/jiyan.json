@@ -522,7 +522,7 @@
         },
         {
           "title": "",
-          "description": "Saat serangan Jiyan mengenai target, ATK miliknya meningkat sebesar 3% selama 8 detik, dapat ditumpuk hingga 15 kali; efek ini segera mencapai stack maksimal setelah ia melancarkan Intro Skill Tactical Strike.",
+          "description": "Saat serangan Jiyan mengenai target, ATK miliknya meningkat sebesar 3% selama 8 detik, dapat di stack(s) hingga 15 kali; efek ini segera mencapai stack maksimal setelah ia melancarkan Intro Skill Tactical Strike.",
           "isTitleVisible": false
         }
       ]
@@ -533,7 +533,7 @@
       "effects": [
         {
           "title": "",
-          "description": "Setiap kali Heavy Attack, Intro Skill Tactical Strike, atau Resonance Skill Windqueller digunakan, Jiyan mendapatkan 1 tumpuk \"Momentum\", dapat ditumpuk hingga 2 kali.",
+          "description": "Setiap kali Heavy Attack, Intro Skill Tactical Strike, atau Resonance Skill Windqueller digunakan, Jiyan mendapatkan 1 tumpuk \"Momentum\", dapat di stack(s) hingga 2 kali.",
           "isTitleVisible": false
         },
         {

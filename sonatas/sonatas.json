@@ -25,7 +25,7 @@
     "name": "Reel of Spliced Memories",
     "slug": "reel-of-spliced-memories",
     "image": "/icons/sonatas/rosm.webp",
-    "description": "3-piece\n> ATK + 10%\n5-piece\n> Memberikan Tune Rupture - Shifting atau Tune Strain - Shifting pada musuh meningkatkan Tune Break Boost dari Resonator dalam tim sebesar 20 selama 30 detik. Efek dengan nama yang sama tidak dapat ditumpuk."
+    "description": "3-piece\n> ATK + 10%\n5-piece\n> Memberikan Tune Rupture - Shifting atau Tune Strain - Shifting pada musuh meningkatkan Tune Break Boost dari Resonator dalam tim sebesar 20 selama 30 detik. Efek dengan nama yang sama tidak dapat di stack(s)."
   },
   {
     "name": "Wishes of Quiet Snowfall",
@@ -97,7 +97,7 @@
     "name": "Havoc Eclipse",
     "slug": "havoc-eclipse",
     "image": "/icons/sonatas/he.webp",
-    "description": "3-piece\n> Havoc DMG +10%\n5-piece\n> Havoc DMG +7.5% setelah melancarkan Basic Attack atau Heavy Attack. Efek ini dapat ditumpuk hingga 4 kali, setiap tumpukan berlangsung selama 15 detik.\n    "
+    "description": "3-piece\n> Havoc DMG +10%\n5-piece\n> Havoc DMG +7.5% setelah melancarkan Basic Attack atau Heavy Attack. Efek ini dapat di stack(s) hingga 4 kali, setiap stack(s) berlangsung selama 15 detik.\n    "
   },
   {
     "name": "Molten Rift",
@@ -133,19 +133,19 @@
     "name": "Freezing Frost",
     "slug": "freezing-frost",
     "image": "/icons/sonatas/ff.webp",
-    "description": "3-piece\n> Glacio DMG +10%\n5-piece\n> Glacio DMG +10% setelah melancarkan Basic Attack atau Heavy Attack.\n> Efek ini dapat ditumpuk hingga 3 kali, setiap tumpukan berlangsung selama 15 detik.\n    "
+    "description": "3-piece\n> Glacio DMG +10%\n5-piece\n> Glacio DMG +10% setelah melancarkan Basic Attack atau Heavy Attack.\n> Efek ini dapat di stack(s) hingga 3 kali, setiap stack(s) berlangsung selama 15 detik.\n    "
   },
   {
     "name": "Frosty Resolve",
     "slug": "frosty-resolve",
     "image": "/icons/sonatas/fr.webp",
-    "description": "3-piece\n> Resonance Skill DMG +12%\n5-piece\n> Melancarkan Resonance Skill memberikan 22.5%  Glacio DMG Bonus selama 15 detik dan melancarkan Resonance Liberation meningkatkan Resonance Skill DMG sebesar 18%, berlangsung selama 5 detik.\n> Efek ini dapat ditumpuk hingga 2 kali.\n    "
+    "description": "3-piece\n> Resonance Skill DMG +12%\n5-piece\n> Melancarkan Resonance Skill memberikan 22.5%  Glacio DMG Bonus selama 15 detik dan melancarkan Resonance Liberation meningkatkan Resonance Skill DMG sebesar 18%, berlangsung selama 5 detik.\n> Efek ini dapat di stack(s) hingga 2 kali.\n    "
   },
   {
     "name": "Eternal Radiance",
     "slug": "eternal-radiance",
     "image": "/icons/sonatas/er.webp",
-    "description": "3-piece\n> Spectro DMG +10%\n5-piece\n> Memberikan Spectro Frazzle kepada musuh akan meningkatkan Crit. Rate sebesar 20% selama 15 detik.\n> Menyerang musuh dengan 10 tumpukan Spectro Frazzle akan memberikan 15%  Spectro DMG Bonus selama 15 detik.\n    "
+    "description": "3-piece\n> Spectro DMG +10%\n5-piece\n> Memberikan Spectro Frazzle kepada musuh akan meningkatkan Crit. Rate sebesar 20% selama 15 detik.\n> Menyerang musuh dengan 10 stack(s) Spectro Frazzle akan memberikan 15%  Spectro DMG Bonus selama 15 detik.\n    "
   },
   {
     "name": "Tidebreaking Courage",
@@ -169,7 +169,7 @@
     "name": "Law of Harmony",
     "slug": "law-of-harmony",
     "image": "/icons/sonatas/loh.webp",
-    "description": "3-piece\n> Menggunakan Echo Skill memberikan 20% Bonus Heavy Attack DMG kepada pengguna selama 4 detik.\n> Selain itu, semua Resonator dalam tim mendapatkan 8% Bonus Echo Skill DMG selama 30 detik, dengan efek ini dapat menumpuk hingga 4 kali. Saat mencapai 4 tumpukan, menggunakan Echo Skill kembali akan mereset durasi efek ini.\n> Efek ini hanya dapat dipicu sekali oleh Echo dengan nama yang sama. Catatan pemicu Echo dan efeknya akan dihapus secara bersamaan saat efek berakhir.\n    "
+    "description": "3-piece\n> Menggunakan Echo Skill memberikan 20% Bonus Heavy Attack DMG kepada pengguna selama 4 detik.\n> Selain itu, semua Resonator dalam tim mendapatkan 8% Bonus Echo Skill DMG selama 30 detik, dengan efek ini dapat menumpuk hingga 4 kali. Saat mencapai 4 stack(s), menggunakan Echo Skill kembali akan mereset durasi efek ini.\n> Efek ini hanya dapat dipicu sekali oleh Echo dengan nama yang sama. Catatan pemicu Echo dan efeknya akan dihapus secara bersamaan saat efek berakhir.\n    "
   },
   {
     "name": "Flamewing's Shadow",
@@ -187,13 +187,13 @@
     "name": "Rite of Gilded Revelation",
     "slug": "rite-of-gilded-revelation",
     "image": "/icons/sonatas/rogr.webp",
-    "description": "2-piece\n> Spectro DMG + 10%\n5-piece\n> Memberikan Basic Attack DMG meningkatkan Spectro DMG sebesar 10% selama 5 detik, dapat ditumpuk hingga 3 stack. Dengan 3 stack, melancarkan Resonance Liberation memberikan 40% Basic Attack DMG Bonus.\n    "
+    "description": "2-piece\n> Spectro DMG + 10%\n5-piece\n> Memberikan Basic Attack DMG meningkatkan Spectro DMG sebesar 10% selama 5 detik, dapat di stack(s) hingga 3 stack. Dengan 3 stack, melancarkan Resonance Liberation memberikan 40% Basic Attack DMG Bonus.\n    "
   },
   {
     "name": "Halo of Starry Radiance",
     "slug": "halo-of-starry-radiance",
     "image": "/icons/sonatas/hosr.webp",
-    "description": "2-piece\n> Healing Bonus + 10%.\n5-piece\n> Saat memulihkan Resonator dalam tim, setiap 1% Off-Tune Buildup Rate memberikan peningkatan 0,2% ATK kepada semua Resonator dalam tim selama 4 detik, hingga 25%. Efek dengan nama yang sama tidak dapat ditumpuk.\n    "
+    "description": "2-piece\n> Healing Bonus + 10%.\n5-piece\n> Saat memulihkan Resonator dalam tim, setiap 1% Off-Tune Buildup Rate memberikan peningkatan 0,2% ATK kepada semua Resonator dalam tim selama 4 detik, hingga 25%. Efek dengan nama yang sama tidak dapat di stack(s).\n    "
   },
   {
     "name": "Thread of Severed Fate",

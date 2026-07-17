@@ -126,7 +126,7 @@
         "effects": [
           {
             "title": "",
-            "description": "Resonance Skill Overshock memberikan 10 tumpukan Electro Flare pada target yang terkena damage.",
+            "description": "Resonance Skill Overshock memberikan 10 stack(s) Electro Flare pada target yang terkena damage.",
             "isTitleVisible": false
           }
         ]
@@ -203,7 +203,7 @@
       "effects": [
         {
           "title": "",
-          "description": "Memberikan 5 tumpukan Electro Flare kepada target yang terkena setelah Resonance Liberation Ultimate Tactics menimbulkan damage.",
+          "description": "Memberikan 5 stack(s) Electro Flare kepada target yang terkena setelah Resonance Liberation Ultimate Tactics menimbulkan damage.",
           "isTitleVisible": false
         }
       ]

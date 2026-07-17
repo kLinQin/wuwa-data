@@ -568,7 +568,7 @@
       "effects": [
         {
           "title": "",
-          "description": "Saat Danjin menyerang target yang terkena Incinerating Will dari Resonance Skill, ATK meningkat 5% selama 6 detik, dapat ditumpuk hingga 6 kali.",
+          "description": "Saat Danjin menyerang target yang terkena Incinerating Will dari Resonance Skill, ATK meningkat 5% selama 6 detik, dapat di stack(s) hingga 6 kali.",
           "isTitleVisible": false
         },
         {

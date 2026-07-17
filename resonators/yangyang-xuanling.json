@@ -194,7 +194,7 @@
         "note": ""
       }
     ],
-    "teamNote": "- Meskipun Rebecca merupakan Best in Slot miliknya, kamu juga dapat menggunakan Phrolova atau buffer Heavy Attack lainnya seperti luno atau Mortefi.\n- Walaupun Yangyang: Xuanling tidak dapat memanfaatkan buff utama Lynae (Res. Liberation Amplify), ia tetap mendapatkan keuntungan dari buff umum miliknya.\n- Chisa merupakan support yang ideal berkat cara dirinya berinteraksi dengan Negative Status. Selain dapat memberikan Havoc Bane, ia juga dapat meningkatkan batas maksimal tumpukan sebesar 3. Hal ini memenuhi syarat Damage Amplify untuk Inherent Skill milik Yangyang: Xuanling: Unbroken Vow."
+    "teamNote": "- Meskipun Rebecca merupakan Best in Slot miliknya, kamu juga dapat menggunakan Phrolova atau buffer Heavy Attack lainnya seperti luno atau Mortefi.\n- Walaupun Yangyang: Xuanling tidak dapat memanfaatkan buff utama Lynae (Res. Liberation Amplify), ia tetap mendapatkan keuntungan dari buff umum miliknya.\n- Chisa merupakan support yang ideal berkat cara dirinya berinteraksi dengan Negative Status. Selain dapat memberikan Havoc Bane, ia juga dapat meningkatkan batas maksimal stack(s) sebesar 3. Hal ini memenuhi syarat Damage Amplify untuk Inherent Skill milik Yangyang: Xuanling: Unbroken Vow."
   },
   "skills": {
     "basic": {
@@ -203,12 +203,12 @@
       "effects": [
         {
           "title": "Basic Attack - Azure Sword Stance",
-          "description": "Menekan atau menahan Normal Attack untuk mengonsumsi Melody dan melakukan hingga 4 serangan berturut-turut, menimbulkan Havoc DMG. Selama Melody belum habis, Energy Regen dari Basic Attack - Azure Sword Stance meningkat sebesar 20%.\nTahap 4 dari Basic Attack - Azure Sword Stance memberikan 1 tumpukan Havoc Bane kepada target yang terkena.",
+          "description": "Menekan atau menahan Normal Attack untuk mengonsumsi Melody dan melakukan hingga 4 serangan berturut-turut, menimbulkan Havoc DMG. Selama Melody belum habis, Energy Regen dari Basic Attack - Azure Sword Stance meningkat sebesar 20%.\nTahap 4 dari Basic Attack - Azure Sword Stance memberikan 1 stack(s) Havoc Bane kepada target yang terkena.",
           "isTitleVisible": true
         },
         {
           "title": "Basic Attack - Feather Sword Stance",
-          "description": "Menekan atau menahan Normal Attack untuk mengonsumsi Melody dan melakukan hingga 4 serangan berturut-turut, menimbulkan Havoc DMG. Selama Melody belum habis, Energy Regen dari Basic Attack - Feather Sword Stance meningkat sebesar 20%.\nTahap 4 dari Basic Attack - Feather Sword Stance memberikan 1 tumpukan Havoc Bane kepada target yang terkena.",
+          "description": "Menekan atau menahan Normal Attack untuk mengonsumsi Melody dan melakukan hingga 4 serangan berturut-turut, menimbulkan Havoc DMG. Selama Melody belum habis, Energy Regen dari Basic Attack - Feather Sword Stance meningkat sebesar 20%.\nTahap 4 dari Basic Attack - Feather Sword Stance memberikan 1 stack(s) Havoc Bane kepada target yang terkena.",
           "isTitleVisible": true
         },
         {
@@ -327,12 +327,12 @@
         "effects": [
           {
             "title": "",
-            "description": "Saat target memiliki 1 hingga 3 tumpukan Havoc Bane, setiap tumpukan Havoc Bane meningkatkan DMG dari Yangyang: Xuanling sebesar 10%, hingga maksimal 30%.",
+            "description": "Saat target memiliki 1 hingga 3 stack(s) Havoc Bane, setiap stack(s) Havoc Bane meningkatkan DMG dari Yangyang: Xuanling sebesar 10%, hingga maksimal 30%.",
             "isTitleVisible": false
           },
           {
             "title": "",
-            "description": "Saat target memiliki 4 hingga 6 tumpukan Havoc Bane, setiap tumpukan Havoc Bane meningkatkan DMG dari Yangyang: Xuanling sebesar 12%, hingga maksimal 36%.",
+            "description": "Saat target memiliki 4 hingga 6 stack(s) Havoc Bane, setiap stack(s) Havoc Bane meningkatkan DMG dari Yangyang: Xuanling sebesar 12%, hingga maksimal 36%.",
             "isTitleVisible": false
           }
         ]
@@ -342,22 +342,22 @@
         "effects": [
           {
             "title": "",
-            "description": "Resonance Liberation Hush of a Thousand Voices meningkatkan tumpukan Havoc Bane pada target yang terkena hingga maksimal.",
+            "description": "Resonance Liberation Hush of a Thousand Voices meningkatkan stack(s) Havoc Bane pada target yang terkena hingga maksimal.",
             "isTitleVisible": false
           },
           {
             "title": "",
-            "description": "Saat Resonator dalam tim memberikan efek Havoc Bane, Yangyang: Xuanling mendapatkan 1 tumpukan Windbound. Windbound dapat diperoleh sekali setiap 1 detik, dengan tumpukan maksimal 6 kali.",
+            "description": "Saat Resonator dalam tim memberikan efek Havoc Bane, Yangyang: Xuanling mendapatkan 1 stack(s) Windbound. Windbound dapat diperoleh sekali setiap 1 detik, dengan stack(s) maksimal 6 kali.",
             "isTitleVisible": false
           },
           {
             "title": "",
-            "description": "Saat Windbound mencapai 6 tumpukan, Yangyang: Xuanling menghilangkan seluruh Windbound dan mendapatkan status One with the Wind.",
+            "description": "Saat Windbound mencapai 6 stack(s), Yangyang: Xuanling menghilangkan seluruh Windbound dan mendapatkan status One with the Wind.",
             "isTitleVisible": false
           },
           {
             "title": "",
-            "description": "Selama One with the Wind aktif, saat Yangyang: Xuanling melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather, ia memanggil Feather Release: Xuanling untuk menyerang target, memberikan 6 tumpukan Havoc Bane kepada target.",
+            "description": "Selama One with the Wind aktif, saat Yangyang: Xuanling melancarkan Resonance Skill - Sword Stance Flow: Azure atau Resonance Skill - Sword Stance Flow: Feather, ia memanggil Feather Release: Xuanling untuk menyerang target, memberikan 6 stack(s) Havoc Bane kepada target.",
             "isTitleVisible": false
           },
           {
@@ -632,7 +632,7 @@
         },
         {
           "title": "",
-          "description": "- Mendapatkan Strung Notes, maksimal 1 tumpukan. Melancarkan Basic Attack - Azure Sword Stance atau Basic Attack - Feather Sword Stance memanggil Shadow of Xuanling: Strung Notes untuk menyerang target, menimbulkan Havoc DMG sebesar 337,98% dari ATK Yangyang: Xuanling, dihitung sebagai Heavy Attack DMG. Strung Notes hilang setelah Shadow of Xuanling: Strung Notes dipanggil.",
+          "description": "- Mendapatkan Strung Notes, maksimal 1 stack(s). Melancarkan Basic Attack - Azure Sword Stance atau Basic Attack - Feather Sword Stance memanggil Shadow of Xuanling: Strung Notes untuk menyerang target, menimbulkan Havoc DMG sebesar 337,98% dari ATK Yangyang: Xuanling, dihitung sebagai Heavy Attack DMG. Strung Notes hilang setelah Shadow of Xuanling: Strung Notes dipanggil.",
           "isTitleVisible": false
         },
         {
@@ -658,12 +658,12 @@
         },
         {
           "title": "",
-          "description": "Setelah melancarkan Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Flow: Azure, atau Resonance Skill - Sword Stance Flow: Feather, meningkatkan batas maksimal tumpukan Havoc Bane pada target dalam jangkauan tertentu sebanyak 3, berlangsung selama 20 detik. Efek ini tidak bertumpuk.",
+          "description": "Setelah melancarkan Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Flow: Azure, atau Resonance Skill - Sword Stance Flow: Feather, meningkatkan batas maksimal stack(s) Havoc Bane pada target dalam jangkauan tertentu sebanyak 3, berlangsung selama 20 detik. Efek ini tidak bertumpuk.",
           "isTitleVisible": false
         },
         {
           "title": "",
-          "description": "Basic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, dan Heavy Attack - Feather Sword Stance memberikan 1 tumpukan tambahan Havoc Bane kepada target.",
+          "description": "Basic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, dan Heavy Attack - Feather Sword Stance memberikan 1 stack(s) tambahan Havoc Bane kepada target.",
           "isTitleVisible": false
         }
       ]

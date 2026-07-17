@@ -221,7 +221,7 @@
         },
         {
           "title": "Frostbite Area",
-          "description": "Area \"Frostbite\" akan semakin luas dengan setiap 1 stack \"Clarity\". \"Clarity\" dapat ditumpuk hingga 2 kali.\nSanhua mendapatkan 1 stack \"Clarity\" saat:\n- Melakukan Basic Attack 5.\n- Mengaktifkan Intro Skill Freezing Thorns.\n- Menggunakan Resonance Skill Eternal Frost.\nSanhua mendapatkan 2 stack \"Clarity\" saat:\n- Menggunakan Resonance Liberation Glacial Gaze.\n- Saat Heavy Attack Detonate digunakan, semua \"Clarity\" akan dihapus.",
+          "description": "Area \"Frostbite\" akan semakin luas dengan setiap 1 stack \"Clarity\". \"Clarity\" dapat di stack(s) hingga 2 kali.\nSanhua mendapatkan 1 stack \"Clarity\" saat:\n- Melakukan Basic Attack 5.\n- Mengaktifkan Intro Skill Freezing Thorns.\n- Menggunakan Resonance Skill Eternal Frost.\nSanhua mendapatkan 2 stack \"Clarity\" saat:\n- Menggunakan Resonance Liberation Glacial Gaze.\n- Saat Heavy Attack Detonate digunakan, semua \"Clarity\" akan dihapus.",
           "isTitleVisible": true
         }
       ]
@@ -569,7 +569,7 @@
       "effects": [
         {
           "title": "",
-          "description": "Setelah Ice Prism atau Glacier diledakkan, ATK semua anggota tim meningkat sebesar 10% selama 20 detik, dapat ditumpuk hingga 2 kali.",
+          "description": "Setelah Ice Prism atau Glacier diledakkan, ATK semua anggota tim meningkat sebesar 10% selama 20 detik, dapat di stack(s) hingga 2 kali.",
           "isTitleVisible": false
         }
       ]

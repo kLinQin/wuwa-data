@@ -313,7 +313,7 @@
         },
         {
           "title": "Resonance Mode - Fusion Burst",
-          "description": "Saat berada dalam Resonance Mode - Fusion Burst, Denia mendapatkan efek berikut:\n- Setiap kali skill berikut memberikan damage, berikan 2 tumpukan Fusion Burst pada target. Skill yang sama hanya dapat memicu efek ini sekali setiap 2 detik terhadap target yang sama.\nIntro Skill It's Been A While!, Intro Skill Knock Knock, Resonance Liberation Final Act - Stagecraft Form, Resonance Liberation Final Act - Breakdown Form, dan Erosion Field.\n- Setiap kali skill berikut memberikan damage, berikan Fusion Burst pada target. Skill yang sama hanya dapat memicu efek ini sekali setiap 2 detik terhadap target yang sama.\nBasic Attack - Stagecraft Form Stage 3, Basic Attack - Stagecraft Form Stage 4, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3, dan Mid-air Attack - Breakdown Form Stage 4.\n- Saat Denia berada dalam tim, jika musuh kalah oleh Fusion Burst DMG, hal tersebut dihitung sebagai kontribusi dari Resonator aktif terdekat.",
+          "description": "Saat berada dalam Resonance Mode - Fusion Burst, Denia mendapatkan efek berikut:\n- Setiap kali skill berikut memberikan damage, berikan 2 stack(s) Fusion Burst pada target. Skill yang sama hanya dapat memicu efek ini sekali setiap 2 detik terhadap target yang sama.\nIntro Skill It's Been A While!, Intro Skill Knock Knock, Resonance Liberation Final Act - Stagecraft Form, Resonance Liberation Final Act - Breakdown Form, dan Erosion Field.\n- Setiap kali skill berikut memberikan damage, berikan Fusion Burst pada target. Skill yang sama hanya dapat memicu efek ini sekali setiap 2 detik terhadap target yang sama.\nBasic Attack - Stagecraft Form Stage 3, Basic Attack - Stagecraft Form Stage 4, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3, dan Mid-air Attack - Breakdown Form Stage 4.\n- Saat Denia berada dalam tim, jika musuh kalah oleh Fusion Burst DMG, hal tersebut dihitung sebagai kontribusi dari Resonator aktif terdekat.",
           "isTitleVisible": true
         },
         {
@@ -394,7 +394,7 @@
           },
           {
             "title": "",
-            "description": "Saat merespons Tune Strain - Interfered: Untuk setiap tumpukan Tune Strain - Interfered pada target, setiap poin dari Tune Break Boost Denia meningkatkan total DMG miliknya terhadap target sebesar 0.12%. Selama Denia berada dalam tim, batas maksimal tumpukan Tune Strain - Interfered pada target meningkat sebanyak 1.",
+            "description": "Saat merespons Tune Strain - Interfered: Untuk setiap stack(s) Tune Strain - Interfered pada target, setiap poin dari Tune Break Boost Denia meningkatkan total DMG miliknya terhadap target sebesar 0.12%. Selama Denia berada dalam tim, batas maksimal stack(s) Tune Strain - Interfered pada target meningkat sebanyak 1.",
             "isTitleVisible": false
           }
         ]
@@ -671,7 +671,7 @@
       "effects": [
         {
           "title": "",
-          "description": "Saat Denia berada dalam Resonance Mode - Fusion Burst, setelah Resonator dalam tim memberikan Fusion Burst pada target, Fusion DMG Bonus mereka meningkat sebesar 50% selama 15 detik. Saat Fusion Burst dipicu pada musuh di dekat Resonator aktif dalam tim, Denia mendapatkan 1 tumpukan Degenerate Voidmatter selama 15 detik, hingga 10 tumpukan. Setiap tumpukan Degenerate Voidmatter membuat Denia mengabaikan 1% Fusion RES target.",
+          "description": "Saat Denia berada dalam Resonance Mode - Fusion Burst, setelah Resonator dalam tim memberikan Fusion Burst pada target, Fusion DMG Bonus mereka meningkat sebesar 50% selama 15 detik. Saat Fusion Burst dipicu pada musuh di dekat Resonator aktif dalam tim, Denia mendapatkan 1 stack(s) Degenerate Voidmatter selama 15 detik, hingga 10 stack(s). Setiap stack(s) Degenerate Voidmatter membuat Denia mengabaikan 1% Fusion RES target.",
           "isTitleVisible": false
         },
         {
@@ -760,12 +760,12 @@
         },
         {
           "title": "",
-          "description": "Saat Denia berada dalam Resonance Mode - Fusion Burst, setelah Erosion Field memberikan damage, picu Fusion Burst pada target berdasarkan batas maksimalnya. Fusion Burst DMG yang dipicu mendapatkan peningkatan DMG Multiplier sebesar 200% terhadap target utama dan tidak menghapus tumpukan Fusion Burst pada target yang terkena. Efek ini dapat dipicu pada target yang sama hingga 1 kali. Saat target terkena damage dari Resonance Liberation Final Act: Breakdown Form, jumlah pemicu efek ini diatur ulang. Jumlah pemicu dapat diatur ulang untuk target yang sama sekali setiap 2 detik.",
+          "description": "Saat Denia berada dalam Resonance Mode - Fusion Burst, setelah Erosion Field memberikan damage, picu Fusion Burst pada target berdasarkan batas maksimalnya. Fusion Burst DMG yang dipicu mendapatkan peningkatan DMG Multiplier sebesar 200% terhadap target utama dan tidak menghapus stack(s) Fusion Burst pada target yang terkena. Efek ini dapat dipicu pada target yang sama hingga 1 kali. Saat target terkena damage dari Resonance Liberation Final Act: Breakdown Form, jumlah pemicu efek ini diatur ulang. Jumlah pemicu dapat diatur ulang untuk target yang sama sekali setiap 2 detik.",
           "isTitleVisible": false
         },
         {
           "title": "",
-          "description": "Saat Denia berada dalam Resonance Mode - Tune Strain, saat Resonator dalam tim memberikan Tune Break DMG pada musuh berstatus Mistuned dalam kondisi Tune Strain - Shifting, mereka tambahan memberikan 1 tumpukan Tune Strain - Interfered pada target. Efek ini hanya dapat dipicu pada target yang sama setiap 3 detik.",
+          "description": "Saat Denia berada dalam Resonance Mode - Tune Strain, saat Resonator dalam tim memberikan Tune Break DMG pada musuh berstatus Mistuned dalam kondisi Tune Strain - Shifting, mereka tambahan memberikan 1 stack(s) Tune Strain - Interfered pada target. Efek ini hanya dapat dipicu pada target yang sama setiap 3 detik.",
           "isTitleVisible": false
         }
       ]

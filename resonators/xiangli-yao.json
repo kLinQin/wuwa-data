@@ -325,7 +325,7 @@
         "effects": [
           {
             "title": "",
-            "description": "Mendapatkan 5% Electro DMG Bonus setelah melancarkan Resonance Skill selama 8 detik, dapat ditumpuk hingga 4 kali.",
+            "description": "Mendapatkan 5% Electro DMG Bonus setelah melancarkan Resonance Skill selama 8 detik, dapat di stack(s) hingga 4 kali.",
             "isTitleVisible": false
           }
         ]

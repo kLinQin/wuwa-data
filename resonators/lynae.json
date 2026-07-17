@@ -90,9 +90,9 @@
         "Basic Attack DMG Bonus",
         "ATK"
       ],
-      "note": "kalian perlu memilih mode Tune Rupture (kiri) pada menu skill. Hal ini memberikan instansi tambahan dari Tune Break DMG saat kalian memicu Tune Break. Namun, jika ia berada dalam satu tim dengan Luuk, jalankan mode Tune Strain (kanan) sebagai gantinya."
+      "note": "kamu perlu memilih mode Tune Rupture (kiri) pada menu skill. Hal ini memberikan instansi tambahan dari Tune Break DMG saat kamu memicu Tune Break. Namun, jika ia berada dalam satu tim dengan Luuk, jalankan mode Tune Strain (kanan) sebagai gantinya."
     },
-    "weaponNote": "Gunakan Static Mist untuk memberikan buff kepada Main DPS kalian. Phasic Homogenizer hanya digunakan untuk damage pribadinya.",
+    "weaponNote": "Gunakan Static Mist untuk memberikan buff kepada Main DPS kamu. Phasic Homogenizer hanya digunakan untuk damage pribadinya.",
     "weaponOptions": [
       {
         "id": "spectrum-blaster",
@@ -174,7 +174,7 @@
             "Shorekeeper"
           ]
         ],
-        "note": "Lynae dan Mornye memiliki Tune Break synergy yang kuat dan mampu mencapai batas maksimal buff Crit. DMG serta DMG Amp dari Inherent Skill milik Aemeath: Between the Stars.\nDalam tim ini, kalian pakai dia di mode Rupture."
+        "note": "Lynae dan Mornye memiliki Tune Break synergy yang kuat dan mampu mencapai batas maksimal buff Crit. DMG serta DMG Amp dari Inherent Skill milik Aemeath: Between the Stars.\nDalam tim ini, kamu pakai dia di mode Rupture."
       },
       {
         "name": "Hypercary New",
@@ -189,7 +189,7 @@
             "Mornye"
           ]
         ],
-        "note": "Lynae dan Mornye memiliki Tune Break synergy yang kuat, masing-masing meningkatkan batas stack maksimal sebanyak 1. Di samping buff lainnya, ia juga memberikan Tune Break Boost yang memberikan sebagian DMG Amp (25%) dari Inherent Skill milik Luuk: Uncaused Diagnosis.\nDalam tim ini, kalian pakai dia di mode Strain."
+        "note": "Lynae dan Mornye memiliki Tune Break synergy yang kuat, masing-masing meningkatkan batas stack maksimal sebanyak 1. Di samping buff lainnya, ia juga memberikan Tune Break Boost yang memberikan sebagian DMG Amp (25%) dari Inherent Skill milik Luuk: Uncaused Diagnosis.\nDalam tim ini, kamu pakai dia di mode Strain."
       },
       {
         "name": "Hypercarry ALT",

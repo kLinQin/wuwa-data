@@ -182,7 +182,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Saat melancarkan Basic Attack DMG atau Heavy Attack DMG, meningkatkan Healing Bonus sebesar 3%/3.75%/4.5%/5.25%/6%, dapat ditumpuk hingga 3/3/3/3/3 kali. Efek ini berlangsung selama 8/8/8/8/8 detik dan dapat dipicu 1/1/1/1/1 kali setiap 0.6/0.6/0.6/0.6/0.6 detik.",
+      "description": "Saat melancarkan Basic Attack DMG atau Heavy Attack DMG, meningkatkan Healing Bonus sebesar 3%/3.75%/4.5%/5.25%/6%, dapat di stack(s) hingga 3/3/3/3/3 kali. Efek ini berlangsung selama 8/8/8/8/8 detik dan dapat dipicu 1/1/1/1/1 kali setiap 0.6/0.6/0.6/0.6/0.6 detik.",
       "refinements": []
     },
     "lore": ""
@@ -229,7 +229,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. Saat memberikan Basic Attack DMG, meningkatkan Basic Attack DMG Bonus sebesar 3.2%/4%/4.8%/5.6%/6.4%, dapat ditumpuk hingga 5/5/5/5/5 kali. Efek ini berlangsung selama 8/8/8/8/8 detik dan dapat dipicu 1/1/1/1/1 kali setiap 0.5/0.5/0.5/0.5/0.5 detik.",
+      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. Saat memberikan Basic Attack DMG, meningkatkan Basic Attack DMG Bonus sebesar 3.2%/4%/4.8%/5.6%/6.4%, dapat di stack(s) hingga 5/5/5/5/5 kali. Efek ini berlangsung selama 8/8/8/8/8 detik dan dapat dipicu 1/1/1/1/1 kali setiap 0.5/0.5/0.5/0.5/0.5 detik.",
       "refinements": []
     },
     "lore": ""
@@ -331,7 +331,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat pengguna memberikan Fusion Burst Effect atau Tune Strain - Shifting pada target, hal ini meningkatkan Resonance Liberation DMG Bonus mereka sebesar 36%/45%/54%/63%/72% selama 5/5/5/5/5 detik. Di bawah efek ini, saat Resonator dalam tim memberikan Fusion Burst Effect atau Tune Strain - Shifting, ATK mereka meningkat sebesar 24%/30%/36%/42%/48% selama 15/15/15/15/15 detik. Efek dengan nama yang sama tidak dapat ditumpuk.",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat pengguna memberikan Fusion Burst Effect atau Tune Strain - Shifting pada target, hal ini meningkatkan Resonance Liberation DMG Bonus mereka sebesar 36%/45%/54%/63%/72% selama 5/5/5/5/5 detik. Di bawah efek ini, saat Resonator dalam tim memberikan Fusion Burst Effect atau Tune Strain - Shifting, ATK mereka meningkat sebesar 24%/30%/36%/42%/48% selama 15/15/15/15/15 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
       "refinements": []
     },
     "lore": ""
@@ -566,7 +566,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Memberikan DMG kepada target dengan Spectro Frazzle memberikan pengguna 14%/17.5%/21%/24.5%/28% Basic Attack DMG Bonus dan 14%/17.5%/21%/24.5%/28% Heavy Attack DMG Bonus, dapat ditumpuk hingga 3/3/3/3/3 kali selama 6/6/6/6/6 detik. Melancarkan Outro Skill memperkuat (Amplifies) Spectro Frazzle DMG pada target di sekitar Resonator yang aktif sebesar 30%/37.5%/45%/52.5%/60% selama 30/30/30/30/30 detik. Efek dengan nama yang sama tidak dapat ditumpuk.",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Memberikan DMG kepada target dengan Spectro Frazzle memberikan pengguna 14%/17.5%/21%/24.5%/28% Basic Attack DMG Bonus dan 14%/17.5%/21%/24.5%/28% Heavy Attack DMG Bonus, dapat di stack(s) hingga 3/3/3/3/3 kali selama 6/6/6/6/6 detik. Melancarkan Outro Skill memperkuat (Amplifies) Spectro Frazzle DMG pada target di sekitar Resonator yang aktif sebesar 30%/37.5%/45%/52.5%/60% selama 30/30/30/30/30 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
       "refinements": []
     },
     "lore": ""
@@ -613,7 +613,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Memberikan DMG kepada musuh dengan Spectro Frazzle meningkatkan Spectro DMG pengguna sebesar 6%/7%/8%/9%/10%, mendapatkan 1 stack per detik selama 6 detik, dapat ditumpuk hingga 4 kali.",
+      "description": "Memberikan DMG kepada musuh dengan Spectro Frazzle meningkatkan Spectro DMG pengguna sebesar 6%/7%/8%/9%/10%, mendapatkan 1 stack per detik selama 6 detik, dapat di stack(s) hingga 4 kali.",
       "refinements": []
     },
     "lore": ""
@@ -754,7 +754,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat pengguna berada di medan tempur, menggunakan Resonance Skill memberikan 12%/15%/18%/21%/24% Basic Attack DMG Bonus, dapat ditumpuk hingga 3/3/3/3/3 kali selama 6/6/6/6/6 detik. Pada 3/3/3/3/3 tumpukan atau lebih, melancarkan Outro Skill mengonsumsi seluruh tumpukan efek ini dan memberikan pengguna 52%/65%/78%/91%/104% Basic Attack DMG Bonus selama 27/27/27/27/27 detik, tetap efektif saat pengguna berada di luar medan tempur.",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat pengguna berada di medan tempur, menggunakan Resonance Skill memberikan 12%/15%/18%/21%/24% Basic Attack DMG Bonus, dapat di stack(s) hingga 3/3/3/3/3 kali selama 6/6/6/6/6 detik. Pada 3/3/3/3/3 stack(s) atau lebih, melancarkan Outro Skill mengonsumsi seluruh stack(s) efek ini dan memberikan pengguna 52%/65%/78%/91%/104% Basic Attack DMG Bonus selama 27/27/27/27/27 detik, tetap efektif saat pengguna berada di luar medan tempur.",
       "refinements": []
     },
     "lore": ""
@@ -801,7 +801,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Meningkatkan HP sebesar 12%/15%/18%/21%/24%. Memulihkan 8/10/12/14/16 Concerto Energy saat melancarkan Resonance Liberation. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 20/20/20/20/20 detik. Saat melancarkan Resonance Skill yang memberikan pemulihan, meningkatkan ATK anggota party terdekat sebesar 14%/17.5%/21%/24.5%/28% selama 30/30/30/30/30 detik. Efek dengan nama yang sama tidak dapat ditumpuk.",
+      "description": "Meningkatkan HP sebesar 12%/15%/18%/21%/24%. Memulihkan 8/10/12/14/16 Concerto Energy saat melancarkan Resonance Liberation. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 20/20/20/20/20 detik. Saat melancarkan Resonance Skill yang memberikan pemulihan, meningkatkan ATK anggota party terdekat sebesar 14%/17.5%/21%/24.5%/28% selama 30/30/30/30/30 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
       "refinements": []
     },
     "lore": ""
@@ -848,7 +848,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Memberikan 12%/15%/18%/21%/24% Attribute DMG Bonus. Saat memberikan Resonance Skill DMG, meningkatkan ATK sebesar 12%/15%/18%/21%/24%, dapat ditumpuk hingga 2/2/2/2/2 kali. Efek ini berlangsung selama 5/5/5/5/5 detik. Saat pengguna tidak berada di medan tempur, meningkatkan ATK mereka sebesar 12%/15%/18%/21%/24% tambahan.",
+      "description": "Memberikan 12%/15%/18%/21%/24% Attribute DMG Bonus. Saat memberikan Resonance Skill DMG, meningkatkan ATK sebesar 12%/15%/18%/21%/24%, dapat di stack(s) hingga 2/2/2/2/2 kali. Efek ini berlangsung selama 5/5/5/5/5 detik. Saat pengguna tidak berada di medan tempur, meningkatkan ATK mereka sebesar 12%/15%/18%/21%/24% tambahan.",
       "refinements": []
     },
     "lore": ""
@@ -942,7 +942,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat ditumpuk hingga 4/4/4/4/4 kali.",
+      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat di stack(s) hingga 4/4/4/4/4 kali.",
       "refinements": []
     },
     "lore": ""
@@ -989,7 +989,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Echo Skill dalam 10/10/10/10/10 detik setelah melancarkan Intro Skill atau Basic Attack memberikan 1/1/1/1/1 tumpukan Gentle Dream. Echo dengan nama yang sama hanya dapat memicu efek ini satu kali, dapat ditumpuk hingga 2/2/2/2/2 kali, berlangsung selama 10/10/10/10/10 detik. Saat mencapai 2 tumpukan, melancarkan Echo Skill tidak lagi mengatur ulang durasi efek ini. Efek ini aktif hingga satu kali per 10 detik. Beralih ke Resonator lain akan mengakhiri efek ini lebih awal.Dengan 1/1/1/1/1 tumpukan: Memberikan 40%/50%/60%/70%/80% Basic Attack DMG Bonus.Dengan 2/2/2/2/2 tumpukan: Mengabaikan 12%/15%/18%/21%/24% dari Havoc RES target.",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Echo Skill dalam 10/10/10/10/10 detik setelah melancarkan Intro Skill atau Basic Attack memberikan 1/1/1/1/1 stack(s) Gentle Dream. Echo dengan nama yang sama hanya dapat memicu efek ini satu kali, dapat di stack(s) hingga 2/2/2/2/2 kali, berlangsung selama 10/10/10/10/10 detik. Saat mencapai 2 stack(s), melancarkan Echo Skill tidak lagi mengatur ulang durasi efek ini. Efek ini aktif hingga satu kali per 10 detik. Beralih ke Resonator lain akan mengakhiri efek ini lebih awal.Dengan 1/1/1/1/1 stack(s): Memberikan 40%/50%/60%/70%/80% Basic Attack DMG Bonus.Dengan 2/2/2/2/2 stack(s): Mengabaikan 12%/15%/18%/21%/24% dari Havoc RES target.",
       "refinements": []
     },
     "lore": ""

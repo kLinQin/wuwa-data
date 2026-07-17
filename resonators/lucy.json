@@ -306,7 +306,7 @@
         },
         {
           "title": "Algorithm Compaction",
-          "description": "Setelah melancarkan Resonance Skill - Deadlock, Lucy memasuki Algorithm Compaction dan mendapatkan 1 tumpukan SQL. Basic Attack-nya digantikan dengan Basic Attack - Thread Shredding, dan Heavy Attack digantikan dengan Heavy Attack - Single Threading. Bonus Spectro DMG Lucy meningkat sebesar 65% selama 8 detik.\nSaat berada dalam Algorithm Compaction, melancarkan Resonance Skill - Deadlock lagi tidak akan memberikan SQL dan Bonus Spectro DMG secara berulang.\nSaat berada dalam Algorithm Compaction, Lucy mendapatkan Root Access saat mengenai target dengan serangan termasuk Basic Attack - Thread Shredding dan Heavy Attack - Single Threading. Mencapai 100 poin Root Access menggantikan Heavy Attack - Single Threading dengan Heavy Attack - Dual Threading. Tekan atau tahan Normal Attack sesaat setelah melancarkan Heavy Attack - Dual Threading untuk melancarkan Heavy Attack - Multi-threading.\nSaat melancarkan Heavy Attack - Multi-threading, jika Lucy memiliki SQL, tingkatkan Damage Multiplier serangan ini sebesar 270% dan hapus SQL.\nSaat melancarkan Heavy Attack - Multi-threading, jika Lucy tidak memiliki SQL, ia kehilangan 20% HP saat ini. Jika HP Lucy di bawah 1%, tidak ada HP yang dikonsumsi.\nSetelah melancarkan Heavy Attack - Multi-threading, Resonance Liberation - Netrunner digantikan dengan Resonance Liberation - Old Net Deep Dive.\nLucy keluar dari keadaan Algorithm Compaction setelah melancarkan Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive, atau jika Heavy Attack - Multi-threading tidak diikuti oleh salah satu skill berikut: Normal Attack - Locked Thread, Resonance Skill - Protocol Breach, Intro Skill - Outdated Hallucination, dan Tune Break - Data Crash.",
+          "description": "Setelah melancarkan Resonance Skill - Deadlock, Lucy memasuki Algorithm Compaction dan mendapatkan 1 stack(s) SQL. Basic Attack-nya digantikan dengan Basic Attack - Thread Shredding, dan Heavy Attack digantikan dengan Heavy Attack - Single Threading. Bonus Spectro DMG Lucy meningkat sebesar 65% selama 8 detik.\nSaat berada dalam Algorithm Compaction, melancarkan Resonance Skill - Deadlock lagi tidak akan memberikan SQL dan Bonus Spectro DMG secara berulang.\nSaat berada dalam Algorithm Compaction, Lucy mendapatkan Root Access saat mengenai target dengan serangan termasuk Basic Attack - Thread Shredding dan Heavy Attack - Single Threading. Mencapai 100 poin Root Access menggantikan Heavy Attack - Single Threading dengan Heavy Attack - Dual Threading. Tekan atau tahan Normal Attack sesaat setelah melancarkan Heavy Attack - Dual Threading untuk melancarkan Heavy Attack - Multi-threading.\nSaat melancarkan Heavy Attack - Multi-threading, jika Lucy memiliki SQL, tingkatkan Damage Multiplier serangan ini sebesar 270% dan hapus SQL.\nSaat melancarkan Heavy Attack - Multi-threading, jika Lucy tidak memiliki SQL, ia kehilangan 20% HP saat ini. Jika HP Lucy di bawah 1%, tidak ada HP yang dikonsumsi.\nSetelah melancarkan Heavy Attack - Multi-threading, Resonance Liberation - Netrunner digantikan dengan Resonance Liberation - Old Net Deep Dive.\nLucy keluar dari keadaan Algorithm Compaction setelah melancarkan Resonance Liberation - Netrunner atau Resonance Liberation - Old Net Deep Dive, atau jika Heavy Attack - Multi-threading tidak diikuti oleh salah satu skill berikut: Normal Attack - Locked Thread, Resonance Skill - Protocol Breach, Intro Skill - Outdated Hallucination, dan Tune Break - Data Crash.",
           "isTitleVisible": true
         },
         {
@@ -332,12 +332,12 @@
         "effects": [
           {
             "title": "",
-            "description": "Saat Lucy menjadi Resonator aktif di tim, jika ia tidak menerima damage selama 8 detik, ia mendapatkan 1 tumpukan Optical Illusion. Maksimal 1 tumpukan secara default.",
+            "description": "Saat Lucy menjadi Resonator aktif di tim, jika ia tidak menerima damage selama 8 detik, ia mendapatkan 1 stack(s) Optical Illusion. Maksimal 1 stack(s) secara default.",
             "isTitleVisible": false
           },
           {
             "title": "",
-            "description": "Optical Illusion: Saat diserang, kurangi damage instance ini sebesar 100%. Jika Lucy terkena atau terpental dari serangan, ia segera pulih dan memicu Dodge berhasil jika berada di tanah. Setelah efek ini terpicu, hapus 1 tumpukan Optical Illusion. Efek ini dapat terpicu hingga 1 kali setiap 0,5 detik.",
+            "description": "Optical Illusion: Saat diserang, kurangi damage instance ini sebesar 100%. Jika Lucy terkena atau terpental dari serangan, ia segera pulih dan memicu Dodge berhasil jika berada di tanah. Setelah efek ini terpicu, hapus 1 stack(s) Optical Illusion. Efek ini dapat terpicu hingga 1 kali setiap 0,5 detik.",
             "isTitleVisible": false
           }
         ]
@@ -352,7 +352,7 @@
           },
           {
             "title": "Network Backdoor",
-            "description": "Memberikan 10% All DMG Amplification dan 10% tambahan Hack DMG Multiplier. Efek ini berlangsung selama 2 menit dan dapat menumpuk hingga 2 kali. Pada 2 tumpukan, tambahkan peningkatan All DMG Amplification sebesar 5% dan Hack DMG Multiplier sebesar 5%. Saat Lucy downed, ia tidak dapat lagi mendapatkan Network Backdoor, dan semua efek Network Backdoor yang ada menjadi tidak valid.",
+            "description": "Memberikan 10% All DMG Amplification dan 10% tambahan Hack DMG Multiplier. Efek ini berlangsung selama 2 menit dan dapat menumpuk hingga 2 kali. Pada 2 stack(s), tambahkan peningkatan All DMG Amplification sebesar 5% dan Hack DMG Multiplier sebesar 5%. Saat Lucy downed, ia tidak dapat lagi mendapatkan Network Backdoor, dan semua efek Network Backdoor yang ada menjadi tidak valid.",
             "isTitleVisible": true
           }
         ]
@@ -736,12 +736,12 @@
       "effects": [
         {
           "title": "",
-          "description": "Batas tumpukan Optical Illusion yang diperoleh melalui Inherent Skill - Ghost Cyberware meningkat menjadi 2.",
+          "description": "Batas stack(s) Optical Illusion yang diperoleh melalui Inherent Skill - Ghost Cyberware meningkat menjadi 2.",
           "isTitleVisible": false
         },
         {
           "title": "",
-          "description": "Inherent Skill - Ghost Cyberware kini ditingkatkan: Saat HP Lucy turun di bawah 50%, ia segera mendapatkan 1 tumpukan Optical Illusion saat terkena serangan. Efek ini memiliki Cooldown 180 detik. Saat Optical Illusion terpicu, Lucy mendapatkan Shield sebesar 150% dari ATK selama 10 detik.",
+          "description": "Inherent Skill - Ghost Cyberware kini ditingkatkan: Saat HP Lucy turun di bawah 50%, ia segera mendapatkan 1 stack(s) Optical Illusion saat terkena serangan. Efek ini memiliki Cooldown 180 detik. Saat Optical Illusion terpicu, Lucy mendapatkan Shield sebesar 150% dari ATK selama 10 detik.",
           "isTitleVisible": false
         }
       ]

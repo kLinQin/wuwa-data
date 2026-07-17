@@ -286,7 +286,7 @@
         "effects": [
           {
             "title": "",
-            "description": "Setiap Thermobaric Bullets yang mengenai target saat berada dalam DAKA DAKA! meningkatkan ATK sebesar 1% selama 10 detik, dapat ditumpuk hingga 30 kali.",
+            "description": "Setiap Thermobaric Bullets yang mengenai target saat berada dalam DAKA DAKA! meningkatkan ATK sebesar 1% selama 10 detik, dapat di stack(s) hingga 30 kali.",
             "isTitleVisible": false
           }
         ]

@@ -150,7 +150,7 @@
             "Chisa"
           ]
         ],
-        "note": "- Memiliki Chisa di dalam tim akan memaksimalkan Inherent Skill milik Hiyuki: Fine Snow.\n- Dengan adanya Lucilla di dalam tim, Hiyuki kini dapat memberikan tumpukan terakhir dari Snow Rust, yang meningkatkan Glacio Bite DMG sebesar 30%.\n- Karena Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya beserta buff kuat lainnya, ia tetap menjadi alternatif yang kuat untuk Lucilla."
+        "note": "- Memiliki Chisa di dalam tim akan memaksimalkan Inherent Skill milik Hiyuki: Fine Snow.\n- Dengan adanya Lucilla di dalam tim, Hiyuki kini dapat memberikan stack(s) terakhir dari Snow Rust, yang meningkatkan Glacio Bite DMG sebesar 30%.\n- Karena Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya beserta buff kuat lainnya, ia tetap menjadi alternatif yang kuat untuk Lucilla."
       },
       {
         "name": "HC Alternatif",
@@ -165,7 +165,7 @@
             "Chisa"
           ]
         ],
-        "note": "- Karena Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya beserta buff kuat lainnya, ia tetap menjadi alternatif yang kuat untuk Lucilla.\nNamun, Hiyuki tidak akan dapat memberikan tumpukan terakhir dari Snow Rust sehingga tidak mampu meningkatkan Glacio Bite DMG sebesar 30%."
+        "note": "- Karena Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya beserta buff kuat lainnya, ia tetap menjadi alternatif yang kuat untuk Lucilla.\nNamun, Hiyuki tidak akan dapat memberikan stack(s) terakhir dari Snow Rust sehingga tidak mampu meningkatkan Glacio Bite DMG sebesar 30%."
       },
       {
         "name": "HC Alternatif",
@@ -193,12 +193,12 @@
       "effects": [
         {
           "title": "Basic Attack - Present Self",
-          "description": "Menekan Normal Attack secara berturut-turut atau menahan tombol untuk melancarkan hingga 3 serangan berturut-turut, memberikan Glacio DMG.\nBasic Attack - Present Self Stage 3 memberikan 1 tumpukan Glacio Chafe saat mengenai target.",
+          "description": "Menekan Normal Attack secara berturut-turut atau menahan tombol untuk melancarkan hingga 3 serangan berturut-turut, memberikan Glacio DMG.\nBasic Attack - Present Self Stage 3 memberikan 1 stack(s) Glacio Chafe saat mengenai target.",
           "isTitleVisible": true
         },
         {
           "title": "Heavy Attack - Frost Splinter: Present Self",
-          "description": "Saat Dedication mencapai 300 poin, Heavy Attack - Frost Splinter: Present Self menjadi tersedia.\nMenahan Normal Attack untuk menembakkan 3 anak panah satu per satu dengan mengonsumsi STA, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Hiyuki menjadi kebal terhadap interupsi selama durasi tersebut.\nSaat anak panah terakhir ditembakkan, 300 poin Dedication akan dikonsumsi dan Foreclaiming: Inward Vision menjadi tersedia. Anak panah tersebut memberikan 1 tumpukan Glacio Chafe saat mengenai target.",
+          "description": "Saat Dedication mencapai 300 poin, Heavy Attack - Frost Splinter: Present Self menjadi tersedia.\nMenahan Normal Attack untuk menembakkan 3 anak panah satu per satu dengan mengonsumsi STA, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Hiyuki menjadi kebal terhadap interupsi selama durasi tersebut.\nSaat anak panah terakhir ditembakkan, 300 poin Dedication akan dikonsumsi dan Foreclaiming: Inward Vision menjadi tersedia. Anak panah tersebut memberikan 1 stack(s) Glacio Chafe saat mengenai target.",
           "isTitleVisible": true
         },
         {
@@ -213,7 +213,7 @@
         },
         {
           "title": "Basic Attack - Foreclaimed Self",
-          "description": "Saat berada dalam Foreclaimed Self, Basic Attack - Present Self digantikan oleh Basic Attack - Foreclaimed Self.\nMelancarkan hingga 5 serangan berturut-turut, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nBasic Attack - Foreclaimed Self Stage 3, 4, dan 5 masing-masing memberikan 1 tumpukan Glacio Chafe saat mengenai target.",
+          "description": "Saat berada dalam Foreclaimed Self, Basic Attack - Present Self digantikan oleh Basic Attack - Foreclaimed Self.\nMelancarkan hingga 5 serangan berturut-turut, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nBasic Attack - Foreclaimed Self Stage 3, 4, dan 5 masing-masing memberikan 1 stack(s) Glacio Chafe saat mengenai target.",
           "isTitleVisible": true
         },
         {
@@ -223,12 +223,12 @@
         },
         {
           "title": "Heavy Attack - Bitterfrost: Foreclaimed Self",
-          "description": "Saat Whiteout Bitterfrost penuh, Heavy Attack - Foreclaimed Self digantikan dengan Heavy Attack - Bitterfrost: Foreclaimed Self.\nMenahan Normal Attack dan mengonsumsi STA serta 3 tumpukan Whiteout Bitterfrost untuk mendapatkan 1 poin Snowforged Blade, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nHeavy Attack - Bitterfrost: Foreclaimed Self memberikan 1 tumpukan Glacio Chafe saat mengenai target.\nJika Hiyuki berada di udara saat melancarkan skill ini, ia akan mendarat di tanah terlebih dahulu.",
+          "description": "Saat Whiteout Bitterfrost penuh, Heavy Attack - Foreclaimed Self digantikan dengan Heavy Attack - Bitterfrost: Foreclaimed Self.\nMenahan Normal Attack dan mengonsumsi STA serta 3 stack(s) Whiteout Bitterfrost untuk mendapatkan 1 poin Snowforged Blade, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nHeavy Attack - Bitterfrost: Foreclaimed Self memberikan 1 stack(s) Glacio Chafe saat mengenai target.\nJika Hiyuki berada di udara saat melancarkan skill ini, ia akan mendarat di tanah terlebih dahulu.",
           "isTitleVisible": true
         },
         {
           "title": "Mid-air Attack - Foreclaimed Self",
-          "description": "Saat berada dalam Foreclaimed Self, Mid-air Attack - Present Self digantikan oleh Mid-air Attack - Foreclaimed Self.\nMengonsumsi STA untuk melancarkan hingga 3 serangan berturut-turut di udara, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Stage 3 merupakan Plunging Attack.\nMid-air Attack - Foreclaimed Self Stage 2 & 3 memberikan 1 tumpukan Glacio Chafe saat mengenai target.\nKombo Mid-air Attack - Foreclaimed Self tidak akan diatur ulang dengan melancarkan skill selain Basic Attack - Iai dalam periode singkat.\nMenahan Normal Attack saat berada di udara untuk melancarkan Plunging Attack dengan mengonsumsi STA.",
+          "description": "Saat berada dalam Foreclaimed Self, Mid-air Attack - Present Self digantikan oleh Mid-air Attack - Foreclaimed Self.\nMengonsumsi STA untuk melancarkan hingga 3 serangan berturut-turut di udara, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Stage 3 merupakan Plunging Attack.\nMid-air Attack - Foreclaimed Self Stage 2 & 3 memberikan 1 stack(s) Glacio Chafe saat mengenai target.\nKombo Mid-air Attack - Foreclaimed Self tidak akan diatur ulang dengan melancarkan skill selain Basic Attack - Iai dalam periode singkat.\nMenahan Normal Attack saat berada di udara untuk melancarkan Plunging Attack dengan mengonsumsi STA.",
           "isTitleVisible": true
         },
         {
@@ -285,7 +285,7 @@
       "effects": [
         {
           "title": "Foreclaiming: Inward Vision",
-          "description": "Heavy Attack - Foreclaiming: Inward Vision menjadi tersedia setelah melancarkan Frost Splinter: Present Self.\nSaat berada dalam Present Self, tekan Resonance Liberation untuk melancarkan skill ini, memberikan Glacio DMG. Setelah melancarkan skill ini, dapatkan 3 poin Frostharden Iai, hapus 300 poin Dedication dan Frostheart. Kemudian, masuk ke status Foreclaimed Self dan pulihkan 50 poin Frostheart.\nForeclaiming: Inward Vision memberikan 4 tumpukan Glacio Chafe saat mengenai target.\nMelancarkan Foreclaiming: Inward Vision tidak mengonsumsi Resonance Energy, dan memulihkan 50 poin Frostheart.",
+          "description": "Heavy Attack - Foreclaiming: Inward Vision menjadi tersedia setelah melancarkan Frost Splinter: Present Self.\nSaat berada dalam Present Self, tekan Resonance Liberation untuk melancarkan skill ini, memberikan Glacio DMG. Setelah melancarkan skill ini, dapatkan 3 poin Frostharden Iai, hapus 300 poin Dedication dan Frostheart. Kemudian, masuk ke status Foreclaimed Self dan pulihkan 50 poin Frostheart.\nForeclaiming: Inward Vision memberikan 4 stack(s) Glacio Chafe saat mengenai target.\nMelancarkan Foreclaiming: Inward Vision tidak mengonsumsi Resonance Energy, dan memulihkan 50 poin Frostheart.",
           "isTitleVisible": true
         },
         {
@@ -306,27 +306,27 @@
         "effects": [
           {
             "title": "",
-            "description": "Saat Resonator dalam tim memberikan Glacio Chafe atau Havoc Bane, Hiyuki mendapatkan 1 tumpukan Snow Rust. Snow Rust dapat ditumpuk hingga 3 kali. Setiap Resonator hanya dapat memicu efek ini satu kali melalui cara tersebut.",
+            "description": "Saat Resonator dalam tim memberikan Glacio Chafe atau Havoc Bane, Hiyuki mendapatkan 1 stack(s) Snow Rust. Snow Rust dapat di stack(s) hingga 3 kali. Setiap Resonator hanya dapat memicu efek ini satu kali melalui cara tersebut.",
             "isTitleVisible": false
           },
           {
             "title": "",
-            "description": "Berdasarkan jumlah tumpukan Snow Rust Hiyuki saat ini, bonus berikut akan terbuka:",
+            "description": "Berdasarkan jumlah stack(s) Snow Rust Hiyuki saat ini, bonus berikut akan terbuka:",
             "isTitleVisible": false
           },
           {
             "title": "",
-            "description": "1 tumpukan Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, Glacio Bite DMG mendapatkan Amplify sebesar 30% terhadap target dalam jarak tertentu. Crit. DMG Hiyuki meningkat sebesar 40%.",
+            "description": "1 stack(s) Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, Glacio Bite DMG mendapatkan Amplify sebesar 30% terhadap target dalam jarak tertentu. Crit. DMG Hiyuki meningkat sebesar 40%.",
             "isTitleVisible": false
           },
           {
             "title": "",
-            "description": "2 tumpukan Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali ia memberikan Glacio Chafe, ia tambahan memberikan 102% Glacio Bite DMG sebanyak satu kali.",
+            "description": "2 stack(s) Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali ia memberikan Glacio Chafe, ia tambahan memberikan 102% Glacio Bite DMG sebanyak satu kali.",
             "isTitleVisible": false
           },
           {
             "title": "",
-            "description": "3 tumpukan Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, Glacio Bite DMG tambahan mendapatkan Amplify sebesar 30% terhadap target dalam jarak tertentu.",
+            "description": "3 stack(s) Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, Glacio Bite DMG tambahan mendapatkan Amplify sebesar 30% terhadap target dalam jarak tertentu.",
             "isTitleVisible": false
           },
           {
@@ -373,7 +373,7 @@
       "effects": [
         {
           "title": "",
-          "description": "Memberikan Glacio DMG, dianggap sebagai Resonance Liberation DMG, dan memberikan 1 tumpukan Glacio Chafe saat mengenai target.",
+          "description": "Memberikan Glacio DMG, dianggap sebagai Resonance Liberation DMG, dan memberikan 1 stack(s) Glacio Chafe saat mengenai target.",
           "isTitleVisible": false
         },
         {
@@ -602,7 +602,7 @@
         },
         {
           "title": "",
-          "description": "Melancarkan Foreclaiming: Inward Vision memperkuat Basic Attack - Foreclaimed Self Stage 1 & 2 berikutnya, yang kini memberikan 1 tumpukan Glacio Chafe saat mengenai target.",
+          "description": "Melancarkan Foreclaiming: Inward Vision memperkuat Basic Attack - Foreclaimed Self Stage 1 & 2 berikutnya, yang kini memberikan 1 stack(s) Glacio Chafe saat mengenai target.",
           "isTitleVisible": false
         }
       ]
@@ -659,7 +659,7 @@
         },
         {
           "title": "",
-          "description": "Setiap 2 detik setelah seorang Resonator bergabung ke dalam tim atau Hiyuki dibangkitkan, Hiyuki mendapatkan 1 tumpukan Snow Rust. Hiyuki dapat memperoleh hingga 1 tumpukan Snow Rust melalui cara ini.",
+          "description": "Setiap 2 detik setelah seorang Resonator bergabung ke dalam tim atau Hiyuki dibangkitkan, Hiyuki mendapatkan 1 stack(s) Snow Rust. Hiyuki dapat memperoleh hingga 1 stack(s) Snow Rust melalui cara ini.",
           "isTitleVisible": false
         },
         {
@@ -669,7 +669,7 @@
         },
         {
           "title": "",
-          "description": "Pada 2 tumpukan Snow Rust, saat Hiyuki menjadi Resonator aktif dalam tim, DMG Multiplier dari Glacio Bite DMG tambahan yang diberikan setiap kali ia memberikan Glacio Chafe meningkat sebesar 488%.",
+          "description": "Pada 2 stack(s) Snow Rust, saat Hiyuki menjadi Resonator aktif dalam tim, DMG Multiplier dari Glacio Bite DMG tambahan yang diberikan setiap kali ia memberikan Glacio Chafe meningkat sebesar 488%.",
           "isTitleVisible": false
         }
       ]
@@ -712,17 +712,17 @@
         },
         {
           "title": "",
-          "description": "Pada 2 tumpukan Snow Rust, efek \"Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali ia memberikan Glacio Chafe, ia tambahan memberikan satu instansi Glacio Bite DMG dengan DMG Multiplier tetap\" berubah menjadi \"Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali seorang Resonator dalam tim memberikan Glacio Chafe, ia tambahan memberikan satu instansi Glacio Bite DMG dengan DMG Multiplier tetap.\"",
+          "description": "Pada 2 stack(s) Snow Rust, efek \"Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali ia memberikan Glacio Chafe, ia tambahan memberikan satu instansi Glacio Bite DMG dengan DMG Multiplier tetap\" berubah menjadi \"Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali seorang Resonator dalam tim memberikan Glacio Chafe, ia tambahan memberikan satu instansi Glacio Bite DMG dengan DMG Multiplier tetap.\"",
           "isTitleVisible": false
         },
         {
           "title": "",
-          "description": "Pada 2 tumpukan Snow Rust, Crit. DMG Hiyuki meningkat sebesar 40%.",
+          "description": "Pada 2 stack(s) Snow Rust, Crit. DMG Hiyuki meningkat sebesar 40%.",
           "isTitleVisible": false
         },
         {
           "title": "",
-          "description": "Pada 3 tumpukan Snow Rust, total Glacio Bite DMG yang diterima oleh target dalam jangkauan tertentu dari Resonator aktif dalam tim meningkat sebesar 25%.",
+          "description": "Pada 3 stack(s) Snow Rust, total Glacio Bite DMG yang diterima oleh target dalam jangkauan tertentu dari Resonator aktif dalam tim meningkat sebesar 25%.",
           "isTitleVisible": false
         }
       ]

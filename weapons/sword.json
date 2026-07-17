@@ -300,7 +300,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. Saat Resonance Skill dilancarkan, meningkatkan ATK sebesar 6%/7.5%/9%/10.5%/12%, dapat ditumpuk hingga 2/2/2/2/2 kali. Efek ini berlangsung selama 10/10/10/10/10 detik.",
+      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. Saat Resonance Skill dilancarkan, meningkatkan ATK sebesar 6%/7.5%/9%/10.5%/12%, dapat di stack(s) hingga 2/2/2/2/2 kali. Efek ini berlangsung selama 10/10/10/10/10 detik.",
       "refinements": []
     },
     "lore": ""
@@ -351,7 +351,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "ATK meningkat sebesar 12%/15%/18%/21%/24%. Melancarkan Echo Skill dalam 10/10/10/10/10 detik setelah melancarkan Intro Skill atau Basic Attack memberikan 1 stack Bamboo Cleaver, yang memberikan 30/37.5/45/52.5/60% Heavy Attack DMG Bonus kepada pengguna. Efek ini hanya dapat dipicu oleh Echo dengan nama yang sama sebanyak satu kali, dapat ditumpuk hingga 2 kali, berlangsung selama 12/12/12/12/12 detik. Melancarkan Echo Skill pada stack maksimal tidak akan menyetel ulang durasi. Efek ini dapat dipicu sekali setiap 10/10/10/10/10 detik dan berakhir lebih awal jika pengguna meninggalkan medan tempur.Melancarkan Intro Skill memberikan 20% /25%/30 % /35%/40 % Echo Skill DMG Bonus kepada seluruh Resonator di dalam tim selama 30/30/30 / 30 / 30 detik.Efek dengan nama yang sama tidak dapat ditumpuk.",
+      "description": "ATK meningkat sebesar 12%/15%/18%/21%/24%. Melancarkan Echo Skill dalam 10/10/10/10/10 detik setelah melancarkan Intro Skill atau Basic Attack memberikan 1 stack Bamboo Cleaver, yang memberikan 30/37.5/45/52.5/60% Heavy Attack DMG Bonus kepada pengguna. Efek ini hanya dapat dipicu oleh Echo dengan nama yang sama sebanyak satu kali, dapat di stack(s) hingga 2 kali, berlangsung selama 12/12/12/12/12 detik. Melancarkan Echo Skill pada stack maksimal tidak akan menyetel ulang durasi. Efek ini dapat dipicu sekali setiap 10/10/10/10/10 detik dan berakhir lebih awal jika pengguna meninggalkan medan tempur.Melancarkan Intro Skill memberikan 20% /25%/30 % /35%/40 % Echo Skill DMG Bonus kepada seluruh Resonator di dalam tim selama 30/30/30 / 30 / 30 detik.Efek dengan nama yang sama tidak dapat di stack(s).",
       "refinements": []
     },
     "lore": ""
@@ -504,7 +504,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat ditumpuk hingga 4/4/4/4/4 kali.",
+      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat di stack(s) hingga 4/4/4/4/4 kali.",
       "refinements": []
     },
     "lore": ""
@@ -708,7 +708,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Saat Resonance Skill dilancarkan, meningkatkan Basic Attack DMG Bonus dan Heavy Attack DMG Bonus sebesar 20%/31%/42%/53%/64%, dapat ditumpuk hingga 1/1/1/1/1 kali. Efek ini berlangsung selama 10/10/10/10/10 detik dan dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
+      "description": "Saat Resonance Skill dilancarkan, meningkatkan Basic Attack DMG Bonus dan Heavy Attack DMG Bonus sebesar 20%/31%/42%/53%/64%, dapat di stack(s) hingga 1/1/1/1/1 kali. Efek ini berlangsung selama 10/10/10/10/10 detik dan dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
       "refinements": []
     },
     "lore": ""
@@ -857,7 +857,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat memberikan Basic Attack DMG, pengguna mendapatkan 10%/12.5%/15%/17.5%/20% Basic Attack DMG Bonus selama 14/14/14/14/14 detik. Efek ini dapat dipicu sekali per detik, dapat ditumpuk hingga 3/3/3/3/3 kali.Saat Concerto Energy pengguna dikonsumsi, mendapatkan 40% /50%/60 % /70%/80 % Basic Attack DMG Bonus selama 10/10/10 / 10 / 10 detik.Efek ini dapat dipicu sekali per detik dan berakhir saat pengguna meninggalkan medan tempur.",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat memberikan Basic Attack DMG, pengguna mendapatkan 10%/12.5%/15%/17.5%/20% Basic Attack DMG Bonus selama 14/14/14/14/14 detik. Efek ini dapat dipicu sekali per detik, dapat di stack(s) hingga 3/3/3/3/3 kali.Saat Concerto Energy pengguna dikonsumsi, mendapatkan 40% /50%/60 % /70%/80 % Basic Attack DMG Bonus selama 10/10/10 / 10 / 10 detik.Efek ini dapat dipicu sekali per detik dan berakhir saat pengguna meninggalkan medan tempur.",
       "refinements": []
     },
     "lore": ""
@@ -908,7 +908,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Mendapatkan 1/1/1/1/1 stack Hiss saat memberikan damage kepada target, dengan 1/1/1/1/1 stack yang dihasilkan setiap 1/1/1/1/1 detik.Hiss: setiap stack meningkatkan ATK pengguna sebesar 2% /2.5%/3 % /3.5%/4 % selama 3/3/3 / 3 / 3 detik, dapat ditumpuk hingga 10/10/10 / 10 / 10 kali.Mengganti pengguna akan menghapus seluruh stack.Mendapatkan 10/10/10 / 10 / 10 stack meningkatkan Crit.Rate pengguna sebesar 6% /7.5%/9 % /10.5%/12 %.",
+      "description": "Mendapatkan 1/1/1/1/1 stack Hiss saat memberikan damage kepada target, dengan 1/1/1/1/1 stack yang dihasilkan setiap 1/1/1/1/1 detik.Hiss: setiap stack meningkatkan ATK pengguna sebesar 2% /2.5%/3 % /3.5%/4 % selama 3/3/3 / 3 / 3 detik, dapat di stack(s) hingga 10/10/10 / 10 / 10 kali.Mengganti pengguna akan menghapus seluruh stack.Mendapatkan 10/10/10 / 10 / 10 stack meningkatkan Crit.Rate pengguna sebesar 6% /7.5%/9 % /10.5%/12 %.",
       "refinements": []
     },
     "lore": ""

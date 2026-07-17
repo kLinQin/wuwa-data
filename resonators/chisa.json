@@ -180,7 +180,7 @@
       ]
     },
     "teams": [],
-    "teamNote": "1. Chisa memberikan buff berikut untuk rekan satu timnya: \n- Meningkatkan batas maksimal tumpukan Negative Status sebesar 3 selama 15 detik \n- 30% Def Ignore (12% dari Havoc Bane, 18% dari Forte)\n- Dengan Kumokiri (Signature Chisa): 24% All-Attribute DMG Bonus selama 15 detik ketika Resonator di dalam tim memberikan Negative Status.\n\n2. Chisa merupakan support yang banyak dicari oleh berbagai Negative Status DPS (Aemeath, Hiyuki, Yangyang: Xuanling, Cartethyia, dan Phoebe), berkat kemampuannya untuk memberikan Havoc Bane dan meningkatkan batas maksimal dari seluruh Negative Status yang dapat diberikan kepada musuh.\nIa juga memberikan 30% Def Ignore.\n"
+    "teamNote": "1. Chisa memberikan buff berikut untuk rekan satu timnya: \n- Meningkatkan batas maksimal stack(s) Negative Status sebesar 3 selama 15 detik \n- 30% Def Ignore (12% dari Havoc Bane, 18% dari Forte)\n- Dengan Kumokiri (Signature Chisa): 24% All-Attribute DMG Bonus selama 15 detik ketika Resonator di dalam tim memberikan Negative Status.\n\n2. Chisa merupakan support yang banyak dicari oleh berbagai Negative Status DPS (Aemeath, Hiyuki, Yangyang: Xuanling, Cartethyia, dan Phoebe), berkat kemampuannya untuk memberikan Havoc Bane dan meningkatkan batas maksimal dari seluruh Negative Status yang dapat diberikan kepada musuh.\nIa juga memberikan 30% Def Ignore.\n"
   },
   "skills": {
     "basic": {
@@ -376,7 +376,7 @@
         },
         {
           "title": "",
-          "description": "- Ketika serangan mengenai target, tingkatkan maksimum stack Negative Status dan Electro Rage yang dapat diterima target sebanyak 3 selama 15 detik. Tidak dapat ditumpuk (Unstackable).",
+          "description": "- Ketika serangan mengenai target, tingkatkan maksimum stack Negative Status dan Electro Rage yang dapat diterima target sebanyak 3 selama 15 detik. Tidak dapat di stack(s) (Unstackable).",
           "isTitleVisible": false
         },
         {
@@ -620,7 +620,7 @@
         },
         {
           "title": "",
-          "description": "Efek ini dapat ditumpuk secara bersamaan dengan efek dari Woven Myriad - Convergence.",
+          "description": "Efek ini dapat di stack(s) secara bersamaan dengan efek dari Woven Myriad - Convergence.",
           "isTitleVisible": false
         },
         {
@@ -630,7 +630,7 @@
         },
         {
           "title": "",
-          "description": "Efek ini dapat ditumpuk secara bersamaan dengan efek dari Woven Myriad - Convergence.",
+          "description": "Efek ini dapat di stack(s) secara bersamaan dengan efek dari Woven Myriad - Convergence.",
           "isTitleVisible": false
         },
         {

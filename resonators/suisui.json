@@ -184,7 +184,7 @@
         },
         {
           "title": "Enrichment",
-          "description": "Melancarkan Awakening Spring atau Intro Skill - Tinkling Jade memberikan 1 tumpukan Enrichment kepada semua Resonator terdekat dalam tim. Efek ini dapat terpicu sekali setiap 25 detik. Resonator yang masuk menerima healing dari Suisui dengan mengorbankan Enrichment.",
+          "description": "Melancarkan Awakening Spring atau Intro Skill - Tinkling Jade memberikan 1 stack(s) Enrichment kepada semua Resonator terdekat dalam tim. Efek ini dapat terpicu sekali setiap 25 detik. Resonator yang masuk menerima healing dari Suisui dengan mengorbankan Enrichment.",
           "isTitleVisible": true
         },
         {
@@ -209,17 +209,17 @@
         },
         {
           "title": "",
-          "description": "- Memberikan efek Spectro Frazzle, Fusion Burst, Glacio Chafe, dan Aero Erosion kepada target, atau menimbulkan DMG dari Negative Status yang sesuai, meningkatkan batas maksimal tumpukan Negative Status yang dapat diterima target sebanyak 3 selama 15 detik. Efek ini tidak bertumpuk.",
+          "description": "- Memberikan efek Spectro Frazzle, Fusion Burst, Glacio Chafe, dan Aero Erosion kepada target, atau menimbulkan DMG dari Negative Status yang sesuai, meningkatkan batas maksimal stack(s) Negative Status yang dapat diterima target sebanyak 3 selama 15 detik. Efek ini tidak bertumpuk.",
           "isTitleVisible": false
         },
         {
           "title": "",
-          "description": "- Memberikan efek Electro Flare kepada target atau menimbulkan DMG dari Negative Status yang sesuai, meningkatkan batas maksimal tumpukan Electro Flare dan Electro Rage yang dapat diterima target sebanyak 3 selama 15 detik. Efek ini tidak bertumpuk.",
+          "description": "- Memberikan efek Electro Flare kepada target atau menimbulkan DMG dari Negative Status yang sesuai, meningkatkan batas maksimal stack(s) Electro Flare dan Electro Rage yang dapat diterima target sebanyak 3 selama 15 detik. Efek ini tidak bertumpuk.",
           "isTitleVisible": false
         },
         {
           "title": "",
-          "description": "- Mengonsumsi tumpukan Havoc Bane pada target setelah skill mendarat memungkinkan DMG Havoc dari Resonator mengabaikan 6% DEF dan 12% RES Havoc target selama 30 detik. Efek ini tidak bertumpuk.",
+          "description": "- Mengonsumsi stack(s) Havoc Bane pada target setelah skill mendarat memungkinkan DMG Havoc dari Resonator mengabaikan 6% DEF dan 12% RES Havoc target selama 30 detik. Efek ini tidak bertumpuk.",
           "isTitleVisible": false
         },
         {
@@ -285,7 +285,7 @@
         "effects": [
           {
             "title": "",
-            "description": "Mengonsumsi Enrichment memberikan 10 tumpukan Spring's Birth kepada Resonator, maksimal 10 tumpukan. Saat Resonator dengan Spring's Birth tidak memiliki HP penuh, pulihkan HP mereka sebesar 62 + 0,34% dari Max HP Suisui dengan mengorbankan 1 tumpukan Spring's Birth setiap 2 detik.",
+            "description": "Mengonsumsi Enrichment memberikan 10 stack(s) Spring's Birth kepada Resonator, maksimal 10 stack(s). Saat Resonator dengan Spring's Birth tidak memiliki HP penuh, pulihkan HP mereka sebesar 62 + 0,34% dari Max HP Suisui dengan mengorbankan 1 stack(s) Spring's Birth setiap 2 detik.",
             "isTitleVisible": false
           },
           {
@@ -396,7 +396,7 @@
         },
         {
           "title": "",
-          "description": "Melancarkan Outro Skill memberikan Undulating Mist kepada Resonator yang masuk. Saat Resonator dengan Undulating Mist mengonsumsi tumpukan Negative Status atau Electro Rage pada target, mereka mendapatkan peningkatan ATK: Untuk setiap 0,12% Energy Regen Suisui di atas 200%, ATK Resonator meningkat sebesar 0,1% selama 6 detik, hingga maksimal 50%. Undulating Mist bertahan selama 14 detik atau hingga Resonator diganti keluar dari medan pertempuran. Saat Undulating Mist hilang, efek peningkatan ATK juga dihapus.",
+          "description": "Melancarkan Outro Skill memberikan Undulating Mist kepada Resonator yang masuk. Saat Resonator dengan Undulating Mist mengonsumsi stack(s) Negative Status atau Electro Rage pada target, mereka mendapatkan peningkatan ATK: Untuk setiap 0,12% Energy Regen Suisui di atas 200%, ATK Resonator meningkat sebesar 0,1% selama 6 detik, hingga maksimal 50%. Undulating Mist bertahan selama 14 detik atau hingga Resonator diganti keluar dari medan pertempuran. Saat Undulating Mist hilang, efek peningkatan ATK juga dihapus.",
           "isTitleVisible": false
         },
         {
@@ -411,7 +411,7 @@
         },
         {
           "title": "Plume Step",
-          "description": "Melakukan Plume Step memberikan Reflecting Shadows kepada semua Resonator terdekat dalam tim selama 6 detik, memberikan 1 tumpukan Glacio Chafe pada semua musuh di dalam Ceaseless Landscape, dan menyembuhkan Resonator aktif terdekat dalam tim di dalam Ceaseless Landscape.",
+          "description": "Melakukan Plume Step memberikan Reflecting Shadows kepada semua Resonator terdekat dalam tim selama 6 detik, memberikan 1 stack(s) Glacio Chafe pada semua musuh di dalam Ceaseless Landscape, dan menyembuhkan Resonator aktif terdekat dalam tim di dalam Ceaseless Landscape.",
           "isTitleVisible": true
         }
       ]
@@ -462,7 +462,7 @@
         },
         {
           "title": "",
-          "description": "- Mengonsumsi tumpukan Havoc Bane pada target.",
+          "description": "- Mengonsumsi stack(s) Havoc Bane pada target.",
           "isTitleVisible": false
         },
         {

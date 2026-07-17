@@ -291,7 +291,7 @@
         },
         {
           "title": "Pack Hunt",
-          "description": "Resonator yang memiliki efek Pack Hunt mendapatkan peningkatan ATK sebesar 6% dan memberikan  Fusion DMG Bonus sebesar 10% saat menyerang target Overlord Class atau Calamity Class (keduanya tidak dapat ditumpuk). Jika terdapat 3 Resonator bertipe Fusion dalam tim, Fusion DMG Bonus terhadap target Overlord Class atau Calamity Class akan bertambah lagi sebesar 10%.\nSaat Resonator aktif melancarkan Intro Skill, Pack Hunt akan ditingkatkan, memberikan tambahan 6% ATK ke semua Resonator dalam tim, hingga maksimum 18%.\nJika Pack Hunt milik Lupa mencapai batas maksimum selama durasinya, dia akan memasuki status Wild Hunt, dan Intro Skill - Nowhere to Run! akan tersedia.\nWild Hunt hanya dapat dipicu satu kali untuk setiap Pack Hunt.",
+          "description": "Resonator yang memiliki efek Pack Hunt mendapatkan peningkatan ATK sebesar 6% dan memberikan  Fusion DMG Bonus sebesar 10% saat menyerang target Overlord Class atau Calamity Class (keduanya tidak dapat di stack(s)). Jika terdapat 3 Resonator bertipe Fusion dalam tim, Fusion DMG Bonus terhadap target Overlord Class atau Calamity Class akan bertambah lagi sebesar 10%.\nSaat Resonator aktif melancarkan Intro Skill, Pack Hunt akan ditingkatkan, memberikan tambahan 6% ATK ke semua Resonator dalam tim, hingga maksimum 18%.\nJika Pack Hunt milik Lupa mencapai batas maksimum selama durasinya, dia akan memasuki status Wild Hunt, dan Intro Skill - Nowhere to Run! akan tersedia.\nWild Hunt hanya dapat dipicu satu kali untuk setiap Pack Hunt.",
           "isTitleVisible": true
         },
         {
@@ -636,7 +636,7 @@
       "effects": [
         {
           "title": "",
-          "description": "Melancarkan Fire-Kissed Glory, Heavy Attack - Wolf's Gnawing, Wolf's Claw, atau Mid-air Attack - Firestrike akan memberikan 20% Fusion DMG Bonus kepada semua Resonator dalam tim selama 30 detik, dan dapat ditumpuk hingga 2 kali.",
+          "description": "Melancarkan Fire-Kissed Glory, Heavy Attack - Wolf's Gnawing, Wolf's Claw, atau Mid-air Attack - Firestrike akan memberikan 20% Fusion DMG Bonus kepada semua Resonator dalam tim selama 30 detik, dan dapat di stack(s) hingga 2 kali.",
           "isTitleVisible": false
         }
       ]

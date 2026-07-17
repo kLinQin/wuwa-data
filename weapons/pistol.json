@@ -135,7 +135,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Saat Resonator menerjang (dash) atau menghindar (dodge), meningkatkan ATK sebesar 4%/5%/6%/7%/8%, dapat ditumpuk hingga 3/3/3/3/3 kali. Efek ini berlangsung selama 8/8/8/8/8 detik.",
+      "description": "Saat Resonator menerjang (dash) atau menghindar (dodge), meningkatkan ATK sebesar 4%/5%/6%/7%/8%, dapat di stack(s) hingga 3/3/3/3/3 kali. Efek ini berlangsung selama 8/8/8/8/8 detik.",
       "refinements": []
     },
     "lore": ""
@@ -229,7 +229,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Saat Resonator tidak menerima damage, meningkatkan ATK sebesar 6%/7.5%/9%/10.5%/12% setiap 5/5/5/5/5 detik, dapat ditumpuk hingga 2/2/2/2/2 kali. Efek ini berlangsung selama 8/8/8/8/8 detik. Saat Resonator menerima damage, kehilangan 1/1/1/1/1 stack dan memulihkan 5%/6.25%/7.5%/8.75%/10% dari Max HP mereka.",
+      "description": "Saat Resonator tidak menerima damage, meningkatkan ATK sebesar 6%/7.5%/9%/10.5%/12% setiap 5/5/5/5/5 detik, dapat di stack(s) hingga 2/2/2/2/2 kali. Efek ini berlangsung selama 8/8/8/8/8 detik. Saat Resonator menerima damage, kehilangan 1/1/1/1/1 stack dan memulihkan 5%/6.25%/7.5%/8.75%/10% dari Max HP mereka.",
       "refinements": []
     },
     "lore": ""
@@ -323,7 +323,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat ditumpuk hingga 4/4/4/4/4 kali.",
+      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat di stack(s) hingga 4/4/4/4/4 kali.",
       "refinements": []
     },
     "lore": ""
@@ -421,7 +421,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Memberikan Basic Attack atau Heavy Attack DMG meningkatkan ATK sebesar 2.2%/3.4%/4.7%/5.9%/7.2% dan memberikan 2.2%/3.4%/4.7%/5.9%/7.2% Heavy Attack DMG Bonus selama 7/7/7/7/7 detik, dapat ditumpuk hingga 4/4/4/4 kali. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
+      "description": "Memberikan Basic Attack atau Heavy Attack DMG meningkatkan ATK sebesar 2.2%/3.4%/4.7%/5.9%/7.2% dan memberikan 2.2%/3.4%/4.7%/5.9%/7.2% Heavy Attack DMG Bonus selama 7/7/7/7/7 detik, dapat di stack(s) hingga 4/4/4/4 kali. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
       "refinements": []
     },
     "lore": ""
@@ -515,7 +515,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill atau memberikan Basic Attack DMG pada target meningkatkan Basic Attack DMG Bonus pengguna sebesar 36%/45%/54%/63%/72% selama 4/4/4/4/4 detik. Setiap kali pengguna memberikan Tune Rupture - Shifting atau Tune Strain - Shifting selama Basic Attack, semua DMG yang diberikan oleh Resonator di dalam tim meningkat sebesar 8%/10%/12%/14%/16% selama 30/30/30/30/30 detik, hingga 3/3/3/3/3 stack. Efek dengan nama yang sama tidak dapat ditumpuk.",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill atau memberikan Basic Attack DMG pada target meningkatkan Basic Attack DMG Bonus pengguna sebesar 36%/45%/54%/63%/72% selama 4/4/4/4/4 detik. Setiap kali pengguna memberikan Tune Rupture - Shifting atau Tune Strain - Shifting selama Basic Attack, semua DMG yang diberikan oleh Resonator di dalam tim meningkat sebesar 8%/10%/12%/14%/16% selama 30/30/30/30/30 detik, hingga 3/3/3/3/3 stack. Efek dengan nama yang sama tidak dapat di stack(s).",
       "refinements": []
     },
     "lore": ""
@@ -562,7 +562,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. ATK Resonator yang masuk ke medan tempur meningkat sebesar 10%/12.5%/15%/17.5%/20% selama 14/14/14/14/14 detik, dapat ditumpuk hingga 1/1/1/1/1 kali setelah pengguna melancarkan Outro Skill.",
+      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. ATK Resonator yang masuk ke medan tempur meningkat sebesar 10%/12.5%/15%/17.5%/20% selama 14/14/14/14/14 detik, dapat di stack(s) hingga 1/1/1/1/1 kali setelah pengguna melancarkan Outro Skill.",
       "refinements": []
     },
     "lore": ""
@@ -656,7 +656,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "Saat mengenai target dengan Basic Attack atau Heavy Attack, meningkatkan Resonance Skill DMG Bonus sebesar 7%/11%/15%/19%/23%, dapat ditumpuk hingga 3/3/3/3/3 kali. Efek ini berlangsung selama 10/10/10/10/10 detik dan dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
+      "description": "Saat mengenai target dengan Basic Attack atau Heavy Attack, meningkatkan Resonance Skill DMG Bonus sebesar 7%/11%/15%/19%/23%, dapat di stack(s) hingga 3/3/3/3/3 kali. Efek ini berlangsung selama 10/10/10/10/10 detik dan dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
       "refinements": []
     },
     "lore": ""
@@ -750,7 +750,7 @@
     },
     "passive": {
       "name": "Weapon Skill",
-      "description": "ATK meningkat sebesar 12%/15%/18%/21%/24%. Memberikan Aero Erosion pada target memberikan 24%/30%/36%/42%/48% Aero DMG Bonus selama 10/10/10/10/10 detik. Menyerang target yang terkena Aero Erosion mengurangi Aero RES mereka sebesar 10%/11.5%/13%/14.5%/16% selama 20/20/20/20/20 detik. Efek dengan nama yang sama tidak dapat ditumpuk.",
+      "description": "ATK meningkat sebesar 12%/15%/18%/21%/24%. Memberikan Aero Erosion pada target memberikan 24%/30%/36%/42%/48% Aero DMG Bonus selama 10/10/10/10/10 detik. Menyerang target yang terkena Aero Erosion mengurangi Aero RES mereka sebesar 10%/11.5%/13%/14.5%/16% selama 20/20/20/20/20 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
       "refinements": []
     },
     "lore": ""
