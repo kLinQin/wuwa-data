@@ -685,17 +685,130 @@
       ]
     }
   ],
-  "sequences": [],
-  "lore": {
-    "description": "",
-    "manualEntries": [],
-    "report": {
-      "resonancePower": "",
-      "resonanceEvaluation": "",
-      "overclockDiagnostic": ""
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "",
+      "effects": [
+        {
+          "title": "",
+          "description": "\n1. Try Not to Get in the Way!\nDamage Multiplier dari skill berikut meningkat sebesar 50%:\n- Basic Attack - Huntress, Heavy Attack - Huntress, Tactical Dodge - Huntress, dan Dodge Counter - Huntress\n- Basic Attack - Guts, Tactical Dodge - Guts, Dodge Counter - Guts.\nSaat A Girl Gets What She Wants! terpicu, Rebecca mendapatkan 3 tumpukan tambahan Street Smarts selama 12 detik. Saat melakukan Tactical Dodge - Huntress atau Tactical Dodge - Guts, jika Rebecca memiliki tumpukan Street Smarts yang cukup, 1 tumpukan akan dikonsumsi untuk memulihkan 20 STA.\nResonance Liberation BOOM! Fireworks! kebal terhadap interupsi.",
+          "isTitleVisible": false
+        }
+      ]
     },
-    "items": [],
-    "stories": [],
+    {
+      "stage": "S2",
+      "name": "Oh, Hey Choom!",
+      "effects": [
+        {
+          "title": "",
+          "description": "Melancarkan Intro Skill - Yo, It's Big Boomin' Time!, Intro Skill - Hey, Leadhead, Come 'n' Get Me!, atau Resonance Liberation - Party 'til Dawn! memberikan bonus 20% All-Attribute DMG kepada semua Resonator dalam tim selama 30 detik.\nSaat Resonator dalam tim memberikan efek Hack - Shifting, mereka mendapatkan amplifikasi 15% All DMG selama 30 detik.\nHot Hand regenerasi dua kali lebih cepat saat Rebecca berada di luar pertempuran.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S3",
+      "name": "Don'T Sweat Your Six!",
+      "effects": [
+        {
+          "title": "",
+          "description": "Resonance Liberation - Party 'til Dawn! dan Resonance Liberation - BOOM! Fireworks! milik Rebecca mendapatkan peningkatan Damage Multiplier sebesar 60%.\nResonance Liberation - Party 'til Dawn! milik Rebecca mendapatkan peningkatan jangkauan ledakan sebesar 30%.\nMelancarkan Intro Skill - Yo, It's Big Boomin' Time! atau Intro Skill - Hey, Leadhead, Come 'n' Get Me! memberikan 120 poin Hot Hand.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S4",
+      "name": "Got Ya Covered!",
+      "effects": [
+        {
+          "title": "",
+          "description": "Rebecca mendapatkan peningkatan Stat Bonus tambahan sebesar 60% dari efek A Girl Gets What She Wants!.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S5",
+      "name": "Dreamin' On The Edge",
+      "effects": [
+        {
+          "title": "",
+          "description": "Rebecca Mendapatkan Bonus 20% Basic Attack DMG Selama 8 Detik Saat Memberikan Efek Hack - Shifting.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S6",
+      "name": "Maybe, Just Maybe...",
+      "effects": [
+        {
+          "title": "",
+          "description": "Bonus Basic Attack DMG Rebecca dari semua sumber meningkat sebesar 40%.\nSelama Heavy Attack - Rat-tat-tat!: Huntress atau Heavy Attack - Bang-bang-bang!: Guts, Rebecca menimbulkan satu instance tambahan Electro DMG sebesar 900% dari ATK-nya, dihitung sebagai Basic Attack DMG.\nRebecca memulihkan tambahan 20 poin Hot Hand saat melancarkan Heavy Attack - Rat-tat-tat!: Huntress atau Heavy Attack - Bang-bang-bang!: Guts.\nSaat Rebecca menerima serangan fatal, ia tidak jatuh karena damage tersebut dan sebaliknya langsung memulihkan 2077 HP sebanyak 5 kali. Efek ini terpicu sekali setiap 10 menit.\nSaat Rebecca berada di luar pertempuran selama lebih dari 4 detik, ia memulihkan 120 poin Fervor. Efek ini terpicu sekali setiap 4 detik.",
+          "isTitleVisible": false
+        }
+      ]
+    }
+  ],
+  "lore": {
+    "description": "Seorang Edgerunner seperti Lucy, tapi benar-benar berbeda dalam cara kerjanya.  \nBola api yang penuh keinginan, selalu siap menghanguskan masalahmu dengan senapan laras pendeknya.",
+    "manualEntries": [
+      {
+        "title": "NATIONS",
+        "description": "Night City"
+      },
+      {
+        "title": "FAMILLY",
+        "description": "Papa Sunrise (Father)\nPilar (older brother - Sibling)\n"
+      }
+    ],
+    "report": {
+      "resonancePower": "Fury-Type Arsenal",
+      "resonanceEvaluation": "Resonance Evaluation Report  \n[██ Record Modification Log]\n\nModification Target: Rebecca  \nModification Code: RA2██-G\n\nSubjek teridentifikasi sebagai Mutant-Type Resonator, dengan Tacet Mark terletak di bahu kanan.\n\nForte Manifestation:  \nSaat menggunakan senjata api yang berasal dari ██, subjek dapat meningkatkan presisi balistik dan efektivitas terminal senjata tersebut. Berdasarkan kemampuan ini, serangan subjek mampu menetralisir dan mengganggu frekuensi di sekitar Nightmare Tacet Discords tertentu, memberikan damage tambahan pada target yang terkena.\n\nFirearm Summoning:  \nSubjek dapat memanggil tiga senjata api spesifik yang dirancang untuk skenario pertempuran berbeda, menggunakan Forte-nya untuk mewujudkan dan menghilangkan senjata-senjata tersebut. Saat senjata dipanggil, output damage-nya berfluktuasi sesuai kondisi emosional subjek, menunjukkan adanya loop umpan balik langsung antara Forte-nya dan parameter performa senjata.\n\n> \"Sampel frekuensi subjek menunjukkan kemiripan hingga 97% dengan frekuensi Nightmare Tacet Discords di wilayah tersebut. Diduga keduanya memiliki korelasi tertentu.\"  \n> \"███ melakukan intervensi. Penelitian terkait dihentikan.\"",
+      "overclockDiagnostic": "Overclock Diagnostic Report  \nDiagram gelombang subjek menunjukkan osilasi elips dengan Time Domain yang stabil. Tidak ditemukan kecenderungan fluktuasi abnormal. Hasil pemeriksaan berada dalam parameter normal.\n\nKesimpulan: Resonant Criticality tinggi dan stabilitas subjek tetap kuat. Tidak ada risiko Overclocking dalam waktu dekat.  \nTidak ada riwayat Overclocking; namun, subjek menunjukkan ketidakstabilan emosional. Konseling psikologis terbukti minim efektivitas.\n\n> \"****! Di Night City, aku praktis jadi poster anak sehat mental!\"  \n> \"Sampel ini terlalu standar... Yakin ini bukan cuma disalin dari manual?\""
+    },
+    "items": [
+      {
+        "name": "Guts",
+        "description": "Senjata andalan Rebecca teman hidup dan matinya. Sama seperti dirinya, shotgun kinetik ini menghantam seperti kereta barang dan tendangannya liar seperti orang gila. Setiap tembakan adalah taruhan, dan kamu tak pernah tahu ke mana recoil-nya akan melemparkanmu berikutnya.\n\nBagi kebanyakan orang, risiko menggunakannya tak sebanding dengan imbalannya. Tapi bagi Rebecca, senjata buas inilah yang membangun namanya di jalanan. Ia bahkan memasang sepasang cyberarm berukuran besar hanya untuk menahan guncangan recoil-nya.\n\n\"Perlakukan dengan hati-hati, kecuali kamu memang ingin melukis trotoar dengan isi perutmu sendiri.\"",
+        "imageUrl": "/icons/items/rebecca-1.webp"
+      },
+      {
+        "name": "Dog Collar",
+        "description": "Kalung milik anjing Rebecca, Cup-Cup. Ia menjadi pemiliknya setelah \"mengangkat\" Cup-Cup di tengah-tengah sebuah job. Alasannya...? Hanya karena hati lembut yang tak pernah mau ia akui. Cup-Cup seekor pudel. Lucu. Penurut kalau memang sedang mau. Di malam-malam berangin saat tidur di jalanan, ia akan meringkuk di pelukan Rebecca dan saling berbagi kehangatan.\n\nRebecca tak pernah mengatakannya. Tak perlu. Tapi setiap kali nama Cup-Cup disebut, ada sorot tertentu di matanya. Kadang ia mengeluarkan kalung itu dan mengusapnya perlahan. Bertanya-tanya apa yang bisa ia lakukan berbeda.\n",
+        "imageUrl": "/icons/items/rebecca-2.webp"
+      },
+      {
+        "name": "Gold Cyberhand",
+        "description": "Cyberhand emas milik Pilar, salah satu dari sedikit benda yang tersisa darinya.\n\nWarnanya tak cocok dengan chrome-nya sendiri, tapi menjualnya tak pernah terpikirkan oleh Rebecca. Tak seorang pun berani meminta untuk mengambilnya. Semua tahu balasan yang akan mereka terima: moncong senapan di wajah dan tendangan keluar pintu.",
+        "imageUrl": "/icons/items/rebecca-3.webp"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Edgerunners  ",
+        "content": "Berbeda dengan kakaknya, Rebecca tak pernah berniat menjadi edgerunner. Mereka berdua dibesarkan oleh tentara bayaran legendaris yang dikenal sebagai Papa Sunrise satu-satunya orang tua mereka. Tapi meski ia menghabiskan bertahun-tahun menanamkan warisannya pada keduanya, Rebecca tak pernah merasakan hasrat keras kepala Pilar untuk mewarisi mimpi ayah mereka.\n\nIa ingin kebebasan. Ia ingin hal-hal manis. Ia ingin menemukan mimpinya sendiri di Night City... yang artinya ia sering bentrok dengan ayah angkatnya itu.\n\nHidup tak menunggu siapa pun memutuskan. Saat Papa Sunrise menghilang tanpa jejak, hidup Rebecca dan Pilar berubah drastis menjadi jauh lebih buruk. Mereka terpaksa tidur di belakang mobil rusak dulu kendaraan setia ayah mereka di tiap job, kini satu-satunya warisan yang tersisa.\n\nWakako, fixer legendaris sekaligus rekan lama ayah mereka, melemparkan tali penyelamat atau lebih tepatnya, sebuah job. Ia memberi mereka kesempatan membuktikan bahwa mereka layak mewarisi nama Papa. Tapi masih jauh perjalanan sebelum kedua saudara itu benar-benar pantas mengenakan sepatu edgerunner.\n\nSeperti yang selalu diperingatkan Papa Sunrise, Rebecca terlalu emosional, terlalu tak terduga, dan jauh terlalu panas kepala untuk Night City. Ia nyaris gagal dalam misi demi misi; alih-alih mengikuti instruksi sederhana dari fixer-nya, ia selalu memilih mengikuti instingnya. Pilar tak tahan melihatnya, dan keduanya selalu bertengkar hebat usai tiap job. Tapi pada akhirnya, meski terus ribut, ia tetap ingin membantu kakaknya mewujudkan mimpinya.\n\nSemuanya mulai berubah saat mereka bergabung dengan kru Maine. Kebiasaan Rebecca dan Pilar saling menyela menjadi santapan sehari-hari kru sering kali berupa latar belakang ribut berisi umpatan kasar. Orang lain heran kenapa mereka tetap bersama jika saling benci begitu rupa.\n\nTapi jauh di dalam hati, mereka benar-benar peduli satu sama lain."
+      },
+      {
+        "title": " A Diamond In The Sewer  ",
+        "content": "Setiap orang yang pernah berpapasan dengan Rebecca punya kesan yang sama: senjata liar, temperamen mudah meledak. David tahu itu lebih baik daripada siapa pun; ia sudah kehilangan hitungan berapa kali harus membersihkan kekacauan yang dibuatnya. Bagi orang luar, ia adalah jenis edgerunner yang berbeda. Ia tak peduli pada bayaran atau risiko asalkan suatu job tak melanggar garis moralnya, ia akan menerimanya. Ia bisa masuk ke peran apa pun yang dibutuhkan job itu. Malam ini, ia gadis polos yang terjebak dalam tembak-menembak; besoknya, punk bosan yang cari masalah di bar. Tapi ia selalu lebih suka jadi ototnya. Arahkan senjata. Tarik pelatuk. Urus detailnya setelah asap menghilang. Kebrutalannya bikin rekan-rekannya stres, tapi tak ada yang benar-benar membencinya. Bukan saat ia selalu menjaga punggung mereka di setiap langkah.\n\nDi Night City, bertahan hidup sebagai edgerunner butuh lebih dari sekadar saraf baja; kamu butuh sesuatu yang membedakanmu. Maine punya hand cannon-nya. Dorio punya tinjunya. Kiwi punya teknologinya. David punya Sandevistan-nya, tentu, tapi itu tak menjadikannya pembunuh. Ia masih pemula, belum halus. Ia perlu belajar cara memegang besi, dan cepat. Rebecca adalah pilihan alami untuk mengajarinya. Sebagai ahli senjata yang ditunjuk sendiri oleh kru, ia mengenal senjatanya seperti punggung tangannya sendiri. Di lapangan tembak, ia presisi; di jalanan, ia badai peluru yang menakutkan. Saat David sadar ia butuh sedikit tambahan daya mematikan untuk bertahan hidup, Rebecca tak ragu. Ia langsung melemparkannya ke jurang terdalam. Memandunya lewat tiap latihan. Mencoba memasukkan seumur hidup pengetahuan bertahan hidup ke kepala anak itu sebelum kota sempat melahapnya hidup-hidup."
+      },
+      {
+        "title": "Love, Death & Chrome  ",
+        "content": "Rebecca tak pernah repot menyembunyikannya. Ia menyukai David sederhana saja. Tapi untuk seseorang yang menjalani hidup seperti granat aktif, ia justru luar biasa disiplin soal perasaannya padanya. Ia tetap tenang. Ia tahu ia tak akan pernah jadi gadis yang dirindukan David. Tak peduli gerakan, sudut, atau trik apa yang ia coba tunjukkan, jelas hati David tak akan pernah jadi miliknya. Tapi menyerah bukan gayanya. Jika ia tak bisa memilikinya, ia akan curahkan semua energi itu untuk menjaganya tetap hidup.\n\nTugas ini jadi jauh lebih sulit dan lebih penting setelah kehilangan separuh anggota krunya. Satu per satu, wajah-wajah yang dikenal berubah jadi nama dingin di dinding makam. Bahkan untuk gadis sekeras Rebecca, yang seumur hidup mengenal kehilangan, ini terlalu berat. Ia menemukan pojok di gang buntu dan mengosongkan magazen demi magazen ke kegelapan, berteriak memaki seolah suara itu bisa menenggelamkan duka yang mencakar dari dalam. Kenapa jadi begini? Bukankah ia sudah cukup membayar? Ia tak punya mimpi besar. Ia tak peduli jadi legenda. Yang ia inginkan satu-satunya hal yang penting adalah tak harus menyaksikan orang yang dicintainya mati di depan matanya lagi.\n\nJadi saat David mulai memasang chrome, membawa obor Maine seolah hanya beban itu yang harus ditanggungnya sendiri, kecemasan langsung menggerayangi dadanya. Pemimpin kru? Tentara bayaran heboh dengan perangkat militer? Tidak. Baginya, ia tetap anak kecil. Anak sombong dengan mimpi besar yang bisa menelannya utuh. Dan Rebecca tak akan membiarkan itu terjadi. Tak tanpa perlawanan. Dengan lengan cyber baru yang dirancang untuk menahan recoil berat, ia maju sebagai wakil komandan David. Siap jadi pedang sekaligus perisainya. Memastikan si bodoh yang dicintainya ini tak bunuh diri."
+      },
+      {
+        "title": "Let'S Go, All The Way To The Top Of Arasaka Tower  ",
+        "content": "Ketakutan yang selama ini dibawa Rebecca akhirnya jadi kenyataan. Meski David punya toleransi luar biasa tinggi, tubuhnya tak sanggup mengimbangi tumpukan chrome yang terus ia pasang. Ditambah beban keputusan yang harus diambil, ia terdorong ke ambang cyberpsychosis. Rebecca ingin ia bersikap lebih ringan, khawatir akan kondisi mentalnya, tapi David selalu bertindak cepat persis seperti dirinya.\n\nJob terakhir mereka sangat berbahaya bahkan mustahil. Tapi David bersikeras. Rebecca marah, tapi sudah tak bisa mundur. Baru ketika terlambat ia sadar kebenarannya: mereka masuk jebakan. Dirancang teliti. Dieksekusi sempurna. Mereka tak pernah curiga bahwa rekan satu kru mereka sendiri telah mengkhianati mereka.\n\nSaat tahu Lucy ditangkap, David rela keluar dari tubuhnya sendiri demi menyelamatkannya. Misi bunuh diri, titik. Rantai domino sudah jatuh, satu keputusan buruk memicu longsoran bencana. Tak ada waktu mengurai kekacauan. Tak ada waktu ragu. Rebecca menggenggam senjatanya, menatap si idiot yang rela mempertaruhkan segalanya demi wanita yang dicintainya, lalu menghela napas panjang dan letih.\n\n\"...Ya sudah. Masukin aku juga, choomba. Masuk ke api.\"\n\nNight City tak akan pernah lupa malam itu. Kendaraan mereka melaju kencang menuju Menara Arasaka, unit MaxTac menembaki mereka dari kedua sisi. David membakar Sandevistan-nya. Lagi. Lagi. Lagi. Menjalankan rencana yang begitu gegabah hingga layak disebut tiket sekali jalan. Rebecca tak punya pilihan selain mendukungnya memastikan ia sampai ke Corpo Plaza hidup-hidup. Semua itu terjadi di bawah cahaya neon Night City yang mengalir di cakrawala.\n\nMeski segala rintangan, Rebecca tetap memegang harapannya.\n\nIa mempertaruhkan semuanya pada Lucy. Untuk terakhir kalinya, ia memasukkan cinta dan keberaniannya ke dalam ruang peluru."
+      },
+      {
+        "title": "Life In Limbo  ",
+        "content": "Setelah menyadari dirinya berada di Somnoire, Rebecca langsung tahu ia sudah mati. Ia memilih diam agar tak membebani Lucy dengan kenyataan itu.\n\n\"Bilang aja malah bikin Lucy makin kacau. Kalau dia mulai ngerasa bersalah atau iba, aku bakal kesel.\"\n\nDi atas kereta yang melaju kencang menembus dimensi mimpi, Rebecca mengangkat bahu dan memasukkan peluru ke senjatanya, satu per satu. Di luar jendela, bintang-bintang berlari cepat secerah dan semenyilau neon yang dulu melukis langit Night City. Ia sedang dalam perjalanan menyelamatkan seseorang. Cerita lama. Ia masih berjuang untuk Lucy, seseorang yang tak ia mengerti tapi tak bisa berhenti dikagumi. Tapi kali ini, David tak di sisinya. Dan gadis yang akan mereka selamatkan tak kabur lagi.\n\nIa benci mengakuinya, tapi di suatu titik sepanjang perjalanan, ia sadar mengapa ia benar-benar ada di sini. Bahkan jika David tak memintanya, ia tetap akan mengangkat senjatanya dan mengejar netrunner menyebalkan itu. Ia bagian dari kru. Dan kru adalah choom yang paling ia pedulikan.\n\nMemilih jalannya sendiri, mengambil keputusannya sendiri itulah yang selalu ia inginkan. Dan ia akan terus melakukannya. Tak peduli risikonya, ia akan terjun ke api jika diperlukan demi menyelamatkan teman-temannya.\n\n\"Kereta terbang, kucing ngomong, kamu sama Abby... Heh, kru kita ini levelnya gila.\"\n\n\"Aku bilang, aku bukan kucing, meow... Dan jangan lupa, tujuannya ambil Dream Band...\"\n\n\"Santai, aku hafal! Kita ubah si kepala chrome itu jadi besi rongsokan, kan?\"\n\n\"Kamu nggak dengar satu kata pun, ya...\"\n\nRebecca menyungging senyum miring, menggaruk kucing putih itu di belakang telinga, lalu memasukkan tangan ke saku dan duduk di sampingmu. Rover.\n\n\"Jadi, uh… agak telat minta maaf karena udah narik kamu ke ini, ya?\"\n\nSebuah bump tinju. Itu saja yang dibutuhkan agar ia tahu ia sudah dimaafkan. Rebecca menyeringai, mengangkat Guts ke bahunya, dan berjalan santai ke pintu kereta.\n\n\"Ujung jalur! Ayo lakukan apa yang kita datang untuk lakukan!\""
+      }
+    ],
     "specialFood": {
       "name": "",
       "description": "",

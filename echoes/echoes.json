@@ -1,15 +1,15 @@
-[
-  {
-    "name": "Bell-Borne Geochelone",
-    "slug": "bell-borne-geochelone",
-    "image": "/echoes/bell-borne-geochelone.webp",
-    "description": "Aktifkan perlindungan Bell-Borne Geochelone.\nMemberikan Glacio DMG berdasarkan 145.92% dari DEF karakter saat ini ke musuh di sekitar, dan mendapatkan Bell-Borne Shield yang bertahan selama 15 detik.\nBell-Borne Shield memberikan 50% DMG Reduction dan 10% DMG Boost untuk anggota tim saat ini, dan menghilang setelah karakter saat ini terkena serangan sebanyak 3 kali.\n\nCooldown (detik)\n20",
-    "sonatas": [
-      "Rejuvenating Glow",
-      "Moonlit Clouds"
-    ],
-    "cost": 4
-  },
+  [
+    {
+      "name": "Bell-Borne Geochelone",
+      "slug": "bell-borne-geochelone",
+      "image": "/echoes/bell-borne-geochelone.webp",
+      "description": "Aktifkan perlindungan Bell-Borne Geochelone.\nMemberikan Glacio DMG berdasarkan 145.92% dari DEF karakter saat ini ke musuh di sekitar, dan mendapatkan Bell-Borne Shield yang bertahan selama 15 detik.\nBell-Borne Shield memberikan 50% DMG Reduction dan 10% DMG Boost untuk anggota tim saat ini, dan menghilang setelah karakter saat ini terkena serangan sebanyak 3 kali.\n\nCooldown (detik)\n20",
+      "sonatas": [
+        "Rejuvenating Glow",
+        "Moonlit Clouds"
+      ],
+      "cost": 4
+    },
   {
     "name": "Capitaneus",
     "slug": "capitaneus",
