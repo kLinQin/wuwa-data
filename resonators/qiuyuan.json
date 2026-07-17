@@ -3,7 +3,7 @@
   "element": "Aero",
   "weapon": "Sword",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.7",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Concerto Efficiency",
@@ -16,7 +16,14 @@
   ],
   "changelog": [
     {
-      "text": "minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -611,7 +618,13 @@
     }
   ],
   "lore": {
-    "description": "Mantan agen senior dari Internal Security Agency milik Mingting.\nMeskipun permusuhan mengisi masa mudanya, kesetiaan mendefinisikan tahun-tahun terakhirnya. Namun, karena dijadikan kambing hitam atas sebuah pembunuhan, ia kini hanyalah seorang pendekar pedang buta yang berkelana di dunia sendirian.\n\nBIRTHPLACE\nHuanglong",
+    "description": "Mantan agen senior dari Internal Security Agency milik Mingting.\nMeskipun permusuhan mengisi masa mudanya, kesetiaan mendefinisikan tahun-tahun terakhirnya. Namun, karena dijadikan kambing hitam atas sebuah pembunuhan, ia kini hanyalah seorang pendekar pedang buta yang berkelana di dunia sendirian.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      }
+    ],
     "report": {
       "resonancePower": "Bambooscape",
       "overclockDiagnostic": "Miscellaneous Records of Mingting's Ministry of Sentinel Affairs: Correspondence Collection\n\n…Dalam pengamatanku selama beberapa hari terakhir, tampaknya bukan karena ia menolak untuk menggunakan Forte miliknya, melainkan ia secara sadar menahan diri untuk tidak menggunakannya. Mengenai sifat dari kemampuan itu sendiri, ia tetap sangat tertutup. Hanya dari laporan Academy seseorang dapat memperoleh beberapa detail:\n\nAnalisis waveform subjek uji menyajikan osilasi elips. Pembacaan time-domain terpantau stabil, tanpa pola anomali yang teramati.\nResonant Criticality: Tinggi. Stabilitas tinggi tanpa risiko Overclocking.\nTidak ada riwayat Overclocking sebelumnya. Intervensi psikologis dianggap tidak perlu.\nCatatan: Subjek mengakui adanya pelanggaran berulang yang melibatkan pelanggaran hukum dengan kekerasan, meskipun sikapnya tampak sangat tenang. Direkomendasikan agar klaim-klaim ini diverifikasi oleh Ministry of Justice dan otoritas lokal di Chongzhou.\n\n…Namun, dalam penilaianku sendiri, pria ini tidak menyimpan niat membunuh. Ketenangannya tak tergoyahkan, perilakunya stabil. Ilmu pedangnya termasuk yang terbaik, dan hanya sedikit orang di seluruh Mingting yang bisa menandinginya. Ia bisa saja menjadi aset yang luar biasa bagi Internal Security Agency. Bahwa individu seperti itu tercantum dalam berkas Justice Commission sebagai pelaku kekerasan yang melanggar hukum adalah hal yang sulit dipercayai. Aku telah berkomunikasi dengan Ministry of Rites, menguraikan keuntungan dan implikasi dari merekrut individu tersebut. Jika Anda ingin mempekerjakan pria ini, aku rasa tidak akan ada hambatan yang muncul karena hal itu.\n\nAnotasi Dongyuan: Tentu saja, semakin stabil semakin baik. Tapi menilai dari laporan ini... bukankah pemuda ini sedikit terlalu hampa emosi?",

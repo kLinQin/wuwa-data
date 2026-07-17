@@ -3,7 +3,7 @@
   "element": "Havoc",
   "weapon": "Gauntlet",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Concerto Efficiency",
@@ -18,7 +18,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -603,7 +610,17 @@
     }
   ],
   "lore": {
-    "description": "Sebagai asisten, penata properti, dan komedian improvisasi, Roccia selalu siap memastikan Fool's Troupe siap siaga. Kotak Ajaib yang dibawanya tampak menyimpan dunia, atau mungkin ia telah menciptakan kembali dunia di dalam kotak itu.\n\nBIRTHPLACE\nRinascita\n\nBIRTHDATE\n31 Januari",
+    "description": "Sebagai asisten, penata properti, dan komedian improvisasi, Roccia selalu siap memastikan Fool's Troupe siap siaga. Kotak Ajaib yang dibawanya tampak menyimpan dunia, atau mungkin ia telah menciptakan kembali dunia di dalam kotak itu.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Rinascita"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "31 Januari"
+      }
+    ],
     "report": {
       "resonancePower": "Stage in the Box",
       "resonanceEvaluation": "[Catatan Troupe Medic Benir - R103]\n\nSetelah mengamati Roccia beberapa kali dan mempelajari perilakunya, tampaknya kepala kru kita memiliki cara untuk berkomunikasi dengan makhluk aneh itu, Pero. Dengan Pero bertindak sebagai penerjemah, Roccia bahkan dapat berbicara dengan Echo lainnya. Yang menarik adalah kemampuannya tampaknya berkembang—awalnya, ia perlu berbicara dengan Echo, tetapi sekarang sepertinya ia dapat berkomunikasi melalui frekuensi.\n\nIni baru dimulai setelah ia bergabung dengan rombongan dan bertemu Pero, jadi aku menduga ini semacam resonansi di antara mereka, sesuatu yang ia pelajari di sepanjang jalan. Kita mungkin akan menyebutnya sebagai Acquired Resonator.\n\nP.S. Semua ini hanyalah tebakanku yang terbaik. Dengan alat yang kumiliki, aku tidak dapat memastikan jenisnya. Ada kemungkinan kecil Roccia sebenarnya bukan Resonator, tetapi kebetulan dapat menyinkronkan diri dengan frekuensi tertentu. Bukankah itu tetap dianggap sebagai Resonator? Aku harus memikirkannya.",

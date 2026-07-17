@@ -3,7 +3,7 @@
   "element": "Aero",
   "weapon": "Pistol",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.3",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Concerto Efficiency",
@@ -15,7 +15,14 @@
   ],
   "changelog": [
     {
-      "text": "minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- menambahkan real name di lore page",
       "type": "updated",
       "isNew": false,
       "time": "2026-07-16"
@@ -76,7 +83,7 @@
       ],
       "note": "Echo NM Kelpie ini lebih mudah di-farm dibandingkan Reminiscence: Fleurdelys dan memberikan Aero DMG Bonus 2% lebih tinggi."
     },
-    "weaponNote": "(1).Romance in Farewel, Undying Flame dan Thunderbolt semua nya R5. (2) Jika dipasangkan dengan Cartethyia, Phasic Homogenizer memberikan damage yang lebih baik, tetapi akan kehilangan pasif ER dari Static Mist. Gunakan Static Mist jika dipasangkan dengan Iuno, Jiyan, atau Qiuyuan. \n",
+    "weaponNote": "- Romance in Farewel, Undying Flame dan Thunderbolt semua nya R5.\n- Jika dipasangkan dengan Cartethyia, Phasic Homogenizer memberikan damage yang lebih baik, tetapi akan kehilangan pasif ER dari Static Mist. \n- Gunakan Static Mist jika dipasangkan dengan Iuno, Jiyan, atau Qiuyuan. ",
     "weaponOptions": [
       {
         "id": "woodland-aria",
@@ -181,6 +188,7 @@
   "skills": {
     "basic": {
       "name": "Quadruple Time Steps",
+      "description": "",
       "effects": [
         {
           "title": "**Basic Attack**",
@@ -221,6 +229,7 @@
     },
     "skill": {
       "name": "Harmonic Allegro",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -246,6 +255,7 @@
     },
     "liberation": {
       "name": "Singer'S Triple Cadenza",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -266,6 +276,7 @@
     },
     "forte": {
       "name": "Symphony Of Wind And Verse",
+      "description": "",
       "effects": [
         {
           "title": "**Heavy Attack - Quadruple Downbeat**",
@@ -307,11 +318,12 @@
       },
       {
         "name": "Tune Break: Sword",
-        "description": ""
+        "effects": []
       }
     ],
     "intro": {
       "name": "Roaming With The Wind",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -327,6 +339,7 @@
     },
     "outro": {
       "name": "Windcalling Tune",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -571,7 +584,25 @@
     }
   ],
   "lore": {
-    "description": "Seorang bard pengembara dari Rinascita, Ciaccona. \nIa bernyanyi bukan hanya untuk Divinity, tetapi juga untuk orang-orang biasa. Ia mencatat berbagai kisah sepanjang perjalanannya, lalu mengubahnya menjadi lagu yang membangkitkan tawa, haru, dan air mata — baik bagi para pencerita maupun pendengarnya. \n\nBIRTHPLACE\nRinascita",
+    "description": "Seorang bard pengembara dari Rinascita, Ciaccona. \nIa bernyanyi bukan hanya untuk Divinity, tetapi juga untuk orang-orang biasa. Ia mencatat berbagai kisah sepanjang perjalanannya, lalu mengubahnya menjadi lagu yang membangkitkan tawa, haru, dan air mata — baik bagi para pencerita maupun pendengarnya.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Rinascita"
+      },
+      {
+        "title": "REAL NAME",
+        "description": "Ciaccona Toccata"
+      },
+      {
+        "title": "ALIAS",
+        "description": "Topaz"
+      },
+      {
+        "title": "AFFILIAATION",
+        "description": "raguna"
+      }
+    ],
     "report": {
       "resonancePower": "Woven Melodies",
       "overclockDiagnostic": "Catatan Jurnal Veron Toccata — Kepala Keluarga Toccata\n\nOrder pada akhirnya mengetahui kemampuan Ciaccona. Mereka menyatakan bahwa ia ditakdirkan menjadi chorister paling bersinar dari Keluarga Toccata. Sesuai protokol, mereka melakukan pemeriksaan Forte terhadapnya. Berikut hasilnya:\n\ngelombang Waveform anggota ini menunjukkan fluktuasi elips dengan Domain Waktu yang stabil. Tidak ditemukan tanda-tanda fluktuasi abnormal. Hasil tes dinilai berada dalam fase normal.\n\n> Resonant Criticality: Tinggi. \n\n> Anggota ini memiliki stabilitas tinggi dengan risiko Overclocking yang minimal.\n\nCatatan menunjukkan tidak ada riwayat Overclocking.\n\nTidak ada kebutuhan saat ini untuk konseling psikologis.\n\nSemua data tampak normal, kemungkinan besar karena cara pandangnya terhadap melodi yang dipenuhi keajaiban dan harapan. Saat ia tumbuh dewasa, terkadang aku berharap ia bisa bahagia seperti ini selamanya... Namun aku tahu hal itu menjadi mustahil sejak ia mengambil kunci itu.",

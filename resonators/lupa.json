@@ -3,7 +3,7 @@
   "element": "Fusion",
   "weapon": "Broadblade",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.4",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Concerto Efficiency",
@@ -16,8 +16,15 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
-      "type": "input",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- add generaal notes",
+      "type": "updated",
       "isNew": false,
       "time": "2026-07-16"
     }
@@ -146,7 +153,7 @@
       },
       {
         "name": "QS",
-        "note": "Lupa meningkatkan Brant (Fusion & Basic), Brant meningkatkan Changli (Fusion & Res. Skill), Changli meningkatkan Lupa (Fusion & Res. Liberation). Lupa juga memberikan 6% ATK per unit Fusion (maksimal 18%) dan memberikan teamwide Fusion DMG Bonus jika Wildfire Mark terpasang.",
+        "note": "- Lupa meningkatkan Brant (Fusion & Basic), \n- Brant meningkatkan Changli (Fusion & Res. Skill), Changli meningkatkan Lupa (Fusion & Res. Liberation). \n- Lupa juga memberikan 6% ATK per unit Fusion (maksimal 18%) dan memberikan teamwide Fusion DMG Bonus jika Wildfire Mark terpasang.",
         "members": [
           [
             "Lupa"
@@ -175,14 +182,15 @@
             "Mornye"
           ]
         ],
-        "note": "Dengan Mornye sebagai slot ketiga, kita dapat mengganti Brant dengan Galbrena atau Aemeath.\nLupa memberikan Encore Fusion & Basic ATK DMG Amplify, selain itu, Encore adalah Fusion Resonator, yang meningkatkan Buff ATK% yang dapat diberikan oleh Lupa. Ia juga dapat menerima manfaat dari buff yang diberikan oleh Wildfire Mark."
+        "note": "- Dengan Mornye sebagai slot ketiga, kamu dapat mengganti Brant dengan Galbrena atau Aemeath.\n- Lupa memberikan Encore Fusion & Basic ATK DMG Amplify, selain itu, Encore adalah Fusion Resonator, yang meningkatkan Buff ATK% yang dapat diberikan oleh Lupa. Ia juga dapat menerima manfaat dari buff yang diberikan oleh Wildfire Mark."
       }
     ],
-    "teamNote": "\n"
+    "teamNote": "Lupa memberikan buff berikut untuk rekan satu timnya:\n- 20% Fusion DMG dan 25% Basic Attack DMG Amplify selama 14 detik setelah melancarkan Intro Skill\n- [Pack Hunt]: +6-18% ATK dan 10% Fusion DMG Bonus (20% dengan 3 Fusion Resonator)\n- Mengabaikan 3-15% Fusion RES dalam waktu 35 detik setelah melancarkan [Res. Liberation]\n- Dengan Wildfire Mark (Signature Lupa): 24% Fusion DMG Bonus selama 30 detik."
   },
   "skills": {
     "basic": {
       "name": "Flaming Star",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -228,6 +236,7 @@
     },
     "skill": {
       "name": "Shewolf'S Hunt",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -253,6 +262,7 @@
     },
     "liberation": {
       "name": "Fire-Kissed Glory",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -298,6 +308,7 @@
     },
     "forte": {
       "name": "Ignis Lupa",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -370,6 +381,7 @@
     ],
     "intro": {
       "name": "Try Focusing, Eh?",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -400,6 +412,7 @@
     },
     "outro": {
       "name": "Stand By Me, Warrior",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -704,7 +717,25 @@
     }
   ],
   "lore": {
-    "description": "Seorang Gladiator dari Septimont, a radiant star of the arena.\nBerjiwa liar dan terus terang, Lupa hidup seperti serigala penyendiri. Selama ia bisa menikmati sensasi adrenalin di tengah pertempuran, ia tak peduli jika api yang sama akhirnya membakarnya habis.\n\nBIRTHPLACE\nRinascita\n\nADDITIONAL TITLES\nChampion of the Great Agon \n\nREAL NAME\nLupa Silva",
+    "description": "Seorang Gladiator dari Septimont, a radiant star of the arena.\nBerjiwa liar dan terus terang, Lupa hidup seperti serigala penyendiri. Selama ia bisa menikmati sensasi adrenalin di tengah pertempuran, ia tak peduli jika api yang sama akhirnya membakarnya habis.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Rinascita"
+      },
+      {
+        "title": "ADDITIONAL TITLES",
+        "description": "Champion of the Great Agon"
+      },
+      {
+        "title": "REAL NAME",
+        "description": "Lupa Silva"
+      },
+      {
+        "title": "AFFFILIATION",
+        "description": "Septimont (on profile)\nHouse Silva (formerly)"
+      }
+    ],
     "report": {
       "resonancePower": "Howling Flame",
       "overclockDiagnostic": "[Pre-Match Condition Confirmation]\nContender Name: Lupa\n\nAnalisis spectral waveform menunjukkan fluktuasi elips dengan Time Domain yang stabil. Tidak terdeteksi adanya pola anomali.\n\nDiagnosa: Ambang batas Overclocking tergolong tinggi. Stabilitas subjek tetap kuat. Tidak ditemukan tanda-tanda ataupun riwayat Overclocking.\n\n\"Contender Lupa secara konsisten menjalani pemeriksaan kesehatan sesuai jadwal. Di antara para Gladiator papan atas, jarang ada yang memiliki rutinitas se-disiplin ini.\"",

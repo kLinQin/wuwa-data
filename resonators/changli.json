@@ -3,7 +3,7 @@
   "element": "Fusion",
   "weapon": "Sword",
   "rarity": 5,
-  "version": "3.0",
+  "version": "1.1",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer",
@@ -16,7 +16,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -178,11 +185,12 @@
         ]
       }
     ],
-    "teamNote": "Karena kemampuan Changli untuk melakukan quick swap dari hampir semua animasi serangan dan skill miliknya, ia sering kali cocok dipasangkan dengan sebagian besar Resonator penghasil damage (DPS)."
+    "teamNote": "Karena ability Changli untuk melakukan quick swap dari hampir semua animasi attacck dan skill miliknya, ia sering kali cocok dipasangkan dengan sebagian besar main DPS."
   },
   "skills": {
     "basic": {
       "name": "Blazing Enlightment",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -213,6 +221,7 @@
     },
     "skill": {
       "name": "Tripartite Flames",
+      "description": "",
       "effects": [
         {
           "title": "True Sight: Capture",
@@ -233,6 +242,7 @@
     },
     "liberation": {
       "name": "Radiance Of Fealty",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -253,6 +263,7 @@
     },
     "forte": {
       "name": "Flaming Sacrifice",
+      "description": "",
       "effects": [
         {
           "title": "Heavy Attack: Flaming Sacrifice",
@@ -289,11 +300,12 @@
       },
       {
         "name": "Tune Break: Sword",
-        "description": ""
+        "effects": []
       }
     ],
     "intro": {
       "name": "Obedience Of Rules",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -304,6 +316,7 @@
     },
     "outro": {
       "name": "Strategy Of Duality",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -567,7 +580,21 @@
     }
   ],
   "lore": {
-    "description": "Changli adalah penasihat yang melayani Magistrat Jinzhou, dan mantan Sekretaris Jenderal di ibu kota. Terselubung dalam api, dia ditakdirkan untuk bersinar terang hingga bara terakhirnya. Dengan tekadnya yang membara dan pola pikir strategisnya, dia naik ke tampuk kekuasaan, selalu berpikir ke depan untuk mencapai tujuan akhirnya.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDAY\nJune 6th",
+    "description": "Changli adalah penasihat yang melayani Magistrat Jinzhou, dan mantan Sekretaris Jenderal di ibu kota. Terselubung dalam api, dia ditakdirkan untuk bersinar terang hingga bara terakhirnya. Dengan tekadnya yang membara dan pola pikir strategisnya, dia naik ke tampuk kekuasaan, selalu berpikir ke depan untuk mencapai tujuan akhirnya.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      },
+      {
+        "title": "BIRTHDAY",
+        "description": "June 6th"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Jinzhou (on profile)\nJinzhou City Hall\nMingting (formerly)"
+      }
+    ],
     "report": {
       "resonancePower": "Eternal Blaze",
       "overclockDiagnostic": "Gelombang Resonansi Changli menunjukkan fluktuasi elips, dengan pola Time Domain yang stabil dan tidak ada anomali dalam bentuk gelombang.\n\nKritisitas Resonansi: Tinggi\nStabilitas Frekuensi: Sangat tinggi\nRisiko Overclocking: Minimal\n\nMeskipun Resonator Changli memiliki riwayat Overclocking terdokumentasi, catatan menunjukkan bahwa:\n\nMaksimum Overclocking yang pernah tercatat: Diabaikan (Negligible)\n\nBerdasarkan laporan Changli, ia mengalami Overclocking saat masih kecil akibat paparan lingkungan berbahaya dalam jangka waktu lama. Hal ini menyebabkan Forte-nya beberapa kali meledak secara tidak terkendali sebagai bentuk pertahanan diri atau perlindungan terhadap orang lain, yang mengakibatkan bekas luka bakar permanen di lengan kirinya.\n\nNamun, seiring dengan meningkatnya kendali atas Forte-nya, fluktuasi frekuensi menjadi stabil, dan luka bakarnya tidak semakin memburuk. Meski begitu, ada kemungkinan kerusakan fisik permanen akibat ledakan Forte yang dapat memperpendek harapan hidupnya.\n\nDisarankan untuk melakukan pemeriksaan fisik rutin, sementara konseling psikologis saat ini tidak diperlukan.",

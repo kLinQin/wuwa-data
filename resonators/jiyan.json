@@ -3,7 +3,7 @@
   "element": "Aero",
   "weapon": "Broadblade",
   "rarity": 5,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Heavy Attack Damage",
@@ -16,7 +16,14 @@
   ],
   "changelog": [
     {
-      "text": "menambah Opsi NM Kelpie di slot echo",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- menambah Opsi NM Kelpie di slot echo",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -59,7 +66,7 @@
           ]
         },
         {
-          "label": "Aero DPS ALT",
+          "label": "Aero DPS ",
           "echoSlug": "nightmare-kelpie",
           "echoSlugSecondary": "",
           "stats": [
@@ -81,7 +88,7 @@
         "Heavy Attack DMG Bonus",
         "ATK"
       ],
-      "note": "1. Res. Liberation Jiyan [Emerald Storm: Finale] dianggap sebagai [Heavy DMG], oleh karena itu substat [Res. Liberation DMG Bonus] tidak berguna (dead stat) untuknya\n\n2. bisa juga menggunakan Jiyan dengan ER sekitar ~115-120% jika menerapkan rotasi double intro. ER 130% hanya disarankan jika merasa kurang nyaman dengan eksekusi rotasin."
+      "note": "- Res. Liberation Jiyan [Emerald Storm: Finale] dianggap sebagai [Heavy DMG], oleh karena itu substat [Res. Liberation DMG Bonus] tidak berguna (dead stat) untuknya\n- bisa juga menggunakan Jiyan dengan ER sekitar ~115-120% jika menerapkan rotasi double intro. ER 130% "
     },
     "weaponNote": "",
     "weaponOptions": [
@@ -158,7 +165,7 @@
             "Ciaccona"
           ]
         ],
-        "note": "Iuno memberikan 50% Heavy DMG Amplify kepada Jiyan saat mengeluarkan Outro Skill.\nCiaccona memberikan Jiyan 24% Aero DMG Bonus dari Ensemble Sylphs miliknya, ditambah 15% Aero DMG dari set Gusts of Welkin. Selain itu, saat Ciaccona menggunakan senjata signature-nya, ia menurunkan Aero RES musuh sebesar 10%. Ketika dipasangkan bersama, Jiyan sebaiknya menggunakan set Windward Pilgrimage."
+        "note": "- Iuno memberikan 50% Heavy DMG Amplify kepada Jiyan saat mengeluarkan Outro Skill.\n- Ciaccona memberikan Jiyan 24% Aero DMG Bonus dari Ensemble Sylphs miliknya, ditambah 15% Aero DMG dari set Gusts of Welkin. Selain itu, saat Ciaccona menggunakan senjata signature-nya, ia menurunkan Aero RES musuh sebesar 10%. Ketika dipasangkan bersama, Jiyan sebaiknya menggunakan set Windward Pilgrimage."
       },
       {
         "name": "F2P Options",
@@ -176,11 +183,12 @@
         "note": "Sebagai alternatif, Mortefi memberikan Jiyan 38% Heavy DMG Amplify melalui Outro Skill miliknya."
       }
     ],
-    "teamNote": ""
+    "teamNote": "Jiyan merupakan Main DPS yang fokus utamanya memberikan Heavy ATK DMG."
   },
   "skills": {
     "basic": {
       "name": "Lone Lance",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -221,6 +229,7 @@
     },
     "skill": {
       "name": "Windqueller",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -236,6 +245,7 @@
     },
     "liberation": {
       "name": "Emerald Storm - Prelude",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -256,6 +266,7 @@
     },
     "forte": {
       "name": "Qingloong At War",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -303,6 +314,7 @@
     ],
     "intro": {
       "name": "Tactical Strike",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -313,6 +325,7 @@
     },
     "outro": {
       "name": "Discipline",
+      "description": "",
       "effects": [
         {
           "title": "hati hati kalimat panjang",
@@ -532,7 +545,21 @@
     }
   ],
   "lore": {
-    "description": "Jiyan, pemimpin Midnight Rangers, bertindak dengan kebenaran yang sigap dan tegas. Ia memiliki kemampuan luar biasa untuk memanggil Qingloong yang kuat dari angin, menjadikannya tak terkalahkan di medan perang.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDAY\nDecember 14th\n\nADDITIONAL TITLE\nTeal General",
+    "description": "Jiyan, pemimpin Midnight Rangers, bertindak dengan kebenaran yang sigap dan tegas. Ia memiliki kemampuan luar biasa untuk memanggil Qingloong yang kuat dari angin, menjadikannya tak terkalahkan di medan perang.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      },
+      {
+        "title": "BIRTHDAY",
+        "description": "December 14th"
+      },
+      {
+        "title": "ADDITIONAL TITLE",
+        "description": "Teal General"
+      }
+    ],
     "report": {
       "resonancePower": "Windborne Rider",
       "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment 2141-G]\n\nResonator Jiyan mengalami Forte-Awakening yang teramati di Camp Overwatch yang terletak di Desorock Highland. Peristiwa ini ditandai dengan akumulasi arus udara di sekitar tubuhnya, membentuk tombak yang khas.\n\nJiyan memiliki Tacet Mark unik yang terletak di atas dorsal ridge miliknya. Pengamatan pasca-Awakening menemukan beberapa pertumbuhan yang menyerupai sisik Loong pada rahang kirinya. Tidak ada indikasi ekspansi progresif yang terdeteksi.\n\nResonator Jiyan memiliki kemampuan untuk memanipulasi energi angin, yang dapat ia salurkan menjadi \"Qingloong\" Teal Dragon yang membantunya dalam pertempuran. Selain itu, ia memiliki kemampuan persepsi dan kepemimpinan yang luar biasa, memanfaatkan hubungannya dengan angin untuk mengumpulkan dan menganalisis informasi medan perang dengan akurasi yang mencengangkan. Pengujian empiris telah menunjukkan tingkat akurasi yang mengesankan sebesar 99,12% dalam mengevaluasi situasi dinamis.\n\nResonance Spectrum Pattern milik Resonator Jiyan tidak menunjukkan kemiripan dengan sampel yang diketahui. Penyebab Awakening miliknya tetap tidak diketahui.\n\nAnalisis sampel uji telah mengungkapkan Rabelle's Curve yang bersifat non-konvergen dengan kenaikan tajam di bagian tengahnya. Resonator Jiyan dengan ini diklasifikasikan sebagai Mutant Resonator.",

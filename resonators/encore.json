@@ -3,7 +3,7 @@
   "element": "Fusion",
   "weapon": "Rectifier",
   "rarity": 5,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer",
@@ -14,8 +14,15 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update.",
-      "type": "input",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Revisi lore data entry",
+      "type": "updated",
       "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
@@ -146,7 +153,7 @@
     },
     "teams": [
       {
-        "name": "Encore Hyoercary",
+        "name": "Hyoercary",
         "note": "Sanhua memberikan 38% Basic DMG Amplify untuk Encore. Sebagai alternatif, Roccia bisa digunakan.",
         "members": [
           [
@@ -181,7 +188,7 @@
         ]
       },
       {
-        "name": "Quickswap Alternatif",
+        "name": "QS Alternatif",
         "note": "",
         "members": [
           [
@@ -198,11 +205,12 @@
         ]
       }
     ],
-    "teamNote": "Lupa memberikan Fusion & Basic ATK DMG Amplify untuk Encore. Selain itu, Encore adalah Fusion Resonator, yang meningkatkan ATK% Buff dari Lupa. Encore juga bisa menerima manfaat dari buff yang diberikan Wildfire Mark."
+    "teamNote": "Lupa memberikan Fusion & Basic ATK DMG Amplify untuk Encore. \nSelain itu, Encore adalah Fusion Resonator, yang meningkatkan ATK% Buff dari Lupa. \nEncore juga bisa menerima manfaat dari buff yang diberikan Wildfire Mark."
   },
   "skills": {
     "basic": {
       "name": "Wooly Attack",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -228,6 +236,7 @@
     },
     "skill": {
       "name": "Flaming Woolies",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -248,6 +257,7 @@
     },
     "liberation": {
       "name": "Cosmos Rave",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -283,6 +293,7 @@
     },
     "forte": {
       "name": "Black & White Woolies",
+      "description": "",
       "effects": [
         {
           "title": "Heavy Attack: Cloudy Frenzy",
@@ -334,11 +345,12 @@
       },
       {
         "name": "Tune Break: Rectifier",
-        "description": ""
+        "effects": []
       }
     ],
     "intro": {
       "name": "Woolies Helpers",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -349,6 +361,7 @@
     },
     "outro": {
       "name": "Thermal Field",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -667,7 +680,25 @@
     }
   ],
   "lore": {
-    "description": "Seorang gadis yang selalu ditemani oleh satu Wooly hitam dan satu Wooly putih. Encore, Konsultan dari Black Shores, bermimpi menciptakan kisah-kisah bahagia dengan permen, dongeng, dan imajinasinya.\n\nBIRTHPLACE\nNew Federation\n\nBIRTHDATE\n21 Maret\n\nADDITIONAL TITLES\nHeavenly Sheep",
+    "description": "Seorang gadis yang selalu ditemani oleh satu Wooly hitam dan satu Wooly putih. Encore, Konsultan dari Black Shores, bermimpi menciptakan kisah-kisah bahagia dengan permen, dongeng, dan imajinasinya.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "New Federation"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "21 Maret"
+      },
+      {
+        "title": "ADDITIONAL TITLES",
+        "description": "Heavenly Sheep"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Black Shores"
+      }
+    ],
     "report": {
       "resonancePower": "Wooly-Counting Game",
       "overclockDiagnostic": "Grafik gelombang Resonator Encore menunjukkan fluktuasi zigzag, dengan pola Time Domain yang tidak teratur.\n\nBaik puncak atas maupun bawah memiliki nilai tinggi dan mendekati level kritis.\n\nGelombang tersebut juga memiliki segmen yang tidak jelas, menunjukkan pola abnormal.\n\nResonant Criticality: Relatif tinggi\n\nStabilitas: Rendah\n\nRisiko Overclocking: Signifikan\n\nDisarankan untuk menghubungi walinya untuk pemeriksaan rutin, serta memberikan intervensi psikologis jika diperlukan.\n\nCatatan Coretan:\n\nEncore bilang Aalto BUKAN walinya! Gak mau pemeriksaan! Dia lebih suka cerita!\n\nCatatan tambahan:\n\nTolong jadi anak baik, ya. Kami punya permen kalau kamu mau.",

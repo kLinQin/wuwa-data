@@ -3,7 +3,7 @@
   "element": "Electro",
   "weapon": "Rectifier",
   "rarity": 4,
-  "version": "3.0",
+  "version": "2.8",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Support and Healer",
@@ -15,11 +15,15 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
+    },
+    {
+      "time": "2026-07-17",
+      "text": "- menambahkkan team Notes"
     }
   ],
   "faction": "Mengzhou",
@@ -39,7 +43,7 @@
     ],
     "bestWeapon": "Variation",
     "echoDetails": {
-      "note": "FONR memberikan buff 10% ATK selama 20 detik (100% uptime, 20 detik CD), sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat berakhir lebih cepat jika shield yang diberikan terkena serangan 3 kali. FONR juga lebih mudah secara keseluruhan untuk di-farm karena hanya menjatuhkan satu sonata set.",
+      "note": "- FONR memberikan buff 10% ATK selama 20 detik (100% uptime, 20 detik CD)\n- sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat berakhir lebih cepat jika shield yang diberikan terkena serangan 3 kali. \n- FONR juga lebih mudah secara keseluruhan untuk di-farm karena hanya menjatuhkan satu sonata set.",
       "sets": [
         {
           "label": "Healer",
@@ -100,7 +104,7 @@
       }
     ],
     "talentPriority": {
-      "note": "Tingkatkan Level sesuai kebutuhan untuk heal yang lebih besar; Forte Circuit hanya untuk damage.\nJika mampu mencapai 200% ER hanya dengan 1x ER 3-cost, kita dapat memilih untuk menggunakan ATK% untuk heal tambahan.",
+      "note": "- Tingkatkan Level sesuai kebutuhan untuk heal yang lebih besar; Forte Circuit hanya untuk damage.\n- Jika mampu mencapai 200% ER hanya dengan 1x ER 3-cost, kamu dapat memilih untuk menggunakan ATK% untuk heal tambahan.",
       "priority": [
         "Intro Skill",
         "Normal Attack",
@@ -135,11 +139,12 @@
         ]
       }
     ],
-    "teamNote": "Buling memberikan buff berikut untuk rekan satu timnya:\n- 15% DMG Amplify selama 30 detik setelah melancarkan Outro Skill - 25% Res. Skill DMG Bonus selama 24 detik.\n- Dengan S6: 50% Res. Skill DMG Bonus (sebagai pengganti 25% sebelumnya) kepada Resonator yang aktif."
+    "teamNote": "Buling memberikan buff berikut untuk rekan satu timnya:\n- 15% DMG Amplify selama 30 detik setelah melancarkan Outro Skill \n- 25% Res. Skill DMG Bonus selama 24 detik.\n- Dengan S6: 50% Res. Skill DMG Bonus (sebagai pengganti 25% sebelumnya) kepada Resonator yang aktif."
   },
   "skills": {
     "basic": {
       "name": "Hexagram Calls, Lightning Falls",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -190,6 +195,7 @@
     },
     "skill": {
       "name": "In Shadow Thunder Stirs",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -205,6 +211,7 @@
     },
     "liberation": {
       "name": "Flashing Thunder Spell",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -215,6 +222,7 @@
     },
     "forte": {
       "name": "Thunder Begets Life",
+      "description": "",
       "effects": [
         {
           "title": "Yin-Yang Balance",
@@ -257,6 +265,7 @@
     ],
     "intro": {
       "name": "Summon And Smite",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -267,6 +276,7 @@
     },
     "outro": {
       "name": "Outro Skill",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -478,7 +488,17 @@
     }
   ],
   "lore": {
-    "description": "Taoist dari Mengzhou, Konsultan Black Shores, ahli feng shui, dan penghuni forum veteran.\nSangat santai dan berpengalaman luas, Buling akan membuat \"bling\" apa pun yang Anda cari.\n\nBIRTHPLACE\nHuanglong\n\nADDITIONAL TITLES\nSpiritchaser Taoist\nEarthly Immortal",
+    "description": "Taoist dari Mengzhou, Konsultan Black Shores, ahli feng shui, dan penghuni forum veteran.\nSangat santai dan berpengalaman luas, Buling akan membuat \"bling\" apa pun yang Anda cari.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE ",
+        "description": "Huanglong"
+      },
+      {
+        "title": "ADDITIONAL TITLES",
+        "description": "Spiritchaser Taoist\nEarthly Immortal"
+      }
+    ],
     "report": {
       "resonancePower": "Eye of Unraveling",
       "overclockDiagnostic": "Waveform subjek menunjukkan kurva yang stabil. Nilai puncak tetap berada jauh di bawah ambang batas Overclocking. Tidak ada risiko langsung yang terdeteksi.\n\nStatus emosional terpantau stabil. Indeks suasana hati secara konsisten tetap tinggi. Tidak ada konseling psikologis yang diperlukan.\n\nData historis menunjukkan peningkatan persepsi Reverberation yang stabil seiring bertambahnya usia. Subjek masih belum mampu menyaring input sensorik yang berlebihan secara sukarela.\n\nRekomendasi: Untuk meminimalkan gangguan pada aktivitas sehari-hari, subjek harus terus menggunakan perangkat sense-shielding dalam jangka panjang, dengan parameter yang disesuaikan secara berkala sesuai dengan perubahan sensitivitas.",

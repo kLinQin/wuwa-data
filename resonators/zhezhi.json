@@ -3,7 +3,7 @@
   "element": "Glacio",
   "weapon": "Rectifier",
   "rarity": 5,
-  "version": "3.0",
+  "version": "1.2",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Concerto Efficiency",
@@ -19,7 +19,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "time": "2026-07-16"
@@ -569,7 +576,17 @@
     }
   ],
   "lore": {
-    "description": "Seorang seniman lepas yang berusaha mencari nafkah. Pendiam dan pemalu, ia tidak pandai merangkai kata-kata, tetapi setiap lukisannya berbicara lebih lantang daripada yang bisa ia ungkapkan. Dalam karyanya, dunia yang ia ciptakan tampak begitu nyata—seolah memiliki kehidupan sendiri, dengan keaslian yang nyaris mustahil.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n31 Desember",
+    "description": "Seorang seniman lepas yang berusaha mencari nafkah. Pendiam dan pemalu, ia tidak pandai merangkai kata-kata, tetapi setiap lukisannya berbicara lebih lantang daripada yang bisa ia ungkapkan. Dalam karyanya, dunia yang ia ciptakan tampak begitu nyata—seolah memiliki kehidupan sendiri, dengan keaslian yang nyaris mustahil.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "31 Desember"
+      }
+    ],
     "report": {
       "resonancePower": "Enchanted Brush",
       "resonanceEvaluation": "Dasar Evaluasi: [Resonance Assessment 1231-G]\n\nWaktu pasti Awakening dari Resonator Zhezhi masih belum diketahui. Tanda-tanda \"animasi\" pertama kali muncul di gambar-gambar masa kecilnya, dan seiring dengan berkembangnya keterampilan melukisnya, kendali atas Forte-nya juga meningkat.\n\nTacet Mark milik Zhezhi terletak di punggung tangan kanannya. Setelah Awakening, tidak ditemukan perubahan fisik yang signifikan. Pengujian menunjukkan bahwa Zhezhi dapat \"menghidupkan\" lukisannya, mempengaruhi persepsi visual dan penilaian pengamat (berlaku baik untuk makhluk hidup maupun Tacet Discords).\n\n\"Animasi\" ini memiliki dua tingkatan:\n\nModerate: Menyebabkan sedikit pergerakan pada gambar dua dimensi.\n\nSevere: Mensimulasikan bentuk tiga dimensi secara sementara, bertahan hingga 30 menit 28 detik dan mencakup area hingga 274,5 meter persegi.\n\nKedua tingkatan ini hanya menghasilkan ilusi, bukan objek nyata. Tidak ditemukan pola waktu yang stabil. Belum ada Resonance Spectrum Pattern serupa yang teridentifikasi, dan penyebab Awakening milik Zhezhi masih belum jelas.\n\nSelain itu, analisis sampel uji menunjukkan Rabelle’s Curve dengan gelombang periodik yang mencolok. Oleh karena itu, Zhezhi diklasifikasikan sebagai Congenital Resonator.\n\n",

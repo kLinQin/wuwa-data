@@ -3,7 +3,7 @@
   "element": "Glacio",
   "weapon": "Sword",
   "rarity": 4,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Concerto Efficiency",
@@ -14,7 +14,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "time": "2026-07-16"
@@ -563,7 +570,17 @@
     }
   ],
   "lore": {
-    "description": "Pengawal pribadi Magistrate Jinzhou, dikenal karena kepribadiannya yang dingin. Dahulu dijuluki sebagai Asura of Calamity, kini Sanhua adalah penjaga yang pendiam namun tak tergoyahkan.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n20 Januari",
+    "description": "Pengawal pribadi Magistrate Jinzhou, dikenal karena kepribadiannya yang dingin. Dahulu dijuluki sebagai Asura of Calamity, kini Sanhua adalah penjaga yang pendiam namun tak tergoyahkan.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "20 Januari"
+      }
+    ],
     "report": {
       "resonancePower": "Snow Waltz",
       "overclockDiagnostic": "Grafik gelombang untuk Resonator Sanhua menunjukkan fluktuasi elips. Pola Time Domain stabil tanpa gelombang abnormal. Hasil pemeriksaan dinyatakan berada dalam parameter normal, tetapi risiko Overclocking tetap ada.\n- Kritisitas Resonansi: Sangat stabil, tetapi terus mendekati ambang batas kritis. Risiko Overclocking tetap tinggi.\n- Riwayat Overclocking: Terdokumentasi. Maksimum rating Overclock: Sedang.\n\nDalam insiden Overclocking sebelumnya, Sanhua menyebabkan badai salju Level 2 akibat periode panjang di ambang Resonance Criticality serta reaksi Fluktuasi Frekuensi yang ekstrem. Tidak ada korban sipil yang dilaporkan. Semua kejadian ini tercatat dengan kode EX01521 dan dikategorikan sebagai insiden berbahaya Kelas 3.\n\nFrekuensi Sanhua terus berfluktuasi akibat erosi, menyebabkan ledakan energi dan perubahan persepsi. Overclocking-nya mempercepat penyebaran erosi serta mengubah warna pupil kirinya dari abu-abu menjadi merah.\n\nKarena kecenderungan Overclocking di masa lalu, pemantauan ketat terhadap kondisi psikologis dan fisiknya sangat disarankan. Konseling rutin dan pemeriksaan berkala diperlukan.",

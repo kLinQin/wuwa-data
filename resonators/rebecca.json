@@ -16,9 +16,16 @@
   ],
   "changelog": [
     {
-      "text": "NEW CHARACTER",
+      "text": "- refactor Lore page",
       "type": "updated",
-      "isNew": true,
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- NEW CHARACTER",
+      "type": "updated",
+      "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
     }

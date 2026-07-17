@@ -15,8 +15,15 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
-      "type": "input",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Add lucilla di team comp",
+      "type": "updated",
       "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
@@ -130,23 +137,23 @@
     },
     "teams": [
       {
-        "name": "Hiyuki - HC",
+        "name": "Hypercarry",
         "members": [
           [
             "hiyuki"
           ],
           [
-            "Lynae"
+            "Lynae",
+            "Lucilla"
           ],
           [
-            "Chisa",
-            "Mornye"
+            "Chisa"
           ]
         ],
-        "note": "Saat info ini dibuat, tim terbaik Hiyuki saat ini terdiri dari Lynae dan Chisa.\nMeskipun Lynae kemungkinan akan digantikan oleh unit Glacio Chafe di masa depan, ia tetap memberikan buff kuat yang menguntungkan Hiyuki."
+        "note": "- Memiliki Chisa di dalam tim akan memaksimalkan Inherent Skill milik Hiyuki: Fine Snow.\n- Dengan adanya Lucilla di dalam tim, Hiyuki kini dapat memberikan tumpukan terakhir dari Snow Rust, yang meningkatkan Glacio Bite DMG sebesar 30%.\n- Karena Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya beserta buff kuat lainnya, ia tetap menjadi alternatif yang kuat untuk Lucilla."
       },
       {
-        "name": "Hiyuki - HC Alt 1",
+        "name": "HC Alternatif",
         "members": [
           [
             "hiyuki"
@@ -158,10 +165,10 @@
             "Chisa"
           ]
         ],
-        "note": "Kehadiran Chisa di dalam tim memaksimalkan Inherent Skill Hiyuki: Fine Snow.\nIa masih kekurangan satu unit yang dapat memberikan stack(s) terakhir dari Snow Rust dan saat ini belum dapat memberikan Amplify pada Glacio Bite DMG sebesar 30%."
+        "note": "- Karena Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya beserta buff kuat lainnya, ia tetap menjadi alternatif yang kuat untuk Lucilla.\nNamun, Hiyuki tidak akan dapat memberikan tumpukan terakhir dari Snow Rust sehingga tidak mampu meningkatkan Glacio Bite DMG sebesar 30%."
       },
       {
-        "name": "Hiyuki - HC Alt 2",
+        "name": "HC Alternatif",
         "members": [
           [
             "hiyuki"
@@ -174,14 +181,15 @@
             "Shorekeeper"
           ]
         ],
-        "note": ""
+        "note": "- teaam opsional"
       }
     ],
-    "teamNote": ""
+    "teamNote": "Hiyuki adalah main DPS yang yang fokus utamanya memberikan Resonance Liberation DMG Bonus dan Glacio chafe mechanic"
   },
   "skills": {
     "basic": {
       "name": "Flaming Sakura Blade Art",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack - Present Self",
@@ -232,6 +240,7 @@
     },
     "skill": {
       "name": "Resonance Skill - Present Self",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -272,6 +281,7 @@
     },
     "liberation": {
       "name": "Foreclaiming",
+      "description": "",
       "effects": [
         {
           "title": "Foreclaiming: Inward Vision",
@@ -287,7 +297,8 @@
     },
     "forte": {
       "name": "",
-      "description": ""
+      "description": "",
+      "effects": []
     },
     "inherent": [
       {
@@ -358,6 +369,7 @@
     ],
     "intro": {
       "name": "Frostedge",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -378,6 +390,7 @@
     },
     "outro": {
       "name": "Snowlight Blessing",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -717,6 +730,16 @@
   ],
   "lore": {
     "description": "Berasal dari Ashinohara, Miko of Flaming Sakura kini menetap di Lahai-Roi sebagai anggota terakhir dan satu-satunya dari Special Response Force.",
+    "manualEntries": [
+      {
+        "title": "AGE",
+        "description": ">100"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Miko of Flaming Sakura (on profile)\nSpecial Response Force\nSpacetrek Collective\nStartorch Academy"
+      }
+    ],
     "report": {
       "resonancePower": "Futures' Tithe",
       "overclockDiagnostic": "Diagram Rabelle's Waveform subjek menunjukkan pola osilasi elips dengan representasi Time Domain yang stabil. Tidak ditemukan fluktuasi abnormal. Hasil pemeriksaan ditentukan berada dalam parameter normal.\n\nAmbang batas Overclocking saat ini sangat tinggi, dan stabilitas subjek tetap kuat. Tidak ada risiko Overclocking, dan subjek tidak memiliki riwayat Overclocking sebelumnya. Namun, rangkaian intervensi psikologis direkomendasikan.\n\n\"Miko ini... Bagaimana aku harus mengatakannya...\"\n\"Buku teks Ashinohara tidak pernah menunjukkan wajahnya, tetapi mereka jelas tentang satu hal. Ia adalah pejuang hidup terkuat di seluruh Ashinohara.\"\n\"Namun, dengan semua pertempuran itu, pembacaan datanya tetap stabil sempurna. Ada sesuatu yang terasa tidak benar...\"\n\"Aku mengerti kekhawatiranmu, tetapi datanya jelas. Tidak ada satu pun kejanggalan.\"\n\"...Lalu bagaimana dengan bayangan-bayangan itu? Seperti versi dirinya dari alam semesta paralel dalam sebuah film?\"\n\"Hampir tidak mungkin. Itu pastilah kekuatan Suzu. Sama seperti yang dijelaskan dalam catatan Ashinohara, hal itu memungkinkan ia untuk 'memanfaatkan masa depan' hingga batas tertentu.\"",

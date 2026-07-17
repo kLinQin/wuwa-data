@@ -3,7 +3,7 @@
   "element": "Fusion",
   "weapon": "Pistol",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.7",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer",
@@ -14,7 +14,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- menambahkan lucilla ke dalam sub dps",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -156,13 +163,14 @@
     "teams": [
       {
         "name": "Galbrena Hypercarry",
-        "note": "Qiuyuan memberikan Galbrena 50% Echo Skill DMG Amplify selama 14 detik setelah menggunakan Outro Skill miliknya. Ia juga memberikan buff tambahan.",
+        "note": "Qiuyuan dan Lucilla memberikan Galbrena 50% Echo Skill DMG Amplify selama 14 detik",
         "members": [
           [
             "Galbrena"
           ],
           [
-            "Qiuyuan"
+            "Qiuyuan",
+            "Lucilla"
           ],
           [
             "Lupa",
@@ -172,7 +180,7 @@
       },
       {
         "name": "Alternatif Hypercarry",
-        "note": "Meskipun Galbrena tidak mendapatkan keuntungan dari Liberation & Basic DMG Amplify milik Lupa atau Brant, mereka tetap dapat memberikan Fusion DMG sebagai tim Mono-Fusion. Jika Brant tidak tersedia, Mortefi dapat digunakan untuk Heavy DMG Amp atau Shorekeeper sebagai gantinya untuk tim hypercarry.\nMornye tetap menjadi pengganti terbaik.",
+        "note": "- Meskipun Galbrena tidak mendapatkan keuntungan dari Liberation & Basic DMG Amplify milik Lupa atau Brant, mereka tetap dapat memberikan Fusion DMG sebagai tim Mono-Fusion. \n- Jika Brant tidak tersedia, Mortefi dapat digunakan untuk Heavy DMG Amp atau Shorekeeper sebagai gantinya untuk tim hypercarry.\n- Mornye tetap menjadi pengganti terbaik.",
         "members": [
           [
             "Galbrena"
@@ -188,11 +196,12 @@
         ]
       }
     ],
-    "teamNote": ""
+    "teamNote": "Gallbrena adalah Main DPS yang scaling antara Heavy Attack dan Echo Skill Damage"
   },
   "skills": {
     "basic": {
       "name": "Slayer'S Trigger",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -218,6 +227,7 @@
     },
     "skill": {
       "name": "Resonance Skill",
+      "description": "",
       "effects": [
         {
           "title": "Resonance Skill - Encroach",
@@ -233,6 +243,7 @@
     },
     "liberation": {
       "name": "Hellfire Absolution",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -258,6 +269,7 @@
     },
     "forte": {
       "name": "Beyond Threshold",
+      "description": "",
       "effects": [
         {
           "title": "Threshold State",
@@ -344,11 +356,12 @@
       },
       {
         "name": "Tune Break: Pistols",
-        "description": ""
+        "effects": []
       }
     ],
     "intro": {
       "name": "Hellflare Overload",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -374,6 +387,7 @@
     },
     "outro": {
       "name": "Ashen Pursuit",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -651,7 +665,29 @@
     }
   ],
   "lore": {
-    "description": "Dingin dan tegas, ia adalah \"Discord Slayer\" yang berburu di sepanjang Solaris, sekaligus \"Fiend of Ever-burning Flame\" yang disebut-sebut dalam bisikan. Kini, ia bertugas sebagai Konsultan Black Shores, aktif di seluruh penjuru dunia.\n\nBIRTHPLACE\nRinascita\n\nBIRTHDATE\n21 Maret",
+    "description": "Dingin dan tegas, ia adalah \"Discord Slayer\" yang berburu di sepanjang Solaris, sekaligus \"Fiend of Ever-burning Flame\" yang disebut-sebut dalam bisikan. Kini, ia bertugas sebagai Konsultan Black Shores, aktif di seluruh penjuru dunia.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Rinascita"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "21 Maret"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Black Shores (on profile)\nSeptimont\nFabianum"
+      },
+      {
+        "title": "REAL NAME",
+        "description": "Angel"
+      },
+      {
+        "title": "ADDITIONAL TITLES",
+        "description": "Fiend of Ever-burning Flame\nDiscord Slayer"
+      }
+    ],
     "report": {
       "resonancePower": "Infernal Descent",
       "overclockDiagnostic": "Resonator Galbrena memiliki riwayat Overclocking yang terdokumentasi.\nPeringkat Maksimum Overclocking: Negligible/Dapat Diabaikan\n\nBlack Shores Bloom Bearer Research Report\n\nMeskipun kekuatan yang ditunjukkan Ms. Galbrena setelah Overclocking begitu besar termasuk perubahan mencolok pada penampilan dan fisiologinya, kami tetap mengklasifikasikan peringkat Maksimum Overclocking-nya secara historis sebagai dapat diabaikan.\n\nAsessment ini harus dipahami dalam konteksnya: Resonance Ability-nya pernah terkorrupsi oleh Dark Tide, meninggalkannya hampir benar-benar kosong. Bagi seorang Resonator yang begitu terkuras, mampu mencapai Overclocking sama sekali, berpindah dari defisit ke surplus, dari ketiadaan ke kehadiran, adalah sebuah keajaiban.\n\nSecara tradisional, Overclocking didefinisikan sebagai kondisi yang menghabiskan jiwa dan raga, menandakan dominasi kecenderungan destruktif atas regeneratif dalam diri Resonator. Namun kasus Galbrena memaksa kami untuk meninjau ulang definisi tersebut. Dalam dirinya, Overclocking tidak muncul sebagai kemunduran, melainkan tanda kelahiran kembali. Hal ini mengindikasikan bahwa fenomena ini mungkin erat kaitannya dengan kemauan sang Resonator dan jika dibimbing dengan tepat, Overclocking berpotensi menghasilkan dampak konstruktif, berubah menjadi kekuatan yang suatu hari bisa dipahami dan dikendalikan secara sadar oleh para Resonator.\n\nCatatan Penting: Seluruh personel penelitian dilarang keras mencoba dengan metode apa pun untuk mereplikasi metode Overclocking Ms. Galbrena. \nSetiap pelanggaran, begitu terdeteksi, akan langsung dikenai tindakan penahanan.",

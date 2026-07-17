@@ -3,7 +3,7 @@
   "element": "Havoc",
   "weapon": "Sword",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.8",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Support and Healer",
@@ -15,7 +15,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Update team note",
       "type": "updated",
       "isNew": false,
       "time": "2026-07-16"
@@ -61,6 +68,21 @@
             },
             "Midnight Veil"
           ]
+        },
+        {
+          "label": "General ",
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ],
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "",
+          "stats": [
+            "4: CR%/CDMG%",
+            "3: Havoc%",
+            "3: Havoc%",
+            "1: ATK%",
+            "1: ATK%"
+          ]
         }
       ],
       "substats": [
@@ -70,7 +92,7 @@
         "Reso Libe DMG",
         "ATK"
       ],
-      "note": ""
+      "note": "Kamu dapat memilih untuk menggunakan Fallacy dan Rejuv jika ia berada di dalam tim bersama Hiyuki dan Aemeath. Karena Cartethyia tidak mendapatkan keuntungan dari ATK yang diberikan oleh set tersebut, silakan gunakan 3-pc Thread + 2-pc HE/MV sebagai gantinya."
     },
     "weaponNote": "Jika ia menggunakan senjata signature miliknya, pertimbangkan Havoc DMG Bonus / ATK untuk 3-Cost.",
     "weaponOptions": [
@@ -157,46 +179,13 @@
         false
       ]
     },
-    "teams": [
-      {
-        "name": "Erosion ",
-        "members": [
-          [
-            "Cartethyia"
-          ],
-          [
-            "Ciaccona",
-            "Aero Rover"
-          ],
-          [
-            "Chisa"
-          ]
-        ],
-        "note": ""
-      },
-      {
-        "name": "Frazzle",
-        "members": [
-          [
-            "Zani",
-            "Phoebe"
-          ],
-          [
-            "Phoebe",
-            "Spectro Rover"
-          ],
-          [
-            "Chisa"
-          ]
-        ],
-        "note": ""
-      }
-    ],
-    "teamNote": "Chisa bukan merupakan pilihan terbaik (best in slot) untuk tim mana pun. Kemampuan tarikan dan pengelompokan (grouping) miliknya mungkin membuatnya lebih disukai untuk gameplay Rover: Aero dalam tim Cartethyia dan Ciaccona.\n\nChisa memberikan buff berikut untuk rekan timnya: \n- Meningkatkan stack maksimal Negative Statuses sebanyak 3 selama 15 detik\n- 30% Def Ignore (12% dari Havoc Bane, 18% dari Forte)\n- Dengan Kumokiri (signature Chisa): 24% All-Attribute DMG Bonus selama 15 detik saat Resonator dalam tim memberikan Negative Statuses.\n\nChisa dapat memaksimalkan DMG Amplify dari Resonance Liberation milik Cartethyia [Blade of Howling Squall]. Ia merupakan alternatif untuk Rover: Aero, yang gameplay miliknya mungkin tidak disukai oleh sebagian orang.\nIa juga memberikan 30% Def Ignore.\n\nBuff Chisa tidak bermanfaat bagi Zani karena ia mengubah semua Spectro Frazzle menjadi Heliacal Embers, yang tidak dianggap sebagai Negative Status."
+    "teams": [],
+    "teamNote": "1. Chisa memberikan buff berikut untuk rekan satu timnya: \n- Meningkatkan batas maksimal tumpukan Negative Status sebesar 3 selama 15 detik \n- 30% Def Ignore (12% dari Havoc Bane, 18% dari Forte)\n- Dengan Kumokiri (Signature Chisa): 24% All-Attribute DMG Bonus selama 15 detik ketika Resonator di dalam tim memberikan Negative Status.\n\n2. Chisa merupakan support yang banyak dicari oleh berbagai Negative Status DPS (Aemeath, Hiyuki, Yangyang: Xuanling, Cartethyia, dan Phoebe), berkat kemampuannya untuk memberikan Havoc Bane dan meningkatkan batas maksimal dari seluruh Negative Status yang dapat diberikan kepada musuh.\nIa juga memberikan 30% Def Ignore.\n"
   },
   "skills": {
     "basic": {
       "name": "Reign Of Silence",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -247,6 +236,7 @@
     },
     "skill": {
       "name": "Fractured Composition",
+      "description": "",
       "effects": [
         {
           "title": "Eye of Unraveling",
@@ -262,6 +252,7 @@
     },
     "liberation": {
       "name": "Moment Of Nihility",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -277,6 +268,7 @@
     },
     "forte": {
       "name": "Sight Of Unraveling - Oblivion",
+      "description": "",
       "effects": [
         {
           "title": "Unseen Snare",
@@ -354,6 +346,7 @@
     ],
     "intro": {
       "name": "Reverberance - Return",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -374,6 +367,7 @@
     },
     "outro": {
       "name": "Unraveling - Law Zero",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -716,7 +710,17 @@
     }
   ],
   "lore": {
-    "description": "\"Just an ordinary student.\"\nDengan tenang, ia memperkenalkan dirinya, samar kilauan warna-warni berkedip di matanya. \nLagi, struktur dunia terungkap dalam pandangannya. Ia menyipitkan mata, memilih satu benang yang tepat dengan benang yang menarik kehidupan itu sendiri.\n\nBIRTHPLACE\nAshinohara",
+    "description": "\"Just an ordinary student.\"\nDengan tenang, ia memperkenalkan dirinya, samar kilauan warna-warni berkedip di matanya. \nLagi, struktur dunia terungkap dalam pandangannya. Ia menyipitkan mata, memilih satu benang yang tepat dengan benang yang menarik kehidupan itu sendiri.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Ashinohara"
+      },
+      {
+        "title": "FAMILY",
+        "description": "Mr.& Mrs Kuchiba\n"
+      }
+    ],
     "report": {
       "resonancePower": "Eye of Unraveling",
       "resonanceEvaluation": "Otorisasi dikonfirmasi. Berkas terkait telah dibuka. Selamat datang, Inspektur ███\n\nForte Examination Report: NHA-Eye of Unraveling-017\n\nSubject: Chisa Kuchiba\nTipe Resonator: Mutant\nLokasi Tacet Mark: Lengan atas kanan\nLembaga Pengujian: Ashinohara - Neo Honami - Resonator Monitoring Center\n\nPengujian menunjukkan subjek memiliki kemampuan kognitif luar biasa untuk secara intuitif memahami struktur, bentuk, dan pergerakan objek yang diamati. Saat menggunakan Forte-nya, ia mampu menganalisis titik lemah objek melalui penglihatannya dan memberikan gangguan presisi untuk memicu kehancuran struktural.\n\nCatatan: Subjek melaporkan melihat \"benang-benang\" yang menyebabkan objek terurai. Analisis awal menunjukkan bahwa \"benang-benang\" tersebut bukan entitas nyata, melainkan manifestasi visual yang eksklusif bagi penglihatannya.",

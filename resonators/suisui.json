@@ -15,9 +15,16 @@
   ],
   "changelog": [
     {
-      "text": "9 July 2026\n- finishing\n- sisa material dan chart\n\n5 July 2026\n- minimal input\n- icon echo masih pakai stay tuned\n- icon sequence belum di rubah\n- materials\n- lore page",
+      "text": "- refactor Lore page",
+      "type": "input",
+      "isNew": true,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- 9 July 2026\n- finishing\n- sisa material dan chart\n\n5 July 2026\n- minimal input\n- icon echo masih pakai stay tuned\n- icon sequence belum di rubah\n- materials\n- lore page",
       "type": "updated",
-      "isNew": false,
+      "isNew": true,
       "leaks": false,
       "time": "2026-07-16"
     }

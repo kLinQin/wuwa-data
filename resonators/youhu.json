@@ -3,7 +3,7 @@
   "element": "Glacio",
   "weapon": "Gauntlet",
   "rarity": 4,
-  "version": "3.0",
+  "version": "1.3",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Support and Healer",
@@ -16,7 +16,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "time": "2026-07-16"
@@ -422,7 +429,17 @@
     }
   ],
   "lore": {
-    "description": "Seorang appraiser barang antik yang cerewet dan penuh kejenakaan. Dikenal karena kemampuannya menciptakan limerik secara spontan, ia menyampaikan hasil appraisal dengan gaya teatrikal namun akurat. Dengan membuka lapak di pinggir jalan, ia memastikan setiap barang antik menemukan pemilik yang benar-benar menghargainya.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n13 Oktober",
+    "description": "Seorang appraiser barang antik yang cerewet dan penuh kejenakaan. Dikenal karena kemampuannya menciptakan limerik secara spontan, ia menyampaikan hasil appraisal dengan gaya teatrikal namun akurat. Dengan membuka lapak di pinggir jalan, ia memastikan setiap barang antik menemukan pemilik yang benar-benar menghargainya.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "13 Oktober"
+      }
+    ],
     "report": {
       "resonancePower": "Cryogenic Wonders",
       "overclockDiagnostic": "Grafik gelombang Resonator Youhu menunjukkan pulse fluctuation persegi non-periodik yang terjadi sekali, dengan nilai puncak yang bertahan selama interval tertentu sebelum perlahan menurun. Saat ini, gelombang ini menunjukkan sinusoidal fluctuations yang jelas, dengan nilai puncak atas dan bawah yang rendah.\n\nKritisitas Resonansi: Relatif tinggi.\nFrekuensi resonansi Youhu menunjukkan stabilitas tinggi, dengan risiko Overclocking yang rendah.\n\nDianjurkan untuk melakukan pemeriksaan fisik rutin, sementara konseling psikologis belum diperlukan untuk saat ini.",

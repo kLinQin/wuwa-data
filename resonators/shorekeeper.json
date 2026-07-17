@@ -3,7 +3,7 @@
   "element": "Spectro",
   "weapon": "Rectifier",
   "rarity": 5,
-  "version": "3.0",
+  "version": "1.3",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Support and Healer",
@@ -15,7 +15,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -505,7 +512,21 @@
     }
   ],
   "lore": {
-    "description": "The Shorekeeper, penjaga Black Shores—gelar ini saja dulu telah mendefinisikannya. Namun, keinginan, ikatan, dan emosi… Dia baru mulai memahami semua ini setelah bertemu denganmu.\n\nBIRTHPLACE\nThe Black Shores\n\nBIRTHDATE\n27 Februari\n\nADDITIONAL TITLES\nThe Second Instance\nGuardian of Secrets",
+    "description": "The Shorekeeper, penjaga Black Shores—gelar ini saja dulu telah mendefinisikannya. Namun, keinginan, ikatan, dan emosi… Dia baru mulai memahami semua ini setelah bertemu denganmu.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "The Black Shores"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "27 Februari"
+      },
+      {
+        "title": "ADDITIONAL TITLES",
+        "description": "The Second Instance\nGuardian of Secrets"
+      }
+    ],
     "report": {
       "resonancePower": "Euphonic Chrysalis",
       "resonanceEvaluation": "[Catatan Arsip yang Diambil - A.A1001]\nSubjek: Instansi Kedua / Second Instance\nPerekam: ▇▇▇▇\nSegmen Rekaman: A.A-000\n\nSecond Instance (juga dikenal sebagai Shorekeeper) sepenuhnya terdiri dari kristal Remnant Energy dengan kemurnian tinggi. Aktivasi yang berhasil mengonfirmasi kebenaran teori ▇▇▇▇, yang mengusulkan hal berikut:\n\na. Dengan memodelkan jangkar modul \"Blazar\", Remnant Energy dapat ditarik dan dipadatkan,\nyang menghasilkan materialisasi energi.\n\nb. Memasukkan data informasi ke dalam entitas energi memberi kemampuan kognitif kepadanya.\n\nBerbeda dengan logika resonansi konvensional, Second Instance (Shorekeeper) dapat langsung menggunakan Remnant Energy. Ketika diaktifkan, tanda-tanda seperti kristal di dadanya memancarkan cahaya biru samar. Frekuensinya selaras dengan Remnant Energy murni tetapi dipengaruhi oleh pengaturan modul yang dipilih. Siklus kemampuannya menyerupai evolusi bintang. Hal ini digambarkan secara visual melalui fenomena seperti nebula mirip kupu-kupu dan domain yang menyerupai peta bintang.\n\n▇▇▇▇▇▇▇▇▇▇▇▇\nStatus lanjutan dari Second Instance akan terus dipantau oleh ▇▇.",

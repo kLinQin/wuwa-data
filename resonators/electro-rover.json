@@ -9,7 +9,14 @@
   "sonatas": [],
   "changelog": [
     {
-      "text": "09-07-2026\n- input data Electro Rover\n- minus build \n- minus stats rekomendasi\n- minus mats\n- minus chart",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- 09-07-2026\n- input data Electro Rover\n- minus build \n- minus stats rekomendasi\n- minus mats\n- minus chart",
       "type": "updated",
       "isNew": false,
       "leaks": false,

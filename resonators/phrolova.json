@@ -3,7 +3,7 @@
   "element": "Havoc",
   "weapon": "Rectifier",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.5",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer",
@@ -16,7 +16,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -147,7 +154,8 @@
             "Phrolova"
           ],
           [
-            "Qiuyuan"
+            "Qiuyuan",
+            "Lucilla"
           ],
           [
             "Cantarella",
@@ -178,6 +186,7 @@
   "skills": {
     "basic": {
       "name": "Movement Of Life And Death",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -208,6 +217,7 @@
     },
     "skill": {
       "name": "Whispers In A Fleeting Dream",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -223,6 +233,7 @@
     },
     "liberation": {
       "name": " Waltz Of Forsaken Depths",
+      "description": "",
       "effects": [
         {
           "title": "Waltz of Forsaken Depths",
@@ -263,6 +274,7 @@
     },
     "forte": {
       "name": "Rhapsody Of A New World",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack - Movement of Fate and Finality",
@@ -330,6 +342,7 @@
     ],
     "intro": {
       "name": "Suite Of Quietus",
+      "description": "",
       "effects": [
         {
           "title": "Suite of Quietus",
@@ -345,6 +358,7 @@
     },
     "outro": {
       "name": "Unfinished Piece",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -658,7 +672,17 @@
     }
   ],
   "lore": {
-    "description": "Phrolova, seorang Overseer Fractsidus yang melangkah di antara batas hidup dan mati—seorang deadly conductor.\nDengan satu gerakan halus baton di tangannya, ia mampu menyelaraskan frekuensi keberadaan dan menggubah simfoni para \"jiwa.\"\nAlunan musiknya bisa membentuk dunia yang lebih baik, atau sama mudahnya, memanggil legiun untuk menebar kehancuran.\n\nADDITIONAL TITLES\nThe Conductor\nMysterious Woman in Red",
+    "description": "Phrolova, seorang Overseer Fractsidus yang melangkah di antara batas hidup dan mati—seorang deadly conductor.\nDengan satu gerakan halus baton di tangannya, ia mampu menyelaraskan frekuensi keberadaan dan menggubah simfoni para \"jiwa.\"\nAlunan musiknya bisa membentuk dunia yang lebih baik, atau sama mudahnya, memanggil legiun untuk menebar kehancuran.",
+    "manualEntries": [
+      {
+        "title": "ADDITIONAL TITLES",
+        "description": "The Conductor\nMysterious Woman in Red"
+      },
+      {
+        "title": "BIRTHPLACE",
+        "description": "Ostina"
+      }
+    ],
     "report": {
       "resonancePower": "Symphony of Beyond",
       "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment RA-F2005-G]\n\nAwakening Phrolova terjadi di saat kematiannya, momen yang memberinya kemampuan untuk menyelaraskan frekuensi target dan mengubah \"melodi\" mereka, berdasarkan pemahaman mendalam tentang struktur frekuensi kritis pada materi.\nKekuatan kemampuan ini bergantung langsung pada kondisi fisiknya.\nData uji terbaru menunjukkan bahwa dalam kondisi Overclock ekstrem dan tetap sadar, jangkauan tuning Phrolova bisa meluas hingga 30 kali lipat dari normal, dengan durasi maksimum yang pernah tercatat selama 46 detik.\nKarena asal-usul kemampuannya yang kompleks, waktu dan penyebab pasti Awakening-nya tidak bisa dipastikan.\n\nTacet Mark Phrolova terletak di lengan kirinya. Mutasi Tacet Discord yang muncul setelah Awakening menghentikan proses penuaan tubuhnya—satu-satunya perubahan fisik yang tercatat hanyalah perubahan warna pada iris mata kirinya.\nHasil pengujian menunjukkan bahwa selama tubuhnya dalam kondisi sehat, regenerasi kulit dan penyusunan ulang frekuensi hanya memerlukan waktu sekitar 6 detik, sementara pemulihan organ dalam berlangsung antara 15 sampai 18 menit.\nSampai laporan ini ditulis, belum ditemukan kelemahan fatal pada dirinya.\n\nPemeriksaan juga mengungkap adanya kumpulan besar frekuensi kacau dalam tubuh Phrolova, diperkirakan berjumlah sekitar seribu frekuensi—meskipun jumlah pastinya belum diketahui.\nEksperimen lanjutan memastikan bahwa frekuensi-frekuensi ini tidak berdampak negatif terhadap tubuh maupun kemampuan Resonance-nya.\nFrekuensi tersebut dianggap tidak memiliki nilai signifikan dan hanya berkaitan dengan fluktuasi mental yang dialaminya.\n\nAnalisis sampel uji menunjukkan pola Kurva Rabelle yang datar dan stabil, diikuti lonjakan tajam lalu kembali menurun secara konsisten. Karena itu, Phrolova diklasifikasikan sebagai Mutant Resonator.\nSerangkaian eksperimen juga mengonfirmasi bahwa metode Awakening miliknya tidak bisa direplikasi secara buatan pada individu lain.",

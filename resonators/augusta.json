@@ -3,7 +3,7 @@
   "element": "Electro",
   "weapon": "Broadblade",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.6",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer",
@@ -20,6 +20,10 @@
       "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
+    },
+    {
+      "time": "2026-07-17",
+      "text": "- menambahkan Rebecca sebagai Sub DPS"
     }
   ],
   "faction": "Ephor's Palace",
@@ -176,13 +180,14 @@
       },
       {
         "name": "Dual DPS",
-        "note": "Mortefi memberikan Augusta 38% Heavy DMG Amplify setelah melancarkan Outro Skill miliknya, berfungsi sebagai opsi tim \"budget\" untuk Augusta.",
+        "note": "Rebecca dan Mortefi memberikan Augusta 38% Heavy DMG Amplify setelah melancarkan Outro Skill miliknya.",
         "members": [
           [
             "Augusta"
           ],
           [
-            "Mortefi"
+            "Mortefi",
+            "Rebecca"
           ],
           [
             "Shorekeeper"
@@ -190,11 +195,12 @@
         ]
       }
     ],
-    "teamNote": ""
+    "teamNote": "Augusta merupakan Main DPS yang fokus utamanya memberikan Heavy ATK DMG."
   },
   "skills": {
     "basic": {
       "name": "Hunter'S Path",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -255,6 +261,7 @@
     },
     "skill": {
       "name": "Warrior'S Blade",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -265,6 +272,7 @@
     },
     "liberation": {
       "name": "Sunward Conquest",
+      "description": "",
       "effects": [
         {
           "title": "Resonance Liberation - Sword of Eternal Oath",
@@ -300,6 +308,7 @@
     },
     "forte": {
       "name": "Call Me By The Sun",
+      "description": "",
       "effects": [
         {
           "title": "Resonance Skill - Undying Sunlight: Strike",
@@ -357,6 +366,7 @@
     ],
     "intro": {
       "name": "Stride Of Goldenflare",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -367,6 +377,7 @@
     },
     "outro": {
       "name": "Battlesong Of The Unyielding",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -701,7 +712,21 @@
     }
   ],
   "lore": {
-    "description": "Ephor dari Septimont. Matahari abadi yang selamanya berkobar, dan sebuah panji yang di bawahnya kekalahan tidak pernah ada.\nIa datang. Ia melihat. Ia menaklukkan.\nDengan bilah pedang yang terangkat tinggi, ia menanti penantang berikutnya atau takdir yang mengeklaim bahwa ia tidak dapat ditentang.\n\nBIRTHPLACE\nRinascita\n\nADDITIONAL TITLES\nEphor of Septimont\nChampion of the Great Agon\nHero of Heroes",
+    "description": "Ephor dari Septimont. Matahari abadi yang selamanya berkobar, dan sebuah panji yang di bawahnya kekalahan tidak pernah ada.\nIa datang. Ia melihat. Ia menaklukkan. \nDengan bilah pedang yang terangkat tinggi, ia menanti penantang berikutnya atau takdir yang mengeklaim bahwa ia tidak dapat ditentang.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Rinascita"
+      },
+      {
+        "title": "ADDITIONAL TITLES",
+        "description": "Ephor of Septimont\nChampion of the Great Agon\nHero of Heroes"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Septimont (on profile)\nEphor's Palace\nFabianum"
+      }
+    ],
     "report": {
       "resonancePower": "Magnetism Before Light",
       "overclockDiagnostic": "[Laporan Medis Tahunan Istana Ephor—Akses Terverifikasi]\nGrafik waveform subjek menunjukkan fluktuasi elips. Pola Time Domain teratur, dan tidak ada tanda-tanda fluktuasi abnormal yang diamati. Hasil pengujian berada dalam rentang fase normal.\n\nResonant Criticality: Subjek ini memiliki risiko Overclocking yang minimal. Berdasarkan intensitas waveform, potensi Overclocking juga dikesampingkan.\n\nCatatan menunjukkan tidak ada riwayat Overclocking, dan konseling psikologis saat ini dianggap tidak perlu.\n\n\"Setiap kali kita melakukan ini, rasanya seperti memeriksa tinggi badanmu saat kau sudah menjadi wanita dewasa, yang mana... agak sedikit canggung...\"\n\n\"Tapi saat masuk ke tes fisik, kau tidak pernah gagal membuat kejutan. Yah, lebih tepatnya mengejutkan siapa pun yang merancang peralatan tes ini...\"\n\n\"Haha, benarkah begitu?\"",

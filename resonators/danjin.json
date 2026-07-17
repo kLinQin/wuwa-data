@@ -3,7 +3,7 @@
   "element": "Havoc",
   "weapon": "Sword",
   "rarity": 4,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Concerto Efficiency",
@@ -16,7 +16,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Menambahkan affiliation di lore page",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -191,6 +198,7 @@
   "skills": {
     "basic": {
       "name": "Execution",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -216,6 +224,7 @@
     },
     "skill": {
       "name": "Crimson Fragment",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -251,6 +260,7 @@
     },
     "liberation": {
       "name": "Crimson Bloom",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -261,6 +271,7 @@
     },
     "forte": {
       "name": "Serene Vigil",
+      "description": "",
       "effects": [
         {
           "title": "Heavy Attack: Chaoscleave",
@@ -308,6 +319,7 @@
     ],
     "intro": {
       "name": "Vindication",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -318,6 +330,7 @@
     },
     "outro": {
       "name": "Duality",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -627,7 +640,21 @@
     }
   ],
   "lore": {
-    "description": "Dengan sebilah pedang pembalasan yang terbuat dari darah pekat di tangannya, Ranger Danjin memburu pencuri dan bandit untuk membalas dendam. Ia melakukan perjalanan ke negeri-negeri jauh demi keadilan.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n31 Agustus",
+    "description": "Dengan sebilah pedang pembalasan yang terbuat dari darah pekat di tangannya, Ranger Danjin memburu pencuri dan bandit untuk membalas dendam. Ia melakukan perjalanan ke negeri-negeri jauh demi keadilan.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "31 Agustus"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Jinzhou (on profile)\nMidnight Rangers"
+      }
+    ],
     "report": {
       "resonancePower": "Scarlet Shade",
       "overclockDiagnostic": "Grafik gelombang Resonator Danjin menunjukkan fluktuasi zig-zag. Pola Time Domain tidak teratur. Baik nilai puncak atas maupun bawah tinggi dan mendekati level Criticality. Gelombang tersebut menampilkan segmen yang sebagian kabur dan gelombang abnormal dapat terlihat.\n\nResonant Criticality: Rendah, dengan stabilitas rendah. Risiko Overclocking tetap ada.\n\nResonator Danjin tidak memiliki riwayat Overclocking. Namun, selama Kebangkitannya yang pertama, ia hampir mencapai Resonant Criticality-nya. Hal ini menyebabkan darahnya menunjukkan keadaan eksplosif dan reaksi Fluktuasi Frekuensi yang sangat sensitif. Danjin kehilangan kendali atas perilakunya, mengakibatkan sebagian Energi Frekuensinya tumpah. Tidak ada korban yang dilaporkan, tetapi insiden tersebut diklasifikasikan sebagai bahaya Kelas 2 (kode EX61453).\n\nAnalisis diagnostik mengungkapkan bahwa fluktuasi frekuensinya berasal dari provokasi besar dalam waktu singkat. Setelahnya, efek yang terlihat masih berlanjut. Akibatnya, masih ada kemungkinan kecil bagi Resonator Danjin untuk memasuki keadaan marah selama perubahan suasana hati yang hebat.\n\nPenilaian lebih lanjut mengungkapkan bahwa risiko Overclocking untuk Danjin terkait erat dengan keadaan emosinya, menimbulkan risiko tinggi. Disarankan untuk memantau kondisi psikologis dan fisiknya secara ketat, dan melakukan konseling dan pemeriksaan rutin.",

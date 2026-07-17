@@ -3,7 +3,7 @@
   "element": "Electro",
   "weapon": "Broadblade",
   "rarity": 5,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer",
@@ -14,11 +14,15 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
+    },
+    {
+      "time": "2026-07-17",
+      "text": "- Add Lynae ke team comp"
     }
   ],
   "faction": "Jinzhou",
@@ -128,7 +132,7 @@
     "teams": [
       {
         "name": "Calc-Tune",
-        "note": "ngarep aja dulu",
+        "note": "Lynae buff 115 all type damage dan 25% resonance liberation damage",
         "members": [
           [
             "Calcharo"
@@ -143,7 +147,7 @@
       },
       {
         "name": "Calc-Hypercarry",
-        "note": "Yinlin atau Sanhua adalah pilihan Sub DPS yang sangat baik untuk Calcharo, karena mereka membutuhkan field time yang minimal sambil menawarkan buff yang secara signifikan meningkatkan performanya. Kemampuan mereka untuk memberikan buff secara efisien memungkinkan gaya bermain hypercarry, membuat Calcharo menonjol sebagai penyumbang damage utama.",
+        "note": "Yinlin atau Sanhua adalah pilihan Sub DPS yang sangat baik untuk Calcharo, karena mereka butuh minimal field time sambil memberi buff yang secara signifikan meningkatkan performanya. ",
         "members": [
           [
             "Calcharo"
@@ -160,7 +164,7 @@
       },
       {
         "name": "Calc-QS",
-        "note": "Changli dan Xiangli Yao berpasangan dengan sangat baik dengan Calcharo bagi mereka yang menikmati gaya bermain dual DPS yang sedikit lebih mahir. Animasi attack & skill mereka dapat dilakukan swap cancelled, memungkinkan mereka untuk memberikan damage secara efisien di antara Death Messengers milik Calcharo.",
+        "note": "Animasi attack & skill Changli dan Xiangli Yao dapat dilakukan swap cancelled, memungkinkan Changli dan Xiangli Yao untuk memberikan damage secara efisien di antara Death Messengers milik Calcharo.",
         "members": [
           [
             "Calcharo"
@@ -176,11 +180,12 @@
         ]
       }
     ],
-    "teamNote": ""
+    "teamNote": "Calcharo merupakan Main DPS yang fokus utamanya memberikan Resonance Liberation DMG."
   },
   "skills": {
     "basic": {
       "name": "Gnawing Fangs",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -206,6 +211,7 @@
     },
     "skill": {
       "name": "Extermination Order",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -226,6 +232,7 @@
     },
     "liberation": {
       "name": "Phantom Etching",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -246,6 +253,7 @@
     },
     "forte": {
       "name": "Hunting Mission",
+      "description": "",
       "effects": [
         {
           "title": "Heavy Attack: \"Mercy\"",
@@ -298,6 +306,7 @@
     ],
     "intro": {
       "name": "Wanted Outlaw",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -308,6 +317,7 @@
     },
     "outro": {
       "name": "Shadowy Raid",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -507,7 +517,21 @@
     }
   ],
   "lore": {
-    "description": "Pemimpin \"Ghost Hounds,\" sebuah kelompok tentara bayaran internasional. Kejam, pendendam, tidak kenal ampun. Forte miliknya memungkinkan dia untuk memanggil Tacet Discord khusus guna membantu serangannya terhadap target.\nCalon klien harus memperhatikan harga yang harus dibayar sebelum mengajukan penawaran kepadanya.\n\nBIRTHPLACE\nNew Federation\n\nBIRTHDATE\nJuly 8th",
+    "description": "Pemimpin \"Ghost Hounds,\" sebuah kelompok tentara bayaran internasional. Kejam, pendendam, tidak kenal ampun. Forte miliknya memungkinkan dia untuk memanggil Tacet Discord khusus guna membantu serangannya terhadap target.\nCalon klien harus memperhatikan harga yang harus dibayar sebelum mengajukan penawaran kepadanya.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "New Federation"
+      },
+      {
+        "title": "BIRTHDATE ",
+        "description": "July 8th"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Ghost Hounds (on profile)\nJinzhou\nLawless Zone (formerly)\nUnderdogs (formerly)"
+      }
+    ],
     "report": {
       "resonancePower": "Phantom Hunters",
       "overclockDiagnostic": "Grafik waveform Resonator Calcharo menunjukkan fluktuasi zig-zag. Pola Time Domain tidak teratur. Baik nilai puncak atas maupun bawah berada pada posisi tinggi dan memanifestasikan kedekatan dengan tingkat Criticality. Bentuk gelombang menampilkan segmen kekaburan parsial dan bentuk gelombang abnormal dapat terlihat.\n\nResonance Criticality: Relatif tinggi, dikombinasikan dengan stabilitas yang sangat rendah. Risiko Overclocking sangat besar.\n\nResonator Calcharo memiliki riwayat Overclocking yang terdokumentasi. Peringkat Overclocking maksimum yang tercatat: Parah (Severe).\n\nSelama Overclocking, tanda-tanda erosi Tacet Discord menyebar di tubuh Resonator Calcharo dan inti Tacet Core emas di dadanya berkedip. Fluktuasi frekuensi meningkat secara signifikan. Berbagai entitas menyerupai hantu muncul.\n\nTidak ada insiden besar berupa cedera warga sipil atau kerusakan properti dari episode Overclocking Calcharo yang ditemukan.\n\nResonator Calcharo memiliki risiko overclocking yang sangat tinggi dengan pemicu yang tidak teridentifikasi. Disarankan untuk menaikkan tingkat penilaian risikonya dan memantau kondisinya dengan cermat.",

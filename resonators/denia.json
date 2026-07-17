@@ -20,9 +20,16 @@
   ],
   "changelog": [
     {
-      "text": "update ",
+      "text": "- refactor Lore page",
       "type": "updated",
-      "isNew": true,
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Revisi team note",
+      "type": "updated",
+      "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
     }
@@ -44,7 +51,7 @@
     "echoDetails": {
       "sets": [
         {
-          "label": "HYBRID",
+          "label": "Hybrid",
           "sonataCustom": [
             "Chromatic Foam"
           ],
@@ -59,7 +66,7 @@
           ]
         },
         {
-          "label": "HYBRID ALT",
+          "label": "Alternatif",
           "sonataCustom": [
             "Reel Of Spliced Memories"
           ],
@@ -81,7 +88,7 @@
         "Reso Libe DMG",
         "ATK"
       ],
-      "note": ""
+      "note": "Bersama Aemeath, gunakan Chromatic Foam. Jika kamu memasangkannya dengan Luuk, kamu dapat menggunakan Reels of Spliced Memories sebagai gantinya."
     },
     "weaponNote": "sumber: Chemx32 doc",
     "weaponOptions": [
@@ -151,7 +158,7 @@
             "Chisa"
           ]
         ],
-        "note": "Denia memberikan 60% Fusion Burst Amplify setelah melancarkan Outro Skill miliknya dan memenuhi Inherent Skill Aemeath: Between the Stars. Ia juga memberikan buff tambahan (tercantum dalam Notes & Insights2).\nSebagai alternatif, Kamu dapat menggunakan Lupa untuk menggantikan Chisa."
+        "note": "- Denia memberikan 60% Fusion Burst Amplify setelah melancarkan Outro Skill miliknya dan memenuhi Inherent Skill Aemeath: Between the Stars. Ia juga memberikan buff tambahan (tercantum dalam Notes & Insights2).\n- Sebagai alternatif, Kamu dapat menggunakan Lupa untuk menggantikan Chisa."
       },
       {
         "name": "Tune Strain",
@@ -184,11 +191,12 @@
         "note": "Sinergi Tune Strain yang kuat dan kemampuan untuk memaksimalkan Inherent Skill Luuk: Uncaused Diagnosis. Ia dapat memberikan 50 Tune Break Boost selama Mornye berada dalam tim bersama dengan buff tambahan (tercantum dalam Notes & Insights3)."
       }
     ],
-    "teamNote": ""
+    "teamNote": "Dalam mode Fusion Burst, Denia memberikan buff berikut untuk rekan satu timnya:\n- 30% Fusion DMG Bonus saat berada dalam status [Entropy Shift]\n- 37% Fusion DMG Bonus dari bonus set Chromatic Foam (12% dari R: Denia)\n- 60% Fusion Burst DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n\nDalam mode Tune Strain, Denia memberikan buff berikut untuk rekan satu timnya:\n- 10 Tune Break Boost (total 50 bersama Mornye)\n- 20 Tune Break Boost dari bonus set Reel of Spliced Memories (12% ATK dari Voidwing Moth)\n- 15% All-Type DMG Amplify selama 16 detik (atau 40% untuk unit Strain) setelah melancarkan Outro Skill.\n\n- Dengan Forged Dawn Star (Signature Denia): Peningkatan 24% ATK selama 15 detik ketika Resonator di dalam tim memberikan efek Fusion Burst atau Tune Strain - Shifting."
   },
   "skills": {
     "basic": {
       "name": "Dreamweaver'S Banquet",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack - Stagecraft Form",
@@ -239,6 +247,7 @@
     },
     "skill": {
       "name": "Bubbles And Baits",
+      "description": "",
       "effects": [
         {
           "title": "Phantom Bubble - Stagecraft Form",
@@ -259,6 +268,7 @@
     },
     "liberation": {
       "name": "Final Act",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -289,6 +299,7 @@
     },
     "forte": {
       "name": "\"Flawless\"",
+      "description": "",
       "effects": [
         {
           "title": "Erosion Field",
@@ -391,6 +402,7 @@
     ],
     "intro": {
       "name": "Formal Greetings",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -416,6 +428,7 @@
     },
     "outro": {
       "name": "Unfinished Lies",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -760,6 +773,12 @@
   ],
   "lore": {
     "description": "Ia adalah seorang murid dari Department of Voidmatters di Startorch Academy yang secara rahasia melayani sebagai agen untuk Fractsidus. Diciptakan oleh Schwarzloch dengan tujuan untuk menjadi seorang Threnodian Resonator, Denia dapat mengenakan banyak wajah.",
+    "manualEntries": [
+      {
+        "title": "AFFILIATION",
+        "description": "Fractsidus (on profile)\nStartorch Academy"
+      }
+    ],
     "report": {
       "resonancePower": "Bubbles of Nihility",
       "resonanceEvaluation": "[Diarsipkan oleh Spacetrek Collective: Startorch Academy Student Records]\n[Forte Examination Report: RA2499-G]\nNama Murid: Denia\nSynchronist Qualification: Negatif\nForte Overview: Tes menunjukkan Rabelle's Curve dengan pola gelombang periodik yang jelas. Oleh karena itu, murid diklasifikasikan sebagai Congenital Resonator. Tacet Mark miliknya terletak di dadanya.\nBerdasarkan berkas dari pemberi rekomendasinya, subjek dapat menghasilkan gelembung yang diresapi dengan Remnant Energy, yang dapat berfungsi sebagai langkah pertahanan atau pendukung dalam pertempuran. Remnant Energy dari gelembung tersebut juga dapat diledakkan sesuai perintah saat dibutuhkan.\nHasil tes juga menunjukkan bahwa gelembung tersebut memiliki struktur fluida yang unik, memungkinkan mereka untuk memblokir Voidmatter pada tingkat yang sebanding dengan lapisan Exostrider.\n\n\"Tunggu, bukankah itu pembuat gelembung dari iklan Lollo Logistics itu? Keponakan saya punya mainan yang sama persis! Bagaimana caranya kamu bisa menghentikan Voidmatter dengan gelembung seperti itu?\"\n\"Bagaimana berkas ini bisa diarsipkan?! Astaga... Apakah ada hal dalam laporan ini yang benar-benar nyata?\"",

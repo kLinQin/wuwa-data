@@ -3,7 +3,7 @@
   "element": "Aero",
   "weapon": "Gauntlet",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.6",
   "lastUpdated": "2026-01-30",
   "roles": [
     "Support and Healer",
@@ -16,7 +16,14 @@
   ],
   "changelog": [
     {
-      "text": "minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Add affiliation di lore page",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -214,6 +221,7 @@
   "skills": {
     "basic": {
       "name": "Moon Steps",
+      "description": "",
       "effects": [
         {
           "title": "Moonring - Basic Attack",
@@ -244,6 +252,7 @@
     },
     "skill": {
       "name": "Foresight Fugue",
+      "description": "",
       "effects": [
         {
           "title": "Pulse of Origins",
@@ -269,6 +278,7 @@
     },
     "liberation": {
       "name": "Beneath Lunar Tides",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -284,6 +294,7 @@
     },
     "forte": {
       "name": "Ebb And Flow",
+      "description": "",
       "effects": [
         {
           "title": "Lunar Cycle",
@@ -346,6 +357,7 @@
     ],
     "intro": {
       "name": "Illuminated Manifestation",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -356,6 +368,7 @@
     },
     "outro": {
       "name": "From Gloom To Gleam",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -652,6 +665,12 @@
   ],
   "lore": {
     "description": "Ia diuntungkan oleh nasib dengan satu nama, dan disapu olehnya dengan nama yang lain. Namun, tidak pernah sekalipun ia dikalahkan, dan ia tidak pernah menyerah.\nSekarang, saksikanlah Priestess yang menantang ini. Saksikan apa yang membuatnya terus melangkah maju, tanpa pernah menoleh ke belakang. Saksikan bagaimana ia menelusuri jaring takdir yang rumit dan menjadi satu-satunya jawaban.",
+    "manualEntries": [
+      {
+        "title": "AFFILIATION",
+        "description": "Septimont (on profile)\nTetragon Temple"
+      }
+    ],
     "report": {
       "resonancePower": "Stasis, Cycle, Renewal",
       "overclockDiagnostic": "[Excerpt from the Priestess Register, Tetragon Temple]\nEntri ini berkaitan dengan Priestess ke-127 dari Tetragon Temple.\n\nWaveform dari Priestess ini sebagian besar tetap berada dalam parameter yang dapat dikendalikan, tanpa tanda-tanda risiko Overclocking. Namun, beberapa interupsi dengan durasi yang bervariasi telah diamati, disertai dengan penurunan frekuensinya yang bertahap dan konsisten. Hal ini menunjukkan kemungkinan adanya kondisi deplesi jangka panjang. Penyebab dasarnya masih belum diketahui. Priestess tersebut telah menolak pemeriksaan lebih lanjut dan menunjukkan kesediaan yang terbatas untuk terlibat dalam dialog yang lebih dalam mengenai masalah ini.\n\nSangat jelas bahwa ia memahami jauh lebih banyak tentang kondisinya sendiri daripada yang ia tunjukkan. Namun jika waveform ini terus berkurang melampaui rentang yang dapat dikendalikan, atau bahkan mencapai nol… apa yang mungkin terjadi kemudian?\nApakah ia benar-benar tidak takut? Atau apakah ia sudah menemukan cara untuk mengintervensi?",

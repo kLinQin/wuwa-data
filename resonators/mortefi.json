@@ -3,7 +3,7 @@
   "element": "Fusion",
   "weapon": "Pistol",
   "rarity": 4,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Concerto Efficiency",
@@ -17,7 +17,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -83,7 +90,7 @@
         "ATK"
       ]
     },
-    "weaponNote": "Meskipun Static Mist 4% lebih buruk dalam hal DMG, Static Mist adalah pilihan yang lebih baik jika Mortefi digunakan sebagai Sub DPS karena memberikan bonus tambahan bagi Resonator berikutnya. Cadenza adalah alternatif bintang 4 yang layak karena memberikan tambahan energy regen dan concerto energy untuk mempersingkat rotasi.",
+    "weaponNote": "- Meskipun Static Mist 4% lebih buruk dalam hal DMG, Static Mist adalah pilihan yang lebih baik jika Mortefi digunakan sebagai Sub DPS karena memberikan bonus tambahan bagi Resonator berikutnya. \n- Cadenza adalah alternatif bintang 4 yang layak karena memberikan tambahan energy regen dan concerto energy untuk mempersingkat rotasi.",
     "weaponOptions": [
       {
         "id": "the-last-dance",
@@ -200,6 +207,7 @@
   "skills": {
     "basic": {
       "name": "Impromptu Show",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -225,6 +233,7 @@
     },
     "skill": {
       "name": "Passionate Variation",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -235,6 +244,7 @@
     },
     "liberation": {
       "name": "Violent Finale",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -255,6 +265,7 @@
     },
     "forte": {
       "name": "Fury Fugue",
+      "description": "",
       "effects": [
         {
           "title": "Resonance Skill: Fury Fugue",
@@ -301,11 +312,12 @@
       },
       {
         "name": "Tune Break: Pistols",
-        "description": ""
+        "effects": []
       }
     ],
     "intro": {
       "name": "Dissonance",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -316,6 +328,7 @@
     },
     "outro": {
       "name": "Rage Transposition",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -612,7 +625,17 @@
     }
   ],
   "lore": {
-    "description": "Mortefi, seorang ahli terampil dalam Applied Tacetite Study dan anggota Departemen Keamanan Akademi, memiliki kemampuan unik untuk mengubah frustrasi yang ia kumpulkan menjadi kobaran api yang mengamuk. Dari amarah yang membakar segalanya, sang naga merah akan turun.\n\nBIRTHPLACE\nNew Federation\n\nBIRTHDATE\n06 November",
+    "description": "Mortefi, seorang ahli terampil dalam Applied Tacetite Study dan anggota Departemen Keamanan Akademi, memiliki kemampuan unik untuk mengubah frustrasi yang ia kumpulkan menjadi kobaran api yang mengamuk. Dari amarah yang membakar segalanya, sang naga merah akan turun.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "New Federation"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "06 November"
+      }
+    ],
     "report": {
       "resonancePower": "Dragon's Breath",
       "overclockDiagnostic": "Grafik gelombang Resonator Mortefi menunjukkan fluktuasi zigzag.\n- Pola Time Domain tetap teratur, tetapi nilai puncaknya menunjukkan kecenderungan meningkat.\n- Nilai puncak saat ini masih di bawah level Kritis, dan tidak teridentifikasi adanya gelombang abnormal.\n\nResonant Criticality: Tinggi, dikombinasikan dengan stabilitas yang rendah.\nRisiko Overclocking: Sangat tinggi.\n\nRiwayat Overclocking\n- Mortefi memiliki riwayat Overclocking yang terdokumentasi.\n- Maksimum tingkat Overclock yang tercatat: Sedang.\n\nSaat Overclocking terjadi:\n- Materi kristal berbentuk sisik naga terus berkembang, menutupi area kulit yang lebih luas.\n- Suhu tubuh meningkat secara signifikan.\n- Fluktuasi Frekuensi menjadi sangat intens.\n- Sebuah wujud api berbentuk naga muncul di belakang Mortefi selama fase ini.\n\nInsiden Desorock Highland\n- Mortefi adalah penyebab kebakaran besar di Desorock Highland.\n- Insiden ini diklasifikasikan sebagai Kode EX67891, bahaya Kelas 3.\n- Beruntung, tidak ada korban jiwa yang dilaporkan.\n\nKarena Forte dan riwayat Overclocking-nya sangat dipengaruhi oleh emosi negatif, Mortefi memiliki risiko tinggi untuk mengalami Overclocking yang tidak terkendali.\n\nOleh karena itu, pemantauan ketat terhadap kondisi psikologisnya sangat disarankan, termasuk konseling rutin dan pemeriksaan berkala.",

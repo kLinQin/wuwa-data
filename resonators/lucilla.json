@@ -17,9 +17,16 @@
   ],
   "changelog": [
     {
-      "text": "",
+      "text": "- refactor Lore page",
       "type": "updated",
-      "isNew": true,
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- revisi affiliation",
+      "type": "updated",
+      "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
     }
@@ -209,7 +216,7 @@
             "Shorekeeper"
           ]
         ],
-        "note": "Lucilla sebagai opsi alternatif menggantikan Qiuyuan untuk Sigrika, Galbrena, dan Phrolova, memberikan 50% Echo Skill Amplify setelah melancarkan Outro Skill dan 4 kali penggunaan Echo Skill\n\nSaat dipasangkan dengan Phrolova, kamu dapat menggunakan Dream of the Lost & 2-pc Reels untuk melengkapi Voidwing Moth di slot utama. Selain itu, Moonlit Clouds juga merupakan opsi yang layak."
+        "note": "- Lucilla sebagai opsi alternatif menggantikan Qiuyuan untuk Sigrika, Galbrena, dan Phrolova, memberikan 50% Echo Skill Amplify setelah melancarkan Outro Skill dan 4 kali penggunaan Echo Skill\n\n- Saat dipasangkan dengan Phrolova, kamu dapat menggunakan Dream of the Lost & 2-pc Reels untuk melengkapi Voidwing Moth di slot utama. Selain itu, Moonlit Clouds juga merupakan opsi yang layak."
       }
     ],
     "teamNote": "1. Dalam mode Glacio Chafe, Lucilla memberikan buff berikut untuk rekan satu timnya:\n- Pengurangan 8% Glacio RES\n- 37% Glacio DMG Bonus dari bonus set Wishes of Quiet Snowfall (12% dari Glammoth)\n- 60% Glacio Chafe DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n\n2. Dalam mode Echo, Lucilla memberikan buff berikut untuk rekan satu timnya:\n- 25% Echo Skill DMG Bonus selama 30 detik\n- 40% Crit. DMG pada 4 tumpukan [Zoom], yang hanya berlaku untuk Resonator yang sedang aktif\n- 50% Echo Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill.\n\nDengan Freeze Frame (Signature Lucilla): +24% ATK selama 30 detik saat memberikan Glacio Chafe."
@@ -217,6 +224,7 @@
   "skills": {
     "basic": {
       "name": "Snapshot",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -237,6 +245,7 @@
     },
     "skill": {
       "name": "Phantom Frame",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -282,6 +291,7 @@
     },
     "liberation": {
       "name": "Clear As Day",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -322,6 +332,7 @@
     },
     "forte": {
       "name": "Memory Palace",
+      "description": "",
       "effects": [
         {
           "title": "Déjà Vu",
@@ -409,6 +420,7 @@
     ],
     "intro": {
       "name": "Clip It",
+      "description": "",
       "effects": [
         {
           "title": "Clip It",
@@ -424,6 +436,7 @@
     },
     "outro": {
       "name": "Montage",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -761,16 +774,16 @@
     "description": "Lucilla, President of Startorch Academy dan seorang idealis dengan kedua kaki yang berpijak di bumi. Ia berjaga secara diam-diam atas para muridnya saat mereka bangkit untuk menantang langit itu sendiri.",
     "manualEntries": [
       {
-        "title": "Birthplace",
+        "title": "BIRTHPLACE",
         "description": "New Federation"
       },
       {
-        "title": "Nation",
+        "title": "NATION",
         "description": "Lahai-Roi"
       },
       {
-        "title": "Affiliations",
-        "description": "Startorch Academy (on profile)"
+        "title": "AFFILIATION",
+        "description": "Startorch Academy (on profile)\nSpacetrek Collective\nPioneer Association (formerly)"
       },
       {
         "title": "Family",

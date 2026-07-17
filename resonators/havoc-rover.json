@@ -3,7 +3,7 @@
   "element": "Havoc",
   "weapon": "Sword",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.2",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer"
@@ -13,7 +13,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,

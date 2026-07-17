@@ -3,7 +3,7 @@
   "element": "Spectro",
   "weapon": "Gauntlet",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.3",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer",
@@ -16,8 +16,15 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
-      "type": "input",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
+      "type": "updated",
       "isNew": false,
       "time": "2026-07-16"
     }
@@ -599,7 +606,17 @@
     }
   ],
   "lore": {
-    "description": "Anggota tim keamanan Averardo Vault dan pemegang gelar \"Karyawan Terbaik\" selama lebih lama dari yang ingin ia ingat. \nIa punya banyak rencana untuk waktu luangnya, tapi untuk sekarang, \nmisinya yang paling penting sangat sederhana: pulang tepat waktu.\n\nBIRTHPLACE\nRinascita\n\nADDITIONAL TITLES\nThe Blazing Nightwalker",
+    "description": "Anggota tim keamanan Averardo Vault dan pemegang gelar \"Karyawan Terbaik\" selama lebih lama dari yang ingin ia ingat. \nIa punya banyak rencana untuk waktu luangnya, tapi untuk sekarang, \nmisinya yang paling penting sangat sederhana: pulang tepat waktu.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Rinascita"
+      },
+      {
+        "title": "ADDITIONAL TITLES",
+        "description": "The Blazing Nightwalker"
+      }
+    ],
     "report": {
       "resonancePower": "Scorched Radiance",
       "resonanceEvaluation": "[Profil Karyawan Averardo Vault — Access Permission Confirmed]\n\nNama Karyawan: Zani\n\nRiwayat Awakening milik Zani tetap tidak diketahui. \nTingkat perkembangan Forte serta frekuensi penggunaannya tergolong tinggi.\n\nTacet Mark milik Zani membentang secara diagonal di punggungnya. \nSetelah mengalami Awakening, ia menunjukkan perubahan fisik yang signifikan, termasuk tumbuhnya tanduk menyerupai kambing jantan dan ekor ramping yang memanjang dari tulang ekornya. \nSaat mengaktifkan Forte, Zani dapat menyimpan energi kinetik berlebih di dalam tubuhnya untuk memperkuat kemampuan fisik. \nEnergi yang tersimpan ini tampak secara visual sebagai aliran cahaya terang yang keluar dari tanduk, ekor, dan rambutnya. \nSelain itu, tanda-tanda bercahaya muncul di seluruh bagian tubuh atasnya. \nMenurut pengakuannya, tanda tersebut adalah bekas luka yang telah sembuh, meninggalkan jejak samar yang nyaris tak terlihat oleh mata telanjang. \nDiduga struktur halus dari kulit yang telah sembuh ini memungkinkan konsentrasi energi di area tersebut.\n\nZani menceritakan sebuah insiden beberapa tahun lalu, di mana ia terluka parah akibat upaya penyerangan yang direncanakan oleh ▇▇▇▇▇▇▇. \nDi tengah serangan tersebutlah ia membangkitkan Forte-nya, dan berhasil mengusir para penyerang menggunakan kemampuan barunya. \nHasil analisis Resonance Spectrum Pattern tidak mampu menentukan penyebab Awakening-nya. Pengujian sampel menunjukkan Rabelle’s Curve yang tidak konvergen. \nKarena itu, Zani diklasifikasikan sebagai seorang Mutant Resonator dengan periode inkubasi.\n\n\"Ciri fisik khas Zani pasca-Awakening mengingatkanku pada legenda-legenda lama yang pernah dikumpulkan keluargaku. \nCerita-cerita itu menyebutkan sosok-sosok supernatural aneh yang konon bersembunyi di bayang-bayang jauh sebelum Lament. \nMungkinkah ada kaitan antara legenda itu dan penyebab Awakening-nya? \nAtau ini hanya kebetulan aneh belaka?\"\n\n\"Jangan dipikirkan terlalu dalam. Mungkin dia bangkit karena Tumbleyak... atau kambing.\"",

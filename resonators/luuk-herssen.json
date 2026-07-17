@@ -16,9 +16,16 @@
   ],
   "changelog": [
     {
-      "text": "input data character baru",
+      "text": "- refactor Lore page",
       "type": "updated",
-      "isNew": true,
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- revisi general note",
+      "type": "updated",
+      "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
     }
@@ -127,13 +134,14 @@
     "teams": [
       {
         "name": "Tune-Team",
-        "note": "Karena Lynae dapat menanggapi Tune Strain, batas stack maksimal meningkat sebanyak 1. Meskipun Luuk tidak dapat menerima manfaat dari Res. Lib Amp miliknya, Lynae tetap memberikan buff kuat lainnya dan Tune Break Boost yang meningkatkan damage miliknya sebesar 25% dari Inherent Skill miliknya: Uncaused Diagnosis. Ia saat ini tidak mampu mencapai batas 30% tersebut.",
+        "note": "- Karena Lynae dan Denia dapat menanggapi Tune Strain, batas stack maksimal meningkat sebanyak 1. \n- Meskipun Luuk tidak dapat menerima manfaat dari Res. Lib Amp miliknya, Lynae tetap memberikan buff kuat lainnya dan Tune Break Boost yang meningkatkan damage miliknya sebesar 25% dari Inherent Skill miliknya: Uncaused Diagnosis. Ia saat ini tidak mampu mencapai batas 30% tersebut.",
         "members": [
           [
             "Luuk Herssen"
           ],
           [
-            "Lynae"
+            "Lynae",
+            "Denia"
           ],
           [
             "Mornye",
@@ -158,11 +166,12 @@
         ]
       }
     ],
-    "teamNote": "Mornye membantu Luuk mengumpulkan lebih banyak stack Tune Strain: Interference dengan lebih cepat. kalian dapat menggunakan Shorekeeper sebagai alternatif; namun, Mornye adalah support ideal karena alasan khusus ini.\n\nKonsep di balik Tune Strain bekerja sama dengan Tune Rupture. Namun alih-alih \"menanggapi\" dengan ledakan damage, Tune Strain meningkatkan DMG yang diberikan berdasarkan jumlah stack. Jumlah maksimal stack yang dapat diberikan adalah 1.\nKarena hal ini berskala pada jumlah Resonator yang dapat menanggapi Tune Strain: Interfered, memiliki Lynae dan Mornye secara bersamaan dalam timnya adalah hal yang ideal. Mereka masing-masing meningkatkan batas stack sebanyak 1"
+    "teamNote": "- Mornye membantu Luuk mengumpulkan lebih banyak stack Tune Strain: Interference dengan lebih cepat. kalian dapat menggunakan Shorekeeper sebagai alternatif; namun, Mornye adalah support ideal karena alasan khusus ini.\n\n- Konsep di balik Tune Strain bekerja sama dengan Tune Rupture. Namun alih-alih \"menanggapi\" dengan ledakan damage, Tune Strain meningkatkan DMG yang diberikan berdasarkan jumlah stack. Jumlah maksimal stack yang dapat diberikan adalah 1.\n- Karena hal ini berskala pada jumlah Resonator yang dapat menanggapi Tune Strain: Interfered, memiliki Lynae dan Mornye secara bersamaan dalam timnya adalah hal yang ideal. Mereka masing-masing meningkatkan batas stack sebanyak 1"
   },
   "skills": {
     "basic": {
       "name": "Such Is Light",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -188,6 +197,7 @@
     },
     "skill": {
       "name": "Reunion Of All The Fallen",
+      "description": "",
       "effects": [
         {
           "title": "Golden Reflux",
@@ -233,6 +243,7 @@
     },
     "liberation": {
       "name": "Rewritten In Winter'S Margins",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -248,6 +259,7 @@
     },
     "forte": {
       "name": "Spark From The Frost",
+      "description": "",
       "effects": [
         {
           "title": "Mid-air Attack - Gavel of Earthshaker",
@@ -355,6 +367,7 @@
     ],
     "intro": {
       "name": "Before Injection Of Dawn",
+      "description": "",
       "effects": [
         {
           "title": "intro",
@@ -365,6 +378,7 @@
     },
     "outro": {
       "name": "Bow To The Last Light",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -674,6 +688,12 @@
   ],
   "lore": {
     "description": "Dokter yang bertugas di Unit Keperawatan Resonator Startorch Academy, terkenal karena kecerdasannya yang tajam dan ketenangannya yang tak tergoyahkan. Rumor mengatakan bahwa tidak ada seorang pun yang pernah melihatnya kehilangan kendali.\n\nIa adalah pendengar yang tajam yang mahir dalam membedah bayang-bayang di hati seseorang. Dari luka yang tidak kunjung sembuh di tangannya, darah emas merembes, sebuah substansi yang dapat ia panggil untuk menjadi bilah dengan presisi yang paling tinggi.",
+    "manualEntries": [
+      {
+        "title": "AFFILIATION",
+        "description": "Startorch Academy (on profile)\nSpacetrek Collective\nLollo Logistics"
+      }
+    ],
     "report": {
       "resonancePower": "Phase Transition",
       "overclockDiagnostic": "Analisis yang Dilakukan: Rabelle's Curve Fluctuation Stability Test\n\nHasil: Sampel uji Rabelle's Curve menunjukkan gelombang elips yang memanjang dengan amplitudo yang cukup besar. Namun, ritme periodik yang jelas teramati, dan ambang batas Resonant Criticality belum tercapai.\n\nAsesmen: Subjek menunjukkan kontrol yang stabil dalam kondisi beban tinggi, dengan data yang mengindikasikan regulasi diri dan fokus mental yang luar biasa. Tidak ada indikasi kehilangan kendali yang teramati.\n\nKesimpulan: Stabilitas subjek sangat baik. Tidak ada risiko Overclocking saat ini. Konseling psikologis saat ini dianggap tidak perlu. Pengujian tindak lanjut terjadwal dengan pemantauan berkelanjutan terhadap indeks kelelahan saraf direkomendasikan.\n\nSubjek telah menyatakan kesediaan untuk bekerja sama dengan observasi selanjutnya.\n\n\"Dr. Luuk... apakah rumusan kata-kata ini sudah benar? Rasanya agak terlalu resmi.\"\n\"Ini sangat bisa diterima. Kamu melakukan pekerjaan yang baik.\"",

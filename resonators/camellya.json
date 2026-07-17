@@ -3,7 +3,7 @@
   "element": "Havoc",
   "weapon": "Sword",
   "rarity": 5,
-  "version": "3.0",
+  "version": "1.4",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer",
@@ -15,10 +15,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "time": "2026-07-16"
+    },
+    {
+      "time": "2026-07-17",
+      "text": "- revisi team comp"
     }
   ],
   "faction": "Black Shores",
@@ -117,13 +121,27 @@
     },
     "teams": [
       {
-        "name": "",
+        "name": "Hypercarry",
         "members": [
           [
             "Camellya"
           ],
           [
-            "Roccia",
+            "Roccia"
+          ],
+          [
+            "Shorekeeper"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "F2P",
+        "members": [
+          [
+            "Camellya"
+          ],
+          [
             "Sanhua",
             "Danjin"
           ],
@@ -134,11 +152,12 @@
         "note": ""
       }
     ],
-    "teamNote": "Roccia memberikan 20% Havoc DMG Amplify & 25% Basic Attack DMG Amplify selama 14 detik setelah melancarkan Outro Skill miliknya.\nSanhua berpasangan dengan baik dengan Camellya karena 38% Basic DMG Amplify yang diberikan oleh Outro Skill miliknya, yang secara signifikan meningkatkan output damage Camellya."
+    "teamNote": "- Roccia memberikan 20% Havoc DMG Amplify & 25% Basic Attack DMG Amplify.\n- Sanhua  memberikan 38% Basic DMG Amplify "
   },
   "skills": {
     "basic": {
       "name": "Burgeoning",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -164,6 +183,7 @@
     },
     "skill": {
       "name": "Valse Of Bloom And Blight",
+      "description": "",
       "effects": [
         {
           "title": "Crimson Blossom",
@@ -179,6 +199,7 @@
     },
     "liberation": {
       "name": "Fervor Efflorescent",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -194,6 +215,7 @@
     },
     "forte": {
       "name": "Vegetative Universe",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -261,6 +283,7 @@
     ],
     "intro": {
       "name": "Everblooming",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -271,6 +294,7 @@
     },
     "outro": {
       "name": "Twining",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -572,6 +596,7 @@
   ],
   "lore": {
     "description": "Camellya, seorang Bloom Bearer of the Black Shores, adalah sosok yang bebas dan mempesona dengan cara yang berbahaya. Dia berkeliling Solaris mencari talenta, tenggelam dalam setiap momen yang ada dan menikmati kenikmatannya, sambil tetap setia pada dirinya sendiri, tanpa terbebani oleh pikiran tentang masa lalu atau masa depan.",
+    "manualEntries": [],
     "report": {
       "resonancePower": "Sanguine Blossom",
       "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment RA2███-G]\n\nWaktu pasti awakening Resonator Camellya sulit dipastikan karena gangguan ███ yang dialaminya. Sejak awakening, dia sudah bisa memanfaatkan Forte-nya.\n\nTacet Mark Resonator Camellya ada di dadanya. Setelah awakening-nya, tubuhnya menunjukkan tanda-tanda somatisasi vegetatif. Lengan kanan dan kepalanya mengalami perubahan, dengan tingkat yang semakin intensif seiring fluktuasi frekuensinya.\n\nPola Resonance Spectrum Camellya sangat mirip dengan bunga camelia, menunjukkan reaksi Syntony yang kuat. Namun, alasan kebangkitan Camellya masih belum jelas karena belum ditemukan objek yang sesuai dengan perubahan dalam Resonance Spectrum Pattern-nya.\n\nFase awal Rabelle's Curve menunjukkan fluktuasi yang tidak teratur. Begitu Rabelle's Curve melewati batas kritis, █████████████████.\n\n\"Subjek ini diduga merupakan Resonator Buatan. Namun, pola kurva saat ini tidak cocok dengan sampel yang diketahui. Oleh karena itu, laporan ini disegel untuk saat ini.\"",

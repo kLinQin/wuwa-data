@@ -3,7 +3,7 @@
   "element": "Spectro",
   "weapon": "Rectifier",
   "rarity": 5,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Support and Healer",
@@ -15,7 +15,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -417,7 +424,17 @@
     }
   ],
   "lore": {
-    "description": "Dengan pengetahuan botani yang luas, Verina selalu perhatian, selalu tersenyum, dan selalu berharap setiap bunga diberkati dengan keajaiban kehidupan.\n\nBIRTHPLACE\nNew Federation\n\nBIRTHDATE\n08 Mei",
+    "description": "Dengan pengetahuan botani yang luas, Verina selalu perhatian, selalu tersenyum, dan selalu berharap setiap bunga diberkati dengan keajaiban kehidupan.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "New Federation"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "08 Mei"
+      }
+    ],
     "report": {
       "resonancePower": "Nature Calling",
       "resonanceEvaluation": "Dasar Evaluasi: [Penilaian Resonansi 1916-G]\n\nMenurut laporan dari Resonator Verina, dia telah memiliki paparan yang signifikan terhadap sampel botani sejak kecil dan dapat mendeteksi frekuensi mereka secara auditori. Waktu terjadinya Awakening-nya belum diketahui.\n\nFrekuensi resonansi Verina menunjukkan kecenderungan meningkat seiring waktu, yang menimbulkan spekulasi bahwa kemampuan Forte-nya juga akan terus menguat seiring bertambahnya usia.\nSejauh mana pertumbuhan ini akan terjadi masih dalam pemantauan.\n\nResonator Verina memiliki Tacet Mark di bawah klavikula-nya. Setelah Awakening, perubahan fisik tercatat, seperti munculnya tanaman merambat di kedua telinga dan tulang belakang dorsal.\n\nTanaman merambat ini membentuk hubungan simbiotik dengan Verina dan membantu mengonversi frekuensi resonansinya menjadi Spectro energy untuk penyimpanan dan pelepasan yang efisien selama penggunaan Forte.\n\nSelain itu, pola Resonance Spectrum Verina sejalan dengan pola kehidupan tanaman yang dikenal. Reaksi Syntony yang kuat tercatat selama pengujian, meskipun penyebab pasti dari Awakening Verina masih belum jelas.\n\nAnalisis sampel uji mengungkapkan Rabelle's Curve yang tidak konvergen dengan gelombang periodik yang terlihat. Oleh karena itu, Verina diklasifikasikan sebagai Congenital Resonator.",

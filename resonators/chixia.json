@@ -3,7 +3,7 @@
   "element": "Fusion",
   "weapon": "Pistol",
   "rarity": 4,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer"
@@ -13,7 +13,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Menambahkan family & real name di Lore page",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -151,11 +158,12 @@
         ]
       }
     ],
-    "teamNote": ""
+    "teamNote": "cocok untuk yang baru pertama kali main "
   },
   "skills": {
     "basic": {
       "name": "POW POW",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -181,6 +189,7 @@
     },
     "skill": {
       "name": "Whizzing Fight Spirit",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -196,6 +205,7 @@
     },
     "liberation": {
       "name": "Blazing Flames",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -206,6 +216,7 @@
     },
     "forte": {
       "name": "Heroic Bullets",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -282,11 +293,12 @@
       },
       {
         "name": "Tune Break: Pistols",
-        "description": ""
+        "effects": []
       }
     ],
     "intro": {
       "name": "Grand Entrance",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -297,6 +309,7 @@
     },
     "outro": {
       "name": "Leaping Flames",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -467,7 +480,29 @@
     }
   ],
   "lore": {
-    "description": "Chixia adalah Patroller muda penuh semangat yang menerangi jalanan Jinzhou. Selalu siap, selalu sigap—ia adalah pahlawan yang selalu hadir saat dibutuhkan.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n18 April",
+    "description": "Chixia adalah Patroller muda penuh semangat yang menerangi jalanan Jinzhou. Selalu siap, selalu sigap—ia adalah pahlawan yang selalu hadir saat dibutuhkan.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "18 April"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Jinzhou (on profile)\nPublic Security Bureau"
+      },
+      {
+        "title": "REAL NAME",
+        "description": "\nMa Xiaofang"
+      },
+      {
+        "title": "FAMILY",
+        "description": "Panhua (Aunt)"
+      }
+    ],
     "report": {
       "resonancePower": "Gallant Blaze",
       "overclockDiagnostic": "Grafik gelombang Resonator Chixia menunjukkan fluktuasi elips yang stabil dalam Time Domain, tanpa adanya pola abnormal.\n\nSemua hasil pemeriksaan berada dalam batas normal.\n\nResonant Criticality: Tinggi\nStabilitas Frekuensi: Sangat tinggi\nRisiko Overclocking: Minimal\n\nResonator Chixia tidak memiliki riwayat Overclocking yang terdokumentasi.\n\nDisarankan untuk melakukan pemeriksaan rutin, sementara konseling psikologis saat ini tidak diperlukan.",

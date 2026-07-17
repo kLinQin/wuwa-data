@@ -20,8 +20,15 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
-      "type": "input",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- revisi team note",
+      "type": "updated",
       "isNew": false,
       "time": "2026-07-16"
     }
@@ -202,11 +209,12 @@
         "note": "Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya kepada Iuno, Xiangli Yao, Calcharo, atau Resonator mana pun yang berskala pada Res. Liberation."
       }
     ],
-    "teamNote": "Lynae memberikan buff berikut untuk rekan timnya:\n-15% All-DMG & 25% Res. Liberation Amplify selama 14 detik setelah melancarkan Outro Skill\n-24% All-DMG Bonus selama 30 detik setelah melancarkan Res. Lib [Prismatic Overblast]\n-30% ATK dari bonus set Pact of Neonlight Leap\n-10% All-Attribute DMG Bonus selama 15 detik dari Hyvatia\n-40 Tune Break Boost dari Forte Circuit miliknya\n-Dengan Spectrum Blaster (senjata signature Lynae): Semua DMG yang diberikan meningkat sebesar 24% selama 30 detik saat memberikan [Tune Rupture atau Strain - Shifting] selama melakukan basic attack."
+    "teamNote": "Lynae memberikan buff berikut untuk rekan timnya:\n- 15% All-DMG & 25% Res. Liberation Amplify selama 14 detik setelah melancarkan Outro Skill\n- 24% All-DMG Bonus selama 30 detik setelah melancarkan Res. Lib [Prismatic Overblast]\n- 30% ATK dari bonus set Pact of Neonlight Leap\n- 10% All-Attribute DMG Bonus selama 15 detik dari Hyvatia\n- 40 Tune Break Boost dari Forte Circuit miliknya\n- Dengan Spectrum Blaster (senjata signature Lynae): Semua DMG yang diberikan meningkat sebesar 24% selama 30 detik saat memberikan [Tune Rupture atau Strain - Shifting] selama melakukan basic attack."
   },
   "skills": {
     "basic": {
       "name": "Chroma Drift",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -262,6 +270,7 @@
     },
     "skill": {
       "name": "Lynae-Style Palettes",
+      "description": "",
       "effects": [
         {
           "title": "Lynae-Style Palettes",
@@ -277,6 +286,7 @@
     },
     "liberation": {
       "name": "Prismatic Overblast",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -302,6 +312,7 @@
     },
     "forte": {
       "name": "Chromaticity Modeling",
+      "description": "",
       "effects": [
         {
           "title": "Optical Sampling Stage",
@@ -419,6 +430,7 @@
     ],
     "intro": {
       "name": "Time To Show Some Colors!",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -434,6 +446,7 @@
     },
     "outro": {
       "name": "Let'S Hit The Road!",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -768,7 +781,17 @@
     }
   ],
   "lore": {
-    "description": "Seorang siswa persiapan Startorch Academy yang gaya elektriknya menarik perhatian, menyembunyikan fokus batin yang meledak-ledak seperti pegas yang tergulung.\n\nBIRTHPLACE\nNew Federation",
+    "description": "Seorang siswa persiapan Startorch Academy yang gaya elektriknya menarik perhatian, menyembunyikan fokus batin yang meledak-ledak seperti pegas yang tergulung.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "New Federation"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Startorch Academy (on profile)\nLawless Zone (formerly)"
+      }
+    ],
     "report": {
       "resonancePower": "Radiant Spectrum",
       "resonanceEvaluation": "Resonance Evaluation Report\n[Diarsipkan dari Spacetrek Collective: Catatan Siswa Startorch Academy]\n[Forte Examination Report RA2906-G]\nNama Siswa: Lynae\nKualifikasi Synchronist: Negatif\nForte Overview: Pengujian mengungkapkan Rabelle's Curve dengan gelombang periodik yang menonjol. Oleh karena itu, siswa diklasifikasikan sebagai Congenital Resonator. Tacet Mark miliknya terletak pada bagian posterior paha kirinya.\n\nBerdasarkan berkas pribadi pra-penerimaan dan keterangan siswa sendiri, siswa menunjukkan sensitivitas bawaan terhadap cahaya tampak dan afinitas alami terhadap warna-warna kompleks yang tidak umum. Dengan menggunakan \"pigment inks,\" ia dapat mengubah panjang gelombang atau frekuensi cahaya tampak dalam area terbatas, secara efektif \"mencampur\" warna sesuka hati. Warna-warna ini terutama digunakan dalam cat semprot. Pengujian menunjukkan bahwa pigmen ini berbeda dari bahan industri, berperilaku lebih seperti proyeksi optik non-fisik.\n\nSelain itu, laporan saksi mata dari beberapa siswa menunjukkan bahwa subjek dapat mengubah panjang gelombang cahaya tampak di sekitar untuk mengganggu instrumen deteksi frekuensi, mencapai efek yang mirip dengan \"invisibilitas\" baik dari perspektif visual maupun persepsi frekuensi.\n\n\"Pokoknya, pastikan saja dia tidak menggunakan kemampuan itu untuk bolos kelas lagi.\"\n\"…Juga, dapatkah seseorang mengonfirmasi apakah grafiti kepala kucing raksasa di gedung Ilmu Energi kemarin adalah karyanya?\"",

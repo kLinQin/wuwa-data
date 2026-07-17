@@ -3,7 +3,7 @@
   "element": "Glacio",
   "weapon": "Pistol",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer",
@@ -14,10 +14,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
-      "type": "input",
+      "text": "- Minimal update",
+      "type": "updated",
       "isNew": false,
       "time": "2026-07-16"
+    },
+    {
+      "time": "2026-07-17",
+      "text": "- menambahkan family entry di lore"
     }
   ],
   "faction": "Montelli Family",
@@ -125,7 +129,7 @@
     },
     "teams": [
       {
-        "name": "Carlotta-Break",
+        "name": "Break",
         "note": "",
         "members": [
           [
@@ -140,7 +144,7 @@
         ]
       },
       {
-        "name": "Carlotta-Hypercarry",
+        "name": "Hypercarry",
         "note": "",
         "members": [
           [
@@ -158,7 +162,7 @@
         ]
       },
       {
-        "name": "Carlotta-Quickswap",
+        "name": "Quickswap",
         "note": "",
         "members": [
           [
@@ -175,11 +179,12 @@
         ]
       }
     ],
-    "teamNote": "Zhezhi adalah support terbaik Carlotta karena Outro Skill miliknya memberikan 20% Glacio & 25% Res. Skill DMG Amplify. Ia juga memberikan Resonance Energy Regeneration, yang menurunkan kebutuhan ER Carlotta.\nJika Zhezhi tidak tersedia, Res. Skill Amplifier lainnya seperti Brant atau Cantarella mungkin dapat digunakan. Lumi dan Taoqi adalah opsi bintang 4 kalian. kalian juga dapat memasangkannya dengan tim quick swap umum seperti Changli atau Xiangli Yao."
+    "teamNote": "- Zhezhi adalah support terbaik Carlotta karena Outro Skill miliknya memberikan 20% Glacio & 25% Res. Skill DMG Amplify. Ia juga memberikan Resonance Energy Regeneration, yang menurunkan kebutuhan ER Carlotta.\n- Jika Zhezhi tidak tersedia, Res. Skill Amplifier lainnya seperti Brant atau Cantarella mungkin dapat digunakan. Lumi dan Taoqi adalah opsi bintang 4 kalian. kalian juga dapat memasangkannya dengan tim quick swap umum seperti Changli atau Xiangli Yao."
   },
   "skills": {
     "basic": {
       "name": "Silent Execution",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -220,6 +225,7 @@
     },
     "skill": {
       "name": "Art Of Violence",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -245,6 +251,7 @@
     },
     "liberation": {
       "name": "Era Of New Wave",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -280,6 +287,7 @@
     },
     "forte": {
       "name": "Lethal Repertoire",
+      "description": "",
       "effects": [
         {
           "title": "Heavy Attack - Imminent Oblivion",
@@ -332,6 +340,7 @@
     ],
     "intro": {
       "name": "Wintertime Aria",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -342,6 +351,7 @@
     },
     "outro": {
       "name": "Closing Remark",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -636,7 +646,25 @@
     }
   ],
   "lore": {
-    "description": "Putri kedua keluarga Montelli dan seorang investor seni yang tak terikat oleh norma, Carlotta bergerak dengan anggun di antara lingkaran sosial dan transaksi bisnis, sembari diam-diam menangani masalah keluarga yang tak bisa diungkapkan.\n\nBIRTHPLACE\nRagunna\n\nREAL NAME\nCarlotta Montelli\n\nALIAS\nOpal",
+    "description": "Putri kedua keluarga Montelli dan seorang investor seni yang tak terikat oleh norma, Carlotta bergerak dengan anggun di antara lingkaran sosial dan transaksi bisnis, sembari diam-diam menangani masalah keluarga yang tak bisa diungkapkan.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Ragunna"
+      },
+      {
+        "title": "REAL NAME",
+        "description": "Carlotta Montelli"
+      },
+      {
+        "title": "ALIAS",
+        "description": "Opal"
+      },
+      {
+        "title": "FAMILLY",
+        "description": "Francesco Montelli (Grandfather)\nCapollo Montelli (Uncle)"
+      }
+    ],
     "report": {
       "resonancePower": "Reshaping Dimensions",
       "overclockDiagnostic": "[ Dikutip dari Catatan Internal Keluarga Montelli - Access Shared ]\n\nCodename: Opal\n\nGrafik gelombang anggota ini menunjukkan fluktuasi elips. Pola Time Domain teratur, dan tidak ditemukan tanda-tanda fluktuasi abnormal. Hasil tes dinilai berada dalam fase normal.\n- Resonant Criticality: Tinggi. Anggota ini memiliki stabilitas yang sangat baik dengan risiko Overclocking yang minim.\n- Tidak ada riwayat Overclocking dalam catatan.\n- Tidak diperlukan sesi konseling psikologis saat ini.\n\nSungguh elegan! Lady Carlo... eh, maksudku, anggota ini selalu tampil elegan, sempurna—bahkan dalam tes ini... Elegan sekali!",

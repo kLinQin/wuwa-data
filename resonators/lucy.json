@@ -16,9 +16,16 @@
   ],
   "changelog": [
     {
-      "text": "",
+      "text": "- refactor Lore page",
       "type": "updated",
-      "isNew": true,
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Revisi entry lore page",
+      "type": "updated",
+      "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
     }
@@ -162,6 +169,7 @@
   "skills": {
     "basic": {
       "name": "Locked Thread",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -217,6 +225,7 @@
     },
     "skill": {
       "name": "Protocol Breach",
+      "description": "",
       "effects": [
         {
           "title": "Resonance Skill - Payload",
@@ -237,6 +246,7 @@
     },
     "liberation": {
       "name": "Netrunner",
+      "description": "",
       "effects": [
         {
           "title": "Resonance Liberation - Netrunner",
@@ -287,6 +297,7 @@
     },
     "forte": {
       "name": "Depths Of Blackwall",
+      "description": "",
       "effects": [
         {
           "title": "Cloud Portal",
@@ -364,6 +375,7 @@
     ],
     "intro": {
       "name": "Outdated Hallucination",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -389,6 +401,7 @@
     },
     "outro": {
       "name": "Countermeasure Program",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -756,7 +769,25 @@
     }
   ],
   "lore": {
-    "description": "Real Name: Lucyna Kushinada\nNation: Night City\nAffiliations: Lahai-Roi \nFather: Takeshi Kushinada\n\nAbout: \nSeorang Edgerunner dari Night City. Netrunner dalam krunya.  \nDengan beban utang yang menghantui hatinya, ia sengaja menjaga jarak dari orang lain. Bahkan mereka yang paling dekat dengannya nyaris tak tahu apa-apa tentang masa lalunya.",
+    "description": "Seorang Edgerunner dari Night City. Netrunner dalam krunya.  \nDengan beban utang yang menghantui hatinya, ia sengaja menjaga jarak dari orang lain. Bahkan mereka yang paling dekat dengannya nyaris tak tahu apa-apa tentang masa lalunya.",
+    "manualEntries": [
+      {
+        "title": "REAL NAME",
+        "description": "Lucyna Kushinada"
+      },
+      {
+        "title": "NATION",
+        "description": "Night City"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Lahai-Roi "
+      },
+      {
+        "title": "FATHER",
+        "description": "Takeshi Kushinada"
+      }
+    ],
     "report": {
       "resonancePower": "Xeno-Domain Hacking",
       "resonanceEvaluation": "[██ Record Modification Log]\n\nTarget Modifikasi: Lucy Kushinada  \nKode Modifikasi: RA2██-G\n\nSubjek teridentifikasi sebagai Mutant-Type Resonator, dengan Tacet Mark terletak di bahu kanan.\n\nForte Manifestation:  \nSubjek mampu meretas target dalam radius lima meter untuk mencapai tujuan seperti pengambilan informasi, manipulasi data, atau kendali atas target. Pengujian menunjukkan Forte ini dapat memengaruhi hingga tiga target secara simultan, dengan efektivitas lebih tinggi terhadap mechanical constructs.\n\nBio-organic Hacking:  \nForte ini juga dapat digunakan terhadap Tacet Discords. Setelah meretas Tacet Discord, subjek dapat memberikan damage atau mengendalikannya dengan mengganggu frekuensinya. Mekanisme dasar dan batas maksimalnya saat ini belum diketahui. Cakupan kendali diduga dipengaruhi oleh kondisi fisik dan emosional Resonator itu sendiri.\n\nAtas jaminan ███, Research Institute telah menyetujui ███ terbatas terhadap subjek.\n\nCyberware Technology:  \nSubjek menunjukkan sejumlah modifikasi mekanis yang menyatu dengan tubuhnya. Menurut kesaksian subjek, modifikasi tersebut berasal dari ███ dan diklasifikasikan sebagai cybernetic technology. Hasil uji menunjukkan cyberware ini tidak sesuai dengan teknologi yang diketahui saat ini, dan jenis implan ini memberikan tekanan signifikan terhadap tubuh serta psike pengguna. Pada ██ ██, ███ melakukan intervensi dan membatalkan proyek penelitian mengenai teknologi Night City.\n\n",

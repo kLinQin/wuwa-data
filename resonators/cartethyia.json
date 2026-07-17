@@ -16,7 +16,14 @@
   ],
   "changelog": [
     {
-      "text": "minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -748,7 +755,17 @@
     }
   ],
   "lore": {
-    "description": "Cartethyia, ksatria pengembara yang melakukan perjalanan melintasi Rinascita. Dulunya dikenal sebagai Blessed Maiden, perantara Divinity, dan Queen of Gale and Tide, ia menggunakan nama Fleurdelys. Kini, ia hanyalah seorang ksatria pengembara yang bebas dan tidak terikat. \n\nTITLE\n- The Blessed Maiden\n- Blessed Maiden of the Order of the Deep\n- Queen of Gale and Tide\n- Enlightened One\n\nBIRTHPLACE\nRinascita",
+    "description": "Cartethyia, ksatria pengembara yang melakukan perjalanan melintasi Rinascita. Dulunya dikenal sebagai Blessed Maiden, perantara Divinity, dan Queen of Gale and Tide, ia menggunakan nama Fleurdelys. Kini, ia hanyalah seorang ksatria pengembara yang bebas dan tidak terikat.",
+    "manualEntries": [
+      {
+        "title": "TITLE",
+        "description": "- The Blessed Maiden\n- Blessed Maiden of the Order of the Deep\n- Queen of Gale and Tide\n- Enlightened One"
+      },
+      {
+        "title": "BIRTHPLACE",
+        "description": "Rinascita"
+      }
+    ],
     "report": {
       "resonancePower": "Feathered Tempest",
       "overclockDiagnostic": "Grafik waveform Cartethyia menunjukkan fluktuasi elips dengan Time Domain yang stabil. Nilai puncak antara batas atas dan bawah menunjukkan tren kenaikan intermiten, dengan nilai puncak yang belum melampaui ambang batas kritis. Tidak ada fluktuasi abnormal yang teramati.\n\nKekuatan eksternal dan internal di dalam tubuh Cartethyia hampir mencapai tahap fusi.\n\nResonant Criticality: Tinggi. Stabilitas tinggi dengan risiko Overclocking yang minimal. Namun, perlu dicatat bahwa tubuh Cartethyia menunjukkan fluktuasi kekuatan yang tidak stabil saat berada jauh dari Rinascita.\n\nCartethyia adalah individu langka yang telah menjalani Second Awakening, memungkinkannya untuk bertransisi secara bebas di antara dua wujud. Perlu ditekankan bahwa ini bukanlah kasus Overclocking, melainkan pemanggilan kekuatannya secara presisi.\n\nNote from a Bloom Bearer: Saat Nona Cartethyia... Tidak, tunggu, Fleurdelys, mendemonstrasikan kekuatannya, badainya hampir menghancurkan seluruh simulasi! Astaga. Kita harus mengambil tindakan pencegahan ekstra pada pengujian berikutnya!",

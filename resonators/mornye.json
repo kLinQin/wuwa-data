@@ -17,9 +17,16 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
       "type": "updated",
-      "isNew": true,
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- revisi team note",
+      "type": "updated",
+      "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
     }
@@ -41,7 +48,7 @@
     ],
     "bestWeapon": "Starfield Calibrator",
     "echoDetails": {
-      "note": "Jika kalian mampu mencapai 260% ER hanya dengan 1x ER 3-cost, kalian dapat memilih untuk menggunakan Fusion DMG Bonus untuk damage lebih besar atau DEF% untuk tambahan heal dan damage yang seimbang. Saat berada di luar tim, disarankan untuk mencapai 240% ER karena Reactor Husk (main echo) dan inherent skill Mornye keduanya memberikan 10% Energy Regen.",
+      "note": "Jika kamu mampu mencapai 260% ER hanya dengan 1x ER 3-cost, kamu dapat memilih untuk menggunakan Fusion DMG Bonus untuk damage lebih besar atau DEF% untuk tambahan heal dan damage yang seimbang. Saat berada di luar tim, disarankan untuk mencapai 240% ER karena Reactor Husk (main echo) dan inherent skill Mornye keduanya memberikan 10% Energy Regen.",
       "sets": [
         {
           "label": "Healer",
@@ -145,7 +152,7 @@
       },
       {
         "name": "Mono Fusion",
-        "note": "kalian juga dapat mengganti Galbrena dengan Aemeath atau Brant.",
+        "note": "kamu juga dapat mengganti Galbrena dengan Aemeath atau Brant.",
         "members": [
           [
             "Aemeath",
@@ -185,6 +192,7 @@
   "skills": {
     "basic": {
       "name": "Ground State Calibration",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -220,6 +228,7 @@
     },
     "skill": {
       "name": "Resolution",
+      "description": "",
       "effects": [
         {
           "title": "Expectation Error",
@@ -240,6 +249,7 @@
     },
     "liberation": {
       "name": "Critical Protocol",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -270,6 +280,7 @@
     },
     "forte": {
       "name": "Mass-Energy Equivalence",
+      "description": "",
       "effects": [
         {
           "title": "Baseline Mode",
@@ -407,6 +418,7 @@
     ],
     "intro": {
       "name": "Convergence",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -417,6 +429,7 @@
     },
     "outro": {
       "name": "Recursion",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -643,7 +656,17 @@
     }
   ],
   "lore": {
-    "description": "Mornye, seorang insinyur Spacetrek Collective Research Institute dan profesor Departemen Teknik Exostrider di Startorch Academy.\nSetiap langkah pada kaki prostetiknya membawanya menuju bintang-bintang impiannya.\n\nBIRTHPLACE\nNew Federation",
+    "description": "Mornye, seorang insinyur Spacetrek Collective Research Institute dan profesor Departemen Teknik Exostrider di Startorch Academy.\nSetiap langkah pada kaki prostetiknya membawanya menuju bintang-bintang impiannya.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "New Federation"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Spacetrek Collective (on profile)\nStartorch Academy"
+      }
+    ],
     "report": {
       "resonancePower": "Astral Mapping",
       "overclockDiagnostic": "Analisis bentuk gelombang dari sampel uji menunjukkan pola osilasi elips dengan Time Domain yang stabil. Meskipun kecenderungan fluktuasi tidak teratur dalam jangka waktu lama sebelumnya telah didokumentasikan, bentuk gelombang tersebut kini telah stabil. Hasil pemeriksaan ditentukan berada dalam parameter normal.\n\nKesimpulan: Resonant Criticality berada dalam kisaran normal. Stabilitas subjek tetap kuat. Tidak ada risiko Overclocking saat ini.\n\nResonator Mornye memiliki riwayat Overclocking sebelumnya. Peringkat keparahan maksimum: Ringan.\nSubjek melaporkan telah memicu episode singkat beberapa tahun yang lalu untuk mempertahankan pengoperasian menara sinyal yang krusial. Berkat intervensi medis yang tepat waktu, tidak ada gejala pasca-Overclocking yang teramati.\n\nPemeriksaan fisik rutin disarankan. Konseling psikologis saat ini dianggap tidak perlu.",

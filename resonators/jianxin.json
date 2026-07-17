@@ -3,7 +3,7 @@
   "element": "Aero",
   "weapon": "Gauntlet",
   "rarity": 5,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Support and Healer",
@@ -18,7 +18,14 @@
   ],
   "changelog": [
     {
-      "text": "update weapon",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Revisi general note",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -44,7 +51,7 @@
     ],
     "bestWeapon": "Blazing Justice",
     "echoDetails": {
-      "note": "FONR memberikan buff 10% ATK selama 20 detik (100% uptime, CD 20 detik), sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, CD 20 detik), yang durasinya bisa terhenti lebih cepat jika perisai terkena serangan sebanyak 3 kali. Secara keseluruhan, FONR juga lebih mudah untuk difarming karena hanya menjatuhkan satu jenis set sonata.",
+      "note": "- FONR memberikan buff 10% ATK selama 20 detik (100% uptime, CD 20 detik), \n- sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, CD 20 detik), yang durasinya bisa terhenti lebih cepat jika perisai terkena serangan sebanyak 3 kali. Secara keseluruhan, \n- FONR juga lebih mudah untuk difarming karena hanya menjatuhkan satu jenis set sonata.",
       "sets": [
         {
           "label": "Support",
@@ -197,7 +204,7 @@
       },
       {
         "name": "Buff Liberation",
-        "note": "Jianxin memberikan 38% Res. Liberation DMG Amplify selama 14 detik kepada Calcharo / Iuno / Xiangli Yao. Dalam skenario ini, Jianxin menggunakan set Moonlit Clouds sebagai Sub DPS.\n",
+        "note": "",
         "members": [
           [
             "Xiangli Yao",
@@ -215,11 +222,12 @@
         ]
       }
     ],
-    "teamNote": "\nSecara umum, Jianxin adalah Resonator Sub DPS / Support yang solid; selain kemampuan healing dan shield yang ia berikan, ia juga memiliki kemampuan \"Traction\" yang baik — di mana ia mampu mengumpulkan musuh (grouping) untuk DPS."
+    "teamNote": "Secara umum, Jianxin adalah Resonator Sub DPS / Support yang solid; selain kemampuan healing dan shield yang ia berikan, ia juga memiliki kemampuan \"Traction\" yang baik  di mana ia mampu mengumpulkan musuh (grouping) untuk DPS."
   },
   "skills": {
     "basic": {
       "name": "Fengyiquan",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -245,6 +253,7 @@
     },
     "skill": {
       "name": "Calming Air",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -265,6 +274,7 @@
     },
     "liberation": {
       "name": "Purification Force Field",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -275,6 +285,7 @@
     },
     "forte": {
       "name": "Primordial Chi Spiral",
+      "description": "",
       "effects": [
         {
           "title": "Heavy Attack: Primordial Chi Spiral",
@@ -327,6 +338,7 @@
     ],
     "intro": {
       "name": "Essence Of Tao",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -337,6 +349,7 @@
     },
     "outro": {
       "name": "Transcendence",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -497,7 +510,17 @@
     }
   ],
   "lore": {
-    "description": "Jianxin, seorang biksu Tao dan penerus Fengyiquan, telah mendedikasikan hidupnya untuk menguasai seni bela diri pamungkas. Dengan kekuatan untuk memanfaatkan dan mentransformasikan Chi lingkungan, ia dapat menciptakan penghalang pelindung yang memurnikan tubuh dan pikiran.\n\nBIRTHDAY\nApril 6th\n\nBIRTHPLACE\nHuanglong",
+    "description": "Jianxin, seorang biksu Tao dan penerus Fengyiquan, telah mendedikasikan hidupnya untuk menguasai seni bela diri pamungkas. Dengan kekuatan untuk memanfaatkan dan mentransformasikan Chi lingkungan, ia dapat menciptakan penghalang pelindung yang memurnikan tubuh dan pikiran.",
+    "manualEntries": [
+      {
+        "title": "BIRTHDAY",
+        "description": "April 6th"
+      },
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      }
+    ],
     "report": {
       "resonancePower": "Cleansing Reflections",
       "overclockDiagnostic": "Grafik waveform dari Jianxin mengilustrasikan Time Domain yang stabil, sangat cocok dengan pola fluktuasi standar. Tidak ada parameter abnormal yang diamati dalam sampel uji.\n\nResonant Criticality: Tinggi. Frekuensi Resonator Jianxin menunjukkan stabilitas tinggi, dan risiko Overclocking sangat minimal.\n\nJianxin tidak memiliki riwayat Overclocking yang terdokumentasi. Konseling dan pemeriksaan rutin tidak diperlukan.",
@@ -505,23 +528,8 @@
     },
     "items": [
       {
-        "name": "",
-        "imageUrl": "https://api.hakush.in/ww/UI/UIResources/UiRole/Image/Treasure/T_Treasure52_UI.webp",
-        "description": ""
-      },
-      {
-        "name": "",
-        "imageUrl": "https://api.hakush.in/ww/UI/UIResources/UiRole/Image/Treasure/T_Treasure53_UI.webp",
-        "description": ""
-      },
-      {
-        "name": "",
-        "imageUrl": "https://api.hakush.in/ww/UI/UIResources/UiRole/Image/Treasure/T_Treasure54_UI.webp",
-        "description": "Tanaman itu berdiri tegak dan kuat, seolah-olah masih bergoyang tertiup angin di rumah pegunungannya. Pemandangannya saja menghadirkan sensasi menyegarkan seperti berada di puncak tertinggi. Spesies khusus ini berada di ambang kepunahan, dengan hanya menyisakan jejak dalam deskripsi singkat Jianxin. Bahkan setelah penyelidikan menyeluruh, Academy tetap tidak dapat memastikan di mana ia menemukannya. Yang diketahui hanyalah bahwa tanaman langka ini pernah berada dalam kepemilikannya. Beberapa orang percaya tanaman ini memiliki kekuatan mistis, sementara yang lain melihatnya sebagai simbol ketahanan dan kelangsungan hidup."
-      },
-      {
         "name": "Mirrors Of Clarity",
-        "description": "",
+        "description": "Tanaman itu berdiri tegak dan kuat, seolah-olah masih bergoyang tertiup angin di rumah pegunungannya. Pemandangannya saja menghadirkan sensasi menyegarkan seperti berada di puncak tertinggi. Spesies khusus ini berada di ambang kepunahan, dengan hanya menyisakan jejak dalam deskripsi singkat Jianxin. Bahkan setelah penyelidikan menyeluruh, Academy tetap tidak dapat memastikan di mana ia menemukannya. Yang diketahui hanyalah bahwa tanaman langka ini pernah berada dalam kepemilikannya. Beberapa orang percaya tanaman ini memiliki kekuatan mistis, sementara yang lain melihatnya sebagai simbol ketahanan dan kelangsungan hidup.",
         "imageUrl": "/icons/items/jianxin-1.webp"
       },
       {

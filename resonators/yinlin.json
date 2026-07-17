@@ -3,7 +3,7 @@
   "element": "Electro",
   "weapon": "Rectifier",
   "rarity": 5,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Concerto Efficiency",
@@ -18,7 +18,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -576,7 +583,17 @@
     }
   ],
   "lore": {
-    "description": "Yinlin adalah seorang Patroller yang terampil dan Natural Resonator yang kuat. Setelah diskors dari tugasnya di Public Security Bureau, ia kini harus mengejar kejahatan tersembunyi secara rahasia.\n\nBIRTHDAY\nSeptember 17th\n\nBIRTHPLACE\nHuanglong",
+    "description": "Yinlin adalah seorang Patroller yang terampil dan Natural Resonator yang kuat. Setelah diskors dari tugasnya di Public Security Bureau, ia kini harus mengejar kejahatan tersembunyi secara rahasia.",
+    "manualEntries": [
+      {
+        "title": "BIRTHDAY",
+        "description": "September 17th"
+      },
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      }
+    ],
     "report": {
       "resonancePower": "Enforcer Puppet",
       "overclockDiagnostic": "Grafik gelombang Resonator Yinlin menunjukkan fluktuasi zig-zag. Pola dari Time Domain bersifat tidak teratur. Nilai puncak atas dan bawah keduanya tinggi dan menunjukkan kedekatan dengan tingkat Criticality. Bentuk gelombang menampilkan segmen kekaburan parsial dan bentuk gelombang abnormal dapat terlihat.\n\nResonant Criticality: Relatif rendah, dengan stabilitas rendah. Risiko Overclocking tetap ada.\n\nResonator Yinlin tidak memiliki riwayat Overclocking yang tercatat. Tubuhnya menunjukkan kekuatan fisik, tetapi juga tanda-tanda paparan barang yang memicu Overclock dalam jangka panjang. Membutuhkan pemantauan lebih lanjut.\n\nMenilai dari observasi sejauh ini, risiko Overclocking sangat minimal. Resonator Yinlin disarankan untuk menghindari aktivitas berat dan jadwal yang tidak teratur.",

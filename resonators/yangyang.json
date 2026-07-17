@@ -3,7 +3,7 @@
   "element": "Aero",
   "weapon": "Sword",
   "rarity": 4,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Concerto Efficiency",
@@ -16,7 +16,14 @@
   ],
   "changelog": [
     {
-      "text": "minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -423,7 +430,17 @@
     }
   ],
   "lore": {
-    "description": "Yangyang adalah seorang Outrider dari Midnight Rangers.\nDahulu terlindungi, kini seorang pejuang. Ia membumbung tinggi bersama angin untuk melindungi orang lain, bagaikan burung skylark yang sedang terbang.\n\nBIRTHDAY\nOctober 11th\n\nBIRTHPLACE\nHuanglong",
+    "description": "Yangyang adalah seorang Outrider dari Midnight Rangers.\nDahulu terlindungi, kini seorang pejuang. Ia membumbung tinggi bersama angin untuk melindungi orang lain, bagaikan burung skylark yang sedang terbang.",
+    "manualEntries": [
+      {
+        "title": "BIRTHDAY",
+        "description": "October 11th"
+      },
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      }
+    ],
     "report": {
       "resonancePower": "Breath of Winds",
       "resonanceEvaluation": "Dasar Evaluasi: [Resonance Assessment 1011-G]\n\nWaktu dan penyebab pasti Awakening Resonator Yangyang masih belum jelas. Resonator Yangyang melaporkan sensitivitas yang meningkat terhadap lingkungan sekitarnya sejak masa kanak-kanak.\n\nTacet Mark dari Resonator Yangyang terletak di tengah dahi miliknya. Observasi pasca-Awakening tidak menemukan perubahan fisik yang berarti. Saat fluktuasi frekuensi muncul kembali, transformasi terbatas seperti bulu telah diamati pada ujung rambutnya.\n\nResonator Yangyang melakukan sinkronisasi dengan udara sekitar dengan mendeteksi informasi dalam aliran udara dan menciptakan medan energi menggunakan aliran udara yang memusat.\n\nResonance Spectrum Pattern dari Resonator Yangyang menunjukkan kemiripan lebih dari 20% dengan aliran udara dan spesies burung kecil. Meskipun terdapat reaksi Syntony yang kuat, pola tersebut juga berbagi kemiripan lebih dari 5% dengan beberapa sampel lain yang ada, menunjukkan potensi penyebab Awakening yang bersifat ganda atau kontaminatif.\n\nAnalisis sampel uji telah mengungkapkan Rabelle's Curve non-konvergen dengan kenaikan yang stabil. Fluktuasi sesekali dalam rentang normal telah terdeteksi. Oleh karena itu, Yangyang diidentifikasi sebagai Natural Resonator.",

@@ -3,7 +3,7 @@
   "element": "Glacio",
   "weapon": "Gauntlet",
   "rarity": 5,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer"
@@ -15,7 +15,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
@@ -42,7 +49,7 @@
       "note": "",
       "sets": [
         {
-          "label": "Dps Glacio DMG",
+          "label": "Glacio DMG",
           "stats": [
             "4: CR%/CDMG%",
             "3: glacio%",
@@ -57,7 +64,7 @@
           ]
         },
         {
-          "label": "DPS General ATK",
+          "label": "General ATK",
           "stats": [
             "4: CR%/CDMG%",
             "3: glacio%",
@@ -72,7 +79,7 @@
           ]
         },
         {
-          "label": "DPS Skill DMG",
+          "label": "Skill DMG",
           "stats": [
             "4: CR%/CDMG%",
             "3: glacio%",
@@ -164,11 +171,12 @@
         ]
       }
     ],
-    "teamNote": "Zhezhi memberikan Lingyang 20% Glacio & 25% Res. Skill DMG Amplify setelah melancarkan Outro Skill miliknya.\nSanhua memberikan Lingyang 38% Basic ATK DMG Amplify. Pada S6, ia dapat memberikan hingga 20% ATK setelah meledakkan Ice Prisms/Glaciers miliknya."
+    "teamNote": "- Zhezhi memberikan Lingyang 20% Glacio & 25% Res. Skill DMG Amplify setelah melancarkan Outro Skill miliknya.\n- Sanhua memberikan Lingyang 38% Basic ATK DMG Amplify. Pada S6, ia dapat memberikan hingga 20% ATK setelah meledakkan Ice Prisms/Glaciers miliknya."
   },
   "skills": {
     "basic": {
       "name": "Majestic Fists",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -199,6 +207,7 @@
     },
     "skill": {
       "name": "Ancient Arts",
+      "description": "",
       "effects": [
         {
           "title": "Ancient Arts",
@@ -214,6 +223,7 @@
     },
     "liberation": {
       "name": "Strive: Lion'S Vigor",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -229,6 +239,7 @@
     },
     "forte": {
       "name": "Unification Of Spirits",
+      "description": "",
       "effects": [
         {
           "title": "Heavy Attack: Glorious Plunge",
@@ -276,6 +287,7 @@
     ],
     "intro": {
       "name": "Lion Awakens",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -286,6 +298,7 @@
     },
     "outro": {
       "name": "Frosty Marks",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -456,7 +469,21 @@
     }
   ],
   "lore": {
-    "description": "Lingyang adalah anggota Liondance Troupe di Jinzhou yang berbakat dan ramah. Semangat dan keberaniannya terlihat jelas saat ia berinteraksi dengan manusia, menunjukkan kemampuan fisiknya yang luar biasa. Dengan gayanya yang khas, ia benar-benar mewujudkan semangat Liondancing.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n08 Agustus",
+    "description": "Lingyang adalah anggota Liondance Troupe di Jinzhou yang berbakat dan ramah. Semangat dan keberaniannya terlihat jelas saat ia berinteraksi dengan manusia, menunjukkan kemampuan fisiknya yang luar biasa. Dengan gayanya yang khas, ia benar-benar mewujudkan semangat Liondancing.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "08 Agustus"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Jinzhou (on profile)\nLiondance Troupe"
+      }
+    ],
     "report": {
       "resonancePower": "Frosty Gusto",
       "overclockDiagnostic": "Gelombang grafik Resonator Lingyang menunjukkan fluktuasi elips. Pola Time Domain teratur dengan nilai puncak yang stabil, tanpa adanya anomali dalam gelombang.\n- Resonant Criticality: Sangat stabil. Resonator Lingyang memiliki tingkat Criticality yang cukup tinggi. Risiko Overclocking sangat rendah.\n- Riwayat Overclocking: Tidak ada catatan Overclocking sebelumnya.\n- Lingyang menunjukkan kendali yang sangat baik atas Forte-nya dan mampu menjaga kestabilan emosinya secara konsisten.\n- Saat menggunakan kemampuannya, yang dikenal sebagai \"Will Transmission\", medan bersuhu rendah yang dihasilkan terutama memberikan manfaat bagi sekutunya. Dalam situasi kelompok, efek ini membantu mengurangi risiko Overclocking bagi Lingyang.\n\nRekomendasi:\n- Menjaga risiko Overclocking tetap rendah.\n- Melakukan pemantauan berkala terhadap perkembangannya.\n- Observasi lebih lanjut dianjurkan.",

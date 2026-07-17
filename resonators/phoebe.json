@@ -3,7 +3,7 @@
   "element": "Spectro",
   "weapon": "Rectifier",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.1",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer",
@@ -16,8 +16,15 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
-      "type": "input",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
+      "type": "updated",
       "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
@@ -171,11 +178,12 @@
         "note": "Phoebe (Absolution1) tidak mampu menghasilkan stack Spectro Frazzle yang cukup secara mandiri, sehingga ia dipasangkan dengan Rover: Spectro. Rover: Spectro dapat berperan sebagai Dual DPS (set Eternal Radiance), buffer (Moonlit Clouds), atau sustain (Rejuvenating Glow) dalam team ini."
       }
     ],
-    "teamNote": "Confession merujuk pada wujud Sub DPS Phoebe, diaktifkan dengan menahan tombol Skill setelah bar Forte Gauge miliknya penuh. Absolution merujuk pada wujud Main DPS Phoebe, diaktifkan dengan menahan Basic ATK setelah bar Forte Gauge penuh. states ini tidak dapat digunakan secara bersamaan.\n\nPhoebe memberikan buff berikut kepada Zani:\n-Dalam [Confession]: 10% Spectro RES Reduction dan 100% Spectro Frazzle DMG Amplify selama 30 detik setelah melancarkan Outro Skill\n-Dengan Luminous Hymn (signature Phoebe): 30% Spectro Frazzle DMG Amplify selama 30 detik setelah melancarkan Outro Skill."
+    "teamNote": "- Confession merujuk pada wujud Sub DPS Phoebe, diaktifkan dengan menahan tombol Skill setelah bar Forte Gauge miliknya penuh. \n- Absolution merujuk pada wujud Main DPS Phoebe, diaktifkan dengan menahan Basic ATK setelah bar Forte Gauge penuh. states ini tidak dapat digunakan secara bersamaan.\n\nPhoebe memberikan buff berikut kepada Zani:\n-Dalam [Confession]: 10% Spectro RES Reduction dan 100% Spectro Frazzle DMG Amplify selama 30 detik setelah melancarkan Outro Skill\n-Dengan Luminous Hymn (signature Phoebe): 30% Spectro Frazzle DMG Amplify selama 30 detik setelah melancarkan Outro Skill."
   },
   "skills": {
     "basic": {
       "name": "O Come Divine Light",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -206,6 +214,7 @@
     },
     "skill": {
       "name": "To Where Light Shines",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -231,6 +240,7 @@
     },
     "liberation": {
       "name": "Dawn Of Enlightenment",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -251,6 +261,7 @@
     },
     "forte": {
       "name": "Radiant Invocation",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -323,6 +334,7 @@
     ],
     "intro": {
       "name": "Golden Grace",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -333,6 +345,7 @@
     },
     "outro": {
       "name": "Attentive Heart",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -680,7 +693,21 @@
     }
   ],
   "lore": {
-    "description": "Phoebe, Acolyte of the Order of the Deep, adalah seorang wanita muda yang penuh ketulusan. Dengan hati yang lembut, ia menjalankan tugasnya dengan ketekunan yang tak tergoyahkan. Doa-doanya, bagaikan cahaya yang selalu ia bawa, memberikan ketenangan dan kedamaian bagi semua yang berada di sekitarnya.\n\nBIRTHPLACE\nRinascita\n\nREAL NAME\nPhoebe Marino",
+    "description": "Phoebe, Acolyte of the Order of the Deep, adalah seorang wanita muda yang penuh ketulusan. Dengan hati yang lembut, ia menjalankan tugasnya dengan ketekunan yang tak tergoyahkan. Doa-doanya, bagaikan cahaya yang selalu ia bawa, memberikan ketenangan dan kedamaian bagi semua yang berada di sekitarnya.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Rinascita"
+      },
+      {
+        "title": "REAL NAME",
+        "description": "Phoebe Marino"
+      },
+      {
+        "title": "AFFILIATION",
+        "description": "Ragunna (on profile)\nOrder of the Deep"
+      }
+    ],
     "report": {
       "resonancePower": "Graceful Luminescence",
       "resonanceEvaluation": "[Cuplikan Surat Rekomendasi dari Order Orphanage]\n\nSaat pertama kali aku melihat Tacet Mark yang bercahaya di paha kiri atasnya, aku langsung tahu bahwa ini adalah berkah dari Imperator.\n\n...Kemampuannya memungkinkan dia untuk memanifestasikan cahaya, membiaskannya ke dalam berbagai bentuk prisma. Bahkan di malam paling gelap, saat badai telah memadamkan semua cahaya lain, dia mengisi setiap ruangan dengan sinar lembut yang menenangkan. Cahaya yang begitu menenteramkan, seolah membawa esensi harapan di tengah kegelapan. Seperti tertulis dalam Tenets of the Deep, cahaya seperti itu pasti telah lama bersemayam di dalam hatinya, sebagai tanda dari pengabdiannya yang tanpa henti...\n\nCatatan ini telah dipindahkan dari Orphanage ke arsip Order of the Deep.\n\nKami memiliki alasan untuk percaya bahwa kemampuan Resonance yang luar biasa dari Acolyte Initiate Phoebe berasal dari imannya yang tak tergoyahkan terhadap Divinity.\n\nHal ini terlihat dari hubungan erat yang ia jalin dengan Echoes, sebuah keterikatan yang semakin memperkuat kepercayaan sebagian umat pada dirinya. Keterlibatannya yang aktif dalam kegiatan amal telah memberinya pengakuan luas, sehingga kami dengan suara bulat memutuskan untuk memberinya gelar Acolyte setelah masa novisiatnya.\n\nNamun, beberapa anggota Order berpendapat bahwa kedekatannya dengan Echoes melanggar doktrin. Berkah dari Divine Envoys seharusnya dibagikan secara merata, sebagaimana kasih Sentinel terhadap umatnya bersifat adil dan tanpa keberpihakan. Kedekatan yang terlalu erat dengan Divine Envoys dapat membawa risiko yang tak terduga. Oleh karena itu, kami tidak merekomendasikan penempatannya di Servitude Hall, dan percaya bahwa keputusan yang paling bijaksana adalah memindahkannya ke Ministry of Holy Rituals.",

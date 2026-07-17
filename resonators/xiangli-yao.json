@@ -3,7 +3,7 @@
   "element": "Electro",
   "weapon": "Gauntlet",
   "rarity": 5,
-  "version": "3.0",
+  "version": "1.2",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Main Damage Dealer",
@@ -14,8 +14,15 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
-      "type": "input",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
+      "type": "updated",
       "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
@@ -637,7 +644,13 @@
     }
   ],
   "lore": {
-    "description": "Investigator Utama di Huaxu Academy Kampus Jinzhou, dan ilmuwan lintas disiplin termuda di Akademi tersebut.\nSeorang jiwa yang lembut dengan pikiran yang tajam, yang gairah gigihnya terhadap Automata Mechanics selalu menghasilkan temuan dan wawasan konstruktif.\n\nBIRTHPLACE\njinzhou\n",
+    "description": "Investigator Utama di Huaxu Academy Kampus Jinzhou, dan ilmuwan lintas disiplin termuda di Akademi tersebut.\nSeorang jiwa yang lembut dengan pikiran yang tajam, yang gairah gigihnya terhadap Automata Mechanics selalu menghasilkan temuan dan wawasan konstruktif.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "jinzhou"
+      }
+    ],
     "report": {
       "resonancePower": "Matter Weaver",
       "overclockDiagnostic": "Grafik gelombang Resonator Xiangli Yao menunjukkan fluktuasi elips. Pola Time Domain bersifat stabil tanpa ada gelombang abnormal yang teramati.\n\nResonant Criticality: Tinggi. Frekuensi Xiangli Yao menunjukkan stabilitas tinggi dengan risiko Overclocking yang minimal.\n\nCatatan menunjukkan tidak ada riwayat Overclocking.\n\nPemeriksaan rutin disarankan, tanpa kebutuhan konseling psikologis saat ini.",

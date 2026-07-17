@@ -3,7 +3,7 @@
   "element": "Aero",
   "weapon": "Pistol",
   "rarity": 5,
-  "version": "3.0",
+  "version": "3.5",
   "lastUpdated": "2026-01-29",
   "roles": [
     "Support and Healer",
@@ -16,11 +16,15 @@
   ],
   "changelog": [
     {
-      "text": "minimal update",
+      "text": "- minimal update",
       "type": "updated",
       "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
+    },
+    {
+      "time": "2026-07-17",
+      "text": "- ganti nama title team (terlalu panjang)"
     }
   ],
   "faction": "",
@@ -82,7 +86,7 @@
         "ATK"
       ]
     },
-    "weaponNote": "Bloodpact's Pledge bisa didapatkan secara gratis sebagai hadiah melalui Main story quest Chapter 2: Act 4. Karena senjata ini memberikan Energy Regen, kebutuhan ER Rover: Aero akan terpenuhi tanpa memerlukan tambahan ER substats sama sekali.",
+    "weaponNote": "Bloodpact's Pledge bisa didapatkan secara gratis melalui Main story quest Chapter 2: Act 4. Karena senjata ini memberikan Energy Regen, kebutuhan ER Rover: Aero akan terpenuhi tanpa memerlukan tambahan ER substats sama sekali.",
     "weaponOptions": [
       {
         "id": "blazing-brilliance",
@@ -113,7 +117,7 @@
     },
     "teams": [
       {
-        "name": "Cartethyia hypercarry",
+        "name": "Hypercarry",
         "note": "Ciaccona memberikan Aero Erosion Amplify kepada Cartethyia saat mengeluarkan Outro Skill. Selain itu, clone milik Ciaccona memberikan Aero DMG Amplify. Ia juga memberikan tambahan stack Aero Erosion.",
         "members": [
           [
@@ -128,7 +132,7 @@
         ]
       },
       {
-        "name": "Cartethyia HC // ALT",
+        "name": "Hypercarry ALT",
         "note": "Alternatif lainnya, Shorekeeper dapat digunakan untuk meningkatkan Crit. Rate atau DMG Cartethyia. Namun, Cartethyia tidak akan mendapatkan keuntungan dari set bonus Rejuvenating Glow.",
         "members": [
           [
@@ -143,7 +147,7 @@
         ]
       },
       {
-        "name": "Cartethyia HC // F2P",
+        "name": "Hypercarry F2P",
         "note": "Sebagai alternatif pilihan budget, Sanhua bisa digunakan karena mayoritas damage Cartethyia dianggap sebagai Basic ATK DMG. Sanhua memberikan amplify untuk tipe damage tersebut melalui Outro Skill miliknya.",
         "members": [
           [
@@ -158,7 +162,7 @@
         ]
       },
       {
-        "name": "Iuno hypercarry",
+        "name": "Hypercarry Iuno",
         "note": "Jika menggunakan Rejuvenating Glow dalam tim Cartethyia, gunakan Bell karena Cartethyia tidak memiliki penskalaan dengan ATK.",
         "members": [
           [
@@ -178,6 +182,7 @@
   "skills": {
     "basic": {
       "name": "Wind Cutter",
+      "description": "",
       "effects": [
         {
           "title": "**Basic Attack**",
@@ -208,6 +213,7 @@
     },
     "skill": {
       "name": "Illusion Breaker",
+      "description": "",
       "effects": [
         {
           "title": "**Awakening Gale**",
@@ -223,6 +229,7 @@
     },
     "liberation": {
       "name": "Omega Storm",
+      "description": "",
       "effects": [
         {
           "title": "**Omega Storm**",
@@ -233,6 +240,7 @@
     },
     "forte": {
       "name": "Cycle Of Wind",
+      "description": "",
       "effects": [
         {
           "title": "**Mid-air Attack - Cloudburst Dance**",
@@ -274,11 +282,12 @@
       },
       {
         "name": "Tune Break: Sword",
-        "description": ""
+        "effects": []
       }
     ],
     "intro": {
       "name": "Relentless Squall",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -289,6 +298,7 @@
     },
     "outro": {
       "name": "Storm'S Echo",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -567,6 +577,7 @@
   ],
   "lore": {
     "description": "Resonator misterius yang memiliki kekuatan untuk menyerap semua Echo. Saat ini sedang dalam perjalanan untuk menemukan ingatan yang hilang.",
+    "manualEntries": [],
     "report": {
       "resonancePower": "Unknown",
       "overclockDiagnostic": "Unknown",

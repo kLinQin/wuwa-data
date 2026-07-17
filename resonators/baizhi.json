@@ -3,7 +3,7 @@
   "element": "Glacio",
   "weapon": "Rectifier",
   "rarity": 4,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Support and Healer",
@@ -37,7 +37,7 @@
     ],
     "bestWeapon": "Stellar Symphony",
     "echoDetails": {
-      "note": "FONR memberikan 10% ATK buff selama 20 detik (100% uptime, 20 detik CD), sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat terhenti lebih awal jika shield yang diberikan terkena serangan sebanyak 3 kali. FONR juga lebih mudah secara keseluruhan untuk dikumpulkan karena hanya menjatuhkan satu sonata set.",
+      "note": "- FONR memberikan 10% ATK buff selama 20 detik (100% uptime, 20 detik CD)\n- sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat terhenti lebih awal jika shield yang diberikan terkena serangan sebanyak 3 kali. \n- FONR juga lebih mudah secara keseluruhan untuk dikumpulkan karena hanya menjatuhkan satu sonata set.",
       "sets": [
         {
           "label": "Healer",
@@ -108,7 +108,7 @@
             "Baizhi"
           ]
         ],
-        "note": "Baizhi adalah healer yang luar biasa, buff miliknya bermanfaat bagi DPS mana pun karena ia memberikan all-type DMG Amplify, dan ia dijamin akan muncul dalam pull pertama Standard Character Convene Anda."
+        "note": "buff baizhi bermanfaat bagi DPS mana pun karena ia memberikan all-type DMG Amplify, dan di dijamin akan muncul dalam pull pertama Standard Character Convene kamu."
       }
     ],
     "teamNote": "Baizhi memberikan buff berikut untuk rekan timnya:\n-Saat Euphonia diambil, +20% ATK selama 20 detik; S6 meningkatkan Glacio DMG Bonus sebesar 12% selama 20 detik -15% all-type DMG Amplify selama 6 detik saat memberikan penyembuhan setelah melancarkan Outro Skill."
@@ -116,6 +116,7 @@
   "skills": {
     "basic": {
       "name": "Destined Promise",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -141,6 +142,7 @@
     },
     "skill": {
       "name": "Emergency Plan",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -151,6 +153,7 @@
     },
     "liberation": {
       "name": "Momentary Union",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -166,6 +169,7 @@
     },
     "forte": {
       "name": "Cycle Of Life",
+      "description": "",
       "effects": [
         {
           "title": "You'tan",
@@ -208,6 +212,7 @@
     ],
     "intro": {
       "name": "Overflowing Frost",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -218,6 +223,7 @@
     },
     "outro": {
       "name": "Rejuvinating Flow",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -393,7 +399,17 @@
     }
   ],
   "lore": {
-    "description": "Baizhi adalah seorang peneliti di bidang Remnant Ecoacoustics. Dulu, ada sebuah harapan yang tak pernah terwujud—sebuah keinginan yang nyaris tak berarti, infinitely close to zero. Namun kini, keinginan itu telah mengambil wujud nyata. Makhluk Remnant You’tan bukan hanya pendamping setianya, tetapi juga sumber kekuatan penyembuhannya—dan fokus penelitiannya seumur hidup.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\n10 September",
+    "description": "Baizhi adalah seorang peneliti di bidang Remnant Ecoacoustics. Dulu, ada sebuah harapan yang tak pernah terwujud—sebuah keinginan yang nyaris tak berarti, infinitely close to zero. Namun kini, keinginan itu telah mengambil wujud nyata. Makhluk Remnant You’tan bukan hanya pendamping setianya, tetapi juga sumber kekuatan penyembuhannya—dan fokus penelitiannya seumur hidup.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "10 September"
+      }
+    ],
     "report": {
       "resonancePower": "Healing You'tan",
       "overclockDiagnostic": "Grafik gelombang Baizhi menunjukkan fluktuasi elips dengan Time Domain yang stabil. Tidak ditemukan parameter abnormal dalam sampel uji.\n\nResonant Criticality: Tinggi. Frekuensi Baizhi menunjukkan stabilitas tinggi dengan risiko Overclocking yang saat ini tidak terdeteksi.\n\nBaizhi tidak memiliki riwayat Overclocking, sehingga sesi konseling tidak diperlukan.\n\nKarena ikatan yang kuat antara Baizhi dan You'tan, pemeriksaan rutin terhadap kondisi Makhluk Remnant-nya direkomendasikan untuk mengantisipasi potensi risiko laten.",

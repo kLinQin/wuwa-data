@@ -3,7 +3,7 @@
   "element": "Havoc",
   "weapon": "Rectifier",
   "rarity": 5,
-  "version": "3.0",
+  "version": "2.2",
   "lastUpdated": "2026-02-21",
   "roles": [
     "Support and Healer",
@@ -152,14 +152,15 @@
             "Phrolova"
           ],
           [
-            "Qiuyuan"
+            "Qiuyuan",
+            "Roccia"
           ],
           [
             "Cantarella",
             "Shorekeeper"
           ]
         ],
-        "note": ""
+        "note": "- kamu juga dapat mengganti Roccia dengan Qiuyuan, yang memberikan tambahan penggunaan Echo Skill dan buff Law of Harmony sonata set untuk Phrolova."
       },
       {
         "name": "Core",
@@ -175,14 +176,15 @@
             "Shorekeeper"
           ]
         ],
-        "note": ""
+        "note": "- Cantarella buff Phrolova (Havoc & Res. Skill).\n- Roccia buff Phrolova (Havoc & Heavy)\n- Roccia meningkatkan Cantarella (Havoc & Basic)\n- Bisa juga memasangkan Cantarella dengan Camellya atau Rover: Havoc karena ia memberikan Res. Skill dan Havoc DMG Amplify kepada mereka.\n- Penting untuk dicatat bahwa Res. Skill DMG Amplify memberikan sedikit atau bahkan tidak ada pengaruh bagi Camellya karena ia utamanya berskala berdasarkan Basic%."
       }
     ],
-    "teamNote": "Phrolova meningkatkan Roccia (Havoc & Heavy), Roccia meningkatkan Cantarella (Havoc & Basic), Cantarella meningkatkan Phrolova (Havoc & Res. Skill). kalian juga dapat mengganti Roccia dengan Qiuyuan, yang memberikan tambahan penggunaan Echo Skill dan buff Law of Harmony sonata set untuk Phrolova.\nBisa juga memasangkan Cantarella dengan Camellya atau Rover: Havoc karena ia memberikan Res. Skill dan Havoc DMG Amplify kepada mereka.\nPenting untuk dicatat bahwa Res. Skill DMG Amplify memberikan sedikit atau bahkan tidak ada pengaruh bagi Camellya karena ia utamanya berskala berdasarkan Basic%.\n\nCantarella memberikan buff berikut untuk rekan timnya:\n- 20% Havoc DMG dan 25% Res. Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill\n- 15% Havoc DMG Bonus dari bonus set Midnight Veil."
+    "teamNote": "Cantarella memberikan buff berikut untuk rekan timnya:\n- 20% Havoc DMG dan 25% Res. Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill\n- 15% Havoc DMG Bonus dari bonus set Midnight Veil."
   },
   "skills": {
     "basic": {
       "name": "Illusion Collapse",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack",
@@ -213,6 +215,7 @@
     },
     "skill": {
       "name": "Dance With Shadows",
+      "description": "",
       "effects": [
         {
           "title": "Graceful Step",
@@ -233,6 +236,7 @@
     },
     "liberation": {
       "name": "Beneath The Sea",
+      "description": "",
       "effects": [
         {
           "title": "Flowing Suffocation",
@@ -248,6 +252,7 @@
     },
     "forte": {
       "name": "Between Illusion And Reality",
+      "description": "",
       "effects": [
         {
           "title": "Mirage",
@@ -300,6 +305,7 @@
     ],
     "intro": {
       "name": "Cruise",
+      "description": "",
       "effects": [
         {
           "title": "Ripple",
@@ -315,6 +321,7 @@
     },
     "outro": {
       "name": "Gentle Tentacles",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -594,7 +601,17 @@
     }
   ],
   "lore": {
-    "description": "Pemimpin saat ini dari Fisalia, Cantarella, the Bane. Seorang bangsawan misterius, kecantikannya memikat sekaligus berbahaya. Dia tinggal di sebuah kastil berbentuk mahkota yang terletak di puncak gunung, di mana mimpi-mimpi ilusi mengalir seperti sungai, dirajut dengan teliti oleh tangannya sendiri.\n\nBIRTHPLACE\nRinascita\n\nBIRTHDATE\n18 June",
+    "description": "Pemimpin saat ini dari Fisalia, Cantarella, the Bane. Seorang bangsawan misterius, kecantikannya memikat sekaligus berbahaya. Dia tinggal di sebuah kastil berbentuk mahkota yang terletak di puncak gunung, di mana mimpi-mimpi ilusi mengalir seperti sungai, dirajut dengan teliti oleh tangannya sendiri. ",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Rinascita"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "18 June"
+      }
+    ],
     "report": {
       "resonancePower": "Sea of Dreams",
       "resonanceEvaluation": "Level: Public\nCatatan Pemeriksaan Rosemary dari Fisalia Apothecary: Edisi Khusus Disetujui oleh Kepala Keluarga\n\nJelas bahwa pemimpin keluarga Fisalia saat ini, Lady Cantarella, mewakili puncak dari keahlian keluarga dalam racun. Merupakan kehormatan besar telah diundang ke kastil untuk melakukan pemeriksaan kesehatannya, serta diberi akses penuh ke taman Kastil Porto-Veno untuk keperluan penelitian.\n\nKemampuan Lady Cantarella adalah bentuk racun halusinogen yang langka, berbeda dari racun mematikan yang lebih umum ditemukan dalam keluarga. Tidak seperti racun pada umumnya, racun ini tidak menyebabkan kematian seketika. Ketika gerombolan ubur-ubur muncul dari payungnya, lautan ilusi yang indah terbentuk di sekelilingnya. Individu yang terkena racun akan terlebih dahulu mengalami halusinasi, mungkin tentang keinginan terdalam mereka atau ilusi yang diciptakan. Jika mereka terlalu lama berada dalam lautan ini, kelumpuhan akan terjadi, diikuti oleh kehilangan kesadaran, dan akhirnya, jika efeknya berlanjut, kematian.\n\nKontrol Lady Cantarella atas kemampuannya sungguh luar biasa. Pada tingkat yang paling halus, dia bisa menimbulkan halusinasi tanpa menyebabkan kerusakan fisik.\n\nWalaupun kekuatan semacam ini adalah pedang bermata dua, sering kali menyebabkan kerugian bagi penggunanya juga, sikap anggun dan tenang Lady Cantarella menunjukkan bahwa dia tidak terlalu terpengaruh oleh \"Mimpi\". Atau begitulah tampaknya… mungkin?\n\nCatatan: Lady Cantarella sangat menyadari kemampuannya. Ini adalah pengecualian yang jarang dia izinkan untuk saya memeriksanya. Sejujurnya, itu membuat saya sedikit gugup… Saya berharap saya tidak membuat kesalahan.",

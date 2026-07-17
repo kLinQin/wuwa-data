@@ -17,11 +17,15 @@
   ],
   "changelog": [
     {
-      "text": "input character details ",
-      "type": "input",
-      "isNew": true,
+      "text": "- input character details ",
+      "type": "updated",
+      "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
+    },
+    {
+      "time": "2026-07-17",
+      "text": "- add Denia di Fusion Burst team"
     }
   ],
   "faction": "Roya Tribe",
@@ -39,7 +43,7 @@
     "bestEcho": [],
     "bestWeapon": "Everbright Polestar",
     "echoDetails": {
-      "note": "",
+      "note": "Jika menggunakan signature-nya, pertimbangkan Fusion / ATK untuk 3-Cost.",
       "sets": [
         {
           "label": "DPS",
@@ -126,8 +130,8 @@
     },
     "teams": [
       {
-        "name": "Aemeath Tune-Break",
-        "note": "Sinergi Tune Break yang kuat & kemampuan untuk memaksimalkan Inherent Skill milik Aemeath: Between the Stars. Sebagai alternatif, bisa juga menggunakan Shorekeeper; namun, Mornye lebih ideal karena ia memberikan lebih banyak Ruptures.",
+        "name": "Tune-Break",
+        "note": "- slot 3 Sebagai alternatif, bisa juga menggunakan Shorekeeper; namun, Mornye lebih ideal karena ia memberikan lebih banyak Ruptures. ",
         "members": [
           [
             "Aemeath"
@@ -159,13 +163,29 @@
             "Lupa"
           ]
         ]
+      },
+      {
+        "name": "Fusion Burst",
+        "members": [
+          [
+            "Aemeath"
+          ],
+          [
+            "Denia"
+          ],
+          [
+            "Chisa"
+          ]
+        ],
+        "note": "- Denia memberikan 60% Fusion Burst Amplify setelah melancarkan Outro Skill miliknya dan memenuhi Inherent Skill milik Aemeath: Between the Stars. Ia juga memberikan buff tambahan.\n- solt 2 Sebagai alternatif, kamu dapat menggunakan Lupa sebagai pengganti Chisa."
       }
     ],
-    "teamNote": ""
+    "teamNote": "1. team comp bergantung pada mode mana yang km pilih.\n- Tune Break:  Lynae > Aemeath's Sig > Mornye\n- Fusion Burst: Denia > Aemeath's Sig > Chisa\n-Generic/Mono Fusion: Lupa > Aemeath's Sig > Mornye/Changli\n\n 2. Aemeath memberikan buff berikut untuk rekan satu timnya:\n- 10% All-DMG Amplify selama 20 detik setelah melancarkan Outro Skill\n- Ini akan menjadi 20% Amplify untuk Resonator yang dapat memberikan efek Shifting atau Fusion Burst."
   },
   "skills": {
     "basic": {
       "name": "Infinity Calibration",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack - Aemeath",
@@ -191,6 +211,7 @@
     },
     "skill": {
       "name": "Shared Voyage",
+      "description": "",
       "effects": [
         {
           "title": "Form Switch",
@@ -231,6 +252,7 @@
     },
     "liberation": {
       "name": "Towards The Daybreak",
+      "description": "",
       "effects": [
         {
           "title": "Heavenfall Edict - Overdrive",
@@ -256,6 +278,7 @@
     },
     "forte": {
       "name": "To Sculpt The Silence",
+      "description": "",
       "effects": [
         {
           "title": "Seraphic Duo",
@@ -373,6 +396,7 @@
     ],
     "intro": {
       "name": "Overture Of Departure",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -413,6 +437,7 @@
     },
     "outro": {
       "name": "Silent Protection",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -836,7 +861,21 @@
     }
   ],
   "lore": {
-    "description": "Dahulu merupakan seorang Exostrider Synchronist dari Rabelle College, ia kini menjadi hantu digital yang menyanyi dengan tenang di antara bintang-bintang.\n\nBIRTHPLACE\nLahai-Roi\n\nALIAS\nFleet Snowfluff",
+    "description": "Dahulu merupakan seorang Exostrider Synchronist dari Rabelle College, ia kini menjadi hantu digital yang menyanyi dengan tenang di antara bintang-bintang. ",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Lahai-Roi"
+      },
+      {
+        "title": "ALIAS",
+        "description": "Fleet Snowfluff"
+      },
+      {
+        "title": "FAMILY",
+        "description": "Rover (Relative)"
+      }
+    ],
     "report": {
       "resonancePower": "Guiding Starlance",
       "overclockDiagnostic": "Analisis sampel uji Rabelle's Waveform menunjukkan pola osilasi elips dan Time Domain yang stabil. Tidak ada fluktuasi abnormal yang teramati. Hasil pemeriksaan ditentukan berada dalam parameter normal.\n\nKesimpulan: Resonant Criticality berada dalam rentang normal. Stabilitas subjek tetap kuat. Tidak ada riwayat dan tidak ada risiko Overclocking saat ini. Rabelle's Curve tetap stabil.\n\nKonseling psikologis saat ini dianggap tidak perlu.\n\n\"Aemeath… telah melakukannya dengan baik di tahun akademik ini. Namun kita memang perlu memantau garis dasar psikologisnya dengan cermat. Jika itu bergeser, intervensi terapeutik adalah suatu keharusan.\"\n\"Tapi... dia selalu tampak begitu ceria.\"\n\"Itulah sebabnya kita memantau, bukan ikut campur. Jika ini adalah kehidupan yang ia pilih untuk dirinya sendiri, kita menghormatinya. Kita hanya akan melakukan bagian kita sebagai guru.\"",

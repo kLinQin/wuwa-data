@@ -3,7 +3,7 @@
   "element": "Havoc",
   "weapon": "Broadblade",
   "rarity": 4,
-  "version": "3.0",
+  "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
     "Support and Healer",
@@ -16,7 +16,14 @@
   ],
   "changelog": [
     {
-      "text": "Minimal update",
+      "text": "- refactor Lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
+    },
+    {
+      "text": "- Minimal update",
       "type": "updated",
       "isNew": false,
       "time": "2026-07-16"
@@ -409,7 +416,17 @@
     }
   ],
   "lore": {
-    "description": "Taoqi adalah direktur pertahanan perbatasan di Ministry of Development. Meskipun pembawaannya tampak santai, ia secara konsisten membuktikan dirinya sebagai individu yang dapat diandalkan dan suportif, selalu mengulurkan tangannya kepada mereka yang membutuhkan. Taoqi bukan hanya rekan kerja yang dapat diandalkan, tetapi juga teman terpercaya tempat orang-orang bisa mencurahkan isi hati mereka.\n\nBIRTHPLACE\nHuanglong\n\nBIRTHDATE\nFebruary 25th",
+    "description": "Taoqi adalah direktur pertahanan perbatasan di Ministry of Development. Meskipun pembawaannya tampak santai, ia secara konsisten membuktikan dirinya sebagai individu yang dapat diandalkan dan suportif, selalu mengulurkan tangannya kepada mereka yang membutuhkan. Taoqi bukan hanya rekan kerja yang dapat diandalkan, tetapi juga teman terpercaya tempat orang-orang bisa mencurahkan isi hati mereka.",
+    "manualEntries": [
+      {
+        "title": "BIRTHPLACE",
+        "description": "Huanglong"
+      },
+      {
+        "title": "BIRTHDATE",
+        "description": "February 25th"
+      }
+    ],
     "report": {
       "resonancePower": "Blossom of Slashes",
       "resonanceEvaluation": "Evaluation Basis: [Resonance Assessment 2083-G]\n\nResonator Taoqi mengalami Forte-Awakening milikinya 3 tahun yang lalu, tanpa adanya peristiwa pemicu yang dapat diidentifikasi.\n\nTacet Mark milik Resonator Taoqi terletak di area interskapular. Observasi pasca-Kebangkitan belum menemukan perubahan fisik yang menonjol. Pengujian menunjukkan bahwa kulit Taoqi memiliki tingkat ketangguhan yang lebih tinggi dibandingkan dengan individu rata-rata.\n\nIa memiliki kemampuan untuk menghasilkan medan gaya yang unik, menciptakan penghalang pelindung guna melindungi dirinya sendiri dan orang lain dari potensi bahaya.\nResonance Spectrum Pattern milik Taoqi tidak menunjukkan kemiripan dengan sampel yang dikenal. Penyebab Kebangkitannya tetap tidak diketahui.\n\nAnalisis sampel uji telah mengungkapkan Rabelle's Curve yang tidak konvergen dengan kenaikan yang stabil. Fluktuasi sesekali dalam rentang normal telah terdeteksi. Oleh karena itu, Taoqi diklasifikasikan sebagai Natural Resonator.",
