@@ -5,392 +5,1049 @@
       "name": "Aemeath",
       "element": "Fusion",
       "rarity": 5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "3.1",
+      "lastUpdated": "2026-02-13",
+      "roles": [
+        "Main Damage Dealer",
+        "Resonance Liberation Damage",
+        "DMG Amplification",
+        "Fusion Burst",
+        "Tune Rupture Response"
+      ],
+      "sonatas": [
+        "Trailblazing Star"
+      ],
+      "image": "/characters/aemeath.webp"
     },
     {
       "id": "aero-rover",
       "name": "Aero Rover",
       "element": "Aero",
       "rarity": 5,
-      "weapon": "Pistol"
+      "weapon": "Pistol",
+      "version": "3.5",
+      "lastUpdated": "2026-01-29",
+      "roles": [
+        "Support and Healer",
+        "Resonance Skill DMG",
+        "Aero Erosion"
+      ],
+      "sonatas": [
+        "Windward Pilgrimage",
+        "Rejuvenating Glow"
+      ],
+      "image": "/characters/aero-rover.webp"
     },
     {
       "id": "augusta",
       "name": "Augusta",
       "element": "Electro",
       "rarity": 5,
-      "weapon": "Broadblade"
+      "weapon": "Broadblade",
+      "version": "2.6",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Heavy Attack DMG",
+        "DMG Amplification"
+      ],
+      "sonatas": [
+        "Crown of Valor"
+      ],
+      "image": "/characters/augusta.webp"
     },
     {
       "id": "brant",
       "name": "Brant",
       "element": "Fusion",
       "rarity": 5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "2.1",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Support and Healer",
+        "Basic Attack DMG",
+        "Fusion DMG Amplification",
+        "Resonance Skill DMG Amplification"
+      ],
+      "sonatas": [
+        "Tidebreaking Courage"
+      ],
+      "image": "/characters/brant.webp"
     },
     {
       "id": "calcharo",
       "name": "Calcharo",
       "element": "Electro",
       "rarity": 5,
-      "weapon": "Broadblade"
+      "weapon": "Broadblade",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Resonance Liberation Damage"
+      ],
+      "sonatas": [
+        "Void Thunder"
+      ],
+      "image": "/characters/calcharo.webp"
     },
     {
       "id": "camellya",
       "name": "Camellya",
       "element": "Havoc",
       "rarity": 5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "1.4",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Concerto Efficiency",
+        "Basic Attack DMG"
+      ],
+      "sonatas": [
+        "Havoc Eclipse"
+      ],
+      "image": "/characters/camellya.webp"
     },
     {
       "id": "cantarella",
       "name": "Cantarella",
       "element": "Havoc",
       "rarity": 5,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "2.2",
+      "lastUpdated": "2026-02-21",
+      "roles": [
+        "Support and Healer",
+        "Concerto Efficiency",
+        "Basic Attack DMG",
+        "Coordinated Attack",
+        "Havoc DMG Amplification",
+        "Resonance Skill DMG Amplification"
+      ],
+      "sonatas": [
+        "Midnight Veil",
+        "Empyrean Anthem",
+        "Moonlit Clouds"
+      ],
+      "image": "/characters/cantarella.webp"
     },
     {
       "id": "carlotta",
       "name": "Carlotta",
       "element": "Glacio",
       "rarity": 5,
-      "weapon": "Pistol"
+      "weapon": "Pistol",
+      "version": "2.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Resonance Skill DMG"
+      ],
+      "sonatas": [
+        "Frosty Resolve"
+      ],
+      "image": "/characters/carlotta.webp"
     },
     {
       "id": "cartethyia",
       "name": "Cartethyia",
       "element": "Aero",
       "rarity": 5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "3.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Traction",
+        "Aero DMG Amplification",
+        "Aero Erosion"
+      ],
+      "sonatas": [
+        "Windward Pilgrimage"
+      ],
+      "image": "/characters/cartethyia.webp"
     },
     {
       "id": "changli",
       "name": "Changli",
       "element": "Fusion",
       "rarity": 5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "1.1",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Resonance Skill DMG",
+        "Fusion DMG Amplification",
+        "Resonance Liberation DMG Amplification"
+      ],
+      "sonatas": [
+        "Molten Rift"
+      ],
+      "image": "/characters/changli.webp"
     },
     {
       "id": "chisa",
       "name": "Chisa",
       "element": "Havoc",
       "rarity": 5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "2.8",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Support and Healer",
+        "Resonance Liberation Damage",
+        "Havoc Bane"
+      ],
+      "sonatas": [
+        "Thread of Severed Fate"
+      ],
+      "image": "/characters/chisa.webp"
     },
     {
       "id": "ciaccona",
       "name": "Ciaccona",
       "element": "Aero",
       "rarity": 5,
-      "weapon": "Pistol"
+      "weapon": "Pistol",
+      "version": "2.3",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Traction",
+        "Aero Erosion"
+      ],
+      "sonatas": [
+        "Gusts of Welkin"
+      ],
+      "image": "/characters/ciaccona.webp"
     },
     {
       "id": "denia",
       "name": "Denia",
       "element": "Fusion",
       "rarity": 5,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "3.3",
+      "lastUpdated": "2026-04-20",
+      "roles": [
+        "Concerto Efficiency",
+        "Resonance Liberation Damage",
+        "Traction",
+        "Fusion Burst",
+        "Tune Break Boost",
+        "Tune Strain Response"
+      ],
+      "sonatas": [
+        "Reel of Spliced Memories",
+        "Chromatic Foam",
+        "Pact of Neonlight Leap"
+      ],
+      "image": "/characters/denia.webp"
     },
     {
       "id": "electro-rover",
       "name": "Electro Rover",
       "element": "Electro",
       "rarity": 5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "3.5",
+      "lastUpdated": "2026-07-09",
+      "roles": [],
+      "sonatas": [],
+      "image": "/characters/electro-rover.webp"
     },
     {
       "id": "encore",
       "name": "Encore",
       "element": "Fusion",
       "rarity": 5,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Basic Attack DMG"
+      ],
+      "sonatas": [
+        "Molten Rift"
+      ],
+      "image": "/characters/encore.webp"
     },
     {
       "id": "galbrena",
       "name": "Galbrena",
       "element": "Fusion",
       "rarity": 5,
-      "weapon": "Pistol"
+      "weapon": "Pistol",
+      "version": "2.7",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Heavy Attack DMG"
+      ],
+      "sonatas": [
+        "Flamewing's Shadow"
+      ],
+      "image": "/characters/galbrena.webp"
     },
     {
       "id": "havoc-rover",
       "name": "Havoc Rover",
       "element": "Havoc",
       "rarity": 5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "2.2",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer"
+      ],
+      "sonatas": [
+        "Havoc Eclipse"
+      ],
+      "image": "/characters/havoc-rover.webp"
     },
     {
       "id": "hiyuki",
       "name": "Hiyuki",
       "element": "Glacio",
       "rarity": 5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "3.3",
+      "lastUpdated": "2026-04-28",
+      "roles": [
+        "Main Damage Dealer",
+        "Resonance Liberation Damage",
+        "Glacio Chafe"
+      ],
+      "sonatas": [
+        "Wishes of Quiet Snowfall"
+      ],
+      "image": "/characters/hiyuki.webp"
     },
     {
       "id": "iuno",
       "name": "Iuno",
       "element": "Aero",
       "rarity": 5,
-      "weapon": "Gauntlet"
+      "weapon": "Gauntlet",
+      "version": "2.6",
+      "lastUpdated": "2026-01-30",
+      "roles": [
+        "Support and Healer",
+        "Concerto Efficiency",
+        "Resonance Liberation Damage",
+        "Heavy Attack DMG Amplification"
+      ],
+      "sonatas": [
+        "Crown of Valor"
+      ],
+      "image": "/characters/iuno.webp"
     },
     {
       "id": "jianxin",
       "name": "Jianxin",
       "element": "Aero",
       "rarity": 5,
-      "weapon": "Gauntlet"
+      "weapon": "Gauntlet",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Support and Healer",
+        "Heavy Attack DMG",
+        "Traction",
+        "Resonance Liberation DMG Amplification"
+      ],
+      "sonatas": [
+        "Moonlit Clouds",
+        "Rejuvenating Glow",
+        "Sierra Gale"
+      ],
+      "image": "/characters/jianxin.webp"
     },
     {
       "id": "jinhsi",
       "name": "Jinhsi",
       "element": "Spectro",
       "rarity": 5,
-      "weapon": "Broadblade"
+      "weapon": "Broadblade",
+      "version": "1.1",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Resonance Skill DMG"
+      ],
+      "sonatas": [
+        "Celestial Light"
+      ],
+      "image": "/characters/jinhsi.webp"
     },
     {
       "id": "jiyan",
       "name": "Jiyan",
       "element": "Aero",
       "rarity": 5,
-      "weapon": "Broadblade"
+      "weapon": "Broadblade",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Heavy Attack Damage",
+        "Main Damage Dealer",
+        "Traction"
+      ],
+      "sonatas": [
+        "Sierra Gale",
+        "Windward Pilgrimage"
+      ],
+      "image": "/characters/jiyan.webp"
     },
     {
       "id": "lingyang",
       "name": "Lingyang",
       "element": "Glacio",
       "rarity": 5,
-      "weapon": "Gauntlet"
+      "weapon": "Gauntlet",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer"
+      ],
+      "sonatas": [
+        "Lingering Tunes",
+        "Freezing Frost",
+        "Frosty Resolve"
+      ],
+      "image": "/characters/lingyang.webp"
     },
     {
       "id": "lucilla",
       "name": "Lucilla",
       "element": "Glacio",
       "rarity": 5,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "3.4",
+      "lastUpdated": "2026-06-08",
+      "roles": [
+        "Concerto Efficiency",
+        "Basic Attack DMG",
+        "Glacio Chafe",
+        "Echo Skill DMG",
+        "Echo Skill DMG Amplification"
+      ],
+      "sonatas": [
+        "Wishes of Quiet Snowfall"
+      ],
+      "image": "/characters/lucilla.webp"
     },
     {
       "id": "lucy",
       "name": "Lucy",
       "element": "Spectro",
       "rarity": 5,
-      "weapon": "Pistol"
+      "weapon": "Pistol",
+      "version": "3.4",
+      "lastUpdated": "2026-06-07",
+      "roles": [
+        "Main Damage Dealer",
+        "Heavy Attack Damage",
+        "Basic Attack DMG Amplification",
+        "Hack Response"
+      ],
+      "sonatas": [
+        "Shadow of Shattered Dreams"
+      ],
+      "image": "/characters/lucy.webp"
     },
     {
       "id": "lupa",
       "name": "Lupa",
       "element": "Fusion",
       "rarity": 5,
-      "weapon": "Broadblade"
+      "weapon": "Broadblade",
+      "version": "2.4",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Resonance Liberation Damage",
+        "Fusion DMG Amplification",
+        "Basic Attack DMG Amplification"
+      ],
+      "sonatas": [
+        "Flaming Clawprint"
+      ],
+      "image": "/characters/lupa.webp"
     },
     {
       "id": "luuk-herssen",
       "name": "Luuk Herssen",
       "element": "Spectro",
       "rarity": 5,
-      "weapon": "Gauntlet"
+      "weapon": "Gauntlet",
+      "version": "3.1",
+      "lastUpdated": "2026-02-14",
+      "roles": [
+        "Main Damage Dealer",
+        "Basic Attack DMG",
+        "Tune Rupture Response",
+        ""
+      ],
+      "sonatas": [
+        "Rite of Gilded Revelation"
+      ],
+      "image": "/characters/luuk-herssen.webp"
     },
     {
       "id": "lynae",
       "name": "Lynae",
       "element": "Spectro",
       "rarity": 5,
-      "weapon": "Pistol"
+      "weapon": "Pistol",
+      "version": "3.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Basic Attack DMG",
+        "DMG Amplification",
+        "Resonance Liberation DMG Amplification",
+        "Tune Rupture Response",
+        "Tune Break Boost",
+        "Tune Strain Response"
+      ],
+      "sonatas": [
+        "Pact of Neonlight Leap",
+        "Rite of Gilded Revelation"
+      ],
+      "image": "/characters/lynae.webp"
     },
     {
       "id": "mornye",
       "name": "Mornye",
       "element": "Fusion",
       "rarity": 5,
-      "weapon": "Pistol"
+      "weapon": "Pistol",
+      "version": "3.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Support and Healer",
+        "DMG Amplification",
+        "Tune Rupture Response",
+        "Off - Tune Buildup Efficiency",
+        "Tune Strain Response"
+      ],
+      "sonatas": [
+        "Halo of Starry Radiance"
+      ],
+      "image": "/characters/mornye.webp"
     },
     {
       "id": "phoebe",
       "name": "Phoebe",
       "element": "Spectro",
       "rarity": 5,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "2.1",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Concerto Efficiency",
+        "Spectro Frazzle"
+      ],
+      "sonatas": [
+        "Eternal Radiance",
+        "Moonlit Clouds"
+      ],
+      "image": "/characters/phoebe.webp"
     },
     {
       "id": "phrolova",
       "name": "Phrolova",
       "element": "Havoc",
       "rarity": 5,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "2.5",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Resonance Skill DMG",
+        "Havoc DMG Amplification",
+        "Heavy Attack DMG Amplification"
+      ],
+      "sonatas": [
+        "Dream of the Lost"
+      ],
+      "image": "/characters/phrolova.webp"
     },
     {
       "id": "qiuyuan",
       "name": "Qiuyuan",
       "element": "Aero",
       "rarity": 5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "2.7",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Heavy Attack DMG",
+        "Echo Skill DMG Amplification"
+      ],
+      "sonatas": [
+        "Law of Harmony",
+        "Moonlit Clouds"
+      ],
+      "image": "/characters/qiuyuan.webp"
     },
     {
       "id": "rebecca",
       "name": "Rebecca",
       "element": "Electro",
       "rarity": 5,
-      "weapon": "Pistol"
+      "weapon": "Pistol",
+      "version": "3.4",
+      "lastUpdated": "2026-06-08",
+      "roles": [
+        "Concerto Efficiency",
+        "Basic Attack DMG",
+        "Heavy Attack DMG Amplification",
+        "Tune Break Boost"
+      ],
+      "sonatas": [
+        "Shadow of Shattered Dreams"
+      ],
+      "image": "/characters/rebecca.webp"
     },
     {
       "id": "roccia",
       "name": "Roccia",
       "element": "Havoc",
       "rarity": 5,
-      "weapon": "Gauntlet"
+      "weapon": "Gauntlet",
+      "version": "2.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Heavy Attack DMG",
+        "Traction",
+        "Havoc DMG Amplification",
+        "Basic Attack DMG Amplification"
+      ],
+      "sonatas": [
+        "Midnight Veil",
+        "Moonlit Clouds"
+      ],
+      "image": "/characters/roccia.webp"
     },
     {
       "id": "shorekeeper",
       "name": "Shorekeeper",
       "element": "Spectro",
       "rarity": 5,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "1.3",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Support and Healer",
+        "Traction",
+        "DMG Amplification"
+      ],
+      "sonatas": [
+        "Rejuvenating Glow"
+      ],
+      "image": "/characters/shorekeeper.webp"
     },
     {
       "id": "sigrika",
       "name": "Sigrika",
       "element": "Aero",
       "rarity": 5,
-      "weapon": "Gauntlet"
+      "weapon": "Gauntlet",
+      "version": "3.2",
+      "lastUpdated": "2026-03-17",
+      "roles": [
+        "Main Damage Dealer",
+        "Traction",
+        "Echo Skill DMG"
+      ],
+      "sonatas": [
+        "Sound of True Name"
+      ],
+      "image": "/characters/sigrika.webp"
     },
     {
       "id": "spectro-rover",
       "name": "Spectro Rover",
       "element": "Spectro",
       "rarity": 5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Stagnation"
+      ],
+      "sonatas": [
+        "Eternal Radiance",
+        "Moonlit Clouds",
+        "Rejuvenating Glow"
+      ],
+      "image": "/characters/spectro-rover.webp"
     },
     {
       "id": "suisui",
       "name": "Suisui",
       "element": "Glacio",
       "rarity": 5,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "3.5",
+      "lastUpdated": "2026-07-05",
+      "roles": [
+        "Support and Healer",
+        "DMG Amplification",
+        "Glacio Chafe"
+      ],
+      "sonatas": [
+        "Song of Feather Trace"
+      ],
+      "image": "/characters/suisui.webp"
     },
     {
       "id": "verina",
       "name": "Verina",
       "element": "Spectro",
       "rarity": 5,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Support and Healer",
+        "Coordinated Attack",
+        "DMG Amplification"
+      ],
+      "sonatas": [
+        "Rejuvenating Glow"
+      ],
+      "image": "/characters/verina.webp"
     },
     {
       "id": "xiangli-yao",
       "name": "Xiangli Yao",
       "element": "Electro",
       "rarity": 5,
-      "weapon": "Gauntlet"
+      "weapon": "Gauntlet",
+      "version": "1.2",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Resonance Liberation Damage"
+      ],
+      "sonatas": [
+        "Void Thunder"
+      ],
+      "image": "/characters/xiangli-yao.webp"
     },
     {
       "id": "yangyang-xuanling",
       "name": "Yangyang-xuanling",
       "element": "Havoc",
       "rarity": 5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "3.5",
+      "lastUpdated": "2026-07-09",
+      "roles": [
+        "Main Damage Dealer",
+        "Heavy Attack Damage",
+        "Traction",
+        "Havoc Bane"
+      ],
+      "sonatas": [
+        "Song of Feather Trace"
+      ],
+      "image": "/characters/yangyang-xuanling.webp"
     },
     {
       "id": "yinlin",
       "name": "Yinlin",
       "element": "Electro",
       "rarity": 5,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Resonance Skill DMG",
+        "Coordinated Attack",
+        "Electro DMG Amplification",
+        "Resonance Liberation DMG Amplification"
+      ],
+      "sonatas": [
+        "Empyrean Anthem",
+        "Moonlit Clouds"
+      ],
+      "image": "/characters/yinlin.webp"
     },
     {
       "id": "zani",
       "name": "Zani",
       "element": "Spectro",
       "rarity": 5,
-      "weapon": "Gauntlet"
+      "weapon": "Gauntlet",
+      "version": "2.3",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Heavy Attack DMG",
+        "Spectro DMG Amplification",
+        "Spectro Frazzle"
+      ],
+      "sonatas": [
+        "Eternal Radiance"
+      ],
+      "image": "/characters/zani.webp"
     },
     {
       "id": "zhezhi",
       "name": "Zhezhi",
       "element": "Glacio",
       "rarity": 5,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "1.2",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Basic Attack DMG",
+        "Coordinated Attack",
+        "Resonance Liberation Regeneration",
+        "Glacio DMG Amplification",
+        "Resonance Skill DMG Amplification"
+      ],
+      "sonatas": [
+        "Empyrean Anthem",
+        "Moonlit Clouds"
+      ],
+      "image": "/characters/zhezhi.webp"
     },
     {
       "id": "aalto",
       "name": "Aalto",
       "element": "Aero",
       "rarity": 4,
-      "weapon": "Pistol"
+      "weapon": "Pistol",
+      "version": "1.0",
+      "lastUpdated": "2026-02-07",
+      "roles": [
+        "Aero DMG Amplification",
+        "Concerto Efficiency"
+      ],
+      "sonatas": [
+        "Moonlit Clouds",
+        "Sierra Gale"
+      ],
+      "image": "/characters/aalto.webp"
     },
     {
       "id": "baizhi",
       "name": "Baizhi",
       "element": "Glacio",
       "rarity": 4,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Support and Healer",
+        "Coordinated Attack",
+        "DMG Amplification"
+      ],
+      "sonatas": [
+        "Rejuvenating Glow"
+      ],
+      "image": "/characters/baizhi.webp"
     },
     {
       "id": "buling",
       "name": "Buling",
       "element": "Electro",
       "rarity": 4,
-      "weapon": "Rectifier"
+      "weapon": "Rectifier",
+      "version": "2.8",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Support and Healer",
+        "DMG Amplification",
+        "Electro Flare"
+      ],
+      "sonatas": [
+        "Rejuvenating Glow"
+      ],
+      "image": "/characters/buling.webp"
     },
     {
       "id": "chixia",
       "name": "Chixia",
       "element": "Fusion",
       "rarity": 4,
-      "weapon": "Pistol"
+      "weapon": "Pistol",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer"
+      ],
+      "sonatas": [
+        "Molten Rift"
+      ],
+      "image": "/characters/chixia.webp"
     },
     {
       "id": "danjin",
       "name": "Danjin",
       "element": "Havoc",
       "rarity": 4,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Havoc DMG Amplification"
+      ],
+      "sonatas": [
+        "Midnight Veil",
+        "Moonlit Clouds",
+        "Havoc Eclipse"
+      ],
+      "image": "/characters/danjin.webp"
     },
     {
       "id": "lumi",
       "name": "Lumi",
       "element": "Electro",
       "rarity": 4,
-      "weapon": "Broadblade"
+      "weapon": "Broadblade",
+      "version": "1.4",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Main Damage Dealer",
+        "Basic Attack DMG",
+        "Resonance Skill DMG Amplification"
+      ],
+      "sonatas": [
+        "Moonlit Clouds"
+      ],
+      "image": "/characters/lumi.webp"
     },
     {
       "id": "mortefi",
       "name": "Mortefi",
       "element": "Fusion",
       "rarity": 4,
-      "weapon": "Pistol"
+      "weapon": "Pistol",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Resonance Liberation Damage",
+        "Coordinated Attack",
+        "Heavy Attack DMG Amplification"
+      ],
+      "sonatas": [
+        "Empyrean Anthem",
+        "Moonlit Clouds"
+      ],
+      "image": "/characters/mortefi.webp"
     },
     {
       "id": "sanhua",
       "name": "Sanhua",
       "element": "Glacio",
       "rarity": 4,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Basic Attack DMG Amplification"
+      ],
+      "sonatas": [
+        "Moonlit Clouds"
+      ],
+      "image": "/characters/sanhua.webp"
     },
     {
       "id": "taoqi",
       "name": "Taoqi",
       "element": "Havoc",
       "rarity": 4,
-      "weapon": "Broadblade"
+      "weapon": "Broadblade",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Support and Healer",
+        "Resonance Liberation Damage",
+        "Resonance Skill DMG Amplification"
+      ],
+      "sonatas": [
+        "Moonlit Clouds",
+        "Rejuvenating Glow"
+      ],
+      "image": "/characters/taoqi.webp"
     },
     {
       "id": "yangyang",
       "name": "Yangyang",
       "element": "Aero",
       "rarity": 4,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Traction",
+        "Resonance Liberation Regeneration"
+      ],
+      "sonatas": [
+        "Moonlit Clouds",
+        "Sierra Gale"
+      ],
+      "image": "/characters/yangyang.webp"
     },
     {
       "id": "youhu",
       "name": "Youhu",
       "element": "Glacio",
       "rarity": 4,
-      "weapon": "Gauntlet"
+      "weapon": "Gauntlet",
+      "version": "1.3",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Support and Healer",
+        "Resonance Skill DMG",
+        "Vibration Strength Reduction",
+        "Coordinated Attack DMG Amplification"
+      ],
+      "sonatas": [
+        "Rejuvenating Glow"
+      ],
+      "image": "/characters/youhu.webp"
     },
     {
       "id": "yuanwu",
       "name": "Yuanwu",
       "element": "Electro",
       "rarity": 4,
-      "weapon": "Gauntlet"
+      "weapon": "Gauntlet",
+      "version": "1.0",
+      "lastUpdated": "2026-01-12",
+      "roles": [
+        "Concerto Efficiency",
+        "Coordinated Attack",
+        "Vibration Strength Reduction",
+        "Interruption Resistance Boost"
+      ],
+      "sonatas": [
+        "Moonlit Clouds",
+        "Rejuvenating Glow"
+      ],
+      "image": "/characters/yuanwu.webp"
     }
   ]
 }
