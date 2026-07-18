@@ -1,0 +1,13 @@
+{
+  "name": "wuwa-data-sync",
+  "version": "1.0.0",
+  "description": "Auto sync character data to index",
+  "scripts": {
+    "rsync": "node scripts/sync-resonators.js",
+    "esync": "node scripts/sync-echoes.js",
+    "wsync": "node scripts/sync-weapons.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

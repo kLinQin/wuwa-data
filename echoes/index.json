@@ -1,0 +1,510 @@
+[
+  {
+    "name": "Bell-Borne Geochelone",
+    "slug": "bell-borne-geochelone",
+    "cost": 4,
+    "sonatas": [
+      "Rejuvenating Glow",
+      "Moonlit Clouds"
+    ],
+    "image": "/echoes/bell-borne-geochelone.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Crownless",
+    "slug": "crownless",
+    "cost": 4,
+    "sonatas": [
+      "Havoc Eclipse"
+    ],
+    "image": "/echoes/crownless.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Dragon of Dirge",
+    "slug": "dragon-of-dirge",
+    "cost": 4,
+    "sonatas": [
+      "Tidebreaking Courage"
+    ],
+    "image": "/echoes/dragon-of-dirge.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Dreamless",
+    "slug": "dreamless",
+    "cost": 4,
+    "sonatas": [
+      "Havoc Eclipse"
+    ],
+    "image": "/echoes/dreamless.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Fallacy of No Return",
+    "slug": "fallacy-of-no-return",
+    "cost": 4,
+    "sonatas": [
+      "Rejuvenating Glow"
+    ],
+    "image": "/echoes/fallacy-of-no-return.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Feilian Beringal",
+    "slug": "feilian-beringal",
+    "cost": 4,
+    "sonatas": [
+      "Sierra Gale"
+    ],
+    "image": "/echoes/feilian-beringal.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Fleurdelys",
+    "slug": "fleurdelys",
+    "cost": 4,
+    "sonatas": [
+      "Gusts of Welkin",
+      "Windward Pilgrimage"
+    ],
+    "image": "/echoes/fleurdelys.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Forbidden Bastion",
+    "slug": "forbidden-bastion",
+    "cost": 4,
+    "sonatas": [
+      "Song of Feather Trace",
+      "Heart of Evil's Purge",
+      "Lamp of Nether Road"
+    ],
+    "image": "/echoes/forbidden-bastion.webp",
+    "version": "3.5"
+  },
+  {
+    "name": "Glommoth",
+    "slug": "glommoth",
+    "cost": 4,
+    "sonatas": [
+      "Wishes of Quiet Snowfall",
+      "Trailblazing Star"
+    ],
+    "image": "/echoes/glommoth.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Hecate",
+    "slug": "hecate",
+    "cost": 4,
+    "sonatas": [
+      "Empyrean Anthem"
+    ],
+    "image": "/echoes/hecate.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Hyvatia",
+    "slug": "hyvatia",
+    "cost": 4,
+    "sonatas": [
+      "Rite of Gilded Revelation",
+      "Pact of Neonlight Leap"
+    ],
+    "image": "/echoes/hyvatia.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Impermanence Heron",
+    "slug": "impermanence-heron",
+    "cost": 4,
+    "sonatas": [
+      "Moonlit Clouds"
+    ],
+    "image": "/echoes/impermanence-heron.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Inferno Rider",
+    "slug": "inferno-rider",
+    "cost": 4,
+    "sonatas": [
+      "Molten Rift"
+    ],
+    "image": "/echoes/inferno-rider.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Jué",
+    "slug": "jue",
+    "cost": 4,
+    "sonatas": [
+      "Celestial Light"
+    ],
+    "image": "/echoes/jue.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Lady of the Sea",
+    "slug": "lady-of-the-sea",
+    "cost": 4,
+    "sonatas": [
+      "Crown of Valor"
+    ],
+    "image": "/echoes/lady-of-the-sea.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Lampylumen Myriad",
+    "slug": "lampylumen-myriad",
+    "cost": 4,
+    "sonatas": [
+      "Freezing Frost"
+    ],
+    "image": "/echoes/lampylumen-myriad.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Lioness of Glory",
+    "slug": "lioness-of-glory",
+    "cost": 4,
+    "sonatas": [
+      "Flaming Clawprint"
+    ],
+    "image": "/echoes/lioness-of-glory.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "lorelei",
+    "slug": "lorelei",
+    "cost": 4,
+    "sonatas": [
+      "Midnight Veil"
+    ],
+    "image": "/echoes/lorelei.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Mech Abomination",
+    "slug": "mech-abomination",
+    "cost": 4,
+    "sonatas": [
+      "Lingering Tunes"
+    ],
+    "image": "/echoes/mech-abomination.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Mourning Aix",
+    "slug": "mourning-aix",
+    "cost": 4,
+    "sonatas": [
+      "Celestial Light"
+    ],
+    "image": "/echoes/mourning-aix.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Myriad Snare: Rustfire Chassis",
+    "slug": "myriad-snare-rustfire-chassis",
+    "cost": 4,
+    "sonatas": [
+      "Heart of Evil's Purge",
+      "Lamp of Nether Road"
+    ],
+    "image": "/echoes/myriad-snare-rustfire-chassis.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Nameless Explorer",
+    "slug": "nameless-explorer",
+    "cost": 4,
+    "sonatas": [
+      "Sound of True Name"
+    ],
+    "image": "/echoes/nameless-explorer.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Nightmare: Beringal",
+    "slug": "nightmare-beringal",
+    "cost": 4,
+    "sonatas": [
+      "Sierra Gale"
+    ],
+    "image": "/echoes/nightmare-beringal.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Nightmare: Crownless",
+    "slug": "nightmare-crownless",
+    "cost": 4,
+    "sonatas": [
+      "Havoc Eclipse"
+    ],
+    "image": "/echoes/nightmare-crownless.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Nightmare: Hecate",
+    "slug": "nightmare-hecate",
+    "cost": 4,
+    "sonatas": [
+      "Dream of the Lost"
+    ],
+    "image": "/echoes/nightmare-hecate.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Nightmare: Heron",
+    "slug": "nightmare-heron",
+    "cost": 4,
+    "sonatas": [
+      "Midnight Veil"
+    ],
+    "image": "/echoes/nightmare-heron.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Nightmare: Kelpie",
+    "slug": "nightmare-kelpie",
+    "cost": 4,
+    "sonatas": [
+      "Gusts of Welkin",
+      "Windward Pilgrimage"
+    ],
+    "image": "/echoes/nightmare-kelpie.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Nightmare: Mourning Aix",
+    "slug": "nightmare-mourning-aix",
+    "cost": 4,
+    "sonatas": [
+      "Eternal Radiance"
+    ],
+    "image": "/echoes/nightmare-mourning-aix.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Nightmare: Myriad",
+    "slug": "nightmare-myriad",
+    "cost": 4,
+    "sonatas": [
+      "Frosty Resolve",
+      "Empyrean Anthem"
+    ],
+    "image": "/echoes/nightmare-myriad.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Nightmare: Rider",
+    "slug": "nightmare-rider",
+    "cost": 4,
+    "sonatas": [
+      "Molten Rift"
+    ],
+    "image": "/echoes/nightmare-rider.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Nightmare: Tempest Mephis",
+    "slug": "nightmare-tempest-mephis",
+    "cost": 4,
+    "sonatas": [
+      "Void Thunder",
+      "Empyrean Anthem"
+    ],
+    "image": "/echoes/nightmare-tempest-mephis.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Nightmare: Thundering Mephis",
+    "slug": "nightmare-thundering-mephis",
+    "cost": 4,
+    "sonatas": [
+      "Void Thunder"
+    ],
+    "image": "/echoes/nightmare-thundering-mephis.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Reactor Husk",
+    "slug": "reactor-husk",
+    "cost": 4,
+    "sonatas": [
+      "Halo of Starry Radiance",
+      "Chromatic Foam"
+    ],
+    "image": "/echoes/reactor-husk.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Reminiscence: Adam Smasher",
+    "slug": "reminiscence-adam-smasher",
+    "cost": 4,
+    "sonatas": [
+      "Shadow of Shattered Dreams"
+    ],
+    "image": "/echoes/reminiscence-adam-smasher.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Reminiscence: Denia",
+    "slug": "reminiscence-denia",
+    "cost": 4,
+    "sonatas": [
+      "Chromatic Foam"
+    ],
+    "image": "/echoes/reminiscence-denia.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Reminiscence: Fenrico",
+    "slug": "reminiscence-fenrico",
+    "cost": 4,
+    "sonatas": [
+      "Dream of the Lost",
+      "Law of Harmony"
+    ],
+    "image": "/echoes/reminiscence-fenrico.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Sentry Construct",
+    "slug": "sentry-construct",
+    "cost": 4,
+    "sonatas": [
+      "Frosty Resolve"
+    ],
+    "image": "/echoes/sentry-construct.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Sigillum",
+    "slug": "sigillum",
+    "cost": 4,
+    "sonatas": [
+      "Trailblazing Star"
+    ],
+    "image": "/echoes/sigillum.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Tempest Mephis",
+    "slug": "tempest-mephis",
+    "cost": 4,
+    "sonatas": [
+      "Void Thunder"
+    ],
+    "image": "/echoes/tempest-mephis.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "The False Sovereign",
+    "slug": "the-false-sovereign",
+    "cost": 4,
+    "sonatas": [
+      "Crown of Valor"
+    ],
+    "image": "/echoes/the-false-sovereign.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Thousand-puppet pavilion",
+    "slug": "thousand-puppet-pavilion",
+    "cost": 4,
+    "sonatas": [
+      "Song of Feather Trace"
+    ],
+    "image": "/echoes/thousand-puppet-pavilion.webp",
+    "version": "3.5"
+  },
+  {
+    "name": "Threnodian - Voidborne Construct",
+    "slug": "threnodian-voidborne-construct",
+    "cost": 4,
+    "sonatas": [
+      "Wishes of Quiet Snowfall"
+    ],
+    "image": "/echoes/threnodian-voidborne-construct.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Threnodian Leviathan",
+    "slug": "threnodian-leviathan",
+    "cost": 4,
+    "sonatas": [
+      "Thread of Severed Fate",
+      "Flamewing's Shadow"
+    ],
+    "image": "/echoes/threnodian-leviathan.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Thundering Mephis",
+    "slug": "thundering-mephis",
+    "cost": 4,
+    "sonatas": [
+      "Void Thunder"
+    ],
+    "image": "/echoes/thundering-mephis.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Capitaneus",
+    "slug": "capitaneus",
+    "cost": 3,
+    "sonatas": [
+      "Gusts of Welkin",
+      "Eternal Radiance",
+      "Windward Pilgrimage"
+    ],
+    "image": "/echoes/capitaneus.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Corrosaurus",
+    "slug": "corrosaurus",
+    "cost": 3,
+    "sonatas": [
+      "Flaming Clawprint",
+      "Flamewing's Shadow"
+    ],
+    "image": "/echoes/corrosaurus.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Twin Nova Collapsar Blade",
+    "slug": "twin-nova-collapsar-blade",
+    "cost": 3,
+    "sonatas": [
+      "Rite of Gilded Revelation",
+      "Trailblazing Star",
+      "Sound of True Name"
+    ],
+    "image": "/echoes/twin-nova-collapsar-blade.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Twin Nova: Nebulous Cannon",
+    "slug": "twin-nova-nebulous-cannon",
+    "cost": 3,
+    "sonatas": [
+      "Rite of Gilded Revelation"
+    ],
+    "image": "/echoes/twin-nova-nebulous-cannon.webp",
+    "version": "3.0"
+  },
+  {
+    "name": "Voidwing Moth",
+    "slug": "voidwing-moth",
+    "cost": 3,
+    "sonatas": [
+      "Reel of Spliced Memories"
+    ],
+    "image": "/echoes/voidwing-moth.webp",
+    "version": "3.0"
+  }
+]

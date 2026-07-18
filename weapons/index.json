@@ -1,0 +1,803 @@
+[
+  {
+    "id": "abyss-surges",
+    "slug": "abyss-surges",
+    "name": "Abyss Surges",
+    "weaponType": "Gauntlet",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/abyss-surges.webp"
+  },
+  {
+    "id": "ages-of-harvest",
+    "slug": "ages-of-harvest",
+    "name": "Ages of Harvest",
+    "weaponType": "Broadblade",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/broadblade/ages-of-harvest.webp"
+  },
+  {
+    "id": "azure-oath",
+    "slug": "azure-oath",
+    "name": "Azure Oath",
+    "weaponType": "Sword",
+    "rarity": 5,
+    "version": "3.5",
+    "image": "/weapons/sword/azure-oath.webp"
+  },
+  {
+    "id": "blazing-brilliance",
+    "slug": "blazing-brilliance",
+    "name": "Blazing Brilliance",
+    "weaponType": "Sword",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/sword/blazing-brilliance.webp"
+  },
+  {
+    "id": "blazing-justice",
+    "slug": "blazing-justice",
+    "name": "Blazing Justice",
+    "weaponType": "Gauntlet",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/blazing-justice.webp"
+  },
+  {
+    "id": "bloodpacts-pledge",
+    "slug": "bloodpacts-pledge",
+    "name": "Bloodpact's Pledge",
+    "weaponType": "Sword",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/sword/bloodpacts-pledge.webp"
+  },
+  {
+    "id": "boson-astrolabe",
+    "slug": "boson-astrolabe",
+    "name": "Boson Astrolabe",
+    "weaponType": "Rectifier",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/rectifier/boson-astrolabe.webp"
+  },
+  {
+    "id": "cosmic-ripples",
+    "slug": "cosmic-ripples",
+    "name": "Cosmic Ripples",
+    "weaponType": "Rectifier",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/rectifier/cosmic-ripples.webp"
+  },
+  {
+    "id": "daybreakers-spine",
+    "slug": "daybreakers-spine",
+    "name": "Daybreaker's Spine",
+    "weaponType": "Gauntlet",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/daybreakers-spine.webp"
+  },
+  {
+    "id": "defiers-thorn",
+    "slug": "defiers-thorn",
+    "name": "Defier's Thorn",
+    "weaponType": "Sword",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/sword/defiers-thorn.webp"
+  },
+  {
+    "id": "emerald-of-genesis",
+    "slug": "emerald-of-genesis",
+    "name": "Emerald of Genesis",
+    "weaponType": "Sword",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/sword/emerald-of-genesis.webp"
+  },
+  {
+    "id": "emerald-sentence",
+    "slug": "emerald-sentence",
+    "name": "Emerald Sentence",
+    "weaponType": "Sword",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/sword/emerald-sentence.webp"
+  },
+  {
+    "id": "everbright-polestar",
+    "slug": "everbright-polestar",
+    "name": "Everbright Polestar",
+    "weaponType": "Sword",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/sword/everbright-polestar.webp"
+  },
+  {
+    "id": "firstlights-herald",
+    "slug": "firstlights-herald",
+    "name": "firstlights-herald",
+    "weaponType": "Rectifier",
+    "rarity": 5,
+    "version": "3.5",
+    "image": "/weapons/rectifier/firstlights-herald.webp"
+  },
+  {
+    "id": "forged-dwarf-star",
+    "slug": "forged-dwarf-star",
+    "name": "Forged Dwarf Star",
+    "weaponType": "Rectifier",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/rectifier/forged-dwarf-star.webp"
+  },
+  {
+    "id": "freeze-frame",
+    "slug": "freeze-frame",
+    "name": "Freeze Frame",
+    "weaponType": "Rectifier",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/rectifier/freeze-frame.webp"
+  },
+  {
+    "id": "frostburn",
+    "slug": "frostburn",
+    "name": "Frostburn",
+    "weaponType": "Sword",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/sword/frostburn.webp"
+  },
+  {
+    "id": "kumokiri",
+    "slug": "kumokiri",
+    "name": "Kumokiri",
+    "weaponType": "Broadblade",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/broadblade/kumokiri.webp"
+  },
+  {
+    "id": "laser-shearer",
+    "slug": "laser-shearer",
+    "name": "Laser Shearer",
+    "weaponType": "Sword",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/sword/laser-shearer.webp"
+  },
+  {
+    "id": "lethean-elegy",
+    "slug": "lethean-elegy",
+    "name": "Lethean Elegy",
+    "weaponType": "Rectifier",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/rectifier/lethean-elegy.webp"
+  },
+  {
+    "id": "luminous-hymn",
+    "slug": "luminous-hymn",
+    "name": "Luminous Hymn",
+    "weaponType": "Rectifier",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/rectifier/luminous-hymn.webp"
+  },
+  {
+    "id": "lustrous-razor",
+    "slug": "lustrous-razor",
+    "name": "Lustrous Razor",
+    "weaponType": "Broadblade",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/broadblade/lustrous-razor.webp"
+  },
+  {
+    "id": "lux-&-umbra",
+    "slug": "lux-&-umbra",
+    "name": "Lux & Umbra",
+    "weaponType": "Pistol",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/pistol/lux-&-umbra.webp"
+  },
+  {
+    "id": "moongazers-sigil",
+    "slug": "moongazers-sigil",
+    "name": "Moongazer's Sigil",
+    "weaponType": "Gauntlet",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/moongazers-sigil.webp"
+  },
+  {
+    "id": "phasic-homogenizer",
+    "slug": "phasic-homogenizer",
+    "name": "Phasic Homogenizer",
+    "weaponType": "Pistol",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/pistol/phasic-homogenizer.webp"
+  },
+  {
+    "id": "pulsation-bracer",
+    "slug": "pulsation-bracer",
+    "name": "Pulsation Bracer",
+    "weaponType": "Gauntlet",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/pulsation-bracer.webp"
+  },
+  {
+    "id": "radiance-cleaver",
+    "slug": "radiance-cleaver",
+    "name": "Radiance Cleaver",
+    "weaponType": "Broadblade",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/broadblade/radiance-cleaver.webp"
+  },
+  {
+    "id": "red-spring",
+    "slug": "red-spring",
+    "name": "Red Spring",
+    "weaponType": "Sword",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/sword/red-spring.webp"
+  },
+  {
+    "id": "rime-draped-sprouts",
+    "slug": "rime-draped-sprouts",
+    "name": "Rime-Draped Sprouts",
+    "weaponType": "Rectifier",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/rectifier/rime-draped-sprouts.webp"
+  },
+  {
+    "id": "skull-thrasher",
+    "slug": "skull-thrasher",
+    "name": "Skull Thrasher",
+    "weaponType": "Pistol",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/pistol/skull-thrasher.webp"
+  },
+  {
+    "id": "solsworn-ciphers",
+    "slug": "solsworn-ciphers",
+    "name": "Solsworn Ciphers",
+    "weaponType": "Gauntlet",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/solsworn-ciphers.webp"
+  },
+  {
+    "id": "spectral-trigger",
+    "slug": "spectral-trigger",
+    "name": "Spectral Trigger",
+    "weaponType": "Pistol",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/pistol/spectral-trigger.webp"
+  },
+  {
+    "id": "spectrum-blaster",
+    "slug": "spectrum-blaster",
+    "name": "Spectrum Blaster",
+    "weaponType": "Pistol",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/pistol/spectrum-blaster.webp"
+  },
+  {
+    "id": "starfield-calibrator",
+    "slug": "starfield-calibrator",
+    "name": "Starfield Calibrator",
+    "weaponType": "Broadblade",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/broadblade/starfield-calibrator.webp"
+  },
+  {
+    "id": "static-mist",
+    "slug": "static-mist",
+    "name": "Static Mist",
+    "weaponType": "Pistol",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/pistol/static-mist.webp"
+  },
+  {
+    "id": "stellar-symphony",
+    "slug": "stellar-symphony",
+    "name": "Stellar Symphony",
+    "weaponType": "Rectifier",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/rectifier/stellar-symphony.webp"
+  },
+  {
+    "id": "stringmaster",
+    "slug": "stringmaster",
+    "name": "Stringmaster",
+    "weaponType": "Rectifier",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/rectifier/stringmaster.webp"
+  },
+  {
+    "id": "the-last-dance",
+    "slug": "the-last-dance",
+    "name": "The Last Dance",
+    "weaponType": "Pistol",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/pistol/the-last-dance.webp"
+  },
+  {
+    "id": "thunderflare-dominion",
+    "slug": "thunderflare-dominion",
+    "name": "Thunderflare Dominion",
+    "weaponType": "Broadblade",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/broadblade/thunderflare-dominion.webp"
+  },
+  {
+    "id": "tragicomedy",
+    "slug": "tragicomedy",
+    "name": "Tragicomedy",
+    "weaponType": "Gauntlet",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/tragicomedy.webp"
+  },
+  {
+    "id": "unflickering-valor",
+    "slug": "unflickering-valor",
+    "name": "Unflickering Valor",
+    "weaponType": "Sword",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/sword/unflickering-valor.webp"
+  },
+  {
+    "id": "verdant-summit",
+    "slug": "verdant-summit",
+    "name": "Verdant Summit",
+    "weaponType": "Broadblade",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/broadblade/verdant-summit.webp"
+  },
+  {
+    "id": "veritys-handle",
+    "slug": "veritys-handle",
+    "name": "Verity's Handle",
+    "weaponType": "Gauntlet",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/veritys-handle.webp"
+  },
+  {
+    "id": "whispers-of-sirens",
+    "slug": "whispers-of-sirens",
+    "name": "Whispers of Sirens",
+    "weaponType": "Rectifier",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/rectifier/whispers-of-sirens.webp"
+  },
+  {
+    "id": "wildfire-mark",
+    "slug": "wildfire-mark",
+    "name": "Wildfire Mark",
+    "weaponType": "Broadblade",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/broadblade/wildfire-mark.webp"
+  },
+  {
+    "id": "woodland-aria",
+    "slug": "woodland-aria",
+    "name": "Woodland Aria",
+    "weaponType": "Pistol",
+    "rarity": 5,
+    "version": "3.0",
+    "image": "/weapons/pistol/woodland-aria.webp"
+  },
+  {
+    "id": "aether-strike",
+    "slug": "aether-strike",
+    "name": "Aether Strike",
+    "weaponType": "Gauntlet",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/aether-strike.webp"
+  },
+  {
+    "id": "amity-accord",
+    "slug": "amity-accord",
+    "name": "Amity Accord",
+    "weaponType": "Gauntlet",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/amity-accord.webp"
+  },
+  {
+    "id": "augment",
+    "slug": "augment",
+    "name": "Augment",
+    "weaponType": "Rectifier",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/rectifier/augment.webp"
+  },
+  {
+    "id": "aureate-zenith",
+    "slug": "aureate-zenith",
+    "name": "Aureate Zenith",
+    "weaponType": "Broadblade",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/broadblade/aureate-zenith.webp"
+  },
+  {
+    "id": "autumntrace",
+    "slug": "autumntrace",
+    "name": "Autumntrace",
+    "weaponType": "Broadblade",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/broadblade/autumntrace.webp"
+  },
+  {
+    "id": "broadblade-41",
+    "slug": "broadblade-41",
+    "name": "Broadblade#41",
+    "weaponType": "Broadblade",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/broadblade/broadblade-41.webp"
+  },
+  {
+    "id": "cadenza",
+    "slug": "cadenza",
+    "name": "Cadenza",
+    "weaponType": "Pistol",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/pistol/cadenza.webp"
+  },
+  {
+    "id": "call-of-the-abyss",
+    "slug": "call-of-the-abyss",
+    "name": "Call of the Abyss",
+    "weaponType": "Rectifier",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/rectifier/call-of-the-abyss.webp"
+  },
+  {
+    "id": "celestial-spiral",
+    "slug": "celestial-spiral",
+    "name": "Celestial Spiral",
+    "weaponType": "Gauntlet",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/celestial-spiral.webp"
+  },
+  {
+    "id": "comet-flare",
+    "slug": "comet-flare",
+    "name": "Comet Flare",
+    "weaponType": "Rectifier",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/rectifier/comet-flare.webp"
+  },
+  {
+    "id": "commando-of-conviction",
+    "slug": "commando-of-conviction",
+    "name": "Commando of Conviction",
+    "weaponType": "Sword",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/sword/commando-of-conviction.webp"
+  },
+  {
+    "id": "dauntless-evernight",
+    "slug": "dauntless-evernight",
+    "name": "Dauntless Evernight",
+    "weaponType": "Broadblade",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/broadblade/dauntless-evernight.webp"
+  },
+  {
+    "id": "discord",
+    "slug": "discord",
+    "name": "Discord",
+    "weaponType": "Broadblade",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/broadblade/discord.webp"
+  },
+  {
+    "id": "endless-collapse",
+    "slug": "endless-collapse",
+    "name": "Endless Collapse",
+    "weaponType": "Sword",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/sword/endless-collapse.webp"
+  },
+  {
+    "id": "fables-of-wisdom",
+    "slug": "fables-of-wisdom",
+    "name": "Fables of Wisdom",
+    "weaponType": "Sword",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/sword/fables-of-wisdom.webp"
+  },
+  {
+    "id": "feather-edge",
+    "slug": "feather-edge",
+    "name": "Feather Edge",
+    "weaponType": "Sword",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/sword/feather-edge.webp"
+  },
+  {
+    "id": "fusion-accretion",
+    "slug": "fusion-accretion",
+    "name": "Fusion Accretion",
+    "weaponType": "Rectifier",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/rectifier/fusion-accretion.webp"
+  },
+  {
+    "id": "gauntlet-21d",
+    "slug": "gauntlet-21d",
+    "name": "Gauntlet#21D",
+    "weaponType": "Gauntlet",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/gauntlet-21d.webp"
+  },
+  {
+    "id": "helios-cleaver",
+    "slug": "helios-cleaver",
+    "name": "Helios Cleaver",
+    "weaponType": "Broadblade",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/broadblade/helios-cleaver.webp"
+  },
+  {
+    "id": "hollow-mirage",
+    "slug": "hollow-mirage",
+    "name": "Hollow Mirage",
+    "weaponType": "Gauntlet",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/hollow-mirage.webp"
+  },
+  {
+    "id": "jinzhou-keeper",
+    "slug": "jinzhou-keeper",
+    "name": "Jinzhou Keeper",
+    "weaponType": "Rectifier",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/rectifier/jinzhou-keeper.webp"
+  },
+  {
+    "id": "legend-of-drunken-hero",
+    "slug": "legend-of-drunken-hero",
+    "name": "Legend of Drunken Hero",
+    "weaponType": "Gauntlet",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/legend-of-drunken-hero.webp"
+  },
+  {
+    "id": "lumingloss",
+    "slug": "lumingloss",
+    "name": "Lumingloss",
+    "weaponType": "Sword",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/sword/lumingloss.webp"
+  },
+  {
+    "id": "lunar-cutter",
+    "slug": "lunar-cutter",
+    "name": "Lunar Cutter",
+    "weaponType": "Sword",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/sword/lunar-cutter.webp"
+  },
+  {
+    "id": "marcato",
+    "slug": "marcato",
+    "name": "Marcato",
+    "weaponType": "Gauntlet",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/marcato.webp"
+  },
+  {
+    "id": "meditations-on-mercy",
+    "slug": "meditations-on-mercy",
+    "name": "Meditations on Mercy",
+    "weaponType": "Broadblade",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/broadblade/meditations-on-mercy.webp"
+  },
+  {
+    "id": "novaburst",
+    "slug": "novaburst",
+    "name": "Novaburst",
+    "weaponType": "Pistol",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/pistol/novaburst.webp"
+  },
+  {
+    "id": "oceans-gift",
+    "slug": "oceans-gift",
+    "name": "Ocean's Gift",
+    "weaponType": "Rectifier",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/rectifier/oceans-gift.webp"
+  },
+  {
+    "id": "overture",
+    "slug": "overture",
+    "name": "Overture",
+    "weaponType": "Sword",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/sword/overture.webp"
+  },
+  {
+    "id": "pistols-26",
+    "slug": "pistols-26",
+    "name": "Pistols#26",
+    "weaponType": "Pistol",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/pistol/pistols-26.webp"
+  },
+  {
+    "id": "radiant-dawn",
+    "slug": "radiant-dawn",
+    "name": "Radiant Dawn",
+    "weaponType": "Rectifier",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/rectifier/radiant-dawn.webp"
+  },
+  {
+    "id": "rectifier-25",
+    "slug": "rectifier-25",
+    "name": "Rectifier#25",
+    "weaponType": "Rectifier",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/rectifier/rectifier-25.webp"
+  },
+  {
+    "id": "relativistic-jet",
+    "slug": "relativistic-jet",
+    "name": "Relativistic Jet",
+    "weaponType": "Pistol",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/pistol/relativistic-jet.webp"
+  },
+  {
+    "id": "romance-in-farewell",
+    "slug": "romance-in-farewell",
+    "name": "Romance in Farewell",
+    "weaponType": "Pistol",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/pistol/romance-in-farewell.webp"
+  },
+  {
+    "id": "solar-flame",
+    "slug": "solar-flame",
+    "name": "Solar Flame",
+    "weaponType": "Pistol",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/pistol/solar-flame.webp"
+  },
+  {
+    "id": "somnoire-anchor",
+    "slug": "somnoire-anchor",
+    "name": "Somnoire Anchor",
+    "weaponType": "Sword",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/sword/somnoire-anchor.webp"
+  },
+  {
+    "id": "stonard",
+    "slug": "stonard",
+    "name": "Stonard",
+    "weaponType": "Gauntlet",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/gauntlet/stonard.webp"
+  },
+  {
+    "id": "sword-18",
+    "slug": "sword-18",
+    "name": "Sword#18",
+    "weaponType": "Sword",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/sword/sword-18.webp"
+  },
+  {
+    "id": "thunderbolt",
+    "slug": "thunderbolt",
+    "name": "Thunderbolt",
+    "weaponType": "Pistol",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/pistol/thunderbolt.webp"
+  },
+  {
+    "id": "undying-flame",
+    "slug": "undying-flame",
+    "name": "Undying Flame",
+    "weaponType": "Pistol",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/pistol/undying-flame.webp"
+  },
+  {
+    "id": "variation",
+    "slug": "variation",
+    "name": "Variation",
+    "weaponType": "Rectifier",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/rectifier/variation.webp"
+  },
+  {
+    "id": "waltz-in-masquerade",
+    "slug": "waltz-in-masquerade",
+    "name": "Waltz in Masquerade",
+    "weaponType": "Rectifier",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/rectifier/waltz-in-masquerade.webp"
+  },
+  {
+    "id": "waning-redshift",
+    "slug": "waning-redshift",
+    "name": "Waning Redshift",
+    "weaponType": "Broadblade",
+    "rarity": 4,
+    "version": "3.0",
+    "image": "/weapons/broadblade/waning-redshift.webp"
+  }
+]
