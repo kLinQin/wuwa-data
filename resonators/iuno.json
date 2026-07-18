@@ -34,6 +34,7 @@
   "affiliation": "Septimont,Rinascita",
   "class": "Congenital",
   "image": "/characters/iuno.webp",
+  "icon": "/icons/characters/iuno.webp",
   "imageBanner": "/banners/iuno-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

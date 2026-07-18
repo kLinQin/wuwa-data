@@ -38,6 +38,7 @@
   "affiliation": "Fractsidus",
   "class": "Congenital",
   "image": "/characters/denia.webp",
+  "icon": "/icons/characters/denia.webp",
   "imageBanner": "/banners/denia-banner.jpeg",
   "recommendedStats": {
     "Energy Regen": "120%",

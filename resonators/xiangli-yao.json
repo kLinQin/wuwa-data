@@ -32,6 +32,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Mutant",
   "image": "/characters/xiangli-yao.webp",
+  "icon": "/icons/characters/xiangli-yao.webp",
   "imageBanner": "/banners/xiangli-yao-banner.jpeg",
   "recommendedStats": {
     "ATK": "200p+",

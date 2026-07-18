@@ -32,6 +32,7 @@
   "affiliation": "",
   "class": "Unclear",
   "image": "/characters/ciaccona.webp",
+  "icon": "/icons/characters/ciaccona.webp",
   "imageBanner": "/banners/ciaccona-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

@@ -32,6 +32,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Congenital",
   "image": "/characters/jinhsi.webp",
+  "icon": "/icons/characters/jinhsi.webp",
   "imageBanner": "/banners/jinhsi-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

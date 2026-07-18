@@ -33,6 +33,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Natural",
   "image": "/characters/taoqi.webp",
+  "icon": "/icons/characters/taoqi.webp",
   "imageBanner": "/banners/taoqi-banner.jpeg",
   "recommendedStats": {
     "DEF": "2800+",

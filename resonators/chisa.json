@@ -32,6 +32,7 @@
   "affiliation": "Startorch Academy",
   "class": "Mutant",
   "image": "/characters/chisa.webp",
+  "icon": "/icons/characters/chisa.webp",
   "imageBanner": "/banners/chisa-banner.jpeg",
   "recommendedStats": {
     "ATK": "1900-2100+",

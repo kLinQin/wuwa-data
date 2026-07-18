@@ -28,6 +28,7 @@
   "affiliation": "Ragunna,Rinascita",
   "class": "Mutant",
   "image": "/characters/carlotta.webp",
+  "icon": "/icons/characters/carlotta.webp",
   "imageBanner": "/banners/carlotta-banner.jpeg",
   "recommendedStats": {
     "ATK": "2100+",

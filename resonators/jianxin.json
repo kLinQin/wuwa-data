@@ -36,6 +36,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Natural",
   "image": "/characters/jianxin.webp",
+  "icon": "/icons/characters/jianxin.webp",
   "imageBanner": "/banners/jianxin-banner.jpeg",
   "recommendedStats": {
     "ATK": "1900+",

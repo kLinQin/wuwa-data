@@ -37,6 +37,7 @@
   "affiliation": "Startorch Academy",
   "class": "Congenital",
   "image": "/characters/lynae.webp",
+  "icon": "/icons/characters/lynae.webp",
   "imageBanner": "/banners/lynae-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

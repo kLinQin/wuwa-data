@@ -33,6 +33,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Congenital",
   "image": "/characters/verina.webp",
+  "icon": "/icons/characters/verina.webp",
   "imageBanner": "/banners/verina-banner.jpeg",
   "recommendedStats": {
     "ATK": "1500+",

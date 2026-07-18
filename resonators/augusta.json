@@ -30,6 +30,7 @@
   "affiliation": "Septimont,Rinascita",
   "class": "Congenital",
   "image": "/characters/augusta.webp",
+  "icon": "/icons/characters/augusta.webp",
   "imageBanner": "/banners/augusta-banner.jpeg",
   "recommendedStats": {
     "ATK": "2200+",

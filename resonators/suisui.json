@@ -37,6 +37,7 @@
   "affiliation": "Mingting,Huanglong",
   "class": "Natural",
   "image": "/characters/suisui.webp",
+  "icon": "/icons/characters/suisui.webp",
   "imageBanner": "/banners/suisui-banner.jpeg",
   "recommendedStats": {
     "Crit Rate": "10.00%",

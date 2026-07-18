@@ -32,6 +32,7 @@
   "affiliation": "The Black Shores",
   "class": "Congenital",
   "image": "/characters/galbrena.webp",
+  "icon": "/icons/characters/galbrena.webp",
   "imageBanner": "/banners/galbrena-banner.jpeg",
   "recommendedStats": {
     "ATK": "2100+",

@@ -36,6 +36,7 @@
   "affiliation": "Ragunna,Rinascita",
   "class": "Acquired",
   "image": "/characters/roccia.webp",
+  "icon": "/icons/characters/roccia.webp",
   "imageBanner": "/banners/roccia-banner.jpeg",
   "recommendedStats": {
     "ATK": "1900+",

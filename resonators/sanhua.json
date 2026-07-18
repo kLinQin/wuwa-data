@@ -31,6 +31,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Mutant",
   "image": "/characters/sanhua.webp",
+  "icon": "/icons/characters/sanhua.webp",
   "imageBanner": "/banners/sanhua-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

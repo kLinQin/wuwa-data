@@ -33,6 +33,7 @@
   "affiliation": "Spacetrek Collective",
   "class": "Unclear",
   "image": "/characters/hiyuki.webp",
+  "icon": "/icons/characters/hiyuki.webp",
   "imageBanner": "/banners/hiyuki-banner.jpeg",
   "recommendedStats": {
     "ATK": "2100+",

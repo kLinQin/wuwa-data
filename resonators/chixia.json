@@ -31,6 +31,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Mutant",
   "image": "/characters/chixia.webp",
+  "icon": "/icons/characters/chixia.webp",
   "imageBanner": "/banners/chixia-banner.jpeg",
   "recommendedStats": {
     "ATK": "1800+",

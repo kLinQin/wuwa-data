@@ -26,6 +26,7 @@
   "affiliation": "The Black Shores",
   "class": "Congenital",
   "image": "/characters/aalto.webp",
+  "icon": "/icons/characters/aalto.webp",
   "imageBanner": "/banners/aalto-banner.jpeg",
   "recommendedStats": {
     "ATK": "1700+",

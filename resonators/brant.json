@@ -38,6 +38,7 @@
   "affiliation": "Ragunna,Rinascita",
   "class": "Natural",
   "image": "/characters/brant.webp",
+  "icon": "/icons/characters/brant.webp",
   "imageBanner": "/banners/brant-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+ (tanpa Buff)",

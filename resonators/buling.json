@@ -30,6 +30,7 @@
   "affiliation": "The Black Shores",
   "class": "Natural",
   "image": "/characters/buling.webp",
+  "icon": "/icons/characters/buling.webp",
   "imageBanner": "/banners/buling-banner.jpeg",
   "recommendedStats": {
     "ATK": "1600+",

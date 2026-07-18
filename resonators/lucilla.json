@@ -35,6 +35,7 @@
   "affiliation": "Startorch Academy",
   "class": "Unclear",
   "image": "/characters/lucilla.webp",
+  "icon": "/icons/characters/lucilla.webp",
   "imageBanner": "/banners/lucilla-banner.jpeg",
   "recommendedStats": {
     "ATK": "1800-2000+",

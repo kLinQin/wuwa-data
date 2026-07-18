@@ -34,6 +34,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Natural",
   "image": "/characters/changli.webp",
+  "icon": "/icons/characters/changli.webp",
   "imageBanner": "/banners/changli-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

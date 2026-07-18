@@ -24,6 +24,7 @@
     }
   ],
   "image": "/characters/electro-rover.webp",
+  "icon": "/icons/characters/electro-rover.webp",
   "imageBanner": "/banners/electro-rover-banner.jpeg",
   "recommendedStats": {},
   "build": {

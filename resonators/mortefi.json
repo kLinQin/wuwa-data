@@ -35,6 +35,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Mutant",
   "image": "/characters/mortefi.webp",
+  "icon": "/icons/characters/mortefi.webp",
   "imageBanner": "/banners/mortefi-banner.jpeg",
   "recommendedStats": {
     "ATK": "1800+",

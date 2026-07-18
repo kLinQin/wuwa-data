@@ -29,6 +29,7 @@
   "affiliation": "The Black Shores",
   "class": "Artificial",
   "image": "/characters/camellya.webp",
+  "icon": "/icons/characters/camellya.webp",
   "imageBanner": "/banners/camellya-banner.jpeg",
   "recommendedStats": {
     "ATK": "2100+",

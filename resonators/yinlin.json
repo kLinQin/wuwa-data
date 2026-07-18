@@ -36,6 +36,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Congenital",
   "image": "/characters/yinlin.webp",
+  "icon": "/icons/characters/yinlin.webp",
   "imageBanner": "/banners/yinlin-banner.jpeg",
   "recommendedStats": {
     "ATK": "1800+",

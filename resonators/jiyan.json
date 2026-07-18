@@ -34,6 +34,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Mutant",
   "image": "/characters/jiyan.webp",
+  "icon": "/icons/characters/jiyan.webp",
   "imageBanner": "/banners/jiyan-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

@@ -33,6 +33,7 @@
   "affiliation": "Ragunna,Rinascita",
   "class": "Mutant",
   "image": "/characters/zani.webp",
+  "icon": "/icons/characters/zani.webp",
   "imageBanner": "/banners/zani-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

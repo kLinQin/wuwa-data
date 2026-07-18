@@ -33,6 +33,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Natural",
   "image": "/characters/lingyang.webp",
+  "icon": "/icons/characters/lingyang.webp",
   "imageBanner": "/banners/lingyang-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

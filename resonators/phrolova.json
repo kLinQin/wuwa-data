@@ -34,6 +34,7 @@
   "affiliation": "Fractsidus",
   "class": "Mutant",
   "image": "/characters/phrolova.webp",
+  "icon": "/icons/characters/phrolova.webp",
   "imageBanner": "/banners/phrolova-banner.jpeg",
   "recommendedStats": {
     "ATK": "1900-2100+",

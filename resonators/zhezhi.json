@@ -36,6 +36,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Congenital",
   "image": "/characters/zhezhi.webp",
+  "icon": "/icons/characters/zhezhi.webp",
   "imageBanner": "/banners/zhezhi-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

@@ -34,6 +34,7 @@
   "affiliation": "Unknown",
   "class": "Arbiters",
   "image": "/characters/spectro-rover.webp",
+  "icon": "/icons/characters/spectro-rover.webp",
   "imageBanner": "/banners/spectro-rover-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

@@ -33,6 +33,7 @@
   "affiliation": "Roya Tribe",
   "class": "Congenital",
   "image": "/characters/sigrika.webp",
+  "icon": "/icons/characters/sigrika.webp",
   "imageBanner": "/banners/sigrika-banner.jpeg",
   "recommendedStats": {
     "ATK": "2100",

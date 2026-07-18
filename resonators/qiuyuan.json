@@ -1,4 +1,3 @@
-
 {
   "name": "Qiuyuan",
   "element": "Aero",
@@ -35,6 +34,7 @@
   "affiliation": "Mingting,Huanglong",
   "class": "Unclear",
   "image": "/characters/qiuyuan.webp",
+  "icon": "/icons/characters/qiuyuan.webp",
   "imageBanner": "/banners/qiuyuan-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

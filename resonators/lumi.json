@@ -33,6 +33,7 @@
   "affiliation": "Yuezhou, Huanglong",
   "class": "Congenital",
   "image": "/characters/lumi.webp",
+  "icon": "/icons/characters/lumi.webp",
   "imageBanner": "/banners/lumi-banner.jpeg",
   "recommendedStats": {
     "ATK": "1800+",

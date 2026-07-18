@@ -34,6 +34,7 @@
   "affiliation": "",
   "class": "Unclear",
   "image": "/characters/luuk-herssen.webp",
+  "icon": "/icons/characters/luuk-herssen.webp",
   "imageBanner": "/banners/luuk-herssen-banner.jpeg",
   "recommendedStats": {
     "ATK": "2100+",

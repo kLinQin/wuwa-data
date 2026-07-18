@@ -33,6 +33,7 @@
   "affiliation": "The Black Shores",
   "class": "",
   "image": "/characters/shorekeeper.webp",
+  "icon": "/icons/characters/shorekeeper.webp",
   "imageBanner": "/banners/shorekeeper-banner.jpeg",
   "recommendedStats": {
     "HP": "30.000+",

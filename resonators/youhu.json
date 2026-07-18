@@ -33,6 +33,7 @@
   "affiliation": "",
   "class": "Mutant",
   "image": "/characters/youhu.webp",
+  "icon": "/icons/characters/youhu.webp",
   "imageBanner": "/banners/youhu-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

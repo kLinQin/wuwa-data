@@ -33,6 +33,7 @@
   "affiliation": "Septimont,Rinascita",
   "class": "Non-Congenital",
   "image": "/characters/lupa.webp",
+  "icon": "/icons/characters/lupa.webp",
   "imageBanner": "/banners/lupa-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

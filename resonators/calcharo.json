@@ -29,6 +29,7 @@
   "affiliation": "Ghost Hounds",
   "class": "Natural",
   "image": "/characters/calcharo.webp",
+  "icon": "/icons/characters/calcharo.webp",
   "imageBanner": "/banners/calcharo-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

@@ -31,6 +31,7 @@
   "affiliation": "Fisalia Family",
   "class": "Unclear",
   "image": "/characters/cantarella.webp",
+  "icon": "/icons/characters/cantarella.webp",
   "imageBanner": "/banners/cantarella-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

@@ -32,6 +32,7 @@
   "affiliation": "",
   "class": "",
   "image": "/characters/encore.webp",
+  "icon": "/icons/characters/encore.webp",
   "imageBanner": "/banners/encore-banner.jpeg",
   "recommendedStats": {
     "ATK": "1900+",

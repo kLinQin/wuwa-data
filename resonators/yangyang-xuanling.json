@@ -42,6 +42,7 @@
   "affiliation": "Ministry of War",
   "class": "Natural",
   "image": "/characters/yangyang-xuanling.webp",
+  "icon": "/icons/characters/yangyang-xuanling.webp",
   "imageBanner": "/banners/yangyang-xuanling-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

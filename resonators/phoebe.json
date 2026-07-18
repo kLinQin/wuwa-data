@@ -34,6 +34,7 @@
   "affiliation": "Ragunna,Rinascita",
   "class": "Unclear",
   "image": "/characters/phoebe.webp",
+  "icon": "/icons/characters/phoebe.webp",
   "imageBanner": "/banners/phoebe-banner.jpeg",
   "recommendedStats": {
     "ATK": "1800+",

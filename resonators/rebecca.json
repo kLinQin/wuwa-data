@@ -34,6 +34,7 @@
   "affiliation": "",
   "class": "Mutant",
   "image": "/characters/rebecca.webp",
+  "icon": "/icons/characters/rebecca.webp",
   "imageBanner": "/banners/rebecca-banner.jpeg",
   "recommendedStats": {
     "ATK": "1900 - 200+",

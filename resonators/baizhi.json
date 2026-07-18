@@ -25,6 +25,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Mutant",
   "image": "/characters/baizhi.webp",
+  "icon": "/icons/characters/baizhi.webp",
   "imageBanner": "/banners/baizhi-banner.jpeg",
   "recommendedStats": {
     "HP": "19000+",

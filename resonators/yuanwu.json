@@ -35,6 +35,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Natural",
   "image": "/characters/yuanwu.webp",
+  "icon": "/icons/characters/yuanwu.webp",
   "imageBanner": "/banners/yuanwu-banner.jpeg",
   "recommendedStats": {
     "DEF": "3900+",

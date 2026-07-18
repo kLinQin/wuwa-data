@@ -18,7 +18,8 @@
       "sonatas": [
         "Trailblazing Star"
       ],
-      "image": "/characters/aemeath.webp"
+      "image": "/characters/aemeath.webp",
+      "icon": "/icons/characters/aemeath.webp"
     },
     {
       "id": "aero-rover",
@@ -26,7 +27,7 @@
       "element": "Aero",
       "rarity": 5,
       "weapon": "Pistol",
-      "version": "3.5",
+      "version": "2.2",
       "lastUpdated": "2026-01-29",
       "roles": [
         "Support and Healer",
@@ -37,7 +38,8 @@
         "Windward Pilgrimage",
         "Rejuvenating Glow"
       ],
-      "image": "/characters/aero-rover.webp"
+      "image": "/characters/aero-rover.webp",
+      "icon": "/icons/characters/aero-rover.webp"
     },
     {
       "id": "augusta",
@@ -55,7 +57,8 @@
       "sonatas": [
         "Crown of Valor"
       ],
-      "image": "/characters/augusta.webp"
+      "image": "/characters/augusta.webp",
+      "icon": "/icons/characters/augusta.webp"
     },
     {
       "id": "brant",
@@ -74,7 +77,8 @@
       "sonatas": [
         "Tidebreaking Courage"
       ],
-      "image": "/characters/brant.webp"
+      "image": "/characters/brant.webp",
+      "icon": "/icons/characters/brant.webp"
     },
     {
       "id": "calcharo",
@@ -91,7 +95,8 @@
       "sonatas": [
         "Void Thunder"
       ],
-      "image": "/characters/calcharo.webp"
+      "image": "/characters/calcharo.webp",
+      "icon": "/icons/characters/calcharo.webp"
     },
     {
       "id": "camellya",
@@ -109,7 +114,8 @@
       "sonatas": [
         "Havoc Eclipse"
       ],
-      "image": "/characters/camellya.webp"
+      "image": "/characters/camellya.webp",
+      "icon": "/icons/characters/camellya.webp"
     },
     {
       "id": "cantarella",
@@ -132,7 +138,8 @@
         "Empyrean Anthem",
         "Moonlit Clouds"
       ],
-      "image": "/characters/cantarella.webp"
+      "image": "/characters/cantarella.webp",
+      "icon": "/icons/characters/cantarella.webp"
     },
     {
       "id": "carlotta",
@@ -149,7 +156,8 @@
       "sonatas": [
         "Frosty Resolve"
       ],
-      "image": "/characters/carlotta.webp"
+      "image": "/characters/carlotta.webp",
+      "icon": "/icons/characters/carlotta.webp"
     },
     {
       "id": "cartethyia",
@@ -168,7 +176,8 @@
       "sonatas": [
         "Windward Pilgrimage"
       ],
-      "image": "/characters/cartethyia.webp"
+      "image": "/characters/cartethyia.webp",
+      "icon": "/icons/characters/cartethyia.webp"
     },
     {
       "id": "changli",
@@ -187,7 +196,8 @@
       "sonatas": [
         "Molten Rift"
       ],
-      "image": "/characters/changli.webp"
+      "image": "/characters/changli.webp",
+      "icon": "/icons/characters/changli.webp"
     },
     {
       "id": "chisa",
@@ -205,7 +215,8 @@
       "sonatas": [
         "Thread of Severed Fate"
       ],
-      "image": "/characters/chisa.webp"
+      "image": "/characters/chisa.webp",
+      "icon": "/icons/characters/chisa.webp"
     },
     {
       "id": "ciaccona",
@@ -223,7 +234,8 @@
       "sonatas": [
         "Gusts of Welkin"
       ],
-      "image": "/characters/ciaccona.webp"
+      "image": "/characters/ciaccona.webp",
+      "icon": "/icons/characters/ciaccona.webp"
     },
     {
       "id": "denia",
@@ -246,7 +258,8 @@
         "Chromatic Foam",
         "Pact of Neonlight Leap"
       ],
-      "image": "/characters/denia.webp"
+      "image": "/characters/denia.webp",
+      "icon": "/icons/characters/denia.webp"
     },
     {
       "id": "electro-rover",
@@ -258,7 +271,8 @@
       "lastUpdated": "2026-07-09",
       "roles": [],
       "sonatas": [],
-      "image": "/characters/electro-rover.webp"
+      "image": "/characters/electro-rover.webp",
+      "icon": "/icons/characters/electro-rover.webp"
     },
     {
       "id": "encore",
@@ -275,7 +289,8 @@
       "sonatas": [
         "Molten Rift"
       ],
-      "image": "/characters/encore.webp"
+      "image": "/characters/encore.webp",
+      "icon": "/icons/characters/encore.webp"
     },
     {
       "id": "galbrena",
@@ -292,7 +307,8 @@
       "sonatas": [
         "Flamewing's Shadow"
       ],
-      "image": "/characters/galbrena.webp"
+      "image": "/characters/galbrena.webp",
+      "icon": "/icons/characters/galbrena.webp"
     },
     {
       "id": "havoc-rover",
@@ -308,7 +324,8 @@
       "sonatas": [
         "Havoc Eclipse"
       ],
-      "image": "/characters/havoc-rover.webp"
+      "image": "/characters/havoc-rover.webp",
+      "icon": "/icons/characters/havoc-rover.webp"
     },
     {
       "id": "hiyuki",
@@ -326,7 +343,8 @@
       "sonatas": [
         "Wishes of Quiet Snowfall"
       ],
-      "image": "/characters/hiyuki.webp"
+      "image": "/characters/hiyuki.webp",
+      "icon": "/icons/characters/hiyuki.webp"
     },
     {
       "id": "iuno",
@@ -345,7 +363,8 @@
       "sonatas": [
         "Crown of Valor"
       ],
-      "image": "/characters/iuno.webp"
+      "image": "/characters/iuno.webp",
+      "icon": "/icons/characters/iuno.webp"
     },
     {
       "id": "jianxin",
@@ -366,7 +385,8 @@
         "Rejuvenating Glow",
         "Sierra Gale"
       ],
-      "image": "/characters/jianxin.webp"
+      "image": "/characters/jianxin.webp",
+      "icon": "/icons/characters/jianxin.webp"
     },
     {
       "id": "jinhsi",
@@ -383,7 +403,8 @@
       "sonatas": [
         "Celestial Light"
       ],
-      "image": "/characters/jinhsi.webp"
+      "image": "/characters/jinhsi.webp",
+      "icon": "/icons/characters/jinhsi.webp"
     },
     {
       "id": "jiyan",
@@ -402,7 +423,8 @@
         "Sierra Gale",
         "Windward Pilgrimage"
       ],
-      "image": "/characters/jiyan.webp"
+      "image": "/characters/jiyan.webp",
+      "icon": "/icons/characters/jiyan.webp"
     },
     {
       "id": "lingyang",
@@ -420,7 +442,8 @@
         "Freezing Frost",
         "Frosty Resolve"
       ],
-      "image": "/characters/lingyang.webp"
+      "image": "/characters/lingyang.webp",
+      "icon": "/icons/characters/lingyang.webp"
     },
     {
       "id": "lucilla",
@@ -440,7 +463,8 @@
       "sonatas": [
         "Wishes of Quiet Snowfall"
       ],
-      "image": "/characters/lucilla.webp"
+      "image": "/characters/lucilla.webp",
+      "icon": "/icons/characters/lucilla.webp"
     },
     {
       "id": "lucy",
@@ -459,7 +483,8 @@
       "sonatas": [
         "Shadow of Shattered Dreams"
       ],
-      "image": "/characters/lucy.webp"
+      "image": "/characters/lucy.webp",
+      "icon": "/icons/characters/lucy.webp"
     },
     {
       "id": "lupa",
@@ -478,7 +503,8 @@
       "sonatas": [
         "Flaming Clawprint"
       ],
-      "image": "/characters/lupa.webp"
+      "image": "/characters/lupa.webp",
+      "icon": "/icons/characters/lupa.webp"
     },
     {
       "id": "luuk-herssen",
@@ -497,7 +523,8 @@
       "sonatas": [
         "Rite of Gilded Revelation"
       ],
-      "image": "/characters/luuk-herssen.webp"
+      "image": "/characters/luuk-herssen.webp",
+      "icon": "/icons/characters/luuk-herssen.webp"
     },
     {
       "id": "lynae",
@@ -520,7 +547,8 @@
         "Pact of Neonlight Leap",
         "Rite of Gilded Revelation"
       ],
-      "image": "/characters/lynae.webp"
+      "image": "/characters/lynae.webp",
+      "icon": "/icons/characters/lynae.webp"
     },
     {
       "id": "mornye",
@@ -540,7 +568,8 @@
       "sonatas": [
         "Halo of Starry Radiance"
       ],
-      "image": "/characters/mornye.webp"
+      "image": "/characters/mornye.webp",
+      "icon": "/icons/characters/mornye.webp"
     },
     {
       "id": "phoebe",
@@ -559,7 +588,8 @@
         "Eternal Radiance",
         "Moonlit Clouds"
       ],
-      "image": "/characters/phoebe.webp"
+      "image": "/characters/phoebe.webp",
+      "icon": "/icons/characters/phoebe.webp"
     },
     {
       "id": "phrolova",
@@ -578,7 +608,8 @@
       "sonatas": [
         "Dream of the Lost"
       ],
-      "image": "/characters/phrolova.webp"
+      "image": "/characters/phrolova.webp",
+      "icon": "/icons/characters/phrolova.webp"
     },
     {
       "id": "qiuyuan",
@@ -597,7 +628,8 @@
         "Law of Harmony",
         "Moonlit Clouds"
       ],
-      "image": "/characters/qiuyuan.webp"
+      "image": "/characters/qiuyuan.webp",
+      "icon": "/icons/characters/qiuyuan.webp"
     },
     {
       "id": "rebecca",
@@ -616,7 +648,8 @@
       "sonatas": [
         "Shadow of Shattered Dreams"
       ],
-      "image": "/characters/rebecca.webp"
+      "image": "/characters/rebecca.webp",
+      "icon": "/icons/characters/rebecca.webp"
     },
     {
       "id": "roccia",
@@ -637,7 +670,8 @@
         "Midnight Veil",
         "Moonlit Clouds"
       ],
-      "image": "/characters/roccia.webp"
+      "image": "/characters/roccia.webp",
+      "icon": "/icons/characters/roccia.webp"
     },
     {
       "id": "shorekeeper",
@@ -655,7 +689,8 @@
       "sonatas": [
         "Rejuvenating Glow"
       ],
-      "image": "/characters/shorekeeper.webp"
+      "image": "/characters/shorekeeper.webp",
+      "icon": "/icons/characters/shorekeeper.webp"
     },
     {
       "id": "sigrika",
@@ -673,7 +708,8 @@
       "sonatas": [
         "Sound of True Name"
       ],
-      "image": "/characters/sigrika.webp"
+      "image": "/characters/sigrika.webp",
+      "icon": "/icons/characters/sigrika.webp"
     },
     {
       "id": "spectro-rover",
@@ -692,7 +728,8 @@
         "Moonlit Clouds",
         "Rejuvenating Glow"
       ],
-      "image": "/characters/spectro-rover.webp"
+      "image": "/characters/spectro-rover.webp",
+      "icon": "/icons/characters/spectro-rover.webp"
     },
     {
       "id": "suisui",
@@ -710,7 +747,8 @@
       "sonatas": [
         "Song of Feather Trace"
       ],
-      "image": "/characters/suisui.webp"
+      "image": "/characters/suisui.webp",
+      "icon": "/icons/characters/suisui.webp"
     },
     {
       "id": "verina",
@@ -728,7 +766,8 @@
       "sonatas": [
         "Rejuvenating Glow"
       ],
-      "image": "/characters/verina.webp"
+      "image": "/characters/verina.webp",
+      "icon": "/icons/characters/verina.webp"
     },
     {
       "id": "xiangli-yao",
@@ -745,7 +784,8 @@
       "sonatas": [
         "Void Thunder"
       ],
-      "image": "/characters/xiangli-yao.webp"
+      "image": "/characters/xiangli-yao.webp",
+      "icon": "/icons/characters/xiangli-yao.webp"
     },
     {
       "id": "yangyang-xuanling",
@@ -764,7 +804,8 @@
       "sonatas": [
         "Song of Feather Trace"
       ],
-      "image": "/characters/yangyang-xuanling.webp"
+      "image": "/characters/yangyang-xuanling.webp",
+      "icon": "/icons/characters/yangyang-xuanling.webp"
     },
     {
       "id": "yinlin",
@@ -785,7 +826,8 @@
         "Empyrean Anthem",
         "Moonlit Clouds"
       ],
-      "image": "/characters/yinlin.webp"
+      "image": "/characters/yinlin.webp",
+      "icon": "/icons/characters/yinlin.webp"
     },
     {
       "id": "zani",
@@ -804,7 +846,8 @@
       "sonatas": [
         "Eternal Radiance"
       ],
-      "image": "/characters/zani.webp"
+      "image": "/characters/zani.webp",
+      "icon": "/icons/characters/zani.webp"
     },
     {
       "id": "zhezhi",
@@ -826,7 +869,8 @@
         "Empyrean Anthem",
         "Moonlit Clouds"
       ],
-      "image": "/characters/zhezhi.webp"
+      "image": "/characters/zhezhi.webp",
+      "icon": "/icons/characters/zhezhi.webp"
     },
     {
       "id": "aalto",
@@ -844,7 +888,8 @@
         "Moonlit Clouds",
         "Sierra Gale"
       ],
-      "image": "/characters/aalto.webp"
+      "image": "/characters/aalto.webp",
+      "icon": "/icons/characters/aalto.webp"
     },
     {
       "id": "baizhi",
@@ -862,7 +907,8 @@
       "sonatas": [
         "Rejuvenating Glow"
       ],
-      "image": "/characters/baizhi.webp"
+      "image": "/characters/baizhi.webp",
+      "icon": "/icons/characters/baizhi.webp"
     },
     {
       "id": "buling",
@@ -880,7 +926,8 @@
       "sonatas": [
         "Rejuvenating Glow"
       ],
-      "image": "/characters/buling.webp"
+      "image": "/characters/buling.webp",
+      "icon": "/icons/characters/buling.webp"
     },
     {
       "id": "chixia",
@@ -896,7 +943,8 @@
       "sonatas": [
         "Molten Rift"
       ],
-      "image": "/characters/chixia.webp"
+      "image": "/characters/chixia.webp",
+      "icon": "/icons/characters/chixia.webp"
     },
     {
       "id": "danjin",
@@ -915,7 +963,8 @@
         "Moonlit Clouds",
         "Havoc Eclipse"
       ],
-      "image": "/characters/danjin.webp"
+      "image": "/characters/danjin.webp",
+      "icon": "/icons/characters/danjin.webp"
     },
     {
       "id": "lumi",
@@ -933,7 +982,8 @@
       "sonatas": [
         "Moonlit Clouds"
       ],
-      "image": "/characters/lumi.webp"
+      "image": "/characters/lumi.webp",
+      "icon": "/icons/characters/lumi.webp"
     },
     {
       "id": "mortefi",
@@ -953,7 +1003,8 @@
         "Empyrean Anthem",
         "Moonlit Clouds"
       ],
-      "image": "/characters/mortefi.webp"
+      "image": "/characters/mortefi.webp",
+      "icon": "/icons/characters/mortefi.webp"
     },
     {
       "id": "sanhua",
@@ -970,7 +1021,8 @@
       "sonatas": [
         "Moonlit Clouds"
       ],
-      "image": "/characters/sanhua.webp"
+      "image": "/characters/sanhua.webp",
+      "icon": "/icons/characters/sanhua.webp"
     },
     {
       "id": "taoqi",
@@ -989,7 +1041,8 @@
         "Moonlit Clouds",
         "Rejuvenating Glow"
       ],
-      "image": "/characters/taoqi.webp"
+      "image": "/characters/taoqi.webp",
+      "icon": "/icons/characters/taoqi.webp"
     },
     {
       "id": "yangyang",
@@ -1008,7 +1061,8 @@
         "Moonlit Clouds",
         "Sierra Gale"
       ],
-      "image": "/characters/yangyang.webp"
+      "image": "/characters/yangyang.webp",
+      "icon": "/icons/characters/yangyang.webp"
     },
     {
       "id": "youhu",
@@ -1027,7 +1081,8 @@
       "sonatas": [
         "Rejuvenating Glow"
       ],
-      "image": "/characters/youhu.webp"
+      "image": "/characters/youhu.webp",
+      "icon": "/icons/characters/youhu.webp"
     },
     {
       "id": "yuanwu",
@@ -1047,7 +1102,8 @@
         "Moonlit Clouds",
         "Rejuvenating Glow"
       ],
-      "image": "/characters/yuanwu.webp"
+      "image": "/characters/yuanwu.webp",
+      "icon": "/icons/characters/yuanwu.webp"
     }
   ]
 }

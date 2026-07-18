@@ -32,6 +32,7 @@
   "affiliation": "Startorch Academy",
   "class": "Natural",
   "image": "/characters/aemeath.webp",
+  "icon": "/icons/characters/aemeath.webp",
   "imageBanner": "/banners/aemeath-banner.jpeg",
   "recommendedStats": {
     "ATK": "2000+",

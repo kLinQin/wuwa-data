@@ -34,6 +34,7 @@
   "affiliation": "Ragunna,Rinascita",
   "class": "Congenital",
   "image": "/characters/cartethyia.webp",
+  "icon": "/icons/characters/cartethyia.webp",
   "imageBanner": "/banners/cartethyia-banner.jpeg",
   "recommendedStats": {
     "HP": "35.000+",

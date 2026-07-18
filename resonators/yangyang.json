@@ -34,6 +34,7 @@
   "affiliation": "Jinzhou,Huanglong",
   "class": "Natural",
   "image": "/characters/yangyang.webp",
+  "icon": "/icons/characters/yangyang.webp",
   "imageBanner": "/banners/yangyang-banner.jpeg",
   "recommendedStats": {
     "ATK": "1700+",
