@@ -6,7 +6,12 @@
     "weaponType": "Gauntlet",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/gauntlet/abyss-surges.webp"
+    "image": "/weapons/gauntlet/abyss-surges.webp",
+    "subStat": "ATK",
+    "stats": [
+      587.5,
+      36.45
+    ]
   },
   {
     "id": "ages-of-harvest",
@@ -15,7 +20,12 @@
     "weaponType": "Broadblade",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/broadblade/ages-of-harvest.webp"
+    "image": "/weapons/broadblade/ages-of-harvest.webp",
+    "subStat": "CRIT Rate",
+    "stats": [
+      588,
+      24.3
+    ]
   },
   {
     "id": "azure-oath",
@@ -24,7 +34,12 @@
     "weaponType": "Sword",
     "rarity": 5,
     "version": "3.5",
-    "image": "/weapons/sword/azure-oath.webp"
+    "image": "/weapons/sword/azure-oath.webp",
+    "subStat": "CRIT Rate",
+    "stats": [
+      587.5,
+      24.3
+    ]
   },
   {
     "id": "blazing-brilliance",
@@ -33,7 +48,12 @@
     "weaponType": "Sword",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/sword/blazing-brilliance.webp"
+    "image": "/weapons/sword/blazing-brilliance.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      588,
+      48.6
+    ]
   },
   {
     "id": "blazing-justice",
@@ -42,7 +62,12 @@
     "weaponType": "Gauntlet",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/gauntlet/blazing-justice.webp"
+    "image": "/weapons/gauntlet/blazing-justice.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      587.5,
+      48.6
+    ]
   },
   {
     "id": "bloodpacts-pledge",
@@ -51,7 +76,12 @@
     "weaponType": "Sword",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/sword/bloodpacts-pledge.webp"
+    "image": "/weapons/sword/bloodpacts-pledge.webp",
+    "subStat": "ER",
+    "stats": [
+      588,
+      38.9
+    ]
   },
   {
     "id": "boson-astrolabe",
@@ -60,7 +90,12 @@
     "weaponType": "Rectifier",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/rectifier/boson-astrolabe.webp"
+    "image": "/weapons/rectifier/boson-astrolabe.webp",
+    "subStat": "Energy Regen",
+    "stats": [
+      525,
+      38.8
+    ]
   },
   {
     "id": "cosmic-ripples",
@@ -69,7 +104,12 @@
     "weaponType": "Rectifier",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/rectifier/cosmic-ripples.webp"
+    "image": "/weapons/rectifier/cosmic-ripples.webp",
+    "subStat": "ATK",
+    "stats": [
+      500,
+      54
+    ]
   },
   {
     "id": "daybreakers-spine",
@@ -78,7 +118,12 @@
     "weaponType": "Gauntlet",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/gauntlet/daybreakers-spine.webp"
+    "image": "/weapons/gauntlet/daybreakers-spine.webp",
+    "subStat": "CRIT Rate",
+    "stats": [
+      588,
+      24.3
+    ]
   },
   {
     "id": "defiers-thorn",
@@ -87,7 +132,12 @@
     "weaponType": "Sword",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/sword/defiers-thorn.webp"
+    "image": "/weapons/sword/defiers-thorn.webp",
+    "subStat": "HP",
+    "stats": [
+      413,
+      72.2
+    ]
   },
   {
     "id": "emerald-of-genesis",
@@ -96,7 +146,12 @@
     "weaponType": "Sword",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/sword/emerald-of-genesis.webp"
+    "image": "/weapons/sword/emerald-of-genesis.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      588,
+      24.3
+    ]
   },
   {
     "id": "emerald-sentence",
@@ -105,7 +160,12 @@
     "weaponType": "Sword",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/sword/emerald-sentence.webp"
+    "image": "/weapons/sword/emerald-sentence.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      588,
+      24.3
+    ]
   },
   {
     "id": "everbright-polestar",
@@ -114,7 +174,12 @@
     "weaponType": "Sword",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/sword/everbright-polestar.webp"
+    "image": "/weapons/sword/everbright-polestar.webp",
+    "subStat": "CRIT Rate",
+    "stats": [
+      588,
+      24.3
+    ]
   },
   {
     "id": "firstlights-herald",
@@ -123,7 +188,12 @@
     "weaponType": "Rectifier",
     "rarity": 5,
     "version": "3.5",
-    "image": "/weapons/rectifier/firstlights-herald.webp"
+    "image": "/weapons/rectifier/firstlights-herald.webp",
+    "subStat": "Energy Regen",
+    "stats": [
+      412.5,
+      77.04
+    ]
   },
   {
     "id": "forged-dwarf-star",
@@ -132,7 +202,12 @@
     "weaponType": "Rectifier",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/rectifier/forged-dwarf-star.webp"
+    "image": "/weapons/rectifier/forged-dwarf-star.webp",
+    "subStat": "CRIT Rate",
+    "stats": [
+      500,
+      36
+    ]
   },
   {
     "id": "freeze-frame",
@@ -141,7 +216,12 @@
     "weaponType": "Rectifier",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/rectifier/freeze-frame.webp"
+    "image": "/weapons/rectifier/freeze-frame.webp",
+    "subStat": "CRIT Rate",
+    "stats": [
+      587.5,
+      24.3
+    ]
   },
   {
     "id": "frostburn",
@@ -150,7 +230,12 @@
     "weaponType": "Sword",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/sword/frostburn.webp"
+    "image": "/weapons/sword/frostburn.webp",
+    "subStat": "CRIT Rate",
+    "stats": [
+      587.5,
+      24.3
+    ]
   },
   {
     "id": "kumokiri",
@@ -159,7 +244,12 @@
     "weaponType": "Broadblade",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/broadblade/kumokiri.webp"
+    "image": "/weapons/broadblade/kumokiri.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      500,
+      36
+    ]
   },
   {
     "id": "laser-shearer",
@@ -168,7 +258,12 @@
     "weaponType": "Sword",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/sword/laser-shearer.webp"
+    "image": "/weapons/sword/laser-shearer.webp",
+    "subStat": "Energy Regen",
+    "stats": [
+      588,
+      38.9
+    ]
   },
   {
     "id": "lethean-elegy",
@@ -177,7 +272,12 @@
     "weaponType": "Rectifier",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/rectifier/lethean-elegy.webp"
+    "image": "/weapons/rectifier/lethean-elegy.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      587.5,
+      24.3
+    ]
   },
   {
     "id": "luminous-hymn",
@@ -186,7 +286,12 @@
     "weaponType": "Rectifier",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/rectifier/luminous-hymn.webp"
+    "image": "/weapons/rectifier/luminous-hymn.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      500,
+      36
+    ]
   },
   {
     "id": "lustrous-razor",
@@ -195,7 +300,12 @@
     "weaponType": "Broadblade",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/broadblade/lustrous-razor.webp"
+    "image": "/weapons/broadblade/lustrous-razor.webp",
+    "subStat": "ATK",
+    "stats": [
+      588,
+      36.5
+    ]
   },
   {
     "id": "lux-&-umbra",
@@ -204,7 +314,12 @@
     "weaponType": "Pistol",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/pistol/lux-&-umbra.webp"
+    "image": "/weapons/pistol/lux-&-umbra.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      587.5,
+      48.6
+    ]
   },
   {
     "id": "moongazers-sigil",
@@ -213,7 +328,12 @@
     "weaponType": "Gauntlet",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/gauntlet/moongazers-sigil.webp"
+    "image": "/weapons/gauntlet/moongazers-sigil.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      500,
+      36
+    ]
   },
   {
     "id": "phasic-homogenizer",
@@ -222,7 +342,12 @@
     "weaponType": "Pistol",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/pistol/phasic-homogenizer.webp"
+    "image": "/weapons/pistol/phasic-homogenizer.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      587.5,
+      48.6
+    ]
   },
   {
     "id": "pulsation-bracer",
@@ -231,7 +356,12 @@
     "weaponType": "Gauntlet",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/gauntlet/pulsation-bracer.webp"
+    "image": "/weapons/gauntlet/pulsation-bracer.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      587.5,
+      24.3
+    ]
   },
   {
     "id": "radiance-cleaver",
@@ -240,7 +370,12 @@
     "weaponType": "Broadblade",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/broadblade/radiance-cleaver.webp"
+    "image": "/weapons/broadblade/radiance-cleaver.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      587.5,
+      48.6
+    ]
   },
   {
     "id": "red-spring",
@@ -249,7 +384,12 @@
     "weaponType": "Sword",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/sword/red-spring.webp"
+    "image": "/weapons/sword/red-spring.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      588,
+      24.3
+    ]
   },
   {
     "id": "rime-draped-sprouts",
@@ -258,7 +398,12 @@
     "weaponType": "Rectifier",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/rectifier/rime-draped-sprouts.webp"
+    "image": "/weapons/rectifier/rime-draped-sprouts.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      500,
+      72
+    ]
   },
   {
     "id": "skull-thrasher",
@@ -267,7 +412,12 @@
     "weaponType": "Pistol",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/pistol/skull-thrasher.webp"
+    "image": "/weapons/pistol/skull-thrasher.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      500,
+      72
+    ]
   },
   {
     "id": "solsworn-ciphers",
@@ -276,7 +426,12 @@
     "weaponType": "Gauntlet",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/gauntlet/solsworn-ciphers.webp"
+    "image": "/weapons/gauntlet/solsworn-ciphers.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      587.5,
+      48.6
+    ]
   },
   {
     "id": "spectral-trigger",
@@ -285,7 +440,12 @@
     "weaponType": "Pistol",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/pistol/spectral-trigger.webp"
+    "image": "/weapons/pistol/spectral-trigger.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      587.5,
+      48.6
+    ]
   },
   {
     "id": "spectrum-blaster",
@@ -294,7 +454,12 @@
     "weaponType": "Pistol",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/pistol/spectrum-blaster.webp"
+    "image": "/weapons/pistol/spectrum-blaster.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      587.5,
+      24.3
+    ]
   },
   {
     "id": "starfield-calibrator",
@@ -303,7 +468,12 @@
     "weaponType": "Broadblade",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/broadblade/starfield-calibrator.webp"
+    "image": "/weapons/broadblade/starfield-calibrator.webp",
+    "subStat": "Energy Regen",
+    "stats": [
+      412.5,
+      77.04
+    ]
   },
   {
     "id": "static-mist",
@@ -312,7 +482,12 @@
     "weaponType": "Pistol",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/pistol/static-mist.webp"
+    "image": "/weapons/pistol/static-mist.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      587.5,
+      24.3
+    ]
   },
   {
     "id": "stellar-symphony",
@@ -321,7 +496,12 @@
     "weaponType": "Rectifier",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/rectifier/stellar-symphony.webp"
+    "image": "/weapons/rectifier/stellar-symphony.webp",
+    "subStat": "Energy Regen",
+    "stats": [
+      412.5,
+      77
+    ]
   },
   {
     "id": "stringmaster",
@@ -330,7 +510,12 @@
     "weaponType": "Rectifier",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/rectifier/stringmaster.webp"
+    "image": "/weapons/rectifier/stringmaster.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      500,
+      36
+    ]
   },
   {
     "id": "the-last-dance",
@@ -339,7 +524,12 @@
     "weaponType": "Pistol",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/pistol/the-last-dance.webp"
+    "image": "/weapons/pistol/the-last-dance.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      500,
+      72
+    ]
   },
   {
     "id": "thunderflare-dominion",
@@ -348,7 +538,12 @@
     "weaponType": "Broadblade",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/broadblade/thunderflare-dominion.webp"
+    "image": "/weapons/broadblade/thunderflare-dominion.webp",
+    "subStat": "CRIT Rate",
+    "stats": [
+      675,
+      12.2
+    ]
   },
   {
     "id": "tragicomedy",
@@ -357,7 +552,12 @@
     "weaponType": "Gauntlet",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/gauntlet/tragicomedy.webp"
+    "image": "/weapons/gauntlet/tragicomedy.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      587.5,
+      24.3
+    ]
   },
   {
     "id": "unflickering-valor",
@@ -366,7 +566,12 @@
     "weaponType": "Sword",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/sword/unflickering-valor.webp"
+    "image": "/weapons/sword/unflickering-valor.webp",
+    "subStat": "ER",
+    "stats": [
+      413,
+      77
+    ]
   },
   {
     "id": "verdant-summit",
@@ -375,7 +580,12 @@
     "weaponType": "Broadblade",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/broadblade/verdant-summit.webp"
+    "image": "/weapons/broadblade/verdant-summit.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      588,
+      48.6
+    ]
   },
   {
     "id": "veritys-handle",
@@ -384,7 +594,12 @@
     "weaponType": "Gauntlet",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/gauntlet/veritys-handle.webp"
+    "image": "/weapons/gauntlet/veritys-handle.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      587.5,
+      24.3
+    ]
   },
   {
     "id": "whispers-of-sirens",
@@ -393,7 +608,12 @@
     "weaponType": "Rectifier",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/rectifier/whispers-of-sirens.webp"
+    "image": "/weapons/rectifier/whispers-of-sirens.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      500,
+      72
+    ]
   },
   {
     "id": "wildfire-mark",
@@ -402,7 +622,12 @@
     "weaponType": "Broadblade",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/broadblade/wildfire-mark.webp"
+    "image": "/weapons/broadblade/wildfire-mark.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      588,
+      48.6
+    ]
   },
   {
     "id": "woodland-aria",
@@ -411,7 +636,12 @@
     "weaponType": "Pistol",
     "rarity": 5,
     "version": "3.0",
-    "image": "/weapons/pistol/woodland-aria.webp"
+    "image": "/weapons/pistol/woodland-aria.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      500,
+      36
+    ]
   },
   {
     "id": "aether-strike",
@@ -420,7 +650,12 @@
     "weaponType": "Gauntlet",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/gauntlet/aether-strike.webp"
+    "image": "/weapons/gauntlet/aether-strike.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      412.5,
+      40.5
+    ]
   },
   {
     "id": "amity-accord",
@@ -429,7 +664,12 @@
     "weaponType": "Gauntlet",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/gauntlet/amity-accord.webp"
+    "image": "/weapons/gauntlet/amity-accord.webp",
+    "subStat": "DEF",
+    "stats": [
+      337.5,
+      61.56
+    ]
   },
   {
     "id": "augment",
@@ -438,7 +678,12 @@
     "weaponType": "Rectifier",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/rectifier/augment.webp"
+    "image": "/weapons/rectifier/augment.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      412.5,
+      20.25
+    ]
   },
   {
     "id": "aureate-zenith",
@@ -447,7 +692,12 @@
     "weaponType": "Broadblade",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/broadblade/aureate-zenith.webp"
+    "image": "/weapons/broadblade/aureate-zenith.webp",
+    "subStat": "Crit DMG",
+    "stats": [
+      412.5,
+      40.5
+    ]
   },
   {
     "id": "autumntrace",
@@ -456,7 +706,12 @@
     "weaponType": "Broadblade",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/broadblade/autumntrace.webp"
+    "image": "/weapons/broadblade/autumntrace.webp",
+    "subStat": "CRIT Rate",
+    "stats": [
+      412.5,
+      20.25
+    ]
   },
   {
     "id": "broadblade-41",
@@ -465,7 +720,12 @@
     "weaponType": "Broadblade",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/broadblade/broadblade-41.webp"
+    "image": "/weapons/broadblade/broadblade-41.webp",
+    "subStat": "ER",
+    "stats": [
+      412.5,
+      32.4
+    ]
   },
   {
     "id": "cadenza",
@@ -474,7 +734,12 @@
     "weaponType": "Pistol",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/pistol/cadenza.webp"
+    "image": "/weapons/pistol/cadenza.webp",
+    "subStat": "Energy Regen",
+    "stats": [
+      337.5,
+      51.84
+    ]
   },
   {
     "id": "call-of-the-abyss",
@@ -483,7 +748,12 @@
     "weaponType": "Rectifier",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/rectifier/call-of-the-abyss.webp"
+    "image": "/weapons/rectifier/call-of-the-abyss.webp",
+    "subStat": "Energy Regen",
+    "stats": [
+      337.5,
+      51.84
+    ]
   },
   {
     "id": "celestial-spiral",
@@ -492,7 +762,12 @@
     "weaponType": "Gauntlet",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/gauntlet/celestial-spiral.webp"
+    "image": "/weapons/gauntlet/celestial-spiral.webp",
+    "subStat": "ATK",
+    "stats": [
+      462.5,
+      18.23
+    ]
   },
   {
     "id": "comet-flare",
@@ -501,7 +776,12 @@
     "weaponType": "Rectifier",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/rectifier/comet-flare.webp"
+    "image": "/weapons/rectifier/comet-flare.webp",
+    "subStat": "HP",
+    "stats": [
+      412.5,
+      30.38
+    ]
   },
   {
     "id": "commando-of-conviction",
@@ -510,7 +790,12 @@
     "weaponType": "Sword",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/sword/commando-of-conviction.webp"
+    "image": "/weapons/sword/commando-of-conviction.webp",
+    "subStat": "ATK",
+    "stats": [
+      413,
+      30.4
+    ]
   },
   {
     "id": "dauntless-evernight",
@@ -519,7 +804,12 @@
     "weaponType": "Broadblade",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/broadblade/dauntless-evernight.webp"
+    "image": "/weapons/broadblade/dauntless-evernight.webp",
+    "subStat": "DEF",
+    "stats": [
+      337.5,
+      61.56
+    ]
   },
   {
     "id": "discord",
@@ -528,7 +818,12 @@
     "weaponType": "Broadblade",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/broadblade/discord.webp"
+    "image": "/weapons/broadblade/discord.webp",
+    "subStat": "ER",
+    "stats": [
+      337.5,
+      51.84
+    ]
   },
   {
     "id": "endless-collapse",
@@ -537,7 +832,12 @@
     "weaponType": "Sword",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/sword/endless-collapse.webp"
+    "image": "/weapons/sword/endless-collapse.webp",
+    "subStat": "ATK",
+    "stats": [
+      463,
+      18.2
+    ]
   },
   {
     "id": "fables-of-wisdom",
@@ -546,7 +846,12 @@
     "weaponType": "Sword",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/sword/fables-of-wisdom.webp"
+    "image": "/weapons/sword/fables-of-wisdom.webp",
+    "subStat": "ATK",
+    "stats": [
+      463,
+      18.2
+    ]
   },
   {
     "id": "feather-edge",
@@ -555,7 +860,12 @@
     "weaponType": "Sword",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/sword/feather-edge.webp"
+    "image": "/weapons/sword/feather-edge.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      413,
+      20.3
+    ]
   },
   {
     "id": "fusion-accretion",
@@ -564,7 +874,12 @@
     "weaponType": "Rectifier",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/rectifier/fusion-accretion.webp"
+    "image": "/weapons/rectifier/fusion-accretion.webp",
+    "subStat": "ATK",
+    "stats": [
+      462.5,
+      18.23
+    ]
   },
   {
     "id": "gauntlet-21d",
@@ -573,7 +888,12 @@
     "weaponType": "Gauntlet",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/gauntlet/gauntlet-21d.webp"
+    "image": "/weapons/gauntlet/gauntlet-21d.webp",
+    "subStat": "ER",
+    "stats": [
+      387.5,
+      38.88
+    ]
   },
   {
     "id": "helios-cleaver",
@@ -582,7 +902,12 @@
     "weaponType": "Broadblade",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/broadblade/helios-cleaver.webp"
+    "image": "/weapons/broadblade/helios-cleaver.webp",
+    "subStat": "ATK",
+    "stats": [
+      412.5,
+      30.38
+    ]
   },
   {
     "id": "hollow-mirage",
@@ -591,7 +916,12 @@
     "weaponType": "Gauntlet",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/gauntlet/hollow-mirage.webp"
+    "image": "/weapons/gauntlet/hollow-mirage.webp",
+    "subStat": "ATK",
+    "stats": [
+      412.5,
+      30.38
+    ]
   },
   {
     "id": "jinzhou-keeper",
@@ -600,7 +930,12 @@
     "weaponType": "Rectifier",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/rectifier/jinzhou-keeper.webp"
+    "image": "/weapons/rectifier/jinzhou-keeper.webp",
+    "subStat": "ATK",
+    "stats": [
+      387.5,
+      36.45
+    ]
   },
   {
     "id": "legend-of-drunken-hero",
@@ -609,7 +944,12 @@
     "weaponType": "Gauntlet",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/gauntlet/legend-of-drunken-hero.webp"
+    "image": "/weapons/gauntlet/legend-of-drunken-hero.webp",
+    "subStat": "ATK",
+    "stats": [
+      462.5,
+      18.23
+    ]
   },
   {
     "id": "lumingloss",
@@ -618,7 +958,12 @@
     "weaponType": "Sword",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/sword/lumingloss.webp"
+    "image": "/weapons/sword/lumingloss.webp",
+    "subStat": "ATK",
+    "stats": [
+      388,
+      36.5
+    ]
   },
   {
     "id": "lunar-cutter",
@@ -627,7 +972,12 @@
     "weaponType": "Sword",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/sword/lunar-cutter.webp"
+    "image": "/weapons/sword/lunar-cutter.webp",
+    "subStat": "ATK",
+    "stats": [
+      412.5,
+      30.38
+    ]
   },
   {
     "id": "marcato",
@@ -636,7 +986,12 @@
     "weaponType": "Gauntlet",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/gauntlet/marcato.webp"
+    "image": "/weapons/gauntlet/marcato.webp",
+    "subStat": "Energy Regen",
+    "stats": [
+      337.5,
+      51.84
+    ]
   },
   {
     "id": "meditations-on-mercy",
@@ -645,7 +1000,12 @@
     "weaponType": "Broadblade",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/broadblade/meditations-on-mercy.webp"
+    "image": "/weapons/broadblade/meditations-on-mercy.webp",
+    "subStat": "ATK",
+    "stats": [
+      462.5,
+      18.23
+    ]
   },
   {
     "id": "novaburst",
@@ -654,7 +1014,12 @@
     "weaponType": "Pistol",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/pistol/novaburst.webp"
+    "image": "/weapons/pistol/novaburst.webp",
+    "subStat": "ATK",
+    "stats": [
+      412.5,
+      30.38
+    ]
   },
   {
     "id": "oceans-gift",
@@ -663,7 +1028,12 @@
     "weaponType": "Rectifier",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/rectifier/oceans-gift.webp"
+    "image": "/weapons/rectifier/oceans-gift.webp",
+    "subStat": "ATK",
+    "stats": [
+      462.5,
+      18.23
+    ]
   },
   {
     "id": "overture",
@@ -672,7 +1042,12 @@
     "weaponType": "Sword",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/sword/overture.webp"
+    "image": "/weapons/sword/overture.webp",
+    "subStat": "Energy Regen",
+    "stats": [
+      338,
+      51.8
+    ]
   },
   {
     "id": "pistols-26",
@@ -681,7 +1056,12 @@
     "weaponType": "Pistol",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/pistol/pistols-26.webp"
+    "image": "/weapons/pistol/pistols-26.webp",
+    "subStat": "ATK",
+    "stats": [
+      387.5,
+      36.45
+    ]
   },
   {
     "id": "radiant-dawn",
@@ -690,7 +1070,12 @@
     "weaponType": "Rectifier",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/rectifier/radiant-dawn.webp"
+    "image": "/weapons/rectifier/radiant-dawn.webp",
+    "subStat": "Crit. DMG",
+    "stats": [
+      412.5,
+      40.5
+    ]
   },
   {
     "id": "rectifier-25",
@@ -699,7 +1084,12 @@
     "weaponType": "Rectifier",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/rectifier/rectifier-25.webp"
+    "image": "/weapons/rectifier/rectifier-25.webp",
+    "subStat": "Energy Regen",
+    "stats": [
+      337.5,
+      51.84
+    ]
   },
   {
     "id": "relativistic-jet",
@@ -708,7 +1098,12 @@
     "weaponType": "Pistol",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/pistol/relativistic-jet.webp"
+    "image": "/weapons/pistol/relativistic-jet.webp",
+    "subStat": "ATK",
+    "stats": [
+      462.5,
+      18.23
+    ]
   },
   {
     "id": "romance-in-farewell",
@@ -717,7 +1112,12 @@
     "weaponType": "Pistol",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/pistol/romance-in-farewell.webp"
+    "image": "/weapons/pistol/romance-in-farewell.webp",
+    "subStat": "ATK",
+    "stats": [
+      462.5,
+      18.23
+    ]
   },
   {
     "id": "solar-flame",
@@ -726,7 +1126,12 @@
     "weaponType": "Pistol",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/pistol/solar-flame.webp"
+    "image": "/weapons/pistol/solar-flame.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      412.5,
+      20.25
+    ]
   },
   {
     "id": "somnoire-anchor",
@@ -735,7 +1140,12 @@
     "weaponType": "Sword",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/sword/somnoire-anchor.webp"
+    "image": "/weapons/sword/somnoire-anchor.webp",
+    "subStat": "ATK",
+    "stats": [
+      463,
+      18.2
+    ]
   },
   {
     "id": "stonard",
@@ -744,7 +1154,12 @@
     "weaponType": "Gauntlet",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/gauntlet/stonard.webp"
+    "image": "/weapons/gauntlet/stonard.webp",
+    "subStat": "Crit Rate",
+    "stats": [
+      412.5,
+      20.25
+    ]
   },
   {
     "id": "sword-18",
@@ -753,7 +1168,12 @@
     "weaponType": "Sword",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/sword/sword-18.webp"
+    "image": "/weapons/sword/sword-18.webp",
+    "subStat": "ATK",
+    "stats": [
+      388,
+      36.5
+    ]
   },
   {
     "id": "thunderbolt",
@@ -762,7 +1182,12 @@
     "weaponType": "Pistol",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/pistol/thunderbolt.webp"
+    "image": "/weapons/pistol/thunderbolt.webp",
+    "subStat": "ATK",
+    "stats": [
+      387.5,
+      36.45
+    ]
   },
   {
     "id": "undying-flame",
@@ -771,7 +1196,12 @@
     "weaponType": "Pistol",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/pistol/undying-flame.webp"
+    "image": "/weapons/pistol/undying-flame.webp",
+    "subStat": "ATK",
+    "stats": [
+      412.5,
+      30.38
+    ]
   },
   {
     "id": "variation",
@@ -780,7 +1210,12 @@
     "weaponType": "Rectifier",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/rectifier/variation.webp"
+    "image": "/weapons/rectifier/variation.webp",
+    "subStat": "Energy Regen",
+    "stats": [
+      337.5,
+      51.84
+    ]
   },
   {
     "id": "waltz-in-masquerade",
@@ -789,7 +1224,12 @@
     "weaponType": "Rectifier",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/rectifier/waltz-in-masquerade.webp"
+    "image": "/weapons/rectifier/waltz-in-masquerade.webp",
+    "subStat": "ATK",
+    "stats": [
+      462.5,
+      18.23
+    ]
   },
   {
     "id": "waning-redshift",
@@ -798,6 +1238,11 @@
     "weaponType": "Broadblade",
     "rarity": 4,
     "version": "3.0",
-    "image": "/weapons/broadblade/waning-redshift.webp"
+    "image": "/weapons/broadblade/waning-redshift.webp",
+    "subStat": "ATK",
+    "stats": [
+      462.5,
+      18.23
+    ]
   }
 ]
