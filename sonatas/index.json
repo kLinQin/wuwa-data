@@ -1,0 +1,240 @@
+[
+  {
+    "name": "Lamp of Nether Road",
+    "slug": "lamp-of-nether-road",
+    "image": "/icons/sonatas/lonr.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Heart of Evil's Purge",
+    "slug": "heart-of-evil's-purge",
+    "image": "/icons/sonatas/hoep.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Song of Feather Trace",
+    "slug": "song-of-feather-trace",
+    "image": "/icons/sonatas/soft.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Shadow of Shattered Dreams",
+    "slug": "shadow-of-shattered-dreams",
+    "image": "/icons/sonatas/sosd.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Reel of Spliced Memories",
+    "slug": "reel-of-spliced-memories",
+    "image": "/icons/sonatas/rosm.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Wishes of Quiet Snowfall",
+    "slug": "wishes-of-quiet-snowfall",
+    "image": "/icons/sonatas/woqs.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Sound of True Name",
+    "slug": "sound-of-true-name",
+    "image": "/icons/sonatas/sotn.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Chromatic Foam",
+    "slug": "chromatic-foam",
+    "image": "/icons/sonatas/cf.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Trailblazing Star",
+    "slug": "trailblazing-star",
+    "image": "/icons/sonatas/tbs.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Moonlit Clouds",
+    "slug": "moonlit-clouds",
+    "image": "/icons/sonatas/mc.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Sierra Gale",
+    "slug": "sierra-gale",
+    "image": "/icons/sonatas/sg.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Rejuvenating Glow",
+    "slug": "rejuvenating-glow",
+    "image": "/icons/sonatas/rg.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Celestial Light",
+    "slug": "celestial-light",
+    "image": "/icons/sonatas/cl.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Windward Pilgrimage",
+    "slug": "windward-pilgrimage",
+    "image": "/icons/sonatas/wp.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Empyrean Anthem",
+    "slug": "empyrean-anthem",
+    "image": "/icons/sonatas/ea.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Gusts of Welkin",
+    "slug": "gusts-of-welkin",
+    "image": "/icons/sonatas/gow.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Havoc Eclipse",
+    "slug": "havoc-eclipse",
+    "image": "/icons/sonatas/he.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Molten Rift",
+    "slug": "molten-rift",
+    "image": "/icons/sonatas/mr.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Midnight Veil",
+    "slug": "midnight-veil",
+    "image": "/icons/sonatas/mv.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Dream of the Lost",
+    "slug": "dream-of-the-lost",
+    "image": "/icons/sonatas/dotl.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Void Thunder",
+    "slug": "void-thunder",
+    "image": "/icons/sonatas/vt.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Lingering Tunes",
+    "slug": "lingering-tunes",
+    "image": "/icons/sonatas/lt.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Freezing Frost",
+    "slug": "freezing-frost",
+    "image": "/icons/sonatas/ff.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Frosty Resolve",
+    "slug": "frosty-resolve",
+    "image": "/icons/sonatas/fr.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Eternal Radiance",
+    "slug": "eternal-radiance",
+    "image": "/icons/sonatas/er.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Tidebreaking Courage",
+    "slug": "tidebreaking-courage",
+    "image": "/icons/sonatas/tc.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Flaming Clawprint",
+    "slug": "flaming-clawprint",
+    "image": "/icons/sonatas/fc.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Crown of Valor",
+    "slug": "crown-of-valor",
+    "image": "/icons/sonatas/cov.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Law of Harmony",
+    "slug": "law-of-harmony",
+    "image": "/icons/sonatas/loh.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Flamewing's Shadow",
+    "slug": "flamewings-shadow",
+    "image": "/icons/sonatas/fws.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Pact of Neonlight Leap",
+    "slug": "pact-of-neonlight-leap",
+    "image": "/icons/sonatas/ponl.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Rite of Gilded Revelation",
+    "slug": "rite-of-gilded-revelation",
+    "image": "/icons/sonatas/rogr.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Halo of Starry Radiance",
+    "slug": "halo-of-starry-radiance",
+    "image": "/icons/sonatas/hosr.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  },
+  {
+    "name": "Thread of Severed Fate",
+    "slug": "thread-of-severed-fate",
+    "image": "/icons/sonatas/tosf.webp",
+    "version": "3.0",
+    "color": "#0E8C7A"
+  }
+]
