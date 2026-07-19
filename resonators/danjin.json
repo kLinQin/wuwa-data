@@ -55,11 +55,26 @@
         {
           "label": "Sub DPS - Havoc",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: havoc%",
-            "3: havoc%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "nightmare-heron",
           "echoSlugSecondary": "",
@@ -70,11 +85,26 @@
         {
           "label": "Sub DPS - General",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: havoc%",
-            "3: havoc%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "impermanence-heron",
           "echoSlugSecondary": "",
@@ -85,11 +115,26 @@
         {
           "label": "Solo",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: havoc%",
-            "3: havoc%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "nightmare-crownless",
           "echoSlugSecondary": "",

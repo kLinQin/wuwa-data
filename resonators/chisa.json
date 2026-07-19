@@ -52,11 +52,26 @@
           "echoSlug": "threnodian-leviathan",
           "echoSlugSecondary": "",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: havoc%",
-            "3: havoc%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "sonataCustom": [
             {
@@ -78,11 +93,26 @@
           "echoSlug": "fallacy-of-no-return",
           "echoSlugSecondary": "",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: Havoc%",
-            "3: Havoc%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "Havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "Havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ]
         }
       ],

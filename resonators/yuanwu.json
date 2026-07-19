@@ -56,11 +56,26 @@
         {
           "label": "Healer",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: electro%",
-            "3: Electro DMG/DEF%",
-            "1: DEF%",
-            "1: DEF%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 3,
+              "stat": "Electro DMG/DEF%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            }
           ],
           "echoSlug": "fallacy-of-no-return",
           "echoSlugSecondary": "bell-borne-geochelone",
@@ -71,11 +86,26 @@
         {
           "label": "Sub DPS",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: electro%",
-            "3: Electro DMG/DEF%",
-            "1: DEF%",
-            "1: DEF%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 3,
+              "stat": "Electro DMG/DEF%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            }
           ],
           "echoSlug": "impermanence-heron",
           "echoSlugSecondary": "",

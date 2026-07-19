@@ -15,7 +15,7 @@ const INDEX_FIELDS = [
   'rarity',
   'version',
   'image',
-  'subStat' // ✅ Tambahan: subStat (CRIT Rate, ATK%, dll)
+  'subStat'
 ];
 
 function main() {
@@ -52,9 +52,8 @@ function main() {
               }
             });
 
-            // ✅ Tambahan: Ekstrak stats level 90
             if (weapon.stats && weapon.stats['90']) {
-              weaponEntry.stats = weapon.stats['90']; // [ATK, SubStat Value]
+              weaponEntry.stats = weapon.stats['90'];
             }
 
             if (!weaponEntry.id) weaponEntry.id = weapon.slug || weapon.name?.toLowerCase().replace(/\s+/g, '-');
@@ -63,9 +62,9 @@ function main() {
             allWeapons.push(weaponEntry);
           }
         });
-        console.log(`✓ ${fileName}: ${data.length} weapon ditemukan`);
+        console.log(`${fileName}: ${data.length} weapon ditemukan`);
       } else {
-        console.warn(`⚠️ ${fileName} bukan format array, dilewati.`);
+        console.warn(`${fileName} bukan format array, dilewati.`);
       }
     } catch (err) {
       console.error(`Error membaca ${fileName}: ${err.message}`);

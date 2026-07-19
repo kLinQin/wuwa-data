@@ -49,11 +49,26 @@
           "echoSlug": "nightmare-crownless",
           "echoSlugSecondary": "",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: DMG%",
-            "3: DMG%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "DMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "DMG%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "sonataCustom": [
             "Havoc Eclipse"

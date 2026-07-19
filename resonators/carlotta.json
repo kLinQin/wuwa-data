@@ -47,11 +47,26 @@
         {
           "label": "DPS",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: glacio%",
-            "3: glacio%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "sentry-construct",
           "echoSlugSecondary": "",

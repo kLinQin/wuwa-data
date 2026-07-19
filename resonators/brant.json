@@ -57,11 +57,26 @@
         {
           "label": "Hybrid",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: Energy Regen%",
-            "3: ER | fusion%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "Energy Regen%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER | fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "dragon-of-dirge",
           "echoSlugSecondary": "",
@@ -72,11 +87,26 @@
         {
           "label": "DPS Fusion",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: fusion%",
-            "3: fusion%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "inferno-rider",
           "echoSlugSecondary": "nightmare-rider",

@@ -46,11 +46,26 @@
             "Moonlit Clouds"
           ],
           "stats": [
-            "4: CR%/CDMG%",
-            "3: aero%",
-            "3: aero%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "impermanence-heron",
           "echoSlugSecondary": ""
@@ -61,11 +76,26 @@
             "Sierra Gale"
           ],
           "stats": [
-            "4: CR%/CDMG%",
-            "3: aero%",
-            "3: aero%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "feilian-beringal",
           "echoSlugSecondary": "nightmare-beringal"

@@ -49,11 +49,26 @@
         {
           "label": "DPS",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: electro%",
-            "3: electro%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "the-false-sovereign",
           "echoSlugSecondary": "",

@@ -57,11 +57,26 @@
           "echoSlug": "mourning-aix",
           "echoSlugSecondary": "",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: spectro%",
-            "3: spectro%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "sonataCustom": [
             "Eternal Radiance"
@@ -72,11 +87,26 @@
           "echoSlug": "impermanence-heron",
           "echoSlugSecondary": "",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: spectro%",
-            "3: spectro%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "sonataCustom": [
             "Moonlit Clouds"
@@ -87,11 +117,26 @@
           "echoSlug": "fallacy-of-no-return",
           "echoSlugSecondary": "bell-borne-geochelone",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: spectro%",
-            "3: spectro%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "sonataCustom": [
             "Rejuvenating Glow"

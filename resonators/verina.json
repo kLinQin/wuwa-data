@@ -54,11 +54,26 @@
           "echoSlug": "fallacy-of-no-return",
           "echoSlugSecondary": "bell-borne-geochelone",
           "stats": [
-            "4: Healing Bonus%",
-            "3: Energy Regen%",
-            "3: Energy Regen%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "Healing Bonus%"
+            },
+            {
+              "cost": 3,
+              "stat": "Energy Regen%"
+            },
+            {
+              "cost": 3,
+              "stat": "Energy Regen%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "sonataCustom": [
             "Rejuvenating Glow"

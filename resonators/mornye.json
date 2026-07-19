@@ -54,11 +54,26 @@
         {
           "label": "Healer",
           "stats": [
-            "4: DEF%",
-            "3: ER%",
-            "3: ER%",
-            "1: DEF%",
-            "1: DEF%"
+            {
+              "cost": 4,
+              "stat": "DEF%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            }
           ],
           "echoSlug": "reactor-husk",
           "echoSlugSecondary": "",
@@ -74,11 +89,26 @@
           "echoSlug": "fallacy-of-no-return",
           "echoSlugSecondary": "",
           "stats": [
-            "4: DEF%",
-            "3: ER%",
-            "3: ER%",
-            "1: DEF%",
-            "1: DEF%"
+            {
+              "cost": 4,
+              "stat": "DEF%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            }
           ]
         }
       ],

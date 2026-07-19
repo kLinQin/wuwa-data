@@ -19,17 +19,17 @@ const SYNC_FIELDS = [
 
 function main() {
   if (!fs.existsSync(RESONATORS_DIR)) {
-    console.error('❌ Folder resonators/ tidak ditemukan!');
+    console.error('Folder resonators/ tidak ditemukan!');
     process.exit(1);
   }
 
   if (!fs.existsSync(INDEX_PATH)) {
-    console.error('❌ File resonators/index.json tidak ditemukan!');
-    console.log('💡 Tips: Jalankan script init atau buat file index.json manual terlebih dahulu.');
+    console.error('File resonators/index.json tidak ditemukan!');
+    console.log('Tips: Jalankan script init atau buat file index.json manual terlebih dahulu.');
     process.exit(1);
   }
   
-  console.log('📖 Membaca resonators/index.json...');
+  console.log('Membaca resonators/index.json...');
   const indexData = JSON.parse(fs.readFileSync(INDEX_PATH, 'utf-8'));
   
   if (!indexData.characters) {
@@ -44,7 +44,7 @@ function main() {
   let addedCount = 0;
   let updatedCount = 0;
   
-  console.log('🔧 Memproses sinkronisasi...\n');
+  console.log('Memproses sinkronisasi...\n');
   
   files.forEach(fileName => {
     const id = fileName.replace('.json', '');
@@ -71,7 +71,7 @@ function main() {
         
         if (hasChanges) {
           updatedCount++;
-          console.log(`   ✓ Update: ${charData.name} (${id})`);
+          console.log(`Update: ${charData.name} (${id})`);
         }
       } else {
         const newChar = {
@@ -90,11 +90,11 @@ function main() {
         
         indexData.characters.push(newChar);
         addedCount++;
-        console.log(`   ➕ Baru: ${newChar.name} (${id})`);
+        console.log(`Baru: ${newChar.name} (${id})`);
       }
       
     } catch (err) {
-      console.error(`   ❌ Error pada ${fileName}: ${err.message}`);
+      console.error(`Error pada ${fileName}: ${err.message}`);
     }
   });
   
@@ -104,13 +104,13 @@ function main() {
   });
   
   if (addedCount > 0 || updatedCount > 0) {
-    console.log('\n💾 Menyimpan resonators/index.json...');
+    console.log('\nMenyimpan resonators/index.json...');
     fs.writeFileSync(INDEX_PATH, JSON.stringify(indexData, null, 2) + '\n', 'utf-8');
-    console.log(`\n✅ Selesai!`);
+    console.log(`\nSelesai!`);
     console.log(`   • Karakter Baru: ${addedCount}`);
     console.log(`   • Diperbarui: ${updatedCount}`);
   } else {
-    console.log('\n⏭️  Index sudah up-to-date.');
+    console.log('\nIndex sudah up-to-date.');
   }
 }
 

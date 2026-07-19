@@ -57,11 +57,26 @@
         {
           "label": "Support",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: aero%",
-            "3: aero%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "fallacy-of-no-return",
           "echoSlugSecondary": "bell-borne-geochelone",
@@ -72,11 +87,26 @@
         {
           "label": "Sub DPS",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: aero%",
-            "3: aero%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "impermanence-heron",
           "echoSlugSecondary": "",
@@ -87,11 +117,26 @@
         {
           "label": "Main DPS",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: aero%",
-            "3: aero%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "feilian-beringal",
           "echoSlugSecondary": "",

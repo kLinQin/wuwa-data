@@ -53,11 +53,26 @@
         {
           "label": "DPS Erosion",
           "stats": [
-            "4: CR%/CDMG%",
-            "4: CR%/CDMG%",
-            "1: HP%",
-            "1: HP%",
-            "1: HP%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            }
           ],
           "echoSlug": "fleurdelys",
           "echoSlugSecondary": "",

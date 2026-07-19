@@ -54,11 +54,26 @@
           "echoSlug": "capitaneus",
           "echoSlugSecondary": "nightmare-mourning-aix",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: spectro%",
-            "3: spectro%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "sonataCustom": [
             "Eternal Radiance"

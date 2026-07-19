@@ -54,11 +54,26 @@
           "echoSlug": "bell-borne-geochelone",
           "echoSlugSecondary": "fallacy-of-no-return",
           "stats": [
-            "4: HP%",
-            "3: ER%",
-            "3: ER%",
-            "1: HP%",
-            "1: HP%"
+            {
+              "cost": 4,
+              "stat": "HP%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            }
           ],
           "sonataCustom": [
             "Rejuvenating Glow"
@@ -69,11 +84,26 @@
           "echoSlug": "fallacy-of-no-return",
           "echoSlugSecondary": "bell-borne-geochelone",
           "stats": [
-            "4: CDMG%",
-            "3: Energy Regen%",
-            "3: spectro%",
-            "1: HP%",
-            "1: HP%"
+            {
+              "cost": 4,
+              "stat": "CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "Energy Regen%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            }
           ],
           "sonataCustom": [
             "Rejuvenating Glow"

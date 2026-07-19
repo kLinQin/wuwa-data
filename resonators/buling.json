@@ -49,11 +49,26 @@
         {
           "label": "Healer",
           "stats": [
-            "4: Healing Bonus%",
-            "3: ER%",
-            "3: ER%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "Healing Bonus%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "bell-borne-geochelone",
           "echoSlugSecondary": "fallacy-of-no-return",

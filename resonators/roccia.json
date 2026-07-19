@@ -57,11 +57,26 @@
           "echoSlug": "nightmare-heron",
           "echoSlugSecondary": "",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: havoc%",
-            "3: havoc%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "sonataCustom": [
             "Midnight Veil"
@@ -72,11 +87,26 @@
           "echoSlug": "impermanence-heron",
           "echoSlugSecondary": "",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: havoc%",
-            "3: havoc%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "sonataCustom": [
             "Moonlit Clouds"

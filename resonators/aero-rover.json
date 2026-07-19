@@ -51,11 +51,26 @@
         {
           "label": "Sub DPS Erosion",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: aero%",
-            "3: aero%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "fleurdelys",
           "echoSlugSecondary": "",
@@ -66,11 +81,26 @@
         {
           "label": "Healer",
           "stats": [
-            "4: CR%/CDMG%",
-            "3: aero%",
-            "3: aero%",
-            "1: ATK%",
-            "1: ATK%"
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
           ],
           "echoSlug": "bell-borne-geochelone",
           "echoSlugSecondary": "fallacy-of-no-return",
