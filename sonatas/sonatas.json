@@ -3,14 +3,14 @@
     "name": "Lamp of Nether Road",
     "image": "/icons/sonatas/lonr.webp",
     "description": "3-piece\n> HP + 10%\n5-piece\n> Saat mendapatkan Shield, mendapatkan peningkatan 5% Crit. Rate selama 5 detik, maksimal 4 stack. Efek ini dapat terpicu setiap 0,5 detik. Pada stack maksimal, mendapatkan bonus 15% Fusion DMG.",
-    "version": "3.0",
-    "color": "#0E8C7A"
+    "version": "3.5",
+    "color": "#B03A2E"
   },
   {
     "name": "Heart of Evil's Purge",
     "image": "/icons/sonatas/hoep.webp",
     "description": "3-piece\n> Aero DMG + 10%\n5-piece\n> Memberikan efek Tune Strain - Shifting meningkatkan Crit. DMG sebesar 20% dan Aero DMG Bonus sebesar 30% selama 15 detik.",
-    "version": "3.0",
+    "version": "3.5",
     "color": "#0E8C7A"
   },
   {
@@ -19,7 +19,7 @@
     "image": "/icons/sonatas/soft.webp",
     "description": "3-piece\n> Energy Regen + 10%\n5-piece\n> Saat memberikan efek Havoc Bane, mendapatkan Xuanling's Feather yang memberikan peningkatan 20% Crit. Rate dan 35% Heavy Attack DMG Bonus kepada Resonator, berlangsung selama 15 detik.\nSaat memberikan efek Glacio Chafe, mendapatkan Chongming's Feather yang memberikan peningkatan 0,1% ATK kepada Resonator dalam tim untuk setiap 1% Energy Regen Resonator, hingga maksimal 25%, berlangsung selama 10 detik.\n",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#686868"
   },
   {
     "name": "Shadow of Shattered Dreams",
@@ -27,7 +27,7 @@
     "image": "/icons/sonatas/sosd.webp",
     "description": "1-piece\n> Inflicting Hack - Shifting on the target grants 35% Basic Attack DMG Bonus and Heavy Attack DMG Bonus for 15s.",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#6f1513"
   },
   {
     "name": "Reel of Spliced Memories",
@@ -35,7 +35,7 @@
     "image": "/icons/sonatas/rosm.webp",
     "description": "3-piece\n> ATK + 10%\n5-piece\n> Memberikan Tune Rupture - Shifting atau Tune Strain - Shifting pada musuh meningkatkan Tune Break Boost dari Resonator dalam tim sebesar 20 selama 30 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#7d9dcc"
   },
   {
     "name": "Wishes of Quiet Snowfall",
@@ -43,7 +43,7 @@
     "image": "/icons/sonatas/woqs.webp",
     "description": "3-piece\n> Glacio DMG + 10%\n5-piece\n> Memberikan Glacio Chafe pada musuh meningkatkan Glacio DMG yang diberikan sebesar 10% selama 15 detik. > Resonator mendapatkan efek Snowfall selama 15 detik, yang dapat dipicu sekali setiap 25 detik. Selama Snowfall aktif:\n- Memberikan Resonance Liberation DMG menghapus Snowfall dan meningkatkan Crit. Rate Resonator sebesar 25% selama 6 detik. Selama efek ini aktif, memberikan Resonance Liberation DMG memperpanjang durasinya selama 4 detik, dipicu sekali setiap 0.5 detik, hingga 6 kali.\n- Melancarkan Outro Skill menghapus Snowfall dan memberikan 25% Glacio DMG Bonus kepada Resonator berikutnya selama 15 detik.\n> Saat Snowfall dihapus, hanya satu dari efek di atas yang dapat dipicu.",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#1F618D"
   },
   {
     "name": "Sound of True Name",
@@ -59,7 +59,7 @@
     "image": "/icons/sonatas/cf.webp",
     "description": "3-piece\n> Fusion DMG + 10%\n5-piece\n> Saat Resonator mengakibatkan Fusion Burst pada musuh, mereka mendapatkan efek berikut: Mendapatkan 10% Fusion DMG Bonus selama 15 detik. Selama efek ini aktif, melancarkan Outro Skill memberikan 25% Fusion DMG Bonus kepada Resonator yang masuk selama 15 detik.",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#B03A2E"
   },
   {
     "name": "Trailblazing Star",
@@ -67,7 +67,7 @@
     "image": "/icons/sonatas/tbs.webp",
     "description": "3-piece\n> Fusion DMG + 10%\n5-piece\n> Memberikan Fusion Burst atau Tune Rupture - Shifting meningkatkan Crit. Rate Resonator sebesar 20% dan memberikan 20% Fusion DMG Bonus selama 8 detik.",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#B03A2E"
   },
   {
     "name": "Moonlit Clouds",
@@ -75,7 +75,7 @@
     "image": "/icons/sonatas/mc.webp",
     "description": "3-piece\n> Energy Regen +10%\n5-piece\n> Setelah menggunakan Outro Skill, ATK Resonator berikutnya +22.5% selama 15 detik.",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#686868"
   },
   {
     "name": "Sierra Gale",
@@ -91,7 +91,7 @@
     "image": "/icons/sonatas/rg.webp",
     "description": "3-piece\n> Healing Bonus +10%\n5-piece\n> Meningkatkan ATK seluruh anggota party sebesar 15% selama 30 detik saat menyembuhkan anggota party (termasuk diri sendiri).\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#517511"
   },
   {
     "name": "Celestial Light",
@@ -99,7 +99,7 @@
     "image": "/icons/sonatas/cl.webp",
     "description": "3-piece\n> Spectro DMG +10%\n5-piece\n> Spectro DMG +30% selama 15 detik setelah melancarkan Intro Skill.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#8B7D00"
   },
   {
     "name": "Windward Pilgrimage",
@@ -115,7 +115,7 @@
     "image": "/icons/sonatas/ea.webp",
     "description": "3-piece\n> Energy Regen +10%\n5-piece\n> Meningkatkan Coordinated Attack DMG dari Resonator sebesar 80%.\n> Saat Coordinated Attack melancarkan serangan critical, meningkatkan ATK Resonator aktif sebesar 20% selama 4 detik.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#7d9dcc"
   },
   {
     "name": "Gusts of Welkin",
@@ -131,7 +131,7 @@
     "image": "/icons/sonatas/he.webp",
     "description": "3-piece\n> Havoc DMG +10%\n5-piece\n> Havoc DMG +7.5% setelah melancarkan Basic Attack atau Heavy Attack. Efek ini dapat di stack(s) hingga 4 kali, setiap stack(s) berlangsung selama 15 detik.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#AD1457"
   },
   {
     "name": "Molten Rift",
@@ -139,7 +139,7 @@
     "image": "/icons/sonatas/mr.webp",
     "description": "3-piece\n> Fusion DMG +10%\n5-piece\n> Fusion DMG +30% selama 15 detik setelah melancarkan Resonance Skill.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#B03A2E"
   },
   {
     "name": "Midnight Veil",
@@ -147,7 +147,7 @@
     "image": "/icons/sonatas/mv.webp",
     "description": "3-piece\n> Havoc DMG +10%\n5-piece\n> Memicu Outro Skill memberikan tambahan 480%  Havoc DMG ke musuh di sekitar, dianggap sebagai Outro Skill DMG dan memberi Resonator selanjutnya 15% Bonus.\n> Havoc DMG selama 15 detik.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#AD1457"
   },
   {
     "name": "Dream of the Lost",
@@ -155,7 +155,7 @@
     "image": "/icons/sonatas/dotl.webp",
     "description": "3-piece\n> Memiliki 0 Resonance Energy menaikkan Crit. Rate sebesar 20% dan mendapatkan 35% Echo Skill DMG Bonus.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#AD1457"
   },
   {
     "name": "Void Thunder",
@@ -163,7 +163,7 @@
     "image": "/icons/sonatas/vt.webp",
     "description": "3-piece\n> Electro DMG + 10%.\n5-piece\n> Meningkatkan Electro DMG sebesar 15% setelah menggunakan Heavy Attack atau Resonance Skill.\n> Efek ini dapat menumpuk hingga 2 kali, dengan durasi masing-masing stack selama 15 detik.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#6C3483"
   },
   {
     "name": "Lingering Tunes",
@@ -171,7 +171,7 @@
     "image": "/icons/sonatas/lt.webp",
     "description": "3-piece\n> ATK +10%\n5-piece\n> Selama berada di field, ATK meningkat sebesar 5% setiap 1,5 detik, dengan stacks maksimal hingga 4 kali.\n> DMG dari Outro Skill meningkat sebesar 60%.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#6f1513"
   },
   {
     "name": "Freezing Frost",
@@ -179,7 +179,7 @@
     "image": "/icons/sonatas/ff.webp",
     "description": "3-piece\n> Glacio DMG +10%\n5-piece\n> Glacio DMG +10% setelah melancarkan Basic Attack atau Heavy Attack.\n> Efek ini dapat di stack(s) hingga 3 kali, setiap stack(s) berlangsung selama 15 detik.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#1F618D"
   },
   {
     "name": "Frosty Resolve",
@@ -187,7 +187,7 @@
     "image": "/icons/sonatas/fr.webp",
     "description": "3-piece\n> Resonance Skill DMG +12%\n5-piece\n> Melancarkan Resonance Skill memberikan 22.5%  Glacio DMG Bonus selama 15 detik dan melancarkan Resonance Liberation meningkatkan Resonance Skill DMG sebesar 18%, berlangsung selama 5 detik.\n> Efek ini dapat di stack(s) hingga 2 kali.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#7d9dcc"
   },
   {
     "name": "Eternal Radiance",
@@ -195,7 +195,7 @@
     "image": "/icons/sonatas/er.webp",
     "description": "3-piece\n> Spectro DMG +10%\n5-piece\n> Memberikan Spectro Frazzle kepada musuh akan meningkatkan Crit. Rate sebesar 20% selama 15 detik.\n> Menyerang musuh dengan 10 stack(s) Spectro Frazzle akan memberikan 15%  Spectro DMG Bonus selama 15 detik.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#8B7D00"
   },
   {
     "name": "Tidebreaking Courage",
@@ -203,7 +203,7 @@
     "image": "/icons/sonatas/tc.webp",
     "description": "3-piece\n> Energy Regen +10%\n5-piece\n> Meningkatkan ATK Resonator sebesar 15%.\n> Saat mencapai 250% Energy Regen akan meningkatkan semua DMG Atribut sebesar 30% untuk Resonator.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#686868"
   },
   {
     "name": "Flaming Clawprint",
@@ -211,7 +211,7 @@
     "image": "/icons/sonatas/fc.webp",
     "description": "3-piece\n> Fusion DMG +10%\n5-piece\n> Menggunakan Resonance Liberation memberikan seluruh Resonator dalam tim 15% Bonus Fusion DMG, serta memberi pengguna 20% Bonus Resonance Liberation DMG, berlangsung selama 35 detik.\n  ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#B03A2E"
   },
   {
     "name": "Crown of Valor",
@@ -219,7 +219,7 @@
     "image": "/icons/sonatas/cov.webp",
     "description": "3-piece\n> Saat mendapatkan Shield, meningkatkan ATK Resonator sebesar 6% dan Crit. DMG sebesar 4% selama 4 detik.\n> Efek ini dapat terpicu maksimal sekali setiap 0,5 detik dan menumpuk hingga 5 kali.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#c89663"
   },
   {
     "name": "Law of Harmony",
@@ -227,7 +227,7 @@
     "image": "/icons/sonatas/loh.webp",
     "description": "3-piece\n> Menggunakan Echo Skill memberikan 20% Bonus Heavy Attack DMG kepada pengguna selama 4 detik.\n> Selain itu, semua Resonator dalam tim mendapatkan 8% Bonus Echo Skill DMG selama 30 detik, dengan efek ini dapat menumpuk hingga 4 kali. Saat mencapai 4 stack(s), menggunakan Echo Skill kembali akan mereset durasi efek ini.\n> Efek ini hanya dapat dipicu sekali oleh Echo dengan nama yang sama. Catatan pemicu Echo dan efeknya akan dihapus secara bersamaan saat efek berakhir.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#7d9dcc"
   },
   {
     "name": "Flamewing's Shadow",
@@ -235,7 +235,7 @@
     "image": "/icons/sonatas/fws.webp",
     "description": "3-piece\n> Melancarkan Echo Skill DMG meningkatkan Crit. Rate Heavy Attack sebesar 20% selama 6 detik.\n> Melancarkan Heavy Attack DMG meningkatkan Crit. Rate Echo Skill sebesar 20% selama 6 detik.\n> Saat kedua efek aktif bersamaan, mendapatkan 16% Bonus Fusion DMG.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#B03A2E"
   },
   {
     "name": "Pact of Neonlight Leap",
@@ -243,7 +243,7 @@
     "image": "/icons/sonatas/ponl.webp",
     "description": "2-piece\n> Spectro DMG + 10%\n5-piece\n> Melancarkan Outro Skill meningkatkan ATK Resonator berikutnya yang melancarkan Intro Skill sebesar 15%. Setiap poin Tune Break Boost yang dimiliki Resonator tersebut meningkatkan ATK mereka sebesar 0,3% tambahan, hingga 15%. Efek ini bertahan selama 15 detik, atau hingga Resonator tersebut diganti.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#8B7D00"
   },
   {
     "name": "Rite of Gilded Revelation",
@@ -251,7 +251,7 @@
     "image": "/icons/sonatas/rogr.webp",
     "description": "2-piece\n> Spectro DMG + 10%\n5-piece\n> Memberikan Basic Attack DMG meningkatkan Spectro DMG sebesar 10% selama 5 detik, dapat di stack(s) hingga 3 stack. Dengan 3 stack, melancarkan Resonance Liberation memberikan 40% Basic Attack DMG Bonus.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#8B7D00"
   },
   {
     "name": "Halo of Starry Radiance",
@@ -259,7 +259,7 @@
     "image": "/icons/sonatas/hosr.webp",
     "description": "2-piece\n> Healing Bonus + 10%.\n5-piece\n> Saat memulihkan Resonator dalam tim, setiap 1% Off-Tune Buildup Rate memberikan peningkatan 0,2% ATK kepada semua Resonator dalam tim selama 4 detik, hingga 25%. Efek dengan nama yang sama tidak dapat di stack(s).\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#517511"
   },
   {
     "name": "Thread of Severed Fate",
@@ -267,6 +267,6 @@
     "image": "/icons/sonatas/tosf.webp",
     "description": "3-piece\n> Memberikan Havoc Bane meningkatkan ATK Resonator sebesar 20% dan memberikan 30% Resonance Liberation DMG Bonus selama 5 detik.\n    ",
     "version": "3.0",
-    "color": "#0E8C7A"
+    "color": "#AD1457"
   }
 ]

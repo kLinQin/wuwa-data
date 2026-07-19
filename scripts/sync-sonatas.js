@@ -1,4 +1,4 @@
-// Usage: npm run ssync // Usage: npm run rsync (Kin)
+// Usage: npm run ssync (Kin)
 
 const fs = require('fs');
 const path = require('path');
@@ -7,10 +7,6 @@ const ROOT_DIR = path.join(__dirname, '..');
 const SONATAS_DIR = path.join(ROOT_DIR, 'sonatas');
 const SOURCE_PATH = path.join(SONATAS_DIR, 'sonatas.json');
 const INDEX_PATH = path.join(SONATAS_DIR, 'index.json');
-
-// Konfigurasi Default
-const DEFAULT_VERSION = "3.0";
-const DEFAULT_COLOR = "#0E8C7A";
 
 function main() {
   if (!fs.existsSync(SOURCE_PATH)) {
@@ -29,7 +25,6 @@ function main() {
   console.log(`Memproses ${sourceData.length} sonata...`);
   
   const indexData = sourceData.map(sonata => {
-    // Buat slug dari name jika belum ada
     let slug = sonata.slug;
     if (!slug && sonata.name) {
       slug = sonata.name.toLowerCase().replace(/\s+/g, '-');
@@ -39,8 +34,8 @@ function main() {
       name: sonata.name,
       slug: slug,
       image: sonata.image,
-      version: DEFAULT_VERSION, 
-      color: DEFAULT_COLOR,
+      version: sonata.version || "3.0", 
+      color: sonata.color || "#0E8C7A",
     };
   });
 
