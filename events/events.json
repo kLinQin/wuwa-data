@@ -9,7 +9,8 @@
       "/characters/buling.webp"
     ],
     "description": "",
-    "background": "/event/sigrika.webp"
+    "background": "/event/sigrika.webp",
+    "icon": "/static/icons/characters/sigrika.webp"
   },
   {
     "title": "Undefined Spectrum - Lynae Banner",
@@ -20,8 +21,9 @@
       "/characters/taoqi.webp",
       "/characters/youhu.webp"
     ],
-    "description": "Briefing description here...",
-    "background": "/event/lynae.webp"
+    "description": "WIP",
+    "background": "/event/lynae.webp",
+    "icon": "/static/icons/characters/lynae.webp"
   },
   {
     "title": "Solsworn Ciphers - Sigrika Weapon Banner",
@@ -33,7 +35,8 @@
       "/weapons/gauntlet/celestial-spiral.webp"
     ],
     "description": "",
-    "background": "/event/sols.webp"
+    "background": "/event/sols.webp",
+    "icon": "/static/weapons/gauntlet/solsworn-ciphers.webp"
   },
   {
     "title": "Spectrum Blaster - Lynae Weapon Banner",
@@ -44,8 +47,9 @@
       "/weapons/pistol/relativistic-jet.webp",
       "/weapons/gauntlet/marcato.webp"
     ],
-    "description": "Briefing description here...",
-    "background": "/event/spectrum.webp"
+    "description": "WIP",
+    "background": "/event/spectrum.webp",
+    "icon": "/static/weapons/pistol/spectrum-blaster.webp"
   },
   {
     "title": "Wanderer Knows No Far and Near - Qiuyuan Banner",
@@ -56,8 +60,9 @@
       "/characters/sanhua.webp",
       "/characters/buling.webp"
     ],
-    "description": "Briefing description here...",
-    "background": "/event/qy.webp"
+    "description": "WIP",
+    "background": "/event/qy.webp",
+    "icon": "/static/icons/characters/qiuyuan.webp"
   },
   {
     "title": "Emerald Sentence - Qiuyuan Weapon Banner",
@@ -66,10 +71,11 @@
     "image": [
       "/weapons/sword/lunar-cutter.webp",
       "/weapons/sword/endless-collapse.webp",
-      "/weapons/gauntlet/celestial-spiral.webp"
+      "/weapons/sword/emerald-sentence.webp"
     ],
-    "description": "Briefing description here...",
-    "background": "/event/emerald.webp"
+    "description": "WIP",
+    "background": "/event/emerald.webp",
+    "icon": "/static/weapons/sword/emerald-sentence.webp"
   },
   {
     "title": "Between Light and Shadow - Zani Banner",
@@ -80,8 +86,9 @@
       "/characters/taoqi.webp",
       "/characters/youhu.webp"
     ],
-    "description": "Briefing description here...",
-    "background": "/event/zani.webp"
+    "description": "WIP",
+    "background": "/event/zani.webp",
+    "icon": "/static/icons/characters/zani.webp"
   },
   {
     "title": "Blazing Justice - Zani Weapon Banner",
@@ -92,8 +99,9 @@
       "/weapons/pistol/relativistic-jet.webp",
       "/weapons/gauntlet/marcato.webp"
     ],
-    "description": "Briefing description here...",
-    "background": "/event/justice.webp"
+    "description": "WIP",
+    "background": "/event/justice.webp",
+    "icon": "/static/weapons/gauntlet/blazing-justice.webp"
   },
   {
     "title": "With Hushed Whispers - Phoebe Banner",
@@ -104,8 +112,9 @@
       "/characters/taoqi.webp",
       "/characters/youhu.webp"
     ],
-    "description": "Briefing description here...",
-    "background": "/event/phoebe.webp"
+    "description": "WIP",
+    "background": "/event/phoebe.webp",
+    "icon": "/static/icons/characters/phoebe.webp"
   },
   {
     "title": "Luminous Hymn - Phoebe Weapon Banner",
@@ -116,8 +125,9 @@
       "/weapons/pistol/relativistic-jet.webp",
       "/weapons/gauntlet/marcato.webp"
     ],
-    "description": "Briefing description here...",
-    "background": "/event/luminous.webp"
+    "description": "WIP",
+    "background": "/event/luminous.webp",
+    "icon": "/static/weapons/rectifier/luminous-hymn.webp"
   },
   {
     "title": "Endstate Matrix High Difficulty Recurring Challenge",
@@ -126,7 +136,8 @@
     "image": [
       "/event/matrix.webp"
     ],
-    "description": "In Endstate Matrix, deploy Resonators and select a Power Circuit before starting a high-difficulty challenge. Endstate Matrix progresses through Challenge Cycles. Each Challenge Cycle spans across multiple Challenge Phases, which reset with version updates. Rewards are offered independently for Challenge Cycles and Challenge Phases."
+    "description": "In Endstate Matrix, deploy Resonators and select a Power Circuit before starting a high-difficulty challenge. Endstate Matrix progresses through Challenge Cycles. Each Challenge Cycle spans across multiple Challenge Phases, which reset with version updates. Rewards are offered independently for Challenge Cycles and Challenge Phases.",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Tower of Adversity: Hazard Zone",
@@ -135,7 +146,8 @@
     "image": [
       "/event/toa.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Tower of Adversity: Hazard Zone",
@@ -144,7 +156,8 @@
     "image": [
       "/event/toa.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Tactical Hologram: Synchronization",
@@ -153,7 +166,8 @@
     "image": [
       "/event/holo.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Whimpering Wastes",
@@ -162,7 +176,8 @@
     "image": [
       "/event/whimpering.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Whimpering Wastes",
@@ -171,7 +186,8 @@
     "image": [
       "/event/whimpering.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Fantasies",
@@ -180,7 +196,8 @@
     "image": [
       "/event/fantasies.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Material Double Drop",
@@ -189,7 +206,8 @@
     "image": [
       "/event/bountiful.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Echo Double Drop",
@@ -198,7 +216,8 @@
     "image": [
       "/event/chord.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Gifts of Solsworn 7-Day Login Event",
@@ -207,7 +226,8 @@
     "image": [
       "/event/3.2.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Pioneer Podcast",
@@ -216,7 +236,8 @@
     "image": [
       "/event/podcast.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Soar to the Beat Rhythm Challenge Event",
@@ -225,7 +246,8 @@
     "image": [
       "/event/rhytm.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Lahai-Roi Blocks Leisure Event",
@@ -234,7 +256,8 @@
     "image": [
       "/event/lahai.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Speed up! F.U.E.L. Instrumentality Project! Leisure Event",
@@ -243,7 +266,8 @@
     "image": [
       "/event/speed.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "Knights of the Wild Featured Challenge Event",
@@ -252,7 +276,8 @@
     "image": [
       "/event/knight.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   },
   {
     "title": "The Flaming Red in Memory Showcase Event",
@@ -261,6 +286,7 @@
     "image": [
       "/event/flaming.webp"
     ],
-    "description": "Briefing description here..."
+    "description": "WIP",
+    "icon": "/static/icons/characters/yangyang.webp"
   }
 ]
