@@ -36,7 +36,7 @@
     ],
     "description": "",
     "background": "/event/sols.webp",
-    "icon": "/static/weapons/gauntlet/solsworn-ciphers.webp"
+    "icon": "/weapons/gauntlet/solsworn-ciphers.webp"
   },
   {
     "title": "Spectrum Blaster - Lynae Weapon Banner",
@@ -49,7 +49,7 @@
     ],
     "description": "WIP",
     "background": "/event/spectrum.webp",
-    "icon": "/static/weapons/pistol/spectrum-blaster.webp"
+    "icon": "/weapons/pistol/spectrum-blaster.webp"
   },
   {
     "title": "Wanderer Knows No Far and Near - Qiuyuan Banner",
@@ -75,7 +75,7 @@
     ],
     "description": "WIP",
     "background": "/event/emerald.webp",
-    "icon": "/static/weapons/sword/emerald-sentence.webp"
+    "icon": "/weapons/sword/emerald-sentence.webp"
   },
   {
     "title": "Between Light and Shadow - Zani Banner",
@@ -101,7 +101,7 @@
     ],
     "description": "WIP",
     "background": "/event/justice.webp",
-    "icon": "/static/weapons/gauntlet/blazing-justice.webp"
+    "icon": "/weapons/gauntlet/blazing-justice.webp"
   },
   {
     "title": "With Hushed Whispers - Phoebe Banner",
@@ -127,7 +127,7 @@
     ],
     "description": "WIP",
     "background": "/event/luminous.webp",
-    "icon": "/static/weapons/rectifier/luminous-hymn.webp"
+    "icon": "/weapons/rectifier/luminous-hymn.webp"
   },
   {
     "title": "Endstate Matrix High Difficulty Recurring Challenge",
