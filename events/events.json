@@ -10,7 +10,7 @@
     ],
     "description": "",
     "background": "/event/sigrika.webp",
-    "icon": "/static/icons/characters/sigrika.webp"
+    "icon": "/icons/characters/sigrika.webp"
   },
   {
     "title": "Undefined Spectrum - Lynae Banner",
@@ -23,7 +23,7 @@
     ],
     "description": "WIP",
     "background": "/event/lynae.webp",
-    "icon": "/static/icons/characters/lynae.webp"
+    "icon": "/icons/characters/lynae.webp"
   },
   {
     "title": "Solsworn Ciphers - Sigrika Weapon Banner",
@@ -62,7 +62,7 @@
     ],
     "description": "WIP",
     "background": "/event/qy.webp",
-    "icon": "/static/icons/characters/qiuyuan.webp"
+    "icon": "/icons/characters/qiuyuan.webp"
   },
   {
     "title": "Emerald Sentence - Qiuyuan Weapon Banner",
@@ -88,7 +88,7 @@
     ],
     "description": "WIP",
     "background": "/event/zani.webp",
-    "icon": "/static/icons/characters/zani.webp"
+    "icon": "/icons/characters/zani.webp"
   },
   {
     "title": "Blazing Justice - Zani Weapon Banner",
@@ -114,7 +114,7 @@
     ],
     "description": "WIP",
     "background": "/event/phoebe.webp",
-    "icon": "/static/icons/characters/phoebe.webp"
+    "icon": "/icons/characters/phoebe.webp"
   },
   {
     "title": "Luminous Hymn - Phoebe Weapon Banner",
@@ -137,7 +137,7 @@
       "/event/matrix.webp"
     ],
     "description": "In Endstate Matrix, deploy Resonators and select a Power Circuit before starting a high-difficulty challenge. Endstate Matrix progresses through Challenge Cycles. Each Challenge Cycle spans across multiple Challenge Phases, which reset with version updates. Rewards are offered independently for Challenge Cycles and Challenge Phases.",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Tower of Adversity: Hazard Zone",
@@ -147,7 +147,7 @@
       "/event/toa.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Tower of Adversity: Hazard Zone",
@@ -157,7 +157,7 @@
       "/event/toa.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Tactical Hologram: Synchronization",
@@ -167,7 +167,7 @@
       "/event/holo.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Whimpering Wastes",
@@ -177,7 +177,7 @@
       "/event/whimpering.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Whimpering Wastes",
@@ -187,7 +187,7 @@
       "/event/whimpering.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Fantasies",
@@ -197,7 +197,7 @@
       "/event/fantasies.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Material Double Drop",
@@ -207,7 +207,7 @@
       "/event/bountiful.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Echo Double Drop",
@@ -217,7 +217,7 @@
       "/event/chord.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Gifts of Solsworn 7-Day Login Event",
@@ -227,7 +227,7 @@
       "/event/3.2.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Pioneer Podcast",
@@ -237,7 +237,7 @@
       "/event/podcast.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Soar to the Beat Rhythm Challenge Event",
@@ -247,7 +247,7 @@
       "/event/rhytm.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Lahai-Roi Blocks Leisure Event",
@@ -257,7 +257,7 @@
       "/event/lahai.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Speed up! F.U.E.L. Instrumentality Project! Leisure Event",
@@ -267,7 +267,7 @@
       "/event/speed.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Knights of the Wild Featured Challenge Event",
@@ -277,7 +277,7 @@
       "/event/knight.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "The Flaming Red in Memory Showcase Event",
@@ -287,6 +287,6 @@
       "/event/flaming.webp"
     ],
     "description": "WIP",
-    "icon": "/static/icons/characters/yangyang.webp"
+    "icon": "/icons/characters/yangyang.webp"
   }
 ]
