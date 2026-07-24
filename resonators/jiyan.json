@@ -359,14 +359,9 @@
       "description": "",
       "effects": [
         {
-          "title": "hati hati kalimat panjang",
-          "description": "istilah game jngn di translate",
-          "isTitleVisible": true
-        },
-        {
-          "title": "kirim tl ke dalam codeblock",
-          "description": "jangan ada yang di potong di hilangkan di rubah hanya translate danmake sure bahasa mengalir natural untuk keperluan web",
-          "isTitleVisible": true
+          "title": "",
+          "description": "Ketika Heavy Attack dari Resonator yang masuk mengenai target, Jiyan akan memanggil tombak untuk melancarkan serangan terkoordinasi, memberikan Aero DMG sebesar 313.40% dari ATK Jiyan. Serangan ini berlangsung selama 8 detik dan dapat dipicu sekali setiap 1 detik, hingga 2 kali.",
+          "isTitleVisible": false
         }
       ]
     }
