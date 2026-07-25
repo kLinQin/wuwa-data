@@ -1,0 +1,586 @@
+{
+  "Abyssal_Husk": {
+    "tier": 5,
+    "desc": "source: Lady of the Sea "
+  },
+  "Adagio_Helix": {
+    "tier": 2,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Afterlife": {
+    "tier": 0,
+    "desc": "source: Dancer/Fabricatorium of the Deep"
+  },
+  "Aftertune_Combustor": {
+    "tier": 2,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Andante_Helix": {
+    "tier": 3,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Arithmetic_Shell": {
+    "tier": 0,
+    "desc": "source: beli dari N.A.N.A/Lahai-Roi"
+  },
+  "Bamboo_Iris": {
+    "tier": 0,
+    "desc": "source: beli dari Danvers/Septimont"
+  },
+  "Basic_Ring": {
+    "tier": 2,
+    "desc": "source: Exiles/Synthesis"
+  },
+  "Belle_Poppy": {
+    "tier": 0,
+    "desc": "source: beli dari Koko/explore Sea of Flames"
+  },
+  "Blazing_Bone": {
+    "tier": 5,
+    "desc": "source: Dragon of Dirge"
+  },
+  "Blighted_Crown_of_Puppet_King": {
+    "tier": 5,
+    "desc": "source: The False Sovereign"
+  },
+  "Bloodleaf_Viburnum": {
+    "tier": 0,
+    "desc": "source: beli dari Danvers/Septimont"
+  },
+  "Broken_String": {
+    "tier": 2,
+    "desc": "source:  Forgery/Synthesis"
+  },
+  "Broken_Wing_Polarizer": {
+    "tier": 1,
+    "desc": "source: Forgery/Synthesis"
+  },
+  "Burning_Judgment": {
+    "tier": 5,
+    "desc": "source: Reactor Husk"
+  },
+  "Cadence_Blossom": {
+    "tier": 4,
+    "desc": "source: Synthesis/Forgery Challenge"
+  },
+  "Cadence_Bud": {
+    "tier": 2,
+    "desc": "source: Synthesis/Forgery Challenge"
+  },
+  "Cadence_Leaf": {
+    "tier": 3,
+    "desc": "source: Synthesis/Forgery Challenge"
+  },
+  "Cadence_Seed": {
+    "tier": 1,
+    "desc": "source: Synthesis/Forgery Challenge"
+  },
+  "Chipped_Exoswarm_Pendant": {
+    "tier": 3,
+    "desc": "source: Roya Outcasts/Synthesis"
+  },
+  "Cleansing_Conch": {
+    "tier": 5,
+    "desc": "source: Lorelei"
+  },
+  "Cloudperch_Seed": {
+    "tier": 0,
+    "desc": "source:  No vendor"
+  },
+  "Coriolus": {
+    "tier": 0,
+    "desc": "source: beli dari Koko/explore Contemplator's Cliff and Giant Banyan"
+  },
+  "Crude_Ring": {
+    "tier": 1,
+    "desc": "source: source: Exiles/Synthesis"
+  },
+  "Curse_of_the_Abyss": {
+    "tier": 5,
+    "desc": "source: Threnodian: Leviathan"
+  },
+  "Dreamless_Feather": {
+    "tier": 5,
+    "desc": "source: Dreamless"
+  },
+  "Edelschnee": {
+    "tier": 0,
+    "desc": "source: beli dari N.A.N.A."
+  },
+  "Elegy_Tacet_Core": {
+    "tier": 5,
+    "desc": "source: Mourning Aix"
+  },
+  "Extracted_Phlogiston": {
+    "tier": 2,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "FF_Autopuppet_Kernel": {
+    "tier": 4,
+    "desc": "source: Autopuppet TD/store/Forgery Challenge"
+  },
+  "FF_Carved_Crystal": {
+    "tier": 4,
+    "desc": "source: Forgery Challenge/Synthesis"
+  },
+  "FF_Exoswarm_Core": {
+    "tier": 4,
+    "desc": "source: Exoswarms/Synthesis/Forgery"
+  },
+  "FF_Howler_Core": {
+    "tier": 4,
+    "desc": "source: source: Howlers/store/Forgery"
+  },
+  "FF_Mech_Core": {
+    "tier": 4,
+    "desc": "source: Clamorling TDs/Synthesis/Forgery"
+  },
+  "FF_Polygon_Core": {
+    "tier": 4,
+    "desc": "source: Clamorling TDs/Synthesis/Forgery"
+  },
+  "FF_Tidal_Residuum": {
+    "tier": 4,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "FF_Waveworn_Shard": {
+    "tier": 4,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "FF_Whisperin_Core": {
+    "tier": 4,
+    "desc": "source: Whisperins/Synthesis"
+  },
+  "Firecracker_Jewelweed": {
+    "tier": 0,
+    "desc": "source: beli dari Rosemary/Nimbus Sanctum"
+  },
+  "Flawless_Phlogiston": {
+    "tier": 4,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Fractured_Exoswarm_Pendant": {
+    "tier": 1,
+    "desc": "source: Roya Outcasts/Synthesis"
+  },
+  "Gold-Dissolving_Feather": {
+    "tier": 5,
+    "desc": "source: Impermanence Heron"
+  },
+  "Gold_In_Memory": {
+    "tier": 5,
+    "desc": "source: Sigillum"
+  },
+  "Golden_Fleece": {
+    "tier": 0,
+    "desc": "source: beli dari Rosemary/Penitent's End"
+  },
+  "Group_Abomination_Tacet_Core": {
+    "tier": 5,
+    "desc": "source: Mech Abomination"
+  },
+  "HF_Autopuppet_Kernel": {
+    "tier": 3,
+    "desc": "source: Autopuppet TD/store/Forgery Challenge"
+  },
+  "HF_Carved_Crystal": {
+    "tier": 3,
+    "desc": "source: Forgery Challenge/Synthesis"
+  },
+  "HF_Exoswarm_Core": {
+    "tier": 3,
+    "desc": "source: Exoswarms/Synthesis/Forgery"
+  },
+  "HF_Howler_Core": {
+    "tier": 3,
+    "desc": "source: Howlers/store/Forgery"
+  },
+  "HF_Mech_Core": {
+    "tier": 3,
+    "desc": "source: Clamorling TDs/Synthesis/Forgery"
+  },
+  "HF_Polygon_Core": {
+    "tier": 3,
+    "desc": "source: Clamorling TDs/Synthesis/Forgery"
+  },
+  "HF_Tidal_Residuum": {
+    "tier": 3,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "HF_Waveworn_Shard": {
+    "tier": 3,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "HF_Whisperin_Core": {
+    "tier": 3,
+    "desc": "source: Whisperins/Synthesis"
+  },
+  "Heterized_Metallic_Drip": {
+    "tier": 4,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Hidden_Thunder_Tacet_Core": {
+    "tier": 5,
+    "desc": "source: Tempest Mephis"
+  },
+  "Improved_Ring": {
+    "tier": 3,
+    "desc": "source: source: Exiles/Synthesis"
+  },
+  "Impure_Phlogiston": {
+    "tier": 1,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Incomplete_Combustor": {
+    "tier": 1,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Inert_Metallic_Drip": {
+    "tier": 1,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Intact_Exoswarm_Pendant": {
+    "tier": 4,
+    "desc": "source: Roya Outcasts/Synthesis"
+  },
+  "Iris": {
+    "tier": 0,
+    "desc": "source: beli dari Koko/explore Heron Wetland"
+  },
+  "LF_Autopuppet_Kernel": {
+    "tier": 1,
+    "desc": "source: Autopuppet TD/store/Forgery Challenge"
+  },
+  "LF_Carved_Crystal": {
+    "tier": 1,
+    "desc": "source: Forgery Challenge/Synthesis"
+  },
+  "LF_Exoswarm_Core": {
+    "tier": 1,
+    "desc": "source: Exoswarms/Synthesis/Forgery"
+  },
+  "LF_Howler_Core": {
+    "tier": 1,
+    "desc": "source: source: Howlers/store/Forgery"
+  },
+  "LF_Mech_Core": {
+    "tier": 1,
+    "desc": "source: Clamorling TDs/Synthesis/Forgery"
+  },
+  "LF_Polygon_Core": {
+    "tier": 1,
+    "desc": "source: Clamorling TDs/Synthesis/Forgery"
+  },
+  "LF_Tidal_Residuum": {
+    "tier": 1,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "LF_Waveworn_Shard": {
+    "tier": 1,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "LF_Whisperin_Core": {
+    "tier": 1,
+    "desc": "source: Whisperins/Synthesis"
+  },
+  "Lanternberry": {
+    "tier": 0,
+    "desc": "source: beli dari Koko/explore Tiger's Maw Mine"
+  },
+  "Layered_Wing_Polarizer": {
+    "tier": 4,
+    "desc": "source: Forgery/Synthesis"
+  },
+  "Lento_Helix": {
+    "tier": 1,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Loongs_Pearl": {
+    "tier": 0,
+    "desc": "source: beli dari Koko/Mianloong Chamber"
+  },
+  "Luminous_Calendula": {
+    "tier": 0,
+    "desc": "source: beli dari Danvers/Sanguis Plateaus"
+  },
+  "MF_Autopuppet_Kernel": {
+    "tier": 2,
+    "desc": "source: Autopuppet TD/store/Forgery Challenge"
+  },
+  "MF_Carved_Crystal": {
+    "tier": 2,
+    "desc": "source: Forgery Challenge/Synthesis"
+  },
+  "MF_Exoswarm_Core": {
+    "tier": 2,
+    "desc": "source: Exoswarms/Synthesis/Forgery"
+  },
+  "MF_Howler_Core": {
+    "tier": 2,
+    "desc": "source: source: Howlers/store/Forgery"
+  },
+  "MF_Mech_Core": {
+    "tier": 2,
+    "desc": "source: Clamorling TDs/Synthesis/Forgery"
+  },
+  "MF_Polygon_Core": {
+    "tier": 2,
+    "desc": "source: Clamorling TDs/Synthesis/Forgery"
+  },
+  "MF_Tidal_Residuum": {
+    "tier": 2,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "MF_Waveworn_Shard": {
+    "tier": 2,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "MF_Whisperin_Core": {
+    "tier": 2,
+    "desc": "source: Whisperins/Synthesis"
+  },
+  "Mask_of_Constraint": {
+    "tier": 1,
+    "desc": "source: Fractsidus/Synthesis"
+  },
+  "Mask_of_Distortion": {
+    "tier": 3,
+    "desc": "source: Fractsidus/Synthesis"
+  },
+  "Mask_of_Erosion": {
+    "tier": 2,
+    "desc": "source: Fractsidus/Synthesis"
+  },
+  "Mask_of_Insanity": {
+    "tier": 4,
+    "desc": "source: Fractsidus/Synthesis"
+  },
+  "Melodic_String": {
+    "tier": 4,
+    "desc": "source:  Forgery/Synthesis"
+  },
+  "Monowing_Polarizer": {
+    "tier": 2,
+    "desc": "source: Forgery/Synthesis"
+  },
+  "Monument_Bell": {
+    "tier": 5,
+    "desc": "source: Bell-Borne Geochelone"
+  },
+  "Moss_Amber": {
+    "tier": 0,
+    "desc": "source: beli dari N.A.N.A."
+  },
+  "Mysterious_Code": {
+    "tier": 5,
+    "desc": "source:  Casket Delivery/Quest"
+  },
+  "Nightmare_Flashdrive": {
+    "tier": 5,
+    "desc": "source: Nightmare: Adam Smasher"
+  },
+  "Nova": {
+    "tier": 0,
+    "desc": "source: beli dari Ku-Money/The Black Shores"
+  },
+  "Our_Choice": {
+    "tier": 5,
+    "desc": "source: Nameless Explorer"
+  },
+  "Past_Reveries": {
+    "tier": 0,
+    "desc": "source: No vendor"
+  },
+  "Pavo_Plum": {
+    "tier": 0,
+    "desc": "source: beli dari Koko/Mt. Firmament"
+  },
+  "Pecok_Flower": {
+    "tier": 0,
+    "desc": "source: beli dari Koko/explore Taoyuan Vale"
+  },
+  "Platinum_Core": {
+    "tier": 5,
+    "desc": "source: Sentry Construct"
+  },
+  "Polarized_Metallic_Drip": {
+    "tier": 3,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Polygon_Core": {
+    "tier": 4,
+    "desc": "source: Clamorling TDs/Synthesis/Forgery"
+  },
+  "Polywing_Polarizer": {
+    "tier": 3,
+    "desc": "source: Forgery/Synthesis"
+  },
+  "Presto_Helix": {
+    "tier": 4,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Rage_Tacet_Core": {
+    "tier": 5,
+    "desc": "source: Inferno Rider"
+  },
+  "Reactive_Metallic_Drip": {
+    "tier": 2,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Redbell": {
+    "tier": 0,
+    "desc": "source: beli dari N.A.N.A."
+  },
+  "Refined_Phlogiston": {
+    "tier": 3,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Remnant_Combustor": {
+    "tier": 3,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Reverb_Combustor": {
+    "tier": 4,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Rimewisp": {
+    "tier": 0,
+    "desc": "source: beli dari N.A.N.A./Etching Plains and Starward Riseway"
+  },
+  "Roaring_Rock_Fist": {
+    "tier": 5,
+    "desc": "source: Feilian Beringal"
+  },
+  "Seaside_Cendrelis": {
+    "tier": 0,
+    "desc": "source: beli dari Rosemary/Avinoleum"
+  },
+  "Sentinel's_Dagger": {
+    "tier": 5,
+    "desc": "source: Jue"
+  },
+  "Shell_Credit": {
+    "tier": 0,
+    "desc": "source: explore"
+  },
+  "Skyward_Glazed_Heart": {
+    "tier": 5,
+    "desc": "source: Thousand-Puppet Pavilion"
+  },
+  "Sliverglow_Bloom": {
+    "tier": 0,
+    "desc": "source: beli dari Danvers/Sanguis Plateaus"
+  },
+  "Solidaritys_Loneflame": {
+    "tier": 5,
+    "desc": "source: Myriad Snare: Rustfire Chassis"
+  },
+  "Solidified_String": {
+    "tier": 3,
+    "desc": "source:  Forgery/Synthesis"
+  },
+  "Sound-Keeping_Tacet_Core": {
+    "tier": 5,
+    "desc": "source: Lampylumen Myriad"
+  },
+  "Spliced_String": {
+    "tier": 1,
+    "desc": "source:  Forgery/Synthesis"
+  },
+  "Stone_Rose": {
+    "tier": 0,
+    "desc": "source: beli dari Danvers/Sanguis Plateaus"
+  },
+  "Strife_Tacet_Core": {
+    "tier": 5,
+    "desc": "source: Crownless"
+  },
+  "Summer_Flower": {
+    "tier": 0,
+    "desc": "source: beli dari Ku-Money/Chronorift Metropolis"
+  },
+  "Suncoveter's_Reach": {
+    "tier": 5,
+    "desc": "source: Hyvatia"
+  },
+  "Sword_Acorus": {
+    "tier": 0,
+    "desc": "source: beli dari Rosemary/Ragunna, Egla Town and Averardo Vault"
+  },
+  "Tailored_Ring": {
+    "tier": 4,
+    "desc": "source: Exiles/Synthesis"
+  },
+  "Terraspawn_Fungus": {
+    "tier": 0,
+    "desc": "source: beli dari Koko/explore Camp Overwatch and Withered Line"
+  },
+  "The_Netherworld's_Stare": {
+    "tier": 5,
+    "desc": "source: Hecate"
+  },
+  "Thundering_Tacet_Core": {
+    "tier": 5,
+    "desc": "source: Thundering Mephis"
+  },
+  "Topological_Confinement": {
+    "tier": 5,
+    "desc": "source: Fallacy of No Return"
+  },
+  "Truth_in_Lies": {
+    "tier": 5,
+    "desc": "source:  Fenrico"
+  },
+  "Unending_Destruction": {
+    "tier": 5,
+    "desc": "source: Scar"
+  },
+  "Unfading_Glory": {
+    "tier": 5,
+    "desc": "source: Lioness of Glory"
+  },
+  "Violet_Coral": {
+    "tier": 0,
+    "desc": "source: beli dari Koko/explore Wuming Bay and Norfall Barrens"
+  },
+  "Waveworn_Residue_210": {
+    "tier": 1,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Waveworn_Residue_226": {
+    "tier": 2,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Waveworn_Residue_235": {
+    "tier": 3,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "Waveworn_Residue_239": {
+    "tier": 4,
+    "desc": "source: Synthesis/Forgery"
+  },
+  "We_Who_Question": {
+    "tier": 5,
+    "desc": "source: Denia"
+  },
+  "When_Irises_Bloom": {
+    "tier": 5,
+    "desc": "source: Fleurdelys"
+  },
+  "Wintry_Bell": {
+    "tier": 0,
+    "desc": " beli dari Koko/explore source: Bell-Borne Ravine"
+  },
+  "Worn_Exoswarm_Pendant": {
+    "tier": 2,
+    "desc": "source: Roya Outcasts/Synthesis"
+  },
+  "Dream_Of_Stars": {
+    "tier": 0,
+    "desc": "source: beli dari N.A.N.A."
+  },
+  "Gemini_Spore": {
+    "tier": 0,
+    "desc": "source: beli dari N.A.N.A."
+  }
+}
