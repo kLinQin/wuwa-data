@@ -27,6 +27,13 @@
       "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
+    },
+    {
+      "text": "- add forte skill description",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-26"
     }
   ],
   "faction": "Startorch Academy",
@@ -76,7 +83,10 @@
           "echoSlug": "threnodian-voidborne-construct",
           "echoSlugSecondary": "",
           "sonataCustom": [
-            "Wishes Of Quiet Snowfall"
+            {
+              "name": "Wishes Of Quiet Snowfall",
+              "set": 5
+            }
           ]
         }
       ],
@@ -312,9 +322,60 @@
       ]
     },
     "forte": {
-      "name": "",
+      "name": "Everfrost Dominion",
       "description": "",
-      "effects": []
+      "effects": [
+        {
+          "title": "Glacio Bite",
+          "description": "- Saat Hiyuki berada dalam tim, Glacio Chafe yang diberikan oleh Resonator terdekat dalam tim dikonversi menjadi Glacio Bite. Setiap kali tumpukan baru Glacio Bite diberikan pada target, satu instance Glacio Bite DMG terpicu berdasarkan batas tumpukan Glacio Bite musuh saat ini. Glacio Bite dapat diberikan pada target yang membeku. Glacio Bite juga dianggap sebagai Glacio Chafe dan Glacio Bite DMG juga dianggap sebagai Glacio Chafe DMG.\n- Saat Foreclaiming: Inward Vision atau Basic Attack - Iai mengenai target, jika target memiliki tidak kurang dari 10 tumpukan Glacio Bite, konsumsi 10 tumpukan dan picu Frostbind sekali.\n- Saat Hiyuki bergabung ke dalam tim, hapus semua tumpukan Glacio Chafe dari target. Saat Hiyuki meninggalkan tim, jika tidak ada Resonator lain dalam tim yang dapat mengonversi Glacio Chafe menjadi Glacio Bite, semua tumpukan Glacio Bite musuh dibersihkan.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Present Self",
+          "description": "Hiyuki memulai dalam keadaan Present Self. Saat berada dalam Present Self, melancarkan skill tertentu memulihkan Dedication",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Foreclaimed Self",
+          "description": "Hiyuki memasuki Foreclaimed Self setelah melancarkan Foreclaiming: Inward Vision. Saat berada dalam Foreclaimed Self, Hiyuki membuka gerakan baru dan memulihkan Frostheart melalui serangan tertentu.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Iai Stance",
+          "description": "Jika Hiyuki memiliki setidaknya 100 poin Frostheart, melakukan salah satu aksi berikut menyebabkan ia berkedip mundur dengan mengonsumsi STA dan memasuki Iai Stance:\n- Tekan Dodge setelah melancarkan Normal Attacks - Foreclaimed Self apa pun selain Heavy Attack - Bitterfrost: Foreclaimed Self, Frostblight: Jade Cleave, Frostblight: Petalfall, Basic Attack - Iai, atau Intro Skill - Frostedge.\n- Tahan Resonance Skill dalam periode tertentu setelah melancarkan Frostblight: Jade Cleave atau Frostblight: Petalfall.\nSaat melakukan aksi di atas, jika ada target valid dalam jangkauan dan input depan ditahan, Hiyuki sebaliknya berkedip ke belakang musuh dengan mengonsumsi STA dan memasuki Iai Stance.\nHiyuki dapat memasuki Iai Stance saat berada di udara. Saat memasuki Iai Stance, pengisian Dodge udara Hiyuki direset. Iai Stance berakhir jika Hiyuki diganti.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Iai",
+          "description": "Dalam periode tertentu setelah memasuki Iai Stance, tekan Normal Attack dan konsumsi 100 poin Frostheart untuk melancarkan Basic Attack - Iai, menimbulkan Glacio DMG, dihitung sebagai Resonance Liberation DMG.\nJika Frostheart tetap berada pada 100 poin atau lebih setelah melancarkan skill ini, tekan Normal Attack dalam periode tertentu untuk melancarkan Basic Attack - Iai lagi.\nJika Hiyuki diserang oleh musuh dalam periode tertentu selama Basic Attack - Iai, netralkan instance damage ini dan menjadi kebal terhadap interupsi untuk durasi tertentu setelahnya sambil mengurangi semua incoming DMG sebesar 100%.\nSetiap kali Basic Attack - Iai dilancarkan, jika Hiyuki memiliki Frostharden Iai, konsumsi 1 poin Frostharden Iai untuk memberikan 3 tumpukan Glacio Chafe upon hit, dan mendapatkan 1 tumpukan Whiteout Bitterfrost.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dedication",
+          "description": "Hiyuki menampung hingga 300 poin Dedication.\nSaat berada dalam Present Self, Dedication dapat dipulihkan melalui cara berikut:\n- Melancarkan Basic Attack - Present Self Stage 3 memulihkan 100 poin Dedication.\n- Melancarkan Intro Skill - Frostedge memulihkan 200 poin Dedication.\nMelancarkan Resonance Skill - Present Self meningkatkan Basic Attack - Present Self Stage 3 berikutnya, yang sekarang juga memulihkan tambahan 100 poin Dedication. Efek ini berakhir saat Hiyuki diganti",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Frostheart",
+          "description": "Hiyuki menampung hingga 300 poin Frostheart.\nFrostheart dipulihkan saat melancarkan Frostblight: Jade Cleave dan Frostblight: Petalfall, atau ketika Normal Attacks - Foreclaimed Self selain Heavy Attack - Bitterfrost: Foreclaimed Self mengenai target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Frostharden Iai",
+          "description": "Frostharden Iai memiliki maksimal 3 poin.\nMelancarkan Foreclaiming: Inward Vision memberikan 3 poin Frostharden Iai.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Whiteout Bitterfrost",
+          "description": "Whiteout Bitterfrost bertumpuk hingga 3 kali.\nSetiap kali Frostharden Iai dikonsumsi melalui Basic Attack - Iai, dapatkan 1 tumpukan Whiteout Bitterfrost.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Snowforged Blade",
+          "description": "Snowforged Blade bertumpuk hingga 3 kali.\nSetiap kali Heavy Attack - Bitterfrost: Foreclaimed Self dilancarkan, dapatkan 1 tumpukan Snowforged Blade.",
+          "isTitleVisible": true
+        }
+      ]
     },
     "inherent": [
       {

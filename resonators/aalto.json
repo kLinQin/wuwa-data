@@ -43,7 +43,10 @@
         {
           "label": "Sub DPS",
           "sonataCustom": [
-            "Moonlit Clouds"
+            {
+              "name": "Moonlit Clouds",
+              "set": 5
+            }
           ],
           "stats": [
             {
@@ -73,7 +76,10 @@
         {
           "label": "Hybrid Aero",
           "sonataCustom": [
-            "Sierra Gale"
+            {
+              "name": "Sierra Gale",
+              "set": 5
+            }
           ],
           "stats": [
             {
@@ -110,7 +116,7 @@
         "ATK"
       ]
     },
-    "weaponNote": "Cadenza adalah opsi yang bagus jika memprioritaskan rotasi yang lebih cepat dibandingkan personal DMG sebagai Sub DPS. Jika tidak, Static Mist tetap menjadi pilihan terbaik untuk menghasilkan damage tinggi sekaligus memberikan buff bagi Resonator berikutnya.",
+    "weaponNote": "Cadenza adalah opsi yang bagus jika memprioritaskan rotasi yang lebih cepat dibandingkan personal DMG sebagai Sub DPS. \nJika tidak, Static Mist tetap menjadi pilihan terbaik untuk menghasilkan damage tinggi sekaligus memberikan buff bagi Resonator berikutnya.",
     "weaponOptions": [
       {
         "id": "the-last-dance",
@@ -187,7 +193,7 @@
       },
       {
         "name": "Aalto Hypercarry",
-        "note": "anhua memberikan 38% Basic ATK DMG Amplify kepada Aalto saat mengeluarkan Outro Skill. Selain itu, pada S6, ia memberikan tambahan hingga 20% ATK saat meledakkan Ice Prism atau Glacier.",
+        "note": "Sanhua memberikan 38% Basic ATK DMG Amplify kepada Aalto saat mengeluarkan Outro Skill. Selain itu, pada S6, ia memberikan tambahan hingga 20% ATK saat meledakkan Ice Prism atau Glacier.",
         "members": [
           [
             "Aalto"
@@ -269,7 +275,7 @@
         },
         {
           "title": "Mistcloak Dash",
-          "description": "-Kecepatan gerak meningkat;\n-Selama periode ini, \"Mist Drops\" dikonsumsi secara terus-menerus, dan untuk setiap 1 \"Mist Drop\" yang dikonsumsi, 1 Mist Bullet(s) akan dihasilkan.",
+          "description": "Kecepatan gerak meningkat;\nSelama periode ini, \"Mist Drops\" dikonsumsi secara terus-menerus, dan untuk setiap 1 \"Mist Drop\" yang dikonsumsi, 1 Mist Bullet(s) akan dihasilkan.",
           "isTitleVisible": true
         },
         {
@@ -596,7 +602,7 @@
     }
   ],
   "lore": {
-    "description": "Aalto adalah seorang Information Broker yang misterius, dikenal karena sifatnya yang sulit ditangkap dan senyumnya yang ramah. Di balik kedok tersebut, dia berafiliasi erat dengan the Black Shores.\nRumor mengatakan bahwa dia akan memberikan informasi apa pun dengan harga yang tepat.\n\n\n\n\n\n",
+    "description": "Aalto adalah seorang Information Broker yang misterius, dikenal karena sifatnya yang sulit ditangkap dan senyumnya yang ramah. Di balik kedok tersebut, dia berafiliasi erat dengan the Black Shores.\nRumor mengatakan bahwa dia akan memberikan informasi apa pun dengan harga yang tepat.",
     "manualEntries": [
       {
         "title": "BIRTHDAY",
@@ -615,18 +621,18 @@
     "items": [
       {
         "name": "Wind Chimes",
-        "imageUrl": "/icons/items/aalto-1.webp",
-        "description": "Sebuah seruling tulang yang tampak tidak mencolok, namun sebenarnya merupakan alat perekam yang telah dimiliki Aalto sejak ia masih kecil. Aalto membawanya di berbagai kesempatan, dan perangkat kecil ini telah mengumpulkan banyak informasi intelijen berharga untuknya."
+        "description": "Sebuah seruling tulang yang tampak tidak mencolok, namun sebenarnya merupakan alat perekam yang telah dimiliki Aalto sejak ia masih kecil. Aalto membawanya di berbagai kesempatan, dan perangkat kecil ini telah mengumpulkan banyak informasi intelijen berharga untuknya.",
+        "imageUrl": "/icons/items/aalto-1.webp"
       },
       {
         "name": "Intelligence Network",
-        "imageUrl": "/icons/items/aalto-2.webp",
-        "description": "Aalto adalah seorang ahli dalam membangun koneksi dan mengumpulkan informasi. Ia memandang setiap orang sebagai aset potensial dalam jaringan intelijennya, membuat kartu nama menjadi sangat bernilai baginya. Teman sejati memang langka, namun Aalto tahu bahwa kunci kesuksesan terletak pada mengenal lebih banyak orang."
+        "description": "Aalto adalah seorang ahli dalam membangun koneksi dan mengumpulkan informasi. Ia memandang setiap orang sebagai aset potensial dalam jaringan intelijennya, membuat kartu nama menjadi sangat bernilai baginya. Teman sejati memang langka, namun Aalto tahu bahwa kunci kesuksesan terletak pada mengenal lebih banyak orang.",
+        "imageUrl": "/icons/items/aalto-2.webp"
       },
       {
         "name": "Vintage Console",
-        "imageUrl": "/icons/items/aalto-3.webp",
-        "description": "Sebuah konsol game bergaya retro. Konsol ini mungkin hanya menawarkan game piksel jadul yang sederhana, namun ia menyulut semangat kompetitif dalam diri Aalto dan Encore. Keduanya telah mencoba memanfaatkan setiap kesempatan untuk bermain secara sembunyi-sembunyi dan melampaui skor tinggi satu sama lain di konsol tersebut. Namun, bagi Aalto, kegembiraan terbesar justru datang saat rekor miliknya sendiri berhasil dikalahkan."
+        "description": "Sebuah konsol game bergaya retro. Konsol ini mungkin hanya menawarkan game piksel jadul yang sederhana, namun ia menyulut semangat kompetitif dalam diri Aalto dan Encore. Keduanya telah mencoba memanfaatkan setiap kesempatan untuk bermain secara sembunyi-sembunyi dan melampaui skor tinggi satu sama lain di konsol tersebut. Namun, bagi Aalto, kegembiraan terbesar justru datang saat rekor miliknya sendiri berhasil dikalahkan.",
+        "imageUrl": "/icons/items/aalto-3.webp"
       }
     ],
     "stories": [
