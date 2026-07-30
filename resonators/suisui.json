@@ -29,8 +29,11 @@
       "time": "2026-07-09"
     },
     {
-      "time": "2026-07-08",
-      "text": "- minimal input\n- icon echo masih pakai stay tuned\n- icon sequence belum di rubah\n- materials\n- lore page"
+      "text": "- minimal input\n- icon echo masih pakai stay tuned\n- icon sequence belum di rubah\n- materials\n- lore page",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-08"
     }
   ],
   "faction": "",
@@ -82,15 +85,45 @@
               "stat": "HP%"
             }
           ]
+        },
+        {
+          "label": "General",
+          "sonataCustom": [
+            {
+              "name": "Rejuvenating Glow",
+              "set": 5
+            }
+          ],
+          "echoSlug": "",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": ""
+            },
+            {
+              "cost": 3,
+              "stat": ""
+            },
+            {
+              "cost": 3,
+              "stat": ""
+            },
+            {
+              "cost": 1,
+              "stat": ""
+            },
+            {
+              "cost": 1,
+              "stat": ""
+            }
+          ]
         }
       ],
       "substats": [
-        "CR% / CDM%",
+        "ER%",
         "HP%",
-        "ATK%",
-        "BA DMG Bonus",
-        "ATK%",
-        "ATK",
+        "CR% / CDM%",
         "HP"
       ],
       "note": ""
@@ -101,14 +134,31 @@
         "id": "firstlights-herald",
         "rank": "",
         "percentage": "100"
+      },
+      {
+        "id": "stellar-symphony",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "variation",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "call-of-the-abyss",
+        "rank": "",
+        "percentage": "100"
       }
     ],
     "rotations": [],
     "talentPriority": {
       "priority": [
-        "Intro Skill",
+        "Resonance Liberation",
         "Forte Circuit",
-        "Resonance Liberation"
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
       ],
       "note": "",
       "equalPriority": [
@@ -134,7 +184,7 @@
         "note": ""
       },
       {
-        "name": "NS - Havoc Bane",
+        "name": "NS - Glacio Chafe",
         "members": [
           [
             "Hiyuki"
@@ -158,6 +208,36 @@
           ],
           [
             "Phrolova"
+          ],
+          [
+            "Suisui"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "Fusion Burst",
+        "members": [
+          [
+            "Aemeath"
+          ],
+          [
+            "Denia"
+          ],
+          [
+            "Suisui"
+          ]
+        ],
+        "note": ""
+      },
+      {
+        "name": "NS - Erosion",
+        "members": [
+          [
+            "Cartethyia"
+          ],
+          [
+            "Ciaccona"
           ],
           [
             "Suisui"
@@ -444,12 +524,152 @@
     }
   },
   "materials": {
-    "ascension": [],
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Solidaritys Loneflame",
+            "amount": 46
+          },
+          {
+            "item": "LF Autopuppet Kernel",
+            "amount": 4
+          },
+          {
+            "item": "MF Autopuppet Kernel",
+            "amount": 12
+          },
+          {
+            "item": "HF Autopuppet Kernel",
+            "amount": 12
+          },
+          {
+            "item": "FF Autopuppet Kernel",
+            "amount": 4
+          },
+          {
+            "item": "Flowborne Dream",
+            "amount": 60
+          },
+          {
+            "item": "Shell Credit",
+            "amount": 170000
+          }
+        ]
+      }
+    ],
     "skills": {
-      "totalCosts": []
+      "totalCosts": [
+        {
+          "item": "Skyward Glazed Heart",
+          "amount": 26
+        },
+        {
+          "item": "LF Autopuppet Kernel",
+          "amount": 25
+        },
+        {
+          "item": "MF Autopuppet Kernel",
+          "amount": 28
+        },
+        {
+          "item": "HF Autopuppet Kernel",
+          "amount": 40
+        },
+        {
+          "item": "FF Autopuppet Kernel",
+          "amount": 57
+        },
+        {
+          "item": "Spliced String",
+          "amount": 25
+        },
+        {
+          "item": "Broken String",
+          "amount": 28
+        },
+        {
+          "item": "Solidified String",
+          "amount": 55
+        },
+        {
+          "item": "Melodic String",
+          "amount": 67
+        },
+        {
+          "item": "Shell Credit",
+          "amount": 2030000
+        }
+      ]
     }
   },
-  "analysisCharts": [],
+  "analysisCharts": [
+    {
+      "title": "Damage By Talent",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Intro",
+          "value": 81.5,
+          "percentage": 81.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Forte",
+          "value": 14.6,
+          "percentage": 14.6,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 3.9,
+          "percentage": 3.9,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Intro",
+          "value": 41,
+          "percentage": 41,
+          "imagePath": ""
+        },
+        {
+          "type": "Glacio Chafe",
+          "value": 44.3,
+          "percentage": 44.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 3.4,
+          "percentage": 3.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 3.9,
+          "percentage": 3.9,
+          "imagePath": ""
+        },
+        {
+          "type": "BA",
+          "value": 4.4,
+          "percentage": 4.4,
+          "imagePath": ""
+        }
+      ]
+    }
+  ],
   "sequences": [
     {
       "stage": "S1",
@@ -566,8 +786,8 @@
     ],
     "report": {
       "resonancePower": "Host of Harmony",
-      "resonanceEvaluation": "[Forte Examination Report RA1034-G]\n\nTacet Mark subjek terletak di tengah dahi. Ia menunjukkan kemampuan unik untuk beresonansi dengan badan air di sekitarnya, memungkinkannya memahami lintasan aliran dan potensi kinetik dalam air cair. Ia mampu memadatkan kelembapan udara, hujan, atau aliran sungai menjadi domain akuatik yang terkendali. mengubah hujan deras menjadi gerimis lembut, dan arus ganas menjadi air tenang.\n\nFrekuensi Resonansi subjek membawa harmoni estetika yang kuat. Saat menarik energi Resonansi, kipas air dan lengan bajunya yang mengalir terbuka dalam gerakan menyatu, menenun pemandangan di antara ombak berkabut, seolah menghidupkan gulungan lukisan induk yang megah ke dalam realitas.\n\nKurva Rabelle-nya menunjukkan tren naik yang lembut dan stabil, lalu merata pada plateau bernilai tinggi yang mulus. Subjek dikonfirmasi sebagai Natural Resonator.\n\n> \"Frekuensinya nyaris sepenuhnya bebas dari turbulensi atau retakan, mempertahankan stabilitas yang lembut dan konsisten sepanjang waktu... Mm, ini mencerminkan temperamen pribadi subjek dengan sempurna.\"  \n> Cuplikan wawancara dengan tenaga medis Huaxu Academy.",
-      "overclockDiagnostic": "Grafik gelombang subjek menampilkan pola elips melingkar yang teratur, mulus, dan konsisten. Seluruh hasil pembacaan bersih dan stabil, tanpa tanda gangguan atau interferensi abnormal.\n\nKesimpulan: Subjek menunjukkan Resonant Criticality rendah, dipadukan dengan kapasitas sangat stabil dalam menahan frekuensi resonansi. Risiko lonjakan volatil ditetapkan tidak ada. Pemeriksaan retrospektif tidak menemukan riwayat Overclocking sebelumnya.\n\nBerdasarkan profil keseluruhan grafik, individu ini memiliki fondasi psikologis yang kokoh, ketahanan emosional luar biasa, dan tingkat pengendalian diri yang tinggi."
+      "overclockDiagnostic": "Grafik gelombang subjek menampilkan pola elips melingkar yang teratur, mulus, dan konsisten. Seluruh hasil pembacaan bersih dan stabil, tanpa tanda gangguan atau interferensi abnormal.\n\nKesimpulan: Subjek menunjukkan Resonant Criticality rendah, dipadukan dengan kapasitas sangat stabil dalam menahan frekuensi resonansi. Risiko lonjakan volatil ditetapkan tidak ada. Pemeriksaan retrospektif tidak menemukan riwayat Overclocking sebelumnya.\n\nBerdasarkan profil keseluruhan grafik, individu ini memiliki fondasi psikologis yang kokoh, ketahanan emosional luar biasa, dan tingkat pengendalian diri yang tinggi.",
+      "resonanceEvaluation": "[Forte Examination Report RA1034-G]\n\nTacet Mark subjek terletak di tengah dahi. Ia menunjukkan kemampuan unik untuk beresonansi dengan badan air di sekitarnya, memungkinkannya memahami lintasan aliran dan potensi kinetik dalam air cair. Ia mampu memadatkan kelembapan udara, hujan, atau aliran sungai menjadi domain akuatik yang terkendali. mengubah hujan deras menjadi gerimis lembut, dan arus ganas menjadi air tenang.\n\nFrekuensi Resonansi subjek membawa harmoni estetika yang kuat. Saat menarik energi Resonansi, kipas air dan lengan bajunya yang mengalir terbuka dalam gerakan menyatu, menenun pemandangan di antara ombak berkabut, seolah menghidupkan gulungan lukisan induk yang megah ke dalam realitas.\n\nKurva Rabelle-nya menunjukkan tren naik yang lembut dan stabil, lalu merata pada plateau bernilai tinggi yang mulus. Subjek dikonfirmasi sebagai Natural Resonator.\n\n> \"Frekuensinya nyaris sepenuhnya bebas dari turbulensi atau retakan, mempertahankan stabilitas yang lembut dan konsisten sepanjang waktu... Mm, ini mencerminkan temperamen pribadi subjek dengan sempurna.\"  \n> Cuplikan wawancara dengan tenaga medis Huaxu Academy."
     },
     "items": [
       {
@@ -607,11 +827,6 @@
         "title": "Seasons She Walked  ",
         "content": "Senja turun perlahan di Land of Xuanfang, cahaya senja meredup inci demi inci di cakrawala. Suisui berjalan di jalan utama, langkahnya mengetuk pelan lempengan batu teal. Sisa cahaya keemasan memandikan jalan tempat lentera yang belum dinyalakan bergoyang lembut dalam angin. Toko-toko mulai tutup. Para penjual membawa papan penutup bolak-balik, obrolan santai mereka mengambang ke udara senja. Suisui berjalan melewati permainan cahaya dan bayangan yang berubah-ubah, siluetnya memanjang di tanah.\n\nFestival Waking Moon semakin dekat. Tumpukan sutra warna-warni berjejer di etalase saat pegawai toko menghitung gulungan yang dibawa masuk. Sekelompok anak berlari melewatinya, lalu berhenti mendadak di tikungan jalan. Mereka menatap terpana pada deretan kuali mekanis yang mengepul, menelan ludah sebelum akhirnya pergi dengan pandangan mundur yang enggan.\n\nSuisui berhenti di kios itu dan mengamati sejenak. Penjualnya menjajakan \"Brocade Pearl Meatballs\" bola-bola lembut mengilap yang dihiasi daun bawang, tersusun rapi dalam kukusan bambu.\n\n>Satu kukusan Brocade Pearl Meatballs, please.\"\n\nPenjual itu menengok, melihat perempuan muda di hadapannya yang bermata tersenyum, lalu ikut tersenyum lebar. Setelah menerima kukusannya, Suisui membayar, lalu mendorong beberapa Shell Credit ekstra di atas meja.\n\n> \"Untuk anak-anak yang baru saja lewat. Beri masing-masing satu porsi,\" katanya ringan sambil berbalik pergi. \"Tak perlu bilang siapa yang memberi.\"\n\nPenjual itu terkejut, tapi saat ia mengangkat kepala, sosoknya sudah lenyap dalam keramaian.\n\nSaat kegelapan tiba, lentera di kedai teh dan tavern mulai dinyalakan, memercikkan cahaya keemasan hangat ke trotoar. Suisui melangkah melewati bercak-bercak cahaya itu, tangannya penuh dengan kantong meatball hangat. Saat angin meniup helai rambutnya menutupi wajah, ia bahkan tak punya tangan bebas untuk menyingkirkannya.\n\nTiba-tiba ia teringat kipas airnya tertinggal. Ia tertawa kecil, tak peduli. Lagipula, jarang ada kesempatan yang benar-benar membutuhkannya menggunakannya. Badai sesungguhnya telah ia lalui selama Siege of Xuanfang Hold. Segalanya kini tenang, damai cukup baginya untuk berjalan santai di jalanan dan menyaksikan orang-orang menjalani malam biasa.\n\nDengan pikiran itu, langkahnya tanpa sadar semakin cepat.\n\nMelewati gang sempit dan menyeberangi jembatan kecil terletak tujuannya. Adiknya ada di sana. Dan juga orang itu. Ia bertanya-tanya apakah lentera sudah dinyalakan, dan apakah mereka akan menyukai hidangan ini. Ia telah berjalan melewati musim semi dan panas Mingting, saat dirinya yang muda berlari di tengah keramaian dengan rambut berkibar, hatinya terpikat oleh permadani dunia yang hidup. Ia telah berjalan melewati musim gugur dan dingin Mengzhou, mendayung ke pagi berkabut untuk bernegosiasi, dan duduk sendirian di malam bersalju membaca surat keluarga berulang-ulang di depan perapian.\n\nDan kini, musim-musim itu membawanya tepat ke malam ini. Di bawah kakinya adalah jalan-jalan Xuanfang. Di tangannya adalah sajian untuk orang-orang yang ia sayangi. Suisui memindahkan kantong itu ke tangan lain dan mempercepat langkah. Angin menderu sepanjang jalan, membuat lengan bajunya berkibar dalam cahaya lentera yang samar. Ia menyipitkan mata ke arah cahaya, tapi tak memperlambat langkah.\n\nJembatan sudah di depan."
       }
-    ],
-    "specialFood": {
-      "name": "",
-      "description": "",
-      "imageUrl": ""
-    }
+    ]
   }
 }
