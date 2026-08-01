@@ -36,17 +36,17 @@
       "time": "2026-07-08"
     }
   ],
-  "faction": "",
+  "faction": "\tZhaoming Commerce Guild",
   "affiliation": "Mingting,Huanglong",
   "class": "Natural",
   "image": "/characters/suisui.webp",
   "icon": "/icons/characters/suisui.webp",
   "imageBanner": "/banners/suisui-banner.jpeg",
   "recommendedStats": {
-    "Crit Rate": "10.00%",
-    "Crit Damage": "213.00%",
-    "Total HP (ELE/ER)": "31330",
-    "ER": "260.00%"
+    "HP": "38000",
+    "Energy Regen": "260%",
+    "Crit Ratio (Crit Weapon)": "N/A",
+    "Crit Ratio (Non Crit Weapon)": "N/A"
   },
   "build": {
     "bestEcho": [],
@@ -99,23 +99,23 @@
           "stats": [
             {
               "cost": 4,
-              "stat": ""
+              "stat": "Healing Bonus"
             },
             {
               "cost": 3,
-              "stat": ""
+              "stat": "ER%"
             },
             {
               "cost": 3,
-              "stat": ""
+              "stat": "ER%"
             },
             {
               "cost": 1,
-              "stat": ""
+              "stat": "HP%"
             },
             {
               "cost": 1,
-              "stat": ""
+              "stat": "HP%"
             }
           ]
         }
@@ -123,17 +123,16 @@
       "substats": [
         "ER%",
         "HP%",
-        "CR% / CDM%",
         "HP"
       ],
-      "note": ""
+      "note": "1.  Jika kamu mampu mencapai 260% ER hanya dengan satu buah 3-cost yang memiliki substat ER, kamu dapat memilih untuk menggunakan Glacio DMG Bonus guna meningkatkan DMG yang dihasilkan, atau memilih HP% untuk memperoleh tambahan healing dan damage yang lebih seimbang. Perlu diketahui bahwa ia tidak mendapatkan tambahan Energy Regen sama sekali dari skill pasif (Inherent skills), melainkan hanya 10% dari set Sonata 2-pc yang digunakannya.\n2. Tingkatkan level skill sesuai kebutuhan untuk optimalisasi healing. Perlu diingat bahwa Intro Skill hanya berfungsi untuk menghasilkan DMG dan tidak berkontribusi pada aspek healing."
     },
     "weaponNote": "",
     "weaponOptions": [
       {
         "id": "firstlights-herald",
         "rank": "",
-        "percentage": "100"
+        "percentage": "107"
       },
       {
         "id": "stellar-symphony",
@@ -147,6 +146,11 @@
       },
       {
         "id": "call-of-the-abyss",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "rectifier-25",
         "rank": "",
         "percentage": "100"
       }
@@ -246,7 +250,7 @@
         "note": ""
       }
     ],
-    "teamNote": "Team Lain bissaa juga: \n1. Aemeath Denia\n2. Cartethyiaa Ciaccona"
+    "teamNote": "Suisui memberikan berbagai buff berikut kepada rekan satu timnya:\n- Meningkatkan batas maksimum stack Status Negatif (kecuali Havoc Bane) sebanyak 3 lapis selama 15 detik.\n- Saat mengonsumsi stacks Havoc Bane, efek yang diberikan adalah Def Ignore sebesar 6% dan Havoc Res Ignore sebesar 12% untuk DMG Havoc yang bersangkutan, yang berlangsung selama 30 detik setelah skill mengenai sasaran.\n- Memberikan tambahan 50% ATK kepada pengguna Status Negatif (seperti Yangyang: Xuanling dan Hiyuki).\n- Menambahkan 12% DMG Bonus selama berada dalam status [Roaming Transcendent].\n- Memberikan 25% DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n- Dengan efek senjata signature Firstland's Herald (milik Suisui): memberikan tambahan 20% ATK ketika ia memiliki kedua status Snow Taint dan Ripples secara bersamaan (yang diperoleh dengan cara menginflict Glacio Chafe dan melakukan aksi healing).\n\n"
   },
   "skills": {
     "basic": {

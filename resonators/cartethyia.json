@@ -77,7 +77,10 @@
           "echoSlug": "fleurdelys",
           "echoSlugSecondary": "",
           "sonataCustom": [
-            "Windward Pilgrimage"
+            {
+              "name": "Windward Pilgrimage",
+              "set": 5
+            }
           ]
         }
       ],
@@ -167,7 +170,7 @@
           [
             "Chisa",
             "Aero Rover",
-            "Shorekeeper"
+            "Suisui"
           ]
         ],
         "note": "Ciaccona memberikan Aero Erosion Amplify kepada Cartethyia saat Outro Skill. Selain itu, clone milik Ciaccona memberikan Aero DMG Amplify serta tambahan stack Aero Erosion."
@@ -183,8 +186,8 @@
           ],
           [
             "Chisa",
-            "Aero Rover",
-            "Shorekeeper"
+            "Shorekeeper",
+            "Suisui"
           ]
         ],
         "note": "Sebagai opsi budget, Sanhua bisa digunakan karena mayoritas damage Cartethyia dianggap sebagai Basic ATK DMG; Sanhua memberikan amplify untuk tipe damage tersebut melalui Outro Skill miliknya."
@@ -200,7 +203,8 @@
           ],
           [
             "Chisa",
-            "Shorekeeper"
+            "Shorekeeper",
+            "Suisui"
           ]
         ],
         "note": "Rover: Aero atau Chisa dapat meningkatkan batas maksimum stack Aero Erosion pada musuh, sekaligus memberikan damage tambahan masing-masing melalui Bloodpact's Pledge (Rover: Aero) atau DEF shred dari Havoc Bane (Chisa)."
@@ -211,6 +215,7 @@
   "skills": {
     "basic": {
       "name": "Sword To Carve My Forms",
+      "description": "",
       "effects": [
         {
           "title": "Basic Attack - Cartethyia",
@@ -236,6 +241,7 @@
     },
     "skill": {
       "name": "Sword To Bear Their Names",
+      "description": "",
       "effects": [
         {
           "title": "Resonance Skill - Cartethyia",
@@ -246,6 +252,7 @@
     },
     "liberation": {
       "name": "A Knight'S Heartfelt Prayers",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -371,6 +378,7 @@
     },
     "forte": {
       "name": "Tempest",
+      "description": "",
       "effects": [
         {
           "title": "",
@@ -453,6 +461,7 @@
     ],
     "intro": {
       "name": "Sword To Mark Tide'S Trace",
+      "description": "",
       "effects": [
         {
           "title": "Cartethyia - Sword to Mark Tide's Trace",
@@ -468,6 +477,7 @@
     },
     "outro": {
       "name": "Wind'S Divine Blessing",
+      "description": "",
       "effects": [
         {
           "title": "",

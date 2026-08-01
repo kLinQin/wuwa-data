@@ -24,8 +24,11 @@
       "time": "2026-07-16"
     },
     {
-      "time": "2026-07-17",
-      "text": "- add Denia di Fusion Burst team"
+      "text": "- add Denia di Fusion Burst team",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
     }
   ],
   "faction": "Roya Tribe",
@@ -73,7 +76,10 @@
           "echoSlug": "sigillum",
           "echoSlugSecondary": "",
           "sonataCustom": [
-            "Trailblazing Star"
+            {
+              "name": "Trailblazing Star",
+              "set": 5
+            }
           ]
         }
       ],
@@ -176,7 +182,8 @@
           ],
           [
             "Mornye",
-            "Lupa"
+            "Lupa",
+            "Suisui"
           ]
         ]
       },
@@ -190,7 +197,8 @@
             "Denia"
           ],
           [
-            "Chisa"
+            "Chisa",
+            "Suisui"
           ]
         ],
         "note": "- Denia memberikan 60% Fusion Burst Amplify setelah melancarkan Outro Skill miliknya dan memenuhi Inherent Skill milik Aemeath: Between the Stars. Ia juga memberikan buff tambahan.\n- solt 2 Sebagai alternatif, kamu dapat menggunakan Lupa sebagai pengganti Chisa."
