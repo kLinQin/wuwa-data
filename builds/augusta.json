@@ -1,0 +1,249 @@
+{
+  "id": 1306,
+  "name": "Augusta",
+  "recommendedStats": {
+    "ATK": "2200+",
+    "Energy Regen": "125%",
+    "Crit Ratio (Crit Weapon)": "75-80% : 225-270%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "The False Sovereign"
+    ],
+    "bestWeapon": "Wildfire Mark",
+    "echoDetails": {
+      "note": "3PC Crown Of Valor dan 2PC Void Thunder / Lingering Tunes",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "the-false-sovereign",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Crown Of Valor",
+              "set": 3
+            },
+            {
+              "name": "Void Thunder",
+              "set": 2
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen (125)",
+        "ATK%",
+        "Heavy Attack DMG Bonus",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "thunderflare-dominion",
+        "percentage": "135",
+        "rank": ""
+      },
+      {
+        "id": "verdant-summit",
+        "percentage": "125",
+        "rank": ""
+      },
+      {
+        "id": "ages-of-harvest",
+        "percentage": "111",
+        "rank": ""
+      },
+      {
+        "id": "radiance-cleaver",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "lustrous-razor",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "aureate-zenith",
+        "percentage": "90.82",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Intro",
+          "[E]HA12",
+          "Skill",
+          "Ult1",
+          "[E]HA12",
+          "[E]Skill123",
+          "Ult2(Hold)",
+          "[U]BA(x9)",
+          "[U]Ult",
+          "Echo",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Normal Attack",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "augusta-hypercarry",
+      "augusta-dual-dps",
+      "augusta-hypercarry"
+    ],
+    "teamNote": "Augusta merupakan Main DPS yang fokus utamanya memberikan Heavy ATK DMG."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "HA",
+          "value": 84.1,
+          "imagePath": "",
+          "percentage": 84.1
+        },
+        {
+          "type": "Skill",
+          "value": 11.2,
+          "imagePath": "",
+          "percentage": 11.2
+        },
+        {
+          "type": "Echo",
+          "value": 3.66,
+          "imagePath": "",
+          "percentage": 3.66
+        },
+        {
+          "type": "Intro",
+          "value": 1.1,
+          "imagePath": "",
+          "percentage": 1.1
+        }
+      ],
+      "note": "sorce // tethys.gg",
+      "title": "Damage - Agus",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1229055.63,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1448537.25,
+          "imagePath": "",
+          "percentage": 118
+        },
+        {
+          "type": "S2",
+          "value": 1840111.79,
+          "imagePath": "",
+          "percentage": 150
+        },
+        {
+          "type": "S3",
+          "value": 2143294.3,
+          "imagePath": "",
+          "percentage": 174
+        }
+      ],
+      "note": "sorce // tethys.gg",
+      "title": "Sequence - Agus",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Thunderflare Dominion",
+          "value": 1229055.63,
+          "imagePath": "",
+          "percentage": 138
+        },
+        {
+          "type": "Verdant Summit",
+          "value": 1123360.13,
+          "imagePath": "",
+          "percentage": 126
+        },
+        {
+          "type": "Ages Of Harvest",
+          "value": 998241.8,
+          "imagePath": "",
+          "percentage": 112
+        },
+        {
+          "type": "Aureate Zenith (R5)",
+          "value": 898996.15,
+          "imagePath": "",
+          "percentage": 101
+        },
+        {
+          "type": "Lustrous Razor",
+          "value": 890556.33,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Autumntrace (R5)",
+          "value": 884627.02,
+          "imagePath": "",
+          "percentage": 99
+        }
+      ],
+      "note": "sorce // tethys.gg",
+      "title": "Weapon - Agus",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

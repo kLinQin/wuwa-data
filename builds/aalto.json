@@ -1,0 +1,278 @@
+{
+  "id": 1403,
+  "name": "Aalto",
+  "recommendedStats": {
+    "ATK": "1700+",
+    "Energy Regen": "130-140",
+    "Crit Ratio (Crit Weapon)": "60: 265-295",
+    "Crit Ratio (Non Crit Weapon)": "60: 220"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "The Last Dance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Sub DPS",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 5
+            }
+          ],
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": ""
+        },
+        {
+          "label": "Hybrid Aero",
+          "sonataCustom": [
+            {
+              "name": "Sierra Gale",
+              "set": 5
+            }
+          ],
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "feilian-beringal",
+          "echoSlugSecondary": "nightmare-beringal"
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "Reso Skill DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "Cadenza adalah opsi yang bagus jika memprioritaskan rotasi yang lebih cepat dibandingkan personal DMG sebagai Sub DPS. \nJika tidak, Static Mist tetap menjadi pilihan terbaik untuk menghasilkan damage tinggi sekaligus memberikan buff bagi Resonator berikutnya.",
+    "weaponOptions": [
+      {
+        "id": "the-last-dance",
+        "percentage": "104",
+        "rank": ""
+      },
+      {
+        "id": "phasic-homogenizer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "static-mist",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "relativistic-jet",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "novaburst",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "cadenza",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Skill",
+          "Echo(Swap)",
+          "Intro",
+          "Ult",
+          "Skill",
+          "BA12345",
+          "MA(x12)",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "Resonanve Libe dan Intro cukup di Level6 saja",
+      "priority": [
+        "Forte Circuit",
+        "Normal Attack",
+        "Resonance Skill",
+        "Resonance Liberation",
+        "Intro Skill"
+      ]
+    },
+    "teams": [
+      "jiyan-hypercarry",
+      "aalto-hypercarry"
+    ],
+    "teamNote": "Aalto memberikan 23% Aero DMG Amplify."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "The Last Dance",
+          "value": 199136,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "Thunderbolt",
+          "value": 157605,
+          "imagePath": "",
+          "percentage": 82
+        },
+        {
+          "type": "Static Mist",
+          "value": 191640,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Undying Flame",
+          "value": 154786,
+          "imagePath": "",
+          "percentage": 81
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Weapon - Aalto",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA/HA",
+          "value": 52.21,
+          "imagePath": "",
+          "percentage": 52.21
+        },
+        {
+          "type": "Resonance Skill",
+          "value": 28.26,
+          "imagePath": "",
+          "percentage": 28.26
+        },
+        {
+          "type": "Resonance Liberation",
+          "value": 9.26,
+          "imagePath": "",
+          "percentage": 9.26
+        },
+        {
+          "type": "Echo",
+          "value": 6.07,
+          "imagePath": "",
+          "percentage": 6.07
+        },
+        {
+          "type": "Intro Skill",
+          "value": 4.2,
+          "imagePath": "",
+          "percentage": 4.2
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Damage - Aalto",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 37.198,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 41.45,
+          "imagePath": "",
+          "percentage": 111
+        },
+        {
+          "type": "S2",
+          "value": 41.636,
+          "imagePath": "",
+          "percentage": 112
+        },
+        {
+          "type": "S3",
+          "value": 43.143,
+          "imagePath": "",
+          "percentage": 116
+        },
+        {
+          "type": "S4",
+          "value": 43.353,
+          "imagePath": "",
+          "percentage": 117
+        },
+        {
+          "type": "S5",
+          "value": 43.454,
+          "imagePath": "",
+          "percentage": 117
+        },
+        {
+          "type": "S6",
+          "value": 44.899,
+          "imagePath": "",
+          "percentage": 121
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Sequence - Aalto",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

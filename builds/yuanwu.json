@@ -1,0 +1,130 @@
+{
+  "id": 1303,
+  "name": "Yuanwu",
+  "recommendedStats": {
+    "DEF": "3900+",
+    "Energy Regen": "130-140%+",
+    "Crit Ratio (Crit Weapon)": "NA",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return",
+      "Impermanence Heron"
+    ],
+    "bestWeapon": "Originite: Type IV",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Healer",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 3,
+              "stat": "Electro DMG/DEF%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            }
+          ],
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "bell-borne-geochelone",
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        },
+        {
+          "label": "Sub DPS",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 3,
+              "stat": "Electro DMG/DEF%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            }
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "DEF%",
+        "DEF"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "Originite: Type IV",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "gauntlet-21d",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "marcato",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Forte Circuit",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "jinhsi-hypercarry"
+    ],
+    "teamNote": "Yuanwu dianggap sebagai salah satu opsi budget Coord ATK battery untuk Jinhsi. Dalam skenario ini, Yuanwu menggunakan Rejuvenating Glow dan Verina menggunakan Moonlit Clouds."
+  },
+  "analysisCharts": []
+}

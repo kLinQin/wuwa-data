@@ -1,0 +1,165 @@
+{
+  "id": 1307,
+  "name": "Buling",
+  "recommendedStats": {
+    "ATK": "1600+",
+    "Energy Regen": "200%+",
+    "Crit Ratio (Crit Weapon)": "NA",
+    "Crit Ratio (Non Crit Weapon)": "NA"
+  },
+  "build": {
+    "bestEcho": [
+      "Fallacy of No Return"
+    ],
+    "bestWeapon": "Variation",
+    "echoDetails": {
+      "note": "- FONR memberikan buff 10% ATK selama 20 detik (100% uptime, 20 detik CD)\n- sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat berakhir lebih cepat jika shield yang diberikan terkena serangan 3 kali. \n- FONR juga lebih mudah secara keseluruhan untuk di-farm karena hanya menjatuhkan satu sonata set.",
+      "sets": [
+        {
+          "label": "Healer",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "Healing Bonus%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "bell-borne-geochelone",
+          "echoSlugSecondary": "fallacy-of-no-return",
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        }
+      ],
+      "substats": [
+        "Energy Regen",
+        "ATK%",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "variation",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "cosmic-ripples",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "call-of-the-abyss",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "rectifier-25",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "BA1234",
+          "Skill",
+          "BA4",
+          "HA(x2)",
+          "[F]Ult",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "- Tingkatkan Level sesuai kebutuhan untuk heal yang lebih besar; Forte Circuit hanya untuk damage.\n- Jika mampu mencapai 200% ER hanya dengan 1x ER 3-cost, kamu dapat memilih untuk menggunakan ATK% untuk heal tambahan.",
+      "priority": [
+        "Intro Skill",
+        "Normal Attack",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Resonance Liberation"
+      ],
+      "equalPriority": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "carlotta-hypercarry"
+    ],
+    "teamNote": "Buling memberikan buff berikut untuk rekan satu timnya:\n- 15% DMG Amplify selama 30 detik setelah melancarkan Outro Skill \n- 25% Res. Skill DMG Bonus selama 24 detik.\n- Dengan S6: 50% Res. Skill DMG Bonus (sebagai pengganti 25% sebelumnya) kepada Resonator yang aktif."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 13.3,
+          "imagePath": "",
+          "percentage": 13.3
+        },
+        {
+          "type": "HA",
+          "value": 3.2,
+          "imagePath": "",
+          "percentage": 3.2
+        },
+        {
+          "type": "Skill",
+          "value": 4.8,
+          "imagePath": "",
+          "percentage": 4.8
+        },
+        {
+          "type": "Lib",
+          "value": 30.2,
+          "imagePath": "",
+          "percentage": 30.2
+        },
+        {
+          "type": "Forte",
+          "value": 0,
+          "imagePath": "",
+          "percentage": 0
+        },
+        {
+          "type": "Echo",
+          "value": 0.6,
+          "imagePath": "",
+          "percentage": 0.6
+        },
+        {
+          "type": "Flare",
+          "value": 43.8,
+          "imagePath": "",
+          "percentage": 43.8
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Buling",
+      "layout": "horizontal",
+      "chartType": "radar"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": 1207,
+  "name": "Lupa",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "70% : 270%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Lioness of Glory"
+    ],
+    "bestWeapon": "Wildfire Mark",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Hybrid",
+          "sonataCustom": [
+            "Flaming Clawprint"
+          ],
+          "echoSlug": "lioness-of-glory",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen (120)",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "wildfire-mark",
+        "percentage": "112",
+        "rank": ""
+      },
+      {
+        "id": "ages-of-harvest",
+        "percentage": "101.89",
+        "rank": ""
+      },
+      {
+        "id": "verdant-summit",
+        "percentage": "101.46",
+        "rank": ""
+      },
+      {
+        "id": "radiance-cleaver",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "lustrous-razor",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "aureate-zenith",
+        "percentage": "97",
+        "rank": "5"
+      },
+      {
+        "id": "autumntrace",
+        "percentage": "97",
+        "rank": "5"
+      },
+      {
+        "id": "helios-cleaver",
+        "percentage": "96",
+        "rank": "5"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Intro Skill",
+        "Normal Attack",
+        "Resonance Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "galbrena-hypercarry",
+      "lupa-hypercarry",
+      "brant-mono"
+    ],
+    "teamNote": "Lupa memberikan buff berikut untuk rekan satu timnya:\n- 20% Fusion DMG dan 25% Basic Attack DMG Amplify selama 14 detik setelah melancarkan Intro Skill\n- [Pack Hunt]: +6-18% ATK dan 10% Fusion DMG Bonus (20% dengan 3 Fusion Resonator)\n- Mengabaikan 3-15% Fusion RES dalam waktu 35 detik setelah melancarkan [Res. Liberation]\n- Dengan Wildfire Mark (Signature Lupa): 24% Fusion DMG Bonus selama 30 detik."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Wildfire Mark",
+          "value": 344048.4,
+          "imagePath": "",
+          "percentage": 112
+        },
+        {
+          "type": "Ages Of Harvest",
+          "value": 330086.14,
+          "imagePath": "",
+          "percentage": 107
+        },
+        {
+          "type": "Verdant Summit",
+          "value": 326698.82,
+          "imagePath": "",
+          "percentage": 106
+        },
+        {
+          "type": "Lustrous Razor",
+          "value": 308390.37,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Autumntrace",
+          "value": 275087.41,
+          "imagePath": "",
+          "percentage": 89
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Lupa - Weapon",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 4.6,
+          "imagePath": "",
+          "percentage": 4.6
+        },
+        {
+          "type": "HA",
+          "value": 5.9,
+          "imagePath": "",
+          "percentage": 5.9
+        },
+        {
+          "type": "Skill",
+          "value": 13.6,
+          "imagePath": "",
+          "percentage": 13.6
+        },
+        {
+          "type": "Lib",
+          "value": 70.8,
+          "imagePath": "",
+          "percentage": 70.8
+        },
+        {
+          "type": "Echo",
+          "value": 5.2,
+          "imagePath": "",
+          "percentage": 5.2
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Lupa - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 344048.4,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 394783.13,
+          "imagePath": "",
+          "percentage": 115
+        },
+        {
+          "type": "S2",
+          "value": 456046.54,
+          "imagePath": "",
+          "percentage": 133
+        },
+        {
+          "type": "S3",
+          "value": 614376.68,
+          "imagePath": "",
+          "percentage": 179
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Lupa - Sequence",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

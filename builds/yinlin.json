@@ -1,0 +1,271 @@
+{
+  "id": 1302,
+  "name": "Yinlin",
+  "recommendedStats": {
+    "ATK": "1800+",
+    "Energy Regen": "120% - 135%",
+    "Crit Ratio (Crit Weapon)": "70-85% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Hecate",
+      "Impermanence Heron",
+      "Nightmare: Tempest Mephis"
+    ],
+    "bestWeapon": "Stringmaster",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Sub DPS General",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        },
+        {
+          "label": "Sub DPS DMG",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "hecate",
+          "echoSlugSecondary": "nightmare-tempest-mephis",
+          "sonataCustom": [
+            "Empyrean Anthem"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "stringmaster",
+        "percentage": "124",
+        "rank": ""
+      },
+      {
+        "id": "rime-draped-sprouts",
+        "percentage": "112",
+        "rank": ""
+      },
+      {
+        "id": "luminous-hymn",
+        "percentage": "110",
+        "rank": ""
+      },
+      {
+        "id": "cosmic-ripples",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "fusion-accretion",
+        "percentage": "95",
+        "rank": "5"
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Skill1(Cancel)",
+          "Ult",
+          "Skill2(Swap)",
+          "HA(Swap)",
+          "HA(Swap)",
+          "Intro",
+          "Forte",
+          "Heron(Swap)+Outro"
+        ],
+        "title": "Standar Rotasi"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "xiangli-yao-hypercarry",
+      "yinlin-quickswap"
+    ],
+    "teamNote": "\n"
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Stringmaster",
+          "value": 198905,
+          "imagePath": "",
+          "percentage": 123.81
+        },
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 179442,
+          "imagePath": "",
+          "percentage": 111.7
+        },
+        {
+          "type": "Luminous Hymn",
+          "value": 176503,
+          "imagePath": "",
+          "percentage": 109.87
+        },
+        {
+          "type": "Augment",
+          "value": 166239,
+          "imagePath": "",
+          "percentage": 103.48
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 160649,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Fusion Accretion",
+          "value": 146935,
+          "imagePath": "",
+          "percentage": 91.46
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Yinlin",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 12,
+          "imagePath": "",
+          "percentage": 12
+        },
+        {
+          "type": "Skill",
+          "value": 57.8,
+          "imagePath": "",
+          "percentage": 57.8
+        },
+        {
+          "type": "Lib",
+          "value": 20,
+          "imagePath": "",
+          "percentage": 20
+        },
+        {
+          "type": "Echo",
+          "value": 4.8,
+          "imagePath": "",
+          "percentage": 4.8
+        },
+        {
+          "type": "Intro",
+          "value": 5.4,
+          "imagePath": "",
+          "percentage": 5.4
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Yinlin",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1272131,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1299782,
+          "imagePath": "",
+          "percentage": 102.17
+        },
+        {
+          "type": "S2",
+          "value": 1299782,
+          "imagePath": "",
+          "percentage": 102.17
+        },
+        {
+          "type": "S3",
+          "value": 1330867,
+          "imagePath": "",
+          "percentage": 104.62
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Yinlin",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

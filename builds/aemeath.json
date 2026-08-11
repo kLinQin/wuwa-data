@@ -1,0 +1,228 @@
+{
+  "id": 1210,
+  "name": "Aemeath",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "65% : 225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Everbright Polestar",
+    "echoDetails": {
+      "note": "Jika menggunakan signature-nya, pertimbangkan Fusion / ATK untuk 3-Cost.",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "sigillum",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Trailblazing Star",
+              "set": 5
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "everbright-polestar",
+        "percentage": "122",
+        "rank": ""
+      },
+      {
+        "id": "red-spring",
+        "percentage": "101",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "feather-edge",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Intro",
+          "BA34",
+          "Skill",
+          "[E]BA234",
+          "[E]Skill",
+          "Ult",
+          "[F]Skill",
+          "BA234",
+          "[F]Skill",
+          "HA",
+          "Ult2",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "aemeath-tune-break",
+      "aemeath-mono",
+      "aemeath-hypercarry"
+    ],
+    "teamNote": "1. team comp bergantung pada mode mana yang km pilih.\n- Tune Break:  Lynae > Aemeath's Sig > Mornye\n- Fusion Burst: Denia > Aemeath's Sig > Chisa\n-Generic/Mono Fusion: Lupa > Aemeath's Sig > Mornye/Changli\n\n 2. Aemeath memberikan buff berikut untuk rekan satu timnya:\n- 10% All-DMG Amplify selama 20 detik setelah melancarkan Outro Skill\n- Ini akan menjadi 20% Amplify untuk Resonator yang dapat memberikan efek Shifting atau Fusion Burst."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Everbright Polestar",
+          "value": 1615238.24,
+          "imagePath": "",
+          "percentage": 122
+        },
+        {
+          "type": "Red Spring",
+          "value": 1342437.18,
+          "imagePath": "",
+          "percentage": 101
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 1323648.43,
+          "imagePath": "",
+          "percentage": 100
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Aemeth - Weapon",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 6.8,
+          "imagePath": "",
+          "percentage": 6.8
+        },
+        {
+          "type": "Skill",
+          "value": 1.9,
+          "imagePath": "",
+          "percentage": 1.9
+        },
+        {
+          "type": "Lib",
+          "value": 66.7,
+          "imagePath": "",
+          "percentage": 66.7
+        },
+        {
+          "type": "Echo",
+          "value": 2.4,
+          "imagePath": "",
+          "percentage": 2.4
+        },
+        {
+          "type": "Rupture",
+          "value": 21.3,
+          "imagePath": "",
+          "percentage": 21.3
+        },
+        {
+          "type": "Intro",
+          "value": 0.8,
+          "imagePath": "",
+          "percentage": 0.8
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Aemeath - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1615238.24,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1731316.12,
+          "imagePath": "",
+          "percentage": 107
+        },
+        {
+          "type": "S2",
+          "value": 2107723.59,
+          "imagePath": "",
+          "percentage": 130
+        },
+        {
+          "type": "S3",
+          "value": 2751897.81,
+          "imagePath": "",
+          "percentage": 170
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Aemeath - Sequence",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

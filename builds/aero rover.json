@@ -1,0 +1,238 @@
+{
+  "id": 1408,
+  "name": "Aero Rover",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "60% : 270%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 220%"
+  },
+  "build": {
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fleurdelys"
+    ],
+    "bestWeapon": "Blazing Brilliance",
+    "echoDetails": {
+      "note": "Umumnya, Rover: Aero dimainkan sebagai support saat dipasangkan dengan Cartethyia yang scaling kekuatannya berdasarkan HP. oleh karena itu, buff All-type DMG dari Bellborne Geochelone lebih diutamakan dibandingkan buff ATK dari Fallacy of No Return.",
+      "sets": [
+        {
+          "label": "Sub DPS Erosion",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "fleurdelys",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Windward Pilgrimage"
+          ]
+        },
+        {
+          "label": "Healer",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "bell-borne-geochelone",
+          "echoSlugSecondary": "fallacy-of-no-return",
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        }
+      ],
+      "substats": [
+        "Energy Regen (120)",
+        "CR% / CDM%",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "Bloodpact's Pledge bisa didapatkan secara gratis melalui Main story quest Chapter 2: Act 4. Karena senjata ini memberikan Energy Regen, kebutuhan ER Rover: Aero akan terpenuhi tanpa memerlukan tambahan ER substats sama sekali.",
+    "weaponOptions": [
+      {
+        "id": "blazing-brilliance",
+        "percentage": "118",
+        "rank": ""
+      },
+      {
+        "id": "bloodpacts-pledge",
+        "percentage": "108",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "100",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ]
+    },
+    "teams": [
+      "cartethyia-erosion",
+      "cartethyia-hypercarry",
+      "cartethyia-budget",
+      "iuno-hypercarry"
+    ],
+    "teamNote": "Rover: Aero atau Chisa dapat meningkatkan jumlah maksimum stack Aero Erosion pada musuh dalam satu waktu, sekaligus memberikan damage tambahan masing-masing melalui Bloodpact's Pledge (Rover: Aero) atau DEF shred dari Havoc Bane (Chisa)."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Skill",
+          "value": 73,
+          "percentage": 73
+        },
+        {
+          "type": "Liberation",
+          "value": 19.9,
+          "percentage": 19.9
+        },
+        {
+          "type": "Intro",
+          "value": 7,
+          "percentage": 7
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Damage - AeroRover",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 101129.89,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S3",
+          "value": 109061.74,
+          "imagePath": "",
+          "percentage": 108
+        },
+        {
+          "type": "S4",
+          "value": 114670.88,
+          "imagePath": "",
+          "percentage": 113
+        },
+        {
+          "type": "S5",
+          "value": 118804.25,
+          "imagePath": "",
+          "percentage": 117
+        },
+        {
+          "type": "S6",
+          "value": 131898.68,
+          "imagePath": "",
+          "percentage": 130
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Sequence- AeroRover",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Carte S0R1 WP, Cia S0R1 GoW, Arover S6R5 ",
+          "value": 1967671.04,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Carte S0R1 WP, Cia S0R1 GoW, S2R3 Rejuv/Bell",
+          "value": 1845798.05,
+          "imagePath": "",
+          "percentage": 94
+        },
+        {
+          "type": "Carte S0R1 WP, Cia S0R1 GoW, S2R3 WP",
+          "value": 1822903.65,
+          "imagePath": "",
+          "percentage": 93
+        },
+        {
+          "type": "Carte S0R1 WP, Cia S0R0 GoW, S2R3 WP",
+          "value": 1602182.86,
+          "imagePath": "",
+          "percentage": 81
+        },
+        {
+          "type": "Carte S0R0 WP, Cia S0R1 GoW, S2R3 WP",
+          "value": 1535214.04,
+          "imagePath": "",
+          "percentage": 78
+        },
+        {
+          "type": "Carte S0R0 WP, Cia S0R0 GoW, S2R3 WP",
+          "value": 1358354.7,
+          "imagePath": "",
+          "percentage": 69
+        },
+        {
+          "type": "Sanhua S6 MC, Arover S2R3 Rejuv/Bell",
+          "value": 1169896.6,
+          "imagePath": "",
+          "percentage": 59
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Team - AeroRover",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

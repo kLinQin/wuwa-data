@@ -1,22 +1,23 @@
 {
+  "id": 1211,
   "name": "Denia",
-  "element": "Fusion",
-  "weapon": "Rectifier",
+  "element": 2,
   "rarity": 5,
+  "weapon": 5,
   "version": "3.3",
   "lastUpdated": "2026-04-20",
   "roles": [
-    "Concerto Efficiency",
-    "Resonance Liberation Damage",
-    "Traction",
-    "Fusion Burst",
-    "Tune Break Boost",
-    "Tune Strain Response"
+    3,
+    7,
+    8,
+    27,
+    34,
+    36
   ],
   "sonatas": [
-    "Reel of Spliced Memories",
-    "Chromatic Foam",
-    "Pact of Neonlight Leap"
+    30,
+    26,
+    24
   ],
   "changelog": [
     {
@@ -40,190 +41,6 @@
   "image": "/characters/denia.webp",
   "icon": "/icons/characters/denia.webp",
   "imageBanner": "/banners/denia-banner.jpeg",
-  "recommendedStats": {
-    "Energy Regen": "120%",
-    "ATK%": "2100",
-    "Crit Ratio (Crit Weapon)": "70%:285%",
-    "Crit Ratio (Non Crit Weapon)": "60%:240%"
-  },
-  "build": {
-    "bestEcho": [],
-    "bestWeapon": "Forged Dwarf Star",
-    "echoDetails": {
-      "sets": [
-        {
-          "label": "Hybrid",
-          "sonataCustom": [
-            "Chromatic Foam"
-          ],
-          "echoSlug": "reminiscence-denia",
-          "echoSlugSecondary": "",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 3,
-              "stat": "Fusion%"
-            },
-            {
-              "cost": 3,
-              "stat": "Fusion%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ]
-        },
-        {
-          "label": "Alternatif",
-          "sonataCustom": [
-            "Reel Of Spliced Memories"
-          ],
-          "echoSlug": "voidwing-moth",
-          "echoSlugSecondary": "",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 3,
-              "stat": "Fusion%"
-            },
-            {
-              "cost": 3,
-              "stat": "Fusion%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ]
-        }
-      ],
-      "substats": [
-        "CR% / CDM%",
-        "Energy Regen",
-        "ATK%",
-        "Reso Libe DMG",
-        "ATK"
-      ],
-      "note": "Bersama Aemeath, gunakan Chromatic Foam. Jika kamu memasangkannya dengan Luuk, kamu dapat menggunakan Reels of Spliced Memories sebagai gantinya."
-    },
-    "weaponNote": "sumber: Chemx32 doc",
-    "weaponOptions": [
-      {
-        "id": "forged-dwarf-star",
-        "rank": "",
-        "percentage": "135.79%"
-      },
-      {
-        "id": "stringmaster",
-        "rank": "",
-        "percentage": "119.15%"
-      },
-      {
-        "id": "lethean-elegy",
-        "rank": "",
-        "percentage": "106.66%"
-      },
-      {
-        "id": "cosmic-ripples",
-        "rank": "",
-        "percentage": "100.00%"
-      }
-    ],
-    "rotations": [
-      {
-        "title": "New Rotation",
-        "steps": [
-          "Intro",
-          "BA4",
-          "Skill(Cancel)",
-          "Ult",
-          "[U]BA1234",
-          "[F]Skill12",
-          "Ult2",
-          "Outro"
-        ]
-      }
-    ],
-    "talentPriority": {
-      "priority": [
-        "Resonance Liberation",
-        "Forte Circuit",
-        "Normal Attack",
-        "Resonance Skill",
-        "Intro Skill"
-      ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false
-      ]
-    },
-    "teams": [
-      {
-        "name": "Fusion Burst",
-        "members": [
-          [
-            "Aemeath"
-          ],
-          [
-            "Denia"
-          ],
-          [
-            "Chisa"
-          ]
-        ],
-        "note": "- Denia memberikan 60% Fusion Burst Amplify setelah melancarkan Outro Skill miliknya dan memenuhi Inherent Skill Aemeath: Between the Stars. Ia juga memberikan buff tambahan (tercantum dalam Notes & Insights2).\n- Sebagai alternatif, Kamu dapat menggunakan Lupa untuk menggantikan Chisa."
-      },
-      {
-        "name": "Tune Strain",
-        "members": [
-          [
-            "Aemeath"
-          ],
-          [
-            "Denia"
-          ],
-          [
-            "Lupa"
-          ]
-        ],
-        "note": ""
-      },
-      {
-        "name": "Alternative",
-        "members": [
-          [
-            "Luuk Herssen"
-          ],
-          [
-            "Denia"
-          ],
-          [
-            "Lupa"
-          ]
-        ],
-        "note": "Sinergi Tune Strain yang kuat dan kemampuan untuk memaksimalkan Inherent Skill Luuk: Uncaused Diagnosis. Ia dapat memberikan 50 Tune Break Boost selama Mornye berada dalam tim bersama dengan buff tambahan (tercantum dalam Notes & Insights3)."
-      }
-    ],
-    "teamNote": "Dalam mode Fusion Burst, Denia memberikan buff berikut untuk rekan satu timnya:\n- 30% Fusion DMG Bonus saat berada dalam status [Entropy Shift]\n- 37% Fusion DMG Bonus dari bonus set Chromatic Foam (12% dari R: Denia)\n- 60% Fusion Burst DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n\nDalam mode Tune Strain, Denia memberikan buff berikut untuk rekan satu timnya:\n- 10 Tune Break Boost (total 50 bersama Mornye)\n- 20 Tune Break Boost dari bonus set Reel of Spliced Memories (12% ATK dari Voidwing Moth)\n- 15% All-Type DMG Amplify selama 16 detik (atau 40% untuk unit Strain) setelah melancarkan Outro Skill.\n\n- Dengan Forged Dawn Star (Signature Denia): Peningkatan 24% ATK selama 15 detik ketika Resonator di dalam tim memberikan efek Fusion Burst atau Tune Strain - Shifting."
-  },
   "skills": {
     "basic": {
       "name": "Dreamweaver'S Banquet",
@@ -565,110 +382,6 @@
       ]
     }
   },
-  "analysisCharts": [
-    {
-      "title": "Weapon - Denia",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
-      "data": [
-        {
-          "type": "Forged Dwarf Star",
-          "value": 383822.18,
-          "percentage": 125.79,
-          "imagePath": ""
-        },
-        {
-          "type": "Stringmaster",
-          "value": 363567.06,
-          "percentage": 119.15,
-          "imagePath": ""
-        },
-        {
-          "type": "Lethean Elegy",
-          "value": 325451.74,
-          "percentage": 106.66,
-          "imagePath": ""
-        },
-        {
-          "type": "Cosmic Ripples",
-          "value": 305122.32,
-          "percentage": 100,
-          "imagePath": ""
-        }
-      ]
-    },
-    {
-      "title": "Sequence - Denia",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
-      "data": [
-        {
-          "type": "S0",
-          "value": 383822.18,
-          "percentage": 100,
-          "imagePath": ""
-        },
-        {
-          "type": "S1",
-          "value": 420682.26,
-          "percentage": 109.6,
-          "imagePath": ""
-        },
-        {
-          "type": "S2",
-          "value": 512175.32,
-          "percentage": 133.44,
-          "imagePath": ""
-        },
-        {
-          "type": "S3",
-          "value": 641901.51,
-          "percentage": 167.24,
-          "imagePath": ""
-        }
-      ]
-    },
-    {
-      "title": "Damage - Denia",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
-      "data": [
-        {
-          "type": "Lib",
-          "value": 84.4,
-          "percentage": 84.4,
-          "imagePath": ""
-        },
-        {
-          "type": "BA",
-          "value": 6,
-          "percentage": 6,
-          "imagePath": ""
-        },
-        {
-          "type": "Echo",
-          "value": 5.4,
-          "percentage": 5.4,
-          "imagePath": ""
-        },
-        {
-          "type": "Intro",
-          "value": 2.1,
-          "percentage": 2.1,
-          "imagePath": ""
-        },
-        {
-          "type": "Skill",
-          "value": 2.1,
-          "percentage": 2.1,
-          "imagePath": ""
-        }
-      ]
-    }
-  ],
   "sequences": [
     {
       "stage": "S1",
@@ -802,62 +515,54 @@
       ]
     }
   ],
-  "lore": {
-    "description": "Ia adalah seorang murid dari Department of Voidmatters di Startorch Academy yang secara rahasia melayani sebagai agen untuk Fractsidus. Diciptakan oleh Schwarzloch dengan tujuan untuk menjadi seorang Threnodian Resonator, Denia dapat mengenakan banyak wajah.",
-    "manualEntries": [
-      {
-        "title": "AFFILIATION",
-        "description": "Fractsidus (on profile)\nStartorch Academy"
-      }
-    ],
-    "report": {
-      "resonancePower": "Bubbles of Nihility",
-      "resonanceEvaluation": "[Diarsipkan oleh Spacetrek Collective: Startorch Academy Student Records]\n[Forte Examination Report: RA2499-G]\nNama Murid: Denia\nSynchronist Qualification: Negatif\nForte Overview: Tes menunjukkan Rabelle's Curve dengan pola gelombang periodik yang jelas. Oleh karena itu, murid diklasifikasikan sebagai Congenital Resonator. Tacet Mark miliknya terletak di dadanya.\nBerdasarkan berkas dari pemberi rekomendasinya, subjek dapat menghasilkan gelembung yang diresapi dengan Remnant Energy, yang dapat berfungsi sebagai langkah pertahanan atau pendukung dalam pertempuran. Remnant Energy dari gelembung tersebut juga dapat diledakkan sesuai perintah saat dibutuhkan.\nHasil tes juga menunjukkan bahwa gelembung tersebut memiliki struktur fluida yang unik, memungkinkan mereka untuk memblokir Voidmatter pada tingkat yang sebanding dengan lapisan Exostrider.\n\n\"Tunggu, bukankah itu pembuat gelembung dari iklan Lollo Logistics itu? Keponakan saya punya mainan yang sama persis! Bagaimana caranya kamu bisa menghentikan Voidmatter dengan gelembung seperti itu?\"\n\"Bagaimana berkas ini bisa diarsipkan?! Astaga... Apakah ada hal dalam laporan ini yang benar-benar nyata?\"",
-      "overclockDiagnostic": "Analisis sampel tes Rabelle's Waveform menunjukkan fluktuasi elips dan Time Domain yang stabil. Tidak ditemukan fluktuasi abnormal. Hasil pemeriksaan berada dalam parameter normal.\nKesimpulan: Resonant Criticality berada dalam rentang normal. Stabilitas subjek tetap kuat. Tidak ada riwayat dan risiko Overclocking saat ini.\nRabelle's Curve stabil. Konseling psikologis saat ini dianggap tidak perlu.\n\n\"Tidak ada riwayat dan risiko Overclocking saat ini? Pernahkah Anda melihat Resonator yang dapat menggulung Voidmatter menjadi kubus dan mulai melemparkannya ke arah orang-orang? Hiyuki bahkan menyebutkan dalam laporan tempurnya bahwa Tacet Mark miliknya mulai robek!\"\n\"Cukup sudah... Aku tidak percaya satu kata pun dari laporan ini sekarang. Arman, aku ingin catatan lengkap dari Dimmr Plains secepatnya!\""
+  "favorRole": {
+    "Birthday": {
+      "Title": "No Description Available",
+      "Content": "Unknown"
     },
-    "items": [
-      {
-        "name": "\"Trickster\"",
-        "description": "Sebuah boneka yang selalu dibawa oleh Denia. Jauh dari benda cantik yang biasa Anda lihat, tubuhnya yang usang kini dijahit di sana-sini dengan perbaikan yang kasar, dan Voidmatter yang pernah mengisi wujudnya telah lama memudar.\n\n\"Sebuah wadah rusak dan keras kepala, yang pernah dibentuk oleh tatapan dunia. Sekarang, ia membisikkan sebuah permohonan, berulang kali: Tolong, beri aku sebuah hati. Hati apa pun boleh.\"",
-        "imageUrl": "/icons/items/denia-1.webp"
-      },
-      {
-        "name": "Startorch Memory Album",
-        "description": "Sebuah album foto yang didekorasi dengan penuh ornamen, dirawat dengan sangat teliti. Terlihat jelas dalam sekejap bahwa pemiliknya sangat menghargai benda ini.\nPhotography Fan Club di Startorch Academy menghadiahkan setiap anggota sebuah album pribadi sebagai wadah untuk kenangan kampus mereka yang berharga. Sebagian besar halaman diisi dengan foto grup di mana Denia tersenyum diam dari sudut... Itu hanyalah caranya untuk mendapatkan kredit.\n\n\"Alam liar tidak memiliki kata-kata. Mungkin ia tidak melihat apa-apa, tidak mendengar apa-apa, dan tidak peduli dengan apa yang kita katakan. Ia hanya menjangkau, membentang menuju cakrawala yang tak terbatas.\"",
-        "imageUrl": "/icons/items/denia-2.webp"
-      },
-      {
-        "name": "\"Dream Maker\"",
-        "description": "Sebuah perangkat yang menghasilkan gelembung besar, tidak ada yang istimewa kecuali desainnya yang tampak seperti mimpi.\nBenda ini lebih terlihat seperti mainan daripada senjata.\nDenia menggunakannya untuk menyembunyikan Voidmatter di dalam gelembung tersebut. Sebuah ilusi kecil tentang kemampuan untuk melindungi orang lain.\n\n\"Sejujurnya, Aleph-1 tidak pernah memendam permusuhan apa pun terhadap kita. Ia hanya acuh tak acuh terhadap segala hal. Kehidupan dan harapan adalah kebisingan yang tidak berarti baginya. Tidak bermakna. Itulah tepatnya mengapa ia tidak akan pernah bisa memahami bagaimana kegelapan Voidspace dipenuhi dengan warna. Itu adalah cahaya dari kuburan kosmik. Cahaya bintang yang memudar triliunan tahun yang lalu. Bukti bahwa bintang-bintang itu pernah ada di sana.\"",
-        "imageUrl": "/icons/items/denia-3.webp"
-      }
-    ],
-    "stories": [
-      {
-        "title": "A Gift",
-        "content": "Bagi mereka yang membesarkannya, \"Denia\" hanyalah aset Fractsidus lainnya, pion lain bagi Grand Architect.\n\nDan \"Denia,\" secara teknis, bukanlah nama asli sama sekali.\n\nDi wilayah tempat ia dilahirkan, orang-orang biasanya mengucapkan \"Dasvidaniya\" saat berpisah, yang berarti \"sampai kita bertemu lagi.\"\n\nBagi manusia, sebuah nama adalah hadiah pertama dari orang tua kepada anak-anak mereka, selain dari kehidupan itu sendiri. Sejak saat itu, sang anak melangkah ke dunia sebagai sosok yang baru, tumbuh hari demi hari, perlahan menambahkan kedalaman dan makna pada nama tersebut.\n\nGadis itu memilih Denia sebagai namanya karena itu adalah satu-satunya hadiah yang tersisa dari keluarganya untuknya.\n\nBahkan jika keluarga itu hanya pernah ada dalam mimpi demam yang sekilas.\n\nIa telah menelusuri catatan kelahirannya. Ia bahkan mempertanyakan apakah ia bukan sesuatu yang dikonstruksi secara artifisial. Namun pada akhirnya, yang ia temukan hanyalah gambaran perpisahan yang kabur dalam ingatannya.\nDan sangat sulit untuk mengetahui apa pun dari potongan kecil ini. Kapan pun ia menanyakan hal itu kepada Grand Architect, jawabannya selalu sama: \"Ingatan tidak dapat diandalkan. Lupakan saja. Lebih baik kamu tidak tahu.\"\n\nMungkin Grand Architect ada benarnya.\n\nSuatu kali ia berbincang dengan Nastasha tentang nama teman-temannya, dan mempelajari berkah serta cerita yang mereka bawa. Beberapa adalah harapan untuk kedamaian atau kegembiraan. Yang lainnya adalah keinginan atau impian. Semuanya, dalam satu atau lain cara, merujuk pada kebahagiaan. Namun saat ia bertanya apa arti \"Denia,\" ia tidak menerima jawaban yang jelas.\n\nJelas bahwa Nastasha tidak ingin membicarakannya, jadi Denia berhenti bertanya. Setelah setahun mengamati dan meniru manusia, ia telah lama menguasai seni penyamaran dan penipuan.\nMungkin beberapa hal tidak akan pernah bisa diketahui.\n\nIa bahkan tidak yakin apakah ingatan kabur itu benar-benar miliknya. Mungkin itu berasal dari orisinal biologis yang menjadi modelnya... Mungkin itu tidak lebih dari sesuatu yang ditanamkan Fractsidus padanya untuk membuatnya tetap patuh.\n\nIa pernah tidak sengaja mendengar para peneliti Fractsidus menyebutkan bahwa sementara tubuh manusia mengganti sel dan zat-zatnya setiap beberapa tahun, ada sesuatu yang selalu menetap, untuk dimurnikan berkali-kali. Itulah yang membuat hidup begitu istimewa.\n\nItu terutama berlaku bagi mereka yang tidak pernah menemukan jalan kembali... Apa pun yang berhasil menempel pada ingatan akan terukir jauh ke dalam jiwa mereka. Bahkan hanya sebuah aroma. Itulah sebabnya beberapa orang suka menonton badai hujan, sementara yang lain terobsesi dengan melodi yang biasa saja. Begitulah manusia. Selalu berpura-pura rasional, sambil meluapkan semua emosi mereka melalui tindakan yang tidak rasional.\n\nMungkin dulu memang ada seorang gadis bernama Denia. Seorang gadis yang melambaikan tangan untuk mengucapkan selamat tinggal kepada ibunya.\nNamun apakah gadis itu benar-benar dirinya?"
-      },
-      {
-        "title": "A Wasteland",
-        "content": "Bersandar pada sisi Voidmatter Pod yang padat dan dingin, gelembung dan cairan busuk memaksa masuk ke dalam mulut serta hidung Denia.\n\nTetes. Tetes. Tetes.\n\nIndranya tumpul. Waktu seolah membentang menjadi selamanya.\n\nIa merasa bahwa segala sesuatu yang membentuk dirinya sedang ditarik hingga hancur. Frekuensinya terpecah menjadi benang yang tak terhitung jumlahnya. Tubuhnya larut menjadi kotoran, tersapu ke dalam lautan. Kemudian ia bangkit kembali, gumpalan kabut yang bergerak melintasi dunia dari satu ujung ke ujung lainnya seperti angin, menyapu gurun tak berwarna hingga ia mencapai bentangan langit yang familier dan membusuk itu.\n\nDan dunia yang sunyi menatap rendah ke arahnya, seperti biasanya, tanpa sepatah kata pun.\n\nKetika Grand Architect memilih Denia sebagai \"wadah\" untuk kekuatan Aleph-1, keputusan tersebut melampaui sekadar kompatibilitas fisik dan frekuensi. Tidak seperti Resonator lainnya, orang-orang yang dibentuk oleh kehidupan yang kaya dan emosi yang dalam Denia kosong. Sebuah cangkang hampa. Dan satu hal yang dirasakan oleh cangkang hampa terhadap diri mereka sendiri dan dunia, lebih dari apa pun, adalah \"kenihilan.\" Sebuah kualitas yang sangat selaras dengan logika keberadaan Aleph-1.\n\nDan persis seperti yang diharapkan, Denia berhasil merangkul kekuatan tersebut. Untuk sepersekian detik di Voidspace, matanya bertemu dengan mata Aleph-1. Momen singkat, namun cukup lama bagi Voidmatter untuk membanjiri pembuluh darah dan organ tubuhnya. Hal itu memberinya kekuatan untuk memanipulasi partikel Voidmatter dan membentuk hubungan dengan Voidspace itu sendiri.\n\nPada saat itu, ia hanya merasakan kesunyian yang familier dalam kehampaan, bersama dengan kedamaian yang menyertainya.\n\nNamun seiring berjalannya rencana, Fractsidus menyadari bahwa Resonance antara Denia dan Voidborne Threnodian menurun dengan cepat.\n\nKekuatannya sendiri tetap tidak berubah. Sesuatu yang lain berjalan salah. Wadah yang seharusnya tetap hampa... ternyata tidak. Tidak diragukan lagi, Denia gagal mencapai kesempurnaan yang mereka inginkan.\n\nDalam upaya meniru perilaku manusia, dalam meniru emosi yang tidak pernah dimaksudkan untuk ia rasakan, ia telah menumbuhkan hati yang rapuh dan perih.\n\nHati dari mereka yang lemah.\n\nDan dengan hati seperti itu, ia tidak akan pernah bisa benar-benar menjadi inkarnasi dari Aleph-1. Akibatnya, Fractsidus perlu mengisi wadah ini dengan sesuatu yang cukup kuat untuk memerintah \"kehampaan\" dan menyelesaikan langkah terakhir dalam menempa Resonator Aleph-1.\n\nDenia selalu tahu hari ini akan datang.\n\nNamun ketika hari itu tiba, bagaimana ia seharusnya menilai kehidupan yang telah ia jalani?\n\nSebuah boneka. Monster yang menyimpang... Atau sekadar setetes air di lautan yang tidak akan pernah dirindukan oleh siapa pun.\n\nTerkadang ia akan memikirkan waktu yang ia habiskan di Startorch Academy. Gadis di tengah kerumunan dengan senyuman yang tak terduga. Gadis yang tawa lembutnya membekas dalam ingatan orang lain. Gadis pemalas yang terkadang merasa bingung.\n\nApakah gadis itu benar-benar dirinya?\n\nNamun di sisi lain, apakah ia benar-benar bukan gadis itu?"
-      },
-      {
-        "title": "A Bright Light",
-        "content": "Senyuman adalah alat yang praktis. Sebuah cara berbiaya rendah untuk mempersempit jarak antara Anda dan orang lain.\n\nDenia pertama kali bertemu Sigrika saat tugas kelompok. Ia duduk di sudut ruang kelas, memutar-mutar sehelai rambut di belakang telinganya dengan santai sambil mengamati teman-teman sekelasnya berpasangan.\n\nAngin sore berembus melalui pintu, mencampur deru kendaraan dari tempat parkir dengan kebisingan dari alun-alun. Di dinding, sebuah poster untuk acara fan meeting Fleet Snowfluff berdesir dengan suara kertas yang tajam.\n\nSebuah suara ragu-ragu tiba-tiba menemukannya, menariknya keluar dari momen kenyamanan kecil itu.\n\n\"Apakah kamu mau mengerjakan tugas ini bersamaku, Denia?\"\n\nDenia menoleh dan melihat gadis berambut oranye itu dengan tangan tertekuk di belakang punggungnya. Secara terbiasa, ia memiringkan kepalanya sedikit, hanya untuk memastikan bahwa pertanyaan itu benar-benar untuknya, lalu memperdalam senyuman di wajahnya.\n\n\"Tentu, mengapa tidak?\" jawabnya. \"Tapi mengapa aku, Sigrika?\"\n\nSigrika menjelaskan bahwa, meskipun ia tahu Denia biasanya menyendiri, ia menyadari senyuman gembira di wajah Denia saat ia memperhatikan teman-teman sekelasnya membuat keributan. Hal itu membuat Sigrika berpikir bahwa ia pastilah orang yang baik. Tipe orang yang ingin ia jadikan teman.\n\nLembut.\n\nDenia mencari arti kata tersebut kemudian. Setelah mendengar penjelasan Grand Architect, ia yakin bahwa, ketika diterapkan padanya, istilah tersebut membawa rasa ironi yang berat.\n\nJika diberi pilihan lagi, Denia mungkin akan menolak ajakan tersebut. Banyak masalah yang bisa dihindari seandainya mereka tidak pernah bertemu.\n\nNamun pada saat itu, ia hanya mengangguk, tersenyum, dan memberi tahu Sigrika, \"Oke.\"\n\nKata-kata Nastasha dari beberapa hari yang lalu masih terngiang di telinganya: \"Kenyataannya adalah, bukannya kebanyakan orang tidak takut mati... orang-orang hanya mencoba untuk tidak memikirkannya.\"\n\nJangan berpikir. Jangan Melihat. Jangan mendengar. Jangan bertanya-tanya.\n\nDenia menemukan bahwa di dalam Startorch Academy, sesuatu berdiri di antara para murid dan konsep kematian, melindungi mereka dari bebannya.\n\nPada siang hari, kampus adalah sarang energi masa muda, di mana sesuatu yang baru menunggu untuk ditemukan di setiap sudut. Pada malam hari, mereka menatap bagan bintang, menonton mimpi yang dilukis Profesor Mornye di langit. Rasa bahagia ini menyelimuti indra mereka, membutakan mereka terhadap kenyataan pahit yang dilihat oleh \"ia\".\n\nNamun semua mimpi pada akhirnya berakhir. \"Ia\" akan tiba suatu hari nanti.\n\nPada saat itu, Nastasha telah mengacak-acak rambutnya dan memberi tahu dia, \"Kebanyakan anak seusiamu tidak memikirkan hal-hal seperti ini. Kamu masih muda. Kamu memiliki masa depan yang membentang di depanmu. Kamu harus lebih vokal dan bahagia, seperti teman sebayamu, alih-alih meringkuk di perpustakaan sepanjang hari, atau duduk di sini bersama pustakawan sepertiku membicarakan hal-hal berat semacam itu.\"\n\n\"Kematian adalah pertanyaan pamungkas dari kehidupan, Denia, tetapi masih terlalu dini bagimu untuk menyelesaikannya. Pertama-tama, kamu harus menemukan jalanmu sendiri.\"\n\nDenia tidak terlalu mengerti apa yang dimaksud Nastasha dengan kata-kata itu. Yang bisa ia lakukan hanyalah lebih jarang mengunjungi perpustakaan setelahnya.\n\nIa tidak ingin membuat Nastasha sedih."
-      },
-      {
-        "title": "A Mob",
-        "content": "Mereka yang dekat dengan Grand Architect semuanya pernah mendengar cerita melelahkan itu pada satu waktu atau lainnya.\n\nDahulu kala, ada seorang bodoh yang menjadi pahlawan besar murni karena ketidaksengajaan. Untuk menyelamatkan mereka yang menderita, ia menanggung harga yang tidak terbayangkan, harga yang tidak pernah seharusnya ia tanggung...\n\nPara Overseer memiliki pandangan mereka sendiri tentang pahlawan dalam cerita tersebut. Beberapa mengejeknya, beberapa membencinya, dan beberapa merasa kasihan padanya. Yang lain hanya tertawa mengabaikannya atau nyaris tidak menaruh perhatian.\n\nNamun nama yang terus dibawa oleh Grand Architect, nama yang sering kali mendatangkan keajaiban, tidak lebih dari sebuah kebohongan yang jauh dan samar bagi Denia.\n\nIa bahkan tidak tahu apakah ia terhitung sebagai salah satu dari \"mereka yang menderita.\" Ia hanya tahu bahwa kapan pun ia menyebut nama itu, Grand Architect akan menanggapi dengan tawa mengejek setengah ditujukan pada Denia, setengah pada diri mereka sendiri.\n\n\"Kamu tahu, aku juga berpikir ia seharusnya ada di sini,\" kata mereka. \"Namun karena ia tidak ada, kurasa ia tidak semahatahu atau semahakuasa seperti yang kamu harapkan.\"\n\n\"Sangat disayangkan, Denia. Tuhan yang paling kamu butuhkan tampaknya tidak membutuhkanmu.\"\n\nKecuali Denia tidak pernah menganggapnya sebagai tuhan. Justru sebaliknya, ia merasa kasihan padanya.\n\nJika semua yang dikatakan Grand Architect benar, maka orang yang mereka elu-elukan sebagai penyelamat hanyalah tahanan lain di dalam sangkar, ditinggalkan terabaikan di dunia ini. Seseorang yang berdarah. Yang berduka. Yang mati.\n\nDan itulah tepatnya mengapa ada satu hal yang tampaknya tidak dipahami baik oleh Grand Architect maupun orang itu: ia akan tetap berdiri di depan Keystone. Bahkan tanpa perintah dari Grand Architect.\n\nKarena Denia tidak dapat menemukan jawaban.\n\nJika orang-orang yang mengejar idealisme selalu berakhir dengan membayar harga yang lebih berat, bukankah itu berarti idealisme itu sendiri cacat?\n\nLagipula, di tempat-tempat yang tidak dapat dilihat oleh orang tersebut, selalu ada mereka yang bertahan hidup dengan aturan yang lebih \"elegan.\" Eksploitasi. Pengkhianatan. Mereka menikmati dunia yang telah ia korbankan untuk dilindungi, sambil mengejek orang-orang yang melemparkan diri mereka ke dalam badai.\n\nMengapa dunia selalu menunjukkan taringnya kepada jiwa-jiwa yang baik? Mengapa mereka yang memberi harga pada segala sesuatu justru menjadi orang-orang yang bertahan?\n\nDan jika ia bisa begitu mudah melepaskan masa lalunya sendiri, mengapa ia harus menyerahkan kebahagiaan kecil yang telah ia perjuangkan untuk digenggam, hanya untuk menghadapi sesuatu yang absurd dan mengerikan seperti Aleph-1 demi kepentingan orang lain?\n\nUntuk melindungi mereka? Namun siapa yang akan mengerti hal itu? Apa yang akan terjadi ketika orang tersebut jatuh?\n\nJika rencana Spacetrek Collective sudah bisa menyelamatkan mayoritas... maka apa yang sebenarnya sedang diperjuangkan oleh orang tersebut?\n\nSering kali, pemikiran yang Denia simpan terkubur di bawah lapisan topeng sangatlah sederhana.\n\nIa hanya berpikir bahwa di antara orang itu, dunia ini, dan dirinya sendiri, setidaknya salah satu dari mereka harus ada yang salah."
-      },
-      {
-        "title": "A Lie",
-        "content": "Kesadaran Denia terus jatuh, turun melalui kegelapan yang tak berujung.\n\nMenyerap fragmen terakhir Aleph-1 ke dalam Tacet Mark miliknya telah mendorong bentuk fisiknya melewati batas. Voidmatter menaklukkannya sekali lagi, persis seperti yang telah terjadi berkali-kali sebelumnya.\n\nIndranya tumpul. Waktu seolah membentang menjadi selamanya.\n\nLucu bagaimana akhir ini mencerminkan awal. Semuanya pas, cukup untuk membentuk sebuah lingkaran yang sempurna.\n\nNamun tidak seperti pertama kali ia berada di sini, Denia menyadari bahwa ia entah bagaimana telah berhenti gemetar. Napasnya stabil, dan rasa takut yang pernah menyesakkan dadanya telah lenyap.\n\nKetika tatapan itu bertemu dengan matanya lagi, ia perlahan mengulurkan tangan ke arah mata yang hampa tersebut. Kemudian, tangan yang sama yang menjangkau sesuatu itu mengepal. Ia mengangkat jari telunjuk dan jari tengahnya, mengarahkan mereka tepat ke tengah pupil itu, seolah-olah ia sedang membidik.\n\nIa melihatnya sekarang. Betapa konyolnya Aleph-1 sebenarnya.\n\nSesosok tuhan yang lahir dari dunia yang tidak berarti secara alami tidak memiliki apa-apa sama sekali. Didorong oleh insting kehampaan, ia mendambakan segalanya. Namun, tidak peduli seberapa banyak yang ia konsumsi, seberapa banyak yang ia hancurkan, ia tetap seperti semula, sendirian dalam dunia keheningan abadi, selamanya haus, tidak pernah puas, tidak meninggalkan apa pun.\n\nDan dasar yang kuat untuk ejekannya? Sebuah hati miliknya sendiri. Hal yang membedakannya dari Aleph-1.\n\nBahkan jika hati itu kecil, rapuh, dan bukan apa-apa dalam rentang waktu yang agung.\n\nNamun hati yang \"tidak berarti\" ini telah memungkinkan ia untuk memendam harapan demi hari esok. Sama seperti orang lain.\n\nAkan selalu ada mereka yang rela hidup demi sebuah kebohongan. Seperti yang pernah dikatakan oleh seorang teman tertentu yang menjengkelkan: Hati mendefinisikan siapa kita. Dan dengannya, seseorang mendapatkan hak untuk memilih. Sama seperti bagaimana manusia merayakan hari mereka dilahirkan, sebuah hari yang menandai pelarian mereka dari kehampaan dengan ingatan yang sekilas dan wujud yang fana. Sejak hari itu, mereka bisa merasakan dunia. Merasakan kegembiraan. Menjangkau orang lain. Dan karena semua itu, mereka bisa menciptakan sesuatu yang tidak akan pernah bisa diciptakan oleh kehampaan.\n\nDenia memejamkan mata. Ia membayangkan teman-temannya di seluruh negeri Solaris. Sigrika, mengejar burung melalui ladang saat matahari terbenam. Nastasha, membungkuk di atas buku-buku tua di perpustakaan. Dan sang pengembara yang pernah ia tipu, berkemas lagi untuk perjalanan panjang lainnya, di suatu tempat yang jauh, sangat jauh.\n\nPikiran itu hampir membuatnya tersenyum. Ia ingin meminjam nada bicara orang itu sejenak dan mengucapkan kata-kata dengan wajah serius yang sama:\n\n\"Aku harap mereka semua bahagia. Gembira. Bebas. Aku harap setiap keinginan mereka menjadi kenyataan.\"\n\nNamun kata-kata itu tercekat di tenggorokannya. Terlalu dramatis, pikirnya.\n\nJadi ia melepaskannya. Mungkin ini sudah cukup.\n\nTidak banyak hal di dunia ini yang benar-benar pernah menjadi milik Denia. Namun sekarang, setidaknya, ia bukan sebuah wadah. Bukan sebuah sampel. Bukan seorang pion. Kehampaan tidak memilikinya lagi. Begitu juga perintah-perintah itu. Begitu juga kebohongan-kebohongan itu.\n\nIa hanya mempersembahkan permohonan itu, secara diam-diam. Mulai sekarang, ia akan berada tepat di samping mereka. Tidak pernah pergi.\n\nDenia telah menemukan jalannya sendiri.\n\n  \n\nBang.\n\nSekarang itu bisa menjadi suara dari sebuah lelucon bagus yang baru saja dipecahkan. Kegelapan yang tak berujung itu ternyata memiliki akhir.\n\nDi suatu tempat dalam kemuraman, seseorang menghela napas lembut, seolah-olah mereka telah menunggu untuk waktu yang sangat lama."
-      }
-    ],
-    "specialFood": {
-      "name": "Honeypot Jam",
-      "description": "Memberikan 25% Healing Bonus kepada semua Resonator dalam tim selama 30 menit. Hanya efektif pada Resonator Anda sendiri dalam Co-op Mode.",
-      "imageUrl": "/icons/food/denia.webp"
+    "Sex": {
+      "Title": "No Description Available",
+      "Content": "Female"
+    },
+    "Country": {
+      "Title": "No Description Available",
+      "Content": "▉█"
+    },
+    "Influence": {
+      "Title": "No Description Available",
+      "Content": "<s>Fractsidus</s>"
+    },
+    "Info": {
+      "Title": "No Description Available",
+      "Content": "Denia, a Department of Voidmatters student at Startorch Academy. Also, a professional slacker who has mastered the art of dozing through courses.<br>Still, she hardly misses any campus event, always there to flash her \"gentle\" smile to one and all."
+    },
+    "TalentName": {
+      "Title": "No Description Available",
+      "Content": "Bubbles of Nihility"
+    },
+    "TalentDoc": {
+      "Title": "Resonance Evaluation Report",
+      "Content": "[Filed by <te href=851071>Spacetrek Collective</te>: <te href=851069>Startorch Academy</te> Student Records]<br><br>[Forte Examination Report: RA2499-G]<br><br>Student Name: Denia<br><br><te href=700009>Synchronist</te> Qualification: Negative<br><br>Forte Overview:Tests reveal a <te href=850067>Rabelle's Curve</te> with a pronounced periodic waveform. Therefore, the student is classified as a <te href=850068>Congenital Resonator</te>. Her <te href=850072>Tacet Mark</te> is located on her chest.<br>Based on the files from her recommender, the subject can generate bubbles infused with Remnant Energy, which can serve as a defensive or supportive measure in combat. The Remnant Energy of the bubbles can also be detonated on command when needed.<br>Test results also reveal that the bubbles have a unique fluid structure, allowing them to block Voidmatter at a grade comparable to the Exostrider coating.<br><br><span class=\"italic\">\"Wait, isn't that the bubble maker from those Lollo Logistics ads? My niece has that same exact toy! How in the world are you supposed to stop Voidmatter with bubbles like that?\"</span><br><span class=\"italic\">\"How did this get filed in the first place?! My goodness... Is anything in this report actually true?\"</span>"
+    },
+    "TalentCertification": {
+      "Title": "Overclock Diagnostic Report",
+      "Content": "Rabelle's Waveform test sample analysis shows elliptical fluctuations and a stable Time Domain. No abnormal fluctuations were observed. Examination results are within normal parameters.<br>Conclusion: Resonant Criticality is within normal range. Subject stability remains robust. No history and present risk of <te href=850073>Overclocking</te>.<br><te href=850067>Rabelle's Curve</te> stable. Psychological counseling is currently deemed unnecessary.<br><br><span class=\"italic\">\"No history and present risk of Overclocking? Have you ever seen a Resonator that can roll Voidmatter into cubes and start flinging it at people? Hiyuki even mentioned in her combat report that her <te href=850072>Tacet Mark</te> started tearing!\"</span><br><span class=\"italic\">\"That's it... I'm not buying a single word from this report now. Arman, I want the complete record from the Dimmr Plains ASAP!\"</span>"
+    },
+    "CVNameCn": {
+      "Title": "No Description Available",
+      "Content": "Ge Xinyu"
+    },
+    "CVNameJp": {
+      "Title": "No Description Available",
+      "Content": "Ito Miku"
+    },
+    "CVNameKo": {
+      "Title": "No Description Available",
+      "Content": "Park Si Yoon"
+    },
+    "CVNameEn": {
+      "Title": "No Description Available",
+      "Content": "Jodie Bell Cortez"
     }
   }
 }

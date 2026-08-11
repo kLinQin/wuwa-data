@@ -1,0 +1,97 @@
+{
+  "id": 1103,
+  "name": "Baizhi",
+  "recommendedStats": {
+    "HP": "19000+",
+    "Energy Regen": "200%+"
+  },
+  "build": {
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return"
+    ],
+    "bestWeapon": "Stellar Symphony",
+    "echoDetails": {
+      "note": "- FONR memberikan 10% ATK buff selama 20 detik (100% uptime, 20 detik CD)\n- sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat terhenti lebih awal jika shield yang diberikan terkena serangan sebanyak 3 kali. \n- FONR juga lebih mudah secara keseluruhan untuk dikumpulkan karena hanya menjatuhkan satu sonata set.",
+      "sets": [
+        {
+          "label": "Healer",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "HP/Healing Bonus%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            }
+          ],
+          "echoSlug": "bell-borne-geochelone",
+          "echoSlugSecondary": "fallacy-of-no-return",
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        }
+      ],
+      "substats": [
+        "Energy Regen",
+        "HP%",
+        "HP"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "stellar-symphony",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "variation",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "call-of-the-abyss",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "rectifier-25",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Forte Circuit"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "baizhi-support"
+    ],
+    "teamNote": "Baizhi memberikan buff berikut untuk rekan timnya:\n-Saat Euphonia diambil, +20% ATK selama 20 detik; S6 meningkatkan Glacio DMG Bonus sebesar 12% selama 20 detik -15% all-type DMG Amplify selama 6 detik saat memberikan penyembuhan setelah melancarkan Outro Skill."
+  },
+  "analysisCharts": []
+}

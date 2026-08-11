@@ -1,0 +1,20 @@
+{
+  "id": 1502,
+  "name": "Spectro Rover",
+  "lore": {
+    "description": "",
+    "manualEntries": [],
+    "report": {
+      "resonancePower": "",
+      "resonanceEvaluation": "",
+      "overclockDiagnostic": ""
+    },
+    "items": [],
+    "specialFood": {
+      "name": "",
+      "description": "",
+      "imageUrl": ""
+    },
+    "stories": []
+  }
+}

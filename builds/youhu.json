@@ -1,0 +1,115 @@
+{
+  "id": 1106,
+  "name": "Youhu",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110-125%+",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return"
+    ],
+    "bestWeapon": "Verity's Handle",
+    "echoDetails": {
+      "note": "FONR memberikan 10% ATK buff selama 20 detik (100% uptime, 20 detik CD), sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat terhenti lebih awal jika shield yang diberikan terkena serangan sebanyak 3 kali. FONR juga lebih mudah secara keseluruhan untuk dikumpulkan karena hanya menjatuhkan satu sonata set.",
+      "sets": [
+        {
+          "label": "Healer",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "bell",
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "veritys-handle",
+        "percentage": "113",
+        "rank": ""
+      },
+      {
+        "id": "tragicomedy",
+        "percentage": "107",
+        "rank": ""
+      },
+      {
+        "id": "pulsation-bracer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "abyss-surges",
+        "percentage": "100 ",
+        "rank": ""
+      },
+      {
+        "id": "stonard",
+        "percentage": "86",
+        "rank": ""
+      },
+      {
+        "id": "hollow-mirage",
+        "percentage": "82",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Skill",
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "youhu-support"
+    ],
+    "teamNote": "Youhu, seperti healer lainnya, terintegrasi dengan baik ke dalam sebagian besar komposisi tim. Ia memberikan Coordinated ATK DMG bagi Resonator berikutnya sebesar 100% selama 28 detik setelah melancarkan Outro Skill miliknya.\nIa paling bersinar saat dipasangkan dengan unit Sub DPS yang memiliki Coordinated Attacks, seperti Cantarella, Mortefi, Yinlin, dan Zhezhi.\n\nYouhu memberikan buff berikut untuk rekan timnya:\n- 100% Coordinated Attack DMG Amplify selama 28 detik setelah melancarkan Outro Skill."
+  },
+  "analysisCharts": []
+}

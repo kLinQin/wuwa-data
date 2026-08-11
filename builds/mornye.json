@@ -1,0 +1,190 @@
+{
+  "id": 1209,
+  "name": "Mornye",
+  "recommendedStats": {
+    "DEF": "2500+",
+    "Energy Regen": "240%",
+    "Crit Ratio (Crit Weapon)": "NA",
+    "Crit Ratio (Non Crit Weapon)": "NA"
+  },
+  "build": {
+    "bestEcho": [
+      "Reactor Husk"
+    ],
+    "bestWeapon": "Starfield Calibrator",
+    "echoDetails": {
+      "note": "Jika kamu mampu mencapai 260% ER hanya dengan 1x ER 3-cost, kamu dapat memilih untuk menggunakan Fusion DMG Bonus untuk damage lebih besar atau DEF% untuk tambahan heal dan damage yang seimbang. Saat berada di luar tim, disarankan untuk mencapai 240% ER karena Reactor Husk (main echo) dan inherent skill Mornye keduanya memberikan 10% Energy Regen.",
+      "sets": [
+        {
+          "label": "Healer",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "DEF%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            }
+          ],
+          "echoSlug": "reactor-husk",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Halo Of Starry Radiance"
+          ]
+        },
+        {
+          "label": "Healer",
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ],
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "DEF%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            },
+            {
+              "cost": 1,
+              "stat": "DEF%"
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "Energy Regen",
+        "DEF%",
+        "Reso Libe DMG",
+        "DEF"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "starfield-calibrator",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "discord",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "broadblade-41",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "BA123",
+          "HA",
+          "BA123",
+          "Skill",
+          "[F]HA",
+          "Ult",
+          "Echo+Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "aemeath-tune-break",
+      "aemeath-hypercarry",
+      "iuno-hypercarry"
+    ],
+    "teamNote": "Mornye memberikan buff berikut untuk rekan timnya:\n-25% All-Type DMG Amplify selama 30 detik setelah melancarkan Outro Skill\n-20% DEF dan peningkatan 40% healing multiplier selama 25 detik saat berada di dalam [High Syntony Field], yang mewarisi efek dari [Syntony Field]. Ini mencakup resistance to interruption yang lebih tinggi dan 50% Off-Tune Buildup Rate\n-25% ATK dari set bonus Halo of Starry Radiance\n-40% DMG Bonus melawan musuh yang terkena status [Tune Rupture atau Strain - Interfered], baik dengan S1 miliknya (berlangsung selama 20 detik) atau Lynae (8 detik).\n-Dengan Starfield Calibrator (Signature Mornye): 20% Crit. DMG selama 4 detik saat melakukan healing."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 4.5,
+          "imagePath": "",
+          "percentage": 4.5
+        },
+        {
+          "type": "HA",
+          "value": 4.4,
+          "imagePath": "",
+          "percentage": 4.4
+        },
+        {
+          "type": "Skill",
+          "value": 2.7,
+          "imagePath": "",
+          "percentage": 2.7
+        },
+        {
+          "type": "Lib",
+          "value": 60.7,
+          "imagePath": "",
+          "percentage": 60.7
+        },
+        {
+          "type": "Echo",
+          "value": 5.6,
+          "imagePath": "",
+          "percentage": 5.6
+        },
+        {
+          "type": "Rupture",
+          "value": 18.8,
+          "imagePath": "",
+          "percentage": 18.8
+        },
+        {
+          "type": "Intro",
+          "value": 3.8,
+          "imagePath": "",
+          "percentage": 3.8
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Mornye - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
+    }
+  ]
+}

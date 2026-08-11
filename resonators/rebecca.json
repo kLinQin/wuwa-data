@@ -1,18 +1,19 @@
 {
+  "id": 1308,
   "name": "Rebecca",
-  "element": "Electro",
-  "weapon": "Pistol",
+  "element": 3,
   "rarity": 5,
+  "weapon": 3,
   "version": "3.4",
   "lastUpdated": "2026-06-08",
   "roles": [
-    "Concerto Efficiency",
-    "Basic Attack DMG",
-    "Heavy Attack DMG Amplification",
-    "Tune Break Boost"
+    3,
+    4,
+    29,
+    34
   ],
   "sonatas": [
-    "Shadow of Shattered Dreams"
+    29
   ],
   "changelog": [
     {
@@ -36,187 +37,6 @@
   "image": "/characters/rebecca.webp",
   "icon": "/icons/characters/rebecca.webp",
   "imageBanner": "/banners/rebecca-banner.jpeg",
-  "recommendedStats": {
-    "ATK": "1900 - 200+",
-    "Energy Regen": "120",
-    "Crit Ratio (Crit Weapon)": "70% : 265 - 295%",
-    "Crit Ratio (Non Crit Weapon)": "65% : 225%"
-  },
-  "build": {
-    "bestEcho": [],
-    "bestWeapon": "Skull Thrasher",
-    "echoDetails": {
-      "sets": [
-        {
-          "label": "With Lucy/Augusta",
-          "sonataCustom": [
-            {
-              "name": "Shadow Of Shattered Dreams",
-              "set": 3
-            },
-            {
-              "name": "Reel Of Spliced Memories",
-              "set": 2
-            },
-            {
-              "name": "Void Thunder",
-              "set": 2
-            }
-          ],
-          "echoSlug": "reminiscence-adam-smasher",
-          "echoSlugSecondary": "",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 3,
-              "stat": "electro%"
-            },
-            {
-              "cost": 3,
-              "stat": "electro%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ]
-        },
-        {
-          "label": "Other DPS",
-          "sonataCustom": [
-            {
-              "name": "Moonlit Clouds",
-              "set": 5
-            }
-          ],
-          "echoSlug": "bell-borne-geochelone",
-          "echoSlugSecondary": "",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 3,
-              "stat": "electro%"
-            },
-            {
-              "cost": 3,
-              "stat": "electro%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ]
-        }
-      ],
-      "substats": [
-        "CR% / CDM%",
-        "Energy Regen",
-        "ATK%",
-        "Basic Attack DMG Bonus",
-        "ATK"
-      ],
-      "note": "Saat dipasangkan dengan Lucy atau Augusta, gunakan Moonlit Clouds untuk team DPS yang lebih tinggi. Bellborne lebih disukai karena rotasinya. Shadows of Shattered Dreams hanya untuk personal damage miliknya."
-    },
-    "weaponNote": "",
-    "weaponOptions": [
-      {
-        "id": "skull-thrasher",
-        "rank": "",
-        "percentage": "118.72%"
-      },
-      {
-        "id": "phasic-homogenizer",
-        "rank": "",
-        "percentage": "102.97%"
-      },
-      {
-        "id": "static-mist",
-        "rank": "",
-        "percentage": "100.00%"
-      }
-    ],
-    "rotations": [],
-    "talentPriority": {
-      "priority": [
-        "Resonance Liberation",
-        "Forte Circuit",
-        "Normal Attack",
-        "Intro Skill",
-        "Resonance Skill"
-      ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false
-      ]
-    },
-    "teams": [
-      {
-        "name": "Hack Premium",
-        "members": [
-          [
-            "Rebecca"
-          ],
-          [
-            "Lucy"
-          ],
-          [
-            "Mornye",
-            "Shorekeeper"
-          ]
-        ],
-        "note": "Disarankan untuk menggunakan Moonlit Clouds pada Rebecca karena menghasilkan team DPS yang lebih besar, terutama jika Lucy milikmu memiliki investasi yang lebih tinggi."
-      },
-      {
-        "name": "HACK ALT",
-        "members": [
-          [
-            "Rebecca"
-          ],
-          [
-            "Augusta"
-          ],
-          [
-            "Mornye",
-            "Shorekeeper"
-          ]
-        ],
-        "note": "Rebecca memberikan Augusta hingga 35% Heavy DMG Amplify setelah melancarkan Outro Skill miliknya beserta dengan buff tambahan seperti peningkatan 20% ATK saat melancarkan Resonance Liberation [Party 'Til Dawn!]."
-      },
-      {
-        "name": "Hack F2P",
-        "members": [
-          [
-            "Rebecca"
-          ],
-          [
-            "Sanhua"
-          ],
-          [
-            "Shorekeeper"
-          ]
-        ],
-        "note": ""
-      }
-    ],
-    "teamNote": "Rebecca memberikan buff berikut untuk rekan satu timnya:\n- +20% ATK selama 30 detik saat melancarkan Resonance Liberation [Party 'Til Dawn!]\n- 30 Tune Break Boost untuk Lucy\n- 15% All-DMG Amplify selama 14 detik setelah melancarkan Outro Skill, di mana Resonator yang masuk kemudian bisa mendapatkan hingga 35% Heavy Attack DMG Amplify pada stack(s) penuh. Efek ini otomatis jika Resonator tersebut adalah Lucy\n- Memanggil sebuah turret yang terus-menerus menyerang selama 14 detik, yang dapat diperkuat lebih lanjut oleh Lucy, meningkatkan DMG multiplier miliknya sebesar 250%\n- Dengan Skull Trasher (Signature Rebecca): +24% ATK selama 30 detik saat memberikan Hack - Shifting."
-  },
   "skills": {
     "basic": {
       "name": "Mix-'N'-Match",
@@ -588,134 +408,6 @@
       ]
     }
   },
-  "analysisCharts": [
-    {
-      "title": "Weapon - Rebecca",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
-      "data": [
-        {
-          "type": "Skull Thrasher",
-          "value": 641496.24,
-          "percentage": 118.72,
-          "imagePath": ""
-        },
-        {
-          "type": "Phasic Homogenizer",
-          "value": 556385.23,
-          "percentage": 102.97,
-          "imagePath": ""
-        },
-        {
-          "type": "Static Mist",
-          "value": 540342.15,
-          "percentage": 100,
-          "imagePath": ""
-        }
-      ]
-    },
-    {
-      "title": "Sequence - Rebeccaa",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
-      "data": [
-        {
-          "type": "S0",
-          "value": 641496.24,
-          "percentage": 100,
-          "imagePath": ""
-        },
-        {
-          "type": "S1",
-          "value": 676542.03,
-          "percentage": 105.46,
-          "imagePath": ""
-        },
-        {
-          "type": "S2",
-          "value": 779441.24,
-          "percentage": 121.5,
-          "imagePath": ""
-        },
-        {
-          "type": "S3",
-          "value": 971418.73,
-          "percentage": 151.43,
-          "imagePath": ""
-        },
-        {
-          "type": "S4",
-          "value": 1050453.52,
-          "percentage": 163.75,
-          "imagePath": ""
-        },
-        {
-          "type": "S5",
-          "value": 1106622.58,
-          "percentage": 172.51,
-          "imagePath": ""
-        },
-        {
-          "type": "S6",
-          "value": 1440584.36,
-          "percentage": 224.57,
-          "imagePath": ""
-        },
-        {
-          "type": "S6R5",
-          "value": 1619034.62,
-          "percentage": 252.38,
-          "imagePath": ""
-        }
-      ]
-    },
-    {
-      "title": "Damage - Rebeccaa",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
-      "data": [
-        {
-          "type": "BA",
-          "value": 62.5,
-          "percentage": 62.5,
-          "imagePath": ""
-        },
-        {
-          "type": "Hack",
-          "value": 20.4,
-          "percentage": 20.4,
-          "imagePath": ""
-        },
-        {
-          "type": "Intro Skill",
-          "value": 4.2,
-          "percentage": 4.2,
-          "imagePath": ""
-        },
-        {
-          "type": "Outro",
-          "value": 4.6,
-          "percentage": 4.6,
-          "imagePath": ""
-        },
-        {
-          "type": "Echo",
-          "value": 4.4,
-          "percentage": 4.4,
-          "imagePath": ""
-        },
-        {
-          "type": "Reso Skill",
-          "value": 3.9,
-          "percentage": 3.9,
-          "imagePath": ""
-        }
-      ]
-    }
-  ],
   "sequences": [
     {
       "stage": "S1",
@@ -784,66 +476,54 @@
       ]
     }
   ],
-  "lore": {
-    "description": "Seorang Edgerunner seperti Lucy, tapi benar-benar berbeda dalam cara kerjanya.  \nBola api yang penuh keinginan, selalu siap menghanguskan masalahmu dengan senapan laras pendeknya.",
-    "manualEntries": [
-      {
-        "title": "NATIONS",
-        "description": "Night City"
-      },
-      {
-        "title": "FAMILLY",
-        "description": "Papa Sunrise (Father)\nPilar (older brother - Sibling)\n"
-      }
-    ],
-    "report": {
-      "resonancePower": "Fury-Type Arsenal",
-      "resonanceEvaluation": "Resonance Evaluation Report  \n[██ Record Modification Log]\n\nModification Target: Rebecca  \nModification Code: RA2██-G\n\nSubjek teridentifikasi sebagai Mutant-Type Resonator, dengan Tacet Mark terletak di bahu kanan.\n\nForte Manifestation:  \nSaat menggunakan senjata api yang berasal dari ██, subjek dapat meningkatkan presisi balistik dan efektivitas terminal senjata tersebut. Berdasarkan kemampuan ini, serangan subjek mampu menetralisir dan mengganggu frekuensi di sekitar Nightmare Tacet Discords tertentu, memberikan damage tambahan pada target yang terkena.\n\nFirearm Summoning:  \nSubjek dapat memanggil tiga senjata api spesifik yang dirancang untuk skenario pertempuran berbeda, menggunakan Forte-nya untuk mewujudkan dan menghilangkan senjata-senjata tersebut. Saat senjata dipanggil, output damage-nya berfluktuasi sesuai kondisi emosional subjek, menunjukkan adanya loop umpan balik langsung antara Forte-nya dan parameter performa senjata.\n\n> \"Sampel frekuensi subjek menunjukkan kemiripan hingga 97% dengan frekuensi Nightmare Tacet Discords di wilayah tersebut. Diduga keduanya memiliki korelasi tertentu.\"  \n> \"███ melakukan intervensi. Penelitian terkait dihentikan.\"",
-      "overclockDiagnostic": "Overclock Diagnostic Report  \nDiagram gelombang subjek menunjukkan osilasi elips dengan Time Domain yang stabil. Tidak ditemukan kecenderungan fluktuasi abnormal. Hasil pemeriksaan berada dalam parameter normal.\n\nKesimpulan: Resonant Criticality tinggi dan stabilitas subjek tetap kuat. Tidak ada risiko Overclocking dalam waktu dekat.  \nTidak ada riwayat Overclocking; namun, subjek menunjukkan ketidakstabilan emosional. Konseling psikologis terbukti minim efektivitas.\n\n> \"****! Di Night City, aku praktis jadi poster anak sehat mental!\"  \n> \"Sampel ini terlalu standar... Yakin ini bukan cuma disalin dari manual?\""
+  "favorRole": {
+    "Birthday": {
+      "Title": "No Description Available",
+      "Content": "Unknown"
     },
-    "items": [
-      {
-        "name": "Guts",
-        "description": "Senjata andalan Rebecca teman hidup dan matinya. Sama seperti dirinya, shotgun kinetik ini menghantam seperti kereta barang dan tendangannya liar seperti orang gila. Setiap tembakan adalah taruhan, dan kamu tak pernah tahu ke mana recoil-nya akan melemparkanmu berikutnya.\n\nBagi kebanyakan orang, risiko menggunakannya tak sebanding dengan imbalannya. Tapi bagi Rebecca, senjata buas inilah yang membangun namanya di jalanan. Ia bahkan memasang sepasang cyberarm berukuran besar hanya untuk menahan guncangan recoil-nya.\n\n\"Perlakukan dengan hati-hati, kecuali kamu memang ingin melukis trotoar dengan isi perutmu sendiri.\"",
-        "imageUrl": "/icons/items/rebecca-1.webp"
-      },
-      {
-        "name": "Dog Collar",
-        "description": "Kalung milik anjing Rebecca, Cup-Cup. Ia menjadi pemiliknya setelah \"mengangkat\" Cup-Cup di tengah-tengah sebuah job. Alasannya...? Hanya karena hati lembut yang tak pernah mau ia akui. Cup-Cup seekor pudel. Lucu. Penurut kalau memang sedang mau. Di malam-malam berangin saat tidur di jalanan, ia akan meringkuk di pelukan Rebecca dan saling berbagi kehangatan.\n\nRebecca tak pernah mengatakannya. Tak perlu. Tapi setiap kali nama Cup-Cup disebut, ada sorot tertentu di matanya. Kadang ia mengeluarkan kalung itu dan mengusapnya perlahan. Bertanya-tanya apa yang bisa ia lakukan berbeda.\n",
-        "imageUrl": "/icons/items/rebecca-2.webp"
-      },
-      {
-        "name": "Gold Cyberhand",
-        "description": "Cyberhand emas milik Pilar, salah satu dari sedikit benda yang tersisa darinya.\n\nWarnanya tak cocok dengan chrome-nya sendiri, tapi menjualnya tak pernah terpikirkan oleh Rebecca. Tak seorang pun berani meminta untuk mengambilnya. Semua tahu balasan yang akan mereka terima: moncong senapan di wajah dan tendangan keluar pintu.",
-        "imageUrl": "/icons/items/rebecca-3.webp"
-      }
-    ],
-    "stories": [
-      {
-        "title": "Edgerunners  ",
-        "content": "Berbeda dengan kakaknya, Rebecca tak pernah berniat menjadi edgerunner. Mereka berdua dibesarkan oleh tentara bayaran legendaris yang dikenal sebagai Papa Sunrise satu-satunya orang tua mereka. Tapi meski ia menghabiskan bertahun-tahun menanamkan warisannya pada keduanya, Rebecca tak pernah merasakan hasrat keras kepala Pilar untuk mewarisi mimpi ayah mereka.\n\nIa ingin kebebasan. Ia ingin hal-hal manis. Ia ingin menemukan mimpinya sendiri di Night City... yang artinya ia sering bentrok dengan ayah angkatnya itu.\n\nHidup tak menunggu siapa pun memutuskan. Saat Papa Sunrise menghilang tanpa jejak, hidup Rebecca dan Pilar berubah drastis menjadi jauh lebih buruk. Mereka terpaksa tidur di belakang mobil rusak dulu kendaraan setia ayah mereka di tiap job, kini satu-satunya warisan yang tersisa.\n\nWakako, fixer legendaris sekaligus rekan lama ayah mereka, melemparkan tali penyelamat atau lebih tepatnya, sebuah job. Ia memberi mereka kesempatan membuktikan bahwa mereka layak mewarisi nama Papa. Tapi masih jauh perjalanan sebelum kedua saudara itu benar-benar pantas mengenakan sepatu edgerunner.\n\nSeperti yang selalu diperingatkan Papa Sunrise, Rebecca terlalu emosional, terlalu tak terduga, dan jauh terlalu panas kepala untuk Night City. Ia nyaris gagal dalam misi demi misi; alih-alih mengikuti instruksi sederhana dari fixer-nya, ia selalu memilih mengikuti instingnya. Pilar tak tahan melihatnya, dan keduanya selalu bertengkar hebat usai tiap job. Tapi pada akhirnya, meski terus ribut, ia tetap ingin membantu kakaknya mewujudkan mimpinya.\n\nSemuanya mulai berubah saat mereka bergabung dengan kru Maine. Kebiasaan Rebecca dan Pilar saling menyela menjadi santapan sehari-hari kru sering kali berupa latar belakang ribut berisi umpatan kasar. Orang lain heran kenapa mereka tetap bersama jika saling benci begitu rupa.\n\nTapi jauh di dalam hati, mereka benar-benar peduli satu sama lain."
-      },
-      {
-        "title": " A Diamond In The Sewer  ",
-        "content": "Setiap orang yang pernah berpapasan dengan Rebecca punya kesan yang sama: senjata liar, temperamen mudah meledak. David tahu itu lebih baik daripada siapa pun; ia sudah kehilangan hitungan berapa kali harus membersihkan kekacauan yang dibuatnya. Bagi orang luar, ia adalah jenis edgerunner yang berbeda. Ia tak peduli pada bayaran atau risiko asalkan suatu job tak melanggar garis moralnya, ia akan menerimanya. Ia bisa masuk ke peran apa pun yang dibutuhkan job itu. Malam ini, ia gadis polos yang terjebak dalam tembak-menembak; besoknya, punk bosan yang cari masalah di bar. Tapi ia selalu lebih suka jadi ototnya. Arahkan senjata. Tarik pelatuk. Urus detailnya setelah asap menghilang. Kebrutalannya bikin rekan-rekannya stres, tapi tak ada yang benar-benar membencinya. Bukan saat ia selalu menjaga punggung mereka di setiap langkah.\n\nDi Night City, bertahan hidup sebagai edgerunner butuh lebih dari sekadar saraf baja; kamu butuh sesuatu yang membedakanmu. Maine punya hand cannon-nya. Dorio punya tinjunya. Kiwi punya teknologinya. David punya Sandevistan-nya, tentu, tapi itu tak menjadikannya pembunuh. Ia masih pemula, belum halus. Ia perlu belajar cara memegang besi, dan cepat. Rebecca adalah pilihan alami untuk mengajarinya. Sebagai ahli senjata yang ditunjuk sendiri oleh kru, ia mengenal senjatanya seperti punggung tangannya sendiri. Di lapangan tembak, ia presisi; di jalanan, ia badai peluru yang menakutkan. Saat David sadar ia butuh sedikit tambahan daya mematikan untuk bertahan hidup, Rebecca tak ragu. Ia langsung melemparkannya ke jurang terdalam. Memandunya lewat tiap latihan. Mencoba memasukkan seumur hidup pengetahuan bertahan hidup ke kepala anak itu sebelum kota sempat melahapnya hidup-hidup."
-      },
-      {
-        "title": "Love, Death & Chrome  ",
-        "content": "Rebecca tak pernah repot menyembunyikannya. Ia menyukai David sederhana saja. Tapi untuk seseorang yang menjalani hidup seperti granat aktif, ia justru luar biasa disiplin soal perasaannya padanya. Ia tetap tenang. Ia tahu ia tak akan pernah jadi gadis yang dirindukan David. Tak peduli gerakan, sudut, atau trik apa yang ia coba tunjukkan, jelas hati David tak akan pernah jadi miliknya. Tapi menyerah bukan gayanya. Jika ia tak bisa memilikinya, ia akan curahkan semua energi itu untuk menjaganya tetap hidup.\n\nTugas ini jadi jauh lebih sulit dan lebih penting setelah kehilangan separuh anggota krunya. Satu per satu, wajah-wajah yang dikenal berubah jadi nama dingin di dinding makam. Bahkan untuk gadis sekeras Rebecca, yang seumur hidup mengenal kehilangan, ini terlalu berat. Ia menemukan pojok di gang buntu dan mengosongkan magazen demi magazen ke kegelapan, berteriak memaki seolah suara itu bisa menenggelamkan duka yang mencakar dari dalam. Kenapa jadi begini? Bukankah ia sudah cukup membayar? Ia tak punya mimpi besar. Ia tak peduli jadi legenda. Yang ia inginkan satu-satunya hal yang penting adalah tak harus menyaksikan orang yang dicintainya mati di depan matanya lagi.\n\nJadi saat David mulai memasang chrome, membawa obor Maine seolah hanya beban itu yang harus ditanggungnya sendiri, kecemasan langsung menggerayangi dadanya. Pemimpin kru? Tentara bayaran heboh dengan perangkat militer? Tidak. Baginya, ia tetap anak kecil. Anak sombong dengan mimpi besar yang bisa menelannya utuh. Dan Rebecca tak akan membiarkan itu terjadi. Tak tanpa perlawanan. Dengan lengan cyber baru yang dirancang untuk menahan recoil berat, ia maju sebagai wakil komandan David. Siap jadi pedang sekaligus perisainya. Memastikan si bodoh yang dicintainya ini tak bunuh diri."
-      },
-      {
-        "title": "Let'S Go, All The Way To The Top Of Arasaka Tower  ",
-        "content": "Ketakutan yang selama ini dibawa Rebecca akhirnya jadi kenyataan. Meski David punya toleransi luar biasa tinggi, tubuhnya tak sanggup mengimbangi tumpukan chrome yang terus ia pasang. Ditambah beban keputusan yang harus diambil, ia terdorong ke ambang cyberpsychosis. Rebecca ingin ia bersikap lebih ringan, khawatir akan kondisi mentalnya, tapi David selalu bertindak cepat persis seperti dirinya.\n\nJob terakhir mereka sangat berbahaya bahkan mustahil. Tapi David bersikeras. Rebecca marah, tapi sudah tak bisa mundur. Baru ketika terlambat ia sadar kebenarannya: mereka masuk jebakan. Dirancang teliti. Dieksekusi sempurna. Mereka tak pernah curiga bahwa rekan satu kru mereka sendiri telah mengkhianati mereka.\n\nSaat tahu Lucy ditangkap, David rela keluar dari tubuhnya sendiri demi menyelamatkannya. Misi bunuh diri, titik. Rantai domino sudah jatuh, satu keputusan buruk memicu longsoran bencana. Tak ada waktu mengurai kekacauan. Tak ada waktu ragu. Rebecca menggenggam senjatanya, menatap si idiot yang rela mempertaruhkan segalanya demi wanita yang dicintainya, lalu menghela napas panjang dan letih.\n\n\"...Ya sudah. Masukin aku juga, choomba. Masuk ke api.\"\n\nNight City tak akan pernah lupa malam itu. Kendaraan mereka melaju kencang menuju Menara Arasaka, unit MaxTac menembaki mereka dari kedua sisi. David membakar Sandevistan-nya. Lagi. Lagi. Lagi. Menjalankan rencana yang begitu gegabah hingga layak disebut tiket sekali jalan. Rebecca tak punya pilihan selain mendukungnya memastikan ia sampai ke Corpo Plaza hidup-hidup. Semua itu terjadi di bawah cahaya neon Night City yang mengalir di cakrawala.\n\nMeski segala rintangan, Rebecca tetap memegang harapannya.\n\nIa mempertaruhkan semuanya pada Lucy. Untuk terakhir kalinya, ia memasukkan cinta dan keberaniannya ke dalam ruang peluru."
-      },
-      {
-        "title": "Life In Limbo  ",
-        "content": "Setelah menyadari dirinya berada di Somnoire, Rebecca langsung tahu ia sudah mati. Ia memilih diam agar tak membebani Lucy dengan kenyataan itu.\n\n\"Bilang aja malah bikin Lucy makin kacau. Kalau dia mulai ngerasa bersalah atau iba, aku bakal kesel.\"\n\nDi atas kereta yang melaju kencang menembus dimensi mimpi, Rebecca mengangkat bahu dan memasukkan peluru ke senjatanya, satu per satu. Di luar jendela, bintang-bintang berlari cepat secerah dan semenyilau neon yang dulu melukis langit Night City. Ia sedang dalam perjalanan menyelamatkan seseorang. Cerita lama. Ia masih berjuang untuk Lucy, seseorang yang tak ia mengerti tapi tak bisa berhenti dikagumi. Tapi kali ini, David tak di sisinya. Dan gadis yang akan mereka selamatkan tak kabur lagi.\n\nIa benci mengakuinya, tapi di suatu titik sepanjang perjalanan, ia sadar mengapa ia benar-benar ada di sini. Bahkan jika David tak memintanya, ia tetap akan mengangkat senjatanya dan mengejar netrunner menyebalkan itu. Ia bagian dari kru. Dan kru adalah choom yang paling ia pedulikan.\n\nMemilih jalannya sendiri, mengambil keputusannya sendiri itulah yang selalu ia inginkan. Dan ia akan terus melakukannya. Tak peduli risikonya, ia akan terjun ke api jika diperlukan demi menyelamatkan teman-temannya.\n\n\"Kereta terbang, kucing ngomong, kamu sama Abby... Heh, kru kita ini levelnya gila.\"\n\n\"Aku bilang, aku bukan kucing, meow... Dan jangan lupa, tujuannya ambil Dream Band...\"\n\n\"Santai, aku hafal! Kita ubah si kepala chrome itu jadi besi rongsokan, kan?\"\n\n\"Kamu nggak dengar satu kata pun, ya...\"\n\nRebecca menyungging senyum miring, menggaruk kucing putih itu di belakang telinga, lalu memasukkan tangan ke saku dan duduk di sampingmu. Rover.\n\n\"Jadi, uh… agak telat minta maaf karena udah narik kamu ke ini, ya?\"\n\nSebuah bump tinju. Itu saja yang dibutuhkan agar ia tahu ia sudah dimaafkan. Rebecca menyeringai, mengangkat Guts ke bahunya, dan berjalan santai ke pintu kereta.\n\n\"Ujung jalur! Ayo lakukan apa yang kita datang untuk lakukan!\""
-      }
-    ],
-    "specialFood": {
-      "name": "",
-      "description": "",
-      "imageUrl": ""
+    "Sex": {
+      "Title": "No Description Available",
+      "Content": "Female"
+    },
+    "Country": {
+      "Title": "No Description Available",
+      "Content": "Unknown"
+    },
+    "Influence": {
+      "Title": "No Description Available",
+      "Content": "Unknown"
+    },
+    "Info": {
+      "Title": "No Description Available",
+      "Content": "An Edgerunner like Lucy, though completely different in her M.O.<br>A whimsical fireball who's always ready to raze out your troubles with her shotgun."
+    },
+    "TalentName": {
+      "Title": "No Description Available",
+      "Content": "Fury-Type Arsenal"
+    },
+    "TalentDoc": {
+      "Title": "Resonance Evaluation Report",
+      "Content": "[██ Record Modification Log]<br><br>Modification Target: Rebecca<br>Modification Code: RA2██-G<br><br>The subject is identified as a Mutant-Type Resonator, with the Tacet Mark located on the right shoulder.<br><br>Forte Manifestation:<br>When utilizing firearms originating from ██, the subject can enhance the weapons' own ballistic precision and terminal effectiveness. Building upon this foundation, the subject's attacks can neutralize and disrupt the frequency surrounding specific Nightmare Tacet Discords, inflicting additional damage to targets hit.<br><br>Firearm Summoning:<br>The subject can summon three specific firearms tailored to different combat scenarios, using her Forte to materialize and dematerialize these weapons. While a weapon is being summoned, its damage output fluctuates in response to the subject's emotional state, suggesting a direct feedback loop between her Forte and the weapon's performance parameters.<br><br><span class=\"italic\">\"The subject's frequency sample exhibits up to 97% similarity to the frequency of Nightmare Tacet Discords in the region. It is speculated that the two share a certain correlation.\"</span><br><span class=\"italic\">\"███ intervened. Related research terminated.\"</span>"
+    },
+    "TalentCertification": {
+      "Title": "Overclock Diagnostic Report",
+      "Content": "The subject's waveform diagram exhibits elliptical oscillations with a stable Time Domain. No abnormal fluctuation tendencies were observed. Examination results are determined to be within normal parameters. <br> <br>Conclusion: Resonant Criticality is high and subject stability remains robust. No immediate risk of Overclocking. <br>No history of Overclocking; however, the subject exhibits emotional instability. Psychological counseling has shown minimal efficacy.<br> <br><span class=\"italic\">\"****! In Night City, I'm practically the poster child for mental health!\"</span><br><span class=\"italic\">\"This sample is way too textbook... You sure someone didn't just copy-paste it from a manual?\"</span>"
+    },
+    "CVNameCn": {
+      "Title": "No Description Available",
+      "Content": "Chen Zhang"
+    },
+    "CVNameJp": {
+      "Title": "No Description Available",
+      "Content": "Kurosawa Tomoyo"
+    },
+    "CVNameKo": {
+      "Title": "No Description Available",
+      "Content": "Park Si Yoon"
+    },
+    "CVNameEn": {
+      "Title": "No Description Available",
+      "Content": "Alex Cazares"
     }
   }
 }

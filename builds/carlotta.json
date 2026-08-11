@@ -1,0 +1,234 @@
+{
+  "id": 1107,
+  "name": "Carlotta",
+  "recommendedStats": {
+    "ATK": "2100+",
+    "Energy Regen": "100-130%",
+    "Crit Ratio (Crit Weapon)": "70% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Sentry Construct"
+    ],
+    "bestWeapon": "The Last Dance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "sentry-construct",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Frosty Resolve"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "the-last-dance",
+        "percentage": "121",
+        "rank": ""
+      },
+      {
+        "id": "phasic-homogenizer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "static-mist",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "undying-flame",
+        "percentage": "R5- 87",
+        "rank": ""
+      },
+      {
+        "id": "thunderbolt",
+        "percentage": "R5- 84",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Skill12(Swap)",
+          "Intro",
+          "Skill12",
+          "Forte",
+          "Ult(x6)",
+          "Skill12",
+          "Echo(Swap)",
+          "Outro"
+        ],
+        "title": "Standar Rotasi"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Forte Circuit",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "carlotta-tune-break",
+      "carlotta-hypercarry",
+      "carlotta-quickswap"
+    ],
+    "teamNote": "- Zhezhi adalah support terbaik Carlotta karena Outro Skill miliknya memberikan 20% Glacio & 25% Res. Skill DMG Amplify. Ia juga memberikan Resonance Energy Regeneration, yang menurunkan kebutuhan ER Carlotta.\n- Jika Zhezhi tidak tersedia, Res. Skill Amplifier lainnya seperti Brant atau Cantarella mungkin dapat digunakan. Lumi dan Taoqi adalah opsi bintang 4 kalian. kalian juga dapat memasangkannya dengan tim quick swap umum seperti Changli atau Xiangli Yao."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1179863.45,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1316910.45,
+          "imagePath": "",
+          "percentage": 111.62
+        },
+        {
+          "type": "S2",
+          "value": 1602494.68,
+          "imagePath": "",
+          "percentage": 135.82
+        },
+        {
+          "type": "S3",
+          "value": 2001670.59,
+          "imagePath": "",
+          "percentage": 169.65
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Carlotta",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "The Last Dance",
+          "value": 1179863.45,
+          "imagePath": "",
+          "percentage": 117.8
+        },
+        {
+          "type": "Woodland Aria",
+          "value": 1032042.5,
+          "imagePath": "",
+          "percentage": 103.04
+        },
+        {
+          "type": "Static Mist",
+          "value": 1001561.34,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Thunderbolt R5",
+          "value": 984860.35,
+          "imagePath": "",
+          "percentage": 98.33
+        },
+        {
+          "type": "Undying Flame R5",
+          "value": 910261.57,
+          "imagePath": "",
+          "percentage": 90.88
+        },
+        {
+          "type": "Relativistic Jet",
+          "value": 867777.55,
+          "imagePath": "",
+          "percentage": 86.64
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Carlotta",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Skill",
+          "value": 80.9,
+          "imagePath": "",
+          "percentage": 80.9
+        },
+        {
+          "type": "Echo",
+          "value": 3,
+          "imagePath": "",
+          "percentage": 3
+        },
+        {
+          "type": "Intro",
+          "value": 1.9,
+          "imagePath": "",
+          "percentage": 1.9
+        },
+        {
+          "type": "Outro",
+          "value": 13.5,
+          "imagePath": "",
+          "percentage": 13.5
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Carlotta",
+      "layout": "horizontal",
+      "chartType": "radar"
+    }
+  ]
+}

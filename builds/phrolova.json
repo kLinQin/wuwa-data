@@ -1,0 +1,240 @@
+{
+  "id": 1608,
+  "name": "Phrolova",
+  "recommendedStats": {
+    "ATK": "1900-2100+",
+    "Energy Regen": "0",
+    "Crit Ratio (Crit Weapon)": "60-75% : 265-340%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Hecate"
+    ],
+    "bestWeapon": "Lethean Elegy",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS",
+          "echoSlug": "nightmare-hecate",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            {
+              "name": "Dream Of The Lost",
+              "set": 3
+            },
+            {
+              "name": "Midnight Veil",
+              "set": 2
+            },
+            {
+              "name": "Havoc Eclipse",
+              "set": 2
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "lethean-elegy",
+        "rank": "",
+        "percentage": "137"
+      },
+      {
+        "id": "stringmaster",
+        "rank": "",
+        "percentage": "116"
+      },
+      {
+        "id": "whispers-of-sirens",
+        "rank": "",
+        "percentage": "105"
+      },
+      {
+        "id": "cosmic-ripples",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "fusion-accretion",
+        "rank": "",
+        "percentage": "90"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Intro or BA2",
+          "BA3",
+          "[F]BA(Dash Cancel)",
+          "BA123",
+          "[F]BA(Cancel)",
+          "Skill",
+          "[F]BA",
+          "[E]HA",
+          "Ult",
+          "[U]BA12",
+          "Swap"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Normal Attack",
+        "Intro Skill",
+        "Resonance Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "phrolova-hypercarry",
+      "phrolova-hypercarry"
+    ],
+    "teamNote": "\n"
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Lova",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Lethean Elegy",
+          "value": 1005471.52,
+          "percentage": 138.25,
+          "imagePath": ""
+        },
+        {
+          "type": "Stringmaster",
+          "value": 861203.2,
+          "percentage": 118.42,
+          "imagePath": ""
+        },
+        {
+          "type": "Whispers Of Sirens",
+          "value": 837970.02,
+          "percentage": 115.22,
+          "imagePath": ""
+        },
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 790575.74,
+          "percentage": 108.7,
+          "imagePath": ""
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 727267.73,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Fusion Accretion",
+          "value": 659730.77,
+          "percentage": 90.71,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Lova",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 4.4,
+          "percentage": 4.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 47,
+          "percentage": 47,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 48.7,
+          "percentage": 48.7,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Lova",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 1005471.52,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 1096817.68,
+          "percentage": 109.08,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1356162,
+          "percentage": 134.88,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1674840.05,
+          "percentage": 166.57,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

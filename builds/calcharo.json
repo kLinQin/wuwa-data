@@ -1,0 +1,165 @@
+{
+  "id": 1301,
+  "name": "Calcharo",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110% - 130%",
+    "Crit Ratio (Crit Weapon)": "65% : 285%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 240%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Thundering Mephis"
+    ],
+    "bestWeapon": "Ages of Harvest",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "nightmare-thundering-mephis",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Void Thunder"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "wildfire-mark",
+        "percentage": "109",
+        "rank": ""
+      },
+      {
+        "id": "ages-of-harvest",
+        "percentage": "104",
+        "rank": ""
+      },
+      {
+        "id": "verdant-summit",
+        "percentage": "102",
+        "rank": ""
+      },
+      {
+        "id": "radiance-cleaver",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "lustrous-razor",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "autumntrace",
+        "percentage": "96",
+        "rank": "5"
+      },
+      {
+        "id": "helios-cleaver",
+        "percentage": "90",
+        "rank": "5"
+      },
+      {
+        "id": "waning-redshift",
+        "percentage": "89",
+        "rank": "5"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "Intro Skill sebaiknya dibiarkan pada Level 1, karena Calcharo memiliki [Intro Skill (\"Necessary Means\")] berbeda yang ditingkatkan dari bagian Res. Liberation pada Forte tree.",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "calcharo-hypercarry",
+      "calcharo-hypercarry",
+      "calcharo-hypercarry"
+    ],
+    "teamNote": "Calcharo merupakan Main DPS yang fokus utamanya memberikan Resonance Liberation DMG."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Wildfire Mark",
+          "value": 109,
+          "imagePath": "",
+          "percentage": 109
+        },
+        {
+          "type": "Ages Of Harvest",
+          "value": 105,
+          "imagePath": "",
+          "percentage": 105
+        },
+        {
+          "type": "Verdant Summit",
+          "value": 105,
+          "imagePath": "",
+          "percentage": 105
+        },
+        {
+          "type": "Lustrous Razor",
+          "value": 100,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Waning Redshift",
+          "value": 87,
+          "imagePath": "",
+          "percentage": 87
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Calc",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "id": 1206,
+  "name": "Brant",
+  "recommendedStats": {
+    "ATK": "2000+ (tanpa Buff)",
+    "Energy Regen": "250-280%",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Dragon of Dirge"
+    ],
+    "bestWeapon": "Unflickering Valor",
+    "echoDetails": {
+      "note": "1. Nightmare: Inferno Rider lebih disukai karena varian normal Inferno Rider mungkin sulit untuk dimasukkan ke dalam rotasi karena sebagian besar serangan Brant dilakukan di udara.\n\n2. Meskipun Brant membutuhkan Energy Regen yang jauh lebih sedikit dalam hal rotasi, kit dan set echo yang ditujukan untuknya terutama berskala berdasarkan Energy Regen, itulah sebabnya ada benchmark tinggi sebesar 250-280%. Jika tidak mampu mencapai syarat 250% ER, jangan gunakan Tidebreaking Courage karena senjata ini diperlukan untuk memicu bonus set 5-pc.",
+      "sets": [
+        {
+          "label": "Hybrid",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "Energy Regen%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER | fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "dragon-of-dirge",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Tidebreaking Courage"
+          ]
+        },
+        {
+          "label": "DPS Fusion",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "inferno-rider",
+          "echoSlugSecondary": "nightmare-rider",
+          "sonataCustom": [
+            "Molten Rift"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ]
+    },
+    "weaponNote": "Jika menggunakan Red Spring, Blazing Brilliance, atau Emerald of Genesis, gunakan Molten Rift dan usahakan untuk mengejar ER% setinggi mungkin.",
+    "weaponOptions": [
+      {
+        "id": "unflickering-valor",
+        "percentage": "121",
+        "rank": ""
+      },
+      {
+        "id": "red-spring",
+        "percentage": "116",
+        "rank": ""
+      },
+      {
+        "id": "blazing-brilliance",
+        "percentage": "106",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "bloodpacts-pledge",
+        "percentage": "91",
+        "rank": ""
+      },
+      {
+        "id": "overture",
+        "percentage": "91",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Forte Circuit",
+        "Normal Attack",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "galbrena-mono",
+      "brant-hypercarry"
+    ],
+    "teamNote": "ER/ELE lebih baik daripada ER/ER jika mampu menjaga ER di atas 250%. Jika dipasangkan dengan Lupa, penggunaan ER/ER bisa menjadi pilihan."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Unflickering Valor",
+          "value": 411333.79,
+          "imagePath": "",
+          "percentage": 125
+        },
+        {
+          "type": "Red Spring",
+          "value": 332191.56,
+          "imagePath": "",
+          "percentage": 101
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 327798.05,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Overture",
+          "value": 300401.08,
+          "imagePath": "",
+          "percentage": 92
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Brant - Weapon",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 81.7,
+          "imagePath": "",
+          "percentage": 81.7
+        },
+        {
+          "type": "HA",
+          "value": 1,
+          "imagePath": "",
+          "percentage": 1
+        },
+        {
+          "type": "Skill",
+          "value": 6.1,
+          "imagePath": "",
+          "percentage": 6.1
+        },
+        {
+          "type": "Lib",
+          "value": 6.2,
+          "imagePath": "",
+          "percentage": 6.2
+        },
+        {
+          "type": "Echo",
+          "value": 1.6,
+          "imagePath": "",
+          "percentage": 1.6
+        },
+        {
+          "type": "Intro",
+          "value": 3.3,
+          "imagePath": "",
+          "percentage": 3.3
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Brant - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 411333.79,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 508690.18,
+          "imagePath": "",
+          "percentage": 124
+        },
+        {
+          "type": "S2",
+          "value": 635668.3,
+          "imagePath": "",
+          "percentage": 155
+        },
+        {
+          "type": "S3",
+          "value": 753095.81,
+          "imagePath": "",
+          "percentage": 183
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Bant - Sequence",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "TBC 43311 ER/ER",
+          "value": 418292.76,
+          "imagePath": "",
+          "percentage": 102
+        },
+        {
+          "type": "TBC 43311 ELE/ER",
+          "value": 411333.79,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "MR 43311 ER/ER (Nightmare Rider)",
+          "value": 396380.88,
+          "imagePath": "",
+          "percentage": 96
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Sett - Comparison",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

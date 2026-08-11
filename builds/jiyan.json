@@ -1,0 +1,196 @@
+{
+  "id": 1404,
+  "name": "Jiyan",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "115% - 130%",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 220%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Beringal",
+      "Feilian Beringal",
+      "Nightmare: Kelpie"
+    ],
+    "bestWeapon": "verdant Summit",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Aero DPS",
+          "echoSlug": "feilian-beringal",
+          "echoSlugSecondary": "nightmare-beringal",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Sierra Gale"
+          ]
+        },
+        {
+          "label": "Aero DPS ",
+          "echoSlug": "nightmare-kelpie",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Windward Pilgrimage"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Heavy Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "- Res. Liberation Jiyan [Emerald Storm: Finale] dianggap sebagai [Heavy DMG], oleh karena itu substat [Res. Liberation DMG Bonus] tidak berguna (dead stat) untuknya\n- bisa juga menggunakan Jiyan dengan ER sekitar ~115-120% jika menerapkan rotasi double intro. ER 130% "
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "verdant-summit",
+        "percentage": "127",
+        "rank": ""
+      },
+      {
+        "id": "thunderflare-dominion",
+        "percentage": "114",
+        "rank": ""
+      },
+      {
+        "id": "ages-of-harvest",
+        "percentage": "112",
+        "rank": ""
+      },
+      {
+        "id": "radiance-cleaver",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "lustrous-razor",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "autumntrace",
+        "percentage": "99",
+        "rank": "5"
+      },
+      {
+        "id": "helios-cleaver",
+        "percentage": "87",
+        "rank": "5"
+      },
+      {
+        "id": "waning-redshift",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "jiyan-hypercarry",
+      "jiyan-f2p"
+    ],
+    "teamNote": "Jiyan merupakan Main DPS yang fokus utamanya memberikan Heavy ATK DMG."
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Jiyan",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "SOURCE // TETHYS.GG",
+      "data": [
+        {
+          "type": "Verdant Summit",
+          "value": 100,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Ages Of Harvest",
+          "value": 90,
+          "percentage": 90,
+          "imagePath": ""
+        },
+        {
+          "type": "Lustrous Razor",
+          "value": 79,
+          "percentage": 79,
+          "imagePath": ""
+        },
+        {
+          "type": "Autumntrace",
+          "value": 77,
+          "percentage": 77,
+          "imagePath": ""
+        },
+        {
+          "type": "Waning Redshift",
+          "value": 71,
+          "percentage": 71,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

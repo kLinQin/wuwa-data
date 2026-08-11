@@ -1,0 +1,739 @@
+[
+  {
+    "id": 1102,
+    "name": "Sanhua",
+    "image": "/characters/sanhua.webp",
+    "bestWeapon": "Blazing Brilliance",
+    "bestEcho": [
+      "Impermanence Heron"
+    ],
+    "teams": [
+      "Sub DPS"
+    ]
+  },
+  {
+    "id": 1103,
+    "name": "Baizhi",
+    "image": "/characters/baizhi.webp",
+    "bestWeapon": "Stellar Symphony",
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return"
+    ],
+    "teams": [
+      "Support"
+    ]
+  },
+  {
+    "id": 1104,
+    "name": "Lingyang",
+    "image": "/characters/lingyang.webp",
+    "bestWeapon": "Tragicomedy",
+    "bestEcho": [
+      "Mech Abomination"
+    ],
+    "teams": [
+      "Lingyang Hypercarry"
+    ]
+  },
+  {
+    "id": 1105,
+    "name": "Zhezhi",
+    "image": "/characters/zhezhi.webp",
+    "bestWeapon": "Rime-Draped Sprouts",
+    "bestEcho": [
+      "Nightmare: Myriad",
+      "Impermanence Heron"
+    ],
+    "teams": [
+      "Skill Buff"
+    ]
+  },
+  {
+    "id": 1106,
+    "name": "Youhu",
+    "image": "/characters/youhu.webp",
+    "bestWeapon": "Verity's Handle",
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return"
+    ],
+    "teams": [
+      "Support - Coordinated ATK"
+    ]
+  },
+  {
+    "id": 1107,
+    "name": "Carlotta",
+    "image": "/characters/carlotta.webp",
+    "bestWeapon": "The Last Dance",
+    "bestEcho": [
+      "Sentry Construct"
+    ],
+    "teams": [
+      "Break",
+      "Hypercarry",
+      "Quickswap"
+    ]
+  },
+  {
+    "id": 1108,
+    "name": "Hiyuki",
+    "image": "/characters/hiyuki.webp",
+    "bestWeapon": "Frostburn",
+    "bestEcho": [
+      "Threnodian - Voidborne Construct"
+    ],
+    "teams": [
+      "Hypercarry",
+      "HC Alternatif",
+      "HC Alternatif"
+    ]
+  },
+  {
+    "id": 1109,
+    "name": "Lucilla",
+    "image": "/characters/lucilla.webp",
+    "bestWeapon": "Freeze Frame",
+    "bestEcho": [],
+    "teams": [
+      "Chafe Premium",
+      "Chafe Alt",
+      "Double Echo"
+    ]
+  },
+  {
+    "id": 1110,
+    "name": "Suisui",
+    "image": "/characters/suisui.webp",
+    "bestWeapon": "Firstlights-Herald",
+    "bestEcho": [],
+    "teams": [
+      "NS - Havoc Bane",
+      "NS - Glacio Chafe",
+      "Double Havoc",
+      "Fusion Burst",
+      "NS - Erosion"
+    ]
+  },
+  {
+    "id": 1202,
+    "name": "Chixia",
+    "image": "/characters/chixia.webp",
+    "bestWeapon": "The Last Dance",
+    "bestEcho": [
+      "Nightmare: Rider"
+    ],
+    "teams": [
+      "Mono Fushion",
+      "Chixia Hypercarry"
+    ]
+  },
+  {
+    "id": 1203,
+    "name": "Encore",
+    "image": "/characters/encore.webp",
+    "bestWeapon": "Stringmaster",
+    "bestEcho": [
+      "Inferno Rider"
+    ],
+    "teams": [
+      "Hyoercary",
+      "Quickswap",
+      "QS Alternatif"
+    ]
+  },
+  {
+    "id": 1204,
+    "name": "Mortefi",
+    "image": "/characters/mortefi.webp",
+    "bestWeapon": "The Last Dance",
+    "bestEcho": [
+      "Impermanence Heron",
+      "Hecate"
+    ],
+    "teams": [
+      "Agus/Jiyan Hypercarry",
+      "Jinhsi Blender",
+      "Mono Fusion"
+    ]
+  },
+  {
+    "id": 1205,
+    "name": "Changli",
+    "image": "/characters/changli.webp",
+    "bestWeapon": "Blazing Brilliance",
+    "bestEcho": [
+      "Nightmare: Rider"
+    ],
+    "teams": [
+      "Mono Fusion",
+      "Quickswap"
+    ]
+  },
+  {
+    "id": 1206,
+    "name": "Brant",
+    "image": "/characters/brant.webp",
+    "bestWeapon": "Unflickering Valor",
+    "bestEcho": [
+      "Dragon of Dirge"
+    ],
+    "teams": [
+      "Mono Fusion",
+      "Alternatif"
+    ]
+  },
+  {
+    "id": 1207,
+    "name": "Lupa",
+    "image": "/characters/lupa.webp",
+    "bestWeapon": "Wildfire Mark",
+    "bestEcho": [
+      "Lioness of Glory"
+    ],
+    "teams": [
+      "Galbrena Hypercarry",
+      "QS",
+      "Mono Fusion"
+    ]
+  },
+  {
+    "id": 1208,
+    "name": "Galbrena",
+    "image": "/characters/galbrena.webp",
+    "bestWeapon": "Lux & Umbra",
+    "bestEcho": [
+      "Corrosaurus"
+    ],
+    "teams": [
+      "Galbrena Hypercarry",
+      "Alternatif Hypercarry"
+    ]
+  },
+  {
+    "id": 1209,
+    "name": "Mornye",
+    "image": "/characters/mornye.webp",
+    "bestWeapon": "Starfield Calibrator",
+    "bestEcho": [
+      "Reactor Husk"
+    ],
+    "teams": [
+      "Tune-Break",
+      "Mono Fusion",
+      ""
+    ]
+  },
+  {
+    "id": 1210,
+    "name": "Aemeath",
+    "image": "/characters/aemeath.webp",
+    "bestWeapon": "Everbright Polestar",
+    "bestEcho": [],
+    "teams": [
+      "Tune-Break",
+      "Mono Fusion",
+      "Fusion Burst"
+    ]
+  },
+  {
+    "id": 1211,
+    "name": "Denia",
+    "image": "/characters/denia.webp",
+    "bestWeapon": "Forged Dwarf Star",
+    "bestEcho": [],
+    "teams": [
+      "Fusion Burst",
+      "Tune Strain",
+      "Alternative"
+    ]
+  },
+  {
+    "id": 1301,
+    "name": "Calcharo",
+    "image": "/characters/calcharo.webp",
+    "bestWeapon": "Ages of Harvest",
+    "bestEcho": [
+      "Nightmare: Thundering Mephis"
+    ],
+    "teams": [
+      "Calc-Tune",
+      "Calc-Hypercarry",
+      "Calc-QS"
+    ]
+  },
+  {
+    "id": 1302,
+    "name": "Yinlin",
+    "image": "/characters/yinlin.webp",
+    "bestWeapon": "Stringmaster",
+    "bestEcho": [
+      "Hecate",
+      "Impermanence Heron",
+      "Nightmare: Tempest Mephis"
+    ],
+    "teams": [
+      "Hypercarry",
+      "Quickswap"
+    ]
+  },
+  {
+    "id": 1303,
+    "name": "Yuanwu",
+    "image": "/characters/yuanwu.webp",
+    "bestWeapon": "Originite: Type IV",
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return",
+      "Impermanence Heron"
+    ],
+    "teams": [
+      ""
+    ]
+  },
+  {
+    "id": 1304,
+    "name": "Jinhsi",
+    "image": "/characters/jinhsi.webp",
+    "bestWeapon": "Ages of Harvest",
+    "bestEcho": [
+      "Jué"
+    ],
+    "teams": [
+      "Hypercarry",
+      "Quickswap "
+    ]
+  },
+  {
+    "id": 1305,
+    "name": "Xiangli Yao",
+    "image": "/characters/xiangli yao.webp",
+    "bestWeapon": "Verity's Handle",
+    "bestEcho": [
+      "Nightmare: Tempest Mephis"
+    ],
+    "teams": [
+      "Yao-Break",
+      "Yao-Hypercarry",
+      "Yao-Quickswap"
+    ]
+  },
+  {
+    "id": 1306,
+    "name": "Augusta",
+    "image": "/characters/augusta.webp",
+    "bestWeapon": "Wildfire Mark",
+    "bestEcho": [
+      "The False Sovereign"
+    ],
+    "teams": [
+      "Hypercarry",
+      "Dual DPS",
+      "Dual DPS"
+    ]
+  },
+  {
+    "id": 1307,
+    "name": "Buling",
+    "image": "/characters/buling.webp",
+    "bestWeapon": "Variation",
+    "bestEcho": [
+      "Fallacy of No Return"
+    ],
+    "teams": [
+      "Hypercarry"
+    ]
+  },
+  {
+    "id": 1308,
+    "name": "Rebecca",
+    "image": "/characters/rebecca.webp",
+    "bestWeapon": "Skull Thrasher",
+    "bestEcho": [],
+    "teams": [
+      "Hack Premium",
+      "HACK ALT",
+      "Hack F2P"
+    ]
+  },
+  {
+    "id": 1310,
+    "name": "Electro Rover",
+    "image": "/characters/electro rover.webp",
+    "bestWeapon": "",
+    "bestEcho": [],
+    "teams": []
+  },
+  {
+    "id": 1402,
+    "name": "Yangyang",
+    "image": "/characters/yangyang.webp",
+    "bestWeapon": "Red Spring",
+    "bestEcho": [
+      "Impermanence Heron",
+      "Nightmare: Beringal",
+      "Feilian Beringal"
+    ],
+    "teams": [
+      ""
+    ]
+  },
+  {
+    "id": 1403,
+    "name": "Aalto",
+    "image": "/characters/aalto.webp",
+    "bestWeapon": "The Last Dance",
+    "bestEcho": [],
+    "teams": [
+      "Jiyan Hypercarry",
+      "Aalto Hypercarry"
+    ]
+  },
+  {
+    "id": 1404,
+    "name": "Jiyan",
+    "image": "/characters/jiyan.webp",
+    "bestWeapon": "verdant Summit",
+    "bestEcho": [
+      "Nightmare: Beringal",
+      "Feilian Beringal",
+      "Nightmare: Kelpie"
+    ],
+    "teams": [
+      "Mono Aero",
+      "F2P Options"
+    ]
+  },
+  {
+    "id": 1405,
+    "name": "Jianxin",
+    "image": "/characters/jianxin.webp",
+    "bestWeapon": "Blazing Justice",
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Impermanence Heron",
+      "Nightmare: Beringal"
+    ],
+    "teams": [
+      "Mono Aero",
+      "Jinhsi Hypercarry",
+      "Buff Liberation"
+    ]
+  },
+  {
+    "id": 1407,
+    "name": "Ciaccona",
+    "image": "/characters/ciaccona.webp",
+    "bestWeapon": "Woodland Aria",
+    "bestEcho": [
+      "Nightmare: Kelpie"
+    ],
+    "teams": [
+      "Cartethyia Hypercarry",
+      "iuno Hypercarry"
+    ]
+  },
+  {
+    "id": 1408,
+    "name": "Aero Rover",
+    "image": "/characters/aero rover.webp",
+    "bestWeapon": "Blazing Brilliance",
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fleurdelys"
+    ],
+    "teams": [
+      "Hypercarry",
+      "Hypercarry ALT",
+      "Hypercarry F2P",
+      "Hypercarry Iuno"
+    ]
+  },
+  {
+    "id": 1409,
+    "name": "Cartethyia",
+    "image": "/characters/cartethyia.webp",
+    "bestWeapon": "Defier's Thorn",
+    "bestEcho": [
+      "Fleurdelys"
+    ],
+    "teams": [
+      "Carte Hypercarry",
+      "Carte HC Alternatif",
+      "Erosion Team"
+    ]
+  },
+  {
+    "id": 1410,
+    "name": "Iuno",
+    "image": "/characters/iuno.webp",
+    "bestWeapon": "Moongazer's Sigil",
+    "bestEcho": [
+      "Lady of the Sea"
+    ],
+    "teams": [
+      "augusta hypercarry",
+      "Mono Aero",
+      ""
+    ]
+  },
+  {
+    "id": 1411,
+    "name": "Qiuyuan",
+    "image": "/characters/qiuyuan.webp",
+    "bestWeapon": "Emerald Sentence",
+    "bestEcho": [
+      "Reminiscence: Fenrico",
+      "Impermanence Heron"
+    ],
+    "teams": [
+      "Echo HC",
+      "Phrolova HC",
+      "Qiuyuan Hypercarry"
+    ]
+  },
+  {
+    "id": 1412,
+    "name": "Sigrika",
+    "image": "/characters/sigrika.webp",
+    "bestWeapon": "Solsworn Ciphers",
+    "bestEcho": [],
+    "teams": [
+      "Sigrika Hypercarry",
+      "Tune Break",
+      "Mono Aero"
+    ]
+  },
+  {
+    "id": 1502,
+    "name": "Spectro Rover",
+    "image": "/characters/spectro rover.webp",
+    "bestWeapon": "Blazing Brilliance",
+    "bestEcho": [
+      "Nightmare: Mourning Aix",
+      "Impermanence Heron",
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return"
+    ],
+    "teams": [
+      "Hypercarry - Zani",
+      "Hypercarrt - Pheeb"
+    ]
+  },
+  {
+    "id": 1503,
+    "name": "Verina",
+    "image": "/characters/verina.webp",
+    "bestWeapon": "Variation",
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return"
+    ],
+    "teams": [
+      "Support"
+    ]
+  },
+  {
+    "id": 1504,
+    "name": "Lumi",
+    "image": "/characters/lumi.webp",
+    "bestWeapon": "Ages of Harvest",
+    "bestEcho": [
+      "Impermanence Heron"
+    ],
+    "teams": [
+      "Hypercarry - Lotta"
+    ]
+  },
+  {
+    "id": 1505,
+    "name": "Shorekeeper",
+    "image": "/characters/shorekeeper.webp",
+    "bestWeapon": "Stellar Symphony",
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return"
+    ],
+    "teams": [
+      "Support"
+    ]
+  },
+  {
+    "id": 1506,
+    "name": "Phoebe",
+    "image": "/characters/phoebe.webp",
+    "bestWeapon": "Luminous Hymn",
+    "bestEcho": [
+      "Capitaneus"
+    ],
+    "teams": [
+      "Hypercarry - Zani",
+      "Hypercarry - Pheeb"
+    ]
+  },
+  {
+    "id": 1507,
+    "name": "Zani",
+    "image": "/characters/zani.webp",
+    "bestWeapon": "Blazing Justice",
+    "bestEcho": [
+      "Capitaneus",
+      "Nightmare: Mourning Aix"
+    ],
+    "teams": [
+      "Hypercarry - Zani"
+    ]
+  },
+  {
+    "id": 1508,
+    "name": "Chisa",
+    "image": "/characters/chisa.webp",
+    "bestWeapon": "Kumokiri",
+    "bestEcho": [
+      "Threnodian Leviathan"
+    ],
+    "teams": []
+  },
+  {
+    "id": 1509,
+    "name": "Lynae",
+    "image": "/characters/lynae.webp",
+    "bestWeapon": "Spectrum Blaster",
+    "bestEcho": [
+      "Hyvatia",
+      "Twin Nova: Nebulous Cannon"
+    ],
+    "teams": [
+      "Hypercarry",
+      "Hypercary New",
+      "Hypercarry ALT"
+    ]
+  },
+  {
+    "id": 1510,
+    "name": "Luuk Herssen",
+    "image": "/characters/luuk herssen.webp",
+    "bestWeapon": "Daybreaker'S Spine",
+    "bestEcho": [],
+    "teams": [
+      "Tune-Team",
+      "Alt"
+    ]
+  },
+  {
+    "id": 1511,
+    "name": "Lucy",
+    "image": "/characters/lucy.webp",
+    "bestWeapon": "Spectral Trigger",
+    "bestEcho": [],
+    "teams": [
+      "HACK PREMIUM",
+      "HACK PREMIUM"
+    ]
+  },
+  {
+    "id": 1601,
+    "name": "Taoqi",
+    "image": "/characters/taoqi.webp",
+    "bestWeapon": "Discord",
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Impermanence Heron"
+    ],
+    "teams": [
+      "Skill Buff"
+    ]
+  },
+  {
+    "id": 1602,
+    "name": "Danjin",
+    "image": "/characters/danjin.webp",
+    "bestWeapon": "Blazing Brilliance",
+    "bestEcho": [
+      "Impermanence Heron",
+      "Nightmare: Heron",
+      "Nightmare: Crownless"
+    ],
+    "teams": [
+      "Mono Havoc"
+    ]
+  },
+  {
+    "id": 1603,
+    "name": "Camellya",
+    "image": "/characters/camellya.webp",
+    "bestWeapon": "Red Spring",
+    "bestEcho": [
+      "Nightmare: Crownless"
+    ],
+    "teams": [
+      "Hypercarry",
+      "F2P"
+    ]
+  },
+  {
+    "id": 1605,
+    "name": "Havoc Rover",
+    "image": "/characters/havoc rover.webp",
+    "bestWeapon": "Red Spring",
+    "bestEcho": [
+      "Dreamless",
+      "Nightmare: Crownless"
+    ],
+    "teams": [
+      "Hypercarry",
+      "Quickswap"
+    ]
+  },
+  {
+    "id": 1606,
+    "name": "Roccia",
+    "image": "/characters/roccia.webp",
+    "bestWeapon": "Tragicomedy",
+    "bestEcho": [
+      "Nightmare: Heron",
+      "Impermanence Heron"
+    ],
+    "teams": [
+      "Hypercarry - Lova",
+      "Hypercarry - ALT"
+    ]
+  },
+  {
+    "id": 1607,
+    "name": "Cantarella",
+    "image": "/characters/cantarella.webp",
+    "bestWeapon": "Whispers Of Sirens",
+    "bestEcho": [],
+    "teams": [
+      "Lova Hypercaryy",
+      "Core"
+    ]
+  },
+  {
+    "id": 1608,
+    "name": "Phrolova",
+    "image": "/characters/phrolova.webp",
+    "bestWeapon": "Lethean Elegy",
+    "bestEcho": [
+      "Nightmare: Hecate"
+    ],
+    "teams": [
+      "Hypercarry - Phrolova",
+      "Core"
+    ]
+  },
+  {
+    "id": 1610,
+    "name": "Yangyang-xuanling",
+    "image": "/characters/yangyang-xuanling.webp",
+    "bestWeapon": "Azure Oath",
+    "bestEcho": [],
+    "teams": [
+      "Premium NS Team",
+      "Dual DPS",
+      "Xuanling HC"
+    ]
+  }
+]

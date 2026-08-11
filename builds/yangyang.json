@@ -1,0 +1,151 @@
+{
+  "id": 1402,
+  "name": "Yangyang",
+  "recommendedStats": {
+    "ATK": "1700+",
+    "Energy Regen": "100%+",
+    "Crit Ratio (Crit Weapon)": "60% : 270%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 220%"
+  },
+  "build": {
+    "bestEcho": [
+      "Impermanence Heron",
+      "Nightmare: Beringal",
+      "Feilian Beringal"
+    ],
+    "bestWeapon": "Red Spring",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Sub Dps",
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        },
+        {
+          "label": "DPS",
+          "echoSlug": "feilian-beringal",
+          "echoSlugSecondary": "nightmare-beringal",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Sierra Gale"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "red-spring",
+        "percentage": "106",
+        "rank": ""
+      },
+      {
+        "id": "blazing-brilliance",
+        "percentage": "105",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "101",
+        "rank": ""
+      },
+      {
+        "id": "lumingloss",
+        "percentage": "83",
+        "rank": "5"
+      },
+      {
+        "id": "somnoire-anchor",
+        "percentage": "81",
+        "rank": "5"
+      },
+      {
+        "id": "commando-of-conviction",
+        "percentage": "68",
+        "rank": "5"
+      },
+      {
+        "id": "endless-collapse",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Forte Circuit",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "yangyang-support"
+    ],
+    "teamNote": "Yangyang memberikan buff berikut untuk rekan satu timnya:\n- Memulihkan 4 Resonance Energy per detik selama 5 detik setelah melancarkan Outro Skill - Dengan S6: +20% ATK selama 20 detik."
+  },
+  "analysisCharts": []
+}

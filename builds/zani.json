@@ -1,0 +1,255 @@
+{
+  "id": 1507,
+  "name": "Zani",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110-120%+",
+    "Crit Ratio (Crit Weapon)": "50-70% : 270-315%",
+    "Crit Ratio (Non Crit Weapon)": "50% : 265%"
+  },
+  "build": {
+    "bestEcho": [
+      "Capitaneus",
+      "Nightmare: Mourning Aix"
+    ],
+    "bestWeapon": "Blazing Justice",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Dps",
+          "echoSlug": "capitaneus",
+          "echoSlugSecondary": "nightmare-mourning-aix",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Eternal Radiance"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Heavy Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "Capitaneus 4-6% lebih baik daripada menggunakan NM: Mourning Aix.\n\nKarena Eternal Radiance memberikan tambahan 20% Crit. Rate saat dalam pertempuran, disarankan untuk menggunakan Mainstat 4-cost Crit. DMG, terutama saat Zani dipasangkan dengan Shorekeeper. Jika tidak, Zani mungkin akan melampaui batas (overcap) Crit. Rate."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "blazing-justice",
+        "rank": "",
+        "percentage": "122"
+      },
+      {
+        "id": "tragicomedy",
+        "rank": "",
+        "percentage": "116"
+      },
+      {
+        "id": "veritys-handle",
+        "rank": "",
+        "percentage": "105"
+      },
+      {
+        "id": "pulsation-bracer",
+        "rank": "",
+        "percentage": "-"
+      },
+      {
+        "id": "abyss-surges",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "stonard",
+        "rank": "",
+        "percentage": "-"
+      },
+      {
+        "id": "hollow-mirage",
+        "rank": "5",
+        "percentage": "90"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Intro",
+          "Echo",
+          "Skill",
+          "BA",
+          "Forte",
+          "Ult1",
+          "[U]BA12 or Parry",
+          "[U]BA3",
+          "[U]BA12 or Parry",
+          "[U]BA3",
+          "Ult2",
+          "Skill",
+          "BA",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "zani-hypercarry"
+    ],
+    "teamNote": "Rover: Spectro adalah opsi slot ketiga terbaik untuk mencapai batas kemampuan (skill ceiling) yang lebih tinggi. kamu juga dapat menggunakan healer lain seperti Shorekeeper sebagai gantinya."
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Zani",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Blazing Justice",
+          "value": 1223116.85,
+          "percentage": 122.41,
+          "imagePath": ""
+        },
+        {
+          "type": "Tragicomedy",
+          "value": 1162092.79,
+          "percentage": 116.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Verity'S Handle",
+          "value": 1059759.32,
+          "percentage": 106.06,
+          "imagePath": ""
+        },
+        {
+          "type": "Abyss Surges",
+          "value": 999220.15,
+          "percentage": 100,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Zani",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Outro (Frazzle)",
+          "value": 9.2,
+          "percentage": 9.2,
+          "imagePath": ""
+        },
+        {
+          "type": "BA",
+          "value": 2,
+          "percentage": 2,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 0.8,
+          "percentage": 0.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill (Frazzle)",
+          "value": 5.7,
+          "percentage": 5.7,
+          "imagePath": ""
+        },
+        {
+          "type": "HA (Frazzle)",
+          "value": 65.8,
+          "percentage": 65.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 12.3,
+          "percentage": 12.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 2.7,
+          "percentage": 2.7,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Zani",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 1223116.85,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 1494438.74,
+          "percentage": 122.18,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1777455.94,
+          "percentage": 145.32,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1926937.22,
+          "percentage": 157.54,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

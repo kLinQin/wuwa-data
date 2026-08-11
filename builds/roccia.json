@@ -1,0 +1,241 @@
+{
+  "id": 1606,
+  "name": "Roccia",
+  "recommendedStats": {
+    "ATK": "1900+",
+    "Energy Regen": "110%",
+    "Crit Ratio (Crit Weapon)": "70% : 285%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 240%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Heron",
+      "Impermanence Heron"
+    ],
+    "bestWeapon": "Tragicomedy",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Sub DPS - Havoc",
+          "echoSlug": "nightmare-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Midnight Veil"
+          ]
+        },
+        {
+          "label": "Sub DPS - General",
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Heavy Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "Untuk menerima buff maksimal dari Resonance Liberation milik Roccia, Roccia harus memiliki setidaknya 70% Crit. Rate, ini adalah salah satu dari sedikit kasus di mana 44111 (2x CR 4-cost) mungkin berguna jika Anda tidak menargetkan substat Double Crit pada semua echo."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "tragicomedy",
+        "rank": "",
+        "percentage": "120"
+      },
+      {
+        "id": "blazing-justice",
+        "rank": "",
+        "percentage": "109"
+      },
+      {
+        "id": "veritys-handle",
+        "rank": "",
+        "percentage": "108"
+      },
+      {
+        "id": "pulsation-bracer",
+        "rank": "",
+        "percentage": "-"
+      },
+      {
+        "id": "abyss-surges",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "stonard",
+        "rank": "",
+        "percentage": "85"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar Rotasi",
+        "steps": [
+          "Intro",
+          "BA4",
+          "Skill",
+          "Forte(x3)",
+          "Ult",
+          "Echo+Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "phrolova-hypercarry",
+      "cantarella-hypercarry"
+    ],
+    "teamNote": ""
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Roccia",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Tragicomedy",
+          "value": 224022459,
+          "percentage": 120.93,
+          "imagePath": ""
+        },
+        {
+          "type": "Blazing Brilliance",
+          "value": 201929667,
+          "percentage": 109,
+          "imagePath": ""
+        },
+        {
+          "type": "Verity'S Handle",
+          "value": 201755.65,
+          "percentage": 0.11,
+          "imagePath": ""
+        },
+        {
+          "type": "Abyss Surges",
+          "value": 185254124,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Celestial Spiral R5",
+          "value": 161231437,
+          "percentage": 87.03,
+          "imagePath": ""
+        },
+        {
+          "type": "Stonard",
+          "value": 157470424,
+          "percentage": 85,
+          "imagePath": ""
+        },
+        {
+          "type": "Hollow Mirage R5",
+          "value": 155474712,
+          "percentage": 83.93,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Roccia",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 11.4,
+          "percentage": 11.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 12.6,
+          "percentage": 12.6,
+          "imagePath": ""
+        },
+        {
+          "type": "HA",
+          "value": 65.3,
+          "percentage": 65.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 10.7,
+          "percentage": 10.7,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

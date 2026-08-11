@@ -1,0 +1,120 @@
+{
+  "id": 1601,
+  "name": "Taoqi",
+  "recommendedStats": {
+    "DEF": "2800+",
+    "Energy Regen": "130-160%+"
+  },
+  "build": {
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Impermanence Heron"
+    ],
+    "bestWeapon": "Discord",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Healer",
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "bell-borne-geochelone",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        },
+        {
+          "label": "Sub DPS",
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": []
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "DEF%",
+        "DEF"
+      ],
+      "note": "FONR memberikan 10% ATK buff selama 20 detik (100% uptime, 20 detik CD), sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat terhenti lebih awal jika shield yang diberikan terkena serangan sebanyak 3 kali. FONR juga lebih mudah secara keseluruhan untuk dikumpulkan karena hanya menjatuhkan satu sonata set."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "discord",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "dauntless-evernight",
+        "rank": "",
+        "percentage": "100"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "carlotta-hypercarry"
+    ],
+    "teamNote": "Taoqi menawarkan buff 38% Resonance Skill DMG Amplify selama 14 detik; namun, ia membutuhkan banyak field time yang berharga untuk membangun concerto miliknya sebelum buff tersebut dapat diaktifkan. Pada akhirnya, Taoqi sering kali digunakan sebagai buffer Rejuvenating Glow, karena ia mampu memicu bonus set tersebut."
+  },
+  "analysisCharts": []
+}

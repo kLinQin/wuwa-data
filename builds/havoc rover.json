@@ -1,0 +1,227 @@
+{
+  "id": 1605,
+  "name": "Havoc Rover",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "100-125%",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Dreamless",
+      "Nightmare: Crownless"
+    ],
+    "bestWeapon": "Red Spring",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS",
+          "echoSlug": "dreamless",
+          "echoSlugSecondary": "nightmare-crownless",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Havoc Eclipse"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "Reso Libe DMG",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "red-spring",
+        "rank": "",
+        "percentage": "106"
+      },
+      {
+        "id": "blazing-brilliance",
+        "rank": "",
+        "percentage": "104"
+      },
+      {
+        "id": "emerald-of-genesis",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "somnoire-anchor",
+        "rank": "5",
+        "percentage": "97"
+      },
+      {
+        "id": "commando-of-conviction",
+        "rank": "",
+        "percentage": "84"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Skill",
+          "Ult",
+          "Echo(Swap)",
+          "Intro",
+          "Skill",
+          "[F]HA",
+          "[F]Skill",
+          "[F]BA1234",
+          "[F]BA5(Cancel)",
+          "[F]BA1234",
+          "[F]BA5(Cancel)",
+          "[F]BA1234",
+          "[F]BA5(Cancel)",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "havoc-rover-hypercarry",
+      "havoc-rover-quickswap"
+    ],
+    "teamNote": "bisa menggunakan Sanhua, Roccia, atau Cantarella sebagai Sub DPS untuk Rover: Havoc. Sanhua dan Roccia memberikan Basic DMG Amplify. Roccia dan Cantarella memberikan Havoc DMG Amplify.\nSebagai alternatif, Danjin juga merupakan sebuah pilihan.\nJika menikmati gaya bermain quickswap, dapat juga memasangkan Rover: Havoc dengan Changli. Rover juga dapat menerima manfaat dari Res. Liberation DMG Amplify milik Changli."
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Hrover",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Red Spring",
+          "value": 978445,
+          "percentage": 104.89,
+          "imagePath": ""
+        },
+        {
+          "type": "Blazing Brilliance",
+          "value": 960585,
+          "percentage": 102.97,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 932873,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Somnoire Anchor R5",
+          "value": 851975,
+          "percentage": 91.33,
+          "imagePath": ""
+        },
+        {
+          "type": "Lumingloss R5",
+          "value": 790808,
+          "percentage": 84.77,
+          "imagePath": ""
+        },
+        {
+          "type": "Endless Collapse R5",
+          "value": 743580,
+          "percentage": 79.71,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Hrover",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 40.8,
+          "percentage": 40.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 21,
+          "percentage": 21,
+          "imagePath": ""
+        },
+        {
+          "type": "HA",
+          "value": 2.9,
+          "percentage": 2.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 20.4,
+          "percentage": 20.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 7.5,
+          "percentage": 7.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 1.8,
+          "percentage": 1.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Outro",
+          "value": 6,
+          "percentage": 6,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

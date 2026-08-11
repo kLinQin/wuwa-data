@@ -1,0 +1,168 @@
+{
+  "id": 1505,
+  "name": "Shorekeeper",
+  "recommendedStats": {
+    "HP": "30.000+",
+    "Energy Regen": "230-240%+",
+    "Crit Ratio (Crit Weapon)": "NA",
+    "Crit Ratio (Non Crit Weapon)": "NA"
+  },
+  "build": {
+    "bestEcho": [
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return"
+    ],
+    "bestWeapon": "Stellar Symphony",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "HEALER",
+          "echoSlug": "bell-borne-geochelone",
+          "echoSlugSecondary": "fallacy-of-no-return",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "HP%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            }
+          ],
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        },
+        {
+          "label": "SPECIAL INTRO",
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "bell-borne-geochelone",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "Energy Regen%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            }
+          ],
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ]
+        }
+      ],
+      "substats": [
+        "Energy Regen",
+        "HP%",
+        "Reso Libe DMG",
+        "HP"
+      ],
+      "note": "Jika menggunakan Fallacy of No Return, kebutuhan ER hanya 230%. Jika tidak, kebutuhannya adalah 240%. Kebutuhan ER ini adalah untuk buff Stellarealm milik Shorekeeper, yang berskala berdasarkan ER.\n\nsaat menggunakan [Enhanced Intro Skill] Shorekeeper, damage yang diberikan akan menghasilkan kritikal, oleh karena itu terdapat opsi untuk memilih Crit. DMG sebagai mainstat 4-cost. Damage tersebut dianggap sebagai Liberation%.\n\nJika mampu mencapai 230-240% ER hanya dengan 1x ER 3-cost,kamu dapat memilih untuk menggunakan Spectro DMG Bonus untuk tambahan DMG atau HP% untuk tambahan DMG dan healing yang seimbang.\n\n"
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "stellar-symphony",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "variation",
+        "rank": "",
+        "percentage": "93"
+      },
+      {
+        "id": "call-of-the-abyss",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "rectifier-25",
+        "rank": "",
+        "percentage": "100"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Opener",
+        "steps": [
+          "BA(x4)",
+          "Forte",
+          "BA(x4)",
+          "Forte",
+          "Skill",
+          "Ult",
+          "Echo",
+          "Outro"
+        ]
+      },
+      {
+        "title": "Double Skill",
+        "steps": [
+          "Skill+Echo(Swap)",
+          "Intro",
+          "Skill",
+          "Ult",
+          "Outro"
+        ]
+      },
+      {
+        "title": "Loop",
+        "steps": [
+          "Intro",
+          "BA(x4)",
+          "Forte",
+          "Skill",
+          "Ult",
+          "Echo",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Skill",
+        "Resonance Liberation",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "shorekeeper-support"
+    ],
+    "teamNote": "Shorekeeper adalah salah satu healer terbaik dalam game ini. Ia memberikan all-type DMG Amplify sebagai Outro Skill miliknya bersamaan dengan buff Stellarealm (12.5% Crit Rate & 25% Crit. DMG pada total 250 ER), sehingga memungkinkannya untuk masuk secara efektif ke dalam komposisi tim mana pun.\nIa paling efektif dalam tim di mana ia memiliki downtime yang lebih lama (field time yang lebih sedikit)."
+  },
+  "analysisCharts": []
+}

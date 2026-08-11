@@ -1,0 +1,116 @@
+{
+  "id": 1202,
+  "name": "Chixia",
+  "recommendedStats": {
+    "ATK": "1800+",
+    "Energy Regen": "110-145%",
+    "Crit Ratio (Crit Weapon)": "60-65% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Rider"
+    ],
+    "bestWeapon": "The Last Dance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "nightmare-rider",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Molten Rift"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK",
+        "Reso Libe DMG",
+        "Energy Regen"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "the-last-dance",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "phasic-homogenizer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "static-mist",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "thunderbolt",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "relativistic-jet",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "novaburst",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Normal Attack",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "chixia-mono",
+      "chixia-hypercarry"
+    ],
+    "teamNote": "cocok untuk yang baru pertama kali main "
+  },
+  "analysisCharts": []
+}

@@ -1,0 +1,208 @@
+{
+  "id": 1110,
+  "name": "Suisui",
+  "recommendedStats": {
+    "HP": "38000",
+    "Energy Regen": "260%",
+    "Crit Ratio (Crit Weapon)": "N/A",
+    "Crit Ratio (Non Crit Weapon)": "N/A"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Firstlights-Herald",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "NS Support",
+          "sonataCustom": [
+            {
+              "name": "Song Of Feather Trace",
+              "set": 5
+            }
+          ],
+          "echoSlug": "forbidden-bastion",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "Healing Bonus"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            }
+          ]
+        },
+        {
+          "label": "General",
+          "sonataCustom": [
+            {
+              "name": "Rejuvenating Glow",
+              "set": 5
+            }
+          ],
+          "echoSlug": "",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "Healing Bonus"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 3,
+              "stat": "ER%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "ER%",
+        "HP%",
+        "HP"
+      ],
+      "note": "1.  Jika kamu mampu mencapai 260% ER hanya dengan satu buah 3-cost yang memiliki substat ER, kamu dapat memilih untuk menggunakan Glacio DMG Bonus guna meningkatkan DMG yang dihasilkan, atau memilih HP% untuk memperoleh tambahan healing dan damage yang lebih seimbang. Perlu diketahui bahwa ia tidak mendapatkan tambahan Energy Regen sama sekali dari skill pasif (Inherent skills), melainkan hanya 10% dari set Sonata 2-pc yang digunakannya.\n2. Tingkatkan level skill sesuai kebutuhan untuk optimalisasi healing. Perlu diingat bahwa Intro Skill hanya berfungsi untuk menghasilkan DMG dan tidak berkontribusi pada aspek healing."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "firstlights-herald",
+        "rank": "",
+        "percentage": "107"
+      },
+      {
+        "id": "stellar-symphony",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "variation",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "call-of-the-abyss",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "rectifier-25",
+        "rank": "",
+        "percentage": "100"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "yangyang-xuanling-hypercarry",
+      "hiyuki-hypercarry",
+      "yangyang-xuanling-hypercarry",
+      "aemeath-hypercarry",
+      "cartethyia-hypercarry"
+    ],
+    "teamNote": "Suisui memberikan berbagai buff berikut kepada rekan satu timnya:\n- Meningkatkan batas maksimum stack Status Negatif (kecuali Havoc Bane) sebanyak 3 lapis selama 15 detik.\n- Saat mengonsumsi stacks Havoc Bane, efek yang diberikan adalah Def Ignore sebesar 6% dan Havoc Res Ignore sebesar 12% untuk DMG Havoc yang bersangkutan, yang berlangsung selama 30 detik setelah skill mengenai sasaran.\n- Memberikan tambahan 50% ATK kepada pengguna Status Negatif (seperti Yangyang: Xuanling dan Hiyuki).\n- Menambahkan 12% DMG Bonus selama berada dalam status [Roaming Transcendent].\n- Memberikan 25% DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n- Dengan efek senjata signature Firstland's Herald (milik Suisui): memberikan tambahan 20% ATK ketika ia memiliki kedua status Snow Taint dan Ripples secara bersamaan (yang diperoleh dengan cara menginflict Glacio Chafe dan melakukan aksi healing).\n\n"
+  },
+  "analysisCharts": [
+    {
+      "title": "Damage By Talent",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Intro",
+          "value": 81.5,
+          "percentage": 81.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Forte",
+          "value": 14.6,
+          "percentage": 14.6,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 3.9,
+          "percentage": 3.9,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Intro",
+          "value": 41,
+          "percentage": 41,
+          "imagePath": ""
+        },
+        {
+          "type": "Glacio Chafe",
+          "value": 44.3,
+          "percentage": 44.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 3.4,
+          "percentage": 3.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 3.9,
+          "percentage": 3.9,
+          "imagePath": ""
+        },
+        {
+          "type": "BA",
+          "value": 4.4,
+          "percentage": 4.4,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

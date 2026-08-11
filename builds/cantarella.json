@@ -1,0 +1,277 @@
+{
+  "id": 1607,
+  "name": "Cantarella",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120% - 130%",
+    "Crit Ratio (Crit Weapon)": "70-85% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Whispers Of Sirens",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Sub DPS - Havoc",
+          "echoSlug": "lorelei",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Midnight Veil"
+          ]
+        },
+        {
+          "label": "Sub DPS - Coor ATK",
+          "echoSlug": "hecate",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Empyrean Anthem"
+          ]
+        },
+        {
+          "label": "Sub DPS - General",
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "Midnight Veil adalah echo set terbaik untuk Cantarella saat dipasangkan dengan Phrolova atau resonator Havoc lainnya.\n"
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "whispers-of-sirens",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "rime-draped-sprouts",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "stringmaster",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "fusion-accretion",
+        "rank": "5",
+        "percentage": "100"
+      },
+      {
+        "id": "jinzhou-keeper",
+        "rank": "",
+        "percentage": "100"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "phrolova-echo",
+      "phrolova-hypercarry"
+    ],
+    "teamNote": "Cantarella memberikan buff berikut untuk rekan timnya:\n- 20% Havoc DMG dan 25% Res. Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill\n- 15% Havoc DMG Bonus dari bonus set Midnight Veil."
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Canta",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Whispers Of Sirens",
+          "value": 301969.95,
+          "percentage": 127.45,
+          "imagePath": ""
+        },
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 276207.42,
+          "percentage": 116.58,
+          "imagePath": ""
+        },
+        {
+          "type": "Stringmaster",
+          "value": 267671.09,
+          "percentage": 112.97,
+          "imagePath": ""
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 236934.77,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Fusion Accretion",
+          "value": 205812.56,
+          "percentage": 86.86,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Canta",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Intro Skill",
+          "value": 2.9,
+          "percentage": 2.9,
+          "imagePath": ""
+        },
+        {
+          "type": "BA",
+          "value": 67,
+          "percentage": 67,
+          "imagePath": ""
+        },
+        {
+          "type": "Resonance Skill",
+          "value": 12.6,
+          "percentage": 12.6,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 6.9,
+          "percentage": 6.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Coor/BA",
+          "value": 10.6,
+          "percentage": 10.6,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Canta",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 792797.27,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 975417.71,
+          "percentage": 123.03,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1193022.13,
+          "percentage": 150.48,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1423357.41,
+          "percentage": 179.54,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

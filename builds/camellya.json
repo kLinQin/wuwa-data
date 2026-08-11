@@ -1,0 +1,230 @@
+{
+  "id": 1603,
+  "name": "Camellya",
+  "recommendedStats": {
+    "ATK": "2100+",
+    "Energy Regen": "110-120%",
+    "Crit Ratio (Crit Weapon)": "65% : 285%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 240%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Crownless"
+    ],
+    "bestWeapon": "Red Spring",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS",
+          "echoSlug": "nightmare-crownless",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "DMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "DMG%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Havoc Eclipse"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "red-spring",
+        "percentage": "116",
+        "rank": ""
+      },
+      {
+        "id": "blazing-brilliance",
+        "percentage": "100.78",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "somnoire-anchor",
+        "percentage": "96",
+        "rank": "5"
+      },
+      {
+        "id": "commando-of-conviction",
+        "percentage": "92",
+        "rank": "5"
+      },
+      {
+        "id": "lumingloss",
+        "percentage": "85",
+        "rank": "5"
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Resonance Skill",
+        "Normal Attack",
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Intro Skill"
+      ],
+      "note": "Normal ATK memiliki nilai yang setara dengan Res. Skill pada Forte Priority Camellya berdasarkan apakah  menggunakan Normal (rambut putih) Heavy ATK miliknya atau tidak, namun juga dapat menempatkan ini pada prioritas lebih rendah jika kekurangan resource dan tidak menggunakannya dalam rotasi.",
+      "equalPriority": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "camellya-hypercarry",
+      "camellya-f2p"
+    ],
+    "teamNote": "- Roccia memberikan 20% Havoc DMG Amplify & 25% Basic Attack DMG Amplify.\n- Sanhua  memberikan 38% Basic DMG Amplify "
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Camellya",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Red Spring",
+          "value": 943689.15,
+          "percentage": 117.99,
+          "imagePath": ""
+        },
+        {
+          "type": "Blazing Brilliance",
+          "value": 803989.14,
+          "percentage": 100.52,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 799794.25,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Unflickering Valor R5",
+          "value": 671486.89,
+          "percentage": 83.96,
+          "imagePath": ""
+        },
+        {
+          "type": "Somnoire Anchor R5",
+          "value": 670131.16,
+          "percentage": 83.79,
+          "imagePath": ""
+        },
+        {
+          "type": "Endless Collapse R5",
+          "value": 663962.48,
+          "percentage": 83.02,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Camellya",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 79.2,
+          "percentage": 79.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 11,
+          "percentage": 11,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 0.6,
+          "percentage": 0.6,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 3,
+          "percentage": 3,
+          "imagePath": ""
+        },
+        {
+          "type": "Outro Skill",
+          "value": 6.3,
+          "percentage": 6.3,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Camellya",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 943689.15,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 1021624.5,
+          "percentage": 108.26,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1288966.89,
+          "percentage": 136.59,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1569799.55,
+          "percentage": 166.35,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

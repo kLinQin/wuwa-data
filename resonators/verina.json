@@ -1,17 +1,18 @@
 {
+  "id": 1503,
   "name": "Verina",
-  "element": "Spectro",
-  "weapon": "Rectifier",
+  "element": 5,
   "rarity": 5,
+  "weapon": 5,
   "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
-    "Support and Healer",
-    "Coordinated Attack",
-    "DMG Amplification"
+    1,
+    9,
+    13
   ],
   "sonatas": [
-    "Rejuvenating Glow"
+    7
   ],
   "changelog": [
     {
@@ -35,131 +36,6 @@
   "image": "/characters/verina.webp",
   "icon": "/icons/characters/verina.webp",
   "imageBanner": "/banners/verina-banner.jpeg",
-  "recommendedStats": {
-    "ATK": "1500+",
-    "Energy Regen": "200%+",
-    "Crit Ratio (Crit Weapon)": "NA",
-    "Crit Ratio (Non Crit Weapon)": "NA"
-  },
-  "build": {
-    "bestEcho": [
-      "Bell-Borne Geochelone",
-      "Fallacy of No Return"
-    ],
-    "bestWeapon": "Variation",
-    "echoDetails": {
-      "sets": [
-        {
-          "label": "Healer",
-          "echoSlug": "fallacy-of-no-return",
-          "echoSlugSecondary": "bell-borne-geochelone",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "Healing Bonus%"
-            },
-            {
-              "cost": 3,
-              "stat": "Energy Regen%"
-            },
-            {
-              "cost": 3,
-              "stat": "Energy Regen%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ],
-          "sonataCustom": [
-            "Rejuvenating Glow"
-          ]
-        }
-      ],
-      "substats": [
-        "Energy Regen",
-        "ATK%",
-        "ATK"
-      ],
-      "note": "FONR memberikan 10% ATK buff selama 20 detik (100% uptime, 20 detik CD), sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat terhenti lebih awal jika shield yang diberikan terkena serangan sebanyak 3 kali. FONR juga lebih mudah secara keseluruhan untuk dikumpulkan karena hanya menjatuhkan satu sonata set."
-    },
-    "weaponNote": "",
-    "weaponOptions": [
-      {
-        "id": "variation",
-        "rank": "",
-        "percentage": "100.37"
-      },
-      {
-        "id": "stellar-symphony",
-        "rank": "",
-        "percentage": "100"
-      },
-      {
-        "id": "call-of-the-abyss",
-        "rank": "",
-        "percentage": "100"
-      },
-      {
-        "id": "rectifier-25",
-        "rank": "",
-        "percentage": "100"
-      }
-    ],
-    "rotations": [
-      {
-        "title": "Variation R1 Or Stellar Symphony",
-        "steps": [
-          "Swap-in",
-          "BA(x3)(Skip if Intro)",
-          "Skill",
-          "Echo+Ult",
-          "MA(x2)",
-          "Outro"
-        ]
-      },
-      {
-        "title": " Variation R5",
-        "steps": [
-          "Swap-in",
-          "BA(x3)(Skip if Intro)",
-          "Echo",
-          "Skill",
-          "MA(x3)",
-          "Outro"
-        ]
-      }
-    ],
-    "talentPriority": {
-      "priority": [
-        "Forte Circuit",
-        "Resonance Liberation"
-      ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false
-      ]
-    },
-    "teams": [
-      {
-        "name": "Support",
-        "members": [
-          [],
-          [],
-          [
-            "Verina"
-          ]
-        ],
-        "note": ""
-      }
-    ],
-    "teamNote": "Verina adalah salah satu healer terbaik dalam game ini. Ia memberikan all-type DMG Amplify kepada rekan timnya bersamaan dengan buff +20% ATK dari Inherent Skill miliknya: Gift of Nature, sehingga memungkinkannya untuk masuk secara efektif ke dalam komposisi tim mana pun. Ia juga mampu melindungi anggota tim dari damage fatal dan memberikan mereka shield sementara dengan cooldown selama 10 menit dari Inherent Skill miliknya: Grace of Life.\nIa juga memiliki output healing yang luar biasa sebagai Standard Resonator, yang membuatnya menjadi salah satu, jika bukan satu-satunya, karakter yang wajib dimiliki dalam game ini.\n\nVerina memberikan buff berikut untuk rekan timnya: -15% All-Type DMG Amplify selama 30 detik setelah melancarkan Outro Skill - 20% peningkatan ATK selama 20 detik."
-  },
   "skills": {
     "basic": {
       "name": "Cultivation",
@@ -370,7 +246,6 @@
       ]
     }
   },
-  "analysisCharts": [],
   "sequences": [
     {
       "stage": "S1",
@@ -439,66 +314,54 @@
       ]
     }
   ],
-  "lore": {
-    "description": "Dengan pengetahuan botani yang luas, Verina selalu perhatian, selalu tersenyum, dan selalu berharap setiap bunga diberkati dengan keajaiban kehidupan.",
-    "manualEntries": [
-      {
-        "title": "BIRTHPLACE",
-        "description": "New Federation"
-      },
-      {
-        "title": "BIRTHDATE",
-        "description": "08 Mei"
-      }
-    ],
-    "report": {
-      "resonancePower": "Nature Calling",
-      "resonanceEvaluation": "Dasar Evaluasi: [Penilaian Resonansi 1916-G]\n\nMenurut laporan dari Resonator Verina, dia telah memiliki paparan yang signifikan terhadap sampel botani sejak kecil dan dapat mendeteksi frekuensi mereka secara auditori. Waktu terjadinya Awakening-nya belum diketahui.\n\nFrekuensi resonansi Verina menunjukkan kecenderungan meningkat seiring waktu, yang menimbulkan spekulasi bahwa kemampuan Forte-nya juga akan terus menguat seiring bertambahnya usia.\nSejauh mana pertumbuhan ini akan terjadi masih dalam pemantauan.\n\nResonator Verina memiliki Tacet Mark di bawah klavikula-nya. Setelah Awakening, perubahan fisik tercatat, seperti munculnya tanaman merambat di kedua telinga dan tulang belakang dorsal.\n\nTanaman merambat ini membentuk hubungan simbiotik dengan Verina dan membantu mengonversi frekuensi resonansinya menjadi Spectro energy untuk penyimpanan dan pelepasan yang efisien selama penggunaan Forte.\n\nSelain itu, pola Resonance Spectrum Verina sejalan dengan pola kehidupan tanaman yang dikenal. Reaksi Syntony yang kuat tercatat selama pengujian, meskipun penyebab pasti dari Awakening Verina masih belum jelas.\n\nAnalisis sampel uji mengungkapkan Rabelle's Curve yang tidak konvergen dengan gelombang periodik yang terlihat. Oleh karena itu, Verina diklasifikasikan sebagai Congenital Resonator.",
-      "overclockDiagnostic": "Grafik gelombang untuk Resonator Verina menunjukkan fluktuasi elips stabil dalam Time Domain tanpa pola yang abnormal. Setelah pemeriksaan, semua hasil berada dalam parameter normal.\n\nDalam hal Resonant Criticality, Resonator Verina berada pada level yang relatif rendah dengan stabilitas tinggi. Hasil pemeriksaan tampaknya berada dalam parameter normal tanpa risiko Overclocking.\n\nKeterangan: Keadaan emosional dan tingkat kehendak Resonator Verina umumnya sangat stabil, hanya sedikit dan sebentar berfluktuasi ketika berada jauh dari lingkungan alam.\n\nHasil uji menunjukkan bahwa tanaman simbiotiknya mampu mentransmisikan pita frekuensi khusus ke Verina, yang membantunya kembali ke kondisi pikiran yang stabil.\nIni adalah kasus langka dalam hubungan antara Resonator dan tanaman simbiotik dan menjadi referensi yang berguna untuk penelitian terkait."
+  "favorRole": {
+    "Birthday": {
+      "Title": "No Description Available",
+      "Content": "May 18th"
     },
-    "items": [
-      {
-        "name": "Expedition Goggles",
-        "description": "Verina sangat menghargai kacamata ekspedisi dari Pioneer Association, kenangan dari sebuah perjalanan dan kenangan hangat seperti Starflower. Kini tidak berguna untuk mendeteksi bahaya, mereka memiliki nilai sentimental bagi Verina.",
-        "imageUrl": "/icons/items/verina-1.webp"
-      },
-      {
-        "name": "Eternity In Bloom",
-        "description": "Sampel bunga dari pekerjaan field pertama Verina. Dia menunggu bunga itu mekar dan dengan hati-hati menyimpannya. Verina melihat mekarnya bunga sebagai momen abadi dari keindahan hidup, yang merangkum kecintaannya terhadap bunga dan hidup itu sendiri.",
-        "imageUrl": "/icons/items/verina-2.webp"
-      },
-      {
-        "name": "Notes On Wilderness Exploration",
-        "description": "Setiap kali dia pergi untuk berpartisipasi dalam ekspedisi atau perjalanan field, Verina selalu menemukan jalan pintas untuk menjelajah atau menghindari bahaya yang mengintai dengan bantuan teman-teman tanamannya. Verina menggambar semuanya. Di balik peta kecil dengan goresan anak-anak terdapat pelajaran berharga, bukti bahwa Verina mengikuti jejak ibunya.",
-        "imageUrl": "/icons/items/verina-3.webp"
-      }
-    ],
-    "stories": [
-      {
-        "title": "Mushrooms 101",
-        "content": "\"Kalau kamu tanya soal Verina, wah, kamu bakal denger cerita panjang,\"\n\nBegitu selalu kata Riggs, pemimpin tim eksplorasi Pioneer, saat ditanya tentang Verina.\n\n\"Waktu pertama kali dia gabung tim kita, dia selalu sendirian dan gak banyak ngobrol sama orang. Kami semua khawatir, soalnya dia udah kehilangan orang tuanya...\"\n\n\"Kami gak bisa gak merasa kasihan sama dia. Dia masih muda, tapi hidupnya udah berat banget. Dan dia tuh anak yang baik banget. Kami suka eksplorasi, tapi itu gak semudah yang dibayangkan. Tapi Verina gak pernah komplain. Dia kerjain semua yang berat, kayak mendaki gunung dan ambil air sendirian. Dia juga cari makan sendiri tanpa disuruh. Dia bantu banget, tapi kami khawatir dia menahan semuanya sendiri terlalu lama... gimana kalau ada yang terjadi?\"\n\n\"Sampai suatu hari, akhirnya terjadi sesuatu. Dan lucu banget, sih. Salah satu anak laki-laki di tim suka banget sama jamur, dia pergi ambil beberapa buat sup yang dia buat. Verina ngasih tanda pot itu dan gak mau lepasin, kayak hidupnya tergantung di situ. Begitu kami sampai, mereka udah mulai teriak-teriak.\"\n\n\"Si anak itu mulai bangga banget cerita pengalaman wildlife-nya. Gak ngerti apa yang ada di kepala dia, mikir bisa lebih pintar ngomong dari botanis kita yang satu ini! Verina buka semua jamurnya dan mulai sebutin cincin, tutup, dan batang dari tiap jamur itu. Karena kami udah lama eksplorasi, kami semua ngerti kalau dia bilang jamur itu beracun. Dia punya pengetahuan tentang jamur lebih banyak dari kami semua, bahkan kasih ceramah langsung di tempat, ngajarin kami cara bedain satu per satu. Itu bener-bener pelajaran yang berharga.\"\n\n\"Setelah selesai, dia bahkan ketok kayu yang dia temuin di tempat, kayak seorang pengajar, dan nanya apa kami ngerti semua itu. Kami saling pandang bingung, terus tiba-tiba ketawa, yang bikin dia kesal.\"\n\n\"Kenapa kalian semua ketawa... Apa aku salah? Eugh... Sob...\" Dia panik banget, langsung ambil jamur yang masih ada di pot dan cek lagi satu per satu, tapi kami udah mulai tepuk tangan buat dia. Dan aku teriak, \"Bravoo! Itu botanis kita, teman-teman!\"\n\nSejak itu, Verina masih sering inget kejadian itu dan merasa malu banget; kalau bisa, dia bakal nyelipin kepalanya ke dalam pot jamur. Tapi dia tetap ngasih pendapatnya dengan hati-hati dan sabar kalau ada yang nanya soal tanaman.\n\n"
-      },
-      {
-        "title": "Cultivating Flowers",
-        "content": "Orang-orang di Jinzhou sangat mencintai bunga.\n\nSaat pertempuran sengit, militer sering meminta buket bunga tambahan bersama pasokan mereka. Pesanan-pesanan ini akhirnya sampai di tangan Verina, yang awalnya terasa aneh.\n\nBuket-buket bunga itu hanya mekar untuk waktu yang singkat. Bunga yang dipetik hari ini akan layu besok. Buket yang mekar di rumah kaca bisa jadi kelopaknya sudah layu ketika sampai ke penerimanya. Pada titik ini, bunga itu sudah kehilangan sebagian besar keindahannya di tangan orang, jadi kenapa masih perlu ada bunga-bunga itu?\n\nHingga suatu hari, dia membaca harapan yang terlampir pada salah satu pesanan.\n\n\"Untuk menghormati teman seperjuanganku. Dia memberikan hidupnya demi kedamaian Jinzhou, namun namanya tak dikenal banyak orang. Namun aku masih ingat senyum tulusnya saat dia menerima Iris dari seorang teman lama. Jika namanya tak bisa diingat, biarlah makna bunga ini yang menghormatinya selamanya.\"\n\nMalam itu, Verina mengunci dirinya di rumah kaca.\n\nBunga sangat disukai karena pola daunnya yang rumit, tapi perasaan sementara yang mereka timbulkan itulah yang benar-benar memikat kita. Verina dengan hati-hati memilih dan menanam benih terbaik, melestarikan perasaan-perasaan berharga itu di tamannya.\n\nDia ingin melestarikan cerita dan perasaan yang terkait dengan setiap buket bunga, berharap mereka bertahan lebih lama dari siklus hidup alami mereka. Dia berharap dengan begitu, penerima bunga bisa merasakan esensi dan keindahan bunga tersebut, yang membangkitkan koneksi lebih dalam dengan perasaan yang terkandung di dalamnya.\n\nInilah saat-saat Verina berharap bisa bekerja sedikit lebih keras dan sedikit lebih lama."
-      },
-      {
-        "title": "Noting The Differences",
-        "content": "Orang-orang selalu bertanya kenapa Verina sangat mencintai tanaman. Ini adalah pertanyaan yang sudah dijawab Verina berkali-kali, tapi dia tahu kalau orang akan selalu memulai percakapan dengan pertanyaan demi pertanyaan, jadi setiap kali dia akan memberikan jawaban yang sudah dipikirkannya dengan matang:\n\n\"Waktu aku kecil, ibu sering meletakkan dua helai daun di tanganku dan bertanya apa perbedaan di antara keduanya.\"\n\nAku jawab,\n\n\"Bukannya mereka sama saja? Kan mereka datang dari pohon yang sama.\"\n\nDan ibu menggeleng,\n\n\"Lihat lebih dekat, Verina.\"\n\n\"Jadi aku melihat lebih dekat, dan baru aku sadar kalau meskipun mereka terlihat sama dari luar, pembuluh daunnya menyebar ke arah yang berbeda. Mereka membentuk pola yang sama sekali berbeda.\"\n\nIni mengubah perspektif Verina sepenuhnya, perbedaan yang dulu gak pernah dia perhatikan atau pedulikan, sekarang muncul dengan jelas di hadapannya.\n\nBeberapa bunga mungkin terlihat mirip tapi tumbuh di lingkungan yang sangat berbeda. Beberapa pohon atau tanaman mungkin tumbuh di lingkungan yang hampir sama, tapi akhirnya memiliki bentuk yang berbeda-beda.\n\nVerina sangat terpesona dengan kesamaan dan perbedaan di antara tanaman, yang memicu semangatnya dalam bidang botani. Dia mempelajari dengan teliti sifat-sifat tanaman agar bisa berkembang di berbagai lingkungan dan menanam bunga yang menakjubkan. Lewat ini, dia juga mulai menyadari kualitas unik orang-orang di sekitarnya. Seperti halnya setiap daun yang berbeda, begitu juga orang dan pengalaman. Verina mengamati teman-temannya dengan teliti, memperhatikan preferensi dan kesedihan mereka dengan hati-hati.\n\n\"Misalnya, beberapa orang suka makan Lemongrass dan beberapa orang tidak. Pasti menyenangkan punya seseorang yang ingat akan preferensi mereka.\"\n\nDengan perasaan itu, Verina dengan hati-hati dan penuh perhatian mencatat setiap hal kecil tentang teman-temannya."
-      },
-      {
-        "title": "Moments Of Woe",
-        "content": "Sebagai seorang gadis biasa, Verina juga punya momen-momen kesedihan.\n\nPembudidayaan tanaman bisa sangat tak terduga. Seringkali, Verina bangun dan menemukan polong biji kering di cawan petri setelah semalam beristirahat. Lalu setelah bekerja tanpa henti sepanjang hari, dia baru sadar kalau dia kembali melewatkan makan siang.\nDi momen-momen itu, Verina sangat merindukan orang tuanya.\n\n\"Kalau Mama dan Papa masih ada, aku gak perlu khawatir dengan semua ini...\"\n\npikir Verina.\n\nSebuah makan siang yang hangat dan mengenyangkan pasti sudah menunggu di meja begitu dia masuk rumah, dan dia akan mendapat bantuan setiap kali ingin menyelesaikan sesuatu. Tapi semua itu sudah lama menjadi kenangan, tersimpan dalam catatan yang dia tinggalkan saat meninggalkan New Federation bertahun-tahun yang lalu.\n\nSekarang, dia harus bangkit dan menjalani hidupnya seorang diri.\n\nKadang, dia bertanya-tanya:\nApa makna dari semua pekerjaan yang sudah aku lakukan?\nApa makna dari hidup yang aku jalani?\n\nNamun kemudian, dia selalu menemukan jawabannya di tanaman-tanaman yang tumbuh subur.\n\nMeskipun penuh perjuangan, polong biji kering itu tetap menghasilkan kehidupan baru dan pertumbuhannya berbisikkan kisah tentang ketekunan dan kebahagiaan ke telinganya. Ketika dirinya berada di oasis hijau ini, Verina bisa mendengar tanaman-tanaman itu berbagi kisah tentang rasa sakit dan kemenangan, mengingatkannya pada keindahan dari pertumbuhan dan mekarnya bunga.\n\nMungkin inilah makna dari semua usahanya. Verina berpikir saat dia berdiri dan mengenakan sarung tangan kebunnya lagi.\n\nMeskipun orang tuanya tidak ada di sisinya, dia tetap bertekad untuk terus bekerja keras dan menunjukkan betapa banyak dirinya telah berkembang.\n\nSetelah sejenak merasakan kesedihan, dia mengambil botol semprot dan melanjutkan pekerjaan hari itu."
-      },
-      {
-        "title": "A Little Time Off",
-        "content": "Verina kadang memberi dirinya waktu luang.\n\nVerina mengatur suhu ruangan bunga dan jadwal penyiraman. Begitu selesai, dia menghela napas lega.\n\nSetelah beberapa hari bekerja, dia tahu betapa pentingnya memberi waktu istirahat, baik untuk dirinya sendiri maupun untuk tanaman-tanamannya. Dia membersihkan pikirannya dan mengambil catatan petualangannya untuk menjelajahi jalanan Jinzhou.\n\nJinzhou jauh berbeda dengan kampung halamannya di New Federation. Tidak ada harga bunga yang melambung tinggi atau kompetisi yang rumit di sini. Saat dia berjalan melalui gang-gang yang ramai, Verina merasakan sebuah kelegaan yang nyata. Uap yang naik dari gerobak pedagang dan para pembeli yang sibuk di sekitarnya memberikan kenyamanan dalam kehidupan normal di kota baru ini.\n\n\"Ini baik, ini baik.\"\n\nPikir Verina dalam hati saat berjalan di jalanan. Kenangan belajar tanaman bersama orang tuanya, dan rasa kesepian yang menyakitkan setelah kepergian mereka, membanjiri pikirannya. Tapi kini, berdiri di atas kaki sendiri, dia akhirnya bisa menikmati liburan yang tenang. Setelah merasa berjalan sendirian sepanjang waktu, kini dia telah tumbuh menjadi sosok yang mandiri.\n\nLalu dia melihat teman-temannya melambai ke arahnya: Chixia dan Yangyang sedang berjalan mendekat dengan Salted Milk Tea yang baru mereka beli di tangan. Sepertinya Midnight Rangers juga sedang menikmati sedikit waktu liburan. Verina buru-buru merogoh tasnya, mengeluarkan beberapa buket bunga kecil seperti bintang dari dalamnya.\n\nIni adalah hadiah yang paling berharga yang pernah Verina* berikan untuk teman-temannya. Pemilihan bunga-bunga itu memakan waktu yang sangat lama, dan sementara Star Flowers menunggu waktu terbaik dan sinar matahari, dia juga menunggu sinar matahari yang akan memberinya rasa hangat.\n\nSekarang, setelah melihat sinar mataharinya, Verina berlari menuju teman-temannya.\n\nJalan masih panjang di depan, dan akan membutuhkan waktu bagi bunga-bunga itu untuk mekar. Dan untuk saat ini, dia merasa puas menikmati liburannya."
-      }
-    ],
-    "specialFood": {
-      "name": "Green Field Pot",
-      "description": "Meningkatkan ATK semua Resonator di tim sebesar 44% selama 30 menit. (Hanya untuk Resonator sendiri di Co-op Mode).",
-      "imageUrl": "/icons/food/verina.webp"
+    "Sex": {
+      "Title": "No Description Available",
+      "Content": "Female"
+    },
+    "Country": {
+      "Title": "No Description Available",
+      "Content": "New Federation"
+    },
+    "Influence": {
+      "Title": "No Description Available",
+      "Content": "Jinzhou"
+    },
+    "Info": {
+      "Title": "No Description Available",
+      "Content": "With an extensive knowledge of botany, Verina is always solicitous, always smiling, and always wishing for every flower to be blessed with the miracle of life."
+    },
+    "TalentName": {
+      "Title": "No Description Available",
+      "Content": "Nature Calling"
+    },
+    "TalentDoc": {
+      "Title": "Resonance Evaluation Report",
+      "Content": "Evaluation Basis: [Resonance Assessment 1916-G]<br><br>According to Resonator Verina's reports, she has had significant exposure to botanical samples since childhood and is able to audibly detect their frequencies. The timing of her Awakening is unknown.<br><br>Verina's resonance frequency shows an increasing trend over time, leading to speculation that her Forte abilities will also continue to strengthen with age. The extent of this growth is still being monitored.<br><br>Resonator Verina bears a <te href=850072>Tacet Mark</te> below her clavicle. Following her Awakening, physical changes have been noted, such as the emergence of vines on both ears and dorsal spine.<br><br>These vines form a symbiotic relationship with Verina and assist in converting her resonance frequency into Spectro energy for efficient storage and release during use of Forte.<br><br>Additionally, Verina's Resonance Spectrum Pattern aligns with known patterns of plant life. Strong Syntony reactions have been recorded during testing, yet the exact cause of Verina's Awakening remains inconclusive.<br><br>Analysis of test samples has revealed a non-convergent <te href=850067>Rabelle's Curve</te> with a noticeable periodic waveform. Therefore, Verina is classified as a <te href=850068>Congenital Resonator</te>."
+    },
+    "TalentCertification": {
+      "Title": "Overclock Diagnostic Report",
+      "Content": "The waveform graph for Resonator Verina displays stable elliptical fluctuations in the Time Domain with no abnormal patterns. Upon examination, all results fall within normal parameters. <br>Resonant Criticality: Low, with high stability. Examination results appear to fall within normal parameters with no risk of <te href=850073>Overclocking</te>.<br><span class=\"italic\">Annotation: Resonator Verina's emotional state and volitional level are generally very stable, and only fluctuate slightly and briefly when she is situated away from the natural environment. Test results indicate her symbiotic plants are capable of transmitting a special frequency band to Verina, which aids her in returning to a stable state of mind. This is a rare case in the relationship between a Resonator and the symbiotic plants and serves as a useful reference for related research.</span>"
+    },
+    "CVNameCn": {
+      "Title": "No Description Available",
+      "Content": "Zhao Shuang"
+    },
+    "CVNameJp": {
+      "Title": "No Description Available",
+      "Content": "Sasahara Yu"
+    },
+    "CVNameKo": {
+      "Title": "No Description Available",
+      "Content": "Kang Sae Bom"
+    },
+    "CVNameEn": {
+      "Title": "No Description Available",
+      "Content": "Heather Nicol"
     }
   }
 }

@@ -1,0 +1,234 @@
+{
+  "id": 1108,
+  "name": "Hiyuki",
+  "recommendedStats": {
+    "ATK": "2100+",
+    "Energy Regen": "120",
+    "Crit Ratio (Crit Weapon)": "70& : 265%",
+    "Crit Ratio (Non Crit Weapon)": "65& : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Threnodian - Voidborne Construct"
+    ],
+    "bestWeapon": "Frostburn",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "threnodian-voidborne-construct",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Wishes Of Quiet Snowfall",
+              "set": 5
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "frostburn",
+        "rank": "",
+        "percentage": "125.55%"
+      },
+      {
+        "id": "blazing-brilliance",
+        "rank": "",
+        "percentage": "100.75%"
+      },
+      {
+        "id": "emerald-of-genesis",
+        "rank": "",
+        "percentage": "100.00%"
+      },
+      {
+        "id": "feather-edge",
+        "rank": "5",
+        "percentage": "96.45%"
+      },
+      {
+        "id": "feather-edge",
+        "rank": "1",
+        "percentage": "87.61%"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "New Rotation",
+        "steps": [
+          "Intro",
+          "BA3",
+          "[F]HA",
+          "Ult",
+          "Skill12",
+          "[U]BA12345",
+          "Dodge",
+          "Iai(x3)",
+          "[F]HA",
+          "Ult2",
+          "Skill",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Normal Attack",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "hiyuki-hypercarry",
+      "hiyuki-hypercarry",
+      "hiyuki-hypercarry"
+    ],
+    "teamNote": "Hiyuki adalah main DPS yang yang fokus utamanya memberikan Resonance Liberation DMG Bonus dan Glacio chafe mechanic"
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1591077.49,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1760986.58,
+          "imagePath": "",
+          "percentage": 110.68
+        },
+        {
+          "type": "S2",
+          "value": 2184854.4,
+          "imagePath": "",
+          "percentage": 137.32
+        },
+        {
+          "type": "S3",
+          "value": 2858704.18,
+          "imagePath": "",
+          "percentage": 179.67
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - hiyuki",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Frostburn",
+          "value": 1591077.49,
+          "imagePath": "",
+          "percentage": 125.55
+        },
+        {
+          "type": "Blazing Brilliance",
+          "value": 1276789.46,
+          "imagePath": "",
+          "percentage": 100.75
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 1267327.68,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Feather EdgeR5",
+          "value": 1222382.55,
+          "imagePath": "",
+          "percentage": 96.45
+        },
+        {
+          "type": "Feather EdgeR1",
+          "value": 1110307.09,
+          "imagePath": "",
+          "percentage": 87.61
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - hiyuki",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Lib",
+          "value": 73.4,
+          "imagePath": "",
+          "percentage": 73.4
+        },
+        {
+          "type": "Glacio Chafe",
+          "value": 14.7,
+          "imagePath": "",
+          "percentage": 14.7
+        },
+        {
+          "type": "Skill",
+          "value": 7.9,
+          "imagePath": "",
+          "percentage": 7.9
+        },
+        {
+          "type": "Echo",
+          "value": 2.7,
+          "imagePath": "",
+          "percentage": 2.7
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - hiyuki",
+      "layout": "horizontal",
+      "chartType": "radar"
+    }
+  ]
+}

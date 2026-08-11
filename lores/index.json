@@ -1,0 +1,450 @@
+[
+  {
+    "id": 1102,
+    "name": "Sanhua",
+    "description": "Pengawal pribadi Magistrate Jinzhou, dikenal karena kepribadiannya yang dingin. Dahulu dijuluki sebagai Asura of Calamity, kini Sanhua adalah penjaga yang pendiam namun tak tergoyahkan.",
+    "faction": "City Hall",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1103,
+    "name": "Baizhi",
+    "description": "Baizhi adalah seorang peneliti di bidang Remnant Ecoacoustics. Dulu, ada sebuah harapan yang tak pernah terwujud sebuah keinginan yang nyaris tak berarti, infinitely close to zero. Namun kini, keinginan itu telah mengambil wujud nyata. Makhluk Remnant You’tan bukan hanya pendamping setianya, tetapi juga sumber kekuatan penyembuhannya dan fokus penelitiannya seumur hidup.",
+    "faction": "Huaxu Academy",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1104,
+    "name": "Lingyang",
+    "description": "Lingyang adalah anggota Liondance Troupe di Jinzhou yang berbakat dan ramah. Semangat dan keberaniannya terlihat jelas saat ia berinteraksi dengan manusia, menunjukkan kemampuan fisiknya yang luar biasa. Dengan gayanya yang khas, ia benar-benar mewujudkan semangat Liondancing.",
+    "faction": "Liondance Troupe",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1105,
+    "name": "Zhezhi",
+    "description": "Seorang seniman lepas yang berusaha mencari nafkah. Pendiam dan pemalu, ia tidak pandai merangkai kata-kata, tetapi setiap lukisannya berbicara lebih lantang daripada yang bisa ia ungkapkan. Dalam karyanya, dunia yang ia ciptakan tampak begitu nyata. seolah memiliki kehidupan sendiri, dengan keaslian yang nyaris mustahil.",
+    "faction": "Jinzhou",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1106,
+    "name": "Youhu",
+    "description": "Seorang appraiser barang antik yang cerewet dan penuh kejenakaan. Dikenal karena kemampuannya menciptakan limerik secara spontan, ia menyampaikan hasil appraisal dengan gaya teatrikal namun akurat. Dengan membuka lapak di pinggir jalan, ia memastikan setiap barang antik menemukan pemilik yang benar-benar menghargainya.",
+    "faction": "Chongzhou",
+    "affiliation": "",
+    "hasStories": true
+  },
+  {
+    "id": 1107,
+    "name": "Carlotta",
+    "description": "Putri kedua keluarga Montelli dan seorang investor seni yang tak terikat oleh norma, Carlotta bergerak dengan anggun di antara lingkaran sosial dan transaksi bisnis, sembari diam-diam menangani masalah keluarga yang tak bisa diungkapkan.",
+    "faction": "Montelli Family",
+    "affiliation": "Ragunna,Rinascita",
+    "hasStories": true
+  },
+  {
+    "id": 1108,
+    "name": "Hiyuki",
+    "description": "Berasal dari Ashinohara, Miko of Flaming Sakura kini menetap di Lahai-Roi sebagai anggota terakhir dan satu-satunya dari Special Response Force.",
+    "faction": "Startorch Academy",
+    "affiliation": "Spacetrek Collective",
+    "hasStories": true
+  },
+  {
+    "id": 1109,
+    "name": "Lucilla",
+    "description": "Lucilla, President of Startorch Academy dan seorang idealis dengan kedua kaki yang berpijak di bumi. Ia berjaga secara diam-diam atas para muridnya saat mereka bangkit untuk menantang langit itu sendiri.",
+    "faction": "",
+    "affiliation": "Startorch Academy",
+    "hasStories": true
+  },
+  {
+    "id": 1110,
+    "name": "Suisui",
+    "description": "Lahir dari keluarga bangsawan Mingting, ia adalah direktur muda cemerlang dari Zhaoming Commerce Guild. Dengan kipas air di tangannya, ia menjalin transaksi dagang menjadi permadani perdagangan yang megah. Meski tak menguasai ilmu pedang, keahliannya dalam urusan keuangan merajut perdamaian abadi bagi dunia.",
+    "faction": "\tZhaoming Commerce Guild",
+    "affiliation": "Mingting,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1202,
+    "name": "Chixia",
+    "description": "Chixia adalah Patroller muda penuh semangat yang menerangi jalanan Jinzhou. Selalu siap, selalu sigap ia adalah pahlawan yang selalu hadir saat dibutuhkan.",
+    "faction": "Public Security Bureau",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1203,
+    "name": "Encore",
+    "description": "Seorang gadis yang selalu ditemani oleh satu Wooly hitam dan satu Wooly putih. Encore, Konsultan dari Black Shores, bermimpi menciptakan kisah-kisah bahagia dengan permen, dongeng, dan imajinasinya.",
+    "faction": "",
+    "affiliation": "",
+    "hasStories": true
+  },
+  {
+    "id": 1204,
+    "name": "Mortefi",
+    "description": "Mortefi, seorang ahli terampil dalam Applied Tacetite Study dan anggota Departemen Keamanan Akademi, memiliki kemampuan unik untuk mengubah frustrasi yang ia kumpulkan menjadi kobaran api yang mengamuk. Dari amarah yang membakar segalanya, sang naga merah akan turun.",
+    "faction": "Huaxu Academy",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1205,
+    "name": "Changli",
+    "description": "Changli adalah penasihat yang melayani Magistrat Jinzhou, dan mantan Sekretaris Jenderal di ibu kota. Terselubung dalam api, dia ditakdirkan untuk bersinar terang hingga bara terakhirnya. Dengan tekadnya yang membara dan pola pikir strategisnya, dia naik ke tampuk kekuasaan, selalu berpikir ke depan untuk mencapai tujuan akhirnya.",
+    "faction": "City Hall",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1206,
+    "name": "Brant",
+    "description": "Brant, kapten Rinascita's Troupe of Fools, adalah jiwa yang bebas dan romantis. Tak terduga dan penuh kehidupan, dia adalah jantung dari rombongan tersebut. Di atas panggung, dia memerankan banyak peran, mengenakan topeng baru untuk menghidupkan setiap cerita. Namun di luar sorotan, dia selalu tulus, menawarkan ketulusan sejati kepada orang-orang di sekitarnya. ",
+    "faction": "Troupe of Fools",
+    "affiliation": "Ragunna,Rinascita",
+    "hasStories": true
+  },
+  {
+    "id": 1207,
+    "name": "Lupa",
+    "description": "Seorang Gladiator dari Septimont, a radiant star of the arena.\nBerjiwa liar dan terus terang, Lupa hidup seperti serigala penyendiri. Selama ia bisa menikmati sensasi adrenalin di tengah pertempuran, ia tak peduli jika api yang sama akhirnya membakarnya habis.",
+    "faction": "House Silva",
+    "affiliation": "Septimont,Rinascita",
+    "hasStories": true
+  },
+  {
+    "id": 1208,
+    "name": "Galbrena",
+    "description": "Dingin dan tegas, ia adalah \"Discord Slayer\" yang berburu di sepanjang Solaris, sekaligus \"Fiend of Ever-burning Flame\" yang disebut-sebut dalam bisikan. Kini, ia bertugas sebagai Konsultan Black Shores, aktif di seluruh penjuru dunia.",
+    "faction": "Septimont",
+    "affiliation": "The Black Shores",
+    "hasStories": true
+  },
+  {
+    "id": 1209,
+    "name": "Mornye",
+    "description": "Mornye, seorang insinyur Spacetrek Collective Research Institute dan profesor Departemen Teknik Exostrider di Startorch Academy.\nSetiap langkah pada kaki prostetiknya membawanya menuju bintang-bintang impiannya.",
+    "faction": "",
+    "affiliation": "",
+    "hasStories": true
+  },
+  {
+    "id": 1210,
+    "name": "Aemeath",
+    "description": "Dahulu merupakan seorang Exostrider Synchronist dari Rabelle College, ia kini menjadi hantu digital yang menyanyi dengan tenang di antara bintang-bintang. ",
+    "faction": "Roya Tribe",
+    "affiliation": "Startorch Academy",
+    "hasStories": true
+  },
+  {
+    "id": 1211,
+    "name": "Denia",
+    "description": "Ia adalah seorang murid dari Department of Voidmatters di Startorch Academy yang secara rahasia melayani sebagai agen untuk Fractsidus. Diciptakan oleh Schwarzloch dengan tujuan untuk menjadi seorang Threnodian Resonator, Denia dapat mengenakan banyak wajah.",
+    "faction": "Startorch Academy",
+    "affiliation": "Fractsidus",
+    "hasStories": true
+  },
+  {
+    "id": 1301,
+    "name": "Calcharo",
+    "description": "Pemimpin \"Ghost Hounds,\" sebuah kelompok tentara bayaran internasional. Kejam, pendendam, tidak kenal ampun. Forte miliknya memungkinkan dia untuk memanggil Tacet Discord khusus guna membantu serangannya terhadap target.\nCalon klien harus memperhatikan harga yang harus dibayar sebelum mengajukan penawaran kepadanya.",
+    "faction": "Jinzhou",
+    "affiliation": "Ghost Hounds",
+    "hasStories": true
+  },
+  {
+    "id": 1302,
+    "name": "Yinlin",
+    "description": "Yinlin adalah seorang Patroller yang terampil dan Natural Resonator yang kuat. Setelah diskors dari tugasnya di Public Security Bureau, ia kini harus mengejar kejahatan tersembunyi secara rahasia.",
+    "faction": "Public Security Bureau",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1303,
+    "name": "Yuanwu",
+    "description": "Yuanwu memiliki sebuah sasana tinju tempat ia mengajar seni bela diri dan manajemen kesehatan. Ia sangat dihormati di masyarakat karena sikapnya yang ramah dan pembawaannya yang menyenangkan.\n\nBIRTHPLACE\n",
+    "faction": "Yuanwu Boxing Gym",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1304,
+    "name": "Jinhsi",
+    "description": "Sebagai Magistrate Jinzhou, Jinhsi adalah sinar matahari di musim dingin, hangat, lembut, namun penuh keteguhan. Sebagai Resonator yang Dipilih oleh Sentinel, ia menunjukkan kerendahan hati dan sepenuh hati mengabdikan dirinya untuk membimbing rakyatnya menuju masa depan yang gemilang.",
+    "faction": "City Hall",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1305,
+    "name": "Xiangli Yao",
+    "description": "Investigator Utama di Huaxu Academy Kampus Jinzhou, dan ilmuwan lintas disiplin termuda di Akademi tersebut.\nSeorang jiwa yang lembut dengan pikiran yang tajam, yang gairah gigihnya terhadap Automata Mechanics selalu menghasilkan temuan dan wawasan konstruktif.",
+    "faction": "",
+    "affiliation": "",
+    "hasStories": true
+  },
+  {
+    "id": 1306,
+    "name": "Augusta",
+    "description": "Ephor dari Septimont. Matahari abadi yang selamanya berkobar, dan sebuah panji yang di bawahnya kekalahan tidak pernah ada.\nIa datang. Ia melihat. Ia menaklukkan. \nDengan bilah pedang yang terangkat tinggi, ia menanti penantang berikutnya atau takdir yang mengeklaim bahwa ia tidak dapat ditentang.",
+    "faction": "Ephor's Palace",
+    "affiliation": "Septimont,Rinascita",
+    "hasStories": true
+  },
+  {
+    "id": 1307,
+    "name": "Buling",
+    "description": "Taoist dari Mengzhou, Konsultan Black Shores, ahli feng shui, dan penghuni forum veteran.\nSangat santai dan berpengalaman luas, Buling akan membuat \"bling\" apa pun yang Anda cari.",
+    "faction": "Mengzhou",
+    "affiliation": "The Black Shores",
+    "hasStories": true
+  },
+  {
+    "id": 1308,
+    "name": "Rebecca",
+    "description": "Seorang Edgerunner seperti Lucy, tapi benar-benar berbeda dalam cara kerjanya.  \nBola api yang penuh keinginan, selalu siap menghanguskan masalahmu dengan senapan laras pendeknya.",
+    "faction": "",
+    "affiliation": "",
+    "hasStories": true
+  },
+  {
+    "id": 1310,
+    "name": "Electro Rover",
+    "description": "Resonator misterius yang memiliki kekuatan untuk menyerap semua suara. Saat ini sedang dalam perjalanan untuk menemukan ingatan yang hilang.",
+    "faction": "",
+    "affiliation": "",
+    "hasStories": false
+  },
+  {
+    "id": 1402,
+    "name": "Yangyang",
+    "description": "Yangyang adalah seorang Outrider dari Midnight Rangers.\nDahulu terlindungi, kini seorang pejuang. Ia membumbung tinggi bersama angin untuk melindungi orang lain, bagaikan burung skylark yang sedang terbang.",
+    "faction": "Midnight Rangers",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1403,
+    "name": "Aalto",
+    "description": "Aalto adalah seorang Information Broker yang misterius, dikenal karena sifatnya yang sulit ditangkap dan senyumnya yang ramah. Di balik kedok tersebut, dia berafiliasi erat dengan the Black Shores.\nRumor mengatakan bahwa dia akan memberikan informasi apa pun dengan harga yang tepat.",
+    "faction": "Black Shores",
+    "affiliation": "The Black Shores",
+    "hasStories": true
+  },
+  {
+    "id": 1404,
+    "name": "Jiyan",
+    "description": "Jiyan, pemimpin Midnight Rangers, bertindak dengan kebenaran yang sigap dan tegas. Ia memiliki kemampuan luar biasa untuk memanggil Qingloong yang kuat dari angin, menjadikannya tak terkalahkan di medan perang.",
+    "faction": "Midnight Rangers",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1405,
+    "name": "Jianxin",
+    "description": "Jianxin, seorang biksu Tao dan penerus Fengyiquan, telah mendedikasikan hidupnya untuk menguasai seni bela diri pamungkas. Dengan kekuatan untuk memanfaatkan dan mentransformasikan Chi lingkungan, ia dapat menciptakan penghalang pelindung yang memurnikan tubuh dan pikiran.",
+    "faction": "",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1407,
+    "name": "Ciaccona",
+    "description": "Seorang bard pengembara dari Rinascita, Ciaccona. \nIa bernyanyi bukan hanya untuk Divinity, tetapi juga untuk orang-orang biasa. Ia mencatat berbagai kisah sepanjang perjalanannya, lalu mengubahnya menjadi lagu yang membangkitkan tawa, haru, dan air mata baik bagi para pencerita maupun pendengarnya.",
+    "faction": "Ragunna",
+    "affiliation": "",
+    "hasStories": true
+  },
+  {
+    "id": 1408,
+    "name": "Aero Rover",
+    "description": "Resonator misterius yang memiliki kekuatan untuk menyerap semua Echo. Saat ini sedang dalam perjalanan untuk menemukan ingatan yang hilang.",
+    "faction": "",
+    "affiliation": "",
+    "hasStories": false
+  },
+  {
+    "id": 1409,
+    "name": "Cartethyia",
+    "description": "Cartethyia, ksatria pengembara yang melakukan perjalanan melintasi Rinascita. Dulunya dikenal sebagai Blessed Maiden, perantara Divinity, dan Queen of Gale and Tide, ia menggunakan nama Fleurdelys. Kini, ia hanyalah seorang ksatria pengembara yang bebas dan tidak terikat.",
+    "faction": "Order of the Deep",
+    "affiliation": "Ragunna,Rinascita",
+    "hasStories": true
+  },
+  {
+    "id": 1410,
+    "name": "Iuno",
+    "description": "Ia diuntungkan oleh nasib dengan satu nama, dan disapu olehnya dengan nama yang lain. Namun, tidak pernah sekalipun ia dikalahkan, dan ia tidak pernah menyerah.\nSekarang, saksikanlah Priestess yang menantang ini. Saksikan apa yang membuatnya terus melangkah maju, tanpa pernah menoleh ke belakang. Saksikan bagaimana ia menelusuri jaring takdir yang rumit dan menjadi satu-satunya jawaban.",
+    "faction": "Tetragon Temple",
+    "affiliation": "Septimont,Rinascita",
+    "hasStories": true
+  },
+  {
+    "id": 1411,
+    "name": "Qiuyuan",
+    "description": "Mantan agen senior dari Internal Security Agency milik Mingting.\nMeskipun permusuhan mengisi masa mudanya, kesetiaan mendefinisikan tahun-tahun terakhirnya. Namun, karena dijadikan kambing hitam atas sebuah pembunuhan, ia kini hanyalah seorang pendekar pedang buta yang berkelana di dunia sendirian.",
+    "faction": "Chongzhou",
+    "affiliation": "Mingting,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1412,
+    "name": "Sigrika",
+    "description": "Sigrika, seorang murid dari Startorch Academy dan seorang Resonator dari Royan Runes.\nBertekad untuk memenuhi ekspektasi orang lain dan menjadi Solsworn sejati, ia mendedikasikan diri sepenuhnya pada setiap tantangan.\n\n",
+    "faction": "Startorch Academy",
+    "affiliation": "Roya Tribe",
+    "hasStories": true
+  },
+  {
+    "id": 1502,
+    "name": "Spectro Rover",
+    "description": "",
+    "faction": "",
+    "affiliation": "",
+    "hasStories": false
+  },
+  {
+    "id": 1503,
+    "name": "Verina",
+    "description": "Dengan pengetahuan botani yang luas, Verina selalu perhatian, selalu tersenyum, dan selalu berharap setiap bunga diberkati dengan keajaiban kehidupan.",
+    "faction": "Pioneer Association",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1504,
+    "name": "Lumi",
+    "description": "Navigator di Lollo Logistics dan pemimpin dari sebuah skuad transportasi. Lahir di sebuah desa pegunungan di Yuezhou, sifat Lumi yang tulus dan penuh kasih sayang membawakan kehangatan bagi semua orang di sekitarnya.",
+    "faction": "Lollo Logistics",
+    "affiliation": "Yuezhou, Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1505,
+    "name": "Shorekeeper",
+    "description": "The Shorekeeper, penjaga Black Shores. gelar ini saja dulu telah mendefinisikannya. Namun, keinginan, ikatan, dan emosi… Dia baru mulai memahami semua ini setelah bertemu denganmu.",
+    "faction": "Black Shores",
+    "affiliation": "The Black Shores",
+    "hasStories": true
+  },
+  {
+    "id": 1506,
+    "name": "Phoebe",
+    "description": "Phoebe, Acolyte of the Order of the Deep, adalah seorang wanita muda yang penuh ketulusan. Dengan hati yang lembut, ia menjalankan tugasnya dengan ketekunan yang tak tergoyahkan. Doa-doanya, bagaikan cahaya yang selalu ia bawa, memberikan ketenangan dan kedamaian bagi semua yang berada di sekitarnya.",
+    "faction": "Order of the Deep",
+    "affiliation": "Ragunna,Rinascita",
+    "hasStories": true
+  },
+  {
+    "id": 1507,
+    "name": "Zani",
+    "description": "Anggota tim keamanan Averardo Vault dan pemegang gelar \"Karyawan Terbaik\" selama lebih lama dari yang ingin ia ingat. \nIa punya banyak rencana untuk waktu luangnya, tapi untuk sekarang, \nmisinya yang paling penting sangat sederhana: pulang tepat waktu.",
+    "faction": "Montelli Family",
+    "affiliation": "Ragunna,Rinascita",
+    "hasStories": true
+  },
+  {
+    "id": 1508,
+    "name": "Chisa",
+    "description": "\"Just an ordinary student.\"\nDengan tenang, ia memperkenalkan dirinya, samar kilauan warna-warni berkedip di matanya. \nLagi, struktur dunia terungkap dalam pandangannya. Ia menyipitkan mata, memilih satu benang yang tepat dengan benang yang menarik kehidupan itu sendiri.",
+    "faction": "Black Shores",
+    "affiliation": "Startorch Academy",
+    "hasStories": true
+  },
+  {
+    "id": 1509,
+    "name": "Lynae",
+    "description": "Seorang siswa persiapan Startorch Academy yang gaya elektriknya menarik perhatian, menyembunyikan fokus batin yang meledak-ledak seperti pegas yang tergulung.",
+    "faction": "Lawless Zone",
+    "affiliation": "Startorch Academy",
+    "hasStories": true
+  },
+  {
+    "id": 1510,
+    "name": "Luuk Herssen",
+    "description": "Dokter yang bertugas di Unit Keperawatan Resonator Startorch Academy, terkenal karena kecerdasannya yang tajam dan ketenangannya yang tak tergoyahkan. Rumor mengatakan bahwa tidak ada seorang pun yang pernah melihatnya kehilangan kendali.\n\nIa adalah pendengar yang tajam yang mahir dalam membedah bayang-bayang di hati seseorang. Dari luka yang tidak kunjung sembuh di tangannya, darah emas merembes, sebuah substansi yang dapat ia panggil untuk menjadi bilah dengan presisi yang paling tinggi.",
+    "faction": "",
+    "affiliation": "",
+    "hasStories": true
+  },
+  {
+    "id": 1511,
+    "name": "Lucy",
+    "description": "Seorang Edgerunner dari Night City. Netrunner dalam krunya.  \nDengan beban utang yang menghantui hatinya, ia sengaja menjaga jarak dari orang lain. Bahkan mereka yang paling dekat dengannya nyaris tak tahu apa-apa tentang masa lalunya.",
+    "faction": "",
+    "affiliation": "Lahai-Roi",
+    "hasStories": true
+  },
+  {
+    "id": 1601,
+    "name": "Taoqi",
+    "description": "Taoqi adalah direktur pertahanan perbatasan di Ministry of Development. Meskipun pembawaannya tampak santai, ia secara konsisten membuktikan dirinya sebagai individu yang dapat diandalkan dan suportif, selalu mengulurkan tangannya kepada mereka yang membutuhkan. Taoqi bukan hanya rekan kerja yang dapat diandalkan, tetapi juga teman terpercaya tempat orang-orang bisa mencurahkan isi hati mereka.",
+    "faction": "Ministry of Development",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1602,
+    "name": "Danjin",
+    "description": "Dengan sebilah pedang pembalasan yang terbuat dari darah pekat di tangannya, Ranger Danjin memburu pencuri dan bandit untuk membalas dendam. Ia melakukan perjalanan ke negeri-negeri jauh demi keadilan.",
+    "faction": "Midnight Rangers",
+    "affiliation": "Jinzhou,Huanglong",
+    "hasStories": true
+  },
+  {
+    "id": 1603,
+    "name": "Camellya",
+    "description": "Camellya, seorang Bloom Bearer of the Black Shores, adalah sosok yang bebas dan mempesona dengan cara yang berbahaya. Dia berkeliling Solaris mencari talenta, tenggelam dalam setiap momen yang ada dan menikmati kenikmatannya, sambil tetap setia pada dirinya sendiri, tanpa terbebani oleh pikiran tentang masa lalu atau masa depan.",
+    "faction": "Black Shores",
+    "affiliation": "The Black Shores",
+    "hasStories": true
+  },
+  {
+    "id": 1605,
+    "name": "Havoc Rover",
+    "description": "Resonator misterius yang memiliki kekuatan untuk menyerap semua suara. Saat ini sedang dalam perjalanan untuk menemukan ingatan yang hilang.",
+    "faction": "",
+    "affiliation": "",
+    "hasStories": false
+  },
+  {
+    "id": 1606,
+    "name": "Roccia",
+    "description": "Sebagai asisten, penata properti, dan komedian improvisasi, Roccia selalu siap memastikan Fool's Troupe siap siaga. Kotak Ajaib yang dibawanya tampak menyimpan dunia, atau mungkin ia telah menciptakan kembali dunia di dalam kotak itu.",
+    "faction": "Troupe of Fools",
+    "affiliation": "Ragunna,Rinascita",
+    "hasStories": true
+  },
+  {
+    "id": 1607,
+    "name": "Cantarella",
+    "description": "Pemimpin saat ini dari Fisalia, Cantarella, the Bane. Seorang bangsawan misterius, kecantikannya memikat sekaligus berbahaya. Dia tinggal di sebuah kastil berbentuk mahkota yang terletak di puncak gunung, di mana mimpi-mimpi ilusi mengalir seperti sungai, dirajut dengan teliti oleh tangannya sendiri. ",
+    "faction": "Ragunna",
+    "affiliation": "Fisalia Family",
+    "hasStories": true
+  },
+  {
+    "id": 1608,
+    "name": "Phrolova",
+    "description": "Phrolova, seorang Overseer Fractsidus yang melangkah di antara batas hidup dan mati, seorang deadly conductor.\nDengan satu gerakan halus baton di tangannya, ia mampu menyelaraskan frekuensi keberadaan dan menggubah simfoni para \"jiwa.\"\nAlunan musiknya bisa membentuk dunia yang lebih baik, atau sama mudahnya, memanggil legiun untuk menebar kehancuran.",
+    "faction": "",
+    "affiliation": "Fractsidus",
+    "hasStories": true
+  },
+  {
+    "id": 1610,
+    "name": "Yangyang-xuanling",
+    "description": "Putri kedua dari keluarga musik ternama di Mingting, ia lembut namun teguh, berhati murni dan penuh khayalan. seorang perempuan yang menghunus pedang demi keadilan. Sebagai \"Votary of the Voice\", ia mampu berkomunikasi dengan Streams. Dulu seorang Outrider dari Midnight Rangers di Jinzhou, kini ia menjabat sebagai acting Xuan Watcher di Xuanfang Hold. Bebas seperti angin, gagah dalam perbuatannya, hidup dan pedangnya hanya untuk melindungi yang lemah.",
+    "faction": "Xuanfang Hold",
+    "affiliation": "Ministry of War",
+    "hasStories": true
+  }
+]

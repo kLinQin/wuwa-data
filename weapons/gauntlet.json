@@ -1,11 +1,11 @@
 [
   {
-    "id": "abyss-surges",
+    "id": 21040015,
     "slug": "abyss-surges",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Abyss Surges",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/abyss-surges.webp",
     "rarity": 5,
     "subStat": "ATK",
@@ -38,21 +38,15 @@
         587.5,
         36.45
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. Saat mengenai target dengan Resonance Skill, meningkatkan Basic Attack DMG Bonus sebesar 10%/12.5%/15%/17.5%/20% selama 8/8/8/8/8 detik. Saat mengenai target dengan Basic Attack, meningkatkan Resonance Skill DMG Bonus sebesar 10%/12.5%/15%/17.5%/20% selama 8/8/8/8/8 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "aether-strike",
+    "id": 21040104,
     "slug": "aether-strike",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Aether Strike",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/aether-strike.webp",
     "rarity": 4,
     "subStat": "Crit DMG",
@@ -85,21 +79,15 @@
         412.5,
         40.5
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Melancarkan Resonance Liberation meningkatkan ATK sebesar 7.2%/11.1%/15.1%/19%/23% dan memberikan 10.8%/16.7%/22.6%/28.6%/34.5% Resonance Liberation DMG Bonus selama 15/15/15/15/15 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "amity-accord",
+    "id": 21040044,
     "slug": "amity-accord",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Amity Accord",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/amity-accord.webp",
     "rarity": 4,
     "subStat": "DEF",
@@ -132,21 +120,15 @@
         337.5,
         61.56
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Saat Intro Skill dilancarkan, meningkatkan Resonance Liberation DMG Bonus sebesar 20%/25%/30%/35%/40% selama 15/15/15/15/15 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "blazing-justice",
+    "id": 21040036,
     "slug": "blazing-justice",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Blazing Justice",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/blazing-justice.webp",
     "rarity": 5,
     "subStat": "Crit DMG",
@@ -179,21 +161,15 @@
         587.5,
         48.6
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Basic Attack memberikan efek berikut: Memberikan damage yang mengabaikan 8%/10%/12%/14%/16% DEF target dan memperkuat Spectro Frazzle DMG yang dihasilkan sebesar 50%/62.5%/75%/87.5%/100% selama 6/6/6/6/6 detik. Memicu ulang efek ini akan mengatur ulang durasinya.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "celestial-spiral",
+    "id": 21040084,
     "slug": "celestial-spiral",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Celestial Spiral",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/celestial-spiral.webp",
     "rarity": 4,
     "subStat": "ATK",
@@ -226,21 +202,15 @@
         462.5,
         18.23
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Melancarkan Resonance Skill memberikan 6/7/8/9/10 Resonance Energy dan meningkatkan ATK sebesar 10%/12.5%/15%/17.5%/20% selama 16/16/16/16/16 detik. Efek ini dapat dipicu sekali setiap 20/20/20/20/20 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "daybreakers-spine",
+    "id": 21040056,
     "slug": "daybreakers-spine",
     "version": "3.0",
     "lastUpdated": "2026-02-13",
     "name": "Daybreaker's Spine",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/daybreakers-spine.webp",
     "rarity": 5,
     "subStat": "CRIT Rate",
@@ -277,21 +247,15 @@
         588,
         24.3
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Setelah memberikan Basic Attack DMG, pengguna mendapatkan 20%/25%/30%/35%/40% Spectro DMG Bonus selama 4/4/4/4/4 detik. Setiap kali setelah pengguna mengakibatkan Tune Strain - Shifting pada target, mereka mendapatkan 20%/25%/30%/35%/40% Basic Attack DMG Amplification dan Basic Attack DMG mereka mengabaikan 10%/12.5%/15%/17.5%/20% DEF target selama 6/6/6/6/6 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "gauntlet-21d",
+    "id": 21040034,
     "slug": "gauntlet-21d",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
-    "name": "Gauntlet#21D",
-    "weaponType": "Gauntlet",
+    "name": "Gauntlets#21D",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/gauntlet-21d.webp",
     "rarity": 4,
     "subStat": "ER",
@@ -324,21 +288,15 @@
         387.5,
         38.88
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Saat Resonator melakukan dash atau dodge, meningkatkan ATK sebesar 8%/10%/12%/14%/16%. Meningkatkan Dodge Counter DMG sebesar 50%/62.5%/75%/87.5%/100% selama 8/8/8/8/8 detik. Saat Dodge Counter dilakukan, memulihkan 5%/6.25%/7.5%/8.75%/10% dari Max HP Resonator. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 6/6/6/6/6 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "hollow-mirage",
+    "id": 21040064,
     "slug": "hollow-mirage",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Hollow Mirage",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/hollow-mirage.webp",
     "rarity": 4,
     "subStat": "ATK",
@@ -371,21 +329,15 @@
         412.5,
         30.38
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Saat Resonance Liberation dilancarkan, memberikan 3/3/3/3/3 stack(s) Iron Armor. Setiap stack(s) meningkatkan ATK dan DEF sebesar 3%/3.5%/4%/4.5%/5%, dapat di stack(s) hingga 3/3/3/3/3 kali. Saat Resonator menerima damage, mengurangi jumlah stack(s) sebanyak 1/1/1/1/1.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "legend-of-drunken-hero",
+    "id": 21040094,
     "slug": "legend-of-drunken-hero",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Legend of Drunken Hero",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/legend-of-drunken-hero.webp",
     "rarity": 4,
     "subStat": "ATK",
@@ -418,21 +370,15 @@
         462.5,
         18.23
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat di stack(s) hingga 4/4/4/4/4 kali.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "marcato",
+    "id": 21040024,
     "slug": "marcato",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Marcato",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/marcato.webp",
     "rarity": 4,
     "subStat": "Energy Regen",
@@ -465,21 +411,15 @@
         337.5,
         51.84
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Saat Resonance Skill dilancarkan, memulihkan 8/10/12/14/16 Concerto Energy. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 20/20/20/20/20 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "moongazers-sigil",
+    "id": 21040046,
     "slug": "moongazers-sigil",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Moongazer's Sigil",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/moongazers-sigil.webp",
     "rarity": 5,
     "subStat": "Crit Rate",
@@ -512,21 +452,15 @@
         500,
         36
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill atau Resonance Liberation meningkatkan Resonance Liberation DMG sebesar 20%/25%/30%/35%/40% selama 15/15/15/15/15 detik. Mendapatkan Shield memungkinkan Resonance Liberation DMG untuk mengabaikan 7.2%/8.4%/9.6%/10.8%/12.0% DEF target selama 7/7/7/7/7 detik, dapat di stack(s) hingga 5/5/5/5/5 kali. Efek ini dipicu sekali setiap 0.5/0.5/0.5/0.5/0.5 detik. Saat melancarkan Intro Skill, efek ini langsung mencapai stack(s) maksimum selama 3/3/3/3/3 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "pulsation-bracer",
+    "id": 21040045,
     "slug": "pulsation-bracer",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Pulsation Bracer",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/pulsation-bracer.webp",
     "rarity": 5,
     "subStat": "Crit Rate",
@@ -559,21 +493,15 @@
         587.5,
         24.3
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Memberikan damage kepada target dalam status Tune Strain - Interfered memberikan 6%/6.7%/7.5%/8.2%/9% Basic Attack DMG Bonus selama 3/3/3/3/3 detik, dapat di stack(s) hingga 4/4/4/4/4 kali. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 0.5/0.5/0.5/0.5/0.5 detik. Memicu ulang efek ini akan mengatur ulang durasinya.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "solsworn-ciphers",
+    "id": 21040066,
     "slug": "solsworn-ciphers",
     "version": "3.0",
     "lastUpdated": "2026-03-18",
     "name": "Solsworn Ciphers",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/solsworn-ciphers.webp",
     "rarity": 5,
     "subStat": "Crit DMG",
@@ -610,21 +538,15 @@
         587.5,
         48.6
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill atau Echo Skill memberikan 32%/40%/48%/56%/64% Echo Skill DMG Amplification selama 15/15/15/15/15 detik. Saat memberikan Echo Skill DMG, Aero DMG mengabaikan 10%/12.5%/15%/17.5%/20% DEF target selama 6/6/6/6/6 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "stonard",
+    "id": 21040074,
     "slug": "stonard",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Stonard",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/stonard.webp",
     "rarity": 4,
     "subStat": "Crit Rate",
@@ -657,21 +579,15 @@
         412.5,
         20.25
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Melancarkan Resonance Skill meningkatkan Resonance Liberation DMG Bonus pengguna sebesar 18%/27%/36%/45%/54% selama 15/15/15/15/15 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "tragicomedy",
+    "id": 21040026,
     "slug": "tragicomedy",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Tragicomedy",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/tragicomedy.webp",
     "rarity": 5,
     "subStat": "Crit Rate",
@@ -704,21 +620,15 @@
         587.5,
         24.3
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Setiap kali Basic Attack atau Intro Skill dilancarkan, Heavy Attack DMG Bonus meningkat sebesar 48%/60%/72%/84%/96% selama 3/3/3/3/3 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "veritys-handle",
+    "id": 21040016,
     "slug": "veritys-handle",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Verity's Handle",
-    "weaponType": "Gauntlet",
+    "weaponType": 4,
     "image": "/weapons/gauntlet/veritys-handle.webp",
     "rarity": 5,
     "subStat": "Crit Rate",
@@ -751,12 +661,6 @@
         587.5,
         24.3
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Mendapatkan 12%/15%/18%/21%/24% Attribute DMG Bonus. Saat menggunakan Resonance Liberation, pengguna mendapatkan 48%/60%/72%/84%/96% Resonance Liberation DMG Bonus selama 8/8/8/8/8 detik. Efek ini dapat diperpanjang selama 5/5/5/5/5 detik setiap kali Resonance Skill dilancarkan, hingga 3/3/3/3/3 kali.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   }
 ]

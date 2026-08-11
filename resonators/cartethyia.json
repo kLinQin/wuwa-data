@@ -1,18 +1,19 @@
 {
+  "id": 1409,
   "name": "Cartethyia",
-  "element": "Aero",
-  "weapon": "Sword",
+  "element": 4,
   "rarity": 5,
+  "weapon": 2,
   "version": "3.0",
   "lastUpdated": "2026-01-12",
   "roles": [
-    "Main Damage Dealer",
-    "Traction",
-    "Aero DMG Amplification",
-    "Aero Erosion"
+    2,
+    8,
+    16,
+    22
   ],
   "sonatas": [
-    "Windward Pilgrimage"
+    17
   ],
   "changelog": [
     {
@@ -36,182 +37,6 @@
   "image": "/characters/cartethyia.webp",
   "icon": "/icons/characters/cartethyia.webp",
   "imageBanner": "/banners/cartethyia-banner.jpeg",
-  "recommendedStats": {
-    "HP": "35.000+",
-    "Energy Regen": "100-110%",
-    "Crit Ratio (Crit Weapon)": "75% : 310%",
-    "Crit Ratio (Non Crit Weapon)": "70% : 270%"
-  },
-  "build": {
-    "bestEcho": [
-      "Fleurdelys"
-    ],
-    "bestWeapon": "Defier's Thorn",
-    "echoDetails": {
-      "note": "Meskipun [Reminiscence: Fleurdelys] wajib menjadi Main Echo, NM: Kelpie harus dipilih sebagai Echo 4-Cost.",
-      "sets": [
-        {
-          "label": "DPS Erosion",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 1,
-              "stat": "HP%"
-            },
-            {
-              "cost": 1,
-              "stat": "HP%"
-            },
-            {
-              "cost": 1,
-              "stat": "HP%"
-            }
-          ],
-          "echoSlug": "fleurdelys",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            {
-              "name": "Windward Pilgrimage",
-              "set": 5
-            }
-          ]
-        }
-      ],
-      "substats": [
-        "CR% / CDM%",
-        "HP%",
-        "Basic Attack DMG Bonus",
-        "HP",
-        "Reso Libe DMG",
-        "Energy Regen (110)"
-      ]
-    },
-    "weaponNote": "Jika menggunakan Defier's Thorn (Signature Cartethyia), gunakan 1 Crit. Rate dan 1 Crit. DMG untuk Echo 4-Cost. Gunakan 2 Crit. DMG jika menggunakan Emerald of Genesis.",
-    "weaponOptions": [
-      {
-        "id": "defiers-thorn",
-        "percentage": "131",
-        "rank": ""
-      },
-      {
-        "id": "red-spring",
-        "percentage": "105",
-        "rank": ""
-      },
-      {
-        "id": "blazing-brilliance",
-        "percentage": "101",
-        "rank": ""
-      },
-      {
-        "id": "emerald-of-genesis",
-        "percentage": "100",
-        "rank": ""
-      },
-      {
-        "id": "feather-edge",
-        "percentage": "100",
-        "rank": ""
-      }
-    ],
-    "rotations": [
-      {
-        "title": "Standar",
-        "steps": [
-          "Intro",
-          "BA34",
-          "Skill",
-          "MA",
-          "Echo",
-          "Ult",
-          "[U]BA12345",
-          "[U]Skill1",
-          "[U]MA12",
-          "[U]Skill2",
-          "[U]BA345",
-          "[U]Ult",
-          "Outro"
-        ]
-      }
-    ],
-    "talentPriority": {
-      "note": "Intro dan Reso Skill cukup di level 6 saja",
-      "priority": [
-        "Forte Circuit",
-        "Resonance Liberation",
-        "Normal Attack",
-        "Intro Skill",
-        "Resonance Skill"
-      ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        true
-      ]
-    },
-    "teams": [
-      {
-        "name": "Carte Hypercarry",
-        "members": [
-          [
-            "Cartethyia"
-          ],
-          [
-            "Ciaccona"
-          ],
-          [
-            "Chisa",
-            "Aero Rover",
-            "Suisui"
-          ]
-        ],
-        "note": "Ciaccona memberikan Aero Erosion Amplify kepada Cartethyia saat Outro Skill. Selain itu, clone milik Ciaccona memberikan Aero DMG Amplify serta tambahan stack Aero Erosion."
-      },
-      {
-        "name": "Carte HC Alternatif",
-        "members": [
-          [
-            "Cartethyia"
-          ],
-          [
-            "Sanhua"
-          ],
-          [
-            "Chisa",
-            "Shorekeeper",
-            "Suisui"
-          ]
-        ],
-        "note": "Sebagai opsi budget, Sanhua bisa digunakan karena mayoritas damage Cartethyia dianggap sebagai Basic ATK DMG; Sanhua memberikan amplify untuk tipe damage tersebut melalui Outro Skill miliknya."
-      },
-      {
-        "name": "Erosion Team",
-        "members": [
-          [
-            "Cartethyia"
-          ],
-          [
-            "Aero Rover"
-          ],
-          [
-            "Chisa",
-            "Shorekeeper",
-            "Suisui"
-          ]
-        ],
-        "note": "Rover: Aero atau Chisa dapat meningkatkan batas maksimum stack Aero Erosion pada musuh, sekaligus memberikan damage tambahan masing-masing melalui Bloodpact's Pledge (Rover: Aero) atau DEF shred dari Havoc Bane (Chisa)."
-      }
-    ],
-    "teamNote": "Sebagai alternatif, Shorekeeper dapat digunakan untuk meningkatkan Crit. Rate atau DMG Cartethyia. Namun, perlu dicatat bahwa Cartethyia tidak akan mendapatkan keuntungan dari set bonus Rejuvenating Glow."
-  },
   "skills": {
     "basic": {
       "name": "Sword To Carve My Forms",
@@ -568,110 +393,6 @@
       ]
     }
   },
-  "analysisCharts": [
-    {
-      "title": "Damage - Carte",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "SOURCE // TETHYS.GG",
-      "data": [
-        {
-          "type": "BA",
-          "value": 48.2,
-          "percentage": 48.2,
-          "imagePath": ""
-        },
-        {
-          "type": "Skill",
-          "value": 11.3,
-          "percentage": 11.3,
-          "imagePath": ""
-        },
-        {
-          "type": "Lib",
-          "value": 28.4,
-          "percentage": 28.4,
-          "imagePath": ""
-        },
-        {
-          "type": "BA Erosion",
-          "value": 10.8,
-          "percentage": 10.8,
-          "imagePath": ""
-        },
-        {
-          "type": "Intro",
-          "value": 1.3,
-          "percentage": 1.3,
-          "imagePath": ""
-        }
-      ]
-    },
-    {
-      "title": "Sequence - Carte",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "SOURCE // TETHYS.GG",
-      "data": [
-        {
-          "type": "S0",
-          "value": 129035224,
-          "percentage": 100,
-          "imagePath": ""
-        },
-        {
-          "type": "S1",
-          "value": 147999164,
-          "percentage": 115,
-          "imagePath": ""
-        },
-        {
-          "type": "S2",
-          "value": 191002855,
-          "percentage": 148,
-          "imagePath": ""
-        },
-        {
-          "type": "S3",
-          "value": 233323916,
-          "percentage": 181,
-          "imagePath": ""
-        }
-      ]
-    },
-    {
-      "title": "Weapon - Carte",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "SOURCE // TETHYS.GG",
-      "data": [
-        {
-          "type": "Defier'S Thorn",
-          "value": 128452816,
-          "percentage": 129,
-          "imagePath": ""
-        },
-        {
-          "type": "Red Spring",
-          "value": 104879753,
-          "percentage": 105,
-          "imagePath": ""
-        },
-        {
-          "type": "Blazing Brilliance",
-          "value": 101240327,
-          "percentage": 102,
-          "imagePath": ""
-        },
-        {
-          "type": "Emerald Of Genesis",
-          "value": 99683855,
-          "percentage": 100,
-          "imagePath": ""
-        }
-      ]
-    }
-  ],
   "sequences": [
     {
       "stage": "S1",
@@ -780,66 +501,54 @@
       ]
     }
   ],
-  "lore": {
-    "description": "Cartethyia, ksatria pengembara yang melakukan perjalanan melintasi Rinascita. Dulunya dikenal sebagai Blessed Maiden, perantara Divinity, dan Queen of Gale and Tide, ia menggunakan nama Fleurdelys. Kini, ia hanyalah seorang ksatria pengembara yang bebas dan tidak terikat.",
-    "manualEntries": [
-      {
-        "title": "TITLE",
-        "description": "- The Blessed Maiden\n- Blessed Maiden of the Order of the Deep\n- Queen of Gale and Tide\n- Enlightened One"
-      },
-      {
-        "title": "BIRTHPLACE",
-        "description": "Rinascita"
-      }
-    ],
-    "report": {
-      "resonancePower": "Feathered Tempest",
-      "overclockDiagnostic": "Grafik waveform Cartethyia menunjukkan fluktuasi elips dengan Time Domain yang stabil. Nilai puncak antara batas atas dan bawah menunjukkan tren kenaikan intermiten, dengan nilai puncak yang belum melampaui ambang batas kritis. Tidak ada fluktuasi abnormal yang teramati.\n\nKekuatan eksternal dan internal di dalam tubuh Cartethyia hampir mencapai tahap fusi.\n\nResonant Criticality: Tinggi. Stabilitas tinggi dengan risiko Overclocking yang minimal. Namun, perlu dicatat bahwa tubuh Cartethyia menunjukkan fluktuasi kekuatan yang tidak stabil saat berada jauh dari Rinascita.\n\nCartethyia adalah individu langka yang telah menjalani Second Awakening, memungkinkannya untuk bertransisi secara bebas di antara dua wujud. Perlu ditekankan bahwa ini bukanlah kasus Overclocking, melainkan pemanggilan kekuatannya secara presisi.\n\nNote from a Bloom Bearer: Saat Nona Cartethyia... Tidak, tunggu, Fleurdelys, mendemonstrasikan kekuatannya, badainya hampir menghancurkan seluruh simulasi! Astaga. Kita harus mengambil tindakan pencegahan ekstra pada pengujian berikutnya!",
-      "resonanceEvaluation": "[Resonance Evaluation Report RA-X006]\nWaktu Awakening tidak diketahui. Diasumsikan bahwa karena pengaruh berlawanan yang diberikan oleh Sentinel Imperator dan Threnodian Leviathan, data Spectrum Performance Cartethyia melampaui nilai standar sebesar ▇▇▇▇▇▇▇. Kalkulasi data yang akurat menggunakan metode yang ada saat ini tidak mungkin dilakukan.\n\nAnalisis sampel uji telah mengungkapkan Rabelle's Curve yang tidak konvergen dengan gelombang periodik yang nyata. Oleh karena itu, Cartethyia diklasifikasikan sebagai seorang Congenital Resonator.\n\nSistem telah mengklasifikasikan Cartethyia sebagai subjek unik. Berkasnya telah disegel di bawah kelompok proyek khusus. Izin akses: ▇▇▇\nSistem akan melakukan pemantauan berkelanjutan terhadap Cartethyia."
+  "favorRole": {
+    "Birthday": {
+      "Title": "No Description Available",
+      "Content": "Unknown"
     },
-    "items": [
-      {
-        "name": "Worn Wooden Sword",
-        "description": "Sebuah pedang properti panggung kayu kecil. Bahkan pedesaan Egla Town yang tenang tidak luput dari pengaruh pertunjukan panggung populer Rinascita. Kincir angin yang berputar dan legenda ksatria yang brilian membentuk masa kecil Cartethyia. Pedang kayu ini adalah hadiah dari seorang dramawan yang telah pensiun. Setiap hari setelah pelajarannya, ia akan berpatroli di desa dengan mata yang berbinar dan semangat tinggi, mengayunkannya saat ia menangani setiap \"ketidakadilan\" yang ia temui.\n\nIni seharusnya menjadi awal perjalanannya untuk menjadi seorang ksatria pengembara.\n\nNasib penuh dengan apa yang seharusnya terjadi, namun ia tidak pernah terungkap seperti yang kita bayangkan.",
-        "imageUrl": "/icons/items/cartethyia-1.webp"
-      },
-      {
-        "name": "Golden Laurel",
-        "description": "Sebuah Laurel emas kecil.\n\nKetika mahkota emas diletakkan di atas kepalanya, bisikan Divinity mencapai telinganya untuk pertama kalinya.\nMulai saat itu, ia bukan lagi Cartethyia. Ia akan menjadi Blessed Maiden dari Rinascita, \"Fleurdelys\" yang dibicarakan oleh semua orang.\n\nNasib bisa menjadi terlalu baik pada awalnya, hanya untuk kemudian berubah menjadi hujan yang tidak pernah berhenti turun.",
-        "imageUrl": "/icons/items/cartethyia-2.webp"
-      },
-      {
-        "name": "Hand Puppets",
-        "description": "Boneka tangan yang sedang berkelahi.\n\nIa telah mencari di menara itu selama yang terasa seperti selamanya, namun tidak menemukan jejak jiwa lainnya. Maka ia membuat boneka, mementaskan pertunjukan demi pertunjukan, hanya agar tidak lupa cara berbicara, dan untuk mengisi kesunyian karena sendirian.\n\nIa merindukan pertunjukan yang pernah ia lihat di dunia orang hidup, merindukan ladang gandum di pedesaan, merindukan minuman manis dan suara tawa orang-orang.\n\nNasib bisa mengisi kita dengan nostalgia, bahkan saat ia mengirim kita maju sendirian.",
-        "imageUrl": "/icons/items/cartethyia-3.webp"
-      }
-    ],
-    "stories": [
-      {
-        "title": "The Knight'S Faded Hours",
-        "content": "Seorang dramawan yang telah pensiun gemar menceritakan sebuah kisah tertentu: Dahulu kala, di pedesaan Egla Town, hiduplah seorang ksatria pengembara. Dengan pedang di tangan, ia berkelana jauh dan luas untuk mencari raksasa legendaris. Seorang raksasa yang berdiri setinggi kincir angin, dengan lengan panjang dan ramping seperti bilah-bilahnya. Berulang kali, sang ksatria pengembara bertarung dengan segenap kekuatannya melawan raksasa itu, tetapi sang raksasa tidak pernah mengucapkan sepatah kata pun, hanya terus mengayunkan lengannya, membuat serangan sang ksatria sia-sia.\n\nBeberapa orang mengejek kebodohan sang ksatria, beberapa mengasihani delusinya. Bagaimanapun juga, apa yang disebut raksasa itu hanyalah sebuah kincir angin, dan pertempurannya hanyalah fantasi. Namun, gadis paling jahil di pedesaan itu melihatnya secara berbeda.\n\nIa mencari helm ksatria untuk dirinya sendiri dan memohon kepada sang dramawan untuk sebuah pedang kayu kecil. \"Untuk bertarung demi raksasa seperti itu,\" katanya, \"dia pasti memiliki hati dengan kemuliaan yang murni.\" Maka, ia pun ingin menjadi seperti ksatria itu, mencari raksasa yang menghancurkan rumah-rumah dan menceraiberaikan ternak, serta memastikan bahwa Golden Thiefbats yang mengintai di sepanjang jalan tidak lagi bisa mencuri satu pun harta karun dari para pengembara.\n\nMenunggangi Tumbleyak dengan gaya yang mencolok, ia memacu kecepatannya melewati ladang gandum. Dunia tidak pernah terasa begitu luas. Di sinilah legenda Blessed Maiden dimulai. Melewati ladang, melewati kemeriahan festival, dan masuk ke dalam Inverted Tower.\n\nIni akan menjadi sebuah misi yang agung."
-      },
-      {
-        "title": "Steadfast In The Final Dance",
-        "content": "Misi ini berlanjut untuk beberapa waktu.\n\nDalam momen-momen yang tidak diperhatikan itu, sang gadis mengunjungi setiap ladang di Whisperwind Haven. Nakal dan berjiwa bebas secara alami, ia bahkan mencuri sesap anggur sakramental di bawah pengawasan penjaga, menari-nari di platform tinggi, dan mengubah upacara khidmat menjadi kegilaan total. Bahkan dinding penjara Order pun menjadi kanvas pribadinya.\n\n\"Dia benar-benar gadis paling riuh di pedesaan,\" kata orang-orang. \"Nasib yang serius bukanlah takdirnya, dan tidak ada dinding, sekuat apa pun, yang bisa menghalanginya untuk membentangkan sayap.\"\n\nNamun, di luar dugaan semua orang, ia dipilih oleh Divinity.\n\nMengapa dia? Beberapa orang bertanya-tanya. Dia hanyalah putri seorang pejabat, seorang gadis desa yang kurang disiplin! Tidak ada setetes pun darah bangsawan mengalir di nadinya. Bagaimana mungkin dia bisa memahami hierarki dunia?\n\n\"Dialah orangnya!\" seru yang lain. \"Dia mendengarkan kesedihan kami dan menggantinya dengan sukacita! Jika ada yang layak mengenakan mahkota Divinity, itu adalah dia.\"\n\nNamun apa yang dipikirkan oleh sosok yang menyandang nama Fleurdelys tentang semua ini? Sebelum upacara penobatan nama sucinya, di sebuah aula yang membosankan dan menyesakkan, ia membawakan tarian terakhirnya sebagai Cartethyia.\n\nApakah ia bingung oleh bisikan Divinity? Takut akan masa depan yang tidak pasti? Percaya diri bahwa ia bisa mengayunkan pedang suci tersebut?\n\nIa hanya menyimpan nama \"Cartethyia\" tersembunyi jauh di dalam hatinya. Selamat tinggal, ladang gandum yang bergoyang ditiup angin, dan Tumbleyaks yang berkeliaran dengan bebas. Di dunia yang begitu luas, seseorang harus mengangkat pedang. Seseorang harus mengikatkan diri dalam duri. Seseorang harus menerima beban tanggung jawab. Seseorang \n\nHarus menjadi Fleurdelys, pelindung Rinascita."
-      },
-      {
-        "title": "Hesitation Amid Gale And Tide",
-        "content": "Sebagai Fleurdelys, ia harus berangkat berperang dengan pedang di tangan.\n\nUntuk ini, ia mempelajari segala hal yang ia bisa. Ia mempelajari kitab suci Order dan mengasah keterampilan tempurnya. Ia mendengarkan suara rakyat, mengabdikan dirinya untuk memenuhi harapan mereka. Ketika seseorang berdoa memohon kesehatan, ia mengatur pengiriman obat-obatan berharga. Ketika seseorang mencari kedamaian, ia akan mendengarkan pengakuan mereka, menyerap kesedihan masa lalu mereka. Ketika Tacet Discord Outbreak terjadi, ia menghunuskan pedangnya dan menghancurkannya sejak dini. Tindakan-tindakan ini tidak berbeda dengan apa yang telah ia lakukan di kampung halamannya.\n\nSatu-satunya perbedaan adalah ia tidak lagi menghadapi desa kecil atau wajah-wajah yang dikenalnya. Sebagian besar dari mereka yang mencari bantuannya adalah orang asing, dan ia memahami bahwa masing-masing dari mereka seperti sebuah lampu kecil. Semakin banyak ia membantu, semakin terang mereka akan bersinar di langit malam Rinascita.\n\nNamun, dunia begitu luas, dan Order jauh dari kata sempurna seperti yang diklaim dalam buku-buku. Kaum bangsawan hanya terpaku pada kepentingan mereka sendiri, dan para Acolytes yang mengaku taat hanyalah memamerkan iman mereka, sambil menutup mata terhadap jeritan rakyat. Ia melihat para bangsawan yang membual tentang kebaikan hati mereka sambil mengisi kantong sendiri, menolak untuk mendengar permohonan mereka yang menderita.\n\nDi saat-saat seperti ini, yang bisa ia lakukan hanyalah mempererat genggamannya pada pedangnya.\n\nIa mengalami keraguan, gangguan, dan kekecewaan. Dan karena hal ini, genggamannya justru semakin kuat saat ia menghadapi Dark Tide, Ia akan mempertanyakan sang Divinity. Ia harus melakukannya.\n\nTidak peduli jawaban apa yang menantinya, Fleurdelys telah siap untuk itu.\n\nDengan tekad ini, ia berjalan masuk ke dalam menara. Sendirian."
-      },
-      {
-        "title": "Yet Within Solitude",
-        "content": "Ia sepertinya telah bermimpi untuk waktu yang sangat lama.\n\nDalam mimpi itu, himne dan pujian mengalir ke arahnya dalam gelombang yang tak berujung, menelannya. Ia mengangkat pedangnya untuk memotong gelombang itu berkali-kali, bertarung melawan makhluk laut raksasa di perairan tersebut. Ia bertarung sekuat tenaga. Bahkan ketika air berubah menjadi bilah yang cukup tajam untuk mengiris daging, ia tidak mundur selangkah pun.\n\nKetika ia membuka matanya, ia mendapati dirinya sendirian di tempat yang asing.\n\nDi mana dia? Apa tujuannya? Siapa dia? Pertanyaan-pertanyaan yang jawabannya telah menghilang dari ingatan.\n\nIa menjelajahi menara untuk mencari apa yang hilang. Ia bahkan mencoba menemukan jalan ke menara pusat untuk mencari jawaban. Namun setelah menjelajahi setiap sudut yang bisa ia jangkau, ia tidak menemukan apa pun kecuali dirinya sendiri. Tidak ada eksistensi \"lain\". Dialah satu-satunya jiwa di sana.\n\nMaka ia mulai berbicara dengan dirinya sendiri. Ia menjahit boneka dari kain perca. Ia mengarang cerita.\n\nAnehnya, kabut memorinya mulai terangkat sedikit demi sedikit di bawah ujung jarinya.\n\nIa membuat satu boneka gadis pemegang pedang dan satu lagi monster laut. Ia menggumamkan beberapa baris dialog di antara mereka, lalu terdiam. Ia tahu cerita ini. Ia pernah mendengarnya sebelumnya. Gadis pemegang pedangksatria pengembara telah melakukan perjalanan untuk menghadapi raksasa legendarmonster laut yang mengerikan. Berkali-kali, ia melawannya dengan segala yang ia miliki.\n\nTidak peduli apa yang diperjuangkan oleh gadis pemegang pedangksatria pengembara itu, ia memahami satu hal \n\nSetiap kali ia mengangkat pedangnya, ia tidak peduli dengan masa lalunya. Ia hanya peduli pada apa yang perlu dilakukan pada saat itu juga.\n\nDan jika itu benar, maka kehilangan ingatannya bukanlah kerugian besar. Di dunia yang begitu luas, ia akan menemukan dirinya kembali.\n\nDan ketika saat itu tiba, apakah ia ternyata adalah sang pejuang atau sang monster, itu adalah jawaban yang bersedia ia terima."
-      },
-      {
-        "title": "The Wandering Knight Marches To Freedom",
-        "content": "Di dalam sebuah restoran kecil di Whisperwind Haven, seorang gadis muda memesan beberapa Laurus Salad. Sambil menunggu makanannya, ia diam-diam menyelinap ke dapur, mengikuti kepala koki dan mengamati teknik kulinernya dengan saksama.\n\n\"Hmm. Tolong tambahkan beberapa Viscum Berries lagi. Ah, ya, ya. Dan satu lagi!\"\n\n\"Anda juga bisa menambahkan lebih banyak madu... Ya, terima kasih!\"\n\n\"Dan dari mana asalmu, bocah nakal? Jika kau sedang menunggu makananmu, kau harus menunggu di luar.\" Kepala koki meletakkan peralatannya dan mendongak, terdiam dalam keheranan. Gadis di depannya tampak familier, tetapi ia tidak bisa mengingat namanya dengan tepat.\n\n\"A-aku minta maaf! Aku hanya ingin mempelajari beberapa keterampilan memasakmu. Aku memiliki perjalanan panjang di depanku, dan aku mungkin tidak memiliki keberuntungan untuk menemukan restoran yang menyajikan makanan selezat ini lagi. Jika permintaan maafku tidak cukup, aku akan membelah kayu bakar untukmu sebagai gantinya.\"\n\n\"Apakah ini pertama kalinya kau makan di restoran kami? Aku merasa seperti pernah melihatmu sebelumnya.\" Kepala koki menyerahkan makanan kepada gadis yang penasaran itu.\n\n\"Apakah itu dari jendela kaca patri itu...?\"\n\n\"Ini bukan pertama kalinya, sebenarnya! Tapi sudah cukup lama sejak terakhir kali aku berkunjung,\" jawab gadis itu sambil menerima piringnya. \"Izinkan aku memperkenalkan diri. Namaku Cartethyia. Aku seorang ksatria pengembara yang sedang bersiap untuk misi baru. Jika Anda membutuhkan bantuan, beri tahu aku.\"\n\n\"Aku hanya harus mencoba ini sebelum memulai perjalananku!\" Gadis itu menyendok salad dan menggigitnya.\n\nDi dunia yang begitu luas, salad yang penuh dengan Viscum Berries membuat awal perjalanannya terasa sangat pas.\n\n\"Lezat sekali.\" Ia memuji dari lubuk hatinya."
-      }
-    ],
-    "specialFood": {
-      "name": "Knight-Errant'S Essentials",
-      "imageUrl": "/icons/food/cartethyia.webp",
-      "description": "Memberikan 34% Healing Bonus kepada semua Resonator di dalam tim selama 30 menit. Hanya efektif pada Resonator milikmu sendiri dalam Co-op Mode."
+    "Sex": {
+      "Title": "No Description Available",
+      "Content": "Female"
+    },
+    "Country": {
+      "Title": "No Description Available",
+      "Content": "Rinascita"
+    },
+    "Influence": {
+      "Title": "No Description Available",
+      "Content": "Ragunna"
+    },
+    "Info": {
+      "Title": "No Description Available",
+      "Content": "Cartethyia, the wandering knight who travels across <te href=850096>Rinascita</te>. Formerly known as the Blessed Maiden, the vessel of Divinity, and the Queen of Gale and Tide, she went by the name Fleurdelys. Now, she is simply a free and unfettered wandering knight."
+    },
+    "TalentName": {
+      "Title": "No Description Available",
+      "Content": "Feathered Tempest"
+    },
+    "TalentDoc": {
+      "Title": "Resonance Evaluation Report",
+      "Content": "[Resonance Evaluation Report RA-X006]<br>Time of Awakening unknown. It is speculated that due to the opposing influences exerted by <te href=850083>Sentinel</te> <te href=850105>Imperator</te> and <te href=850074>Threnodian</te> Leviathan, Cartethyia's Spectrum Performance data exceeds standard values by ▇▇▇▇▇▇▇. Calculation of accurate data using existing methods is impossible.<br><br>Analysis of test samples has revealed a non-convergent <te href=850067>Rabelle's Curve</te> with a pronounced periodic waveform. Therefore, Cartethyia is classified as a <te href=850068>Congenital Resonator</te>.<br><br><span class=\"italic\">System has classified Cartethyia as a unique subject. Her file has been sealed under a special project group. Access clearance: ▇▇▇</span><br><span class=\"italic\">System will conduct continuous monitoring of Cartethyia.</span>"
+    },
+    "TalentCertification": {
+      "Title": "Overclock Diagnostic Report",
+      "Content": "Cartethyia's waveform graph shows elliptical fluctuations with a stable Time Domain. Peak values between upper and lower bounds show intermittent upward trends, with peak values not yet exceeding critical threshold. No abnormal fluctuations have been observed.<br><br>External and internal forces within Cartethyia have nearly reached a state of fusion.<br><br>Resonant Criticality: High. Stability is high with minimal risk of <te href=850073>Overclocking</te>. However, it is worth noting that Cartethyia's body shows unstable power fluctuations when distant from <te href=850096>Rinascita</te>.<br><br>Cartethyia is a rare individual who has undergone a Second Awakening, enabling her to transition freely between two forms. It must be emphasized that this is not a case of Overclocking, but rather the precise invocation of her powers.<br><br><span class=\"italic\">Note from a Bloom Bearer: When Miss Cartethyia... No, wait, Fleurdelys, demonstrated her powers, the storm nearly tore the entire simulation apart! My, oh, my. We gotta take extra precautions with our next test!</span>"
+    },
+    "CVNameCn": {
+      "Title": "No Description Available",
+      "Content": "Yun Hezhui"
+    },
+    "CVNameJp": {
+      "Title": "No Description Available",
+      "Content": "Asakawa Yuu"
+    },
+    "CVNameKo": {
+      "Title": "No Description Available",
+      "Content": "Bae Ha Gyoung"
+    },
+    "CVNameEn": {
+      "Title": "No Description Available",
+      "Content": "Amanda Elizabeth Rischel"
     }
   }
 }

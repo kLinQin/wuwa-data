@@ -1,11 +1,11 @@
 [
   {
-    "id": "augment",
+    "id": 21050074,
     "slug": "augment",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Augment",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/augment.webp",
     "rarity": 4,
     "subStat": "Crit Rate",
@@ -38,21 +38,15 @@
         412.5,
         20.25
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Melancarkan Resonance Liberation meningkatkan ATK pengguna sebesar 15%/23.25%/31.5%/39.75%/48% selama 15/15/15/15/15 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "boson-astrolabe",
+    "id": 21050045,
     "slug": "boson-astrolabe",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Boson Astrolabe",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/boson-astrolabe.webp",
     "rarity": 5,
     "subStat": "Energy Regen",
@@ -85,21 +79,15 @@
         525,
         38.8
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Setelah Resonator dalam tim melancarkan Tune Break skill, memberikan peningkatan ATK sebesar 12%/13.5%/15%/16.5%/18% dan Basic Attack DMG Bonus sebesar 12%/13.5%/15%/16.5%/18% kepada pengguna selama 14/14/14/14/14 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "call-of-the-abyss",
+    "id": 21050017,
     "slug": "call-of-the-abyss",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Call of the Abyss",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/call-of-the-abyss.webp",
     "rarity": 4,
     "subStat": "Energy Regen",
@@ -132,21 +120,15 @@
         337.5,
         51.84
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Melancarkan Resonance Liberation meningkatkan Healing Bonus Resonator sebesar 16%/20%/24%/28%/32% selama 15/15/15/15/15 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "comet-flare",
+    "id": 21050064,
     "slug": "comet-flare",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Comet Flare",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/comet-flare.webp",
     "rarity": 4,
     "subStat": "HP",
@@ -179,21 +161,15 @@
         412.5,
         30.38
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Saat melancarkan Basic Attack DMG atau Heavy Attack DMG, meningkatkan Healing Bonus sebesar 3%/3.75%/4.5%/5.25%/6%, dapat di stack(s) hingga 3/3/3/3/3 kali. Efek ini berlangsung selama 8/8/8/8/8 detik dan dapat dipicu 1/1/1/1/1 kali setiap 0.6/0.6/0.6/0.6/0.6 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "cosmic-ripples",
+    "id": 21050015,
     "slug": "cosmic-ripples",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Cosmic Ripples",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/cosmic-ripples.webp",
     "rarity": 5,
     "subStat": "ATK",
@@ -226,21 +202,15 @@
         500,
         54
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. Saat memberikan Basic Attack DMG, meningkatkan Basic Attack DMG Bonus sebesar 3.2%/4%/4.8%/5.6%/6.4%, dapat di stack(s) hingga 5/5/5/5/5 kali. Efek ini berlangsung selama 8/8/8/8/8 detik dan dapat dipicu 1/1/1/1/1 kali setiap 0.5/0.5/0.5/0.5/0.5 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "firstlights-herald",
+    "id": 21050096,
     "slug": "firstlights-herald",
     "version": "3.5",
     "lastUpdated": "2026-07-05",
-    "name": "firstlights-herald",
-    "weaponType": "Rectifier",
+    "name": "Firstlight's Herald",
+    "weaponType": 5,
     "image": "/weapons/rectifier/firstlights-herald.webp",
     "rarity": 5,
     "subStat": "Energy Regen",
@@ -277,21 +247,15 @@
         412.5,
         77.04
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan Max HP sebesar 12%/15%/18%/21%/24%. Melancarkan Resonance Liberation memulihkan 8/10/12/14/16 poin Concerto Energy, dengan cooldown 20 detik. Memberikan efek Glacio Chafe memberikan Snow Taint selama 6 detik. Melakukan healing memberikan Ripples selama 6 detik. Jika pengguna melakukan keduanya saat berada di medan pertempuran, Outro Skill berikutnya akan memberikan kedua efek tersebut selama 6 detik. Saat pengguna memiliki Snow Taint dan Ripples, ATK semua Resonator terdekat dalam tim meningkat sebesar 20%/25%/30%/35%/40%. Efek dengan nama yang sama tidak bisa di stack.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "forged-dwarf-star",
+    "id": 21050076,
     "slug": "forged-dwarf-star",
     "version": "3.0",
     "lastUpdated": "2026-04-20",
     "name": "Forged Dwarf Star",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/forged-dwarf-star.webp",
     "rarity": 5,
     "subStat": "CRIT Rate",
@@ -328,21 +292,15 @@
         500,
         36
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat pengguna memberikan Fusion Burst Effect atau Tune Strain - Shifting pada target, hal ini meningkatkan Resonance Liberation DMG Bonus mereka sebesar 36%/45%/54%/63%/72% selama 5/5/5/5/5 detik. Di bawah efek ini, saat Resonator dalam tim memberikan Fusion Burst Effect atau Tune Strain - Shifting, ATK mereka meningkat sebesar 24%/30%/36%/42%/48% selama 15/15/15/15/15 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "freeze-frame",
+    "id": 21050086,
     "slug": "freeze-frame",
     "version": "3.0",
     "lastUpdated": "2026-06-07",
     "name": "Freeze Frame",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/freeze-frame.webp",
     "rarity": 5,
     "subStat": "CRIT Rate",
@@ -375,21 +333,15 @@
         587.5,
         24.3
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Setelah memberikan Glacio Chafe pada target, pengguna mendapatkan 30%/37.5%/45%/52.5%/60% Glacio DMG Bonus selama 12/12/12/12/12 detik, dan semua Resonator dalam tim mendapatkan peningkatan 24%/30%/36%/42%/48% ATK selama 30/30/30/30/30 detik. Efek dengan nama yang sama tidak dapat di-stack.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "fusion-accretion",
+    "id": 21050084,
     "slug": "fusion-accretion",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Fusion Accretion",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/fusion-accretion.webp",
     "rarity": 4,
     "subStat": "ATK",
@@ -422,21 +374,15 @@
         462.5,
         18.23
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Melancarkan Resonance Skill memberikan 6/7/8/9/10 Resonance Energy dan meningkatkan ATK sebesar 10%/12.5%/15%/17.5%/20% selama 16/16/16/16/16 detik. Efek ini dapat dipicu sekali setiap 20/20/20/20/20 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "jinzhou-keeper",
+    "id": 21050044,
     "slug": "jinzhou-keeper",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Jinzhou Keeper",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/jinzhou-keeper.webp",
     "rarity": 4,
     "subStat": "ATK",
@@ -469,21 +415,15 @@
         387.5,
         36.45
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Melancarkan Intro Skill meningkatkan ATK pengguna sebesar 8%/10%/12%/14%/16% dan HP sebesar 10%/12.5%/15%/17.5%/20% selama 15/15/15/15/15 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "lethean-elegy",
+    "id": 21050066,
     "slug": "lethean-elegy",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Lethean Elegy",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/lethean-elegy.webp",
     "rarity": 5,
     "subStat": "Crit Rate",
@@ -516,21 +456,15 @@
         587.5,
         24.3
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "ATK meningkat sebesar 12%/15%/18%/21%/24%. Dalam 12/12/12/12/12 detik setelah memberikan Echo Skill DMG, dapatkan 32%/40%/48%/56%/64% Resonance Skill DMG Bonus dan 32%/40%/48%/56%/64% Echo Skill DMG Amplification, serta abaikan 8%/10%/12%/14%/16% DEF target saat memberikan damage.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "luminous-hymn",
+    "id": 21050046,
     "slug": "luminous-hymn",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Luminous Hymn",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/luminous-hymn.webp",
     "rarity": 5,
     "subStat": "Crit Rate",
@@ -563,21 +497,15 @@
         500,
         36
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Memberikan DMG kepada target dengan Spectro Frazzle memberikan pengguna 14%/17.5%/21%/24.5%/28% Basic Attack DMG Bonus dan 14%/17.5%/21%/24.5%/28% Heavy Attack DMG Bonus, dapat di stack(s) hingga 3/3/3/3/3 kali selama 6/6/6/6/6 detik. Melancarkan Outro Skill memperkuat (Amplifies) Spectro Frazzle DMG pada target di sekitar Resonator yang aktif sebesar 30%/37.5%/45%/52.5%/60% selama 30/30/30/30/30 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "oceans-gift",
+    "id": 21050027,
     "slug": "oceans-gift",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Ocean's Gift",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/oceans-gift.webp",
     "rarity": 4,
     "subStat": "ATK",
@@ -610,21 +538,15 @@
         462.5,
         18.23
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Memberikan DMG kepada musuh dengan Spectro Frazzle meningkatkan Spectro DMG pengguna sebesar 6%/7%/8%/9%/10%, mendapatkan 1 stack per detik selama 6 detik, dapat di stack(s) hingga 4 kali.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "radiant-dawn",
+    "id": 21050104,
     "slug": "radiant-dawn",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Radiant Dawn",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/radiant-dawn.webp",
     "rarity": 4,
     "subStat": "Crit. DMG",
@@ -657,21 +579,15 @@
         412.5,
         40.5
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Melancarkan Resonance Skill meningkatkan ATK sebesar 9%/13.9%/18.9%/23.8%/28.8% dan memberikan 9%/13.9%/18.9%/23.8%/28.8% Basic Attack DMG Bonus selama 10/10/10/10/10 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "rectifier-25",
+    "id": 21050034,
     "slug": "rectifier-25",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Rectifier#25",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/rectifier-25.webp",
     "rarity": 4,
     "subStat": "Energy Regen",
@@ -704,21 +620,15 @@
         337.5,
         51.84
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Saat Resonance Skill dilancarkan, jika HP Resonator di bawah 60%/60%/60%/60%/60%, memulihkan 5%/6.25%/7.5%/8.75%/10% dari Max HP mereka. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 8/8/8/8/8 detik. Jika HP Resonator di atas 60%/60%/60%/60%/60%, meningkatkan ATK sebesar 12%/15%/18%/21%/24% selama 10/10/10/10/10 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "rime-draped-sprouts",
+    "id": 21050026,
     "slug": "rime-draped-sprouts",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Rime-Draped Sprouts",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/rime-draped-sprouts.webp",
     "rarity": 5,
     "subStat": "Crit DMG",
@@ -751,21 +661,15 @@
         500,
         72
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat pengguna berada di medan tempur, menggunakan Resonance Skill memberikan 12%/15%/18%/21%/24% Basic Attack DMG Bonus, dapat di stack(s) hingga 3/3/3/3/3 kali selama 6/6/6/6/6 detik. Pada 3/3/3/3/3 stack(s) atau lebih, melancarkan Outro Skill mengonsumsi seluruh stack(s) efek ini dan memberikan pengguna 52%/65%/78%/91%/104% Basic Attack DMG Bonus selama 27/27/27/27/27 detik, tetap efektif saat pengguna berada di luar medan tempur.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "stellar-symphony",
+    "id": 21050036,
     "slug": "stellar-symphony",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Stellar Symphony",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/stellar-symphony.webp",
     "rarity": 5,
     "subStat": "Energy Regen",
@@ -798,21 +702,15 @@
         412.5,
         77
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan HP sebesar 12%/15%/18%/21%/24%. Memulihkan 8/10/12/14/16 Concerto Energy saat melancarkan Resonance Liberation. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 20/20/20/20/20 detik. Saat melancarkan Resonance Skill yang memberikan pemulihan, meningkatkan ATK anggota party terdekat sebesar 14%/17.5%/21%/24.5%/28% selama 30/30/30/30/30 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "stringmaster",
+    "id": 21050016,
     "slug": "stringmaster",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Stringmaster",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/stringmaster.webp",
     "rarity": 5,
     "subStat": "Crit Rate",
@@ -845,21 +743,15 @@
         500,
         36
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Memberikan 12%/15%/18%/21%/24% Attribute DMG Bonus. Saat memberikan Resonance Skill DMG, meningkatkan ATK sebesar 12%/15%/18%/21%/24%, dapat di stack(s) hingga 2/2/2/2/2 kali. Efek ini berlangsung selama 5/5/5/5/5 detik. Saat pengguna tidak berada di medan tempur, meningkatkan ATK mereka sebesar 12%/15%/18%/21%/24% tambahan.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "variation",
+    "id": 21050024,
     "slug": "variation",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Variation",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/variation.webp",
     "rarity": 4,
     "subStat": "Energy Regen",
@@ -892,21 +784,15 @@
         337.5,
         51.84
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Saat Resonance Skill dilancarkan, memulihkan 8/10/12/14/16 Concerto Energy. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 20/20/20/20/20 detik.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "waltz-in-masquerade",
+    "id": 21050094,
     "slug": "waltz-in-masquerade",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Waltz in Masquerade",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/waltz-in-masquerade.webp",
     "rarity": 4,
     "subStat": "ATK",
@@ -939,21 +825,15 @@
         462.5,
         18.23
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat di stack(s) hingga 4/4/4/4/4 kali.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   },
   {
-    "id": "whispers-of-sirens",
+    "id": 21050056,
     "slug": "whispers-of-sirens",
     "version": "3.0",
     "lastUpdated": "2026-01-28",
     "name": "Whispers of Sirens",
-    "weaponType": "Rectifier",
+    "weaponType": 5,
     "image": "/weapons/rectifier/whispers-of-sirens.webp",
     "rarity": 5,
     "subStat": "Crit DMG",
@@ -986,12 +866,6 @@
         500,
         72
       ]
-    },
-    "passive": {
-      "name": "Weapon Skill",
-      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Echo Skill dalam 10/10/10/10/10 detik setelah melancarkan Intro Skill atau Basic Attack memberikan 1/1/1/1/1 stack(s) Gentle Dream. Echo dengan nama yang sama hanya dapat memicu efek ini satu kali, dapat di stack(s) hingga 2/2/2/2/2 kali, berlangsung selama 10/10/10/10/10 detik. Saat mencapai 2 stack(s), melancarkan Echo Skill tidak lagi mengatur ulang durasi efek ini. Efek ini aktif hingga satu kali per 10 detik. Beralih ke Resonator lain akan mengakhiri efek ini lebih awal.Dengan 1/1/1/1/1 stack(s): Memberikan 40%/50%/60%/70%/80% Basic Attack DMG Bonus.Dengan 2/2/2/2/2 stack(s): Mengabaikan 12%/15%/18%/21%/24% dari Havoc RES target.",
-      "refinements": []
-    },
-    "lore": ""
+    }
   }
 ]

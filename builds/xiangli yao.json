@@ -1,0 +1,281 @@
+{
+  "id": 1305,
+  "name": "Xiangli Yao",
+  "recommendedStats": {
+    "ATK": "200p+",
+    "Energy Regen": "115% - 120%",
+    "Crit Ratio (Crit Weapon)": "65% : 285%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 240%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Tempest Mephis"
+    ],
+    "bestWeapon": "Verity's Handle",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "nightmare-thundering-mephis",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Void Thunder"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "veritys-handle",
+        "percentage": "120",
+        "rank": ""
+      },
+      {
+        "id": "blazing-justice",
+        "percentage": "111",
+        "rank": ""
+      },
+      {
+        "id": "tragicomedy",
+        "percentage": "108",
+        "rank": ""
+      },
+      {
+        "id": "pulsation-bracer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "abyss-surges",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "stonard",
+        "percentage": "96",
+        "rank": ""
+      },
+      {
+        "id": "hollow-mirage",
+        "percentage": "86",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Echo(Swap)",
+          "Intro",
+          "HA(Cancel)",
+          "Skill(Cancel)",
+          "Ult",
+          "Skill",
+          "MA",
+          "Skill",
+          "BA(x3)",
+          "Skill",
+          "Skill",
+          "MA",
+          "Skill",
+          "Outro"
+        ],
+        "title": "Hypercarry"
+      },
+      {
+        "steps": [
+          "Echo(Swap)",
+          "Intro",
+          "HA(Cancel)",
+          "Skill(Cancel)",
+          "Ult",
+          "Skill",
+          "MA",
+          "Skill",
+          "BA(x3)",
+          "Skill",
+          "Skill",
+          "MA",
+          "Skill",
+          "Outro"
+        ],
+        "title": "Yao-Quickswap"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "equalPriority": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "xiangli-yao-tune-break",
+      "xiangli-yao-hypercarry",
+      "xiangli-yao-quickswap"
+    ],
+    "teamNote": "Changli atau Calcharo berpasangan dengan sangat baik dengan Xiangli Yao bagi mereka yang menikmati gaya bermain dual DPS yang sedikit lebih mahir. Animasi serangan dan skill mereka dapat swap cancelled, memungkinkan mereka untuk bersinergi dengan baik.\n\nLynae, Yinlin, atau Sanhua adalah pilihan Sub DPS yang sangat baik untuk Xiangli Yao karena mereka membutuhkan waktu yang minimal di field dan buff yang mereka berikan memungkinkan gaya bermain hypercarry.\n"
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Verity'S Handle",
+          "value": 850765.68,
+          "imagePath": "",
+          "percentage": 119.72
+        },
+        {
+          "type": "Blazing Justice",
+          "value": 788417.79,
+          "imagePath": "",
+          "percentage": 110.95
+        },
+        {
+          "type": "Tragicomedy",
+          "value": 767100.67,
+          "imagePath": "",
+          "percentage": 107.95
+        },
+        {
+          "type": "Abyss Surges",
+          "value": 710635.22,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Stonard R5",
+          "value": 701398.59,
+          "imagePath": "",
+          "percentage": 98.7
+        },
+        {
+          "type": "Celestial Spiral R5",
+          "value": 620114.81,
+          "imagePath": "",
+          "percentage": 87.26
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Yao",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 7.5,
+          "imagePath": "",
+          "percentage": 7.5
+        },
+        {
+          "type": "Skill",
+          "value": 15.1,
+          "imagePath": "",
+          "percentage": 15.1
+        },
+        {
+          "type": "Lib",
+          "value": 67.3,
+          "imagePath": "",
+          "percentage": 67.3
+        },
+        {
+          "type": "Echo",
+          "value": 4,
+          "imagePath": "",
+          "percentage": 4
+        },
+        {
+          "type": "Intro",
+          "value": 2.3,
+          "imagePath": "",
+          "percentage": 2.3
+        },
+        {
+          "type": "Outro",
+          "value": 3.9,
+          "imagePath": "",
+          "percentage": 3.9
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Yao",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 850765.68,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 988579.16,
+          "imagePath": "",
+          "percentage": 116.2
+        },
+        {
+          "type": "S2",
+          "value": 1098562.72,
+          "imagePath": "",
+          "percentage": 129.13
+        },
+        {
+          "type": "S3",
+          "value": 1217687.99,
+          "imagePath": "",
+          "percentage": 143.13
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Yao",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

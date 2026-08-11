@@ -1,0 +1,289 @@
+{
+  "id": 1508,
+  "name": "Chisa",
+  "recommendedStats": {
+    "ATK": "1900-2100+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "75-85% : 270%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Threnodian Leviathan"
+    ],
+    "bestWeapon": "Kumokiri",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "NS Support",
+          "echoSlug": "threnodian-leviathan",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            {
+              "name": "Thread Of Severed Fate",
+              "set": 3
+            },
+            {
+              "name": "Havoc Eclipse",
+              "set": 2
+            },
+            "Midnight Veil"
+          ]
+        },
+        {
+          "label": "General ",
+          "sonataCustom": [
+            "Rejuvenating Glow"
+          ],
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "Havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "Havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ],
+      "note": "Kamu dapat memilih untuk menggunakan Fallacy dan Rejuv jika ia berada di dalam tim bersama Hiyuki dan Aemeath. Karena Cartethyia tidak mendapatkan keuntungan dari ATK yang diberikan oleh set tersebut, silakan gunakan 3-pc Thread + 2-pc HE/MV sebagai gantinya."
+    },
+    "weaponNote": "Jika ia menggunakan senjata signature miliknya, pertimbangkan Havoc DMG Bonus / ATK untuk 3-Cost.",
+    "weaponOptions": [
+      {
+        "id": "kumokiri",
+        "rank": "",
+        "percentage": "125"
+      },
+      {
+        "id": "wildfire-mark",
+        "rank": "",
+        "percentage": "113"
+      },
+      {
+        "id": "ages-of-harvest",
+        "rank": "",
+        "percentage": "105"
+      },
+      {
+        "id": "radiance-cleaver",
+        "rank": "",
+        "percentage": "-"
+      },
+      {
+        "id": "lustrous-razor",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "meditations-on-mercy",
+        "rank": "",
+        "percentage": "-"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar - Opener",
+        "steps": [
+          "Skill",
+          "[E]BA1",
+          "Ult",
+          "BA2",
+          "[E]BA1",
+          "[E]BA2(Hold)",
+          "Echo",
+          "[F]Skill",
+          "[F]BA2(Hold)",
+          "[F]BA3(Hold)",
+          "[E][F]BA",
+          "Outro"
+        ]
+      },
+      {
+        "title": "Standar - Loop",
+        "steps": [
+          "Intro",
+          "Skill",
+          "[E]BA1",
+          "[E]BA2",
+          "Ult",
+          "Echo",
+          "[F]Skill",
+          "[F]BA2(Hold)",
+          "[F]BA3(Hold)",
+          "[E][F]BA",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "aemeath-hypercarry",
+      "aemeath-tune-break",
+      "hiyuki-chafe",
+      "hiyuki-hypercarry",
+      "yangyang-xuanling-hypercarry",
+      "yangyang-xuanling-premium",
+      "zani-hypercarry"
+    ],
+    "teamNote": "1. Chisa memberikan buff berikut untuk rekan satu timnya: \n- Meningkatkan batas maksimal stack(s) Negative Status sebesar 3 selama 15 detik \n- 30% Def Ignore (12% dari Havoc Bane, 18% dari Forte)\n- Dengan Kumokiri (Signature Chisa): 24% All-Attribute DMG Bonus selama 15 detik ketika Resonator di dalam tim memberikan Negative Status.\n\n2. Chisa merupakan support yang banyak dicari oleh berbagai Negative Status DPS (Aemeath, Hiyuki, Yangyang: Xuanling, Cartethyia, dan Phoebe), berkat kemampuannya untuk memberikan Havoc Bane dan meningkatkan batas maksimal dari seluruh Negative Status yang dapat diberikan kepada musuh.\nIa juga memberikan 30% Def Ignore.\n"
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Chisa",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Kumokiri",
+          "value": 300301.98,
+          "percentage": 125.49,
+          "imagePath": ""
+        },
+        {
+          "type": "Wildfire Mark",
+          "value": 269750.59,
+          "percentage": 112.73,
+          "imagePath": ""
+        },
+        {
+          "type": "Ages Of Harvest",
+          "value": 251561.15,
+          "percentage": 105.12,
+          "imagePath": ""
+        },
+        {
+          "type": "Lustrous Razor",
+          "value": 239297.98,
+          "percentage": 100,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Chisa",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 3.2,
+          "percentage": 3.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 3.9,
+          "percentage": 3.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 83.4,
+          "percentage": 83.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 7.8,
+          "percentage": 7.8,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Chisa",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 300301.98,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 368540.02,
+          "percentage": 122.72,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 455861.82,
+          "percentage": 151.8,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 591492.08,
+          "percentage": 196.97,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

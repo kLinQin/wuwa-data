@@ -1,8 +1,9 @@
 {
+  "id": 1310,
   "name": "Electro Rover",
-  "element": "Electro",
-  "weapon": "Sword",
+  "element": 3,
   "rarity": 5,
+  "weapon": 2,
   "version": "3.5",
   "lastUpdated": "2026-07-09",
   "roles": [],
@@ -23,28 +24,12 @@
       "time": "2026-07-16"
     }
   ],
+  "faction": "",
+  "affiliation": "",
+  "class": "",
   "image": "/characters/electro-rover.webp",
   "icon": "/icons/characters/electro-rover.webp",
   "imageBanner": "/banners/electro-rover-banner.jpeg",
-  "recommendedStats": {},
-  "build": {
-    "bestEcho": [],
-    "bestWeapon": "",
-    "echoDetails": {
-      "sets": [],
-      "substats": [],
-      "note": ""
-    },
-    "weaponNote": "",
-    "weaponOptions": [],
-    "rotations": [],
-    "talentPriority": {
-      "priority": [],
-      "note": ""
-    },
-    "teams": [],
-    "teamNote": ""
-  },
   "skills": {
     "basic": {
       "name": "Deterrence",
@@ -185,7 +170,6 @@
       "totalCosts": []
     }
   },
-  "analysisCharts": [],
   "sequences": [
     {
       "stage": "S1",
@@ -253,21 +237,5 @@
         }
       ]
     }
-  ],
-  "lore": {
-    "description": "Resonator misterius yang memiliki kekuatan untuk menyerap semua suara. Saat ini sedang dalam perjalanan untuk menemukan ingatan yang hilang.",
-    "manualEntries": [],
-    "report": {
-      "resonancePower": "",
-      "resonanceEvaluation": "",
-      "overclockDiagnostic": ""
-    },
-    "items": [],
-    "stories": [],
-    "specialFood": {
-      "name": "",
-      "description": "",
-      "imageUrl": ""
-    }
-  }
+  ]
 }

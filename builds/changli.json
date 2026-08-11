@@ -1,0 +1,242 @@
+{
+  "id": 1205,
+  "name": "Changli",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110-120%",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Rider"
+    ],
+    "bestWeapon": "Blazing Brilliance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Dps",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "nightmare-rider",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Molten Rift"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "blazing-brilliance",
+        "percentage": "111",
+        "rank": ""
+      },
+      {
+        "id": "red-spring",
+        "percentage": "101",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "somnoire-anchor",
+        "percentage": "84",
+        "rank": "5"
+      },
+      {
+        "id": "commando-of-conviction",
+        "percentage": "82",
+        "rank": "5"
+      },
+      {
+        "id": "lumingloss",
+        "percentage": "76",
+        "rank": "5"
+      },
+      {
+        "id": "endless-collapse",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Skill",
+          "BA",
+          "Skill",
+          "BA",
+          "Echo(Swap)",
+          "Intro",
+          "MA",
+          "Skill",
+          "BA",
+          "Forte",
+          "Ult",
+          "Forte",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Skill",
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "changli-mono",
+      "changli-quickswap"
+    ],
+    "teamNote": "Karena ability Changli untuk melakukan quick swap dari hampir semua animasi attacck dan skill miliknya, ia sering kali cocok dipasangkan dengan sebagian besar main DPS."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Blazing Brilliance",
+          "value": 627227.42,
+          "imagePath": "",
+          "percentage": 111
+        },
+        {
+          "type": "Red Spring",
+          "value": 568138.03,
+          "imagePath": "",
+          "percentage": 101
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 564185.57,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Endless Collapse",
+          "value": 464517.5,
+          "imagePath": "",
+          "percentage": 82
+        },
+        {
+          "type": "Lumingloss",
+          "value": 438829.16,
+          "imagePath": "",
+          "percentage": 78
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Changli - Weapons",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Skill",
+          "value": 62.3,
+          "imagePath": "",
+          "percentage": 62.3
+        },
+        {
+          "type": "Lib",
+          "value": 31.1,
+          "imagePath": "",
+          "percentage": 31.1
+        },
+        {
+          "type": "Echo",
+          "value": 3.3,
+          "imagePath": "",
+          "percentage": 3.3
+        },
+        {
+          "type": "Intro",
+          "value": 3.4,
+          "imagePath": "",
+          "percentage": 3.4
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Changli - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 627227.42,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 648947.42,
+          "imagePath": "",
+          "percentage": 103
+        },
+        {
+          "type": "S2",
+          "value": 751733.98,
+          "imagePath": "",
+          "percentage": 120
+        },
+        {
+          "type": "S3",
+          "value": 821815.08,
+          "imagePath": "",
+          "percentage": 131
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Changli - Sequence",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

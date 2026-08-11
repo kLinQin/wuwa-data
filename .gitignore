@@ -1,0 +1,84 @@
+# === Node.js / NPM ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# === Environment & Config ===
+.env
+.env.local
+.env.*.local
+*.log
+*.tmp
+*.temp
+
+# === OS Generated Files ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+.workspace
+.project
+.classpath
+.settings/
+
+# === Backup Files ===
+resonators_backup/
+*.bak
+*.backup
+*.old
+*-backup.json
+
+# === Script Output Temporer ===
+temp/
+tmp/
+*.temp.json
+*-temp.json
+
+# === Data Yang Tidak Perlu Di-Git ===
+# (opsional - jika ada data besar atau privat)
+# data/
+# private-data/
+
+# === Dokumentasi Build ===
+dist/
+build/
+out/
+*.min.js
+*.min.css
+
+# === File Konfigurasi Personal ===
+*.local.json
+*.personal.json
+*.user.json
+
+# === Git ===
+*.orig
+*.rej
+*.patch
+.gitignore.tmp
+
+# === Scripts (jika ada output dari scripts) ===
+scripts/*.log
+scripts/output/
+scripts/temp/
+
+# Teams temporary
+teams/all-teams.json
+teams/temp-*.json

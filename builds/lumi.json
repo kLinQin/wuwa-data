@@ -1,0 +1,114 @@
+{
+  "id": 1504,
+  "name": "Lumi",
+  "recommendedStats": {
+    "ATK": "1800+",
+    "Energy Regen": "130-140%+",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Impermanence Heron"
+    ],
+    "bestWeapon": "Ages of Harvest",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Sub DPS",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 3,
+              "stat": "electro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "ages-of-harvest",
+        "percentage": "111",
+        "rank": ""
+      },
+      {
+        "id": "verdant-summit",
+        "percentage": "111",
+        "rank": ""
+      },
+      {
+        "id": "radiance-cleaver",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "lustrous-razor",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "helios-cleaver",
+        "percentage": "83",
+        "rank": ""
+      },
+      {
+        "id": "discord",
+        "percentage": "67",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "carlotta-budget"
+    ],
+    "teamNote": "Lumi memberikaan buff sebagai berikut: \n- 38% Resonance Skill\n- S6: 20% buff ATK"
+  },
+  "analysisCharts": []
+}

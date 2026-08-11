@@ -1,0 +1,250 @@
+{
+  "id": 1211,
+  "name": "Denia",
+  "recommendedStats": {
+    "Energy Regen": "120%",
+    "ATK%": "2100",
+    "Crit Ratio (Crit Weapon)": "70%:285%",
+    "Crit Ratio (Non Crit Weapon)": "60%:240%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Forged Dwarf Star",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Hybrid",
+          "sonataCustom": [
+            "Chromatic Foam"
+          ],
+          "echoSlug": "reminiscence-denia",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "Fusion%"
+            },
+            {
+              "cost": 3,
+              "stat": "Fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ]
+        },
+        {
+          "label": "Alternatif",
+          "sonataCustom": [
+            "Reel Of Spliced Memories"
+          ],
+          "echoSlug": "voidwing-moth",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "Fusion%"
+            },
+            {
+              "cost": 3,
+              "stat": "Fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ],
+      "note": "Bersama Aemeath, gunakan Chromatic Foam. Jika kamu memasangkannya dengan Luuk, kamu dapat menggunakan Reels of Spliced Memories sebagai gantinya."
+    },
+    "weaponNote": "sumber: Chemx32 doc",
+    "weaponOptions": [
+      {
+        "id": "forged-dwarf-star",
+        "rank": "",
+        "percentage": "135.79%"
+      },
+      {
+        "id": "stringmaster",
+        "rank": "",
+        "percentage": "119.15%"
+      },
+      {
+        "id": "lethean-elegy",
+        "rank": "",
+        "percentage": "106.66%"
+      },
+      {
+        "id": "cosmic-ripples",
+        "rank": "",
+        "percentage": "100.00%"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "New Rotation",
+        "steps": [
+          "Intro",
+          "BA4",
+          "Skill(Cancel)",
+          "Ult",
+          "[U]BA1234",
+          "[F]Skill12",
+          "Ult2",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Normal Attack",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "aemeath-hypercarry",
+      "aemeath-tune-strain",
+      "luuk-herssen-tune-break"
+    ],
+    "teamNote": "Dalam mode Fusion Burst, Denia memberikan buff berikut untuk rekan satu timnya:\n- 30% Fusion DMG Bonus saat berada dalam status [Entropy Shift]\n- 37% Fusion DMG Bonus dari bonus set Chromatic Foam (12% dari R: Denia)\n- 60% Fusion Burst DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n\nDalam mode Tune Strain, Denia memberikan buff berikut untuk rekan satu timnya:\n- 10 Tune Break Boost (total 50 bersama Mornye)\n- 20 Tune Break Boost dari bonus set Reel of Spliced Memories (12% ATK dari Voidwing Moth)\n- 15% All-Type DMG Amplify selama 16 detik (atau 40% untuk unit Strain) setelah melancarkan Outro Skill.\n\n- Dengan Forged Dawn Star (Signature Denia): Peningkatan 24% ATK selama 15 detik ketika Resonator di dalam tim memberikan efek Fusion Burst atau Tune Strain - Shifting."
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Denia",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Forged Dwarf Star",
+          "value": 383822.18,
+          "percentage": 125.79,
+          "imagePath": ""
+        },
+        {
+          "type": "Stringmaster",
+          "value": 363567.06,
+          "percentage": 119.15,
+          "imagePath": ""
+        },
+        {
+          "type": "Lethean Elegy",
+          "value": 325451.74,
+          "percentage": 106.66,
+          "imagePath": ""
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 305122.32,
+          "percentage": 100,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Denia",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 383822.18,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 420682.26,
+          "percentage": 109.6,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 512175.32,
+          "percentage": 133.44,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 641901.51,
+          "percentage": 167.24,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Denia",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Lib",
+          "value": 84.4,
+          "percentage": 84.4,
+          "imagePath": ""
+        },
+        {
+          "type": "BA",
+          "value": 6,
+          "percentage": 6,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 5.4,
+          "percentage": 5.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 2.1,
+          "percentage": 2.1,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 2.1,
+          "percentage": 2.1,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

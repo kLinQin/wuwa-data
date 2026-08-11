@@ -1,17 +1,18 @@
 {
+  "id": 1407,
   "name": "Ciaccona",
-  "element": "Aero",
-  "weapon": "Pistol",
+  "element": 4,
   "rarity": 5,
+  "weapon": 3,
   "version": "2.3",
   "lastUpdated": "2026-01-12",
   "roles": [
-    "Concerto Efficiency",
-    "Traction",
-    "Aero Erosion"
+    3,
+    8,
+    22
   ],
   "sonatas": [
-    "Gusts of Welkin"
+    18
   ],
   "changelog": [
     {
@@ -34,188 +35,6 @@
   "image": "/characters/ciaccona.webp",
   "icon": "/icons/characters/ciaccona.webp",
   "imageBanner": "/banners/ciaccona-banner.jpeg",
-  "recommendedStats": {
-    "ATK": "2000+",
-    "Energy Regen": "120%",
-    "Crit Ratio (Crit Weapon)": "65-75% : 285-310%",
-    "Crit Ratio (Non Crit Weapon)": "65% : 240%"
-  },
-  "build": {
-    "bestEcho": [
-      "Nightmare: Kelpie"
-    ],
-    "bestWeapon": "Woodland Aria",
-    "echoDetails": {
-      "sets": [
-        {
-          "label": "Sub Dps Aero",
-          "echoSlug": "fleurdelys",
-          "echoSlugSecondary": "",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 3,
-              "stat": "aero%"
-            },
-            {
-              "cost": 3,
-              "stat": "aero%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ],
-          "sonataCustom": [
-            "Gusts Of Welkin"
-          ]
-        },
-        {
-          "label": "Sub Dps Alt",
-          "echoSlug": "nightmare-kelpie",
-          "echoSlugSecondary": "",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 3,
-              "stat": "aero%"
-            },
-            {
-              "cost": 3,
-              "stat": "aero%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ],
-          "sonataCustom": []
-        }
-      ],
-      "substats": [
-        "CR% / CDM%",
-        "Energy Regen (120)",
-        "ATK%",
-        "ATK"
-      ],
-      "note": "Echo NM Kelpie ini lebih mudah di-farm dibandingkan Reminiscence: Fleurdelys dan memberikan Aero DMG Bonus 2% lebih tinggi."
-    },
-    "weaponNote": "- Romance in Farewel, Undying Flame dan Thunderbolt semua nya R5.\n- Jika dipasangkan dengan Cartethyia, Phasic Homogenizer memberikan damage yang lebih baik, tetapi akan kehilangan pasif ER dari Static Mist. \n- Gunakan Static Mist jika dipasangkan dengan Iuno, Jiyan, atau Qiuyuan. ",
-    "weaponOptions": [
-      {
-        "id": "woodland-aria",
-        "percentage": "114",
-        "rank": ""
-      },
-      {
-        "id": "the-last-dance",
-        "percentage": "100.45",
-        "rank": ""
-      },
-      {
-        "id": "phasic-homogenizer",
-        "percentage": "-",
-        "rank": ""
-      },
-      {
-        "id": "static-mist",
-        "percentage": "100",
-        "rank": ""
-      },
-      {
-        "id": "romance-in-farewell",
-        "percentage": "99",
-        "rank": "5"
-      },
-      {
-        "id": "undying-flame",
-        "percentage": "98",
-        "rank": "5"
-      },
-      {
-        "id": "thunderbolt",
-        "percentage": "98",
-        "rank": "5"
-      }
-    ],
-    "rotations": [
-      {
-        "title": "standar",
-        "steps": [
-          "Intro",
-          "BA3",
-          "BA4(Jump-Cancel)",
-          "MA12",
-          "BA4(Jump-Cancel)",
-          "Skill",
-          "Forte",
-          "Ult",
-          "Outro(Echo)"
-        ]
-      }
-    ],
-    "talentPriority": {
-      "priority": [
-        "Resonance Liberation",
-        "Normal Attack",
-        "Forte Circuit",
-        "Intro Skill",
-        "Resonance Skill"
-      ],
-      "note": ""
-    },
-    "teams": [
-      {
-        "name": "Cartethyia Hypercarry",
-        "members": [
-          [
-            "Cartethyia"
-          ],
-          [
-            "Ciaccona"
-          ],
-          [
-            "Chisa",
-            "Aero Rover",
-            "Shorekeeper"
-          ]
-        ],
-        "note": "Ciaccona memberikan Aero Erosion Amplify kepada Cartethyia saat mengeluarkan Outro Skill. Selain itu, clone milik Ciaccona memberikan Aero DMG Amplify. Ia juga memberikan tambahan stack Aero Erosion."
-      },
-      {
-        "name": "iuno Hypercarry",
-        "members": [
-          [
-            "Iuno",
-            "Jiyan"
-          ],
-          [
-            "Ciaccona"
-          ],
-          [
-            "Shorekeeper",
-            "Aero Rover"
-          ]
-        ],
-        "note": "Ciaccona memberikan Iuno 24% Aero DMG Bonus dari [Ensemble Sylphs] miliknya, ditambah 15% Aero DMG dari set Gusts of Welkin. Selain itu, saat Ciaccona menggunakan signature weapon miliknya, ia menurunkan Aero RES musuh sebesar 10%."
-      }
-    ],
-    "teamNote": "Ciaccona memberikan buff berikut kepada rekan timnya:\n- 24% Aero DMG Bonus dari [Ensemble Sylphs] miliknya.\n- 15% Aero DMG Bonus dari set bonus Gusts of Welkin.\n- 100% Aero Erosion Amplify selama 30 detik setelah menggunakan Outro Skill.\n- Dengan Woodland Aria (Signature Ciaccona): 10% Aero RES Reduction selama 20 detik."
-  },
   "skills": {
     "basic": {
       "name": "Quadruple Time Steps",
@@ -461,81 +280,6 @@
       ]
     }
   },
-  "analysisCharts": [
-    {
-      "data": [
-        {
-          "type": "BA",
-          "value": 27.3,
-          "percentage": 27.3
-        },
-        {
-          "type": "HA",
-          "value": 21.3,
-          "percentage": 21.3
-        },
-        {
-          "type": "Skill",
-          "value": 4.8,
-          "percentage": 21.3
-        },
-        {
-          "type": "Lib ",
-          "value": 37.2,
-          "percentage": 37.2,
-          "imagePath": ""
-        },
-        {
-          "type": "Echo",
-          "value": 3.8,
-          "percentage": 3.8,
-          "imagePath": ""
-        },
-        {
-          "type": "Intro",
-          "value": 5.4,
-          "percentage": 5.4,
-          "imagePath": ""
-        }
-      ],
-      "note": "SOURCE // TETHYS.GG",
-      "title": "Damage - Cia",
-      "layout": "horizontal",
-      "chartType": "radar"
-    },
-    {
-      "title": "Sequence- Cia",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "SOURCE // TETHYS.GG",
-      "data": [
-        {
-          "type": "S0",
-          "value": 271053.94,
-          "percentage": 100,
-          "imagePath": ""
-        },
-        {
-          "type": "S1",
-          "value": 311046.06,
-          "percentage": 108,
-          "imagePath": ""
-        },
-        {
-          "type": "S2",
-          "value": 335399.58,
-          "percentage": 113,
-          "imagePath": ""
-        },
-        {
-          "type": "S3",
-          "value": 390669.31,
-          "percentage": 117,
-          "imagePath": ""
-        }
-      ]
-    }
-  ],
   "sequences": [
     {
       "stage": "S1",
@@ -614,70 +358,54 @@
       ]
     }
   ],
-  "lore": {
-    "description": "Seorang bard pengembara dari Rinascita, Ciaccona. \nIa bernyanyi bukan hanya untuk Divinity, tetapi juga untuk orang-orang biasa. Ia mencatat berbagai kisah sepanjang perjalanannya, lalu mengubahnya menjadi lagu yang membangkitkan tawa, haru, dan air mata baik bagi para pencerita maupun pendengarnya.",
-    "manualEntries": [
-      {
-        "title": "BIRTHPLACE",
-        "description": "Rinascita"
-      },
-      {
-        "title": "REAL NAME",
-        "description": "Ciaccona Toccata"
-      },
-      {
-        "title": "ALIAS",
-        "description": "Topaz"
-      },
-      {
-        "title": "AFFILIAATION",
-        "description": "raguna"
-      }
-    ],
-    "report": {
-      "resonancePower": "Woven Melodies",
-      "overclockDiagnostic": "Catatan Jurnal Veron Toccata, Kepala Keluarga Toccata\n\nOrder pada akhirnya mengetahui kemampuan Ciaccona. Mereka menyatakan bahwa ia ditakdirkan menjadi chorister paling bersinar dari Keluarga Toccata. Sesuai protokol, mereka melakukan pemeriksaan Forte terhadapnya. Berikut hasilnya:\n\ngelombang Waveform anggota ini menunjukkan fluktuasi elips dengan Domain Waktu yang stabil. Tidak ditemukan tanda-tanda fluktuasi abnormal. Hasil tes dinilai berada dalam fase normal.\n\n> Resonant Criticality: Tinggi. \n\n> Anggota ini memiliki stabilitas tinggi dengan risiko Overclocking yang minimal.\n\nCatatan menunjukkan tidak ada riwayat Overclocking.\n\nTidak ada kebutuhan saat ini untuk konseling psikologis.\n\nSemua data tampak normal, kemungkinan besar karena cara pandangnya terhadap melodi yang dipenuhi keajaiban dan harapan. Saat ia tumbuh dewasa, terkadang aku berharap ia bisa bahagia seperti ini selamanya... Namun aku tahu hal itu menjadi mustahil sejak ia mengambil kunci itu.",
-      "resonanceEvaluation": "UnknownDasar Evaluasi: [Catatan Jurnal Veron Toccata, Kepala Keluarga Toccata]\n\nAku tidak tahu apakah ini adalah berkah atau kutukan yang menimpa anakku.\nAnak itu menguasai berbagai instrumen dengan begitu mudah. Ia berkata padaku bahwa melodi dalam lembaran musik tidak hanya tampak sebagai not balok, tetapi juga sebagai rangkaian adegan kisah tentang instrumen dan para pemainnya... Ia menggenggam tanganku dan membagikan persepsi itu, dan saat itulah aku menyadari bahwa Ciaccona mampu menciptakan ulang bagian-bagian dunia lewat melodi. Itu adalah dunia ciptaannya sendiri.\n\n\nSelama ia masih bisa merasakan melodi itu, Ciaccona bisa mengubah puisi dan musiknya menjadi apa pun. Anak itu memiliki rasa ingin tahu yang alami terhadap segala hal, sehingga mudah baginya untuk merasakan kisah dan pengalaman orang lain. \n\nNamun aku khawatir karunia ini akan membawa kesialan padanya. Bahwa ia akan mendengar gema-gema yang tersembunyi di balik gelapnya bayang-bayang."
+  "favorRole": {
+    "Birthday": {
+      "Title": "No Description Available",
+      "Content": "Unknown"
     },
-    "items": [
-      {
-        "name": "Quill Of Poetry",
-        "description": "Sebuah pena mewah yang dirancang dengan sangat indah, berbicara lewat bulunya. Di tangan seorang penyair, pena ini memunculkan inspirasi tanpa akhir menceritakan kisah-kisah meriah di kedai tentang gletser berusia ribuan tahun, reruntuhan megah kota bawah tanah, dan hutan-hutan ajaib.\n\nDi manakah legenda sang pahlawan akan terungkap kali ini?",
-        "imageUrl": "/icons/items/ciaccona-1.webp"
-      },
-      {
-        "name": "Miniature Instrument",
-        "description": "Sebuah benda kecil yang dibeli Ciaccona dari pasar. Penjualnya mengatakan bahwa itu adalah instrumen mini yang bisa menghasilkan suara.\n\nIa sering berkata bahwa kondisi batin seorang pemain sangat berkaitan erat dengan musik, dan bahwa sebuah instrumen tidak ditentukan oleh harganya. Bahkan jika ukurannya sangat kecil sekalipun...\n\nDengan mata terbelalak, kerumunan menanti gadis muda ini untuk menghadirkan suara-suara yang menciptakan keajaiban.",
-        "imageUrl": "/icons/items/ciaccona-2.webp"
-      },
-      {
-        "name": "Musical Remembrance",
-        "description": "Sebuah kotak musik dengan kerajinan halus, hadiah dari seorang pedagang kepada Ciaccona setelah mendengar penampilannya. Melodi-melodi Ciaccona dapat diputar ulang hanya dengan putaran lembut pada engkolnya.\n\nDari situ, ia menyadari bahwa musik bisa hidup selamanya dalam wujud yang lain.",
-        "imageUrl": "/icons/items/ciaccona-3.webp"
-      }
-    ],
-    "stories": [
-      {
-        "title": "Music And The World ",
-        "content": "Gadis kecil itu selalu senang menatap ke atas. \nEntah itu langit biru cerah di siang hari atau biru berkilauan di malam hari. \nPernah suatu kali ia bertanya-tanya sendiri, kenapa? \nNamun kata-kata yang ia tahu tak cukup untuk menggambarkan perasaannya. \nYang ia tahu hanyalah rasa takjub akan hal-hal tak dikenal dan misteri yang terbentang jauh di atas sana... \nLama-lama, ia berhenti bertanya, karena menyadari bahwa menatap langit itu sendiri adalah keindahan yang tak bisa dijelaskan.\n\nSejak saat itu, ia mulai menatap ke atas saat membaca, saat tidur, bahkan saat berjalan...\n\n\"Hoi, hoi. Lihat ke depan, Nona Ciaccona. \nKenapa terus menatap langit-langit? Lihat jalanmu dong!\" \n\nSetelah kepalanya membentur keras sesuatu, Ciaccona kecil akhirnya memutuskan sebaiknya tidak terlalu sering menatap langit... setidaknya tidak sambil jalan. \nDan saat berikutnya ia menatap ke atas, ia melihat sesuatu yang kelak menjadi gairah seumur hidupnya.\n\nItu adalah siang biasa ketika Ciaccona mendorong pintu ruang kerja ayahnya. \nBenda yang diletakkan di atas lemari langsung menarik perhatiannya begitu ia mendongak. \nPerlahan-lahan ia mengambilnya, sebuah biola, dan itulah pertemuan pertamanya dengan sebuah instrumen. Membayangkan bagaimana ayahnya pernah memainkannya, ia memutuskan untuk mencoba.\n\n“Ciiiiiit...”\n\nItu jelas suara yang kasar. \nNamun ia merasakan sesuatu yang aneh, seolah dirinya tenggelam ke dasar lautan. \nSemua suara, kecuali biola, mulai memudar. Cahaya dan bayangan senja mengabur. \nDunia di hadapannya perlahan menutup tirainya, dan ketika tirai itu terbuka kembali, dunia baru muncul di hadapannya. Udara dipenuhi not musik yang menari, dan di kejauhan, sekelompok orang tengah memainkan musik.\n\n\"H-Halo?\"\n\nTak ada yang menjawab panggilan gadis itu. \nIa melangkah mendekat, dan meski wajah mereka kabur, melodinya terdengar akrab.\n\n\"Itu lagu yang sering Ayah mainkan. Karya keluarga kami,\" \n\nkenangnya dalam hati.\n\nKelompok itu tampak tak menyadari kehadirannya saat mereka terus memainkan musik, mengelilingi gadis kecil itu dengan melodi yang terdengar seperti tangisan bayi yang baru lahir, serta suka dan duka kehidupan...\n\n\"Brak.\" \n\nMusik itu tiba-tiba berhenti ketika pintu terbuka. \nMelihat biola di tangan Ciaccona, sang ayah hanya menepuk kepalanya dengan lembut, dengan sedikit ekspresi pasrah, lalu mengambilnya kembali.\n\n\"Ayah akan mengajarimu saat kamu sudah agak besar,\" \n\nucapnya sambil menggandeng tangan Ciaccona dan membimbingnya keluar dari ruangan. \nTepat sebelum pintu menutup, Ciaccona menoleh dan melambaikan tangan pada biola itu.\n\nSejak hari itu, Ciaccona mulai mencari tahu segala hal tentang musik. \nSemakin banyak ia pelajari, semakin jernih pula penglihatan yang ia dapat setiap kali menyentuh sebuah instrumen.\n\nIa tidak pernah menceritakan kepada siapa pun apa yang ia lihat hari itu. \nBaru jauh setelahnya Ciaccona mengetahui bahwa semua itu berasal dari Forte-nya: kekuatan untuk menciptakan kembali masa lalu lewat melodi.\n\nOrang-orang dari masa berbeda, disatukan melalui musik dan puisi. \nItu adalah keajaiban terbesar yang pernah ia bayangkan."
-      },
-      {
-        "title": "Poems And The World",
-        "content": "Dengan pena di tangan, gadis muda itu bersandar di mejanya, merasakan dinginnya logam mata pena di ujung jemarinya, sementara pikirannya layu di padang pasir inspirasi yang tandus.\n\nDi luar jendelanya, tampak keramaian orang-orang, burung-burung, angin, dan para Acolyte yang tengah berdoa... \n\nDi mata Ciaccona, semua itu adalah potongan adegan yang bisa diubah menjadi kata dan tanda baca, namun tetap menolak tersusun menjadi kalimat. \nKata-katanya terasa hampa dan tak bernyawa ketika dirangkai bersebelahan. Itu... jauh dari puisi.\n\n\"Nona Ciaccona. Bolehkah saya mengganggu sebentar?\" \n\nSeorang pelayan mengetuk pintu, lalu masuk setelah mendapat anggukan dari sang gadis.\n\n\"Saya ingin meminta bantuan, kalau boleh. \nKarena Anda pandai merangkai kata... \nBisakah bantu menuliskan surat untuk keluarga saya?\"\n\nCiaccona mengisyaratkan agar sang pelayan duduk, lalu mulai menulis di selembar kertas kosong: \n\n\"Kepada yang terkasih...\"\n\nKetika pelayan itu menerima balasan dari rumah, ia membacanya bersama Ciaccona. \nKeduanya pun mulai menulis surat kedua...\n\nYang mengalir dari pena adalah potongan-potongan perasaan dan kenangan sang pelayan. \nCiaccona tersenyum dalam kebahagiaannya, dan menitikkan air mata dalam kesedihannya.\n\nKabar tentang kepiawaian Ciaccona menyebar, dan semakin banyak orang datang meminta bantuannya untuk menulis surat. \nIa pun mulai memahami isi hati tiap orang dengan lebih dalam. \nUntuk mereka yang ingin mengirim surat ke pelaut di lautan, penanya membawa rasa asin ombak. Untuk mereka yang ingin menulis untuk ayah yang bekerja di ladang gandum, tintanya menguar aroma gandum. \nTentu saja, semua kisah itu ia simpan rapat-rapat.\n\nTanpa sadar, ia mulai menemukan bahwa kata-kata dalam surat-surat itu perlahan berubah menjadi puisi, memiliki jiwa.\n\nIa mengambil kembali penanya dan memandang ke luar jendela sekali lagi, namun pemandangannya tetap membisu, dan kertas di hadapannya tetap kosong. \nTerdengar ketukan di pintu, kemungkinan besar seseorang datang lagi dengan permintaan surat. \nSaat gadis itu bangkit untuk membukanya, suara tamu menyatu dengan derit lantai, dan di saat itulah ia memahami apa yang selama ini menghalanginya. \nSebelum bisa menulis, ia harus lebih dulu mendengarkan.\n\n\"Aku datang! Mau menulis untuk siapa hari ini?\"\n\nCiaccona merapikan lipatan pada kertasnya saat angin membawa doa-doa dari Cathedral of Mercury masuk ke dalam ruangan. \nIa terus tergerak oleh suka dan duka dari kisah-kisah tak terhitung jumlahnya, sambil terus mencari romansa dan jiwa di balik tiap baitnya."
-      },
-      {
-        "title": "Fate And The Door",
-        "content": "Gadis kecil itu berdiri cemas di depan pintu. \nMeski begitu, ia tetap berjinjit dan menyelipkan kunci ke dalam lubang.\n\nDengan ayah dan seluruh keluarga sibuk dengan latihan choir, dan tak ada siapa pun yang memperhatikannya, Ciaccona tahu ini satu-satunya kesempatan untuk membuka pintu itu.\n\nPintu berderit pelan saat terbuka, memperlihatkan kegelapan total di dalamnya. \nCiaccona bersandar pada dinding dan meraba-raba mencari sakelar lampu.\n\nAyahnya telah melarang siapa pun masuk ke ruangan ini. \nKatanya itu adalah ruang kerja lama yang telah ia tinggalkan, yang tak pernah sempat ia bersihkan. \nIa memperingatkan bahwa lantainya sudah begitu lapuk hingga bisa roboh sewaktu-waktu. \nTapi semua itu tak cukup untuk menghentikan rasa penasaran Ciaccona. \nSeperti kutipan yang pernah ia baca di sebuah buku puisi:\n\n\"Do not go gentle into that good night. Rage, rage against the dying of the light...\"\n\nLampu pun menyala berkedip, lalu menerangi seluruh ruangan. \nSeketika itu juga, Ciaccona tahu ayahnya telah berbohong. \nMemang benar ini adalah ruang kerja, tapi keadaannya sangat rapi dan bersih.\n\nRak buku menjulang di sepanjang dinding, dan berbagai instrumen tertidur di sudut-sudut ruangan. \nIni adalah surga bagi seorang gadis yang mencintai puisi dan musik sepenuh hati.\n\nIa menyentuh instrumen-instrumen itu dengan lembut, seolah membangunkan mereka dari tidur panjang, lalu mulai melompat kecil sambil bernyanyi. \nKanan, lalu kiri... sampai ia menabrak sebuah rak buku. \nSebuah buku jatuh di kakinya, dan Ciaccona membuka halaman pertama.\n\n\"Antologi ini berasal dari Golden Anthem. Semoga puisi-puisi ini membawa secercah harapan bagi mereka yang tersesat dari jalan takdirnya...\"\n\nCiaccona mengulang kalimat pembuka itu, terpesona oleh kata-katanya. \nIa duduk diam-diam, membuka halaman demi halaman, dan seiring itu... takdirnya pun ikut mulai terbuka.\n\n"
-      },
-      {
-        "title": "For The Stories, She Shall Sing",
-        "content": "\"Musik itu sendiri tak mengandung emosi. \nHati kitalah yang memberinya makna. \nMaka, wahai pendengar, ceritakan padaku... perasaan apa yang dibangkitkan oleh laguku?\"\n\nDi Kota Egla, begitu banyak orang bertemu dan berpisah setiap saat yang berlalu. \nSebagai seorang bard pengembara, Ciaccona selalu menjadi pengamat kisah, menyaksikan awal, pertengahan, dan akhirnya...\n\nHingga suatu pagi, saat ia melihat sosok asing dari kejauhan dalam cahaya fajar, ia tahu bahwa sebuah melodi baru akan segera terdengar.\n\nItulah percakapan pertama Ciaccona denganmu. \nNamun baginya, mungkin itu bukan pertemuan kalian yang pertama.\n\nDi bawah langit malam yang menyala oleh kembang api, ia menyaksikan sang asing bertopeng meraih Laurel, bersinar lebih terang dari bintang dan percikan cahaya di tengah sorak-sorai kerumunan.\n\nApa yang membuat seorang pahlawan layak dikenang dalam legenda? \nApakah kekuatan? \nKeberanian?\nKebaikan? \nAtau keadilan...?\n\nSemua kualitas itu berpadu dalam sosok bercahaya yang berdiri di hadapannya.\n\n\"Jika diberi kesempatan, aku ingin menuliskan puisi untukmu, wahai Laureate.\"\n\nAngin lembut dari Whisperwind Haven meluncur tenang mengikuti arus, melewati kincir angin dan cerobong asap, lalu menyapu alam liar hingga mencapai seorang gadis berambut merah dengan tanduk rusa. \nIa memetik lute di antara burung-burung yang menari, dan angin yang tertinggal pun membawa lagunya ke tempat-tempat yang jauh.\n\n\"Di dunianya, puisi dan musik memiliki kekuatan yang seimbang...\"\n\nSaat gadis bertanduk itu melihatmu bersama Carlotta muncul dari balik angin, entah kenapa ia merasa dirinya pun akan segera terseret ke dalam sebuah kisah.\n\nBard selalu berada di bayang-bayang, menjadi pengamat dalam legenda orang lain. \nNamun kini, keluar dari halaman kisah, Ciaccona justru tertarik masuk ke dalamnya. \nAda rasa antusias, juga sedikit kegelisahan.\n\nKali ini, untuk dirinya sendiri, ia akan bernyanyi."
-      }
-    ],
-    "specialFood": {
-      "name": "Pasta Bocadillo",
-      "imageUrl": "/icons/food/ciaccona.webp",
-      "description": "Memberikan 8% Healing Bonus kepada semua Resonator dalam tim dan meningkatkan Max HP mereka sebesar 12% selama 15 menit. Hanya berlaku untuk Resonator milik sendiri dalam mode Co-op.\n\nrating\n⭐⭐"
+    "Sex": {
+      "Title": "No Description Available",
+      "Content": "Female"
+    },
+    "Country": {
+      "Title": "No Description Available",
+      "Content": "Rinascita"
+    },
+    "Influence": {
+      "Title": "No Description Available",
+      "Content": "Ragunna"
+    },
+    "Info": {
+      "Title": "No Description Available",
+      "Content": "A wandering bard from <te href=850096>Rinascita</te>, Ciaccona. She sings not only for the Divinity, but also for the common folk.<br>She records stories along her journeys, turning them into songs that evoke laughter, emotion, and tears in both the storytellers and the audience."
+    },
+    "TalentName": {
+      "Title": "No Description Available",
+      "Content": "Woven Melodies"
+    },
+    "TalentDoc": {
+      "Title": "Resonance Evaluation Report",
+      "Content": "Journal Entry of Veron Toccata—Head of Toccata Family<br>I do not know if this is a blessing or a curse that has befallen my child.<br>The child has mastered numerous instruments with ease. She tells me that the melodies in the music sheets appear not just as notes to her, but also as a series of scenes: they are stories of the instruments and their performers... She took my hand and shared this perception with me, and that is when I discovered that Ciaccona can recreate aspects of the world through melodies. It is a realm of her own making.<br><span class=\"italic\">As long as she can sense these melodies, Ciaccona can transform her poetry and music into anything. The child has an innate curiosity about everything, making it easy for her to empathize with the stories and experiences of others. I fear this gift may bring her misfortune. That she will hear the echoes that hide within the darkness of shadows.</span>"
+    },
+    "TalentCertification": {
+      "Title": "Overclock Diagnostic Report",
+      "Content": "Journal Entry of Veron Toccata—Head of Toccata Family<br> <br>The Order was inevitably made aware of Ciaccona's ability. They deemed her destined to become the Toccata Family's most radiant chorister. Per protocol, they conducted a Forte examination on her. These were the results:<br> <br>This member's waveform graph shows elliptical fluctuations with a stable Time Domain. No signs of abnormal fluctuations were observed. The test results are assessed as being within the normal phase.<br> <br>Resonant Criticality: High. This member possesses high stability with minimal risk of <te href=850073>Overclocking</te>.<br> <br>Records indicate no history of Overclocking.<br> <br>There is no current need for psychological counseling.<br> <br><span class=\"italic\">All data appears to be normal, likely due to her perception of melodies being filled with wonder and hope. As she grows older, I sometimes wish she could be happy like this forever... Yet I know that became impossible the moment she took that key.</span>"
+    },
+    "CVNameCn": {
+      "Title": "No Description Available",
+      "Content": "Ye Zhiqiu"
+    },
+    "CVNameJp": {
+      "Title": "No Description Available",
+      "Content": "Hasegawa Ikumi"
+    },
+    "CVNameKo": {
+      "Title": "No Description Available",
+      "Content": "Kim Ye Rim"
+    },
+    "CVNameEn": {
+      "Title": "No Description Available",
+      "Content": "Rebecca Hanssen"
     }
   }
 }

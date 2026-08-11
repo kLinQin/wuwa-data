@@ -1,0 +1,250 @@
+{
+  "id": 1208,
+  "name": "Galbrena",
+  "recommendedStats": {
+    "ATK": "2100+",
+    "Energy Regen": "110-120%",
+    "Crit Ratio (Crit Weapon)": "65% : 285%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 240%"
+  },
+  "build": {
+    "bestEcho": [
+      "Corrosaurus"
+    ],
+    "bestWeapon": "Lux & Umbra",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "corrosaurus",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Flamewing'S Shadow",
+              "set": 3
+            },
+            {
+              "name": "Molten Rift",
+              "set": 2
+            },
+            {
+              "name": "Flaming Clawprint",
+              "set": 2
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen (110)",
+        "ATK%",
+        "ATK",
+        "Heavy Attack DMG Bonus"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "lux-&-umbra",
+        "percentage": "108",
+        "rank": ""
+      },
+      {
+        "id": "phasic-homogenizer",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "the-last-dance",
+        "percentage": "92",
+        "rank": ""
+      },
+      {
+        "id": "static-mist",
+        "percentage": "89",
+        "rank": ""
+      },
+      {
+        "id": "solar-flame",
+        "percentage": "82",
+        "rank": ""
+      },
+      {
+        "id": "relativistic-jet",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "novaburst",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Intro",
+          "BA234",
+          "BA23",
+          "[E]Skill",
+          "Ult",
+          "[F]BA2(Dodge-Cancel)",
+          "[F]BA3(Dodge-Cancel)",
+          "[F]BA4",
+          "[F]BA5",
+          "[F]BA3(Dodge-Cancel)",
+          "[F]BA4",
+          "[F]BA5",
+          "[F]BA3(Dodge-Cancel)",
+          "[F]BA4",
+          "[F]BA5",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "galbrena-echo",
+      "galbrena-mono"
+    ],
+    "teamNote": "Gallbrena adalah Main DPS yang scaling antara Heavy Attack dan Echo Skill Damage"
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Lux & Umbra",
+          "value": 1561307.29,
+          "imagePath": "",
+          "percentage": 121
+        },
+        {
+          "type": "The Last Dance",
+          "value": 1332948.52,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "Static Mist",
+          "value": 1286376.41,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Solar Flame",
+          "value": 1180404.75,
+          "imagePath": "",
+          "percentage": 92
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Galbrena - Weapon",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "HA",
+          "value": 7.2,
+          "imagePath": "",
+          "percentage": 7.2
+        },
+        {
+          "type": "Echo",
+          "value": 86,
+          "imagePath": "",
+          "percentage": 86
+        },
+        {
+          "type": "Intro",
+          "value": 0.6,
+          "imagePath": "",
+          "percentage": 0.6
+        },
+        {
+          "type": "Outro",
+          "value": 6.2,
+          "imagePath": "",
+          "percentage": 6.2
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Galbrena - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1561307.29,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1783599.81,
+          "imagePath": "",
+          "percentage": 114
+        },
+        {
+          "type": "S2",
+          "value": 2199649.62,
+          "imagePath": "",
+          "percentage": 141
+        },
+        {
+          "type": "S3",
+          "value": 2650480.74,
+          "imagePath": "",
+          "percentage": 170
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Galbrena - Sequence",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

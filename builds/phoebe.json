@@ -1,0 +1,262 @@
+{
+  "id": 1506,
+  "name": "Phoebe",
+  "recommendedStats": {
+    "ATK": "1800+",
+    "Energy Regen": "110-120%+",
+    "Crit Ratio (Crit Weapon)": "60-75% : 285-310%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 240%"
+  },
+  "build": {
+    "bestEcho": [
+      "Capitaneus"
+    ],
+    "bestWeapon": "Luminous Hymn",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "HYBRID",
+          "echoSlug": "capitaneus",
+          "echoSlugSecondary": "nightmare-mourning-aix",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Eternal Radiance"
+          ]
+        }
+      ],
+      "substats": [],
+      "note": "Cost 4 aix cost 3 (main echo) Capitaneus"
+    },
+    "weaponNote": "Pasif senjata Ocean's Gift dan Waltz in Masquerade tidak dapat dipicu jika Phoebe berada dalam tim yang sama dengan Zani, karena Zani mengubah semua stack Spectro Frazzle menjadi Embers.",
+    "weaponOptions": [
+      {
+        "id": "luminous-hymn",
+        "rank": "",
+        "percentage": "115"
+      },
+      {
+        "id": "stringmaster",
+        "rank": "",
+        "percentage": "114"
+      },
+      {
+        "id": "whispers-of-sirens",
+        "rank": "",
+        "percentage": "108"
+      },
+      {
+        "id": "cosmic-ripples",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "oceans-gift",
+        "rank": "5",
+        "percentage": "99"
+      },
+      {
+        "id": "augment",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "waltz-in-masquerade",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "fusion-accretion",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "jinzhou-keeper",
+        "rank": "",
+        "percentage": "100"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Confession",
+        "steps": [
+          "Skill(Hold)",
+          "Skill1(Cancel)",
+          "Ult",
+          "BA123(x2) or (DC+[E]HA)(x2)",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "zani-hypercarry",
+      "phoebe-dual-dps"
+    ],
+    "teamNote": "- Confession merujuk pada wujud Sub DPS Phoebe, diaktifkan dengan menahan tombol Skill setelah bar Forte Gauge miliknya penuh. \n- Absolution merujuk pada wujud Main DPS Phoebe, diaktifkan dengan menahan Basic ATK setelah bar Forte Gauge penuh. states ini tidak dapat digunakan secara bersamaan.\n\nPhoebe memberikan buff berikut kepada Zani:\n-Dalam [Confession]: 10% Spectro RES Reduction dan 100% Spectro Frazzle DMG Amplify selama 30 detik setelah melancarkan Outro Skill\n-Dengan Luminous Hymn (signature Phoebe): 30% Spectro Frazzle DMG Amplify selama 30 detik setelah melancarkan Outro Skill."
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Phoebe",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Luminous Hymn",
+          "value": 320746.75,
+          "percentage": 114.38,
+          "imagePath": ""
+        },
+        {
+          "type": "Stringmaster",
+          "value": 317694.06,
+          "percentage": 113.29,
+          "imagePath": ""
+        },
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 308558.66,
+          "percentage": 110.03,
+          "imagePath": ""
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 280423.39,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Augment R5",
+          "value": 280355.52,
+          "percentage": 99.98,
+          "imagePath": ""
+        },
+        {
+          "type": "Ocean'S Gift R5",
+          "value": 279715.08,
+          "percentage": 99.75,
+          "imagePath": ""
+        },
+        {
+          "type": "Augment",
+          "value": 261330.04,
+          "percentage": 93.19,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Phoebe",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 24.5,
+          "percentage": 24.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 9.2,
+          "percentage": 9.2,
+          "imagePath": ""
+        },
+        {
+          "type": "HA",
+          "value": 22.5,
+          "percentage": 22.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Ult",
+          "value": 14.8,
+          "percentage": 14.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 7.1,
+          "percentage": 7.1,
+          "imagePath": ""
+        },
+        {
+          "type": "Outro",
+          "value": 18.8,
+          "percentage": 18.8,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Phoebe",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 320746.75,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 352228.44,
+          "percentage": 109.82,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 374308.44,
+          "percentage": 116.7,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 506666.9,
+          "percentage": 157.96,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,19 +1,20 @@
 {
+  "id": 1210,
   "name": "Aemeath",
-  "element": "Fusion",
-  "weapon": "Sword",
+  "element": 2,
   "rarity": 5,
+  "weapon": 2,
   "version": "3.1",
   "lastUpdated": "2026-02-13",
   "roles": [
-    "Main Damage Dealer",
-    "Resonance Liberation Damage",
-    "DMG Amplification",
-    "Fusion Burst",
-    "Tune Rupture Response"
+    2,
+    7,
+    13,
+    27,
+    35
   ],
   "sonatas": [
-    "Trailblazing Star"
+    31
   ],
   "changelog": [
     {
@@ -37,175 +38,6 @@
   "image": "/characters/aemeath.webp",
   "icon": "/icons/characters/aemeath.webp",
   "imageBanner": "/banners/aemeath-banner.jpeg",
-  "recommendedStats": {
-    "ATK": "2000+",
-    "Energy Regen": "120",
-    "Crit Ratio (Crit Weapon)": "70% : 265%",
-    "Crit Ratio (Non Crit Weapon)": "65% : 225%"
-  },
-  "build": {
-    "bestEcho": [],
-    "bestWeapon": "Everbright Polestar",
-    "echoDetails": {
-      "note": "Jika menggunakan signature-nya, pertimbangkan Fusion / ATK untuk 3-Cost.",
-      "sets": [
-        {
-          "label": "DPS",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 3,
-              "stat": "fusion%"
-            },
-            {
-              "cost": 3,
-              "stat": "fusion%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ],
-          "echoSlug": "sigillum",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            {
-              "name": "Trailblazing Star",
-              "set": 5
-            }
-          ]
-        }
-      ],
-      "substats": [
-        "CR% / CDM%",
-        "Energy Regen",
-        "ATK%",
-        "Reso Libe DMG",
-        "ATK"
-      ]
-    },
-    "weaponNote": "",
-    "weaponOptions": [
-      {
-        "id": "everbright-polestar",
-        "percentage": "122",
-        "rank": ""
-      },
-      {
-        "id": "red-spring",
-        "percentage": "101",
-        "rank": ""
-      },
-      {
-        "id": "emerald-of-genesis",
-        "percentage": "100",
-        "rank": ""
-      },
-      {
-        "id": "feather-edge",
-        "percentage": "-",
-        "rank": ""
-      }
-    ],
-    "rotations": [
-      {
-        "steps": [
-          "Intro",
-          "BA34",
-          "Skill",
-          "[E]BA234",
-          "[E]Skill",
-          "Ult",
-          "[F]Skill",
-          "BA234",
-          "[F]Skill",
-          "HA",
-          "Ult2",
-          "Outro"
-        ],
-        "title": "Standar"
-      }
-    ],
-    "talentPriority": {
-      "note": "",
-      "priority": [
-        "Resonance Liberation",
-        "Forte Circuit",
-        "Resonance Skill",
-        "Normal Attack",
-        "Intro Skill"
-      ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
-    },
-    "teams": [
-      {
-        "name": "Tune-Break",
-        "note": "- slot 3 Sebagai alternatif, bisa juga menggunakan Shorekeeper; namun, Mornye lebih ideal karena ia memberikan lebih banyak Ruptures. ",
-        "members": [
-          [
-            "Aemeath"
-          ],
-          [
-            "Lynae"
-          ],
-          [
-            "Mornye",
-            "Chisa",
-            "Shorekeeper"
-          ]
-        ]
-      },
-      {
-        "name": "Mono Fusion",
-        "note": "bisa juga ganti Mornye dengan Changli, yang memberikan 25% Res. Liberation Amplify, atau Brant. Jika bersama Changli atau Brant, pilih mode Fusion Burst.",
-        "members": [
-          [
-            "Aemeath"
-          ],
-          [
-            "Lupa",
-            "Changli",
-            "Brant"
-          ],
-          [
-            "Mornye",
-            "Lupa",
-            "Suisui"
-          ]
-        ]
-      },
-      {
-        "name": "Fusion Burst",
-        "members": [
-          [
-            "Aemeath"
-          ],
-          [
-            "Denia"
-          ],
-          [
-            "Chisa",
-            "Suisui"
-          ]
-        ],
-        "note": "- Denia memberikan 60% Fusion Burst Amplify setelah melancarkan Outro Skill miliknya dan memenuhi Inherent Skill milik Aemeath: Between the Stars. Ia juga memberikan buff tambahan.\n- solt 2 Sebagai alternatif, kamu dapat menggunakan Lupa sebagai pengganti Chisa."
-      }
-    ],
-    "teamNote": "1. team comp bergantung pada mode mana yang km pilih.\n- Tune Break:  Lynae > Aemeath's Sig > Mornye\n- Fusion Burst: Denia > Aemeath's Sig > Chisa\n-Generic/Mono Fusion: Lupa > Aemeath's Sig > Mornye/Changli\n\n 2. Aemeath memberikan buff berikut untuk rekan satu timnya:\n- 10% All-DMG Amplify selama 20 detik setelah melancarkan Outro Skill\n- Ini akan menjadi 20% Amplify untuk Resonator yang dapat memberikan efek Shifting atau Fusion Burst."
-  },
   "skills": {
     "basic": {
       "name": "Infinity Calibration",
@@ -567,110 +399,6 @@
       ]
     }
   },
-  "analysisCharts": [
-    {
-      "data": [
-        {
-          "type": "Everbright Polestar",
-          "value": 1615238.24,
-          "imagePath": "",
-          "percentage": 122
-        },
-        {
-          "type": "Red Spring",
-          "value": 1342437.18,
-          "imagePath": "",
-          "percentage": 101
-        },
-        {
-          "type": "Emerald Of Genesis",
-          "value": 1323648.43,
-          "imagePath": "",
-          "percentage": 100
-        }
-      ],
-      "note": "SOURCE // TETHYS.GG",
-      "title": "Aemeth - Weapon",
-      "layout": "horizontal",
-      "chartType": "bar"
-    },
-    {
-      "data": [
-        {
-          "type": "BA",
-          "value": 6.8,
-          "imagePath": "",
-          "percentage": 6.8
-        },
-        {
-          "type": "Skill",
-          "value": 1.9,
-          "imagePath": "",
-          "percentage": 1.9
-        },
-        {
-          "type": "Lib",
-          "value": 66.7,
-          "imagePath": "",
-          "percentage": 66.7
-        },
-        {
-          "type": "Echo",
-          "value": 2.4,
-          "imagePath": "",
-          "percentage": 2.4
-        },
-        {
-          "type": "Rupture",
-          "value": 21.3,
-          "imagePath": "",
-          "percentage": 21.3
-        },
-        {
-          "type": "Intro",
-          "value": 0.8,
-          "imagePath": "",
-          "percentage": 0.8
-        }
-      ],
-      "note": "SOURCE // TETHYS.GG",
-      "title": "Aemeath - Damage",
-      "layout": "horizontal",
-      "chartType": "radar"
-    },
-    {
-      "data": [
-        {
-          "type": "S0",
-          "value": 1615238.24,
-          "imagePath": "",
-          "percentage": 100
-        },
-        {
-          "type": "S1",
-          "value": 1731316.12,
-          "imagePath": "",
-          "percentage": 107
-        },
-        {
-          "type": "S2",
-          "value": 2107723.59,
-          "imagePath": "",
-          "percentage": 130
-        },
-        {
-          "type": "S3",
-          "value": 2751897.81,
-          "imagePath": "",
-          "percentage": 170
-        }
-      ],
-      "note": "SOURCE // TETHYS.GG",
-      "title": "Aemeath - Sequence",
-      "layout": "horizontal",
-      "chartType": "bar"
-    }
-  ],
   "sequences": [
     {
       "stage": "S1",
@@ -884,70 +612,54 @@
       ]
     }
   ],
-  "lore": {
-    "description": "Dahulu merupakan seorang Exostrider Synchronist dari Rabelle College, ia kini menjadi hantu digital yang menyanyi dengan tenang di antara bintang-bintang. ",
-    "manualEntries": [
-      {
-        "title": "BIRTHPLACE",
-        "description": "Lahai-Roi"
-      },
-      {
-        "title": "ALIAS",
-        "description": "Fleet Snowfluff"
-      },
-      {
-        "title": "FAMILY",
-        "description": "Rover (Relative)"
-      }
-    ],
-    "report": {
-      "resonancePower": "Guiding Starlance",
-      "overclockDiagnostic": "Analisis sampel uji Rabelle's Waveform menunjukkan pola osilasi elips dan Time Domain yang stabil. Tidak ada fluktuasi abnormal yang teramati. Hasil pemeriksaan ditentukan berada dalam parameter normal.\n\nKesimpulan: Resonant Criticality berada dalam rentang normal. Stabilitas subjek tetap kuat. Tidak ada riwayat dan tidak ada risiko Overclocking saat ini. Rabelle's Curve tetap stabil.\n\nKonseling psikologis saat ini dianggap tidak perlu.\n\n\"Aemeath… telah melakukannya dengan baik di tahun akademik ini. Namun kita memang perlu memantau garis dasar psikologisnya dengan cermat. Jika itu bergeser, intervensi terapeutik adalah suatu keharusan.\"\n\"Tapi... dia selalu tampak begitu ceria.\"\n\"Itulah sebabnya kita memantau, bukan ikut campur. Jika ini adalah kehidupan yang ia pilih untuk dirinya sendiri, kita menghormatinya. Kita hanya akan melakukan bagian kita sebagai guru.\"",
-      "resonanceEvaluation": "[Retrieved from the Spacetrek Collective Archive: Startorch Academy - Student Records]\n[Resonance Ability Assessment Report RA2362-G]\n\nNama Siswa: Aemeath\nKualifikasi Synchronist: Afirmatif\nRingkasan Forte: Pengujian menunjukkan Rabelle's Curve dengan tren kenaikan yang stabil, memusat ke dalam kondisi osilasi yang stabil. Berdasarkan parameter saat ini, subjek diklasifikasikan sebagai Natural Resonator. Tacet Mark miliknya terletak di daerah toraks.\n\nMenurut catatan pribadi pra-penerimaan dan keterangan subjek sendiri, individu tersebut ▇▇▂▇▋▌▏▉█... Oke, jadi laporan ini tidak memiliki nilai referensi yang banyak lagi. Ini benar-benar ketinggalan zaman. Ini membicarakan tentang diriku saat aku masih memiliki tubuh. Izinkan aku meluruskan fakta yang ada. Saat ini, aku sudah menjadi Synchronist dari Exostrider. Tacet Mark milikku telah berubah, dibandingkan dengan sebelumnya. Sekarang itu bukanlah yang paling... stabil. Mengenai kemampuanku, aku dapat memanifestasikan Exostrider Armament dan sinkronisasi dengannya secara langsung. Terjemahannya Ya, aku bisa bertransformasi! Dan karena aku suka bertarung dengan efisien, aku memprogram fitur autopilot khusus untuk unit tersebut. Hasil simulasi saat ini terlihat bagus. Memungkinkanku untuk mewarnai seluruh medan perang dengan cakupan laser setingkat pertunjukan cahaya. Oh, dan hal hantu digital itu memungkinkanku menyelinap ke sistem data mana pun. Tidak yakin apakah itu benar-benar bagian dari Forte milikku atau hanya keuntungan dari kondisi Resonance unikku... ▇▉▇▇▂▇\n\n\"Aneh... mengapa file siswa ini rusak? Isinya tidak lain hanyalah galat data.\"\n\"Synchronist yang hilang? Begitu rupanya... Laporkan hal ini kepada Presiden Lucilla.\""
+  "favorRole": {
+    "Birthday": {
+      "Title": "No Description Available",
+      "Content": "Unknown"
     },
-    "items": [
-      {
-        "name": "Game Cartridge",
-        "description": "Space Fantasy: Katya VI adalah game klasik mutlak di kalangan pemain di seluruh Solaris. Terkenal karena pengalaman RPG yang mendalam dan sistem pertarungan yang halus, game ini mengajak pemain untuk melangkah ke dalam perjalanan seorang pahlawan tunggal yang merekrut berbagai macam rekan pendamping untuk melawan kejahatan yang merajalela di alam semesta.\n\nDi luar narasi dan pertempuran epiknya, favorit pribadi Aemeath adalah mini-game easter-egg. Setelah menyelesaikan cerita utama, ia sering kembali memainkannya, bermain bersama keluarganya di kabin mereka.\n\n\"Haha! Lihat aku, aku No. 1 di papan peringkat penyusunan balok itu!\"",
-        "imageUrl": "/icons/items/aemeath-1.webp"
-      },
-      {
-        "name": "Exostrider Figurine",
-        "description": "Saat tangan yang menutupi mata Aemeath terangkat, sebuah kotak kecil tergeletak menunggunya di hadapannya.\n\nKeempat temannya berkumpul di sekelilingnya, tersenyum cerah dan mendesaknya untuk membukanya. Di dalamnya terletak sebuah miniatur figurin Exostrider. Para Synchronists muda itu berkicau dengan gembira seperti sekawanan burung kecil saat mereka mengucapkan selamat ulang tahun kepadanya. Mereka berharap ia akan menjadi orang yang berhasil mengemudikan Exostrider suatu hari nanti, agar mereka semua bisa mencapai langit berbintang yang sesungguhnya bersama-sama. Bibir Aemeath terbuka seolah hendak membalas, namun pada akhirnya, ia menyimpan harapan yang terpendam di dalam hatinya untuk dirinya sendiri.\n\nPerlahan, ia mengusapkan jari di atas hadiah itu. Kemudian ia berdiri dan, dengan senyum yang berseri-seri, merangkul teman-temannya.",
-        "imageUrl": "/icons/items/aemeath-2.webp"
-      },
-      {
-        "name": "Paper Plane",
-        "description": "Aemeath duduk di atap gedung Akademi, menikmati angin sepoi-sepoi dengan tenang.\n\nIa telah melipat pesawat kertas yang tak terhitung jumlahnya, namun ia selalu mengingat yang pertama dari kabin. Cahaya sore mengalir melalui jendela, sementara angin dingin dan salju tertahan kuat di luar. Hanya gemeretak api perapian yang memenuhi udara, bercampur dengan aroma lezat semur yang mendidih untuk makan malam. Di sampingnya, orang yang ia panggil keluarga dengan cekatan melipat sebuah pesawat untuknya, pesawat yang dimaksudkan untuk terbang jauh. Aemeath mendongak dan melihatnya tersenyum saat ia menawarkan pesawat yang sudah jadi itu kepadanya.\n\nPemandangan itu memudar ke dalam kabut ingatan, meninggalkan hanya lanskap Akademi di hadapannya sekali lagi. Dengan senyum tipis, Aemeath melepaskan pesawat kertas yang baru saja dilipatnya ke arah angin.",
-        "imageUrl": "/icons/items/aemeath-3.webp"
-      }
-    ],
-    "stories": [
-      {
-        "title": "On The Frostlands",
-        "content": "Sebuah kepingan salju mendarat di hidung Aemeath, sebuah sensasi dingin dan basah yang menggelitik. Ia menatap danau itu sejenak, lalu memutuskan untuk tidak bermain di dalam air.\n\nBeberapa waktu lalu, ia telah bersusah payah menyeret beberapa batang besar Foxtail Kelp dari air, berpura-pura bahwa benda itu adalah pedang yang perkasa. Ia dan Snowfluff Seals menjalani pertempuran terbaik. Ia adalah pahlawannya, tentu saja, dan mereka adalah penjahatnya. Memang, makhluk-makhluk lembut dan penurut ini tidak pernah memberikan perlawanan yang berarti, dan Aemeath selalu menang. Namun suatu kali, ia telah bertindak terlalu jauh. Potongan-potongan kelp berakhir berserakan di seluruh kabin, meninggalkan kekacauan yang mengerikan. Ketika orang itu pulang dan melihatnya, ia hanya berdiri di ambang pintu, terdiam untuk waktu yang sangat, sangat lama.\n\nAemeath mendapatkan teguran yang semestinya, tentu saja. Namun setelahnya, mungkin karena merasa bersalah karena terlalu keras, orang itu segera kembali dengan setumpuk kaset game sebagai permintaan maaf sekaligus pengalih perhatian. Hal itu berhasil dengan sangat baik. Video game tersebut memikat Aemeath dan ia segera melupakan semua tentang pertempurannya dengan para anjing laut.\n\nDari semua game yang ada, favoritnya adalah seri Space Fantasy: Katya. Mendapatkan kesempatan untuk menjelajahi luar angkasa dan menyelamatkan alam semesta? Tentu saja! Siapa yang tidak ingin bermain peran sebagai pahlawan yang tenang, karismatik, dan sedikit melankolis itu?\n\nSuatu hari, Aemeath mendorong buka pintu dan mendapati orang itu sedang membaca di sofa. Ia dengan senang hati merangsek masuk ke sampingnya dan mengangkat sebuah pengontrol.\n\n\"Bermainlah denganku,\" seluruh postur tubuh Aemeath berteriak demikian.\nOrang itu tersenyum, menyentuh hidungnya dengan ringan, dan setuju.\n\nDi luar, musim dingin membentang selamanya. Namun di dalam, perapian menyala, menyelimuti ruangan dalam kehangatan dan kedamaian yang sunyi.\nSetelah bermain sebentar, Aemeath bersuara. \"Mari berhenti di sini hari ini. Oh! Coba tebak? Aku menemukan ruang rahasia di sisi kanan peta! Kata sandinya adalah 9072. Kamu bisa bermain Lahai-Roi Blocks di sana. Itu sangat menyenangkan!\"\n\n\"Itu mengejutkan,\" kata orang itu. \"Bukankah kamu terburu-buru untuk menyelesaikan misi dan menyelamatkan dunia baru kemarin?\"\n\nAemeath menggelengkan kepalanya dan tertawa. \"Memang, tapi tidak hari ini. Dan jika kita menyelesaikan misinya, gamenya berakhir. Aku ingin bermain denganmu lebih lama. Kamu harus beristirahat, bahkan saat kamu sedang menyelamatkan dunia, kan? Tidak boleh terus bekerja tanpa bermain!\"\n\nSebuah tangan yang hangat mendarat di kepalanya, mengacak-acak rambutnya dengan lembut. Setelah jeda singkat, ia berkata dengan pelan, \"Kamu benar, Aemeath. Aku akan mencoba.\"\n\n\"Kalau begitu… mari kita mulai sekarang?\"\n\n\"Baiklah. Mulai sekarang.\" Orang itu tersenyum. \"Sejujurnya, berada di sini bersamamu sudah terasa seperti sebuah istirahat. Ayo, mari mainkan Lahai-Roi Blocks. Kamu duluan.\""
-      },
-      {
-        "title": "The Young Ones",
-        "content": "Sore hari saat nilai Voidmatter Reverse Engineering diumumkan, keceriaan waktu makan siang yang biasanya dimiliki Aemeath dan teman-temannya digantikan oleh kemuraman.\n\nRambut merah Alara yang cerah tampak kehilangan kilaunya saat ia mengeluarkan erangan lemah: \"Ugh... makanan kantin bahkan tidak terasa enak lagi!\" Di sampingnya, Nova, yang sedang tekun menghabiskan semangkuk zat yang tidak dapat dikenali, berkomentar dengan tenang, \"Ya, kawan. Skornya memang menyakitkan. Tapi mari jujur saja, makanan di sini memang tidak pernah enak sejak awal.\" Lynn tampak benar-benar hancur karena hasilnya, dan Celeste dengan lembut menghiburnya. Aemeath, di sisi lain, memasang ekspresi jauh dan linglung saat ia menyesap Squeezy Jelly rasa kustom miliknya, mengobrol santai dengan sesama Synchronists.\n\nTiba-tiba, Alara berpaling kepadanya.\n\n\"Aemeath! Kenapa kamu sepertinya tidak terganggu sama sekali?\"\n\nAemeath berkedip. \"Khawatir tentang apa? ...Oh, maksudmu nilainya?\" Ia terdiam sejenak, lalu melambaikan tangan dengan santai. \"Tapi nilai semua orang pada dasarnya sama kali ini. Profesor Sakya memang terlalu ketat. Bukannya kita sebenarnya seburuk itu. Tenang saja.\" Ia mengeluarkan tisu dan menyerahkannya kepada si cengeng di grup mereka. \"Ini, Lynn! Keringkan matamu!\"\n\nCeleste menyerahkan tisu itu, bertukar pandang dengan yang lain, dan berkata dengan lembut, \"Kamu benar-benar sepertinya tidak terlalu peduli dengan masa depanmu sebagai seorang Synchronist.\"\n\nApa yang biasanya dilakukan Aemeath di saat-saat seperti ini? Mungkin melontarkan lelucon, ganti topik pembicaraan, atau menertawakannya. Namun hari ini adalah hari ulang tahun orang itu, dan pikiran tentangnya memenuhi benaknya. Untuk kali ini, ia lupa menyembunyikan perasaannya dari teman-temannya.\n\n\"Menjadi seorang Synchronist... Itu hanyalah satu jalan,\" katanya dengan datar. \"Seseorang pernah mengatakan kepadaku bahwa ia berharap aku akan menjalani kehidupan yang bahagia dan tanpa beban. Aku pikir itu lebih penting. Impianku tidak semegah impian kalian. Bukankah normal bagi pemalas sepertiku untuk santai saja?\"\n\n\"Benarkah?\" teman-temannya bertanya, sembari memperhatikannya dengan saksama.\nAemeath hanya membalas dengan senyuman. \"Benar.\"\n\nTapi itu bukanlah kebenaran yang sesungguhnya.\n\nImpian aslinya terlalu berat, terlalu sombong, terlalu konyol untuk diucapkan dengan kata-kata yang tenang dan terukur. Impian itu tumbuh semakin besar setiap hari, menancapkan akarnya jauh ke dalam hatinya. Namun ia menolak untuk mengakuinya, karena ia telah menerima janji tersebut. Jika kebahagiaan sederhana hari demi hari sudah cukup, maka ia akan tetap bahagia seperti ini selamanya. Ia akan menepati janjinya. Kecuali jika...\n\nPikirannya tiba-tiba terhenti saat Alara mencubit pipinya dengan keras.\n\"Aduh! Untuk apa itu?\" protes Aemeath, dengan kata-kata yang tidak jelas.\n\"Kamu pembohong kecil,\" gerutu temannya. \"Baiklah, baiklah. Kami akan berhenti bertanya... Perpustakaan sore ini? Sesi belajar kelompok?\"\nAemeath mengangguk. \"Tentu saja!\"\n\nTertawa dan saling berdesakan dengan teman-temannya, Aemeath melangkah menuju lift. Mereka semua masih muda, tidak terburu-buru untuk menemukan jawaban saat ini. Di Akademi yang penuh dengan orang-orang jenius ini, masa depan terbentang di hadapan mereka, penuh dengan kemungkinan yang tak terbatas."
-      },
-      {
-        "title": "Only The Unseen Shall See",
-        "content": "Aemeath berjalan mendekati cermin, namun tidak ada bayangan yang muncul.\nSetelah kematiannya, dunia terasa tidak seirama lagi. Teman-teman Synchronist miliknya pernah berdebat tentang apa yang membentuk esensi kemanusiaan.\nAlara mengatakan itu adalah cinta, Nova percaya itu adalah ingatan, Celeste berargumen bahwa itu adalah diri sendiri, dan Lynn menyatakan itu adalah iman... \"Tidak,\" pikir Aemeath. \"Esensi kemanusiaan adalah frekuensi.\" Mengingat wujudnya saat ini, itulah satu-satunya kerangka kerja yang masuk akal.\nApakah Resonance miliknya dengan Exostrider yang telah mengubah status keberadaannya? Tubuh fisiknya telah tercabik-cabik di dalam kokpit simulasi. Ia seharusnya sudah mati. Namun ia ada di sini. Ia tidak lagi repot memikirkan esensi eksistensi, meskipun bagi seorang hantu digital, ia memiliki seluruh waktu di dunia untuk merenungkan hal-hal seperti itu.\nApa yang ia pahami sekarang jauh lebih penting.\nSaat ia memasuki Reactor Drive milik Exostrider yang menggantung di langit, ia melihat pesan yang tersembunyi di dalamnya.\n\"Jadi begini rupanya,\" ia menyadari. Pesan itu tidak pernah terbaca karena, sejak awal, ia ditempatkan di tempat yang tidak dapat diakses.\nHanya sekarang, sebagai seorang Synchronist yang beresonansi dengan Exostrider, ia dapat melihatnya. Seluruh gua bawah tanah bergantung pada \"matahari\" ini untuk bertahan hidup, jadi tentu saja, penduduk Lahai-Roi tidak pernah memiliki kesempatan untuk mengetahuinya.\n\nHaruskah ia merasa bahagia? Isi pesan tersebut memberinya kesempatan untuk mewujudkan visi terbesarnya, namun dengan cara yang tidak pernah ia bayangkan. Sebuah lelucon kosmik yang pahit. Namun ini adalah tugas yang hanya bisa ia selesaikan sendiri.\n\"Jika aku bisa membantu, aku akan melakukannya. Aku harus.\" ...Ya. Begitulah seharusnya.\nAemeath memikirkan orang itu dan diam-diam menyemangati dirinya sendiri.\nIa bisa menjadi lebih berani. Lebih teguh. Ia belum siap sekarang, tapi itu tidak masalah. Masih ada waktu untuk bersiap. Dalam hal ini, takdir telah berbuat baik kepadanya. Tenggelam dalam pikiran, ia mendapati dirinya menggumamkan sebuah nada dengan lembut. Sayang sekali Fleet Snowfluff tidak akan bisa merilis lagu barunya. Jika ia tahu apa yang akan terjadi esok, ia pasti sudah menyelesaikannya.\nCermin itu tidak memantulkan wajahnya, sehingga Aemeath tidak melihat senyumnya sendiri. Senyum itu menyerupai goresan krayon yang diseret ke samping, warnanya berakhir dengan ujung yang tumpul dan tiba-tiba."
-      },
-      {
-        "title": "What She Fears, What She Dreads",
-        "content": "Tidak ada apa pun selain keheningan.\n\nAemeath berbalik dan melihatnya.\n\nItu menyerupai sebuah mata, namun ia tahu itu bukan mata. Sebuah lubang hitam? Mungkin itulah konsep manusia yang paling mendekati. Namun bagi seseorang yang beresonansi dengan Exostrider, itu adalah tatanan eksistensi yang berbeda: sebuah \"fenomena\" dari kejadian yang meluap dan tanpa henti. Apa pun yang ditelannya akan lenyap begitu saja. Spacetrek Collective menamakannya Voidmatter. Biarlah ia disebut demikian. Makhluk dari dimensi yang lebih rendah membutuhkan sebuah istilah untuk itu, sama seperti manusia yang perlu menyebut \"mata\" itu sebagai Aleph-1.\n\nIni bukan pertama kalinya ia bertemu dengan apa yang disebut sebagai \"tatapannya.\" Pertemuan seperti itu tidak dapat dihindari dalam perjalanannya yang berulang antara Voidspace dan dunia luar. Seiring berjalannya waktu, ia telah belajar untuk tidak bereaksi.\n\nHingga belum lama ini, tatapannya selalu memengaruhinya. Sebuah kehampaan. Sebuah keinginan sunyi untuk pembubaran. Sebuah perasaan bahwa tidak ada yang penting jika dibandingkan dengan alam semesta yang sunyi dan tidak menjawab. Ini adalah efek samping dari menatap Aleph-1 yang bahkan kematian pun tidak dapat membebaskannya. Namun sekarang, setelah menjelajahi reruntuhan dari salah satu peradaban yang telah dilahapnya, ia menatap mata yang luar biasa luas dan melampaui ruang serta waktu itu, dan hanya mendengar tawanya sendiri, tipis dan hampir mendekati histeria.\n\n\"Jadi inikah yang ia cari?\"\nTawa yang keluar darinya terasa rapuh.\n\"Inikah… kebenarannya?\"\n\nBetapa konyolnya.\n\nSetiap idealisme dan visi yang dipupuk sejak masa kanak-kanak runtuh seketika, kosong dari segala makna. Aemeath merasa lelah. Di balik rasa lelah itu muncul rasa sakit yang tumpul, diikuti dengan sesuatu yang lebih dingin.\n\n\"Bagaimana dengan dia?\"\n\"Apakah dia tahu?\"\n\nJika dia tahu, Aemeath tidak bisa membayangkan bagaimana dia bisa terus melangkah maju sambil memikul pengetahuan ini. Dan jika dia tidak tahu... maka kebenaran ini tidak akan pernah bisa mencapainya. Ini harus dikubur. Dihancurkan. Dihapus sepenuhnya. Kekhawatiran yang dingin menetap di hatinya, bahkan saat hatinya terbakar dengan amarah yang murni dan menjernihkan. Untuk pertama kalinya, ia memahami kebencian.\n\nIlusi pesawat kertas yang ia munculkan hancur dalam genggamannya. Ia membiarkan potongan-potongan itu lepas dari jemarinya dan memperhatikannya hanyut, melarut ke dalam kehampaan yang tak berujung."
-      },
-      {
-        "title": "Every Unspoken Word",
-        "content": "Aemeath menaiki tangga dengan langkah santai dan kembali ke meja kerjanya.\n\nMimpi itu telah mengusir segala kesempatan untuk kembali tidur. Bukannya ia benar-benar membutuhkan tidur lagi. Mimpi hanyalah sedikit lebih dari sekadar ingatan yang diputar ulang dalam urutan yang berbeda. Besok, ia dan Rover akan berdiri di hadapan Exostrider. Ia tidak tahu apa yang akan terjadi nanti, hanya saja ia ingin bersiap.\n\nKata-kata adalah makna yang diberi wujud. Jadi ia ingin meninggalkan sesuatu, sesuatu yang ingin ia katakan kepadanya, namun masih belum sanggup ia ucapkan dengan lantang.\n\nTapi dari mana harus memulai? Ia bisa menceritakan kembali semua yang terjadi selama bertahun-tahun: momen-momen kecil yang terlupakan, kegembiraan, kehilangan, hari-hari sepele, dan peristiwa-peristiwa yang mengubah dunia. Atau mungkin ia bisa sedikit mengeluh. Ia telah pergi begitu lama, dan hal-hal yang ingin ia bagikan telah menumpuk, menunggu. Dan jika semua itu terasa tidak tepat, ia selalu bisa menggambar seluruh perjalanan darat ini. Persis seperti masa lalu.\n\nIa mengetik. Ia menghapus. Ia mengetik lagi. Pada akhirnya, hanya satu baris yang tersisa.\n\n\"Aku tahu bahwa jika aku mendongak, bintang itu akan selalu menemukanku.\"\n\nIa menyimpan pesan itu di salah satu perangkat di ruangan tersebut, membiarkannya untuk masa depan di mana pesan itu mungkin ditemukan, atau tidak pernah diperhatikan sama sekali.\n\nUntuk saat ini, ia merasa tidak memiliki hal lain untuk diminta.\n\nRover tampak bahagia. Itu saja sudah terasa cukup. Jika memungkinkan, kebenaran itu bisa tetap terkubur selamanya. Selama orang itu aman dan tersenyum, hal lainnya adalah sesuatu yang bisa ia lalui dengan senyuman.\n\nIa bisa memilih untuk menjadi egois, atau ia bisa memilih untuk menjadi baik hati. Namun ketika menyangkut keluarga, orang-orang selalu melindungi apa yang paling berarti. Aemeath tidak terkecuali. Apakah kebenaran itu penting, pada akhirnya?\n\nYang terpenting adalah Rover bisa menjalani kehidupan yang bahagia.\n\nPikiran itu membuatnya terdiam sejenak. Dengan senyum tipis, ia menyadari bahwa hal itu tidak berbeda dengan janji yang pernah mengikatnya sejak awal.\n\nRuangan itu jatuh ke dalam keheningan. Di luar, salju turun tanpa suara, menyelimuti dunia dalam warna putih selagi menunggu musim semi."
-      }
-    ],
-    "specialFood": {
-      "name": "Super Snowfluff Storm",
-      "imageUrl": "/icons/food/aemeath.webp",
-      "description": ""
+    "Sex": {
+      "Title": "No Description Available",
+      "Content": "Female"
+    },
+    "Country": {
+      "Title": "No Description Available",
+      "Content": "Lahai-Roi"
+    },
+    "Influence": {
+      "Title": "No Description Available",
+      "Content": "Startorch Academy"
+    },
+    "Info": {
+      "Title": "No Description Available",
+      "Content": "Once an Exostrider Synchronist of Rabelle College, she is now a digital ghost who sings quietly amongst stars."
+    },
+    "TalentName": {
+      "Title": "No Description Available",
+      "Content": "Guiding Starlance"
+    },
+    "TalentDoc": {
+      "Title": "Resonance Evaluation Report",
+      "Content": "[Retrieved from the <te href=851071>Spacetrek Collective</te> Archive: <te href=851069>Startorch Academy</te> - Student Records]<br>[Resonance Ability Assessment Report RA2362-G]<br><br>Student Name: Aemeath<br>Synchronist Qualification: Affirmative<br>Forte Overview: Tests reveal a <te href=850067>Rabelle's Curve</te> with a steady upward trend, converging into a stable oscillatory state. Based on current parameters, the subject is classified as a <te href=850070>Natural Resonator</te>. Her <te href=850072>Tacet Mark</te> is located in the thoracic region.<br><br>According to pre-admission personal records and the subject's own account, the individual ▇▇▂▇▋▌▏▉█... Okay, so this report doesn't hold much reference value anymore. It's totally outdated. It's talking about me when I still had a body. Let me set the record straight. At present, I'm already the Exostrider's Synchronist. My Tacet Mark has changed, compared to before. Now it isn't the most... stable. As for my abilities, I can manifest an Exostrider Armament and synchronize with it directly. Translation—Yes, I get to transform! And because I like fighting efficiently, I programmed a custom autopilot feature for the unit. Current simulation results are looking good. Lets me paint the whole battlefield with lightshow-level laser coverage. Oh, and the digital ghost thing lets me slip into any data system. Not sure if that's really part of my Forte or just a perk of my unique Resonance condition... ▇▉▇▇▂▇<br><br><span class=\"italic\">\"That's odd... why is this student's file corrupted? It's nothing but data errors.\"</span><br><span class=\"italic\">\"The missing Synchronist? I see... Report it to President Lucilla.\"</span>"
+    },
+    "TalentCertification": {
+      "Title": "Overclock Diagnostic Report",
+      "Content": "Rabelle's Waveform test sample analysis shows an elliptical oscillation pattern and a stable Time Domain. No abnormal fluctuations were observed. Examination results are determined to be within normal parameters. <br> <br>Conclusion: Resonant Criticality is within normal range. Subject stability remains robust. No history of and no present risk of <te href=850073>Overclocking</te>. <te href=850067>Rabelle's Curve</te> remains stable.<br><br>Psychological counseling is currently deemed unnecessary.<br> <br><span class=\"italic\">\"Aemeath… has been doing well this academic year. But we do need to watch her psychological baseline closely. If it shifts, therapeutic intervention is a must.\"</span><br><span class=\"italic\">\"But... she always seems so cheerful.\"</span><br><span class=\"italic\">\"That's exactly why we watch, not interfere. If this is the life she's chosen for herself, we respect it. We'll just do our part as teachers.\"</span>"
+    },
+    "CVNameCn": {
+      "Title": "No Description Available",
+      "Content": "Wang Yaxin"
+    },
+    "CVNameJp": {
+      "Title": "No Description Available",
+      "Content": "Sato Satomi"
+    },
+    "CVNameKo": {
+      "Title": "No Description Available",
+      "Content": "Kim Ha Ru"
+    },
+    "CVNameEn": {
+      "Title": "No Description Available",
+      "Content": "Cara Theobold"
     }
   }
 }

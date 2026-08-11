@@ -1,17 +1,18 @@
 {
+  "id": 1104,
   "name": "Lingyang",
-  "element": "Glacio",
-  "weapon": "Gauntlet",
+  "element": 1,
   "rarity": 5,
+  "weapon": 4,
   "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
-    "Main Damage Dealer"
+    2
   ],
   "sonatas": [
-    "Lingering Tunes",
-    "Freezing Frost",
-    "Frosty Resolve"
+    9,
+    1,
+    10
   ],
   "changelog": [
     {
@@ -35,190 +36,6 @@
   "image": "/characters/lingyang.webp",
   "icon": "/icons/characters/lingyang.webp",
   "imageBanner": "/banners/lingyang-banner.jpeg",
-  "recommendedStats": {
-    "ATK": "2000+",
-    "Energy Regen": "110-125%",
-    "Crit Ratio (Crit Weapon)": "65% : 265%",
-    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
-  },
-  "build": {
-    "bestEcho": [
-      "Mech Abomination"
-    ],
-    "bestWeapon": "Tragicomedy",
-    "echoDetails": {
-      "note": "",
-      "sets": [
-        {
-          "label": "Glacio DMG",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 3,
-              "stat": "glacio%"
-            },
-            {
-              "cost": 3,
-              "stat": "glacio%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ],
-          "echoSlug": "lampylumen-myriad",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Freezing Frost"
-          ]
-        },
-        {
-          "label": "General ATK",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 3,
-              "stat": "glacio%"
-            },
-            {
-              "cost": 3,
-              "stat": "glacio%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ],
-          "echoSlug": "mech-abomination",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Lingering Tunes"
-          ]
-        },
-        {
-          "label": "Skill DMG",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 3,
-              "stat": "glacio%"
-            },
-            {
-              "cost": 3,
-              "stat": "glacio%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ],
-          "echoSlug": "sentry-construct",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Frosty Resolve"
-          ]
-        }
-      ],
-      "substats": [
-        "CR% / CDM%",
-        "Energy Regen",
-        "ATK%",
-        "Skill/BA",
-        "ATK"
-      ]
-    },
-    "weaponNote": "",
-    "weaponOptions": [
-      {
-        "id": "tragicomedy",
-        "percentage": "106",
-        "rank": ""
-      },
-      {
-        "id": "veritys-handle",
-        "percentage": "105",
-        "rank": ""
-      },
-      {
-        "id": "pulsation-bracer",
-        "percentage": "-",
-        "rank": ""
-      },
-      {
-        "id": "abyss-surges",
-        "percentage": "100",
-        "rank": ""
-      },
-      {
-        "id": "stonard",
-        "percentage": "83",
-        "rank": ""
-      },
-      {
-        "id": "hollow-mirage",
-        "percentage": "81",
-        "rank": ""
-      }
-    ],
-    "rotations": [],
-    "talentPriority": {
-      "note": "",
-      "priority": [
-        "Forte Circuit",
-        "Resonance Liberation",
-        "Resonance Skill",
-        "Intro Skill",
-        "Normal Attack"
-      ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        true,
-        false
-      ]
-    },
-    "teams": [
-      {
-        "name": "Lingyang Hypercarry",
-        "note": "",
-        "members": [
-          [
-            "Lingyang"
-          ],
-          [
-            "Sanhua",
-            "Zhezhi"
-          ],
-          [
-            "Shorekeeper"
-          ]
-        ]
-      }
-    ],
-    "teamNote": "- Zhezhi memberikan Lingyang 20% Glacio & 25% Res. Skill DMG Amplify setelah melancarkan Outro Skill miliknya.\n- Sanhua memberikan Lingyang 38% Basic ATK DMG Amplify. Pada S6, ia dapat memberikan hingga 20% ATK setelah meledakkan Ice Prisms/Glaciers miliknya."
-  },
   "skills": {
     "basic": {
       "name": "Majestic Fists",
@@ -435,7 +252,6 @@
       ]
     }
   },
-  "analysisCharts": [],
   "sequences": [
     {
       "stage": "S1",
@@ -514,70 +330,54 @@
       ]
     }
   ],
-  "lore": {
-    "description": "Lingyang adalah anggota Liondance Troupe di Jinzhou yang berbakat dan ramah. Semangat dan keberaniannya terlihat jelas saat ia berinteraksi dengan manusia, menunjukkan kemampuan fisiknya yang luar biasa. Dengan gayanya yang khas, ia benar-benar mewujudkan semangat Liondancing.",
-    "manualEntries": [
-      {
-        "title": "BIRTHPLACE",
-        "description": "Huanglong"
-      },
-      {
-        "title": "BIRTHDATE",
-        "description": "08 Agustus"
-      },
-      {
-        "title": "AFFILIATION",
-        "description": "Jinzhou (on profile)\nLiondance Troupe"
-      }
-    ],
-    "report": {
-      "resonancePower": "Frosty Gusto",
-      "overclockDiagnostic": "Gelombang grafik Resonator Lingyang menunjukkan fluktuasi elips. Pola Time Domain teratur dengan nilai puncak yang stabil, tanpa adanya anomali dalam gelombang.\n- Resonant Criticality: Sangat stabil. Resonator Lingyang memiliki tingkat Criticality yang cukup tinggi. Risiko Overclocking sangat rendah.\n- Riwayat Overclocking: Tidak ada catatan Overclocking sebelumnya.\n- Lingyang menunjukkan kendali yang sangat baik atas Forte-nya dan mampu menjaga kestabilan emosinya secara konsisten.\n- Saat menggunakan kemampuannya, yang dikenal sebagai \"Will Transmission\", medan bersuhu rendah yang dihasilkan terutama memberikan manfaat bagi sekutunya. Dalam situasi kelompok, efek ini membantu mengurangi risiko Overclocking bagi Lingyang.\n\nRekomendasi:\n- Menjaga risiko Overclocking tetap rendah.\n- Melakukan pemantauan berkala terhadap perkembangannya.\n- Observasi lebih lanjut dianjurkan.",
-      "resonanceEvaluation": "Dasar Evaluasi: [Resonance Assessment 1888-G]\n\nUsia dan waktu Awakening dari Resonator Lingyang masih belum diketahui, namun tampaknya ia telah mengalami Awakening sejak lama. Lingyang telah bertahan dalam kondisi lingkungan yang ekstrem dalam waktu lama, dan kemungkinan besar telah mengaktifkan Forte-nya secara alami saat bertarung.\n\nLingyang memiliki Tacet Mark di lengan kanannya. Tidak ditemukan mutasi setelah Awakening.\n\nDaya tahan fisik dan kekuatannya luar biasa, kemungkinan besar akibat terbiasa dengan kondisi ekstrem. Ia menunjukkan keterampilan bertarung dan bertahan hidup yang sangat baik, tetapi kurang berpengalaman dalam menggunakan Forte-nya karena tidak terbiasa menggunakannya dalam keseharian. Evaluasi lebih lanjut diperlukan untuk menentukan apakah ia membutuhkan bimbingan dalam menguasai Forte-nya.\n\nSaat berada di bawah pengaruh Forte-nya, Lingyang mengalami peningkatan indra dan dapat menghasilkan Gusto beku tak kasat mata dalam area terbatas. Efek ini juga menciptakan medan bersuhu rendah yang memberikan tekanan pada musuh di sekitarnya. Selain itu, Lingyang dapat memengaruhi dan membangkitkan semangat orang-orang di sekitarnya melalui kehendaknya yang ditransmisikan.\n\nBelum pernah ditemukan Resonance Spectrum Pattern yang mirip dengan Lingyang. Penyebab Awakening-nya masih belum diketahui hingga saat ini.\n\nAnalisis sampel uji menunjukkan Rabelle’s Curve yang tidak konvergen dengan peningkatan bertahap. Oleh karena itu, Lingyang diidentifikasi sebagai Natural Resonator.\n\n\"Apa? Jadi penampilannya yang seperti 'binatang buas' bukan karena efek dari Forte-nya? Sebenarnya ini apa...?\""
+  "favorRole": {
+    "Birthday": {
+      "Title": "No Description Available",
+      "Content": "August 8th"
     },
-    "items": [
-      {
-        "name": "Liondance Head",
-        "imageUrl": "/icons/items/lingyang-1.webp",
-        "description": "Kepala Liondance ini diberikan kepada Lingyang oleh Tuan Qixing dari Liondance Troupe sebagai tanda kehormatan.\n\nLingyang bergabung dengan Liondance Troupe secara kebetulan ketika masih kecil, dan pertunjukan Liondance membantunya menyalurkan sisi liarnya sekaligus membawa semangat dan berkah bagi masyarakat. Berkat ini, Lingyang dapat membaur dengan warga Jinzhou.\n\nDengan kerja keras dan latihan yang tekun, tubuh kecil Lingyang mampu mengekspresikan suka duka sang singa, gerakan lincahnya, serta ketakutannya.\n\nKini, meskipun ia sudah menjadi Liondancer yang terkenal, Lingyang tetap membawa kepala singa ini ke mana pun ia pergi."
-      },
-      {
-        "name": "Jinzhou Skewers",
-        "imageUrl": "/icons/items/lingyang-2.webp",
-        "description": "Memanggang adalah metode memasak yang populer di Jinzhou, tetapi Lingyang selalu merasa bahwa arang panggangan terlalu mendominasi rasa alami daging. Karena itu, ia bertekad menciptakan sesuatu yang unik. Setelah bereksperimen, ia akhirnya menyempurnakan teknik membuat sate \"medium-rare\" versinya sendiri.\n\nDengan menggabungkan Jinzhou Skewers yang terkenal dengan bumbu sederhana namun kaya rasa, Lingyang berhasil mempertahankan kelembutan dan tekstur daging yang halus, sambil menambahkan cita rasa baru yang langsung menjadi sensasi di kota.\n\nMeskipun ia telah membagikan teknik memasaknya, hanya Lingyang yang mampu mencapai tingkat kesempurnaan \"medium-rare\" yang khas. Berkat dedikasi dan kreativitasnya, hidangan sederhana ini kini menjadi karya khasnya.\n\n\"Mau tahu rahasia masakanku? Perlakukan tiap bahan dengan hati-hati dan sesuaikan api sesuai kebutuhan. Gampang, kan?\""
-      },
-      {
-        "name": "Worn Longevity Lock",
-        "imageUrl": "/icons/items/lingyang-3.webp",
-        "description": "Liontin Longevity Lock misterius yang dikenakan Lingyang saat pertama kali bertemu dengan anggota Liondance Troupe.\n\nSetelah tiba di Jinzhou, anggota Liondance Troupe berkeliling kota untuk membantu Lingyang mencari pedagang yang mungkin tahu asal-usul liontin ini. Namun, hasilnya nihil. Semua yang mereka dengar hanyalah,\n\n\"Ini desain kuno yang belum pernah saya lihat sebelumnya.\"\n\nMengingat gerakan lincah dalam Liondance bisa saja merusaknya, Lingyang memutuskan untuk menyimpannya dengan aman di dalam kotak kayu.\n\nTerlepas dari siapa pun yang membuatnya, Longevity Lock tetap membawa harapan baik untuk kesehatan dan kebahagiaan. Dengan membagikannya kepadamu, Lingyang menunjukkan ketulusan hatinya dan berharap yang terbaik untukmu."
-      }
-    ],
-    "stories": [
-      {
-        "title": "Auspicious \"Lion Head\"",
-        "content": "Liondance di Jinzhou memiliki banyak penggemar. Baik itu acara besar seperti upacara penyambutan mahasiswa baru dan peresmian toko, maupun acara lebih intim seperti perayaan ulang tahun orang tua dan pesta 100 hari bayi, selalu ada momen yang membutuhkan ritual perayaan. Inilah alasan mengapa Liondance Troupe selalu memiliki aliran klien yang stabil.\n\nSebagai Liondancer utama, peran Lingyang tidak hanya terbatas pada pertunjukan menegangkan di atas Plum Blossom Poles yang penuh risiko. Merancang koreografi Liondance yang unik untuk setiap acara adalah bagian penting dari pekerjaannya, memastikan setiap pertunjukan memberikan kesan mendalam bagi para klien.\n\nLingyang sangat menikmati berinteraksi dengan klien, menggali keinginan mereka untuk menciptakan pertunjukan Liondance yang sesuai dengan harapan. Namun, lebih dari sekadar pekerjaan, ini adalah hasrat pribadinya. Baginya, setiap cerita seseorang adalah harta karun yang menunggu untuk ditemukan, dan ia senang mengungkapnya. Rasa ingin tahunya yang tulus sering kali membuat klien merasa nyaman untuk berbagi pemikiran mereka. Bahkan, ada yang sampai bertanya-tanya,\n\n\"Apa Liondance Troupe sekarang juga menawarkan layanan konseling psikologis?\"\n\nLiondance Troupe harus menghadapi jadwal padat, perubahan mendadak, dan berbagai keadaan tak terduga. Menyeimbangkan konflik dan ketegangan adalah tantangan konstan, karena satu kesalahan kecil saja bisa berarti kehilangan klien yang berharga. Oleh karena itu, kunci kesuksesan mereka terletak pada memahami dan menangani emosi setiap klien. Lingyang telah menguasai seni negosiasi ini, menjadikannya salah satu keahliannya yang paling berharga.\n\nUntungnya, Lingyang punya cara lain untuk menghadapi klien yang sulit: memberikan Lucky Greetings. Dengan senyum cerah dan harapan baik yang tulus, ia bahkan bisa membuat klien yang paling keras kepala luluh. Lambat laun, koleksi Lucky Greetings miliknya menjadi bacaan wajib bagi para Liondancer, hingga akhirnya kebiasaan “memberikan Lucky Greetings kepada semua orang” menjadi ciri khas dari Liondance Troupe.\n\n\"Memberikan salam keberuntungan saat bertemu seseorang... Kamu pasti dari Liondance Troupe, kan? Silakan masuk!\"\n\nNamun, Lucky Greetings dari Lingyang bukanlah sekadar ucapan yang sama untuk semua orang. Setiap salamnya harus tulus dan disesuaikan dengan penerimanya. Meski telah menjadi kebiasaan bagi Liondance Troupe, Lingyang tetap berusaha memberikan doa dan harapan yang benar-benar bermakna. Ia yakin bahwa Lucky Greetings membawa keberuntungan bagi siapa pun yang menerimanya.\n\nJadi, jika suatu hari kamu bertemu seorang Liondancer yang menghujanimu dengan Lucky Greetings, jangan curiga. Terimalah doa dan harapan baiknya dengan tulus, karena itu adalah respons terbaik untuk seseorang yang penuh kebaikan dan ketulusan."
-      },
-      {
-        "title": "A Twist Of Fate",
-        "content": "Berbicara tentang bagaimana Lingyang bergabung dengan Liondance Troupe, kita harus kembali ke hari yang tampaknya “biasa” itu, hari ketika pertunjukan Liondance di Jinzhou Theater baru saja berakhir. Saat para staf sibuk merapikan properti panggung, seorang pemuda berpenampilan aneh tiba-tiba jatuh dari atap. Lebih tepatnya, bukan sekadar “jatuh”, tapi lebih seperti “terhempas” dengan cukup dramatis.\n\nTernyata, ini bukan insiden biasa, melainkan kecelakaan yang sudah direncanakan dengan matang. Lingyang awalnya berniat mendekati Liondance Troupe dengan cara yang lebih terkontrol. Namun, satu hal yang tidak ia perhitungkan adalah bahwa atap, terutama setelah hujan, jauh lebih licin dibandingkan ranting pohon.\n\nSaat itu, Lingyang bahkan belum sepenuhnya menguasai bahasa manusia, dan ia juga belum memiliki nama. Dalam waktu yang cukup lama, para anggota Liondance Troupe hanya memanggilnya “si kecil”.\n\nMeski sudah berusaha sebaik mungkin, Lingyang tetap kesulitan berkomunikasi dengan anggota kelompok. Akhirnya, ia memilih cara lain, menampilkan Liondance dengan canggung menggunakan kepala singa yang ia temukan entah dari mana.\n\nSetiap kali para anggota Liondance Troupe mengenang momen ini, mereka selalu tertawa dan berkata bahwa saat itu, Lingyang lebih terlihat seperti sedang memamerkan cakar dan taringnya daripada benar-benar menampilkan Liondance yang sesungguhnya.\n\nMeski maksud Lingyang cukup jelas, penampilannya yang tidak biasa memicu berbagai perdebatan di antara anggota kelompok.\n\nPada akhirnya, anggota tertua dari kelompok, yang bahkan dihormati sebagai \"Master\" oleh para pemimpin Liondance Troupe saat ini, membuat keputusan menerima Lingyang sebagai bagian dari mereka.\n\nLingyang sudah berkali-kali bertanya alasan di balik keputusan itu, tetapi jawabannya selalu samar:\n\n\"Haha, mungkin karena telinga dan ekormu mirip dengan singa legendaris pembawa keberuntungan.\"\n\nNamun, sesekali, saat sang Master tertidur siang, Lingyang sempat mendengar gumaman dalam tidurnya:\n\n\"‘Singa Besar’... Aku berhasil... Janjiku...\"\n\nDi bawah bimbingan sang Master, Lingyang pun memulai perjalanan belajarnya secara resmi. mempelajari Liondance, kaligrafi, serta cara berinteraksi dengan manusia.\n\nUntuk membantunya mengendalikan kekuatan liar dalam tubuhnya, ia diajarkan sebuah rangkaian gerakan kuno dari Huanglong, yang dipercaya dapat mengatur aliran energi sekaligus menjadi dasar dari teknik Liondance. Dengan latihan yang tekun, Lingyang akhirnya mendapatkan gelar \"Lion Head\" secara resmi.\n\nDi Jinzhou, istilah \"Lion Head\" memiliki beberapa makna. Bagi orang biasa, itu bisa merujuk pada kepala singa yang digunakan dalam pertunjukan, atau penari utama dalam Liondance. Namun, bagi para Liondancer, itu adalah sebuah mimpi bersama aspirasi untuk menjadi \"pemimpin singa\" melalui latihan keras dan teknik yang sempurna.\n\n\"Aku lahir dengan kekuatan ini dan mengasah keterampilan berburu di alam liar. Tapi Liondance bukan sekadar soal kekuatan, postur, langkah, ritme, koordinasi dengan rekan satu tim... Semua itu tidak bisa dipelajari dalam semalam. Master selalu menekankan betapa pentingnya Liondance bagi masyarakat Jinzhou, dan aku tidak bisa menghilangkan rasa khawatir kalau aku belum memenuhi harapan mereka. Untuk benar-benar layak menyandang gelar 'Lion Head', aku tahu aku harus berusaha lebih keras.\"\n\nMenurut sang Master, Lingyang bukan sekadar berbakat. Yang lebih penting, ia memiliki keinginan kuat untuk terus berkembang.\n\nSetiap kali mempelajari gerakan baru, ia akan berlatih tanpa henti hingga langit dipenuhi bintang. Sering kali, ia berdiri di atas Plum Blossom Pole di Central Plains, menatap bayangannya di air, seolah sedang merenung atau menantang batas dirinya sendiri.\n\nDi antara kelopak bunga yang berguguran, Lion Head muda itu menari penuh semangat di atas tiang, menciptakan pemandangan yang unik dan tak terlupakan di wilayah tersebut."
-      },
-      {
-        "title": "A Helpful Lion",
-        "content": "Tak lengkap rasanya membicarakan Central Plains tanpa menyebut Liondance Troupe dan latihan musim dingin tahunan mereka.\n\nDi musim sepi pertunjukan, Liondance Troupe berkumpul di Taoyuan Vale untuk menjalani latihan intensif di tempat pelatihan mereka. Persiapan ini sangat penting untuk menghadapi New Year Parade, acara besar di Jinzhou yang menandai perpisahan dengan tahun lama dan menyambut tahun baru.\n\nMeskipun musim dingin dianggap sebagai masa istirahat, Liondance Troupe tetap bekerja keras, menyempurnakan karakter, mengasah keterampilan, membuat properti, dan merancang pertunjukan baru. Tidak ada waktu untuk bersantai. Namun, bagi Lingyang, meninggalkan kota dan pergi ke alam liar adalah kesempatan emas untuk kembali ke akarnya.\n\nDi tengah hawa dingin, semangat alami Lingyang tetap membara, tak ubahnya seperti binatang buas yang mendiami pegunungan di sekitarnya.\n\nSaat dunia tertutup oleh salju, para makhluk liar mulai berburu dengan penuh semangat. Setiap kali Lingyang mendengar raungan atau jeritan minta tolong di kejauhan, ia akan segera berlari ke dalam hutan saat ada jeda latihan. Dengan kecepatan petir, ia menghadapi ancaman dengan brutal, mencabik-cabik para pemangsa dalam sekejap.\n\nOrang-orang yang diselamatkan merasa bersyukur, tetapi tatapan mereka menyiratkan ketakutan.\nLingyang tak bisa menahan diri untuk bertanya dalam hati:\n\n\"Apakah mereka masih takut pada binatang buas itu? Atau... mereka khawatir aku akan mencabik-cabik mereka juga?\"\n\nBerulang kali dihadapkan pada rasa takut manusia, Lingyang mulai menyadari perbedaan dirinya dengan mereka cakar dan taringnya, yang digunakan saat bertarung, terlihat sangat mirip dengan para binatang buas yang ia lawan.\n\nBisakah orang-orang benar-benar menerima sisi dirinya yang ini?\n\nMungkin... ia perlu menemukan cara yang lebih \"diterima\" untuk membantu orang lain. setidaknya, dengan niat baik?\n\nTak lama, rumor mulai beredar di Jinzhou: setiap musim dingin, ada sosok misterius berkepala singa yang muncul untuk menolong mereka yang sedang dalam bahaya di Central Plains.\n\nSeiring waktu, orang-orang mulai menyadari bahwa makhluk itu tidak berniat jahat. Rasa takut berubah menjadi rasa penasaran, dan sosok tersebut akhirnya dijuluki sebagai \"dewa pelindung musim dingin\", yang mengawasi para pelancong selama bulan-bulan dingin.\n\nTapi, itu cerita untuk lain waktu. Untuk saat ini, Lingyang punya masalah lain yang lebih mendesak, suasana hati sang Master.\n\nAkhir-akhir ini, saat ia seharusnya ada di sesi latihan, Lingyang justru sering menghilang dari gym. Suara kemarahan sang Master bergema di lembah, membuat burung-burung yang bertengger beterbangan ketakutan.\n\n\"Lingyang? Lingyang! Ke mana lagi bocah nakal itu sekarang?!\""
-      },
-      {
-        "title": "A Lone Journey",
-        "content": "\"Seperti apa rupa tanah di pinggiran Huanglong dahulu?\"\n\nBahkan para peneliti tertua pun tak bisa memberikan jawaban pasti.\n\nLegenda yang diwariskan dari generasi ke generasi menceritakan tentang sebuah tanah yang dulu diselimuti hutan lebat, penuh dengan kehidupan, dan menjadi rumah bagi makhluk suci yang dihormati oleh semua. Namun, itu semua terjadi sebelum Lament turun ke dunia mengubah tanah yang dahulu subur itu menjadi hamparan beku yang sunyi dan tak bernyawa.\n\nSejauh yang bisa diingatnya, Lingyang hanya mengenal lanskap tandus ini.\n\nIa tak tahu kapan pertama kali mulai mengingat sesuatu, tapi tak ada kenangan tentang apa yang terjadi sebelumnya. Ia tak tahu kapan ia lahir, di mana ia pernah tinggal, atau ke mana ia harus pergi. Setelah melarikan diri dari kehancuran tanah kelahirannya, ia mengembara sendirian di alam liar, berjuang melawan kesepian, cuaca yang ganas, dan kehampaan yang tak berujung. Ia merasa tak jauh berbeda dengan binatang buas, bertahan hidup hanya dengan naluri tanpa tujuan, tanpa arah.\n\nNamun segalanya berubah ketika ia bertemu sekelompok pasukan manusia.\n\nDi dalam hutan, saat berburu, Lingyang melihat makhluk-makhluk aneh yang berjalan dengan dua kaki. Ia mengamati mereka dengan waspada, mengikuti dari kejauhan, dan memperhatikan setiap gerakan mereka. Lingyang tak bisa menahan rasa ingin tahunya.\n\nMereka menghadapi musuh yang jauh lebih kuat, tapi tak pernah menyerah atau melarikan diri.\n\nBahkan ketika terluka, mereka tetap melindungi satu sama lain dan berbagi suplai penting. Kelaparan pun tak membuat mereka kehilangan tekad untuk saling membantu.\n\nLingyang bertanya-tanya, kenapa makhluk-makhluk berkaki dua ini selalu menunjukkan tindakan yang tak bisa ia pahami?\n\nNamun, entah kenapa, melihat perilaku mereka yang \"aneh\" ini membuat sesuatu di dalam dirinya mulai menyala, mencairkan sedikit rasa takut dan dingin yang telah lama membelenggunya.\n\nTahun-tahun berlalu, tetapi bayangan para pejuang itu tak pernah pudar dari pikirannya. Lingyang terus mengikuti jejak dan aroma mereka hingga akhirnya tiba di tanah asing, Jinzhou.\n\nDari atas tebing, ia menatap tempat tinggal para makhluk aneh ini dari kejauhan. Tiba-tiba, suara gong dan tabuhan genderang menggema, mengejutkannya. Namun, ia segera menyadari bahwa mereka sedang berkumpul di gerbang kota.\n\nSaat itulah Lingyang melihat sesuatu yang mengguncang jiwanya.\n\nDi tengah keramaian, seorang penari berkepala singa bergerak dengan irama yang penuh semangat. Melihatnya, sesuatu di dalam diri Lingyang bergolak, sebuah perasaan yang telah lama ia cari, sesuatu yang seolah terukir dalam darahnya.\n\nDi sanalah ia memutuskan untuk bergabung dengan makhluk-makhluk aneh ini.\n\nDi masa mendatang, ia akan menghadapi kesulitan, mengerahkan seluruh tenaga, dan merasakan rasa sakit demi menemukan tujuan yang selama ini ia cari. Tapi satu hal pasti tekadnya tak akan pernah goyah.\n\n"
-      },
-      {
-        "title": "The Naming Day",
-        "content": "Sejak bergabung dengan Liondance Troupe, Lingyang selalu memperlakukan orang lain dengan penuh semangat. Ia bercita-cita menjadi seperti nyala api, mengusir rasa takut dari hati mereka yang ada di sekitarnya.\n\nNamun, takdir menempuh jalannya sendiri. Lingyang justru menemukan bahwa Forte-nya berhubungan dengan es yang menusuk tulang.\n\n\"Tapi tidak ada yang menyukai dingin,\"\n\npikirnya.\n\n\"Aku sendiri sudah berkali-kali bertahan di tengah hawa beku, tapi tetap saja takut pada dingin. Bagaimana caranya aku bisa membantu orang lain mengatasi ketakutan mereka dengan kekuatan ini?\"\n\nRasa frustrasi membuatnya kembali ke tempat latihan, melemparkan dirinya ke dalam irama tarian di atas Plum Blossom Poles. Setiap langkah dan loncatan adalah caranya mencari jalan keluar dari kegelisahan yang berkecamuk dalam hati.\n\nDi sanalah sang master mendekatinya. Seolah memahami kegundahan muridnya, ia pun mendorong Lingyang untuk mengungkapkan perasaannya.\n\n“Haha, aku mengerti sekarang. Omong-omong, bocah, kau belum punya nama, kan?”\n\ntanya sang master.\n\n“Nama? Apakah itu penting?”\n\n“Bagi kami, manusia, iya. Nama membawa harapan dan doa dari orang tua kita. Tapi apakah kau akan memenuhi harapan itu atau justru menentangnya, itu sepenuhnya pilihanmu.”\n\nSang master melanjutkan,\n\n“Karena kau tak ingat masa lalumu dan kami tak tahu siapa orang tuamu, bagaimana kalau kau memilih namamu sendiri? Bocah, ingin jadi seperti apa kau di masa depan?”\n\n“Seperti apa... manusia?”\n\nLingyang bertanya balik, membuat sang master tertawa kecil sebelum mengoreksi ucapannya,\n\n“Maksudku, apa yang paling ingin kau lakukan saat ini?”\n\n“Oh! Aku ingin berdiri di Plum Blossom Pole tertinggi di dunia! Yang lebih tinggi dari matahari!”\n\n“Haha, mimpi besar! Tapi mereka yang terlalu dekat dengan matahari bisa terbakar dan meleleh, kau tahu?”\n\n“Hmm... itu memang bisa jadi masalah, tapi aku tidak takut! Aku ingin membawa kegembiraan dan kedamaian untuk semua orang. Dan! Aku juga ingin menjadi seseorang yang bisa memberikan kehangatan dan keberanian kepada orang-orang! Jika matahari bisa melelehkanku, maka aku akan menjadi lebih panas dari matahari dan melelehkannya lebih dulu!”\n\n“Hahaha, ambisius sekali, ya? Baiklah, kalau begitu... bagaimana kalau ‘Lingyang’? Nama itu mencerminkan keinginanmu untuk melampaui matahari, ‘Yang’.”\n\n“Mulai sekarang, kau memiliki nama. Itu berarti kau adalah seorang individu yang mandiri. Anggap saja hari ini sebagai hari ulang tahunmu.”\n\n“Ulang tahun? Apa itu?”\n\n“Ulang tahun adalah hari di mana manusia mengenang perjalanan waktu dan kefanaan hidup. Yang lebih penting, ini adalah hari untuk merayakan kelahiran kita, bersyukur atas semua keajaiban yang kita temui sepanjang perjalanan tumbuh dewasa.”\n\n“Kalau begitu...”\n\n“Selamat ulang tahun, Lingyang!”\n\nTiba-tiba, suara riuh menggema di sekelilingnya. Para seniornya telah berkumpul dan meneriakkan namanya dalam satu suara.\n\n“Ling... yang...”\n\nPerlahan, ia mengulang nama itu dalam hati. Nama yang menjadi hadiah paling berharga dalam hidupnya. Dengan jantung berdegup kencang, ia berjanji dalam hati, janji untuk memenuhi harapan yang terkandung dalam namanya, serta melindungi mereka yang ia cintai.\n\nSuatu hari nanti, kehadirannya akan mencairkan hati yang beku dan membawa kehangatan dalam kehidupan orang-orang...\n\nSeperti matahari yang muncul dari balik awan kelam."
-      }
-    ],
-    "specialFood": {
-      "name": "Liondance Companion",
-      "imageUrl": "/icons/food/lingyang.webp",
-      "description": "Meningkatkan ATK semua Resonator dalam tim sebesar 120, bertahan selama 15 menit. Hanya efektif pada Resonator milik sendiri saat dalam Mode Co-op."
+    "Sex": {
+      "Title": "No Description Available",
+      "Content": "Male"
+    },
+    "Country": {
+      "Title": "No Description Available",
+      "Content": "Huanglong"
+    },
+    "Influence": {
+      "Title": "No Description Available",
+      "Content": "Jinzhou"
+    },
+    "Info": {
+      "Title": "No Description Available",
+      "Content": "An enthusiastic, brave member of the <te href=850130>Liondance Troupe</te> in <te href=850091>Jinzhou</te>, Lingyang is a sincere, compassionate visitor of the human community with incredible physical abilities, whose interest in humans easily shows. With his unique style, he embodies the spirit of <te href=850131>Liondance</te>."
+    },
+    "TalentName": {
+      "Title": "No Description Available",
+      "Content": "Frosty Gusto"
+    },
+    "TalentDoc": {
+      "Title": "Resonance Evaluation Report",
+      "Content": "Evaluation Basis: [Resonance Assessment 1888-G]<br>Resonator Lingyang's age and time of Awakening remain uncertain, and he appears to have Awakened a long time ago. Lingyang has endured prolonged exposure to harsh environmental conditions and may have naturally activated his Forte during combat.<br><br>Lingyang bears a <te href=850072>Tacet Mark</te> on his right arm. No Post-Awakening mutations have been noted.<br><br>His physical endurance and strength are exceptional, likely due to his exposure to extreme environments. He displays advanced skills and agility in combat and survival, but lacks experience utilizing his Forte as it is not habitually used. Further evaluation is necessary to determine if proper guidance in Forte usage is needed.<br><br>Under the influence of his Forte, Lingyang's senses are heightened and he can generate an invisible freezing Gusto within a limited area. This also creates a low-temperature field that exerts pressure on nearby enemies. Additionally, Lingyang can influence and motivate the emotions of those near him through his transmitted will.<br><br>No instances of Resonance Spectrum Patterns similar to Lingyang's have been encountered. The cause of his Awakening remains unknown at this time.<br><br>Analysis of test samples has revealed a non-convergent <te href=850067>Rabelle's Curve</te> with a gradual rise. Therefore, Lingyang is identified as a <te href=850070>Natural Resonator</te>.<br><br><span class=\"italic\">\"What? So his 'beast-like' appearance wasn't a result of his Forte? What exactly is this...\"</span>"
+    },
+    "TalentCertification": {
+      "Title": "Overclock Diagnostic Report",
+      "Content": "Resonator Lingyang's waveform graph shows elliptical fluctuations. The pattern of Time Domain is regular with stable peak values, and no abnormal waveforms are observed.<br>Resonant Criticality: Very stable. Resonator Lingyang possesses a rather high Criticality level. The risk of <te href=850073>Overclocking</te> is very low.<br>Resonator Lingyang has no past record of Overclocking. He displays proficient control over his Forte, consistently maintaining emotional stability. When utilizing his ability, known as \"Will Transmission,\" the low-temperature field generated primarily benefits Lingyang's allies. In group situations, this reduces the overall Overclocking risk for Lingyang. It is recommended to keep Lingyang's risk level low and regularly monitor his progress. Further observation is advised."
+    },
+    "CVNameCn": {
+      "Title": "No Description Available",
+      "Content": "Lucky Fish"
+    },
+    "CVNameJp": {
+      "Title": "No Description Available",
+      "Content": "Hanae Natsuki"
+    },
+    "CVNameKo": {
+      "Title": "No Description Available",
+      "Content": "Lee Sang Ho"
+    },
+    "CVNameEn": {
+      "Title": "No Description Available",
+      "Content": "Aleksander Varadian"
     }
   }
 }

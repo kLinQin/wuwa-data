@@ -1,0 +1,189 @@
+{
+  "id": 1412,
+  "name": "Sigrika",
+  "recommendedStats": {
+    "ATK": "2100",
+    "Energy Regen": "135% - 150%",
+    "Crit Ratio (Crit Weapon)": "70% : 270%",
+    "Crit Ratio (Non Crit Weapon)": "65% : 225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Solsworn Ciphers",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS",
+          "sonataCustom": [
+            "Sound Of True Name"
+          ],
+          "echoSlug": "nameless-explorer",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 3,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ]
+        }
+      ],
+      "substats": [],
+      "note": "1. Cost 3 ER lebih baik sampai kamu dapat 4 substat ER.\n2. Cost 3 ER adalah pilihan yang sangat bagus karena bagaimanapun kamu membutuhkan 120% ER, dan ini membuatmu tidak bergantung pada keberuntungan substat.\n3. Jika kamu ingin mengoptimalkan potensi maksimal Sigrika (terutama jika mencapai >35% ER), di sarankan menggunakan Cost 3 Aero/Attack atau Atk/Atk.\n4. Mencapai 150% ER TIDAK bersifat wajib! ER tersebut ada agar dia mendapatkan lebih banyak scaling dari echo. (Contoh: Heavy DMG% untuk Augusta).\nSimpan satu echo Cost 3 untuk di-roll terakhir.\n"
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "solsworn-ciphers",
+        "rank": "",
+        "percentage": "122.61%"
+      },
+      {
+        "id": "blazing-justice",
+        "rank": "",
+        "percentage": "105.57%"
+      },
+      {
+        "id": "pulsation-bracer",
+        "rank": "",
+        "percentage": "100.00%"
+      },
+      {
+        "id": "abyss-surges",
+        "rank": "",
+        "percentage": "96.17%"
+      },
+      {
+        "id": "gauntlet-21d",
+        "rank": "",
+        "percentage": "77.25%"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Intro",
+          "BA234",
+          "[E]Skill",
+          "Ult",
+          "[F]HA",
+          "BA234",
+          "[E]BA",
+          "[F]HA",
+          "[F]Skill(Hold)",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "sigrika-hypercarry",
+      "sigrika-tune-break",
+      "sigrika-mono"
+    ],
+    "teamNote": "- Lucilla dan Qiuyuan memberikan Sigrika 50% Echo Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill miliknya dan 4 penggunaan Echo Skill.\n- Selain itu, Sigrika juga mendapatkan 24% Aero DMG Bonus dari Ciaccona's Ensemble Sylphs, kemudian 15% Aero DMG dari set Gusts of Welkin.\n- Sebagai alternatif, jika kamu membutuhkan sustain, kamu dapat menggunakan Shorekeeper atau Mornye sebagai pengganti Ciaccona."
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Sigrika",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Solsworn Ciphers",
+          "value": 1971846.54,
+          "percentage": 122.61,
+          "imagePath": ""
+        },
+        {
+          "type": "Blazing Justice",
+          "value": 1697770.53,
+          "percentage": 105.57,
+          "imagePath": ""
+        },
+        {
+          "type": "Pulsation Bracer",
+          "value": 1608265.31,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Abyss Surges",
+          "value": 1546672.04,
+          "percentage": 96.17,
+          "imagePath": ""
+        },
+        {
+          "type": "Gauntlet#21D",
+          "value": 1242368.46,
+          "percentage": 77.25,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Sigrika",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 1971846.54,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 2121302.85,
+          "percentage": 107.58,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 2706755.72,
+          "percentage": 137.27,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 2982255.41,
+          "percentage": 151.24,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

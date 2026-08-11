@@ -1,0 +1,264 @@
+{
+  "id": 1102,
+  "name": "Sanhua",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110% - 125%",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Impermanence Heron"
+    ],
+    "bestWeapon": "Blazing Brilliance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Sub DPS",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Liberation/Skill%",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "blazing-brilliance",
+        "percentage": "105",
+        "rank": ""
+      },
+      {
+        "id": "red-spring",
+        "percentage": "103",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "somnoire-anchor",
+        "percentage": "81",
+        "rank": "5"
+      },
+      {
+        "id": "commando-of-conviction",
+        "percentage": "78",
+        "rank": ""
+      },
+      {
+        "id": "overture",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Skill(Cancel)+Ult",
+          "[F]HA(Swap)",
+          "Intro",
+          "Echo(Swap)",
+          "Outro"
+        ],
+        "title": "Standar Rotasi"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "havoc-rover-hypercarry"
+    ],
+    "teamNote": "Sanhua adalah Sub DPS Resonator yang luar biasa fleksibel, dan merupakan salah satu (jika bukan) penghasil concerto tercepat. Ia bersinar di banyak komposisi tim, terutama saat dipasangkan dengan Main Damage Dealer yang memberikan damage utama melalui Basic ATK, hal ini mencakup: Brant, Camellya, Encore, Rover: Havoc, Iuno, dan Lingyang. Tentu saja ia tidak terbatas pada resonator tersebut, ia juga bermain dengan baik dalam tim quickswap.\nSanhua memberikan Resonator berikutnya +38% Basic ATK DMG Amplify selama 14 detik atau hingga karakter tersebut keluar dari medan tempur."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Blazing Brilliance",
+          "value": 153157,
+          "imagePath": "",
+          "percentage": 118.48
+        },
+        {
+          "type": "Red Spring",
+          "value": 132516,
+          "imagePath": "",
+          "percentage": 102.51
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 129266,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Endless Collapse R5",
+          "value": 107923,
+          "imagePath": "",
+          "percentage": 83.49
+        },
+        {
+          "type": "Somnoire Anchor R5",
+          "value": 105243,
+          "imagePath": "",
+          "percentage": 81.42
+        },
+        {
+          "type": "Lumingloss R5",
+          "value": 104593,
+          "imagePath": "",
+          "percentage": 80.91
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Sanhua",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 2,
+          "imagePath": "",
+          "percentage": 2
+        },
+        {
+          "type": "HA",
+          "value": 24,
+          "imagePath": "",
+          "percentage": 24
+        },
+        {
+          "type": "Skill",
+          "value": 24,
+          "imagePath": "",
+          "percentage": 24
+        },
+        {
+          "type": "Lib",
+          "value": 33,
+          "imagePath": "",
+          "percentage": 33
+        },
+        {
+          "type": "Echo",
+          "value": 9,
+          "imagePath": "",
+          "percentage": 9
+        },
+        {
+          "type": "Intro",
+          "value": 6.1,
+          "imagePath": "",
+          "percentage": 6.1
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Sanhua",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1710438,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1710438,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S2",
+          "value": 1710438,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S3",
+          "value": 1731491,
+          "imagePath": "",
+          "percentage": 101.23
+        },
+        {
+          "type": "S4",
+          "value": 1752282,
+          "imagePath": "",
+          "percentage": 102.45
+        },
+        {
+          "type": "S5",
+          "value": 1776852,
+          "imagePath": "",
+          "percentage": 103.88
+        },
+        {
+          "type": "S6",
+          "value": 1891396,
+          "imagePath": "",
+          "percentage": 110.58
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Sanhua",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

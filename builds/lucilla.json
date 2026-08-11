@@ -1,0 +1,299 @@
+{
+  "id": 1109,
+  "name": "Lucilla",
+  "recommendedStats": {
+    "ATK": "1800-2000+",
+    "Energy Regen": "0%",
+    "Ratio (Crit Weapon)": "70-85% : 265-295%",
+    "Ratio (Non Crit Weapon)": "65% : 225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Freeze Frame",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "With Hiyuki",
+          "sonataCustom": [
+            "Wishes Of Quiet Snowfall"
+          ],
+          "echoSlug": "glommoth",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ]
+        },
+        {
+          "label": "With Echo DMG DPS",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 5
+            }
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ]
+        },
+        {
+          "label": "With Lova",
+          "sonataCustom": [
+            {
+              "name": "Dream Of The Lost",
+              "set": 3
+            },
+            {
+              "name": "Reel Of Spliced Memories",
+              "set": 2
+            }
+          ],
+          "echoSlug": "voidwing-moth",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 3,
+              "stat": "ATK%"
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "Freeze Frame (Signature Lucilla) memberikan peningkatan sekitar 7-8% team DPS dibandingkan dengan Cosmic Ripples.",
+    "weaponOptions": [
+      {
+        "id": "freeze-frame",
+        "rank": "",
+        "percentage": "129.82%"
+      },
+      {
+        "id": "whispers-of-sirens",
+        "rank": "",
+        "percentage": "127.44%"
+      },
+      {
+        "id": "stringmaster",
+        "rank": "",
+        "percentage": "117.06%"
+      },
+      {
+        "id": "rime-draped-sprouts",
+        "rank": "",
+        "percentage": "108.26%"
+      },
+      {
+        "id": "cosmic-ripples",
+        "rank": "",
+        "percentage": "100.00%"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "New Rotation",
+        "steps": [
+          "Intro",
+          "Skill(Hold: Perfect)",
+          "Ult",
+          "[U]BA123 or [U]BA(Hold)",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "hiyuki-chafe",
+      "carlotta-hypercarry",
+      "sigrika-echo"
+    ],
+    "teamNote": "1. Dalam mode Glacio Chafe, Lucilla memberikan buff berikut untuk rekan satu timnya:\n- Pengurangan 8% Glacio RES\n- 37% Glacio DMG Bonus dari bonus set Wishes of Quiet Snowfall (12% dari Glammoth)\n- 60% Glacio Chafe DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n\n2. Dalam mode Echo, Lucilla memberikan buff berikut untuk rekan satu timnya:\n- 25% Echo Skill DMG Bonus selama 30 detik\n- 40% Crit. DMG pada 4 stack(s) [Zoom], yang hanya berlaku untuk Resonator yang sedang aktif\n- 50% Echo Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill.\n\nDengan Freeze Frame (Signature Lucilla): +24% ATK selama 30 detik saat memberikan Glacio Chafe."
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Lucilla",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Spectral Trigger",
+          "value": 327200.1,
+          "percentage": 129.82,
+          "imagePath": ""
+        },
+        {
+          "type": "Whispers Of Sirens",
+          "value": 321186.81,
+          "percentage": 127.44,
+          "imagePath": ""
+        },
+        {
+          "type": "Stringmaster",
+          "value": 295017.94,
+          "percentage": 117.06,
+          "imagePath": ""
+        },
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 272862.1,
+          "percentage": 108.26,
+          "imagePath": ""
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 252032.66,
+          "percentage": 100,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Lucilla",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 64.4,
+          "percentage": 64.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 13.2,
+          "percentage": 13.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Chafe",
+          "value": 14.4,
+          "percentage": 14.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 5.9,
+          "percentage": 5.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 2.1,
+          "percentage": 2.1,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Lucilla",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 383961.27,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 383961.27,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 521090.29,
+          "percentage": 135.71,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 521090.29,
+          "percentage": 135.71,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

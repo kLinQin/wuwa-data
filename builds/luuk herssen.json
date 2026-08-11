@@ -1,0 +1,225 @@
+{
+  "id": 1510,
+  "name": "Luuk Herssen",
+  "recommendedStats": {
+    "ATK": "2100+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "70%/265%",
+    "Crit Ratio (Non Crit Weapon)": "65%/225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Daybreaker'S Spine",
+    "echoDetails": {
+      "note": "main Echo Cost 3: Twin Nova Nebulous Cannon",
+      "sets": [
+        {
+          "label": "Tune-Break",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "twin-nova-nebulous-cannon",
+          "echoSlugSecondary": "hyvatia",
+          "sonataCustom": [
+            "Rite Of Gilded Revelation"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ]
+    },
+    "weaponNote": "Jika ia menggunakan senjata signature miliknya, pertimbangkan Spectro / ATK untuk 3-Cost.",
+    "weaponOptions": [
+      {
+        "id": "daybreakers-spine",
+        "percentage": "117.66",
+        "rank": ""
+      },
+      {
+        "id": "pulsation-bracer",
+        "percentage": "100.00",
+        "rank": ""
+      },
+      {
+        "id": "blazing-justice",
+        "percentage": "98.26",
+        "rank": ""
+      },
+      {
+        "id": "abyss-surges",
+        "percentage": "86.92",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Intro",
+          "Mid Air Attack 23",
+          "Enhanced Skill 1 ",
+          "Enhanced Basic",
+          "Mid-Air 123",
+          "Enhanced Skill 2",
+          "Enhanced Basic",
+          "Mid-Air 123",
+          "Enhanced Skill",
+          "Enhanced Basic (plunge) ",
+          "Liberation",
+          "Skill",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Forte Circuit",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "luuk-herssen-tune-break",
+      "luuk-herssen-f2p"
+    ],
+    "teamNote": "- Mornye membantu Luuk mengumpulkan lebih banyak stack Tune Strain: Interference dengan lebih cepat. kalian dapat menggunakan Shorekeeper sebagai alternatif; namun, Mornye adalah support ideal karena alasan khusus ini.\n\n- Konsep di balik Tune Strain bekerja sama dengan Tune Rupture. Namun alih-alih \"menanggapi\" dengan ledakan damage, Tune Strain meningkatkan DMG yang diberikan berdasarkan jumlah stack. Jumlah maksimal stack yang dapat diberikan adalah 1.\n- Karena hal ini berskala pada jumlah Resonator yang dapat menanggapi Tune Strain: Interfered, memiliki Lynae dan Mornye secara bersamaan dalam timnya adalah hal yang ideal. Mereka masing-masing meningkatkan batas stack sebanyak 1"
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Daybreaker'S Spine",
+          "value": 1581834.51,
+          "imagePath": "",
+          "percentage": 118
+        },
+        {
+          "type": "Pulsation Bracer",
+          "value": 1344428.87,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Blazing Justice",
+          "value": 1321018.24,
+          "imagePath": "",
+          "percentage": 98
+        },
+        {
+          "type": "Abyss Surges",
+          "value": 1168639.56,
+          "imagePath": "",
+          "percentage": 87
+        }
+      ],
+      "note": "sorce // tethys.gg",
+      "title": "Weapon - Luuk",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 88.8,
+          "imagePath": "",
+          "percentage": 88.8
+        },
+        {
+          "type": "Outro",
+          "value": 5.4,
+          "imagePath": "",
+          "percentage": 5.4
+        },
+        {
+          "type": "Skill",
+          "value": 2.2,
+          "imagePath": "",
+          "percentage": 2.2
+        },
+        {
+          "type": "Intro",
+          "value": 2.1,
+          "imagePath": "",
+          "percentage": 2.1
+        },
+        {
+          "type": "Echo",
+          "value": 1.5,
+          "imagePath": "",
+          "percentage": 1.5
+        }
+      ],
+      "note": "sorce // tethys.gg",
+      "title": "Damage - Luuk",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1581834.51,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1752718.39,
+          "imagePath": "",
+          "percentage": 111
+        },
+        {
+          "type": "S2",
+          "value": 2176556.03,
+          "imagePath": "",
+          "percentage": 138
+        },
+        {
+          "type": "S3",
+          "value": 2655759.5,
+          "imagePath": "",
+          "percentage": 168
+        }
+      ],
+      "note": "sorce // tethys.gg",
+      "title": "Sequence - Luuk",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

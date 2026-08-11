@@ -1,0 +1,220 @@
+{
+  "id": 1610,
+  "name": "Yangyang-xuanling",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "65% : 225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Azure Oath",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS Havoc Bane",
+          "sonataCustom": [
+            "Song Of Feather Trace"
+          ],
+          "echoSlug": "thousand-puppet-pavilion",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "Havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "Havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "ER%",
+        "ATK%",
+        "HA DMG%",
+        "ATK"
+      ],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "azure-oath",
+        "rank": "",
+        "percentage": "125.48%"
+      },
+      {
+        "id": "emerald-sentence",
+        "rank": "",
+        "percentage": "109.97%"
+      },
+      {
+        "id": "emerald-of-genesis",
+        "rank": "",
+        "percentage": "100.00%"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar 1F1A",
+        "steps": [
+          "Intro",
+          "BA1234",
+          "[F]Skill",
+          "[F]HA",
+          "[F]MA",
+          "[F]BA123",
+          "Ult (Cancel [F]B3)",
+          "[F]Skill",
+          "[F]HA",
+          "Outro"
+        ]
+      },
+      {
+        "title": "Alternatif  2F",
+        "steps": [
+          "Intro",
+          "B1234",
+          "[F]Skill",
+          "[F]HA",
+          "[F]MA",
+          "[F]BA123",
+          "Ult (Cancel [F]B3)",
+          "[F]Skill",
+          "BA ⇒ Skill (Switch Stance)",
+          "[F]HA",
+          "[F]MA",
+          "[F]BA123",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Reso Libe",
+        "Normal Attack"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "yangyang-xuanling-premium",
+      "yangyang-xuanling-dual-dps",
+      "yangyang-xuanling-hypercarry"
+    ],
+    "teamNote": "- Meskipun Rebecca merupakan Best in Slot miliknya, kamu juga dapat menggunakan Phrolova atau buffer Heavy Attack lainnya seperti luno atau Mortefi.\n- Walaupun Yangyang: Xuanling tidak dapat memanfaatkan buff utama Lynae (Res. Liberation Amplify), ia tetap mendapatkan keuntungan dari buff umum miliknya.\n- Chisa merupakan support yang ideal berkat cara dirinya berinteraksi dengan Negative Status. Selain dapat memberikan Havoc Bane, ia juga dapat meningkatkan batas maksimal stack(s) sebesar 3. Hal ini memenuhi syarat Damage Amplify untuk Inherent Skill milik Yangyang: Xuanling: Unbroken Vow."
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Xuanling",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Azure Oath",
+          "value": 2341928.39,
+          "percentage": 125.48,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Sentence",
+          "value": 2052468.29,
+          "percentage": 109.97,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 1866383.41,
+          "percentage": 100,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Xuanling",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 2341928.39,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 2565307.46,
+          "percentage": 109.54,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 3034172.28,
+          "percentage": 129.56,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 3540663.48,
+          "percentage": 151.19,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Xuanling",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Heavy ",
+          "value": 90.2,
+          "percentage": 90.2,
+          "imagePath": ""
+        },
+        {
+          "type": "BA",
+          "value": 3.7,
+          "percentage": 3.7,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 2.7,
+          "percentage": 2.7,
+          "imagePath": ""
+        },
+        {
+          "type": "Outro",
+          "value": 2.3,
+          "percentage": 2.3,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

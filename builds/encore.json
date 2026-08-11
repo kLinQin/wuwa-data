@@ -1,0 +1,278 @@
+{
+  "id": 1203,
+  "name": "Encore",
+  "recommendedStats": {
+    "ATK": "1900+",
+    "Energy Regen": "110-125%",
+    "Crit Ratio (Crit Weapon)": "60-75% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Inferno Rider"
+    ],
+    "bestWeapon": "Stringmaster",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "inferno-rider",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Molten Rift"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ]
+    },
+    "weaponNote": "Saat menggunakan Luminous Hymn, Encore harus dipasangkan dengan Rover: Spectro untuk memicu skill senjata (Basic% dan Heavy% DMG Bonus).",
+    "weaponOptions": [
+      {
+        "id": "stringmaster",
+        "percentage": "120",
+        "rank": ""
+      },
+      {
+        "id": "rime-draped-sprouts",
+        "percentage": "111",
+        "rank": ""
+      },
+      {
+        "id": "whispers-of-sirens",
+        "percentage": "110",
+        "rank": ""
+      },
+      {
+        "id": "luminous-hymn",
+        "percentage": "108",
+        "rank": ""
+      },
+      {
+        "id": "cosmic-ripples",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "augment",
+        "percentage": "98",
+        "rank": "5"
+      },
+      {
+        "id": "fusion-accretion",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "jinzhou-keeper",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Skill(Swap)",
+          "Skill",
+          "Echo(Swap)",
+          "Intro",
+          "Ult",
+          "[U]Skill",
+          "[U]BA123",
+          "[U]BA4(Dash-Cancel)",
+          "[U]BA123",
+          "[U]BA4+Skill(Cancel)",
+          "[U]BA1234",
+          "Echo(Swap)",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Forte Circuit",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "encore-hypercarry",
+      "encore-quickswap",
+      "encore-hypercarry"
+    ],
+    "teamNote": "Lupa memberikan Fusion & Basic ATK DMG Amplify untuk Encore. \nSelain itu, Encore adalah Fusion Resonator, yang meningkatkan ATK% Buff dari Lupa. \nEncore juga bisa menerima manfaat dari buff yang diberikan Wildfire Mark."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Stringmaster",
+          "value": 1462215,
+          "imagePath": "",
+          "percentage": 119
+        },
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 1392465,
+          "imagePath": "",
+          "percentage": 113
+        },
+        {
+          "type": "Luminous Hymn",
+          "value": 1332880,
+          "imagePath": "",
+          "percentage": 108
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 1232897,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Augment",
+          "value": 1221488,
+          "imagePath": "",
+          "percentage": 99
+        },
+        {
+          "type": "Fusion Accretion",
+          "value": 1070956,
+          "imagePath": "",
+          "percentage": 87
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Encore - Weapon",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 66,
+          "imagePath": "",
+          "percentage": 66
+        },
+        {
+          "type": "Skill",
+          "value": 13.8,
+          "imagePath": "",
+          "percentage": 13.8
+        },
+        {
+          "type": "Echo",
+          "value": 8.9,
+          "imagePath": "",
+          "percentage": 8.9
+        },
+        {
+          "type": "Intro",
+          "value": 2.2,
+          "imagePath": "",
+          "percentage": 2.2
+        },
+        {
+          "type": "Outro",
+          "value": 9.1,
+          "imagePath": "",
+          "percentage": 9.1
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Encore - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1462215,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1519447,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "S2",
+          "value": 1519447,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "S3",
+          "value": 1519447,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "S4",
+          "value": 1519447,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "S5",
+          "value": 1541596,
+          "imagePath": "",
+          "percentage": 105
+        },
+        {
+          "type": "S6",
+          "value": 1666572,
+          "imagePath": "",
+          "percentage": 114
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Encore - Sequence",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

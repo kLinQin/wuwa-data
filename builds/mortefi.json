@@ -1,0 +1,280 @@
+{
+  "id": 1204,
+  "name": "Mortefi",
+  "recommendedStats": {
+    "ATK": "1800+",
+    "Energy Regen": "120-140%+",
+    "Crit Ratio (Crit Weapon)": "60-65% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Impermanence Heron",
+      "Hecate"
+    ],
+    "bestWeapon": "The Last Dance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Sub DPS General",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        },
+        {
+          "label": "Sub DPS DMG",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 3,
+              "stat": "fusion%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "hecate",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Empyrean Anthem"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "- Meskipun Static Mist 4% lebih buruk dalam hal DMG, Static Mist adalah pilihan yang lebih baik jika Mortefi digunakan sebagai Sub DPS karena memberikan bonus tambahan bagi Resonator berikutnya. \n- Cadenza adalah alternatif bintang 4 yang layak karena memberikan tambahan energy regen dan concerto energy untuk mempersingkat rotasi.",
+    "weaponOptions": [
+      {
+        "id": "the-last-dance",
+        "percentage": "104",
+        "rank": ""
+      },
+      {
+        "id": "static-mist",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "cadenza",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "thunderbolt",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "relativistic-jet",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "novaburst",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "BA4(Swap)(x3)",
+          "Intro",
+          "Ult",
+          "Skill(x2)",
+          "Echo(Swap)",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "augusta-hypercarry",
+      "jinhsi-hypercarry",
+      "galbrena-hypercarry"
+    ],
+    "teamNote": "Mortefi memberikan buff berikut kepada rekan timnya:\n- 38% Heavy DMG Amplify selama 14 detik setelah melancarkan Outro Skill\n- Dengan Static Mist: +10% ATK kepada Resonator berikutnya selama 14 detik setelah melancarkan Outro Skill\n- Dengan S6: +20% ATK selama 20 detik."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "The Last Dance",
+          "value": 275142,
+          "imagePath": "",
+          "percentage": 104
+        },
+        {
+          "type": "Static Mist",
+          "value": 263664,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Thunderbolt",
+          "value": 213140,
+          "imagePath": "",
+          "percentage": 81
+        },
+        {
+          "type": "Undying Flame",
+          "value": 210645,
+          "imagePath": "",
+          "percentage": 80
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Mortefi - Weapon",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA/HA",
+          "value": 6,
+          "imagePath": "",
+          "percentage": 6
+        },
+        {
+          "type": "Skill",
+          "value": 19,
+          "imagePath": "",
+          "percentage": 19
+        },
+        {
+          "type": "Lib",
+          "value": 68,
+          "imagePath": "",
+          "percentage": 68
+        },
+        {
+          "type": "Echo",
+          "value": 4,
+          "imagePath": "",
+          "percentage": 4
+        },
+        {
+          "type": "Intro",
+          "value": 3,
+          "imagePath": "",
+          "percentage": 3
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Mortefi - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 1065221,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 1083853,
+          "imagePath": "",
+          "percentage": 102
+        },
+        {
+          "type": "S2",
+          "value": 1083853,
+          "imagePath": "",
+          "percentage": 102
+        },
+        {
+          "type": "S3",
+          "value": 1094391,
+          "imagePath": "",
+          "percentage": 103
+        },
+        {
+          "type": "S4",
+          "value": 1136084,
+          "imagePath": "",
+          "percentage": 107
+        },
+        {
+          "type": "S5",
+          "value": 1144862,
+          "imagePath": "",
+          "percentage": 107
+        },
+        {
+          "type": "S6",
+          "value": 1263208,
+          "imagePath": "",
+          "percentage": 119
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Mortefi - Sequence",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "id": 1105,
+  "name": "Zhezhi",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110% - 125%",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Myriad",
+      "Impermanence Heron"
+    ],
+    "bestWeapon": "Rime-Draped Sprouts",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Sub DPS General",
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        },
+        {
+          "label": "Sub DPS Coordinated ATK",
+          "echoSlug": "nightmare-myriad",
+          "echoSlugSecondary": "hecate",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Empyrean Anthem"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "Hecate 1% lebih baik daripada NM: Lampylumen Myriad, namun lebih memakan waktu untuk dikumpulkan dibandingkan dengan NM: Lampylumen Myriad. Pastikan bahwa NM: Lampy adalah Empyrean Anthem, karena ia dapat menjatuhkan Frosty Resolve dan ikonnya cukup mirip."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "rime-draped-sprouts",
+        "percentage": "120",
+        "rank": ""
+      },
+      {
+        "id": "stringmaster",
+        "percentage": "110",
+        "rank": ""
+      },
+      {
+        "id": "luminous-hymn",
+        "percentage": "106",
+        "rank": ""
+      },
+      {
+        "id": "cosmic-ripples",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "augment",
+        "percentage": "89",
+        "rank": ""
+      },
+      {
+        "id": "jinzhou-keeper",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar - Rotasi",
+        "steps": [
+          "Intro",
+          "BA123",
+          "Skill",
+          "[F]HA",
+          "Ult",
+          "[F]Skill(x3)(Jump-Cancel)",
+          "Echo(Swap)+Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "carlotta-hypercarry"
+    ],
+    "teamNote": "Zhezhi memberikan buff berikut untuk rekan timnya:\n- Memulihkan 15 Resonance Energy setelah melancarkan Outro Skill\n- 20% Glacio DMG dan 25% Res. Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill."
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Zhezhi",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Rime-Draped Sprouts",
+          "value": 314167.91,
+          "percentage": 119.33,
+          "imagePath": ""
+        },
+        {
+          "type": "Stringmaster",
+          "value": 303346.49,
+          "percentage": 115.22,
+          "imagePath": ""
+        },
+        {
+          "type": "Cosmic Ripples",
+          "value": 263277.87,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Fusion Accretion R5",
+          "value": 228357.59,
+          "percentage": 86.74,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Zhezhi",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 29,
+          "percentage": 29,
+          "imagePath": ""
+        },
+        {
+          "type": "HA",
+          "value": 4.3,
+          "percentage": 4.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 8.9,
+          "percentage": 8.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 5.2,
+          "percentage": 5.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Coordinated ATK (BA)",
+          "value": 49.2,
+          "percentage": 49.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro Skill",
+          "value": 3.3,
+          "percentage": 3.3,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Zhezhi",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 314167.91,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 329500.82,
+          "percentage": 104.88,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 379902.39,
+          "percentage": 120.92,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 432855.8,
+          "percentage": 137.78,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

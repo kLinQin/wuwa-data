@@ -1,0 +1,20 @@
+{
+  "id": 1408,
+  "name": "Aero Rover",
+  "lore": {
+    "description": "Resonator misterius yang memiliki kekuatan untuk menyerap semua Echo. Saat ini sedang dalam perjalanan untuk menemukan ingatan yang hilang.",
+    "manualEntries": [],
+    "report": {
+      "resonancePower": "Unknown",
+      "overclockDiagnostic": "Unknown",
+      "resonanceEvaluation": "Unknown"
+    },
+    "items": [],
+    "specialFood": {
+      "name": "Unknown",
+      "imageUrl": "/icons/food/aero-rover.webp",
+      "description": ""
+    },
+    "stories": []
+  }
+}

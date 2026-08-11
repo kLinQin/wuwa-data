@@ -1,0 +1,288 @@
+{
+  "id": 1410,
+  "name": "Iuno",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "70-85% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Lady of the Sea"
+    ],
+    "bestWeapon": "Moongazer's Sigil",
+    "echoDetails": {
+      "note": "Moonlit Clouds hanya digunakan ketika Iuno berperan sebagai Sub DPS untuk Augusta, meskipun penggunaannya mungkin terasa canggung karena sebagian besar kit Iuno dilakukan di udara, sementara Impermanence Heron hanya bisa digunakan saat berada di darat.",
+      "sets": [
+        {
+          "label": "Sub DPS // DMG",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "lady-of-the-sea",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Crown Of Valor",
+              "set": 3
+            },
+            {
+              "name": "Sierra Gale",
+              "set": 2
+            },
+            {
+              "name": "Windward Pilgrimage",
+              "set": 2
+            },
+            {
+              "name": "Gusts Of Welkin",
+              "set": 2
+            }
+          ]
+        },
+        {
+          "label": "Sub DPS // General",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen (120)",
+        "ATK%",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "moongazers-sigil",
+        "percentage": "140",
+        "rank": ""
+      },
+      {
+        "id": "veritys-handle",
+        "percentage": "125",
+        "rank": ""
+      },
+      {
+        "id": "blazing-justice",
+        "percentage": "110",
+        "rank": ""
+      },
+      {
+        "id": "pulsation-bracer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "abyss-surges",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "stonard",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "aether-strike",
+        "percentage": "-",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Intro",
+          "[E]Skill\n",
+          "Ult",
+          "Jump(Cancel)\n",
+          "MA123",
+          "Skill(x2)",
+          "[E]HA(Swap)",
+          "Outro"
+        ],
+        "title": "Standard"
+      }
+    ],
+    "talentPriority": {
+      "note": "Untuk Iuno sebagai Main DPS, targetkan 110-120% ER dan maksimalkan level Normal ATK miliknya.",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Resonance Skill",
+        "Intro Skill"
+      ]
+    },
+    "teams": [
+      "augusta-hypercarry",
+      "jiyan-mono",
+      "iuno-hypercarry"
+    ],
+    "teamNote": "Iuno memberikan buff berikut untuk rekan satu timnya:\n- 50% Heavy DMG Amplify selama 14 detik setelah menggunakan Outro Skill.\n- 40% All-DMG Amplify selama 10 detik saat mendapatkan shield di dalam [Full Moon Domain], yang hanya berlaku untuk Augusta atau Iuno sebagai Main DPS."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Skill",
+          "value": 7.9,
+          "imagePath": "",
+          "percentage": 7.9
+        },
+        {
+          "type": "Lib",
+          "value": 82.5,
+          "imagePath": "",
+          "percentage": 82.5
+        },
+        {
+          "type": "Echo",
+          "value": 5.7,
+          "imagePath": "",
+          "percentage": 5.7
+        },
+        {
+          "type": "Intro",
+          "value": 1.9,
+          "imagePath": "",
+          "percentage": 1.9
+        },
+        {
+          "type": "Outro",
+          "value": 1.9,
+          "imagePath": "",
+          "percentage": 1.9
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Damage - Iuno",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "Moongazer'S Sigil",
+          "value": 559688.9,
+          "imagePath": "",
+          "percentage": 140
+        },
+        {
+          "type": "Verity'S Handle",
+          "value": 506798.92,
+          "imagePath": "",
+          "percentage": 126
+        },
+        {
+          "type": "Blazing Justice",
+          "value": 442839.2,
+          "imagePath": "",
+          "percentage": 110
+        },
+        {
+          "type": "Abyss Surges",
+          "value": 400831.36,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Aether Strike",
+          "value": 384388.48,
+          "imagePath": "",
+          "percentage": 96
+        },
+        {
+          "type": "Celestial Spiral",
+          "value": 337640.88,
+          "imagePath": "",
+          "percentage": 84
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Weapon - Iuno",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 559688.9,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 616159.98,
+          "imagePath": "",
+          "percentage": 110
+        },
+        {
+          "type": "S2",
+          "value": 791710.05,
+          "imagePath": "",
+          "percentage": 141
+        },
+        {
+          "type": "S3",
+          "value": 948116.69,
+          "imagePath": "",
+          "percentage": 169
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Sequence - Iuno",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

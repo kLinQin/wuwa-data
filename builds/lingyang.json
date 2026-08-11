@@ -1,0 +1,174 @@
+{
+  "id": 1104,
+  "name": "Lingyang",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "110-125%",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Mech Abomination"
+    ],
+    "bestWeapon": "Tragicomedy",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Glacio DMG",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "lampylumen-myriad",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Freezing Frost"
+          ]
+        },
+        {
+          "label": "General ATK",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "mech-abomination",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Lingering Tunes"
+          ]
+        },
+        {
+          "label": "Skill DMG",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 3,
+              "stat": "glacio%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "sentry-construct",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Frosty Resolve"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Skill/BA",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "tragicomedy",
+        "percentage": "106",
+        "rank": ""
+      },
+      {
+        "id": "veritys-handle",
+        "percentage": "105",
+        "rank": ""
+      },
+      {
+        "id": "pulsation-bracer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "abyss-surges",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "stonard",
+        "percentage": "83",
+        "rank": ""
+      },
+      {
+        "id": "hollow-mirage",
+        "percentage": "81",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "lingyang-hypercarry"
+    ],
+    "teamNote": "- Zhezhi memberikan Lingyang 20% Glacio & 25% Res. Skill DMG Amplify setelah melancarkan Outro Skill miliknya.\n- Sanhua memberikan Lingyang 38% Basic ATK DMG Amplify. Pada S6, ia dapat memberikan hingga 20% ATK setelah meledakkan Ice Prisms/Glaciers miliknya."
+  },
+  "analysisCharts": []
+}

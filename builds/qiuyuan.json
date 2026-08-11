@@ -1,0 +1,234 @@
+{
+  "id": 1411,
+  "name": "Qiuyuan",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "75% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Reminiscence: Fenrico",
+      "Impermanence Heron"
+    ],
+    "bestWeapon": "Emerald Sentence",
+    "echoDetails": {
+      "note": "1. Qiuyuan setidaknya membutuhkan 65% Crit. Rate untuk memanfaatkan buff Res. Liberation miliknya secara maksimal.\n2. [NM: Feilian Beringal] dan [R: Fenrico] bisa saling menggantikan untuk slot main echo karena memberikan buff yang sama. Moonlit Clouds mungkin lebih disarankan untuk Galbrena, terutama jika set tersebut sudah jadi. Sementara itu, penggunaan Law of Harmony akan sangat menguntungkan jika dipasangkan dengan Phrolova.",
+      "sets": [
+        {
+          "label": "Echo Buff",
+          "echoSlug": "reminiscence-fenrico",
+          "echoSlugSecondary": "nightmare-beringal",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            {
+              "name": "Law Of Harmony",
+              "set": 3
+            },
+            {
+              "name": "Gusts Of Welkin",
+              "set": 2
+            },
+            {
+              "name": "Sierra Gale",
+              "set": 2
+            },
+            "Windward Pilgrimage"
+          ]
+        },
+        {
+          "label": "SUb DPS",
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen (kejar 120-130)",
+        "ATK%",
+        "Heavy Attack DMG Bonus",
+        "ATK"
+      ]
+    },
+    "weaponNote": "Dengan Emerald Sentence (Signature Qiuyuan): 20% Echo Skill DMG Bonus selama 30 detik setelah menggunakan Intro Skill.",
+    "weaponOptions": [
+      {
+        "id": "emerald-sentence",
+        "percentage": "122",
+        "rank": ""
+      },
+      {
+        "id": "emerald-of-genesis",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "endless-collapse",
+        "percentage": "85",
+        "rank": "5"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Intro",
+          "BA34",
+          "Ult",
+          "[F]HA123",
+          "Skill(Swap)+Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Intro Skill",
+        "Resonance Skill",
+        "Normal Attack"
+      ],
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "galbrena-hypercarry",
+      "phrolova-hypercarry",
+      "qiuyuan-hypercarry"
+    ],
+    "teamNote": "Qiuyuan memberikan buff berikut untuk rekan setimnya:\n- 30% Crit. DMG selama 30 detik setelah menggunakan Res. Liberation.\n- 30% Echo Skill DMG Bonus selama 30 detik dari Forte Circuit miliknya.\n- 50% Echo Skill DMG Amplify selama 14 detik setelah menggunakan Outro Skill.\n- 16% Echo Skill DMG Bonus dari bonus set Law of Harmony."
+  },
+  "analysisCharts": [
+    {
+      "title": "Qiuyuan - Weapon",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "SOURCE // TETHYS.GG",
+      "data": [
+        {
+          "type": "Emerald Sentence",
+          "value": 284224.06,
+          "percentage": 122,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 233904.77,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Endless Collapse",
+          "value": 197976.09,
+          "percentage": 85,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Qiuyuan - Damage",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "SOURCE // TETHYS.GG",
+      "data": [
+        {
+          "type": "HA",
+          "value": 63.3,
+          "percentage": 63.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 36.7,
+          "percentage": 36.7,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Qiuyuan - Sequence",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "SOURCE // TETHYS.GG",
+      "data": [
+        {
+          "type": "S0",
+          "value": 284224.06,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 310565.25,
+          "percentage": 109,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 340331.88,
+          "percentage": 120,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 391323.53,
+          "percentage": 138,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

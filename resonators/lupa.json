@@ -1,18 +1,19 @@
 {
+  "id": 1207,
   "name": "Lupa",
-  "element": "Fusion",
-  "weapon": "Broadblade",
+  "element": 2,
   "rarity": 5,
+  "weapon": 1,
   "version": "2.4",
   "lastUpdated": "2026-01-12",
   "roles": [
-    "Concerto Efficiency",
-    "Resonance Liberation Damage",
-    "Fusion DMG Amplification",
-    "Basic Attack DMG Amplification"
+    3,
+    7,
+    18,
+    28
   ],
   "sonatas": [
-    "Flaming Clawprint"
+    15
   ],
   "changelog": [
     {
@@ -35,174 +36,6 @@
   "image": "/characters/lupa.webp",
   "icon": "/icons/characters/lupa.webp",
   "imageBanner": "/banners/lupa-banner.jpeg",
-  "recommendedStats": {
-    "ATK": "2000+",
-    "Energy Regen": "120%",
-    "Crit Ratio (Crit Weapon)": "70% : 270%",
-    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
-  },
-  "build": {
-    "bestEcho": [
-      "Lioness of Glory"
-    ],
-    "bestWeapon": "Wildfire Mark",
-    "echoDetails": {
-      "note": "",
-      "sets": [
-        {
-          "label": "Hybrid",
-          "sonataCustom": [
-            "Flaming Clawprint"
-          ],
-          "echoSlug": "lioness-of-glory",
-          "echoSlugSecondary": "",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 3,
-              "stat": "fusion%"
-            },
-            {
-              "cost": 3,
-              "stat": "fusion%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ]
-        }
-      ],
-      "substats": [
-        "CR% / CDM%",
-        "Energy Regen (120)",
-        "ATK%",
-        "Reso Libe DMG",
-        "ATK"
-      ]
-    },
-    "weaponNote": "",
-    "weaponOptions": [
-      {
-        "id": "wildfire-mark",
-        "percentage": "112",
-        "rank": ""
-      },
-      {
-        "id": "ages-of-harvest",
-        "percentage": "101.89",
-        "rank": ""
-      },
-      {
-        "id": "verdant-summit",
-        "percentage": "101.46",
-        "rank": ""
-      },
-      {
-        "id": "radiance-cleaver",
-        "percentage": "-",
-        "rank": ""
-      },
-      {
-        "id": "lustrous-razor",
-        "percentage": "100",
-        "rank": ""
-      },
-      {
-        "id": "aureate-zenith",
-        "percentage": "97",
-        "rank": "5"
-      },
-      {
-        "id": "autumntrace",
-        "percentage": "97",
-        "rank": "5"
-      },
-      {
-        "id": "helios-cleaver",
-        "percentage": "96",
-        "rank": "5"
-      }
-    ],
-    "rotations": [],
-    "talentPriority": {
-      "note": "",
-      "priority": [
-        "Resonance Liberation",
-        "Forte Circuit",
-        "Intro Skill",
-        "Normal Attack",
-        "Resonance Skill"
-      ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        true,
-        false
-      ]
-    },
-    "teams": [
-      {
-        "name": "Galbrena Hypercarry",
-        "note": "lupa di slot 3 (support)",
-        "members": [
-          [
-            "Galbrena"
-          ],
-          [
-            "Qiuyuan",
-            "Mortefi",
-            "Brant"
-          ],
-          [
-            "Lupa"
-          ]
-        ]
-      },
-      {
-        "name": "QS",
-        "note": "- Lupa meningkatkan Brant (Fusion & Basic), \n- Brant meningkatkan Changli (Fusion & Res. Skill), Changli meningkatkan Lupa (Fusion & Res. Liberation). \n- Lupa juga memberikan 6% ATK per unit Fusion (maksimal 18%) dan memberikan teamwide Fusion DMG Bonus jika Wildfire Mark terpasang.",
-        "members": [
-          [
-            "Lupa"
-          ],
-          [
-            "Brant"
-          ],
-          [
-            "Changli"
-          ]
-        ]
-      },
-      {
-        "name": "Mono Fusion",
-        "members": [
-          [
-            "Brant",
-            "Encore",
-            "Aemeath",
-            "Galbrena"
-          ],
-          [
-            "Lupa"
-          ],
-          [
-            "Mornye"
-          ]
-        ],
-        "note": "- Dengan Mornye sebagai slot ketiga, kamu dapat mengganti Brant dengan Galbrena atau Aemeath.\n- Lupa memberikan Encore Fusion & Basic ATK DMG Amplify, selain itu, Encore adalah Fusion Resonator, yang meningkatkan Buff ATK% yang dapat diberikan oleh Lupa. Ia juga dapat menerima manfaat dari buff yang diberikan oleh Wildfire Mark."
-      }
-    ],
-    "teamNote": "Lupa memberikan buff berikut untuk rekan satu timnya:\n- 20% Fusion DMG dan 25% Basic Attack DMG Amplify selama 14 detik setelah melancarkan Intro Skill\n- [Pack Hunt]: +6-18% ATK dan 10% Fusion DMG Bonus (20% dengan 3 Fusion Resonator)\n- Mengabaikan 3-15% Fusion RES dalam waktu 35 detik setelah melancarkan [Res. Liberation]\n- Dengan Wildfire Mark (Signature Lupa): 24% Fusion DMG Bonus selama 30 detik."
-  },
   "skills": {
     "basic": {
       "name": "Flaming Star",
@@ -519,116 +352,6 @@
       ]
     }
   },
-  "analysisCharts": [
-    {
-      "data": [
-        {
-          "type": "Wildfire Mark",
-          "value": 344048.4,
-          "imagePath": "",
-          "percentage": 112
-        },
-        {
-          "type": "Ages Of Harvest",
-          "value": 330086.14,
-          "imagePath": "",
-          "percentage": 107
-        },
-        {
-          "type": "Verdant Summit",
-          "value": 326698.82,
-          "imagePath": "",
-          "percentage": 106
-        },
-        {
-          "type": "Lustrous Razor",
-          "value": 308390.37,
-          "imagePath": "",
-          "percentage": 100
-        },
-        {
-          "type": "Autumntrace",
-          "value": 275087.41,
-          "imagePath": "",
-          "percentage": 89
-        }
-      ],
-      "note": "SOURCE // TETHYS.GG",
-      "title": "Lupa - Weapon",
-      "layout": "horizontal",
-      "chartType": "bar"
-    },
-    {
-      "data": [
-        {
-          "type": "BA",
-          "value": 4.6,
-          "imagePath": "",
-          "percentage": 4.6
-        },
-        {
-          "type": "HA",
-          "value": 5.9,
-          "imagePath": "",
-          "percentage": 5.9
-        },
-        {
-          "type": "Skill",
-          "value": 13.6,
-          "imagePath": "",
-          "percentage": 13.6
-        },
-        {
-          "type": "Lib",
-          "value": 70.8,
-          "imagePath": "",
-          "percentage": 70.8
-        },
-        {
-          "type": "Echo",
-          "value": 5.2,
-          "imagePath": "",
-          "percentage": 5.2
-        }
-      ],
-      "note": "SOURCE // TETHYS.GG",
-      "title": "Lupa - Damage",
-      "layout": "horizontal",
-      "chartType": "radar"
-    },
-    {
-      "data": [
-        {
-          "type": "S0",
-          "value": 344048.4,
-          "imagePath": "",
-          "percentage": 100
-        },
-        {
-          "type": "S1",
-          "value": 394783.13,
-          "imagePath": "",
-          "percentage": 115
-        },
-        {
-          "type": "S2",
-          "value": 456046.54,
-          "imagePath": "",
-          "percentage": 133
-        },
-        {
-          "type": "S3",
-          "value": 614376.68,
-          "imagePath": "",
-          "percentage": 179
-        }
-      ],
-      "note": "SOURCE // TETHYS.GG",
-      "title": "Lupa - Sequence",
-      "layout": "horizontal",
-      "chartType": "bar"
-    }
-  ],
   "sequences": [
     {
       "stage": "S1",
@@ -732,74 +455,54 @@
       ]
     }
   ],
-  "lore": {
-    "description": "Seorang Gladiator dari Septimont, a radiant star of the arena.\nBerjiwa liar dan terus terang, Lupa hidup seperti serigala penyendiri. Selama ia bisa menikmati sensasi adrenalin di tengah pertempuran, ia tak peduli jika api yang sama akhirnya membakarnya habis.",
-    "manualEntries": [
-      {
-        "title": "BIRTHPLACE",
-        "description": "Rinascita"
-      },
-      {
-        "title": "ADDITIONAL TITLES",
-        "description": "Champion of the Great Agon"
-      },
-      {
-        "title": "REAL NAME",
-        "description": "Lupa Silva"
-      },
-      {
-        "title": "AFFFILIATION",
-        "description": "Septimont (on profile)\nHouse Silva (formerly)"
-      }
-    ],
-    "report": {
-      "resonancePower": "Howling Flame",
-      "overclockDiagnostic": "[Pre-Match Condition Confirmation]\nContender Name: Lupa\n\nAnalisis spectral waveform menunjukkan fluktuasi elips dengan Time Domain yang stabil. Tidak terdeteksi adanya pola anomali.\n\nDiagnosa: Ambang batas Overclocking tergolong tinggi. Stabilitas subjek tetap kuat. Tidak ditemukan tanda-tanda ataupun riwayat Overclocking.\n\n\"Contender Lupa secara konsisten menjalani pemeriksaan kesehatan sesuai jadwal. Di antara para Gladiator papan atas, jarang ada yang memiliki rutinitas se-disiplin ini.\"",
-      "resonanceEvaluation": "[Excerpt from Gladiator Resonance Assessment]\nContender Name: Lupa\n\nSubjek ini diklasifikasikan sebagai Non-congenital Resonator, dengan kemampuan Resonance yang pertama kali muncul saat mengikuti ajang gladiator di masa kecil. Durasi Resonance yang diperkirakan telah melebihi sepuluh tahun.\n\nAnalisis spektrum frekuensi menunjukkan afinitas utama terhadap elemen api, meskipun karakteristik yang tumpang tindih dengan beberapa spektrum standar lainnya membuat klasifikasi sumber tidak dapat dipastikan secara konklusif.\n\nSubjek menunjukkan peningkatan yang konsisten dalam hal kekuatan dan presisi kemampuannya sepanjang karier kompetitifnya.\n\nTacet Mark terletak di sisi kiri pinggang subjek. Proses Resonance Awakening disertai dengan ciri transformasi sebagian menyerupai serigala. Selain kemunculan ekor yang tampak jelas, subjek juga melaporkan peningkatan sensitivitas terhadap penciuman dan pendengaran.\n\n\"Penilaian selesai. Terima kasih atas kerja samanya, Contender Lupa.\n...Ehem, satu hal lagi... Putri saya sangat suka menonton pertarunganmu. Bolehkah saya minta tanda tanganmu?\""
+  "favorRole": {
+    "Birthday": {
+      "Title": "No Description Available",
+      "Content": "Unknown"
     },
-    "items": [
-      {
-        "name": "Old Medal",
-        "description": "Sejak orang tua Lupa memutuskan hubungan dengannya, wajah mereka perlahan mulai mengabur dari ingatannya.\n\nYang masih membekas hanyalah bagaimana mereka dulu sering mengenang masa-masa di Capitoline Hill jauh dari desa kecil yang Lupa anggap sebagai rumah. Dahulu mereka menyandang nama Silva, hingga akhirnya tercoreng karena kekalahan di arena. Sejak saat itu, hidup mereka dipenuhi penyesalan, kesulitan, dan saling menyalahkan.\n\nNamun begitu mereka mendengar bahwa Lupa memenangkan pertandingan pertamanya, mereka tetap pergi ke pandai besi dan memesan medali ini sebuah hadiah untuk merayakan kemenangan putri mereka.",
-        "imageUrl": "/icons/items/lupa-1.webp"
-      },
-      {
-        "name": "Viburnum Bouquet",
-        "description": "Ini adalah salah satu dari banyak karangan bunga yang Lupa terima di arena. Bloodleaf Viburnum bunga para Gladiator, simbol kemenangan dan kejayaan.\n\nPertama kali ia menginjakkan kaki di Colosseum Olymdos, ia bertarung seperti makhluk buas yang baru dilepaskan. Tanpa henti. Mengandalkan naluri. Seperti serigala. Kerumunan memadati arena dan menggemuruh. Tepuk tangan menghantamnya seperti ombak, sementara cahaya di atas begitu tajam dan memusingkan.\n\nBarulah saat kembali ke ruang tunggu, dengan buket masih tergenggam, ia sadar dirinya tertawa terbahak-bahak.",
-        "imageUrl": "/icons/items/lupa-2.webp"
-      },
-      {
-        "name": "Mini Ta-Da Figurines",
-        "description": "Penduduk Septimont punya kecintaan yang mendalam terhadap seni patung. Mereka mengabadikan banyak hal lewat karya itu Gryphon, pahlawan, legenda... dan tentu saja, Echo yang selalu menggemaskan.\n\nFavorit Lupa? Ta-da. Cukup sekali lihat makhluk kecil yang ceria dan montok itu, harinya langsung cerah. Karena itu, ia memilih sepasang patung Ta-da sebagai hadiah untuk sesama pejuang.\n\nDengan telinga lebar terangkat dan ekspresi berani, mereka tampak siap menerjang masuk ke arena persis seperti yang pernah dilakukan Lupa dan Rover. Perjalanan itu tetap jadi salah satu kenangan paling berharga dalam hidupnya.",
-        "imageUrl": "/icons/items/lupa-3.webp"
-      }
-    ],
-    "stories": [
-      {
-        "title": "Burning Inside",
-        "content": "Panas menyengat. Itulah ingatan paling awal yang Lupa miliki tentang desa kecil tempat ia dilahirkan.\n\nMusim panas terasa tak berujung, panasnya begitu ekstrem hingga danau pun tampak mendidih. Tapi anak-anak Septimont tak peduli. Di kejauhan, di kota yang bertengger di atas Bukit Capitoline, Great Agon akan segera dimulai. Desa mereka jarang menghasilkan seorang Gladiator yang cukup hebat untuk ikut bertarung, namun antusiasme tetap membara di udara. Bahkan anak-anak pun tak tahan untuk ikut mengangkat senjata, menggelar pertempuran pura-pura sebagai bentuk perayaan.\n\nLupa dipanggil pulang di tengah salah satu Agon anak-anak itu.\n\nBegitu membuka pintu, ia langsung disambut percakapan lama yang sama. Orang tuanya bertanya apakah ia bersedia pindah ke Capitoline Hill. Ia menjawab ya. Mereka bertanya lagi, apakah ia bersedia menjadi Gladiator, karena tanda-tanda sebagai Resonator mulai terlihat. Dan lagi-lagi, jawabannya tetap ya. Pertanyaan itu sudah sering diajukan, dan jawabannya pun selalu sama. Tapi setiap kali, orang tuanya tetap terlihat lega, seolah masih menyimpan ketakutan bahwa suatu hari Lupa akan menolak, meski itu tak pernah terjadi.\n\nLalu, perdebatan rutin pun dimulai. Haruskah mereka memperbaiki hubungan dengan House of Silva keluarga bangsawan yang pernah meninggalkan mereka di masa paling kelam? \nAtau haruskah mereka benar-benar memulai dari awal di tempat lain? \nSetiap kali mereka membicarakan kota gemerlap di atas bukit itu, dan House yang pernah mereka layani, nada suara mereka selalu berubah bercampur antara kerinduan akan penerimaan dan rasa takut akan penolakan. Persis seperti nada yang muncul tiap kali mereka bicara soal masa depan Lupa.\n\nLupa hanya duduk diam, mendengarkan. Saat ia sadar bahwa orang tuanya mulai tenggelam dalam pertengkaran mereka sendiri dan melupakan kehadirannya, ia perlahan berdiri, melangkah keluar, dan kembali ke arena kecil miliknya. Panas yang menyelimuti tubuhnya terasa begitu berat dan lembap, makin membesar, seperti amarah lembap yang tak bisa diam. Ia berlari lebih cepat, menghantam lebih keras, dan menyerang lawan sekuat tenaga seolah ingin membakar semuanya.\n\nDan saat itulah ia mendengar suara terkejut dari kerumunan.\n\nLupa menunduk, dan melihat api membara dari tubuhnya liar dan tak terkendali, menjalar untuk melahap dirinya sepenuhnya."
-      },
-      {
-        "title": "Up On The Hill",
-        "content": "Setelah itu, Lupa mengikuti orang tuanya ke Kota Septimont.\n\nDinding batu putih, denting lonceng angin yang jernih, dan patung-patung pahlawan di setiap sudut kota itu tampak seperti panggung yang memukau. Tapi yang paling membekas di benak Lupa bukan keindahannya, melainkan para Gladiator. Senjata mereka, Echoes mereka, dan sorot mata mereka saat bicara soal tim dan skor semuanya membuat darahnya berdesir. Api kecil dalam dirinya langsung menyala, mendorongnya ingin lari ke Colosseum Olymdos dan menyelami gemuruh pertarungan.\n\nTapi itu tidak terjadi.\n\nOrang tuanya justru membawanya ke kediaman keluarga Silva, tempat para calon petarung muda lainnya sudah menunggu.\n\nPertandingan demi pertandingan berat ia jalani. Sampai akhirnya, dengan rahang mengeras dan tombak digenggam erat, Lupa berdiri di atas para rival yang tumbang, melangkah masuk ke aula megah milik keluarga Silva.\n\nSaat itulah Domina Julia menunjuknya dari keramaian.\n\nLupa maju, lalu mendapati dirinya terhenti oleh tatapan tajam sang Domina. Mata hijau bening itu seperti sumur tak berdasar, menimbang-nimbang nilai dirinya sebagai aset. Nalurinya membuat Lupa menoleh ke belakang namun orang tuanya sudah tak terlihat, tubuh mereka lenyap ditelan bayang-bayang.\n\nMereka mungkin sudah menerima imbalan yang cukup besar untuk menenggelamkan rasa bersalah karena meninggalkan anaknya sendiri.\n\nNamun Lupa tak larut dalam kesedihan. Jadwal latihan yang padat dan tuntutan sosial yang tak ada habisnya tak menyisakan ruang untuk itu. Tak lama, Domina Julia melemparnya ke sorotan laga debut. Dan suara Lupa, apapun isinya saat itu, hilang begitu saja tenggelam di bawah sorak-sorai penonton yang menggelegar, terkubur dalam sunyi."
-      },
-      {
-        "title": "The Lone Wolf",
-        "content": "Saat Lupa kembali ke ruang pelatihan, rekan satu tim yang telah menemaninya selama beberapa bulan terakhir sudah tidak ada di sana.\n\nIa terdiam sejenak, linglung, sebelum melangkah pelan menyusuri ruangan yang gelap. Forte miliknya telah memberinya banyak hal: api, penciuman tajam, dan kemampuan melihat dalam gelap. Tanpa ragu, Lupa menuju kursi terdekat dan duduk. Ia diam, menyatu dengan kegelapan.\n\n“Yah,” \n\npikirnya, \n\n“Domina atau manajer pasti akan segera kirim pengganti.”\n\nAkhirnya, sandiwara ini selesai juga.\n\nMereka telah menemukan si pengkhianat yang membocorkan rahasia tim, penyebar rumor. Julia bukan tipe yang mengenal belas kasihan. Jadi, mantan rekannya itu kemungkinan besar tak akan diizinkan menginjakkan kaki lagi di arena Capitoline Hill untuk waktu yang sangat lama.\n\nSeiring namanya makin dikenal, rekan-rekan Lupa datang dan pergi. Ada yang tak sanggup mengikuti cara bertarungnya. Ada yang disingkirkan hanya karena Julia tak menyukai mereka. Beberapa, seperti mantan rekannya tadi, memang datang dengan niat buruk sejak awal. Dan ada juga yang... tak tahan melihat sorak sorai penonton selalu tertuju padanya, sementara mereka terlupakan di bayangannya.\n\nLupa sempat mencoba bicara soal itu. Tapi ia segera menyadari, bahkan “sekadar mencoba bicara” pun bisa terasa seperti bilah tajam.\n\nMungkin karena ia tak pernah benar-benar berada di posisi mereka. Ia tak pernah tahu rasanya gagal. Atau mungkin karena ada hal tak terucap “Kamu nggak akan pernah ngerti rasanya” dan kenyataan bahwa, saat semua usai, ia selalu yang keluar sebagai pemenang.\n\nLama-lama, Lupa belajar untuk diam.\n\nSetelah beberapa saat, ia berdiri dan berjalan ke lemari tempat rekaman pertandingan disimpan. Ia mengambil satu rekaman tertentu yang sudah ia tonton berkali-kali. Mungkin itu semacam penghiburan diri, menggantungkan harapan bahwa bahkan mereka yang tak punya bakat pun masih bisa merasakan kegembiraan di arena. Meski, dalam rekaman itu, sang Gladiator tak bertahan lama dan menghilang dari arena terlalu cepat.\n\nCahaya dari Breen the Screen menari di wajah Lupa, menyisakan bayang-bayang kelam dan kosong yang menggantung diam di sekitarnya."
-      },
-      {
-        "title": "The Nameless",
-        "content": "Nameless terhuyung maju, melewati patung Giant of Glory yang bisu.\n\nLangkahnya terasa seberat timah, pikirannya nyaris tercerai-berai. Bahkan untuk menyusun satu kalimat utuh saja, ia harus berjuang keras. Kadang, saat Cartethyia berbicara, ia perlu waktu lama hanya untuk bisa menjawab.\n\nPerjalanan singkat ini sepertinya akan segera berakhir.\n\nSeptimont kotanya, kota penuh kemegahan kini tenggelam dalam gelombang Dark Tide. Nameless tak lagi tahu apakah masih ada yang bisa diselamatkan. Mungkin penyelidikan yang mereka jalani hanyalah harapan kosong sejak awal. Cartethyia masih percaya, tapi Nameless sudah tak sanggup bertahan. Rasa mual akibat dinginnya laut yang menjalar dari dalam tubuh terus merayap ke tulang dan darahnya, perlahan mengubahnya menjadi sesuatu yang lain.\n\nSatu-satunya kabar baik: ia bisa merasakan eksistensinya mulai melemah. Mungkin ia bisa lenyap begitu saja, sebelum benar-benar dikuasai oleh Dark Tide. Setidaknya, Cartethyia tak perlu menanggung beban itu sampai akhir.\n\nSelama ini, Nameless jarang berada di posisi yang harus ditolong. Kini, untuk pertama kalinya, rasa tak berdaya itu menggigit dalam. Cartethyia terpaksa melambat karena dirinya. Rasa malu membakar dalam dadanya, tapi tak ada yang bisa ia lakukan… selain berharap ya, berharap bahwa sang Righteous One yang dipercayai Cartethyia akan segera datang.\n\n“Aku masih ingin berguna… setidaknya untuk teman baruku ini.”\n\nIa menggertakkan gigi, bersandar pada senjatanya, dan memaksa melangkah sekali lagi.\n\n“Aku masih ingin melakukan lebih…”\n\nNameless menengadah. Di atasnya, seorang pahlawan dari masa kejayaan Septimont berdiri kokoh, tombak di tangan, menatap ke bawah. Wajah batu itu memancarkan iba yang sunyi, seolah melindunginya dari hujan gelap yang turun dari langit sebuah perlindungan bisu, sebuah warisan diam dari mereka yang telah lebih dulu melangkah."
-      },
-      {
-        "title": "Big Little Things",
-        "content": "Setelah “kisah” itu berakhir, Lupa menepati janjinya. Ia membawa Rover dan Cartethyia menjelajahi Septimont dalam petualangan santai yang penuh canda dan tawa.\n\nHanya mereka bertiga yang tahu apa yang sebenarnya terjadi, tapi perjalanan itu benar-benar berliku dan mendebarkan cukup layak diabadikan dalam puisi epik.\n\nSaat semuanya akhirnya mereda dan ketegangan berlalu, satu kegelisahan perlahan tumbuh kembali di hati Lupa. Kekhawatiran itu tertuju pada Rover, rekan terbaik yang pernah ia miliki.\n\nIa tahu persis seberapa hebatnya Rover. Tanpa bantuan dia, menyelamatkan Septimont takkan pernah mungkin terjadi. Tapi justru karena Rover kembali menang dengan begitu mudahnya, Lupa merasakan kegundahan baru. Ia paham betul bagaimana kemenangan yang terus-menerus bisa menjadi pedang bermata dua. Setelah rentetan sukses, kekalahan yang sesungguhnya bukan sekadar tersandung, tapi benar-benar terjatuh bisa menghancurkan seseorang.\n\nBenar, Rover sangat tangguh. Lupa bahkan tak bisa membayangkan takdir seperti apa yang sanggup menjatuhkan dia. Tapi kalau hari itu benar-benar datang...\n\nIa tak tahu harus berkata apa. Yang bisa ia lakukan hanyalah meyakinkan diri bahwa ia akan selalu ada, siap membantu. Entah kenapa, Lupa bisa merasakan bahwa Rover ditakdirkan untuk hal yang jauh lebih besar sesuatu yang terlalu luas untuk dijangkau atau diubah olehnya. Ya, ada hal-hal yang besar, dan ada yang kecil. Menyelamatkan sebuah kota adalah hal besar. Menang dalam sebuah pertandingan, hal kecil...\n\n...Atau mungkin tidak juga.\n\nIa tak pernah mengatakan ini pada Rover, tapi baginya, meskipun menyelamatkan kota adalah pencapaian luar biasa, perjalanan singkat yang mereka lalui bersama tak kalah berharganya. Mungkin bagi Rover, semua itu hanyalah satu kemenangan mudah lagi. Tapi bagi Lupa, momen itu berarti segalanya. Ketika mereka menjuarai semifinal dan bersandar sejenak satu sama lain di ruang tunggu, Lupa merasakan kebahagiaan yang belum pernah ia kenal sebelumnya.\n\nJustru karena Rover menjalaninya dengan ringan, seolah tak perlu dipikirkan dua kali, Lupa bisa menikmati kebahagiaan murni dari sebuah pertarungan yang sungguh berarti.\n\nDan di saat itu juga, nyala api liar yang selalu meraung di dalam dirinya akhirnya, untuk pertama kalinya, menjadi tenang."
-      }
-    ],
-    "specialFood": {
-      "name": "Heartpour",
-      "imageUrl": "/icons/food/lupa.webp",
-      "description": "Meningkatkan Energy Regen semua Resonator dalam tim sebesar 34% selama 30 menit.\nHanya berlaku untuk Resonator milikmu sendiri dalam Co-op Mode."
+    "Sex": {
+      "Title": "No Description Available",
+      "Content": "Female"
+    },
+    "Country": {
+      "Title": "No Description Available",
+      "Content": "Rinascita"
+    },
+    "Influence": {
+      "Title": "No Description Available",
+      "Content": "Septimont"
+    },
+    "Info": {
+      "Title": "No Description Available",
+      "Content": "A Gladiator of Septimont, a radiant star of the arena.<br>Fiery and straightforward, Lupa lives like a wild lone wolf. As long as she can savor the adrenaline rush of battle, she doesn't mind if that same fire ends up consuming her whole."
+    },
+    "TalentName": {
+      "Title": "No Description Available",
+      "Content": "Howling Flame"
+    },
+    "TalentDoc": {
+      "Title": "Resonance Evaluation Report",
+      "Content": "[Excerpt from Gladiator Resonance Assessment]<br>Contender Name: Lupa<br><br>The contender is classified as a Non-congenital Resonator, with her Resonance ability first manifesting during a childhood gladiatorial event. The estimated Resonance duration exceeds ten years.<br><br>Frequency spectrum analysis indicates a primary Resonance alignment with fire. However, overlapping characteristics observed across multiple standard spectral signatures have rendered definitive source classification inconclusive.<br><br>The contender has demonstrated a consistent increase in both the strength and precision of her abilities over the course of her competitive career.<br><br>The <te href=850072>Tacet Mark</te> is located on the left side of the contender's waist. Resonance Awakening is accompanied by partial wolf-like transformation traits. In addition to a visible tail, the contender self-reports heightened olfactory and auditory sensitivity.<br><br><span class=\"italic\">\"Assessment complete. Thank you for your cooperation, Contender Lupa.<br><br>…Ahem, one more thing... My daughter loves watching your matches. Would it be possible to ask for your autograph?\"</span>"
+    },
+    "TalentCertification": {
+      "Title": "Overclock Diagnostic Report",
+      "Content": "[Pre-Match Condition Confirmation]<br>Contender Name: Lupa<br><br>Spectral waveform analysis displays elliptical fluctuations with a stable Time Domain. No anomalous patterns detected.<br><br>Diagnosis: <te href=850073>Overclocking</te> threshold is high. Subject stability remains robust. No signs or history of Overclocking.<br><br><span class=\"italic\">\"Contender Lupa has consistently undergone health assessments on schedule. Among high-profile Gladiators, few maintain such disciplined routines.\"</span>"
+    },
+    "CVNameCn": {
+      "Title": "No Description Available",
+      "Content": "Shuo Xiaotu"
+    },
+    "CVNameJp": {
+      "Title": "No Description Available",
+      "Content": "Takahashi Minami"
+    },
+    "CVNameKo": {
+      "Title": "No Description Available",
+      "Content": "Kim Ye Reong"
+    },
+    "CVNameEn": {
+      "Title": "No Description Available",
+      "Content": "Kaja Chan"
     }
   }
 }

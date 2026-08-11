@@ -1,0 +1,229 @@
+{
+  "id": 1407,
+  "name": "Ciaccona",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "120%",
+    "Crit Ratio (Crit Weapon)": "65-75% : 285-310%",
+    "Crit Ratio (Non Crit Weapon)": "65% : 240%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Kelpie"
+    ],
+    "bestWeapon": "Woodland Aria",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "Sub Dps Aero",
+          "echoSlug": "fleurdelys",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Gusts Of Welkin"
+          ]
+        },
+        {
+          "label": "Sub Dps Alt",
+          "echoSlug": "nightmare-kelpie",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": []
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen (120)",
+        "ATK%",
+        "ATK"
+      ],
+      "note": "Echo NM Kelpie ini lebih mudah di-farm dibandingkan Reminiscence: Fleurdelys dan memberikan Aero DMG Bonus 2% lebih tinggi."
+    },
+    "weaponNote": "- Romance in Farewel, Undying Flame dan Thunderbolt semua nya R5.\n- Jika dipasangkan dengan Cartethyia, Phasic Homogenizer memberikan damage yang lebih baik, tetapi akan kehilangan pasif ER dari Static Mist. \n- Gunakan Static Mist jika dipasangkan dengan Iuno, Jiyan, atau Qiuyuan. ",
+    "weaponOptions": [
+      {
+        "id": "woodland-aria",
+        "percentage": "114",
+        "rank": ""
+      },
+      {
+        "id": "the-last-dance",
+        "percentage": "100.45",
+        "rank": ""
+      },
+      {
+        "id": "phasic-homogenizer",
+        "percentage": "-",
+        "rank": ""
+      },
+      {
+        "id": "static-mist",
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": "romance-in-farewell",
+        "percentage": "99",
+        "rank": "5"
+      },
+      {
+        "id": "undying-flame",
+        "percentage": "98",
+        "rank": "5"
+      },
+      {
+        "id": "thunderbolt",
+        "percentage": "98",
+        "rank": "5"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "standar",
+        "steps": [
+          "Intro",
+          "BA3",
+          "BA4(Jump-Cancel)",
+          "MA12",
+          "BA4(Jump-Cancel)",
+          "Skill",
+          "Forte",
+          "Ult",
+          "Outro(Echo)"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Normal Attack",
+        "Forte Circuit",
+        "Intro Skill",
+        "Resonance Skill"
+      ],
+      "note": ""
+    },
+    "teams": [
+      "cartethyia-erosion",
+      "iuno-hypercarry"
+    ],
+    "teamNote": "Ciaccona memberikan buff berikut kepada rekan timnya:\n- 24% Aero DMG Bonus dari [Ensemble Sylphs] miliknya.\n- 15% Aero DMG Bonus dari set bonus Gusts of Welkin.\n- 100% Aero Erosion Amplify selama 30 detik setelah menggunakan Outro Skill.\n- Dengan Woodland Aria (Signature Ciaccona): 10% Aero RES Reduction selama 20 detik."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 27.3,
+          "percentage": 27.3
+        },
+        {
+          "type": "HA",
+          "value": 21.3,
+          "percentage": 21.3
+        },
+        {
+          "type": "Skill",
+          "value": 4.8,
+          "percentage": 21.3
+        },
+        {
+          "type": "Lib ",
+          "value": 37.2,
+          "percentage": 37.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 3.8,
+          "percentage": 3.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 5.4,
+          "percentage": 5.4,
+          "imagePath": ""
+        }
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Damage - Cia",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "title": "Sequence- Cia",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "SOURCE // TETHYS.GG",
+      "data": [
+        {
+          "type": "S0",
+          "value": 271053.94,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 311046.06,
+          "percentage": 108,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 335399.58,
+          "percentage": 113,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 390669.31,
+          "percentage": 117,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

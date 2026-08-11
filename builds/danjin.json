@@ -1,0 +1,334 @@
+{
+  "id": 1602,
+  "name": "Danjin",
+  "recommendedStats": {
+    "ATK": "1800+",
+    "Energy Regen": "100%",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Impermanence Heron",
+      "Nightmare: Heron",
+      "Nightmare: Crownless"
+    ],
+    "bestWeapon": "Blazing Brilliance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "Sub DPS - Havoc",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "nightmare-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Midnight Veil"
+          ]
+        },
+        {
+          "label": "Sub DPS - General",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Moonlit Clouds"
+          ]
+        },
+        {
+          "label": "Solo",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "nightmare-crownless",
+          "echoSlugSecondary": "",
+          "sonataCustom": [
+            "Havoc Eclipse"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "red-spring",
+        "rank": "",
+        "percentage": "116"
+      },
+      {
+        "id": "blazing-brilliance",
+        "rank": "",
+        "percentage": "100.78"
+      },
+      {
+        "id": "emerald-of-genesis",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "somnoire-anchor",
+        "rank": "5",
+        "percentage": "96"
+      },
+      {
+        "id": "commando-of-conviction",
+        "rank": "5",
+        "percentage": "92"
+      },
+      {
+        "id": "lumingloss",
+        "rank": "5",
+        "percentage": "85"
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Echo(Swap)",
+          "BA2",
+          "Skill12(Swap)",
+          "BA23",
+          "Skill123(Swap)",
+          "Intro",
+          "Skill12",
+          "Ult",
+          "BA123",
+          "Skill123",
+          "HA",
+          "BA1",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "note": "",
+      "priority": [
+        "Resonance Skill",
+        "Normal Attack",
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Intro Skill"
+      ],
+      "equalPriority": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "havoc-rover-mono"
+    ],
+    "teamNote": "Danjin memberikan buff berikut kepada rekan timnya:\n- 23% Havoc Dmg Amplify selama 14 detik setelah melancarkan Intro Skill \n- Dengan S6: +20% ATK selama 20 detik."
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Danjin",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Blazing Brilliance",
+          "value": 297325,
+          "percentage": 105.66,
+          "imagePath": ""
+        },
+        {
+          "type": "Red Spring",
+          "value": 283886,
+          "percentage": 100.88,
+          "imagePath": ""
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 281404,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Somnoire Anchor R5",
+          "value": 232571,
+          "percentage": 82.65,
+          "imagePath": ""
+        },
+        {
+          "type": "Endless Collapse R5",
+          "value": 225930,
+          "percentage": 80.29,
+          "imagePath": ""
+        },
+        {
+          "type": "Lumingloss R5",
+          "value": 223926,
+          "percentage": 79.57,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Danjin",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 7.44,
+          "percentage": 7.44,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 30.33,
+          "percentage": 30.33,
+          "imagePath": ""
+        },
+        {
+          "type": "HA",
+          "value": 35.3,
+          "percentage": 35.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 18.26,
+          "percentage": 18.26,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 4.43,
+          "percentage": 4.43,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro",
+          "value": 4.24,
+          "percentage": 4.24,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Danjin",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 1261634,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 1282930,
+          "percentage": 101.69,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1302370,
+          "percentage": 103.23,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1308942,
+          "percentage": 103.75,
+          "imagePath": ""
+        },
+        {
+          "type": "S4",
+          "value": 1329924,
+          "percentage": 105.41,
+          "imagePath": ""
+        },
+        {
+          "type": "S5",
+          "value": 1363232,
+          "percentage": 108.05,
+          "imagePath": ""
+        },
+        {
+          "type": "S6",
+          "value": 1442364,
+          "percentage": 114.33,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

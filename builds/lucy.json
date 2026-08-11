@@ -1,0 +1,250 @@
+{
+  "id": 1511,
+  "name": "Lucy",
+  "recommendedStats": {
+    "ATK": "1900-2000+",
+    "Energy Regen": "120-125%",
+    "Crit Ratio (Crit Weapon)": "70% : 265-295%",
+    "Crit Ratio (Non Crit Weapon)": "65% : 225%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Spectral Trigger",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS HACK",
+          "sonataCustom": [
+            {
+              "name": "Shadow Of Shattered Dreams",
+              "set": 2
+            },
+            {
+              "name": "Celestial Light",
+              "set": 2
+            }
+          ],
+          "echoSlug": "reminiscence-adam-smasher",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Heavy Attack DMG Bonus",
+        "ATK"
+      ],
+      "note": "Untuk melengkapi 5 slot Echo, gunakan 2-pc dari set Spectro apa saja. Meskipun menggunakan 2-pc set Spectro lainnya akan menjadi yang paling optimal, kamu juga dapat menggunakan 2-pc Reels of Spliced Memories sebagai gantinya."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "spectral-trigger",
+        "rank": "",
+        "percentage": "119.76%"
+      },
+      {
+        "id": "phasic-homogenizer",
+        "rank": "",
+        "percentage": "100.00%"
+      },
+      {
+        "id": "the-last-dance",
+        "rank": "",
+        "percentage": "92.14%"
+      },
+      {
+        "id": "static-mist",
+        "rank": "",
+        "percentage": "89.25%"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "New Rotation",
+        "steps": [
+          "Intro",
+          "Skill12",
+          "BA123",
+          "[E]Skill",
+          "[F]BA1234",
+          "[F]HA12",
+          "Ult",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Normal Attack",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "teams": [
+      "lucy-premium",
+      "lucy-hypercarry"
+    ],
+    "teamNote": "1. Menggunakan para Edgerunner bersama-sama akan membuka sinergi yang sangat kuat di antara mereka, beserta dengan buff tambahan:\nLucy menyediakan buff berikut untuk rekan satu timnya saat melancarkan Outro Skill: \n- 20% Basic Attack DMG Amplify selama 14 detik\n- \"Countermeasure Program\" selama 25 detik, di mana Rebecca mendapatkan 20% All-DMG Amplify. Ketika Resonator lain diserang, mereka menerima damage 30% lebih sedikit selama 3 detik dan memberikan efek stagnate pada penyerang mereka selama 1 detik. Efek ini dapat dipicu hingga 1 kali.\n\n2. Lucy merupakan Main DPS yang solid bersama dengan rekan tim gratisnya, Rebecca. Ia tidak merusak keseimbangan game ataupun mengubah meta, tetapi ia masih dapat berfungsi sebagai DPS yang mumpuni.\nSecara teknis ia bisa dipasangkan dengan Heavy DMG buffer mana pun, tetapi karena Rebecca bisa didapatkan secara gratis dan kit mereka memiliki sinergi yang terstruktur satu sama lain, tidak ada alasan nyata untuk memisahkan keduanya."
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Lucy",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Spectral Trigger",
+          "value": 1143566.27,
+          "percentage": 119.76,
+          "imagePath": ""
+        },
+        {
+          "type": "Phasic Homogenizer",
+          "value": 954883.97,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "The Last Dance",
+          "value": 879840.15,
+          "percentage": 92.14,
+          "imagePath": ""
+        },
+        {
+          "type": "Static Mist",
+          "value": 852236.45,
+          "percentage": 89.25,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Lucy",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Heavy",
+          "value": 79.1,
+          "percentage": 79.1,
+          "imagePath": ""
+        },
+        {
+          "type": "Hack",
+          "value": 10.9,
+          "percentage": 10.9,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 3.8,
+          "percentage": 3.8,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 3,
+          "percentage": 3,
+          "imagePath": ""
+        },
+        {
+          "type": "BA",
+          "value": 1.9,
+          "percentage": 1.9,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Lucy",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 1143566.27,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 1186897.75,
+          "percentage": 103.79,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1454647,
+          "percentage": 127.2,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1926459.63,
+          "percentage": 168.46,
+          "imagePath": ""
+        },
+        {
+          "type": "S4",
+          "value": 2034050.94,
+          "percentage": 177.87,
+          "imagePath": ""
+        },
+        {
+          "type": "S5",
+          "value": 2034050.94,
+          "percentage": 177.87,
+          "imagePath": ""
+        },
+        {
+          "type": "S6",
+          "value": 2813276.67,
+          "percentage": 246.01,
+          "imagePath": ""
+        },
+        {
+          "type": "S6R5",
+          "value": 3479867.73,
+          "percentage": 304.3,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}

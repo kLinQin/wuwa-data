@@ -1,0 +1,26 @@
+{
+  "id": 1310,
+  "name": "Electro Rover",
+  "recommendedStats": {},
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "",
+    "echoDetails": {
+      "sets": [],
+      "substats": [],
+      "note": ""
+    },
+    "weaponNote": "",
+    "weaponOptions": [],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [],
+      "note": ""
+    },
+    "teams": [
+      "electro-rover-hypercarry"
+    ],
+    "teamNote": ""
+  },
+  "analysisCharts": []
+}

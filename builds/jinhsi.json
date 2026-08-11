@@ -1,0 +1,255 @@
+{
+  "id": 1304,
+  "name": "Jinhsi",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "100-120%+",
+    "Crit Ratio (Crit Weapon)": "70% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "70% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Jué"
+    ],
+    "bestWeapon": "Ages of Harvest",
+    "echoDetails": {
+      "sets": [
+        {
+          "label": "DPS",
+          "echoSlug": "jue",
+          "echoSlugSecondary": "",
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "sonataCustom": [
+            "Celestial Light"
+          ]
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ],
+      "note": "Gunakan 1x Spectro DMG Bonus + 1x ATK% jika kamu memiliki Ages of Harvest yang terpasang.\nJinhsi adalah salah satu dari sedikit karakter yang dapat menjalankan 44111 alih-alih 43311 tradisional karena adanya Attribute DMG pada signature weapon miliknya dan sequence selanjutnya. Jika SOR1, hal ini hanya 3% lebih buruk daripada 43311 (ELE/ATK)."
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "ages-of-harvest",
+        "rank": "",
+        "percentage": "121"
+      },
+      {
+        "id": "verdant-summit",
+        "rank": "",
+        "percentage": "107"
+      },
+      {
+        "id": "radiance-cleaver",
+        "rank": "",
+        "percentage": "-"
+      },
+      {
+        "id": "lustrous-razor",
+        "rank": "",
+        "percentage": "100"
+      },
+      {
+        "id": "autumntrace",
+        "rank": "",
+        "percentage": "86"
+      },
+      {
+        "id": "helios-cleaver",
+        "rank": "",
+        "percentage": "86"
+      }
+    ],
+    "rotations": [
+      {
+        "title": "Standar",
+        "steps": [
+          "Skill(Swap)",
+          "Intro",
+          "[E]Skill(Swap)",
+          "[F]BA12",
+          "[F]Skill(Swap)",
+          "[F]BA34",
+          "Echo",
+          "Ult",
+          "[E][F]Skill",
+          "BA1234",
+          "[E]Skill",
+          "[F]BA123",
+          "[F]Skill",
+          "[F]BA4",
+          "[E][F]Skill",
+          "Outro"
+        ]
+      },
+      {
+        "title": "Quickswap",
+        "steps": [
+          "Echo+Skill(Swap)",
+          "Intro",
+          "[E]Skill(Swap)",
+          "[F]BA12",
+          "[F]Skill(Swap)",
+          "[F]BA3",
+          "Ult",
+          "[F]BA4",
+          "[E][F]Skill",
+          "Outro"
+        ]
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Intro Skill",
+        "Normal Attack"
+      ],
+      "note": "",
+      "equalPriority": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "teams": [
+      "jinhsi-hypercarry",
+      "jinhsi-quickswap"
+    ],
+    "teamNote": "Jinhsi's Premium Team\n- Zhezhi memberikan Res. Skill DMG Amplify, Coordinated ATKs, dan Res. Energy Regeneration, memungkinkan Jinhsi untuk menggunakan Liberation secara konsisten. Oilihan alternatif untuk Res. Skill Amplify mencakup Brant, Cantarella, Lumi, Buling, atau Taoqi.\n\nJinhsi's Budget / Accessible Team\n- Verina mengenakan Moonlit Clouds, dan Yuanwu mengenakan Rejuvenating Glow + Originite: Type IV sebagai senjatanya.\n- Concerto gen milik Yuanwu jauh terlalu lambat baginya untuk mengenakan Moonlit Clouds.\n\n"
+  },
+  "analysisCharts": [
+    {
+      "title": "Weapon - Jinhsi",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "Ages Of Harvest",
+          "value": 961455.48,
+          "percentage": 120.93,
+          "imagePath": ""
+        },
+        {
+          "type": "Verdant Summit",
+          "value": 853011.72,
+          "percentage": 107.29,
+          "imagePath": ""
+        },
+        {
+          "type": "Lustrous Razor",
+          "value": 795020.87,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "Waning Redshift R5",
+          "value": 688795.54,
+          "percentage": 86.64,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Damage - Jinhsi",
+      "chartType": "radar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "BA",
+          "value": 2.2,
+          "percentage": 2.2,
+          "imagePath": ""
+        },
+        {
+          "type": "Skill",
+          "value": 76.4,
+          "percentage": 76.4,
+          "imagePath": ""
+        },
+        {
+          "type": "Lib",
+          "value": 14.5,
+          "percentage": 14.5,
+          "imagePath": ""
+        },
+        {
+          "type": "Echo",
+          "value": 3.3,
+          "percentage": 3.3,
+          "imagePath": ""
+        },
+        {
+          "type": "Intro Skill",
+          "value": 3.6,
+          "percentage": 3.6,
+          "imagePath": ""
+        }
+      ]
+    },
+    {
+      "title": "Sequence - Jinhsi",
+      "chartType": "bar",
+      "layout": "horizontal",
+      "note": "source // tethys.gg",
+      "data": [
+        {
+          "type": "S0",
+          "value": 961455.48,
+          "percentage": 100,
+          "imagePath": ""
+        },
+        {
+          "type": "S1",
+          "value": 1061592.11,
+          "percentage": 110.42,
+          "imagePath": ""
+        },
+        {
+          "type": "S2",
+          "value": 1061592.11,
+          "percentage": 110.42,
+          "imagePath": ""
+        },
+        {
+          "type": "S3",
+          "value": 1391244.69,
+          "percentage": 144.7,
+          "imagePath": ""
+        }
+      ]
+    }
+  ]
+}
