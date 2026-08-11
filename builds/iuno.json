@@ -163,9 +163,11 @@
       ]
     },
     "teams": [
-      "augusta-hypercarry",
-      "jiyan-mono",
-      "iuno-hypercarry"
+      "aero-rover-hypercarry-iuno",
+      "ciaccona-iuno-hypercarry",
+      "iuno-team",
+      "jianxin-mono-aero",
+      "mornye-team"
     ],
     "teamNote": "Iuno memberikan buff berikut untuk rekan satu timnya:\n- 50% Heavy DMG Amplify selama 14 detik setelah menggunakan Outro Skill.\n- 40% All-DMG Amplify selama 10 detik saat mendapatkan shield di dalam [Full Moon Domain], yang hanya berlaku untuk Augusta atau Iuno sebagai Main DPS."
   },

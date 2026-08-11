@@ -123,9 +123,14 @@
       ]
     },
     "teams": [
-      "cartethyia-erosion",
-      "cartethyia-hypercarry",
-      "cartethyia-erosion"
+      "aero-rover-hypercarry",
+      "aero-rover-hypercarry-alt",
+      "aero-rover-hypercarry-f2p",
+      "cartethyia-carte-hypercarry",
+      "cartethyia-carte-hc-alternatif",
+      "cartethyia-erosion-team",
+      "ciaccona-cartethyia-hypercarry",
+      "suisui-ns---erosion"
     ],
     "teamNote": "Sebagai alternatif, Shorekeeper dapat digunakan untuk meningkatkan Crit. Rate atau DMG Cartethyia. Namun, perlu dicatat bahwa Cartethyia tidak akan mendapatkan keuntungan dari set bonus Rejuvenating Glow."
   },

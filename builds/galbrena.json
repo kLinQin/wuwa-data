@@ -144,8 +144,12 @@
       ]
     },
     "teams": [
-      "galbrena-echo",
-      "galbrena-mono"
+      "brant-mono-fusion",
+      "galbrena-galbrena-hypercarry",
+      "galbrena-alternatif-hypercarry",
+      "lupa-galbrena-hypercarry",
+      "mortefi-mono-fusion",
+      "qiuyuan-echo-hc"
     ],
     "teamNote": "Gallbrena adalah Main DPS yang scaling antara Heavy Attack dan Echo Skill Damage"
   },

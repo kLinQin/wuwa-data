@@ -123,8 +123,10 @@
       ]
     },
     "teams": [
+      "danjin-mono-havoc",
       "havoc-rover-hypercarry",
-      "havoc-rover-quickswap"
+      "havoc-rover-quickswap",
+      "sanhua-sub-dps"
     ],
     "teamNote": "bisa menggunakan Sanhua, Roccia, atau Cantarella sebagai Sub DPS untuk Rover: Havoc. Sanhua dan Roccia memberikan Basic DMG Amplify. Roccia dan Cantarella memberikan Havoc DMG Amplify.\nSebagai alternatif, Danjin juga merupakan sebuah pilihan.\nJika menikmati gaya bermain quickswap, dapat juga memasangkan Rover: Havoc dengan Changli. Rover juga dapat menerima manfaat dari Res. Liberation DMG Amplify milik Changli."
   },

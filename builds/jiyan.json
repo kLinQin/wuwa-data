@@ -148,8 +148,10 @@
       ]
     },
     "teams": [
-      "jiyan-hypercarry",
-      "jiyan-f2p"
+      "aalto-jiyan-hypercarry",
+      "iuno-mono-aero",
+      "jiyan-mono-aero",
+      "jiyan-f2p-options"
     ],
     "teamNote": "Jiyan merupakan Main DPS yang fokus utamanya memberikan Heavy ATK DMG."
   },
