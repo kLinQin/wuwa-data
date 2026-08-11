@@ -7,13 +7,13 @@
   "version": "1.0",
   "lastUpdated": "2026-01-12",
   "roles": [
-    "Concerto Efficiency",
-    "Stagnation"
+    3,
+    12
   ],
   "sonatas": [
-    "Eternal Radiance",
-    "Moonlit Clouds",
-    "Rejuvenating Glow"
+    11,
+    8,
+    7
   ],
   "changelog": [
     {

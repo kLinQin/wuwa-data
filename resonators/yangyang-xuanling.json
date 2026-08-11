@@ -7,13 +7,13 @@
   "version": "3.5",
   "lastUpdated": "2026-07-09",
   "roles": [
-    "Main Damage Dealer",
-    "Heavy Attack Damage",
-    "Traction",
-    "Havoc Bane"
+    2,
+    5,
+    8,
+    26
   ],
   "sonatas": [
-    "Song of Feather Trace"
+    33
   ],
   "changelog": [
     {

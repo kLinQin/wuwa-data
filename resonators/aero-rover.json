@@ -7,13 +7,13 @@
   "version": "2.2",
   "lastUpdated": "2026-01-29",
   "roles": [
-    "Support and Healer",
-    "Resonance Skill DMG",
-    "Aero Erosion"
+    1,
+    6,
+    22
   ],
   "sonatas": [
-    "Windward Pilgrimage",
-    "Rejuvenating Glow"
+    17,
+    7
   ],
   "changelog": [
     {
