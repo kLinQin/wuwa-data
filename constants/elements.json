@@ -1,26 +1,6 @@
 [
   {
-    "key": "Aero",
-    "name": "Aero",
-    "icon": "/icons/elements/aero.webp",
-    "colorClass": "text-[#0E8C7A]",
-    "color": "#0E8C7A"
-  },
-  {
-    "key": "Electro",
-    "name": "Electro",
-    "icon": "/icons/elements/electro.webp",
-    "colorClass": "text-[#6C3483]",
-    "color": "#6C3483"
-  },
-  {
-    "key": "Fusion",
-    "name": "Fusion",
-    "icon": "/icons/elements/fusion.webp",
-    "colorClass": "text-[#B03A2E]",
-    "color": "#B03A2E"
-  },
-  {
+    "id": 1,
     "key": "Glacio",
     "name": "Glacio",
     "icon": "/icons/elements/glacio.webp",
@@ -28,17 +8,43 @@
     "color": "#1F618D"
   },
   {
-    "key": "Havoc",
-    "name": "Havoc",
-    "icon": "/icons/elements/havoc.webp",
-    "colorClass": "text-[#AD1457]",
-    "color": "#AD1457"
+    "id": 2,
+    "key": "Fusion",
+    "name": "Fusion",
+    "icon": "/icons/elements/fusion.webp",
+    "colorClass": "text-[#B03A2E]",
+    "color": "#B03A2E"
   },
   {
+    "id": 3,
+    "key": "Electro",
+    "name": "Electro",
+    "icon": "/icons/elements/electro.webp",
+    "colorClass": "text-[#6C3483]",
+    "color": "#6C3483"
+  },
+  {
+    "id": 4,
+    "key": "Aero",
+    "name": "Aero",
+    "icon": "/icons/elements/aero.webp",
+    "colorClass": "text-[#0E8C7A]",
+    "color": "#0E8C7A"
+  },
+  {
+    "id": 5,
     "key": "Spectro",
     "name": "Spectro",
     "icon": "/icons/elements/spectro.webp",
     "colorClass": "text-[#8B7D00]",
     "color": "#8B7D00"
+  },
+  {
+    "id": 6,
+    "key": "Havoc",
+    "name": "Havoc",
+    "icon": "/icons/elements/havoc.webp",
+    "colorClass": "text-[#AD1457]",
+    "color": "#AD1457"
   }
 ]

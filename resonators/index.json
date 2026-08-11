@@ -1,7 +1,7 @@
 {
   "characters": [
     {
-      "id": "aemeath",
+      "id": 1210,
       "name": "Aemeath",
       "element": "Fusion",
       "rarity": 5,
@@ -19,7 +19,10 @@
         "Trailblazing Star"
       ],
       "image": "/characters/aemeath.webp",
-      "icon": "/icons/characters/aemeath.webp"
+      "icon": "/icons/characters/aemeath.webp",
+      "faction": "Roya Tribe",
+      "affiliation": "Startorch Academy",
+      "class": "Natural"
     },
     {
       "id": "aero-rover",
@@ -42,7 +45,7 @@
       "icon": "/icons/characters/aero-rover.webp"
     },
     {
-      "id": "augusta",
+      "id": 1306,
       "name": "Augusta",
       "element": "Electro",
       "rarity": 5,
@@ -58,10 +61,13 @@
         "Crown of Valor"
       ],
       "image": "/characters/augusta.webp",
-      "icon": "/icons/characters/augusta.webp"
+      "icon": "/icons/characters/augusta.webp",
+      "faction": "Ephor's Palace",
+      "affiliation": "Septimont,Rinascita",
+      "class": "Congenital"
     },
     {
-      "id": "brant",
+      "id": 1206,
       "name": "Brant",
       "element": "Fusion",
       "rarity": 5,
@@ -78,10 +84,13 @@
         "Tidebreaking Courage"
       ],
       "image": "/characters/brant.webp",
-      "icon": "/icons/characters/brant.webp"
+      "icon": "/icons/characters/brant.webp",
+      "faction": "Troupe of Fools",
+      "affiliation": "Ragunna,Rinascita",
+      "class": "Natural"
     },
     {
-      "id": "calcharo",
+      "id": 1301,
       "name": "Calcharo",
       "element": "Electro",
       "rarity": 5,
@@ -96,10 +105,13 @@
         "Void Thunder"
       ],
       "image": "/characters/calcharo.webp",
-      "icon": "/icons/characters/calcharo.webp"
+      "icon": "/icons/characters/calcharo.webp",
+      "faction": "Jinzhou",
+      "affiliation": "Ghost Hounds",
+      "class": "Natural"
     },
     {
-      "id": "camellya",
+      "id": 1603,
       "name": "Camellya",
       "element": "Havoc",
       "rarity": 5,
@@ -115,10 +127,13 @@
         "Havoc Eclipse"
       ],
       "image": "/characters/camellya.webp",
-      "icon": "/icons/characters/camellya.webp"
+      "icon": "/icons/characters/camellya.webp",
+      "faction": "Black Shores",
+      "affiliation": "The Black Shores",
+      "class": "Artificial"
     },
     {
-      "id": "cantarella",
+      "id": 1607,
       "name": "Cantarella",
       "element": "Havoc",
       "rarity": 5,
@@ -139,10 +154,13 @@
         "Moonlit Clouds"
       ],
       "image": "/characters/cantarella.webp",
-      "icon": "/icons/characters/cantarella.webp"
+      "icon": "/icons/characters/cantarella.webp",
+      "faction": "Ragunna",
+      "affiliation": "Fisalia Family",
+      "class": "Unclear"
     },
     {
-      "id": "carlotta",
+      "id": 1107,
       "name": "Carlotta",
       "element": "Glacio",
       "rarity": 5,
@@ -157,10 +175,13 @@
         "Frosty Resolve"
       ],
       "image": "/characters/carlotta.webp",
-      "icon": "/icons/characters/carlotta.webp"
+      "icon": "/icons/characters/carlotta.webp",
+      "faction": "Montelli Family",
+      "affiliation": "Ragunna,Rinascita",
+      "class": "Mutant"
     },
     {
-      "id": "cartethyia",
+      "id": 1409,
       "name": "Cartethyia",
       "element": "Aero",
       "rarity": 5,
@@ -177,10 +198,13 @@
         "Windward Pilgrimage"
       ],
       "image": "/characters/cartethyia.webp",
-      "icon": "/icons/characters/cartethyia.webp"
+      "icon": "/icons/characters/cartethyia.webp",
+      "faction": "Order of the Deep",
+      "affiliation": "Ragunna,Rinascita",
+      "class": "Congenital"
     },
     {
-      "id": "changli",
+      "id": 1205,
       "name": "Changli",
       "element": "Fusion",
       "rarity": 5,
@@ -197,14 +221,17 @@
         "Molten Rift"
       ],
       "image": "/characters/changli.webp",
-      "icon": "/icons/characters/changli.webp"
+      "icon": "/icons/characters/changli.webp",
+      "faction": "City Hall",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Natural"
     },
     {
-      "id": "chisa",
+      "id": 1508,
       "name": "Chisa",
       "element": "Havoc",
       "rarity": 5,
-      "weapon": "Sword",
+      "weapon": "Broadblade",
       "version": "2.8",
       "lastUpdated": "2026-01-12",
       "roles": [
@@ -216,10 +243,13 @@
         "Thread of Severed Fate"
       ],
       "image": "/characters/chisa.webp",
-      "icon": "/icons/characters/chisa.webp"
+      "icon": "/icons/characters/chisa.webp",
+      "faction": "Black Shores",
+      "affiliation": "Startorch Academy",
+      "class": "Mutant"
     },
     {
-      "id": "ciaccona",
+      "id": 1407,
       "name": "Ciaccona",
       "element": "Aero",
       "rarity": 5,
@@ -235,10 +265,13 @@
         "Gusts of Welkin"
       ],
       "image": "/characters/ciaccona.webp",
-      "icon": "/icons/characters/ciaccona.webp"
+      "icon": "/icons/characters/ciaccona.webp",
+      "faction": "Ragunna",
+      "affiliation": "",
+      "class": "Unclear"
     },
     {
-      "id": "denia",
+      "id": 1211,
       "name": "Denia",
       "element": "Fusion",
       "rarity": 5,
@@ -259,7 +292,10 @@
         "Pact of Neonlight Leap"
       ],
       "image": "/characters/denia.webp",
-      "icon": "/icons/characters/denia.webp"
+      "icon": "/icons/characters/denia.webp",
+      "faction": "Startorch Academy",
+      "affiliation": "Fractsidus",
+      "class": "Congenital"
     },
     {
       "id": "electro-rover",
@@ -275,7 +311,7 @@
       "icon": "/icons/characters/electro-rover.webp"
     },
     {
-      "id": "encore",
+      "id": 1203,
       "name": "Encore",
       "element": "Fusion",
       "rarity": 5,
@@ -290,10 +326,13 @@
         "Molten Rift"
       ],
       "image": "/characters/encore.webp",
-      "icon": "/icons/characters/encore.webp"
+      "icon": "/icons/characters/encore.webp",
+      "faction": "",
+      "affiliation": "",
+      "class": ""
     },
     {
-      "id": "galbrena",
+      "id": 1208,
       "name": "Galbrena",
       "element": "Fusion",
       "rarity": 5,
@@ -308,7 +347,10 @@
         "Flamewing's Shadow"
       ],
       "image": "/characters/galbrena.webp",
-      "icon": "/icons/characters/galbrena.webp"
+      "icon": "/icons/characters/galbrena.webp",
+      "faction": "Septimont",
+      "affiliation": "The Black Shores",
+      "class": "Congenital"
     },
     {
       "id": "havoc-rover",
@@ -328,7 +370,7 @@
       "icon": "/icons/characters/havoc-rover.webp"
     },
     {
-      "id": "hiyuki",
+      "id": 1108,
       "name": "Hiyuki",
       "element": "Glacio",
       "rarity": 5,
@@ -344,10 +386,13 @@
         "Wishes of Quiet Snowfall"
       ],
       "image": "/characters/hiyuki.webp",
-      "icon": "/icons/characters/hiyuki.webp"
+      "icon": "/icons/characters/hiyuki.webp",
+      "faction": "Startorch Academy",
+      "affiliation": "Spacetrek Collective",
+      "class": "Unclear"
     },
     {
-      "id": "iuno",
+      "id": 1410,
       "name": "Iuno",
       "element": "Aero",
       "rarity": 5,
@@ -364,10 +409,13 @@
         "Crown of Valor"
       ],
       "image": "/characters/iuno.webp",
-      "icon": "/icons/characters/iuno.webp"
+      "icon": "/icons/characters/iuno.webp",
+      "faction": "Tetragon Temple",
+      "affiliation": "Septimont,Rinascita",
+      "class": "Congenital"
     },
     {
-      "id": "jianxin",
+      "id": 1405,
       "name": "Jianxin",
       "element": "Aero",
       "rarity": 5,
@@ -386,10 +434,13 @@
         "Sierra Gale"
       ],
       "image": "/characters/jianxin.webp",
-      "icon": "/icons/characters/jianxin.webp"
+      "icon": "/icons/characters/jianxin.webp",
+      "faction": "",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Natural"
     },
     {
-      "id": "jinhsi",
+      "id": 1304,
       "name": "Jinhsi",
       "element": "Spectro",
       "rarity": 5,
@@ -404,10 +455,13 @@
         "Celestial Light"
       ],
       "image": "/characters/jinhsi.webp",
-      "icon": "/icons/characters/jinhsi.webp"
+      "icon": "/icons/characters/jinhsi.webp",
+      "faction": "City Hall",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Congenital"
     },
     {
-      "id": "jiyan",
+      "id": 1404,
       "name": "Jiyan",
       "element": "Aero",
       "rarity": 5,
@@ -424,10 +478,13 @@
         "Windward Pilgrimage"
       ],
       "image": "/characters/jiyan.webp",
-      "icon": "/icons/characters/jiyan.webp"
+      "icon": "/icons/characters/jiyan.webp",
+      "faction": "Midnight Rangers",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Mutant"
     },
     {
-      "id": "lingyang",
+      "id": 1104,
       "name": "Lingyang",
       "element": "Glacio",
       "rarity": 5,
@@ -443,10 +500,13 @@
         "Frosty Resolve"
       ],
       "image": "/characters/lingyang.webp",
-      "icon": "/icons/characters/lingyang.webp"
+      "icon": "/icons/characters/lingyang.webp",
+      "faction": "Liondance Troupe",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Natural"
     },
     {
-      "id": "lucilla",
+      "id": 1109,
       "name": "Lucilla",
       "element": "Glacio",
       "rarity": 5,
@@ -464,10 +524,13 @@
         "Wishes of Quiet Snowfall"
       ],
       "image": "/characters/lucilla.webp",
-      "icon": "/icons/characters/lucilla.webp"
+      "icon": "/icons/characters/lucilla.webp",
+      "faction": "",
+      "affiliation": "Startorch Academy",
+      "class": "Unclear"
     },
     {
-      "id": "lucy",
+      "id": 1511,
       "name": "Lucy",
       "element": "Spectro",
       "rarity": 5,
@@ -484,10 +547,13 @@
         "Shadow of Shattered Dreams"
       ],
       "image": "/characters/lucy.webp",
-      "icon": "/icons/characters/lucy.webp"
+      "icon": "/icons/characters/lucy.webp",
+      "faction": "",
+      "affiliation": "Lahai-Roi",
+      "class": "Mutant"
     },
     {
-      "id": "lupa",
+      "id": 1207,
       "name": "Lupa",
       "element": "Fusion",
       "rarity": 5,
@@ -504,10 +570,13 @@
         "Flaming Clawprint"
       ],
       "image": "/characters/lupa.webp",
-      "icon": "/icons/characters/lupa.webp"
+      "icon": "/icons/characters/lupa.webp",
+      "faction": "House Silva",
+      "affiliation": "Septimont,Rinascita",
+      "class": "Non-Congenital"
     },
     {
-      "id": "luuk-herssen",
+      "id": 1510,
       "name": "Luuk Herssen",
       "element": "Spectro",
       "rarity": 5,
@@ -524,10 +593,13 @@
         "Rite of Gilded Revelation"
       ],
       "image": "/characters/luuk-herssen.webp",
-      "icon": "/icons/characters/luuk-herssen.webp"
+      "icon": "/icons/characters/luuk-herssen.webp",
+      "faction": "",
+      "affiliation": "",
+      "class": ""
     },
     {
-      "id": "lynae",
+      "id": 1509,
       "name": "Lynae",
       "element": "Spectro",
       "rarity": 5,
@@ -548,14 +620,17 @@
         "Rite of Gilded Revelation"
       ],
       "image": "/characters/lynae.webp",
-      "icon": "/icons/characters/lynae.webp"
+      "icon": "/icons/characters/lynae.webp",
+      "faction": "Lawless Zone",
+      "affiliation": "Startorch Academy",
+      "class": "Congenital"
     },
     {
-      "id": "mornye",
+      "id": 1209,
       "name": "Mornye",
       "element": "Fusion",
       "rarity": 5,
-      "weapon": "Pistol",
+      "weapon": "Broadblade",
       "version": "3.0",
       "lastUpdated": "2026-01-12",
       "roles": [
@@ -569,10 +644,13 @@
         "Halo of Starry Radiance"
       ],
       "image": "/characters/mornye.webp",
-      "icon": "/icons/characters/mornye.webp"
+      "icon": "/icons/characters/mornye.webp",
+      "faction": "",
+      "affiliation": "",
+      "class": ""
     },
     {
-      "id": "phoebe",
+      "id": 1506,
       "name": "Phoebe",
       "element": "Spectro",
       "rarity": 5,
@@ -589,10 +667,13 @@
         "Moonlit Clouds"
       ],
       "image": "/characters/phoebe.webp",
-      "icon": "/icons/characters/phoebe.webp"
+      "icon": "/icons/characters/phoebe.webp",
+      "faction": "Order of the Deep",
+      "affiliation": "Ragunna,Rinascita",
+      "class": "Unclear"
     },
     {
-      "id": "phrolova",
+      "id": 1608,
       "name": "Phrolova",
       "element": "Havoc",
       "rarity": 5,
@@ -609,10 +690,13 @@
         "Dream of the Lost"
       ],
       "image": "/characters/phrolova.webp",
-      "icon": "/icons/characters/phrolova.webp"
+      "icon": "/icons/characters/phrolova.webp",
+      "faction": "",
+      "affiliation": "Fractsidus",
+      "class": "Mutant"
     },
     {
-      "id": "qiuyuan",
+      "id": 1411,
       "name": "Qiuyuan",
       "element": "Aero",
       "rarity": 5,
@@ -629,10 +713,13 @@
         "Moonlit Clouds"
       ],
       "image": "/characters/qiuyuan.webp",
-      "icon": "/icons/characters/qiuyuan.webp"
+      "icon": "/icons/characters/qiuyuan.webp",
+      "faction": "Chongzhou",
+      "affiliation": "Mingting,Huanglong",
+      "class": "Unclear"
     },
     {
-      "id": "rebecca",
+      "id": 1308,
       "name": "Rebecca",
       "element": "Electro",
       "rarity": 5,
@@ -649,10 +736,13 @@
         "Shadow of Shattered Dreams"
       ],
       "image": "/characters/rebecca.webp",
-      "icon": "/icons/characters/rebecca.webp"
+      "icon": "/icons/characters/rebecca.webp",
+      "faction": "",
+      "affiliation": "",
+      "class": "Mutant"
     },
     {
-      "id": "roccia",
+      "id": 1606,
       "name": "Roccia",
       "element": "Havoc",
       "rarity": 5,
@@ -671,10 +761,13 @@
         "Moonlit Clouds"
       ],
       "image": "/characters/roccia.webp",
-      "icon": "/icons/characters/roccia.webp"
+      "icon": "/icons/characters/roccia.webp",
+      "faction": "Troupe of Fools",
+      "affiliation": "Ragunna,Rinascita",
+      "class": "Acquired"
     },
     {
-      "id": "shorekeeper",
+      "id": 1505,
       "name": "Shorekeeper",
       "element": "Spectro",
       "rarity": 5,
@@ -690,10 +783,13 @@
         "Rejuvenating Glow"
       ],
       "image": "/characters/shorekeeper.webp",
-      "icon": "/icons/characters/shorekeeper.webp"
+      "icon": "/icons/characters/shorekeeper.webp",
+      "faction": "Black Shores",
+      "affiliation": "The Black Shores",
+      "class": ""
     },
     {
-      "id": "sigrika",
+      "id": 1412,
       "name": "Sigrika",
       "element": "Aero",
       "rarity": 5,
@@ -709,7 +805,10 @@
         "Sound of True Name"
       ],
       "image": "/characters/sigrika.webp",
-      "icon": "/icons/characters/sigrika.webp"
+      "icon": "/icons/characters/sigrika.webp",
+      "faction": "Startorch Academy",
+      "affiliation": "Roya Tribe",
+      "class": "Congenital"
     },
     {
       "id": "spectro-rover",
@@ -732,7 +831,7 @@
       "icon": "/icons/characters/spectro-rover.webp"
     },
     {
-      "id": "suisui",
+      "id": 1110,
       "name": "Suisui",
       "element": "Glacio",
       "rarity": 5,
@@ -748,10 +847,13 @@
         "Song of Feather Trace"
       ],
       "image": "/characters/suisui.webp",
-      "icon": "/icons/characters/suisui.webp"
+      "icon": "/icons/characters/suisui.webp",
+      "faction": "\tZhaoming Commerce Guild",
+      "affiliation": "Mingting,Huanglong",
+      "class": "Natural"
     },
     {
-      "id": "verina",
+      "id": 1503,
       "name": "Verina",
       "element": "Spectro",
       "rarity": 5,
@@ -767,10 +869,13 @@
         "Rejuvenating Glow"
       ],
       "image": "/characters/verina.webp",
-      "icon": "/icons/characters/verina.webp"
+      "icon": "/icons/characters/verina.webp",
+      "faction": "Pioneer Association",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Congenital"
     },
     {
-      "id": "xiangli-yao",
+      "id": 1305,
       "name": "Xiangli Yao",
       "element": "Electro",
       "rarity": 5,
@@ -785,7 +890,10 @@
         "Void Thunder"
       ],
       "image": "/characters/xiangli-yao.webp",
-      "icon": "/icons/characters/xiangli-yao.webp"
+      "icon": "/icons/characters/xiangli-yao.webp",
+      "faction": "",
+      "affiliation": "",
+      "class": ""
     },
     {
       "id": "yangyang-xuanling",
@@ -808,7 +916,7 @@
       "icon": "/icons/characters/yangyang-xuanling.webp"
     },
     {
-      "id": "yinlin",
+      "id": 1302,
       "name": "Yinlin",
       "element": "Electro",
       "rarity": 5,
@@ -827,10 +935,13 @@
         "Moonlit Clouds"
       ],
       "image": "/characters/yinlin.webp",
-      "icon": "/icons/characters/yinlin.webp"
+      "icon": "/icons/characters/yinlin.webp",
+      "faction": "Public Security Bureau",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Congenital"
     },
     {
-      "id": "zani",
+      "id": 1507,
       "name": "Zani",
       "element": "Spectro",
       "rarity": 5,
@@ -847,10 +958,13 @@
         "Eternal Radiance"
       ],
       "image": "/characters/zani.webp",
-      "icon": "/icons/characters/zani.webp"
+      "icon": "/icons/characters/zani.webp",
+      "faction": "Montelli Family",
+      "affiliation": "Ragunna,Rinascita",
+      "class": "Mutant"
     },
     {
-      "id": "zhezhi",
+      "id": 1105,
       "name": "Zhezhi",
       "element": "Glacio",
       "rarity": 5,
@@ -870,10 +984,13 @@
         "Moonlit Clouds"
       ],
       "image": "/characters/zhezhi.webp",
-      "icon": "/icons/characters/zhezhi.webp"
+      "icon": "/icons/characters/zhezhi.webp",
+      "faction": "Jinzhou",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Congenital"
     },
     {
-      "id": "aalto",
+      "id": 1403,
       "name": "Aalto",
       "element": "Aero",
       "rarity": 4,
@@ -889,10 +1006,13 @@
         "Sierra Gale"
       ],
       "image": "/characters/aalto.webp",
-      "icon": "/icons/characters/aalto.webp"
+      "icon": "/icons/characters/aalto.webp",
+      "faction": "Black Shores",
+      "affiliation": "The Black Shores",
+      "class": "Congenital"
     },
     {
-      "id": "baizhi",
+      "id": 1103,
       "name": "Baizhi",
       "element": "Glacio",
       "rarity": 4,
@@ -908,10 +1028,13 @@
         "Rejuvenating Glow"
       ],
       "image": "/characters/baizhi.webp",
-      "icon": "/icons/characters/baizhi.webp"
+      "icon": "/icons/characters/baizhi.webp",
+      "faction": "Huaxu Academy",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Mutant"
     },
     {
-      "id": "buling",
+      "id": 1307,
       "name": "Buling",
       "element": "Electro",
       "rarity": 4,
@@ -927,10 +1050,13 @@
         "Rejuvenating Glow"
       ],
       "image": "/characters/buling.webp",
-      "icon": "/icons/characters/buling.webp"
+      "icon": "/icons/characters/buling.webp",
+      "faction": "Mengzhou",
+      "affiliation": "The Black Shores",
+      "class": "Natural"
     },
     {
-      "id": "chixia",
+      "id": 1202,
       "name": "Chixia",
       "element": "Fusion",
       "rarity": 4,
@@ -944,10 +1070,13 @@
         "Molten Rift"
       ],
       "image": "/characters/chixia.webp",
-      "icon": "/icons/characters/chixia.webp"
+      "icon": "/icons/characters/chixia.webp",
+      "faction": "Public Security Bureau",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Mutant"
     },
     {
-      "id": "danjin",
+      "id": 1602,
       "name": "Danjin",
       "element": "Havoc",
       "rarity": 4,
@@ -964,10 +1093,13 @@
         "Havoc Eclipse"
       ],
       "image": "/characters/danjin.webp",
-      "icon": "/icons/characters/danjin.webp"
+      "icon": "/icons/characters/danjin.webp",
+      "faction": "Midnight Rangers",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Mutant"
     },
     {
-      "id": "lumi",
+      "id": 1504,
       "name": "Lumi",
       "element": "Electro",
       "rarity": 4,
@@ -983,10 +1115,13 @@
         "Moonlit Clouds"
       ],
       "image": "/characters/lumi.webp",
-      "icon": "/icons/characters/lumi.webp"
+      "icon": "/icons/characters/lumi.webp",
+      "faction": "Lollo Logistics",
+      "affiliation": "Yuezhou, Huanglong",
+      "class": "Congenital"
     },
     {
-      "id": "mortefi",
+      "id": 1204,
       "name": "Mortefi",
       "element": "Fusion",
       "rarity": 4,
@@ -1004,10 +1139,13 @@
         "Moonlit Clouds"
       ],
       "image": "/characters/mortefi.webp",
-      "icon": "/icons/characters/mortefi.webp"
+      "icon": "/icons/characters/mortefi.webp",
+      "faction": "Huaxu Academy",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Mutant"
     },
     {
-      "id": "sanhua",
+      "id": 1102,
       "name": "Sanhua",
       "element": "Glacio",
       "rarity": 4,
@@ -1022,10 +1160,13 @@
         "Moonlit Clouds"
       ],
       "image": "/characters/sanhua.webp",
-      "icon": "/icons/characters/sanhua.webp"
+      "icon": "/icons/characters/sanhua.webp",
+      "faction": "City Hall",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Mutant"
     },
     {
-      "id": "taoqi",
+      "id": 1601,
       "name": "Taoqi",
       "element": "Havoc",
       "rarity": 4,
@@ -1042,10 +1183,13 @@
         "Rejuvenating Glow"
       ],
       "image": "/characters/taoqi.webp",
-      "icon": "/icons/characters/taoqi.webp"
+      "icon": "/icons/characters/taoqi.webp",
+      "faction": "Ministry of Development",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Natural"
     },
     {
-      "id": "yangyang",
+      "id": 1402,
       "name": "Yangyang",
       "element": "Aero",
       "rarity": 4,
@@ -1062,10 +1206,13 @@
         "Sierra Gale"
       ],
       "image": "/characters/yangyang.webp",
-      "icon": "/icons/characters/yangyang.webp"
+      "icon": "/icons/characters/yangyang.webp",
+      "faction": "Midnight Rangers",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Natural"
     },
     {
-      "id": "youhu",
+      "id": 1106,
       "name": "Youhu",
       "element": "Glacio",
       "rarity": 4,
@@ -1082,10 +1229,13 @@
         "Rejuvenating Glow"
       ],
       "image": "/characters/youhu.webp",
-      "icon": "/icons/characters/youhu.webp"
+      "icon": "/icons/characters/youhu.webp",
+      "faction": "Chongzhou",
+      "affiliation": "",
+      "class": "Mutant"
     },
     {
-      "id": "yuanwu",
+      "id": 1303,
       "name": "Yuanwu",
       "element": "Electro",
       "rarity": 4,
@@ -1103,7 +1253,10 @@
         "Rejuvenating Glow"
       ],
       "image": "/characters/yuanwu.webp",
-      "icon": "/icons/characters/yuanwu.webp"
+      "icon": "/icons/characters/yuanwu.webp",
+      "faction": "Yuanwu Boxing Gym",
+      "affiliation": "Jinzhou,Huanglong",
+      "class": "Natural"
     }
   ]
 }
