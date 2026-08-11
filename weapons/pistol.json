@@ -38,7 +38,13 @@
         337.5,
         51.84
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Resonance Skill dilancarkan, memulihkan 8/10/12/14/16 Concerto Energy. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 20/20/20/20/20 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030036,
@@ -79,7 +85,13 @@
         587.5,
         48.6
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "AATK meningkat sebesar 12%/15%/18%/21%/24%. Saat memberikan Echo Skill DMG, mendapatkan 24%/30%/36%/42%/48% Heavy Attack DMG Amplification selama 6/6/6/6/6 detik. Saat memberikan Heavy Attack DMG, mendapatkan 24%/30%/36%/42%/48% Echo Skill DMG Amplification selama 6/6/6/6/6 detik. DMG Amplification pada setiap serangan dibatasi hingga 24%/30%/36%/42%/48%. Saat kedua efek aktif, memberikan damage mengabaikan 8%/10%/12%/14%/16% DEF target.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030064,
@@ -120,7 +132,13 @@
         412.5,
         30.38
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Resonator menerjang (dash) atau menghindar (dodge), meningkatkan ATK sebesar 4%/5%/6%/7%/8%, dapat di stack(s) hingga 3/3/3/3/3 kali. Efek ini berlangsung selama 8/8/8/8/8 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030045,
@@ -161,7 +179,13 @@
         587.5,
         48.6
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Setelah Resonator di dalam tim melancarkan skill Tune Break, memberikan 20%/22.5%/25%/27.5%/30% All-Attribute DMG Bonus kepada pengguna selama 14/14/14/14/14 detik.  ",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030034,
@@ -202,7 +226,13 @@
         387.5,
         36.45
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Resonator tidak menerima damage, meningkatkan ATK sebesar 6%/7.5%/9%/10.5%/12% setiap 5/5/5/5/5 detik, dapat di stack(s) hingga 2/2/2/2/2 kali. Efek ini berlangsung selama 8/8/8/8/8 detik. Saat Resonator menerima damage, kehilangan 1/1/1/1/1 stack dan memulihkan 5%/6.25%/7.5%/8.75%/10% dari Max HP mereka.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030084,
@@ -243,7 +273,13 @@
         462.5,
         18.23
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Melancarkan Resonance Skill memberikan 6/7/8/9/10 Resonance Energy dan meningkatkan ATK sebesar 10%/12.5%/15%/17.5%/20% selama 16/16/16/16/16 detik. Efek ini dapat dipicu sekali setiap 20/20/20/20/20 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030094,
@@ -284,7 +320,13 @@
         462.5,
         18.23
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat di stack(s) hingga 4/4/4/4/4 kali.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030066,
@@ -329,7 +371,13 @@
         500,
         72
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill memberikan 24%/30%/36%/42%/48% Basic Attack DMG Bonus kepada pengguna selama 14/14/14/14/14 detik. Memberikan Hack - Shifting memberikan 12%/15%/18%/21%/24% Basic Attack DMG Bonus kepada pengguna selama 14/14/14/14/14 detik, dan meningkatkan ATK dari Resonator dalam tim sebesar 24%/30%/36%/42%/48% selama 30/30/30/30/30 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030104,
@@ -370,7 +418,13 @@
         412.5,
         20.25
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Memberikan Basic Attack atau Heavy Attack DMG meningkatkan ATK sebesar 2.2%/3.4%/4.7%/5.9%/7.2% dan memberikan 2.2%/3.4%/4.7%/5.9%/7.2% Heavy Attack DMG Bonus selama 7/7/7/7/7 detik, dapat di stack(s) hingga 4/4/4/4 kali. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030056,
@@ -411,7 +465,13 @@
         587.5,
         48.6
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Resonance Skill memberikan 20%/25%/30%/35%/40% Spectro DMG Bonus kepada pengguna selama 14/14/14/14/14 detik, dapat di stack(s) hingga 2/2/2/2/2 kali. Memberikan Hack - Shifting memberikan 30%/37.5%/45%/52.5%/60% Heavy Attack DMG Amplification kepada pengguna selama 14/14/14/14/14 detik, yang mana selama durasi tersebut Heavy Attack DMG mengabaikan 10/12.5/15/17.5/20% DEF target.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030046,
@@ -452,7 +512,13 @@
         587.5,
         24.3
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill atau memberikan Basic Attack DMG pada target meningkatkan Basic Attack DMG Bonus pengguna sebesar 36%/45%/54%/63%/72% selama 4/4/4/4/4 detik. Setiap kali pengguna memberikan Tune Rupture - Shifting atau Tune Strain - Shifting selama Basic Attack, semua DMG yang diberikan oleh Resonator di dalam tim meningkat sebesar 8%/10%/12%/14%/16% selama 30/30/30/30/30 detik, hingga 3/3/3/3/3 stack. Efek dengan nama yang sama tidak dapat di stack(s).",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030015,
@@ -493,7 +559,13 @@
         587.5,
         24.3
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. ATK Resonator yang masuk ke medan tempur meningkat sebesar 10%/12.5%/15%/17.5%/20% selama 14/14/14/14/14 detik, dapat di stack(s) hingga 1/1/1/1/1 kali setelah pengguna melancarkan Outro Skill.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030016,
@@ -534,7 +606,13 @@
         500,
         72
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Setiap kali Intro Skill atau Resonance Liberation dilancarkan, Resonance Skill DMG Bonus meningkat sebesar 48%/60%/72%/84%/96% selama 5/5/5/5/5 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030074,
@@ -575,7 +653,13 @@
         387.5,
         36.45
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat mengenai target dengan Basic Attack atau Heavy Attack, meningkatkan Resonance Skill DMG Bonus sebesar 7%/11%/15%/19%/23%, dapat di stack(s) hingga 3/3/3/3/3 kali. Efek ini berlangsung selama 10/10/10/10/10 detik dan dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030044,
@@ -616,7 +700,13 @@
         412.5,
         30.38
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Intro Skill dilancarkan, meningkatkan Resonance Skill DMG Bonus sebesar 20%/25%/30%/35%/40% selama 15/15/15/15/15 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21030026,
@@ -657,6 +747,12 @@
         500,
         36
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "ATK meningkat sebesar 12%/15%/18%/21%/24%. Memberikan Aero Erosion pada target memberikan 24%/30%/36%/42%/48% Aero DMG Bonus selama 10/10/10/10/10 detik. Menyerang target yang terkena Aero Erosion mengurangi Aero RES mereka sebesar 10%/11.5%/13%/14.5%/16% selama 20/20/20/20/20 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
+      "refinements": []
+    },
+    "lore": ""
   }
 ]

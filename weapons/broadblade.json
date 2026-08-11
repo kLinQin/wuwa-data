@@ -38,7 +38,13 @@
         588,
         24.3
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Memberikan 12%/15%/18%/21%/24% Attribute DMG Bonus. Melancarkan Intro Skill memberikan Ageless Marking kepada pengguna, yang memberikan 24%/30%/36%/42%/48% Resonance Skill DMG Bonus selama 12/12/12/12/12 detik. Melancarkan Resonance Skill memberikan Ethereal Endowment kepada pengguna, yang memberikan 24%/30%/36%/42%/48% Resonance Skill DMG Bonus selama 12/12/12/12/12 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010015,
@@ -79,7 +85,13 @@
         588,
         36.5
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan Energy Regen sebesar 12.8%/16%/19.2%/22.4%/25.6%. Saat Resonance Skill dilancarkan, Resonance Liberation DMG Bonus meningkat sebesar 7%/8.75%/10.5%/12.25%/14%, dapat di stack(s) hingga 3/3/3/3/3 kali. Efek ini bertahan selama 12/12/12/12/12 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010046,
@@ -120,7 +132,13 @@
         675,
         12.2
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill atau Resonance Skill meningkatkan Heavy Attack DMG sebesar 20%/25%/30%/35%/40% selama 15/15/15/15/15 detik. Mendapatkan Shield memungkinkan Heavy Attack DMG untuk mengabaikan 7.2%/8.4%/9.6%/10.8%/12% DEF target selama 7/7/7/7/7 detik, dapat di stack(s) hingga 5/5/5/5/5 kali. Efek ini dipicu sekali setiap 0,5 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010016,
@@ -161,7 +179,13 @@
         588,
         48.6
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan Attribute DMG Bonus sebesar 12%/15%/18%/21%/24%. Setiap kali Intro Skill atau Resonance Liberation dilancarkan, meningkatkan Heavy Attack DMG Bonus sebesar 24%/30%/36%/42%/48%, dapat di stack(s) hingga 2/2/2/2/2 kali. Efek ini bertahan selama 14/14/14/14/14 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010036,
@@ -202,7 +226,13 @@
         588,
         48.6
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Melancarkan Intro Skill atau Resonance Liberation meningkatkan Resonance Liberation DMG sebesar 24%/30%/36%/42%/48% selama 6/6/6/6/6 detik. Memberikan Heavy Attack DMG memperpanjang efek ini selama 4/4/4/4/4 detik, hingga 1/1/1/1/1 kali. Setiap perpanjangan yang berhasil memberikan 24%/30%/36%/42%/48% Fusion DMG Bonus kepada semua Resonator dalam tim selama 30/30/30/30/30 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010056,
@@ -243,7 +273,13 @@
         500,
         36
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat pengguna melancarkan Intro Skill atau memberikan Negative Statuses, mereka mendapatkan 8%/10%/12%/14%/16% Resonance Liberation DMG Bonus, dapat di stack(s) hingga 3/3/3/3/3 kali selama 15/15/15/15/15 detik.Pada stack maksimum, saat Resonator dalam tim memberikan Negative Statuses, mereka mendapatkan 24%/30%/36%/42%/48% All-Attribute DMG Bonus selama 15/15/15/15/15 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010066,
@@ -284,7 +320,13 @@
         412.5,
         77.04
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan DEF sebesar 16%/20%/24%/28%/32%. Melancarkan Resonance Liberation memulihkan 8/10/12/14/16 poin Concerto Energy. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 20/20/20/20/20 detik. Saat pengguna memulihkan Resonator, meningkatkan Crit. DMG semua Resonator terdekat dalam tim sebesar 20%/25%/30%/35%/40% selama 4/4/4/4/4 detik. Efek dengan nama yang sama tidak dapat di stack(s).",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010045,
@@ -325,7 +367,13 @@
         587.5,
         48.6
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Memberikan damage kepada target dalam status Tune Strain - Interfered memberikan 24%/27%/30%/33%/36% Resonance Liberation Bonus selama 3/3/3/3/3 detik. Memicu ulang efek ini akan mengatur ulang durasinya.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010074,
@@ -366,7 +414,13 @@
         412.5,
         20.25
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Meningkatkan ATK sebesar 4%/6.2%/8.4%/10.6%/12.8% saat memberikan Basic Attack DMG atau Heavy Attack DMG, dapat di stack(s) hingga 5/5/5/5/5 kali. Efek ini bertahan selama 7/7/7/7/7 detik dan dapat dipicu 1/1/1/1/1 kali setiap 1/1/1/1/1 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010034,
@@ -407,7 +461,13 @@
         412.5,
         32.4
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat HP Resonator di atas 80%/80%/80%/80%/80%, meningkatkan ATK sebesar 12%/15%/18%/21%/24%. Saat HP Resonator di bawah 40%/50%/60%/70%/80%, memberikan 5%/6.25%/7.5%/8.75%/10% pemulihan saat memberikan Basic Attack DMG atau Heavy Attack DMG. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 8/8/8/8/8 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010044,
@@ -448,7 +508,13 @@
         337.5,
         61.56
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Intro Skill dilancarkan, meningkatkan ATK sebesar 8%/10%/12%/14%/16% dan DEF sebesar 15%/18.75%/22.5%/26.25%/30% selama 15/15/15/15/15 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010024,
@@ -489,7 +555,13 @@
         337.5,
         51.84
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Saat Resonance Skill dilancarkan, memulihkan 8/10/12/14/16 Concerto Energy. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 20/20/20/20/20 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010064,
@@ -530,7 +602,13 @@
         412.5,
         30.38
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Dalam 12/12/12/12/12 detik setelah Resonance Skill dilancarkan, meningkatkan ATK sebesar 3%/3.75%/4.5%/5.25%/6% setiap 2/2/2/2/2 detik, dapat di stack(s) hingga 4/4/4/4/4 kali. Efek ini dapat dipicu 1/1/1/1/1 kali setiap 12/12/12/12/12 detik. Saat jumlah stack(s) mencapai 4/4/4/4/4, semua stack(s) akan diatur ulang dalam 6/6/6/6/6 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010094,
@@ -571,7 +649,13 @@
         462.5,
         18.23
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Memberikan DMG kepada musuh dengan Negative Statuses meningkatkan ATK pengguna sebesar 4%/5%/6%/7%/8% selama 10/10/10/10/10 detik. Efek ini dapat dipicu 1 kali per detik, dapat di stack(s) hingga 4/4/4/4/4 kali.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010084,
@@ -612,7 +696,13 @@
         462.5,
         18.23
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Melancarkan Resonance Skill memberikan 6/7/8/9/10 Resonance Energy dan meningkatkan ATK sebesar 10%/12.5%/15%/17.5%/20% selama 16/16/16/16/16 detik. Efek ini dapat dipicu sekali setiap 20/20/20/20/20 detik.",
+      "refinements": []
+    },
+    "lore": ""
   },
   {
     "id": 21010104,
@@ -653,6 +743,12 @@
         412.5,
         40.5
       ]
-    }
+    },
+    "passive": {
+      "name": "Weapon Skill",
+      "description": "Melancarkan Resonance Liberation meningkatkan ATK sebesar 7.2%/11.1%/15.1%/19%/23% dan memberikan 10.8%/16.7%/22.6%/28.6%/34.5% Heavy Attack DMG Bonus selama 15/15/15/15/15 detik.",
+      "refinements": []
+    },
+    "lore": ""
   }
 ]
