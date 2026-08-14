@@ -314,31 +314,31 @@
         "level": 90,
         "cost": [
           {
-            "item": "Our Choice",
+            "item": 97,
             "amount": 46
           },
           {
-            "item": "LF Exoswarm Core",
+            "item": 65,
             "amount": 4
           },
           {
-            "item": "MF Exoswarm Core",
+            "item": 79,
             "amount": 12
           },
           {
-            "item": "HF Exoswarm Core",
+            "item": 48,
             "amount": 12
           },
           {
-            "item": "FF Exoswarm Core",
+            "item": 32,
             "amount": 4
           },
           {
-            "item": "Redbell",
+            "item": 108,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ]
@@ -347,43 +347,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "We Who Question",
+          "item": 141,
           "amount": 26
         },
         {
-          "item": "LF Exoswarm Core",
+          "item": 65,
           "amount": 25
         },
         {
-          "item": "MF Exoswarm Core",
+          "item": 79,
           "amount": 28
         },
         {
-          "item": "HF Exoswarm Core",
+          "item": 48,
           "amount": 40
         },
         {
-          "item": "FF Exoswarm Core",
+          "item": 32,
           "amount": 57
         },
         {
-          "item": "Broken Wing Polarizer",
+          "item": 14,
           "amount": 25
         },
         {
-          "item": "Monowing Polarizer",
+          "item": 91,
           "amount": 28
         },
         {
-          "item": "Polywing Polarizer",
+          "item": 104,
           "amount": 55
         },
         {
-          "item": "Layered Wing Polarizer",
+          "item": 73,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

@@ -231,31 +231,31 @@
         "level": 90,
         "cost": [
           {
-            "item": "Our Choice",
+            "item": 97,
             "amount": 46
           },
           {
-            "item": "Fractured Exoswarm Pendant",
+            "item": 41,
             "amount": 4
           },
           {
-            "item": "Worn Exoswarm Pendant",
+            "item": 144,
             "amount": 12
           },
           {
-            "item": "Chipped Exoswarm Pendant",
+            "item": 20,
             "amount": 12
           },
           {
-            "item": "Intact Exoswarm Pendant",
+            "item": 61,
             "amount": 4
           },
           {
-            "item": "Arithmetic Shell",
+            "item": 6,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ]
@@ -264,43 +264,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "Gold In Memory",
+          "item": 43,
           "amount": 26
         },
         {
-          "item": "Fractured Exoswarm Pendant",
+          "item": 41,
           "amount": 25
         },
         {
-          "item": "Worn Exoswarm Pendant",
+          "item": 144,
           "amount": 28
         },
         {
-          "item": "Chipped Exoswarm Pendant",
+          "item": 20,
           "amount": 40
         },
         {
-          "item": "Intact Exoswarm Pendant",
+          "item": 61,
           "amount": 57
         },
         {
-          "item": "LF Waveworn Shard",
+          "item": 70,
           "amount": 25
         },
         {
-          "item": "MF Waveworn Shard",
+          "item": 84,
           "amount": 28
         },
         {
-          "item": "HF Waveworn Shard",
+          "item": 53,
           "amount": 55
         },
         {
-          "item": "FF Waveworn Shard",
+          "item": 37,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

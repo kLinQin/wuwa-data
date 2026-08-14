@@ -292,31 +292,31 @@
       {
         "cost": [
           {
-            "item": "Burning Judgment",
+            "item": 15,
             "amount": 46
           },
           {
-            "item": "LF Mech Core",
+            "item": 67,
             "amount": 4
           },
           {
-            "item": "MF Mech Core",
+            "item": 81,
             "amount": 12
           },
           {
-            "item": "HF Mech Core",
+            "item": 50,
             "amount": 12
           },
           {
-            "item": "FF Mech Core",
+            "item": 34,
             "amount": 4
           },
           {
-            "item": "Rimewisp",
+            "item": 112,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ],
@@ -326,43 +326,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "The Netherworld's Stare",
+          "item": 130,
           "amount": 26
         },
         {
-          "item": "LF Mech Core",
+          "item": 67,
           "amount": 25
         },
         {
-          "item": "MF Mech Core",
+          "item": 81,
           "amount": 28
         },
         {
-          "item": "HF Mech Core",
+          "item": 50,
           "amount": 40
         },
         {
-          "item": "FF Mech Core",
+          "item": 34,
           "amount": 57
         },
         {
-          "item": "LF Carved Crystal",
+          "item": 64,
           "amount": 25
         },
         {
-          "item": "MF Carved Crystal",
+          "item": 78,
           "amount": 28
         },
         {
-          "item": "HF Carved Crystal",
+          "item": 47,
           "amount": 55
         },
         {
-          "item": "FF Carved Crystal",
+          "item": 31,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

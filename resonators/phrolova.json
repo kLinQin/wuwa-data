@@ -233,31 +233,31 @@
         "level": 90,
         "cost": [
           {
-            "item": "Truth in Lies",
+            "item": 133,
             "amount": 46
           },
           {
-            "item": "LF Polygon Core",
+            "item": 68,
             "amount": 4
           },
           {
-            "item": "MF Polygon Core",
+            "item": 82,
             "amount": 12
           },
           {
-            "item": "HF Polygon Core",
+            "item": 51,
             "amount": 12
           },
           {
-            "item": "FF Polygon Core",
+            "item": 35,
             "amount": 4
           },
           {
-            "item": "Afterlife",
+            "item": 3,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ]
@@ -266,43 +266,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "The Netherworld's Stare",
+          "item": 130,
           "amount": 26
         },
         {
-          "item": "LF Polygon Core",
+          "item": 68,
           "amount": 25
         },
         {
-          "item": "MF Polygon Core",
+          "item": 82,
           "amount": 28
         },
         {
-          "item": "HF Polygon Core",
+          "item": 51,
           "amount": 40
         },
         {
-          "item": "FF Polygon Core",
+          "item": 35,
           "amount": 57
         },
         {
-          "item": "Lento Helix",
+          "item": 74,
           "amount": 25
         },
         {
-          "item": "Adagio Helix",
+          "item": 2,
           "amount": 28
         },
         {
-          "item": "Andante Helix",
+          "item": 5,
           "amount": 55
         },
         {
-          "item": "Presto Helix",
+          "item": 105,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

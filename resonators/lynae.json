@@ -296,31 +296,31 @@
         "level": 90,
         "cost": [
           {
-            "item": "Suncoveter's Reach",
+            "item": 126,
             "amount": 46
           },
           {
-            "item": "LF Exoswarm Core",
+            "item": 65,
             "amount": 4
           },
           {
-            "item": "MF Exoswarm Core",
+            "item": 79,
             "amount": 12
           },
           {
-            "item": "HF Exoswarm Core",
+            "item": 48,
             "amount": 12
           },
           {
-            "item": "FF Exoswarm Core",
+            "item": 32,
             "amount": 4
           },
           {
-            "item": "Rimewisp",
+            "item": 112,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ]
@@ -329,43 +329,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "Dreamless Feather",
+          "item": 26,
           "amount": 26
         },
         {
-          "item": "LF Exoswarm Core",
+          "item": 65,
           "amount": 25
         },
         {
-          "item": "MF Exoswarm Core",
+          "item": 79,
           "amount": 28
         },
         {
-          "item": "HF Exoswarm Core",
+          "item": 48,
           "amount": 40
         },
         {
-          "item": "FF Exoswarm Core",
+          "item": 32,
           "amount": 57
         },
         {
-          "item": "Incomplete Combustor",
+          "item": 59,
           "amount": 25
         },
         {
-          "item": "Remnant Combustor",
+          "item": 110,
           "amount": 28
         },
         {
-          "item": "Aftertune Combustor",
+          "item": 4,
           "amount": 55
         },
         {
-          "item": "Reverb Combustor",
+          "item": 111,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

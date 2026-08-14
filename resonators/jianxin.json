@@ -179,31 +179,31 @@
       {
         "cost": [
           {
-            "item": "Roaring Rock Fist",
+            "item": 113,
             "amount": 46
           },
           {
-            "item": "LF Whisperin Core",
+            "item": 71,
             "amount": 4
           },
           {
-            "item": "MF Whisperin Core",
+            "item": 85,
             "amount": 12
           },
           {
-            "item": "HF Whisperin Core",
+            "item": 54,
             "amount": 12
           },
           {
-            "item": "FF Whisperin Core",
+            "item": 38,
             "amount": 4
           },
           {
-            "item": "Lanternberry",
+            "item": 72,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ],
@@ -213,43 +213,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "Unending Destruction",
+          "item": 134,
           "amount": 26
         },
         {
-          "item": "LF Whisperin Core",
+          "item": 71,
           "amount": 25
         },
         {
-          "item": "MF Whisperin Core",
+          "item": 85,
           "amount": 28
         },
         {
-          "item": "HF Whisperin Core",
+          "item": 54,
           "amount": 40
         },
         {
-          "item": "FF Whisperin Core",
+          "item": 38,
           "amount": 57
         },
         {
-          "item": "Cadence Seed",
+          "item": 19,
           "amount": 25
         },
         {
-          "item": "Cadence Bud",
+          "item": 17,
           "amount": 28
         },
         {
-          "item": "Cadence Leaf",
+          "item": 18,
           "amount": 55
         },
         {
-          "item": "Cadence Blossom",
+          "item": 16,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

@@ -246,31 +246,31 @@
         "level": 90,
         "cost": [
           {
-            "item": "Abyssal Husk",
+            "item": 1,
             "amount": 46
           },
           {
-            "item": "LF Polygon Core",
+            "item": 68,
             "amount": 4
           },
           {
-            "item": "MF Polygon Core",
+            "item": 82,
             "amount": 12
           },
           {
-            "item": "HF Polygon Core",
+            "item": 51,
             "amount": 12
           },
           {
-            "item": "FF Polygon Core",
+            "item": 35,
             "amount": 4
           },
           {
-            "item": "Summer Flower",
+            "item": 125,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ]
@@ -279,43 +279,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "When Irises Bloom",
+          "item": 142,
           "amount": 26
         },
         {
-          "item": "LF Polygon Core",
+          "item": 68,
           "amount": 25
         },
         {
-          "item": "MF Polygon Core",
+          "item": 82,
           "amount": 28
         },
         {
-          "item": "HF Polygon Core",
+          "item": 51,
           "amount": 40
         },
         {
-          "item": "FF Polygon Core",
+          "item": 35,
           "amount": 57
         },
         {
-          "item": "Waveworn Residue 210",
+          "item": 137,
           "amount": 25
         },
         {
-          "item": "Waveworn Residue 226",
+          "item": 138,
           "amount": 28
         },
         {
-          "item": "Waveworn Residue 235",
+          "item": 139,
           "amount": 55
         },
         {
-          "item": "Waveworn Residue 239",
+          "item": 140,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

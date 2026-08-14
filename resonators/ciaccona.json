@@ -205,31 +205,31 @@
         "level": 90,
         "cost": [
           {
-            "item": "Blazing Bone",
+            "item": 10,
             "amount": 46
           },
           {
-            "item": "LF  Tidal Residuum",
+            "item": 69,
             "amount": 4
           },
           {
-            "item": "MF  Tidal Residuum",
+            "item": 83, 
             "amount": 12
           },
           {
-            "item": "HF  Tidal Residuum",
+            "item": 52,
             "amount": 12
           },
           {
-            "item": "FF  Tidal Residuum",
+            "item": 36,
             "amount": 4
           },
           {
-            "item": "Golden Fleece",
+            "item": 44,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ]
@@ -238,43 +238,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "When Irises Bloom",
+          "item": 142,
           "amount": 26
         },
         {
-          "item": "LF Tidal Residuum",
+          "item": 69,
           "amount": 25
         },
         {
-          "item": "MF Tidal Residuum",
+          "item": 83,
           "amount": 28
         },
         {
-          "item": "HF Tidal Residuum",
+          "item": 52,
           "amount": 40
         },
         {
-          "item": "FF Tidal Residuum",
+          "item": 36,
           "amount": 57
         },
         {
-          "item": "Impure Phlogiston",
+          "item": 58,
           "amount": 25
         },
         {
-          "item": "Extracted Phlogiston",
+          "item": 29,
           "amount": 28
         },
         {
-          "item": "Refined Phlogiston",
+          "item": 109,
           "amount": 55
         },
         {
-          "item": "Flawless Phlogiston",
+          "item": 40,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

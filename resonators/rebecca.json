@@ -333,31 +333,31 @@
         "level": 90,
         "cost": [
           {
-            "item": "Nightmare Flashdrive",
+            "item": 95,
             "amount": 46
           },
           {
-            "item": "LF Mech Core",
+            "item": 67,
             "amount": 4
           },
           {
-            "item": "MF Mech Core",
+            "item": 81,
             "amount": 12
           },
           {
-            "item": "HF Mech Core",
+            "item": 50,
             "amount": 12
           },
           {
-            "item": "FF Mech Core",
+            "item": 34,
             "amount": 4
           },
           {
-            "item": "Past Reveries",
+            "item": 98,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ]
@@ -366,43 +366,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "We Who Question",
+          "item": 141,
           "amount": 26
         },
         {
-          "item": "LF Mech Core",
+          "item": 67,
           "amount": 25
         },
         {
-          "item": "MF Mech Core",
+          "item": 81,
           "amount": 28
         },
         {
-          "item": "HF Mech Core",
+          "item": 50,
           "amount": 40
         },
         {
-          "item": "FF Mech Core",
+          "item": 34,
           "amount": 57
         },
         {
-          "item": "Incomplete Combustor",
+          "item": 59,
           "amount": 25
         },
         {
-          "item": "Remnant Combustor",
+          "item": 110,
           "amount": 28
         },
         {
-          "item": "Aftertune Combustor",
+          "item": 4,
           "amount": 55
         },
         {
-          "item": "Reverb Combustor",
+          "item": 111,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

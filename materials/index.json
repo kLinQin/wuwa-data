@@ -3,882 +3,1036 @@
     "id": 1,
     "name": "Abyssal_Husk",
     "tier": 5,
-    "description": "source: Lady of the Sea "
+    "description": "source: Lady of the Sea ",
+    "image": "/icons/materials/Abyssal_Husk.webp"
   },
   {
     "id": 2,
     "name": "Adagio_Helix",
     "tier": 2,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Adagio_Helix.webp"
   },
   {
     "id": 3,
     "name": "Afterlife",
     "tier": 0,
-    "description": "source: Dancer/Fabricatorium of the Deep"
+    "description": "source: Dancer/Fabricatorium of the Deep",
+    "image": "/icons/materials/Afterlife.webp"
   },
   {
     "id": 4,
     "name": "Aftertune_Combustor",
     "tier": 2,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Aftertune_Combustor.webp"
   },
   {
     "id": 5,
     "name": "Andante_Helix",
     "tier": 3,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Andante_Helix.webp"
   },
   {
     "id": 6,
     "name": "Arithmetic_Shell",
     "tier": 0,
-    "description": "source: beli dari N.A.N.A/Lahai-Roi"
+    "description": "source: beli dari N.A.N.A/Lahai-Roi",
+    "image": "/icons/materials/Arithmetic_Shell.webp"
   },
   {
     "id": 7,
     "name": "Bamboo_Iris",
     "tier": 0,
-    "description": "source: beli dari Danvers/Septimont"
+    "description": "source: beli dari Danvers/Septimont",
+    "image": "/icons/materials/Bamboo_Iris.webp"
   },
   {
     "id": 8,
     "name": "Basic_Ring",
     "tier": 2,
-    "description": "source: Exiles/Synthesis"
+    "description": "source: Exiles/Synthesis",
+    "image": "/icons/materials/Basic_Ring.webp"
   },
   {
     "id": 9,
     "name": "Belle_Poppy",
     "tier": 0,
-    "description": "source: beli dari Koko/explore Sea of Flames"
+    "description": "source: beli dari Koko/explore Sea of Flames",
+    "image": "/icons/materials/Belle_Poppy.webp"
   },
   {
     "id": 10,
     "name": "Blazing_Bone",
     "tier": 5,
-    "description": "source: Dragon of Dirge"
+    "description": "source: Dragon of Dirge",
+    "image": "/icons/materials/Blazing_Bone.webp"
   },
   {
     "id": 11,
     "name": "Blighted_Crown_of_Puppet_King",
     "tier": 5,
-    "description": "source: The False Sovereign"
+    "description": "source: The False Sovereign",
+    "image": "/icons/materials/Blighted_Crown_of_Puppet_King.webp"
   },
   {
     "id": 12,
     "name": "Bloodleaf_Viburnum",
     "tier": 0,
-    "description": "source: beli dari Danvers/Septimont"
+    "description": "source: beli dari Danvers/Septimont",
+    "image": "/icons/materials/Bloodleaf_Viburnum.webp"
   },
   {
     "id": 13,
     "name": "Broken_String",
     "tier": 2,
-    "description": "source:  Forgery/Synthesis"
+    "description": "source:  Forgery/Synthesis",
+    "image": "/icons/materials/Broken_String.webp"
   },
   {
     "id": 14,
     "name": "Broken_Wing_Polarizer",
     "tier": 1,
-    "description": "source: Forgery/Synthesis"
+    "description": "source: Forgery/Synthesis",
+    "image": "/icons/materials/Broken_Wing_Polarizer.webp"
   },
   {
     "id": 15,
     "name": "Burning_Judgment",
     "tier": 5,
-    "description": "source: Reactor Husk"
+    "description": "source: Reactor Husk",
+    "image": "/icons/materials/Burning_Judgment.webp"
   },
   {
     "id": 16,
     "name": "Cadence_Blossom",
     "tier": 4,
-    "description": "source: Synthesis/Forgery Challenge"
+    "description": "source: Synthesis/Forgery Challenge",
+    "image": "/icons/materials/Cadence_Blossom.webp"
   },
   {
     "id": 17,
     "name": "Cadence_Bud",
     "tier": 2,
-    "description": "source: Synthesis/Forgery Challenge"
+    "description": "source: Synthesis/Forgery Challenge",
+    "image": "/icons/materials/Cadence_Bud.webp"
   },
   {
     "id": 18,
     "name": "Cadence_Leaf",
     "tier": 3,
-    "description": "source: Synthesis/Forgery Challenge"
+    "description": "source: Synthesis/Forgery Challenge",
+    "image": "/icons/materials/Cadence_Leaf.webp"
   },
   {
     "id": 19,
     "name": "Cadence_Seed",
     "tier": 1,
-    "description": "source: Synthesis/Forgery Challenge"
+    "description": "source: Synthesis/Forgery Challenge",
+    "image": "/icons/materials/Cadence_Seed.webp"
   },
   {
     "id": 20,
     "name": "Chipped_Exoswarm_Pendant",
     "tier": 3,
-    "description": "source: Roya Outcasts/Synthesis"
+    "description": "source: Roya Outcasts/Synthesis",
+    "image": "/icons/materials/Chipped_Exoswarm_Pendant.webp"
   },
   {
     "id": 21,
     "name": "Cleansing_Conch",
     "tier": 5,
-    "description": "source: Lorelei"
+    "description": "source: Lorelei",
+    "image": "/icons/materials/Cleansing_Conch.webp"
   },
   {
     "id": 22,
     "name": "Cloudperch_Seed",
     "tier": 0,
-    "description": "source:  No vendor"
+    "description": "source:  No vendor",
+    "image": "/icons/materials/Cloudperch_Seed.webp"
   },
   {
     "id": 23,
     "name": "Coriolus",
     "tier": 0,
-    "description": "source: beli dari Koko/explore Contemplator's Cliff and Giant Banyan"
+    "description": "source: beli dari Koko/explore Contemplator's Cliff and Giant Banyan",
+    "image": "/icons/materials/Coriolus.webp"
   },
   {
     "id": 24,
     "name": "Crude_Ring",
     "tier": 1,
-    "description": "source: source: Exiles/Synthesis"
+    "description": "source: source: Exiles/Synthesis",
+    "image": "/icons/materials/Crude_Ring.webp"
   },
   {
     "id": 25,
     "name": "Curse_of_the_Abyss",
     "tier": 5,
-    "description": "source: Threnodian: Leviathan"
+    "description": "source: Threnodian: Leviathan",
+    "image": "/icons/materials/Curse_of_the_Abyss.webp"
   },
   {
     "id": 145,
     "name": "Dream_Of_Stars",
     "tier": 0,
-    "description": "source: beli dari N.A.N.A."
+    "description": "source: beli dari N.A.N.A.",
+    "image": "/icons/materials/Dream_Of_Stars.webp"
   },
   {
     "id": 26,
     "name": "Dreamless_Feather",
     "tier": 5,
-    "description": "source: Dreamless"
+    "description": "source: Dreamless",
+    "image": "/icons/materials/Dreamless_Feather.webp"
   },
   {
     "id": 27,
     "name": "Edelschnee",
     "tier": 0,
-    "description": "source: beli dari N.A.N.A."
+    "description": "source: beli dari N.A.N.A.",
+    "image": "/icons/materials/Edelschnee.webp"
   },
   {
     "id": 28,
     "name": "Elegy_Tacet_Core",
     "tier": 5,
-    "description": "source: Mourning Aix"
+    "description": "source: Mourning Aix",
+    "image": "/icons/materials/Elegy_Tacet_Core.webp"
   },
   {
     "id": 29,
     "name": "Extracted_Phlogiston",
     "tier": 2,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Extracted_Phlogiston.webp"
   },
   {
     "id": 30,
     "name": "FF_Autopuppet_Kernel",
     "tier": 4,
-    "description": "source: Autopuppet TD/store/Forgery Challenge"
+    "description": "source: Autopuppet TD/store/Forgery Challenge",
+    "image": "/icons/materials/FF_Autopuppet_Kernel.webp"
   },
   {
     "id": 31,
     "name": "FF_Carved_Crystal",
     "tier": 4,
-    "description": "source: Forgery Challenge/Synthesis"
+    "description": "source: Forgery Challenge/Synthesis",
+    "image": "/icons/materials/FF_Carved_Crystal.webp"
   },
   {
     "id": 32,
     "name": "FF_Exoswarm_Core",
     "tier": 4,
-    "description": "source: Exoswarms/Synthesis/Forgery"
+    "description": "source: Exoswarms/Synthesis/Forgery",
+    "image": "/icons/materials/FF_Exoswarm_Core.webp"
   },
   {
     "id": 33,
     "name": "FF_Howler_Core",
     "tier": 4,
-    "description": "source: source: Howlers/store/Forgery"
+    "description": "source: source: Howlers/store/Forgery",
+    "image": "/icons/materials/FF_Howler_Core.webp"
   },
   {
     "id": 34,
     "name": "FF_Mech_Core",
     "tier": 4,
-    "description": "source: Clamorling TDs/Synthesis/Forgery"
+    "description": "source: Clamorling TDs/Synthesis/Forgery",
+    "image": "/icons/materials/FF_Mech_Core.webp"
   },
   {
     "id": 35,
     "name": "FF_Polygon_Core",
     "tier": 4,
-    "description": "source: Clamorling TDs/Synthesis/Forgery"
+    "description": "source: Clamorling TDs/Synthesis/Forgery",
+    "image": "/icons/materials/FF_Polygon_Core.webp"
   },
   {
     "id": 36,
     "name": "FF_Tidal_Residuum",
     "tier": 4,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/FF_Tidal_Residuum.webp"
   },
   {
     "id": 37,
     "name": "FF_Waveworn_Shard",
     "tier": 4,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/FF_Waveworn_Shard.webp"
   },
   {
     "id": 38,
     "name": "FF_Whisperin_Core",
     "tier": 4,
-    "description": "source: Whisperins/Synthesis"
+    "description": "source: Whisperins/Synthesis",
+    "image": "/icons/materials/FF_Whisperin_Core.webp"
   },
   {
     "id": 39,
     "name": "Firecracker_Jewelweed",
     "tier": 0,
-    "description": "source: beli dari Rosemary/Nimbus Sanctum"
+    "description": "source: beli dari Rosemary/Nimbus Sanctum",
+    "image": "/icons/materials/Firecracker_Jewelweed.webp"
   },
   {
     "id": 40,
     "name": "Flawless_Phlogiston",
     "tier": 4,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Flawless_Phlogiston.webp"
   },
   {
     "id": 147,
     "name": "Flowborne_Dream",
     "tier": 0,
-    "description": "No vendor"
+    "description": "No vendor",
+    "image": "/icons/materials/Flowborne_Dream.webp"
+  },
+  {
+    "id": 148,
+    "name": "Forget_Me_Not",
+    "tier": 0,
+    "description": "Source: Overworld Collection",
+    "image": "/icons/materials/Forget_Me_Not.webp"
   },
   {
     "id": 41,
     "name": "Fractured_Exoswarm_Pendant",
     "tier": 1,
-    "description": "source: Roya Outcasts/Synthesis"
+    "description": "source: Roya Outcasts/Synthesis",
+    "image": "/icons/materials/Fractured_Exoswarm_Pendant.webp"
   },
   {
     "id": 146,
     "name": "Gemini_Spore",
     "tier": 0,
-    "description": "source: beli dari N.A.N.A."
+    "description": "source: beli dari N.A.N.A.",
+    "image": "/icons/materials/Gemini_Spore.webp"
   },
   {
     "id": 43,
     "name": "Gold_In_Memory",
     "tier": 5,
-    "description": "source: Sigillum"
+    "description": "source: Sigillum",
+    "image": "/icons/materials/Gold_In_Memory.webp"
   },
   {
     "id": 42,
     "name": "Gold-Dissolving_Feather",
     "tier": 5,
-    "description": "source: Impermanence Heron"
+    "description": "source: Impermanence Heron",
+    "image": "/icons/materials/Gold-Dissolving_Feather.webp"
   },
   {
     "id": 44,
     "name": "Golden_Fleece",
     "tier": 0,
-    "description": "source: beli dari Rosemary/Penitent's End"
+    "description": "source: beli dari Rosemary/Penitent's End",
+    "image": "/icons/materials/Golden_Fleece.webp"
   },
   {
     "id": 45,
     "name": "Group_Abomination_Tacet_Core",
     "tier": 5,
-    "description": "source: Mech Abomination"
+    "description": "source: Mech Abomination",
+    "image": "/icons/materials/Group_Abomination_Tacet_Core.webp"
   },
   {
     "id": 55,
     "name": "Heterized_Metallic_Drip",
     "tier": 4,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Heterized_Metallic_Drip.webp"
   },
   {
     "id": 46,
     "name": "HF_Autopuppet_Kernel",
     "tier": 3,
-    "description": "source: Autopuppet TD/store/Forgery Challenge"
+    "description": "source: Autopuppet TD/store/Forgery Challenge",
+    "image": "/icons/materials/HF_Autopuppet_Kernel.webp"
   },
   {
     "id": 47,
     "name": "HF_Carved_Crystal",
     "tier": 3,
-    "description": "source: Forgery Challenge/Synthesis"
+    "description": "source: Forgery Challenge/Synthesis",
+    "image": "/icons/materials/HF_Carved_Crystal.webp"
   },
   {
     "id": 48,
     "name": "HF_Exoswarm_Core",
     "tier": 3,
-    "description": "source: Exoswarms/Synthesis/Forgery"
+    "description": "source: Exoswarms/Synthesis/Forgery",
+    "image": "/icons/materials/HF_Exoswarm_Core.webp"
   },
   {
     "id": 49,
     "name": "HF_Howler_Core",
     "tier": 3,
-    "description": "source: Howlers/store/Forgery"
+    "description": "source: Howlers/store/Forgery",
+    "image": "/icons/materials/HF_Howler_Core.webp"
   },
   {
     "id": 50,
     "name": "HF_Mech_Core",
     "tier": 3,
-    "description": "source: Clamorling TDs/Synthesis/Forgery"
+    "description": "source: Clamorling TDs/Synthesis/Forgery",
+    "image": "/icons/materials/HF_Mech_Core.webp"
   },
   {
     "id": 51,
     "name": "HF_Polygon_Core",
     "tier": 3,
-    "description": "source: Clamorling TDs/Synthesis/Forgery"
+    "description": "source: Clamorling TDs/Synthesis/Forgery",
+    "image": "/icons/materials/HF_Polygon_Core.webp"
   },
   {
     "id": 52,
     "name": "HF_Tidal_Residuum",
     "tier": 3,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/HF_Tidal_Residuum.webp"
   },
   {
     "id": 53,
     "name": "HF_Waveworn_Shard",
     "tier": 3,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/HF_Waveworn_Shard.webp"
   },
   {
     "id": 54,
     "name": "HF_Whisperin_Core",
     "tier": 3,
-    "description": "source: Whisperins/Synthesis"
+    "description": "source: Whisperins/Synthesis",
+    "image": "/icons/materials/HF_Whisperin_Core.webp"
   },
   {
     "id": 56,
     "name": "Hidden_Thunder_Tacet_Core",
     "tier": 5,
-    "description": "source: Tempest Mephis"
+    "description": "source: Tempest Mephis",
+    "image": "/icons/materials/Hidden_Thunder_Tacet_Core.webp"
   },
   {
     "id": 57,
     "name": "Improved_Ring",
     "tier": 3,
-    "description": "source: source: Exiles/Synthesis"
+    "description": "source: source: Exiles/Synthesis",
+    "image": "/icons/materials/Improved_Ring.webp"
   },
   {
     "id": 58,
     "name": "Impure_Phlogiston",
     "tier": 1,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Impure_Phlogiston.webp"
   },
   {
     "id": 59,
     "name": "Incomplete_Combustor",
     "tier": 1,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Incomplete_Combustor.webp"
   },
   {
     "id": 60,
     "name": "Inert_Metallic_Drip",
     "tier": 1,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Inert_Metallic_Drip.webp"
   },
   {
     "id": 61,
     "name": "Intact_Exoswarm_Pendant",
     "tier": 4,
-    "description": "source: Roya Outcasts/Synthesis"
+    "description": "source: Roya Outcasts/Synthesis",
+    "image": "/icons/materials/Intact_Exoswarm_Pendant.webp"
   },
   {
     "id": 62,
     "name": "Iris",
     "tier": 0,
-    "description": "source: beli dari Koko/explore Heron Wetland"
+    "description": "source: beli dari Koko/explore Heron Wetland",
+    "image": "/icons/materials/Iris.webp"
   },
   {
     "id": 72,
     "name": "Lanternberry",
     "tier": 0,
-    "description": "source: beli dari Koko/explore Tiger's Maw Mine"
+    "description": "source: beli dari Koko/explore Tiger's Maw Mine",
+    "image": "/icons/materials/Lanternberry.webp"
   },
   {
     "id": 73,
     "name": "Layered_Wing_Polarizer",
     "tier": 4,
-    "description": "source: Forgery/Synthesis"
+    "description": "source: Forgery/Synthesis",
+    "image": "/icons/materials/Layered_Wing_Polarizer.webp"
   },
   {
     "id": 74,
     "name": "Lento_Helix",
     "tier": 1,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Lento_Helix.webp"
   },
   {
     "id": 63,
     "name": "LF_Autopuppet_Kernel",
     "tier": 1,
-    "description": "source: Autopuppet TD/store/Forgery Challenge"
+    "description": "source: Autopuppet TD/store/Forgery Challenge",
+    "image": "/icons/materials/LF_Autopuppet_Kernel.webp"
   },
   {
     "id": 64,
     "name": "LF_Carved_Crystal",
     "tier": 1,
-    "description": "source: Forgery Challenge/Synthesis"
+    "description": "source: Forgery Challenge/Synthesis",
+    "image": "/icons/materials/LF_Carved_Crystal.webp"
   },
   {
     "id": 65,
     "name": "LF_Exoswarm_Core",
     "tier": 1,
-    "description": "source: Exoswarms/Synthesis/Forgery"
+    "description": "source: Exoswarms/Synthesis/Forgery",
+    "image": "/icons/materials/LF_Exoswarm_Core.webp"
   },
   {
     "id": 66,
     "name": "LF_Howler_Core",
     "tier": 1,
-    "description": "source: source: Howlers/store/Forgery"
+    "description": "source: source: Howlers/store/Forgery",
+    "image": "/icons/materials/LF_Howler_Core.webp"
   },
   {
     "id": 67,
     "name": "LF_Mech_Core",
     "tier": 1,
-    "description": "source: Clamorling TDs/Synthesis/Forgery"
+    "description": "source: Clamorling TDs/Synthesis/Forgery",
+    "image": "/icons/materials/LF_Mech_Core.webp"
   },
   {
     "id": 68,
     "name": "LF_Polygon_Core",
     "tier": 1,
-    "description": "source: Clamorling TDs/Synthesis/Forgery"
+    "description": "source: Clamorling TDs/Synthesis/Forgery",
+    "image": "/icons/materials/LF_Polygon_Core.webp"
   },
   {
     "id": 69,
     "name": "LF_Tidal_Residuum",
     "tier": 1,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/LF_Tidal_Residuum.webp"
   },
   {
     "id": 70,
     "name": "LF_Waveworn_Shard",
     "tier": 1,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/LF_Waveworn_Shard.webp"
   },
   {
     "id": 71,
     "name": "LF_Whisperin_Core",
     "tier": 1,
-    "description": "source: Whisperins/Synthesis"
+    "description": "source: Whisperins/Synthesis",
+    "image": "/icons/materials/LF_Whisperin_Core.webp"
   },
   {
     "id": 75,
     "name": "Loongs_Pearl",
     "tier": 0,
-    "description": "source: beli dari Koko/Mianloong Chamber"
+    "description": "source: beli dari Koko/Mianloong Chamber",
+    "image": "/icons/materials/Loongs_Pearl.webp"
   },
   {
     "id": 76,
     "name": "Luminous_Calendula",
     "tier": 0,
-    "description": "source: beli dari Danvers/Sanguis Plateaus"
+    "description": "source: beli dari Danvers/Sanguis Plateaus",
+    "image": "/icons/materials/Luminous_Calendula.webp"
   },
   {
     "id": 86,
     "name": "Mask_of_Constraint",
     "tier": 1,
-    "description": "source: Fractsidus/Synthesis"
+    "description": "source: Fractsidus/Synthesis",
+    "image": "/icons/materials/Mask_of_Constraint.webp"
   },
   {
     "id": 87,
     "name": "Mask_of_Distortion",
     "tier": 3,
-    "description": "source: Fractsidus/Synthesis"
+    "description": "source: Fractsidus/Synthesis",
+    "image": "/icons/materials/Mask_of_Distortion.webp"
   },
   {
     "id": 88,
     "name": "Mask_of_Erosion",
     "tier": 2,
-    "description": "source: Fractsidus/Synthesis"
+    "description": "source: Fractsidus/Synthesis",
+    "image": "/icons/materials/Mask_of_Erosion.webp"
   },
   {
     "id": 89,
     "name": "Mask_of_Insanity",
     "tier": 4,
-    "description": "source: Fractsidus/Synthesis"
+    "description": "source: Fractsidus/Synthesis",
+    "image": "/icons/materials/Mask_of_Insanity.webp"
   },
   {
     "id": 90,
     "name": "Melodic_String",
     "tier": 4,
-    "description": "source:  Forgery/Synthesis"
+    "description": "source:  Forgery/Synthesis",
+    "image": "/icons/materials/Melodic_String.webp"
   },
   {
     "id": 77,
     "name": "MF_Autopuppet_Kernel",
     "tier": 2,
-    "description": "source: Autopuppet TD/store/Forgery Challenge"
+    "description": "source: Autopuppet TD/store/Forgery Challenge",
+    "image": "/icons/materials/MF_Autopuppet_Kernel.webp"
   },
   {
     "id": 78,
     "name": "MF_Carved_Crystal",
     "tier": 2,
-    "description": "source: Forgery Challenge/Synthesis"
+    "description": "source: Forgery Challenge/Synthesis",
+    "image": "/icons/materials/MF_Carved_Crystal.webp"
   },
   {
     "id": 79,
     "name": "MF_Exoswarm_Core",
     "tier": 2,
-    "description": "source: Exoswarms/Synthesis/Forgery"
+    "description": "source: Exoswarms/Synthesis/Forgery",
+    "image": "/icons/materials/MF_Exoswarm_Core.webp"
   },
   {
     "id": 80,
     "name": "MF_Howler_Core",
     "tier": 2,
-    "description": "source: source: Howlers/store/Forgery"
+    "description": "source: source: Howlers/store/Forgery",
+    "image": "/icons/materials/MF_Howler_Core.webp"
   },
   {
     "id": 81,
     "name": "MF_Mech_Core",
     "tier": 2,
-    "description": "source: Clamorling TDs/Synthesis/Forgery"
+    "description": "source: Clamorling TDs/Synthesis/Forgery",
+    "image": "/icons/materials/MF_Mech_Core.webp"
   },
   {
     "id": 82,
     "name": "MF_Polygon_Core",
     "tier": 2,
-    "description": "source: Clamorling TDs/Synthesis/Forgery"
+    "description": "source: Clamorling TDs/Synthesis/Forgery",
+    "image": "/icons/materials/MF_Polygon_Core.webp"
   },
   {
     "id": 83,
     "name": "MF_Tidal_Residuum",
     "tier": 2,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/MF_Tidal_Residuum.webp"
   },
   {
     "id": 84,
     "name": "MF_Waveworn_Shard",
     "tier": 2,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/MF_Waveworn_Shard.webp"
   },
   {
     "id": 85,
     "name": "MF_Whisperin_Core",
     "tier": 2,
-    "description": "source: Whisperins/Synthesis"
+    "description": "source: Whisperins/Synthesis",
+    "image": "/icons/materials/MF_Whisperin_Core.webp"
   },
   {
     "id": 91,
     "name": "Monowing_Polarizer",
     "tier": 2,
-    "description": "source: Forgery/Synthesis"
+    "description": "source: Forgery/Synthesis",
+    "image": "/icons/materials/Monowing_Polarizer.webp"
   },
   {
     "id": 92,
     "name": "Monument_Bell",
     "tier": 5,
-    "description": "source: Bell-Borne Geochelone"
+    "description": "source: Bell-Borne Geochelone",
+    "image": "/icons/materials/Monument_Bell.webp"
   },
   {
     "id": 93,
     "name": "Moss_Amber",
     "tier": 0,
-    "description": "source: beli dari N.A.N.A."
+    "description": "source: beli dari N.A.N.A.",
+    "image": "/icons/materials/Moss_Amber.webp"
   },
   {
     "id": 94,
     "name": "Mysterious_Code",
     "tier": 5,
-    "description": "source:  Casket Delivery/Quest"
+    "description": "source:  Casket Delivery/Quest",
+    "image": "/icons/materials/Mysterious_Code.webp"
   },
   {
     "id": 95,
     "name": "Nightmare_Flashdrive",
     "tier": 5,
-    "description": "source: Nightmare: Adam Smasher"
+    "description": "source: Nightmare: Adam Smasher",
+    "image": "/icons/materials/Nightmare_Flashdrive.webp"
   },
   {
     "id": 96,
     "name": "Nova",
     "tier": 0,
-    "description": "source: beli dari Ku-Money/The Black Shores"
+    "description": "source: beli dari Ku-Money/The Black Shores",
+    "image": "/icons/materials/Nova.webp"
   },
   {
     "id": 97,
     "name": "Our_Choice",
     "tier": 5,
-    "description": "source: Nameless Explorer"
+    "description": "source: Nameless Explorer",
+    "image": "/icons/materials/Our_Choice.webp"
   },
   {
     "id": 98,
     "name": "Past_Reveries",
     "tier": 0,
-    "description": "source: No vendor"
+    "description": "source: No vendor",
+    "image": "/icons/materials/Past_Reveries.webp"
   },
   {
     "id": 99,
     "name": "Pavo_Plum",
     "tier": 0,
-    "description": "source: beli dari Koko/Mt. Firmament"
+    "description": "source: beli dari Koko/Mt. Firmament",
+    "image": "/icons/materials/Pavo_Plum.webp"
   },
   {
     "id": 100,
     "name": "Pecok_Flower",
     "tier": 0,
-    "description": "source: beli dari Koko/explore Taoyuan Vale"
+    "description": "source: beli dari Koko/explore Taoyuan Vale",
+    "image": "/icons/materials/Pecok_Flower.webp"
   },
   {
     "id": 101,
     "name": "Platinum_Core",
     "tier": 5,
-    "description": "source: Sentry Construct"
+    "description": "source: Sentry Construct",
+    "image": "/icons/materials/Platinum_Core.webp"
   },
   {
     "id": 102,
     "name": "Polarized_Metallic_Drip",
     "tier": 3,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Polarized_Metallic_Drip.webp"
   },
   {
     "id": 103,
     "name": "Polygon_Core",
     "tier": 4,
-    "description": "source: Clamorling TDs/Synthesis/Forgery"
+    "description": "source: Clamorling TDs/Synthesis/Forgery",
+    "image": "/icons/materials/Polygon_Core.webp"
   },
   {
     "id": 104,
     "name": "Polywing_Polarizer",
     "tier": 3,
-    "description": "source: Forgery/Synthesis"
+    "description": "source: Forgery/Synthesis",
+    "image": "/icons/materials/Polywing_Polarizer.webp"
   },
   {
     "id": 105,
     "name": "Presto_Helix",
     "tier": 4,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Presto_Helix.webp"
   },
   {
     "id": 106,
     "name": "Rage_Tacet_Core",
     "tier": 5,
-    "description": "source: Inferno Rider"
+    "description": "source: Inferno Rider",
+    "image": "/icons/materials/Rage_Tacet_Core.webp"
   },
   {
     "id": 107,
     "name": "Reactive_Metallic_Drip",
     "tier": 2,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Reactive_Metallic_Drip.webp"
   },
   {
     "id": 108,
     "name": "Redbell",
     "tier": 0,
-    "description": "source: beli dari N.A.N.A."
+    "description": "source: beli dari N.A.N.A.",
+    "image": "/icons/materials/Redbell.webp"
   },
   {
     "id": 109,
     "name": "Refined_Phlogiston",
     "tier": 3,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Refined_Phlogiston.webp"
   },
   {
     "id": 110,
     "name": "Remnant_Combustor",
     "tier": 3,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Remnant_Combustor.webp"
   },
   {
     "id": 111,
     "name": "Reverb_Combustor",
     "tier": 4,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Reverb_Combustor.webp"
   },
   {
     "id": 112,
     "name": "Rimewisp",
     "tier": 0,
-    "description": "source: beli dari N.A.N.A./Etching Plains and Starward Riseway"
+    "description": "source: beli dari N.A.N.A./Etching Plains and Starward Riseway",
+    "image": "/icons/materials/Rimewisp.webp"
   },
   {
     "id": 113,
     "name": "Roaring_Rock_Fist",
     "tier": 5,
-    "description": "source: Feilian Beringal"
+    "description": "source: Feilian Beringal",
+    "image": "/icons/materials/Roaring_Rock_Fist.webp"
   },
   {
     "id": 114,
     "name": "Seaside_Cendrelis",
     "tier": 0,
-    "description": "source: beli dari Rosemary/Avinoleum"
+    "description": "source: beli dari Rosemary/Avinoleum",
+    "image": "/icons/materials/Seaside_Cendrelis.webp"
   },
   {
     "id": 115,
     "name": "Sentinel's_Dagger",
     "tier": 5,
-    "description": "source: Jue"
+    "description": "source: Jue",
+    "image": "/icons/materials/Sentinel's_Dagger.webp"
   },
   {
     "id": 116,
     "name": "Shell_Credit",
     "tier": 0,
-    "description": "source: explore"
+    "description": "source: explore",
+    "image": "/icons/materials/Shell_Credit.webp"
   },
   {
     "id": 117,
     "name": "Skyward_Glazed_Heart",
     "tier": 5,
-    "description": "source: Thousand-Puppet Pavilion"
+    "description": "source: Thousand-Puppet Pavilion",
+    "image": "/icons/materials/Skyward_Glazed_Heart.webp"
   },
   {
     "id": 118,
     "name": "Sliverglow_Bloom",
     "tier": 0,
-    "description": "source: beli dari Danvers/Sanguis Plateaus"
+    "description": "source: beli dari Danvers/Sanguis Plateaus",
+    "image": "/icons/materials/Sliverglow_Bloom.webp"
   },
   {
     "id": 119,
     "name": "Solidaritys_Loneflame",
     "tier": 5,
-    "description": "source: Myriad Snare: Rustfire Chassis"
+    "description": "source: Myriad Snare: Rustfire Chassis",
+    "image": "/icons/materials/Solidaritys_Loneflame.webp"
   },
   {
     "id": 120,
     "name": "Solidified_String",
     "tier": 3,
-    "description": "source:  Forgery/Synthesis"
+    "description": "source:  Forgery/Synthesis",
+    "image": "/icons/materials/Solidified_String.webp"
   },
   {
     "id": 121,
     "name": "Sound-Keeping_Tacet_Core",
     "tier": 5,
-    "description": "source: Lampylumen Myriad"
+    "description": "source: Lampylumen Myriad",
+    "image": "/icons/materials/Sound-Keeping_Tacet_Core.webp"
   },
   {
     "id": 122,
     "name": "Spliced_String",
     "tier": 1,
-    "description": "source:  Forgery/Synthesis"
+    "description": "source:  Forgery/Synthesis",
+    "image": "/icons/materials/Spliced_String.webp"
   },
   {
     "id": 123,
     "name": "Stone_Rose",
     "tier": 0,
-    "description": "source: beli dari Danvers/Sanguis Plateaus"
+    "description": "source: beli dari Danvers/Sanguis Plateaus",
+    "image": "/icons/materials/Stone_Rose.webp"
   },
   {
     "id": 124,
     "name": "Strife_Tacet_Core",
     "tier": 5,
-    "description": "source: Crownless"
+    "description": "source: Crownless",
+    "image": "/icons/materials/Strife_Tacet_Core.webp"
   },
   {
     "id": 125,
     "name": "Summer_Flower",
     "tier": 0,
-    "description": "source: beli dari Ku-Money/Chronorift Metropolis"
+    "description": "source: beli dari Ku-Money/Chronorift Metropolis",
+    "image": "/icons/materials/Summer_Flower.webp"
   },
   {
     "id": 126,
     "name": "Suncoveter's_Reach",
     "tier": 5,
-    "description": "source: Hyvatia"
+    "description": "source: Hyvatia",
+    "image": "/icons/materials/Suncoveter's_Reach.webp"
   },
   {
     "id": 127,
     "name": "Sword_Acorus",
     "tier": 0,
-    "description": "source: beli dari Rosemary/Ragunna, Egla Town and Averardo Vault"
+    "description": "source: beli dari Rosemary/Ragunna, Egla Town and Averardo Vault",
+    "image": "/icons/materials/Sword_Acorus.webp"
   },
   {
     "id": 128,
     "name": "Tailored_Ring",
     "tier": 4,
-    "description": "source: Exiles/Synthesis"
+    "description": "source: Exiles/Synthesis",
+    "image": "/icons/materials/Tailored_Ring.webp"
   },
   {
     "id": 129,
     "name": "Terraspawn_Fungus",
     "tier": 0,
-    "description": "source: beli dari Koko/explore Camp Overwatch and Withered Line"
+    "description": "source: beli dari Koko/explore Camp Overwatch and Withered Line",
+    "image": "/icons/materials/Terraspawn_Fungus.webp"
   },
   {
     "id": 130,
     "name": "The_Netherworld's_Stare",
     "tier": 5,
-    "description": "source: Hecate"
+    "description": "source: Hecate",
+    "image": "/icons/materials/The_Netherworld's_Stare.webp"
   },
   {
     "id": 131,
     "name": "Thundering_Tacet_Core",
     "tier": 5,
-    "description": "source: Thundering Mephis"
+    "description": "source: Thundering Mephis",
+    "image": "/icons/materials/Thundering_Tacet_Core.webp"
   },
   {
     "id": 132,
     "name": "Topological_Confinement",
     "tier": 5,
-    "description": "source: Fallacy of No Return"
+    "description": "source: Fallacy of No Return",
+    "image": "/icons/materials/Topological_Confinement.webp"
   },
   {
     "id": 133,
     "name": "Truth_in_Lies",
     "tier": 5,
-    "description": "source:  Fenrico"
+    "description": "source:  Fenrico",
+    "image": "/icons/materials/Truth_in_Lies.webp"
   },
   {
     "id": 134,
     "name": "Unending_Destruction",
     "tier": 5,
-    "description": "source: Scar"
+    "description": "source: Scar",
+    "image": "/icons/materials/Unending_Destruction.webp"
   },
   {
     "id": 135,
     "name": "Unfading_Glory",
     "tier": 5,
-    "description": "source: Lioness of Glory"
+    "description": "source: Lioness of Glory",
+    "image": "/icons/materials/Unfading_Glory.webp"
   },
   {
     "id": 136,
     "name": "Violet_Coral",
     "tier": 0,
-    "description": "source: beli dari Koko/explore Wuming Bay and Norfall Barrens"
+    "description": "source: beli dari Koko/explore Wuming Bay and Norfall Barrens",
+    "image": "/icons/materials/Violet_Coral.webp"
   },
   {
     "id": 137,
     "name": "Waveworn_Residue_210",
     "tier": 1,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Waveworn_Residue_210.webp"
   },
   {
     "id": 138,
     "name": "Waveworn_Residue_226",
     "tier": 2,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Waveworn_Residue_226.webp"
   },
   {
     "id": 139,
     "name": "Waveworn_Residue_235",
     "tier": 3,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Waveworn_Residue_235.webp"
   },
   {
     "id": 140,
     "name": "Waveworn_Residue_239",
     "tier": 4,
-    "description": "source: Synthesis/Forgery"
+    "description": "source: Synthesis/Forgery",
+    "image": "/icons/materials/Waveworn_Residue_239.webp"
   },
   {
     "id": 141,
     "name": "We_Who_Question",
     "tier": 5,
-    "description": "source: Denia"
+    "description": "source: Denia",
+    "image": "/icons/materials/We_Who_Question.webp"
   },
   {
     "id": 142,
     "name": "When_Irises_Bloom",
     "tier": 5,
-    "description": "source: Fleurdelys"
+    "description": "source: Fleurdelys",
+    "image": "/icons/materials/When_Irises_Bloom.webp"
   },
   {
     "id": 143,
     "name": "Wintry_Bell",
     "tier": 0,
-    "description": " beli dari Koko/explore source: Bell-Borne Ravine"
+    "description": " beli dari Koko/explore source: Bell-Borne Ravine",
+    "image": "/icons/materials/Wintry_Bell.webp"
   },
   {
     "id": 144,
     "name": "Worn_Exoswarm_Pendant",
     "tier": 2,
-    "description": "source: Roya Outcasts/Synthesis"
+    "description": "source: Roya Outcasts/Synthesis",
+    "image": "/icons/materials/Worn_Exoswarm_Pendant.webp"
   }
 ]

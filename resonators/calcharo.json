@@ -182,31 +182,31 @@
       {
         "cost": [
           {
-            "item": "Thundering Tacet Core",
+            "item": 131,
             "amount": 46
           },
           {
-            "item": "Crude Ring",
+            "item": 24,
             "amount": 4
           },
           {
-            "item": "Basic Ring",
+            "item": 8,
             "amount": 12
           },
           {
-            "item": "Improved Ring",
+            "item": 57,
             "amount": 12
           },
           {
-            "item": "Tailored Ring",
+            "item": 128,
             "amount": 4
           },
           {
-            "item": "Iris",
+            "item": 62,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ],
@@ -216,43 +216,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "Monument Bell",
+          "item": 92,
           "amount": 26
         },
         {
-          "item": "Crude Ring",
+          "item": 24,
           "amount": 25
         },
         {
-          "item": "Basic Ring",
+          "item": 8,
           "amount": 28
         },
         {
-          "item": "Improved Ring",
+          "item": 57,
           "amount": 40
         },
         {
-          "item": "Tailored Ring",
+          "item": 128,
           "amount": 57
         },
         {
-          "item": "Waveworn Residue 210",
+          "item": 137,
           "amount": 25
         },
         {
-          "item": "Waveworn Residue 226",
+          "item": 138,
           "amount": 28
         },
         {
-          "item": "Waveworn Residue 235",
+          "item": 139,
           "amount": 55
         },
         {
-          "item": "Waveworn Residue 239",
+          "item": 140,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

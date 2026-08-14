@@ -187,31 +187,31 @@
       {
         "cost": [
           {
-            "item": "Strife Tacet Core",
+            "item": 124,
             "amount": 46
           },
           {
-            "item": "Crude Ring",
+            "item": 24,
             "amount": 4
           },
           {
-            "item": "Basic Ring",
+            "item": 8,
             "amount": 12
           },
           {
-            "item": "Improved Ring",
+            "item": 57,
             "amount": 12
           },
           {
-            "item": "Tailored Ring",
+            "item": 128,
             "amount": 4
           },
           {
-            "item": "Belle Poppy",
+            "item": 9,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ],
@@ -221,43 +221,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "Dreamless Feather",
+          "item": 26,
           "amount": 26
         },
         {
-          "item": "Crude Ring",
+          "item": 24,
           "amount": 25
         },
         {
-          "item": "Basic Ring",
+          "item": 8,
           "amount": 28
         },
         {
-          "item": "Improved Ring",
+          "item": 57,
           "amount": 40
         },
         {
-          "item": "Tailored Ring",
+          "item": 128,
           "amount": 57
         },
         {
-          "item": "Inert Metallic Drip",
+          "item": 60,
           "amount": 25
         },
         {
-          "item": "Reactive Metallic Drip",
+          "item": 107,
           "amount": 28
         },
         {
-          "item": "Polarized Metallic Drip",
+          "item": 102,
           "amount": 55
         },
         {
-          "item": "Heterized Metallic Drip",
+          "item": 55,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

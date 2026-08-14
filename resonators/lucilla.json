@@ -294,31 +294,31 @@
         "level": 90,
         "cost": [
           {
-            "item": "Suncoveter's Reach",
+            "item": 126,
             "amount": 46
           },
           {
-            "item": "LF Mech Core",
+            "item": 67,
             "amount": 4
           },
           {
-            "item": "MF Mech Core",
+            "item": 81,
             "amount": 12
           },
           {
-            "item": "HF Mech Core",
+            "item": 50,
             "amount": 12
           },
           {
-            "item": "FF Mech Core",
+            "item": 34,
             "amount": 4
           },
           {
-            "item": "Forget Me Not",
+            "item": 148,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ]
@@ -327,43 +327,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "We Who Question",
+          "item": 141,
           "amount": 26
         },
         {
-          "item": "LF Mech Core",
+          "item": 67,
           "amount": 25
         },
         {
-          "item": "MF Mech Core",
+          "item": 81,
           "amount": 28
         },
         {
-          "item": "HF Mech Core",
+          "item": 50,
           "amount": 40
         },
         {
-          "item": "FF Mech Core",
+          "item": 34,
           "amount": 57
         },
         {
-          "item": "Broken String",
+          "item": 13,
           "amount": 25
         },
         {
-          "item": "Spliced String",
+          "item": 122,
           "amount": 28
         },
         {
-          "item": "Solidified String",
+          "item": 120,
           "amount": 55
         },
         {
-          "item": "Melodic String",
+          "item": 90,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

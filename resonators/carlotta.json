@@ -216,31 +216,31 @@
       {
         "cost": [
           {
-            "item": "Platinum Core",
+            "item": 101,
             "amount": 46
           },
           {
-            "item": "LF Polygon Core",
+            "item": 68,
             "amount": 4
           },
           {
-            "item": "MF Polygon Core",
+            "item": 82,
             "amount": 12
           },
           {
-            "item": "HF Polygon Core",
+            "item": 51,
             "amount": 12
           },
           {
-            "item": "FF Polygon Core",
+            "item": 35,
             "amount": 4
           },
           {
-            "item": "Sword Acorus",
+            "item": 127,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ],
@@ -250,43 +250,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "The Netherworld's Stare",
+          "item": 130,
           "amount": 26
         },
         {
-          "item": "LF Polygon Core",
+          "item": 68,
           "amount": 25
         },
         {
-          "item": "MF Polygon Core",
+          "item": 82,
           "amount": 28
         },
         {
-          "item": "HF Polygon Core",
+          "item": 51,
           "amount": 40
         },
         {
-          "item": "FF Polygon Core",
+          "item": 35,
           "amount": 57
         },
         {
-          "item": "Impure Phlogiston",
+          "item": 58,
           "amount": 25
         },
         {
-          "item": "Extracted Phlogiston",
+          "item": 29,
           "amount": 28
         },
         {
-          "item": "Refined Phlogiston",
+          "item": 109,
           "amount": 55
         },
         {
-          "item": "Flawless Phlogiston",
+          "item": 40,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

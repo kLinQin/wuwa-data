@@ -276,31 +276,31 @@
         "level": 90,
         "cost": [
           {
-            "item": "Solidaritys Loneflame",
+            "item": 119,
             "amount": 46
           },
           {
-            "item": "LF Autopuppet Kernel",
+            "item": 63,
             "amount": 4
           },
           {
-            "item": "MF Autopuppet Kernel",
+            "item": 77,
             "amount": 12
           },
           {
-            "item": "HF Autopuppet Kernel",
+            "item": 46,
             "amount": 12
           },
           {
-            "item": "FF Autopuppet Kernel",
+            "item": 30,
             "amount": 4
           },
           {
-            "item": "Cloudperch Seed",
+            "item": 22,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ]
@@ -309,43 +309,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "Skyward Glazed Heart",
+          "item": 117,
           "amount": 26
         },
         {
-          "item": "Broken Wing Polarizer",
+          "item": 14,
           "amount": 25
         },
         {
-          "item": "Monowing Polarizer",
+          "item": 91,
           "amount": 28
         },
         {
-          "item": "Polywing Polarizer",
+          "item": 104,
           "amount": 40
         },
         {
-          "item": "Layered Wing Polarizer",
+          "item": 73,
           "amount": 57
         },
         {
-          "item": "LF Autopuppet Kernel",
+          "item": 63,
           "amount": 25
         },
         {
-          "item": "MF Autopuppet Kernel",
+          "item": 77,
           "amount": 28
         },
         {
-          "item": "HF Autopuppet Kernel",
+          "item": 46,
           "amount": 55
         },
         {
-          "item": "FF Autopuppet Kernel",
+          "item": 30,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

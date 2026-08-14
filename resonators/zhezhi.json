@@ -179,31 +179,31 @@
         "level": 90,
         "cost": [
           {
-            "item": "Sound-Keeping Tacet Core",
+            "item": 121,
             "amount": 46
           },
           {
-            "item": "LF Howler Core",
+            "item": 66,
             "amount": 4
           },
           {
-            "item": "MF Howler Core",
+            "item": 80,
             "amount": 12
           },
           {
-            "item": "HF Howler Core",
+            "item": 49,
             "amount": 12
           },
           {
-            "item": "FF Howler Core",
+            "item": 33,
             "amount": 4
           },
           {
-            "item": "Lanternberry",
+            "item": 72,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ]
@@ -212,43 +212,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "Monument Bell",
+          "item": 92,
           "amount": 26
         },
         {
-          "item": "LF Howler Core",
+          "item": 66,
           "amount": 25
         },
         {
-          "item": "MF Howler Core",
+          "item": 80,
           "amount": 28
         },
         {
-          "item": "HF Howler Core",
+          "item": 49,
           "amount": 40
         },
         {
-          "item": "FF Howler Core",
+          "item": 33,
           "amount": 57
         },
         {
-          "item": "Lento Helix",
+          "item": 74,
           "amount": 25
         },
         {
-          "item": "Adagio Helix",
+          "item": 2,
           "amount": 28
         },
         {
-          "item": "Andante Helix",
+          "item": 5,
           "amount": 55
         },
         {
-          "item": "Presto Helix",
+          "item": 105,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

@@ -162,31 +162,31 @@
         "level": 90,
         "cost": [
           {
-            "item": "Mysterious Code",
+            "item": 94,
             "amount": 46
           },
           {
-            "item": "LF Whisperin Core",
+            "item": 71,
             "amount": 4
           },
           {
-            "item": "MF Whisperin Core",
+            "item": 85,
             "amount": 12
           },
           {
-            "item": "HF Whisperin Core",
+            "item": 54,
             "amount": 12
           },
           {
-            "item": "FF Whisperin Core",
+            "item": 38,
             "amount": 4
           },
           {
-            "item": "Pecok Flower",
+            "item": 100,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ]
@@ -195,43 +195,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "Unending Destruction",
+          "item": 134,
           "amount": 26
         },
         {
-          "item": "LF Whisperin Core",
+          "item": 71,
           "amount": 25
         },
         {
-          "item": "MF Whisperin Core",
+          "item": 85,
           "amount": 28
         },
         {
-          "item": "HF Whisperin Core",
+          "item": 54,
           "amount": 40
         },
         {
-          "item": "FF Whisperin Core",
+          "item": 38,
           "amount": 57
         },
         {
-          "item": "Inert Metallic Drip",
+          "item": 60,
           "amount": 25
         },
         {
-          "item": "Reactive Metallic Drip",
+          "item": 107,
           "amount": 28
         },
         {
-          "item": "Polarized Metallic Drip",
+          "item": 102,
           "amount": 55
         },
         {
-          "item": "Heterized Metallic Drip",
+          "item": 55,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]

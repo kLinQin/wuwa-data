@@ -324,31 +324,31 @@
         "level": 90,
         "cost": [
           {
-            "item": "Solidaritys Loneflame",
+            "item": 119,
             "amount": 46
           },
           {
-            "item": "LF Autopuppet Kernel",
+            "item": 63,
             "amount": 4
           },
           {
-            "item": "MF Autopuppet Kernel",
+            "item": 77,
             "amount": 12
           },
           {
-            "item": "HF Autopuppet Kernel",
+            "item": 46,
             "amount": 12
           },
           {
-            "item": "FF Autopuppet Kernel",
+            "item": 30,
             "amount": 4
           },
           {
-            "item": "Flowborne Dream",
+            "item": 147,
             "amount": 60
           },
           {
-            "item": "Shell Credit",
+            "item": 116,
             "amount": 170000
           }
         ]
@@ -357,43 +357,43 @@
     "skills": {
       "totalCosts": [
         {
-          "item": "Skyward Glazed Heart",
+          "item": 117,
           "amount": 26
         },
         {
-          "item": "LF Autopuppet Kernel",
+          "item": 63,
           "amount": 25
         },
         {
-          "item": "MF Autopuppet Kernel",
+          "item": 77,
           "amount": 28
         },
         {
-          "item": "HF Autopuppet Kernel",
+          "item": 46,
           "amount": 40
         },
         {
-          "item": "FF Autopuppet Kernel",
+          "item": 30,
           "amount": 57
         },
         {
-          "item": "Spliced String",
+          "item": 122,
           "amount": 25
         },
         {
-          "item": "Broken String",
+          "item": 13,
           "amount": 28
         },
         {
-          "item": "Solidified String",
+          "item": 120,
           "amount": 55
         },
         {
-          "item": "Melodic String",
+          "item": 90,
           "amount": 67
         },
         {
-          "item": "Shell Credit",
+          "item": 116,
           "amount": 2030000
         }
       ]
