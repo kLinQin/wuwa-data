@@ -17,6 +17,12 @@
       "sets": [
         {
           "label": "DPS",
+          "sonataCustom": [
+            {
+              "name": "Molten Rift",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,10 +46,7 @@
             }
           ],
           "echoSlug": "inferno-rider",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Molten Rift"
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -118,7 +121,6 @@
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Liberation",
         "Resonance Skill",
@@ -126,20 +128,13 @@
         "Intro Skill",
         "Normal Attack"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "encore-hyoercary",
-      "encore-quickswap",
-      "encore-qs-alternatif"
+      "encore-hypercarry",
+      "encore-quickswap"
     ],
-    "teamNote": "Lupa memberikan Fusion & Basic ATK DMG Amplify untuk Encore. \nSelain itu, Encore adalah Fusion Resonator, yang meningkatkan ATK% Buff dari Lupa. \nEncore juga bisa menerima manfaat dari buff yang diberikan Wildfire Mark."
+    "teamNote": ""
   },
   "analysisCharts": [
     {

@@ -18,6 +18,12 @@
       "sets": [
         {
           "label": "Sub DPS General",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -41,13 +47,16 @@
             }
           ],
           "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+          "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS DMG",
+          "sonataCustom": [
+            {
+              "name": "Empyrean Anthem",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -71,10 +80,7 @@
             }
           ],
           "echoSlug": "hecate",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Empyrean Anthem"
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -132,7 +138,6 @@
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Liberation",
         "Forte Circuit",
@@ -140,20 +145,15 @@
         "Normal Attack",
         "Intro Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        true,
-        true,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "augusta-hypercarry",
-      "jinhsi-hypercarry",
-      "galbrena-hypercarry"
+      "augusta-alternatif",
+      "jinhsi-blender",
+      "jiyan-alternatif",
+      "mortefi-mono-fusion"
     ],
-    "teamNote": "Mortefi memberikan buff berikut kepada rekan timnya:\n- 38% Heavy DMG Amplify selama 14 detik setelah melancarkan Outro Skill\n- Dengan Static Mist: +10% ATK kepada Resonator berikutnya selama 14 detik setelah melancarkan Outro Skill\n- Dengan S6: +20% ATK selama 20 detik."
+    "teamNote": ""
   },
   "analysisCharts": [
     {

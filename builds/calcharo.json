@@ -17,6 +17,12 @@
       "sets": [
         {
           "label": "DPS",
+          "sonataCustom": [
+            {
+              "name": "Void Thunder",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,10 +46,7 @@
             }
           ],
           "echoSlug": "nightmare-thundering-mephis",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Void Thunder"
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -99,7 +102,6 @@
     ],
     "rotations": [],
     "talentPriority": {
-      "note": "Intro Skill sebaiknya dibiarkan pada Level 1, karena Calcharo memiliki [Intro Skill (\"Necessary Means\")] berbeda yang ditingkatkan dari bagian Res. Liberation pada Forte tree.",
       "priority": [
         "Forte Circuit",
         "Resonance Liberation",
@@ -107,18 +109,12 @@
         "Normal Attack",
         "Intro Skill"
       ],
-      "equalPriority": [
-        true,
-        false,
-        false,
-        true,
-        false
-      ]
+      "note": "Intro Skill sebaiknya dibiarkan pada Level 1, karena Calcharo memiliki [Intro Skill (\"Necessary Means\")] berbeda yang ditingkatkan dari bagian Res. Liberation pada Forte tree."
     },
     "teams": [
-      "calcharo-calc-tune",
-      "calcharo-calc-hypercarry",
-      "calcharo-calc-qs"
+      "calcharo-hypercarry",
+      "jianxin-sub-dps",
+      "quickswap"
     ],
     "teamNote": "Calcharo merupakan Main DPS yang fokus utamanya memberikan Resonance Liberation DMG."
   },

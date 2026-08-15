@@ -16,11 +16,16 @@
     ],
     "bestWeapon": "Blazing Brilliance",
     "echoDetails": {
+      "note": "",
       "sets": [
         {
           "label": "DPS",
-          "echoSlug": "mourning-aix",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Eternal Radiance",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -43,14 +48,17 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Eternal Radiance"
-          ]
+          "echoSlug": "mourning-aix",
+          "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS",
-          "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -73,14 +81,17 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": ""
         },
         {
           "label": "Healer",
-          "echoSlug": "fallacy-of-no-return",
-          "echoSlugSecondary": "bell-borne-geochelone",
+          "sonataCustom": [
+            {
+              "name": "Rejuvenating Glow",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -103,9 +114,8 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Rejuvenating Glow"
-          ]
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": "bell-borne-geochelone"
         }
       ],
       "substats": [
@@ -114,45 +124,43 @@
         "ATK%",
         "Reso Skill DMG",
         "ATK"
-      ],
-      "note": ""
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
       {
         "id": "blazing-brilliance",
-        "rank": "",
-        "percentage": "115"
+        "percentage": "115",
+        "rank": ""
       },
       {
         "id": "red-spring",
-        "rank": "",
-        "percentage": "102"
+        "percentage": "102",
+        "rank": ""
       },
       {
         "id": "emerald-of-genesis",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "commando-of-conviction",
-        "rank": "5",
-        "percentage": "91"
+        "percentage": "91",
+        "rank": "5"
       },
       {
         "id": "fables-of-wisdom",
-        "rank": "5",
-        "percentage": "86"
+        "percentage": "86",
+        "rank": "5"
       },
       {
         "id": "lumingloss",
-        "rank": "5",
-        "percentage": "86"
+        "percentage": "86",
+        "rank": "5"
       }
     ],
     "rotations": [
       {
-        "title": "Standar",
         "steps": [
           "Intro",
           "Ult",
@@ -165,7 +173,8 @@
           "HA(x2)",
           "[E]Forte",
           "FUA"
-        ]
+        ],
+        "title": "Standar"
       }
     ],
     "talentPriority": {
@@ -176,53 +185,46 @@
         "Intro Skill",
         "Resonance Skill"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "zani-hypercarry",
-      "phoebe-hypercarry"
+      "phoebe-hypercarry",
+      "zani-hypercarry"
     ],
     "teamNote": "Rover: Spectro dapat berperan sebagai Dual DPS (set Eternal Radiance), buffer (Moonlit Clouds), atau sustain (Rejuvenating Glow) saat dipasangkan dengan Phoebe. Kehadiran Rover: Spectro merupakan sebuah persyaratan karena Phoebe (Absolution) tidak dapat memberikan stack Spectro Frazzle yang cukup secara mandiri.\n\nUntuk membuka ability Rover: Spectro dalam memberikan Spectro Frazzle, kamu harus mencapai Chapter 2 Prologue (Through the Sea Thou Break).\nS4 diperlukan agar Rover: Spectro dapat memicu 5-pc. bonus set Rejuvenating Glow dengan melancarkan Res. Liberation, jika tidak maka Rover harus menggunakan senjata Originite: Type II."
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Srover",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Blazing Brilliance",
           "value": 114,
-          "percentage": 114,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 114
         },
         {
           "type": "Emerald Of Genesis",
           "value": 100,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "Red Spring",
           "value": 100,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "Fables Of Wisdom R5",
           "value": 85,
-          "percentage": 85,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 85
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Srover",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

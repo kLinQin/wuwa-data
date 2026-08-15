@@ -19,6 +19,12 @@
       "sets": [
         {
           "label": "Support",
+          "sonataCustom": [
+            {
+              "name": "Rejuvenating Glow",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -42,13 +48,16 @@
             }
           ],
           "echoSlug": "fallacy-of-no-return",
-          "echoSlugSecondary": "bell-borne-geochelone",
-          "sonataCustom": [
-            "Rejuvenating Glow"
-          ]
+          "echoSlugSecondary": "bell-borne-geochelone"
         },
         {
           "label": "Sub DPS",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -72,13 +81,16 @@
             }
           ],
           "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+          "echoSlugSecondary": ""
         },
         {
           "label": "Main DPS",
+          "sonataCustom": [
+            {
+              "name": "Sierra Gale",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -102,10 +114,7 @@
             }
           ],
           "echoSlug": "feilian-beringal",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Sierra Gale"
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -164,7 +173,6 @@
       }
     ],
     "talentPriority": {
-      "note": "Tidak perlu memaksimalkan level Forte Circuit jika sering membatalkan (cancel) penggunaan Forte dan/atau tidak memanfaatkannya secara penuh.",
       "priority": [
         "Resonance Liberation",
         "Forte Circuit",
@@ -172,18 +180,12 @@
         "Intro Skill",
         "Normal Attack"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": "Tidak perlu memaksimalkan level Forte Circuit jika sering membatalkan (cancel) penggunaan Forte dan/atau tidak memanfaatkannya secara penuh."
     },
     "teams": [
-      "iuno-mono",
-      "jinhsi-hypercarry",
-      "xiangli-yao-hypercarry"
+      "jianxin-sub-dps",
+      "jinhsi-blender",
+      "mono-aero"
     ],
     "teamNote": "Secara umum, Jianxin adalah Resonator Sub DPS / Support yang solid; selain kemampuan healing dan shield yang ia berikan, ia juga memiliki kemampuan \"Traction\" yang baik  di mana ia mampu mengumpulkan musuh (grouping) untuk DPS."
   },

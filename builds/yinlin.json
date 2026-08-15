@@ -19,6 +19,12 @@
       "sets": [
         {
           "label": "Sub DPS General",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -42,13 +48,16 @@
             }
           ],
           "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+          "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS DMG",
+          "sonataCustom": [
+            {
+              "name": "Empyrean Anthem",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -72,10 +81,7 @@
             }
           ],
           "echoSlug": "hecate",
-          "echoSlugSecondary": "nightmare-tempest-mephis",
-          "sonataCustom": [
-            "Empyrean Anthem"
-          ]
+          "echoSlugSecondary": "nightmare-tempest-mephis"
         }
       ],
       "substats": [
@@ -130,7 +136,6 @@
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Forte Circuit",
         "Resonance Liberation",
@@ -138,16 +143,12 @@
         "Intro Skill",
         "Normal Attack"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        true,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "yinlin-quickswap"
+      "calcharo-hypercarry",
+      "jinhsi-quickswap",
+      "xiangliyao-hypercarry"
     ],
     "teamNote": "\n"
   },

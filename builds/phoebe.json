@@ -13,11 +13,16 @@
     ],
     "bestWeapon": "Luminous Hymn",
     "echoDetails": {
+      "note": "Cost 4 aix cost 3 (main echo) Capitaneus",
       "sets": [
         {
           "label": "HYBRID",
-          "echoSlug": "capitaneus",
-          "echoSlugSecondary": "nightmare-mourning-aix",
+          "sonataCustom": [
+            {
+              "name": "Eternal Radiance",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,72 +45,70 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Eternal Radiance"
-          ]
+          "echoSlug": "capitaneus",
+          "echoSlugSecondary": "nightmare-mourning-aix"
         }
       ],
-      "substats": [],
-      "note": "Cost 4 aix cost 3 (main echo) Capitaneus"
+      "substats": []
     },
     "weaponNote": "Pasif senjata Ocean's Gift dan Waltz in Masquerade tidak dapat dipicu jika Phoebe berada dalam tim yang sama dengan Zani, karena Zani mengubah semua stack Spectro Frazzle menjadi Embers.",
     "weaponOptions": [
       {
         "id": "luminous-hymn",
-        "rank": "",
-        "percentage": "115"
+        "percentage": "115",
+        "rank": ""
       },
       {
         "id": "stringmaster",
-        "rank": "",
-        "percentage": "114"
+        "percentage": "114",
+        "rank": ""
       },
       {
         "id": "whispers-of-sirens",
-        "rank": "",
-        "percentage": "108"
+        "percentage": "108",
+        "rank": ""
       },
       {
         "id": "cosmic-ripples",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "oceans-gift",
-        "rank": "5",
-        "percentage": "99"
+        "percentage": "99",
+        "rank": "5"
       },
       {
         "id": "augment",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "waltz-in-masquerade",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "fusion-accretion",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "jinzhou-keeper",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       }
     ],
     "rotations": [
       {
-        "title": "Confession",
         "steps": [
           "Skill(Hold)",
           "Skill1(Cancel)",
           "Ult",
           "BA123(x2) or (DC+[E]HA)(x2)",
           "Outro"
-        ]
+        ],
+        "title": "Confession"
       }
     ],
     "talentPriority": {
@@ -116,147 +119,140 @@
         "Normal Attack",
         "Intro Skill"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "phoebe-hypercarry---pheeb",
-      "spectro-rover-hypercarrt---pheeb"
+      "phoebe-hypercarry",
+      "zani-hypercarry"
     ],
     "teamNote": "- Confession merujuk pada wujud Sub DPS Phoebe, diaktifkan dengan menahan tombol Skill setelah bar Forte Gauge miliknya penuh. \n- Absolution merujuk pada wujud Main DPS Phoebe, diaktifkan dengan menahan Basic ATK setelah bar Forte Gauge penuh. states ini tidak dapat digunakan secara bersamaan.\n\nPhoebe memberikan buff berikut kepada Zani:\n-Dalam [Confession]: 10% Spectro RES Reduction dan 100% Spectro Frazzle DMG Amplify selama 30 detik setelah melancarkan Outro Skill\n-Dengan Luminous Hymn (signature Phoebe): 30% Spectro Frazzle DMG Amplify selama 30 detik setelah melancarkan Outro Skill."
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Phoebe",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Luminous Hymn",
           "value": 320746.75,
-          "percentage": 114.38,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 114.38
         },
         {
           "type": "Stringmaster",
           "value": 317694.06,
-          "percentage": 113.29,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 113.29
         },
         {
           "type": "Rime-Draped Sprouts",
           "value": 308558.66,
-          "percentage": 110.03,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 110.03
         },
         {
           "type": "Cosmic Ripples",
           "value": 280423.39,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "Augment R5",
           "value": 280355.52,
-          "percentage": 99.98,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 99.98
         },
         {
           "type": "Ocean'S Gift R5",
           "value": 279715.08,
-          "percentage": 99.75,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 99.75
         },
         {
           "type": "Augment",
           "value": 261330.04,
-          "percentage": 93.19,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 93.19
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Phoebe",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Phoebe",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "BA",
           "value": 24.5,
-          "percentage": 24.5,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 24.5
         },
         {
           "type": "Skill",
           "value": 9.2,
-          "percentage": 9.2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 9.2
         },
         {
           "type": "HA",
           "value": 22.5,
-          "percentage": 22.5,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 22.5
         },
         {
           "type": "Ult",
           "value": 14.8,
-          "percentage": 14.8,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 14.8
         },
         {
           "type": "Intro",
           "value": 7.1,
-          "percentage": 7.1,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 7.1
         },
         {
           "type": "Outro",
           "value": 18.8,
-          "percentage": 18.8,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 18.8
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Phoebe",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Sequence - Phoebe",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 320746.75,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 352228.44,
-          "percentage": 109.82,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 109.82
         },
         {
           "type": "S2",
           "value": 374308.44,
-          "percentage": 116.7,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 116.7
         },
         {
           "type": "S3",
           "value": 506666.9,
-          "percentage": 157.96,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 157.96
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Phoebe",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

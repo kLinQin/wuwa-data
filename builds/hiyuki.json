@@ -17,6 +17,12 @@
       "sets": [
         {
           "label": "DPS",
+          "sonataCustom": [
+            {
+              "name": "Wishes Of Quiet Snowfall",
+              "set": 5
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,13 +46,7 @@
             }
           ],
           "echoSlug": "threnodian-voidborne-construct",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            {
-              "name": "Wishes Of Quiet Snowfall",
-              "set": 5
-            }
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -61,33 +61,32 @@
     "weaponOptions": [
       {
         "id": "frostburn",
-        "rank": "",
-        "percentage": "125.55%"
+        "percentage": "125.55%",
+        "rank": ""
       },
       {
         "id": "blazing-brilliance",
-        "rank": "",
-        "percentage": "100.75%"
+        "percentage": "100.75%",
+        "rank": ""
       },
       {
         "id": "emerald-of-genesis",
-        "rank": "",
-        "percentage": "100.00%"
+        "percentage": "100.00%",
+        "rank": ""
       },
       {
         "id": "feather-edge",
-        "rank": "5",
-        "percentage": "96.45%"
+        "percentage": "96.45%",
+        "rank": "5"
       },
       {
         "id": "feather-edge",
-        "rank": "1",
-        "percentage": "87.61%"
+        "percentage": "87.61%",
+        "rank": "1"
       }
     ],
     "rotations": [
       {
-        "title": "New Rotation",
         "steps": [
           "Intro",
           "BA3",
@@ -101,11 +100,11 @@
           "Ult2",
           "Skill",
           "Outro"
-        ]
+        ],
+        "title": "New Rotation"
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Liberation",
         "Normal Attack",
@@ -113,18 +112,11 @@
         "Resonance Skill",
         "Intro Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "hiyuki-hypercarry",
-      "hiyuki-hc-alternatif",
-      "lucilla-chafe-premium",
-      "suisui-ns---glacio-chafe"
+      "glacio-chafe",
+      "hiyuki-alternatif"
     ],
     "teamNote": "Hiyuki adalah main DPS yang yang fokus utamanya memberikan Resonance Liberation DMG Bonus dan Glacio chafe mechanic"
   },

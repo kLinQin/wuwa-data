@@ -15,11 +15,16 @@
     ],
     "bestWeapon": "Red Spring",
     "echoDetails": {
+      "note": "",
       "sets": [
         {
           "label": "Sub Dps",
-          "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -42,14 +47,17 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": ""
         },
         {
           "label": "DPS",
-          "echoSlug": "feilian-beringal",
-          "echoSlugSecondary": "nightmare-beringal",
+          "sonataCustom": [
+            {
+              "name": "Sierra Gale",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -72,9 +80,8 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Sierra Gale"
-          ]
+          "echoSlug": "feilian-beringal",
+          "echoSlugSecondary": "nightmare-beringal"
         }
       ],
       "substats": [
@@ -83,8 +90,7 @@
         "ATK%",
         "Basic Attack DMG Bonus",
         "ATK"
-      ],
-      "note": ""
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
@@ -133,17 +139,10 @@
         "Normal Attack",
         "Intro Skill"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        true,
-        false,
-        true,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "yangyang-support"
+      "yangyang-sub"
     ],
     "teamNote": "Yangyang memberikan buff berikut untuk rekan satu timnya:\n- Memulihkan 4 Resonance Energy per detik selama 5 detik setelah melancarkan Outro Skill - Dengan S6: +20% ATK selama 20 detik."
   },

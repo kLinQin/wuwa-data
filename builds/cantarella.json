@@ -11,11 +11,16 @@
     "bestEcho": [],
     "bestWeapon": "Whispers Of Sirens",
     "echoDetails": {
+      "note": "Midnight Veil adalah echo set terbaik untuk Cantarella saat dipasangkan dengan Phrolova atau resonator Havoc lainnya.\n",
       "sets": [
         {
           "label": "Sub DPS - Havoc",
-          "echoSlug": "lorelei",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Midnight Veil",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -38,14 +43,17 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Midnight Veil"
-          ]
+          "echoSlug": "lorelei",
+          "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS - Coor ATK",
-          "echoSlug": "hecate",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Empyrean Anthem",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -68,14 +76,17 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Empyrean Anthem"
-          ]
+          "echoSlug": "hecate",
+          "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS - General",
-          "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -98,9 +109,8 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -109,35 +119,34 @@
         "ATK%",
         "Basic Attack DMG Bonus",
         "ATK"
-      ],
-      "note": "Midnight Veil adalah echo set terbaik untuk Cantarella saat dipasangkan dengan Phrolova atau resonator Havoc lainnya.\n"
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
       {
         "id": "whispers-of-sirens",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "rime-draped-sprouts",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "stringmaster",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "fusion-accretion",
-        "rank": "5",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": "5"
       },
       {
         "id": "jinzhou-keeper",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       }
     ],
     "rotations": [],
@@ -149,128 +158,129 @@
         "Normal Attack",
         "Intro Skill"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "roccia-hypercarry---alt"
+      "buling-support",
+      "camellya-hypercarry",
+      "carlotta-hypercarry",
+      "chixia-hypercarry",
+      "havoc-rover-hypercarry",
+      "jinhsi-hypercarry",
+      "mono-havoc",
+      "phrolova-core",
+      "phrolova-hypercarry"
     ],
-    "teamNote": "Cantarella memberikan buff berikut untuk rekan timnya:\n- 20% Havoc DMG dan 25% Res. Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill\n- 15% Havoc DMG Bonus dari bonus set Midnight Veil."
+    "teamNote": ""
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Canta",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Whispers Of Sirens",
           "value": 301969.95,
-          "percentage": 127.45,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 127.45
         },
         {
           "type": "Rime-Draped Sprouts",
           "value": 276207.42,
-          "percentage": 116.58,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 116.58
         },
         {
           "type": "Stringmaster",
           "value": 267671.09,
-          "percentage": 112.97,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 112.97
         },
         {
           "type": "Cosmic Ripples",
           "value": 236934.77,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "Fusion Accretion",
           "value": 205812.56,
-          "percentage": 86.86,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 86.86
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Canta",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Canta",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Intro Skill",
           "value": 2.9,
-          "percentage": 2.9,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 2.9
         },
         {
           "type": "BA",
           "value": 67,
-          "percentage": 67,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 67
         },
         {
           "type": "Resonance Skill",
           "value": 12.6,
-          "percentage": 12.6,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 12.6
         },
         {
           "type": "Echo",
           "value": 6.9,
-          "percentage": 6.9,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 6.9
         },
         {
           "type": "Coor/BA",
           "value": 10.6,
-          "percentage": 10.6,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 10.6
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Canta",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Sequence - Canta",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 792797.27,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 975417.71,
-          "percentage": 123.03,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 123.03
         },
         {
           "type": "S2",
           "value": 1193022.13,
-          "percentage": 150.48,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 150.48
         },
         {
           "type": "S3",
           "value": 1423357.41,
-          "percentage": 179.54,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 179.54
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Canta",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

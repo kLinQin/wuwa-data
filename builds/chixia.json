@@ -17,6 +17,12 @@
       "sets": [
         {
           "label": "DPS",
+          "sonataCustom": [
+            {
+              "name": "Molten Rift",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,10 +46,7 @@
             }
           ],
           "echoSlug": "nightmare-rider",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Molten Rift"
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -90,7 +93,6 @@
     ],
     "rotations": [],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Liberation",
         "Forte Circuit",
@@ -98,17 +100,12 @@
         "Resonance Skill",
         "Intro Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        true,
-        false
-      ]
+      "note": ""
     },
     "teams": [
+      "chixia-hypercarry",
       "chixia-mono-fushion",
-      "chixia-chixia-hypercarry"
+      "galbrena-mono-fusion"
     ],
     "teamNote": "cocok untuk yang baru pertama kali main "
   },

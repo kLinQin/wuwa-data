@@ -11,6 +11,7 @@
     "bestEcho": [],
     "bestWeapon": "Spectral Trigger",
     "echoDetails": {
+      "note": "Untuk melengkapi 5 slot Echo, gunakan 2-pc dari set Spectro apa saja. Meskipun menggunakan 2-pc set Spectro lainnya akan menjadi yang paling optimal, kamu juga dapat menggunakan 2-pc Reels of Spliced Memories sebagai gantinya.",
       "sets": [
         {
           "label": "DPS HACK",
@@ -24,8 +25,6 @@
               "set": 2
             }
           ],
-          "echoSlug": "reminiscence-adam-smasher",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -47,7 +46,9 @@
               "cost": 1,
               "stat": "ATK%"
             }
-          ]
+          ],
+          "echoSlug": "reminiscence-adam-smasher",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -56,35 +57,33 @@
         "ATK%",
         "Heavy Attack DMG Bonus",
         "ATK"
-      ],
-      "note": "Untuk melengkapi 5 slot Echo, gunakan 2-pc dari set Spectro apa saja. Meskipun menggunakan 2-pc set Spectro lainnya akan menjadi yang paling optimal, kamu juga dapat menggunakan 2-pc Reels of Spliced Memories sebagai gantinya."
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
       {
         "id": "spectral-trigger",
-        "rank": "",
-        "percentage": "119.76%"
+        "percentage": "119.76%",
+        "rank": ""
       },
       {
         "id": "phasic-homogenizer",
-        "rank": "",
-        "percentage": "100.00%"
+        "percentage": "100.00%",
+        "rank": ""
       },
       {
         "id": "the-last-dance",
-        "rank": "",
-        "percentage": "92.14%"
+        "percentage": "92.14%",
+        "rank": ""
       },
       {
         "id": "static-mist",
-        "rank": "",
-        "percentage": "89.25%"
+        "percentage": "89.25%",
+        "rank": ""
       }
     ],
     "rotations": [
       {
-        "title": "New Rotation",
         "steps": [
           "Intro",
           "Skill12",
@@ -94,7 +93,8 @@
           "[F]HA12",
           "Ult",
           "Outro"
-        ]
+        ],
+        "title": "New Rotation"
       }
     ],
     "talentPriority": {
@@ -105,145 +105,139 @@
         "Resonance Skill",
         "Intro Skill"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "lucy-hack-premium"
+      "hack-premium"
     ],
     "teamNote": "1. Menggunakan para Edgerunner bersama-sama akan membuka sinergi yang sangat kuat di antara mereka, beserta dengan buff tambahan:\nLucy menyediakan buff berikut untuk rekan satu timnya saat melancarkan Outro Skill: \n- 20% Basic Attack DMG Amplify selama 14 detik\n- \"Countermeasure Program\" selama 25 detik, di mana Rebecca mendapatkan 20% All-DMG Amplify. Ketika Resonator lain diserang, mereka menerima damage 30% lebih sedikit selama 3 detik dan memberikan efek stagnate pada penyerang mereka selama 1 detik. Efek ini dapat dipicu hingga 1 kali.\n\n2. Lucy merupakan Main DPS yang solid bersama dengan rekan tim gratisnya, Rebecca. Ia tidak merusak keseimbangan game ataupun mengubah meta, tetapi ia masih dapat berfungsi sebagai DPS yang mumpuni.\nSecara teknis ia bisa dipasangkan dengan Heavy DMG buffer mana pun, tetapi karena Rebecca bisa didapatkan secara gratis dan kit mereka memiliki sinergi yang terstruktur satu sama lain, tidak ada alasan nyata untuk memisahkan keduanya."
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Lucy",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Spectral Trigger",
           "value": 1143566.27,
-          "percentage": 119.76,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 119.76
         },
         {
           "type": "Phasic Homogenizer",
           "value": 954883.97,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "The Last Dance",
           "value": 879840.15,
-          "percentage": 92.14,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 92.14
         },
         {
           "type": "Static Mist",
           "value": 852236.45,
-          "percentage": 89.25,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 89.25
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Lucy",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Lucy",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Heavy",
           "value": 79.1,
-          "percentage": 79.1,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 79.1
         },
         {
           "type": "Hack",
           "value": 10.9,
-          "percentage": 10.9,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 10.9
         },
         {
           "type": "Skill",
           "value": 3.8,
-          "percentage": 3.8,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 3.8
         },
         {
           "type": "Echo",
           "value": 3,
-          "percentage": 3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 3
         },
         {
           "type": "BA",
           "value": 1.9,
-          "percentage": 1.9,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 1.9
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Lucy",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Sequence - Lucy",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 1143566.27,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 1186897.75,
-          "percentage": 103.79,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 103.79
         },
         {
           "type": "S2",
           "value": 1454647,
-          "percentage": 127.2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 127.2
         },
         {
           "type": "S3",
           "value": 1926459.63,
-          "percentage": 168.46,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 168.46
         },
         {
           "type": "S4",
           "value": 2034050.94,
-          "percentage": 177.87,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 177.87
         },
         {
           "type": "S5",
           "value": 2034050.94,
-          "percentage": 177.87,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 177.87
         },
         {
           "type": "S6",
           "value": 2813276.67,
-          "percentage": 246.01,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 246.01
         },
         {
           "type": "S6R5",
           "value": 3479867.73,
-          "percentage": 304.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 304.3
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Lucy",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

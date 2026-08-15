@@ -17,6 +17,24 @@
       "sets": [
         {
           "label": "Sub DPS // DMG",
+          "sonataCustom": [
+            {
+              "name": "Crown Of Valor",
+              "set": 3
+            },
+            {
+              "name": "Sierra Gale",
+              "set": 2
+            },
+            {
+              "name": "Windward Pilgrimage",
+              "set": 2
+            },
+            {
+              "name": "Gusts Of Welkin",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,28 +58,16 @@
             }
           ],
           "echoSlug": "lady-of-the-sea",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            {
-              "name": "Crown Of Valor",
-              "set": 3
-            },
-            {
-              "name": "Sierra Gale",
-              "set": 2
-            },
-            {
-              "name": "Windward Pilgrimage",
-              "set": 2
-            },
-            {
-              "name": "Gusts Of Welkin",
-              "set": 2
-            }
-          ]
+          "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS // General",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -85,10 +91,7 @@
             }
           ],
           "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -153,23 +156,25 @@
       }
     ],
     "talentPriority": {
-      "note": "Untuk Iuno sebagai Main DPS, targetkan 110-120% ER dan maksimalkan level Normal ATK miliknya.",
       "priority": [
         "Forte Circuit",
         "Resonance Liberation",
         "Normal Attack",
         "Resonance Skill",
         "Intro Skill"
-      ]
+      ],
+      "note": "Untuk Iuno sebagai Main DPS, targetkan 110-120% ER dan maksimalkan level Normal ATK miliknya."
     },
     "teams": [
-      "aero-rover-hypercarry-iuno",
-      "ciaccona-iuno-hypercarry",
-      "iuno-team",
-      "jianxin-mono-aero",
-      "mornye-team"
+      "augusta-premium",
+      "iuno-hypercarry",
+      "jianxin-sub-dps",
+      "jiyan-hypercarry",
+      "lynae-sub-dps",
+      "mono-aero",
+      "qiuyuan-hypercarry"
     ],
-    "teamNote": "Iuno memberikan buff berikut untuk rekan satu timnya:\n- 50% Heavy DMG Amplify selama 14 detik setelah menggunakan Outro Skill.\n- 40% All-DMG Amplify selama 10 detik saat mendapatkan shield di dalam [Full Moon Domain], yang hanya berlaku untuk Augusta atau Iuno sebagai Main DPS."
+    "teamNote": ""
   },
   "analysisCharts": [
     {

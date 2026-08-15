@@ -14,11 +14,16 @@
     ],
     "bestWeapon": "Blazing Justice",
     "echoDetails": {
+      "note": "Capitaneus 4-6% lebih baik daripada menggunakan NM: Mourning Aix.\n\nKarena Eternal Radiance memberikan tambahan 20% Crit. Rate saat dalam pertempuran, disarankan untuk menggunakan Mainstat 4-cost Crit. DMG, terutama saat Zani dipasangkan dengan Shorekeeper. Jika tidak, Zani mungkin akan melampaui batas (overcap) Crit. Rate.",
       "sets": [
         {
           "label": "Dps",
-          "echoSlug": "capitaneus",
-          "echoSlugSecondary": "nightmare-mourning-aix",
+          "sonataCustom": [
+            {
+              "name": "Eternal Radiance",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -41,9 +46,8 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Eternal Radiance"
-          ]
+          "echoSlug": "capitaneus",
+          "echoSlugSecondary": "nightmare-mourning-aix"
         }
       ],
       "substats": [
@@ -52,50 +56,48 @@
         "ATK%",
         "Heavy Attack DMG Bonus",
         "ATK"
-      ],
-      "note": "Capitaneus 4-6% lebih baik daripada menggunakan NM: Mourning Aix.\n\nKarena Eternal Radiance memberikan tambahan 20% Crit. Rate saat dalam pertempuran, disarankan untuk menggunakan Mainstat 4-cost Crit. DMG, terutama saat Zani dipasangkan dengan Shorekeeper. Jika tidak, Zani mungkin akan melampaui batas (overcap) Crit. Rate."
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
       {
         "id": "blazing-justice",
-        "rank": "",
-        "percentage": "122"
+        "percentage": "122",
+        "rank": ""
       },
       {
         "id": "tragicomedy",
-        "rank": "",
-        "percentage": "116"
+        "percentage": "116",
+        "rank": ""
       },
       {
         "id": "veritys-handle",
-        "rank": "",
-        "percentage": "105"
+        "percentage": "105",
+        "rank": ""
       },
       {
         "id": "pulsation-bracer",
-        "rank": "",
-        "percentage": "-"
+        "percentage": "-",
+        "rank": ""
       },
       {
         "id": "abyss-surges",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "stonard",
-        "rank": "",
-        "percentage": "-"
+        "percentage": "-",
+        "rank": ""
       },
       {
         "id": "hollow-mirage",
-        "rank": "5",
-        "percentage": "90"
+        "percentage": "90",
+        "rank": "5"
       }
     ],
     "rotations": [
       {
-        "title": "Standar",
         "steps": [
           "Intro",
           "Echo",
@@ -111,7 +113,8 @@
           "Skill",
           "BA",
           "Outro"
-        ]
+        ],
+        "title": "Standar"
       }
     ],
     "talentPriority": {
@@ -122,136 +125,127 @@
         "Normal Attack",
         "Intro Skill"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "phoebe-hypercarry---zani",
-      "spectro-rover-hypercarry---zani",
-      "zani-hypercarry---zani"
+      "zani-hypercarry"
     ],
     "teamNote": "Rover: Spectro adalah opsi slot ketiga terbaik untuk mencapai batas kemampuan (skill ceiling) yang lebih tinggi. kamu juga dapat menggunakan healer lain seperti Shorekeeper sebagai gantinya."
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Zani",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Blazing Justice",
           "value": 1223116.85,
-          "percentage": 122.41,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 122.41
         },
         {
           "type": "Tragicomedy",
           "value": 1162092.79,
-          "percentage": 116.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 116.3
         },
         {
           "type": "Verity'S Handle",
           "value": 1059759.32,
-          "percentage": 106.06,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 106.06
         },
         {
           "type": "Abyss Surges",
           "value": 999220.15,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Zani",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Zani",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Outro (Frazzle)",
           "value": 9.2,
-          "percentage": 9.2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 9.2
         },
         {
           "type": "BA",
           "value": 2,
-          "percentage": 2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 2
         },
         {
           "type": "Skill",
           "value": 0.8,
-          "percentage": 0.8,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 0.8
         },
         {
           "type": "Skill (Frazzle)",
           "value": 5.7,
-          "percentage": 5.7,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 5.7
         },
         {
           "type": "HA (Frazzle)",
           "value": 65.8,
-          "percentage": 65.8,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 65.8
         },
         {
           "type": "Lib",
           "value": 12.3,
-          "percentage": 12.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 12.3
         },
         {
           "type": "Echo",
           "value": 2.7,
-          "percentage": 2.7,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 2.7
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Zani",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Sequence - Zani",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 1223116.85,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 1494438.74,
-          "percentage": 122.18,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 122.18
         },
         {
           "type": "S2",
           "value": 1777455.94,
-          "percentage": 145.32,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 145.32
         },
         {
           "type": "S3",
           "value": 1926937.22,
-          "percentage": 157.54,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 157.54
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Zani",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

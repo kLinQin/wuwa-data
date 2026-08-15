@@ -17,6 +17,16 @@
       "sets": [
         {
           "label": "DPS",
+          "sonataCustom": [
+            {
+              "name": "Crown Of Valor",
+              "set": 3
+            },
+            {
+              "name": "Void Thunder",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,17 +50,7 @@
             }
           ],
           "echoSlug": "the-false-sovereign",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            {
-              "name": "Crown Of Valor",
-              "set": 3
-            },
-            {
-              "name": "Void Thunder",
-              "set": 2
-            }
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -113,7 +113,6 @@
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Liberation",
         "Forte Circuit",
@@ -121,20 +120,11 @@
         "Resonance Skill",
         "Intro Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "augusta-hypercarry",
-      "augusta-dual-dps",
-      "iuno-augusta-hypercarry",
-      "lynae-hypercarry-alt",
-      "mortefi-agus/jiyan-hypercarry"
+      "augusta-alternatif",
+      "augusta-premium"
     ],
     "teamNote": "Augusta merupakan Main DPS yang fokus utamanya memberikan Heavy ATK DMG."
   },

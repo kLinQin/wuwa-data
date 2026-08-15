@@ -17,6 +17,12 @@
       "sets": [
         {
           "label": "DPS",
+          "sonataCustom": [
+            {
+              "name": "Void Thunder",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,10 +46,7 @@
             }
           ],
           "echoSlug": "nightmare-thundering-mephis",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Void Thunder"
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -133,7 +136,6 @@
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Liberation",
         "Forte Circuit",
@@ -141,20 +143,14 @@
         "Intro Skill",
         "Normal Attack"
       ],
-      "equalPriority": [
-        true,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "jianxin-buff-liberation",
-      "xiangli-yao-yao-break",
-      "xiangli-yao-yao-hypercarry",
-      "xiangli-yao-yao-quickswap",
-      "yinlin-hypercarry"
+      "changli-quickswap",
+      "encore-quickswap",
+      "jianxin-sub-dps",
+      "quickswap",
+      "xiangliyao-hypercarry"
     ],
     "teamNote": "Changli atau Calcharo berpasangan dengan sangat baik dengan Xiangli Yao bagi mereka yang menikmati gaya bermain dual DPS yang sedikit lebih mahir. Animasi serangan dan skill mereka dapat swap cancelled, memungkinkan mereka untuk bersinergi dengan baik.\n\nLynae, Yinlin, atau Sanhua adalah pilihan Sub DPS yang sangat baik untuk Xiangli Yao karena mereka membutuhkan waktu yang minimal di field dan buff yang mereka berikan memungkinkan gaya bermain hypercarry.\n"
   },

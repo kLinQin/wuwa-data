@@ -19,6 +19,12 @@
       "sets": [
         {
           "label": "Healer",
+          "sonataCustom": [
+            {
+              "name": "Rejuvenating Glow",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -42,13 +48,16 @@
             }
           ],
           "echoSlug": "fallacy-of-no-return",
-          "echoSlugSecondary": "bell-borne-geochelone",
-          "sonataCustom": [
-            "Rejuvenating Glow"
-          ]
+          "echoSlugSecondary": "bell-borne-geochelone"
         },
         {
           "label": "Sub DPS",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -72,10 +81,7 @@
             }
           ],
           "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -105,7 +111,6 @@
     ],
     "rotations": [],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Liberation",
         "Resonance Skill",
@@ -113,13 +118,7 @@
         "Normal Attack",
         "Intro Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        true,
-        false
-      ]
+      "note": ""
     },
     "teams": [
       "jinhsi-hypercarry"

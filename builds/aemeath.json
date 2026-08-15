@@ -15,6 +15,12 @@
       "sets": [
         {
           "label": "DPS",
+          "sonataCustom": [
+            {
+              "name": "Trailblazing Star",
+              "set": 5
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -38,13 +44,7 @@
             }
           ],
           "echoSlug": "sigillum",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            {
-              "name": "Trailblazing Star",
-              "set": 5
-            }
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -98,7 +98,6 @@
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Liberation",
         "Forte Circuit",
@@ -106,26 +105,15 @@
         "Normal Attack",
         "Intro Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "aemeath-tune-break",
       "aemeath-mono-fusion",
-      "aemeath-fusion-burst",
-      "denia-fusion-burst",
-      "denia-tune-strain",
-      "lynae-hypercarry",
-      "mornye-tune-break",
-      "mornye-mono-fusion",
-      "suisui-fusion-burst"
+      "fusion-burst",
+      "lynae-sub-dps",
+      "tune-team"
     ],
-    "teamNote": "1. team comp bergantung pada mode mana yang km pilih.\n- Tune Break:  Lynae > Aemeath's Sig > Mornye\n- Fusion Burst: Denia > Aemeath's Sig > Chisa\n-Generic/Mono Fusion: Lupa > Aemeath's Sig > Mornye/Changli\n\n 2. Aemeath memberikan buff berikut untuk rekan satu timnya:\n- 10% All-DMG Amplify selama 20 detik setelah melancarkan Outro Skill\n- Ini akan menjadi 20% Amplify untuk Resonator yang dapat memberikan efek Shifting atau Fusion Burst."
+    "teamNote": "1. team comp bergantung pada mode mana yang km pilih.\n- Tune Break:  Lynae > Aemeath's Sig > Mornye\n- Fusion Burst: Denia > Aemeath's Sig > Chisa\n-Generic/Mono Fusion: Lupa > Aemeath's Sig > Mornye/Changli"
   },
   "analysisCharts": [
     {

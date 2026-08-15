@@ -13,11 +13,16 @@
     ],
     "bestWeapon": "Woodland Aria",
     "echoDetails": {
+      "note": "Echo NM Kelpie ini lebih mudah di-farm dibandingkan Reminiscence: Fleurdelys dan memberikan Aero DMG Bonus 2% lebih tinggi.",
       "sets": [
         {
           "label": "Sub Dps Aero",
-          "echoSlug": "fleurdelys",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Gusts Of Welkin",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,14 +45,12 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Gusts Of Welkin"
-          ]
+          "echoSlug": "fleurdelys",
+          "echoSlugSecondary": ""
         },
         {
           "label": "Sub Dps Alt",
-          "echoSlug": "nightmare-kelpie",
-          "echoSlugSecondary": "",
+          "sonataCustom": [],
           "stats": [
             {
               "cost": 4,
@@ -70,7 +73,8 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": []
+          "echoSlug": "nightmare-kelpie",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -78,8 +82,7 @@
         "Energy Regen (120)",
         "ATK%",
         "ATK"
-      ],
-      "note": "Echo NM Kelpie ini lebih mudah di-farm dibandingkan Reminiscence: Fleurdelys dan memberikan Aero DMG Bonus 2% lebih tinggi."
+      ]
     },
     "weaponNote": "- Romance in Farewel, Undying Flame dan Thunderbolt semua nya R5.\n- Jika dipasangkan dengan Cartethyia, Phasic Homogenizer memberikan damage yang lebih baik, tetapi akan kehilangan pasif ER dari Static Mist. \n- Gunakan Static Mist jika dipasangkan dengan Iuno, Jiyan, atau Qiuyuan. ",
     "weaponOptions": [
@@ -121,7 +124,6 @@
     ],
     "rotations": [
       {
-        "title": "standar",
         "steps": [
           "Intro",
           "BA3",
@@ -132,7 +134,8 @@
           "Forte",
           "Ult",
           "Outro(Echo)"
-        ]
+        ],
+        "title": "standar"
       }
     ],
     "talentPriority": {
@@ -146,10 +149,13 @@
       "note": ""
     },
     "teams": [
-      "cartethyia-erosion",
-      "iuno-hypercarry"
+      "aero-erosion",
+      "iuno-hypercarry",
+      "jiyan-hypercarry",
+      "mono-aero",
+      "qiuyuan-hypercarry"
     ],
-    "teamNote": "Ciaccona memberikan buff berikut kepada rekan timnya:\n- 24% Aero DMG Bonus dari [Ensemble Sylphs] miliknya.\n- 15% Aero DMG Bonus dari set bonus Gusts of Welkin.\n- 100% Aero Erosion Amplify selama 30 detik setelah menggunakan Outro Skill.\n- Dengan Woodland Aria (Signature Ciaccona): 10% Aero RES Reduction selama 20 detik."
+    "teamNote": ""
   },
   "analysisCharts": [
     {
@@ -157,35 +163,38 @@
         {
           "type": "BA",
           "value": 27.3,
+          "imagePath": "",
           "percentage": 27.3
         },
         {
           "type": "HA",
           "value": 21.3,
+          "imagePath": "",
           "percentage": 21.3
         },
         {
           "type": "Skill",
           "value": 4.8,
+          "imagePath": "",
           "percentage": 21.3
         },
         {
           "type": "Lib ",
           "value": 37.2,
-          "percentage": 37.2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 37.2
         },
         {
           "type": "Echo",
           "value": 3.8,
-          "percentage": 3.8,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 3.8
         },
         {
           "type": "Intro",
           "value": 5.4,
-          "percentage": 5.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 5.4
         }
       ],
       "note": "SOURCE // TETHYS.GG",
@@ -194,36 +203,36 @@
       "chartType": "radar"
     },
     {
-      "title": "Sequence- Cia",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "SOURCE // TETHYS.GG",
       "data": [
         {
           "type": "S0",
           "value": 271053.94,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 311046.06,
-          "percentage": 108,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 108
         },
         {
           "type": "S2",
           "value": 335399.58,
-          "percentage": 113,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 113
         },
         {
           "type": "S3",
           "value": 390669.31,
-          "percentage": 117,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 117
         }
-      ]
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Sequence- Cia",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

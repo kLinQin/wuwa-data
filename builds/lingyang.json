@@ -17,6 +17,12 @@
       "sets": [
         {
           "label": "Glacio DMG",
+          "sonataCustom": [
+            {
+              "name": "Freezing Frost",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,13 +46,16 @@
             }
           ],
           "echoSlug": "lampylumen-myriad",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Freezing Frost"
-          ]
+          "echoSlugSecondary": ""
         },
         {
           "label": "General ATK",
+          "sonataCustom": [
+            {
+              "name": "Lingering Tunes",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -70,13 +79,16 @@
             }
           ],
           "echoSlug": "mech-abomination",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Lingering Tunes"
-          ]
+          "echoSlugSecondary": ""
         },
         {
           "label": "Skill DMG",
+          "sonataCustom": [
+            {
+              "name": "Frosty Resolve",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -100,10 +112,7 @@
             }
           ],
           "echoSlug": "sentry-construct",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Frosty Resolve"
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -149,7 +158,6 @@
     ],
     "rotations": [],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Forte Circuit",
         "Resonance Liberation",
@@ -157,18 +165,12 @@
         "Intro Skill",
         "Normal Attack"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        true,
-        false
-      ]
+      "note": ""
     },
     "teams": [
       "lingyang-lingyang-hypercarry"
     ],
-    "teamNote": "- Zhezhi memberikan Lingyang 20% Glacio & 25% Res. Skill DMG Amplify setelah melancarkan Outro Skill miliknya.\n- Sanhua memberikan Lingyang 38% Basic ATK DMG Amplify. Pada S6, ia dapat memberikan hingga 20% ATK setelah meledakkan Ice Prisms/Glaciers miliknya."
+    "teamNote": ""
   },
   "analysisCharts": []
 }

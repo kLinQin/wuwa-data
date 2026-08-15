@@ -18,6 +18,12 @@
       "sets": [
         {
           "label": "Sub DPS Erosion",
+          "sonataCustom": [
+            {
+              "name": "Windward Pilgrimage",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -41,13 +47,16 @@
             }
           ],
           "echoSlug": "fleurdelys",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Windward Pilgrimage"
-          ]
+          "echoSlugSecondary": ""
         },
         {
           "label": "Healer",
+          "sonataCustom": [
+            {
+              "name": "Rejuvenating Glow",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -71,10 +80,7 @@
             }
           ],
           "echoSlug": "bell-borne-geochelone",
-          "echoSlugSecondary": "fallacy-of-no-return",
-          "sonataCustom": [
-            "Rejuvenating Glow"
-          ]
+          "echoSlugSecondary": "fallacy-of-no-return"
         }
       ],
       "substats": [
@@ -105,22 +111,23 @@
     ],
     "rotations": [],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Forte Circuit",
         "Resonance Liberation",
         "Resonance Skill",
         "Normal Attack",
         "Intro Skill"
-      ]
+      ],
+      "note": ""
     },
     "teams": [
-      "cartethyia-erosion",
-      "cartethyia-hypercarry",
-      "cartethyia-budget",
-      "iuno-hypercarry"
+      "aero-erosion",
+      "cartethyia-alternatif",
+      "iuno-hypercarry",
+      "jiyan-hypercarry",
+      "mono-aero"
     ],
-    "teamNote": "Rover: Aero atau Chisa dapat meningkatkan jumlah maksimum stack Aero Erosion pada musuh dalam satu waktu, sekaligus memberikan damage tambahan masing-masing melalui Bloodpact's Pledge (Rover: Aero) atau DEF shred dari Havoc Bane (Chisa)."
+    "teamNote": ""
   },
   "analysisCharts": [
     {
@@ -128,16 +135,19 @@
         {
           "type": "Skill",
           "value": 73,
+          "imagePath": "",
           "percentage": 73
         },
         {
           "type": "Liberation",
           "value": 19.9,
+          "imagePath": "",
           "percentage": 19.9
         },
         {
           "type": "Intro",
           "value": 7,
+          "imagePath": "",
           "percentage": 7
         }
       ],

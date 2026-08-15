@@ -11,6 +11,7 @@
     "bestEcho": [],
     "bestWeapon": "Firstlights-Herald",
     "echoDetails": {
+      "note": "1.  Jika kamu mampu mencapai 260% ER hanya dengan satu buah 3-cost yang memiliki substat ER, kamu dapat memilih untuk menggunakan Glacio DMG Bonus guna meningkatkan DMG yang dihasilkan, atau memilih HP% untuk memperoleh tambahan healing dan damage yang lebih seimbang. Perlu diketahui bahwa ia tidak mendapatkan tambahan Energy Regen sama sekali dari skill pasif (Inherent skills), melainkan hanya 10% dari set Sonata 2-pc yang digunakannya.\n2. Tingkatkan level skill sesuai kebutuhan untuk optimalisasi healing. Perlu diingat bahwa Intro Skill hanya berfungsi untuk menghasilkan DMG dan tidak berkontribusi pada aspek healing.",
       "sets": [
         {
           "label": "NS Support",
@@ -20,8 +21,6 @@
               "set": 5
             }
           ],
-          "echoSlug": "forbidden-bastion",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -43,7 +42,9 @@
               "cost": 1,
               "stat": "HP%"
             }
-          ]
+          ],
+          "echoSlug": "forbidden-bastion",
+          "echoSlugSecondary": ""
         },
         {
           "label": "General",
@@ -53,8 +54,6 @@
               "set": 5
             }
           ],
-          "echoSlug": "",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -76,42 +75,43 @@
               "cost": 1,
               "stat": "HP%"
             }
-          ]
+          ],
+          "echoSlug": "",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
         "ER%",
         "HP%",
         "HP"
-      ],
-      "note": "1.  Jika kamu mampu mencapai 260% ER hanya dengan satu buah 3-cost yang memiliki substat ER, kamu dapat memilih untuk menggunakan Glacio DMG Bonus guna meningkatkan DMG yang dihasilkan, atau memilih HP% untuk memperoleh tambahan healing dan damage yang lebih seimbang. Perlu diketahui bahwa ia tidak mendapatkan tambahan Energy Regen sama sekali dari skill pasif (Inherent skills), melainkan hanya 10% dari set Sonata 2-pc yang digunakannya.\n2. Tingkatkan level skill sesuai kebutuhan untuk optimalisasi healing. Perlu diingat bahwa Intro Skill hanya berfungsi untuk menghasilkan DMG dan tidak berkontribusi pada aspek healing."
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
       {
         "id": "firstlights-herald",
-        "rank": "",
-        "percentage": "107"
+        "percentage": "107",
+        "rank": ""
       },
       {
         "id": "stellar-symphony",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "variation",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "call-of-the-abyss",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "rectifier-25",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       }
     ],
     "rotations": [],
@@ -123,86 +123,79 @@
         "Normal Attack",
         "Intro Skill"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "yangyang-xuanling-hypercarry",
-      "hiyuki-hypercarry",
-      "yangyang-xuanling-hypercarry",
-      "aemeath-hypercarry",
-      "cartethyia-hypercarry"
+      "cartethyia-alternatif",
+      "fusion-burst",
+      "havoc-bane"
     ],
-    "teamNote": "Suisui memberikan berbagai buff berikut kepada rekan satu timnya:\n- Meningkatkan batas maksimum stack Status Negatif (kecuali Havoc Bane) sebanyak 3 lapis selama 15 detik.\n- Saat mengonsumsi stacks Havoc Bane, efek yang diberikan adalah Def Ignore sebesar 6% dan Havoc Res Ignore sebesar 12% untuk DMG Havoc yang bersangkutan, yang berlangsung selama 30 detik setelah skill mengenai sasaran.\n- Memberikan tambahan 50% ATK kepada pengguna Status Negatif (seperti Yangyang: Xuanling dan Hiyuki).\n- Menambahkan 12% DMG Bonus selama berada dalam status [Roaming Transcendent].\n- Memberikan 25% DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n- Dengan efek senjata signature Firstland's Herald (milik Suisui): memberikan tambahan 20% ATK ketika ia memiliki kedua status Snow Taint dan Ripples secara bersamaan (yang diperoleh dengan cara menginflict Glacio Chafe dan melakukan aksi healing).\n\n"
+    "teamNote": ""
   },
   "analysisCharts": [
     {
-      "title": "Damage By Talent",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Intro",
           "value": 81.5,
-          "percentage": 81.5,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 81.5
         },
         {
           "type": "Forte",
           "value": 14.6,
-          "percentage": 14.6,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 14.6
         },
         {
           "type": "Skill",
           "value": 3.9,
-          "percentage": 3.9,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 3.9
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage By Talent",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Damage",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Intro",
           "value": 41,
-          "percentage": 41,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 41
         },
         {
           "type": "Glacio Chafe",
           "value": 44.3,
-          "percentage": 44.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 44.3
         },
         {
           "type": "Echo",
           "value": 3.4,
-          "percentage": 3.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 3.4
         },
         {
           "type": "Skill",
           "value": 3.9,
-          "percentage": 3.9,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 3.9
         },
         {
           "type": "BA",
           "value": 4.4,
-          "percentage": 4.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 4.4
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
     }
   ]
 }

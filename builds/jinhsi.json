@@ -13,11 +13,16 @@
     ],
     "bestWeapon": "Ages of Harvest",
     "echoDetails": {
+      "note": "Gunakan 1x Spectro DMG Bonus + 1x ATK% jika kamu memiliki Ages of Harvest yang terpasang.\nJinhsi adalah salah satu dari sedikit karakter yang dapat menjalankan 44111 alih-alih 43311 tradisional karena adanya Attribute DMG pada signature weapon miliknya dan sequence selanjutnya. Jika SOR1, hal ini hanya 3% lebih buruk daripada 43311 (ELE/ATK).",
       "sets": [
         {
           "label": "DPS",
-          "echoSlug": "jue",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Celestial Light",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,9 +45,8 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Celestial Light"
-          ]
+          "echoSlug": "jue",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -51,45 +55,43 @@
         "ATK%",
         "Reso Skill DMG",
         "ATK"
-      ],
-      "note": "Gunakan 1x Spectro DMG Bonus + 1x ATK% jika kamu memiliki Ages of Harvest yang terpasang.\nJinhsi adalah salah satu dari sedikit karakter yang dapat menjalankan 44111 alih-alih 43311 tradisional karena adanya Attribute DMG pada signature weapon miliknya dan sequence selanjutnya. Jika SOR1, hal ini hanya 3% lebih buruk daripada 43311 (ELE/ATK)."
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
       {
         "id": "ages-of-harvest",
-        "rank": "",
-        "percentage": "121"
+        "percentage": "121",
+        "rank": ""
       },
       {
         "id": "verdant-summit",
-        "rank": "",
-        "percentage": "107"
+        "percentage": "107",
+        "rank": ""
       },
       {
         "id": "radiance-cleaver",
-        "rank": "",
-        "percentage": "-"
+        "percentage": "-",
+        "rank": ""
       },
       {
         "id": "lustrous-razor",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "autumntrace",
-        "rank": "",
-        "percentage": "86"
+        "percentage": "86",
+        "rank": ""
       },
       {
         "id": "helios-cleaver",
-        "rank": "",
-        "percentage": "86"
+        "percentage": "86",
+        "rank": ""
       }
     ],
     "rotations": [
       {
-        "title": "Standar",
         "steps": [
           "Skill(Swap)",
           "Intro",
@@ -107,10 +109,10 @@
           "[F]BA4",
           "[E][F]Skill",
           "Outro"
-        ]
+        ],
+        "title": "Standar"
       },
       {
-        "title": "Quickswap",
         "steps": [
           "Echo+Skill(Swap)",
           "Intro",
@@ -122,7 +124,8 @@
           "[F]BA4",
           "[E][F]Skill",
           "Outro"
-        ]
+        ],
+        "title": "Quickswap"
       }
     ],
     "talentPriority": {
@@ -133,126 +136,121 @@
         "Intro Skill",
         "Normal Attack"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        true,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "jianxin-jinhsi-hypercarry",
+      "buling-support",
+      "changli-quickswap",
+      "encore-quickswap",
+      "jinhsi-blender",
       "jinhsi-hypercarry",
-      "jinhsi-quickswap-",
-      "mortefi-jinhsi-blender",
-      "yuanwu-team"
+      "jinhsi-quickswap",
+      "taoqi-buff"
     ],
     "teamNote": "Jinhsi's Premium Team\n- Zhezhi memberikan Res. Skill DMG Amplify, Coordinated ATKs, dan Res. Energy Regeneration, memungkinkan Jinhsi untuk menggunakan Liberation secara konsisten. Oilihan alternatif untuk Res. Skill Amplify mencakup Brant, Cantarella, Lumi, Buling, atau Taoqi.\n\nJinhsi's Budget / Accessible Team\n- Verina mengenakan Moonlit Clouds, dan Yuanwu mengenakan Rejuvenating Glow + Originite: Type IV sebagai senjatanya.\n- Concerto gen milik Yuanwu jauh terlalu lambat baginya untuk mengenakan Moonlit Clouds.\n\n"
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Jinhsi",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Ages Of Harvest",
           "value": 961455.48,
-          "percentage": 120.93,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 120.93
         },
         {
           "type": "Verdant Summit",
           "value": 853011.72,
-          "percentage": 107.29,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 107.29
         },
         {
           "type": "Lustrous Razor",
           "value": 795020.87,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "Waning Redshift R5",
           "value": 688795.54,
-          "percentage": 86.64,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 86.64
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Jinhsi",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Jinhsi",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "BA",
           "value": 2.2,
-          "percentage": 2.2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 2.2
         },
         {
           "type": "Skill",
           "value": 76.4,
-          "percentage": 76.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 76.4
         },
         {
           "type": "Lib",
           "value": 14.5,
-          "percentage": 14.5,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 14.5
         },
         {
           "type": "Echo",
           "value": 3.3,
-          "percentage": 3.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 3.3
         },
         {
           "type": "Intro Skill",
           "value": 3.6,
-          "percentage": 3.6,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 3.6
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Jinhsi",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Sequence - Jinhsi",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 961455.48,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 1061592.11,
-          "percentage": 110.42,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 110.42
         },
         {
           "type": "S2",
           "value": 1061592.11,
-          "percentage": 110.42,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 110.42
         },
         {
           "type": "S3",
           "value": 1391244.69,
-          "percentage": 144.7,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 144.7
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Jinhsi",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

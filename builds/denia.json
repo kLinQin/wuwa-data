@@ -11,14 +11,16 @@
     "bestEcho": [],
     "bestWeapon": "Forged Dwarf Star",
     "echoDetails": {
+      "note": "Bersama Aemeath, gunakan Chromatic Foam. Jika kamu memasangkannya dengan Luuk, kamu dapat menggunakan Reels of Spliced Memories sebagai gantinya.",
       "sets": [
         {
           "label": "Hybrid",
           "sonataCustom": [
-            "Chromatic Foam"
+            {
+              "name": "Chromatic Foam",
+              "set": 2
+            }
           ],
-          "echoSlug": "reminiscence-denia",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -40,15 +42,18 @@
               "cost": 1,
               "stat": "ATK%"
             }
-          ]
+          ],
+          "echoSlug": "reminiscence-denia",
+          "echoSlugSecondary": ""
         },
         {
           "label": "Alternatif",
           "sonataCustom": [
-            "Reel Of Spliced Memories"
+            {
+              "name": "Reel Of Spliced Memories",
+              "set": 2
+            }
           ],
-          "echoSlug": "voidwing-moth",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -70,7 +75,9 @@
               "cost": 1,
               "stat": "ATK%"
             }
-          ]
+          ],
+          "echoSlug": "voidwing-moth",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -79,35 +86,33 @@
         "ATK%",
         "Reso Libe DMG",
         "ATK"
-      ],
-      "note": "Bersama Aemeath, gunakan Chromatic Foam. Jika kamu memasangkannya dengan Luuk, kamu dapat menggunakan Reels of Spliced Memories sebagai gantinya."
+      ]
     },
     "weaponNote": "sumber: Chemx32 doc",
     "weaponOptions": [
       {
         "id": "forged-dwarf-star",
-        "rank": "",
-        "percentage": "135.79%"
+        "percentage": "135.79%",
+        "rank": ""
       },
       {
         "id": "stringmaster",
-        "rank": "",
-        "percentage": "119.15%"
+        "percentage": "119.15%",
+        "rank": ""
       },
       {
         "id": "lethean-elegy",
-        "rank": "",
-        "percentage": "106.66%"
+        "percentage": "106.66%",
+        "rank": ""
       },
       {
         "id": "cosmic-ripples",
-        "rank": "",
-        "percentage": "100.00%"
+        "percentage": "100.00%",
+        "rank": ""
       }
     ],
     "rotations": [
       {
-        "title": "New Rotation",
         "steps": [
           "Intro",
           "BA4",
@@ -117,7 +122,8 @@
           "[F]Skill12",
           "Ult2",
           "Outro"
-        ]
+        ],
+        "title": "New Rotation"
       }
     ],
     "talentPriority": {
@@ -128,123 +134,117 @@
         "Resonance Skill",
         "Intro Skill"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "aemeath-hypercarry",
-      "aemeath-tune-strain",
-      "luuk-herssen-tune-break"
+      "fusion-burst",
+      "luuk-hypercarry",
+      "tune-team"
     ],
-    "teamNote": "Dalam mode Fusion Burst, Denia memberikan buff berikut untuk rekan satu timnya:\n- 30% Fusion DMG Bonus saat berada dalam status [Entropy Shift]\n- 37% Fusion DMG Bonus dari bonus set Chromatic Foam (12% dari R: Denia)\n- 60% Fusion Burst DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n\nDalam mode Tune Strain, Denia memberikan buff berikut untuk rekan satu timnya:\n- 10 Tune Break Boost (total 50 bersama Mornye)\n- 20 Tune Break Boost dari bonus set Reel of Spliced Memories (12% ATK dari Voidwing Moth)\n- 15% All-Type DMG Amplify selama 16 detik (atau 40% untuk unit Strain) setelah melancarkan Outro Skill.\n\n- Dengan Forged Dawn Star (Signature Denia): Peningkatan 24% ATK selama 15 detik ketika Resonator di dalam tim memberikan efek Fusion Burst atau Tune Strain - Shifting."
+    "teamNote": ""
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Denia",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Forged Dwarf Star",
           "value": 383822.18,
-          "percentage": 125.79,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 125.79
         },
         {
           "type": "Stringmaster",
           "value": 363567.06,
-          "percentage": 119.15,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 119.15
         },
         {
           "type": "Lethean Elegy",
           "value": 325451.74,
-          "percentage": 106.66,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 106.66
         },
         {
           "type": "Cosmic Ripples",
           "value": 305122.32,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Denia",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Sequence - Denia",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 383822.18,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 420682.26,
-          "percentage": 109.6,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 109.6
         },
         {
           "type": "S2",
           "value": 512175.32,
-          "percentage": 133.44,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 133.44
         },
         {
           "type": "S3",
           "value": 641901.51,
-          "percentage": 167.24,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 167.24
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Denia",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Denia",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Lib",
           "value": 84.4,
-          "percentage": 84.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 84.4
         },
         {
           "type": "BA",
           "value": 6,
-          "percentage": 6,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 6
         },
         {
           "type": "Echo",
           "value": 5.4,
-          "percentage": 5.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 5.4
         },
         {
           "type": "Intro",
           "value": 2.1,
-          "percentage": 2.1,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 2.1
         },
         {
           "type": "Skill",
           "value": 2.1,
-          "percentage": 2.1,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 2.1
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Denia",
+      "layout": "horizontal",
+      "chartType": "radar"
     }
   ]
 }

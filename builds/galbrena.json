@@ -17,6 +17,20 @@
       "sets": [
         {
           "label": "DPS",
+          "sonataCustom": [
+            {
+              "name": "Flamewing'S Shadow",
+              "set": 3
+            },
+            {
+              "name": "Molten Rift",
+              "set": 2
+            },
+            {
+              "name": "Flaming Clawprint",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,21 +54,7 @@
             }
           ],
           "echoSlug": "corrosaurus",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            {
-              "name": "Flamewing'S Shadow",
-              "set": 3
-            },
-            {
-              "name": "Molten Rift",
-              "set": 2
-            },
-            {
-              "name": "Flaming Clawprint",
-              "set": 2
-            }
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -127,7 +127,6 @@
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Forte Circuit",
         "Resonance Liberation",
@@ -135,21 +134,12 @@
         "Resonance Skill",
         "Intro Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "brant-mono-fusion",
-      "galbrena-galbrena-hypercarry",
-      "galbrena-alternatif-hypercarry",
-      "lupa-galbrena-hypercarry",
-      "mortefi-mono-fusion",
-      "qiuyuan-echo-hc"
+      "echo-damage",
+      "galbrena-mono-fusion",
+      "mortefi-mono-fusion"
     ],
     "teamNote": "Gallbrena adalah Main DPS yang scaling antara Heavy Attack dan Echo Skill Damage"
   },

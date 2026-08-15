@@ -8,7 +8,16 @@
       "impermanence-heron"
     ],
     "teams": [
-      "havoc-rover-hypercarry"
+      "aalto-hypercarry",
+      "brant-alternatif",
+      "calcharo-hypercarry",
+      "camellya-alternatif",
+      "cartethyia-alternatif",
+      "encore-hypercarry",
+      "hack-alternatif",
+      "havoc-rover-hypercarry",
+      "lingyang-lingyang-hypercarry",
+      "luuk-alternatif"
     ]
   },
   {
@@ -49,7 +58,12 @@
       "hecate"
     ],
     "teams": [
-      "carlotta-hypercarry"
+      "buling-support",
+      "carlotta-hypercarry",
+      "chixia-hypercarry",
+      "hiyuki-alternatif",
+      "jinhsi-hypercarry",
+      "lingyang-lingyang-hypercarry"
     ]
   },
   {
@@ -74,14 +88,12 @@
       "sentry-construct"
     ],
     "teams": [
-      "buling-hypercarry",
-      "carlotta-break",
+      "buling-support",
+      "carlotta-alternatif",
       "carlotta-hypercarry",
-      "carlotta-quickswap",
-      "lucilla-chafe-alt",
-      "lumi-hypercarry---lotta",
-      "taoqi-skill-buff",
-      "zhezhi-skill-buff"
+      "lynae-sub-dps",
+      "quickswap",
+      "taoqi-buff"
     ]
   },
   {
@@ -93,10 +105,8 @@
       "threnodian-voidborne-construct"
     ],
     "teams": [
-      "hiyuki-hypercarry",
-      "hiyuki-hc-alternatif",
-      "lucilla-chafe-premium",
-      "suisui-ns---glacio-chafe"
+      "glacio-chafe",
+      "hiyuki-alternatif"
     ]
   },
   {
@@ -110,9 +120,8 @@
       "voidwing-moth"
     ],
     "teams": [
-      "hiyuki-chafe",
-      "carlotta-hypercarry",
-      "sigrika-echo"
+      "echo-damage",
+      "glacio-chafe"
     ]
   },
   {
@@ -124,11 +133,9 @@
       "forbidden-bastion"
     ],
     "teams": [
-      "yangyang-xuanling-hypercarry",
-      "hiyuki-hypercarry",
-      "yangyang-xuanling-hypercarry",
-      "aemeath-hypercarry",
-      "cartethyia-hypercarry"
+      "cartethyia-alternatif",
+      "fusion-burst",
+      "havoc-bane"
     ]
   },
   {
@@ -140,8 +147,9 @@
       "nightmare-rider"
     ],
     "teams": [
+      "chixia-hypercarry",
       "chixia-mono-fushion",
-      "chixia-chixia-hypercarry"
+      "galbrena-mono-fusion"
     ]
   },
   {
@@ -153,9 +161,8 @@
       "inferno-rider"
     ],
     "teams": [
-      "encore-hyoercary",
-      "encore-quickswap",
-      "encore-qs-alternatif"
+      "encore-hypercarry",
+      "encore-quickswap"
     ]
   },
   {
@@ -168,9 +175,10 @@
       "hecate"
     ],
     "teams": [
-      "augusta-hypercarry",
-      "jinhsi-hypercarry",
-      "galbrena-hypercarry"
+      "augusta-alternatif",
+      "jinhsi-blender",
+      "jiyan-alternatif",
+      "mortefi-mono-fusion"
     ]
   },
   {
@@ -183,7 +191,11 @@
     ],
     "teams": [
       "changli-mono-fusion",
-      "changli-quickswap"
+      "changli-quickswap",
+      "chixia-hypercarry",
+      "chixia-mono-fushion",
+      "galbrena-mono-fusion",
+      "quickswap"
     ]
   },
   {
@@ -198,7 +210,12 @@
     ],
     "teams": [
       "brant-alternatif",
-      "lupa-mono-fusion"
+      "brant-mono-fusion",
+      "changli-mono-fusion",
+      "changli-quickswap",
+      "chixia-hypercarry",
+      "chixia-mono-fushion",
+      "galbrena-mono-fusion"
     ]
   },
   {
@@ -210,7 +227,15 @@
       "lioness-of-glory"
     ],
     "teams": [
-      "lupa-qs"
+      "aemeath-mono-fusion",
+      "brant-mono-fusion",
+      "changli-mono-fusion",
+      "changli-quickswap",
+      "chixia-mono-fushion",
+      "encore-hypercarry",
+      "galbrena-mono-fusion",
+      "luuk-hypercarry",
+      "mortefi-mono-fusion"
     ]
   },
   {
@@ -222,12 +247,9 @@
       "corrosaurus"
     ],
     "teams": [
-      "brant-mono-fusion",
-      "galbrena-galbrena-hypercarry",
-      "galbrena-alternatif-hypercarry",
-      "lupa-galbrena-hypercarry",
-      "mortefi-mono-fusion",
-      "qiuyuan-echo-hc"
+      "echo-damage",
+      "galbrena-mono-fusion",
+      "mortefi-mono-fusion"
     ]
   },
   {
@@ -240,9 +262,15 @@
       "fallacy-of-no-return"
     ],
     "teams": [
-      "aemeath-tune-break",
-      "aemeath-hypercarry",
-      "iuno-hypercarry"
+      "aemeath-mono-fusion",
+      "brant-mono-fusion",
+      "changli-mono-fusion",
+      "glacio-chafe",
+      "hack-alternatif",
+      "hack-premium",
+      "luuk-hypercarry",
+      "lynae-sub-dps",
+      "tune-team"
     ]
   },
   {
@@ -254,15 +282,10 @@
       "sigillum"
     ],
     "teams": [
-      "aemeath-tune-break",
       "aemeath-mono-fusion",
-      "aemeath-fusion-burst",
-      "denia-fusion-burst",
-      "denia-tune-strain",
-      "lynae-hypercarry",
-      "mornye-tune-break",
-      "mornye-mono-fusion",
-      "suisui-fusion-burst"
+      "fusion-burst",
+      "lynae-sub-dps",
+      "tune-team"
     ]
   },
   {
@@ -275,9 +298,9 @@
       "voidwing-moth"
     ],
     "teams": [
-      "aemeath-hypercarry",
-      "aemeath-tune-strain",
-      "luuk-herssen-tune-break"
+      "fusion-burst",
+      "luuk-hypercarry",
+      "tune-team"
     ]
   },
   {
@@ -289,9 +312,9 @@
       "nightmare-thundering-mephis"
     ],
     "teams": [
-      "calcharo-calc-tune",
-      "calcharo-calc-hypercarry",
-      "calcharo-calc-qs"
+      "calcharo-hypercarry",
+      "jianxin-sub-dps",
+      "quickswap"
     ]
   },
   {
@@ -305,7 +328,9 @@
       "nightmare-tempest-mephis"
     ],
     "teams": [
-      "yinlin-quickswap"
+      "calcharo-hypercarry",
+      "jinhsi-quickswap",
+      "xiangliyao-hypercarry"
     ]
   },
   {
@@ -331,11 +356,13 @@
       "jue"
     ],
     "teams": [
-      "jianxin-jinhsi-hypercarry",
+      "buling-support",
+      "changli-quickswap",
+      "encore-quickswap",
+      "jinhsi-blender",
       "jinhsi-hypercarry",
-      "jinhsi-quickswap-",
-      "mortefi-jinhsi-blender",
-      "yuanwu-team"
+      "jinhsi-quickswap",
+      "taoqi-buff"
     ]
   },
   {
@@ -347,11 +374,11 @@
       "nightmare-thundering-mephis"
     ],
     "teams": [
-      "jianxin-buff-liberation",
-      "xiangli-yao-yao-break",
-      "xiangli-yao-yao-hypercarry",
-      "xiangli-yao-yao-quickswap",
-      "yinlin-hypercarry"
+      "changli-quickswap",
+      "encore-quickswap",
+      "jianxin-sub-dps",
+      "quickswap",
+      "xiangliyao-hypercarry"
     ]
   },
   {
@@ -363,11 +390,8 @@
       "the-false-sovereign"
     ],
     "teams": [
-      "augusta-hypercarry",
-      "augusta-dual-dps",
-      "iuno-augusta-hypercarry",
-      "lynae-hypercarry-alt",
-      "mortefi-agus/jiyan-hypercarry"
+      "augusta-alternatif",
+      "augusta-premium"
     ]
   },
   {
@@ -380,7 +404,9 @@
       "fallacy-of-no-return"
     ],
     "teams": [
-      "carlotta-hypercarry"
+      "buling-support",
+      "carlotta-hypercarry",
+      "jinhsi-hypercarry"
     ]
   },
   {
@@ -393,9 +419,9 @@
       "bell-borne-geochelone"
     ],
     "teams": [
-      "rebecca-hack-premium",
-      "rebecca-hack-alt",
-      "rebecca-hack-f2p"
+      "hack-alternatif",
+      "hack-premium",
+      "xuanling-xuanling-hypercarry"
     ]
   },
   {
@@ -404,9 +430,7 @@
     "image": "/characters/electro rover.webp",
     "bestWeapon": "",
     "bestEcho": [],
-    "teams": [
-      "electro-rover-hypercarry"
-    ]
+    "teams": []
   },
   {
     "id": 1402,
@@ -419,7 +443,7 @@
       "nightmare-beringal"
     ],
     "teams": [
-      "yangyang-support"
+      "yangyang-sub"
     ]
   },
   {
@@ -433,7 +457,8 @@
       "nightmare-beringal"
     ],
     "teams": [
-      "aalto-aalto-hypercarry"
+      "aalto-hypercarry",
+      "jiyan-hypercarry"
     ]
   },
   {
@@ -447,10 +472,9 @@
       "nightmare-kelpie"
     ],
     "teams": [
-      "aalto-jiyan-hypercarry",
-      "iuno-mono-aero",
-      "jiyan-mono-aero",
-      "jiyan-f2p-options"
+      "jiyan-alternatif",
+      "jiyan-hypercarry",
+      "mono-aero"
     ]
   },
   {
@@ -465,9 +489,9 @@
       "feilian-beringal"
     ],
     "teams": [
-      "iuno-mono",
-      "jinhsi-hypercarry",
-      "xiangli-yao-hypercarry"
+      "jianxin-sub-dps",
+      "jinhsi-blender",
+      "mono-aero"
     ]
   },
   {
@@ -480,8 +504,11 @@
       "nightmare-kelpie"
     ],
     "teams": [
-      "cartethyia-erosion",
-      "iuno-hypercarry"
+      "aero-erosion",
+      "iuno-hypercarry",
+      "jiyan-hypercarry",
+      "mono-aero",
+      "qiuyuan-hypercarry"
     ]
   },
   {
@@ -495,10 +522,11 @@
       "fallacy-of-no-return"
     ],
     "teams": [
-      "cartethyia-erosion",
-      "cartethyia-hypercarry",
-      "cartethyia-budget",
-      "iuno-hypercarry"
+      "aero-erosion",
+      "cartethyia-alternatif",
+      "iuno-hypercarry",
+      "jiyan-hypercarry",
+      "mono-aero"
     ]
   },
   {
@@ -510,14 +538,8 @@
       "fleurdelys"
     ],
     "teams": [
-      "aero-rover-hypercarry",
-      "aero-rover-hypercarry-alt",
-      "aero-rover-hypercarry-f2p",
-      "cartethyia-carte-hypercarry",
-      "cartethyia-carte-hc-alternatif",
-      "cartethyia-erosion-team",
-      "ciaccona-cartethyia-hypercarry",
-      "suisui-ns---erosion"
+      "aero-erosion",
+      "cartethyia-alternatif"
     ]
   },
   {
@@ -530,11 +552,13 @@
       "impermanence-heron"
     ],
     "teams": [
-      "aero-rover-hypercarry-iuno",
-      "ciaccona-iuno-hypercarry",
-      "iuno-team",
-      "jianxin-mono-aero",
-      "mornye-team"
+      "augusta-premium",
+      "iuno-hypercarry",
+      "jianxin-sub-dps",
+      "jiyan-hypercarry",
+      "lynae-sub-dps",
+      "mono-aero",
+      "qiuyuan-hypercarry"
     ]
   },
   {
@@ -548,7 +572,8 @@
       "impermanence-heron"
     ],
     "teams": [
-      "qiuyuan-qiuyuan-hypercarry"
+      "echo-damage",
+      "qiuyuan-hypercarry"
     ]
   },
   {
@@ -560,10 +585,8 @@
       "nameless-explorer"
     ],
     "teams": [
-      "lucilla-double-echo",
-      "sigrika-sigrika-hypercarry",
-      "sigrika-tune-break",
-      "sigrika-mono-aero"
+      "echo-damage",
+      "mono-aero"
     ]
   },
   {
@@ -578,8 +601,8 @@
       "bell-borne-geochelone"
     ],
     "teams": [
-      "zani-hypercarry",
-      "phoebe-hypercarry"
+      "phoebe-hypercarry",
+      "zani-hypercarry"
     ]
   },
   {
@@ -604,7 +627,7 @@
       "impermanence-heron"
     ],
     "teams": [
-      "carlotta-budget"
+      "carlotta-alternatif"
     ]
   },
   {
@@ -630,8 +653,8 @@
       "nightmare-mourning-aix"
     ],
     "teams": [
-      "phoebe-hypercarry---pheeb",
-      "spectro-rover-hypercarrt---pheeb"
+      "phoebe-hypercarry",
+      "zani-hypercarry"
     ]
   },
   {
@@ -644,9 +667,7 @@
       "nightmare-mourning-aix"
     ],
     "teams": [
-      "phoebe-hypercarry---zani",
-      "spectro-rover-hypercarry---zani",
-      "zani-hypercarry---zani"
+      "zani-hypercarry"
     ]
   },
   {
@@ -659,12 +680,15 @@
       "fallacy-of-no-return"
     ],
     "teams": [
-      "aemeath-hypercarry",
-      "aemeath-tune-break",
-      "hiyuki-chafe",
-      "hiyuki-hypercarry",
-      "yangyang-xuanling-hypercarry",
-      "yangyang-xuanling-premium",
+      "aero-erosion",
+      "cartethyia-alternatif",
+      "fusion-burst",
+      "glacio-chafe",
+      "havoc-bane",
+      "hiyuki-alternatif",
+      "phoebe-hypercarry",
+      "tune-team",
+      "xuanling-xuanling-hypercarry",
       "zani-hypercarry"
     ]
   },
@@ -678,9 +702,15 @@
       "twin-nova-nebulous-cannon"
     ],
     "teams": [
-      "aemeath-tune-break",
-      "luuk-herssen-tune-break",
-      "augusta-hypercarry"
+      "augusta-premium",
+      "calcharo-hypercarry",
+      "carlotta-hypercarry",
+      "hiyuki-alternatif",
+      "luuk-hypercarry",
+      "lynae-sub-dps",
+      "tune-team",
+      "xiangliyao-hypercarry",
+      "xuanling-xuanling-hypercarry"
     ]
   },
   {
@@ -693,10 +723,9 @@
       "hyvatia"
     ],
     "teams": [
-      "denia-alternative",
-      "luuk-herssen-tune-team",
-      "luuk-herssen-alt",
-      "lynae-hypercary-new"
+      "luuk-alternatif",
+      "luuk-hypercarry",
+      "tune-team"
     ]
   },
   {
@@ -708,7 +737,7 @@
       "reminiscence-adam-smasher"
     ],
     "teams": [
-      "lucy-hack-premium"
+      "hack-premium"
     ]
   },
   {
@@ -722,7 +751,8 @@
       "impermanence-heron"
     ],
     "teams": [
-      "carlotta-hypercarry"
+      "chixia-hypercarry",
+      "taoqi-buff"
     ]
   },
   {
@@ -736,7 +766,9 @@
       "nightmare-crownless"
     ],
     "teams": [
-      "havoc-rover-mono"
+      "camellya-alternatif",
+      "havoc-rover-hypercarry",
+      "mono-havoc"
     ]
   },
   {
@@ -748,8 +780,9 @@
       "nightmare-crownless"
     ],
     "teams": [
+      "camellya-alternatif",
       "camellya-hypercarry",
-      "camellya-f2p"
+      "mono-havoc"
     ]
   },
   {
@@ -762,10 +795,9 @@
       "nightmare-crownless"
     ],
     "teams": [
-      "danjin-mono-havoc",
+      "encore-quickswap",
       "havoc-rover-hypercarry",
-      "havoc-rover-quickswap",
-      "sanhua-sub-dps"
+      "mono-havoc"
     ]
   },
   {
@@ -778,8 +810,12 @@
       "impermanence-heron"
     ],
     "teams": [
-      "phrolova-hypercarry",
-      "cantarella-hypercarry"
+      "brant-alternatif",
+      "camellya-hypercarry",
+      "encore-hypercarry",
+      "havoc-rover-hypercarry",
+      "mono-havoc",
+      "phrolova-core"
     ]
   },
   {
@@ -793,7 +829,15 @@
       "impermanence-heron"
     ],
     "teams": [
-      "roccia-hypercarry---alt"
+      "buling-support",
+      "camellya-hypercarry",
+      "carlotta-hypercarry",
+      "chixia-hypercarry",
+      "havoc-rover-hypercarry",
+      "jinhsi-hypercarry",
+      "mono-havoc",
+      "phrolova-core",
+      "phrolova-hypercarry"
     ]
   },
   {
@@ -805,12 +849,11 @@
       "nightmare-hecate"
     ],
     "teams": [
-      "cantarella-lova-hypercaryy",
-      "cantarella-core",
-      "phrolova-hypercarry---phrolova",
+      "echo-damage",
       "phrolova-core",
-      "qiuyuan-phrolova-hc",
-      "roccia-hypercarry---lova"
+      "phrolova-hypercarry",
+      "taoqi-buff",
+      "xuanling-xuanling-hypercarry"
     ]
   },
   {
@@ -822,11 +865,8 @@
       "thousand-puppet-pavilion"
     ],
     "teams": [
-      "suisui-ns---havoc-bane",
-      "suisui-double-havoc",
-      "yangyang-xuanling-premium-ns-team",
-      "yangyang-xuanling-dual-dps",
-      "yangyang-xuanling-xuanling-hc"
+      "havoc-bane",
+      "xuanling-xuanling-hypercarry"
     ]
   }
 ]

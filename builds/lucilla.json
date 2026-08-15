@@ -11,14 +11,16 @@
     "bestEcho": [],
     "bestWeapon": "Freeze Frame",
     "echoDetails": {
+      "note": "",
       "sets": [
         {
           "label": "With Hiyuki",
           "sonataCustom": [
-            "Wishes Of Quiet Snowfall"
+            {
+              "name": "Wishes Of Quiet Snowfall",
+              "set": 2
+            }
           ],
-          "echoSlug": "glommoth",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -40,7 +42,9 @@
               "cost": 1,
               "stat": "ATK%"
             }
-          ]
+          ],
+          "echoSlug": "glommoth",
+          "echoSlugSecondary": ""
         },
         {
           "label": "With Echo DMG DPS",
@@ -50,8 +54,6 @@
               "set": 5
             }
           ],
-          "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -73,7 +75,9 @@
               "cost": 1,
               "stat": "ATK%"
             }
-          ]
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": ""
         },
         {
           "label": "With Lova",
@@ -87,8 +91,6 @@
               "set": 2
             }
           ],
-          "echoSlug": "voidwing-moth",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -110,7 +112,9 @@
               "cost": 3,
               "stat": "ATK%"
             }
-          ]
+          ],
+          "echoSlug": "voidwing-moth",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -119,47 +123,46 @@
         "ATK%",
         "Basic Attack DMG Bonus",
         "ATK"
-      ],
-      "note": ""
+      ]
     },
     "weaponNote": "Freeze Frame (Signature Lucilla) memberikan peningkatan sekitar 7-8% team DPS dibandingkan dengan Cosmic Ripples.",
     "weaponOptions": [
       {
         "id": "freeze-frame",
-        "rank": "",
-        "percentage": "129.82%"
+        "percentage": "129.82%",
+        "rank": ""
       },
       {
         "id": "whispers-of-sirens",
-        "rank": "",
-        "percentage": "127.44%"
+        "percentage": "127.44%",
+        "rank": ""
       },
       {
         "id": "stringmaster",
-        "rank": "",
-        "percentage": "117.06%"
+        "percentage": "117.06%",
+        "rank": ""
       },
       {
         "id": "rime-draped-sprouts",
-        "rank": "",
-        "percentage": "108.26%"
+        "percentage": "108.26%",
+        "rank": ""
       },
       {
         "id": "cosmic-ripples",
-        "rank": "",
-        "percentage": "100.00%"
+        "percentage": "100.00%",
+        "rank": ""
       }
     ],
     "rotations": [
       {
-        "title": "New Rotation",
         "steps": [
           "Intro",
           "Skill(Hold: Perfect)",
           "Ult",
           "[U]BA123 or [U]BA(Hold)",
           "Outro"
-        ]
+        ],
+        "title": "New Rotation"
       }
     ],
     "talentPriority": {
@@ -170,130 +173,122 @@
         "Intro Skill",
         "Normal Attack"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "hiyuki-chafe",
-      "carlotta-hypercarry",
-      "sigrika-echo"
+      "echo-damage",
+      "glacio-chafe"
     ],
-    "teamNote": "1. Dalam mode Glacio Chafe, Lucilla memberikan buff berikut untuk rekan satu timnya:\n- Pengurangan 8% Glacio RES\n- 37% Glacio DMG Bonus dari bonus set Wishes of Quiet Snowfall (12% dari Glammoth)\n- 60% Glacio Chafe DMG Amplify selama 30 detik setelah melancarkan Outro Skill.\n\n2. Dalam mode Echo, Lucilla memberikan buff berikut untuk rekan satu timnya:\n- 25% Echo Skill DMG Bonus selama 30 detik\n- 40% Crit. DMG pada 4 stack(s) [Zoom], yang hanya berlaku untuk Resonator yang sedang aktif\n- 50% Echo Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill.\n\nDengan Freeze Frame (Signature Lucilla): +24% ATK selama 30 detik saat memberikan Glacio Chafe."
+    "teamNote": ""
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Lucilla",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Spectral Trigger",
           "value": 327200.1,
-          "percentage": 129.82,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 129.82
         },
         {
           "type": "Whispers Of Sirens",
           "value": 321186.81,
-          "percentage": 127.44,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 127.44
         },
         {
           "type": "Stringmaster",
           "value": 295017.94,
-          "percentage": 117.06,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 117.06
         },
         {
           "type": "Rime-Draped Sprouts",
           "value": 272862.1,
-          "percentage": 108.26,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 108.26
         },
         {
           "type": "Cosmic Ripples",
           "value": 252032.66,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Lucilla",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Lucilla",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "BA",
           "value": 64.4,
-          "percentage": 64.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 64.4
         },
         {
           "type": "Skill",
           "value": 13.2,
-          "percentage": 13.2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 13.2
         },
         {
           "type": "Chafe",
           "value": 14.4,
-          "percentage": 14.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 14.4
         },
         {
           "type": "Echo",
           "value": 5.9,
-          "percentage": 5.9,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 5.9
         },
         {
           "type": "Intro",
           "value": 2.1,
-          "percentage": 2.1,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 2.1
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Lucilla",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Sequence - Lucilla",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 383961.27,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 383961.27,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S2",
           "value": 521090.29,
-          "percentage": 135.71,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 135.71
         },
         {
           "type": "S3",
           "value": 521090.29,
-          "percentage": 135.71,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 135.71
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Lucilla",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

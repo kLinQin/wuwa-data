@@ -138,19 +138,20 @@
       }
     ],
     "talentPriority": {
-      "note": "Resonanve Libe dan Intro cukup di Level6 saja",
       "priority": [
         "Forte Circuit",
         "Normal Attack",
         "Resonance Skill",
         "Resonance Liberation",
         "Intro Skill"
-      ]
+      ],
+      "note": "Resonanve Libe dan Intro cukup di Level6 saja"
     },
     "teams": [
-      "aalto-aalto-hypercarry"
+      "aalto-hypercarry",
+      "jiyan-hypercarry"
     ],
-    "teamNote": "Aalto memberikan 23% Aero DMG Amplify."
+    "teamNote": ""
   },
   "analysisCharts": [
     {

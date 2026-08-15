@@ -17,6 +17,12 @@
       "sets": [
         {
           "label": "DPS",
+          "sonataCustom": [
+            {
+              "name": "Frosty Resolve",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,10 +46,7 @@
             }
           ],
           "echoSlug": "sentry-construct",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Frosty Resolve"
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -98,7 +101,6 @@
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Liberation",
         "Resonance Skill",
@@ -106,25 +108,17 @@
         "Intro Skill",
         "Normal Attack"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "buling-hypercarry",
-      "carlotta-break",
+      "buling-support",
+      "carlotta-alternatif",
       "carlotta-hypercarry",
-      "carlotta-quickswap",
-      "lucilla-chafe-alt",
-      "lumi-hypercarry---lotta",
-      "taoqi-skill-buff",
-      "zhezhi-skill-buff"
+      "lynae-sub-dps",
+      "quickswap",
+      "taoqi-buff"
     ],
-    "teamNote": "- Zhezhi adalah support terbaik Carlotta karena Outro Skill miliknya memberikan 20% Glacio & 25% Res. Skill DMG Amplify. Ia juga memberikan Resonance Energy Regeneration, yang menurunkan kebutuhan ER Carlotta.\n- Jika Zhezhi tidak tersedia, Res. Skill Amplifier lainnya seperti Brant atau Cantarella mungkin dapat digunakan. Lumi dan Taoqi adalah opsi bintang 4 kalian. kalian juga dapat memasangkannya dengan tim quick swap umum seperti Changli atau Xiangli Yao."
+    "teamNote": ""
   },
   "analysisCharts": [
     {

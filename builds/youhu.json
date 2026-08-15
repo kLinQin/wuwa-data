@@ -18,6 +18,12 @@
       "sets": [
         {
           "label": "Healer",
+          "sonataCustom": [
+            {
+              "name": "Rejuvenating Glow",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -41,10 +47,7 @@
             }
           ],
           "echoSlug": "fallacy-of-no-return",
-          "echoSlugSecondary": "bell",
-          "sonataCustom": [
-            "Rejuvenating Glow"
-          ]
+          "echoSlugSecondary": "bell"
         }
       ],
       "substats": [
@@ -90,7 +93,6 @@
     ],
     "rotations": [],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Skill",
         "Forte Circuit",
@@ -98,13 +100,7 @@
         "Normal Attack",
         "Intro Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        true,
-        false
-      ]
+      "note": ""
     },
     "teams": [
       "youhu-support"

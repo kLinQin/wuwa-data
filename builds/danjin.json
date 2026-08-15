@@ -19,6 +19,12 @@
       "sets": [
         {
           "label": "Sub DPS - Havoc",
+          "sonataCustom": [
+            {
+              "name": "Midnight Veil",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -42,13 +48,16 @@
             }
           ],
           "echoSlug": "nightmare-heron",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Midnight Veil"
-          ]
+          "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS - General",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -72,13 +81,16 @@
             }
           ],
           "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+          "echoSlugSecondary": ""
         },
         {
           "label": "Solo",
+          "sonataCustom": [
+            {
+              "name": "Havoc Eclipse",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -102,10 +114,7 @@
             }
           ],
           "echoSlug": "nightmare-crownless",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Havoc Eclipse"
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -120,33 +129,33 @@
     "weaponOptions": [
       {
         "id": "red-spring",
-        "rank": "",
-        "percentage": "116"
+        "percentage": "116",
+        "rank": ""
       },
       {
         "id": "blazing-brilliance",
-        "rank": "",
-        "percentage": "100.78"
+        "percentage": "100.78",
+        "rank": ""
       },
       {
         "id": "emerald-of-genesis",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "somnoire-anchor",
-        "rank": "5",
-        "percentage": "96"
+        "percentage": "96",
+        "rank": "5"
       },
       {
         "id": "commando-of-conviction",
-        "rank": "5",
-        "percentage": "92"
+        "percentage": "92",
+        "rank": "5"
       },
       {
         "id": "lumingloss",
-        "rank": "5",
-        "percentage": "85"
+        "percentage": "85",
+        "rank": "5"
       }
     ],
     "rotations": [
@@ -170,7 +179,6 @@
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Skill",
         "Normal Attack",
@@ -178,157 +186,153 @@
         "Resonance Liberation",
         "Intro Skill"
       ],
-      "equalPriority": [
-        true,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "havoc-rover-mono"
+      "camellya-alternatif",
+      "havoc-rover-hypercarry",
+      "mono-havoc"
     ],
-    "teamNote": "Danjin memberikan buff berikut kepada rekan timnya:\n- 23% Havoc Dmg Amplify selama 14 detik setelah melancarkan Intro Skill \n- Dengan S6: +20% ATK selama 20 detik."
+    "teamNote": ""
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Danjin",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Blazing Brilliance",
           "value": 297325,
-          "percentage": 105.66,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 105.66
         },
         {
           "type": "Red Spring",
           "value": 283886,
-          "percentage": 100.88,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100.88
         },
         {
           "type": "Emerald Of Genesis",
           "value": 281404,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "Somnoire Anchor R5",
           "value": 232571,
-          "percentage": 82.65,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 82.65
         },
         {
           "type": "Endless Collapse R5",
           "value": 225930,
-          "percentage": 80.29,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 80.29
         },
         {
           "type": "Lumingloss R5",
           "value": 223926,
-          "percentage": 79.57,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 79.57
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Danjin",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Danjin",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "BA",
           "value": 7.44,
-          "percentage": 7.44,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 7.44
         },
         {
           "type": "Skill",
           "value": 30.33,
-          "percentage": 30.33,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 30.33
         },
         {
           "type": "HA",
           "value": 35.3,
-          "percentage": 35.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 35.3
         },
         {
           "type": "Lib",
           "value": 18.26,
-          "percentage": 18.26,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 18.26
         },
         {
           "type": "Echo",
           "value": 4.43,
-          "percentage": 4.43,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 4.43
         },
         {
           "type": "Intro",
           "value": 4.24,
-          "percentage": 4.24,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 4.24
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Danjin",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Sequence - Danjin",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 1261634,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 1282930,
-          "percentage": 101.69,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 101.69
         },
         {
           "type": "S2",
           "value": 1302370,
-          "percentage": 103.23,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 103.23
         },
         {
           "type": "S3",
           "value": 1308942,
-          "percentage": 103.75,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 103.75
         },
         {
           "type": "S4",
           "value": 1329924,
-          "percentage": 105.41,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 105.41
         },
         {
           "type": "S5",
           "value": 1363232,
-          "percentage": 108.05,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 108.05
         },
         {
           "type": "S6",
           "value": 1442364,
-          "percentage": 114.33,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 114.33
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Danjin",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

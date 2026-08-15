@@ -15,6 +15,12 @@
       "sets": [
         {
           "label": "Tune-Break",
+          "sonataCustom": [
+            {
+              "name": "Rite Of Gilded Revelation",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -38,10 +44,7 @@
             }
           ],
           "echoSlug": "twin-nova-nebulous-cannon",
-          "echoSlugSecondary": "hyvatia",
-          "sonataCustom": [
-            "Rite Of Gilded Revelation"
-          ]
+          "echoSlugSecondary": "hyvatia"
         }
       ],
       "substats": [
@@ -77,7 +80,6 @@
     ],
     "rotations": [
       {
-        "title": "Standar",
         "steps": [
           "Intro",
           "Mid Air Attack 23",
@@ -92,11 +94,11 @@
           "Liberation",
           "Skill",
           "Outro"
-        ]
+        ],
+        "title": "Standar"
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Liberation",
         "Resonance Skill",
@@ -104,19 +106,12 @@
         "Forte Circuit",
         "Intro Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "denia-alternative",
-      "luuk-herssen-tune-team",
-      "luuk-herssen-alt",
-      "lynae-hypercary-new"
+      "luuk-alternatif",
+      "luuk-hypercarry",
+      "tune-team"
     ],
     "teamNote": "- Mornye membantu Luuk mengumpulkan lebih banyak stack Tune Strain: Interference dengan lebih cepat. kalian dapat menggunakan Shorekeeper sebagai alternatif; namun, Mornye adalah support ideal karena alasan khusus ini.\n\n- Konsep di balik Tune Strain bekerja sama dengan Tune Rupture. Namun alih-alih \"menanggapi\" dengan ledakan damage, Tune Strain meningkatkan DMG yang diberikan berdasarkan jumlah stack. Jumlah maksimal stack yang dapat diberikan adalah 1.\n- Karena hal ini berskala pada jumlah Resonator yang dapat menanggapi Tune Strain: Interfered, memiliki Lynae dan Mornye secara bersamaan dalam timnya adalah hal yang ideal. Mereka masing-masing meningkatkan batas stack sebanyak 1"
   },

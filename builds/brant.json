@@ -17,6 +17,12 @@
       "sets": [
         {
           "label": "Hybrid",
+          "sonataCustom": [
+            {
+              "name": "Tidebreaking Courage",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,13 +46,16 @@
             }
           ],
           "echoSlug": "dragon-of-dirge",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Tidebreaking Courage"
-          ]
+          "echoSlugSecondary": ""
         },
         {
           "label": "DPS Fusion",
+          "sonataCustom": [
+            {
+              "name": "Molten Rift",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -70,10 +79,7 @@
             }
           ],
           "echoSlug": "inferno-rider",
-          "echoSlugSecondary": "nightmare-rider",
-          "sonataCustom": [
-            "Molten Rift"
-          ]
+          "echoSlugSecondary": "nightmare-rider"
         }
       ],
       "substats": [
@@ -119,7 +125,6 @@
     ],
     "rotations": [],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Forte Circuit",
         "Normal Attack",
@@ -127,17 +132,16 @@
         "Resonance Skill",
         "Intro Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
       "brant-alternatif",
-      "lupa-mono-fusion"
+      "brant-mono-fusion",
+      "changli-mono-fusion",
+      "changli-quickswap",
+      "chixia-hypercarry",
+      "chixia-mono-fushion",
+      "galbrena-mono-fusion"
     ],
     "teamNote": "ER/ELE lebih baik daripada ER/ER jika mampu menjaga ER di atas 250%. Jika dipasangkan dengan Lupa, penggunaan ER/ER bisa menjadi pilihan."
   },

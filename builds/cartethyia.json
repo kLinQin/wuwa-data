@@ -17,6 +17,12 @@
       "sets": [
         {
           "label": "DPS Erosion",
+          "sonataCustom": [
+            {
+              "name": "Windward Pilgrimage",
+              "set": 5
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,13 +46,7 @@
             }
           ],
           "echoSlug": "fleurdelys",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            {
-              "name": "Windward Pilgrimage",
-              "set": 5
-            }
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -88,7 +88,6 @@
     ],
     "rotations": [
       {
-        "title": "Standar",
         "steps": [
           "Intro",
           "BA34",
@@ -103,11 +102,11 @@
           "[U]BA345",
           "[U]Ult",
           "Outro"
-        ]
+        ],
+        "title": "Standar"
       }
     ],
     "talentPriority": {
-      "note": "Intro dan Reso Skill cukup di level 6 saja",
       "priority": [
         "Forte Circuit",
         "Resonance Liberation",
@@ -115,127 +114,116 @@
         "Intro Skill",
         "Resonance Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        true
-      ]
+      "note": "Intro dan Reso Skill cukup di level 6 saja"
     },
     "teams": [
-      "aero-rover-hypercarry",
-      "aero-rover-hypercarry-alt",
-      "aero-rover-hypercarry-f2p",
-      "cartethyia-carte-hypercarry",
-      "cartethyia-carte-hc-alternatif",
-      "cartethyia-erosion-team",
-      "ciaccona-cartethyia-hypercarry",
-      "suisui-ns---erosion"
+      "aero-erosion",
+      "cartethyia-alternatif"
     ],
     "teamNote": "Sebagai alternatif, Shorekeeper dapat digunakan untuk meningkatkan Crit. Rate atau DMG Cartethyia. Namun, perlu dicatat bahwa Cartethyia tidak akan mendapatkan keuntungan dari set bonus Rejuvenating Glow."
   },
   "analysisCharts": [
     {
-      "title": "Damage - Carte",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "SOURCE // TETHYS.GG",
       "data": [
         {
           "type": "BA",
           "value": 48.2,
-          "percentage": 48.2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 48.2
         },
         {
           "type": "Skill",
           "value": 11.3,
-          "percentage": 11.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 11.3
         },
         {
           "type": "Lib",
           "value": 28.4,
-          "percentage": 28.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 28.4
         },
         {
           "type": "BA Erosion",
           "value": 10.8,
-          "percentage": 10.8,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 10.8
         },
         {
           "type": "Intro",
           "value": 1.3,
-          "percentage": 1.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 1.3
         }
-      ]
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Damage - Carte",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Sequence - Carte",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "SOURCE // TETHYS.GG",
       "data": [
         {
           "type": "S0",
           "value": 129035224,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 147999164,
-          "percentage": 115,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 115
         },
         {
           "type": "S2",
           "value": 191002855,
-          "percentage": 148,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 148
         },
         {
           "type": "S3",
           "value": 233323916,
-          "percentage": 181,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 181
         }
-      ]
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Sequence - Carte",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Weapon - Carte",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "SOURCE // TETHYS.GG",
       "data": [
         {
           "type": "Defier'S Thorn",
           "value": 128452816,
-          "percentage": 129,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 129
         },
         {
           "type": "Red Spring",
           "value": 104879753,
-          "percentage": 105,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 105
         },
         {
           "type": "Blazing Brilliance",
           "value": 101240327,
-          "percentage": 102,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 102
         },
         {
           "type": "Emerald Of Genesis",
           "value": 99683855,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         }
-      ]
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Weapon - Carte",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

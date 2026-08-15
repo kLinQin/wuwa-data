@@ -14,11 +14,16 @@
     ],
     "bestWeapon": "Rime-Draped Sprouts",
     "echoDetails": {
+      "note": "Hecate 1% lebih baik daripada NM: Lampylumen Myriad, namun lebih memakan waktu untuk dikumpulkan dibandingkan dengan NM: Lampylumen Myriad. Pastikan bahwa NM: Lampy adalah Empyrean Anthem, karena ia dapat menjatuhkan Frosty Resolve dan ikonnya cukup mirip.",
       "sets": [
         {
           "label": "Sub DPS General",
-          "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -41,14 +46,17 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS Coordinated ATK",
-          "echoSlug": "nightmare-myriad",
-          "echoSlugSecondary": "hecate",
+          "sonataCustom": [
+            {
+              "name": "Empyrean Anthem",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -71,9 +79,8 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Empyrean Anthem"
-          ]
+          "echoSlug": "nightmare-myriad",
+          "echoSlugSecondary": "hecate"
         }
       ],
       "substats": [
@@ -82,8 +89,7 @@
         "ATK%",
         "Basic Attack DMG Bonus",
         "ATK"
-      ],
-      "note": "Hecate 1% lebih baik daripada NM: Lampylumen Myriad, namun lebih memakan waktu untuk dikumpulkan dibandingkan dengan NM: Lampylumen Myriad. Pastikan bahwa NM: Lampy adalah Empyrean Anthem, karena ia dapat menjatuhkan Frosty Resolve dan ikonnya cukup mirip."
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
@@ -120,7 +126,6 @@
     ],
     "rotations": [
       {
-        "title": "Standar - Rotasi",
         "steps": [
           "Intro",
           "BA123",
@@ -129,7 +134,8 @@
           "Ult",
           "[F]Skill(x3)(Jump-Cancel)",
           "Echo(Swap)+Outro"
-        ]
+        ],
+        "title": "Standar - Rotasi"
       }
     ],
     "talentPriority": {
@@ -140,128 +146,126 @@
         "Intro Skill",
         "Normal Attack"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        true,
-        true,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "carlotta-hypercarry"
+      "buling-support",
+      "carlotta-hypercarry",
+      "chixia-hypercarry",
+      "hiyuki-alternatif",
+      "jinhsi-hypercarry",
+      "lingyang-lingyang-hypercarry"
     ],
-    "teamNote": "Zhezhi memberikan buff berikut untuk rekan timnya:\n- Memulihkan 15 Resonance Energy setelah melancarkan Outro Skill\n- 20% Glacio DMG dan 25% Res. Skill DMG Amplify selama 14 detik setelah melancarkan Outro Skill."
+    "teamNote": ""
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Zhezhi",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Rime-Draped Sprouts",
           "value": 314167.91,
-          "percentage": 119.33,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 119.33
         },
         {
           "type": "Stringmaster",
           "value": 303346.49,
-          "percentage": 115.22,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 115.22
         },
         {
           "type": "Cosmic Ripples",
           "value": 263277.87,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "Fusion Accretion R5",
           "value": 228357.59,
-          "percentage": 86.74,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 86.74
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Zhezhi",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Zhezhi",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "BA",
           "value": 29,
-          "percentage": 29,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 29
         },
         {
           "type": "HA",
           "value": 4.3,
-          "percentage": 4.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 4.3
         },
         {
           "type": "Skill",
           "value": 8.9,
-          "percentage": 8.9,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 8.9
         },
         {
           "type": "Echo",
           "value": 5.2,
-          "percentage": 5.2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 5.2
         },
         {
           "type": "Coordinated ATK (BA)",
           "value": 49.2,
-          "percentage": 49.2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 49.2
         },
         {
           "type": "Intro Skill",
           "value": 3.3,
-          "percentage": 3.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 3.3
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Zhezhi",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Sequence - Zhezhi",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 314167.91,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 329500.82,
-          "percentage": 104.88,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 104.88
         },
         {
           "type": "S2",
           "value": 379902.39,
-          "percentage": 120.92,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 120.92
         },
         {
           "type": "S3",
           "value": 432855.8,
-          "percentage": 137.78,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 137.78
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Zhezhi",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

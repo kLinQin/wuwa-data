@@ -17,6 +17,12 @@
       "sets": [
         {
           "label": "Healer",
+          "sonataCustom": [
+            {
+              "name": "Rejuvenating Glow",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,10 +46,7 @@
             }
           ],
           "echoSlug": "bell-borne-geochelone",
-          "echoSlugSecondary": "fallacy-of-no-return",
-          "sonataCustom": [
-            "Rejuvenating Glow"
-          ]
+          "echoSlugSecondary": "fallacy-of-no-return"
         }
       ],
       "substats": [
@@ -89,7 +92,6 @@
       }
     ],
     "talentPriority": {
-      "note": "- Tingkatkan Level sesuai kebutuhan untuk heal yang lebih besar; Forte Circuit hanya untuk damage.\n- Jika mampu mencapai 200% ER hanya dengan 1x ER 3-cost, kamu dapat memilih untuk menggunakan ATK% untuk heal tambahan.",
       "priority": [
         "Intro Skill",
         "Normal Attack",
@@ -97,18 +99,14 @@
         "Resonance Skill",
         "Resonance Liberation"
       ],
-      "equalPriority": [
-        true,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": "- Tingkatkan Level sesuai kebutuhan untuk heal yang lebih besar; Forte Circuit hanya untuk damage.\n- Jika mampu mencapai 200% ER hanya dengan 1x ER 3-cost, kamu dapat memilih untuk menggunakan ATK% untuk heal tambahan."
     },
     "teams": [
-      "carlotta-hypercarry"
+      "buling-support",
+      "carlotta-hypercarry",
+      "jinhsi-hypercarry"
     ],
-    "teamNote": "Buling memberikan buff berikut untuk rekan satu timnya:\n- 15% DMG Amplify selama 30 detik setelah melancarkan Outro Skill \n- 25% Res. Skill DMG Bonus selama 24 detik.\n- Dengan S6: 50% Res. Skill DMG Bonus (sebagai pengganti 25% sebelumnya) kepada Resonator yang aktif."
+    "teamNote": ""
   },
   "analysisCharts": [
     {

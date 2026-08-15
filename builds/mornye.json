@@ -17,6 +17,12 @@
       "sets": [
         {
           "label": "Healer",
+          "sonataCustom": [
+            {
+              "name": "Halo Of Starry Radiance",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,18 +46,16 @@
             }
           ],
           "echoSlug": "reactor-husk",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Halo Of Starry Radiance"
-          ]
+          "echoSlugSecondary": ""
         },
         {
           "label": "Healer",
           "sonataCustom": [
-            "Rejuvenating Glow"
+            {
+              "name": "Rejuvenating Glow",
+              "set": 2
+            }
           ],
-          "echoSlug": "fallacy-of-no-return",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -73,7 +77,9 @@
               "cost": 1,
               "stat": "DEF%"
             }
-          ]
+          ],
+          "echoSlug": "fallacy-of-no-return",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -116,24 +122,25 @@
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Liberation",
         "Forte Circuit",
         "Resonance Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "aemeath-tune-break",
-      "aemeath-hypercarry",
-      "iuno-hypercarry"
+      "aemeath-mono-fusion",
+      "brant-mono-fusion",
+      "changli-mono-fusion",
+      "glacio-chafe",
+      "hack-alternatif",
+      "hack-premium",
+      "luuk-hypercarry",
+      "lynae-sub-dps",
+      "tune-team"
     ],
-    "teamNote": "Mornye memberikan buff berikut untuk rekan timnya:\n-25% All-Type DMG Amplify selama 30 detik setelah melancarkan Outro Skill\n-20% DEF dan peningkatan 40% healing multiplier selama 25 detik saat berada di dalam [High Syntony Field], yang mewarisi efek dari [Syntony Field]. Ini mencakup resistance to interruption yang lebih tinggi dan 50% Off-Tune Buildup Rate\n-25% ATK dari set bonus Halo of Starry Radiance\n-40% DMG Bonus melawan musuh yang terkena status [Tune Rupture atau Strain - Interfered], baik dengan S1 miliknya (berlangsung selama 20 detik) atau Lynae (8 detik).\n-Dengan Starfield Calibrator (Signature Mornye): 20% Crit. DMG selama 4 detik saat melakukan healing."
+    "teamNote": ""
   },
   "analysisCharts": [
     {

@@ -11,14 +11,16 @@
     "bestEcho": [],
     "bestWeapon": "Azure Oath",
     "echoDetails": {
+      "note": "",
       "sets": [
         {
           "label": "DPS Havoc Bane",
           "sonataCustom": [
-            "Song Of Feather Trace"
+            {
+              "name": "Song Of Feather Trace",
+              "set": 2
+            }
           ],
-          "echoSlug": "thousand-puppet-pavilion",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -40,7 +42,9 @@
               "cost": 1,
               "stat": "ATK%"
             }
-          ]
+          ],
+          "echoSlug": "thousand-puppet-pavilion",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -49,30 +53,28 @@
         "ATK%",
         "HA DMG%",
         "ATK"
-      ],
-      "note": ""
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
       {
         "id": "azure-oath",
-        "rank": "",
-        "percentage": "125.48%"
+        "percentage": "125.48%",
+        "rank": ""
       },
       {
         "id": "emerald-sentence",
-        "rank": "",
-        "percentage": "109.97%"
+        "percentage": "109.97%",
+        "rank": ""
       },
       {
         "id": "emerald-of-genesis",
-        "rank": "",
-        "percentage": "100.00%"
+        "percentage": "100.00%",
+        "rank": ""
       }
     ],
     "rotations": [
       {
-        "title": "Standar 1F1A",
         "steps": [
           "Intro",
           "BA1234",
@@ -84,10 +86,10 @@
           "[F]Skill",
           "[F]HA",
           "Outro"
-        ]
+        ],
+        "title": "Standar 1F1A"
       },
       {
-        "title": "Alternatif  2F",
         "steps": [
           "Intro",
           "B1234",
@@ -102,7 +104,8 @@
           "[F]MA",
           "[F]BA123",
           "Outro"
-        ]
+        ],
+        "title": "Alternatif  2F"
       }
     ],
     "talentPriority": {
@@ -111,112 +114,104 @@
         "Reso Libe",
         "Normal Attack"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "suisui-ns---havoc-bane",
-      "suisui-double-havoc",
-      "yangyang-xuanling-premium-ns-team",
-      "yangyang-xuanling-dual-dps",
-      "yangyang-xuanling-xuanling-hc"
+      "havoc-bane",
+      "xuanling-xuanling-hypercarry"
     ],
     "teamNote": "- Meskipun Rebecca merupakan Best in Slot miliknya, kamu juga dapat menggunakan Phrolova atau buffer Heavy Attack lainnya seperti luno atau Mortefi.\n- Walaupun Yangyang: Xuanling tidak dapat memanfaatkan buff utama Lynae (Res. Liberation Amplify), ia tetap mendapatkan keuntungan dari buff umum miliknya.\n- Chisa merupakan support yang ideal berkat cara dirinya berinteraksi dengan Negative Status. Selain dapat memberikan Havoc Bane, ia juga dapat meningkatkan batas maksimal stack(s) sebesar 3. Hal ini memenuhi syarat Damage Amplify untuk Inherent Skill milik Yangyang: Xuanling: Unbroken Vow."
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Xuanling",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Azure Oath",
           "value": 2341928.39,
-          "percentage": 125.48,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 125.48
         },
         {
           "type": "Emerald Sentence",
           "value": 2052468.29,
-          "percentage": 109.97,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 109.97
         },
         {
           "type": "Emerald Of Genesis",
           "value": 1866383.41,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Xuanling",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Sequence - Xuanling",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 2341928.39,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 2565307.46,
-          "percentage": 109.54,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 109.54
         },
         {
           "type": "S2",
           "value": 3034172.28,
-          "percentage": 129.56,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 129.56
         },
         {
           "type": "S3",
           "value": 3540663.48,
-          "percentage": 151.19,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 151.19
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Xuanling",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Xuanling",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Heavy ",
           "value": 90.2,
-          "percentage": 90.2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 90.2
         },
         {
           "type": "BA",
           "value": 3.7,
-          "percentage": 3.7,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 3.7
         },
         {
           "type": "Echo",
           "value": 2.7,
-          "percentage": 2.7,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 2.7
         },
         {
           "type": "Outro",
           "value": 2.3,
-          "percentage": 2.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 2.3
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Xuanling",
+      "layout": "horizontal",
+      "chartType": "radar"
     }
   ]
 }

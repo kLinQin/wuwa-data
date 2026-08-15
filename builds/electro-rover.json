@@ -6,9 +6,9 @@
     "bestEcho": [],
     "bestWeapon": "",
     "echoDetails": {
+      "note": "",
       "sets": [],
-      "substats": [],
-      "note": ""
+      "substats": []
     },
     "weaponNote": "",
     "weaponOptions": [],
@@ -17,9 +17,7 @@
       "priority": [],
       "note": ""
     },
-    "teams": [
-      "electro-rover-hypercarry"
-    ],
+    "teams": [],
     "teamNote": ""
   },
   "analysisCharts": []

@@ -18,30 +18,6 @@
       "sets": [
         {
           "label": "Echo Buff",
-          "echoSlug": "reminiscence-fenrico",
-          "echoSlugSecondary": "nightmare-beringal",
-          "stats": [
-            {
-              "cost": 4,
-              "stat": "CR%/CDMG%"
-            },
-            {
-              "cost": 3,
-              "stat": "aero%"
-            },
-            {
-              "cost": 3,
-              "stat": "aero%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            },
-            {
-              "cost": 1,
-              "stat": "ATK%"
-            }
-          ],
           "sonataCustom": [
             {
               "name": "Law Of Harmony",
@@ -55,13 +31,11 @@
               "name": "Sierra Gale",
               "set": 2
             },
-            "Windward Pilgrimage"
-          ]
-        },
-        {
-          "label": "SUb DPS",
-          "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
+            {
+              "name": "Windward Pilgrimage",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -84,9 +58,41 @@
               "stat": "ATK%"
             }
           ],
+          "echoSlug": "reminiscence-fenrico",
+          "echoSlugSecondary": "nightmare-beringal"
+        },
+        {
+          "label": "SUb DPS",
           "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 3,
+              "stat": "aero%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -117,18 +123,17 @@
     ],
     "rotations": [
       {
-        "title": "Standar",
         "steps": [
           "Intro",
           "BA34",
           "Ult",
           "[F]HA123",
           "Skill(Swap)+Outro"
-        ]
+        ],
+        "title": "Standar"
       }
     ],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Forte Circuit",
         "Resonance Liberation",
@@ -136,97 +141,92 @@
         "Resonance Skill",
         "Normal Attack"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "qiuyuan-qiuyuan-hypercarry"
+      "echo-damage",
+      "qiuyuan-hypercarry"
     ],
-    "teamNote": "Qiuyuan memberikan buff berikut untuk rekan setimnya:\n- 30% Crit. DMG selama 30 detik setelah menggunakan Res. Liberation.\n- 30% Echo Skill DMG Bonus selama 30 detik dari Forte Circuit miliknya.\n- 50% Echo Skill DMG Amplify selama 14 detik setelah menggunakan Outro Skill.\n- 16% Echo Skill DMG Bonus dari bonus set Law of Harmony."
+    "teamNote": ""
   },
   "analysisCharts": [
     {
-      "title": "Qiuyuan - Weapon",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "SOURCE // TETHYS.GG",
       "data": [
         {
           "type": "Emerald Sentence",
           "value": 284224.06,
-          "percentage": 122,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 122
         },
         {
           "type": "Emerald Of Genesis",
           "value": 233904.77,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "Endless Collapse",
           "value": 197976.09,
-          "percentage": 85,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 85
         }
-      ]
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Qiuyuan - Weapon",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Qiuyuan - Damage",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "SOURCE // TETHYS.GG",
       "data": [
         {
           "type": "HA",
           "value": 63.3,
-          "percentage": 63.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 63.3
         },
         {
           "type": "Echo",
           "value": 36.7,
-          "percentage": 36.7,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 36.7
         }
-      ]
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Qiuyuan - Damage",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Qiuyuan - Sequence",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "SOURCE // TETHYS.GG",
       "data": [
         {
           "type": "S0",
           "value": 284224.06,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 310565.25,
-          "percentage": 109,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 109
         },
         {
           "type": "S2",
           "value": 340331.88,
-          "percentage": 120,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 120
         },
         {
           "type": "S3",
           "value": 391323.53,
-          "percentage": 138,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 138
         }
-      ]
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Qiuyuan - Sequence",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

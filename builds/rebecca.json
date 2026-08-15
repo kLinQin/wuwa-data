@@ -11,6 +11,7 @@
     "bestEcho": [],
     "bestWeapon": "Skull Thrasher",
     "echoDetails": {
+      "note": "Saat dipasangkan dengan Lucy atau Augusta, gunakan Moonlit Clouds untuk team DPS yang lebih tinggi. Bellborne lebih disukai karena rotasinya. Shadows of Shattered Dreams hanya untuk personal damage miliknya.",
       "sets": [
         {
           "label": "With Lucy/Augusta",
@@ -28,8 +29,6 @@
               "set": 2
             }
           ],
-          "echoSlug": "reminiscence-adam-smasher",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -51,7 +50,9 @@
               "cost": 1,
               "stat": "ATK%"
             }
-          ]
+          ],
+          "echoSlug": "reminiscence-adam-smasher",
+          "echoSlugSecondary": ""
         },
         {
           "label": "Other DPS",
@@ -61,8 +62,6 @@
               "set": 5
             }
           ],
-          "echoSlug": "bell-borne-geochelone",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -84,7 +83,9 @@
               "cost": 1,
               "stat": "ATK%"
             }
-          ]
+          ],
+          "echoSlug": "bell-borne-geochelone",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -93,25 +94,24 @@
         "ATK%",
         "Basic Attack DMG Bonus",
         "ATK"
-      ],
-      "note": "Saat dipasangkan dengan Lucy atau Augusta, gunakan Moonlit Clouds untuk team DPS yang lebih tinggi. Bellborne lebih disukai karena rotasinya. Shadows of Shattered Dreams hanya untuk personal damage miliknya."
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
       {
         "id": "skull-thrasher",
-        "rank": "",
-        "percentage": "118.72%"
+        "percentage": "118.72%",
+        "rank": ""
       },
       {
         "id": "phasic-homogenizer",
-        "rank": "",
-        "percentage": "102.97%"
+        "percentage": "102.97%",
+        "rank": ""
       },
       {
         "id": "static-mist",
-        "rank": "",
-        "percentage": "100.00%"
+        "percentage": "100.00%",
+        "rank": ""
       }
     ],
     "rotations": [],
@@ -123,147 +123,141 @@
         "Intro Skill",
         "Resonance Skill"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "rebecca-hack-premium",
-      "rebecca-hack-alt",
-      "rebecca-hack-f2p"
+      "hack-alternatif",
+      "hack-premium",
+      "xuanling-xuanling-hypercarry"
     ],
-    "teamNote": "Rebecca memberikan buff berikut untuk rekan satu timnya:\n- +20% ATK selama 30 detik saat melancarkan Resonance Liberation [Party 'Til Dawn!]\n- 30 Tune Break Boost untuk Lucy\n- 15% All-DMG Amplify selama 14 detik setelah melancarkan Outro Skill, di mana Resonator yang masuk kemudian bisa mendapatkan hingga 35% Heavy Attack DMG Amplify pada stack(s) penuh. Efek ini otomatis jika Resonator tersebut adalah Lucy\n- Memanggil sebuah turret yang terus-menerus menyerang selama 14 detik, yang dapat diperkuat lebih lanjut oleh Lucy, meningkatkan DMG multiplier miliknya sebesar 250%\n- Dengan Skull Trasher (Signature Rebecca): +24% ATK selama 30 detik saat memberikan Hack - Shifting."
+    "teamNote": ""
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Rebecca",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Skull Thrasher",
           "value": 641496.24,
-          "percentage": 118.72,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 118.72
         },
         {
           "type": "Phasic Homogenizer",
           "value": 556385.23,
-          "percentage": 102.97,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 102.97
         },
         {
           "type": "Static Mist",
           "value": 540342.15,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Rebecca",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Sequence - Rebeccaa",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 641496.24,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 676542.03,
-          "percentage": 105.46,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 105.46
         },
         {
           "type": "S2",
           "value": 779441.24,
-          "percentage": 121.5,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 121.5
         },
         {
           "type": "S3",
           "value": 971418.73,
-          "percentage": 151.43,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 151.43
         },
         {
           "type": "S4",
           "value": 1050453.52,
-          "percentage": 163.75,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 163.75
         },
         {
           "type": "S5",
           "value": 1106622.58,
-          "percentage": 172.51,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 172.51
         },
         {
           "type": "S6",
           "value": 1440584.36,
-          "percentage": 224.57,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 224.57
         },
         {
           "type": "S6R5",
           "value": 1619034.62,
-          "percentage": 252.38,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 252.38
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Rebeccaa",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Rebeccaa",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "BA",
           "value": 62.5,
-          "percentage": 62.5,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 62.5
         },
         {
           "type": "Hack",
           "value": 20.4,
-          "percentage": 20.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 20.4
         },
         {
           "type": "Intro Skill",
           "value": 4.2,
-          "percentage": 4.2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 4.2
         },
         {
           "type": "Outro",
           "value": 4.6,
-          "percentage": 4.6,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 4.6
         },
         {
           "type": "Echo",
           "value": 4.4,
-          "percentage": 4.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 4.4
         },
         {
           "type": "Reso Skill",
           "value": 3.9,
-          "percentage": 3.9,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 3.9
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Rebeccaa",
+      "layout": "horizontal",
+      "chartType": "radar"
     }
   ]
 }

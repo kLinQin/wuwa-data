@@ -17,6 +17,12 @@
       "sets": [
         {
           "label": "Sub DPS",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,10 +46,7 @@
             }
           ],
           "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
-          "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -89,7 +92,6 @@
     ],
     "rotations": [],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Forte Circuit",
         "Resonance Liberation",
@@ -97,18 +99,12 @@
         "Intro Skill",
         "Normal Attack"
       ],
-      "equalPriority": [
-        false,
-        false,
-        true,
-        true,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "carlotta-budget"
+      "carlotta-alternatif"
     ],
-    "teamNote": "Lumi memberikaan buff sebagai berikut: \n- 38% Resonance Skill\n- S6: 20% buff ATK"
+    "teamNote": ""
   },
   "analysisCharts": []
 }

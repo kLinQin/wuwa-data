@@ -13,11 +13,24 @@
     ],
     "bestWeapon": "Lethean Elegy",
     "echoDetails": {
+      "note": "",
       "sets": [
         {
           "label": "DPS",
-          "echoSlug": "nightmare-hecate",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Dream Of The Lost",
+              "set": 3
+            },
+            {
+              "name": "Midnight Veil",
+              "set": 2
+            },
+            {
+              "name": "Havoc Eclipse",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -40,20 +53,8 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            {
-              "name": "Dream Of The Lost",
-              "set": 3
-            },
-            {
-              "name": "Midnight Veil",
-              "set": 2
-            },
-            {
-              "name": "Havoc Eclipse",
-              "set": 2
-            }
-          ]
+          "echoSlug": "nightmare-hecate",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -61,40 +62,38 @@
         "ATK%",
         "Reso Skill DMG",
         "ATK"
-      ],
-      "note": ""
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
       {
         "id": "lethean-elegy",
-        "rank": "",
-        "percentage": "137"
+        "percentage": "137",
+        "rank": ""
       },
       {
         "id": "stringmaster",
-        "rank": "",
-        "percentage": "116"
+        "percentage": "116",
+        "rank": ""
       },
       {
         "id": "whispers-of-sirens",
-        "rank": "",
-        "percentage": "105"
+        "percentage": "105",
+        "rank": ""
       },
       {
         "id": "cosmic-ripples",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "fusion-accretion",
-        "rank": "",
-        "percentage": "90"
+        "percentage": "90",
+        "rank": ""
       }
     ],
     "rotations": [
       {
-        "title": "Standar",
         "steps": [
           "Intro or BA2",
           "BA3",
@@ -107,7 +106,8 @@
           "Ult",
           "[U]BA12",
           "Swap"
-        ]
+        ],
+        "title": "Standar"
       }
     ],
     "talentPriority": {
@@ -118,127 +118,119 @@
         "Intro Skill",
         "Resonance Skill"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        true,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "cantarella-lova-hypercaryy",
-      "cantarella-core",
-      "phrolova-hypercarry---phrolova",
+      "echo-damage",
       "phrolova-core",
-      "qiuyuan-phrolova-hc",
-      "roccia-hypercarry---lova"
+      "phrolova-hypercarry",
+      "taoqi-buff",
+      "xuanling-xuanling-hypercarry"
     ],
     "teamNote": "\n"
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Lova",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Lethean Elegy",
           "value": 1005471.52,
-          "percentage": 138.25,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 138.25
         },
         {
           "type": "Stringmaster",
           "value": 861203.2,
-          "percentage": 118.42,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 118.42
         },
         {
           "type": "Whispers Of Sirens",
           "value": 837970.02,
-          "percentage": 115.22,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 115.22
         },
         {
           "type": "Rime-Draped Sprouts",
           "value": 790575.74,
-          "percentage": 108.7,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 108.7
         },
         {
           "type": "Cosmic Ripples",
           "value": 727267.73,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "Fusion Accretion",
           "value": 659730.77,
-          "percentage": 90.71,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 90.71
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Lova",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Lova",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "BA",
           "value": 4.4,
-          "percentage": 4.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 4.4
         },
         {
           "type": "Skill",
           "value": 47,
-          "percentage": 47,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 47
         },
         {
           "type": "Echo",
           "value": 48.7,
-          "percentage": 48.7,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 48.7
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Lova",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Sequence - Lova",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 1005471.52,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 1096817.68,
-          "percentage": 109.08,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 109.08
         },
         {
           "type": "S2",
           "value": 1356162,
-          "percentage": 134.88,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 134.88
         },
         {
           "type": "S3",
           "value": 1674840.05,
-          "percentage": 166.57,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 166.57
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Lova",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

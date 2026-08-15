@@ -14,11 +14,16 @@
     ],
     "bestWeapon": "Tragicomedy",
     "echoDetails": {
+      "note": "Untuk menerima buff maksimal dari Resonance Liberation milik Roccia, Roccia harus memiliki setidaknya 70% Crit. Rate, ini adalah salah satu dari sedikit kasus di mana 44111 (2x CR 4-cost) mungkin berguna jika Anda tidak menargetkan substat Double Crit pada semua echo.",
       "sets": [
         {
           "label": "Sub DPS - Havoc",
-          "echoSlug": "nightmare-heron",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Midnight Veil",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -41,14 +46,17 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Midnight Veil"
-          ]
+          "echoSlug": "nightmare-heron",
+          "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS - General",
-          "echoSlug": "impermanence-heron",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Moonlit Clouds",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -71,9 +79,8 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Moonlit Clouds"
-          ]
+          "echoSlug": "impermanence-heron",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -82,45 +89,43 @@
         "ATK%",
         "Heavy Attack DMG Bonus",
         "ATK"
-      ],
-      "note": "Untuk menerima buff maksimal dari Resonance Liberation milik Roccia, Roccia harus memiliki setidaknya 70% Crit. Rate, ini adalah salah satu dari sedikit kasus di mana 44111 (2x CR 4-cost) mungkin berguna jika Anda tidak menargetkan substat Double Crit pada semua echo."
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
       {
         "id": "tragicomedy",
-        "rank": "",
-        "percentage": "120"
+        "percentage": "120",
+        "rank": ""
       },
       {
         "id": "blazing-justice",
-        "rank": "",
-        "percentage": "109"
+        "percentage": "109",
+        "rank": ""
       },
       {
         "id": "veritys-handle",
-        "rank": "",
-        "percentage": "108"
+        "percentage": "108",
+        "rank": ""
       },
       {
         "id": "pulsation-bracer",
-        "rank": "",
-        "percentage": "-"
+        "percentage": "-",
+        "rank": ""
       },
       {
         "id": "abyss-surges",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "stonard",
-        "rank": "",
-        "percentage": "85"
+        "percentage": "85",
+        "rank": ""
       }
     ],
     "rotations": [
       {
-        "title": "Standar Rotasi",
         "steps": [
           "Intro",
           "BA4",
@@ -128,7 +133,8 @@
           "Forte(x3)",
           "Ult",
           "Echo+Outro"
-        ]
+        ],
+        "title": "Standar Rotasi"
       }
     ],
     "talentPriority": {
@@ -139,103 +145,100 @@
         "Normal Attack",
         "Intro Skill"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "phrolova-hypercarry",
-      "cantarella-hypercarry"
+      "brant-alternatif",
+      "camellya-hypercarry",
+      "encore-hypercarry",
+      "havoc-rover-hypercarry",
+      "mono-havoc",
+      "phrolova-core"
     ],
     "teamNote": ""
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Roccia",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Tragicomedy",
           "value": 224022459,
-          "percentage": 120.93,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 120.93
         },
         {
           "type": "Blazing Brilliance",
           "value": 201929667,
-          "percentage": 109,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 109
         },
         {
           "type": "Verity'S Handle",
           "value": 201755.65,
-          "percentage": 0.11,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 0.11
         },
         {
           "type": "Abyss Surges",
           "value": 185254124,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "Celestial Spiral R5",
           "value": 161231437,
-          "percentage": 87.03,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 87.03
         },
         {
           "type": "Stonard",
           "value": 157470424,
-          "percentage": 85,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 85
         },
         {
           "type": "Hollow Mirage R5",
           "value": 155474712,
-          "percentage": 83.93,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 83.93
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Roccia",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Roccia",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "BA",
           "value": 11.4,
-          "percentage": 11.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 11.4
         },
         {
           "type": "Skill",
           "value": 12.6,
-          "percentage": 12.6,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 12.6
         },
         {
           "type": "HA",
           "value": 65.3,
-          "percentage": 65.3,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 65.3
         },
         {
           "type": "Echo",
           "value": 10.7,
-          "percentage": 10.7,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 10.7
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Roccia",
+      "layout": "horizontal",
+      "chartType": "radar"
     }
   ]
 }

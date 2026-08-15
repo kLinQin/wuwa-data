@@ -15,11 +15,16 @@
     ],
     "bestWeapon": "verdant Summit",
     "echoDetails": {
+      "note": "- Res. Liberation Jiyan [Emerald Storm: Finale] dianggap sebagai [Heavy DMG], oleh karena itu substat [Res. Liberation DMG Bonus] tidak berguna (dead stat) untuknya\n- bisa juga menggunakan Jiyan dengan ER sekitar ~115-120% jika menerapkan rotasi double intro. ER 130% ",
       "sets": [
         {
           "label": "Aero DPS",
-          "echoSlug": "feilian-beringal",
-          "echoSlugSecondary": "nightmare-beringal",
+          "sonataCustom": [
+            {
+              "name": "Sierra Gale",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -42,14 +47,17 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Sierra Gale"
-          ]
+          "echoSlug": "feilian-beringal",
+          "echoSlugSecondary": "nightmare-beringal"
         },
         {
           "label": "Aero DPS ",
-          "echoSlug": "nightmare-kelpie",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Windward Pilgrimage",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -72,9 +80,8 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Windward Pilgrimage"
-          ]
+          "echoSlug": "nightmare-kelpie",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -83,8 +90,7 @@
         "ATK%",
         "Heavy Attack DMG Bonus",
         "ATK"
-      ],
-      "note": "- Res. Liberation Jiyan [Emerald Storm: Finale] dianggap sebagai [Heavy DMG], oleh karena itu substat [Res. Liberation DMG Bonus] tidak berguna (dead stat) untuknya\n- bisa juga menggunakan Jiyan dengan ER sekitar ~115-120% jika menerapkan rotasi double intro. ER 130% "
+      ]
     },
     "weaponNote": "",
     "weaponOptions": [
@@ -138,61 +144,53 @@
         "Intro Skill",
         "Normal Attack"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "aalto-jiyan-hypercarry",
-      "iuno-mono-aero",
-      "jiyan-mono-aero",
-      "jiyan-f2p-options"
+      "jiyan-alternatif",
+      "jiyan-hypercarry",
+      "mono-aero"
     ],
     "teamNote": "Jiyan merupakan Main DPS yang fokus utamanya memberikan Heavy ATK DMG."
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Jiyan",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "SOURCE // TETHYS.GG",
       "data": [
         {
           "type": "Verdant Summit",
           "value": 100,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "Ages Of Harvest",
           "value": 90,
-          "percentage": 90,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 90
         },
         {
           "type": "Lustrous Razor",
           "value": 79,
-          "percentage": 79,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 79
         },
         {
           "type": "Autumntrace",
           "value": 77,
-          "percentage": 77,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 77
         },
         {
           "type": "Waning Redshift",
           "value": 71,
-          "percentage": 71,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 71
         }
-      ]
+      ],
+      "note": "SOURCE // TETHYS.GG",
+      "title": "Weapon - Jiyan",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

@@ -14,11 +14,16 @@
     ],
     "bestWeapon": "Spectrum Blaster",
     "echoDetails": {
+      "note": "kamu perlu memilih mode Tune Rupture (kiri) pada menu skill. Hal ini memberikan instansi tambahan dari Tune Break DMG saat kamu memicu Tune Break. Namun, jika ia berada dalam satu tim dengan Luuk, jalankan mode Tune Strain (kanan) sebagai gantinya.",
       "sets": [
         {
           "label": "Sub DPS",
-          "echoSlug": "hyvatia",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Pact Of Neonlight Leap",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -41,14 +46,17 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Pact Of Neonlight Leap"
-          ]
+          "echoSlug": "hyvatia",
+          "echoSlugSecondary": ""
         },
         {
           "label": "DPS",
-          "echoSlug": "twin-nova-nebulous-cannon",
-          "echoSlugSecondary": "",
+          "sonataCustom": [
+            {
+              "name": "Rite Of Gilded Revelation",
+              "set": 2
+            }
+          ],
           "stats": [
             {
               "cost": 4,
@@ -71,9 +79,8 @@
               "stat": "ATK%"
             }
           ],
-          "sonataCustom": [
-            "Rite Of Gilded Revelation"
-          ]
+          "echoSlug": "twin-nova-nebulous-cannon",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -82,45 +89,43 @@
         "ATK%",
         "Basic Attack DMG Bonus",
         "ATK"
-      ],
-      "note": "kamu perlu memilih mode Tune Rupture (kiri) pada menu skill. Hal ini memberikan instansi tambahan dari Tune Break DMG saat kamu memicu Tune Break. Namun, jika ia berada dalam satu tim dengan Luuk, jalankan mode Tune Strain (kanan) sebagai gantinya."
+      ]
     },
     "weaponNote": "Gunakan Static Mist untuk memberikan buff kepada Main DPS kamu. Phasic Homogenizer hanya digunakan untuk damage pribadinya.",
     "weaponOptions": [
       {
         "id": "spectrum-blaster",
-        "rank": "",
-        "percentage": "121"
+        "percentage": "121",
+        "rank": ""
       },
       {
         "id": "phasic-homogenizer",
-        "rank": "",
-        "percentage": "104"
+        "percentage": "104",
+        "rank": ""
       },
       {
         "id": "the-last-dance",
-        "rank": "",
-        "percentage": "103"
+        "percentage": "103",
+        "rank": ""
       },
       {
         "id": "static-mist",
-        "rank": "",
-        "percentage": "100"
+        "percentage": "100",
+        "rank": ""
       },
       {
         "id": "solar-flame",
-        "rank": "",
-        "percentage": "-"
+        "percentage": "-",
+        "rank": ""
       },
       {
         "id": "relativistic-jet",
-        "rank": "",
-        "percentage": "-"
+        "percentage": "-",
+        "rank": ""
       }
     ],
     "rotations": [
       {
-        "title": "Standar",
         "steps": [
           "Intro",
           "Ult",
@@ -130,7 +135,8 @@
           "[F]MA",
           "Echo",
           "Outro"
-        ]
+        ],
+        "title": "Standar"
       }
     ],
     "talentPriority": {
@@ -141,130 +147,129 @@
         "Intro Skill",
         "Resonance Skill"
       ],
-      "note": "",
-      "equalPriority": [
-        false,
-        false,
-        false,
-        false,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "aemeath-tune-break",
-      "luuk-herssen-tune-break",
-      "augusta-hypercarry"
+      "augusta-premium",
+      "calcharo-hypercarry",
+      "carlotta-hypercarry",
+      "hiyuki-alternatif",
+      "luuk-hypercarry",
+      "lynae-sub-dps",
+      "tune-team",
+      "xiangliyao-hypercarry",
+      "xuanling-xuanling-hypercarry"
     ],
-    "teamNote": "Lynae memberikan buff berikut untuk rekan timnya:\n- 15% All-DMG & 25% Res. Liberation Amplify selama 14 detik setelah melancarkan Outro Skill\n- 24% All-DMG Bonus selama 30 detik setelah melancarkan Res. Lib [Prismatic Overblast]\n- 30% ATK dari bonus set Pact of Neonlight Leap\n- 10% All-Attribute DMG Bonus selama 15 detik dari Hyvatia\n- 40 Tune Break Boost dari Forte Circuit miliknya\n- Dengan Spectrum Blaster (senjata signature Lynae): Semua DMG yang diberikan meningkat sebesar 24% selama 30 detik saat memberikan [Tune Rupture atau Strain - Shifting] selama melakukan basic attack."
+    "teamNote": ""
   },
   "analysisCharts": [
     {
-      "title": "Weapon - Lynae",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "Spectrum Blaster",
           "value": 402752.64,
-          "percentage": 113.67,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 113.67
         },
         {
           "type": "Phasic Homogenizer",
           "value": 366349.67,
-          "percentage": 103.39,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 103.39
         },
         {
           "type": "The Last Dance",
           "value": 367055.33,
-          "percentage": 103.59,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 103.59
         },
         {
           "type": "Static Mist",
           "value": 354323.88,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Lynae",
+      "layout": "horizontal",
+      "chartType": "bar"
     },
     {
-      "title": "Damage - Lynae",
-      "chartType": "radar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "BA",
           "value": 42.5,
-          "percentage": 42.5,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 42.5
         },
         {
           "type": "Skill",
           "value": 3.2,
-          "percentage": 3.2,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 3.2
         },
         {
           "type": "Lib",
           "value": 11.5,
-          "percentage": 11.5,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 11.5
         },
         {
           "type": "Rupture",
           "value": 38.9,
-          "percentage": 38.9,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 38.9
         },
         {
           "type": "Intro",
           "value": 2.5,
-          "percentage": 2.5,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 2.5
         },
         {
           "type": "Outro",
           "value": 1.4,
-          "percentage": 1.4,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 1.4
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Lynae",
+      "layout": "horizontal",
+      "chartType": "radar"
     },
     {
-      "title": "Sequence - Lynae",
-      "chartType": "bar",
-      "layout": "horizontal",
-      "note": "source // tethys.gg",
       "data": [
         {
           "type": "S0",
           "value": 457185.68,
-          "percentage": 100,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 100
         },
         {
           "type": "S1",
           "value": 493072.54,
-          "percentage": 107.85,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 107.85
         },
         {
           "type": "S2",
           "value": 569640.21,
-          "percentage": 124.6,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 124.6
         },
         {
           "type": "S3",
           "value": 700647.67,
-          "percentage": 153.25,
-          "imagePath": ""
+          "imagePath": "",
+          "percentage": 153.25
         }
-      ]
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Lynae",
+      "layout": "horizontal",
+      "chartType": "bar"
     }
   ]
 }

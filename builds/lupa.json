@@ -18,10 +18,11 @@
         {
           "label": "Hybrid",
           "sonataCustom": [
-            "Flaming Clawprint"
+            {
+              "name": "Flaming Clawprint",
+              "set": 2
+            }
           ],
-          "echoSlug": "lioness-of-glory",
-          "echoSlugSecondary": "",
           "stats": [
             {
               "cost": 4,
@@ -43,7 +44,9 @@
               "cost": 1,
               "stat": "ATK%"
             }
-          ]
+          ],
+          "echoSlug": "lioness-of-glory",
+          "echoSlugSecondary": ""
         }
       ],
       "substats": [
@@ -99,7 +102,6 @@
     ],
     "rotations": [],
     "talentPriority": {
-      "note": "",
       "priority": [
         "Resonance Liberation",
         "Forte Circuit",
@@ -107,18 +109,20 @@
         "Normal Attack",
         "Resonance Skill"
       ],
-      "equalPriority": [
-        false,
-        false,
-        false,
-        true,
-        false
-      ]
+      "note": ""
     },
     "teams": [
-      "lupa-qs"
+      "aemeath-mono-fusion",
+      "brant-mono-fusion",
+      "changli-mono-fusion",
+      "changli-quickswap",
+      "chixia-mono-fushion",
+      "encore-hypercarry",
+      "galbrena-mono-fusion",
+      "luuk-hypercarry",
+      "mortefi-mono-fusion"
     ],
-    "teamNote": "Lupa memberikan buff berikut untuk rekan satu timnya:\n- 20% Fusion DMG dan 25% Basic Attack DMG Amplify selama 14 detik setelah melancarkan Intro Skill\n- [Pack Hunt]: +6-18% ATK dan 10% Fusion DMG Bonus (20% dengan 3 Fusion Resonator)\n- Mengabaikan 3-15% Fusion RES dalam waktu 35 detik setelah melancarkan [Res. Liberation]\n- Dengan Wildfire Mark (Signature Lupa): 24% Fusion DMG Bonus selama 30 detik."
+    "teamNote": ""
   },
   "analysisCharts": [
     {
