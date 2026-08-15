@@ -1,24 +1,6 @@
 [
   {
-    "id": "aalto-jiyan-hypercarry",
-    "name": "Jiyan Hypercarry",
-    "members": [
-      [
-        "Jiyan"
-      ],
-      [
-        "Aalto"
-      ],
-      [
-        "Shorekeeper",
-        "Verina"
-      ]
-    ],
-    "note": "Aalto memberikan 23% Aero DMG Amplify kepada Jiyan saat mengeluarkan Outro Skill. Gunakan healer pilihan Anda pada slot ke-3.",
-    "characterId": 1404
-  },
-  {
-    "id": "aalto-aalto-hypercarry",
+    "id": "aalto-hypercarry",
     "name": "Aalto Hypercarry",
     "members": [
       [
@@ -32,51 +14,203 @@
         "Verina"
       ]
     ],
-    "note": "Sanhua memberikan 38% Basic ATK DMG Amplify kepada Aalto saat mengeluarkan Outro Skill. Selain itu, pada S6, ia memberikan tambahan hingga 20% ATK saat meledakkan Ice Prism atau Glacier.",
+    "note": "Sanhua buff 38% Basic ATK DMG. Selain itu, di S6, ia memberikan tambahan hingga 20% ATK saat meledakkan Ice Prism atau Glacier.\n\nShorekeeper memberikan buff berikut kepada rekan timnya:\n> Amplifikasi 15% DMG saat melancarkan Outro Skill\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik.\n\nVerina memberikan buff berikut kepada rekan timnya:\n> Amplifikasi 15% All-Type DMG selama 30 detik saat melancarkan Outro Skill\n> Peningkatan 20% ATK selama 20 detik.\n",
     "characterId": 1403
   },
   {
-    "id": "aemeath-tune-break",
-    "name": "Tune-Break",
+    "id": "aero-erosion",
+    "name": "Aero Erosion",
     "members": [
       [
-        "Aemeath"
+        "Cartethyia"
       ],
       [
-        "Lynae"
+        "Ciaccona"
       ],
       [
-        "Mornye",
         "Chisa",
+        "Aero Rover",
         "Shorekeeper"
       ]
     ],
-    "note": "- slot 3 Sebagai alternatif, bisa juga menggunakan Shorekeeper; namun, Mornye lebih ideal karena ia memberikan lebih banyak Ruptures. ",
-    "characterId": 1210
+    "note": "Ciaccona memberikan amplifikasi Aero Erosion kepada Cartethyia saat melancarkan Outro Skill-nya. Selain itu, klon Ciaccona memberikan bonus Aero DMG. Ia juga memberikan stacks Aero Erosion tambahan.\n\nCiaccona memberikan buff berikut kepada rekan timnya:\n> Bonus 24% Aero DMG dari [Ensemble Sylphs] miliknya\n> Bonus 15% Aero DMG dari set bonus Gusts of Welkin\n> Amplifikasi 100% Aero Erosion selama 30 detik saat melancarkan Outro Skill\n> Dengan Woodland Aria (signature weapon Ciaccona): Reduksi 10% Aero RES selama 20 detik.\n\nRover: Aero memberikan buff berikut:\n> Meningkatkan batas maksimal stack(s) Aero Erosion sebesar 3 selama 10 detik saat melancarkan Outro Skill\n> Dengan Bloodpact's Pledge: Amplifikasi 10% Aero DMG selama 30 detik saat melancarkan [Resonance Skill Unbound Flow].\n\nChisa memberikan buff berikut kepada rekan timnya:\n> Meningkatkan batas maksimal stack(s) Negative Statuses sebesar 3 selama 15 detik\n> Penurunan 12% DEF dari Havoc Bane, pengabaian 18% DEF dari Forte\n> Dengan Kumokiri (signature weapon Chisa): Bonus 24% All-Attribute DMG selama 15 detik saat Resonator dalam tim memberikan efek Negative Statuses.",
+    "characterId": 1409
   },
   {
-    "id": "aemeath-mono-fusion",
-    "name": "Mono Fusion",
+    "id": "augusta-alternatif",
+    "name": "Augusta Alternatif",
     "members": [
       [
-        "Aemeath"
+        "Augusta"
       ],
       [
-        "Lupa",
+        "Mortefi"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "mortefi buff 38% heavy attack selama 14 detik (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali).\n\nShorekeeper memberikan buff berikut kepada rekan timnya:\n> Amplifikasi 15% DMG saat melancarkan Outro Skill\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik.",
+    "characterId": 1306
+  },
+  {
+    "id": "augusta-premium",
+    "name": "Augusta Premium",
+    "members": [
+      [
+        "Augusta"
+      ],
+      [
+        "Iuno"
+      ],
+      [
+        "Shorekeeper",
+        "Lynae"
+      ]
+    ],
+    "note": "Luno memberikan buff berikut kepada rekan timnya:\n> amplifikasi 50% Heavy DMG selama 14 detik saat melancarkan Outro Skill\n> Amplifikasi 40% ALL-DMG selama 10 detik saat mendapatkan Shield di dalam [Full Moon Domain], yang hanya berlaku untuk Augusta atau Luno sebagai Main DPS.\n\nShorekeeper memberikan buff berikut kepada rekan timnya:\n> Amplifikasi 15% DMG saat melancarkan Outro Skill\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik.\n\nLynae memberikan buff berikut untuk rekan timnya:\n> Amplifikasi 15% ALL-DMG & 25% Resonance Liberation selama 14 detik saat melancarkan Outro Skill - Bonus 24% All-DMG selama 30 detik saat melancarkan Resonance Liberation [Prismatic Overblast]\n> Bonus 30% ATK dari set bonus Pact of Neonlight Leap\n> Bonus 10% All-Attribute DMG selama 15 detik dari Hyvatia\n> Boost 40 Tune Break dari Forte Circuit miliknya\n> Dengan Spectrum Blaster (signature weapon Lynae): Semua All-DMG yang ditimbulkan meningkat sebesar 24% selama 30 detik saat memberikan efek [Tune Rupture atau Strain - Shifting] selama bassic attacknya.",
+    "characterId": 1306
+  },
+  {
+    "id": "brant-alternatif",
+    "name": "Brant Alternatif",
+    "members": [
+      [
+        "Brant"
+      ],
+      [
+        "Sanhua",
+        "Roccia"
+      ],
+      [
+        "Shorekeeper",
+        "Verina"
+      ]
+    ],
+    "note": "roccia\n> Roccia buff Havoc DMG 20% dan Basic Attack DMG 25% selama 14 detik\n\nsanhua\n> sanhua buff 38% basic attack selama 14 detik (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali).\n\nShorekeeper memberikan buff berikut kepada rekan timnya:\n> Amplifikasi 15% DMG saat melancarkan Outro Skill\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik.",
+    "characterId": 1206
+  },
+  {
+    "id": "calcharo-hypercarry",
+    "name": "Calcharo Hypercarry",
+    "members": [
+      [
+        "Calcharo"
+      ],
+      [
+        "Lynae",
+        "Yinlin",
+        "Sanhua"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "yinlin \n> Yinlin buff Electro DMG 20% and Resonance Liberation DMG 25% selama 14 detik\n\nsanhua\n> sanhua buff 38% basic attack selama 14 detik (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali).\n\nlynae\n> Lynae memberikan buff berikut untuk rekan timnya:\n> Amplifikasi 15% ALL-DMG & 25% Resonance Liberation selama 14 detik saat melancarkan Outro Skill - Bonus 24% All-DMG selama 30 detik saat melancarkan Resonance Liberation [Prismatic Overblast]\n> Bonus 30% ATK dari set bonus Pact of Neonlight Leap\n> Bonus 10% All-Attribute DMG selama 15 detik dari Hyvatia\n> Boost 40 Tune Break dari Forte Circuit miliknya\n> Dengan Spectrum Blaster (signature weapon Lynae): Semua All-DMG yang ditimbulkan meningkat sebesar 24% selama 30 detik saat memberikan efek [Tune Rupture atau Strain - Shifting] selama bassic attacknya.\n\nShorekeeper memberikan buff berikut kepada rekan timnya:\n> Amplifikasi 15% DMG saat melancarkan Outro Skill\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik.",
+    "characterId": 1301
+  },
+  {
+    "id": "camellya-hypercarry",
+    "name": "Camellya Hypercarry",
+    "members": [
+      [
+        "Camellya"
+      ],
+      [
+        "Sanhua",
+        "Danjin",
+        "Roccia"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "danjin buff Havoc DMG 23% selama 14 detik\nsanhua buff 38% basic attack selama 14 detik (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali).\nRoccia buff Havoc DMG 20% dan Basic Attack DMG 25% selama 14 detik\n\nShorekeeper memberikan buff berikut kepada rekan timnya:\n> Amplifikasi 15% DMG saat melancarkan Outro Skill\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik.",
+    "characterId": 1603
+  },
+  {
+    "id": "cartethyia-alternatif",
+    "name": "Cartethyia Alternatif",
+    "members": [
+      [
+        "Cartethyia"
+      ],
+      [
+        "Sanhua"
+      ],
+      [
+        "Chisa",
+        "Shorekeeper",
+        "Suisui"
+      ]
+    ],
+    "note": "sanhua buff 38% basic attack selama 14 detik (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali).\n\nChisa memberikan buff berikut kepada rekan timnya:\n> Meningkatkan batas maksimal stack(s) Negative Statuses sebesar 3 selama 15 detik\n> Penurunan 12% DEF dari Havoc Bane, pengabaian 18% DEF dari Forte\n> Dengan Kumokiri (signature weapon Chisa): Bonus 24% All-Attribute DMG selama 15 detik saat Resonator dalam tim memberikan efek Negative Statuses.\n\nSuisui memberikan buff berikut kepada rekan timnya:\n> Meningkatkan batas maksimal stack(s) Negative Statuses kecuali Havoc Bane sebesar 3 selama 15 detik\n> Mengonsumsi stack(s) Havoc Bane memberikan pengabaian 6% DEF dan pengabaian 12% Havoc RES untuk DMG Havoc yang bersangkutan selama 30 detik setelah skill di casting\n> Bonus 50% ATK untuk konsumen Negative Statuses (misalnya Yangyang: Xuanling, Hiyuki)\n> Bonus 12% DMG saat berada dalam status [Roaming Transcendent]\n> Amplifikasi 25% DMG selama 30 detik saat melancarkan Outro Skill\n> Dengan Firstland's Herald (signature weapon Suisui): Bonus 20% ATK saat ia memiliki Snow Taint dan Ripples secara bersamaan (dengan memberikan efek Glacio Chafe dan melakukan healing).",
+    "characterId": 1409
+  },
+  {
+    "id": "chixia-hypercarry",
+    "name": "Chixia Hypercarry",
+    "members": [
+      [
+        "Chixia"
+      ],
+      [
+        "Cantarella",
+        "Zhezhi",
+        "Taoqi",
         "Changli",
         "Brant"
       ],
       [
-        "Mornye",
-        "Lupa",
-        "Suisui"
+        "Shorekeeper",
+        "Verina"
       ]
     ],
-    "note": "bisa juga ganti Mornye dengan Changli, yang memberikan 25% Res. Liberation Amplify, atau Brant. Jika bersama Changli atau Brant, pilih mode Fusion Burst.",
-    "characterId": 1210
+    "note": "Jika Brant atau Changli tidak tersedia, Res. Skill Amplifier lain seperti Cantarella atau Zhezhi bisa menjadi pilihan. Taoqi juga merupakan opsi meskipun rotasinya jauh lebih lambat.\n\nCantarella memberikan buff berikut kepada rekan timnya:\n> Amplifikasi 20% Havoc DMG dan 25% Resonance Skill DMG selama 14 detik saat melancarkan Outro Skill\n> Bonus 15% Havoc DMG dari set bonus Midnight Veil.\n\nZhezhi memberikan buff berikut kepada rekan timnya:\n> Memulihkan 15 Resonance Energy saat melancarkan Outro Skill\n> Amplifikasi 20% Glacio DMG dan 25% Resonance Skill DMG selama 14 detik saat melancarkan Outro Skill.\n\nchangli buff 20% Fusion DMG and 25% Res. Liberation selama 10 detik.\n\nbrant buff Fusion DMG 20% dan Resonance Skill DMG 25% selama 14 detik.",
+    "characterId": 1202
   },
   {
-    "id": "aemeath-fusion-burst",
+    "id": "echo-damage",
+    "name": "Echo Damage",
+    "members": [
+      [
+        "Sigrika",
+        "Galbrena",
+        "Phrolova"
+      ],
+      [
+        "Lucilla",
+        "Qiuyuan"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "Lucilla sebagai opsi alternatif menggantikan Qiuyuan untuk Sigrika, Galbrena, dan Phrolova, memberikan 50% Echo Skill Amplify setelah melancarkan Outro Skill dan 4 kali penggunaan Echo Skill. Saat dipasangkan dengan Phrolova, kamu dapat menggunakan Dream of the Lost & 2-pc Reels untuk melengkapi Voidwing Moth di slot utama. Selain itu, Moonlit Clouds juga merupakan opsi yang layak.\n\nLucilla memberikan amplifikasi 60% Glacio Chafe DMG kepada Hiyuki saat melancarkan Outro Skill-nya. Karena ia mampu memberikan efek Glacio Chafe secara mandiri, ia dapat memenuhi stack(s) terakhir dari Inherent Skill: Fine Snow milik Hiyuki, yang memberikan amplifikasi tambahan 30% Glacio Bite DMG.\n\nDalam mode Glacio Chafe, Lucilla memberikan buff berikut kepada rekan timnya:\n> Penurunan 8% Glacio RES\n> Bonus 37% Glacio DMG dari Wishes of Quiet Snowfall set bonus (12% berasal dari Glammth)\n> Amplifikasi 60% Glacio Chafe DMG selama 30 detik saat melancarkan Outro Skill.\n\nDalam mode Echo, Lucilla memberikan buff berikut kepada rekan timnya:\n> Peningkatan 25% Echo Skill DMG selama 30 detik\n> Bonus 40% Crit. DMG pada 4 stacks [Zoom], yang hanya berlaku untuk Resonator aktif\n> Amplifikasi 50% Echo Skill DMG selama 14 detik saat melancarkan Outro Skill.\n> Dengan Freeze-Frame (signature weapon Lucilla): Peningkatan 24% ATK selama 30 detik saat memberikan efek Glacio Chafe.",
+    "characterId": 1412
+  },
+  {
+    "id": "encore-hypercarry",
+    "name": "Encore Hypercarry",
+    "members": [
+      [
+        "Encore"
+      ],
+      [
+        "Sanhua",
+        "Roccia",
+        "Yangyang"
+      ],
+      [
+        "Lupa",
+        "Shorekeeper"
+      ]
+    ],
+    "note": "sanhua buff 38% basic attack selama 14 detik (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali).\n\nRoccia buff Havoc DMG 20% dan Basic Attack DMG 25% selama 14 detik",
+    "characterId": 1203
+  },
+  {
+    "id": "fusion-burst",
     "name": "Fusion Burst",
     "members": [
       [
@@ -90,8 +224,80 @@
         "Suisui"
       ]
     ],
-    "note": "- Denia memberikan 60% Fusion Burst Amplify setelah melancarkan Outro Skill miliknya dan memenuhi Inherent Skill milik Aemeath: Between the Stars. Ia juga memberikan buff tambahan.\n- solt 2 Sebagai alternatif, kamu dapat menggunakan Lupa sebagai pengganti Chisa.",
+    "note": "Denia memberikan 60% Fusion Burst Amplify setelah melancarkan Outro Skill miliknya dan memenuhi Inherent Skill milik Aemeath: Between the Stars. Ia juga memberikan buff tambahan.\n\nDalam mode Fusion Burst, Denia memberikan buff berikut kepada rekan timnya:\n> Bonus 30% Fusion DMG saat berada dalam status [Entropy Shift]\n> Bonus 37% Fusion DMG dari set bonus Chromatic Foam (12% berasal dari R: Denia)\n> Amplifikasi 60% Fusion Burst DMG selama 30 detik saat melancarkan Outro Skill.\n\nDalam mode Tune Strain, Denia memberikan buff berikut kepada rekan timnya:\n> Boost 10 Tune Break (total 50 bersama Mornye)\n> Boost 20 Tune Break dari set bonus Reel of Spliced Memories (12% ATK dari Voidwing Moth)\n> Amplifikasi 15% All-Type DMG selama 16 detik (atau 40% untuk unit Strain) saat melancarkan Outro Skill.\n> Dengan Forged Dawn Star (signature weapon Denia): Peningkatan 24% ATK selama 15 detik saat Resonator dalam tim memberikan efek FB atau Tune Strain - Shifting.",
     "characterId": 1210
+  },
+  {
+    "id": "glacio-chafe",
+    "name": "Glacio Chafe",
+    "members": [
+      [
+        "Hiyuki"
+      ],
+      [
+        "Lucilla"
+      ],
+      [
+        "Chisa",
+        "Mornye"
+      ]
+    ],
+    "note": "Lucilla memberikan amplifikasi 60% Glacio Chafe DMG kepada Hiyuki saat melancarkan Outro Skill-nya. Karena ia mampu memberikan efek Glacio Chafe secara mandiri, ia dapat memenuhi stack(s) terakhir dari Inherent Skill: Fine Snow milik Hiyuki, yang memberikan amplifikasi tambahan 30% Glacio Bite DMG.\n\nDalam mode Glacio Chafe, Lucilla memberikan buff berikut kepada rekan timnya:\n> Penurunan 8% Glacio RES\n> Bonus 37% Glacio DMG dari Wishes of Quiet Snowfall set bonus (12% berasal dari Glammth)\n> Amplifikasi 60% Glacio Chafe DMG selama 30 detik saat melancarkan Outro Skill.\n\nDalam mode Echo, Lucilla memberikan buff berikut kepada rekan timnya:\n> Peningkatan 25% Echo Skill DMG selama 30 detik\n> Bonus 40% Crit. DMG pada 4 stacks [Zoom], yang hanya berlaku untuk Resonator aktif\n> Amplifikasi 50% Echo Skill DMG selama 14 detik saat melancarkan Outro Skill.\n> Dengan Freeze-Frame (signature weapon Lucilla): Peningkatan 24% ATK selama 30 detik saat memberikan efek Glacio Chafe.",
+    "characterId": 1108
+  },
+  {
+    "id": "hack-alternatif",
+    "name": "Hack Alternatif",
+    "members": [
+      [
+        "Rebecca"
+      ],
+      [
+        "Sanhua"
+      ],
+      [
+        "Shorekeeper",
+        "Mornye"
+      ]
+    ],
+    "note": "sanhua buff 38% basic attack selama 14 detik (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali).",
+    "characterId": 1308
+  },
+  {
+    "id": "hack-premium",
+    "name": "Hack Premium",
+    "members": [
+      [
+        "Rebecca"
+      ],
+      [
+        "Lucy"
+      ],
+      [
+        "Mornye",
+        "Shorekeeper"
+      ]
+    ],
+    "note": "Disarankan untuk menggunakan Moonlit Clouds pada Rebecca karena menghasilkan team DPS yang lebih besar, terutama jika Lucy milikmu memiliki investasi yang lebih tinggi.\n\nrebecca buff 35% Heavy DMG dan 20% ATK saat melancarkan Resonance Liberation [Party 'Til Dawn!]\n",
+    "characterId": 1308
+  },
+  {
+    "id": "hiyuki-alternatif",
+    "name": "Hiyuki Alternatif",
+    "members": [
+      [
+        "hiyuki"
+      ],
+      [
+        "Zhezhi",
+        "Lynae"
+      ],
+      [
+        "Chisa"
+      ]
+    ],
+    "note": "Karena Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya beserta buff kuat lainnya, ia tetap menjadi alternatif yang kuat untuk Lucilla.\nNamun, Hiyuki tidak akan dapat memberikan stack(s) terakhir dari Snow Rust sehingga tidak mampu meningkatkan Glacio Bite DMG sebesar 30%.\n\n> Lynae memberikan buff berikut untuk rekan timnya:\n> Amplifikasi 15% ALL-DMG & 25% Resonance Liberation selama 14 detik saat melancarkan Outro Skill - Bonus 24% All-DMG selama 30 detik saat melancarkan Resonance Liberation [Prismatic Overblast]\n> Bonus 30% ATK dari set bonus Pact of Neonlight Leap\n> Bonus 10% All-Attribute DMG selama 15 detik dari Hyvatia\n> Boost 40 Tune Break dari Forte Circuit miliknya\n> Dengan Spectrum Blaster (signature weapon Lynae): Semua All-DMG yang ditimbulkan meningkat sebesar 24% selama 30 detik saat memberikan efek [Tune Rupture atau Strain - Shifting] selama bassic attacknya.\n\nZhezhi memberikan buff berikut kepada rekan timnya:\n> Memulihkan 15 Resonance Energy saat melancarkan Outro Skill\n> Amplifikasi 20% Glacio DMG dan 25% Resonance Skill DMG selama 14 detik saat melancarkan Outro Skill.",
+    "characterId": 1108
   },
   {
     "id": "aero-rover-hypercarry",
@@ -109,57 +315,6 @@
     ],
     "note": "Ciaccona memberikan Aero Erosion Amplify kepada Cartethyia saat mengeluarkan Outro Skill. Selain itu, clone milik Ciaccona memberikan Aero DMG Amplify. Ia juga memberikan tambahan stack Aero Erosion.",
     "characterId": 1409
-  },
-  {
-    "id": "aero-rover-hypercarry-alt",
-    "name": "Hypercarry ALT",
-    "members": [
-      [
-        "Cartethyia"
-      ],
-      [
-        "Aero Rover"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Alternatif lainnya, Shorekeeper dapat digunakan untuk meningkatkan Crit. Rate atau DMG Cartethyia. Namun, Cartethyia tidak akan mendapatkan keuntungan dari set bonus Rejuvenating Glow.",
-    "characterId": 1409
-  },
-  {
-    "id": "aero-rover-hypercarry-f2p",
-    "name": "Hypercarry F2P",
-    "members": [
-      [
-        "Cartethyia"
-      ],
-      [
-        "Sanhua"
-      ],
-      [
-        "Aero Rover"
-      ]
-    ],
-    "note": "Sebagai alternatif pilihan budget, Sanhua bisa digunakan karena mayoritas damage Cartethyia dianggap sebagai Basic ATK DMG. Sanhua memberikan amplify untuk tipe damage tersebut melalui Outro Skill miliknya.",
-    "characterId": 1409
-  },
-  {
-    "id": "aero-rover-hypercarry-iuno",
-    "name": "Hypercarry Iuno",
-    "members": [
-      [
-        "Iuno"
-      ],
-      [
-        "Ciaccona"
-      ],
-      [
-        "Aero Rover"
-      ]
-    ],
-    "note": "Jika menggunakan Rejuvenating Glow dalam tim Cartethyia, gunakan Bell karena Cartethyia tidak memiliki penskalaan dengan ATK.",
-    "characterId": 1410
   },
   {
     "id": "augusta-hypercarry",
@@ -181,75 +336,6 @@
     "characterId": 1306
   },
   {
-    "id": "augusta-dual-dps",
-    "name": "Dual DPS",
-    "members": [
-      [
-        "Augusta"
-      ],
-      [
-        "Xiangli Yao",
-        "Phrolova"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "",
-    "characterId": 1306
-  },
-  {
-    "id": "baizhi-support",
-    "name": "Support",
-    "members": [
-      [],
-      [],
-      [
-        "Baizhi"
-      ]
-    ],
-    "note": "buff baizhi bermanfaat bagi DPS mana pun karena ia memberikan all-type DMG Amplify, dan di dijamin akan muncul dalam pull pertama Standard Character Convene kamu."
-  },
-  {
-    "id": "brant-mono-fusion",
-    "name": "Mono Fusion",
-    "members": [
-      [
-        "Galbrena",
-        "Changli",
-        "Mornye"
-      ],
-      [
-        "Brant"
-      ],
-      [
-        "Lupa",
-        "Shorekeeper"
-      ]
-    ],
-    "note": "- Lupa memberikan buff kepada Brant (Fusion & Basic), Brant memberikan buff kepada Changli (Fusion & Res. Skill), dan Changli memberikan buff kepada Lupa (Fusion & Res. Liberation). Lupa juga memberikan 6% ATK per unit Fusion (maksimal 18%) serta memberikan Fusion DMG Bonus ke seluruh tim jika Wildfire Mark digunakan.\n\n- Changli juga bisa diganti dengan Galbrena atau Mornye.",
-    "characterId": 1208
-  },
-  {
-    "id": "brant-alternatif",
-    "name": "Alternatif",
-    "members": [
-      [
-        "Brant"
-      ],
-      [
-        "Sanhua",
-        "Roccia"
-      ],
-      [
-        "Shorekeeper",
-        "Verina"
-      ]
-    ],
-    "note": "Sanhua dan Roccia bisa menjadi opsi rekan setim hypercarry untuk Brant karena keduanya memberikan Basic ATK Amplify.\nS6 Sanhua > S0 Roccia (Sanhua memiliki tambahan buff ATK untuk semua rekan tim pada S6).",
-    "characterId": 1206
-  },
-  {
     "id": "buling-hypercarry",
     "name": "Hypercarry",
     "members": [
@@ -269,61 +355,6 @@
     "characterId": 1107
   },
   {
-    "id": "calcharo-calc-tune",
-    "name": "Calc-Tune",
-    "members": [
-      [
-        "Calcharo"
-      ],
-      [
-        "Lynae"
-      ],
-      [
-        "Mornye"
-      ]
-    ],
-    "note": "Lynae buff 115 all type damage dan 25% resonance liberation damage",
-    "characterId": 1301
-  },
-  {
-    "id": "calcharo-calc-hypercarry",
-    "name": "Calc-Hypercarry",
-    "members": [
-      [
-        "Calcharo"
-      ],
-      [
-        "Lynae",
-        "Yinlin",
-        "Sanhua"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Yinlin atau Sanhua adalah pilihan Sub DPS yang sangat baik untuk Calcharo, karena mereka butuh minimal field time sambil memberi buff yang secara signifikan meningkatkan performanya. ",
-    "characterId": 1301
-  },
-  {
-    "id": "calcharo-calc-qs",
-    "name": "Calc-QS",
-    "members": [
-      [
-        "Calcharo"
-      ],
-      [
-        "Xiangli Yao",
-        "Carlotta",
-        "Changli"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Animasi attack & skill Changli dan Xiangli Yao dapat dilakukan swap cancelled, memungkinkan Changli dan Xiangli Yao untuk memberikan damage secara efisien di antara Death Messengers milik Calcharo.",
-    "characterId": 1301
-  },
-  {
     "id": "camellya-hypercarry",
     "name": "Hypercarry",
     "members": [
@@ -339,78 +370,6 @@
     ],
     "note": "",
     "characterId": 1603
-  },
-  {
-    "id": "camellya-f2p",
-    "name": "F2P",
-    "members": [
-      [
-        "Camellya"
-      ],
-      [
-        "Sanhua",
-        "Danjin"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "",
-    "characterId": 1603
-  },
-  {
-    "id": "cantarella-lova-hypercaryy",
-    "name": "Lova Hypercaryy",
-    "members": [
-      [
-        "Phrolova"
-      ],
-      [
-        "Qiuyuan",
-        "Roccia"
-      ],
-      [
-        "Cantarella",
-        "Shorekeeper"
-      ]
-    ],
-    "note": "- kamu juga dapat mengganti Roccia dengan Qiuyuan, yang memberikan tambahan penggunaan Echo Skill dan buff Law of Harmony sonata set untuk Phrolova.",
-    "characterId": 1608
-  },
-  {
-    "id": "cantarella-core",
-    "name": "Core",
-    "members": [
-      [
-        "Phrolova"
-      ],
-      [
-        "Cantarella"
-      ],
-      [
-        "Roccia",
-        "Shorekeeper"
-      ]
-    ],
-    "note": "- Cantarella buff Phrolova (Havoc & Res. Skill).\n- Roccia buff Phrolova (Havoc & Heavy)\n- Roccia meningkatkan Cantarella (Havoc & Basic)\n- Bisa juga memasangkan Cantarella dengan Camellya atau Rover: Havoc karena ia memberikan Res. Skill dan Havoc DMG Amplify kepada mereka.\n- Penting untuk dicatat bahwa Res. Skill DMG Amplify memberikan sedikit atau bahkan tidak ada pengaruh bagi Camellya karena ia utamanya berskala berdasarkan Basic%.",
-    "characterId": 1608
-  },
-  {
-    "id": "carlotta-break",
-    "name": "Break",
-    "members": [
-      [
-        "Carlotta"
-      ],
-      [
-        "Lynae"
-      ],
-      [
-        "Mornye"
-      ]
-    ],
-    "note": "",
-    "characterId": 1107
   },
   {
     "id": "carlotta-hypercarry",
@@ -433,362 +392,6 @@
     "characterId": 1107
   },
   {
-    "id": "carlotta-quickswap",
-    "name": "Quickswap",
-    "members": [
-      [
-        "Carlotta"
-      ],
-      [
-        "Brant",
-        "Xiangli Yao",
-        "Changli"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "",
-    "characterId": 1107
-  },
-  {
-    "id": "cartethyia-carte-hypercarry",
-    "name": "Carte Hypercarry",
-    "members": [
-      [
-        "Cartethyia"
-      ],
-      [
-        "Ciaccona"
-      ],
-      [
-        "Chisa",
-        "Aero Rover",
-        "Suisui"
-      ]
-    ],
-    "note": "Ciaccona memberikan Aero Erosion Amplify kepada Cartethyia saat Outro Skill. Selain itu, clone milik Ciaccona memberikan Aero DMG Amplify serta tambahan stack Aero Erosion.",
-    "characterId": 1409
-  },
-  {
-    "id": "cartethyia-carte-hc-alternatif",
-    "name": "Carte HC Alternatif",
-    "members": [
-      [
-        "Cartethyia"
-      ],
-      [
-        "Sanhua"
-      ],
-      [
-        "Chisa",
-        "Shorekeeper",
-        "Suisui"
-      ]
-    ],
-    "note": "Sebagai opsi budget, Sanhua bisa digunakan karena mayoritas damage Cartethyia dianggap sebagai Basic ATK DMG; Sanhua memberikan amplify untuk tipe damage tersebut melalui Outro Skill miliknya.",
-    "characterId": 1409
-  },
-  {
-    "id": "cartethyia-erosion-team",
-    "name": "Erosion Team",
-    "members": [
-      [
-        "Cartethyia"
-      ],
-      [
-        "Aero Rover"
-      ],
-      [
-        "Chisa",
-        "Shorekeeper",
-        "Suisui"
-      ]
-    ],
-    "note": "Rover: Aero atau Chisa dapat meningkatkan batas maksimum stack Aero Erosion pada musuh, sekaligus memberikan damage tambahan masing-masing melalui Bloodpact's Pledge (Rover: Aero) atau DEF shred dari Havoc Bane (Chisa).",
-    "characterId": 1409
-  },
-  {
-    "id": "changli-mono-fusion",
-    "name": "Mono Fusion",
-    "members": [
-      [
-        "Changli"
-      ],
-      [
-        "Brant",
-        "Lupa"
-      ],
-      [
-        "Lupa",
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Lupa memperkuat Brant (Fusion & Basic), Brant memperkuat Changli (Fusion & Res. Skill), dan Changli memperkuat Lupa (Fusion & Res. Liberation). ",
-    "characterId": 1205
-  },
-  {
-    "id": "changli-quickswap",
-    "name": "Quickswap",
-    "members": [
-      [
-        "Changli"
-      ],
-      [
-        "Brant",
-        "Xiangli Yao",
-        "Jinhsi"
-      ],
-      [
-        "Lupa",
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Lupa juga memberikan 6% ATK untuk setiap unit Fusion (maks. 18%) serta memberikan bonus Fusion DMG ke seluruh tim jika Wildfire Mark digunakan.",
-    "characterId": 1205
-  },
-  {
-    "id": "chixia-mono-fushion",
-    "name": "Mono Fushion",
-    "members": [
-      [
-        "Chixia"
-      ],
-      [
-        "Changli",
-        "Brant"
-      ],
-      [
-        "Lupa"
-      ]
-    ],
-    "note": "Brant memberikan Fusion DMG & Res. Skill DMG Amplify untuk Chixia, menjadikannya salah satu pasangan terbaik bagi Chixia.\nAlternatifnya, Changli memberikan Fusion DMG & Res. Liberation DMG Amplify untuk Chixia.",
-    "characterId": 1202
-  },
-  {
-    "id": "chixia-chixia-hypercarry",
-    "name": "Chixia Hypercarry",
-    "members": [
-      [
-        "Chixia"
-      ],
-      [
-        "Cantarella",
-        "Zhezhi",
-        "Taoqi"
-      ],
-      [
-        "Shorekeeper",
-        "Verina"
-      ]
-    ],
-    "note": "Jika Brant atau Changli tidak tersedia, Res. Skill Amplifier lain seperti Cantarella atau Zhezhi bisa menjadi pilihan. Taoqi juga merupakan opsi meskipun rotasinya jauh lebih lambat.",
-    "characterId": 1202
-  },
-  {
-    "id": "ciaccona-cartethyia-hypercarry",
-    "name": "Cartethyia Hypercarry",
-    "members": [
-      [
-        "Cartethyia"
-      ],
-      [
-        "Ciaccona"
-      ],
-      [
-        "Chisa",
-        "Aero Rover",
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Ciaccona memberikan Aero Erosion Amplify kepada Cartethyia saat mengeluarkan Outro Skill. Selain itu, clone milik Ciaccona memberikan Aero DMG Amplify. Ia juga memberikan tambahan stack Aero Erosion.",
-    "characterId": 1409
-  },
-  {
-    "id": "ciaccona-iuno-hypercarry",
-    "name": "iuno Hypercarry",
-    "members": [
-      [
-        "Iuno",
-        "Jiyan"
-      ],
-      [
-        "Ciaccona"
-      ],
-      [
-        "Shorekeeper",
-        "Aero Rover"
-      ]
-    ],
-    "note": "Ciaccona memberikan Iuno 24% Aero DMG Bonus dari [Ensemble Sylphs] miliknya, ditambah 15% Aero DMG dari set Gusts of Welkin. Selain itu, saat Ciaccona menggunakan signature weapon miliknya, ia menurunkan Aero RES musuh sebesar 10%.",
-    "characterId": 1410
-  },
-  {
-    "id": "danjin-mono-havoc",
-    "name": "Mono Havoc",
-    "members": [
-      [
-        "Havoc Rover",
-        "Camellya"
-      ],
-      [
-        "Danjin"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "",
-    "characterId": 1605
-  },
-  {
-    "id": "denia-fusion-burst",
-    "name": "Fusion Burst",
-    "members": [
-      [
-        "Aemeath"
-      ],
-      [
-        "Denia"
-      ],
-      [
-        "Chisa"
-      ]
-    ],
-    "note": "- Denia memberikan 60% Fusion Burst Amplify setelah melancarkan Outro Skill miliknya dan memenuhi Inherent Skill Aemeath: Between the Stars. Ia juga memberikan buff tambahan (tercantum dalam Notes & Insights2).\n- Sebagai alternatif, Kamu dapat menggunakan Lupa untuk menggantikan Chisa.",
-    "characterId": 1210
-  },
-  {
-    "id": "denia-tune-strain",
-    "name": "Tune Strain",
-    "members": [
-      [
-        "Aemeath"
-      ],
-      [
-        "Denia"
-      ],
-      [
-        "Lupa"
-      ]
-    ],
-    "note": "",
-    "characterId": 1210
-  },
-  {
-    "id": "denia-alternative",
-    "name": "Alternative",
-    "members": [
-      [
-        "Luuk Herssen"
-      ],
-      [
-        "Denia"
-      ],
-      [
-        "Lupa"
-      ]
-    ],
-    "note": "Sinergi Tune Strain yang kuat dan kemampuan untuk memaksimalkan Inherent Skill Luuk: Uncaused Diagnosis. Ia dapat memberikan 50 Tune Break Boost selama Mornye berada dalam tim bersama dengan buff tambahan (tercantum dalam Notes & Insights3).",
-    "characterId": 1510
-  },
-  {
-    "id": "encore-hyoercary",
-    "name": "Hyoercary",
-    "members": [
-      [
-        "Encore"
-      ],
-      [
-        "Sanhua",
-        "Roccia",
-        "Yangyang"
-      ],
-      [
-        "Lupa",
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Sanhua memberikan 38% Basic DMG Amplify untuk Encore. Sebagai alternatif, Roccia bisa digunakan.",
-    "characterId": 1203
-  },
-  {
-    "id": "encore-quickswap",
-    "name": "Quickswap",
-    "members": [
-      [
-        "Encore"
-      ],
-      [
-        "Xiangli Yao",
-        "Havoc Rover",
-        "Jinhsi"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "",
-    "characterId": 1203
-  },
-  {
-    "id": "encore-qs-alternatif",
-    "name": "QS Alternatif",
-    "members": [
-      [
-        "Encore"
-      ],
-      [
-        "Changli",
-        "Carlotta",
-        "Brant"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "",
-    "characterId": 1203
-  },
-  {
-    "id": "galbrena-galbrena-hypercarry",
-    "name": "Galbrena Hypercarry",
-    "members": [
-      [
-        "Galbrena"
-      ],
-      [
-        "Qiuyuan",
-        "Lucilla"
-      ],
-      [
-        "Lupa",
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Qiuyuan dan Lucilla memberikan Galbrena 50% Echo Skill DMG Amplify selama 14 detik",
-    "characterId": 1208
-  },
-  {
-    "id": "galbrena-alternatif-hypercarry",
-    "name": "Alternatif Hypercarry",
-    "members": [
-      [
-        "Galbrena"
-      ],
-      [
-        "Lupa",
-        "Mortefi",
-        "Brant"
-      ],
-      [
-        "Mornye"
-      ]
-    ],
-    "note": "- Meskipun Galbrena tidak mendapatkan keuntungan dari Liberation & Basic DMG Amplify milik Lupa atau Brant, mereka tetap dapat memberikan Fusion DMG sebagai tim Mono-Fusion. \n- Jika Brant tidak tersedia, Mortefi dapat digunakan untuk Heavy DMG Amp atau Shorekeeper sebagai gantinya untuk tim hypercarry.\n- Mornye tetap menjadi pengganti terbaik.",
-    "characterId": 1208
-  },
-  {
     "id": "havoc-rover-hypercarry",
     "name": "Hypercarry",
     "members": [
@@ -800,23 +403,6 @@
         "Danjin",
         "Roccia",
         "Cantarella"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "",
-    "characterId": 1605
-  },
-  {
-    "id": "havoc-rover-quickswap",
-    "name": "Quickswap",
-    "members": [
-      [
-        "Havoc Rover"
-      ],
-      [
-        "Changli"
       ],
       [
         "Shorekeeper"
@@ -844,132 +430,6 @@
     "characterId": 1108
   },
   {
-    "id": "hiyuki-hc-alternatif",
-    "name": "HC Alternatif",
-    "members": [
-      [
-        "hiyuki"
-      ],
-      [
-        "Zhezhi"
-      ],
-      [
-        "Chisa"
-      ]
-    ],
-    "note": "- Karena Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya beserta buff kuat lainnya, ia tetap menjadi alternatif yang kuat untuk Lucilla.\nNamun, Hiyuki tidak akan dapat memberikan stack(s) terakhir dari Snow Rust sehingga tidak mampu meningkatkan Glacio Bite DMG sebesar 30%.",
-    "characterId": 1108
-  },
-  {
-    "id": "iuno-augusta-hypercarry",
-    "name": "augusta hypercarry",
-    "members": [
-      [
-        "Augusta"
-      ],
-      [
-        "Iuno"
-      ],
-      [
-        "Shorekeeper",
-        "Lynae"
-      ]
-    ],
-    "note": "Iuno memberikan 50% Heavy DMG Amplify kepada Augusta atau Jiyan saat mengeluarkan Outro Skill. Selain itu, Augusta mendapatkan keuntungan dari Iuno's Blessing of the Wan Light yang memberikan 4% All-DMG Amplify selama 10 detik, dapat di stack(s) hingga 10 kali.",
-    "characterId": 1306
-  },
-  {
-    "id": "iuno-mono-aero",
-    "name": "Mono Aero",
-    "members": [
-      [
-        "Jiyan"
-      ],
-      [
-        "Iuno"
-      ],
-      [
-        "Ciaccona"
-      ]
-    ],
-    "note": "Ciaccona memberikan Iuno 24% Aero DMG Bonus dari Ensemble Sylphs miliknya, ditambah 15% Aero DMG dari set Gusts of Welkin. Selain itu, saat Ciaccona menggunakan senjata signature-nya, ia menurunkan Aero RES musuh sebesar 10%.",
-    "characterId": 1404
-  },
-  {
-    "id": "iuno-team",
-    "name": "Iuno Team",
-    "members": [
-      [
-        "Iuno"
-      ],
-      [
-        "Lynae",
-        "Ciaccona",
-        "Jianxin",
-        "Sanhua",
-        "Yinlin"
-      ],
-      []
-    ],
-    "note": "Untuk opsi tim Main DPS Iuno, ia dapat memilih Lynae, Ciaccona, Jianxin (S2), Sanhua, atau Yinlin. Pilihan ini memerlukan Signature miliknya (Moongazer's Sigil) atau Signature Xiangli Yao (Verity's Handle). Lynae, Jianxin, dan Yinlin memberikan buff pada Liberation DMG Iuno.",
-    "characterId": 1410
-  },
-  {
-    "id": "jianxin-mono-aero",
-    "name": "Mono Aero",
-    "members": [
-      [
-        "Iuno"
-      ],
-      [
-        "Ciaccona"
-      ],
-      [
-        "Jianxin"
-      ]
-    ],
-    "note": "",
-    "characterId": 1410
-  },
-  {
-    "id": "jianxin-jinhsi-hypercarry",
-    "name": "Jinhsi Hypercarry",
-    "members": [
-      [
-        "Jinhsi"
-      ],
-      [
-        "Mortefi"
-      ],
-      [
-        "Jianxin"
-      ]
-    ],
-    "note": "",
-    "characterId": 1304
-  },
-  {
-    "id": "jianxin-buff-liberation",
-    "name": "Buff Liberation",
-    "members": [
-      [
-        "Xiangli Yao",
-        "Calcharo",
-        "Iuno"
-      ],
-      [
-        "Jianxin",
-        "Jianxin"
-      ],
-      [
-        "Shorekeeper",
-        "Verina"
-      ]
-    ],
-    "note": "",
-    "characterId": 1305
-  },
-  {
     "id": "jinhsi-hypercarry",
     "name": "Hypercarry",
     "members": [
@@ -989,258 +449,6 @@
     ],
     "note": "",
     "characterId": 1304
-  },
-  {
-    "id": "jinhsi-quickswap-",
-    "name": "Quickswap ",
-    "members": [
-      [
-        "Jinhsi"
-      ],
-      [
-        "Brant",
-        "Changli",
-        "Xiangli Yao"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "",
-    "characterId": 1304
-  },
-  {
-    "id": "jiyan-mono-aero",
-    "name": "Mono Aero",
-    "members": [
-      [
-        "Jiyan"
-      ],
-      [
-        "Iuno"
-      ],
-      [
-        "Ciaccona"
-      ]
-    ],
-    "note": "- Iuno memberikan 50% Heavy DMG Amplify kepada Jiyan saat mengeluarkan Outro Skill.\n- Ciaccona memberikan Jiyan 24% Aero DMG Bonus dari Ensemble Sylphs miliknya, ditambah 15% Aero DMG dari set Gusts of Welkin. Selain itu, saat Ciaccona menggunakan senjata signature-nya, ia menurunkan Aero RES musuh sebesar 10%. Ketika dipasangkan bersama, Jiyan sebaiknya menggunakan set Windward Pilgrimage.",
-    "characterId": 1404
-  },
-  {
-    "id": "jiyan-f2p-options",
-    "name": "F2P Options",
-    "members": [
-      [
-        "Jiyan"
-      ],
-      [
-        "Mortefi"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Sebagai alternatif, Mortefi memberikan Jiyan 38% Heavy DMG Amplify melalui Outro Skill miliknya.",
-    "characterId": 1404
-  },
-  {
-    "id": "lingyang-lingyang-hypercarry",
-    "name": "Lingyang Hypercarry",
-    "members": [
-      [
-        "Lingyang"
-      ],
-      [
-        "Sanhua",
-        "Zhezhi"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "",
-    "characterId": 1104
-  },
-  {
-    "id": "lucilla-chafe-premium",
-    "name": "Chafe Premium",
-    "members": [
-      [
-        "Hiyuki"
-      ],
-      [
-        "Lucilla"
-      ],
-      [
-        "Chisa",
-        "Mornye"
-      ]
-    ],
-    "note": "Lucilla memberikan Hiyuki 60% Glacio Chafe DMG Amplify setelah melancarkan Outro Skill miliknya. Karena ia mampu memberikan Glacio Chafe sendirian, ia dapat memenuhi stack(s) terakhir dari Inherent Skill Hiyuki: Fine Snow, yang memberikan tambahan 30% Glacio Bite DMG Amplify.",
-    "characterId": 1108
-  },
-  {
-    "id": "lucilla-chafe-alt",
-    "name": "Chafe Alt",
-    "members": [
-      [
-        "Carlotta"
-      ],
-      [
-        "Lucilla"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "",
-    "characterId": 1107
-  },
-  {
-    "id": "lucilla-double-echo",
-    "name": "Double Echo",
-    "members": [
-      [
-        "Sigrika",
-        "Galbrena",
-        "Phrolova"
-      ],
-      [
-        "Lucilla"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "- Lucilla sebagai opsi alternatif menggantikan Qiuyuan untuk Sigrika, Galbrena, dan Phrolova, memberikan 50% Echo Skill Amplify setelah melancarkan Outro Skill dan 4 kali penggunaan Echo Skill\n\n- Saat dipasangkan dengan Phrolova, kamu dapat menggunakan Dream of the Lost & 2-pc Reels untuk melengkapi Voidwing Moth di slot utama. Selain itu, Moonlit Clouds juga merupakan opsi yang layak.",
-    "characterId": 1412
-  },
-  {
-    "id": "lucy-hack-premium",
-    "name": "HACK PREMIUM",
-    "members": [
-      [
-        "Lucy"
-      ],
-      [
-        "Rebecca"
-      ],
-      [
-        "Mornye"
-      ]
-    ],
-    "note": "",
-    "characterId": 1511
-  },
-  {
-    "id": "lumi-hypercarry---lotta",
-    "name": "Hypercarry - Lotta",
-    "members": [
-      [
-        "Carlotta"
-      ],
-      [
-        "Lumi"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Lumi memberikan Carlotta 38% Res. Skill Amplify selama 10 detik setelah ia melancarkan Outro Skill miliknya. Ia merupakan pilihan rekan tim \"budget\" yang layak jika tidak punya Zhezhi",
-    "characterId": 1107
-  },
-  {
-    "id": "lupa-galbrena-hypercarry",
-    "name": "Galbrena Hypercarry",
-    "members": [
-      [
-        "Galbrena"
-      ],
-      [
-        "Qiuyuan",
-        "Mortefi",
-        "Brant"
-      ],
-      [
-        "Lupa"
-      ]
-    ],
-    "note": "lupa di slot 3 (support)",
-    "characterId": 1208
-  },
-  {
-    "id": "lupa-qs",
-    "name": "QS",
-    "members": [
-      [
-        "Lupa"
-      ],
-      [
-        "Brant"
-      ],
-      [
-        "Changli"
-      ]
-    ],
-    "note": "- Lupa meningkatkan Brant (Fusion & Basic), \n- Brant meningkatkan Changli (Fusion & Res. Skill), Changli meningkatkan Lupa (Fusion & Res. Liberation). \n- Lupa juga memberikan 6% ATK per unit Fusion (maksimal 18%) dan memberikan teamwide Fusion DMG Bonus jika Wildfire Mark terpasang.",
-    "characterId": 1207
-  },
-  {
-    "id": "lupa-mono-fusion",
-    "name": "Mono Fusion",
-    "members": [
-      [
-        "Brant",
-        "Encore",
-        "Aemeath",
-        "Galbrena"
-      ],
-      [
-        "Lupa"
-      ],
-      [
-        "Mornye"
-      ]
-    ],
-    "note": "- Dengan Mornye sebagai slot ketiga, kamu dapat mengganti Brant dengan Galbrena atau Aemeath.\n- Lupa memberikan Encore Fusion & Basic ATK DMG Amplify, selain itu, Encore adalah Fusion Resonator, yang meningkatkan Buff ATK% yang dapat diberikan oleh Lupa. Ia juga dapat menerima manfaat dari buff yang diberikan oleh Wildfire Mark.",
-    "characterId": 1206
-  },
-  {
-    "id": "luuk-herssen-tune-team",
-    "name": "Tune-Team",
-    "members": [
-      [
-        "Luuk Herssen"
-      ],
-      [
-        "Lynae",
-        "Denia"
-      ],
-      [
-        "Mornye",
-        "Shorekeeper"
-      ]
-    ],
-    "note": "- Karena Lynae dan Denia dapat menanggapi Tune Strain, batas stack maksimal meningkat sebanyak 1. \n- Meskipun Luuk tidak dapat menerima manfaat dari Res. Lib Amp miliknya, Lynae tetap memberikan buff kuat lainnya dan Tune Break Boost yang meningkatkan damage miliknya sebesar 25% dari Inherent Skill miliknya: Uncaused Diagnosis. Ia saat ini tidak mampu mencapai batas 30% tersebut.",
-    "characterId": 1510
-  },
-  {
-    "id": "luuk-herssen-alt",
-    "name": "Alt",
-    "members": [
-      [
-        "Luuk Herssen"
-      ],
-      [
-        "Sanhua"
-      ],
-      [
-        "Shorekeeper",
-        "Verina"
-      ]
-    ],
-    "note": "Sanhua memberikan 38% Basic ATK Amplify setelah melancarkan Outro Skill miliknya, namun setting team F2P ini merupakan kerugian besar dibandingkan dengan menggunakan Lynae.",
-    "characterId": 1510
   },
   {
     "id": "lynae-hypercarry",
@@ -1263,170 +471,77 @@
     "characterId": 1210
   },
   {
-    "id": "lynae-hypercary-new",
-    "name": "Hypercary New",
+    "id": "yinlin-hypercarry",
+    "name": "Hypercarry",
     "members": [
       [
-        "Luuk Herssen"
-      ],
-      [
-        "Lynae"
-      ],
-      [
-        "Mornye"
-      ]
-    ],
-    "note": "Lynae dan Mornye memiliki Tune Break synergy yang kuat, masing-masing meningkatkan batas stack maksimal sebanyak 1. Di samping buff lainnya, ia juga memberikan Tune Break Boost yang memberikan sebagian DMG Amp (25%) dari Inherent Skill milik Luuk: Uncaused Diagnosis.\nDalam tim ini, kamu pakai dia di mode Strain.",
-    "characterId": 1510
-  },
-  {
-    "id": "lynae-hypercarry-alt",
-    "name": "Hypercarry ALT",
-    "members": [
-      [
-        "Augusta",
         "Xiangli Yao",
-        "Calcharo"
-      ],
-      [
-        "Iuno"
-      ],
-      [
-        "Lynae"
-      ]
-    ],
-    "note": "Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya kepada Iuno, Xiangli Yao, Calcharo, atau Resonator mana pun yang berskala pada Res. Liberation.",
-    "characterId": 1306
-  },
-  {
-    "id": "mornye-tune-break",
-    "name": "Tune-Break",
-    "members": [
-      [
-        "Aemeath",
-        "Luuk Herssen"
-      ],
-      [
-        "Lynae"
-      ],
-      [
-        "Mornye"
-      ]
-    ],
-    "note": "Mornye paling efektif dalam tim yang berfokus pada Tune. Ia memberikan All-type DMG Amplify sebagai Outro Skill miliknya bersama dengan buff terkait Tune lainnya (tercantum dalam Notes & Insights\").\nIa menjadi support universal lainnya untuk tim lain, setara atau menjadi pilihan alternatif bagi Shorekeeper.\n\nSaat dipasangkan dengan Lynae dan Mornye, Resonator dengan scaling Res. Liberation seperti Iuno, Xiangli Yao, dan Calcharo dapat memperoleh manfaat dari sinergi Tune Break mereka.\n",
-    "characterId": 1210
-  },
-  {
-    "id": "mornye-mono-fusion",
-    "name": "Mono Fusion",
-    "members": [
-      [
-        "Aemeath",
-        "Galbrena",
-        "Brant"
-      ],
-      [
-        "Lupa"
-      ],
-      [
-        "Mornye"
-      ]
-    ],
-    "note": "kamu juga dapat mengganti Galbrena dengan Aemeath atau Brant.",
-    "characterId": 1210
-  },
-  {
-    "id": "mornye-team",
-    "name": "Mornye Team",
-    "members": [
-      [
-        "Iuno",
-        "Carlotta",
-        "Augusta",
-        "Xiangli Yao",
-        "Calcharo"
-      ],
-      [
-        "Lynae"
-      ],
-      [
-        "Mornye"
-      ]
-    ],
-    "note": "Meskipun Carlotta tidak dapat menerima manfaat dari Res. Liberation Amplify milik Lynae, ia tetap mendapatkan manfaat dari buff miliknya yang lain.",
-    "characterId": 1410
-  },
-  {
-    "id": "mortefi-agus/jiyan-hypercarry",
-    "name": "Agus/Jiyan Hypercarry",
-    "members": [
-      [
-        "Augusta",
-        "Jiyan"
-      ],
-      [
-        "Mortefi"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "",
-    "characterId": 1306
-  },
-  {
-    "id": "mortefi-jinhsi-blender",
-    "name": "Jinhsi Blender",
-    "members": [
-      [
         "Jinhsi"
       ],
       [
-        "Mortefi"
+        "Yinlin"
       ],
       [
-        "Jianxin"
-      ]
-    ],
-    "note": "",
-    "characterId": 1304
-  },
-  {
-    "id": "mortefi-mono-fusion",
-    "name": "Mono Fusion",
-    "members": [
-      [
-        "Galbrena"
-      ],
-      [
-        "Mortefi"
-      ],
-      [
-        "Shorekeeper",
-        "Lupa"
-      ]
-    ],
-    "note": "",
-    "characterId": 1208
-  },
-  {
-    "id": "phoebe-hypercarry---zani",
-    "name": "Hypercarry - Zani",
-    "members": [
-      [
-        "Zani"
-      ],
-      [
-        "Phoebe"
-      ],
-      [
-        "Chisa",
-        "Spectro Rover",
         "Shorekeeper"
       ]
     ],
-    "note": "Phoebe (Confession1) adalah rekan tim terbaik (best in slot) bagi Zani, memberikan Zani stack Spectro Frazzle, Amplify, dan pengurangan Spectro RES kepada musuh di sekitar.",
-    "characterId": 1507
+    "note": "Yinlin memberikan Xiangli Yao 20% Electro DMG Amplify dan 25% Resonance Liberation DMG Amplify selama 14 detik setelah ia melancarkan Outro Skill miliknya.",
+    "characterId": 1305
+  },
+  {
+    "id": "roccia-hypercarry---alt",
+    "name": "Hypercarry - ALT",
+    "members": [
+      [
+        "Cantarella",
+        "Havoc Rover",
+        "Encore",
+        "Camellya"
+      ],
+      [
+        "Roccia"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "Roccia memberikan Camellya/Canta 20% Havoc DMG Amplify & 25% Basic Attack DMG Amplify selama 14 detik setelah melancarkan Outro Skill miliknya.",
+    "characterId": 1607
+  },
+  {
+    "id": "lumi-hypercarry---lotta",
+    "name": "Hypercarry - Lotta",
+    "members": [
+      [
+        "Carlotta"
+      ],
+      [
+        "Lumi"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "Lumi memberikan Carlotta 38% Res. Skill Amplify selama 10 detik setelah ia melancarkan Outro Skill miliknya. Ia merupakan pilihan rekan tim \"budget\" yang layak jika tidak punya Zhezhi",
+    "characterId": 1107
+  },
+  {
+    "id": "roccia-hypercarry---lova",
+    "name": "Hypercarry - Lova",
+    "members": [
+      [
+        "Phrolova"
+      ],
+      [
+        "Cantarella"
+      ],
+      [
+        "Roccia",
+        "Shorekeeper"
+      ]
+    ],
+    "note": "Phrolova meningkatkan Roccia (Havoc & Heavy), Roccia meningkatkan Cantarella (Havoc & Basic), Cantarella meningkatkan Phrolova (Havoc & Res. Skill).",
+    "characterId": 1608
   },
   {
     "id": "phoebe-hypercarry---pheeb",
@@ -1465,8 +580,665 @@
     "characterId": 1608
   },
   {
+    "id": "phoebe-hypercarry---zani",
+    "name": "Hypercarry - Zani",
+    "members": [
+      [
+        "Zani"
+      ],
+      [
+        "Phoebe"
+      ],
+      [
+        "Chisa",
+        "Spectro Rover",
+        "Shorekeeper"
+      ]
+    ],
+    "note": "Phoebe (Confession1) adalah rekan tim terbaik (best in slot) bagi Zani, memberikan Zani stack Spectro Frazzle, Amplify, dan pengurangan Spectro RES kepada musuh di sekitar.",
+    "characterId": 1507
+  },
+  {
+    "id": "spectro-rover-hypercarry---zani",
+    "name": "Hypercarry - Zani",
+    "members": [
+      [
+        "Zani"
+      ],
+      [
+        "Phoebe"
+      ],
+      [
+        "Spectro Rover"
+      ]
+    ],
+    "note": "",
+    "characterId": 1507
+  },
+  {
+    "id": "zani-hypercarry---zani",
+    "name": "Hypercarry - Zani",
+    "members": [
+      [
+        "Zani"
+      ],
+      [
+        "Phoebe",
+        "Spectro Rover"
+      ],
+      [
+        "Chisa",
+        "Spectro Rover",
+        "Shorekeeper"
+      ]
+    ],
+    "note": "Phoebe (Confession) adalah rekan tim terbaik (best in slot) bagi Zani, memberikan Zani stack(s) Spectro Frazzle, Amplify, dan pengurangan Spectro RES kepada musuh di sekitar.",
+    "characterId": 1507
+  },
+  {
+    "id": "aero-rover-hypercarry-alt",
+    "name": "Hypercarry ALT",
+    "members": [
+      [
+        "Cartethyia"
+      ],
+      [
+        "Aero Rover"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "Alternatif lainnya, Shorekeeper dapat digunakan untuk meningkatkan Crit. Rate atau DMG Cartethyia. Namun, Cartethyia tidak akan mendapatkan keuntungan dari set bonus Rejuvenating Glow.",
+    "characterId": 1409
+  },
+  {
+    "id": "lynae-hypercarry-alt",
+    "name": "Hypercarry ALT",
+    "members": [
+      [
+        "Augusta",
+        "Xiangli Yao",
+        "Calcharo"
+      ],
+      [
+        "Iuno"
+      ],
+      [
+        "Lynae"
+      ]
+    ],
+    "note": "Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya kepada Iuno, Xiangli Yao, Calcharo, atau Resonator mana pun yang berskala pada Res. Liberation.",
+    "characterId": 1306
+  },
+  {
+    "id": "aero-rover-hypercarry-f2p",
+    "name": "Hypercarry F2P",
+    "members": [
+      [
+        "Cartethyia"
+      ],
+      [
+        "Sanhua"
+      ],
+      [
+        "Aero Rover"
+      ]
+    ],
+    "note": "Sebagai alternatif pilihan budget, Sanhua bisa digunakan karena mayoritas damage Cartethyia dianggap sebagai Basic ATK DMG. Sanhua memberikan amplify untuk tipe damage tersebut melalui Outro Skill miliknya.",
+    "characterId": 1409
+  },
+  {
+    "id": "aero-rover-hypercarry-iuno",
+    "name": "Hypercarry Iuno",
+    "members": [
+      [
+        "Iuno"
+      ],
+      [
+        "Ciaccona"
+      ],
+      [
+        "Aero Rover"
+      ]
+    ],
+    "note": "Jika menggunakan Rejuvenating Glow dalam tim Cartethyia, gunakan Bell karena Cartethyia tidak memiliki penskalaan dengan ATK.",
+    "characterId": 1410
+  },
+  {
+    "id": "lynae-hypercary-new",
+    "name": "Hypercary New",
+    "members": [
+      [
+        "Luuk Herssen"
+      ],
+      [
+        "Lynae"
+      ],
+      [
+        "Mornye"
+      ]
+    ],
+    "note": "Lynae dan Mornye memiliki Tune Break synergy yang kuat, masing-masing meningkatkan batas stack maksimal sebanyak 1. Di samping buff lainnya, ia juga memberikan Tune Break Boost yang memberikan sebagian DMG Amp (25%) dari Inherent Skill milik Luuk: Uncaused Diagnosis.\nDalam tim ini, kamu pakai dia di mode Strain.",
+    "characterId": 1510
+  },
+  {
+    "id": "ciaccona-iuno-hypercarry",
+    "name": "iuno Hypercarry",
+    "members": [
+      [
+        "Iuno",
+        "Jiyan"
+      ],
+      [
+        "Ciaccona"
+      ],
+      [
+        "Shorekeeper",
+        "Aero Rover"
+      ]
+    ],
+    "note": "Ciaccona memberikan Iuno 24% Aero DMG Bonus dari [Ensemble Sylphs] miliknya, ditambah 15% Aero DMG dari set Gusts of Welkin. Selain itu, saat Ciaccona menggunakan signature weapon miliknya, ia menurunkan Aero RES musuh sebesar 10%.",
+    "characterId": 1410
+  },
+  {
+    "id": "iuno-team",
+    "name": "Iuno Team",
+    "members": [
+      [
+        "Iuno"
+      ],
+      [
+        "Lynae",
+        "Ciaccona",
+        "Jianxin",
+        "Sanhua",
+        "Yinlin"
+      ],
+      []
+    ],
+    "note": "Untuk opsi tim Main DPS Iuno, ia dapat memilih Lynae, Ciaccona, Jianxin (S2), Sanhua, atau Yinlin. Pilihan ini memerlukan Signature miliknya (Moongazer's Sigil) atau Signature Xiangli Yao (Verity's Handle). Lynae, Jianxin, dan Yinlin memberikan buff pada Liberation DMG Iuno.",
+    "characterId": 1410
+  },
+  {
+    "id": "jianxin-sub-dps",
+    "name": "Jianxin Sub Dps",
+    "members": [
+      [
+        "Xiangli Yao",
+        "Calcharo",
+        "Iuno"
+      ],
+      [
+        "Jianxin"
+      ],
+      [
+        "Shorekeeper",
+        "Verina"
+      ]
+    ],
+    "note": "",
+    "characterId": 1305
+  },
+  {
+    "id": "mortefi-jinhsi-blender",
+    "name": "Jinhsi Blender",
+    "members": [
+      [
+        "Jinhsi"
+      ],
+      [
+        "Mortefi"
+      ],
+      [
+        "Jianxin"
+      ]
+    ],
+    "note": "",
+    "characterId": 1304
+  },
+  {
+    "id": "jianxin-jinhsi-hypercarry",
+    "name": "Jinhsi Hypercarry",
+    "members": [
+      [
+        "Jinhsi"
+      ],
+      [
+        "Mortefi"
+      ],
+      [
+        "Jianxin"
+      ]
+    ],
+    "note": "",
+    "characterId": 1304
+  },
+  {
+    "id": "jiyan-alternatif",
+    "name": "Jiyan Alternatif",
+    "members": [
+      [
+        "Jiyan"
+      ],
+      [
+        "Mortefi"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "mortefi buff 38% heavy attack selama 14 detik (+ s6 nya setelah ulti memberi buff ATK 20% selama 20 detik).",
+    "characterId": 1404
+  },
+  {
+    "id": "aalto-jiyan-hypercarry",
+    "name": "Jiyan Hypercarry",
+    "members": [
+      [
+        "Jiyan"
+      ],
+      [
+        "Aalto"
+      ],
+      [
+        "Shorekeeper",
+        "Verina"
+      ]
+    ],
+    "note": "Aalto memberikan 23% Aero DMG Amplify kepada Jiyan saat mengeluarkan Outro Skill. Gunakan healer pilihan Anda pada slot ke-3.",
+    "characterId": 1404
+  },
+  {
+    "id": "lingyang-lingyang-hypercarry",
+    "name": "Lingyang Hypercarry",
+    "members": [
+      [
+        "Lingyang"
+      ],
+      [
+        "Sanhua",
+        "Zhezhi"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "",
+    "characterId": 1104
+  },
+  {
+    "id": "cantarella-lova-hypercaryy",
+    "name": "Lova Hypercaryy",
+    "members": [
+      [
+        "Phrolova"
+      ],
+      [
+        "Qiuyuan",
+        "Roccia"
+      ],
+      [
+        "Cantarella",
+        "Shorekeeper"
+      ]
+    ],
+    "note": "- kamu juga dapat mengganti Roccia dengan Qiuyuan, yang memberikan tambahan penggunaan Echo Skill dan buff Law of Harmony sonata set untuk Phrolova.",
+    "characterId": 1608
+  },
+  {
+    "id": "luuk-alternatif",
+    "name": "Luuk Alternatif",
+    "members": [
+      [
+        "Luuk Herssen"
+      ],
+      [
+        "Sanhua"
+      ],
+      [
+        "Shorekeeper",
+        "Verina"
+      ]
+    ],
+    "note": "sanhua buff 38% basic attack selama 14 detik (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali).",
+    "characterId": 1510
+  },
+  {
+    "id": "luuk-hypercarry",
+    "name": "Luuk Hypercarry",
+    "members": [
+      [
+        "Luuk Herssen"
+      ],
+      [
+        "Denia",
+        "Lynae"
+      ],
+      [
+        "Lupa",
+        "Mornye"
+      ]
+    ],
+    "note": "Karena Lynae dan Denia dapat merespons Tune Strain, batas stacks maksimal meningkat sebesar 1. Meskipun Luuk tidak dapat memanfaatkan Res. Lib Amp miliknya, Lynae tetap memberikan buff kuat lainnya serta Tune Break Boost yang mengamplifikasi damage-nya sebesar 25% dari Inherent Skill: Uncaused Diagnosis. Ia mampu mencapai batas maksimal 30% ini bersama Denia.\nSanhua memberikan amplifikasi 38% Basic ATK saat melancarkan Outro Skill-nya, namun setup F2P ini merupakan kerugian besar dibandingkan menggunakan Denia atau Lynae.\n\nDalam mode Fusion Burst, Denia memberikan buff berikut kepada rekan timnya:\n> Bonus 30% Fusion DMG saat berada dalam status [Entropy Shift]\n> Bonus 37% Fusion DMG dari set bonus Chromatic Foam (12% berasal dari R: Denia)\n> Amplifikasi 60% Fusion Burst DMG selama 30 detik saat melancarkan Outro Skill.\n\nDalam mode Tune Strain, Denia memberikan buff berikut kepada rekan timnya:\n> Boost 10 Tune Break (total 50 bersama Mornye)\n> Boost 20 Tune Break dari set bonus Reel of Spliced Memories (12% ATK dari Voidwing Moth)\n> Amplifikasi 15% All-Type DMG selama 16 detik (atau 40% untuk unit Strain) saat melancarkan Outro Skill.\n> Dengan Forged Dawn Star (signature weapon Denia): Peningkatan 24% ATK selama 15 detik saat Resonator dalam tim memberikan efek FB atau Tune Strain - Shifting.",
+    "characterId": 1510
+  },
+  {
+    "id": "iuno-mono-aero",
+    "name": "Mono Aero",
+    "members": [
+      [
+        "Jiyan"
+      ],
+      [
+        "Iuno"
+      ],
+      [
+        "Ciaccona"
+      ]
+    ],
+    "note": "Ciaccona memberikan Iuno 24% Aero DMG Bonus dari Ensemble Sylphs miliknya, ditambah 15% Aero DMG dari set Gusts of Welkin. Selain itu, saat Ciaccona menggunakan senjata signature-nya, ia menurunkan Aero RES musuh sebesar 10%.",
+    "characterId": 1404
+  },
+  {
+    "id": "jianxin-mono-aero",
+    "name": "Mono Aero",
+    "members": [
+      [
+        "Iuno"
+      ],
+      [
+        "Ciaccona"
+      ],
+      [
+        "Jianxin"
+      ]
+    ],
+    "note": "",
+    "characterId": 1410
+  },
+  {
+    "id": "jiyan-mono-aero",
+    "name": "Mono Aero",
+    "members": [
+      [
+        "Jiyan"
+      ],
+      [
+        "Iuno"
+      ],
+      [
+        "Ciaccona"
+      ]
+    ],
+    "note": "- Iuno memberikan 50% Heavy DMG Amplify kepada Jiyan saat mengeluarkan Outro Skill.\n- Ciaccona memberikan Jiyan 24% Aero DMG Bonus dari Ensemble Sylphs miliknya, ditambah 15% Aero DMG dari set Gusts of Welkin. Selain itu, saat Ciaccona menggunakan senjata signature-nya, ia menurunkan Aero RES musuh sebesar 10%. Ketika dipasangkan bersama, Jiyan sebaiknya menggunakan set Windward Pilgrimage.",
+    "characterId": 1404
+  },
+  {
+    "id": "sigrika-mono-aero",
+    "name": "Mono Aero",
+    "members": [
+      [
+        "Sigrika"
+      ],
+      [
+        "Iuno"
+      ],
+      [
+        "Ciaccona"
+      ]
+    ],
+    "note": "",
+    "characterId": 1412
+  },
+  {
+    "id": "chixia-mono-fushion",
+    "name": "Mono Fushion",
+    "members": [
+      [
+        "Chixia"
+      ],
+      [
+        "Changli",
+        "Brant"
+      ],
+      [
+        "Lupa"
+      ]
+    ],
+    "note": "Brant memberikan Fusion DMG & Res. Skill DMG Amplify untuk Chixia, menjadikannya salah satu pasangan terbaik bagi Chixia.\nAlternatifnya, Changli memberikan Fusion DMG & Res. Liberation DMG Amplify untuk Chixia.",
+    "characterId": 1202
+  },
+  {
+    "id": "aemeath-mono-fusion",
+    "name": "Mono Fusion",
+    "members": [
+      [
+        "Aemeath"
+      ],
+      [
+        "Lupa",
+        "Changli",
+        "Brant"
+      ],
+      [
+        "Mornye",
+        "Lupa",
+        "Suisui"
+      ]
+    ],
+    "note": "bisa juga ganti Mornye dengan Changli, yang memberikan 25% Res. Liberation Amplify, atau Brant. Jika bersama Changli atau Brant, pilih mode Fusion Burst.",
+    "characterId": 1210
+  },
+  {
+    "id": "brant-mono-fusion",
+    "name": "Mono Fusion",
+    "members": [
+      [
+        "Galbrena",
+        "Changli",
+        "Mornye"
+      ],
+      [
+        "Brant"
+      ],
+      [
+        "Lupa",
+        "Shorekeeper"
+      ]
+    ],
+    "note": "- Lupa memberikan buff kepada Brant (Fusion & Basic), Brant memberikan buff kepada Changli (Fusion & Res. Skill), dan Changli memberikan buff kepada Lupa (Fusion & Res. Liberation). Lupa juga memberikan 6% ATK per unit Fusion (maksimal 18%) serta memberikan Fusion DMG Bonus ke seluruh tim jika Wildfire Mark digunakan.\n\n- Changli juga bisa diganti dengan Galbrena atau Mornye.",
+    "characterId": 1208
+  },
+  {
+    "id": "changli-mono-fusion",
+    "name": "Mono Fusion",
+    "members": [
+      [
+        "Changli"
+      ],
+      [
+        "Brant",
+        "Lupa"
+      ],
+      [
+        "Lupa",
+        "Shorekeeper"
+      ]
+    ],
+    "note": "Lupa memperkuat Brant (Fusion & Basic), Brant memperkuat Changli (Fusion & Res. Skill), dan Changli memperkuat Lupa (Fusion & Res. Liberation). ",
+    "characterId": 1205
+  },
+  {
+    "id": "lupa-mono-fusion",
+    "name": "Mono Fusion",
+    "members": [
+      [
+        "Brant",
+        "Encore",
+        "Aemeath",
+        "Galbrena"
+      ],
+      [
+        "Lupa"
+      ],
+      [
+        "Mornye"
+      ]
+    ],
+    "note": "- Dengan Mornye sebagai slot ketiga, kamu dapat mengganti Brant dengan Galbrena atau Aemeath.\n- Lupa memberikan Encore Fusion & Basic ATK DMG Amplify, selain itu, Encore adalah Fusion Resonator, yang meningkatkan Buff ATK% yang dapat diberikan oleh Lupa. Ia juga dapat menerima manfaat dari buff yang diberikan oleh Wildfire Mark.",
+    "characterId": 1206
+  },
+  {
+    "id": "mornye-mono-fusion",
+    "name": "Mono Fusion",
+    "members": [
+      [
+        "Aemeath",
+        "Galbrena",
+        "Brant"
+      ],
+      [
+        "Lupa"
+      ],
+      [
+        "Mornye"
+      ]
+    ],
+    "note": "kamu juga dapat mengganti Galbrena dengan Aemeath atau Brant.",
+    "characterId": 1210
+  },
+  {
+    "id": "mortefi-mono-fusion",
+    "name": "Mono Fusion",
+    "members": [
+      [
+        "Galbrena"
+      ],
+      [
+        "Mortefi"
+      ],
+      [
+        "Shorekeeper",
+        "Lupa"
+      ]
+    ],
+    "note": "",
+    "characterId": 1208
+  },
+  {
+    "id": "danjin-mono-havoc",
+    "name": "Mono Havoc",
+    "members": [
+      [
+        "Havoc Rover",
+        "Camellya"
+      ],
+      [
+        "Danjin"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "",
+    "characterId": 1605
+  },
+  {
+    "id": "mornye-team",
+    "name": "Mornye Team",
+    "members": [
+      [
+        "Iuno",
+        "Carlotta",
+        "Augusta",
+        "Xiangli Yao",
+        "Calcharo"
+      ],
+      [
+        "Lynae"
+      ],
+      [
+        "Mornye"
+      ]
+    ],
+    "note": "Meskipun Carlotta tidak dapat menerima manfaat dari Res. Liberation Amplify milik Lynae, ia tetap mendapatkan manfaat dari buff miliknya yang lain.",
+    "characterId": 1410
+  },
+  {
+    "id": "suisui-ns---erosion",
+    "name": "NS - Erosion",
+    "members": [
+      [
+        "Cartethyia"
+      ],
+      [
+        "Ciaccona"
+      ],
+      [
+        "Suisui"
+      ]
+    ],
+    "note": "",
+    "characterId": 1409
+  },
+  {
+    "id": "suisui-ns---glacio-chafe",
+    "name": "NS - Glacio Chafe",
+    "members": [
+      [
+        "Hiyuki"
+      ],
+      [
+        "Lucilla",
+        "Chisa",
+        "Lynae"
+      ],
+      [
+        "Suisui"
+      ]
+    ],
+    "note": "",
+    "characterId": 1108
+  },
+  {
+    "id": "suisui-ns---havoc-bane",
+    "name": "NS - Havoc Bane",
+    "members": [
+      [
+        "Yangyang-xuanling"
+      ],
+      [
+        "Chisa"
+      ],
+      [
+        "Suisui"
+      ]
+    ],
+    "note": "",
+    "characterId": 1610
+  },
+  {
+    "id": "phoebe-hypercarry",
+    "name": "Phoebe Hypercarry",
+    "members": [
+      [
+        "Phoebe"
+      ],
+      [
+        "Spectro Rover"
+      ],
+      [
+        "Shorekeeper",
+        "Chisa"
+      ]
+    ],
+    "note": "Phoebe (Absolution1) tidak mampu menghasilkan stacks Spectro Frazzle yang memadai secara mandiri, sehingga ia dipasangkan dengan Rover: Spectro. Rover: Spectro dapat berperan sebagai Dual DPS (set Eternal Radiance) atau buffer (set Moonlit Clouds).\n\nChisa memberikan buff berikut kepada rekan timnya:\n> Meningkatkan batas maksimal stack(s) Negative Statuses sebesar 3 selama 15 detik\n> Penurunan 12% DEF dari Havoc Bane, pengabaian 18% DEF dari Forte\n> Dengan Kumokiri (signature weapon Chisa): Bonus 24% All-Attribute DMG selama 15 detik saat Resonator dalam tim memberikan efek Negative Statuses.\n\nShorekeeper memberikan buff berikut kepada rekan timnya:\n> Amplifikasi 15% DMG saat melancarkan Outro Skill\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik.",
+    "characterId": 1506
+  },
+  {
     "id": "phrolova-core",
-    "name": "Core",
+    "name": "Phrolova Core",
     "members": [
       [
         "Phrolova"
@@ -1481,25 +1253,6 @@
     ],
     "note": "Phrolova meningkatkan Roccia (Havoc & Heavy). Danjin memberikan Phrolova 23% Havoc DMG Amplify setelah melancarkan Outro Skill miliknya, berfungsi sebagai pasangan bintang 4 terbaik bagi Phrolova. Sebagai alternatif, Phrolova dapat dipasangkan dengan Rover: Havoc - meskipun mereka secara inheren tidak memberikan buff apa pun kepada Phrolova, mereka dapat memanfaatkan buff Outro milik Phrolova.\nSlot ketiga dapat diisi oleh healer mana pun, seperti Shorekeeper, Buling, atau Verina.",
     "characterId": 1608
-  },
-  {
-    "id": "qiuyuan-echo-hc",
-    "name": "Echo HC",
-    "members": [
-      [
-        "Galbrena",
-        "Sigrika"
-      ],
-      [
-        "Qiuyuan"
-      ],
-      [
-        "Shorekeeper",
-        "Lupa"
-      ]
-    ],
-    "note": "Qiuyuan memberikan 50% Echo Skill DMG Amplify selama 14 detik kepada Galbrena setelah mengaktifkan Outro Skill.",
-    "characterId": 1208
   },
   {
     "id": "qiuyuan-phrolova-hc",
@@ -1520,6 +1273,41 @@
     "characterId": 1608
   },
   {
+    "id": "phrolova-hypercarry",
+    "name": "Phrolova Hypercarry",
+    "members": [
+      [
+        "Phrolova"
+      ],
+      [
+        "Cantarella"
+      ],
+      [
+        "Roccia",
+        "Shorekeeper"
+      ]
+    ],
+    "note": "Cantarella memberikan buff berikut kepada rekan timnya:\n> Amplifikasi 20% Havoc DMG dan 25% Resonance Skill DMG selama 14 detik saat melancarkan Outro Skill\n> Bonus 15% Havoc DMG dari set bonus Midnight Veil.\n\nRoccia buff Havoc DMG 20% dan Basic Attack DMG 25% selama 14 detik",
+    "characterId": 1608
+  },
+  {
+    "id": "yangyang-xuanling-premium-ns-team",
+    "name": "Premium NS Team",
+    "members": [
+      [
+        "Yangyang-xuanling"
+      ],
+      [
+        "Chisa"
+      ],
+      [
+        "Suisui"
+      ]
+    ],
+    "note": "",
+    "characterId": 1610
+  },
+  {
     "id": "qiuyuan-qiuyuan-hypercarry",
     "name": "Qiuyuan Hypercarry",
     "members": [
@@ -1537,95 +1325,232 @@
     "characterId": 1411
   },
   {
-    "id": "rebecca-hack-premium",
-    "name": "Hack Premium",
+    "id": "lupa-qs",
+    "name": "QS",
     "members": [
       [
-        "Rebecca"
+        "Lupa"
       ],
       [
-        "Lucy"
+        "Brant"
       ],
       [
-        "Mornye",
-        "Shorekeeper"
+        "Changli"
       ]
     ],
-    "note": "Disarankan untuk menggunakan Moonlit Clouds pada Rebecca karena menghasilkan team DPS yang lebih besar, terutama jika Lucy milikmu memiliki investasi yang lebih tinggi.",
-    "characterId": 1308
+    "note": "- Lupa meningkatkan Brant (Fusion & Basic), \n- Brant meningkatkan Changli (Fusion & Res. Skill), Changli meningkatkan Lupa (Fusion & Res. Liberation). \n- Lupa juga memberikan 6% ATK per unit Fusion (maksimal 18%) dan memberikan teamwide Fusion DMG Bonus jika Wildfire Mark terpasang.",
+    "characterId": 1207
   },
   {
-    "id": "rebecca-hack-alt",
-    "name": "HACK ALT",
+    "id": "encore-qs-alternatif",
+    "name": "QS Alternatif",
     "members": [
       [
-        "Rebecca"
+        "Encore"
       ],
       [
-        "Augusta"
-      ],
-      [
-        "Mornye",
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Rebecca memberikan Augusta hingga 35% Heavy DMG Amplify setelah melancarkan Outro Skill miliknya beserta dengan buff tambahan seperti peningkatan 20% ATK saat melancarkan Resonance Liberation [Party 'Til Dawn!].",
-    "characterId": 1308
-  },
-  {
-    "id": "rebecca-hack-f2p",
-    "name": "Hack F2P",
-    "members": [
-      [
-        "Rebecca"
-      ],
-      [
-        "Sanhua"
+        "Changli",
+        "Carlotta",
+        "Brant"
       ],
       [
         "Shorekeeper"
       ]
     ],
     "note": "",
-    "characterId": 1308
+    "characterId": 1203
   },
   {
-    "id": "roccia-hypercarry---lova",
-    "name": "Hypercarry - Lova",
+    "id": "carlotta-quickswap",
+    "name": "Quickswap",
     "members": [
       [
+        "Carlotta"
+      ],
+      [
+        "Brant",
+        "Xiangli Yao",
+        "Changli"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "",
+    "characterId": 1107
+  },
+  {
+    "id": "changli-quickswap",
+    "name": "Quickswap",
+    "members": [
+      [
+        "Changli"
+      ],
+      [
+        "Brant",
+        "Xiangli Yao",
+        "Jinhsi"
+      ],
+      [
+        "Lupa",
+        "Shorekeeper"
+      ]
+    ],
+    "note": "Lupa juga memberikan 6% ATK untuk setiap unit Fusion (maks. 18%) serta memberikan bonus Fusion DMG ke seluruh tim jika Wildfire Mark digunakan.",
+    "characterId": 1205
+  },
+  {
+    "id": "encore-quickswap",
+    "name": "Quickswap",
+    "members": [
+      [
+        "Encore"
+      ],
+      [
+        "Xiangli Yao",
+        "Havoc Rover",
+        "Jinhsi"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "",
+    "characterId": 1203
+  },
+  {
+    "id": "havoc-rover-quickswap",
+    "name": "Quickswap",
+    "members": [
+      [
+        "Havoc Rover"
+      ],
+      [
+        "Changli"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "",
+    "characterId": 1605
+  },
+  {
+    "id": "quickswap",
+    "name": "Quickswap",
+    "members": [
+      [
+        "Calcharo"
+      ],
+      [
+        "Xiangli Yao",
+        "Carlotta",
+        "Changli"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "quickswap team",
+    "characterId": 1301
+  },
+  {
+    "id": "yinlin-quickswap",
+    "name": "Quickswap",
+    "members": [
+      [
+        "Yinlin"
+      ],
+      [
+        "Jinhsi",
+        "Havoc Rover"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "Yinlin mampu memberikan Coordinated ATKs kepada Jinhsi, yang dibutuhkan Jinhsi untuk mengisi Forte Gauge miliknya. Selain itu, Yinlin memberikan Liberation DMG Amplify.",
+    "characterId": 1302
+  },
+  {
+    "id": "jinhsi-quickswap-",
+    "name": "Quickswap ",
+    "members": [
+      [
+        "Jinhsi"
+      ],
+      [
+        "Brant",
+        "Changli",
+        "Xiangli Yao"
+      ],
+      [
+        "Shorekeeper"
+      ]
+    ],
+    "note": "",
+    "characterId": 1304
+  },
+  {
+    "id": "sigrika-sigrika-hypercarry",
+    "name": "Sigrika Hypercarry",
+    "members": [
+      [
+        "Sigrika"
+      ],
+      [
+        "Qiuyuan",
+        "Lucilla"
+      ],
+      [
+        "Shorekeeper",
+        "Mornye",
+        "Iuno",
+        "Ciaccona"
+      ]
+    ],
+    "note": "",
+    "characterId": 1412
+  },
+  {
+    "id": "taoqi-skill-buff",
+    "name": "Skill Buff",
+    "members": [
+      [
+        "Carlotta",
+        "Jinhsi",
         "Phrolova"
       ],
       [
-        "Cantarella"
+        "Taoqi"
       ],
       [
-        "Roccia",
-        "Shorekeeper"
+        "Shorekeeper",
+        "Verina"
       ]
     ],
-    "note": "Phrolova meningkatkan Roccia (Havoc & Heavy), Roccia meningkatkan Cantarella (Havoc & Basic), Cantarella meningkatkan Phrolova (Havoc & Res. Skill).",
-    "characterId": 1608
+    "note": "Taoqi dapat memberikan Resonator berikut 38% Res. Skill Amplify setelah melancarkan Outro Skill miliknya. Namun, ia sering kali digantikan oleh pilihan lain.",
+    "characterId": 1107
   },
   {
-    "id": "roccia-hypercarry---alt",
-    "name": "Hypercarry - ALT",
+    "id": "zhezhi-skill-buff",
+    "name": "Skill Buff",
     "members": [
       [
-        "Cantarella",
-        "Havoc Rover",
-        "Encore",
-        "Camellya"
+        "Carlotta",
+        "Jinhsi",
+        "Lingyang"
       ],
       [
-        "Roccia"
+        "Zhezhi"
       ],
       [
-        "Shorekeeper"
+        "Shorekeeper",
+        "Buling"
       ]
     ],
-    "note": "Roccia memberikan Camellya/Canta 20% Havoc DMG Amplify & 25% Basic Attack DMG Amplify selama 14 detik setelah melancarkan Outro Skill miliknya.",
-    "characterId": 1607
+    "note": "Jinhsi berkembang pesat dengan rekan tim yang memberikan Coordinated ATKs, DMG buff (terutama Res. Skill DMG), dan memiliki field time yang rendah. Zhezhi memenuhi semua kebutuhan tersebut dan meningkatkan Resonance Energy untuk uptime Res. Liberation yang lebih sering.\nSaat ini, Carlotta & Lingyang adalah satu-satunya Glacio Main Damage Dealer yang secara inheren akan mendapatkan manfaat dari Glacio DMG Amplify milik Zhezhi. Keduanya juga sangat diuntungkan oleh Res. Skill DMG Amplify & Resonance Energy Regeneration dari Zhezhi.",
+    "characterId": 1107
   },
   {
     "id": "sanhua-sub-dps",
@@ -1650,6 +1575,19 @@
     "characterId": 1605
   },
   {
+    "id": "baizhi-support",
+    "name": "Support",
+    "members": [
+      [],
+      [],
+      [
+        "Baizhi"
+      ]
+    ],
+    "note": "buff baizhi bermanfaat bagi DPS mana pun karena ia memberikan all-type DMG Amplify, dan di dijamin akan muncul dalam pull pertama Standard Character Convene kamu.",
+    "characterId": 0
+  },
+  {
     "id": "shorekeeper-support",
     "name": "Support",
     "members": [
@@ -1659,28 +1597,34 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Shorekeeper memberikan buff berikut untuk rekan timnya: \n- 15% DMG Amplify setelah melancarkan Outro Skill\n- 12.5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n- Dengan Stellar Symphony (signature SK): 14% peningkatan ATK selama 30 detik."
+    "note": "Shorekeeper memberikan buff berikut untuk rekan timnya: \n- 15% DMG Amplify setelah melancarkan Outro Skill\n- 12.5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n- Dengan Stellar Symphony (signature SK): 14% peningkatan ATK selama 30 detik.",
+    "characterId": 0
   },
   {
-    "id": "sigrika-sigrika-hypercarry",
-    "name": "Sigrika Hypercarry",
+    "id": "verina-support",
+    "name": "Support",
     "members": [
+      [],
+      [],
       [
-        "Sigrika"
-      ],
-      [
-        "Qiuyuan",
-        "Lucilla"
-      ],
-      [
-        "Shorekeeper",
-        "Mornye",
-        "Iuno",
-        "Ciaccona"
+        "Verina"
       ]
     ],
     "note": "",
-    "characterId": 1412
+    "characterId": 0
+  },
+  {
+    "id": "youhu-support---coordinated-atk",
+    "name": "Support - Coordinated ATK",
+    "members": [
+      [],
+      [],
+      [
+        "Youhu"
+      ]
+    ],
+    "note": "",
+    "characterId": 0
   },
   {
     "id": "sigrika-tune-break",
@@ -1700,112 +1644,8 @@
     "characterId": 1412
   },
   {
-    "id": "sigrika-mono-aero",
-    "name": "Mono Aero",
-    "members": [
-      [
-        "Sigrika"
-      ],
-      [
-        "Iuno"
-      ],
-      [
-        "Ciaccona"
-      ]
-    ],
-    "note": "",
-    "characterId": 1412
-  },
-  {
-    "id": "spectro-rover-hypercarry---zani",
-    "name": "Hypercarry - Zani",
-    "members": [
-      [
-        "Zani"
-      ],
-      [
-        "Phoebe"
-      ],
-      [
-        "Spectro Rover"
-      ]
-    ],
-    "note": "",
-    "characterId": 1507
-  },
-  {
-    "id": "spectro-rover-hypercarrt---pheeb",
-    "name": "Hypercarrt - Pheeb",
-    "members": [
-      [
-        "Phoebe"
-      ],
-      [
-        "Spectro Rover"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "",
-    "characterId": 1506
-  },
-  {
-    "id": "suisui-ns---havoc-bane",
-    "name": "NS - Havoc Bane",
-    "members": [
-      [
-        "Yangyang-xuanling"
-      ],
-      [
-        "Chisa"
-      ],
-      [
-        "Suisui"
-      ]
-    ],
-    "note": "",
-    "characterId": 1610
-  },
-  {
-    "id": "suisui-ns---glacio-chafe",
-    "name": "NS - Glacio Chafe",
-    "members": [
-      [
-        "Hiyuki"
-      ],
-      [
-        "Lucilla",
-        "Chisa",
-        "Lynae"
-      ],
-      [
-        "Suisui"
-      ]
-    ],
-    "note": "",
-    "characterId": 1108
-  },
-  {
-    "id": "suisui-double-havoc",
-    "name": "Double Havoc",
-    "members": [
-      [
-        "Yangyang-xuanling"
-      ],
-      [
-        "Phrolova"
-      ],
-      [
-        "Suisui"
-      ]
-    ],
-    "note": "",
-    "characterId": 1610
-  },
-  {
-    "id": "suisui-fusion-burst",
-    "name": "Fusion Burst",
+    "id": "denia-tune-strain",
+    "name": "Tune Strain",
     "members": [
       [
         "Aemeath"
@@ -1814,60 +1654,103 @@
         "Denia"
       ],
       [
-        "Suisui"
+        "Lupa"
       ]
     ],
     "note": "",
     "characterId": 1210
   },
   {
-    "id": "suisui-ns---erosion",
-    "name": "NS - Erosion",
+    "id": "aemeath-tune-break",
+    "name": "Tune-Break",
     "members": [
       [
-        "Cartethyia"
+        "Aemeath"
       ],
       [
-        "Ciaccona"
+        "Lynae"
       ],
       [
-        "Suisui"
+        "Mornye",
+        "Chisa",
+        "Shorekeeper"
       ]
     ],
-    "note": "",
-    "characterId": 1409
+    "note": "- slot 3 Sebagai alternatif, bisa juga menggunakan Shorekeeper; namun, Mornye lebih ideal karena ia memberikan lebih banyak Ruptures. ",
+    "characterId": 1210
   },
   {
-    "id": "taoqi-skill-buff",
-    "name": "Skill Buff",
+    "id": "mornye-tune-break",
+    "name": "Tune-Break",
     "members": [
       [
-        "Carlotta",
-        "Jinhsi",
+        "Aemeath",
+        "Luuk Herssen"
+      ],
+      [
+        "Lynae"
+      ],
+      [
+        "Mornye"
+      ]
+    ],
+    "note": "Mornye paling efektif dalam tim yang berfokus pada Tune. Ia memberikan All-type DMG Amplify sebagai Outro Skill miliknya bersama dengan buff terkait Tune lainnya (tercantum dalam Notes & Insights\").\nIa menjadi support universal lainnya untuk tim lain, setara atau menjadi pilihan alternatif bagi Shorekeeper.\n\nSaat dipasangkan dengan Lynae dan Mornye, Resonator dengan scaling Res. Liberation seperti Iuno, Xiangli Yao, dan Calcharo dapat memperoleh manfaat dari sinergi Tune Break mereka.\n",
+    "characterId": 1210
+  },
+  {
+    "id": "luuk-herssen-tune-team",
+    "name": "Tune-Team",
+    "members": [
+      [
+        "Luuk Herssen"
+      ],
+      [
+        "Lynae",
+        "Denia"
+      ],
+      [
+        "Mornye",
+        "Shorekeeper"
+      ]
+    ],
+    "note": "- Karena Lynae dan Denia dapat menanggapi Tune Strain, batas stack maksimal meningkat sebanyak 1. \n- Meskipun Luuk tidak dapat menerima manfaat dari Res. Lib Amp miliknya, Lynae tetap memberikan buff kuat lainnya dan Tune Break Boost yang meningkatkan damage miliknya sebesar 25% dari Inherent Skill miliknya: Uncaused Diagnosis. Ia saat ini tidak mampu mencapai batas 30% tersebut.",
+    "characterId": 1510
+  },
+  {
+    "id": "yangyang-xuanling-xuanling-hc",
+    "name": "Xuanling HC",
+    "members": [
+      [
+        "Yangyang-xuanling"
+      ],
+      [
+        "Rebecca",
+        "Lynae",
         "Phrolova"
       ],
       [
-        "Taoqi"
-      ],
-      [
-        "Shorekeeper",
-        "Verina"
+        "Chisa"
       ]
     ],
-    "note": "Taoqi dapat memberikan Resonator berikut 38% Res. Skill Amplify setelah melancarkan Outro Skill miliknya. Namun, ia sering kali digantikan oleh pilihan lain.",
-    "characterId": 1107
+    "note": "",
+    "characterId": 1610
   },
   {
-    "id": "verina-support",
-    "name": "Support",
+    "id": "yangyang-team",
+    "name": "Yangyang Team",
     "members": [
-      [],
-      [],
       [
-        "Verina"
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        "Yangyang"
       ]
     ],
-    "note": ""
+    "note": "Yangyang adalah salah satu Resonator sub DPS / support yang lebih fleksibel, sehingga cocok di tim mana pun. Yangyang paling menonjol sebagai Sub DPS / Support dalam tim yang membutuhkan dorongan ekstra pada Res. Liberation Energy Regen, karena membantu menghasilkan 4 Resonance Energy setiap detik selama 5 detik untuk Resonator berikutnya.",
+    "characterId": 0
   },
   {
     "id": "xiangli-yao-yao-break",
@@ -1924,123 +1807,6 @@
     "characterId": 1305
   },
   {
-    "id": "yangyang-xuanling-premium-ns-team",
-    "name": "Premium NS Team",
-    "members": [
-      [
-        "Yangyang-xuanling"
-      ],
-      [
-        "Chisa"
-      ],
-      [
-        "Suisui"
-      ]
-    ],
-    "note": "",
-    "characterId": 1610
-  },
-  {
-    "id": "yangyang-xuanling-dual-dps",
-    "name": "Dual DPS",
-    "members": [
-      [
-        "Yangyang-xuanling"
-      ],
-      [
-        "Phrolova"
-      ],
-      [
-        "Suisui"
-      ]
-    ],
-    "note": "",
-    "characterId": 1610
-  },
-  {
-    "id": "yangyang-xuanling-xuanling-hc",
-    "name": "Xuanling HC",
-    "members": [
-      [
-        "Yangyang-xuanling"
-      ],
-      [
-        "Rebecca",
-        "Lynae",
-        "Phrolova"
-      ],
-      [
-        "Chisa"
-      ]
-    ],
-    "note": "",
-    "characterId": 1610
-  },
-  {
-    "id": "yangyang-team",
-    "name": "Yangyang Team",
-    "members": [
-      [
-        ""
-      ],
-      [
-        ""
-      ],
-      [
-        "Yangyang"
-      ]
-    ],
-    "note": "Yangyang adalah salah satu Resonator sub DPS / support yang lebih fleksibel, sehingga cocok di tim mana pun. Yangyang paling menonjol sebagai Sub DPS / Support dalam tim yang membutuhkan dorongan ekstra pada Res. Liberation Energy Regen, karena membantu menghasilkan 4 Resonance Energy setiap detik selama 5 detik untuk Resonator berikutnya."
-  },
-  {
-    "id": "yinlin-hypercarry",
-    "name": "Hypercarry",
-    "members": [
-      [
-        "Xiangli Yao",
-        "Jinhsi"
-      ],
-      [
-        "Yinlin"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Yinlin memberikan Xiangli Yao 20% Electro DMG Amplify dan 25% Resonance Liberation DMG Amplify selama 14 detik setelah ia melancarkan Outro Skill miliknya.",
-    "characterId": 1305
-  },
-  {
-    "id": "yinlin-quickswap",
-    "name": "Quickswap",
-    "members": [
-      [
-        "Yinlin"
-      ],
-      [
-        "Jinhsi",
-        "Havoc Rover"
-      ],
-      [
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Yinlin mampu memberikan Coordinated ATKs kepada Jinhsi, yang dibutuhkan Jinhsi untuk mengisi Forte Gauge miliknya. Selain itu, Yinlin memberikan Liberation DMG Amplify.",
-    "characterId": 1302
-  },
-  {
-    "id": "youhu-support---coordinated-atk",
-    "name": "Support - Coordinated ATK",
-    "members": [
-      [],
-      [],
-      [
-        "Youhu"
-      ]
-    ],
-    "note": ""
-  },
-  {
     "id": "yuanwu-team",
     "name": "Yuanwu Team",
     "members": [
@@ -2056,45 +1822,5 @@
     ],
     "note": "",
     "characterId": 1304
-  },
-  {
-    "id": "zani-hypercarry---zani",
-    "name": "Hypercarry - Zani",
-    "members": [
-      [
-        "Zani"
-      ],
-      [
-        "Phoebe",
-        "Spectro Rover"
-      ],
-      [
-        "Chisa",
-        "Spectro Rover",
-        "Shorekeeper"
-      ]
-    ],
-    "note": "Phoebe (Confession) adalah rekan tim terbaik (best in slot) bagi Zani, memberikan Zani stack(s) Spectro Frazzle, Amplify, dan pengurangan Spectro RES kepada musuh di sekitar.",
-    "characterId": 1507
-  },
-  {
-    "id": "zhezhi-skill-buff",
-    "name": "Skill Buff",
-    "members": [
-      [
-        "Carlotta",
-        "Jinhsi",
-        "Lingyang"
-      ],
-      [
-        "Zhezhi"
-      ],
-      [
-        "Shorekeeper",
-        "Buling"
-      ]
-    ],
-    "note": "Jinhsi berkembang pesat dengan rekan tim yang memberikan Coordinated ATKs, DMG buff (terutama Res. Skill DMG), dan memiliki field time yang rendah. Zhezhi memenuhi semua kebutuhan tersebut dan meningkatkan Resonance Energy untuk uptime Res. Liberation yang lebih sering.\nSaat ini, Carlotta & Lingyang adalah satu-satunya Glacio Main Damage Dealer yang secara inheren akan mendapatkan manfaat dari Glacio DMG Amplify milik Zhezhi. Keduanya juga sangat diuntungkan oleh Res. Skill DMG Amplify & Resonance Energy Regeneration dari Zhezhi.",
-    "characterId": 1107
   }
 ]
