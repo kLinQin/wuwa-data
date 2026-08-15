@@ -105,7 +105,7 @@
     "teams": [
       "youhu-support"
     ],
-    "teamNote": "Youhu, seperti healer lainnya, terintegrasi dengan baik ke dalam sebagian besar komposisi tim. Ia memberikan Coordinated ATK DMG bagi Resonator berikutnya sebesar 100% selama 28 detik setelah melancarkan Outro Skill miliknya.\nIa paling bersinar saat dipasangkan dengan unit Sub DPS yang memiliki Coordinated Attacks, seperti Cantarella, Mortefi, Yinlin, dan Zhezhi.\n\nYouhu memberikan buff berikut untuk rekan timnya:\n- 100% Coordinated Attack DMG Amplify selama 28 detik setelah melancarkan Outro Skill."
+    "teamNote": "youhu memberikan buff berikut kepada rekan timnya\n> Amplifikasi 100% Coordinated Attack DMG selama 28 detik (outro)"
   },
   "analysisCharts": []
 }

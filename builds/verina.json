@@ -114,7 +114,7 @@
     "teams": [
       "verina-support"
     ],
-    "teamNote": "Verina adalah salah satu healer terbaik dalam game ini. Ia memberikan all-type DMG Amplify kepada rekan timnya bersamaan dengan buff +20% ATK dari Inherent Skill miliknya: Gift of Nature, sehingga memungkinkannya untuk masuk secara efektif ke dalam komposisi tim mana pun. Ia juga mampu melindungi anggota tim dari damage fatal dan memberikan mereka shield sementara dengan cooldown selama 10 menit dari Inherent Skill miliknya: Grace of Life.\nIa juga memiliki output healing yang luar biasa sebagai Standard Resonator, yang membuatnya menjadi salah satu, jika bukan satu-satunya, karakter yang wajib dimiliki dalam game ini.\n\nVerina memberikan buff berikut untuk rekan timnya: -15% All-Type DMG Amplify selama 30 detik setelah melancarkan Outro Skill - 20% peningkatan ATK selama 20 detik."
+    "teamNote": "verina memberikan buff berikut kepada rekan timnya\n> Amplifikasi 15% All-Type DMG selama 30 detik (outro)\n> Peningkatan 20% ATK selama 20 detik"
   },
   "analysisCharts": []
 }

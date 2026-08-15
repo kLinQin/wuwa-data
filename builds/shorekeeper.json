@@ -162,7 +162,7 @@
     "teams": [
       "shorekeeper-support"
     ],
-    "teamNote": "Shorekeeper adalah salah satu healer terbaik dalam game ini. Ia memberikan all-type DMG Amplify sebagai Outro Skill miliknya bersamaan dengan buff Stellarealm (12.5% Crit Rate & 25% Crit. DMG pada total 250 ER), sehingga memungkinkannya untuk masuk secara efektif ke dalam komposisi tim mana pun.\nIa paling efektif dalam tim di mana ia memiliki downtime yang lebih lama (field time yang lebih sedikit)."
+    "teamNote": "shorekeeper memberikan buff berikut kepada rekan timnya\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik"
   },
   "analysisCharts": []
 }

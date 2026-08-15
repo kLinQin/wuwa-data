@@ -110,7 +110,7 @@
     "teams": [
       "hack-premium"
     ],
-    "teamNote": "1. Menggunakan para Edgerunner bersama-sama akan membuka sinergi yang sangat kuat di antara mereka, beserta dengan buff tambahan:\nLucy menyediakan buff berikut untuk rekan satu timnya saat melancarkan Outro Skill: \n- 20% Basic Attack DMG Amplify selama 14 detik\n- \"Countermeasure Program\" selama 25 detik, di mana Rebecca mendapatkan 20% All-DMG Amplify. Ketika Resonator lain diserang, mereka menerima damage 30% lebih sedikit selama 3 detik dan memberikan efek stagnate pada penyerang mereka selama 1 detik. Efek ini dapat dipicu hingga 1 kali.\n\n2. Lucy merupakan Main DPS yang solid bersama dengan rekan tim gratisnya, Rebecca. Ia tidak merusak keseimbangan game ataupun mengubah meta, tetapi ia masih dapat berfungsi sebagai DPS yang mumpuni.\nSecara teknis ia bisa dipasangkan dengan Heavy DMG buffer mana pun, tetapi karena Rebecca bisa didapatkan secara gratis dan kit mereka memiliki sinergi yang terstruktur satu sama lain, tidak ada alasan nyata untuk memisahkan keduanya."
+    "teamNote": "lucy memberikan buff berikut kepada rekan timnya\n> Amplifikasi 20% Basic Attack DMG selama 14 detik\n> \"Countermeasure Program\" selama 25 detik, di mana Rebecca mendapatkan amplifikasi 20% All-DMG. Saat Resonator lain diserang, mereka menerima 30% lebih sedikit DMG selama 3 detik dan membuat penyerangnya terhenti selama 1 detik. Efek ini dapat terpicu maksimal 1 kali"
   },
   "analysisCharts": [
     {

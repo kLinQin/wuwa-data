@@ -14,7 +14,7 @@
         "Verina"
       ]
     ],
-    "note": "sanhua buff \n> 38% basic attack selama 14 detik (outro) dan (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali)\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik\nVerina buff\n> Amplifikasi 15% All-Type DMG selama 30 detik (outro)\n> Peningkatan 20% ATK selama 20 detik\n",
+    "note": "",
     "characterId": 1403
   },
   {
@@ -31,7 +31,7 @@
         "Mornye"
       ]
     ],
-    "note": "kamu juga dapat mengganti Galbrena dengan Aemeath atau Brant.",
+    "note": "",
     "characterId": 1210
   },
   {
@@ -50,7 +50,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Ciaccona buff\n> Bonus 24% Aero DMG dari [Ensemble Sylphs] miliknya\n> Bonus 15% Aero DMG dari set bonus Gusts of Welkin\n> Amplifikasi 100% Aero Erosion selama 30 detik (outro)\n> Dengan Woodland Aria (signature weapon Ciaccona): Reduksi 10% Aero RES selama 20 detik\nChisa buff\n> Meningkatkan batas maksimal stack(s) Negative Statuses sebesar 3 selama 15 detik\n> Penurunan 12% DEF dari Havoc Bane, pengabaian 18% DEF dari Forte\n> Dengan Kumokiri (signature weapon Chisa): Bonus 24% All-Attribute DMG selama 15 detik saat Resonator dalam tim memberikan efek Negative Statuses\nRover: Aero buff\n> Meningkatkan batas maksimal stack(s) Aero Erosion sebesar 3 selama 10 detik (outro)\n> Dengan Bloodpact's Pledge: Amplifikasi 10% Aero DMG selama 30 detik saat melancarkan [Resonance Skill Unbound Flow]\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1409
   },
   {
@@ -67,7 +67,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "mortefi buff\n> 38% heavy attack selama 14 detik (outro) dan (+ s6 nya setelah ulti memberi buff ATK 20% selama 20 detik)\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1306
   },
   {
@@ -85,7 +85,7 @@
         "Lynae"
       ]
     ],
-    "note": "Luno buff\n> amplifikasi 50% Heavy DMG selama 14 detik (outro)\n> Amplifikasi 40% ALL-DMG selama 10 detik saat mendapatkan Shield di dalam [Full Moon Domain], yang hanya berlaku untuk Augusta atau Luno sebagai Main DPS\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik\nLynae buff\n> Amplifikasi 15% ALL-DMG & 25% Resonance Liberation selama 14 (outro)\n> Bonus 24% All-DMG selama 30 detik saat melancarkan Resonance Liberation [Prismatic Overblast]\n> Bonus 30% ATK dari set bonus Pact of Neonlight Leap\n> Bonus 10% All-Attribute DMG selama 15 detik dari Hyvatia\n> Boost 40 Tune Break dari Forte Circuit miliknya\n> Dengan Spectrum Blaster (signature weapon Lynae): Semua All-DMG yang ditimbulkan meningkat sebesar 24% selama 30 detik saat memberikan efek [Tune Rupture atau Strain - Shifting] selama bassic attacknya",
+    "note": "",
     "characterId": 1306
   },
   {
@@ -98,7 +98,7 @@
         "Baizhi"
       ]
     ],
-    "note": "Baizhi buff\n> Saat Euphonia diambil, meningkatkan 20% ATK selama 20 detik; S6 meningkatkan bonus Glacio DMG sebesar 12% selama 20 detik\n> Amplifikasi 15% all-type DMG selama 6 detik saat melakukan healing pada (outro)",
+    "note": "",
     "characterId": 0
   },
   {
@@ -117,7 +117,7 @@
         "Verina"
       ]
     ],
-    "note": "Roccia buff \n> Havoc DMG 20% dan Basic Attack DMG 25% selama 14 detik (outro)\nRoccia buff \n> Havoc DMG 20% dan Basic Attack DMG 25% selama 14 detik (outro)\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik\nVerina buff\n> Amplifikasi 15% All-Type DMG selama 30 detik (outro)\n> Peningkatan 20% ATK selama 20 detik",
+    "note": "",
     "characterId": 1206
   },
   {
@@ -134,7 +134,7 @@
         "Mornye"
       ]
     ],
-    "note": "brant buff \n> Fusion DMG 20% dan Resonance Skill DMG 25% selama 14 detik (outro)\nLupa buff\n> Amplifikasi 20% Fusion DMG dan 25% Basic Attack DMG selama 14 detik saat melancarkan Intro Skill\n> [Pack Hunt]: Peningkatan 6-18% ATK dan bonus 10% Fusion DMG (20% dengan 3 Resonator Fusion)\n> Mengabaikan 3-15% Fusion RES dalam 35 detik setelah melancarkan [Resonance Liberation]\n> Dengan Wildfire Mark (signature weapon Lupa): Bonus 24% Fusion DMG selama 30 detik.\nMornye buff\n> Amplifikasi 25% All-Type DMG selama 30 detik (outro)\n> Peningkatan 20% DEF dan multiplier healing sebesar 40% selama 25 detik saat berada dalam [High Syntony Field], yang mewarisi efek dari [Syntony Field]. Hal ini mencakup ketahanan lebih tinggi terhadap interupsi dan Laju Buildup Off-Tune sebesar 50%\n> Bonus 25% ATK dari set bonus Halo of Starry Radiance\n> Bonus 40% DMG terhadap musuh yang terkena efek [Tune Rupture atau Strain - Interfered], baik melalui S1 miliknya (berlangsung selama 20 detik) maupun Lynae (8 detik).\n> Dengan Starfield Calibrator (signature weapon Mornye): Bonus 20% Crit. DMG selama 4 detik saat melakukan healing",
+    "note": "",
     "characterId": 1206
   },
   {
@@ -153,7 +153,7 @@
         "Buling"
       ]
     ],
-    "note": "Buling buff\n> Amplifikasi 15% DMG selama 30 detik (outro)\n> Bonus 25% Resonance Skill DMG selama 24 detik\n> Dengan S6: Bonus 50% Resonance Skill DMG (menggantikan bonus 25% sebelumnya) untuk Resonator aktif",
+    "note": "",
     "characterId": 1107
   },
   {
@@ -172,7 +172,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Yinlin buff \n> Electro DMG 20% and Resonance Liberation DMG 25% selama 14 detik (outro)\nLynae buff\n> Amplifikasi 15% ALL-DMG & 25% Resonance Liberation selama 14 (outro)\n> Bonus 24% All-DMG selama 30 detik saat melancarkan Resonance Liberation [Prismatic Overblast]\n> Bonus 30% ATK dari set bonus Pact of Neonlight Leap\n> Bonus 10% All-Attribute DMG selama 15 detik dari Hyvatia\n> Boost 40 Tune Break dari Forte Circuit miliknya\n> Dengan Spectrum Blaster (signature weapon Lynae): Semua All-DMG yang ditimbulkan meningkat sebesar 24% selama 30 detik saat memberikan efek [Tune Rupture atau Strain - Shifting] selama bassic attacknya\nsanhua buff \n> 38% basic attack selama 14 detik (outro) dan (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali)\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1301
   },
   {
@@ -190,7 +190,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "danjin buff \n> Havoc DMG 23% selama 14 detik (outro)\nsanhua buff \n> 38% basic attack selama 14 detik (outro) dan (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali)\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1603
   },
   {
@@ -208,7 +208,7 @@
         "Cantarella"
       ]
     ],
-    "note": "Roccia buff \n> Havoc DMG 20% dan Basic Attack DMG 25% selama 14 detik (outro)\nCantarella buff\n> Amplifikasi 20% Havoc DMG dan 25% Resonance Skill DMG selama 14 detik (outro)\n> Bonus 15% Havoc DMG dari set bonus Midnight Veil\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1603
   },
   {
@@ -225,7 +225,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Lumi buff\n> Amplifikasi 38% Resonance Skill DMG selama 10 detik (outro)\n> Dengan S6: Peningkatan 20% ATK selama 20 detik",
+    "note": "",
     "characterId": 1107
   },
   {
@@ -245,7 +245,7 @@
         "Buling"
       ]
     ],
-    "note": "zhezhi buff\n> Memulihkan 15 Resonance Energy (outro)\n> Amplifikasi 20% Glacio DMG dan 25% Resonance Skill DMG selama 14 detik (outro)\nCantarella buff\n> Amplifikasi 20% Havoc DMG dan 25% Resonance Skill DMG selama 14 detik (outro)\n> Bonus 15% Havoc DMG dari set bonus Midnight Veil\nLynae buff\n> Amplifikasi 15% ALL-DMG & 25% Resonance Liberation selama 14 (outro)\n> Bonus 24% All-DMG selama 30 detik saat melancarkan Resonance Liberation [Prismatic Overblast]\n> Bonus 30% ATK dari set bonus Pact of Neonlight Leap\n> Bonus 10% All-Attribute DMG selama 15 detik dari Hyvatia\n> Boost 40 Tune Break dari Forte Circuit miliknya\n> Dengan Spectrum Blaster (signature weapon Lynae): Semua All-DMG yang ditimbulkan meningkat sebesar 24% selama 30 detik saat memberikan efek [Tune Rupture atau Strain - Shifting] selama bassic attacknya\nBuling buff\n> Amplifikasi 15% DMG selama 30 detik (outro)\n> Bonus 25% Resonance Skill DMG selama 24 detik\n> Dengan S6: Bonus 50% Resonance Skill DMG (menggantikan bonus 25% sebelumnya) untuk Resonator aktif",
+    "note": "",
     "characterId": 1107
   },
   {
@@ -265,7 +265,7 @@
         "Suisui"
       ]
     ],
-    "note": "sanhua buff \n> 38% basic attack selama 14 detik (outro) dan (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali)\nChisa buff\n> Meningkatkan batas maksimal stack(s) Negative Statuses sebesar 3 selama 15 detik\n> Penurunan 12% DEF dari Havoc Bane, pengabaian 18% DEF dari Forte\n> Dengan Kumokiri (signature weapon Chisa): Bonus 24% All-Attribute DMG selama 15 detik saat Resonator dalam tim memberikan efek Negative Statuses\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik\nSuisui buff\n> Meningkatkan batas maksimal stack(s) Negative Statuses kecuali Havoc Bane sebesar 3 selama 15 detik\n> Mengonsumsi stack(s) Havoc Bane memberikan pengabaian 6% DEF dan pengabaian 12% Havoc RES untuk DMG Havoc yang bersangkutan selama 30 detik setelah skill di casting\n> Bonus 50% ATK untuk konsumen Negative Statuses (misalnya Yangyang: Xuanling, Hiyuki)\n> Bonus 12% DMG saat berada dalam status [Roaming Transcendent]\n> Amplifikasi 25% DMG selama 30 detik (outro)\n> Dengan Firstland's Herald (signature weapon Suisui): Bonus 20% ATK saat ia memiliki Snow Taint dan Ripples secara bersamaan (dengan memberikan efek Glacio Chafe dan melakukan healing)\nRover: Aero buff\n> Meningkatkan batas maksimal stack(s) Aero Erosion sebesar 3 selama 10 detik (outro)\n> Dengan Bloodpact's Pledge: Amplifikasi 10% Aero DMG selama 30 detik saat melancarkan [Resonance Skill Unbound Flow]",
+    "note": "",
     "characterId": 1409
   },
   {
@@ -284,7 +284,7 @@
         "Mornye"
       ]
     ],
-    "note": "brant buff \n> Fusion DMG 20% dan Resonance Skill DMG 25% selama 14 detik (outro)\nLupa buff\n> Amplifikasi 20% Fusion DMG dan 25% Basic Attack DMG selama 14 detik saat melancarkan Intro Skill\n> [Pack Hunt]: Peningkatan 6-18% ATK dan bonus 10% Fusion DMG (20% dengan 3 Resonator Fusion)\n> Mengabaikan 3-15% Fusion RES dalam 35 detik setelah melancarkan [Resonance Liberation]\n> Dengan Wildfire Mark (signature weapon Lupa): Bonus 24% Fusion DMG selama 30 detik.\nMornye buff\n> Amplifikasi 25% All-Type DMG selama 30 detik (outro)\n> Peningkatan 20% DEF dan multiplier healing sebesar 40% selama 25 detik saat berada dalam [High Syntony Field], yang mewarisi efek dari [Syntony Field]. Hal ini mencakup ketahanan lebih tinggi terhadap interupsi dan Laju Buildup Off-Tune sebesar 50%\n> Bonus 25% ATK dari set bonus Halo of Starry Radiance\n> Bonus 40% DMG terhadap musuh yang terkena efek [Tune Rupture atau Strain - Interfered], baik melalui S1 miliknya (berlangsung selama 20 detik) maupun Lynae (8 detik).\n> Dengan Starfield Calibrator (signature weapon Mornye): Bonus 20% Crit. DMG selama 4 detik saat melakukan healing\nchangli buff \n> 20% Fusion DMG and 25% Reso Liberation selama 10 detik (outro)",
+    "note": "",
     "characterId": 1205
   },
   {
@@ -304,7 +304,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "quickswap team",
+    "note": "",
     "characterId": 1205
   },
   {
@@ -326,7 +326,7 @@
         "Verina"
       ]
     ],
-    "note": "Cantarella buff\n> Amplifikasi 20% Havoc DMG dan 25% Resonance Skill DMG selama 14 detik (outro)\n> Bonus 15% Havoc DMG dari set bonus Midnight Veil\nzhezhi buff\n> Memulihkan 15 Resonance Energy (outro)\n> Amplifikasi 20% Glacio DMG dan 25% Resonance Skill DMG selama 14 detik (outro)\nbrant buff \n> Fusion DMG 20% dan Resonance Skill DMG 25% selama 14 detik (outro)\nchangli buff \n> 20% Fusion DMG and 25% Reso Liberation selama 10 detik (outro)",
+    "note": "",
     "characterId": 1202
   },
   {
@@ -344,7 +344,7 @@
         "Lupa"
       ]
     ],
-    "note": "changli buff \n> 20% Fusion DMG and 25% Reso Liberation selama 10 detik (outro)\nbrant buff \n> Fusion DMG 20% dan Resonance Skill DMG 25% selama 14 detik (outro)\nLupa buff\n> Amplifikasi 20% Fusion DMG dan 25% Basic Attack DMG selama 14 detik saat melancarkan Intro Skill\n> [Pack Hunt]: Peningkatan 6-18% ATK dan bonus 10% Fusion DMG (20% dengan 3 Resonator Fusion)\n> Mengabaikan 3-15% Fusion RES dalam 35 detik setelah melancarkan [Resonance Liberation]\n> Dengan Wildfire Mark (signature weapon Lupa): Bonus 24% Fusion DMG selama 30 detik.",
+    "note": "",
     "characterId": 1202
   },
   {
@@ -364,7 +364,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "lucilla buff\n> memberikan amplifikasi 60% Glacio Chafe DMG kepada Hiyuki (outro). Karena ia mampu memberikan efek Glacio Chafe secara mandiri, ia dapat memenuhi stack(s) terakhir dari Inherent Skill: Fine Snow milik Hiyuki, yang memberikan amplifikasi tambahan 30% Glacio Bite DMG\nmode Glacio Chafe\n> Penurunan 8% Glacio RES\n> Bonus 37% Glacio DMG dari Wishes of Quiet Snowfall set bonus (12% berasal dari Glammth)\n> Amplifikasi 60% Glacio Chafe DMG selama 30 detik (outro)\nmode Echo\n> Peningkatan 25% Echo Skill DMG selama 30 detik\n> Bonus 40% Crit. DMG pada 4 stacks [Zoom], yang hanya berlaku untuk Resonator aktif\n> Amplifikasi 50% Echo Skill DMG selama 14 detik (outro)\n> Dengan Freeze-Frame (signature weapon Lucilla): Peningkatan 24% ATK selama 30 detik saat memberikan efek Glacio Chafe\nQiuyuan buff\n> Bonus 30% Crit. DMG selama 30 detik saat melancarkan Resonance Liberation\n> Bonus 30% Echo Skill DMG selama 30 detik dari Forte Circuit miliknya\n> Amplifikasi 50% Echo Skill DMG selama 14 detik (outro)\n> Bonus 16% Echo Skill DMG dari set bonus Law of Harmony\n> Dengan Emerald Sentence (signature weapon Qiuyuan): Bonus 20% Echo Skill DMG selama 30 detik setelah melancarkan Intro Skill",
+    "note": "",
     "characterId": 1412
   },
   {
@@ -384,7 +384,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Roccia buff \n> Havoc DMG 20% dan Basic Attack DMG 25% selama 14 detik (outro)\nsanhua buff \n> 38% basic attack selama 14 detik (outro) dan (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali)\nYangyang buff\n> Memulihkan 4 Resonance Energy per detik selama 5 detik (outro)\n> Dengan 56: Peningkatan 20% ATK selama 20 detik\nLupa buff\n> Amplifikasi 20% Fusion DMG dan 25% Basic Attack DMG selama 14 detik saat melancarkan Intro Skill\n> [Pack Hunt]: Peningkatan 6-18% ATK dan bonus 10% Fusion DMG (20% dengan 3 Resonator Fusion)\n> Mengabaikan 3-15% Fusion RES dalam 35 detik setelah melancarkan [Resonance Liberation]\n> Dengan Wildfire Mark (signature weapon Lupa): Bonus 24% Fusion DMG selama 30 detik.",
+    "note": "",
     "characterId": 1203
   },
   {
@@ -403,7 +403,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "quicksweap team",
+    "note": "",
     "characterId": 1203
   },
   {
@@ -421,7 +421,7 @@
         "Suisui"
       ]
     ],
-    "note": "**denia buff**\nmode Fusion Burst\n> Bonus 30% Fusion DMG saat berada dalam status [Entropy Shift]\n> Bonus 37% Fusion DMG dari set bonus Chromatic Foam (12% berasal dari R: Denia)\n> Amplifikasi 60% Fusion Burst DMG selama 30 detik (outro)\nmode Tune Strain\n> Boost 10 Tune Break (total 50 bersama Mornye)\n> Boost 20 Tune Break dari set bonus Reel of Spliced Memories (12% ATK dari Voidwing Moth)\n> Amplifikasi 15% All-Type DMG selama 16 detik (atau 40% untuk unit Strain) (outro)\n> Dengan Forged Dawn Star (signature weapon Denia): Peningkatan 24% ATK selama 15 detik saat Resonator dalam tim memberikan efek FB atau Tune Strain - Shifting\nAemeath buff\n> Amplifikasi 10% ALL-DMG selama 20 detik (outro)\n> Efek ini meningkat menjadi amplifikasi 20% untuk Resonator yang mampu memberikan efek Shifting atau Fusion Burst\nChisa buff\n> Meningkatkan batas maksimal stack(s) Negative Statuses sebesar 3 selama 15 detik\n> Penurunan 12% DEF dari Havoc Bane, pengabaian 18% DEF dari Forte\n> Dengan Kumokiri (signature weapon Chisa): Bonus 24% All-Attribute DMG selama 15 detik saat Resonator dalam tim memberikan efek Negative Statuses\nSuisui buff\n> Meningkatkan batas maksimal stack(s) Negative Statuses kecuali Havoc Bane sebesar 3 selama 15 detik\n> Mengonsumsi stack(s) Havoc Bane memberikan pengabaian 6% DEF dan pengabaian 12% Havoc RES untuk DMG Havoc yang bersangkutan selama 30 detik setelah skill di casting\n> Bonus 50% ATK untuk konsumen Negative Statuses (misalnya Yangyang: Xuanling, Hiyuki)\n> Bonus 12% DMG saat berada dalam status [Roaming Transcendent]\n> Amplifikasi 25% DMG selama 30 detik (outro)\n> Dengan Firstland's Herald (signature weapon Suisui): Bonus 20% ATK saat ia memiliki Snow Taint dan Ripples secara bersamaan (dengan memberikan efek Glacio Chafe dan melakukan healing)",
+    "note": "",
     "characterId": 1210
   },
   {
@@ -441,7 +441,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "brant buff \n> Fusion DMG 20% dan Resonance Skill DMG 25% selama 14 detik (outro)\nLupa buff\n> Amplifikasi 20% Fusion DMG dan 25% Basic Attack DMG selama 14 detik saat melancarkan Intro Skill\n> [Pack Hunt]: Peningkatan 6-18% ATK dan bonus 10% Fusion DMG (20% dengan 3 Resonator Fusion)\n> Mengabaikan 3-15% Fusion RES dalam 35 detik setelah melancarkan [Resonance Liberation]\n> Dengan Wildfire Mark (signature weapon Lupa): Bonus 24% Fusion DMG selama 30 detik.\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1208
   },
   {
@@ -459,7 +459,7 @@
         "Mornye"
       ]
     ],
-    "note": "lucilla buff\n> memberikan amplifikasi 60% Glacio Chafe DMG kepada Hiyuki (outro). Karena ia mampu memberikan efek Glacio Chafe secara mandiri, ia dapat memenuhi stack(s) terakhir dari Inherent Skill: Fine Snow milik Hiyuki, yang memberikan amplifikasi tambahan 30% Glacio Bite DMG\nmode Glacio Chafe\n> Penurunan 8% Glacio RES\n> Bonus 37% Glacio DMG dari Wishes of Quiet Snowfall set bonus (12% berasal dari Glammth)\n> Amplifikasi 60% Glacio Chafe DMG selama 30 detik (outro)\nmode Echo\n> Peningkatan 25% Echo Skill DMG selama 30 detik\n> Bonus 40% Crit. DMG pada 4 stacks [Zoom], yang hanya berlaku untuk Resonator aktif\n> Amplifikasi 50% Echo Skill DMG selama 14 detik (outro)\n> Dengan Freeze-Frame (signature weapon Lucilla): Peningkatan 24% ATK selama 30 detik saat memberikan efek Glacio Chafe\nChisa buff\n> Meningkatkan batas maksimal stack(s) Negative Statuses sebesar 3 selama 15 detik\n> Penurunan 12% DEF dari Havoc Bane, pengabaian 18% DEF dari Forte\n> Dengan Kumokiri (signature weapon Chisa): Bonus 24% All-Attribute DMG selama 15 detik saat Resonator dalam tim memberikan efek Negative Statuses\nMornye buff\n> Amplifikasi 25% All-Type DMG selama 30 detik (outro)\n> Peningkatan 20% DEF dan multiplier healing sebesar 40% selama 25 detik saat berada dalam [High Syntony Field], yang mewarisi efek dari [Syntony Field]. Hal ini mencakup ketahanan lebih tinggi terhadap interupsi dan Laju Buildup Off-Tune sebesar 50%\n> Bonus 25% ATK dari set bonus Halo of Starry Radiance\n> Bonus 40% DMG terhadap musuh yang terkena efek [Tune Rupture atau Strain - Interfered], baik melalui S1 miliknya (berlangsung selama 20 detik) maupun Lynae (8 detik).\n> Dengan Starfield Calibrator (signature weapon Mornye): Bonus 20% Crit. DMG selama 4 detik saat melakukan healing",
+    "note": "",
     "characterId": 1108
   },
   {
@@ -477,7 +477,7 @@
         "Mornye"
       ]
     ],
-    "note": "sanhua buff \n> 38% basic attack selama 14 detik (outro) dan (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali)\nrebecca buff \n> 35% Heavy DMG dan 20% ATK saat melancarkan Resonance Liberation [Party 'Til Dawn!]\nMornye buff\n> Amplifikasi 25% All-Type DMG selama 30 detik (outro)\n> Peningkatan 20% DEF dan multiplier healing sebesar 40% selama 25 detik saat berada dalam [High Syntony Field], yang mewarisi efek dari [Syntony Field]. Hal ini mencakup ketahanan lebih tinggi terhadap interupsi dan Laju Buildup Off-Tune sebesar 50%\n> Bonus 25% ATK dari set bonus Halo of Starry Radiance\n> Bonus 40% DMG terhadap musuh yang terkena efek [Tune Rupture atau Strain - Interfered], baik melalui S1 miliknya (berlangsung selama 20 detik) maupun Lynae (8 detik).\n> Dengan Starfield Calibrator (signature weapon Mornye): Bonus 20% Crit. DMG selama 4 detik saat melakukan healing\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1308
   },
   {
@@ -495,7 +495,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Disarankan untuk menggunakan Moonlit Clouds pada Rebecca karena menghasilkan team DPS yang lebih besar, terutama jika Lucy milikmu memiliki investasi yang lebih tinggi.\n\nRebecca buff\n> Peningkatan 20% ATK selama 30 detik saat melancarkan Resonance Liberation [Party 'Til Dawn!]\n> Boost 30 Tune Break untuk Lucy\n> Amplifikasi 15% All-DMG selama 14 detik (outro), di mana Resonator yang masuk selanjutnya dapat memperoleh amplifikasi Heavy Attack DMG hingga 35% pada stack(s) penuh. Efek ini berlaku otomatis jika Resonator tersebut adalah Lucy\n> Memanggil turret yang menyerang terus-menerus selama 14 detik, yang dapat ditingkatkan lebih lanjut oleh Lucy, meningkatkan Damage Multiplier-nya sebesar 250%\n> Dengan Skull Trasher (signature weapon Rebecca): Peningkatan 24% ATK selama 30 detik saat memberikan efek Hack - Shifting\nLupa buff\n> Amplifikasi 20% Fusion DMG dan 25% Basic Attack DMG selama 14 detik saat melancarkan Intro Skill\n> [Pack Hunt]: Peningkatan 6-18% ATK dan bonus 10% Fusion DMG (20% dengan 3 Resonator Fusion)\n> Mengabaikan 3-15% Fusion RES dalam 35 detik setelah melancarkan [Resonance Liberation]\n> Dengan Wildfire Mark (signature weapon Lupa): Bonus 24% Fusion DMG selama 30 detik.\nMornye buff\n> Amplifikasi 25% All-Type DMG selama 30 detik (outro)\n> Peningkatan 20% DEF dan multiplier healing sebesar 40% selama 25 detik saat berada dalam [High Syntony Field], yang mewarisi efek dari [Syntony Field]. Hal ini mencakup ketahanan lebih tinggi terhadap interupsi dan Laju Buildup Off-Tune sebesar 50%\n> Bonus 25% ATK dari set bonus Halo of Starry Radiance\n> Bonus 40% DMG terhadap musuh yang terkena efek [Tune Rupture atau Strain - Interfered], baik melalui S1 miliknya (berlangsung selama 20 detik) maupun Lynae (8 detik).\n> Dengan Starfield Calibrator (signature weapon Mornye): Bonus 20% Crit. DMG selama 4 detik saat melakukan healing\n",
+    "note": "",
     "characterId": 1308
   },
   {
@@ -512,7 +512,7 @@
         "Suisui"
       ]
     ],
-    "note": "Chisa buff\n> Meningkatkan batas maksimal stack(s) Negative Statuses sebesar 3 selama 15 detik\n> Penurunan 12% DEF dari Havoc Bane, pengabaian 18% DEF dari Forte\n> Dengan Kumokiri (signature weapon Chisa): Bonus 24% All-Attribute DMG selama 15 detik saat Resonator dalam tim memberikan efek Negative Statuses\nSuisui buff\n> Meningkatkan batas maksimal stack(s) Negative Statuses kecuali Havoc Bane sebesar 3 selama 15 detik\n> Mengonsumsi stack(s) Havoc Bane memberikan pengabaian 6% DEF dan pengabaian 12% Havoc RES untuk DMG Havoc yang bersangkutan selama 30 detik setelah skill di casting\n> Bonus 50% ATK untuk konsumen Negative Statuses (misalnya Yangyang: Xuanling, Hiyuki)\n> Bonus 12% DMG saat berada dalam status [Roaming Transcendent]\n> Amplifikasi 25% DMG selama 30 detik (outro)\n> Dengan Firstland's Herald (signature weapon Suisui): Bonus 20% ATK saat ia memiliki Snow Taint dan Ripples secara bersamaan (dengan memberikan efek Glacio Chafe dan melakukan healing)\n",
+    "note": "",
     "characterId": 1610
   },
   {
@@ -532,7 +532,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "sanhua buff \n> 38% basic attack selama 14 detik (outro) dan (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali)\ndanjin buff \n> Havoc DMG 23% selama 14 detik (outro)\nRoccia buff \n> Havoc DMG 20% dan Basic Attack DMG 25% selama 14 detik (outro)\nCantarella buff\n> Amplifikasi 20% Havoc DMG dan 25% Resonance Skill DMG selama 14 detik (outro)\n> Bonus 15% Havoc DMG dari set bonus Midnight Veil\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1605
   },
   {
@@ -550,7 +550,7 @@
         "Chisa"
       ]
     ],
-    "note": "Karena Lynae dapat memberikan 25% Res. Liberation Amplify setelah melancarkan Outro Skill miliknya beserta buff kuat lainnya, ia tetap menjadi alternatif yang kuat untuk Lucilla.\nNamun, Hiyuki tidak akan dapat memberikan stack(s) terakhir dari Snow Rust sehingga tidak mampu meningkatkan Glacio Bite DMG sebesar 30%.\n\nLynae buff\n> Amplifikasi 15% ALL-DMG & 25% Resonance Liberation selama 14 (outro)\n> Bonus 24% All-DMG selama 30 detik saat melancarkan Resonance Liberation [Prismatic Overblast]\n> Bonus 30% ATK dari set bonus Pact of Neonlight Leap\n> Bonus 10% All-Attribute DMG selama 15 detik dari Hyvatia\n> Boost 40 Tune Break dari Forte Circuit miliknya\n> Dengan Spectrum Blaster (signature weapon Lynae): Semua All-DMG yang ditimbulkan meningkat sebesar 24% selama 30 detik saat memberikan efek [Tune Rupture atau Strain - Shifting] selama bassic attacknya\nzhezhi buff\n> Memulihkan 15 Resonance Energy (outro)\n> Amplifikasi 20% Glacio DMG dan 25% Resonance Skill DMG selama 14 detik (outro)",
+    "note": "",
     "characterId": 1108
   },
   {
@@ -567,7 +567,7 @@
         "Aero Rover"
       ]
     ],
-    "note": "Luno buff\n> amplifikasi 50% Heavy DMG selama 14 detik (outro)\n> Amplifikasi 40% ALL-DMG selama 10 detik saat mendapatkan Shield di dalam [Full Moon Domain], yang hanya berlaku untuk Augusta atau Luno sebagai Main DPS",
+    "note": "",
     "characterId": 1410
   },
   {
@@ -625,7 +625,7 @@
         "Verina"
       ]
     ],
-    "note": "zhezhi buff\n> Memulihkan 15 Resonance Energy (outro)\n> Amplifikasi 20% Glacio DMG dan 25% Resonance Skill DMG selama 14 detik (outro)\nCantarella buff\n> Amplifikasi 20% Havoc DMG dan 25% Resonance Skill DMG selama 14 detik (outro)\n> Bonus 15% Havoc DMG dari set bonus Midnight Veil\nBuling buff\n> Amplifikasi 15% DMG selama 30 detik (outro)\n> Bonus 25% Resonance Skill DMG selama 24 detik\n> Dengan S6: Bonus 50% Resonance Skill DMG (menggantikan bonus 25% sebelumnya) untuk Resonator aktif\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1304
   },
   {
@@ -643,7 +643,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Yinlin mampu memberikan Coordinated ATKs kepada Jinhsi, yang dibutuhkan Jinhsi untuk mengisi Forte Gauge miliknya. Selain itu, Yinlin memberikan Liberation DMG Amplify.",
+    "note": "",
     "characterId": 1302
   },
   {
@@ -660,7 +660,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "mortefi buff 38% heavy attack selama 14 detik (+ s6 nya setelah ulti memberi buff ATK 20% selama 20 detik).",
+    "note": "",
     "characterId": 1404
   },
   {
@@ -681,7 +681,7 @@
         "Aero Rover"
       ]
     ],
-    "note": "Ciaccona buff\n> Bonus 24% Aero DMG dari [Ensemble Sylphs] miliknya\n> Bonus 15% Aero DMG dari set bonus Gusts of Welkin\n> Amplifikasi 100% Aero Erosion selama 30 detik (outro)\n> Dengan Woodland Aria (signature weapon Ciaccona): Reduksi 10% Aero RES selama 20 detik\nLuno buff\n> amplifikasi 50% Heavy DMG selama 14 detik (outro)\n> Amplifikasi 40% ALL-DMG selama 10 detik saat mendapatkan Shield di dalam [Full Moon Domain], yang hanya berlaku untuk Augusta atau Luno sebagai Main DPS\nRover: Aero buff\n> Meningkatkan batas maksimal stack(s) Aero Erosion sebesar 3 selama 10 detik (outro)\n> Dengan Bloodpact's Pledge: Amplifikasi 10% Aero DMG selama 30 detik saat melancarkan [Resonance Skill Unbound Flow]\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1404
   },
   {
@@ -699,7 +699,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "sanhua buff \n> 38% basic attack selama 14 detik (outro) dan (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali)\nzhezhi buff\n> Memulihkan 15 Resonance Energy (outro)\n> Amplifikasi 20% Glacio DMG dan 25% Resonance Skill DMG selama 14 detik (outro)\nlucilla buff\n> memberikan amplifikasi 60% Glacio Chafe DMG kepada Hiyuki (outro). Karena ia mampu memberikan efek Glacio Chafe secara mandiri, ia dapat memenuhi stack(s) terakhir dari Inherent Skill: Fine Snow milik Hiyuki, yang memberikan amplifikasi tambahan 30% Glacio Bite DMG\nmode Glacio Chafe\n> Penurunan 8% Glacio RES\n> Bonus 37% Glacio DMG dari Wishes of Quiet Snowfall set bonus (12% berasal dari Glammth)\n> Amplifikasi 60% Glacio Chafe DMG selama 30 detik (outro)\nmode Echo\n> Peningkatan 25% Echo Skill DMG selama 30 detik\n> Bonus 40% Crit. DMG pada 4 stacks [Zoom], yang hanya berlaku untuk Resonator aktif\n> Amplifikasi 50% Echo Skill DMG selama 14 detik (outro)\n> Dengan Freeze-Frame (signature weapon Lucilla): Peningkatan 24% ATK selama 30 detik saat memberikan efek Glacio Chafe",
+    "note": "",
     "characterId": 1104
   },
   {
@@ -717,7 +717,7 @@
         "Verina"
       ]
     ],
-    "note": "sanhua buff \n> 38% basic attack selama 14 detik (outro) dan (+ s6 nya buff ATK 10% selama 20 detik, bisa di stack 2 kali)\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1510
   },
   {
@@ -736,7 +736,7 @@
         "Mornye"
       ]
     ],
-    "note": "Karena Lynae dan Denia dapat merespons Tune Strain, batas stacks maksimal meningkat sebesar 1. Meskipun Luuk tidak dapat memanfaatkan Res. Lib Amp miliknya, Lynae tetap memberikan buff kuat lainnya serta Tune Break Boost yang mengamplifikasi damage-nya sebesar 25% dari Inherent Skill: Uncaused Diagnosis. Ia mampu mencapai batas maksimal 30% ini bersama Denia.\nSanhua memberikan amplifikasi 38% Basic ATK saat melancarkan Outro Skill-nya, namun setup F2P ini merupakan kerugian besar dibandingkan menggunakan Denia atau Lynae.\n\ndenia buff\nmode Fusion Burst\n> Bonus 30% Fusion DMG saat berada dalam status [Entropy Shift]\n> Bonus 37% Fusion DMG dari set bonus Chromatic Foam (12% berasal dari R: Denia)\n> Amplifikasi 60% Fusion Burst DMG selama 30 detik (outro)\nmode Tune Strain\n> Boost 10 Tune Break (total 50 bersama Mornye)\n> Boost 20 Tune Break dari set bonus Reel of Spliced Memories (12% ATK dari Voidwing Moth)\n> Amplifikasi 15% All-Type DMG selama 16 detik (atau 40% untuk unit Strain) (outro)\n> Dengan Forged Dawn Star (signature weapon Denia): Peningkatan 24% ATK selama 15 detik saat Resonator dalam tim memberikan efek FB atau Tune Strain - Shifting\nLynae buff\n> Amplifikasi 15% ALL-DMG & 25% Resonance Liberation selama 14 (outro)\n> Bonus 24% All-DMG selama 30 detik saat melancarkan Resonance Liberation [Prismatic Overblast]\n> Bonus 30% ATK dari set bonus Pact of Neonlight Leap\n> Bonus 10% All-Attribute DMG selama 15 detik dari Hyvatia\n> Boost 40 Tune Break dari Forte Circuit miliknya\n> Dengan Spectrum Blaster (signature weapon Lynae): Semua All-DMG yang ditimbulkan meningkat sebesar 24% selama 30 detik saat memberikan efek [Tune Rupture atau Strain - Shifting] selama bassic attacknya\nMornye buff\n> Amplifikasi 25% All-Type DMG selama 30 detik (outro)\n> Peningkatan 20% DEF dan multiplier healing sebesar 40% selama 25 detik saat berada dalam [High Syntony Field], yang mewarisi efek dari [Syntony Field]. Hal ini mencakup ketahanan lebih tinggi terhadap interupsi dan Laju Buildup Off-Tune sebesar 50%\n> Bonus 25% ATK dari set bonus Halo of Starry Radiance\n> Bonus 40% DMG terhadap musuh yang terkena efek [Tune Rupture atau Strain - Interfered], baik melalui S1 miliknya (berlangsung selama 20 detik) maupun Lynae (8 detik).\n> Dengan Starfield Calibrator (signature weapon Mornye): Bonus 20% Crit. DMG selama 4 detik saat melakukan healing",
+    "note": "",
     "characterId": 1510
   },
   {
@@ -756,7 +756,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Lynae dan Mornye memiliki Tune Break synergy yang kuat dan mampu mencapai batas maksimal buff Crit. DMG serta DMG Amp dari Inherent Skill milik Aemeath: Between the Stars.\nDalam tim ini, kamu pakai dia di mode Rupture.\n\nLynae buff\n> Amplifikasi 15% ALL-DMG & 25% Resonance Liberation selama 14 (outro)\n> Bonus 24% All-DMG selama 30 detik saat melancarkan Resonance Liberation [Prismatic Overblast]\n> Bonus 30% ATK dari set bonus Pact of Neonlight Leap\n> Bonus 10% All-Attribute DMG selama 15 detik dari Hyvatia\n> Boost 40 Tune Break dari Forte Circuit miliknya\n> Dengan Spectrum Blaster (signature weapon Lynae): Semua All-DMG yang ditimbulkan meningkat sebesar 24% selama 30 detik saat memberikan efek [Tune Rupture atau Strain - Shifting] selama bassic attacknya\nMornye buff\n> Amplifikasi 25% All-Type DMG selama 30 detik (outro)\n> Peningkatan 20% DEF dan multiplier healing sebesar 40% selama 25 detik saat berada dalam [High Syntony Field], yang mewarisi efek dari [Syntony Field]. Hal ini mencakup ketahanan lebih tinggi terhadap interupsi dan Laju Buildup Off-Tune sebesar 50%\n> Bonus 25% ATK dari set bonus Halo of Starry Radiance\n> Bonus 40% DMG terhadap musuh yang terkena efek [Tune Rupture atau Strain - Interfered], baik melalui S1 miliknya (berlangsung selama 20 detik) maupun Lynae (8 detik).\n> Dengan Starfield Calibrator (signature weapon Mornye): Bonus 20% Crit. DMG selama 4 detik saat melakukan healing",
+    "note": "",
     "characterId": 1210
   },
   {
@@ -776,7 +776,7 @@
         "Jianxin"
       ]
     ],
-    "note": "Luno buff\n> amplifikasi 50% Heavy DMG selama 14 detik (outro)\n> Amplifikasi 40% ALL-DMG selama 10 detik saat mendapatkan Shield di dalam [Full Moon Domain], yang hanya berlaku untuk Augusta atau Luno sebagai Main DPS\nCiaccona buff\n> Bonus 24% Aero DMG dari [Ensemble Sylphs] miliknya\n> Bonus 15% Aero DMG dari set bonus Gusts of Welkin\n> Amplifikasi 100% Aero Erosion selama 30 detik (outro)\n> Dengan Woodland Aria (signature weapon Ciaccona): Reduksi 10% Aero RES selama 20 detik\nRover: Aero buff\n> Meningkatkan batas maksimal stack(s) Aero Erosion sebesar 3 selama 10 detik (outro)\n> Dengan Bloodpact's Pledge: Amplifikasi 10% Aero DMG selama 30 detik saat melancarkan [Resonance Skill Unbound Flow]",
+    "note": "",
     "characterId": 1404
   },
   {
@@ -796,7 +796,7 @@
         "Cantarella"
       ]
     ],
-    "note": "danjin buff \n> Havoc DMG 23% selama 14 detik (outro)\nCantarella buff\n> Amplifikasi 20% Havoc DMG dan 25% Resonance Skill DMG selama 14 detik (outro)\n> Bonus 15% Havoc DMG dari set bonus Midnight Veil\nRoccia buff \n> Havoc DMG 20% dan Basic Attack DMG 25% selama 14 detik (outro)\n",
+    "note": "",
     "characterId": 1605
   },
   {
@@ -833,7 +833,7 @@
         "Chisa"
       ]
     ],
-    "note": "Phoebe (Absolution1) tidak mampu menghasilkan stacks Spectro Frazzle yang memadai secara mandiri, sehingga ia dipasangkan dengan Rover: Spectro. Rover: Spectro dapat berperan sebagai Dual DPS (set Eternal Radiance) atau buffer (set Moonlit Clouds).\n\nChisa buff\n> Meningkatkan batas maksimal stack(s) Negative Statuses sebesar 3 selama 15 detik\n> Penurunan 12% DEF dari Havoc Bane, pengabaian 18% DEF dari Forte\n> Dengan Kumokiri (signature weapon Chisa): Bonus 24% All-Attribute DMG selama 15 detik saat Resonator dalam tim memberikan efek Negative Statuses\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1506
   },
   {
@@ -851,7 +851,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Phrolova meningkatkan Roccia (Havoc & Heavy). Danjin memberikan Phrolova 23% Havoc DMG Amplify setelah melancarkan Outro Skill miliknya, berfungsi sebagai pasangan bintang 4 terbaik bagi Phrolova. Sebagai alternatif, Phrolova dapat dipasangkan dengan Rover: Havoc - meskipun mereka secara inheren tidak memberikan buff apa pun kepada Phrolova, mereka dapat memanfaatkan buff Outro milik Phrolova.\nSlot ketiga dapat diisi oleh healer mana pun, seperti Shorekeeper, Buling, atau Verina.\n\nCantarella buff\n> Amplifikasi 20% Havoc DMG dan 25% Resonance Skill DMG selama 14 detik (outro)\n> Bonus 15% Havoc DMG dari set bonus Midnight Veil\nRoccia buff \n> Havoc DMG 20% dan Basic Attack DMG 25% selama 14 detik (outro)\nShorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 1608
   },
   {
@@ -869,7 +869,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Cantarella memberikan buff berikut kepada rekan timnya:\n> Amplifikasi 20% Havoc DMG dan 25% Resonance Skill DMG selama 14 detik saat melancarkan Outro Skill\n> Bonus 15% Havoc DMG dari set bonus Midnight Veil.\n\nRoccia buff Havoc DMG 20% dan Basic Attack DMG 25% selama 14 detik",
+    "note": "",
     "characterId": 1608
   },
   {
@@ -886,7 +886,7 @@
         "Iuno"
       ]
     ],
-    "note": "Ciaccona buff\n> Bonus 24% Aero DMG dari [Ensemble Sylphs] miliknya\n> Bonus 15% Aero DMG dari set bonus Gusts of Welkin\n> Amplifikasi 100% Aero Erosion selama 30 detik (outro)\n> Dengan Woodland Aria (signature weapon Ciaccona): Reduksi 10% Aero RES selama 20 detik\nLuno buff\n> amplifikasi 50% Heavy DMG selama 14 detik (outro)\n> Amplifikasi 40% ALL-DMG selama 10 detik saat mendapatkan Shield di dalam [Full Moon Domain], yang hanya berlaku untuk Augusta atau Luno sebagai Main DPS",
+    "note": "",
     "characterId": 1411
   },
   {
@@ -905,7 +905,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "quickswap team",
+    "note": "",
     "characterId": 1301
   },
   {
@@ -918,7 +918,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Shorekeeper buff\n> Amplifikasi 15% DMG (outro)\n> Bonus 12,5 CR & 25 CD dari [Stellarealm] pada maksimal 250 ER\n> Dengan Stellar Symphony (signature weapon Shorekeeper): Peningkatan 14% ATK selama 30 detik",
+    "note": "",
     "characterId": 0
   },
   {
@@ -938,7 +938,7 @@
         "Verina"
       ]
     ],
-    "note": "Taoqi dapat memberikan Resonator berikut 38% Res. Skill Amplify ",
+    "note": "",
     "characterId": 1107
   },
   {
@@ -959,7 +959,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Lynae buff\n> Amplifikasi 15% ALL-DMG & 25% Resonance Liberation selama 14 (outro)\n> Bonus 24% All-DMG selama 30 detik saat melancarkan Resonance Liberation [Prismatic Overblast]\n> Bonus 30% ATK dari set bonus Pact of Neonlight Leap\n> Bonus 10% All-Attribute DMG selama 15 detik dari Hyvatia\n> Boost 40 Tune Break dari Forte Circuit miliknya\n> Dengan Spectrum Blaster (signature weapon Lynae): Semua All-DMG yang ditimbulkan meningkat sebesar 24% selama 30 detik saat memberikan efek [Tune Rupture atau Strain - Shifting] selama bassic attacknya\nmode Fusion Burst\n> Bonus 30% Fusion DMG saat berada dalam status [Entropy Shift]\n> Bonus 37% Fusion DMG dari set bonus Chromatic Foam (12% berasal dari R: Denia)\n> Amplifikasi 60% Fusion Burst DMG selama 30 detik (outro)\nmode Tune Strain\n> Boost 10 Tune Break (total 50 bersama Mornye)\n> Boost 20 Tune Break dari set bonus Reel of Spliced Memories (12% ATK dari Voidwing Moth)\n> Amplifikasi 15% All-Type DMG selama 16 detik (atau 40% untuk unit Strain) (outro)\n> Dengan Forged Dawn Star (signature weapon Denia): Peningkatan 24% ATK selama 15 detik saat Resonator dalam tim memberikan efek FB atau Tune Strain - Shifting\nMornye buff\n> Amplifikasi 25% All-Type DMG selama 30 detik (outro)\n> Peningkatan 20% DEF dan multiplier healing sebesar 40% selama 25 detik saat berada dalam [High Syntony Field], yang mewarisi efek dari [Syntony Field]. Hal ini mencakup ketahanan lebih tinggi terhadap interupsi dan Laju Buildup Off-Tune sebesar 50%\n> Bonus 25% ATK dari set bonus Halo of Starry Radiance\n> Bonus 40% DMG terhadap musuh yang terkena efek [Tune Rupture atau Strain - Interfered], baik melalui S1 miliknya (berlangsung selama 20 detik) maupun Lynae (8 detik).\n> Dengan Starfield Calibrator (signature weapon Mornye): Bonus 20% Crit. DMG selama 4 detik saat melakukan healing",
+    "note": "",
     "characterId": 1210
   },
   {
@@ -972,7 +972,7 @@
         "Verina"
       ]
     ],
-    "note": "Verina buff\n> Amplifikasi 15% All-Type DMG selama 30 detik (outro)\n> Peningkatan 20% ATK selama 20 detik",
+    "note": "",
     "characterId": 0
   },
   {
@@ -990,7 +990,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Yinlin buff \n> Electro DMG 20% and Resonance Liberation DMG 25% selama 14 detik (outro)\nLynae buff\n> Amplifikasi 15% ALL-DMG & 25% Resonance Liberation selama 14 (outro)\n> Bonus 24% All-DMG selama 30 detik saat melancarkan Resonance Liberation [Prismatic Overblast]\n> Bonus 30% ATK dari set bonus Pact of Neonlight Leap\n> Bonus 10% All-Attribute DMG selama 15 detik dari Hyvatia\n> Boost 40 Tune Break dari Forte Circuit miliknya\n> Dengan Spectrum Blaster (signature weapon Lynae): Semua All-DMG yang ditimbulkan meningkat sebesar 24% selama 30 detik saat memberikan efek [Tune Rupture atau Strain - Shifting] selama bassic attacknya",
+    "note": "",
     "characterId": 1305
   },
   {
@@ -1009,7 +1009,7 @@
         "Chisa"
       ]
     ],
-    "note": "Rebecca buff\n> Peningkatan 20% ATK selama 30 detik saat melancarkan Resonance Liberation [Party 'Til Dawn!]\n> Boost 30 Tune Break untuk Lucy\n> Amplifikasi 15% All-DMG selama 14 detik (outro), di mana Resonator yang masuk selanjutnya dapat memperoleh amplifikasi Heavy Attack DMG hingga 35% pada stack(s) penuh. Efek ini berlaku otomatis jika Resonator tersebut adalah Lucy\n> Memanggil turret yang menyerang terus-menerus selama 14 detik, yang dapat ditingkatkan lebih lanjut oleh Lucy, meningkatkan Damage Multiplier-nya sebesar 250%\n> Dengan Skull Trasher (signature weapon Rebecca): Peningkatan 24% ATK selama 30 detik saat memberikan efek Hack - Shifting\nLynae buff\n> Amplifikasi 15% ALL-DMG & 25% Resonance Liberation selama 14 (outro)\n> Bonus 24% All-DMG selama 30 detik saat melancarkan Resonance Liberation [Prismatic Overblast]\n> Bonus 30% ATK dari set bonus Pact of Neonlight Leap\n> Bonus 10% All-Attribute DMG selama 15 detik dari Hyvatia\n> Boost 40 Tune Break dari Forte Circuit miliknya\n> Dengan Spectrum Blaster (signature weapon Lynae): Semua All-DMG yang ditimbulkan meningkat sebesar 24% selama 30 detik saat memberikan efek [Tune Rupture atau Strain - Shifting] selama bassic attacknya",
+    "note": "",
     "characterId": 1610
   },
   {
@@ -1026,7 +1026,7 @@
         ""
       ]
     ],
-    "note": "Yangyang buff\n> Memulihkan 4 Resonance Energy per detik selama 5 detik (outro)\n> Dengan 56: Peningkatan 20% ATK selama 20 detik",
+    "note": "",
     "characterId": 0
   },
   {
@@ -1043,7 +1043,7 @@
         "Youhu"
       ]
     ],
-    "note": "Youhu buff\n> Amplifikasi 100% Coordinated Attack DMG selama 28 detik (outro)",
+    "note": "",
     "characterId": 0
   },
   {
@@ -1062,7 +1062,7 @@
         "Shorekeeper"
       ]
     ],
-    "note": "Phoebe (Confession1) adalah rekan tim terbaik (best in slot) bagi Zani, memberikan Zani stack Spectro Frazzle, Amplify, dan pengurangan Spectro RES\n\nChisa buff\n> Meningkatkan batas maksimal stack(s) Negative Statuses sebesar 3 selama 15 detik\n> Penurunan 12% DEF dari Havoc Bane, pengabaian 18% DEF dari Forte\n> Dengan Kumokiri (signature weapon Chisa): Bonus 24% All-Attribute DMG selama 15 detik saat Resonator dalam tim memberikan efek Negative Statuses",
+    "note": "",
     "characterId": 1507
   }
 ]
