@@ -1,0 +1,232 @@
+{
+  "id": 0,
+  "name": "Aalto",
+  "recommendedStats": {
+    "Crit Rate (CR Cost 4)": "94.50%",
+    "Crit Damage": "229.00%",
+    "ER": "122.00%",
+    "Total ATK (ATK/ELE)": "2255.777"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Glint Of Clouds",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "2,079,448.68 - 100.09% (44111)",
+          "sonataCustom": [
+            {
+              "name": "Heart Of Evil'S Purge",
+              "set": 2
+            }
+          ],
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": "effigy",
+          "echoSlugSecondary": ""
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "ATK%",
+        "Heavy Attack DMG%",
+        "Reso Libe DMG%",
+        "Basic Attack DMG%"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "Glint of Clouds",
+        "percentage": "125.35%",
+        "rank": ""
+      },
+      {
+        "id": "Red Spring",
+        "percentage": "102.19%",
+        "rank": ""
+      },
+      {
+        "id": "Emerald of Genesis",
+        "percentage": "100.00%",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Intro Skill",
+        "Resonance Skill"
+      ],
+      "note": ""
+    },
+    "teams": [
+      "qingxiao-hypercarry",
+      "qingxiao-alternatif",
+      "lynae-sub-dps",
+      "mono-aero",
+      "tune-team"
+    ],
+    "teamNote": ""
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Glint Of Clouds",
+          "value": 2077550.27,
+          "imagePath": "",
+          "percentage": 125.35
+        },
+        {
+          "type": "Red Spring",
+          "value": 1693677.85,
+          "imagePath": "",
+          "percentage": 102.19
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 1657422.55,
+          "imagePath": "",
+          "percentage": 100
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Qingxiao",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Heavy",
+          "value": 34.2,
+          "imagePath": "",
+          "percentage": 34.2
+        },
+        {
+          "type": "Basic Attack",
+          "value": 23.8,
+          "imagePath": "",
+          "percentage": 23.8
+        },
+        {
+          "type": "Reso Libe",
+          "value": 31.3,
+          "imagePath": "",
+          "percentage": 31.3
+        },
+        {
+          "type": "Outro",
+          "value": 6,
+          "imagePath": "",
+          "percentage": 6
+        },
+        {
+          "type": "Echo",
+          "value": 2.1,
+          "imagePath": "",
+          "percentage": 2.1
+        },
+        {
+          "type": "Reso Skill",
+          "value": 1.3,
+          "imagePath": "",
+          "percentage": 1.3
+        },
+        {
+          "type": "Intro",
+          "value": 1.2,
+          "imagePath": "",
+          "percentage": 1.2
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Qingxiao",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 2077550.27,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 2352503,
+          "imagePath": "",
+          "percentage": 113.23
+        },
+        {
+          "type": "S2",
+          "value": 2627458.67,
+          "imagePath": "",
+          "percentage": 126.47
+        },
+        {
+          "type": "S3",
+          "value": 3361116.48,
+          "imagePath": "",
+          "percentage": 161.78
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - Qingxiao",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "44111 CR/CD",
+          "value": 2079448.68,
+          "imagePath": "",
+          "percentage": 101.45
+        },
+        {
+          "type": "43311 ATK/ELE",
+          "value": 2077550.27,
+          "imagePath": "",
+          "percentage": 101.36
+        },
+        {
+          "type": "43311 ELE/ELE",
+          "value": 2049641.72,
+          "imagePath": "",
+          "percentage": 100
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Echo Sett - Qingxiao",
+      "layout": "horizontal",
+      "chartType": "polar"
+    }
+  ]
+}

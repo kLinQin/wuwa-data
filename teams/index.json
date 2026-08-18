@@ -746,7 +746,8 @@
       [
         "Aemeath",
         "Iuno",
-        "Carlotta"
+        "Carlotta",
+        "Qingxiao"
       ],
       [
         "Lynae"
@@ -765,7 +766,8 @@
     "members": [
       [
         "Jiyan",
-        "Sigrika"
+        "Sigrika",
+        "Qingxiao"
       ],
       [
         "Iuno",
@@ -873,6 +875,42 @@
     "characterId": 1608
   },
   {
+    "id": "qingxiao-alternatif",
+    "name": "Qingxiao Alternatif",
+    "members": [
+      [
+        "Qingxiao"
+      ],
+      [
+        "Sanhua"
+      ],
+      [
+        "Mornye"
+      ]
+    ],
+    "note": "",
+    "characterId": 1413
+  },
+  {
+    "id": "qingxiao-hypercarry",
+    "name": "Qingxiao Hypercarry",
+    "members": [
+      [
+        "Qingxiao"
+      ],
+      [
+        "Denia",
+        "Lynae",
+        "Ciaccona"
+      ],
+      [
+        "Mornye"
+      ]
+    ],
+    "note": "",
+    "characterId": 1413
+  },
+  {
     "id": "qiuyuan-hypercarry",
     "name": "Qiuyuan Hypercarry",
     "members": [
@@ -947,7 +985,8 @@
     "members": [
       [
         "Aemeath",
-        "Luuk Herssen"
+        "Luuk Herssen",
+        "Qingxiao"
       ],
       [
         "Lynae",
