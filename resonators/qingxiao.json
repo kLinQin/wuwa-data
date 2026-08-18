@@ -1,0 +1,360 @@
+{
+  "id": 1413,
+  "name": "Qingxiao",
+  "element": 4,
+  "rarity": 5,
+  "weapon": 2,
+  "version": "3.6",
+  "lastUpdated": "2026-08-18",
+  "roles": [],
+  "sonatas": [],
+  "changelog": [
+    {
+      "text": "Initial release",
+      "type": "added",
+      "isNew": true,
+      "leaks": false,
+      "time": "2026-08-18"
+    }
+  ],
+  "faction": "",
+  "affiliation": "Jinzhou, Huanglong",
+  "class": "",
+  "image": "/characters/qingxiao.webp",
+  "icon": "/icons/characters/qingxiao.webp",
+  "imageBanner": "/banners/qingxiao-banner.jpeg",
+  "skills": {
+    "basic": {
+      "name": "Strings To Steel",
+      "description": "",
+      "effects": [
+        {
+          "title": "Basic Attack - Stringblade",
+          "description": "Menekan berulang kali atau menahan Normal Attack untuk melakukan hingga 4 serangan berturut-turut, menimbulkan Aero DMG. Basic Attack - Stringblade Stage 1 dan Basic Attack - Stringblade Stage 4 berada dalam Sheathed Stance. Basic Attack - Stringblade Stage 2 dan Basic Attack - Stringblade Stage 3 berada dalam Drawn Stance.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Stringblade",
+          "description": "Saat Qin Heart dan Sword Cadence penuh, Heavy Attack - Stringblade menjadi tersedia. Menahan Normal Attack untuk mengonsumsi STA dan melancarkan skill ini, menimbulkan Aero DMG. Melancarkan skill ini mengonsumsi seluruh Qin Heart dan Sword Cadence serta membawa Qingxiao ke dalam status Ephemeral Transcendence.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Stringblade",
+          "description": "Menekan Normal Attack secara berturut-turut atau menahannya untuk melakukan hingga 3 serangan berturut-turut, menimbulkan Aero DMG. Skill ini berada dalam Drawn Stance. Setelah mendarat dari Mid-air Attack - Stringblade Stage 3, tekan atau tahan Normal Attack dalam waktu tertentu untuk melancarkan Basic Attack - Stringblade Stage 3. Saat berada di udara, Resonance Skill digantikan oleh Mid-air Attack - Stringblade Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Plunging Attack",
+          "description": "Saat berada dalam status Sword Flight, Jump digantikan oleh Plunging Attack. Mengonsumsi STA untuk melakukan Plunging Attack, menimbulkan Aero DMG. Saat berada di luar status Ephemeral Transcendence, tekan Normal Attack dalam waktu tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Stringblade Stage 3.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Stringblade",
+          "description": "Menekan Normal Attack dalam waktu tertentu setelah succesful Dodge untuk menyerang target, menimbulkan Aero DMG. Skill ini berada dalam Drawn Stance. Tekan atau tahan Normal Attack dalam waktu tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Stringblade Stage 4.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sword Glide",
+          "description": "Saat berada di udara, Dodge digantikan oleh Sword Glide.",
+          "isTitleVisible": true
+        }
+      ]
+    },
+    "skill": {
+      "name": "Severing Note",
+      "description": "",
+      "effects": [
+        {
+          "title": "Severing Note: Judgement",
+          "description": "Menimbulkan Aero DMG. Selama skill ini, mendapatkan 45 poin Qin Heart. Saat berada di luar status Ephemeral Transcendence, tekan atau tahan Normal Attack dalam waktu tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Stringblade Stage 4.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Severing Note: Ascendant",
+          "description": "Saat melancarkan Basic Attack - Stringblade Stage 2, Basic Attack - Stringblade Stage 3, atau Dodge Counter - Stringblade, Resonance Skill digantikan oleh Severing Note: Ascendant. Menimbulkan Aero DMG. Skill ini berada dalam Drawn Stance.",
+          "isTitleVisible": true
+        }
+      ]
+    },
+    "liberation": {
+      "name": "Billows Beneath Heaven",
+      "description": "",
+      "effects": [
+        {
+          "title": "",
+          "description": "path: /content/skill-descriptions/resonance-skill.md\n\nMenimbulkan Aero DMG. Dapat dilancarkan di udara saat berada dekat dengan tanah.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    "forte": {
+      "name": "Formless Heart Sword",
+      "description": "",
+      "effects": [
+        {
+          "title": "Ephemeral Transcendence",
+          "description": "Saat Qingxiao berada dalam status Ephemeral Transcendence, Basic Attack - Ephemeral Transcendence dan Dodge Counter - Ephemeral Transcendence menjadi tersedia.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Ephemeral Transcendence",
+          "description": "Menekan berulang kali atau menahan Normal Attack untuk melakukan hingga 4 serangan berturut-turut, menimbulkan Aero DMG. Sebelum Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence tersedia, Damage Multiplier skill ini meningkat sebesar 100%. Dapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Ephemeral Transcendence",
+          "description": "Menekan atau menahan Normal Attack dalam waktu tertentu setelah  successful Dodge untuk menyerang target, menimbulkan Aero DMG. Sebelum Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence tersedia, Damage Multiplier skill ini meningkat sebesar 100%. Dapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence",
+          "description": "Saat Heart Sword Intent penuh, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence menjadi tersedia. Menahan Normal Attack untuk melancarkan skill ini, menimbulkan Aero DMG. Melancarkan skill ini mengonsumsi seluruh Heart Sword Intent dan mengakhiri status Ephemeral Transcendence.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mindlock",
+          "description": "Mindlock bertumpuk hingga 15 kali. Setiap kali Resonator dalam tim memberikan efek Tune Strain - Interfered pada target, berikan 1 tumpukan Mindlock pada target tersebut. Untuk setiap tumpukan Mindlock pada target, DMG yang diterima dari skill Qingxiao berikut diamplifikasi sebesar 2%, dengan tambahan 5% per tumpukan untuk 7 tumpukan pertama:\n- Heavy Attack - Stringblade\n- Basic Attack - Ephemeral Transcendence\n- Dodge Counter - Ephemeral Transcendence\n- Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence\n- Resonance Liberation - Billows Beneath Heaven",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heaven's Clarity",
+          "description": "Saat memasuki pertempuran atau melancarkan Resonance Liberation Billows Beneath Heaven, dapatkan Heaven's Clarity. Saat gerakan Sheathed Stance/Drawn Stance menimbulkan damage, laju perolehan Qin Heart/Sword Cadence meningkat sebesar 100%. Saat melancarkan Heavy Attack - Stringblade, berikan 3 tumpukan Mindlock pada target terdekat dan tingkatkan Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence berikutnya: Damage Multiplier-nya meningkat sebesar 100% serta membangun tambahan Off-Tune Level pada target. B",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Swordlight Ward",
+          "description": "Melancarkan Intro Skill - Tonality Shift atau Heavy Attack - Stringblade memberikan 1 tumpukan Swordlight Ward. Swordlight Ward bertumpuk hingga 1 kali. Saat menerima DMG dari serangan musuh, 1 tumpukan Swordlight Ward dapat dikonsumsi untuk memberikan kekebalan terhadap interupsi dan mengurangi DMG yang diterima sebesar 60% selama 1 detik. Efek ini dapat terpicu sekali per detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sword Flight",
+          "description": "Saat berada dalam status Sword Flight, tahan Jump untuk melompat ke atas dan melesat maju sejauh jarak pendek. Sword Step hanya dapat dilancarkan sekali selama Sword Flight.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sword Step",
+          "description": "Saat berada dalam status Sword Flight, tahan Jump untuk melompat ke atas dan melesat maju sejauh jarak pendek. Sword Step hanya dapat dilancarkan sekali selama Sword Flight.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Qin Heart",
+          "description": "Dapat menampung hingga 100 poin. Menimbulkan damage dengan skill Sheathed Stance memberikan Qin Heart. Qin Heart tidak dapat diperoleh saat berada dalam status Ephemeral Transcendence.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Sword Cadence",
+          "description": "Dapat menampung hingga 100 poin. Menimbulkan damage dengan skill Sheathed Stance memberikan Qin Heart. Qin Heart tidak dapat diperoleh saat berada dalam status Ephemeral Transcendence.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heart Sword Intent",
+          "description": "Dapat menampung hingga 100 poin. Menimbulkan damage dengan Basic Attack - Ephemeral Transcendence atau Dodge Counter - Ephemeral Transcendence memberikan Heart Sword Intent.",
+          "isTitleVisible": true
+        }
+      ]
+    },
+    "inherent": [
+      {
+        "name": "Sea Of Thought, World Of Dust",
+        "effects": [
+          {
+            "title": "Gathered Mind",
+            "description": "Setelah Resonator dalam tim menimbulkan damage pada target, berikan Mindlock setara dengan tumpukan Gathered Mind Qingxiao. Efek ini hanya dapat terpicu 1 kali pada target yang sama. Saat Resonator dalam tim melancarkan Tune Break, jika target memiliki Tune Strain - Shifting, tambahkan 1 tumpukan Tune Strain - Interfered pada target tersebut. Efek ini hanya dapat terpicu 1 kali pada target yang sama. Saat Qingxiao KO, ia tidak lagi dapat memperoleh Gathered Mind, dan efek Gathered Mind yang ada menjadi tidak aktif. Gathered Mind bertumpuk hingga 15 kali dan berlangsung selama 30 detik.",
+            "isTitleVisible": true
+          }
+        ]
+      },
+      {
+        "name": "To Know, To Banish",
+        "effects": [
+          {
+            "title": "",
+            "description": "Skill Qingxiao berikut menimbulkan 2% lebih banyak DMG per tumpukan Mindlock pada target, dengan tambahan 5% per tumpukan untuk 7 tumpukan pertama:\n- Heavy Attack - Stringblade\n- Basic Attack - Ephemeral Transcendence\n- Dodge Counter - Ephemeral Transcendence\n- Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence\n- Resonance Liberation - Billows Beneath Heaven\n\nSetiap kali Resonator dalam tim memberikan efek Tune Strain - Interfered pada target kelas Overlord atau Calamity, tambahkan 1 tumpukan Mindlock pada target tersebut.",
+            "isTitleVisible": false
+          }
+        ]
+      },
+      {
+        "name": "Tune Break - Draw And Sunder",
+        "effects": [
+          {
+            "title": "",
+            "description": "Qingxiao memberikan efek Tune Strain - Shifting pada target setelah menimbulkan damage dengan skill. Setiap skill hanya dapat memicu efek ini sekali untuk target yang sama.\nQingxiao dapat merespons Tune Strain - Interfered.\nMerespons Tune Strain - Interfered: Untuk setiap tumpukan Tune Strain - Interfered pada target, setiap poin Tune Break Boost Qingxiao meningkatkan total DMG yang ditimbulkan Qingxiao pada target tersebut sebesar 0,12%. Saat Qingxiao berada dalam tim, batas maksimal tumpukan Tune Strain - Interfered pada target meningkat sebesar 1.\nSelain itu, saat Off-Tune Level target penuh, Qingxiao dapat melancarkan Tune Break padanya. Saat berada di tanah dan tidak dalam status Ephemeral Transcendence, tekan Normal Attack dalam waktu tertentu setelah melancarkan Tune Break untuk melancarkan Basic Attack - Stringblade Stage 3.",
+            "isTitleVisible": false
+          }
+        ]
+      }
+    ],
+    "intro": {
+      "name": "Tonality Shift",
+      "description": "",
+      "effects": [
+        {
+          "title": "Resonant Chime",
+          "description": "Melancarkan Resonance Skill - Severing Note: Judgement memberikan 30 poin Qin Heart dan menghilangkan Resonant Chime.",
+          "isTitleVisible": true
+        }
+      ]
+    },
+    "outro": {
+      "name": "Lingering Song",
+      "description": "",
+      "effects": [
+        {
+          "title": "",
+          "description": "Menimbulkan Aero DMG sebesar 800% dari ATK Qingxiao.",
+          "isTitleVisible": false
+        }
+      ]
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": "Forged Empyrean's Sigh",
+            "amount": 46
+          },
+          {
+            "item": 63,
+            "amount": 4
+          },
+          {
+            "item": 77,
+            "amount": 12
+          },
+          {
+            "item": 46,
+            "amount": 12
+          },
+          {
+            "item": 30,
+            "amount": 4
+          },
+          {
+            "item": "Blade Blossom",
+            "amount": 60
+          },
+          {
+            "item": 116,
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": 141,
+          "amount": 26
+        },
+        {
+          "item": 63,
+          "amount": 25
+        },
+        {
+          "item": 77,
+          "amount": 28
+        },
+        {
+          "item": 46,
+          "amount": 40
+        },
+        {
+          "item": 30,
+          "amount": 57
+        },
+        {
+          "item": 14,
+          "amount": 25
+        },
+        {
+          "item": 91,
+          "amount": 28
+        },
+        {
+          "item": 104,
+          "amount": 55
+        },
+        {
+          "item": 73,
+          "amount": 67
+        },
+        {
+          "item": 116,
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Like Clouds That Meet And Drift Apart",
+      "effects": [
+        {
+          "title": "",
+          "description": "Crit. Rate meningkat sebesar 16%.\nBatas maksimal tumpukan Swordlight Ward meningkat menjadi 2. Melancarkan Heavy Attack - Stringblade memberikan tambahan 1 tumpukan Swordlight Ward.\nSaat memasuki pertempuran, dapatkan 25 tumpukan Exorcising Seal.\nSetelah Basic Attack - Stringblade, Mid-air Attack - Stringblade, atau Basic Attack - Ephemeral Transcendence menimbulkan damage, jika Qingxiao memiliki Exorcising Seal, hilangkan Exorcising Seal dan picu Juque Perdition, menimbulkan Aero DMG sebesar 400% dari ATK Qingxiao, dianggap sebagai Basic Attack DMG. Efek ini dapat terpicu maksimal sekali per detik. Untuk setiap tumpukan Exorcising Seal yang dihilangkan, target menerima 4% lebih banyak DMG dari Juque Perdition selama 2 detik.\nExorcising Seal bertumpuk hingga 25 kali.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S2",
+      "name": "Like Petals That Fall Without A Sound",
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage Multiplier Heavy Attack - Stringblade meningkat sebesar 40%.\nSetelah memasuki pertempuran, batas maksimal tumpukan Mindlock pada musuh terdekat meningkat menjadi 25.\nBatas maksimal tumpukan Gathered Mind dari Inherent Skill - Sea of Thought, World of Dust meningkat menjadi 25.\nHeaven's Clarity ditingkatkan:\nMelancarkan Heavy Attack - Stringblade kini memberikan 6 tumpukan Mindlock pada target terdekat.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S3",
+      "name": "Dreams Fade, Sword Abides",
+      "effects": [
+        {
+          "title": "",
+          "description": "Crit. DMG Resonance Liberation - Billows Beneath Heaven meningkat sebesar 100%.\nSelama Heavy Attack - Stringblade, dapatkan tumpukan World in Chorus setara dengan jumlah tumpukan Mindlock tertinggi di antara musuh terdekat.\nWorld in Chorus: Setiap tumpukan meningkatkan Damage Multiplier Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence sebesar 3%. World in Chorus dihilangkan setelah melancarkan Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence.\nEfek Gathered Mind dari Inherent Skill - Sea of Thought, World of Dust kini memberikan 2 tumpukan Tune Strain - Interfered.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S4",
+      "name": "Wherever The Road Leads, Side By Side",
+      "effects": [
+        {
+          "title": "",
+          "description": "Setelah Resonator dalam tim memberikan efek Tune Strain - Shifting, ATK mereka meningkat sebesar 20% selama 8 detik.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S5",
+      "name": "Cold Steel That Longs To Warm The Snow",
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage Multiplier Resonance Skill - Severing Note: Judgement meningkat sebesar 100%.\nSaat bergerak dalam Sword Flight, biaya Flight Qi berkurang sebesar 30%.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S6",
+      "name": "Cleanse This Tarnished Age, Till All Runs Clear",
+      "effects": [
+        {
+          "title": "",
+          "description": "Target menerima 40% lebih banyak DMG dari Heavy Attack - Stringblade, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence, Resonance Liberation - Billows Beneath Heaven, dan Juque Perdition milik Qingxiao.\nSelama Heavy Attack - Stringblade, dapatkan tumpukan Exorcising Seal setara dengan jumlah tumpukan Mindlock tertinggi di antara musuh terdekat.\nUntuk setiap tumpukan Mindlock pada target, DMG Juque Perdition yang diterima target diamplifikasi sebesar 2%. 7 tumpukan pertama memberikan tambahan amplifikasi DMG sebesar 5%.\nSaat Inherent Skill - To Know, To Banish terbuka, DMG Juque Perdition pada target dengan Mindlock meningkat sebesar 2% untuk setiap tumpukan Mindlock. 7 tumpukan pertama memberikan tambahan peningkatan DMG sebesar 5%.\n\nEfek respons Qingxiao terhadap Tune Strain - Interfer",
+          "isTitleVisible": false
+        }
+      ]
+    }
+  ]
+}

@@ -63,6 +63,13 @@
     "image": "/icons/materials/Belle_Poppy.webp"
   },
   {
+    "id": 149,
+    "name": "Blade_Blossom",
+    "tier": 0,
+    "description": "source: Supply Pack or Huaxu Apothecary",
+    "image": "/icons/materials/Blade_Blossom.webp"
+  },
+  {
     "id": 10,
     "name": "Blazing_Bone",
     "tier": 5,
@@ -292,6 +299,13 @@
     "tier": 0,
     "description": "No vendor",
     "image": "/icons/materials/Flowborne_Dream.webp"
+  },
+  {
+    "id": 150,
+    "name": "Forged_Empyreans_Sigh",
+    "tier": 5,
+    "description": "source: Calamity Effigy's",
+    "image": "/icons/materials/Forged_Empyreans_Sigh.webp"
   },
   {
     "id": 148,
