@@ -1267,5 +1267,21 @@
     "faction": "Xuanfang Hold",
     "affiliation": "Ministry of War",
     "class": "Natural"
+  },
+  {
+    "id": 1413,
+    "name": "Qingxiao",
+    "element": 4,
+    "rarity": 5,
+    "weapon": 2,
+    "version": "3.6",
+    "lastUpdated": "2026-08-18",
+    "roles": [],
+    "sonatas": [],
+    "image": "/characters/qingxiao.webp",
+    "icon": "/icons/characters/qingxiao.webp",
+    "faction": "",
+    "affiliation": "Jinzhou, Huanglong",
+    "class": ""
   }
 ]

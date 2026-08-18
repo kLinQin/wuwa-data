@@ -1034,5 +1034,19 @@
     "tier": 2,
     "description": "source: Roya Outcasts/Synthesis",
     "image": "/icons/materials/Worn_Exoswarm_Pendant.webp"
+  },
+  {
+    "id": 149,
+    "name": "Blade_Blossom",
+    "tier": 0,
+    "description": "source: Supply Pack or Huaxu Apothecary",
+    "image": "/icons/materials/Blade_Blossom.webp"
+  },
+  {
+    "id": 150,
+    "name": "Forged_Empyreans_Sigh",
+    "tier": 5,
+    "description": "source: Calamity Effigy's",
+    "image": "/icons/materials/Forged_Empyreans_Sigh.webp"
   }
 ]
