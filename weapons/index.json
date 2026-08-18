@@ -1244,5 +1244,33 @@
       462.5,
       18.23
     ]
+  },
+  {
+    "id": 21010076,
+    "slug": "thousandfold-deliverance",
+    "name": "Thousandfold Deliverance",
+    "weaponType": 1,
+    "rarity": 5,
+    "version": "3.6",
+    "image": "/weapons/broadblade/thousandfold-deliverance.webp",
+    "subStat": "HP",
+    "stats": [
+      412.5,
+      72.23
+    ]
+  },
+  {
+    "id": 21020106,
+    "slug": "glint-of-clouds",
+    "name": "Glint of Clouds",
+    "weaponType": 2,
+    "rarity": 5,
+    "version": "3.6",
+    "image": "/weapons/sword/glint-of-clouds.webp",
+    "subStat": "Crit. Rate",
+    "stats": [
+      500,
+      36
+    ]
   }
 ]

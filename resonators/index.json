@@ -1283,5 +1283,21 @@
     "faction": "",
     "affiliation": "Jinzhou, Huanglong",
     "class": ""
+  },
+  {
+    "id": 1212,
+    "name": "Jingran",
+    "element": 2,
+    "rarity": 5,
+    "weapon": 1,
+    "version": "3.6",
+    "lastUpdated": "2026-08-18",
+    "roles": [],
+    "sonatas": [],
+    "image": "/characters/jingran.webp",
+    "icon": "/icons/characters/jingran.webp",
+    "faction": "",
+    "affiliation": "Jinzhou, Huanglong",
+    "class": ""
   }
 ]

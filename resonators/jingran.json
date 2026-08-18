@@ -1,0 +1,360 @@
+{
+  "id": 1212,
+  "name": "Jingran",
+  "element": 2,
+  "rarity": 5,
+  "weapon": 1,
+  "version": "3.6",
+  "lastUpdated": "2026-08-18",
+  "roles": [],
+  "sonatas": [],
+  "changelog": [
+    {
+      "text": "Initial release",
+      "type": "added",
+      "isNew": true,
+      "leaks": false,
+      "time": "2026-08-18"
+    }
+  ],
+  "faction": "",
+  "affiliation": "Jinzhou, Huanglong",
+  "class": "",
+  "image": "/characters/jingran.webp",
+  "icon": "/icons/characters/jingran.webp",
+  "imageBanner": "/banners/jingran-banner.jpeg",
+  "skills": {
+    "basic": {
+      "name": "Edge Of Life And Death",
+      "description": "",
+      "effects": [
+        {
+          "title": "Basic Attack - Drink Soul",
+          "description": "Saat berada dalam status Yin Vessel, lakukan hingga 4 serangan berturut-turut, menimbulkan Fusion DMG. Melancarkan Basic Attack - Drink Soul Stage 3 memulihkan 50 poin Qi, menimbulkan Heavy Attack DMG. Melancarkan Basic Attack - Drink Soul Stage 4 memulihkan 50 poin Qi, menimbulkan Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Basic Attack - Devil's Bane",
+          "description": "Saat berada dalam status Yang Font, lakukan hingga 4 serangan berturut-turut, menimbulkan Fusion DMG. Melancarkan Basic Attack - Devil's Bane Stage 3 memulihkan 50 poin Qi, menimbulkan Heavy Attack DMG. Melancarkan Basic Attack - Devil's Bane Stage 4 memulihkan 50 poin Qi, menimbulkan Heavy Attack DMG.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack",
+          "description": "Mengonsumsi STA untuk melakukan Plunging Attack di udara, menimbulkan Fusion DMG. Saat berada dalam status Yin Vessel, tekan atau tahan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Drink Soul Stage 2. Saat berada dalam status Yang Font, tekan atau tahan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Devil's Bane Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Nether Dive",
+          "description": "Saat berada dalam status Yin Vessel, tekan Normal Attack sesaat setelah Dodge berhasil untuk menyerang target, menimbulkan Fusion DMG. Melancarkan Dodge Counter - Nether Dive memulihkan 100 poin Qi, menimbulkan Heavy Attack DMG. Tekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Drink Soul Stage 4.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Light Watch",
+          "description": "Saat berada dalam status Yang Font, tekan Normal Attack sesaat setelah Dodge berhasil untuk menyerang target, menimbulkan Fusion DMG. Melancarkan Dodge Counter - Light Watch memulihkan 100 poin Qi, menimbulkan Heavy Attack DMG. Tekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Devil's Bane Stage 4.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Shadow Step",
+          "description": "Saat berada dalam pertempuran dan di tanah, tekan Dodge dengan input arah untuk melancarkan Shadow Step, menimbulkan sejumlah tetap Fusion DMG, dianggap sebagai Basic Attack DMG. Instance damage ini tidak terpengaruh oleh efek DMG Bonus apa pun. Dodge berhasil dapat dipicu dalam waktu tertentu selama aksi skill ini. Saat berada dalam status Yin Vessel, tekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Drink Soul Stage 2. Saat berada dalam status Yang Font, tekan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Devil's Bane Stage 2.",
+          "isTitleVisible": true
+        }
+      ]
+    },
+    "skill": {
+      "name": "Malevolent Encounter",
+      "description": "",
+      "effects": [
+        {
+          "title": "Resonance Skill - Encroaching Yin",
+          "description": "Saat berada dalam status Yin Vessel, Resonance Skill - Encroaching Yin tersedia, yang menimbulkan Fusion DMG. Resonance Skill - Encroaching Yin dapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Scorching Yang",
+          "description": "Saat berada dalam status Yang Font, Resonance Skill - Scorching Yang tersedia, yang menimbulkan Fusion DMG. Resonance Skill - Scorching Yang dapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Cleanse of Impurity",
+          "description": "Melancarkan Resonance Skill - Encroaching Yin atau Resonance Skill - Scorching Yang memberikan Cleanse of Impurity selama 4 detik atau hingga salah satu kondisi berikut terpenuhi:\n- Beralih ke Resonator lain.\n- Beralih ke status Yin Vessel atau Yang Font.\n- Melancarkan Resonance Skill - Netherworld Traverse atau Resonance Skill - Afterlife's Guide.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Netherworld Traverse",
+          "description": "Saat berada dalam status Yin Vessel dengan Cleanse of Impurity, tekan atau tahan Normal Attack di udara untuk melancarkan Resonance Skill - Netherworld Traverse, menimbulkan Fusion DMG, dianggap sebagai Heavy Attack DMG. Melancarkan Resonance Skill - Netherworld Traverse memulihkan 100 poin Qi. Tekan atau tahan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Drink Soul Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Resonance Skill - Afterlife's Guide",
+          "description": "Saat berada dalam status Yang Font dengan Cleanse of Impurity, tekan atau tahan Normal Attack di udara untuk melancarkan Resonance Skill - Afterlife's Guide, menimbulkan Fusion DMG, dianggap sebagai Heavy Attack DMG. Melancarkan Resonance Skill - Afterlife's Guide memulihkan 100 poin Qi. Tekan atau tahan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Devil's Bane Stage 2.",
+          "isTitleVisible": true
+        }
+      ]
+    },
+    "liberation": {
+      "name": "Burial Of Thousand Souls",
+      "description": "",
+      "effects": [
+        {
+          "title": "Wayfarer's Mark",
+          "description": "Maksimal 3 tumpukan. Melancarkan Heavy Attack - Soul Raid atau Heavy Attack - Stardome Meander memulihkan 200 poin Qi dan mengurangi 1 tumpukan Wayfarer's Mark. Efek ini berlangsung selama 15 detik.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Yinghuo",
+          "description": "- Menimbulkan damage dengan Heavy Attack - Soul Raid atau Heavy Attack - Stardome Meander memanggil Chimei Wangliang untuk menyerang target, yang menimbulkan Fusion DMG, dianggap sebagai Heavy Attack DMG. Efek ini dapat terpicu sekali per Heavy Attack - Soul Raid dan Heavy Attack - Stardome Meander.\n- Seluruh Fire of Life akan dihilangkan saat Yinghuo berakhir.",
+          "isTitleVisible": true
+        }
+      ]
+    },
+    "forte": {
+      "name": "Upstream Along Santu",
+      "description": "",
+      "effects": [
+        {
+          "title": "Qi Modulation",
+          "description": "Jingran beralih antara status Yin Vessel dan Yang Font dengan melancarkan Heavy Attack - Soul Raid atau Heavy Attack - Stardome Meander. Jingran berada dalam status Yang Font secara default.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Soul Raid",
+          "description": "Saat Jingran memiliki 300 poin Qi dalam status Yin Vessel, tahan Normal Attack untuk mengonsumsi 300 poin Qi dan melancarkan Heavy Attack - Soul Raid, menimbulkan Fusion DMG. Setelah melancarkan Heavy Attack - Soul Raid, Jingran beralih ke status Yang Font. Tekan atau tahan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Devil's Bane Stage 2.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Stardome Meander",
+          "description": "Saat Jingran memiliki 300 poin Qi dalam status Yang Font, tahan Normal Attack untuk mengonsumsi 300 poin Qi dan melancarkan Heavy Attack - Stardome Meander, menimbulkan Fusion DMG. Setelah melancarkan Heavy Attack - Stardome Meander, Jingran beralih ke status Yin Vessel. Tekan atau tahan Normal Attack sesaat setelah melancarkan skill ini untuk melancarkan Basic Attack - Drink Soul Stage 2. Heavy Attack - Stardome Meander dapat dilancarkan di udara.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Qi",
+          "description": "Maksimal 300 poin.\n- Melancarkan Basic Attack - Drink Soul Stage 3, Basic Attack - Drink Soul Stage 4, Basic Attack - Devil's Bane Stage 3, atau Basic Attack - Devil's Bane Stage 4 memulihkan 50 poin Qi.\n- Melancarkan Dodge Counter - Nether Dive, Dodge Counter - Light Watch, Resonance Skill - Netherworld Traverse, Resonance Skill - Afterlife's Guide, atau Intro Skill - Question the Tombs memulihkan 100 poin Qi.\n- Melancarkan Resonance Liberation - Burial of Thousand Souls atau melancarkan Heavy Attack - Soul Raid atau Heavy Attack - Stardome Meander dengan Wayfarer's Mark memulihkan 200 poin Qi.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Fire of Life",
+          "description": "Maksimal 100 poin.\n- Melancarkan Resonance Liberation - Burial of Thousand Souls memberikan 100 poin Fire of Life.\n- Seluruh Fire of Life dihapus saat Yinghuo berakhir. Saat berada dalam Yinghuo, jika Fire of Life tidak 0 poin, melancarkan Heavy Attack - Soul Raid atau Heavy Attack - Stardome Meander mengonsumsi 25 poin Fire of Life, dan Damage Multiplier dari Heavy Attack - Soul Raid atau Heavy Attack - Stardome Meander ini meningkat berdasarkan Max HP Jingran: Damage Multiplier dari Heavy Attack - Soul Raid atau Heavy Attack - Stardome Meander ini meningkat untuk setiap 1000 poin Max HP Jingran di atas 25000. Maksimal 25000 poin Max HP Jingran yang diperhitungkan untuk efek ini.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Nether to Light",
+          "description": "- DEF Jingran tetap pada 0.\n- Jingran mendapatkan Incoming Healing Bonus berdasarkan Max HP: Untuk setiap 1000 poin Max HP, Jingran menerima 6,2% Incoming Healing Bonus, hingga maksimal 310%.\n- Jingran mendapatkan Fusion DMG Bonus berdasarkan Max HP: Untuk setiap 1000 poin Max HP, Jingran menerima 1,5% Fusion DMG Bonus, hingga maksimal 75%.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Yang Changes, Yin Unites",
+          "description": "Jingran mendapatkan tambahan ATK berdasarkan Max HP: Untuk setiap 1000 poin Max HP, Jingran mendapatkan 36 ATK tambahan, hingga maksimal 1800.",
+          "isTitleVisible": true
+        }
+      ]
+    },
+    "inherent": [
+      {
+        "name": "Hark The Dust",
+        "effects": [
+          {
+            "title": "Earth Charm",
+            "description": "Selama 15 detik, jika Jingran adalah Resonator aktif dalam tim, dapatkan Shield yang tidak dapat bertumpuk sebesar 1,6% dari Max HP + 700 yang berlangsung selama 5 detik saat menimbulkan damage. Efek ini dapat terpicu sekali setiap 0,5 detik. Shield ini tidak akan diteruskan ke Resonator yang masuk. Saat Jingran berada dalam status Yinghuo, jika ia adalah Resonator aktif dalam tim, ia mendapatkan Shield yang tidak dapat bertumpuk sebesar 0,8% dari Max HP + 350 yang berlangsung selama 5 detik saat menimbulkan damage. Efek ini dapat terpicu sekali setiap 0,5 detik. Shield ini tidak akan diteruskan ke Resonator yang masuk.",
+            "isTitleVisible": true
+          }
+        ]
+      },
+      {
+        "name": "Trace The Vestige",
+        "effects": [
+          {
+            "title": "Fixation",
+            "description": "- Saat memasuki pertempuran, Jingran mendapatkan Fixation. Efek ini dapat terpicu sekali setiap 4 detik.\n- Melancarkan Outro Skill - Rising Fortune and Ebbing Evil memberikan Fixation.\n- Saat Resonator terdekat dalam tim selain Jingran mendapatkan Shield, Jingran mendapatkan 15 poin Ghost Shroud dan menghilangkan Fixation.",
+            "isTitleVisible": true
+          }
+        ]
+      },
+      {
+        "name": "Tune Break - Broadblade",
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Off-Tune Level target penuh, Resonator dapat melancarkan Tune Break pada target tersebut.\nSaat berada dalam Yin Vessel, tekan atau tahan Normal Attack sesaat setelah melancarkan skill ini untuk Basic Attack - Drink Soul Stage 2.\nSaat berada dalam Yang Font, tekan atau tahan Normal Attack sesaat setelah melancarkan skill ini untuk Basic Attack - Devil's Bane Stage 2.",
+            "isTitleVisible": false
+          }
+        ]
+      }
+    ],
+    "intro": {
+      "name": "Question The Tombs",
+      "description": "",
+      "effects": [
+        {
+          "title": "Fortune in Disguise",
+          "description": "Maksimal 50 tumpukan. Setiap tumpukan Fortune in Disguise memberikan tambahan Fusion DMG Bonus berdasarkan Max HP Jingran: Untuk setiap 1000 poin Max HP, Jingran mendapatkan 0,05% tambahan Fusion DMG Bonus selama 15 detik, hingga maksimal 2,5% untuk setiap tumpukan Fortune in Disguise. Beralih ke Resonator lain mengakhiri efek ini.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Ghost Shroud",
+          "description": "- Maksimal 50 poin.\n- Saat Jingran mendapatkan Shield, ia mendapatkan 1 poin Ghost Shroud. Efek ini dapat terpicu sekali setiap 0,5 detik.",
+          "isTitleVisible": true
+        }
+      ]
+    },
+    "outro": {
+      "name": "Rising Fortune And Ebbing Evil",
+      "description": "",
+      "effects": [
+        {
+          "title": "",
+          "description": "Menimbulkan Fusion DMG sebesar 795% dari ATK Jingran.",
+          "isTitleVisible": false
+        }
+      ]
+    }
+  },
+  "materials": {
+    "ascension": [
+      {
+        "level": 90,
+        "cost": [
+          {
+            "item": 150,
+            "amount": 46
+          },
+          {
+            "item": 71,
+            "amount": 4
+          },
+          {
+            "item": 85,
+            "amount": 12
+          },
+          {
+            "item": 54,
+            "amount": 12
+          },
+          {
+            "item": 38,
+            "amount": 4
+          },
+          {
+            "item": 22,
+            "amount": 60
+          },
+          {
+            "item": 116,
+            "amount": 170000
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "totalCosts": [
+        {
+          "item": 117,
+          "amount": 26
+        },
+        {
+          "item": 71,
+          "amount": 25
+        },
+        {
+          "item": 85,
+          "amount": 28
+        },
+        {
+          "item": 54,
+          "amount": 40
+        },
+        {
+          "item": 38,
+          "amount": 57
+        },
+        {
+          "item": 64,
+          "amount": 25
+        },
+        {
+          "item": 78,
+          "amount": 28
+        },
+        {
+          "item": 47,
+          "amount": 55
+        },
+        {
+          "item": 31,
+          "amount": 67
+        },
+        {
+          "item": 116,
+          "amount": 2030000
+        }
+      ]
+    }
+  },
+  "sequences": [
+    {
+      "stage": "S1",
+      "name": "Yin And Yang In Harmony, The Ultimate Law Of Being",
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage Multiplier Resonance Skill - Encroaching Yin, Resonance Skill - Netherworld Traverse, Resonance Skill - Scorching Yang, dan Resonance Skill - Afterlife's Guide meningkat sebesar 80%.\nResonance Skill - Encroaching Yin, Resonance Skill - Netherworld Traverse, Resonance Skill - Scorching Yang, dan Resonance Skill - Afterlife's Guide kini kebal terhadap interupsi.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S2",
+      "name": "A Solitary Lantern, Across Lands Shade-Trodden",
+      "effects": [
+        {
+          "title": "",
+          "description": "Damage Multiplier Heavy Attack - Soul Raid dan Heavy Attack - Stardome Meander meningkat sebesar 46%. Saat berada dalam status Yinghuo, efek peningkatan Damage Multiplier melalui Fire of Life pada Heavy Attack - Soul Raid dan Heavy Attack - Stardome Meander meningkat sebesar 46%.\nSaat memasuki pertempuran, Jingran mendapatkan efek berikut, terpicu sekali setiap 4 detik:\n- Mendapatkan 300 poin Qi.\n- Mendapatkan Netherworld's Boon.\n\n**Netherworld's Boon**\nMelancarkan Heavy Attack - Soul Raid atau Heavy Attack - Stardome Meander memulihkan 25% dari Max Resonance Energy dan memberikan amplifikasi DMG sebesar 180% pada Heavy Attack - Soul Raid dan Heavy Attack - Stardome Meander selama 4 detik.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S3",
+      "name": "World'S Course Shifts, Each To Their Rightful Paths",
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Jingran melancarkan Heavy Attack - Soul Raid atau Heavy Attack - Stardome Meander, dapatkan 5 poin Ghost Shroud.\nSaat Jingran melancarkan Resonance Liberation - Burial of Thousand Souls, Yang Changes, Yin Unites digantikan oleh Yin-Yang Everflow selama 15 detik.\n\nYin-Yang Everflow\nJingran mendapatkan tambahan ATK berdasarkan Max HP: Untuk setiap 1000 poin Max HP Jingran, dapatkan 50 ATK tambahan, hingga maksimal 2500.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S4",
+      "name": "Where Reality Meets Illusion, Where Living Meet Dead",
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Resonator dalam tim mendapatkan Shield, seluruh Resonator dalam tim mendapatkan 20% All-Attribute DMG Bonus selama 30 detik.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S5",
+      "name": "Ends Return To Beginnings, Truth Of Life Laid Bare",
+      "effects": [
+        {
+          "title": "",
+          "description": "Saat Jingran menerima pukulan fatal, ia tidak akan tumbang dan sebaliknya mendapatkan Shield sebesar 50% dari Max HP selama 15 detik. Efek ini dapat terpicu sekali setiap 10 menit. Shield ini tidak akan diteruskan ke Resonator yang masuk.",
+          "isTitleVisible": false
+        }
+      ]
+    },
+    {
+      "stage": "S6",
+      "name": "As Favors And Feuds Fade, New Stories Await",
+      "effects": [
+        {
+          "title": "",
+          "description": "Target menerima 40% lebih banyak Heavy Attack DMG dari Jingran.\nDamage Multiplier Chimei Wangliang meningkat sebesar 80%.\nSaat memasuki status Yinghuo, Jingran mendapatkan efek Parade of Thousand Souls selama 15 detik. Selama efek ini, jika Jingran adalah Resonator aktif dalam tim, saat menimbulkan damage, Jingran memanggil Chimei Wangliang untuk menyerang target, menimbulkan Fusion DMG, dianggap sebagai Heavy Attack DMG.\n\nChimei Wangliang dapat dipanggil dengan cara ini pada interval 1 detik hingga maksimal 8 kali. Parade of Thousand Souls berakhir dan jumlah panggilan Chimei Wangliang yang tersedia direset ketika salah satu kondisi berikut terpenuhi:\n- Melancarkan Resonance Liberation - Burial of Thousand Souls.\n- Yinghuo berakhir atau dihapus.",
+          "isTitleVisible": false
+        }
+      ]
+    }
+  ]
+}

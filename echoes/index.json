@@ -558,5 +558,17 @@
     ],
     "image": "/echoes/forbidden-bastion.webp",
     "version": "3.5"
+  },
+  {
+    "id": 6000221,
+    "name": "Effigy",
+    "slug": "effigy",
+    "cost": 4,
+    "sonatas": [
+      34,
+      35
+    ],
+    "image": "/echoes/effigy.webp",
+    "version": "3.6"
   }
 ]
