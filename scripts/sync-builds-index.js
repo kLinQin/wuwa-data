@@ -3,16 +3,26 @@ import { join, basename } from 'path';
 
 const BUILDS_DIR = join(process.cwd(), 'builds');
 const INDEX_PATH = join(BUILDS_DIR, 'index.json');
+const RESONATORS_DIR = join(process.cwd(), 'resonators');
 
-// 1. Baca index
 const indexData = JSON.parse(readFileSync(INDEX_PATH, 'utf-8'));
 const indexMap = new Map(indexData.map((item) => [item.id, item]));
 
-// 2. Scan file individual
 const files = readdirSync(BUILDS_DIR)
 	.filter((f) => f.endsWith('.json') && f !== 'index.json');
 
-const report = { processed: 0, updated: 0, skipped: [], changes: [] };
+const report = { processed: 0, updated: 0, skipped: [], changes: [], added: [] };
+
+// Helper: ambil image dari file resonator
+function getImageFromResonator(name) {
+	try {
+		const resPath = join(RESONATORS_DIR, `${name}.json`);
+		const resData = JSON.parse(readFileSync(resPath, 'utf-8'));
+		return resData.image || null;
+	} catch {
+		return null;
+	}
+}
 
 for (const file of files) {
 	const filePath = join(BUILDS_DIR, file);
@@ -26,22 +36,58 @@ for (const file of files) {
 
 	report.processed++;
 	const id = data?.id;
-	if (!id || !indexMap.has(id)) {
-		report.skipped.push({ file, reason: `ID ${id} not found in index` });
+	
+	if (!id || id === 0) {
+		report.skipped.push({ file, reason: `ID ${id} perlu diisi manual` });
+		continue;
+	}
+	
+	if (!indexMap.has(id)) {
+		const sets = data?.build?.echoDetails?.sets || [];
+		const bestEcho = [
+			...new Set(
+				sets
+					.flatMap((s) => [s.echoSlug, s.echoSlugSecondary])
+					.filter((v) => typeof v === 'string' && v.trim() !== '')
+			)
+		];
+		
+		// Ambil image dari folder resonators
+		const name = data.name || basename(file, '.json');
+		const image = getImageFromResonator(name.toLowerCase().replace(/\s/g, '-'));
+		
+		const newEntry = {
+			id: id,
+			name: name,
+			bestWeapon: data?.build?.bestWeapon || null,
+			bestEcho: bestEcho,
+			teams: data?.build?.teams || []
+		};
+		
+		if (image) newEntry.image = image;
+		
+		const optionalFields = ['icon', 'element', 'rarity', 'weapon', 'version', 'lastUpdated', 'roles', 'sonatas', 'faction', 'affiliation', 'class'];
+		for (const field of optionalFields) {
+			if (data[field] !== undefined && data[field] !== null) {
+				newEntry[field] = data[field];
+			}
+		}
+		
+		indexData.push(newEntry);
+		indexMap.set(id, newEntry);
+		report.added.push({ name: newEntry.name, id, file });
 		continue;
 	}
 
 	const entry = indexMap.get(id);
 	const changeLog = {};
 
-	// bestWeapon
 	const newWeapon = data?.build?.bestWeapon ?? entry.bestWeapon;
 	if (newWeapon !== entry.bestWeapon) {
 		changeLog.bestWeapon = { old: entry.bestWeapon, new: newWeapon };
 		entry.bestWeapon = newWeapon;
 	}
 
-	// bestEcho
 	const sets = data?.build?.echoDetails?.sets || [];
 	const newEchoes = [
 		...new Set(
@@ -57,7 +103,6 @@ for (const file of files) {
 		entry.bestEcho = newEchoes;
 	}
 
-	// teams
 	const newTeams = data?.build?.teams ?? entry.teams;
 	const oldTeamsStr = JSON.stringify(entry.teams);
 	const newTeamsStr = JSON.stringify(newTeams);
@@ -72,15 +117,20 @@ for (const file of files) {
 	}
 }
 
-// 3. Print laporan
 console.log('\n=== SYNC REPORT ===');
 console.log(`Files processed : ${report.processed}`);
 console.log(`Entries updated : ${report.updated}`);
+console.log(`Entries added   : ${report.added.length}`);
 console.log(`Skipped         : ${report.skipped.length}`);
 
 if (report.skipped.length > 0) {
 	console.log('\n--- SKIPPED ---');
 	report.skipped.forEach((s) => console.log(`  [${s.file}] ${s.reason}`));
+}
+
+if (report.added.length > 0) {
+	console.log('\n--- ADDED ---');
+	report.added.forEach((a) => console.log(`  [+] ${a.name} (ID: ${a.id}) ← ${a.file}`));
 }
 
 if (report.changes.length > 0) {
@@ -94,12 +144,11 @@ if (report.changes.length > 0) {
 			console.log(`      NEW: ${JSON.stringify(val.new)}`);
 		}
 	});
-} else {
+} else if (report.added.length === 0) {
 	console.log('\nNo changes detected.');
 }
 
-// 4. Konfirmasi sebelum write
-if (report.updated === 0) {
+if (report.updated === 0 && report.added.length === 0) {
 	console.log('\nNothing to write. Exiting.');
 	process.exit(0);
 }

@@ -178,7 +178,8 @@
       "augusta-alternatif",
       "jinhsi-blender",
       "jiyan-alternatif",
-      "mortefi-mono-fusion"
+      "mortefi-mono-fusion",
+      "jingran-alternatif"
     ]
   },
   {
@@ -215,7 +216,8 @@
       "changli-quickswap",
       "chixia-hypercarry",
       "chixia-mono-fushion",
-      "galbrena-mono-fusion"
+      "galbrena-mono-fusion",
+      "jingran-mono-fusion"
     ]
   },
   {
@@ -235,7 +237,9 @@
       "encore-hypercarry",
       "galbrena-mono-fusion",
       "luuk-hypercarry",
-      "mortefi-mono-fusion"
+      "mortefi-mono-fusion",
+      "jingran-alternatif",
+      "jingran-mono-fusion"
     ]
   },
   {
@@ -270,7 +274,9 @@
       "hack-premium",
       "luuk-hypercarry",
       "lynae-sub-dps",
-      "tune-team"
+      "tune-team",
+      "jingran-alternatif",
+      "jingran-hypercarry"
     ]
   },
   {
@@ -300,7 +306,8 @@
     "teams": [
       "fusion-burst",
       "luuk-hypercarry",
-      "tune-team"
+      "tune-team",
+      "jingran-mono-fusion"
     ]
   },
   {
@@ -421,7 +428,8 @@
     "teams": [
       "hack-alternatif",
       "hack-premium",
-      "xuanling-xuanling-hypercarry"
+      "xuanling-xuanling-hypercarry",
+      "jingran-alternatif"
     ]
   },
   {
@@ -558,7 +566,8 @@
       "jiyan-hypercarry",
       "lynae-sub-dps",
       "mono-aero",
-      "qiuyuan-hypercarry"
+      "qiuyuan-hypercarry",
+      "jingran-hypercarry"
     ]
   },
   {
@@ -710,7 +719,8 @@
       "lynae-sub-dps",
       "tune-team",
       "xiangliyao-hypercarry",
-      "xuanling-xuanling-hypercarry"
+      "xuanling-xuanling-hypercarry",
+      "jingran-alternatif"
     ]
   },
   {
@@ -868,5 +878,35 @@
       "havoc-bane",
       "xuanling-xuanling-hypercarry"
     ]
+  },
+  {
+    "id": 1212,
+    "name": "Jingran",
+    "bestWeapon": "Thousandfold Deliverance",
+    "bestEcho": [
+      "myriad-snare-rustfire-chassis"
+    ],
+    "teams": [
+      "jingran-hypercarry",
+      "jingran-mono-fusion",
+      "jingran-alternatif"
+    ],
+    "image": "/characters/jingran.webp"
+  },
+  {
+    "id": 1413,
+    "name": "Qingxiao",
+    "bestWeapon": "Glint Of Clouds",
+    "bestEcho": [
+      "effigy"
+    ],
+    "teams": [
+      "qingxiao-hypercarry",
+      "qingxiao-alternatif",
+      "lynae-sub-dps",
+      "mono-aero",
+      "tune-team"
+    ],
+    "image": "/characters/qingxiao.webp"
   }
 ]

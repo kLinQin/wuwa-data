@@ -1,0 +1,230 @@
+{
+  "id": 1212,
+  "name": "Jingran",
+  "recommendedStats": {
+    "Crit Rate": "44.50%",
+    "Crit Damage": "301.00%",
+    "Total HP": "50,000.00",
+    "ER": "122.00%"
+  },
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "Thousandfold Deliverance",
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "LONR 44111 CD/CD",
+          "sonataCustom": [
+            {
+              "name": "Lamp Of Nether Road",
+              "set": 5
+            }
+          ],
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            },
+            {
+              "cost": 1,
+              "stat": "HP%"
+            }
+          ],
+          "echoSlug": "myriad-snare-rustfire-chassis",
+          "echoSlugSecondary": ""
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Heavy Attack DMG%",
+        "ATK",
+        "HP%"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": "Thousandfold Deliverance",
+        "percentage": "138.02%",
+        "rank": ""
+      },
+      {
+        "id": "Thunderflare Dominion",
+        "percentage": "116.88%",
+        "rank": ""
+      },
+      {
+        "id": "Verdant Summit",
+        "percentage": "111.58%",
+        "rank": ""
+      },
+      {
+        "id": "Radiance Cleaver",
+        "percentage": "100.00%",
+        "rank": ""
+      }
+    ],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": ""
+    },
+    "teams": [
+      "jingran-hypercarry",
+      "jingran-mono-fusion",
+      "jingran-alternatif"
+    ],
+    "teamNote": ""
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Thousandfold Deliverance",
+          "value": 2140303.89,
+          "imagePath": "",
+          "percentage": 138.02
+        },
+        {
+          "type": "Thunderflare Dominion",
+          "value": 1812450.27,
+          "imagePath": "",
+          "percentage": 116.88
+        },
+        {
+          "type": "Verdant Summit",
+          "value": 1730294.21,
+          "imagePath": "",
+          "percentage": 111.58
+        },
+        {
+          "type": "Radiance Cleaver",
+          "value": 1550710.48,
+          "imagePath": "",
+          "percentage": 100
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Jingran",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "Heavy",
+          "value": 91.7,
+          "imagePath": "",
+          "percentage": 91.7
+        },
+        {
+          "type": "Outro",
+          "value": 3.3,
+          "imagePath": "",
+          "percentage": 3.3
+        },
+        {
+          "type": "Echo",
+          "value": 2.9,
+          "imagePath": "",
+          "percentage": 2.9
+        },
+        {
+          "type": "Intro",
+          "value": 1.4,
+          "imagePath": "",
+          "percentage": 1.4
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Jingran",
+      "layout": "horizontal",
+      "chartType": "radar"
+    },
+    {
+      "data": [
+        {
+          "type": "S0",
+          "value": 2140303.89,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "S1",
+          "value": 2368027.09,
+          "imagePath": "",
+          "percentage": 110.64
+        },
+        {
+          "type": "S2",
+          "value": 3042680.91,
+          "imagePath": "",
+          "percentage": 142.16
+        },
+        {
+          "type": "S3",
+          "value": 3652680.03,
+          "imagePath": "",
+          "percentage": 170.66
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sequence - JIngran",
+      "layout": "horizontal",
+      "chartType": "polar"
+    },
+    {
+      "data": [
+        {
+          "type": "LONR 44111 CD/CD",
+          "value": 2140303.89,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "COV + Lamp 44111 CD/CD",
+          "value": 2075971.37,
+          "imagePath": "",
+          "percentage": 96.99
+        },
+        {
+          "type": "LONR 44111 CR/CD",
+          "value": 2027835.97,
+          "imagePath": "",
+          "percentage": 94.75
+        },
+        {
+          "type": "LONR 43311 HP/ELE",
+          "value": 1984117.75,
+          "imagePath": "",
+          "percentage": 92.7
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Sonata - Jingran",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

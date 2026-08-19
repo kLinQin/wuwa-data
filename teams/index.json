@@ -591,6 +591,64 @@
     "characterId": 1305
   },
   {
+    "id": "jingran-alternatif",
+    "name": "Jingran Alternatif",
+    "members": [
+      [
+        "Jingran"
+      ],
+      [
+        "Rebecca",
+        "Mortefi",
+        "Lynae"
+      ],
+      [
+        "Shorekeeper",
+        "Lupa",
+        "Mornye"
+      ]
+    ],
+    "note": "",
+    "characterId": 1212
+  },
+  {
+    "id": "jingran-hypercarry",
+    "name": "Jingran Hypercarry",
+    "members": [
+      [
+        "Jingran"
+      ],
+      [
+        "Iuno"
+      ],
+      [
+        "Shorekeeper",
+        "Mornye"
+      ]
+    ],
+    "note": "",
+    "characterId": 1212
+  },
+  {
+    "id": "jingran-mono-fusion",
+    "name": "Jingran Mono Fusion",
+    "members": [
+      [
+        "Jingran"
+      ],
+      [
+        "Lupa"
+      ],
+      [
+        "Mornye",
+        "Brant",
+        "Denia"
+      ]
+    ],
+    "note": "",
+    "characterId": 1212
+  },
+  {
     "id": "jinhsi-blender",
     "name": "Jinhsi Blender",
     "members": [
