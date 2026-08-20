@@ -6,8 +6,13 @@
   "weapon": 2,
   "version": "3.6",
   "lastUpdated": "2026-08-18",
-  "roles": [],
-  "sonatas": [],
+  "roles": [
+    2,
+    36
+  ],
+  "sonatas": [
+    34
+  ],
   "changelog": [
     {
       "text": "Initial release",
@@ -19,7 +24,7 @@
   ],
   "faction": "Ministry of War",
   "affiliation": "Jinzhou, Huanglong",
-  "class": "",
+  "class": "Natural",
   "image": "/characters/qingxiao.webp",
   "icon": "/icons/characters/qingxiao.webp",
   "imageBanner": "/banners/qingxiao-banner.jpeg",

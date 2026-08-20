@@ -453,6 +453,14 @@
     "description": "Seorang Nethermancer dari Mengzhou. Seorang penjelajah yang mengembara di antara Realm Mirage dan reruntuhan yang terlupakan. Dengan matanya sendiri, ia menyaksikan gema dunia yang tersisa dan jejak kuno yang ditinggalkannya.\n\nIa tidak mengikuti sekte apa pun dan tidak tunduk pada doktrin, tidak mempedulikan dewa maupun titah. Melalui Realm Mirage dan tanah-tanah berbayang ia berjalan, menilai benar dan salah hanya dengan hatinya sendiri, dan dalam melakukannya, ia telah menempuh jalan yang sepenuhnya miliknya sendiri.",
     "faction": "",
     "affiliation": "",
+    "hasStories": true
+  },
+  {
+    "id": 1413,
+    "name": "Qingxiao",
+    "description": "",
+    "faction": "",
+    "affiliation": "",
     "hasStories": false
   }
 ]

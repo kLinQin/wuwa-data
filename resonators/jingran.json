@@ -6,8 +6,13 @@
   "weapon": 1,
   "version": "3.6",
   "lastUpdated": "2026-08-18",
-  "roles": [],
-  "sonatas": [],
+  "roles": [
+    2,
+    5
+  ],
+  "sonatas": [
+    35
+  ],
   "changelog": [
     {
       "text": "Initial release",
@@ -17,9 +22,9 @@
       "time": "2026-08-18"
     }
   ],
-  "faction": "",
+  "faction": "Nethermancer",
   "affiliation": "Jinzhou, Huanglong",
-  "class": "",
+  "class": "Natural",
   "image": "/characters/jingran.webp",
   "icon": "/icons/characters/jingran.webp",
   "imageBanner": "/banners/jingran-banner.jpeg",
