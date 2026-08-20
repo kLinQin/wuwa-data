@@ -12,7 +12,7 @@
     10
   ],
   "sonatas": [
-    27
+    29
   ],
   "changelog": [
     {
@@ -408,55 +408,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "Lahai-Roi"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Roya Tribe"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "Sigrika, a student of Startorch Academy and a Resonator of Royan Runes.<br>Determined to live up to others' expectations and become a true Solsworn, she devotes herself fully to every challenge."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "True Name Manifestation"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[Filed by <te href=851071>Spacetrek Collective</te>: <te href=851069>Startorch Academy</te> Student Records]<br>[Forte Examination Report: RA2326-G]<br>Student Name: Sigrika<br><te href=700009>Synchronist</te> Qualification: Negative<br>Forte Overview: Tests reveal a <te href=850067>Rabelle's Curve</te> with a pronounced periodic waveform. Therefore, the student is classified as a <te href=850068>Congenital Resonator</te>. Her <te href=850072>Tacet Mark</te> is located on her back.<br> <br>According to the pre-admission personal file and the student's own account, the student demonstrates exceptional aptitude in deciphering rune frequencies and converting them into usable power. However, she reports that this ability remains unstable and is highly dependent on her mental state as well as her depth of knowledge regarding particular runes.<br> <br><span class=\"italic\">\"In the field of rune deciphering, Sigrika displays a rare talent, one that may pose a significant risk to herself if not treated carefully.\"</span>"
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "Rabelle's Waveform test sample analysis shows high-amplitude, non-periodic fluctuation patterns. Partial waveform blurring is observed, along with visible abnormal waveforms. <br>Conclusion: <te href=850073>Resonant Criticality</te> is within normal range. However, subject stability is poor, with a potential risk of <te href=850073>Overclocking</te>.<br>Currently, Resonator Sigrika has no history of Overclocking, and her <te href=850067>Rabelle's Curve</te> remains stable.<br>Routine psychological counseling is required.<br> <br><span class=\"italic\">\"Sigrika is too hard on herself. Honestly, if she just eased up a little, her Resonator stability would improve dramatically.\"</span><br><span class=\"italic\">\"...Students like her are not uncommon at Startorch Academy. They come in thinking their talent means something. Then they realize that here, it just gives them an edge in a few courses. Nothing more.\"</span><br><span class=\"italic\">\"Still, I don't want our students to feel defined by grades, talent, or ability. They deserve to see how much more the world has to offer.\"</span>"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Qian Chen"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Akasaki Chinatsu"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Jang Ye Na"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Maya Lindh"
-    }
-  }
+  ]
 }

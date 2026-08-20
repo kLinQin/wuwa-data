@@ -15,9 +15,8 @@
     36
   ],
   "sonatas": [
-    30,
-    26,
-    24
+    28,
+    31
   ],
   "changelog": [
     {
@@ -514,55 +513,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "▉█"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "<s>Fractsidus</s>"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "Denia, a Department of Voidmatters student at Startorch Academy. Also, a professional slacker who has mastered the art of dozing through courses.<br>Still, she hardly misses any campus event, always there to flash her \"gentle\" smile to one and all."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Bubbles of Nihility"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[Filed by <te href=851071>Spacetrek Collective</te>: <te href=851069>Startorch Academy</te> Student Records]<br><br>[Forte Examination Report: RA2499-G]<br><br>Student Name: Denia<br><br><te href=700009>Synchronist</te> Qualification: Negative<br><br>Forte Overview:Tests reveal a <te href=850067>Rabelle's Curve</te> with a pronounced periodic waveform. Therefore, the student is classified as a <te href=850068>Congenital Resonator</te>. Her <te href=850072>Tacet Mark</te> is located on her chest.<br>Based on the files from her recommender, the subject can generate bubbles infused with Remnant Energy, which can serve as a defensive or supportive measure in combat. The Remnant Energy of the bubbles can also be detonated on command when needed.<br>Test results also reveal that the bubbles have a unique fluid structure, allowing them to block Voidmatter at a grade comparable to the Exostrider coating.<br><br><span class=\"italic\">\"Wait, isn't that the bubble maker from those Lollo Logistics ads? My niece has that same exact toy! How in the world are you supposed to stop Voidmatter with bubbles like that?\"</span><br><span class=\"italic\">\"How did this get filed in the first place?! My goodness... Is anything in this report actually true?\"</span>"
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "Rabelle's Waveform test sample analysis shows elliptical fluctuations and a stable Time Domain. No abnormal fluctuations were observed. Examination results are within normal parameters.<br>Conclusion: Resonant Criticality is within normal range. Subject stability remains robust. No history and present risk of <te href=850073>Overclocking</te>.<br><te href=850067>Rabelle's Curve</te> stable. Psychological counseling is currently deemed unnecessary.<br><br><span class=\"italic\">\"No history and present risk of Overclocking? Have you ever seen a Resonator that can roll Voidmatter into cubes and start flinging it at people? Hiyuki even mentioned in her combat report that her <te href=850072>Tacet Mark</te> started tearing!\"</span><br><span class=\"italic\">\"That's it... I'm not buying a single word from this report now. Arman, I want the complete record from the Dimmr Plains ASAP!\"</span>"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Ge Xinyu"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Ito Miku"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Park Si Yoon"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Jodie Bell Cortez"
-    }
-  }
+  ]
 }

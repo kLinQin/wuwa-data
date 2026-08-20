@@ -14,7 +14,8 @@
     32
   ],
   "sonatas": [
-    28
+    30,
+    8
   ],
   "changelog": [
     {
@@ -476,55 +477,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "New Federation"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Startorch Academy"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "Lucilla, President of Startorch Academy and idealist with both feet on the ground. She holds quiet vigil over her students as they rise to challenge the very sky."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Memory Palace"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[Filed from: <te href=851071>Spacetrek Collective</te>: <te href=851069>Startorch Academy</te> Faculty Records]<br>[Forte Examination Report RA2399-G]<br>Name: Lucilla<br>Forte Overview: Examination confirms the subject's <te href=850072>Tacet Mark</te> is located at the outer side of the right calf. Based on records from the New Federation, the subject is presumed to have awakened her Forte during a childhood birthday party after receiving a camera as a present. In addition to the memory regression ability common to memory-type Resonators, the subject possesses a unique ability to extract and materialize memories. Utilizing this ability, the subject can even \"construct\" previously experienced scenes and \"events\" to some degree within a limited time frame. <s>However, this reconstruction exhibits extreme instability, and the Overclock incidents reported by the subject are strongly correlated with her attempts to recreate memories.</s><br><br><span class=\"italic\">In accordance with the Spacetrek Collective Information Security and Protection Act, further investigation into President Lucilla's Overclock history is hereby discontinued.</span><br><span class=\"italic\">Second revision: Based on reports from the New Federation and evidence submitted by Lucilla's blood relatives, President Lucilla has never undergone Overclocking. Records pertaining to her Overclock history have been deleted.</span>"
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "Analysis Performed: <te href=850067>Rabelle's Curve</te> Fluctuation Stability Test<br>Result: Rabelle's Curve of the subject exhibits a fluctuating elliptical waveform and a stable Time Domain. No abnormal fluctuations were observed.<br>Assessment: The subject shows no history or risk of <te href=850073>Overclocking</te>, and exhibits none of the long-term or short-term memory loss symptoms common to memory-type Resonators.<br><br><span class=\"italic\">In accordance with the Spacetrek Collective Information Security and Protection Act, Rabelle's Curve Fluctuation Stability Test on President Lucilla is hereby discontinued.</span><br><span class=\"italic\">Second revision: It is confirmed that President Lucilla meets New Federation requirements for the repatriation of elite and special talent advisors.</span>"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Inno"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Itoh Shizuka"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Min Ah"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Luci Fish"
-    }
-  }
+  ]
 }

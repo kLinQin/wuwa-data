@@ -12,7 +12,8 @@
     38
   ],
   "sonatas": [
-    29
+    32,
+    5
   ],
   "changelog": [
     {
@@ -509,55 +510,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Lahai-Roi"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "An Edgerunner from the Night City. The Netrunner of her crew.<br>With a heavy debt in her heart, she deliberately keeps a distance from people. Even those who are closest to her know little of her past."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Xeno-Domain Hacking"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[██ Record Modification Log]<br><br>Modification Target: Lucy Kushinada<br>Modification Code: RA2██-G<br><br>The subject is identified as a Mutant-Type Resonator, with the Tacet Mark located on the right shoulder.<br><br>Forte Manifestation:<br>The subject can hack targets within a five-meter radius to achieve objectives such as information retrieval, data manipulation, or target control. Testing indicates this Forte can affect up to three targets simultaneously, with more pronounced effectiveness against mechanical constructs.<br><br>Bio-organic Hacking:<br>This Forte can also be used against Tacet Discords. After hacking a Tacet Discord, the subject can inflict damage or exert control by disrupting its frequency. The underlying mechanism and upper limits are currently unknown. The scope of control is speculated to be affected by the Resonator's own physical and emotional state. <br><br>Under ███ guarantee, the Research Institute has agreed to limited ███ of the subject.<br><br>Cyberware Technology:<br>The subject exhibits multiple mechanical modifications grafted into her body. According to the subject's testimony, these modifications originate from ███ and are classified as cybernetic technology. Test results indicate this cyberware does not match any known existing technology, and this type of implant places significant strain on the user's body and psyche. On ██ ██, ███ intervened, canceling the research project on Night City technology."
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "The subject's waveform diagram exhibits spike-type fluctuations with an unstable Time Domain, indicating abnormal fluctuation tendencies. Examination results indicate moderate risk factors. <br><br>Conclusion: Resonant Criticality is low and subject stability is moderate. Potential risk of Overclocking. <br>No history of Overclocking; however, based on clinical evaluation and diagnostic criteria, the subject exhibits psychological distress and stress responses. Routine psychological counseling is recommended.<br><br><span class=\"italic\">\"Counseling recommendation has been rejected by the subject.\"</span><br><span class=\"italic\">\"The subject previously used Forte to alter test results. Partial data has since been restored.\"</span>"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Song Zhengnan"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Yuki Aoi"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Kim Ga Ryeong"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Emi Lo"
-    }
-  }
+  ]
 }

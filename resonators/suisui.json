@@ -12,7 +12,8 @@
     24
   ],
   "sonatas": [
-    32
+    33,
+    7
   ],
   "changelog": [
     {
@@ -496,55 +497,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "Huanglong"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Zhaoming Commerce Guild"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "Born into a noble family of Mingting, she is the brilliant young director of the Zhaoming Commerce Guild. Wielding a water fan, she weaves business deals into a grand tapestry of trade. Though she knows no swordplay, her financial mastery stitches together a lasting peace for the world."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Host of Harmony"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[Forte Examination Report RA1034-G]<br> <br>The subject's <te href=850072>Tacet Mark</te> is located at the center of her forehead. She exhibits the unique ability to resonate with surrounding water bodies, allowing her to perceive fluid trajectories and kinetic potential within liquid water. She can condense ambient moisture, rainfall, or streams into a controlled aquatic domain, taming torrential downpours into gentle drizzles, and violent rapids into calm waters.<br> <br>The subject's Resonance frequency carries a strong aesthetic harmony. When drawing upon Resonance Energy, her water fan and flowing sleeves unfurl in seamless motion, weaving landscapes amidst the misty waves, as if bringing a sprawling masterwork scroll to life in reality.<br> <br>Her <te href=850067>Rabelle's Curve</te> displays a gentle, steady upward trajectory, eventually stabilizing into a smooth, high-value plateau. She is verified as a <te href=850070>Natural Resonator</te>.<br> <br><span class=\"italic\">\"The frequency is almost entirely devoid of turbulence or fracturing, maintaining a soft, consistent stability throughout... Mm, it mirrors the subject's personal temperament perfectly.\"<br>— Excerpt from an interview with a physician at <te href=850092>Huaxu Academy</te></span>."
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "The subject's waveform chart displays a regular, smooth, and circular elliptical pattern. The overall readout is clean and consistent, with no signs of abnormal disruption or interference.<br> <br>Conclusion: The subject exhibits a low Resonant Criticality, combined with a highly stable capacity to endure resonance frequencies. Risk of volatile surges is determined to be non-existent. Retrospective screening shows no previous record of Overclocking.<br> <br>Based on the overall chart profile, the individual possesses a grounded psychological core, exceptional emotional resilience, and a high degree of self-control."
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Sun Yanqi"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Fukuen Misato"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Park Ji Yoon"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Emily Piggford"
-    }
-  }
+  ]
 }

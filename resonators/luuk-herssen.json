@@ -12,7 +12,7 @@
     35
   ],
   "sonatas": [
-    23
+    26
   ],
   "changelog": [
     {
@@ -449,55 +449,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Male"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "New Federation"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Startorch Academy"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "The attending physician of Startorch Academy's Resonator Nursing Unit, renowned for his keen intellect and unshakable composure. Rumor has it nobody has ever seen him lose control.<br> <br>He is a keen listener adept at dissecting the shadows in a person's heart. From the unhealing wound on his hand, golden blood seeps, a substance he can summon to become a blade of utmost precision."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Phase Transition"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[Filed from: <te href=851071>Spacetrek Collective</te>: <te href=851069>Startorch Academy</te> Faculty Records]<br>[Forte Examination Report RA2462-G]<br> <br>Name: Luuk Herssen<br><br>Forte Overview: Examination confirms the subject's <te href=850072>Tacet Mark</te> is located at the center of the right palm, marked by a chronic, unhealing wound. Physical signs and bloodwork indicate the presence of an anomalous energy fluid—an \"Ichor\"—circulating within the subject. This substance can rapidly alter its phase state under conscious will. Activation is accompanied by a burning sensation and transient high temperatures. Long-term use has resulted in color blindness. Currently, the subject perceives only the color gold, with all other hues rendered in grayscale.<br><br>The subject reports stable symptoms and declines further treatment.<br> <br><span class=\"italic\">\"Examination and reporting were conducted by the subject personally to ensure accuracy of records.\"</span><br><span class=\"italic\">\"Location: Startorch Academy - Resonator Nursing Unit. <br>Recorder: Luuk Herssen.\"</span>"
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "Analysis Performed: <te href=850067>Rabelle's Curve</te> Fluctuation Stability Test<br><br>Result: Rabelle's Curve test sample exhibits an elongated elliptical waveform with considerable amplitude. However, a clear periodic rhythm is observed, and Resonant Criticality thresholds have not been approached.<br><br>Assessment: The subject demonstrates stable control under high-load conditions, with data indicating exceptional self-regulation and mental focus. No indications of loss of control were observed.<br><br>Conclusion: Subject stability is excellent. No present risk of <te href=850073>Overclocking</te>. Psychological counseling is currently deemed unnecessary. Scheduled follow-up testing with continued monitoring of neural fatigue indices is recommended.<br><br>The subject has expressed willingness to cooperate with subsequent observation.<br> <br> <span class=\"italic\">\"Dr. Luuk... is this wording all right? It feels a bit too official.\"</span><br> <span class=\"italic\">\"It's perfectly acceptable. You did a good job.\"</span>"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Ma Zhengyang"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Tachibana Shinnosuke"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Min Seung Woo"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Griffyn Bellah"
-    }
-  }
+  ]
 }

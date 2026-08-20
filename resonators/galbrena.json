@@ -11,7 +11,9 @@
     5
   ],
   "sonatas": [
-    21
+    22,
+    2,
+    18
   ],
   "changelog": [
     {
@@ -402,55 +404,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "Rinascita"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "The Black Shores"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "Cold and decisive, she is the \"Discord Slayer\" who hunts across Solaris and the same \"Fiend of Ever-burning Flame\" spoken of in whispers. Now, she serves as a Black Shores Consultant, active across the world."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Infernal Descent"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[Special Containment Risk Assessment Record – X666]<br>  <br>\"...The subject's Resonance Ability shows prior contamination by the <te href=851023>Dark Tide</te>. The frequency spectrum is heavily obscured and cannot be analyzed via the Rabelle Method. Based on the subject's own testimony, corroborated by external sources, she is classified as a <te href=850068>Congenital Resonator</te>.\"<br>  <br>\"...Overlord-Class Tacet Discords detected within the subject's body. Testing is to be transferred to the <te href=850110>Tethys System</te>. All non-essential personnel are to evacuate to designated safe zones without delay!\"<br>  <br>\"...Sample database linked. Comparative analysis initiated.\"<br>  <br>\"...The subject's internal frequency confirmed. Partial matches identified with known <te href=850081>Tacet Discords</te>: <te href=260005>Chimera</te>, Galbrena, Harpyia, Dullahan, Balor, and the Nameless Dreadshade. Remaining correlations pending verification.\"<br>  <br>\"All identified Tacet Discords exhibit no hostile behavior under suppression by the subject's own frequency. Behavioral stability confirmed under high-stress conditions. Final assessment: containment not advised. Recommendation: routine examinations.<br>  <br>The cause of the subject's Awakening cannot be confirmed. Her innate flame, once corroded by the Dark Tide, decayed but was never fully extinguished. Subsequently, it fused with the Tidespawn known as Chimera, altering the flame's nature and granting her the capacity to consume other frequencies.<br>  <br>Through this process, the subject proactively hunts Tacet Discords, absorbing and transforming their frequencies into her own power. At present, she is able to wield multiple Tacet Discord abilities in combat.<br>  <br>For \"demons\" devoured by her flame, there are only two outcomes: purification and transformation into her own power, or utter destruction.<br>  <br><span class=\"italic\">\"A walking museum of Tacet Discords… Can such power truly belong to a human? Worse still, it evolves.\"</span><br><span class=\"italic\">\"No… it's an inner empire. I saw it… an empire rising within her.\"</span>"
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "Resonator Galbrena has a prior history of Overclocking. Maximum severity rating: Mild.<br>  <br><span class=\"italic\">Black Shores Bloom Bearer Research Report</span><br>  <br><span class=\"italic\">Despite the immense power Ms. Galbrena exhibited after <te href=850073>Overclocking</te>—including marked transformation of both appearance and physiology—we nevertheless classify her historical Overclock severity rating as Mild.</span><br>  <br><span class=\"italic\">This assessment must be understood in context: her Resonance Ability was once corrupted by the <te href=851023>Dark Tide</te>, leaving her almost entirely depleted of her Resonance Ability. For a Resonator so diminished to achieve Overclocking at all—to move from deficit to surplus, from absence to presence—is nothing short of miraculous.</span><br>  <br><span class=\"italic\">Traditionally, Overclocking has been defined as a state that exhausts the mind and body, signifying the dominance of destructive tendencies over regenerative ones within Resonators. Galbrena's case, however, compels us to reconsider this definition. In her, Overclocking did not manifest as deterioration, but as a signal of rebirth. It suggests that the phenomenon may be closely tied to the will of the Resonator and that, if properly guided, Overclocking could potentially yield constructive outcomes, transforming into a power that Resonators could one day learn to wield with intent.</span><br>  <br><span class=\"italic\">Important Note: All research personnel are strictly prohibited from attempting, by any method, to replicate Ms. Galbrena's Overclocking method. Any such action, once discovered, will result in immediate containment measures.</span>"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Zhang Wenjie"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Shouji Umeka"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Lee Da Seul"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Devora Wilde"
-    }
-  }
+  ]
 }

@@ -12,7 +12,8 @@
     13
   ],
   "sonatas": [
-    16
+    20,
+    3
   ],
   "changelog": [
     {
@@ -23,8 +24,11 @@
       "time": "2026-07-16"
     },
     {
-      "time": "2026-07-17",
-      "text": "- menambahkan Rebecca sebagai Sub DPS"
+      "text": "- menambahkan Rebecca sebagai Sub DPS",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-17"
     }
   ],
   "faction": "Ephor's Palace",
@@ -436,55 +440,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "Rinascita"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Septimont"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "Ephor of Septimont. The undying sun eternally ablaze, and a banner under which defeat does not exist.<br>She comes. She sees. She conquers.<br>With blade held high, she awaits the next challenger or the fate that claims it cannot be defied."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Magnetism Before Light"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[Extracted from █████ Agon Participant Physical Report]<br> <br>Name: Augusta<br>This contender's Resonance history dates back to early childhood, nearly concurrent with her age. It is speculated that she is a <te href=850068>Congenital Resonator</te>.<br>Contender Augusta's <te href=850072>Tacet Mark</te> is located on the back of her left hand. Upon activation, she can generate and manipulate a magnetic field with a radius of approximately ten meters, centered around herself. With increasing mastery of her Forte, she can freely control and reshape materials such as iron, cobalt, and nickel. However, based on both personal testimony and test data, her Forte appears to have reached its developmental ceiling, with the ten-meter radius marking its practical upper limit.<br><br><span class=\"italic\">\"A rare Congenital Resonator, but her Forte offers little more than minor support in combat, and might, at best, be described as 'unremarkable.' For someone like her to stand out in the Agon? That's about as likely as the sun rising at midnight. Pure fantasy.\" —From a medical examiner's notes</span><br><span class=\"italic\">The Tacet Mark branded on the back of her hand since childhood was both a gift from above and a cruel joke. Her feeble Forte once bound her like shackles, but now, she has long since melted those chains away. Step by step, she climbs the stairs to the throne, proving to all that even one born of dust can shine with the brilliance of a blazing sun.</span>"
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "[Ephor's Palace Annual Medical Report—Access Verified]<br> <br>The subject's waveform graph shows elliptical fluctuations. The Time Domain pattern is regular, and no signs of abnormal fluctuations are observed. The test results fall within the normal phase range.<br>Resonant Criticality: This subject has a minimal risk of <te href=850073>Overclocking</te>. Based on waveform intensity, Overclocking potential is also ruled out.<br>Records indicate no history of Overclocking, and psychological counseling is currently deemed unnecessary.<br><span class=\"italic\">\"Every time we do this, it feels like checking your height as a grown woman, which is... a bit awkward...\"</span><br><span class=\"italic\">\"But when it gets to the physical tests, you never fail to surprise. Well, more like shock whoever designed the test equipment...\"</span><br><span class=\"italic\">\"Haha, is that so?\"</span>"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Mu Xueting"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Hikasa Yoko"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Lee Ji Hyeon"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Alix Wilton Regan"
-    }
-  }
+  ]
 }

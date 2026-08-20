@@ -14,7 +14,7 @@
     35
   ],
   "sonatas": [
-    31
+    27
   ],
   "changelog": [
     {
@@ -611,55 +611,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "Lahai-Roi"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Startorch Academy"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "Once an Exostrider Synchronist of Rabelle College, she is now a digital ghost who sings quietly amongst stars."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Guiding Starlance"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[Retrieved from the <te href=851071>Spacetrek Collective</te> Archive: <te href=851069>Startorch Academy</te> - Student Records]<br>[Resonance Ability Assessment Report RA2362-G]<br><br>Student Name: Aemeath<br>Synchronist Qualification: Affirmative<br>Forte Overview: Tests reveal a <te href=850067>Rabelle's Curve</te> with a steady upward trend, converging into a stable oscillatory state. Based on current parameters, the subject is classified as a <te href=850070>Natural Resonator</te>. Her <te href=850072>Tacet Mark</te> is located in the thoracic region.<br><br>According to pre-admission personal records and the subject's own account, the individual ▇▇▂▇▋▌▏▉█... Okay, so this report doesn't hold much reference value anymore. It's totally outdated. It's talking about me when I still had a body. Let me set the record straight. At present, I'm already the Exostrider's Synchronist. My Tacet Mark has changed, compared to before. Now it isn't the most... stable. As for my abilities, I can manifest an Exostrider Armament and synchronize with it directly. Translation—Yes, I get to transform! And because I like fighting efficiently, I programmed a custom autopilot feature for the unit. Current simulation results are looking good. Lets me paint the whole battlefield with lightshow-level laser coverage. Oh, and the digital ghost thing lets me slip into any data system. Not sure if that's really part of my Forte or just a perk of my unique Resonance condition... ▇▉▇▇▂▇<br><br><span class=\"italic\">\"That's odd... why is this student's file corrupted? It's nothing but data errors.\"</span><br><span class=\"italic\">\"The missing Synchronist? I see... Report it to President Lucilla.\"</span>"
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "Rabelle's Waveform test sample analysis shows an elliptical oscillation pattern and a stable Time Domain. No abnormal fluctuations were observed. Examination results are determined to be within normal parameters. <br> <br>Conclusion: Resonant Criticality is within normal range. Subject stability remains robust. No history of and no present risk of <te href=850073>Overclocking</te>. <te href=850067>Rabelle's Curve</te> remains stable.<br><br>Psychological counseling is currently deemed unnecessary.<br> <br><span class=\"italic\">\"Aemeath… has been doing well this academic year. But we do need to watch her psychological baseline closely. If it shifts, therapeutic intervention is a must.\"</span><br><span class=\"italic\">\"But... she always seems so cheerful.\"</span><br><span class=\"italic\">\"That's exactly why we watch, not interfere. If this is the life she's chosen for herself, we respect it. We'll just do our part as teachers.\"</span>"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Wang Yaxin"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Sato Satomi"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Kim Ha Ru"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Cara Theobold"
-    }
-  }
+  ]
 }

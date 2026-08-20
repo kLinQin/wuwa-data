@@ -12,7 +12,7 @@
     32
   ],
   "sonatas": [
-    20,
+    21,
     8
   ],
   "changelog": [
@@ -380,55 +380,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Male"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "Huanglong"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Mingting"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "Former senior agent of Mingting's Internal Security Agency. <br><br>Though enmity filled his younger days, loyalty defined his later years. However, scapegoated for a murder, he is now but a blind swordsman wandering the world alone."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Bambooscape"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "Miscellaneous Records of <te href=260009>Mingting</te>'s Minister of Sentinel Affairs: Correspondence Collection<br><br>My dear friend Dongyuan,<br><br>A few days prior, the <te href=260001>Internal Security Agency</te> forwarded documents from the Justice Commission and the Huaxu Academy to the <te href=260002>Ministry of Sentinel Affairs</te>. Without delay, I instructed the Chongzhou official to assist in the matter and thoroughly examine the local Resonator register. It has now been confirmed that the individual in question has no connection with the <te href=850083>Sentinel</te> or the <te href=850074>Threnodian</te> of Chongzhou.<br><br>According to the Ministry's records, this individual has been a Resonator for over fifteen years. Described as one who \"sees the world through bamboos and hides his blade within them,\" he is blind yet wields a remarkable ability known as <te href=260003>Mindsight</te>. Through this power, he perceives his surroundings through a \"bamboo forest\" in his mind, enabling him to discern opponents' intentions and vulnerabilities. He can even manifest the Mindsight into tangible illusions. This is not a person to be underestimated.<br><br>Moreover, his swordsmanship appears to stem chiefly from personal skill rather than his Resonance Ability. Observations indicate that he consistently restrains the use of his Resonance power. He claims that the bamboo flask he carries contains a concoction—prepared by a wandering healer in Chongzhou—that stimulates his Mindsight and Forte, and is used only when necessary. This matter may be forwarded to the Academy for further analysis.<br><br>As for the detailed test data, please await the Academy's formal report...<br><br>Dongyuan's annotation: Simply ensure this is recorded clearly. We follow the Ministry of Sentinel Affairs's judgment… My my, Lin still writes with his characteristic formality."
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "Miscellaneous Records of <te href=260009>Mingting</te>'s <te href=260002>Ministry of Sentinel Affairs</te>: Correspondence Collection<br><br>…In my recent observations over the past few days, it appears less that he refuses to employ his Forte and more that he consciously restrains himself from using it. Regarding the nature of the ability itself, he remains decidedly reserved. Only from the Academy's report may one glean a few particulars:<br><br><span class=\"italic\">Test subject waveform analysis presents an elliptical oscillation. Time-domain readings are stable, with no anomalous patterns observed.<br>Resonant Criticality: High. Stability is high with no risk of <te href=850073>Overclocking</te>. <br>No prior history of Overclocking. Psychological intervention is deemed unnecessary.<br>Note: The subject admits to repeated offenses involving violent breaches of the law, though his demeanor was notably composed. It is recommended that these claims should be verified by the Ministry of Justice and local authorities in Chongzhou.</span><br><br>…Yet, in my own assessment, this man harbors no murderous intent. His composure is unwavering, his demeanor steady. His swordsmanship is among the finest, and few in all of Mingting could rival him. He could have been a remarkable asset to the <te href=260001>Internal Security Agency</te>. That such an individual is listed in the Justice Commission's dossiers as a perpetrator of unlawful violence is difficult to believe. I have already communicated with the Ministry of Rites, outlining the advantages and implications of recruiting said individual. Should you wish to employ this man, I expect no obstacle shall arise on that account.<br><br>Dongyuan's annotation: Naturally, the steadier the better. But judging from this report... isn't this lad a little too devoid of emotion?"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Gan Ziqi"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Miki Shinichiro"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Kim Min Ju"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Jeremy Ang Jones"
-    }
-  }
+  ]
 }

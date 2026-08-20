@@ -148,7 +148,11 @@
       24
     ],
     "sonatas": [
-      28
+      20,
+      4,
+      17,
+      16,
+      8
     ],
     "image": "/characters/hiyuki.webp",
     "icon": "/icons/characters/hiyuki.webp",
@@ -172,7 +176,8 @@
       32
     ],
     "sonatas": [
-      28
+      30,
+      8
     ],
     "image": "/characters/lucilla.webp",
     "icon": "/icons/characters/lucilla.webp",
@@ -194,7 +199,8 @@
       24
     ],
     "sonatas": [
-      32
+      33,
+      7
     ],
     "image": "/characters/suisui.webp",
     "icon": "/icons/characters/suisui.webp",
@@ -328,7 +334,7 @@
       28
     ],
     "sonatas": [
-      15
+      18
     ],
     "image": "/characters/lupa.webp",
     "icon": "/icons/characters/lupa.webp",
@@ -349,7 +355,9 @@
       5
     ],
     "sonatas": [
-      21
+      22,
+      2,
+      18
     ],
     "image": "/characters/galbrena.webp",
     "icon": "/icons/characters/galbrena.webp",
@@ -372,7 +380,8 @@
       36
     ],
     "sonatas": [
-      25
+      25,
+      7
     ],
     "image": "/characters/mornye.webp",
     "icon": "/icons/characters/mornye.webp",
@@ -396,7 +405,7 @@
       35
     ],
     "sonatas": [
-      31
+      27
     ],
     "image": "/characters/aemeath.webp",
     "icon": "/icons/characters/aemeath.webp",
@@ -421,9 +430,8 @@
       36
     ],
     "sonatas": [
-      30,
-      26,
-      24
+      28,
+      31
     ],
     "image": "/characters/denia.webp",
     "icon": "/icons/characters/denia.webp",
@@ -557,7 +565,8 @@
       13
     ],
     "sonatas": [
-      16
+      20,
+      3
     ],
     "image": "/characters/augusta.webp",
     "icon": "/icons/characters/augusta.webp",
@@ -602,7 +611,10 @@
       34
     ],
     "sonatas": [
-      29
+      32,
+      31,
+      3,
+      8
     ],
     "image": "/characters/rebecca.webp",
     "icon": "/icons/characters/rebecca.webp",
@@ -732,7 +744,7 @@
       22
     ],
     "sonatas": [
-      18
+      16
     ],
     "image": "/characters/ciaccona.webp",
     "icon": "/icons/characters/ciaccona.webp",
@@ -823,7 +835,7 @@
       32
     ],
     "sonatas": [
-      20,
+      21,
       8
     ],
     "image": "/characters/qiuyuan.webp",
@@ -846,7 +858,7 @@
       10
     ],
     "sonatas": [
-      27
+      29
     ],
     "image": "/characters/sigrika.webp",
     "icon": "/icons/characters/sigrika.webp",
@@ -1003,7 +1015,10 @@
       26
     ],
     "sonatas": [
-      22
+      23,
+      6,
+      12,
+      7
     ],
     "image": "/characters/chisa.webp",
     "icon": "/icons/characters/chisa.webp",
@@ -1030,7 +1045,7 @@
     ],
     "sonatas": [
       24,
-      23
+      26
     ],
     "image": "/characters/lynae.webp",
     "icon": "/icons/characters/lynae.webp",
@@ -1052,7 +1067,7 @@
       35
     ],
     "sonatas": [
-      23
+      26
     ],
     "image": "/characters/luuk-herssen.webp",
     "icon": "/icons/characters/luuk-herssen.webp",
@@ -1074,7 +1089,8 @@
       38
     ],
     "sonatas": [
-      29
+      32,
+      5
     ],
     "image": "/characters/lucy.webp",
     "icon": "/icons/characters/lucy.webp",
@@ -1276,13 +1292,18 @@
     "weapon": 2,
     "version": "3.6",
     "lastUpdated": "2026-08-18",
-    "roles": [],
-    "sonatas": [],
+    "roles": [
+      2,
+      36
+    ],
+    "sonatas": [
+      34
+    ],
     "image": "/characters/qingxiao.webp",
     "icon": "/icons/characters/qingxiao.webp",
     "faction": "Ministry of War",
     "affiliation": "Jinzhou, Huanglong",
-    "class": ""
+    "class": "Natural"
   },
   {
     "id": 1212,
@@ -1292,12 +1313,17 @@
     "weapon": 1,
     "version": "3.6",
     "lastUpdated": "2026-08-18",
-    "roles": [],
-    "sonatas": [],
+    "roles": [
+      2,
+      5
+    ],
+    "sonatas": [
+      35
+    ],
     "image": "/characters/jingran.webp",
     "icon": "/icons/characters/jingran.webp",
-    "faction": "",
+    "faction": "Nethermancer",
     "affiliation": "Jinzhou, Huanglong",
-    "class": ""
+    "class": "Natural"
   }
 ]

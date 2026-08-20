@@ -13,7 +13,7 @@
     28
   ],
   "sonatas": [
-    15
+    18
   ],
   "changelog": [
     {
@@ -27,6 +27,7 @@
       "text": "- add generaal notes",
       "type": "updated",
       "isNew": false,
+      "leaks": false,
       "time": "2026-07-16"
     }
   ],
@@ -454,55 +455,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "Rinascita"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Septimont"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "A Gladiator of Septimont, a radiant star of the arena.<br>Fiery and straightforward, Lupa lives like a wild lone wolf. As long as she can savor the adrenaline rush of battle, she doesn't mind if that same fire ends up consuming her whole."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Howling Flame"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[Excerpt from Gladiator Resonance Assessment]<br>Contender Name: Lupa<br><br>The contender is classified as a Non-congenital Resonator, with her Resonance ability first manifesting during a childhood gladiatorial event. The estimated Resonance duration exceeds ten years.<br><br>Frequency spectrum analysis indicates a primary Resonance alignment with fire. However, overlapping characteristics observed across multiple standard spectral signatures have rendered definitive source classification inconclusive.<br><br>The contender has demonstrated a consistent increase in both the strength and precision of her abilities over the course of her competitive career.<br><br>The <te href=850072>Tacet Mark</te> is located on the left side of the contender's waist. Resonance Awakening is accompanied by partial wolf-like transformation traits. In addition to a visible tail, the contender self-reports heightened olfactory and auditory sensitivity.<br><br><span class=\"italic\">\"Assessment complete. Thank you for your cooperation, Contender Lupa.<br><br>…Ahem, one more thing... My daughter loves watching your matches. Would it be possible to ask for your autograph?\"</span>"
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "[Pre-Match Condition Confirmation]<br>Contender Name: Lupa<br><br>Spectral waveform analysis displays elliptical fluctuations with a stable Time Domain. No anomalous patterns detected.<br><br>Diagnosis: <te href=850073>Overclocking</te> threshold is high. Subject stability remains robust. No signs or history of Overclocking.<br><br><span class=\"italic\">\"Contender Lupa has consistently undergone health assessments on schedule. Among high-profile Gladiators, few maintain such disciplined routines.\"</span>"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Shuo Xiaotu"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Takahashi Minami"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Kim Ye Reong"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Kaja Chan"
-    }
-  }
+  ]
 }

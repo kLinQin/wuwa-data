@@ -1,19 +1,22 @@
 {
-  "id": 1410,
-  "name": "Iuno",
-  "element": 4,
+  "id": 1108,
+  "name": "Hiyuki",
+  "element": 1,
   "rarity": 5,
-  "weapon": 4,
-  "version": "2.6",
-  "lastUpdated": "2026-01-30",
+  "weapon": 2,
+  "version": "3.3",
+  "lastUpdated": "2026-04-28",
   "roles": [
-    1,
-    3,
+    2,
     7,
-    29
+    24
   ],
   "sonatas": [
-    16
+    20,
+    4,
+    17,
+    16,
+    8
   ],
   "changelog": [
     {
@@ -24,179 +27,286 @@
       "time": "2026-07-17"
     },
     {
-      "text": "- Add affiliation di lore page",
+      "text": "- Add lucilla di team comp",
       "type": "updated",
       "isNew": false,
       "leaks": false,
       "time": "2026-07-16"
+    },
+    {
+      "text": "- add forte skill description",
+      "type": "updated",
+      "isNew": false,
+      "leaks": false,
+      "time": "2026-07-26"
     }
   ],
-  "faction": "Tetragon Temple",
-  "affiliation": "Septimont,Rinascita",
-  "class": "Congenital",
-  "image": "/characters/iuno.webp",
-  "icon": "/icons/characters/iuno.webp",
-  "imageBanner": "/banners/iuno-banner.jpeg",
+  "faction": "Startorch Academy",
+  "affiliation": "Spacetrek Collective",
+  "class": "Unclear",
+  "image": "/characters/hiyuki.webp",
+  "icon": "/icons/characters/hiyuki.webp",
+  "imageBanner": "/banners/hiyuki-banner.jpeg",
   "skills": {
     "basic": {
-      "name": "Moon Steps",
+      "name": "Flaming Sakura Blade Art",
       "description": "",
       "effects": [
         {
-          "title": "Moonring - Basic Attack",
-          "description": "Melakukan hingga 3 serangan berturut-turut dengan Moonring, memberikan Aero DMG.",
+          "title": "Basic Attack - Present Self",
+          "description": "Menekan Normal Attack secara berturut-turut atau menahan tombol untuk melancarkan hingga 3 serangan berturut-turut, memberikan Glacio DMG.\nBasic Attack - Present Self Stage 3 memberikan 1 stack(s) Glacio Chafe saat mengenai target.",
           "isTitleVisible": true
         },
         {
-          "title": "Mid-air Attack",
-          "description": "Mengonsumsi STA untuk melakukan Plunging Attack, memberikan Aero DMG.",
+          "title": "Heavy Attack - Frost Splinter: Present Self",
+          "description": "Saat Dedication mencapai 300 poin, Heavy Attack - Frost Splinter: Present Self menjadi tersedia.\nMenahan Normal Attack untuk menembakkan 3 anak panah satu per satu dengan mengonsumsi STA, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Hiyuki menjadi kebal terhadap interupsi selama durasi tersebut.\nSaat anak panah terakhir ditembakkan, 300 poin Dedication akan dikonsumsi dan Foreclaiming: Inward Vision menjadi tersedia. Anak panah tersebut memberikan 1 stack(s) Glacio Chafe saat mengenai target.",
           "isTitleVisible": true
         },
         {
-          "title": "Moonring - Dodge Counter",
-          "description": "Tekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target dengan Moonring, memberikan Aero DMG. Tekan Normal Attack lagi sesaat setelah melakukan skill ini untuk melancarkan Moonring - Basic Attack Stage 3.",
+          "title": "Mid-air Attack - Present Self",
+          "description": "Mengonsumsi STA untuk melancarkan Plunging Attack dari udara, memberikan Glacio DMG.",
           "isTitleVisible": true
         },
         {
-          "title": "Moonbow - Basic Attack",
-          "description": "Memasuki Lunar Cycle - New Moon dengan melancarkan Heavy Attack - Flux: Moonring. Saat berada dalam status ini, Iuno akan menyerang dengan Moonbow.\nMelakukan hingga 3 serangan berturut-turut dengan Moonbow, memberikan Aero DMG, yang dianggap sebagai Resonance Liberation DMG.\nDapat dilancarkan di udara.",
+          "title": "Dodge Counter - Present Self",
+          "description": "Menekan Normal Attack dalam periode tertentu setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG.\nMenekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Present Self Stage 3.",
           "isTitleVisible": true
         },
         {
-          "title": "Moonbow - Dodge Counter",
-          "description": "Saat berada dalam Lunar Cycle - New Moon, tekan Normal Attack sesaat setelah Dodge yang berhasil untuk menyerang target dengan Moonbow, memberikan Aero DMG, yang dianggap sebagai Resonance Liberation DMG.\nSaat berada dalam Lunar Cycle - New Moon, tekan Normal Attack lagi sesaat setelah melakukan skill ini untuk melancarkan Moonbow - Basic Attack Stage 3.\nDapat dilancarkan di udara.",
+          "title": "Basic Attack - Foreclaimed Self",
+          "description": "Saat berada dalam Foreclaimed Self, Basic Attack - Present Self digantikan oleh Basic Attack - Foreclaimed Self.\nMelancarkan hingga 5 serangan berturut-turut, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nBasic Attack - Foreclaimed Self Stage 3, 4, dan 5 masing-masing memberikan 1 stack(s) Glacio Chafe saat mengenai target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Foreclaimed Self",
+          "description": "Dalam status Foreclaimed Self, tahan Normal Attack untuk memasuki Hold Breath, yang mengonsumsi STA secara terus-menerus. Saat Normal Attack dilepaskan atau STA habis, Hiyuki meninggalkan status Hold Breath dan menusuk ke depan, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Tekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 2.\nJika Hiyuki diserang oleh musuh dalam periode tertentu saat melakukan tusukan, netralkan instansi damage tersebut, berikan efek Stagnate pada target di sekitar, dan menjadi kebal terhadap interupsi untuk periode tertentu setelahnya sambil mengurangi semua damage yang masuk sebesar 100%. Tekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk menyambung ke Basic Attack - Foreclaimed Self Stage 4 sebagai gantinya.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Heavy Attack - Bitterfrost: Foreclaimed Self",
+          "description": "Saat Whiteout Bitterfrost penuh, Heavy Attack - Foreclaimed Self digantikan dengan Heavy Attack - Bitterfrost: Foreclaimed Self.\nMenahan Normal Attack dan mengonsumsi STA serta 3 stack(s) Whiteout Bitterfrost untuk mendapatkan 1 poin Snowforged Blade, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nHeavy Attack - Bitterfrost: Foreclaimed Self memberikan 1 stack(s) Glacio Chafe saat mengenai target.\nJika Hiyuki berada di udara saat melancarkan skill ini, ia akan mendarat di tanah terlebih dahulu.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Mid-air Attack - Foreclaimed Self",
+          "description": "Saat berada dalam Foreclaimed Self, Mid-air Attack - Present Self digantikan oleh Mid-air Attack - Foreclaimed Self.\nMengonsumsi STA untuk melancarkan hingga 3 serangan berturut-turut di udara, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG. Stage 3 merupakan Plunging Attack.\nMid-air Attack - Foreclaimed Self Stage 2 & 3 memberikan 1 stack(s) Glacio Chafe saat mengenai target.\nKombo Mid-air Attack - Foreclaimed Self tidak akan diatur ulang dengan melancarkan skill selain Basic Attack - Iai dalam periode singkat.\nMenahan Normal Attack saat berada di udara untuk melancarkan Plunging Attack dengan mengonsumsi STA.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Dodge Counter - Foreclaimed Self",
+          "description": "Saat berada dalam Foreclaimed Self, Dodge Counter - Present Self digantikan oleh Dodge Counter - Foreclaimed Self.\nMenekan Normal Attack dalam periode tertentu setelah berhasil melakukan Dodge untuk menyerang target, memberikan Glacio DMG yang dianggap sebagai Resonance Liberation DMG.\nMenekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 3.",
           "isTitleVisible": true
         }
       ]
     },
     "skill": {
-      "name": "Foresight Fugue",
+      "name": "Resonance Skill - Present Self",
       "description": "",
       "effects": [
         {
-          "title": "Pulse of Origins",
-          "description": "Melesat ke depan, memberikan Aero DMG.",
+          "title": "",
+          "description": "Memberikan Glacio DMG.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Melancarkan skill ini memperkuat Basic Attack - Present Self Stage 3 berikutnya, yang kini memulihkan 100 poin Dedication saat dilancarkan. Beralih ke Resonator lain akan mengakhiri efek ini.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Menekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Present Self Stage 3.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Jika Dedication berada di bawah 300 poin, tahan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Present Self Stage 3.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Saat berada dalam Foreclaimed Self, Resonance Skill - Present Self digantikan oleh Frostblight: Jade Cleave dan Frostblight: Petalfall:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "Frostblight: Jade Cleave",
+          "description": "Saat berada di tanah, tekan Resonance Skill untuk menarik target di sekitar dan memberikan Glacio DMG, menghapus status Frostbind pada target tersebut.\nSkill ini berbagi Cooldown dengan Frostblight: Petalfall.",
           "isTitleVisible": true
         },
         {
-          "title": "Closing Refrain",
-          "description": "Saat tidak dalam Lunar Cycle, melancarkan Moonring - Basic Attack Stage 3, Intro Skill, atau Pulse of Origins menggantikan Resonance Skill Iuno dengan Closing Refrain selama 5 detik.\nMelancarkan Closing Refrain melepaskan serangkaian serangan bertubi-tubi, memberikan Aero DMG, dan mengaktifkan Lunar Cycle.",
-          "isTitleVisible": true
-        },
-        {
-          "title": "Unfinished Refrain",
-          "description": "Saat dalam Lunar Cycle - Half Moon, Resonance Skill Iuno digantikan dengan Unfinished Refrain.\nMelancarkan Unfinished Refrain melepaskan serangkaian serangan bertubi-tubi, memberikan Aero DMG.\nUnfinished Refrain berbagi Cooldown yang sama dengan Closing Refrain.",
-          "isTitleVisible": true
-        },
-        {
-          "title": "Arc Beyond the Edge",
-          "description": "Saat Iuno berada dalam Lunar Cycle - New Moon, Resonance Skill miliknya digantikan dengan Arc Beyond the Edge, yang memiliki 2 charge awal.\nMelancarkan Arc Beyond the Edge membuat Iuno berpindah posisi dan memberikan Aero DMG, yang dianggap sebagai Resonance Liberation DMG.\n- Input arah dapat digunakan untuk memperpanjang jarak perpindahan. Jika Iuno terkena hit atau terlempar ke udara, melancarkan Arc Beyond the Edge segera membuatnya pulih dari serangan tersebut.\nDapat dilancarkan di udara.",
+          "title": "Frostblight: Petalfall",
+          "description": "Saat berada di udara, tekan Resonance Skill untuk menarik target di sekitar dan memberikan Glacio DMG, menghapus status Frostbind pada target tersebut.\nSkill ini berbagi Cooldown dengan Frostblight: Jade Cleave.",
           "isTitleVisible": true
         }
       ]
     },
     "liberation": {
-      "name": "Beneath Lunar Tides",
+      "name": "Foreclaiming",
       "description": "",
       "effects": [
         {
-          "title": "",
-          "description": "Memberikan Aero DMG dan mengaktifkan status Lunar Cycle.",
-          "isTitleVisible": false
+          "title": "Foreclaiming: Inward Vision",
+          "description": "Heavy Attack - Foreclaiming: Inward Vision menjadi tersedia setelah melancarkan Frost Splinter: Present Self.\nSaat berada dalam Present Self, tekan Resonance Liberation untuk melancarkan skill ini, memberikan Glacio DMG. Setelah melancarkan skill ini, dapatkan 3 poin Frostharden Iai, hapus 300 poin Dedication dan Frostheart. Kemudian, masuk ke status Foreclaimed Self dan pulihkan 50 poin Frostheart.\nForeclaiming: Inward Vision memberikan 4 stack(s) Glacio Chafe saat mengenai target.\nMelancarkan Foreclaiming: Inward Vision tidak mengonsumsi Resonance Energy, dan memulihkan 50 poin Frostheart.",
+          "isTitleVisible": true
         },
         {
-          "title": "",
-          "description": "Dapat dilancarkan di udara.",
-          "isTitleVisible": false
+          "title": "Foreclaiming: Blade Liberation",
+          "description": "Saat berada dalam Foreclaimed Self, Foreclaiming: Blade Liberation dapat dilancarkan melalui cara-cara berikut:\n- Menekan Resonance Liberation dan lepaskan untuk melancarkan Foreclaiming: Blade Liberation. Jika Hiyuki memiliki 3 poin Snowforged Blade, konsumsi semua Snowforged Blade. Jika tidak, peluncuran ini tidak mengonsumsi Snowforged Blade.\n- Menahan Resonance Liberation untuk memasuki status pengisian daya (charging). Selama status ini, konsumsi 1 poin Snowforged Blade secara berkala. Lepaskan Resonance Liberation untuk melancarkan Foreclaiming: Blade Liberation. Jika tidak ada Snowforged Blade yang dikonsumsi saat Resonance Liberation dilepaskan, Hiyuki akan terus mengisi daya serangan dan melancarkan skill secara otomatis setelah waktu tertentu. Foreclaiming: Blade Liberation juga akan dilancarkan secara otomatis saat Snowforged Blade habis.\nHiyuki memberikan Glacio DMG. Setiap poin Snowforged Blade yang dikonsumsi meningkatkan DMG Multiplier dari serangan ini.\nMelancarkan skill ini mengonsumsi 300 poin Dedication dan Frostheart, serta mengakhiri status Foreclaimed Self.",
+          "isTitleVisible": true
         }
       ]
     },
     "forte": {
-      "name": "Ebb And Flow",
+      "name": "Everfrost Dominion",
       "description": "",
       "effects": [
         {
-          "title": "Lunar Cycle",
-          "description": "Iuno dapat mengaktifkan Lunar Cycle dengan melancarkan Resonance Skill - Closing Refrain atau Resonance Liberation.\nLunar Cycle memiliki dua status: Half Moon dan New Moon. Secara default, Iuno memasuki status Half Moon saat mengaktifkan Lunar Cycle dan dapat berpindah di antara kedua status tersebut dengan melancarkan Heavy Attack - Flux.\nSaat dalam Lunar Cycle:\n- Jump Iuno digantikan dengan Heavy Attack - Flux. STA tidak akan pulih saat Iuno berada di udara.\n- Pergerakan Iuno menjadi Meandering, yang mengonsumsi STA secara terus-menerus di udara untuk bergerak dengan cara yang unik.\n- Melakukan interaksi lingkungan, menggunakan Utilities, atau menahan Jump akan mengakhiri Lunar Cycle.",
+          "title": "Glacio Bite",
+          "description": "- Saat Hiyuki berada dalam tim, Glacio Chafe yang diberikan oleh Resonator terdekat dalam tim dikonversi menjadi Glacio Bite. Setiap kali tumpukan baru Glacio Bite diberikan pada target, satu instance Glacio Bite DMG terpicu berdasarkan batas tumpukan Glacio Bite musuh saat ini. Glacio Bite dapat diberikan pada target yang membeku. Glacio Bite juga dianggap sebagai Glacio Chafe dan Glacio Bite DMG juga dianggap sebagai Glacio Chafe DMG.\n- Saat Foreclaiming: Inward Vision atau Basic Attack - Iai mengenai target, jika target memiliki tidak kurang dari 10 tumpukan Glacio Bite, konsumsi 10 tumpukan dan picu Frostbind sekali.\n- Saat Hiyuki bergabung ke dalam tim, hapus semua tumpukan Glacio Chafe dari target. Saat Hiyuki meninggalkan tim, jika tidak ada Resonator lain dalam tim yang dapat mengonversi Glacio Chafe menjadi Glacio Bite, semua tumpukan Glacio Bite musuh dibersihkan.",
           "isTitleVisible": true
         },
         {
-          "title": "Lunar Cycle - Half Moon",
-          "description": "Iuno menyerang menggunakan Moonring, memulihkan Sentience saat terkena hit.\nIa dapat menggunakan Heavy Attack - Flux: Moonbow untuk memberikan Aero DMG (dianggap sebagai Resonance Liberation DMG) dan berpindah ke Lunar Cycle - New Moon.\nHeavy Attack - Flux: Moonbow dapat dilancarkan di udara.",
+          "title": "Present Self",
+          "description": "Hiyuki memulai dalam keadaan Present Self. Saat berada dalam Present Self, melancarkan skill tertentu memulihkan Dedication",
           "isTitleVisible": true
         },
         {
-          "title": "Lunar Cycle - New Moon",
-          "description": "Iuno menyerang menggunakan Moonbow. Saat dalam status ini, melancarkan Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, atau Moonbow - Dodge Counter mengonsumsi Sentience untuk meningkatkan DMG Multiplier skill tersebut, memulihkan tambahan Concerto Energy, dan memulihkan HP Resonator terdekat di dalam tim.\nIuno dapat menggunakan Heavy Attack - Flux: Moonring untuk memberikan Aero DMG (dianggap sebagai Resonance Liberation DMG) dan berpindah ke Lunar Cycle - Half Moon.\nHeavy Attack - Flux: Moonring dapat dilancarkan di udara.",
+          "title": "Foreclaimed Self",
+          "description": "Hiyuki memasuki Foreclaimed Self setelah melancarkan Foreclaiming: Inward Vision. Saat berada dalam Foreclaimed Self, Hiyuki membuka gerakan baru dan memulihkan Frostheart melalui serangan tertentu.",
           "isTitleVisible": true
         },
         {
-          "title": "Heavy Attack - Absolute Fullness",
-          "description": "Saat Concerto Energy Iuno penuh, Heavy Attack miliknya digantikan dengan Absolute Fullness.\nMelancarkan Absolute Fullness mengakhiri Lunar Cycle, memberikan pemulihan HP bagi Resonator terdekat di dalam tim, memberikan Aero DMG pada target terdekat (dianggap sebagai Resonance Liberation DMG), dan memunculkan Full Moon domain di lokasinya. Efek ini dapat dipicu sekali setiap 25 detik.\nDapat dilancarkan di udara.",
+          "title": "Iai Stance",
+          "description": "Jika Hiyuki memiliki setidaknya 100 poin Frostheart, melakukan salah satu aksi berikut menyebabkan ia berkedip mundur dengan mengonsumsi STA dan memasuki Iai Stance:\n- Tekan Dodge setelah melancarkan Normal Attacks - Foreclaimed Self apa pun selain Heavy Attack - Bitterfrost: Foreclaimed Self, Frostblight: Jade Cleave, Frostblight: Petalfall, Basic Attack - Iai, atau Intro Skill - Frostedge.\n- Tahan Resonance Skill dalam periode tertentu setelah melancarkan Frostblight: Jade Cleave atau Frostblight: Petalfall.\nSaat melakukan aksi di atas, jika ada target valid dalam jangkauan dan input depan ditahan, Hiyuki sebaliknya berkedip ke belakang musuh dengan mengonsumsi STA dan memasuki Iai Stance.\nHiyuki dapat memasuki Iai Stance saat berada di udara. Saat memasuki Iai Stance, pengisian Dodge udara Hiyuki direset. Iai Stance berakhir jika Hiyuki diganti.",
           "isTitleVisible": true
         },
         {
-          "title": "Full Moon Domain",
-          "description": "Resonator di dalam domain secara periodik memulihkan HP dan STA.\nMendapatkan Shield di dalam domain memberikan 1 stack Blessing of the Wan Light. Efek ini dapat dipicu sekali setiap 0.5 detik.",
+          "title": "Basic Attack - Iai",
+          "description": "Dalam periode tertentu setelah memasuki Iai Stance, tekan Normal Attack dan konsumsi 100 poin Frostheart untuk melancarkan Basic Attack - Iai, menimbulkan Glacio DMG, dihitung sebagai Resonance Liberation DMG.\nJika Frostheart tetap berada pada 100 poin atau lebih setelah melancarkan skill ini, tekan Normal Attack dalam periode tertentu untuk melancarkan Basic Attack - Iai lagi.\nJika Hiyuki diserang oleh musuh dalam periode tertentu selama Basic Attack - Iai, netralkan instance damage ini dan menjadi kebal terhadap interupsi untuk durasi tertentu setelahnya sambil mengurangi semua incoming DMG sebesar 100%.\nSetiap kali Basic Attack - Iai dilancarkan, jika Hiyuki memiliki Frostharden Iai, konsumsi 1 poin Frostharden Iai untuk memberikan 3 tumpukan Glacio Chafe upon hit, dan mendapatkan 1 tumpukan Whiteout Bitterfrost.",
           "isTitleVisible": true
         },
         {
-          "title": "Blessing of the Wan Light",
-          "description": "Resonator yang menerima mendapatkan 4% all DMG Amplification selama 10 detik, dapat menumpuk hingga 10 stack. Mendapatkan stack baru akan mereset durasi. Efek ini berakhir lebih awal jika Resonator yang menerima diganti keluar dari field.",
+          "title": "Dedication",
+          "description": "Hiyuki menampung hingga 300 poin Dedication.\nSaat berada dalam Present Self, Dedication dapat dipulihkan melalui cara berikut:\n- Melancarkan Basic Attack - Present Self Stage 3 memulihkan 100 poin Dedication.\n- Melancarkan Intro Skill - Frostedge memulihkan 200 poin Dedication.\nMelancarkan Resonance Skill - Present Self meningkatkan Basic Attack - Present Self Stage 3 berikutnya, yang sekarang juga memulihkan tambahan 100 poin Dedication. Efek ini berakhir saat Hiyuki diganti",
           "isTitleVisible": true
         },
         {
-          "title": "Sentience",
-          "description": "Iuno dapat menampung hingga 100 poin Sentience.\nMelancarkan Intro Skill memulihkan 40 poin Sentience.\nMelancarkan Resonance Liberation memulihkan 60 poin Sentience.\nMelancarkan Closing Refrain atau Unfinished Refrain memulihkan 25 poin Sentience.\nSaat Iuno berada dalam Lunar Cycle, Moonring - Basic Attack, Moonring - Dodge Counter, dan Mid-air Attack memulihkan Sentience saat terkena hit.",
+          "title": "Frostheart",
+          "description": "Hiyuki menampung hingga 300 poin Frostheart.\nFrostheart dipulihkan saat melancarkan Frostblight: Jade Cleave dan Frostblight: Petalfall, atau ketika Normal Attacks - Foreclaimed Self selain Heavy Attack - Bitterfrost: Foreclaimed Self mengenai target.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Frostharden Iai",
+          "description": "Frostharden Iai memiliki maksimal 3 poin.\nMelancarkan Foreclaiming: Inward Vision memberikan 3 poin Frostharden Iai.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Whiteout Bitterfrost",
+          "description": "Whiteout Bitterfrost bertumpuk hingga 3 kali.\nSetiap kali Frostharden Iai dikonsumsi melalui Basic Attack - Iai, dapatkan 1 tumpukan Whiteout Bitterfrost.",
+          "isTitleVisible": true
+        },
+        {
+          "title": "Snowforged Blade",
+          "description": "Snowforged Blade bertumpuk hingga 3 kali.\nSetiap kali Heavy Attack - Bitterfrost: Foreclaimed Self dilancarkan, dapatkan 1 tumpukan Snowforged Blade.",
           "isTitleVisible": true
         }
       ]
     },
     "inherent": [
       {
-        "name": "Waxing Ascent",
+        "name": "Fine Snow",
         "effects": [
           {
             "title": "",
-            "description": "Setiap kali Iuno melancarkan Basic Attack, Heavy Attack, Dodge Counter, Resonance Skill, Resonance Liberation, atau Intro Skill, ia mendapatkan 1 Shield setara dengan 32% dari ATK miliknya selama 15 detik. Shield ini tidak akan diteruskan kepada Resonator yang masuk ke field selanjutnya.",
+            "description": "Saat Resonator dalam tim memberikan Glacio Chafe atau Havoc Bane, Hiyuki mendapatkan 1 stack(s) Snow Rust. Snow Rust dapat di stack(s) hingga 3 kali. Setiap Resonator hanya dapat memicu efek ini satu kali melalui cara tersebut.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Berdasarkan jumlah stack(s) Snow Rust Hiyuki saat ini, bonus berikut akan terbuka:",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "1 stack(s) Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, Glacio Bite DMG mendapatkan Amplify sebesar 30% terhadap target dalam jarak tertentu. Crit. DMG Hiyuki meningkat sebesar 40%.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "2 stack(s) Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali ia memberikan Glacio Chafe, ia tambahan memberikan 102% Glacio Bite DMG sebanyak satu kali.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "3 stack(s) Snow Rust: Saat Hiyuki menjadi Resonator aktif dalam tim, Glacio Bite DMG tambahan mendapatkan Amplify sebesar 30% terhadap target dalam jarak tertentu.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Efek ini diatur ulang saat Resonator baru ditambahkan ke dalam tim.",
             "isTitleVisible": false
           }
         ]
       },
       {
-        "name": "Derivation",
+        "name": "Ephemeral Realm",
         "effects": [
           {
             "title": "",
-            "description": "Saat Iuno melancarkan Intro Skill atau Resonance Liberation, ia segera mendapatkan 5 stack Blessing of the Wan Light.",
+            "description": "Setelah Hiyuki meninggalkan status pertempuran atau pulih setelah pingsan, saat ia berada di luar pertempuran selama 4 detik dengan kondisi memiliki kurang dari 1 poin Snowforged Blade, pulihkan 1 poin tersebut.",
+            "isTitleVisible": false
+          }
+        ]
+      },
+      {
+        "name": "Tune Break",
+        "effects": [
+          {
+            "title": "",
+            "description": "Saat Off-Tune Level target penuh, Hiyuki dapat melancarkan Tune Break pada target.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat berada dalam Present Self, tekan atau tahan Normal Attack sesaat setelah melancarkan Tune Break untuk melancarkan Basic Attack - Present Self Stage 3.",
+            "isTitleVisible": false
+          },
+          {
+            "title": "",
+            "description": "Saat berada dalam Foreclaimed Self, tekan Normal Attack sesaat setelah melancarkan Tune Break untuk melancarkan Basic Attack - Foreclaimed Self Stage 3.",
             "isTitleVisible": false
           }
         ]
       }
     ],
     "intro": {
-      "name": "Illuminated Manifestation",
+      "name": "Frostedge",
       "description": "",
       "effects": [
         {
           "title": "",
-          "description": "Deal Aero DMG.",
+          "description": "Memberikan Glacio DMG, dianggap sebagai Resonance Liberation DMG, dan memberikan 1 stack(s) Glacio Chafe saat mengenai target.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dalam status Present Self, melancarkan skill ini memulihkan 200 poin Dedication. Tekan atau tahan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 3.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Dalam status Foreclaimed Self, tekan Normal Attack dalam periode tertentu setelah melancarkan skill ini untuk melancarkan Basic Attack - Foreclaimed Self Stage 2.",
           "isTitleVisible": false
         }
       ]
     },
     "outro": {
-      "name": "From Gloom To Gleam",
+      "name": "Snowlight Blessing",
       "description": "",
       "effects": [
         {
           "title": "",
-          "description": "Menyerang target untuk memberikan 100% Aero DMG. Resonator yang masuk mendapatkan 50% Heavy Attack DMG Amplification selama 14 detik. Efek ini berakhir lebih awal jika mereka diganti keluar dari field.",
-          "isTitleVisible": false
-        },
-        {
-          "title": "",
-          "description": "Melancarkan Outro Skill tidak akan menginterupsi Heavy Attack - Absolute Fullness, dan efek Outro Skill tetap berlaku.",
+          "description": "Glacio DMG yang diberikan oleh Resonator di sekitar selain Hiyuki dalam tim mendapatkan Amplify sebesar 20% terhadap target yang terkena efek Glacio Chafe selama 20 detik.",
           "isTitleVisible": false
         }
       ]
@@ -205,75 +315,75 @@
   "materials": {
     "ascension": [
       {
+        "level": 90,
         "cost": [
           {
-            "item": 1,
+            "item": 97,
             "amount": 46
           },
           {
-            "item": 68,
+            "item": 65,
             "amount": 4
           },
           {
-            "item": 82,
+            "item": 79,
             "amount": 12
           },
           {
-            "item": 51,
+            "item": 48,
             "amount": 12
           },
           {
-            "item": 35,
+            "item": 32,
             "amount": 4
           },
           {
-            "item": 118,
+            "item": 108,
             "amount": 60
           },
           {
             "item": 116,
             "amount": 170000
           }
-        ],
-        "level": 90
+        ]
       }
     ],
     "skills": {
       "totalCosts": [
         {
-          "item": 130,
+          "item": 141,
           "amount": 26
         },
         {
-          "item": 68,
+          "item": 65,
           "amount": 25
         },
         {
-          "item": 82,
+          "item": 79,
           "amount": 28
         },
         {
-          "item": 51,
+          "item": 48,
           "amount": 40
         },
         {
-          "item": 35,
+          "item": 32,
           "amount": 57
         },
         {
-          "item": 19,
+          "item": 14,
           "amount": 25
         },
         {
-          "item": 17,
+          "item": 91,
           "amount": 28
         },
         {
-          "item": 18,
+          "item": 104,
           "amount": 55
         },
         {
-          "item": 16,
+          "item": 73,
           "amount": 67
         },
         {
@@ -286,134 +396,144 @@
   "sequences": [
     {
       "stage": "S1",
-      "name": "Wax Or Wane, All Gild The Bough",
+      "name": "Springless",
       "effects": [
         {
           "title": "",
-          "description": "Saat Iuno berada dalam Lunar Cycle, ATK miliknya meningkat sebesar 40%.",
+          "description": "DMG Multiplier dari Basic Attack - Foreclaimed Self, Heavy Attack - Foreclaimed Self, Mid-air Attack - Foreclaimed Self, Mid-air Plunging Attack - Foreclaimed Self, dan Dodge Counter - Foreclaimed Self meningkat sebesar 120%.",
           "isTitleVisible": false
         },
         {
           "title": "",
-          "description": "Saat Iuno berada di dalam Full Moon Domain, ia secara tambahan memulihkan 1 poin Resonance Energy per detik.",
+          "description": "Basic Attack - Foreclaimed Self Stage 3 kini memiliki jangkauan yang lebih luas dan menarik musuh dalam jangkauan ke arah pusat. Hiyuki menjadi kebal terhadap interupsi saat melancarkan Basic Attack - Foreclaimed Self Stage 4 & 5.",
           "isTitleVisible": false
         },
         {
           "title": "",
-          "description": "Resonance Skill - Arc Beyond the Edge dan Heavy Attack - Absolute Fullness menjadi kebal terhadap interupsi (immune to interruption).",
+          "description": "Melancarkan Foreclaiming: Inward Vision memperkuat Basic Attack - Foreclaimed Self Stage 1 & 2 berikutnya, yang kini memberikan 1 stack(s) Glacio Chafe saat mengenai target.",
           "isTitleVisible": false
         }
       ]
     },
     {
       "stage": "S2",
-      "name": "Day Or Night, Let This Be Eternal",
+      "name": "To Burn Cold In Silence",
       "effects": [
         {
           "title": "",
-          "description": "Resonator di dalam tim dengan 10 stack Blessing of the Wan Light mendapatkan tambahan 40% all DMG Amplification.",
+          "description": "DMG Multiplier dari Basic Attack - Iai meningkat sebesar 125%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Efek Inherent Skill Ephemeral Realm berubah menjadi berikut:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah Hiyuki meninggalkan status pertempuran atau pulih setelah pingsan, setelah berada di luar pertempuran selama 4 detik, pulihkan 3 poin Snowforged Blade.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Setelah Hiyuki meninggalkan status pertempuran atau pulih setelah pingsan, setelah berada di luar pertempuran selama 4 detik, efek berikut akan dipicu satu kali:",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Memulihkan 3 poin Frostharden Iai.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Mengatur ulang Cooldown dari 2 pengisian Frostblight: Jade Cleave.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "- Memulihkan tambahan 50 poin Frostheart untuk 2 peluncuran Frostblight: Jade Cleave atau Frostblight: Petalfall berikutnya.",
           "isTitleVisible": false
         }
       ]
     },
     {
       "stage": "S3",
-      "name": "I Drink Deep Of Their Forgetting",
+      "name": "No Self, No Bound",
       "effects": [
         {
           "title": "",
-          "description": "Saat Iuno berada dalam Lunar Cycle, DMG yang diberikan oleh Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, dan Moonbow - Dodge Counter mendapatkan Amplified sebesar 65%.",
+          "description": "Inherent Skill Fine Snow mendapatkan efek berikut:",
           "isTitleVisible": false
         },
         {
           "title": "",
-          "description": "Dalam periode tertentu setelah melakukan Moonbow - Basic Attack atau Moonbow - Dodge Counter, melancarkan Resonance Skill - Arc Beyond the Edge tidak akan mereset urutan (cycle) dari Moonbow - Basic Attack.",
+          "description": "Setiap 2 detik setelah seorang Resonator bergabung ke dalam tim atau Hiyuki dibangkitkan, Hiyuki mendapatkan 1 stack(s) Snow Rust. Hiyuki dapat memperoleh hingga 1 stack(s) Snow Rust melalui cara ini.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "DMG Multiplier dari Heavy Attack - Frost Splinter: Present Self dan Heavy Attack - Bitterfrost: Foreclaimed Self meningkat sebesar 160%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Pada 2 stack(s) Snow Rust, saat Hiyuki menjadi Resonator aktif dalam tim, DMG Multiplier dari Glacio Bite DMG tambahan yang diberikan setiap kali ia memberikan Glacio Chafe meningkat sebesar 488%.",
           "isTitleVisible": false
         }
       ]
     },
     {
       "stage": "S4",
-      "name": "Rainy Season Dwell In My Eyes",
+      "name": "Like Reeds On Tides",
       "effects": [
         {
           "title": "",
-          "description": "Melancarkan Heavy Attack - Absolute Fullness memberikan Shield setara dengan 160% dari ATK Iuno kepada semua Resonator di dalam tim selama 30 detik, yang tidak dapat diteruskan kepada Resonator yang masuk ke field selanjutnya.",
+          "description": "Melancarkan Resonance Skill: Present Self, Frostblight: Jade Cleave, atau Frostblight: Petalfall meningkatkan damage yang diberikan oleh semua Resonator di sekitar dalam tim sebesar 20% selama 30 detik.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Memulihkan 18% dari Max HP saat melancarkan Frostblight: Jade Cleave atau Frostblight: Petalfall.",
           "isTitleVisible": false
         }
       ]
     },
     {
       "stage": "S5",
-      "name": "A Thousand Futile Glimpses",
+      "name": "Vessel Of Thousand Wishes",
       "effects": [
         {
           "title": "",
-          "description": "Iuno mendapatkan 20% Resonance Liberation DMG Bonus.",
+          "description": "DMG Multiplier dari Resonance Skill - Present Self, Frostblight: Jade Cleave, dan Frostblight: Petalfall meningkat sebesar 80%.",
           "isTitleVisible": false
         }
       ]
     },
     {
       "stage": "S6",
-      "name": "I Am The Constant In The Chaos",
+      "name": "Into A Night Without End",
       "effects": [
         {
           "title": "",
-          "description": "DMG Multiplier dari Heavy Attack - Absolute Fullness meningkat sebesar 1600%. Setelah melancarkan skill ini, Iuno memasuki kembali Lunar Cycle - New Moon, mendapatkan 100 poin Sentience, dan mereset semua cooldown dari Resonance Skill - Arc Beyond the Edge.",
+          "description": "Crit. DMG dari Foreclaiming: Inward Vision dan Foreclaiming: Blade Liberation meningkat sebesar 500%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Pada 2 stack(s) Snow Rust, efek \"Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali ia memberikan Glacio Chafe, ia tambahan memberikan satu instansi Glacio Bite DMG dengan DMG Multiplier tetap\" berubah menjadi \"Saat Hiyuki menjadi Resonator aktif dalam tim, setiap kali seorang Resonator dalam tim memberikan Glacio Chafe, ia tambahan memberikan satu instansi Glacio Bite DMG dengan DMG Multiplier tetap.\"",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Pada 2 stack(s) Snow Rust, Crit. DMG Hiyuki meningkat sebesar 40%.",
+          "isTitleVisible": false
+        },
+        {
+          "title": "",
+          "description": "Pada 3 stack(s) Snow Rust, total Glacio Bite DMG yang diterima oleh target dalam jangkauan tertentu dari Resonator aktif dalam tim meningkat sebesar 25%.",
           "isTitleVisible": false
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "Rinascita"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Septimont"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "She is favored by fate under one name, and swept away by it in another. Yet never once has she been defeated, nor has she ever yielded.<br>Now, witness the defiant Priestess. Witness what keeps her striding forward, never to look back. Witness how she walks the intricate web of destiny and becomes the only answer."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Stasis, Cycle, Renewal"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[Excerpt from the <te href=850152>Priestess</te> Register, Tetragon Temple]<br>This entry concerns the 127th Priestess of the Tetragon Temple, known as Iu▇.<br><br>She was born on the night of hollowed moon. As a <te href=850068>Congenital Resonator</te>, her eyes are said to hold the power to ▇▇▇▇.<br><br>Her Tacet Mark is located atop her left foot. When she activates her Resonance ability, ▇▇ energy constructs with the shape of lunar phases manifest around her, and the tips of her hair turn translucent, radiating a gentle glow that is almost indistinguishable from actual moonlight.<br><br>Resonance spectral analysis reveals that her Forte aligns extraordinarily closely with the frequency pattern of the natural moon, exhibiting a continuous, phase-like modulation. Notably, three years ago, her Forte appeared to ▇▇▇▇. It became capable of An▇ and Mani▇, enabling her to shape moonlight into solid arrows that can reveal marked monsters hid▇ in the <te href=851023>Dark Tide</te>.<br><br><span class=\"italic\">When we archived this entry, Grandmother Lillibet asked us to verify it multiple times. Oddly, none of us could remember who had written it in the first place. And stranger still, no one seems to recall the Priestess described here. Could a powerful Priestess like her have truly existed? Somehow, this out-of-nowhere record feels as if it was written by the moonlight itself!</span>"
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "[Excerpt from the <te href=850152>Priestess</te> Register, Tetragon Temple]<br>This entry concerns the 127th Priestess of the Tetragon Temple.<br><br>The waveform of this Priestess remains largely within controllable parameters, with no signs of <te href=850073>Overclocking</te> risk. However, multiple interruptions of varying durations have been observed, accompanied by a gradual and consistent decline in her frequency. This suggests a possible state of long-term depletion. The underlying cause remains unknown. The Priestess has refused further examination and shows limited willingness to engage in deeper dialogue on the matter.<br><br><span class=\"italic\">It‘s clear she understands far more about her own condition than she lets on. But if this waveform continues to diminish beyond the controllable range, or even to zero… what would possibly happen then?</span><br><span class=\"italic\">Is she truly unafraid? Or has she already found a way to intervene?</span>"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Jiang Yingjun"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Lynn"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Yoon Eun Seo"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Ella Boyes"
-    }
-  }
+  ]
 }

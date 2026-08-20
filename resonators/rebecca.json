@@ -13,7 +13,10 @@
     34
   ],
   "sonatas": [
-    29
+    32,
+    31,
+    3,
+    8
   ],
   "changelog": [
     {
@@ -475,55 +478,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "An Edgerunner like Lucy, though completely different in her M.O.<br>A whimsical fireball who's always ready to raze out your troubles with her shotgun."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Fury-Type Arsenal"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[██ Record Modification Log]<br><br>Modification Target: Rebecca<br>Modification Code: RA2██-G<br><br>The subject is identified as a Mutant-Type Resonator, with the Tacet Mark located on the right shoulder.<br><br>Forte Manifestation:<br>When utilizing firearms originating from ██, the subject can enhance the weapons' own ballistic precision and terminal effectiveness. Building upon this foundation, the subject's attacks can neutralize and disrupt the frequency surrounding specific Nightmare Tacet Discords, inflicting additional damage to targets hit.<br><br>Firearm Summoning:<br>The subject can summon three specific firearms tailored to different combat scenarios, using her Forte to materialize and dematerialize these weapons. While a weapon is being summoned, its damage output fluctuates in response to the subject's emotional state, suggesting a direct feedback loop between her Forte and the weapon's performance parameters.<br><br><span class=\"italic\">\"The subject's frequency sample exhibits up to 97% similarity to the frequency of Nightmare Tacet Discords in the region. It is speculated that the two share a certain correlation.\"</span><br><span class=\"italic\">\"███ intervened. Related research terminated.\"</span>"
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "The subject's waveform diagram exhibits elliptical oscillations with a stable Time Domain. No abnormal fluctuation tendencies were observed. Examination results are determined to be within normal parameters. <br> <br>Conclusion: Resonant Criticality is high and subject stability remains robust. No immediate risk of Overclocking. <br>No history of Overclocking; however, the subject exhibits emotional instability. Psychological counseling has shown minimal efficacy.<br> <br><span class=\"italic\">\"****! In Night City, I'm practically the poster child for mental health!\"</span><br><span class=\"italic\">\"This sample is way too textbook... You sure someone didn't just copy-paste it from a manual?\"</span>"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Chen Zhang"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Kurosawa Tomoyo"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Park Si Yoon"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Alex Cazares"
-    }
-  }
+  ]
 }

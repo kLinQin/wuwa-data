@@ -13,7 +13,8 @@
     36
   ],
   "sonatas": [
-    25
+    25,
+    7
   ],
   "changelog": [
     {
@@ -450,55 +451,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "New Federation"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Spacetrek Collective"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "Mornye, a Spacetrek Collective Research Institute engineer and a Department of Exostrider Engineering professor at Startorch Academy.<br>Each step on her prosthetic legs carries her toward the stars of her dreams."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Astral Mapping"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[<te href=851071>Spacetrek Collective</te> Senior Researcher Routine Health and Capability Evaluation Report]<br>Name: Mornye<br>Affiliation: Spacetrek Collective - Research Institute and Department of Exostrider Engineering<br> <br>1. Forte Assessment<br><br>1.1 Baseline Classification<br>The subject is classified as a <te href=850070>Natural Resonator</te>, with a <te href=850072>Tacet Mark</te> located on the lateral aspect of the left thigh.<br>1.2 Parameters & Characteristics<br>- Effective Range: Approximately 20 meters. Within this radius, the subject demonstrates direct, fine-grained manipulation of mechanical entities with complex internal structures. Precision of manipulation remains stable across the entire effective range, with no observed signal degradation.<br>- Activation Prerequisite: Forte initiation requires a complete structural analysis of the target's internal mechanical composition. The Forte cannot be initiated on objects with unknown internal structures.<br> <br><span class=\"italic\">\"Wait, what is that supposed to mean…? I've never seen Professor Mornye fail to take control of a machine!\"</span><br> <br>2. Physical Condition Overview<br><br>2.1 Diagnosis<br>The subject presents with congenital hypoplasia of the lumbosacral plexus, resulting in permanent loss of motor function distal to the coccygeal region and an absence of autonomous locomotion capability.<br> 2.2 Rehabilitation Status<br>Through a custom neural-interface prosthetic limb system, the subject has achieved full independence in ambulation and daily activity. Functional stability has been maintained for several years. This evaluation constitutes a routine review."
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "Waveform analysis of the test sample indicates an elliptical oscillation pattern with a stable Time Domain. While a prolonged tendency toward irregular fluctuations was previously documented, the waveform has since stabilized. Examination results are determined to be within normal parameters. <br> <br>Conclusion: Resonant Criticality is within normal range. Subject stability remains robust. No present risk of <te href=850073>Overclocking</te>.<br> <br>Resonator Mornye has a prior history of Overclocking. Maximum severity rating: Mild. <br>The subject reported inducing a brief episode several years ago to sustain the operation of a critical signal tower. Due to timely medical intervention, no post-Overclocking symptoms were observed.<br> <br>Routine physical examinations are advised. Psychological counseling is currently deemed unnecessary."
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Tong Xinzhu"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Iwami Manaka"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Oh Ro ah"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Michelle Fox"
-    }
-  }
+  ]
 }

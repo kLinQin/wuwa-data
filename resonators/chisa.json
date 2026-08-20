@@ -12,7 +12,10 @@
     26
   ],
   "sonatas": [
-    22
+    23,
+    6,
+    12,
+    7
   ],
   "changelog": [
     {
@@ -26,6 +29,7 @@
       "text": "- Update team note",
       "type": "updated",
       "isNew": false,
+      "leaks": false,
       "time": "2026-07-16"
     }
   ],
@@ -463,55 +467,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "Ashinohara"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Startorch Academy"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "\"Just an ordinary student.\"<br><br>Calmly, she introduces herself, a faint iridescent shimmer flickering in her eyes. Again, the structures of the world reveal themselves in her vision. Narrowing her eyes, she singles out the very thread that tugs at life itself."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Eye of Unraveling"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": ">>>Authorization confirmed. Associated files unlocked. Welcome, Inspector ███>>><br><br>Forte Examination Report: NHA-Eye of Unraveling-017<br><br>Subject: Chisa Kuchiba<br><br>Resonator Type: Mutant<br><br>Tacet Mark Location: Right upper arm<br><br>Testing Agency: <te href=851074>Ashinohara</te> - Neo Honami - Resonator Monitoring Center<br><br>Testing indicates the subject possesses an extraordinary cognitive ability to intuitively discern the structure, form, and movement of observed objects. While employing her Forte, she can analyze objects' weaknesses through her vision and apply precise interference to induce structural destruction.<br><br>Notes: Subject recounts perceiving \"threads\" that cause objects to unravel. Preliminary analysis suggests these \"threads\" are not actual entities but visual manifestations exclusive to her vision."
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": ">>>Access Level Upgrade: R-III>>><br><br>The subject's Forte exhibits extensibility and growth potential beyond safety thresholds. Under extreme conditions, she may be capable of analyzing abstract spatial structures, identifying the \"threads\" of anomalies within anomalous spaces, and inducing reality-distortion events, including spatial ██.<br><br>Current Anomalous Indicators:<br>- Multiple steep fluctuations detected in her <te href=850067>Rabelle's Curve</te>, with peak values approaching the critical limit.<br> <br>- Forte stability remains weak, presenting a measurable risk of <te href=850073>Overclocking</te>.<br> <br>Preliminary Monitoring Measures:<br>The subject is required to wear a collar-type Resonator suppression device to regulate her Forte and is placed on the observation list of high-risk Resonators.<br> <br>Relevant monitoring agencies are instructed to maintain updated records with central authorities regarding the subject's Forte changes and real-time location. If deemed necessary, compulsory measures may be taken in accordance with the law."
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Zhao Lingze"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Kanemoto Hisako"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "LEE JOO EUN"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Leader Looi"
-    }
-  }
+  ]
 }

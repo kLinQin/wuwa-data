@@ -12,7 +12,7 @@
     24
   ],
   "sonatas": [
-    28
+    30
   ],
   "changelog": [
     {
@@ -531,55 +531,5 @@
         }
       ]
     }
-  ],
-  "favorRole": {
-    "Birthday": {
-      "Title": "No Description Available",
-      "Content": "Unknown"
-    },
-    "Sex": {
-      "Title": "No Description Available",
-      "Content": "Female"
-    },
-    "Country": {
-      "Title": "No Description Available",
-      "Content": "Ashinohara"
-    },
-    "Influence": {
-      "Title": "No Description Available",
-      "Content": "Miko of Flaming Sakura"
-    },
-    "Info": {
-      "Title": "No Description Available",
-      "Content": "Hailing from Ashinohara, the Miko of Flaming Sakura now remains in Lahai-Roi as the last and only member of the Special Response Force."
-    },
-    "TalentName": {
-      "Title": "No Description Available",
-      "Content": "Futures' Tithe"
-    },
-    "TalentDoc": {
-      "Title": "Resonance Evaluation Report",
-      "Content": "[<te href=851071>Spacetrek Collective</te>: Classified Archive]<br><br>Interview Dossier: Hiyuki<br><br>Due to multifaceted considerations, we have foregone a truly comprehensive evaluation of the representative from <te href=851074>Ashinohara</te>—the Miko of Flaming Sakura.<br>The majority of the intelligence gathered herein is based on her personal testimony. In the recorder's professional estimation, corroborated through subsequent cross-referencing, she appears to harbor no intention of concealing any information regarding her background.<br><span class=\"italic\">\"After all, information regarding the 'Miko of Eternal Flaming Sakura' can be found in just about any Ashinohara elementary school textbook...\"</span><br> <br>According to Hiyuki's own account, the source of her Forte is the \"Suzu,\" a Legacy Talisman worn on her right wrist.<br>Hiyuki describes the Suzu as follows: It grants the bearer the ability to perceive and utilize \"future possibilities\" of oneself, though it does not allow for direct communication with these \"shadows of future possibility.\"<br>The freezing power she often wields in combat also stems from the \"Suzu.\"<br><span class=\"italic\">\"Verified via official Ashinohara reports: The Legacy Talismans are five relics left behind by the Sentinels, distributed among the internal factions of Ashinohara for safekeeping.\"</span><br><span class=\"italic\">\"Among them, the Suzu is described as granting its bearer the power to 'draw upon the future.'\"</span><br> <br>Consequently, it is determined that the fundamental source of her exceptional combat prowess remains her own inherent skill.<br>However, the \"futures\" available for her to draw upon are not infinite. Out of concern for her physiological lifespan, aggressive deployment of her abilities is strongly advised against.<br><span class=\"italic\">\"Investigation confirms that every Miko of Flaming Sakura has shared a singular cause of death: vanishing from the battlefield without a trace following excessive use of the Suzu.\"</span>"
-    },
-    "TalentCertification": {
-      "Title": "Overclock Diagnostic Report",
-      "Content": "The subject's Rabelle's Waveform diagram exhibits an elliptical oscillation pattern with a stable Time Domain representation. No abnormal fluctuations were observed. Examination results are determined to be within normal parameters. <br> <br>Current <te href=850073>Overclocking</te> threshold is exceptionally high, and subject stability remains robust. There is no risk of Overclocking, and the subject has no prior history of Overclocking. However, a course of psychological intervention is recommended.<br> <br><span class=\"italic\">\"This miko... How should I put this...\"</span><br><span class=\"italic\">\"<te href=851074>Ashinohara</te> textbooks never show her face, but they're clear about one thing. She is the strongest living warrior in all of Ashinohara.\"</span><br><span class=\"italic\">\"And yet, with all that combat, her readings stay perfectly stable. Something about that just doesn't sit right...\"</span><br><span class=\"italic\">\"I get your concern, but the data is clear. There's not a single irregularity.\"</span><br><span class=\"italic\">\"...Then what about those shadows? Like parallel-universe versions of herself from some movie?\"</span><br><span class=\"italic\">\"Hardly. It must be the Suzu's power. Just as the Ashinohara records describe, it allows her to 'draw upon the future' to a certain extent.\"</span>"
-    },
-    "CVNameCn": {
-      "Title": "No Description Available",
-      "Content": "Li Chanfei"
-    },
-    "CVNameJp": {
-      "Title": "No Description Available",
-      "Content": "Tomatsu Haruka"
-    },
-    "CVNameKo": {
-      "Title": "No Description Available",
-      "Content": "Jung Hye Won"
-    },
-    "CVNameEn": {
-      "Title": "No Description Available",
-      "Content": "Mei Mac"
-    }
-  }
+  ]
 }
