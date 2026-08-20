@@ -1,292 +1,286 @@
 [
   {
-    "title": "When the Runes Glitter - Sigrika Banner",
-    "date": "2026-03-19 09:40 - 2026-04-09 08:59",
+    "title": "Wind of Transcendence - QIngxiao",
+    "date": "<t:1787191200:D> <t:1787191200:R> - <t:1789005540:D> <t:1789005540:R>",
     "type": "banner",
     "image": [
       "/characters/yangyang.webp",
       "/characters/sanhua.webp",
       "/characters/buling.webp"
     ],
-    "description": "",
-    "background": "/event/sigrika.webp",
-    "icon": "/icons/characters/sigrika.webp"
+    "background": "/event/qingxiao.webp",
+    "description": "WIP",
+    "icon": "/icons/characters/qingxiao.webp"
   },
   {
-    "title": "Undefined Spectrum - Lynae Banner",
-    "date": "2026-04-09 09:00 - 2026-04-29 10:59",
+    "title": "Glint of Clouds - Qingxiao Weapon",
+    "date": "<t:1787191200:D> <t:1787191200:R> - <t:1789005540:D> <t:1789005540:R>",
+    "type": "weapon",
+    "image": [
+      "/weapons/sword/lunar-cutter.webp",
+      "/weapons/sword/endless-collapse.webp",
+      "/weapons/sword/glint-of-clouds.webp"
+    ],
+    "background": "/event/qingxiao-weapon.webp",
+    "description": "WIP",
+    "icon": "/weapons/sword/glint-of-clouds.webp"
+  },
+  {
+    "title": "Where Santu Beckons - Jingran",
+    "date": "<t:1789005600:D> <t:1789005600:R> - <t:1790654340:D> <t:1790654340:R>",
     "type": "banner",
     "image": [
       "/characters/yangyang.webp",
       "/characters/taoqi.webp",
       "/characters/youhu.webp"
     ],
+    "background": "/event/jingran.webp",
     "description": "WIP",
-    "background": "/event/lynae.webp",
-    "icon": "/icons/characters/lynae.webp"
+    "icon": "/icons/characters/jingran.webp"
   },
   {
-    "title": "Solsworn Ciphers - Sigrika Weapon Banner",
-    "date": "2026-03-19 09:40 - 2026-04-09 08:59",
-    "type": "weapon",
-    "image": [
-      "/weapons/sword/lunar-cutter.webp",
-      "/weapons/sword/endless-collapse.webp",
-      "/weapons/gauntlet/celestial-spiral.webp"
-    ],
-    "description": "",
-    "background": "/event/sols.webp",
-    "icon": "/weapons/gauntlet/solsworn-ciphers.webp"
-  },
-  {
-    "title": "Spectrum Blaster - Lynae Weapon Banner",
-    "date": "2026-04-09 09:00 - 2026-04-29 10:59",
+    "title": "Thousandfold Deliverance - Jingran Weapon",
+    "date": "<t:1789005600:D> <t:1789005600:R> - <t:1790654340:D> <t:1790654340:R>",
     "type": "weapon",
     "image": [
       "/weapons/rectifier/variation.webp",
       "/weapons/pistol/relativistic-jet.webp",
-      "/weapons/gauntlet/marcato.webp"
+      "/weapons/broadblade/thousandfold-deliverance.webp"
     ],
+    "background": "/event/jingran-weapon.webp",
     "description": "WIP",
-    "background": "/event/spectrum.webp",
-    "icon": "/weapons/pistol/spectrum-blaster.webp"
+    "icon": "/weapons/broadblade/thousandfold-deliverance.webp"
   },
   {
-    "title": "Wanderer Knows No Far and Near - Qiuyuan Banner",
-    "date": "2026-03-19 09:40 - 2026-04-09 08:59",
+    "title": "False Promise for Tomorrow - Denia",
+    "date": "<t:1787191200:D> <t:1787191200:R> - <t:1789005540:D> <t:1789005540:R>",
     "type": "banner",
     "image": [
       "/characters/yangyang.webp",
       "/characters/sanhua.webp",
       "/characters/buling.webp"
     ],
+    "background": "/event/denia.webp",
     "description": "WIP",
-    "background": "/event/qy.webp",
-    "icon": "/icons/characters/qiuyuan.webp"
+    "icon": "/icons/characters/denia.webp"
   },
   {
-    "title": "Emerald Sentence - Qiuyuan Weapon Banner",
-    "date": "2026-03-19 09:40 - 2026-04-09 08:59",
+    "title": "Forged Dwarfstar - Denia Weapon",
+    "date": "<t:1787191200:D> <t:1787191200:R> - <t:1789005540:D> <t:1789005540:R>",
     "type": "weapon",
     "image": [
       "/weapons/sword/lunar-cutter.webp",
       "/weapons/sword/endless-collapse.webp",
-      "/weapons/sword/emerald-sentence.webp"
+      "/weapons/rectifier/forged-dwarf-star.webp"
     ],
+    "background": "/event/denia-weapon.webp",
     "description": "WIP",
-    "background": "/event/emerald.webp",
-    "icon": "/weapons/sword/emerald-sentence.webp"
+    "icon": "/weapons/rectifier/forged-dwarf-star.webp"
   },
   {
-    "title": "Between Light and Shadow - Zani Banner",
-    "date": "2026-04-09 09:00 - 2026-04-29 10:59",
+    "title": "Thousand Futures Mirrored in Snow - Hiyuki",
+    "date": "<t:1789005600:D> <t:1789005600:R> - <t:1790654340:D> <t:1790654340:R>",
     "type": "banner",
     "image": [
       "/characters/yangyang.webp",
       "/characters/taoqi.webp",
       "/characters/youhu.webp"
     ],
+    "background": "/event/hiyuki.webp",
     "description": "WIP",
-    "background": "/event/zani.webp",
-    "icon": "/icons/characters/zani.webp"
+    "icon": "/icons/characters/hiyuki.webp"
   },
   {
-    "title": "Blazing Justice - Zani Weapon Banner",
-    "date": "2026-04-09 09:00 - 2026-04-29 10:59",
+    "title": "Frostburn - Hiyuki Weapon",
+    "date": "<t:1789005600:D> <t:1789005600:R> - <t:1790654340:D> <t:1790654340:R>",
     "type": "weapon",
     "image": [
       "/weapons/rectifier/variation.webp",
       "/weapons/pistol/relativistic-jet.webp",
-      "/weapons/gauntlet/marcato.webp"
+      "/weapons/sword/frostburn.webp"
     ],
+    "background": "/event/hiyuki-weapon.webp",
     "description": "WIP",
-    "background": "/event/justice.webp",
-    "icon": "/weapons/gauntlet/blazing-justice.webp"
+    "icon": "/weapons/sword/frostburn.webp"
   },
   {
-    "title": "With Hushed Whispers - Phoebe Banner",
-    "date": "2026-04-09 09:00 - 2026-04-29 10:59",
+    "title": "Distant May the Starlights Be - Mornye",
+    "date": "<t:1789005600:D> <t:1789005600:R> - <t:1790654340:D> <t:1790654340:R>",
     "type": "banner",
     "image": [
       "/characters/yangyang.webp",
-      "/characters/taoqi.webp",
-      "/characters/youhu.webp"
+      "/characters/sanhua.webp",
+      "/characters/buling.webp"
     ],
+    "background": "/event/mornye.webp",
     "description": "WIP",
-    "background": "/event/phoebe.webp",
-    "icon": "/icons/characters/phoebe.webp"
+    "icon": "/icons/characters/mornye.webp"
   },
   {
-    "title": "Luminous Hymn - Phoebe Weapon Banner",
-    "date": "2026-04-09 09:00 - 2026-04-29 10:59",
+    "title": "Starfield Calibrator - Mornye Weapon",
+    "date": "<t:1789005600:D> <t:1789005600:R> - <t:1790654340:D> <t:1790654340:R>",
     "type": "weapon",
     "image": [
-      "/weapons/rectifier/variation.webp",
-      "/weapons/pistol/relativistic-jet.webp",
-      "/weapons/gauntlet/marcato.webp"
+      "/weapons/sword/lunar-cutter.webp",
+      "/weapons/sword/endless-collapse.webp",
+      "/weapons/broadblade/starfield-calibrator.webp"
     ],
+    "background": "/event/mornye-weapon.webp",
     "description": "WIP",
-    "background": "/event/luminous.webp",
-    "icon": "/weapons/rectifier/luminous-hymn.webp"
+    "icon": "/weapons/broadblade/starfield-calibrator.webp"
   },
   {
-    "title": "Endstate Matrix High Difficulty Recurring Challenge",
-    "date": "2026-03-26 03:00 - 2026-04-30 02:59",
+    "title": "Endstate Matrix (Phase 1)",
+    "date": "<t:1784232000:D> <t:1784232000:R> - <t:1787083140:D> <t:1787083140:R>",
     "type": "event",
     "image": [
       "/event/matrix.webp"
     ],
-    "description": "In Endstate Matrix, deploy Resonators and select a Power Circuit before starting a high-difficulty challenge. Endstate Matrix progresses through Challenge Cycles. Each Challenge Cycle spans across multiple Challenge Phases, which reset with version updates. Rewards are offered independently for Challenge Cycles and Challenge Phases.",
+    "background": "",
+    "description": "Endstate Matrix Phase 1 - High difficulty recurring challenge.",
     "icon": "/icons/characters/yangyang.webp"
   },
   {
-    "title": "Tower of Adversity: Hazard Zone",
-    "date": "2026-03-19 03:00 - 2026-03-30 02:59",
+    "title": "Tower of Adversity: Hazard Revisited (1st week)",
+    "date": "<t:1786910400:D> <t:1786910400:R> - <t:1789329540:D> <t:1789329540:R>",
     "type": "event",
     "image": [
       "/event/toa.webp"
     ],
+    "background": "",
     "description": "WIP",
     "icon": "/icons/characters/yangyang.webp"
   },
   {
-    "title": "Tower of Adversity: Hazard Zone",
-    "date": "2026-03-30 03:00 - 2026-04-27 02:59",
-    "type": "event",
-    "image": [
-      "/event/toa.webp"
-    ],
-    "description": "WIP",
-    "icon": "/icons/characters/yangyang.webp"
-  },
-  {
-    "title": "Tactical Hologram: Synchronization",
-    "date": "2026-03-19 07:40 - 2026-04-29 02:59",
+    "title": "Tactical Hologram: Simulation",
+    "date": "<t:1787191200:D> <t:1787191200:R> - <t:1790575140:D> <t:1790575140:R>",
     "type": "event",
     "image": [
       "/event/holo.webp"
     ],
+    "background": "",
     "description": "WIP",
     "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Whimpering Wastes",
-    "date": "2026-03-19 03:00 - 2026-04-13 02:59",
+    "date": "<t:1785700800:D> <t:1785700800:R> - <t:1788119940:D> <t:1788119940:R>",
     "type": "event",
     "image": [
       "/event/whimpering.webp"
     ],
+    "background": "",
     "description": "WIP",
     "icon": "/icons/characters/yangyang.webp"
   },
   {
-    "title": "Whimpering Wastes",
-    "date": "2026-04-13 03:00 - 2026-05-11 02:59",
-    "type": "event",
-    "image": [
-      "/event/whimpering.webp"
-    ],
-    "description": "WIP",
-    "icon": "/icons/characters/yangyang.webp"
-  },
-  {
-    "title": "Fantasies",
-    "date": "2026-03-23 03:00 - 2026-03-30 02:59",
-    "type": "event",
-    "image": [
-      "/event/fantasies.webp"
-    ],
-    "description": "WIP",
-    "icon": "/icons/characters/yangyang.webp"
-  },
-  {
-    "title": "Material Double Drop",
-    "date": "2026-04-02 03:00 - 2026-04-09 02:59",
+    "title": "Bountiful Crescendo - Limited-Time Material Double Drop Event",
+    "date": "<t:1788379200:D> <t:1788379200:R> - <t:1788983940:D> <t:1788983940:R>",
     "type": "event",
     "image": [
       "/event/bountiful.webp"
     ],
-    "description": "WIP",
+    "background": "",
+    "description": "Limited-time material double drop event.",
     "icon": "/icons/characters/yangyang.webp"
   },
   {
-    "title": "Echo Double Drop",
-    "date": "2026-04-22 03:00 - 2026-04-29 02:59",
+    "title": "Chord Cleansing - Limited-Time Echo Double Drop Event",
+    "date": "<t:1790020800:D> <t:1790020800:R> - <t:1790625540:D> <t:1790625540:R>",
     "type": "event",
     "image": [
       "/event/chord.webp"
     ],
-    "description": "WIP",
+    "background": "",
+    "description": "Limited-time echo double drop event.",
     "icon": "/icons/characters/yangyang.webp"
   },
   {
-    "title": "Gifts of Solsworn 7-Day Login Event",
-    "date": "2026-03-19 07:40 - 2026-04-29 02:59",
+    "title": "Gifts of Drifting Mist 7-Day Login Event",
+    "date": "<t:1787191200:D> <t:1787191200:R> - <t:1790625540:D> <t:1790625540:R>",
     "type": "event",
     "image": [
       "/event/3.2.webp"
     ],
-    "description": "WIP",
+    "background": "",
+    "description": "7-day login event.",
     "icon": "/icons/characters/yangyang.webp"
   },
   {
     "title": "Pioneer Podcast",
-    "date": "2026-03-19 07:40 - 2026-04-29 02:59",
+    "date": "<t:1787191200:D> <t:1787191200:R> - <t:1790625540:D> <t:1790625540:R>",
     "type": "event",
     "image": [
       "/event/podcast.webp"
     ],
+    "background": "",
     "description": "WIP",
     "icon": "/icons/characters/yangyang.webp"
   },
   {
-    "title": "Soar to the Beat Rhythm Challenge Event",
-    "date": "2026-03-19 07:40 - 2026-04-29 10:59",
+    "title": "Resonance Sim Realm Combat Event",
+    "date": "<t:1787364000:D> <t:1787364000:R> - <t:1790654340:D> <t:1790654340:R>",
     "type": "event",
     "image": [
-      "/event/rhytm.webp"
+      "/event/resonance-sim.webp"
     ],
+    "background": "",
     "description": "WIP",
     "icon": "/icons/characters/yangyang.webp"
   },
   {
-    "title": "Lahai-Roi Blocks Leisure Event",
-    "date": "2026-03-26 03:00 - 2026-04-13 02:59",
+    "title": "Second Coming of Solaris: Coded Deception Leisure Event",
+    "date": "<t:1787774400:D> <t:1787774400:R> - <t:1789329540:D> <t:1789329540:R>",
     "type": "event",
     "image": [
-      "/event/lahai.webp"
+      "/event/solaris.webp"
     ],
+    "background": "",
     "description": "WIP",
     "icon": "/icons/characters/yangyang.webp"
   },
   {
-    "title": "Speed up! F.U.E.L. Instrumentality Project! Leisure Event",
-    "date": "2026-04-02 03:00 - 2026-04-20 02:59",
+    "title": "The Strings Remember Leisure Event",
+    "date": "<t:1788379200:D> <t:1788379200:R> - <t:1789934340:D> <t:1789934340:R>",
     "type": "event",
     "image": [
-      "/event/speed.webp"
+      "/event/strings.webp"
     ],
+    "background": "",
     "description": "WIP",
     "icon": "/icons/characters/yangyang.webp"
   },
   {
-    "title": "Knights of the Wild Featured Challenge Event",
-    "date": "2026-04-09 09:00 - 2026-04-29 02:59",
+    "title": "If Dreams Still Reverberate Featured Co-op Combat Event",
+    "date": "<t:1789005600:D> <t:1789005600:R> - <t:1790625540:D> <t:1790625540:R>",
     "type": "event",
     "image": [
-      "/event/knight.webp"
+      "/event/dreams.webp"
     ],
-    "description": "WIP",
+    "background": "",
+    "description": "Featured co-op combat event.",
     "icon": "/icons/characters/yangyang.webp"
   },
   {
-    "title": "The Flaming Red in Memory Showcase Event",
-    "date": "2026-04-16 03:00 - 2026-04-29 02:59",
+    "title": "Featured Exploration Event: Fogveil Pagoda",
+    "date": "<t:1789588800:D> <t:1789588800:R> - <t:1790625540:D> <t:1790625540:R>",
     "type": "event",
     "image": [
-      "/event/flaming.webp"
+      "/event/fogveil.webp"
     ],
-    "description": "WIP",
+    "background": "",
+    "description": "Featured exploration event.",
     "icon": "/icons/characters/yangyang.webp"
+  },
+  {
+    "title": "Tower of Adversity: Hazard Revisited (2nd wek)",
+    "date": "<t:1789329600:D> <t:1789329600:R> - <t:1791748740:D> <t:1791748740:R>",
+    "type": "event",
+    "image": [
+      "/event/toa.webp"
+    ],
+    "background": "",
+    "description": "",
+    "icon": ""
   }
 ]
