@@ -1,0 +1,29 @@
+{
+  "id": 1212,
+  "name": "Jingran",
+  "lore": {
+    "description": "Seorang Nethermancer dari Mengzhou. Seorang penjelajah yang mengembara di antara Realm Mirage dan reruntuhan yang terlupakan. Dengan matanya sendiri, ia menyaksikan gema dunia yang tersisa dan jejak kuno yang ditinggalkannya.\n\nIa tidak mengikuti sekte apa pun dan tidak tunduk pada doktrin, tidak mempedulikan dewa maupun titah. Melalui Realm Mirage dan tanah-tanah berbayang ia berjalan, menilai benar dan salah hanya dengan hatinya sendiri, dan dalam melakukannya, ia telah menempuh jalan yang sepenuhnya miliknya sendiri.",
+    "manualEntries": [
+      {
+        "title": "Birthplace",
+        "description": "Huanglong"
+      },
+      {
+        "title": "Affiliation",
+        "description": "Nethermancer"
+      }
+    ],
+    "report": {
+      "resonancePower": "Nether Qi Art",
+      "resonanceEvaluation": "Resonance Evaluation Report  \n[Forte Examination Report RA1169-G]\n\nTacet Mark subjek terletak di mata kanan dan memungkinkannya mempersepsikan frekuensi diskrit di luar jangkauan deteksi standar. Saat output Resonance Energy subjek melebihi ambang batas, ia mampu membentuk medan terisolasi dalam ruang fisik dan memaksa frekuensi yang tersembunyi untuk mewujud.\n\nFrekuensi dari makhluk Remnant tingkat tinggi juga terdeteksi di sekitar mata kiri. Analisis menunjukkan bahwa subjek dan makhluk Remnant tersebut mampu melakukan frequency anchoring, berbagi persepsi, serta transmisi instruksi melalui koneksi ini. Perlu dicatat, subjek dapat sementara meningkatkan tingkat kendalinya atas makhluk Remnant tersebut dengan mengorbankan sebagian kekuatan hidupnya sendiri. Tidak ada tanda penolakan yang teramati selama periode pemeriksaan. Namun, kemungkinan komplikasi di masa depan—termasuk gangguan persepsi atau penurunan vitalitas yang dipercepat—tidak dapat sepenuhnya diabaikan. Pemantauan berkala dan observasi jangka panjang oleh karena itu direkomendasikan.\n\nAnalisis sampel uji mengungkap distribusi bimodal pada Kurva Rabelle, yang mengklasifikasikan subjek sebagai Natural Resonator.",
+      "overclockDiagnostic": "Diagnostic Summary: Subjek menunjukkan tingkat kendali yang tinggi atas Forte-nya. Namun, di lingkungan berisiko tinggi, ia cenderung mengalami lonjakan abnormal pada aktivitas Kurva Rabelle. Hal ini memanifestasikan kecenderungan kuat untuk secara aktif mencari kondisi ekstrem, mengindikasikan potensi risiko Overclocking.\n\nMeski demikian, analisis simulasi menunjukkan bahwa emosi negatif bukan pemicu Overclocking bagi subjek. Alih-alih itu, ketertarikannya pada situasi hidup-mati berasal dari keinginan untuk memperoleh umpan balik Resonansi yang berkelanjutan dan diperkuat dalam kondisi tersebut. Berdasarkan profil frekuensi keseluruhan, subjek memiliki kontrol diri dan stabilitas kognitif yang luar biasa. Namun, ambang batasnya dalam mempersepsikan serta mengevaluasi risiko dan kematian berbeda secara signifikan dibandingkan subjek rata-rata. Oleh karena itu, disarankan agar subjek menghindari paparan berkepanjangan terhadap lingkungan bertekanan tinggi atau berisiko tinggi. Pemantauan berkelanjutan terhadap kecenderungan Overclocking juga dianjurkan."
+    },
+    "items": [],
+    "specialFood": {
+      "name": "",
+      "description": "",
+      "imageUrl": ""
+    },
+    "stories": []
+  }
+}
