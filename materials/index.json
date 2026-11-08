@@ -1048,5 +1048,26 @@
     "tier": 5,
     "description": "source: Calamity Effigy's",
     "image": "/icons/materials/Forged_Empyreans_Sigh.webp"
+  },
+  {
+    "id": 151,
+    "name": "Bloom_of_Hearkening",
+    "tier": 5,
+    "description": "",
+    "image": "/icons/materials/Bloom_of_Hearkening.webp"
+  },
+  {
+    "id": 152,
+    "name": "Miasmic_Branch",
+    "tier": 5,
+    "description": "",
+    "image": "/icons/materials/Miasmic_Branch.webp"
+  },
+  {
+    "id": 153,
+    "name": "Remnant_of_the_Wheel",
+    "tier": 5,
+    "description": "",
+    "image": "/icons/materials/Remnant_of_the_Wheel.webp"
   }
 ]

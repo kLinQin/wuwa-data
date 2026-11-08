@@ -1,0 +1,141 @@
+{
+   "id": 1311,
+   "name": "Hsin",
+   "element": 4,
+   "rarity": 4,
+   "weapon": 3,
+   "version": "1.0",
+   "lastUpdated": "2026-09-29",
+   "roles": [],
+   "sonatas": [],
+   "changelog": [
+      {
+         "text": "Initial release",
+         "type": "added",
+         "isNew": true,
+         "leaks": false,
+         "time": "2026-09-29"
+      }
+   ],
+   "faction": "",
+   "affiliation": "",
+   "class": "",
+   "image": "/characters/hsin.webp",
+   "icon": "/icons/characters/hsin.webp",
+   "imageBanner": "/banners/hsin-banner.jpeg",
+   "skills": {
+      "basic": {
+         "name": "",
+         "description": "",
+         "effects": []
+      },
+      "skill": {
+         "name": "",
+         "description": "",
+         "effects": []
+      },
+      "liberation": {
+         "name": "",
+         "description": "",
+         "effects": []
+      },
+      "forte": {
+         "name": "",
+         "description": "",
+         "effects": []
+      },
+      "inherent": [],
+      "intro": {
+         "name": "",
+         "description": "",
+         "effects": []
+      },
+      "outro": {
+         "name": "",
+         "description": "",
+         "effects": []
+      }
+   },
+   "materials": {
+      "ascension": [
+         {
+            "level": 90,
+            "cost": [
+               {
+                  "item": 119,
+                  "amount": 46
+               },
+               {
+                  "item": 63,
+                  "amount": 4
+               },
+               {
+                  "item": 77,
+                  "amount": 12
+               },
+               {
+                  "item": 46,
+                  "amount": 12
+               },
+               {
+                  "item": 30,
+                  "amount": 4
+               },
+               {
+                  "item": 151,
+                  "amount": 60
+               },
+               {
+                  "item": 116,
+                  "amount": 170000
+               }
+            ]
+         }
+      ],
+      "skills": {
+         "totalCosts": [
+            {
+               "item": 153,
+               "amount": 26
+            },
+            {
+               "item": 63,
+               "amount": 25
+            },
+            {
+               "item": 77,
+               "amount": 28
+            },
+            {
+               "item": 46,
+               "amount": 40
+            },
+            {
+               "item": 30,
+               "amount": 57
+            },
+            {
+               "item": 122,
+               "amount": 25
+            },
+            {
+               "item": 13,
+               "amount": 28
+            },
+            {
+               "item": 120,
+               "amount": 55
+            },
+            {
+               "item": 90,
+               "amount": 67
+            },
+            {
+               "item": 116,
+               "amount": 2030000
+            }
+         ]
+      }
+   },
+   "sequences": []
+}

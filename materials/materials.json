@@ -91,6 +91,13 @@
     "image": "/icons/materials/Bloodleaf_Viburnum.webp"
   },
   {
+    "id": 151,
+    "name": "Bloom_of_Hearkening",
+    "tier": 5,
+    "description": "",
+    "image": "/icons/materials/Bloom_of_Hearkening.webp"
+  },
+  {
     "id": 13,
     "name": "Broken_String",
     "tier": 2,
@@ -672,6 +679,13 @@
     "image": "/icons/materials/MF_Whisperin_Core.webp"
   },
   {
+    "id": 152,
+    "name": "Miasmic_Branch",
+    "tier": 5,
+    "description": "",
+    "image": "/icons/materials/Miasmic_Branch.webp"
+  },
+  {
     "id": 91,
     "name": "Monowing_Polarizer",
     "tier": 2,
@@ -810,6 +824,13 @@
     "tier": 3,
     "description": "source: Synthesis/Forgery",
     "image": "/icons/materials/Remnant_Combustor.webp"
+  },
+  {
+    "id": 153,
+    "name": "Remnant_of_the_Wheel",
+    "tier": 5,
+    "description": "",
+    "image": "/icons/materials/Remnant_of_the_Wheel.webp"
   },
   {
     "id": 111,

@@ -1325,5 +1325,37 @@
     "faction": "Nethermancer",
     "affiliation": "Jinzhou, Huanglong",
     "class": "Natural"
+  },
+  {
+    "id": 1311,
+    "name": "Hsin",
+    "element": 4,
+    "rarity": 4,
+    "weapon": 3,
+    "version": "1.0",
+    "lastUpdated": "2026-09-29",
+    "roles": [],
+    "sonatas": [],
+    "image": "/characters/hsin.webp",
+    "icon": "/icons/characters/hsin.webp",
+    "faction": "",
+    "affiliation": "",
+    "class": ""
+  },
+  {
+    "id": 1312,
+    "name": "Suoming",
+    "element": 3,
+    "rarity": 5,
+    "weapon": 2,
+    "version": "3.8",
+    "lastUpdated": "2026-09-29",
+    "roles": [],
+    "sonatas": [],
+    "image": "/characters/suoming.webp",
+    "icon": "/icons/characters/suoming.webp",
+    "faction": "",
+    "affiliation": "",
+    "class": ""
   }
 ]
