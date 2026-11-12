@@ -1,0 +1,224 @@
+{
+  "id": 1605,
+  "name": "Havoc Rover",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "100-125%",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Dreamless",
+      "Nightmare: Crownless"
+    ],
+    "bestWeapon": 21020026,
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "sonataCustom": [
+            {
+              "set": 2,
+              "id": 6
+            }
+          ],
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 3,
+              "stat": "havoc%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": 6020063,
+          "echoSlugSecondary": 6000090
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Basic Attack DMG Bonus",
+        "Reso Libe DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": 21020026,
+        "percentage": "106",
+        "rank": ""
+      },
+      {
+        "id": 21020016,
+        "percentage": "104",
+        "rank": ""
+      },
+      {
+        "id": 21020015,
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": 21020017,
+        "percentage": "97",
+        "rank": "5"
+      },
+      {
+        "id": 21020044,
+        "percentage": "84",
+        "rank": ""
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Skill",
+          "Ult",
+          "Echo(Swap)",
+          "Intro",
+          "Skill",
+          "[F]HA",
+          "[F]Skill",
+          "[F]BA1234",
+          "[F]BA5(Cancel)",
+          "[F]BA1234",
+          "[F]BA5(Cancel)",
+          "[F]BA1234",
+          "[F]BA5(Cancel)",
+          "Outro"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Normal Attack",
+        "Intro Skill"
+      ],
+      "note": ""
+    },
+    "teams": [
+      "encore-quickswap",
+      "havoc-rover-hypercarry",
+      "mono-havoc"
+    ],
+    "teamNote": "Havoc Rover merupakan Main DPS yang fokus ke Basic ATK DMG dan Resonance Skill DMG."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Red Spring",
+          "value": 978445,
+          "imagePath": "",
+          "percentage": 104.89
+        },
+        {
+          "type": "Blazing Brilliance",
+          "value": 960585,
+          "imagePath": "",
+          "percentage": 102.97
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 932873,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Somnoire Anchor R5",
+          "value": 851975,
+          "imagePath": "",
+          "percentage": 91.33
+        },
+        {
+          "type": "Lumingloss R5",
+          "value": 790808,
+          "imagePath": "",
+          "percentage": 84.77
+        },
+        {
+          "type": "Endless Collapse R5",
+          "value": 743580,
+          "imagePath": "",
+          "percentage": 79.71
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Hrover",
+      "layout": "horizontal",
+      "chartType": "bar"
+    },
+    {
+      "data": [
+        {
+          "type": "BA",
+          "value": 40.8,
+          "imagePath": "",
+          "percentage": 40.8
+        },
+        {
+          "type": "Skill",
+          "value": 21,
+          "imagePath": "",
+          "percentage": 21
+        },
+        {
+          "type": "HA",
+          "value": 2.9,
+          "imagePath": "",
+          "percentage": 2.9
+        },
+        {
+          "type": "Lib",
+          "value": 20.4,
+          "imagePath": "",
+          "percentage": 20.4
+        },
+        {
+          "type": "Echo",
+          "value": 7.5,
+          "imagePath": "",
+          "percentage": 7.5
+        },
+        {
+          "type": "Intro",
+          "value": 1.8,
+          "imagePath": "",
+          "percentage": 1.8
+        },
+        {
+          "type": "Outro",
+          "value": 6,
+          "imagePath": "",
+          "percentage": 6
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Damage - Hrover",
+      "layout": "horizontal",
+      "chartType": "radar"
+    }
+  ]
+}

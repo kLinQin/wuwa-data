@@ -1,0 +1,230 @@
+{
+  "id": 1502,
+  "name": "Spectro Rover",
+  "recommendedStats": {
+    "ATK": "2000+",
+    "Energy Regen": "105-125%+",
+    "Crit Ratio (Crit Weapon)": "65% : 265%",
+    "Crit Ratio (Non Crit Weapon)": "60% : 225%"
+  },
+  "build": {
+    "bestEcho": [
+      "Nightmare: Mourning Aix",
+      "Impermanence Heron",
+      "Bell-Borne Geochelone",
+      "Fallacy of No Return"
+    ],
+    "bestWeapon": 21020016,
+    "echoDetails": {
+      "note": "",
+      "sets": [
+        {
+          "label": "DPS",
+          "sonataCustom": [
+            {
+              "set": 2,
+              "id": 11
+            }
+          ],
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": 6000045,
+          "echoSlugSecondary": ""
+        },
+        {
+          "label": "Sub DPS",
+          "sonataCustom": [
+            {
+              "set": 2,
+              "id": 8
+            }
+          ],
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": 6000052,
+          "echoSlugSecondary": ""
+        },
+        {
+          "label": "Healer",
+          "sonataCustom": [
+            {
+              "set": 2,
+              "id": 7
+            }
+          ],
+          "stats": [
+            {
+              "cost": 4,
+              "stat": "CR%/CDMG%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 3,
+              "stat": "spectro%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            },
+            {
+              "cost": 1,
+              "stat": "ATK%"
+            }
+          ],
+          "echoSlug": 6000060,
+          "echoSlugSecondary": 390080005
+        }
+      ],
+      "substats": [
+        "CR% / CDM%",
+        "Energy Regen",
+        "ATK%",
+        "Reso Skill DMG",
+        "ATK"
+      ]
+    },
+    "weaponNote": "",
+    "weaponOptions": [
+      {
+        "id": 21020016,
+        "percentage": "115",
+        "rank": ""
+      },
+      {
+        "id": 21020026,
+        "percentage": "102",
+        "rank": ""
+      },
+      {
+        "id": 21020015,
+        "percentage": "100",
+        "rank": ""
+      },
+      {
+        "id": 21020044,
+        "percentage": "91",
+        "rank": "5"
+      },
+      {
+        "id": 21020094,
+        "percentage": "86",
+        "rank": "5"
+      },
+      {
+        "id": 21020074,
+        "percentage": "86",
+        "rank": "5"
+      }
+    ],
+    "rotations": [
+      {
+        "steps": [
+          "Intro",
+          "Ult",
+          "[E]Forte",
+          "FUA",
+          "BA123",
+          "HA(x2)",
+          "Dash",
+          "BA123",
+          "HA(x2)",
+          "[E]Forte",
+          "FUA"
+        ],
+        "title": "Standar"
+      }
+    ],
+    "talentPriority": {
+      "priority": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Normal Attack",
+        "Intro Skill",
+        "Resonance Skill"
+      ],
+      "note": ""
+    },
+    "teams": [
+      "phoebe-hypercarry",
+      "zani-hypercarry"
+    ],
+    "teamNote": "Rover: Spectro dapat berperan sebagai Dual DPS (set Eternal Radiance), buffer (Moonlit Clouds), atau sustain (Rejuvenating Glow) saat dipasangkan dengan Phoebe. Kehadiran Rover: Spectro merupakan sebuah persyaratan karena Phoebe (Absolution) tidak dapat memberikan stack Spectro Frazzle yang cukup secara mandiri.\n\nUntuk membuka ability Rover: Spectro dalam memberikan Spectro Frazzle, kamu harus mencapai Chapter 2 Prologue (Through the Sea Thou Break).\nS4 diperlukan agar Rover: Spectro dapat memicu 5-pc. bonus set Rejuvenating Glow dengan melancarkan Res. Liberation, jika tidak maka Rover harus menggunakan senjata Originite: Type II."
+  },
+  "analysisCharts": [
+    {
+      "data": [
+        {
+          "type": "Blazing Brilliance",
+          "value": 114,
+          "imagePath": "",
+          "percentage": 114
+        },
+        {
+          "type": "Emerald Of Genesis",
+          "value": 100,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Red Spring",
+          "value": 100,
+          "imagePath": "",
+          "percentage": 100
+        },
+        {
+          "type": "Fables Of Wisdom R5",
+          "value": 85,
+          "imagePath": "",
+          "percentage": 85
+        }
+      ],
+      "note": "source // tethys.gg",
+      "title": "Weapon - Srover",
+      "layout": "horizontal",
+      "chartType": "bar"
+    }
+  ]
+}

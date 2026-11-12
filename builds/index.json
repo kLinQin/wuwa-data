@@ -438,7 +438,8 @@
     "image": "/characters/electro rover.webp",
     "bestWeapon": "",
     "bestEcho": [],
-    "teams": []
+    "teams": [],
+    "slug": "electro-rover"
   },
   {
     "id": 1402,
@@ -535,7 +536,8 @@
       "iuno-hypercarry",
       "jiyan-hypercarry",
       "mono-aero"
-    ]
+    ],
+    "slug": "aero-rover"
   },
   {
     "id": 1409,
@@ -612,7 +614,8 @@
     "teams": [
       "phoebe-hypercarry",
       "zani-hypercarry"
-    ]
+    ],
+    "slug": "spectro-rover"
   },
   {
     "id": 1503,
@@ -808,7 +811,8 @@
       "encore-quickswap",
       "havoc-rover-hypercarry",
       "mono-havoc"
-    ]
+    ],
+    "slug": "havoc-rover"
   },
   {
     "id": 1606,
@@ -908,5 +912,66 @@
       "tune-team"
     ],
     "image": "/characters/qingxiao.webp"
+  },
+  {
+    "id": 1309,
+    "name": "Electro Rover",
+    "image": "/characters/electro rover.webp",
+    "bestWeapon": "",
+    "bestEcho": [],
+    "teams": [],
+    "slug": "electro-rover-1309"
+  },
+  {
+    "id": 1406,
+    "name": "Aero Rover",
+    "image": "/characters/aero rover.webp",
+    "bestWeapon": "Blazing Brilliance",
+    "bestEcho": [
+      "fleurdelys",
+      "bell-borne-geochelone",
+      "fallacy-of-no-return"
+    ],
+    "teams": [
+      "aero-erosion",
+      "cartethyia-alternatif",
+      "iuno-hypercarry",
+      "jiyan-hypercarry",
+      "mono-aero"
+    ],
+    "slug": "aero-rover-1406"
+  },
+  {
+    "id": 1501,
+    "name": "Spectro Rover",
+    "image": "/characters/spectro rover.webp",
+    "bestWeapon": "Blazing Brilliance",
+    "bestEcho": [
+      "mourning-aix",
+      "impermanence-heron",
+      "fallacy-of-no-return",
+      "bell-borne-geochelone"
+    ],
+    "teams": [
+      "phoebe-hypercarry",
+      "zani-hypercarry"
+    ],
+    "slug": "spectro-rover-1501"
+  },
+  {
+    "id": 1604,
+    "name": "Havoc Rover",
+    "image": "/characters/havoc rover.webp",
+    "bestWeapon": "Red Spring",
+    "bestEcho": [
+      "dreamless",
+      "nightmare-crownless"
+    ],
+    "teams": [
+      "encore-quickswap",
+      "havoc-rover-hypercarry",
+      "mono-havoc"
+    ],
+    "slug": "havoc-rover-1604"
   }
 ]
