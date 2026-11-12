@@ -11,7 +11,7 @@
     "bestEcho": [
       "Fleurdelys"
     ],
-    "bestWeapon": "Defier's Thorn",
+    "bestWeapon": 21020056,
     "echoDetails": {
       "note": "Meskipun [Reminiscence: Fleurdelys] wajib menjadi Main Echo, NM: Kelpie harus dipilih sebagai Echo 4-Cost.",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "DPS Erosion",
           "sonataCustom": [
             {
-              "name": "Windward Pilgrimage",
-              "set": 5
+              "set": 5,
+              "id": 17
             }
           ],
           "stats": [
@@ -45,7 +45,7 @@
               "stat": "HP%"
             }
           ],
-          "echoSlug": "fleurdelys",
+          "echoSlug": 6000106,
           "echoSlugSecondary": ""
         }
       ],
@@ -61,27 +61,27 @@
     "weaponNote": "Jika menggunakan Defier's Thorn (Signature Cartethyia), gunakan 1 Crit. Rate dan 1 Crit. DMG untuk Echo 4-Cost. Gunakan 2 Crit. DMG jika menggunakan Emerald of Genesis.",
     "weaponOptions": [
       {
-        "id": "defiers-thorn",
+        "id": 21020056,
         "percentage": "131",
         "rank": ""
       },
       {
-        "id": "red-spring",
+        "id": 21020026,
         "percentage": "105",
         "rank": ""
       },
       {
-        "id": "blazing-brilliance",
+        "id": 21020016,
         "percentage": "101",
         "rank": ""
       },
       {
-        "id": "emerald-of-genesis",
+        "id": 21020015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "feather-edge",
+        "id": 21020104,
         "percentage": "100",
         "rank": ""
       }

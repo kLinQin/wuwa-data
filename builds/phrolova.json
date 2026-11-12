@@ -11,7 +11,7 @@
     "bestEcho": [
       "Nightmare: Hecate"
     ],
-    "bestWeapon": "Lethean Elegy",
+    "bestWeapon": 21050066,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -19,16 +19,16 @@
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Dream Of The Lost",
-              "set": 3
+              "set": 3,
+              "id": 19
             },
             {
-              "name": "Midnight Veil",
-              "set": 2
+              "set": 2,
+              "id": 12
             },
             {
-              "name": "Havoc Eclipse",
-              "set": 2
+              "set": 2,
+              "id": 6
             }
           ],
           "stats": [
@@ -53,7 +53,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "nightmare-hecate",
+          "echoSlug": 6000115,
           "echoSlugSecondary": ""
         }
       ],
@@ -67,27 +67,27 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "lethean-elegy",
+        "id": 21050066,
         "percentage": "137",
         "rank": ""
       },
       {
-        "id": "stringmaster",
+        "id": 21050016,
         "percentage": "116",
         "rank": ""
       },
       {
-        "id": "whispers-of-sirens",
+        "id": 21050056,
         "percentage": "105",
         "rank": ""
       },
       {
-        "id": "cosmic-ripples",
+        "id": 21050015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "fusion-accretion",
+        "id": 21050084,
         "percentage": "90",
         "rank": ""
       }

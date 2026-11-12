@@ -11,7 +11,7 @@
     "bestEcho": [
       "Threnodian - Voidborne Construct"
     ],
-    "bestWeapon": "Frostburn",
+    "bestWeapon": 21020086,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Wishes Of Quiet Snowfall",
-              "set": 5
+              "set": 5,
+              "id": 30
             }
           ],
           "stats": [
@@ -45,7 +45,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "threnodian-voidborne-construct",
+          "echoSlug": 6000199,
           "echoSlugSecondary": ""
         }
       ],
@@ -60,27 +60,27 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "frostburn",
+        "id": 21020086,
         "percentage": "125.55%",
         "rank": ""
       },
       {
-        "id": "blazing-brilliance",
+        "id": 21020016,
         "percentage": "100.75%",
         "rank": ""
       },
       {
-        "id": "emerald-of-genesis",
+        "id": 21020015,
         "percentage": "100.00%",
         "rank": ""
       },
       {
-        "id": "feather-edge",
+        "id": 21020104,
         "percentage": "96.45%",
         "rank": "5"
       },
       {
-        "id": "feather-edge",
+        "id": 21020104,
         "percentage": "87.61%",
         "rank": "1"
       }

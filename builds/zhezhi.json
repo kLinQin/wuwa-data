@@ -12,7 +12,7 @@
       "Nightmare: Myriad",
       "Impermanence Heron"
     ],
-    "bestWeapon": "Rime-Draped Sprouts",
+    "bestWeapon": 21050026,
     "echoDetails": {
       "note": "Hecate 1% lebih baik daripada NM: Lampylumen Myriad, namun lebih memakan waktu untuk dikumpulkan dibandingkan dengan NM: Lampylumen Myriad. Pastikan bahwa NM: Lampy adalah Empyrean Anthem, karena ia dapat menjatuhkan Frosty Resolve dan ikonnya cukup mirip.",
       "sets": [
@@ -20,8 +20,8 @@
           "label": "Sub DPS General",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 2
+              "set": 2,
+              "id": 8
             }
           ],
           "stats": [
@@ -46,15 +46,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS Coordinated ATK",
           "sonataCustom": [
             {
-              "name": "Empyrean Anthem",
-              "set": 2
+              "set": 2,
+              "id": 13
             }
           ],
           "stats": [
@@ -79,8 +79,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "nightmare-myriad",
-          "echoSlugSecondary": "hecate"
+          "echoSlug": 6000105,
+          "echoSlugSecondary": 6000085
         }
       ],
       "substats": [
@@ -94,32 +94,32 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "rime-draped-sprouts",
+        "id": 21050026,
         "percentage": "120",
         "rank": ""
       },
       {
-        "id": "stringmaster",
+        "id": 21050016,
         "percentage": "110",
         "rank": ""
       },
       {
-        "id": "luminous-hymn",
+        "id": 21050046,
         "percentage": "106",
         "rank": ""
       },
       {
-        "id": "cosmic-ripples",
+        "id": 21050015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "augment",
+        "id": 21050074,
         "percentage": "89",
         "rank": ""
       },
       {
-        "id": "jinzhou-keeper",
+        "id": 21050044,
         "percentage": "-",
         "rank": ""
       }

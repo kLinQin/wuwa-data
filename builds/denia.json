@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "Forged Dwarf Star",
+    "bestWeapon": 21050076,
     "echoDetails": {
       "note": "Bersama Aemeath, gunakan Chromatic Foam. Jika kamu memasangkannya dengan Luuk, kamu dapat menggunakan Reels of Spliced Memories sebagai gantinya.",
       "sets": [
@@ -17,8 +17,8 @@
           "label": "Hybrid",
           "sonataCustom": [
             {
-              "name": "Chromatic Foam",
-              "set": 2
+              "set": 2,
+              "id": 28
             }
           ],
           "stats": [
@@ -43,15 +43,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "reminiscence-denia",
+          "echoSlug": 6000200,
           "echoSlugSecondary": ""
         },
         {
           "label": "Alternatif",
           "sonataCustom": [
             {
-              "name": "Reel Of Spliced Memories",
-              "set": 2
+              "set": 2,
+              "id": 31
             }
           ],
           "stats": [
@@ -76,7 +76,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "voidwing-moth",
+          "echoSlug": 6000198,
           "echoSlugSecondary": ""
         }
       ],
@@ -91,22 +91,22 @@
     "weaponNote": "sumber: Chemx32 doc",
     "weaponOptions": [
       {
-        "id": "forged-dwarf-star",
+        "id": 21050076,
         "percentage": "135.79%",
         "rank": ""
       },
       {
-        "id": "stringmaster",
+        "id": 21050016,
         "percentage": "119.15%",
         "rank": ""
       },
       {
-        "id": "lethean-elegy",
+        "id": 21050066,
         "percentage": "106.66%",
         "rank": ""
       },
       {
-        "id": "cosmic-ripples",
+        "id": 21050015,
         "percentage": "100.00%",
         "rank": ""
       }

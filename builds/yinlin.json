@@ -13,7 +13,7 @@
       "Impermanence Heron",
       "Nightmare: Tempest Mephis"
     ],
-    "bestWeapon": "Stringmaster",
+    "bestWeapon": 21050016,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -21,8 +21,8 @@
           "label": "Sub DPS General",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 2
+              "set": 2,
+              "id": 8
             }
           ],
           "stats": [
@@ -47,15 +47,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS DMG",
           "sonataCustom": [
             {
-              "name": "Empyrean Anthem",
-              "set": 2
+              "set": 2,
+              "id": 13
             }
           ],
           "stats": [
@@ -80,8 +80,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "hecate",
-          "echoSlugSecondary": "nightmare-tempest-mephis"
+          "echoSlug": 6000085,
+          "echoSlugSecondary": 6000089
         }
       ],
       "substats": [
@@ -95,27 +95,27 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "stringmaster",
+        "id": 21050016,
         "percentage": "124",
         "rank": ""
       },
       {
-        "id": "rime-draped-sprouts",
+        "id": 21050026,
         "percentage": "112",
         "rank": ""
       },
       {
-        "id": "luminous-hymn",
+        "id": 21050046,
         "percentage": "110",
         "rank": ""
       },
       {
-        "id": "cosmic-ripples",
+        "id": 21050015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "fusion-accretion",
+        "id": 21050084,
         "percentage": "95",
         "rank": "5"
       }

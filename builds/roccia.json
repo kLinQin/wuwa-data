@@ -12,7 +12,7 @@
       "Nightmare: Heron",
       "Impermanence Heron"
     ],
-    "bestWeapon": "Tragicomedy",
+    "bestWeapon": 21040026,
     "echoDetails": {
       "note": "Untuk menerima buff maksimal dari Resonance Liberation milik Roccia, Roccia harus memiliki setidaknya 70% Crit. Rate, ini adalah salah satu dari sedikit kasus di mana 44111 (2x CR 4-cost) mungkin berguna jika Anda tidak menargetkan substat Double Crit pada semua echo.",
       "sets": [
@@ -20,8 +20,8 @@
           "label": "Sub DPS - Havoc",
           "sonataCustom": [
             {
-              "name": "Midnight Veil",
-              "set": 2
+              "set": 2,
+              "id": 12
             }
           ],
           "stats": [
@@ -46,15 +46,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "nightmare-heron",
+          "echoSlug": 6000087,
           "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS - General",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 2
+              "set": 2,
+              "id": 8
             }
           ],
           "stats": [
@@ -79,7 +79,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         }
       ],
@@ -94,32 +94,32 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "tragicomedy",
+        "id": 21040026,
         "percentage": "120",
         "rank": ""
       },
       {
-        "id": "blazing-justice",
+        "id": 21040036,
         "percentage": "109",
         "rank": ""
       },
       {
-        "id": "veritys-handle",
+        "id": 21040016,
         "percentage": "108",
         "rank": ""
       },
       {
-        "id": "pulsation-bracer",
+        "id": 21040045,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "abyss-surges",
+        "id": 21040015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "stonard",
+        "id": 21040074,
         "percentage": "85",
         "rank": ""
       }

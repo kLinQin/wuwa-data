@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "Azure Oath",
+    "bestWeapon": 21020096,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -17,8 +17,8 @@
           "label": "DPS Havoc Bane",
           "sonataCustom": [
             {
-              "name": "Song Of Feather Trace",
-              "set": 2
+              "set": 2,
+              "id": 33
             }
           ],
           "stats": [
@@ -43,7 +43,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "thousand-puppet-pavilion",
+          "echoSlug": 6000218,
           "echoSlugSecondary": ""
         }
       ],
@@ -58,17 +58,17 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "azure-oath",
+        "id": 21020096,
         "percentage": "125.48%",
         "rank": ""
       },
       {
-        "id": "emerald-sentence",
+        "id": 21020066,
         "percentage": "109.97%",
         "rank": ""
       },
       {
-        "id": "emerald-of-genesis",
+        "id": 21020015,
         "percentage": "100.00%",
         "rank": ""
       }

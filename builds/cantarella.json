@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "Whispers Of Sirens",
+    "bestWeapon": 21050056,
     "echoDetails": {
       "note": "Midnight Veil adalah echo set terbaik untuk Cantarella saat dipasangkan dengan Phrolova atau resonator Havoc lainnya.\n",
       "sets": [
@@ -17,8 +17,8 @@
           "label": "Sub DPS - Havoc",
           "sonataCustom": [
             {
-              "name": "Midnight Veil",
-              "set": 2
+              "set": 2,
+              "id": 12
             }
           ],
           "stats": [
@@ -43,15 +43,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "lorelei",
+          "echoSlug": 6000082,
           "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS - Coor ATK",
           "sonataCustom": [
             {
-              "name": "Empyrean Anthem",
-              "set": 2
+              "set": 2,
+              "id": 13
             }
           ],
           "stats": [
@@ -76,15 +76,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "hecate",
+          "echoSlug": 6000085,
           "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS - General",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 2
+              "set": 2,
+              "id": 8
             }
           ],
           "stats": [
@@ -109,7 +109,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         }
       ],
@@ -124,27 +124,27 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "whispers-of-sirens",
+        "id": 21050056,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "rime-draped-sprouts",
+        "id": 21050026,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "stringmaster",
+        "id": 21050016,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "fusion-accretion",
+        "id": 21050084,
         "percentage": "100",
         "rank": "5"
       },
       {
-        "id": "jinzhou-keeper",
+        "id": 21050044,
         "percentage": "100",
         "rank": ""
       }

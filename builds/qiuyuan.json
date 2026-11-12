@@ -12,7 +12,7 @@
       "Reminiscence: Fenrico",
       "Impermanence Heron"
     ],
-    "bestWeapon": "Emerald Sentence",
+    "bestWeapon": 21020066,
     "echoDetails": {
       "note": "1. Qiuyuan setidaknya membutuhkan 65% Crit. Rate untuk memanfaatkan buff Res. Liberation miliknya secara maksimal.\n2. [NM: Feilian Beringal] dan [R: Fenrico] bisa saling menggantikan untuk slot main echo karena memberikan buff yang sama. Moonlit Clouds mungkin lebih disarankan untuk Galbrena, terutama jika set tersebut sudah jadi. Sementara itu, penggunaan Law of Harmony akan sangat menguntungkan jika dipasangkan dengan Phrolova.",
       "sets": [
@@ -20,20 +20,20 @@
           "label": "Echo Buff",
           "sonataCustom": [
             {
-              "name": "Law Of Harmony",
-              "set": 3
+              "set": 3,
+              "id": 21
             },
             {
-              "name": "Gusts Of Welkin",
-              "set": 2
+              "set": 2,
+              "id": 16
             },
             {
-              "name": "Sierra Gale",
-              "set": 2
+              "set": 2,
+              "id": 4
             },
             {
-              "name": "Windward Pilgrimage",
-              "set": 2
+              "set": 2,
+              "id": 17
             }
           ],
           "stats": [
@@ -58,15 +58,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "reminiscence-fenrico",
-          "echoSlugSecondary": "nightmare-beringal"
+          "echoSlug": 6000116,
+          "echoSlugSecondary": 6000086
         },
         {
           "label": "SUb DPS",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 2
+              "set": 2,
+              "id": 8
             }
           ],
           "stats": [
@@ -91,7 +91,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         }
       ],
@@ -106,17 +106,17 @@
     "weaponNote": "Dengan Emerald Sentence (Signature Qiuyuan): 20% Echo Skill DMG Bonus selama 30 detik setelah menggunakan Intro Skill.",
     "weaponOptions": [
       {
-        "id": "emerald-sentence",
+        "id": 21020066,
         "percentage": "122",
         "rank": ""
       },
       {
-        "id": "emerald-of-genesis",
+        "id": 21020015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "endless-collapse",
+        "id": 21020084,
         "percentage": "85",
         "rank": "5"
       }

@@ -12,7 +12,7 @@
       "Bell-Borne Geochelone",
       "Fleurdelys"
     ],
-    "bestWeapon": "Blazing Brilliance",
+    "bestWeapon": 21020016,
     "echoDetails": {
       "note": "Umumnya, Rover: Aero dimainkan sebagai support saat dipasangkan dengan Cartethyia yang scaling kekuatannya berdasarkan HP. oleh karena itu, buff All-type DMG dari Bellborne Geochelone lebih diutamakan dibandingkan buff ATK dari Fallacy of No Return.",
       "sets": [
@@ -20,8 +20,8 @@
           "label": "Sub DPS Erosion",
           "sonataCustom": [
             {
-              "name": "Windward Pilgrimage",
-              "set": 2
+              "set": 2,
+              "id": 17
             }
           ],
           "stats": [
@@ -46,15 +46,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "fleurdelys",
+          "echoSlug": 6000106,
           "echoSlugSecondary": ""
         },
         {
           "label": "Healer",
           "sonataCustom": [
             {
-              "name": "Rejuvenating Glow",
-              "set": 2
+              "set": 2,
+              "id": 7
             }
           ],
           "stats": [
@@ -79,8 +79,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "bell-borne-geochelone",
-          "echoSlugSecondary": "fallacy-of-no-return"
+          "echoSlug": 390080005,
+          "echoSlugSecondary": 6000060
         }
       ],
       "substats": [
@@ -94,17 +94,17 @@
     "weaponNote": "Bloodpact's Pledge bisa didapatkan secara gratis melalui Main story quest Chapter 2: Act 4. Karena senjata ini memberikan Energy Regen, kebutuhan ER Rover: Aero akan terpenuhi tanpa memerlukan tambahan ER substats sama sekali.",
     "weaponOptions": [
       {
-        "id": "blazing-brilliance",
+        "id": 21020016,
         "percentage": "118",
         "rank": ""
       },
       {
-        "id": "bloodpacts-pledge",
+        "id": 21020046,
         "percentage": "108",
         "rank": ""
       },
       {
-        "id": "emerald-of-genesis",
+        "id": 21020015,
         "percentage": "100",
         "rank": ""
       }

@@ -11,7 +11,7 @@
     "bestEcho": [
       "Fallacy of No Return"
     ],
-    "bestWeapon": "Variation",
+    "bestWeapon": 21050024,
     "echoDetails": {
       "note": "- FONR memberikan buff 10% ATK selama 20 detik (100% uptime, 20 detik CD)\n- sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat berakhir lebih cepat jika shield yang diberikan terkena serangan 3 kali. \n- FONR juga lebih mudah secara keseluruhan untuk di-farm karena hanya menjatuhkan satu sonata set.",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "Healer",
           "sonataCustom": [
             {
-              "name": "Rejuvenating Glow",
-              "set": 2
+              "set": 2,
+              "id": 7
             }
           ],
           "stats": [
@@ -45,8 +45,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "bell-borne-geochelone",
-          "echoSlugSecondary": "fallacy-of-no-return"
+          "echoSlug": 390080005,
+          "echoSlugSecondary": 6000060
         }
       ],
       "substats": [
@@ -58,22 +58,22 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "variation",
+        "id": 21050024,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "cosmic-ripples",
+        "id": 21050015,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "call-of-the-abyss",
+        "id": 21050017,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "rectifier-25",
+        "id": 21050034,
         "percentage": "-",
         "rank": ""
       }

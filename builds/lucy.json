@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "Spectral Trigger",
+    "bestWeapon": 21030056,
     "echoDetails": {
       "note": "Untuk melengkapi 5 slot Echo, gunakan 2-pc dari set Spectro apa saja. Meskipun menggunakan 2-pc set Spectro lainnya akan menjadi yang paling optimal, kamu juga dapat menggunakan 2-pc Reels of Spliced Memories sebagai gantinya.",
       "sets": [
@@ -17,12 +17,12 @@
           "label": "DPS HACK",
           "sonataCustom": [
             {
-              "name": "Shadow Of Shattered Dreams",
-              "set": 2
+              "set": 2,
+              "id": 32
             },
             {
-              "name": "Celestial Light",
-              "set": 2
+              "set": 2,
+              "id": 5
             }
           ],
           "stats": [
@@ -47,7 +47,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "reminiscence-adam-smasher",
+          "echoSlug": 6000201,
           "echoSlugSecondary": ""
         }
       ],
@@ -62,22 +62,22 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "spectral-trigger",
+        "id": 21030056,
         "percentage": "119.76%",
         "rank": ""
       },
       {
-        "id": "phasic-homogenizer",
+        "id": 21030045,
         "percentage": "100.00%",
         "rank": ""
       },
       {
-        "id": "the-last-dance",
+        "id": 21030016,
         "percentage": "92.14%",
         "rank": ""
       },
       {
-        "id": "static-mist",
+        "id": 21030015,
         "percentage": "89.25%",
         "rank": ""
       }

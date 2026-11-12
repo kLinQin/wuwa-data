@@ -11,7 +11,7 @@
     "bestEcho": [
       "Dragon of Dirge"
     ],
-    "bestWeapon": "Unflickering Valor",
+    "bestWeapon": 21020036,
     "echoDetails": {
       "note": "1. Nightmare: Inferno Rider lebih disukai karena varian normal Inferno Rider mungkin sulit untuk dimasukkan ke dalam rotasi karena sebagian besar serangan Brant dilakukan di udara.\n\n2. Meskipun Brant membutuhkan Energy Regen yang jauh lebih sedikit dalam hal rotasi, kit dan set echo yang ditujukan untuknya terutama berskala berdasarkan Energy Regen, itulah sebabnya ada benchmark tinggi sebesar 250-280%. Jika tidak mampu mencapai syarat 250% ER, jangan gunakan Tidebreaking Courage karena senjata ini diperlukan untuk memicu bonus set 5-pc.",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "Hybrid",
           "sonataCustom": [
             {
-              "name": "Tidebreaking Courage",
-              "set": 2
+              "set": 2,
+              "id": 14
             }
           ],
           "stats": [
@@ -45,15 +45,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "dragon-of-dirge",
+          "echoSlug": 6000084,
           "echoSlugSecondary": ""
         },
         {
           "label": "DPS Fusion",
           "sonataCustom": [
             {
-              "name": "Molten Rift",
-              "set": 2
+              "set": 2,
+              "id": 2
             }
           ],
           "stats": [
@@ -78,8 +78,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "inferno-rider",
-          "echoSlugSecondary": "nightmare-rider"
+          "echoSlug": 390080007,
+          "echoSlugSecondary": 6000091
         }
       ],
       "substats": [
@@ -93,32 +93,32 @@
     "weaponNote": "Jika menggunakan Red Spring, Blazing Brilliance, atau Emerald of Genesis, gunakan Molten Rift dan usahakan untuk mengejar ER% setinggi mungkin.",
     "weaponOptions": [
       {
-        "id": "unflickering-valor",
+        "id": 21020036,
         "percentage": "121",
         "rank": ""
       },
       {
-        "id": "red-spring",
+        "id": 21020026,
         "percentage": "116",
         "rank": ""
       },
       {
-        "id": "blazing-brilliance",
+        "id": 21020016,
         "percentage": "106",
         "rank": ""
       },
       {
-        "id": "emerald-of-genesis",
+        "id": 21020015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "bloodpacts-pledge",
+        "id": 21020046,
         "percentage": "91",
         "rank": ""
       },
       {
-        "id": "overture",
+        "id": 21020024,
         "percentage": "91",
         "rank": ""
       }

@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "The Last Dance",
+    "bestWeapon": 21030016,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -17,8 +17,8 @@
           "label": "Sub DPS",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 5
+              "set": 5,
+              "id": 8
             }
           ],
           "stats": [
@@ -43,15 +43,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         },
         {
           "label": "Hybrid Aero",
           "sonataCustom": [
             {
-              "name": "Sierra Gale",
-              "set": 5
+              "set": 5,
+              "id": 4
             }
           ],
           "stats": [
@@ -76,8 +76,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "feilian-beringal",
-          "echoSlugSecondary": "nightmare-beringal"
+          "echoSlug": 6000043,
+          "echoSlugSecondary": 6000086
         }
       ],
       "substats": [
@@ -92,32 +92,32 @@
     "weaponNote": "Cadenza adalah opsi yang bagus jika memprioritaskan rotasi yang lebih cepat dibandingkan personal DMG sebagai Sub DPS. \nJika tidak, Static Mist tetap menjadi pilihan terbaik untuk menghasilkan damage tinggi sekaligus memberikan buff bagi Resonator berikutnya.",
     "weaponOptions": [
       {
-        "id": "the-last-dance",
+        "id": 21030016,
         "percentage": "104",
         "rank": ""
       },
       {
-        "id": "phasic-homogenizer",
+        "id": 21030045,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "static-mist",
+        "id": 21030015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "relativistic-jet",
+        "id": 21030084,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "novaburst",
+        "id": 21030064,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "cadenza",
+        "id": 21030024,
         "percentage": "-",
         "rank": ""
       }

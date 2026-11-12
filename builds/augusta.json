@@ -11,7 +11,7 @@
     "bestEcho": [
       "The False Sovereign"
     ],
-    "bestWeapon": "Wildfire Mark",
+    "bestWeapon": 21010036,
     "echoDetails": {
       "note": "3PC Crown Of Valor dan 2PC Void Thunder / Lingering Tunes",
       "sets": [
@@ -19,12 +19,12 @@
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Crown Of Valor",
-              "set": 3
+              "set": 3,
+              "id": 20
             },
             {
-              "name": "Void Thunder",
-              "set": 2
+              "set": 2,
+              "id": 3
             }
           ],
           "stats": [
@@ -49,7 +49,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "the-false-sovereign",
+          "echoSlug": 6000121,
           "echoSlugSecondary": ""
         }
       ],
@@ -64,32 +64,32 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "thunderflare-dominion",
+        "id": 21010046,
         "percentage": "135",
         "rank": ""
       },
       {
-        "id": "verdant-summit",
+        "id": 21010016,
         "percentage": "125",
         "rank": ""
       },
       {
-        "id": "ages-of-harvest",
+        "id": 21010026,
         "percentage": "111",
         "rank": ""
       },
       {
-        "id": "radiance-cleaver",
+        "id": 21010045,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "lustrous-razor",
+        "id": 21010015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "aureate-zenith",
+        "id": 21010104,
         "percentage": "90.82",
         "rank": ""
       }

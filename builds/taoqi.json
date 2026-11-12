@@ -10,7 +10,7 @@
       "Bell-Borne Geochelone",
       "Impermanence Heron"
     ],
-    "bestWeapon": "Discord",
+    "bestWeapon": 21010024,
     "echoDetails": {
       "note": "FONR memberikan 10% ATK buff selama 20 detik (100% uptime, 20 detik CD), sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, 20 detik CD), yang dapat terhenti lebih awal jika shield yang diberikan terkena serangan sebanyak 3 kali. FONR juga lebih mudah secara keseluruhan untuk dikumpulkan karena hanya menjatuhkan satu sonata set.",
       "sets": [
@@ -18,8 +18,8 @@
           "label": "Healer",
           "sonataCustom": [
             {
-              "name": "Rejuvenating Glow",
-              "set": 2
+              "set": 2,
+              "id": 7
             }
           ],
           "stats": [
@@ -44,8 +44,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "fallacy-of-no-return",
-          "echoSlugSecondary": "bell-borne-geochelone"
+          "echoSlug": 6000060,
+          "echoSlugSecondary": 390080005
         },
         {
           "label": "Sub DPS",
@@ -72,7 +72,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         }
       ],
@@ -86,12 +86,12 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "discord",
+        "id": 21010024,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "dauntless-evernight",
+        "id": 21010044,
         "percentage": "100",
         "rank": ""
       }

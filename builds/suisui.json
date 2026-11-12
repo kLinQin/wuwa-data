@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "Firstlights-Herald",
+    "bestWeapon": 21050096,
     "echoDetails": {
       "note": "1.  Jika kamu mampu mencapai 260% ER hanya dengan satu buah 3-cost yang memiliki substat ER, kamu dapat memilih untuk menggunakan Glacio DMG Bonus guna meningkatkan DMG yang dihasilkan, atau memilih HP% untuk memperoleh tambahan healing dan damage yang lebih seimbang. Perlu diketahui bahwa ia tidak mendapatkan tambahan Energy Regen sama sekali dari skill pasif (Inherent skills), melainkan hanya 10% dari set Sonata 2-pc yang digunakannya.\n2. Tingkatkan level skill sesuai kebutuhan untuk optimalisasi healing. Perlu diingat bahwa Intro Skill hanya berfungsi untuk menghasilkan DMG dan tidak berkontribusi pada aspek healing.",
       "sets": [
@@ -17,8 +17,8 @@
           "label": "NS Support",
           "sonataCustom": [
             {
-              "name": "Song Of Feather Trace",
-              "set": 5
+              "set": 5,
+              "id": 33
             }
           ],
           "stats": [
@@ -43,15 +43,15 @@
               "stat": "HP%"
             }
           ],
-          "echoSlug": "forbidden-bastion",
+          "echoSlug": 391090205,
           "echoSlugSecondary": ""
         },
         {
           "label": "General",
           "sonataCustom": [
             {
-              "name": "Rejuvenating Glow",
-              "set": 5
+              "set": 5,
+              "id": 7
             }
           ],
           "stats": [
@@ -89,27 +89,27 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "firstlights-herald",
+        "id": 21050096,
         "percentage": "107",
         "rank": ""
       },
       {
-        "id": "stellar-symphony",
+        "id": 21050036,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "variation",
+        "id": 21050024,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "call-of-the-abyss",
+        "id": 21050017,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "rectifier-25",
+        "id": 21050034,
         "percentage": "100",
         "rank": ""
       }

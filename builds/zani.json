@@ -12,7 +12,7 @@
       "Capitaneus",
       "Nightmare: Mourning Aix"
     ],
-    "bestWeapon": "Blazing Justice",
+    "bestWeapon": 21040036,
     "echoDetails": {
       "note": "Capitaneus 4-6% lebih baik daripada menggunakan NM: Mourning Aix.\n\nKarena Eternal Radiance memberikan tambahan 20% Crit. Rate saat dalam pertempuran, disarankan untuk menggunakan Mainstat 4-cost Crit. DMG, terutama saat Zani dipasangkan dengan Shorekeeper. Jika tidak, Zani mungkin akan melampaui batas (overcap) Crit. Rate.",
       "sets": [
@@ -20,8 +20,8 @@
           "label": "Dps",
           "sonataCustom": [
             {
-              "name": "Eternal Radiance",
-              "set": 2
+              "set": 2,
+              "id": 11
             }
           ],
           "stats": [
@@ -46,8 +46,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "capitaneus",
-          "echoSlugSecondary": "nightmare-mourning-aix"
+          "echoSlug": 6000104,
+          "echoSlugSecondary": 6000092
         }
       ],
       "substats": [
@@ -61,37 +61,37 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "blazing-justice",
+        "id": 21040036,
         "percentage": "122",
         "rank": ""
       },
       {
-        "id": "tragicomedy",
+        "id": 21040026,
         "percentage": "116",
         "rank": ""
       },
       {
-        "id": "veritys-handle",
+        "id": 21040016,
         "percentage": "105",
         "rank": ""
       },
       {
-        "id": "pulsation-bracer",
+        "id": 21040045,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "abyss-surges",
+        "id": 21040015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "stonard",
+        "id": 21040074,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "hollow-mirage",
+        "id": 21040064,
         "percentage": "90",
         "rank": "5"
       }

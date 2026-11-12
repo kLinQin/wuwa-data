@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "Solsworn Ciphers",
+    "bestWeapon": 21040066,
     "echoDetails": {
       "note": "1. Cost 3 ER lebih baik sampai kamu dapat 4 substat ER.\n2. Cost 3 ER adalah pilihan yang sangat bagus karena bagaimanapun kamu membutuhkan 120% ER, dan ini membuatmu tidak bergantung pada keberuntungan substat.\n3. Jika kamu ingin mengoptimalkan potensi maksimal Sigrika (terutama jika mencapai >35% ER), di sarankan menggunakan Cost 3 Aero/Attack atau Atk/Atk.\n4. Mencapai 150% ER TIDAK bersifat wajib! ER tersebut ada agar dia mendapatkan lebih banyak scaling dari echo. (Contoh: Heavy DMG% untuk Augusta).\nSimpan satu echo Cost 3 untuk di-roll terakhir.\n",
       "sets": [
@@ -17,8 +17,8 @@
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Sound Of True Name",
-              "set": 2
+              "set": 2,
+              "id": 29
             }
           ],
           "stats": [
@@ -43,7 +43,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "nameless-explorer",
+          "echoSlug": 6000192,
           "echoSlugSecondary": ""
         }
       ],
@@ -52,27 +52,27 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "solsworn-ciphers",
+        "id": 21040066,
         "percentage": "122.61%",
         "rank": ""
       },
       {
-        "id": "blazing-justice",
+        "id": 21040036,
         "percentage": "105.57%",
         "rank": ""
       },
       {
-        "id": "pulsation-bracer",
+        "id": 21040045,
         "percentage": "100.00%",
         "rank": ""
       },
       {
-        "id": "abyss-surges",
+        "id": 21040015,
         "percentage": "96.17%",
         "rank": ""
       },
       {
-        "id": "gauntlet-21d",
+        "id": 21040034,
         "percentage": "77.25%",
         "rank": ""
       }

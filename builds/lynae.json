@@ -12,7 +12,7 @@
       "Hyvatia",
       "Twin Nova: Nebulous Cannon"
     ],
-    "bestWeapon": "Spectrum Blaster",
+    "bestWeapon": 21030046,
     "echoDetails": {
       "note": "kamu perlu memilih mode Tune Rupture (kiri) pada menu skill. Hal ini memberikan instansi tambahan dari Tune Break DMG saat kamu memicu Tune Break. Namun, jika ia berada dalam satu tim dengan Luuk, jalankan mode Tune Strain (kanan) sebagai gantinya.",
       "sets": [
@@ -20,8 +20,8 @@
           "label": "Sub DPS",
           "sonataCustom": [
             {
-              "name": "Pact Of Neonlight Leap",
-              "set": 2
+              "set": 2,
+              "id": 24
             }
           ],
           "stats": [
@@ -46,15 +46,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "hyvatia",
+          "echoSlug": 6000189,
           "echoSlugSecondary": ""
         },
         {
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Rite Of Gilded Revelation",
-              "set": 2
+              "set": 2,
+              "id": 26
             }
           ],
           "stats": [
@@ -79,7 +79,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "twin-nova-nebulous-cannon",
+          "echoSlug": 6000179,
           "echoSlugSecondary": ""
         }
       ],
@@ -94,32 +94,32 @@
     "weaponNote": "Gunakan Static Mist untuk memberikan buff kepada Main DPS kamu. Phasic Homogenizer hanya digunakan untuk damage pribadinya.",
     "weaponOptions": [
       {
-        "id": "spectrum-blaster",
+        "id": 21030046,
         "percentage": "121",
         "rank": ""
       },
       {
-        "id": "phasic-homogenizer",
+        "id": 21030045,
         "percentage": "104",
         "rank": ""
       },
       {
-        "id": "the-last-dance",
+        "id": 21030016,
         "percentage": "103",
         "rank": ""
       },
       {
-        "id": "static-mist",
+        "id": 21030015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "solar-flame",
+        "id": 21030104,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "relativistic-jet",
+        "id": 21030084,
         "percentage": "-",
         "rank": ""
       }

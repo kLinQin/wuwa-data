@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "Everbright Polestar",
+    "bestWeapon": 21020076,
     "echoDetails": {
       "note": "Jika menggunakan signature-nya, pertimbangkan Fusion / ATK untuk 3-Cost.",
       "sets": [
@@ -17,8 +17,8 @@
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Trailblazing Star",
-              "set": 5
+              "set": 5,
+              "id": 27
             }
           ],
           "stats": [
@@ -43,7 +43,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "sigillum",
+          "echoSlug": 6000191,
           "echoSlugSecondary": ""
         }
       ],
@@ -58,22 +58,22 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "everbright-polestar",
+        "id": 21020076,
         "percentage": "122",
         "rank": ""
       },
       {
-        "id": "red-spring",
+        "id": 21020026,
         "percentage": "101",
         "rank": ""
       },
       {
-        "id": "emerald-of-genesis",
+        "id": 21020015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "feather-edge",
+        "id": 21020104,
         "percentage": "-",
         "rank": ""
       }

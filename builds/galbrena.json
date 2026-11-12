@@ -11,7 +11,7 @@
     "bestEcho": [
       "Corrosaurus"
     ],
-    "bestWeapon": "Lux & Umbra",
+    "bestWeapon": 21030036,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -19,16 +19,16 @@
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Flamewing'S Shadow",
-              "set": 3
+              "set": 3,
+              "id": 22
             },
             {
-              "name": "Molten Rift",
-              "set": 2
+              "set": 2,
+              "id": 2
             },
             {
-              "name": "Flaming Clawprint",
-              "set": 2
+              "set": 2,
+              "id": 18
             }
           ],
           "stats": [
@@ -53,7 +53,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "corrosaurus",
+          "echoSlug": 6000120,
           "echoSlugSecondary": ""
         }
       ],
@@ -68,37 +68,37 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "lux-&-umbra",
+        "id": 21030036,
         "percentage": "108",
         "rank": ""
       },
       {
-        "id": "phasic-homogenizer",
+        "id": 21030045,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "the-last-dance",
+        "id": 21030016,
         "percentage": "92",
         "rank": ""
       },
       {
-        "id": "static-mist",
+        "id": 21030015,
         "percentage": "89",
         "rank": ""
       },
       {
-        "id": "solar-flame",
+        "id": 21030104,
         "percentage": "82",
         "rank": ""
       },
       {
-        "id": "relativistic-jet",
+        "id": 21030084,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "novaburst",
+        "id": 21030064,
         "percentage": "-",
         "rank": ""
       }

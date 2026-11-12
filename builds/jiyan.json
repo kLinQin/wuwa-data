@@ -13,7 +13,7 @@
       "Feilian Beringal",
       "Nightmare: Kelpie"
     ],
-    "bestWeapon": "verdant Summit",
+    "bestWeapon": 21010016,
     "echoDetails": {
       "note": "- Res. Liberation Jiyan [Emerald Storm: Finale] dianggap sebagai [Heavy DMG], oleh karena itu substat [Res. Liberation DMG Bonus] tidak berguna (dead stat) untuknya\n- bisa juga menggunakan Jiyan dengan ER sekitar ~115-120% jika menerapkan rotasi double intro. ER 130% ",
       "sets": [
@@ -21,8 +21,8 @@
           "label": "Aero DPS",
           "sonataCustom": [
             {
-              "name": "Sierra Gale",
-              "set": 2
+              "set": 2,
+              "id": 4
             }
           ],
           "stats": [
@@ -47,15 +47,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "feilian-beringal",
-          "echoSlugSecondary": "nightmare-beringal"
+          "echoSlug": 6000043,
+          "echoSlugSecondary": 6000086
         },
         {
           "label": "Aero DPS ",
           "sonataCustom": [
             {
-              "name": "Windward Pilgrimage",
-              "set": 2
+              "set": 2,
+              "id": 17
             }
           ],
           "stats": [
@@ -80,7 +80,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "nightmare-kelpie",
+          "echoSlug": 6000113,
           "echoSlugSecondary": ""
         }
       ],
@@ -95,42 +95,42 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "verdant-summit",
+        "id": 21010016,
         "percentage": "127",
         "rank": ""
       },
       {
-        "id": "thunderflare-dominion",
+        "id": 21010046,
         "percentage": "114",
         "rank": ""
       },
       {
-        "id": "ages-of-harvest",
+        "id": 21010026,
         "percentage": "112",
         "rank": ""
       },
       {
-        "id": "radiance-cleaver",
+        "id": 21010045,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "lustrous-razor",
+        "id": 21010015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "autumntrace",
+        "id": 21010074,
         "percentage": "99",
         "rank": "5"
       },
       {
-        "id": "helios-cleaver",
+        "id": 21010064,
         "percentage": "87",
         "rank": "5"
       },
       {
-        "id": "waning-redshift",
+        "id": 21010084,
         "percentage": "-",
         "rank": ""
       }

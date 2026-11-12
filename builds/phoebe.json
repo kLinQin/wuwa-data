@@ -11,7 +11,7 @@
     "bestEcho": [
       "Capitaneus"
     ],
-    "bestWeapon": "Luminous Hymn",
+    "bestWeapon": 21050046,
     "echoDetails": {
       "note": "Cost 4 aix cost 3 (main echo) Capitaneus",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "HYBRID",
           "sonataCustom": [
             {
-              "name": "Eternal Radiance",
-              "set": 2
+              "set": 2,
+              "id": 11
             }
           ],
           "stats": [
@@ -45,8 +45,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "capitaneus",
-          "echoSlugSecondary": "nightmare-mourning-aix"
+          "echoSlug": 6000104,
+          "echoSlugSecondary": 6000092
         }
       ],
       "substats": []
@@ -54,47 +54,47 @@
     "weaponNote": "Pasif senjata Ocean's Gift dan Waltz in Masquerade tidak dapat dipicu jika Phoebe berada dalam tim yang sama dengan Zani, karena Zani mengubah semua stack Spectro Frazzle menjadi Embers.",
     "weaponOptions": [
       {
-        "id": "luminous-hymn",
+        "id": 21050046,
         "percentage": "115",
         "rank": ""
       },
       {
-        "id": "stringmaster",
+        "id": 21050016,
         "percentage": "114",
         "rank": ""
       },
       {
-        "id": "whispers-of-sirens",
+        "id": 21050056,
         "percentage": "108",
         "rank": ""
       },
       {
-        "id": "cosmic-ripples",
+        "id": 21050015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "oceans-gift",
+        "id": 21050027,
         "percentage": "99",
         "rank": "5"
       },
       {
-        "id": "augment",
+        "id": 21050074,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "waltz-in-masquerade",
+        "id": 21050094,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "fusion-accretion",
+        "id": 21050084,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "jinzhou-keeper",
+        "id": 21050044,
         "percentage": "100",
         "rank": ""
       }

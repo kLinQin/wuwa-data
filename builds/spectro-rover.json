@@ -14,7 +14,7 @@
       "Bell-Borne Geochelone",
       "Fallacy of No Return"
     ],
-    "bestWeapon": "Blazing Brilliance",
+    "bestWeapon": 21020016,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -22,8 +22,8 @@
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Eternal Radiance",
-              "set": 2
+              "set": 2,
+              "id": 11
             }
           ],
           "stats": [
@@ -48,15 +48,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "mourning-aix",
+          "echoSlug": 6000045,
           "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 2
+              "set": 2,
+              "id": 8
             }
           ],
           "stats": [
@@ -81,15 +81,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         },
         {
           "label": "Healer",
           "sonataCustom": [
             {
-              "name": "Rejuvenating Glow",
-              "set": 2
+              "set": 2,
+              "id": 7
             }
           ],
           "stats": [
@@ -114,8 +114,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "fallacy-of-no-return",
-          "echoSlugSecondary": "bell-borne-geochelone"
+          "echoSlug": 6000060,
+          "echoSlugSecondary": 390080005
         }
       ],
       "substats": [
@@ -129,32 +129,32 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "blazing-brilliance",
+        "id": 21020016,
         "percentage": "115",
         "rank": ""
       },
       {
-        "id": "red-spring",
+        "id": 21020026,
         "percentage": "102",
         "rank": ""
       },
       {
-        "id": "emerald-of-genesis",
+        "id": 21020015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "commando-of-conviction",
+        "id": 21020044,
         "percentage": "91",
         "rank": "5"
       },
       {
-        "id": "fables-of-wisdom",
+        "id": 21020094,
         "percentage": "86",
         "rank": "5"
       },
       {
-        "id": "lumingloss",
+        "id": 21020074,
         "percentage": "86",
         "rank": "5"
       }

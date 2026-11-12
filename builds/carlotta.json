@@ -11,7 +11,7 @@
     "bestEcho": [
       "Sentry Construct"
     ],
-    "bestWeapon": "The Last Dance",
+    "bestWeapon": 21030016,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Frosty Resolve",
-              "set": 2
+              "set": 2,
+              "id": 10
             }
           ],
           "stats": [
@@ -45,7 +45,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "sentry-construct",
+          "echoSlug": 6020056,
           "echoSlugSecondary": ""
         }
       ],
@@ -60,27 +60,27 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "the-last-dance",
+        "id": 21030016,
         "percentage": "121",
         "rank": ""
       },
       {
-        "id": "phasic-homogenizer",
+        "id": 21030045,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "static-mist",
+        "id": 21030015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "undying-flame",
+        "id": 21030044,
         "percentage": "R5- 87",
         "rank": ""
       },
       {
-        "id": "thunderbolt",
+        "id": 21030074,
         "percentage": "R5- 84",
         "rank": ""
       }

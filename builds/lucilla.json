@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "Freeze Frame",
+    "bestWeapon": 21050086,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -17,8 +17,8 @@
           "label": "With Hiyuki",
           "sonataCustom": [
             {
-              "name": "Wishes Of Quiet Snowfall",
-              "set": 2
+              "set": 2,
+              "id": 30
             }
           ],
           "stats": [
@@ -43,15 +43,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "glommoth",
+          "echoSlug": 6000195,
           "echoSlugSecondary": ""
         },
         {
           "label": "With Echo DMG DPS",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 5
+              "set": 5,
+              "id": 8
             }
           ],
           "stats": [
@@ -76,19 +76,19 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         },
         {
           "label": "With Lova",
           "sonataCustom": [
             {
-              "name": "Dream Of The Lost",
-              "set": 3
+              "set": 3,
+              "id": 19
             },
             {
-              "name": "Reel Of Spliced Memories",
-              "set": 2
+              "set": 2,
+              "id": 31
             }
           ],
           "stats": [
@@ -113,7 +113,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "voidwing-moth",
+          "echoSlug": 6000198,
           "echoSlugSecondary": ""
         }
       ],
@@ -128,27 +128,27 @@
     "weaponNote": "Freeze Frame (Signature Lucilla) memberikan peningkatan sekitar 7-8% team DPS dibandingkan dengan Cosmic Ripples.",
     "weaponOptions": [
       {
-        "id": "freeze-frame",
+        "id": 21050086,
         "percentage": "129.82%",
         "rank": ""
       },
       {
-        "id": "whispers-of-sirens",
+        "id": 21050056,
         "percentage": "127.44%",
         "rank": ""
       },
       {
-        "id": "stringmaster",
+        "id": 21050016,
         "percentage": "117.06%",
         "rank": ""
       },
       {
-        "id": "rime-draped-sprouts",
+        "id": 21050026,
         "percentage": "108.26%",
         "rank": ""
       },
       {
-        "id": "cosmic-ripples",
+        "id": 21050015,
         "percentage": "100.00%",
         "rank": ""
       }

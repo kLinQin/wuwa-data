@@ -11,7 +11,7 @@
     "bestEcho": [
       "Mech Abomination"
     ],
-    "bestWeapon": "Tragicomedy",
+    "bestWeapon": 21040026,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "Glacio DMG",
           "sonataCustom": [
             {
-              "name": "Freezing Frost",
-              "set": 2
+              "set": 2,
+              "id": 1
             }
           ],
           "stats": [
@@ -45,15 +45,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "lampylumen-myriad",
+          "echoSlug": 6000044,
           "echoSlugSecondary": ""
         },
         {
           "label": "General ATK",
           "sonataCustom": [
             {
-              "name": "Lingering Tunes",
-              "set": 2
+              "set": 2,
+              "id": 9
             }
           ],
           "stats": [
@@ -78,15 +78,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "mech-abomination",
+          "echoSlug": 6000048,
           "echoSlugSecondary": ""
         },
         {
           "label": "Skill DMG",
           "sonataCustom": [
             {
-              "name": "Frosty Resolve",
-              "set": 2
+              "set": 2,
+              "id": 10
             }
           ],
           "stats": [
@@ -111,7 +111,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "sentry-construct",
+          "echoSlug": 6020056,
           "echoSlugSecondary": ""
         }
       ],
@@ -126,32 +126,32 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "tragicomedy",
+        "id": 21040026,
         "percentage": "106",
         "rank": ""
       },
       {
-        "id": "veritys-handle",
+        "id": 21040016,
         "percentage": "105",
         "rank": ""
       },
       {
-        "id": "pulsation-bracer",
+        "id": 21040045,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "abyss-surges",
+        "id": 21040015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "stonard",
+        "id": 21040074,
         "percentage": "83",
         "rank": ""
       },
       {
-        "id": "hollow-mirage",
+        "id": 21040064,
         "percentage": "81",
         "rank": ""
       }

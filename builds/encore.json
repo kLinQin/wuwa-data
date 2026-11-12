@@ -11,7 +11,7 @@
     "bestEcho": [
       "Inferno Rider"
     ],
-    "bestWeapon": "Stringmaster",
+    "bestWeapon": 21050016,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Molten Rift",
-              "set": 2
+              "set": 2,
+              "id": 2
             }
           ],
           "stats": [
@@ -45,7 +45,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "inferno-rider",
+          "echoSlug": 390080007,
           "echoSlugSecondary": ""
         }
       ],
@@ -60,42 +60,42 @@
     "weaponNote": "Saat menggunakan Luminous Hymn, Encore harus dipasangkan dengan Rover: Spectro untuk memicu skill senjata (Basic% dan Heavy% DMG Bonus).",
     "weaponOptions": [
       {
-        "id": "stringmaster",
+        "id": 21050016,
         "percentage": "120",
         "rank": ""
       },
       {
-        "id": "rime-draped-sprouts",
+        "id": 21050026,
         "percentage": "111",
         "rank": ""
       },
       {
-        "id": "whispers-of-sirens",
+        "id": 21050056,
         "percentage": "110",
         "rank": ""
       },
       {
-        "id": "luminous-hymn",
+        "id": 21050046,
         "percentage": "108",
         "rank": ""
       },
       {
-        "id": "cosmic-ripples",
+        "id": 21050015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "augment",
+        "id": 21050074,
         "percentage": "98",
         "rank": "5"
       },
       {
-        "id": "fusion-accretion",
+        "id": 21050084,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "jinzhou-keeper",
+        "id": 21050044,
         "percentage": "-",
         "rank": ""
       }

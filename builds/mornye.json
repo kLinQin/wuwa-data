@@ -11,7 +11,7 @@
     "bestEcho": [
       "Reactor Husk"
     ],
-    "bestWeapon": "Starfield Calibrator",
+    "bestWeapon": 21010066,
     "echoDetails": {
       "note": "Jika kamu mampu mencapai 260% ER hanya dengan 1x ER 3-cost, kamu dapat memilih untuk menggunakan Fusion DMG Bonus untuk damage lebih besar atau DEF% untuk tambahan heal dan damage yang seimbang. Saat berada di luar tim, disarankan untuk mencapai 240% ER karena Reactor Husk (main echo) dan inherent skill Mornye keduanya memberikan 10% Energy Regen.",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "Healer",
           "sonataCustom": [
             {
-              "name": "Halo Of Starry Radiance",
-              "set": 2
+              "set": 2,
+              "id": 25
             }
           ],
           "stats": [
@@ -45,15 +45,15 @@
               "stat": "DEF%"
             }
           ],
-          "echoSlug": "reactor-husk",
+          "echoSlug": 6000190,
           "echoSlugSecondary": ""
         },
         {
           "label": "Healer",
           "sonataCustom": [
             {
-              "name": "Rejuvenating Glow",
-              "set": 2
+              "set": 2,
+              "id": 7
             }
           ],
           "stats": [
@@ -78,7 +78,7 @@
               "stat": "DEF%"
             }
           ],
-          "echoSlug": "fallacy-of-no-return",
+          "echoSlug": 6000060,
           "echoSlugSecondary": ""
         }
       ],
@@ -92,17 +92,17 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "starfield-calibrator",
+        "id": 21010066,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "discord",
+        "id": 21010024,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "broadblade-41",
+        "id": 21010034,
         "percentage": "-",
         "rank": ""
       }

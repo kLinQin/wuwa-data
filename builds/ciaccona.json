@@ -11,7 +11,7 @@
     "bestEcho": [
       "Nightmare: Kelpie"
     ],
-    "bestWeapon": "Woodland Aria",
+    "bestWeapon": 21030026,
     "echoDetails": {
       "note": "Echo NM Kelpie ini lebih mudah di-farm dibandingkan Reminiscence: Fleurdelys dan memberikan Aero DMG Bonus 2% lebih tinggi.",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "Sub Dps Aero",
           "sonataCustom": [
             {
-              "name": "Gusts Of Welkin",
-              "set": 2
+              "set": 2,
+              "id": 16
             }
           ],
           "stats": [
@@ -45,7 +45,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "fleurdelys",
+          "echoSlug": 6000106,
           "echoSlugSecondary": ""
         },
         {
@@ -73,7 +73,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "nightmare-kelpie",
+          "echoSlug": 6000113,
           "echoSlugSecondary": ""
         }
       ],
@@ -87,37 +87,37 @@
     "weaponNote": "- Romance in Farewel, Undying Flame dan Thunderbolt semua nya R5.\n- Jika dipasangkan dengan Cartethyia, Phasic Homogenizer memberikan damage yang lebih baik, tetapi akan kehilangan pasif ER dari Static Mist. \n- Gunakan Static Mist jika dipasangkan dengan Iuno, Jiyan, atau Qiuyuan. ",
     "weaponOptions": [
       {
-        "id": "woodland-aria",
+        "id": 21030026,
         "percentage": "114",
         "rank": ""
       },
       {
-        "id": "the-last-dance",
+        "id": 21030016,
         "percentage": "100.45",
         "rank": ""
       },
       {
-        "id": "phasic-homogenizer",
+        "id": 21030045,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "static-mist",
+        "id": 21030015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "romance-in-farewell",
+        "id": 21030094,
         "percentage": "99",
         "rank": "5"
       },
       {
-        "id": "undying-flame",
+        "id": 21030044,
         "percentage": "98",
         "rank": "5"
       },
       {
-        "id": "thunderbolt",
+        "id": 21030074,
         "percentage": "98",
         "rank": "5"
       }

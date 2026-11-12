@@ -11,7 +11,7 @@
     "bestEcho": [
       "Nightmare: Rider"
     ],
-    "bestWeapon": "Blazing Brilliance",
+    "bestWeapon": 21020016,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "Dps",
           "sonataCustom": [
             {
-              "name": "Molten Rift",
-              "set": 2
+              "set": 2,
+              "id": 2
             }
           ],
           "stats": [
@@ -45,7 +45,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "nightmare-rider",
+          "echoSlug": 6000091,
           "echoSlugSecondary": ""
         }
       ],
@@ -60,37 +60,37 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "blazing-brilliance",
+        "id": 21020016,
         "percentage": "111",
         "rank": ""
       },
       {
-        "id": "red-spring",
+        "id": 21020026,
         "percentage": "101",
         "rank": ""
       },
       {
-        "id": "emerald-of-genesis",
+        "id": 21020015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "somnoire-anchor",
+        "id": 21020017,
         "percentage": "84",
         "rank": "5"
       },
       {
-        "id": "commando-of-conviction",
+        "id": 21020044,
         "percentage": "82",
         "rank": "5"
       },
       {
-        "id": "lumingloss",
+        "id": 21020074,
         "percentage": "76",
         "rank": "5"
       },
       {
-        "id": "endless-collapse",
+        "id": 21020084,
         "percentage": "-",
         "rank": ""
       }

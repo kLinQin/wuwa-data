@@ -13,7 +13,7 @@
       "Nightmare: Beringal",
       "Feilian Beringal"
     ],
-    "bestWeapon": "Red Spring",
+    "bestWeapon": 21020026,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -21,8 +21,8 @@
           "label": "Sub Dps",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 2
+              "set": 2,
+              "id": 8
             }
           ],
           "stats": [
@@ -47,15 +47,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         },
         {
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Sierra Gale",
-              "set": 2
+              "set": 2,
+              "id": 4
             }
           ],
           "stats": [
@@ -80,8 +80,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "feilian-beringal",
-          "echoSlugSecondary": "nightmare-beringal"
+          "echoSlug": 6000043,
+          "echoSlugSecondary": 6000086
         }
       ],
       "substats": [
@@ -95,37 +95,37 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "red-spring",
+        "id": 21020026,
         "percentage": "106",
         "rank": ""
       },
       {
-        "id": "blazing-brilliance",
+        "id": 21020016,
         "percentage": "105",
         "rank": ""
       },
       {
-        "id": "emerald-of-genesis",
+        "id": 21020015,
         "percentage": "101",
         "rank": ""
       },
       {
-        "id": "lumingloss",
+        "id": 21020074,
         "percentage": "83",
         "rank": "5"
       },
       {
-        "id": "somnoire-anchor",
+        "id": 21020017,
         "percentage": "81",
         "rank": "5"
       },
       {
-        "id": "commando-of-conviction",
+        "id": 21020044,
         "percentage": "68",
         "rank": "5"
       },
       {
-        "id": "endless-collapse",
+        "id": 21020084,
         "percentage": "-",
         "rank": ""
       }

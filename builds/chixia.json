@@ -11,7 +11,7 @@
     "bestEcho": [
       "Nightmare: Rider"
     ],
-    "bestWeapon": "The Last Dance",
+    "bestWeapon": 21030016,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Molten Rift",
-              "set": 2
+              "set": 2,
+              "id": 2
             }
           ],
           "stats": [
@@ -45,7 +45,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "nightmare-rider",
+          "echoSlug": 6000091,
           "echoSlugSecondary": ""
         }
       ],
@@ -61,32 +61,32 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "the-last-dance",
+        "id": 21030016,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "phasic-homogenizer",
+        "id": 21030045,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "static-mist",
+        "id": 21030015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "thunderbolt",
+        "id": 21030074,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "relativistic-jet",
+        "id": 21030084,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "novaburst",
+        "id": 21030064,
         "percentage": "-",
         "rank": ""
       }

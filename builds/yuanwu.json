@@ -13,7 +13,7 @@
       "Fallacy of No Return",
       "Impermanence Heron"
     ],
-    "bestWeapon": "Originite: Type IV",
+    "bestWeapon": 21040023,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -21,8 +21,8 @@
           "label": "Healer",
           "sonataCustom": [
             {
-              "name": "Rejuvenating Glow",
-              "set": 2
+              "set": 2,
+              "id": 7
             }
           ],
           "stats": [
@@ -47,15 +47,15 @@
               "stat": "DEF%"
             }
           ],
-          "echoSlug": "fallacy-of-no-return",
-          "echoSlugSecondary": "bell-borne-geochelone"
+          "echoSlug": 6000060,
+          "echoSlugSecondary": 390080005
         },
         {
           "label": "Sub DPS",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 2
+              "set": 2,
+              "id": 8
             }
           ],
           "stats": [
@@ -80,7 +80,7 @@
               "stat": "DEF%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         }
       ],
@@ -94,17 +94,17 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "Originite: Type IV",
+        "id": 21040023,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "gauntlet-21d",
+        "id": 21040034,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "marcato",
+        "id": 21040024,
         "percentage": "-",
         "rank": ""
       }

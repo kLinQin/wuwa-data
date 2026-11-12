@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "Daybreaker'S Spine",
+    "bestWeapon": 21040056,
     "echoDetails": {
       "note": "main Echo Cost 3: Twin Nova Nebulous Cannon",
       "sets": [
@@ -17,8 +17,8 @@
           "label": "Tune-Break",
           "sonataCustom": [
             {
-              "name": "Rite Of Gilded Revelation",
-              "set": 2
+              "set": 2,
+              "id": 26
             }
           ],
           "stats": [
@@ -43,8 +43,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "twin-nova-nebulous-cannon",
-          "echoSlugSecondary": "hyvatia"
+          "echoSlug": 6000179,
+          "echoSlugSecondary": 6000189
         }
       ],
       "substats": [
@@ -58,22 +58,22 @@
     "weaponNote": "Jika ia menggunakan senjata signature miliknya, pertimbangkan Spectro / ATK untuk 3-Cost.",
     "weaponOptions": [
       {
-        "id": "daybreakers-spine",
+        "id": 21040056,
         "percentage": "117.66",
         "rank": ""
       },
       {
-        "id": "pulsation-bracer",
+        "id": 21040045,
         "percentage": "100.00",
         "rank": ""
       },
       {
-        "id": "blazing-justice",
+        "id": 21040036,
         "percentage": "98.26",
         "rank": ""
       },
       {
-        "id": "abyss-surges",
+        "id": 21040015,
         "percentage": "86.92",
         "rank": ""
       }

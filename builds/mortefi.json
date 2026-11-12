@@ -12,7 +12,7 @@
       "Impermanence Heron",
       "Hecate"
     ],
-    "bestWeapon": "The Last Dance",
+    "bestWeapon": 21030016,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -20,8 +20,8 @@
           "label": "Sub DPS General",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 2
+              "set": 2,
+              "id": 8
             }
           ],
           "stats": [
@@ -46,15 +46,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS DMG",
           "sonataCustom": [
             {
-              "name": "Empyrean Anthem",
-              "set": 2
+              "set": 2,
+              "id": 13
             }
           ],
           "stats": [
@@ -79,7 +79,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "hecate",
+          "echoSlug": 6000085,
           "echoSlugSecondary": ""
         }
       ],
@@ -94,32 +94,32 @@
     "weaponNote": "- Meskipun Static Mist 4% lebih buruk dalam hal DMG, Static Mist adalah pilihan yang lebih baik jika Mortefi digunakan sebagai Sub DPS karena memberikan bonus tambahan bagi Resonator berikutnya. \n- Cadenza adalah alternatif bintang 4 yang layak karena memberikan tambahan energy regen dan concerto energy untuk mempersingkat rotasi.",
     "weaponOptions": [
       {
-        "id": "the-last-dance",
+        "id": 21030016,
         "percentage": "104",
         "rank": ""
       },
       {
-        "id": "static-mist",
+        "id": 21030015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "cadenza",
+        "id": 21030024,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "thunderbolt",
+        "id": 21030074,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "relativistic-jet",
+        "id": 21030084,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "novaburst",
+        "id": 21030064,
         "percentage": "-",
         "rank": ""
       }

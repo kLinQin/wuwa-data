@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "Thousandfold Deliverance",
+    "bestWeapon": 21010076,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -17,8 +17,8 @@
           "label": "LONR 44111 CD/CD",
           "sonataCustom": [
             {
-              "name": "Lamp Of Nether Road",
-              "set": 5
+              "set": 5,
+              "id": 35
             }
           ],
           "stats": [
@@ -43,7 +43,7 @@
               "stat": "HP%"
             }
           ],
-          "echoSlug": "myriad-snare-rustfire-chassis",
+          "echoSlug": 6000217,
           "echoSlugSecondary": ""
         }
       ],
@@ -59,22 +59,22 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "Thousandfold Deliverance",
+        "id": 21010076,
         "percentage": "138.02%",
         "rank": ""
       },
       {
-        "id": "Thunderflare Dominion",
+        "id": 21010046,
         "percentage": "116.88%",
         "rank": ""
       },
       {
-        "id": "Verdant Summit",
+        "id": 21010016,
         "percentage": "111.58%",
         "rank": ""
       },
       {
-        "id": "Radiance Cleaver",
+        "id": 21010045,
         "percentage": "100.00%",
         "rank": ""
       }

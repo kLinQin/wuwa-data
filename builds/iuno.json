@@ -11,7 +11,7 @@
     "bestEcho": [
       "Lady of the Sea"
     ],
-    "bestWeapon": "Moongazer's Sigil",
+    "bestWeapon": 21040046,
     "echoDetails": {
       "note": "Moonlit Clouds hanya digunakan ketika Iuno berperan sebagai Sub DPS untuk Augusta, meskipun penggunaannya mungkin terasa canggung karena sebagian besar kit Iuno dilakukan di udara, sementara Impermanence Heron hanya bisa digunakan saat berada di darat.",
       "sets": [
@@ -19,20 +19,20 @@
           "label": "Sub DPS // DMG",
           "sonataCustom": [
             {
-              "name": "Crown Of Valor",
-              "set": 3
+              "set": 3,
+              "id": 20
             },
             {
-              "name": "Sierra Gale",
-              "set": 2
+              "set": 2,
+              "id": 4
             },
             {
-              "name": "Windward Pilgrimage",
-              "set": 2
+              "set": 2,
+              "id": 17
             },
             {
-              "name": "Gusts Of Welkin",
-              "set": 2
+              "set": 2,
+              "id": 16
             }
           ],
           "stats": [
@@ -57,15 +57,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "lady-of-the-sea",
+          "echoSlug": 6000160,
           "echoSlugSecondary": ""
         },
         {
           "label": "Sub DPS // General",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 2
+              "set": 2,
+              "id": 8
             }
           ],
           "stats": [
@@ -90,7 +90,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         }
       ],
@@ -105,37 +105,37 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "moongazers-sigil",
+        "id": 21040046,
         "percentage": "140",
         "rank": ""
       },
       {
-        "id": "veritys-handle",
+        "id": 21040016,
         "percentage": "125",
         "rank": ""
       },
       {
-        "id": "blazing-justice",
+        "id": 21040036,
         "percentage": "110",
         "rank": ""
       },
       {
-        "id": "pulsation-bracer",
+        "id": 21040045,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "abyss-surges",
+        "id": 21040015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "stonard",
+        "id": 21040074,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "aether-strike",
+        "id": 21040104,
         "percentage": "-",
         "rank": ""
       }

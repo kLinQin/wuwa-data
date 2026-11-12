@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "Glint Of Clouds",
+    "bestWeapon": 21020106,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -17,8 +17,8 @@
           "label": "2,079,448.68 - 100.09% (44111)",
           "sonataCustom": [
             {
-              "name": "Heart Of Evil'S Purge",
-              "set": 2
+              "set": 2,
+              "id": 34
             }
           ],
           "stats": [
@@ -43,7 +43,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "effigy",
+          "echoSlug": 6000221,
           "echoSlugSecondary": ""
         }
       ],
@@ -58,17 +58,17 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "Glint of Clouds",
+        "id": 21020106,
         "percentage": "125.35%",
         "rank": ""
       },
       {
-        "id": "Red Spring",
+        "id": 21020026,
         "percentage": "102.19%",
         "rank": ""
       },
       {
-        "id": "Emerald of Genesis",
+        "id": 21020015,
         "percentage": "100.00%",
         "rank": ""
       }

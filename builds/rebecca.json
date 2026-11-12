@@ -9,7 +9,7 @@
   },
   "build": {
     "bestEcho": [],
-    "bestWeapon": "Skull Thrasher",
+    "bestWeapon": 21030066,
     "echoDetails": {
       "note": "Saat dipasangkan dengan Lucy atau Augusta, gunakan Moonlit Clouds untuk team DPS yang lebih tinggi. Bellborne lebih disukai karena rotasinya. Shadows of Shattered Dreams hanya untuk personal damage miliknya.",
       "sets": [
@@ -17,16 +17,16 @@
           "label": "With Lucy/Augusta",
           "sonataCustom": [
             {
-              "name": "Shadow Of Shattered Dreams",
-              "set": 3
+              "set": 3,
+              "id": 32
             },
             {
-              "name": "Reel Of Spliced Memories",
-              "set": 2
+              "set": 2,
+              "id": 31
             },
             {
-              "name": "Void Thunder",
-              "set": 2
+              "set": 2,
+              "id": 3
             }
           ],
           "stats": [
@@ -51,15 +51,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "reminiscence-adam-smasher",
+          "echoSlug": 6000201,
           "echoSlugSecondary": ""
         },
         {
           "label": "Other DPS",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 5
+              "set": 5,
+              "id": 8
             }
           ],
           "stats": [
@@ -84,7 +84,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "bell-borne-geochelone",
+          "echoSlug": 390080005,
           "echoSlugSecondary": ""
         }
       ],
@@ -99,17 +99,17 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "skull-thrasher",
+        "id": 21030066,
         "percentage": "118.72%",
         "rank": ""
       },
       {
-        "id": "phasic-homogenizer",
+        "id": 21030045,
         "percentage": "102.97%",
         "rank": ""
       },
       {
-        "id": "static-mist",
+        "id": 21030015,
         "percentage": "100.00%",
         "rank": ""
       }

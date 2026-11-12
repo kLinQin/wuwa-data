@@ -11,7 +11,7 @@
     "bestEcho": [
       "Threnodian Leviathan"
     ],
-    "bestWeapon": "Kumokiri",
+    "bestWeapon": 21010056,
     "echoDetails": {
       "note": "Kamu dapat memilih untuk menggunakan Fallacy dan Rejuv jika ia berada di dalam tim bersama Hiyuki dan Aemeath. Karena Cartethyia tidak mendapatkan keuntungan dari ATK yang diberikan oleh set tersebut, silakan gunakan 3-pc Thread + 2-pc HE/MV sebagai gantinya.",
       "sets": [
@@ -19,16 +19,16 @@
           "label": "NS Support",
           "sonataCustom": [
             {
-              "name": "Thread Of Severed Fate",
-              "set": 3
+              "set": 3,
+              "id": 23
             },
             {
-              "name": "Havoc Eclipse",
-              "set": 2
+              "set": 2,
+              "id": 6
             },
             {
-              "name": "Midnight Veil",
-              "set": 2
+              "set": 2,
+              "id": 12
             }
           ],
           "stats": [
@@ -53,15 +53,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "threnodian-leviathan",
+          "echoSlug": 6000167,
           "echoSlugSecondary": ""
         },
         {
           "label": "General ",
           "sonataCustom": [
             {
-              "name": "Rejuvenating Glow",
-              "set": 2
+              "set": 2,
+              "id": 7
             }
           ],
           "stats": [
@@ -86,7 +86,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "fallacy-of-no-return",
+          "echoSlug": 6000060,
           "echoSlugSecondary": ""
         }
       ],
@@ -101,32 +101,32 @@
     "weaponNote": "Jika ia menggunakan senjata signature miliknya, pertimbangkan Havoc DMG Bonus / ATK untuk 3-Cost.",
     "weaponOptions": [
       {
-        "id": "kumokiri",
+        "id": 21010056,
         "percentage": "125",
         "rank": ""
       },
       {
-        "id": "wildfire-mark",
+        "id": 21010036,
         "percentage": "113",
         "rank": ""
       },
       {
-        "id": "ages-of-harvest",
+        "id": 21010026,
         "percentage": "105",
         "rank": ""
       },
       {
-        "id": "radiance-cleaver",
+        "id": 21010045,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "lustrous-razor",
+        "id": 21010015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "meditations-on-mercy",
+        "id": 21010094,
         "percentage": "-",
         "rank": ""
       }

@@ -13,7 +13,7 @@
       "Impermanence Heron",
       "Nightmare: Beringal"
     ],
-    "bestWeapon": "Blazing Justice",
+    "bestWeapon": 21040036,
     "echoDetails": {
       "note": "- FONR memberikan buff 10% ATK selama 20 detik (100% uptime, CD 20 detik), \n- sementara Bellborne memberikan 10% DMG Boost selama 15 detik (75% uptime, CD 20 detik), yang durasinya bisa terhenti lebih cepat jika perisai terkena serangan sebanyak 3 kali. Secara keseluruhan, \n- FONR juga lebih mudah untuk difarming karena hanya menjatuhkan satu jenis set sonata.",
       "sets": [
@@ -21,8 +21,8 @@
           "label": "Support",
           "sonataCustom": [
             {
-              "name": "Rejuvenating Glow",
-              "set": 2
+              "set": 2,
+              "id": 7
             }
           ],
           "stats": [
@@ -47,15 +47,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "fallacy-of-no-return",
-          "echoSlugSecondary": "bell-borne-geochelone"
+          "echoSlug": 6000060,
+          "echoSlugSecondary": 390080005
         },
         {
           "label": "Sub DPS",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 2
+              "set": 2,
+              "id": 8
             }
           ],
           "stats": [
@@ -80,15 +80,15 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         },
         {
           "label": "Main DPS",
           "sonataCustom": [
             {
-              "name": "Sierra Gale",
-              "set": 2
+              "set": 2,
+              "id": 4
             }
           ],
           "stats": [
@@ -113,7 +113,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "feilian-beringal",
+          "echoSlug": 6000043,
           "echoSlugSecondary": ""
         }
       ],
@@ -129,32 +129,32 @@
     "weaponNote": "Jika lebih mengutamakan kenyamanan bermain (quality of life) daripada personal DMG, gunakan [Marcato] untuk Energy Regen + pengumpulan concerto yang lebih cepat, atau [Originite: Type IV] jika menggunakan set Rejuvenating Glow agar bonus set 5-pc lebih mudah dipicu.",
     "weaponOptions": [
       {
-        "id": "blazing-justice",
+        "id": 21040036,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "veritys-handle",
+        "id": 21040016,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "tragicomedy",
+        "id": 21040026,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "pulsation-bracer",
+        "id": 21040045,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "abyss-surges",
+        "id": 21040015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "marcato",
+        "id": 21040024,
         "percentage": "100",
         "rank": ""
       }

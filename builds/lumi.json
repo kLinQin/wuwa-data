@@ -11,7 +11,7 @@
     "bestEcho": [
       "Impermanence Heron"
     ],
-    "bestWeapon": "Ages of Harvest",
+    "bestWeapon": 21010026,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -19,8 +19,8 @@
           "label": "Sub DPS",
           "sonataCustom": [
             {
-              "name": "Moonlit Clouds",
-              "set": 2
+              "set": 2,
+              "id": 8
             }
           ],
           "stats": [
@@ -45,7 +45,7 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "impermanence-heron",
+          "echoSlug": 6000052,
           "echoSlugSecondary": ""
         }
       ],
@@ -60,32 +60,32 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "ages-of-harvest",
+        "id": 21010026,
         "percentage": "111",
         "rank": ""
       },
       {
-        "id": "verdant-summit",
+        "id": 21010016,
         "percentage": "111",
         "rank": ""
       },
       {
-        "id": "radiance-cleaver",
+        "id": 21010045,
         "percentage": "-",
         "rank": ""
       },
       {
-        "id": "lustrous-razor",
+        "id": 21010015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "helios-cleaver",
+        "id": 21010064,
         "percentage": "83",
         "rank": ""
       },
       {
-        "id": "discord",
+        "id": 21010024,
         "percentage": "67",
         "rank": ""
       }

@@ -12,13 +12,13 @@
       "Bell-Borne Geochelone",
       "Fallacy of No Return"
     ],
-    "bestWeapon": "Stellar Symphony",
+    "bestWeapon": 21050036,
     "echoDetails": {
       "sets": [
         {
           "label": "HEALER",
-          "echoSlug": "bell-borne-geochelone",
-          "echoSlugSecondary": "fallacy-of-no-return",
+          "echoSlug": 390080005,
+          "echoSlugSecondary": 6000060,
           "stats": [
             {
               "cost": 4,
@@ -47,8 +47,8 @@
         },
         {
           "label": "SPECIAL INTRO",
-          "echoSlug": "fallacy-of-no-return",
-          "echoSlugSecondary": "bell-borne-geochelone",
+          "echoSlug": 6000060,
+          "echoSlugSecondary": 390080005,
           "stats": [
             {
               "cost": 4,
@@ -87,22 +87,22 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "stellar-symphony",
+        "id": 21050036,
         "rank": "",
         "percentage": "100"
       },
       {
-        "id": "variation",
+        "id": 21050024,
         "rank": "",
         "percentage": "93"
       },
       {
-        "id": "call-of-the-abyss",
+        "id": 21050017,
         "rank": "",
         "percentage": "100"
       },
       {
-        "id": "rectifier-25",
+        "id": 21050034,
         "rank": "",
         "percentage": "100"
       }

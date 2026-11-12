@@ -1,0 +1,24 @@
+{
+  "id": 1310,
+  "name": "Electro Rover",
+  "recommendedStats": {},
+  "build": {
+    "bestEcho": [],
+    "bestWeapon": "",
+    "echoDetails": {
+      "note": "",
+      "sets": [],
+      "substats": []
+    },
+    "weaponNote": "",
+    "weaponOptions": [],
+    "rotations": [],
+    "talentPriority": {
+      "priority": [],
+      "note": ""
+    },
+    "teams": [],
+    "teamNote": ""
+  },
+  "analysisCharts": []
+}

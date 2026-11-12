@@ -12,7 +12,7 @@
       "Dreamless",
       "Nightmare: Crownless"
     ],
-    "bestWeapon": "Red Spring",
+    "bestWeapon": 21020026,
     "echoDetails": {
       "note": "",
       "sets": [
@@ -20,8 +20,8 @@
           "label": "DPS",
           "sonataCustom": [
             {
-              "name": "Havoc Eclipse",
-              "set": 2
+              "set": 2,
+              "id": 6
             }
           ],
           "stats": [
@@ -46,8 +46,8 @@
               "stat": "ATK%"
             }
           ],
-          "echoSlug": "dreamless",
-          "echoSlugSecondary": "nightmare-crownless"
+          "echoSlug": 6020063,
+          "echoSlugSecondary": 6000090
         }
       ],
       "substats": [
@@ -62,27 +62,27 @@
     "weaponNote": "",
     "weaponOptions": [
       {
-        "id": "red-spring",
+        "id": 21020026,
         "percentage": "106",
         "rank": ""
       },
       {
-        "id": "blazing-brilliance",
+        "id": 21020016,
         "percentage": "104",
         "rank": ""
       },
       {
-        "id": "emerald-of-genesis",
+        "id": 21020015,
         "percentage": "100",
         "rank": ""
       },
       {
-        "id": "somnoire-anchor",
+        "id": 21020017,
         "percentage": "97",
         "rank": "5"
       },
       {
-        "id": "commando-of-conviction",
+        "id": 21020044,
         "percentage": "84",
         "rank": ""
       }
