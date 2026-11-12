@@ -1,15 +1,15 @@
 {
-  "fetchedAt": "2026-11-09T13:13:09.203Z",
+  "fetchedAt": "2026-11-12T06:10:50.066Z",
   "banners": [
     {
-      "name": "Across Time's Waxes and Wanes - Iuno Banner",
-      "description": "Featured 4-stars are; Buling, Taoqi, and Youhu.",
-      "coverImgSrc": "/event/banner-across-time-s-waxes-and-wanes-iuno-banner.webp",
-      "color": "#658EC2",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
+      "name": "Wanderer Knows No Far and Near - Qiuyuan Banner",
+      "description": "Featured 4-stars are; Youhu, Aalto, and Yangyang.",
+      "coverImgSrc": "/event/banner-wanderer-knows-no-far-and-near-qiuyuan-banner.png",
+      "color": "#223E32",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
       "group": null,
-      "startDate": "2026-09-30 10:00:00",
-      "endDate": "2026-10-22 09:59:59",
+      "startDate": "2026-11-12 10:00",
+      "endDate": "2026-12-03 09:59:59",
       "isCstStart": true,
       "banner": {
         "isBannerEvent": true,
@@ -17,14 +17,14 @@
       }
     },
     {
-      "name": "Horizon of Danbreak - Chisa Banner",
-      "description": "Featured 4-stars are; Buling, Taoqi, and Youhu.",
-      "coverImgSrc": "/event/banner-horizon-of-danbreak-chisa-banner.webp",
-      "color": "#BB181D",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
+      "name": "When the Runes Glitter - Sigrika Banner",
+      "description": "Featured 4-stars are; Youhu, Aalto, and Yangyang.",
+      "coverImgSrc": "/event/banner-when-the-runes-glitter-sigrika-banner.png",
+      "color": "#D96B25",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
       "group": null,
-      "startDate": "2026-09-30 10:00:00",
-      "endDate": "2026-10-22 09:59:59",
+      "startDate": "2026-11-12 10:00",
+      "endDate": "2026-12-03 09:59:59",
       "isCstStart": true,
       "banner": {
         "isBannerEvent": true,
@@ -32,59 +32,14 @@
       }
     },
     {
-      "name": "Moongazer's Sigil - Iuno Weapon Banner",
-      "description": "Featured 4-stars are; Fusion Accretion, Commando of Conviction, Dauntless Evernight.",
-      "coverImgSrc": "/event/banner-moongazer-s-sigil-iuno-weapon-banner.webp",
-      "color": "#262367",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
+      "name": "Bloom of Yesterday's Dreamsoil - Lily Banner",
+      "description": "Featured 4-stars are; Youhu, Aalto, and Yangyang.",
+      "coverImgSrc": "/event/banner-bloom-of-yesterday-s-dreamsoil-lily-banner.png",
+      "color": "#52389C",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
       "group": null,
-      "startDate": "2026-09-30 10:00:00",
-      "endDate": "2026-10-22 09:59:59",
-      "isCstStart": true,
-      "banner": {
-        "isBannerEvent": true,
-        "group": 6
-      }
-    },
-    {
-      "name": "Kumokiri - Chisa Weapon Banner",
-      "description": "Featured 4-stars are; Fusion Accretion, Commando of Conviction, Dauntless Evernight.",
-      "coverImgSrc": "/event/banner-kumokiri-chisa-weapon-banner.webp",
-      "color": "#8A0B45",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": null,
-      "startDate": "2026-09-30 10:00:00",
-      "endDate": "2026-10-22 09:59:59",
-      "isCstStart": true,
-      "banner": {
-        "isBannerEvent": true,
-        "group": 4
-      }
-    },
-    {
-      "name": "Blooming Jadehaven - Hsin Weapon Banner",
-      "description": "Featured 4-stars are; Fusion Accretion, Commando of Conviction, Dauntless Evernight.",
-      "coverImgSrc": "/event/banner-blooming-jadehaven-hsin-weapon-banner.webp",
-      "color": "#D54652",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": null,
-      "startDate": "2026-09-30 10:00:00",
-      "endDate": "2026-10-22 09:59:59",
-      "isCstStart": true,
-      "banner": {
-        "isBannerEvent": true,
-        "group": 2
-      }
-    },
-    {
-      "name": "As Full as Tonight, Forever - Hsin Banner",
-      "description": "Featured 4-stars are; Buling, Taoqi, and Youhu.",
-      "coverImgSrc": "/event/banner-as-full-as-tonight-forever-hsin-banner.webp",
-      "color": "#F3512C",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": null,
-      "startDate": "2026-09-30 10:00:00",
-      "endDate": "2026-10-22 09:59:59",
+      "startDate": "2026-11-12 10:00",
+      "endDate": "2026-12-03 09:59:59",
       "isCstStart": true,
       "banner": {
         "isBannerEvent": true,
@@ -92,14 +47,59 @@
       }
     },
     {
-      "name": "Spectrum Blaster - Lynae Weapon Banner",
-      "description": "Featured 4-stars are; Overture, Relativistic Jet, Amity Accord.",
-      "coverImgSrc": "/event/banner-spectrum-blaster-lynae-weapon-banner.webp",
-      "color": "#419D9B",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
+      "name": "Emerald Sentence - Qiuyuan Weapon Banner",
+      "description": "Featured 4-stars are; Cadenza, Celestial Spiral, Comet Flare.",
+      "coverImgSrc": "/event/banner-emerald-sentence-qiuyuan-weapon-banner.png",
+      "color": "#19A698",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
       "group": null,
-      "startDate": "2026-10-22 10:00:00",
-      "endDate": "2026-11-11 11:59:59",
+      "startDate": "2026-11-12 10:00:00",
+      "endDate": "2026-12-03 09:59:59",
+      "isCstStart": true,
+      "banner": {
+        "isBannerEvent": true,
+        "group": 6
+      }
+    },
+    {
+      "name": "Solsworn Ciphers - Sigrika Weapon Banner",
+      "description": "Featured 4-stars are; Cadenza, Celestial Spiral, Comet Flare.",
+      "coverImgSrc": "/event/banner-solsworn-ciphers-sigrika-weapon-banner.png",
+      "color": "#8385F6",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
+      "group": null,
+      "startDate": "2026-11-12 10:00:00",
+      "endDate": "2026-12-03 09:59:59",
+      "isCstStart": true,
+      "banner": {
+        "isBannerEvent": true,
+        "group": 4
+      }
+    },
+    {
+      "name": "Lullaby - Lily Weapon Banner",
+      "description": "Featured 4-stars are; Cadenza, Celestial Spiral, Comet Flare.",
+      "coverImgSrc": "/event/banner-lullaby-lily-weapon-banner.png",
+      "color": "#31233B",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
+      "group": null,
+      "startDate": "2026-11-12 10:00:00",
+      "endDate": "2026-12-03 09:59:59",
+      "isCstStart": true,
+      "banner": {
+        "isBannerEvent": true,
+        "group": 2
+      }
+    },
+    {
+      "name": "Frostburn - Hiyuki Weapon Banner",
+      "description": "Featured 4-stars are; Commando of Conviction, Variation, and Hollow Mirage.",
+      "coverImgSrc": "/event/banner-frostburn-hiyuki-weapon-banner.png",
+      "color": "#C12134",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
+      "group": null,
+      "startDate": "2026-12-03 10:00",
+      "endDate": "2026-12-21 11:59:59",
       "isCstStart": false,
       "banner": {
         "isBannerEvent": true,
@@ -107,14 +107,14 @@
       }
     },
     {
-      "name": "Freeze Frame - Lucilla Weapon Banner",
-      "description": "Featured 4-stars are; Overture, Relativistic Jet, Amity Accord.",
-      "coverImgSrc": "/event/banner-freeze-frame-lucilla-weapon-banner.webp",
-      "color": "#1143EE",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
+      "name": "Azure Oath - Suisui Weapon Banner",
+      "description": "Featured 4-stars are; Commando of Conviction, Variation, and Hollow Mirage.",
+      "coverImgSrc": "/event/banner-azure-oath-suisui-weapon-banner.png",
+      "color": "#90B081",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
       "group": null,
-      "startDate": "2026-10-22 10:00:00",
-      "endDate": "2026-11-11 11:59:59",
+      "startDate": "2026-12-03 10:00",
+      "endDate": "2026-12-21 11:59:59",
       "isCstStart": false,
       "banner": {
         "isBannerEvent": true,
@@ -122,29 +122,14 @@
       }
     },
     {
-      "name": "Unspoken Rue - Suoming Weapon Banner",
-      "description": "Featured 4-stars are; Overture, Relativistic Jet, Amity Accord.",
-      "coverImgSrc": "/event/banner-unspoken-rue-suoming-weapon-banner.webp",
-      "color": "#EC5A66",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
+      "name": "Thousand Futures Mirrored in Snow - Hiyuki Banner",
+      "description": "Featured 4-stars are; Danjin, Baizhi, and Yuanwu.",
+      "coverImgSrc": "/event/banner-thousand-futures-mirrored-in-snow-hiyuki-banner.png",
+      "color": "#3C5198",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
       "group": null,
-      "startDate": "2026-10-22 10:00:00",
-      "endDate": "2026-11-11 11:59:59",
-      "isCstStart": false,
-      "banner": {
-        "isBannerEvent": true,
-        "group": 2
-      }
-    },
-    {
-      "name": "Undefined Spectrum - Lynae Banner",
-      "description": "Featured 4-stars are; Lumi, Danjin, and Chixia.",
-      "coverImgSrc": "/event/banner-undefined-spectrum-lynae-banner.webp",
-      "color": "#AA9D88",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": null,
-      "startDate": "2026-10-22 10:00:00",
-      "endDate": "2026-11-11 11:59:59",
+      "startDate": "2026-12-03 10:00",
+      "endDate": "2026-12-21 11:59:59",
       "isCstStart": false,
       "banner": {
         "isBannerEvent": true,
@@ -152,14 +137,14 @@
       }
     },
     {
-      "name": "Tomorrow in the Frame - Lucilla Banner",
-      "description": "Featured 4-stars are; Lumi, Danjin, and Chixia.",
-      "coverImgSrc": "/event/banner-tomorrow-in-the-frame-lucilla-banner.webp",
-      "color": "#434B87",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
+      "name": "Blessings From Dewy Winds - Suisui Banner",
+      "description": "Featured 4-stars are; Danjin, Baizhi, and Yuanwu.",
+      "coverImgSrc": "/event/banner-blessings-from-dewy-winds-suisui-banner.png",
+      "color": "#A48D73",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
       "group": null,
-      "startDate": "2026-10-22 10:00:00",
-      "endDate": "2026-11-11 11:59:59",
+      "startDate": "2026-12-03 10:00",
+      "endDate": "2026-12-21 11:59:59",
       "isCstStart": false,
       "banner": {
         "isBannerEvent": true,
@@ -167,14 +152,29 @@
       }
     },
     {
-      "name": "Nine Deaths, One Unbent Heart - Suoming Banner",
-      "description": "Featured 4-stars are; Lumi, Danjin, and Chixia.",
-      "coverImgSrc": "/event/banner-nine-deaths-one-unbent-heart-suoming-banner.webp",
-      "color": "#591016",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
+      "name": "Azure Oath - Yangyang: Xuanling Weapon Banner",
+      "description": "Featured 4-stars are; Commando of Conviction, Variation, and Hollow Mirage.",
+      "coverImgSrc": "/event/banner-azure-oath-yangyang-xuanling-weapon-banner.png",
+      "color": "#16A4F8",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
       "group": null,
-      "startDate": "2026-10-22 10:00:00",
-      "endDate": "2026-11-11 11:59:59",
+      "startDate": "2026-12-03 10:00",
+      "endDate": "2026-12-21 11:59:59",
+      "isCstStart": false,
+      "banner": {
+        "isBannerEvent": true,
+        "group": 2
+      }
+    },
+    {
+      "name": "Voices on Azure Feathers - Yangyang: Xuanling Banner",
+      "description": "Featured 4-stars are; Danjin, Baizhi, and Yuanwu.",
+      "coverImgSrc": "/event/banner-voices-on-azure-feathers-yangyang-xuanling-banner.png",
+      "color": "#3E5EB0",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
+      "group": null,
+      "startDate": "2026-12-03 10:00",
+      "endDate": "2026-12-21 11:59:59",
       "isCstStart": false,
       "banner": {
         "isBannerEvent": true,
@@ -184,189 +184,9 @@
   ],
   "activities": [
     {
-      "name": "Back to Solaris Web Event",
-      "description": "Share your invitation code with up to 3 Returning Players in your server, complete in-game tasks to obtain Fox Fortune Sticks, and exchange them for rewards. Returning Rovers can link their accounts with the Player of their choice by using their corresponding invitation code. This can be done once. After linking, Returning Players are eligible to claim a reward.",
-      "coverImgSrc": "/event/activity-back-to-solaris-web-event.webp",
-      "color": "#4B6AA7",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": null,
-      "startDate": "2026-09-30 10:00",
-      "endDate": "2026-11-11 23:59:59",
-      "isCstStart": true,
-      "banner": {
-        "isBannerEvent": false,
-        "group": 1
-      }
-    },
-    {
-      "name": "Dreams in the Capsule Area Exploration Event",
-      "description": "The event consists of 4 phases, unlocked in sequence as you progress through the Main Quest. In each phase, you complete event tasks, including puzzle solving, combat, and item collecting, to unlock and obtain rewards based on the number of CSC Cipherlocks obtained.",
-      "coverImgSrc": "/event/activity-dreams-in-the-capsule-area-exploration-event.webp",
-      "color": "#27606B",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": null,
-      "startDate": "2026-09-30 10:00",
-      "endDate": "2026-11-11 03:59:59",
-      "isCstStart": true,
-      "banner": {
-        "isBannerEvent": false,
-        "group": 1
-      }
-    },
-    {
-      "name": "Gifts of Waking Moon 7-Day Login Event",
-      "description": "During the event, log in to claim the day's login rewards.",
-      "coverImgSrc": "/event/activity-gifts-of-waking-moon-7-day-login-event.webp",
-      "color": "#B08A2C",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": 7,
-      "startDate": "2026-09-30 10:00",
-      "endDate": "2026-11-11 03:59:59",
-      "isCstStart": true,
-      "banner": {
-        "isBannerEvent": false,
-        "group": 1
-      }
-    },
-    {
-      "name": "Cubie Wars Leisure Event",
-      "description": "You can unlock various Cubie Warriors by progressing through stages and challenging different foes. During the event, complete Adventure Goals to win Stage Badges. When the total number of Stage Badges reaches specific milestones, more rewards will unlock. Clear stages to win Show Coins, which can be used to redeem various rewards at the Backstage Store.",
-      "coverImgSrc": "/event/activity-cubie-wars-leisure-event.webp",
-      "color": "#9C6E3C",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": null,
-      "startDate": "2026-09-30 10:00",
-      "endDate": "2026-11-12 03:59:59",
-      "isCstStart": true,
-      "banner": {
-        "isBannerEvent": false,
-        "group": 1
-      }
-    },
-    {
-      "name": "Pioneer Podcast",
-      "description": "During Pioneer Podcast, you can obtain Podcast EXP by completing Podcast Tasks to increase the Podcast Level and win various rewards.",
-      "coverImgSrc": "/event/activity-pioneer-podcast.webp",
-      "color": "#E7905B",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": 8,
-      "startDate": "2026-09-30 10:00",
-      "endDate": "2026-11-12 03:59:59",
-      "isCstStart": true,
-      "banner": {
-        "isBannerEvent": false,
-        "group": 1
-      }
-    },
-    {
-      "name": "Endstate Matrix",
-      "description": "In Endstate Matrix, deploy Resonators and select a Power Circuit before starting a high-difficulty challenge. Endstate Matrix progresses through Challenge Cycles. Each Challenge Cycle spans across multiple Challenge Phases, which reset with version updates. Rewards are offered independently for Challenge Cycles and Challenge Phases.",
-      "coverImgSrc": "/event/activity-endstate-matrix.webp",
-      "color": "#5C639F",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5023",
-      "group": 1,
-      "startDate": "2026-10-07 10:00:00",
-      "endDate": "2026-11-11 13:59:59",
-      "isCstStart": true,
-      "banner": {
-        "isBannerEvent": false,
-        "group": 1
-      }
-    },
-    {
-      "name": "Artisan's Search Featured Combat Event",
-      "description": "During the event, you will enter a special Sonoro Sphere to battle waves of enemies within a set time limit, with the aid of unique buffs. You collect Coins by dealing damage to enemies, and lose Coins when taking damage. Advancing through enemy waves unlocks more special buffs to give you the support you need. Clearing a wave grants bonus time. The Coins you have collected by the end of the countdown will be your Coins record for this stage.",
-      "coverImgSrc": "/event/activity-artisan-s-search-featured-combat-event.webp",
-      "color": "#2D3E47",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": null,
-      "startDate": "2026-10-08 04:00",
-      "endDate": "2026-11-26 03:59:59",
-      "isCstStart": false,
-      "banner": {
-        "isBannerEvent": false,
-        "group": 1
-      }
-    },
-    {
-      "name": "Tower of Adversity: Hazard Revisited",
-      "description": "$undefined",
-      "coverImgSrc": "/event/activity-tower-of-adversity-hazard-revisited.webp",
-      "color": "#18235f",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/3128",
-      "group": 2,
-      "startDate": "2026-10-12 04:00",
-      "endDate": "2026-11-09 03:59",
-      "isCstStart": false,
-      "banner": {
-        "isBannerEvent": false,
-        "group": 1
-      }
-    },
-    {
-      "name": "[Bountiful Crescendo] Limited-Time Material Double Drop Event",
-      "description": "Spend Waveplates to claim double rewards after completing a Simulation or Forgery Challenge.",
-      "coverImgSrc": "/event/activity-bountiful-crescendo-limited-time-material-double-drop-event.webp",
-      "color": "#0e1419",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": 6,
-      "startDate": "2026-10-15 04:00",
-      "endDate": "2026-10-22 03:59",
-      "isCstStart": false,
-      "banner": {
-        "isBannerEvent": false,
-        "group": 1
-      }
-    },
-    {
-      "name": "Waking Moon Fishing Web Event",
-      "description": "During the event, you can challenge event stages and complete event tasks to earn Astrites, Shell Credits, Advanced Sealed Tubes, and other in-game item rewards.",
-      "coverImgSrc": "/event/activity-waking-moon-fishing-web-event.webp",
-      "color": "#642C18",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": null,
-      "startDate": "2026-10-15 10:00",
-      "endDate": "2026-11-01 09:59:59",
-      "isCstStart": false,
-      "banner": {
-        "isBannerEvent": false,
-        "group": 1
-      }
-    },
-    {
-      "name": "Echo Erase Leisure Event",
-      "description": "During the event, stages become available daily. Each stage has two difficulties: Easy and Hard. Complete the Easy difficulty to unlock the Hard challenge. Complete the goals of each stage to earn rewards.",
-      "coverImgSrc": "/event/activity-echo-erase-leisure-event.webp",
-      "color": "#D2533C",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": null,
-      "startDate": "2026-10-22 10:00",
-      "endDate": "2026-11-09 03:59:59",
-      "isCstStart": false,
-      "banner": {
-        "isBannerEvent": false,
-        "group": 1
-      }
-    },
-    {
-      "name": "Gifts of Singing Drizzle Limited-Time Login Event",
-      "description": "Once your total login days reach the requirement, the corresponding cumulative login reward will be ready to claim.",
-      "coverImgSrc": "/event/activity-gifts-of-singing-drizzle-limited-time-login-event.webp",
-      "color": "#416D3A",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": null,
-      "startDate": "2026-10-22 10:00",
-      "endDate": "2026-11-11 03:59:59",
-      "isCstStart": false,
-      "banner": {
-        "isBannerEvent": false,
-        "group": 1
-      }
-    },
-    {
       "name": "Whimpering Wastes",
       "description": "Assemble unique lineups and equip distinct Tokens to conquer challenging levels.",
-      "coverImgSrc": "/event/activity-whimpering-wastes.webp",
+      "coverImgSrc": "/event/activity-whimpering-wastes.jpg",
       "color": "#313042",
       "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/2094",
       "group": 4,
@@ -379,14 +199,14 @@
       }
     },
     {
-      "name": "Beyond the Waves: Land of Xuanfang Featured Exploration Event",
-      "description": "During the event, complete event tasks once per day to obtain a set number of Adventure Logs. Each Adventure Log can be exchanged for an Adventure Package. Adventure Packages contain special mechanics that, when triggered, unlock a large amount of rewards. There are 3 Inventories for the Adventure Packages. Once you collect all deliveries in an Inventory, the next Inventory will be unlocked.",
-      "coverImgSrc": "/event/activity-beyond-the-waves-land-of-xuanfang-featured-exploration-event.webp",
-      "color": "#BA743E",
-      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "group": null,
-      "startDate": "2026-10-29 04:00",
-      "endDate": "2026-11-11 03:59:59",
+      "name": "Tower of Adversity: Hazard Revisited",
+      "description": "$undefined",
+      "coverImgSrc": "/event/activity-tower-of-adversity-hazard-revisited.png",
+      "color": "#18235f",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/3128",
+      "group": 2,
+      "startDate": "2026-11-09 04:00",
+      "endDate": "2026-12-07 03:59",
       "isCstStart": false,
       "banner": {
         "isBannerEvent": false,
@@ -394,14 +214,149 @@
       }
     },
     {
-      "name": "[Chord Cleansing] Limited-Time Echo Double Drop Event",
-      "description": "Spend Waveplates to claim double rewards after completing a Tacet Suppression challenge.",
-      "coverImgSrc": "/event/activity-chord-cleansing-limited-time-echo-double-drop-event.webp",
-      "color": "#3c3222",
+      "name": "Pioneer Podcast",
+      "description": "During Pioneer Podcast, you can obtain Podcast EXP by completing Podcast Tasks to increase the Podcast Level and win various rewards.",
+      "coverImgSrc": "/event/activity-pioneer-podcast.png",
+      "color": "#6D528D",
       "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
+      "group": 8,
+      "startDate": "2026-11-12 10:00",
+      "endDate": "2026-12-21 11:59:59",
+      "isCstStart": true,
+      "banner": {
+        "isBannerEvent": false,
+        "group": 1
+      }
+    },
+    {
+      "name": "Gifts of Starpath",
+      "description": "Before the \"Gifts of Starpath\" event ends, Convene in the Reverb Resonator Convene to accumulate Convene attempts and unlock corresponding tier rewards.\n\nPlease note that your progress in the current \"Gifts of Starpath\" event is separate from your progress in the Version 3.5 \"Gifts of Starpath\" event.",
+      "coverImgSrc": "/event/activity-gifts-of-starpath.png",
+      "color": "#777657",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
+      "group": null,
+      "startDate": "2026-11-12 10:00:00",
+      "endDate": "2026-12-21 11:59:59",
+      "isCstStart": true,
+      "banner": {
+        "isBannerEvent": false,
+        "group": 1
+      }
+    },
+    {
+      "name": "Gifts of Bygone Dreams: 7-Day Login Event",
+      "description": "During the event, log in to claim the day's login rewards from the event page.",
+      "coverImgSrc": "/event/activity-gifts-of-bygone-dreams-7-day-login-event.png",
+      "color": "#7468E8",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
+      "group": 7,
+      "startDate": "2026-11-12 10:00:00",
+      "endDate": "2026-12-21 03:59:59",
+      "isCstStart": true,
+      "banner": {
+        "isBannerEvent": false,
+        "group": 1
+      }
+    },
+    {
+      "name": "Second Coming of Solaris: Unwritten Dreams Leisure Event",
+      "description": "Use Schedules to plan your weekly routine. Take classes, do extracurricular activities, and work part-time jobs to raise your stats and earn various rewards. Remember to schedule enough breaks to avoid getting overly fatigued.\n\nDifferent growth paths, experiences, and story choices all lead to different Story Endings and Companion Endings. Once you meet the required conditions, you can choose a \"future\" of your own.\n\nAfter reaching an ending, you can start your school life anew to try different choices, unlock more story branches, and experience other Story Endings.",
+      "coverImgSrc": "/event/activity-second-coming-of-solaris-unwritten-dreams-leisure-event.png",
+      "color": "#9C635C",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
+      "group": null,
+      "startDate": "2026-11-12 10:00:00",
+      "endDate": "2026-12-21 11:59:59",
+      "isCstStart": true,
+      "banner": {
+        "isBannerEvent": false,
+        "group": 1
+      }
+    },
+    {
+      "name": "Lahai-Roi Blocks; Turnabout Leisure Event",
+      "description": "Each stage has two difficulties: Normal and Hard. Finish the Normal difficulty to unlock the Hard challenge. Complete the goals of each stage to earn rewards.",
+      "coverImgSrc": "/event/activity-lahai-roi-blocks-turnabout-leisure-event.png",
+      "color": "#463079",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
+      "group": null,
+      "startDate": "2026-11-19 04:00:00",
+      "endDate": "2026-12-03 03:59:59",
+      "isCstStart": false,
+      "banner": {
+        "isBannerEvent": false,
+        "group": 1
+      }
+    },
+    {
+      "name": "Endstate Matrix",
+      "description": "In Endstate Matrix, deploy Resonators and select a Power Circuit before starting a high-difficulty challenge. Endstate Matrix progresses through Challenge Cycles. Each Challenge Cycle spans across multiple Challenge Phases, which reset with version updates. Rewards are offered independently for Challenge Cycles and Challenge Phases.",
+      "coverImgSrc": "/event/activity-endstate-matrix.png",
+      "color": "#4954BE",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5023",
+      "group": 1,
+      "startDate": "2026-11-19 10:00:00",
+      "endDate": "2026-12-21 11:59:59",
+      "isCstStart": true,
+      "banner": {
+        "isBannerEvent": false,
+        "group": 1
+      }
+    },
+    {
+      "name": "Whimpering Wastes",
+      "description": "Assemble unique lineups and equip distinct Tokens to conquer challenging levels.",
+      "coverImgSrc": "/event/activity-whimpering-wastes.jpg",
+      "color": "#313042",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/2094",
+      "group": 4,
+      "startDate": "2026-11-23 03:59:59",
+      "endDate": "2026-12-21 03:59:59",
+      "isCstStart": false,
+      "banner": {
+        "isBannerEvent": false,
+        "group": 1
+      }
+    },
+    {
+      "name": "[Bountiful Crescendo] Limited-Time Material Double Drop Event",
+      "description": "Spend Waveplates to claim double rewards after completing a Simulation or Forgery Challenge.",
+      "coverImgSrc": "/event/activity-bountiful-crescendo-limited-time-material-double-drop-event.png",
+      "color": "#0e1419",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
       "group": 6,
-      "startDate": "2026-11-04 04:00:00",
-      "endDate": "2026-11-11 03:59:59",
+      "startDate": "2026-11-26 04:00",
+      "endDate": "2026-12-03 03:59:59",
+      "isCstStart": false,
+      "banner": {
+        "isBannerEvent": false,
+        "group": 1
+      }
+    },
+    {
+      "name": "Lollo Campaign: Groundwork Featured Commission Event",
+      "description": "During the event, you can complete Lollo Campaigns once per day to obtain a set number of Lollo Stamps. Each Lollo Stamp can be exchanged for a Lollo Helper special delivery.",
+      "coverImgSrc": "/event/activity-lollo-campaign-groundwork-featured-commission-event.png",
+      "color": "#5F4B43",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
+      "group": null,
+      "startDate": "2026-12-03 10:00",
+      "endDate": "2026-12-17 03:59:59",
+      "isCstStart": false,
+      "banner": {
+        "isBannerEvent": false,
+        "group": 1
+      }
+    },
+    {
+      "name": "Dreamfield Odyssey Combat Event",
+      "description": "In the Dreamfield Odyssey event, you can select 1 Primary Resonator and 2 Secondary Resonators to take on a series of challenges. The event consists of multiple Marchstones, each containing several Nodes. At the start of each Marchstone, you can choose which Sediments to bring into battle.",
+      "coverImgSrc": "/event/activity-dreamfield-odyssey-combat-event.png",
+      "color": "#2C3136",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
+      "group": null,
+      "startDate": "2026-12-03 10:00:00",
+      "endDate": "2026-12-21 03:59:59",
       "isCstStart": false,
       "banner": {
         "isBannerEvent": false,
@@ -411,12 +366,42 @@
     {
       "name": "Tower of Adversity: Hazard Revisited",
       "description": "$undefined",
-      "coverImgSrc": "/event/activity-tower-of-adversity-hazard-revisited.webp",
+      "coverImgSrc": "/event/activity-tower-of-adversity-hazard-revisited.png",
       "color": "#18235f",
       "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/3128",
       "group": 2,
-      "startDate": "2026-11-09 04:00",
-      "endDate": "2026-12-07 03:59",
+      "startDate": "2026-12-07 04:00",
+      "endDate": "2027-01-04 03:59",
+      "isCstStart": false,
+      "banner": {
+        "isBannerEvent": false,
+        "group": 1
+      }
+    },
+    {
+      "name": "Whither the Wind: Limited Time Login Event",
+      "description": "After the event begins, log in to the game daily to claim your daily sign-in rewards.",
+      "coverImgSrc": "/event/activity-whither-the-wind-limited-time-login-event.png",
+      "color": "#0E48C7",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
+      "group": null,
+      "startDate": "2026-12-07 04:00:00",
+      "endDate": "2026-12-21 03:59:59",
+      "isCstStart": false,
+      "banner": {
+        "isBannerEvent": false,
+        "group": 1
+      }
+    },
+    {
+      "name": "[Chord Cleansing] Limited-Time Echo Double Drop Event",
+      "description": "Spend Waveplates to claim double rewards after completing a Tacet Suppression challenge.",
+      "coverImgSrc": "/event/activity-chord-cleansing-limited-time-echo-double-drop-event.png",
+      "color": "#3c3222",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5736",
+      "group": 6,
+      "startDate": "2026-12-14 04:00:00",
+      "endDate": "2026-12-21 03:59:59",
       "isCstStart": false,
       "banner": {
         "isBannerEvent": false,
